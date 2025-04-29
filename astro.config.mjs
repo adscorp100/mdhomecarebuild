@@ -8,6 +8,13 @@ export default defineConfig({
   output: 'static', // Explicitly set to static (default)
   compressHTML: true, // Minify HTML output
   integrations: [
-    sitemap(),
+    sitemap({
+      changefreq: 'weekly',
+      priority: 0.7,
+      lastmod: new Date(),
+      filter: (page) => 
+        // Exclude any pages you don't want in the sitemap
+        !page.includes('/private/'),
+    }),
   ],
 });

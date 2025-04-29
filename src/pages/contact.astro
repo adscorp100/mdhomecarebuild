@@ -6,58 +6,27 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <div class="container">
     <section class="contact-section">
       <h1>Contact Us</h1>
-      <p>
-        Have questions or want to get in touch? Fill out the form below
-        and we'll get back to you as soon as possible.
-      </p>
       
-      <div class="contact-container">
-        <form class="contact-form">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          
-          <div class="form-group">
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" required>
-          </div>
-          
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="6" required></textarea>
-          </div>
-          
-          <button type="submit" class="submit-button">Send Message</button>
-        </form>
+      <div class="intro-text">
+        <p>Providing compassionate, professional care to enhance your quality of life at home. We're here to listen and respond to your unique needs.</p>
+      </div>
+      
+      <div class="contact-content">
+        <div class="contact-cta">
+          <h2>Speak With Our Care Team</h2>
+          <p>Have questions about our services or need personalized support? Our team is ready to help you navigate your care options.</p>
+          <a href="tel:+61405429512" class="primary-cta">Call +61 405 429 512</a>
+        </div>
         
-        <div class="contact-info">
-          <div class="info-item">
-            <h3>Email</h3>
-            <p>hello@example.com</p>
-          </div>
-          
-          <div class="info-item">
-            <h3>Phone</h3>
-            <p>+1 (555) 123-4567</p>
-          </div>
-          
-          <div class="info-item">
-            <h3>Address</h3>
-            <p>123 Main Street<br>City, State 12345<br>United States</p>
-          </div>
-          
-          <div class="social-links">
-            <a href="#" aria-label="Twitter">Twitter</a>
-            <a href="#" aria-label="Facebook">Facebook</a>
-            <a href="#" aria-label="Instagram">Instagram</a>
-            <a href="#" aria-label="LinkedIn">LinkedIn</a>
-          </div>
+        <div class="form-container">
+          <h2>Send Us a Message</h2>
+          <p>Complete the form below, and we'll respond promptly to discuss how we can best support your home care journey.</p>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSezT6XKZq1kDIJa1G3k2HDgur_E7gMhZ2JdAjy5ermn8wvRyA/viewform?embedded=true" 
+            frameborder="0" 
+            marginheight="0" 
+            marginwidth="0">
+            Loading…
+          </iframe>
         </div>
       </div>
     </section>
@@ -66,81 +35,131 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 <style>
   .contact-section {
-    padding: 2rem 0;
-    max-width: 1000px;
+    padding: 3rem 0;
+    max-width: 900px;
     margin: 0 auto;
   }
   
-  .contact-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    margin-top: 2rem;
+  h1 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 2.2rem;
   }
   
-  .contact-form {
+  .intro-text {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+  }
+  
+  .intro-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--light-text, #555);
+  }
+  
+  .contact-content {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 3.5rem;
   }
   
-  .form-group {
+  .contact-cta {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--background-accent, #f7f9fc);
+    border-radius: 8px;
   }
   
-  label {
-    font-weight: 600;
-  }
-  
-  input, textarea {
-    padding: 0.75rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-family: inherit;
-  }
-  
-  .submit-button {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 1rem;
-  }
-  
-  .submit-button:hover {
-    background-color: var(--secondary-color);
-  }
-  
-  .contact-info {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  
-  .info-item h3 {
+  .contact-cta h2, .form-container h2 {
+    font-size: 1.5rem;
     margin: 0 0 0.5rem;
   }
   
-  .info-item p {
-    margin: 0;
-    color: var(--light-text);
+  .contact-cta p {
+    font-size: 1.1rem;
+    margin: 0 0 1rem;
+    max-width: 550px;
   }
   
-  .social-links {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
+  .primary-cta {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  
+  .primary-cta:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .form-container {
+    width: 100%;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-container p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 650px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
   }
   
   @media (max-width: 768px) {
-    .contact-container {
-      grid-template-columns: 1fr;
+    .contact-section {
+      padding: 2rem 1rem;
+    }
+    
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    
+    .intro-text p {
+      font-size: 1.1rem;
+    }
+    
+    .contact-cta, .form-container {
+      padding: 1.5rem;
+    }
+    
+    .contact-cta h2, .form-container h2 {
+      font-size: 1.3rem;
+    }
+    
+    .contact-cta p, .form-container p {
+      font-size: 1rem;
+    }
+    
+    .primary-cta {
+      font-size: 1.1rem;
+      padding: 0.6rem 1.2rem;
+    }
+    
+    iframe {
+      height: 580px;
     }
   }
 </style>
