@@ -14,7 +14,7 @@ const {
 } = Astro.props;
 
 // Get the base URL for assets
-const baseUrl = "/";
+const baseUrl = "";
 
 // Import the logo directly from the src/assets directory
 // Removed unused imports
@@ -45,10 +45,10 @@ const baseUrl = "/";
     <meta property="twitter:image" content={image}>
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href={`${baseUrl}favicon.svg`}>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     
     <!-- Styles -->
-    <link rel="stylesheet" href={`${baseUrl}styles/global.css`}>
+    <link rel="stylesheet" href="/styles/global.css">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,8 +59,8 @@ const baseUrl = "/";
     <header class="site-header">
       <!-- Logo Area -->
       <div class="header-content">
-        <a href={baseUrl} class="site-logo">
-          <img src={`${baseUrl}assets/logo.svg`} alt="MD Homecare Logo">
+        <a href="/" class="site-logo">
+          <img src="/assets/logo.svg" alt="MD Homecare Logo">
           <div class="site-title">
             <span class="site-name">MD Homecare</span>
             <span class="site-tagline">Empowering Independence</span>
@@ -79,10 +79,10 @@ const baseUrl = "/";
       
       <!-- Desktop Navigation -->
       <nav class="desktop-nav">
-        <a href={baseUrl}>Home</a>
-        <a href={`${baseUrl}/services`}>Services</a>
-        <a href={`${baseUrl}/blog`}>Blog</a>
-        <a href={`${baseUrl}/contact`}>Contact</a>
+        <a href="/">Home</a>
+        <a href="/services">Services</a>
+        <a href="/blog">Blog</a>
+        <a href="/contact">Contact</a>
         <a href="tel:+61405429512" class="phone-link">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
           +61 405 429 512
@@ -97,10 +97,10 @@ const baseUrl = "/";
           </button>
         </div>
         <nav class="drawer-links">
-          <a href={baseUrl}>Home</a>
-          <a href={`${baseUrl}/services`}>Services</a>
-          <a href={`${baseUrl}/blog`}>Blog</a>
-          <a href={`${baseUrl}/contact`}>Contact</a>
+          <a href="/">Home</a>
+          <a href="/services">Services</a>
+          <a href="/blog">Blog</a>
+          <a href="/contact">Contact</a>
           <a href="tel:+61405429512" class="drawer-phone-link">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
             Call Us: +61 405 429 512
@@ -117,7 +117,7 @@ const baseUrl = "/";
       <div class="footer-container">
         <div class="footer-top">
           <div class="footer-logo">
-            <img src={`${baseUrl}assets/logo.svg`} width="32" height="32" alt="MD Homecare Logo">
+            <img src="/assets/logo.svg" width="32" height="32" alt="MD Homecare Logo">
             <h3>MD Homecare</h3>
             <p>Providing compassionate and professional home care services to enhance the quality of life for our clients.</p>
           </div>
@@ -125,19 +125,19 @@ const baseUrl = "/";
             <div class="quick-links">
               <h4>Quick Links</h4>
               <ul>
-                <li><a href={baseUrl}>Home</a></li>
-                <li><a href={`${baseUrl}/services`}>Services</a></li>
-                <li><a href={`${baseUrl}/blog`}>Blog</a></li>
-                <li><a href={`${baseUrl}/contact`}>Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/contact">Contact</a></li>
               </ul>
             </div>
             <div class="tools-links">
               <h4>Services</h4>
               <ul>
-                <li><a href={`${baseUrl}/services/disability-services`}>Disability Services</a></li>
-                <li><a href={`${baseUrl}/services/personal-care`}>Personal Care</a></li>
-                <li><a href={`${baseUrl}/services/clinical-care`}>Clinical Care</a></li>
-                <li><a href={`${baseUrl}/services`}>All Services</a></li>
+                <li><a href="/services/disability-services">Disability Services</a></li>
+                <li><a href="/services/personal-care">Personal Care</a></li>
+                <li><a href="/services/clinical-care">Clinical Care</a></li>
+                <li><a href="/services">All Services</a></li>
               </ul>
             </div>
           </div>
@@ -149,7 +149,7 @@ const baseUrl = "/";
                 +61 405 429 512
               </a>
             </p>
-            <a href={`${baseUrl}/contact`} class="contact-button">Get in Touch</a>
+            <a href="/contact" class="contact-button">Get in Touch</a>
           </div>
         </div>
         <div class="footer-bottom">
