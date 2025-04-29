@@ -57,7 +57,7 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
               <div class="services-grid">
                 {servicesByCategory[category].map((service) => (
                   <article class="service-card">
-                    <a href={`/mdhomecarebuild/services/${service.slug}`} class="card-link">
+                    <a href={`/services/${service.slug}`} class="card-link">
                       {service.data.image && (
                         <div class="card-image">
                           <img src={service.data.image} alt={service.data.title.replace('{suburb}', 'Your Area')} />

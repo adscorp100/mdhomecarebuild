@@ -20,7 +20,7 @@ const sortedPosts = allPosts.sort(
       <div class="blog-grid">
         {sortedPosts.map((post) => (
           <article class="blog-card">
-            <a href={`/mdhomecarebuild/blog/${post.slug}`} class="card-link">
+            <a href={`/blog/${post.slug}`} class="card-link">
               {post.data.image && (
                 <div class="card-image">
                   <img src={post.data.image} alt={post.data.title} />
