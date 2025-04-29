@@ -400,8 +400,28 @@ const description = service.data.description.replace('{suburb}', suburbName);
 document.addEventListener('DOMContentLoaded', () => {
   const contentContainer = document.getElementById('content-container');
   if (contentContainer) {
-    // Replace all {suburb} texts in the rendered content with the actual suburb name
-    contentContainer.innerHTML = contentContainer.innerHTML.replace(/{suburb}/g, suburbName);
+    // Replace text in the content container and all its child nodes
+    const replaceText = (element, find, replace) => {
+      // Skip certain elements like script and style tags
+      if (element.tagName === 'SCRIPT' || element.tagName === 'STYLE') return;
+
+      // Handle text nodes
+      if (element.nodeType === Node.TEXT_NODE) {
+        const newText = element.textContent.replace(new RegExp(find, 'g'), replace);
+        if (element.textContent !== newText) {
+          element.textContent = newText;
+        }
+        return;
+      }
+
+      // Recursively process child nodes
+      for (const child of element.childNodes) {
+        replaceText(child, find, replace);
+      }
+    };
+
+    // Run the replacement on the content container
+    replaceText(contentContainer, '{suburb}', suburbName);
   }
 });
 </script>

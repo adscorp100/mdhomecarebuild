@@ -315,9 +315,9 @@ Object.keys(suburbsByState).forEach(state => {
 // Sort states
 const sortedStates = Object.keys(suburbsByState).sort();
 
-// Create a generic title and description with 'Your Area' instead of {suburb}
-const genericTitle = entry.data.title.replace('{suburb}', 'Your Area');
-const genericDescription = entry.data.description.replace('{suburb}', 'your area');
+// Create a generic title and description with 'Australia' instead of {suburb}
+const genericTitle = entry.data.title.replace('{suburb}', 'Australia');
+const genericDescription = entry.data.description.replace('{suburb}', 'Australia');
 ---
 
 <BaseLayout 
@@ -353,7 +353,7 @@ const genericDescription = entry.data.description.replace('{suburb}', 'your area
         )}
         
         <div class="service-body">
-          <!-- We'll replace {suburb} placeholders with "Your Area" in the client -->
+          <!-- We'll replace {suburb} placeholders with "Australia" in the client -->
           <div id="content-container">
             <Content />
           </div>
@@ -393,8 +393,8 @@ const genericDescription = entry.data.description.replace('{suburb}', 'your area
           <div class="related-grid">
             {relatedServices.map((service) => (
               <div class="related-card">
-                <h3>{service.data.title.replace('{suburb}', 'Your Area')}</h3>
-                <p>{service.data.description.replace('{suburb}', 'your area')}</p>
+                <h3>{service.data.title.replace('{suburb}', 'Australia')}</h3>
+                <p>{service.data.description.replace('{suburb}', 'Australia')}</p>
                 <a href={`/services/${service.slug}`}>Learn More →</a>
               </div>
             ))}
@@ -419,10 +419,31 @@ const genericDescription = entry.data.description.replace('{suburb}', 'your area
 <script>
 // Suburb search functionality
 document.addEventListener('DOMContentLoaded', () => {
-  // Replace all {suburb} with "Your Area" in the content
+  // Replace all {suburb} with "Australia" in the content
   const contentContainer = document.getElementById('content-container');
   if (contentContainer) {
-    contentContainer.innerHTML = contentContainer.innerHTML.replace(/{suburb}/g, 'Your Area');
+    // Replace text in the content container and all its child nodes
+    const replaceText = (element, find, replace) => {
+      // Skip certain elements like script and style tags
+      if (element.tagName === 'SCRIPT' || element.tagName === 'STYLE') return;
+
+      // Handle text nodes
+      if (element.nodeType === Node.TEXT_NODE) {
+        const newText = element.textContent.replace(new RegExp(find, 'g'), replace);
+        if (element.textContent !== newText) {
+          element.textContent = newText;
+        }
+        return;
+      }
+
+      // Recursively process child nodes
+      for (const child of element.childNodes) {
+        replaceText(child, find, replace);
+      }
+    };
+
+    // Run the replacement on the content container
+    replaceText(contentContainer, '{suburb}', 'Australia');
   }
   
   const searchInput = document.getElementById('suburb-search');

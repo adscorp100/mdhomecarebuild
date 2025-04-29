@@ -65,12 +65,12 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
                     <a href={`/services/${service.slug}`} class="card-link">
                       {service.data.image && (
                         <div class="card-image">
-                          <img src={service.data.image} alt={service.data.title.replace('{suburb}', 'Your Area')} />
+                          <img src={service.data.image} alt={service.data.title.replace('{suburb}', 'Australia')} />
                         </div>
                       )}
                       <div class="card-content">
-                        <h3>{service.data.title.replace('{suburb}', 'Your Area')}</h3>
-                        <p class="service-description">{service.data.description.replace('{suburb}', 'your area')}</p>
+                        <h3>{service.data.title.replace('{suburb}', 'Australia')}</h3>
+                        <p class="service-description">{service.data.description.replace('{suburb}', 'Australia')}</p>
                         <span class="read-more">View details</span>
                       </div>
                     </a>
