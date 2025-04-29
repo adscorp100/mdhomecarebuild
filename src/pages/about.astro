@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About | My Static Site">
+  <div class="container">
+    <section class="about-section">
+      <h1>About Us</h1>
+      <p>
+        Welcome to our static site built with Astro. We are passionate about creating
+        high-performance websites that deliver exceptional user experiences.
+      </p>
+      
+      <h2>Our Mission</h2>
+      <p>
+        Our mission is to provide fast, accessible, and beautiful websites that
+        help businesses and individuals achieve their goals online.
+      </p>
+      
+      <h2>Our Team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="member-avatar"></div>
+          <h3>Jane Doe</h3>
+          <p>Founder & Developer</p>
+        </div>
+        <div class="team-member">
+          <div class="member-avatar"></div>
+          <h3>John Smith</h3>
+          <p>Designer</p>
+        </div>
+        <div class="team-member">
+          <div class="member-avatar"></div>
+          <h3>Alice Johnson</h3>
+          <p>Content Strategist</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .about-section {
+    padding: 2rem 0;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .member-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--light-background);
+    margin: 0 auto 1rem;
+  }
+  
+  .team-member h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .team-member p {
+    color: var(--light-text);
+    margin: 0;
+  }
+</style> 

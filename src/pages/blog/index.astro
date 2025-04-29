@@ -1,0 +1,117 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Get all blog posts
+const allPosts = await getCollection('blog');
+
+// Sort posts by publication date
+const sortedPosts = allPosts.sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<BaseLayout title="Blog | My Static Site">
+  <div class="container">
+    <section class="blog-section">
+      <h1>Blog</h1>
+      <p>Stay updated with our latest news, tutorials, and insights.</p>
+      
+      <div class="blog-grid">
+        {sortedPosts.map((post) => (
+          <article class="blog-card">
+            <div class="card-content">
+              <div class="post-meta">
+                <span class="post-date">{post.data.pubDate.toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}</span>
+                <span class="post-author">by {post.data.author}</span>
+              </div>
+              <h2>{post.data.title}</h2>
+              <p class="post-description">{post.data.description}</p>
+              <div class="post-tags">
+                {post.data.tags.map((tag) => (
+                  <span class="tag">#{tag}</span>
+                ))}
+              </div>
+              <a href={`/blog/${post.slug}`} class="read-more">Read More →</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .blog-section {
+    padding: 2rem 0;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .blog-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .blog-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-content {
+    padding: 1.5rem;
+  }
+  
+  .post-meta {
+    display: flex;
+    justify-content: space-between;
+    color: var(--light-text);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .post-description {
+    margin: 1rem 0;
+    color: var(--light-text);
+  }
+  
+  .post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  
+  .tag {
+    background-color: var(--light-background);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  
+  @media (min-width: 768px) {
+    .blog-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style> 

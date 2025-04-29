@@ -1,0 +1,99 @@
+---
+interface Props {
+  title: string;
+  body: string;
+  href?: string;
+  imgSrc?: string;
+}
+
+const { href, title, body, imgSrc } = Astro.props;
+---
+
+<div class="card">
+  {imgSrc && <img src={imgSrc} alt={title} class="card-image" />}
+  <div class="card-content">
+    <h3>
+      {href ? <a href={href}>{title}</a> : title}
+    </h3>
+    <p>{body}</p>
+    {href && (
+      <div class="card-footer">
+        <a href={href} class="read-more">
+          Learn more <span>&rarr;</span>
+        </a>
+      </div>
+    )}
+  </div>
+</div>
+
+<style>
+  .card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-content {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h3 {
+    margin: 0 0 1rem;
+    font-size: 1.25rem;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0;
+    color: var(--light-text);
+    line-height: 1.6;
+  }
+
+  .card-footer {
+    margin-top: 1.5rem;
+    text-align: right;
+  }
+
+  .read-more {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+    color: var(--primary-color);
+    transition: color 0.2s ease;
+  }
+
+  .read-more:hover {
+    color: var(--accent-color);
+  }
+
+  .read-more span {
+    margin-left: 0.25rem;
+    transition: transform 0.2s ease;
+  }
+
+  .read-more:hover span {
+    transform: translateX(4px);
+  }
+</style> 

@@ -1,0 +1,124 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Home | My Static Site">
+	<div class="container">
+		<section class="hero">
+			<h1>Welcome to My Static Site</h1>
+			<p>A modern static site built with Astro for blazing fast performance.</p>
+			<div class="cta-buttons">
+				<a href="/about" class="primary-button">Learn More</a>
+				<a href="/contact" class="secondary-button">Get in Touch</a>
+			</div>
+		</section>
+
+		<section class="features">
+			<h2>Why Choose Astro?</h2>
+			<div class="feature-grid">
+				<div class="feature-card">
+					<h3>Lightning Fast</h3>
+					<p>Built for speed with zero JavaScript by default and optimized assets.</p>
+				</div>
+				<div class="feature-card">
+					<h3>Component-Based</h3>
+					<p>Use your favorite UI components from React, Vue, Svelte, and more.</p>
+				</div>
+				<div class="feature-card">
+					<h3>Content-Focused</h3>
+					<p>Perfect for content-rich websites, blogs, and documentation.</p>
+				</div>
+			</div>
+		</section>
+	</div>
+</BaseLayout>
+
+<style>
+	.hero {
+		text-align: center;
+		padding: 4rem 1rem;
+	}
+
+	.hero h1 {
+		margin-bottom: 1rem;
+	}
+
+	.cta-buttons {
+		display: flex;
+		justify-content: center;
+		gap: 1rem;
+		margin-top: 2rem;
+	}
+
+	.primary-button, .secondary-button {
+		display: inline-block;
+		padding: 0.75rem 1.5rem;
+		border-radius: 4px;
+		font-weight: 600;
+		transition: all 0.3s ease;
+	}
+
+	.primary-button {
+		background-color: var(--primary-color);
+		color: white;
+	}
+
+	.primary-button:hover {
+		background-color: var(--secondary-color);
+		color: white;
+		transform: translateY(-2px);
+	}
+
+	.secondary-button {
+		background-color: transparent;
+		color: var(--primary-color);
+		border: 2px solid var(--primary-color);
+	}
+
+	.secondary-button:hover {
+		border-color: var(--accent-color);
+		transform: translateY(-2px);
+	}
+
+	.features {
+		padding: 4rem 1rem;
+		background-color: var(--light-background);
+	}
+
+	.features h2 {
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+
+	.feature-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 2rem;
+	}
+
+	.feature-card {
+		background-color: var(--background);
+		border-radius: 8px;
+		padding: 2rem;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+	}
+
+	.feature-card:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+	}
+
+	@media (max-width: 768px) {
+		.cta-buttons {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.primary-button, .secondary-button {
+			width: 100%;
+			max-width: 250px;
+			text-align: center;
+		}
+	}
+</style>
