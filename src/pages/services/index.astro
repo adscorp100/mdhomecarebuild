@@ -30,6 +30,11 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
       <div class="services-header">
         <h1>Our Services</h1>
         <p>Explore our comprehensive range of care and support services designed to meet your individual needs.</p>
+        
+        <!-- Service Consultation CTA -->
+        <div class="service-cta">
+          <p>Need Help Choosing a Service? <a href="/contact" class="cta-button">Talk to Our Team</a></p>
+        </div>
       </div>
       
       <div class="services-layout">
@@ -100,6 +105,47 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
   
   .services-header p {
     color: var(--text-light);
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Service CTA styles */
+  .service-cta {
+    background-color: var(--light-background);
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem auto 0;
+    text-align: center;
+    max-width: 700px;
+  }
+  
+  .service-cta p {
+    margin: 0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .cta-button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
+  .cta-button:hover {
+    background-color: var(--primary-dark);
+  }
+  
+  .cta-content {
+    margin-bottom: 0;
   }
   
   .services-layout {
@@ -261,6 +307,14 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
   @media (max-width: 1023px) {
     .services-layout {
       display: block;
+    }
+    
+    .service-cta {
+      padding: 1rem;
+    }
+    
+    .service-cta p {
+      flex-direction: column;
     }
     
     .category-nav {

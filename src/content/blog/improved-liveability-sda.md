@@ -4,7 +4,7 @@ description: "Learn about Improved Liveability Specialist Disability Accommodati
 pubDate: 2025-03-10
 author: "MD Home Care"
 tags: []
-image: "https://cdn.prod.website-files.com/67ba898f18b9815458c46343/67baaea53fb2ef1c4aea73be_pexels-curtis-adams-3555615.webp"
+image: "/assets/accessible bathroom.webp"
 ---
 
 ## **Understanding Improved Liveability SDA**
