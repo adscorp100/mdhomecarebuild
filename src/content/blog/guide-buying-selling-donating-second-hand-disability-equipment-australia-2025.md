@@ -397,35 +397,3 @@ Crucially, safety cannot be compromised. Thorough pre-purchase inspections, veri
 Understanding the nuances of NDIS funding – particularly how plan management type affects purchasing options and the rigorous application of 'reasonable and necessary' criteria even for used items – is also vital for participants utilising the scheme.<sup>45</sup>
 
 Ultimately, accessing second-hand disability equipment can be a successful and empowering process when approached with diligence and awareness. By utilising the checklists, resources, and information provided in this guide, Australians can navigate the market more confidently, making informed choices that balance cost-effectiveness with the paramount importance of safety, suitability, and individual well-being. The final, and perhaps most critical, recommendation remains consistent: always consult with qualified healthcare professionals to ensure any assistive technology, new or used, is the right choice for your unique circumstances.
-
-## 10. Author Bio / Disclaimer / E-E-A-T Signals
-
-**(Author Bio Section - Placeholder: To be filled by the publishing organisation)**
-
-*Example: This guide was prepared by [Organisation Name/Author Name], a leading provider/expert in [relevant field, e.g., disability support services, assistive technology assessment] in Australia. With over [X] years of experience, we are committed to providing accurate, helpful information to empower individuals with disabilities and their support networks. Our team includes. Learn more about us [Link to About Us page].*
-
-**Date Published:** [Insert Date]
-**Last Updated:** April 2025 <sup>6</sup>
-
-**Key Sources & Further Reading:**
-
-*   National Disability Insurance Scheme (NDIS): [Insert NDIS Website Link]
-*   NDIS Quality and Safeguards Commission: [Insert Commission Website Link]
-*   Australian Competition & Consumer Commission (ACCC) - Consumer Rights: [Link to ACCC consumer rights page]
-*   Product Safety Australia: www.productsafety.gov.au <sup>5</sup>
-*   AT Australia (Assistive Technology Australia): [Insert AT Australia Website Link]
-*   eBility Classifieds: [Insert eBility Website Link] <sup>13</sup>
-
-**Disclaimer:**
-
-The information provided in this guide is intended for general informational purposes only and does not constitute medical, therapeutic, financial, or legal advice. While we strive to provide accurate and up-to-date information, the second-hand market and regulations can change.
-
-Purchasing and using disability equipment, especially second-hand items, involves potential risks. It is essential that individuals consult with qualified healthcare professionals, such as Occupational Therapists, Physiotherapists, or Doctors, to determine their specific needs and assess the suitability and safety of any equipment before purchase or use.<sup>5</sup> Individuals utilising NDIS funding should consult their NDIS planner, Local Area Coordinator, Support Coordinator, or Plan Manager for advice specific to their plan and circumstances.
-
-[Organisation Name] accepts no liability for any loss or damage arising from the use of, or reliance on, the information contained in this guide. Always exercise due diligence and prioritize safety when buying, selling, or using second-hand disability equipment.
-
-**(Technical Trust Signals - To be implemented site-wide)**
-
-*   Website uses HTTPS for secure connections.<sup>57</sup>
-*   Clear and accessible Contact Information page available.<sup>58</sup>
-*   Comprehensive Privacy Policy and Terms and Conditions pages easily accessible.<sup>58</sup> 
