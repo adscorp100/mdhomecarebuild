@@ -433,6 +433,13 @@ document.addEventListener('DOMContentLoaded', () => {
     color: #0277bd;
   }
   
+  .service-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text-light);
+    margin-bottom: 1rem;
+  }
+  
   .keyword-tags {
     display: flex;
     flex-wrap: wrap;
@@ -456,10 +463,88 @@ document.addEventListener('DOMContentLoaded', () => {
   .service-image img {
     width: 100%;
     border-radius: 8px;
+    max-height: 500px;
+    object-fit: cover;
   }
   
   .service-body {
     line-height: 1.8;
+  }
+
+  .service-body h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-color);
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+  
+  .service-body h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  .service-body h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  
+  .service-body p {
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+  }
+  
+  .service-body ul,
+  .service-body ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .service-body li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-body pre {
+    background-color: var(--light-background);
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  .service-body code {
+    font-family: monospace;
+  }
+
+  .service-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  .service-body th,
+  .service-body td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+  }
+
+  .service-body th {
+    background-color: var(--light-background);
+    font-weight: 600;
+  }
+
+  .service-body tr:nth-child(even) {
+    background-color: #f9f9f9;
   }
   
   .related-services {
@@ -479,6 +564,27 @@ document.addEventListener('DOMContentLoaded', () => {
     border: 1px solid #eee;
     border-radius: 8px;
     padding: 1.5rem;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+  
+  .related-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+  }
+  
+  .related-card h3 {
+    margin-bottom: 0.75rem;
+  }
+  
+  .related-card p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+  }
+  
+  .related-card a {
+    font-weight: 600;
+    display: inline-block;
+    color: var(--primary-color);
   }
   
   .service-footer {
@@ -494,7 +600,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   .contact-button {
     display: inline-block;
-    background-color: var(--primary-color, #0066cc);
+    background-color: var(--primary-color);
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 4px;
@@ -504,20 +610,18 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   .navigation {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
+    text-align: center;
   }
   
   .back-link {
     display: inline-block;
     font-weight: 600;
+    margin: 0 0.75rem;
   }
   
   @media (min-width: 768px) {
     .service-content {
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: 1fr;
     }
     
     .related-grid {

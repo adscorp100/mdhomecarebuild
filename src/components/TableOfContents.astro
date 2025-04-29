@@ -1,0 +1,212 @@
+---
+// TableOfContents.astro
+// This component generates a SEO-friendly table of contents that extracts headings 
+// from the rendered content and allows users to jump to specific sections
+
+export interface Props {
+  headings: {
+    depth: number;
+    slug: string;
+    text: string;
+  }[];
+}
+
+const { headings } = Astro.props;
+
+// Filter only h2 and h3 headings to keep the TOC clean
+const toc = headings.filter(heading => heading.depth === 2 || heading.depth === 3);
+---
+
+{toc.length > 0 && (
+  <div class="toc-container">
+    <div class="toc-header">
+      <h2>Table of Contents</h2>
+      <button class="toc-toggle" aria-label="Toggle table of contents">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </button>
+    </div>
+    <nav class="toc-nav">
+      <ol>
+        {toc.map((heading) => (
+          <li class={`toc-item toc-level-${heading.depth}`}>
+            <a href={`#${heading.slug}`}>
+              {heading.text}
+            </a>
+          </li>
+        ))}
+      </ol>
+    </nav>
+  </div>
+)}
+
+<script>
+  // Toggle TOC visibility on small screens
+  document.addEventListener('DOMContentLoaded', () => {
+    const tocToggle = document.querySelector('.toc-toggle');
+    const tocNav = document.querySelector('.toc-nav');
+    
+    if (tocToggle && tocNav) {
+      tocToggle.addEventListener('click', () => {
+        tocNav.classList.toggle('toc-open');
+        // Rotate arrow icon when toggled
+        tocToggle.classList.toggle('toc-toggle-open');
+      });
+    }
+
+    // Highlight current section on scroll
+    const tocLinks = document.querySelectorAll('.toc-item a');
+    const observerOptions = {
+      rootMargin: '-100px 0px -70% 0px',
+      threshold: 0
+    };
+
+    const headingObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        // Get the corresponding link in TOC
+        const id = entry.target.getAttribute('id');
+        const link = document.querySelector(`.toc-item a[href="#${id}"]`);
+        
+        if (link) {
+          if (entry.isIntersecting) {
+            // Remove active class from all links
+            tocLinks.forEach(l => l.classList.remove('active'));
+            // Add active class to current link
+            link.classList.add('active');
+          }
+        }
+      });
+    }, observerOptions);
+
+    // Observe all h2 and h3 elements
+    document.querySelectorAll('h2[id], h3[id]').forEach(heading => {
+      headingObserver.observe(heading);
+    });
+  });
+</script>
+
+<style>
+  .toc-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #eaecef;
+    margin: 1.5rem 0 2rem;
+    position: sticky;
+    top: 2rem;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+  }
+
+  .toc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #eaecef;
+  }
+
+  .toc-header h2 {
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  .toc-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-color);
+    padding: 0.25rem;
+    border-radius: 4px;
+    display: none;
+  }
+
+  .toc-toggle svg {
+    transition: transform 0.2s ease;
+  }
+
+  .toc-toggle-open svg {
+    transform: rotate(180deg);
+  }
+
+  .toc-nav {
+    padding: 1rem 0;
+  }
+
+  .toc-nav ol {
+    list-style: none;
+    padding: 0 1.5rem;
+    margin: 0;
+  }
+
+  .toc-item {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .toc-item a {
+    text-decoration: none;
+    color: var(--text-light);
+    display: block;
+    padding: 0.25rem 0;
+    transition: color 0.15s ease;
+    border-left: 2px solid transparent;
+    padding-left: 0.75rem;
+    margin-left: -0.75rem;
+    line-height: 1.4;
+  }
+
+  .toc-item a:hover {
+    color: var(--primary-dark);
+  }
+
+  .toc-item a.active {
+    color: var(--primary-dark);
+    border-left: 2px solid var(--primary-dark);
+    font-weight: 500;
+  }
+
+  .toc-level-2 {
+    font-weight: 500;
+  }
+
+  .toc-level-3 {
+    padding-left: 1rem;
+    font-size: 0.9rem;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .toc-container {
+      position: relative;
+      top: 0;
+      margin: 1rem 0 2rem;
+    }
+
+    .toc-toggle {
+      display: block;
+    }
+
+    .toc-nav {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      padding: 0;
+    }
+
+    .toc-nav.toc-open {
+      max-height: 500px;
+      padding: 1rem 0;
+    }
+  }
+
+  /* Print styles */
+  @media print {
+    .toc-container {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+  }
+</style> 

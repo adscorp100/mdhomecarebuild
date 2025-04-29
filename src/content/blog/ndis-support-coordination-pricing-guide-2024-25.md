@@ -1,13 +1,13 @@
 ---
 title: "NDIS Support Coordination Pricing Guide 2024-25"
-description: "No description provided"
+description: "Comprehensive breakdown of NDIS Support Coordination pricing for 2024-25, including rates for different support levels, remote services, and after-hours loading."
 pubDate: 2025-04-29
 author: "MD Home Care"
 tags: []
 image: "/mdhomecarebuild/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 
-# Understanding NDIS Support Coordination Pricing 2024-25
+## Understanding NDIS Support Coordination Pricing 2024-25
 
 Support Coordination is a crucial NDIS service that helps participants navigate and implement their NDIS plans effectively. This guide breaks down the latest pricing arrangements for Support Coordination services, effective from October 1, 2024.
 
