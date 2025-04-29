@@ -3,7 +3,7 @@ title: "{suburb} Respite Care Services"
 description: "Trusted {suburb} respite care services providing temporary relief for primary caregivers. Our professional {suburb} respite support workers offer high-quality care for your loved one while you take a well-deserved break."
 pubDate: 2025-02-15
 category: "Caregiver Support"
-image: "/mdhomecarebuild/assets/carer.webp"
+image: "/assets/carer.webp"
 
 ---
 

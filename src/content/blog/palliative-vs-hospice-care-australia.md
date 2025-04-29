@@ -4,7 +4,7 @@ description: "Learn the key differences between palliative care and hospice care
 pubDate: 2024-07-26
 author: "MD Home Care"
 tags: []
-image: "/mdhomecarebuild/assets/homecare.webp"
+image: "/assets/homecare.webp"
 ---
 
 ## Understanding Your Care Options: Palliative Care vs. Hospice Care in Australia

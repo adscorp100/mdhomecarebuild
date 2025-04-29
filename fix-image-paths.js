@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Base URL to prepend to image paths
-const BASE_URL = '/mdhomecarebuild';
+const BASE_URL = '';
 
 // Function to process a markdown file
 function processMarkdownFile(filePath) {

@@ -3,7 +3,7 @@ title: "Professional Therapy Services in {suburb}"
 description: "Comprehensive therapy services in {suburb} delivered by qualified professionals to support your physical, emotional, and developmental wellbeing through personalized treatment plans."
 pubDate: 2025-01-18
 category: "Health Services"
-image: "/mdhomecarebuild/assets/physio.webp"
+image: "/assets/physio.webp"
 
 ---
 

@@ -4,7 +4,7 @@ description: "Find the best NDIS providers Sydney offers with our complete guide
 pubDate: 2025-03-09
 author: "MD Home Care"
 tags: []
-image: "/mdhomecarebuild/assets/sydney.webp"
+image: "/assets/sydney.webp"
 ---
 
 ## Key Points About NDIS Providers Sydney

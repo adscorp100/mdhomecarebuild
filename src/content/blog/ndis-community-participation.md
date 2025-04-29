@@ -4,7 +4,7 @@ description: "No summary available"
 pubDate: 2025-03-06
 author: "MD Home Care"
 tags: []
-image: "/mdhomecarebuild/assets/downs.webp"
+image: "/assets/downs.webp"
 ---
 
 ## Key Points- Research suggests NDIS community participation enhances social connections and well-being for people with disabilities.

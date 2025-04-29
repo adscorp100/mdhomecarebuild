@@ -4,7 +4,7 @@ description: "A comprehensive guide to self-managing Home Care Packages in Austr
 pubDate: 2025-06-01
 author: "MD Home Care"
 tags: []
-image: "/mdhomecarebuild/assets/holdinglinen.webp"
+image: "/assets/holdinglinen.webp"
 ---
 
 The desire to remain living independently and comfortably in one's own home is a deeply held value for many older Australians. Recognising this, the Australian Government offers Home Care Packages (HCPs), a vital program providing funding for tailored care and support services to facilitate ageing in place. Within this framework, a significant shift towards Consumer Directed Care (CDC) has empowered individuals, offering them more say in how their support is delivered.

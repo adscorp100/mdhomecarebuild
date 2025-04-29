@@ -4,7 +4,7 @@ description: "Learn about Australia's Disability Support Pension (DSP) including
 pubDate: 2025-04-29
 author: "MD Home Care"
 tags: []
-image: "/mdhomecarebuild/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
+image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 
 The Disability Support Pension (DSP) is a crucial safety net for many Australians who are unable to work due to illness or injury. However, navigating the ins and outs of eligibility, payment rates, and ongoing requirements can feel complex.

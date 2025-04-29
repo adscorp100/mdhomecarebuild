@@ -3,7 +3,7 @@ title: "SIL Services in {suburb}"
 description: "Connect with trusted Supported Independent Living providers in {suburb} delivering specialized NDIS disability accommodation and support services."
 pubDate: 2025-03-06
 category: "Supported Living"
-image: "/mdhomecarebuild/assets/holdinglinen.webp"
+image: "/assets/holdinglinen.webp"
 
 ---
 

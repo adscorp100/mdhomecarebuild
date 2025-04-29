@@ -4,7 +4,7 @@ description: "Discover exact NDIS respite care rates and costs per day in 2024-2
 pubDate: 2025-03-06
 author: "MD Home Care"
 tags: []
-image: "/mdhomecarebuild/assets/respite care.webp"
+image: "/assets/respite care.webp"
 ---
 
 ## How Much Does Respite Care Cost Per Day: Key Points- The cost of respite care per day under NDIS varies based on factors like staff-to-participant ratio, day of the week, and location.

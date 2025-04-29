@@ -4,7 +4,7 @@ description: "Current pricing guide for NDIS Short-Term Accommodation (STA) and 
 pubDate: 2025-03-06
 author: "MD Home Care"
 tags: []
-image: "/mdhomecarebuild/assets/grandma.webp"
+image: "/assets/grandma.webp"
 ---
 
 ## What is NDIS Short-Term Accommodation and Respite Care?

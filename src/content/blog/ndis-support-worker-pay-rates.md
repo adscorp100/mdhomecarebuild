@@ -4,7 +4,7 @@ description: "Comprehensive guide to NDIS support worker pay rates 2024-2025, in
 pubDate: 2025-03-06
 author: "MD Home Care"
 tags: []
-image: "/mdhomecarebuild/assets/carer.webp"
+image: "/assets/carer.webp"
 ---
 
 ## NDIS Support Worker Pay Rates 2024: Key Points

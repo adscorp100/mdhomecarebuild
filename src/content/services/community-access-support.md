@@ -3,7 +3,7 @@ title: "Community Access Support in {suburb}"
 description: "Comprehensive community access support services in {suburb} designed to help individuals with disabilities fully participate in community life and develop meaningful social connections."
 pubDate: 2025-01-28
 category: "Disability Services"
-image: "/mdhomecarebuild/assets/sydney.webp"
+image: "/assets/sydney.webp"
 
 ---
 

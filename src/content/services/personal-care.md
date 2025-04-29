@@ -3,7 +3,7 @@ title: "Personal Care Services in {suburb}"
 description: "{suburb} Personal Care Services - Comprehensive support tailored to your individual needs. Our trained {suburb} support workers assist with daily activities, hygiene, medication management, and more to enhance your quality of life and independence."
 pubDate: 2025-01-10
 category: "Daily Living Support"
-image: "/mdhomecarebuild/assets/drinkingtea.webp"
+image: "/assets/drinkingtea.webp"
 
 ---
 

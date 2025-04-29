@@ -3,7 +3,7 @@ title: "Disability Support Services in {suburb}"
 description: "Comprehensive disability support services in {suburb} designed to enhance independence, foster community inclusion, and improve quality of life for individuals with disabilities."
 pubDate: 2025-02-02
 category: "Disability Services"
-image: "/mdhomecarebuild/assets/elderlyaboriginal.webp"
+image: "/assets/elderlyaboriginal.webp"
 
 ---
 

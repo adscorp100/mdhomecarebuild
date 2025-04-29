@@ -4,7 +4,7 @@ description: "No summary available"
 pubDate: 2025-03-09
 author: "MD Home Care"
 tags: []
-image: "/mdhomecarebuild/assets/Doing Dishes.webp"
+image: "/assets/Doing Dishes.webp"
 ---
 
 ## Key Points- The Support at Home program, starting July 1, 2025, replaces existing in-home aged care programs to help older Australians live independently longer.

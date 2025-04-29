@@ -3,7 +3,7 @@ title: "Clinical Care Services in {suburb}"
 description: "Professional clinical services and clinical nursing services delivered by qualified healthcare professionals across {suburb}. Comprehensive clinical care and health services tailored to individual needs in a caring environment."
 pubDate: 2025-04-18
 category: "Health Services"
-image: "/mdhomecarebuild/assets/clinic.webp"
+image: "/assets/clinic.webp"
 
 ---
 

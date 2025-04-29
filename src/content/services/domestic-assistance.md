@@ -3,7 +3,7 @@ title: "Domestic Assistance Services in {suburb}"
 description: "Professional domestic assistance services in {suburb} to help maintain a clean, safe, and comfortable home environment. Our trusted support workers provide personalized household help tailored to your specific needs."
 pubDate: 2025-01-26
 category: "Home Support"
-image: "/mdhomecarebuild/assets/makingbed.webp"
+image: "/assets/makingbed.webp"
 
 ---
 

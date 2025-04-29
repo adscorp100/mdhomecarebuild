@@ -367,7 +367,7 @@ const description = service.data.description.replace('{suburb}', suburbName);
               <div class="related-card">
                 <h3>{relatedService.data.title.replace('{suburb}', suburbName)}</h3>
                 <p>{relatedService.data.description.replace('{suburb}', suburbName)}</p>
-                <a href={`/mdhomecarebuild/services/${relatedService.slug}/${suburbInfo.slug}`}>Learn More →</a>
+                <a href={`/services/${relatedService.slug}/${suburbInfo.slug}`}>Learn More →</a>
               </div>
             ))}
           </div>
@@ -377,12 +377,12 @@ const description = service.data.description.replace('{suburb}', suburbName);
       <footer class="service-footer">
         <div class="cta-container">
           <h3>Want to know more about this service in {suburbName}?</h3>
-          <a href="/mdhomecarebuild/contact" class="contact-button">Contact Us</a>
+          <a href="/contact" class="contact-button">Contact Us</a>
         </div>
         
         <div class="navigation">
-          <a href="/mdhomecarebuild/services" class="back-link">← Back to Services</a>
-          <a href={`/mdhomecarebuild/services/${service.slug}`} class="back-link">← View All Locations</a>
+          <a href="/services" class="back-link">← Back to Services</a>
+          <a href={`/services/${service.slug}`} class="back-link">← View All Locations</a>
         </div>
       </footer>
     </article>

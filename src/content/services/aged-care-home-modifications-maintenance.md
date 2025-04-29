@@ -3,7 +3,7 @@ title: "Aged Care Home Modifications & Maintenance in {suburb}"
 description: "Specialized home modification and maintenance services for seniors in {suburb}, designed to enhance safety, accessibility, and independent living. Our experienced team creates tailored solutions to meet your specific needs."
 pubDate: 2025-01-26
 category: "Aged Care"
-image: "/mdhomecarebuild/assets/grandmawhite.webp"
+image: "/assets/grandmawhite.webp"
 
 ---
 

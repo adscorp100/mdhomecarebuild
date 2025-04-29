@@ -3,7 +3,7 @@ title: "Disability Home Support Services in {suburb}"
 description: "Comprehensive in-home disability support services in {suburb} designed to promote independence, dignity, and quality of life for individuals with disabilities in the comfort of their own homes."
 pubDate: 2025-01-28
 category: "Disability Services"
-image: "/mdhomecarebuild/assets/grandma.webp"
+image: "/assets/grandma.webp"
 
 ---
 

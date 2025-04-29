@@ -4,7 +4,7 @@ description: "Comprehensive guide to the NDIS Price Guide for 2024-2025, includi
 pubDate: 2025-03-06
 author: "MD Home Care"
 tags: []
-image: "/mdhomecarebuild/assets/clinic.webp"
+image: "/assets/clinic.webp"
 ---
 
 The National Disability Insurance Scheme (NDIS) Price Guide is a vital document that details pricing arrangements and limits for various supports and services under the NDIS. It ensures clarity and transparency for both participants and providers, updated annually to reflect market changes and legislative updates. The latest version, for the 2024-25 financial year, was released in July 2024 and includes significant modifications from the previous year, such as price adjustments and new support items.
