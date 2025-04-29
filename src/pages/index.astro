@@ -1,24 +1,43 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+// Get the base URL for assets
+const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
+const heroBackground = `${baseUrl}/assets/grandmawhite.webp`;
 ---
 
+<style is:global>
+	body, html {
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
+	}
+	
+	main {
+		padding: 0 !important;
+		margin: 0 !important;
+		overflow-x: hidden;
+		width: 100%;
+	}
+</style>
+
 <BaseLayout title="Home | MD Homecare">
-	<div class="hero-section">
+	<section class="hero-section" style={`background-image: url('${heroBackground}');`}>
+		<div class="overlay"></div>
 		<div class="container">
 			<div class="hero-content">
 				<h1>
-					<span class="hero-subtitle">Home Healthcare Hero</span>
 					<span class="main-title">Exceptional Care,</span>
 					<span class="accent-title">Right at Home</span>
 				</h1>
 				<p>Providing compassionate and professional home care services. We're dedicated to enhancing the quality of life for our clients in the comfort of their own homes.</p>
 				<div class="cta-buttons">
-					<a href="/services" class="primary-button">View Our Services</a>
-					<a href="/blog" class="secondary-button">Read Our Blog</a>
+					<a href={`${baseUrl}/services`} class="primary-button">View Our Services</a>
+					<a href={`${baseUrl}/blog`} class="secondary-button">Read Our Blog</a>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<div class="services-section">
 		<div class="container">
@@ -53,20 +72,26 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 <style>
 	/* Hero Section */
 	.hero-section {
-		padding: 5rem 0;
-		background-color: var(--light-background);
+		margin: 0;
+		padding: 0;
 		position: relative;
-		overflow: hidden;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		box-sizing: border-box;
 	}
-
-	.hero-section::before {
-		content: '';
+	
+	.overlay {
 		position: absolute;
 		top: 0;
-		right: 0;
-		width: 50%;
+		left: 0;
+		width: 100%;
 		height: 100%;
-		background-image: linear-gradient(to right, transparent, var(--complementary));
+		background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 100%);
 		z-index: 1;
 	}
 
@@ -74,11 +99,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 		max-width: 720px;
 		position: relative;
 		z-index: 2;
+		padding: 2rem 0;
+		color: white;
 	}
 
 	.hero-subtitle {
 		display: block;
-		color: var(--primary-color);
+		color: var(--highlight);
 		font-size: 1.25rem;
 		font-weight: 600;
 		margin-bottom: 0.5rem;
@@ -91,7 +118,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 		font-weight: 700;
 		line-height: 1.1;
 		margin-bottom: 0.5rem;
-		color: var(--text-color);
+		color: white;
 	}
 
 	.accent-title {
@@ -100,12 +127,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 		font-weight: 700;
 		line-height: 1.1;
 		margin-bottom: 1.5rem;
-		color: var(--primary-color);
+		color: var(--primary-light);
 	}
 
 	.hero-content p {
 		font-size: 1.1rem;
-		color: var(--text-light);
+		color: rgba(255, 255, 255, 0.9);
 		margin-bottom: 2rem;
 		max-width: 600px;
 		line-height: 1.6;
@@ -138,14 +165,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 	}
 
 	.secondary-button {
-		background-color: transparent;
-		color: var(--primary-color);
-		border: 2px solid var(--primary-color);
+		background-color: rgba(255, 255, 255, 0.9);
+		color: var(--primary-dark);
+		border: 2px solid white;
+		font-weight: 700;
+		text-shadow: none;
 	}
 
 	.secondary-button:hover {
-		background-color: var(--complementary);
+		background-color: white;
+		color: var(--primary-color);
 		transform: translateY(-2px);
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 	}
 
 	/* Services Section */

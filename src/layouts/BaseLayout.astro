@@ -56,31 +56,57 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="nav-container">
-          <div class="logo-container">
-            <a href={baseUrl} class="logo">
-              <img src={`${baseUrl}/favicon.svg`} width="32" height="32" alt="MD Homecare Logo">
-              <div>
-                <span class="brand-name">MD Homecare</span>
-                <span class="tagline">Empowering Independence</span>
-              </div>
-            </a>
+    <header class="site-header">
+      <!-- Logo Area -->
+      <div class="header-content">
+        <a href={baseUrl} class="site-logo">
+          <img src={`${baseUrl}/assets/logo.svg`} alt="MD Homecare Logo">
+          <div class="site-title">
+            <span class="site-name">MD Homecare</span>
+            <span class="site-tagline">Empowering Independence</span>
           </div>
-          <div class="nav-links">
-            <a href={baseUrl}>Home</a>
-            <a href={`${baseUrl}/services`}>Services</a>
-            <a href={`${baseUrl}/tools`}>Tools</a>
-            <a href={`${baseUrl}/blog`}>Blog</a>
-            <a href={`${baseUrl}/contact`}>Contact</a>
-            <a href="tel:+61405429512" class="phone-link">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-              +61 405 429 512
-            </a>
+        </a>
+        
+        <!-- Menu Toggle -->
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-        </div>
+        </button>
+      </div>
+      
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav">
+        <a href={baseUrl}>Home</a>
+        <a href={`${baseUrl}/services`}>Services</a>
+        <a href={`${baseUrl}/blog`}>Blog</a>
+        <a href={`${baseUrl}/contact`}>Contact</a>
+        <a href="tel:+61405429512" class="phone-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          +61 405 429 512
+        </a>
       </nav>
+      
+      <!-- Mobile Drawer -->
+      <div class="mobile-drawer">
+        <div class="drawer-header">
+          <button class="close-drawer" aria-label="Close menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+        <nav class="drawer-links">
+          <a href={baseUrl}>Home</a>
+          <a href={`${baseUrl}/services`}>Services</a>
+          <a href={`${baseUrl}/blog`}>Blog</a>
+          <a href={`${baseUrl}/contact`}>Contact</a>
+          <a href="tel:+61405429512" class="drawer-phone-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            Call Us: +61 405 429 512
+          </a>
+        </nav>
+      </div>
     </header>
     
     <main>
@@ -91,7 +117,7 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
       <div class="footer-container">
         <div class="footer-top">
           <div class="footer-logo">
-            <img src={`${baseUrl}/favicon.svg`} width="32" height="32" alt="MD Homecare Logo">
+            <img src={`${baseUrl}/assets/logo.svg`} width="32" height="32" alt="MD Homecare Logo">
             <h3>MD Homecare</h3>
             <p>Providing compassionate and professional home care services to enhance the quality of life for our clients.</p>
           </div>
@@ -131,6 +157,35 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
         </div>
       </div>
     </footer>
+
+    <script>
+      // Mobile menu functionality
+      const menuToggle = document.querySelector('.menu-toggle');
+      const mobileDrawer = document.querySelector('.mobile-drawer');
+      const closeDrawer = document.querySelector('.close-drawer');
+      const body = document.body;
+
+      if (menuToggle && mobileDrawer && closeDrawer) {
+        menuToggle.addEventListener('click', () => {
+          mobileDrawer.classList.toggle('active');
+          body.classList.toggle('no-scroll');
+        });
+
+        closeDrawer.addEventListener('click', () => {
+          mobileDrawer.classList.remove('active');
+          body.classList.remove('no-scroll');
+        });
+
+        // Close drawer when clicking a link
+        const drawerLinks = document.querySelectorAll('.drawer-links a');
+        drawerLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            mobileDrawer.classList.remove('active');
+            body.classList.remove('no-scroll');
+          });
+        });
+      }
+    </script>
   </body>
 </html>
 
@@ -200,6 +255,10 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
     line-height: 1.6;
   }
 
+  body.no-scroll {
+    overflow: hidden;
+  }
+
   img {
     max-width: 100%;
     height: auto;
@@ -223,85 +282,119 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
   }
 
   /* Header Styles */
-  header {
-    padding: 1rem 0;
+  .site-header {
     background-color: var(--background);
-    border-bottom: 1px solid var(--border-color);
     position: sticky;
     top: 0;
+    width: 100%;
     z-index: 100;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
   }
 
-  .nav-container {
+  .header-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0.75rem 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .logo-container {
-    display: flex;
-    align-items: center;
-  }
-
-  .logo {
+  .site-logo {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: var(--text-color);
   }
 
-  .logo img {
-    height: 40px;
+  .site-logo img {
+    height: 36px;
+    width: auto;
     margin-right: 0.75rem;
   }
 
-  .brand-name {
-    font-weight: 700;
-    font-size: 1.3rem;
-    color: var(--primary-color);
+  .site-title {
+    display: flex;
+    flex-direction: column;
   }
 
-  .tagline {
+  .site-name {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    line-height: 1.2;
+  }
+
+  .site-tagline {
     display: block;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--text-light);
     letter-spacing: 0.02em;
+    line-height: 1.2;
   }
 
-  .nav-links {
+  /* Hamburger Menu Toggle */
+  .menu-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+    padding: 0;
+  }
+
+  .hamburger {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+  }
+
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: var(--primary-color);
+    transition: all 0.3s ease;
+  }
+
+  /* Desktop Navigation */
+  .desktop-nav {
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
     gap: 2rem;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
-  .nav-links a {
+  .desktop-nav a {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 500;
     font-size: 1rem;
     transition: color 0.2s ease;
     position: relative;
+    padding: 0.75rem 0;
   }
 
-  .nav-links a:hover {
+  .desktop-nav a:hover {
     color: var(--primary-color);
   }
 
-  .nav-links a::after {
+  .desktop-nav a::after {
     content: '';
     position: absolute;
     width: 0;
     height: 2px;
-    bottom: -5px;
+    bottom: 0;
     left: 0;
     background-color: var(--primary-color);
     transition: width 0.2s ease;
   }
 
-  .nav-links a:hover::after {
+  .desktop-nav a:hover::after {
     width: 100%;
   }
 
@@ -313,9 +406,9 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
     color: white !important;
     font-weight: 600 !important;
     background-color: var(--primary-color);
-    padding: 0.75rem 1.5rem;
+    padding: 0.6rem 1.2rem !important;
     border-radius: 2rem;
-    min-width: 200px;
+    min-width: 180px;
     text-align: center;
     transition: background-color 0.2s ease;
   }
@@ -329,16 +422,94 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
     width: 0 !important;
   }
 
-  /* Footer Styles */
-  footer {
-    background-color: var(--light-background);
-    padding: 4rem 0 1.5rem;
-    margin-top: 4rem;
+  /* Mobile drawer */
+  .mobile-drawer {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 320px;
+    height: 100%;
+    background-color: var(--background);
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: right 0.3s ease;
+    overflow-y: auto;
+  }
+
+  .mobile-drawer.active {
+    right: 0;
+  }
+
+  .drawer-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.2rem;
+  }
+
+  .close-drawer {
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+
+  .drawer-links {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .drawer-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 1rem 0;
+    transition: color 0.2s ease;
+    margin-bottom: 1rem;
+  }
+
+  .drawer-links a:last-child {
+    margin-bottom: 0;
+  }
+
+  .drawer-links a:hover {
+    color: var(--primary-color);
+  }
+
+  .drawer-phone-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    padding: 1rem !important;
+    color: white !important;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .drawer-phone-link:hover {
+    background-color: var(--primary-dark) !important;
   }
 
   /* Main content */
   main {
     background-color: #FFFFFF;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  /* Footer Styles */
+  footer {
+    background-color: var(--light-background);
+    padding: 4rem 0 1.5rem;
+    margin-top: 4rem;
   }
 
   .footer-container {
@@ -469,10 +640,30 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
     font-size: 0.9rem;
   }
 
+  .contact-info {
+    text-align: center;
+  }
+
   /* Responsive Styles */
   @media (max-width: 768px) {
-    .nav-links {
-      display: none; /* For mobile, we would typically add a hamburger menu */
+    .desktop-nav {
+      display: none;
+    }
+
+    .menu-toggle {
+      display: block;
+    }
+
+    .site-logo img {
+      height: 30px;
+    }
+
+    .site-name {
+      font-size: 1rem;
+    }
+
+    .site-tagline {
+      font-size: 0.6rem;
     }
 
     .footer-top {
@@ -486,7 +677,28 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
     }
   }
 
-  .contact-info {
-    text-align: center;
+  /* Desktop Layout */
+  @media (min-width: 769px) {
+    .header-content {
+      justify-content: flex-start;
+      gap: 2rem;
+    }
+    
+    .site-header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0.5rem 1.5rem;
+    }
+    
+    .desktop-nav {
+      margin-left: auto;
+      justify-content: flex-end;
+      padding: 0;
+    }
+    
+    .menu-toggle {
+      display: none;
+    }
   }
 </style> 

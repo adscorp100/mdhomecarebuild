@@ -63,6 +63,8 @@ We offer a simple booking system for {suburb} residents with options to schedule
 - Advance bookings for upcoming appointments
 - Short-notice transport when possible
 
-## [Contact Us About Transport Services in {suburb}](/contact)
+## Contact Us About Transport Services in {suburb}
 
 Our team is ready to discuss how our transport services can support your mobility needs in {suburb}. Contact us today to learn more about our approach and how we can help you maintain your independence and community connections throughout {suburb}.
+
+[Contact Us Today](/contact)
