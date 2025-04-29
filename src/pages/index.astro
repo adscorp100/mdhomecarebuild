@@ -3,6 +3,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 // Get the base URL for assets
 const heroBackground = `/assets/grandmawhite.webp`;
+
+// SEO metadata
+const title = "MD Homecare | Disability & Home Care Services in Melbourne & Sydney";
+const description = "Professional disability home care services in Melbourne & Sydney. NDIS support workers, SIL providers, community participation, and in-home disability care specialists.";
 ---
 
 <style is:global>
@@ -20,16 +24,16 @@ const heroBackground = `/assets/grandmawhite.webp`;
 	}
 </style>
 
-<BaseLayout title="Home | MD Homecare">
+<BaseLayout title={title} description={description}>
 	<section class="hero-section" style={`background-image: url('${heroBackground}');`}>
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="hero-content">
 				<h1>
-					<span class="main-title">Exceptional Care,</span>
-					<span class="accent-title">Right at Home</span>
+					<span class="main-title">Expert Disability Home Care</span>
+					<span class="accent-title">In Melbourne & Sydney</span>
 				</h1>
-				<p>Providing compassionate and professional home care services. We're dedicated to enhancing the quality of life for our clients in the comfort of their own homes.</p>
+				<p>Providing compassionate and professional disability home care services. We're dedicated to enhancing the quality of life for our clients through NDIS support, independent support workers, and specialized in-home disability care.</p>
 				<div class="cta-buttons">
 					<a href="/services" class="primary-button">View Our Services</a>
 					<a href="/blog" class="secondary-button">Read Our Blog</a>
@@ -46,22 +50,46 @@ const heroBackground = `/assets/grandmawhite.webp`;
 					<div class="service-icon">
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"></path><path d="M12 8v8"></path><path d="M8 12h8"></path></svg>
 					</div>
-					<h3>In-Home Care</h3>
-					<p>Personalized assistance with daily living activities in the comfort of home.</p>
+					<h3>Disability Home Care</h3>
+					<p>Personalized disability support services in Melbourne and Sydney, providing domestic assistance and in-home disability care.</p>
 				</div>
 				<div class="service-card">
 					<div class="service-icon">
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
 					</div>
-					<h3>NDIS Support</h3>
-					<p>Specialized services for NDIS participants to achieve their goals.</p>
+					<h3>NDIS Support Services</h3>
+					<p>Qualified NDIS support workers and independent support worker services to help participants achieve their goals.</p>
 				</div>
 				<div class="service-card">
 					<div class="service-icon">
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
 					</div>
-					<h3>Aged Care</h3>
-					<p>Specialized support for seniors to maintain independence and dignity.</p>
+					<h3>Specialist Support Services</h3>
+					<p>SIL providers in Melbourne and Sydney offering community participation and supported independent living.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="featured-services">
+		<div class="container">
+			<h2 class="section-title">Specialized Disability Services</h2>
+			<div class="featured-grid">
+				<div class="featured-item">
+					<h3>Community Participation</h3>
+					<p>Our disability community participation programs in Melbourne and Sydney help clients engage with their communities in meaningful ways.</p>
+				</div>
+				<div class="featured-item">
+					<h3>SIL Accommodation</h3>
+					<p>As trusted SIL providers in Melbourne, we offer quality supported independent living accommodations tailored to individual needs.</p>
+				</div>
+				<div class="featured-item">
+					<h3>Disability Home Care</h3>
+					<p>Professional in-home disability care and domestic assistance services that respect independence and dignity.</p>
+				</div>
+				<div class="featured-item">
+					<h3>Independent Support Workers</h3>
+					<p>Our NDIS independent support workers provide personalized care with competitive hourly rates and qualifications.</p>
 				</div>
 			</div>
 		</div>
@@ -232,6 +260,37 @@ const heroBackground = `/assets/grandmawhite.webp`;
 		line-height: 1.6;
 	}
 
+	/* Featured Services */
+	.featured-services {
+		padding: 5rem 0;
+		background-color: var(--background-alt);
+	}
+
+	.featured-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 2rem;
+	}
+
+	.featured-item {
+		padding: 1.5rem;
+		background-color: var(--card-background);
+		border-radius: 0.5rem;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+	}
+
+	.featured-item h3 {
+		font-size: 1.25rem;
+		margin-bottom: 0.75rem;
+		color: var(--primary-color);
+	}
+
+	.featured-item p {
+		color: var(--text-light);
+		line-height: 1.6;
+		font-size: 0.95rem;
+	}
+
 	/* Responsive Styles */
 	@media (max-width: 768px) {
 		.hero-section {
@@ -258,7 +317,7 @@ const heroBackground = `/assets/grandmawhite.webp`;
 			width: 100%;
 		}
 
-		.services-grid {
+		.services-grid, .featured-grid {
 			grid-template-columns: 1fr;
 		}
 	}
