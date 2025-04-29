@@ -4,7 +4,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://your-site-domain.com', // Replace with your actual domain
+  site: 'https://andredeansmith.github.io',
+  base: '/mdhomecarebuild',
   output: 'static', // Explicitly set to static (default)
   compressHTML: true, // Minify HTML output
   integrations: [
