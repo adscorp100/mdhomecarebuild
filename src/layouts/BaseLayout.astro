@@ -9,53 +9,75 @@ interface Props {
 // Destructure props with defaults
 const { 
   title, 
-  description = "A modern static site built with Astro", 
+  description = "Providing compassionate and professional home care services", 
   image = "/images/default-social.jpg" 
 } = Astro.props;
+
+// Get the base URL for assets
+const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
+
+// Import the logo directly from the src/assets directory
+// Removed unused imports
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="generator" content={Astro.generator} />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content={Astro.generator}>
     
     <!-- Primary Meta Tags -->
     <title>{title}</title>
-    <meta name="title" content={title} />
-    <meta name="description" content={description} />
+    <meta name="title" content={title}>
+    <meta name="description" content={description}>
     
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content={Astro.url} />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content={image} />
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={Astro.url} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={image} />
+    <!-- Open Graph / Twitter Card data -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content={Astro.url}>
+    <meta property="og:title" content={title}>
+    <meta property="og:description" content={description}>
+    <meta property="og:image" content={image}>
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content={Astro.url}>
+    <meta property="twitter:title" content={title}>
+    <meta property="twitter:description" content={description}>
+    <meta property="twitter:image" content={image}>
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/mdhomecarebuild/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={`${baseUrl}/favicon.svg`}>
     
     <!-- Styles -->
-    <link rel="stylesheet" href="/mdhomecarebuild/styles/global.css" />
+    <link rel="stylesheet" href={`${baseUrl}/styles/global.css`}>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <nav>
         <div class="nav-container">
-          <a href="/" class="logo">Your Site</a>
+          <div class="logo-container">
+            <a href={baseUrl} class="logo">
+              <img src={`${baseUrl}/favicon.svg`} width="32" height="32" alt="MD Homecare Logo">
+              <div>
+                <span class="brand-name">MD Homecare</span>
+                <span class="tagline">Empowering Independence</span>
+              </div>
+            </a>
+          </div>
           <div class="nav-links">
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/blog">Blog</a>
-            <a href="/contact">Contact</a>
+            <a href={baseUrl}>Home</a>
+            <a href={`${baseUrl}/services`}>Services</a>
+            <a href={`${baseUrl}/tools`}>Tools</a>
+            <a href={`${baseUrl}/blog`}>Blog</a>
+            <a href={`${baseUrl}/contact`}>Contact</a>
+            <a href="tel:+61405429512" class="phone-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              +61 405 429 512
+            </a>
           </div>
         </div>
       </nav>
@@ -67,8 +89,376 @@ const {
     
     <footer>
       <div class="footer-container">
-        <p>&copy; {new Date().getFullYear()} Your Site. All rights reserved.</p>
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src={`${baseUrl}/favicon.svg`} width="32" height="32" alt="MD Homecare Logo">
+            <h3>MD Homecare</h3>
+            <p>Providing compassionate and professional home care services to enhance the quality of life for our clients.</p>
+          </div>
+          <div class="footer-links">
+            <div class="quick-links">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href={baseUrl}>Home</a></li>
+                <li><a href={`${baseUrl}/services`}>Services</a></li>
+                <li><a href={`${baseUrl}/blog`}>Blog</a></li>
+                <li><a href={`${baseUrl}/contact`}>Contact</a></li>
+              </ul>
+            </div>
+            <div class="tools-links">
+              <h4>Tools</h4>
+              <ul>
+                <li><a href={`${baseUrl}/tools/ndis-eligibility-checker`}>NDIS Eligibility Checker</a></li>
+                <li><a href={`${baseUrl}/tools`}>All Tools</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact-info">
+            <h4>Contact Us</h4>
+            <p>
+              <a href="tel:+61405429512" class="footer-phone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                +61 405 429 512
+              </a>
+            </p>
+            <a href={`${baseUrl}/contact`} class="contact-button">Get in Touch</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; {new Date().getFullYear()} MD Homecare. All rights reserved.</p>
+        </div>
       </div>
     </footer>
   </body>
-</html> 
+</html>
+
+<style is:global>
+  :root {
+    /* Modern Healthcare Blues */
+    --primary-color: #0EA5E9; /* Bright blue */
+    --primary-light: #38BDF8; /* Lighter blue */
+    --primary-dark: #0369A1; /* Darker blue */
+    --accent-color: #0284C7; /* Medium blue */
+    
+    /* Complementary colors */
+    --complementary: #E0F2FE; /* Very light blue */
+    --highlight: #6EE7B7; /* Teal highlight */
+    
+    /* Text colors */
+    --text-color: #0F172A; /* Very dark blue, nearly black */
+    --text-light: #64748B; /* Medium gray with blue tint */
+    --text-lighter: #94A3B8; /* Light gray with blue tint */
+    
+    /* Background colors */
+    --background: #FFFFFF; /* White */
+    --light-background: #F0F9FF; /* Very light blue background */
+    --card-background: #FFFFFF; /* White */
+    --border-color: #E0F2FE; /* Very light blue for borders */
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --primary-color: #38BDF8; /* Lighter blue for better visibility in dark mode */
+      --primary-light: #7DD3FC; /* Even lighter blue */
+      --primary-dark: #0EA5E9; /* Less dark blue for dark mode */
+      --accent-color: #0284C7; /* Medium blue */
+      
+      --complementary: #0F172A; /* Dark blue */
+      --highlight: #6EE7B7; /* Same teal highlight */
+      
+      --text-color: #F1F5F9; /* Off-white */
+      --text-light: #CBD5E1; /* Light gray */
+      --text-lighter: #94A3B8; /* Medium gray */
+      
+      --background: #0F172A; /* Dark blue */
+      --light-background: #1E293B; /* Slightly lighter dark blue */
+      --card-background: #1E293B; /* Slightly lighter dark blue */
+      --border-color: #334155; /* Medium-dark blue */
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: var(--background);
+    color: var(--text-color);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    color: var(--text-color);
+    line-height: 1.6;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: var(--primary-dark);
+  }
+
+  /* Container for all sections */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* Header Styles */
+  header {
+    padding: 1rem 0;
+    background-color: var(--background);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+  .logo img {
+    height: 40px;
+    margin-right: 0.75rem;
+  }
+
+  .brand-name {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--primary-color);
+  }
+
+  .tagline {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-light);
+    letter-spacing: 0.02em;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+    position: relative;
+  }
+
+  .nav-links a:hover {
+    color: var(--primary-color);
+  }
+
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--primary-color);
+    transition: width 0.2s ease;
+  }
+
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+
+  .phone-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary-color) !important;
+    font-weight: 600 !important;
+    background-color: var(--complementary);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+  }
+
+  .phone-link:hover {
+    background-color: var(--primary-light);
+    color: var(--background) !important;
+  }
+
+  .phone-link:hover::after {
+    width: 0 !important;
+  }
+
+  /* Footer Styles */
+  footer {
+    background-color: var(--light-background);
+    padding: 4rem 0 1.5rem;
+    margin-top: 4rem;
+  }
+
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .footer-top {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .footer-logo img {
+    height: 40px;
+    margin-bottom: 1rem;
+  }
+
+  .footer-logo h3 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+  }
+
+  .footer-logo p {
+    color: var(--text-light);
+    max-width: 300px;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .quick-links h4, .tools-links h4, .contact-info h4 {
+    margin-bottom: 1.25rem;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .quick-links ul, .tools-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .quick-links li, .tools-links li {
+    margin-bottom: 0.75rem;
+  }
+
+  .quick-links a, .tools-links a {
+    text-decoration: none;
+    color: var(--text-light);
+    transition: color 0.2s ease;
+    position: relative;
+    display: inline-block;
+  }
+
+  .quick-links a:hover, .tools-links a:hover {
+    color: var(--primary-color);
+  }
+
+  .quick-links a::after, .tools-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--primary-color);
+    transition: width 0.2s ease;
+  }
+
+  .quick-links a:hover::after, .tools-links a:hover::after {
+    width: 100%;
+  }
+
+  .footer-phone {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+  }
+
+  .footer-phone:hover {
+    color: var(--primary-color);
+  }
+
+  .contact-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    transition: background-color 0.2s ease;
+  }
+
+  .contact-button:hover {
+    background-color: var(--primary-dark);
+  }
+
+  .footer-bottom {
+    border-top: 1px solid var(--border-color);
+    padding-top: 1.5rem;
+    text-align: center;
+    color: var(--text-lighter);
+    font-size: 0.9rem;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none; /* For mobile, we would typically add a hamburger menu */
+    }
+
+    .footer-top {
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+    }
+
+    .footer-links {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+</style> 

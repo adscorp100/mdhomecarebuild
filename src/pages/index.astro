@@ -2,70 +2,138 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="Home | My Static Site">
-	<div class="container">
-		<section class="hero">
-			<h1>Welcome to MD Homecare</h1>
-			<p>A modern static site built with Astro for blazing fast performance.</p>
-			<div class="cta-buttons">
-				<a href="/about" class="primary-button">Learn More</a>
-				<a href="/contact" class="secondary-button">Get in Touch</a>
+<BaseLayout title="Home | MD Homecare">
+	<div class="hero-section">
+		<div class="container">
+			<div class="hero-content">
+				<h1>
+					<span class="hero-subtitle">Home Healthcare Hero</span>
+					<span class="main-title">Exceptional Care,</span>
+					<span class="accent-title">Right at Home</span>
+				</h1>
+				<p>Providing compassionate and professional home care services. We're dedicated to enhancing the quality of life for our clients in the comfort of their own homes.</p>
+				<div class="cta-buttons">
+					<a href="/services" class="primary-button">View Our Services</a>
+					<a href="/blog" class="secondary-button">Read Our Blog</a>
+				</div>
 			</div>
-		</section>
+		</div>
+	</div>
 
-		<section class="features">
-			<h2>Why Choose Astro?</h2>
-			<div class="feature-grid">
-				<div class="feature-card">
-					<h3>Lightning Fast</h3>
-					<p>Built for speed with zero JavaScript by default and optimized assets.</p>
+	<div class="services-section">
+		<div class="container">
+			<h2 class="section-title">Our Core Services</h2>
+			<div class="services-grid">
+				<div class="service-card">
+					<div class="service-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"></path><path d="M12 8v8"></path><path d="M8 12h8"></path></svg>
+					</div>
+					<h3>In-Home Care</h3>
+					<p>Personalized assistance with daily living activities in the comfort of home.</p>
 				</div>
-				<div class="feature-card">
-					<h3>Component-Based</h3>
-					<p>Use your favorite UI components from React, Vue, Svelte, and more.</p>
+				<div class="service-card">
+					<div class="service-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+					</div>
+					<h3>NDIS Support</h3>
+					<p>Specialized services for NDIS participants to achieve their goals.</p>
 				</div>
-				<div class="feature-card">
-					<h3>Content-Focused</h3>
-					<p>Perfect for content-rich websites, blogs, and documentation.</p>
+				<div class="service-card">
+					<div class="service-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+					</div>
+					<h3>Aged Care</h3>
+					<p>Specialized support for seniors to maintain independence and dignity.</p>
 				</div>
 			</div>
-		</section>
+		</div>
 	</div>
 </BaseLayout>
 
 <style>
-	.hero {
-		text-align: center;
-		padding: 4rem 1rem;
+	/* Hero Section */
+	.hero-section {
+		padding: 5rem 0;
+		background-color: var(--light-background);
+		position: relative;
+		overflow: hidden;
 	}
 
-	.hero h1 {
-		margin-bottom: 1rem;
+	.hero-section::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 50%;
+		height: 100%;
+		background-image: linear-gradient(to right, transparent, var(--complementary));
+		z-index: 1;
+	}
+
+	.hero-content {
+		max-width: 720px;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hero-subtitle {
+		display: block;
+		color: var(--primary-color);
+		font-size: 1.25rem;
+		font-weight: 600;
+		margin-bottom: 0.5rem;
+		letter-spacing: 0.05em;
+	}
+
+	.main-title {
+		display: block;
+		font-size: 3.5rem;
+		font-weight: 700;
+		line-height: 1.1;
+		margin-bottom: 0.5rem;
+		color: var(--text-color);
+	}
+
+	.accent-title {
+		display: block;
+		font-size: 3.5rem;
+		font-weight: 700;
+		line-height: 1.1;
+		margin-bottom: 1.5rem;
+		color: var(--primary-color);
+	}
+
+	.hero-content p {
+		font-size: 1.1rem;
+		color: var(--text-light);
+		margin-bottom: 2rem;
+		max-width: 600px;
+		line-height: 1.6;
 	}
 
 	.cta-buttons {
 		display: flex;
-		justify-content: center;
 		gap: 1rem;
-		margin-top: 2rem;
 	}
 
 	.primary-button, .secondary-button {
 		display: inline-block;
-		padding: 0.75rem 1.5rem;
-		border-radius: 4px;
+		padding: 0.9rem 1.8rem;
+		border-radius: 0.25rem;
 		font-weight: 600;
-		transition: all 0.3s ease;
+		font-size: 1rem;
+		transition: all 0.2s ease;
+		text-align: center;
 	}
 
 	.primary-button {
 		background-color: var(--primary-color);
 		color: white;
+		border: none;
 	}
 
 	.primary-button:hover {
-		background-color: var(--secondary-color);
-		color: white;
+		background-color: var(--primary-dark);
 		transform: translateY(-2px);
 	}
 
@@ -76,49 +144,92 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 	}
 
 	.secondary-button:hover {
-		border-color: var(--accent-color);
+		background-color: var(--complementary);
 		transform: translateY(-2px);
 	}
 
-	.features {
-		padding: 4rem 1rem;
-		background-color: var(--light-background);
+	/* Services Section */
+	.services-section {
+		padding: 5rem 0;
 	}
 
-	.features h2 {
+	.section-title {
 		text-align: center;
 		margin-bottom: 3rem;
+		font-size: 2.25rem;
+		color: var(--text-color);
+		font-weight: 700;
 	}
 
-	.feature-grid {
+	.services-grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 		gap: 2rem;
 	}
 
-	.feature-card {
-		background-color: var(--background);
-		border-radius: 8px;
+	.service-card {
 		padding: 2rem;
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		background-color: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: 0.5rem;
+		transition: transform 0.3s ease;
 	}
 
-	.feature-card:hover {
+	.service-card:hover {
 		transform: translateY(-5px);
-		box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 	}
 
+	.service-icon {
+		width: 60px;
+		height: 60px;
+		background-color: var(--complementary);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: var(--primary-color);
+		margin-bottom: 1.5rem;
+	}
+
+	.service-card h3 {
+		font-size: 1.5rem;
+		margin-bottom: 1rem;
+		color: var(--text-color);
+	}
+
+	.service-card p {
+		color: var(--text-light);
+		line-height: 1.6;
+	}
+
+	/* Responsive Styles */
 	@media (max-width: 768px) {
+		.hero-section {
+			padding: 4rem 0;
+		}
+
+		.main-title, .accent-title {
+			font-size: 2.5rem;
+		}
+
+		.hero-subtitle {
+			font-size: 1.1rem;
+		}
+
+		.hero-content p {
+			font-size: 1rem;
+		}
+
 		.cta-buttons {
 			flex-direction: column;
-			align-items: center;
 		}
 
 		.primary-button, .secondary-button {
 			width: 100%;
-			max-width: 250px;
-			text-align: center;
+		}
+
+		.services-grid {
+			grid-template-columns: 1fr;
 		}
 	}
 </style>

@@ -1,0 +1,110 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Get all services
+const allServices = await getCollection('services');
+
+// Sort services alphabetically by title
+const sortedServices = allServices.sort(
+  (a, b) => a.data.title.localeCompare(b.data.title)
+);
+
+// Group services by category
+const servicesByCategory = sortedServices.reduce((acc, service) => {
+  const category = service.data.category;
+  if (!acc[category]) {
+    acc[category] = [];
+  }
+  acc[category].push(service);
+  return acc;
+}, {});
+
+// Sort categories alphabetically
+const sortedCategories = Object.keys(servicesByCategory).sort();
+---
+
+<BaseLayout title="Our Services | MD Home Care">
+  <div class="container">
+    <section class="services-section">
+      <h1>Our Services</h1>
+      <p>Explore our comprehensive range of care and support services designed to meet your individual needs.</p>
+      
+      {sortedCategories.map((category) => (
+        <div class="category-section">
+          <h2>{category}</h2>
+          <div class="services-grid">
+            {servicesByCategory[category].map((service) => (
+              <article class="service-card">
+                <div class="card-content">
+                  <h3>{service.data.title.replace('{suburb}', 'Your Area')}</h3>
+                  <p class="service-description">{service.data.description.replace('{suburb}', 'your area')}</p>
+                  <a href={`/mdhomecarebuild/services/${service.slug}`} class="read-more">View Service →</a>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .services-section {
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .category-section {
+    margin-bottom: 3rem;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+  
+  .service-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-content {
+    padding: 1.5rem;
+  }
+  
+  .service-description {
+    margin: 1rem 0;
+    color: var(--light-text);
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  
+  @media (min-width: 768px) {
+    .services-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .services-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style> 

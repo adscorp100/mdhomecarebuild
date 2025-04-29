@@ -12,6 +12,19 @@ const blog = defineCollection({
   }),
 });
 
+const services = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    pubDate: z.date(),
+    category: z.string(),
+    image: z.string().optional(),
+    keywords: z.array(z.string()).default([]),
+  }),
+});
+
 export const collections = {
   'blog': blog,
+  'services': services,
 }; 

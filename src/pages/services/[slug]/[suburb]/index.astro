@@ -1,0 +1,270 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'url';
+
+// Generate static paths for all service/suburb combinations
+export async function getStaticPaths() {
+  // Read suburbs data within getStaticPaths
+  const __filename = fileURLToPath(import.meta.url);
+  const __dirname = path.dirname(__filename);
+  const dataPath = path.join(__dirname, '../../../../data/australian-suburbs.json');
+  const suburbsData = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+  
+  const serviceEntries = await getCollection('services');
+  const paths = [];
+  
+  for (const service of serviceEntries) {
+    for (const [suburbSlug, suburbInfo] of Object.entries(suburbsData)) {
+      paths.push({
+        params: { 
+          slug: service.slug,
+          suburb: suburbSlug
+        },
+        props: { 
+          service,
+          suburbInfo: {
+            slug: suburbSlug,
+            ...suburbInfo
+          }
+        },
+      });
+    }
+  }
+  
+  return paths;
+}
+
+// Get the service and suburb data for the current page
+const { service, suburbInfo } = Astro.props;
+const { Content } = await service.render();
+
+// Format suburb name for display (convert slug to title case)
+const formatSuburbName = (slug) => {
+  return slug
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+};
+
+const suburbName = formatSuburbName(suburbInfo.slug);
+
+// Get related services in the same category
+const allServices = await getCollection('services');
+const relatedServices = allServices
+  .filter(s => 
+    s.data.category === service.data.category && 
+    s.slug !== service.slug
+  )
+  .slice(0, 3); // Limit to 3 related services
+
+// Create a title and description with the suburb name
+const title = service.data.title.replace('{suburb}', suburbName);
+const description = service.data.description.replace('{suburb}', suburbName);
+---
+
+<BaseLayout 
+  title={title + " | MD Home Care"}
+  description={description}
+>
+  <div class="container">
+    <article class="service-page">
+      <header class="service-header">
+        <div class="location-info">
+          <span class="category-tag">{service.data.category}</span>
+          <span class="location-tag">{suburbName}, {suburbInfo.state} - {suburbInfo.region}</span>
+        </div>
+        <h1>{title}</h1>
+        <p class="service-description">{description}</p>
+        {service.data.keywords && service.data.keywords.length > 0 && (
+          <div class="keyword-tags">
+            {service.data.keywords.map((keyword) => (
+              <span class="tag">#{keyword}</span>
+            ))}
+          </div>
+        )}
+      </header>
+      
+      <div class="service-content">
+        {service.data.image && (
+          <div class="service-image">
+            <img src={service.data.image} alt={title} />
+          </div>
+        )}
+        
+        <div class="service-body">
+          <!-- We'll replace {suburb} placeholders with the actual suburb name in the client -->
+          <div id="content-container" data-suburb={suburbName}>
+            <Content />
+          </div>
+        </div>
+      </div>
+      
+      {relatedServices.length > 0 && (
+        <aside class="related-services">
+          <h2>Related Services in {suburbName}</h2>
+          <div class="related-grid">
+            {relatedServices.map((relatedService) => (
+              <div class="related-card">
+                <h3>{relatedService.data.title.replace('{suburb}', suburbName)}</h3>
+                <p>{relatedService.data.description.replace('{suburb}', suburbName)}</p>
+                <a href={`/mdhomecarebuild/services/${relatedService.slug}/${suburbInfo.slug}`}>Learn More →</a>
+              </div>
+            ))}
+          </div>
+        </aside>
+      )}
+      
+      <footer class="service-footer">
+        <div class="cta-container">
+          <h3>Want to know more about this service in {suburbName}?</h3>
+          <a href="/mdhomecarebuild/contact" class="contact-button">Contact Us</a>
+        </div>
+        
+        <div class="navigation">
+          <a href="/mdhomecarebuild/services" class="back-link">← Back to Services</a>
+          <a href={`/mdhomecarebuild/services/${service.slug}`} class="back-link">← View All Locations</a>
+        </div>
+      </footer>
+    </article>
+  </div>
+</BaseLayout>
+
+<script define:vars={{ suburbName }}>
+// After the page loads, replace all instances of {suburb} with the actual suburb name
+document.addEventListener('DOMContentLoaded', () => {
+  const contentContainer = document.getElementById('content-container');
+  if (contentContainer) {
+    // Replace all {suburb} texts in the rendered content with the actual suburb name
+    contentContainer.innerHTML = contentContainer.innerHTML.replace(/{suburb}/g, suburbName);
+  }
+});
+</script>
+
+<style>
+  .service-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  .service-header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1.5rem;
+  }
+  
+  .location-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .category-tag, .location-tag {
+    display: inline-block;
+    background-color: var(--light-background);
+    padding: 0.3rem 0.8rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+  }
+  
+  .location-tag {
+    background-color: #e1f5fe;
+    color: #0277bd;
+  }
+  
+  .keyword-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  
+  .tag {
+    background-color: var(--light-background);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+  }
+  
+  .service-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .service-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .service-body {
+    line-height: 1.8;
+  }
+  
+  .related-services {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+  }
+  
+  .related-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .related-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  
+  .service-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+  }
+  
+  .cta-container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-button {
+    display: inline-block;
+    background-color: var(--primary-color, #0066cc);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .back-link {
+    display: inline-block;
+    font-weight: 600;
+  }
+  
+  @media (min-width: 768px) {
+    .service-content {
+      grid-template-columns: 1fr 2fr;
+    }
+    
+    .related-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style> 
