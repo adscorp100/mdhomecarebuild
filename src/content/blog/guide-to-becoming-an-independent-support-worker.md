@@ -4,7 +4,7 @@ description: "No summary available"
 pubDate: 2025-03-06
 author: "MD Home Care"
 tags: []
-image: "/assets/disabled carer.webp"
+image: "/mdhomecarebuild/assets/disabled carer.webp"
 ---
 
 Becoming an independent support worker for the National Disability Insurance Scheme (NDIS) in Australia can be a rewarding career, offering flexibility and the chance to make a direct impact. This guide will walk you through the essential steps, from understanding the NDIS to managing your business as a sole trader or contractor.

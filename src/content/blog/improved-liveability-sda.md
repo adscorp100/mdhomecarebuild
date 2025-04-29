@@ -4,7 +4,7 @@ description: "No summary available"
 pubDate: 2025-03-06
 author: "MD Home Care"
 tags: []
-image: "/assets/accessible bathroom.webp"
+image: "/mdhomecarebuild/assets/accessible bathroom.webp"
 ---
 
 ## Key Points- Improved liveability SDA enhances living conditions for NDIS participants with sensory, intellectual, or cognitive impairments, focusing on accessibility and safety.

@@ -4,7 +4,7 @@ description: "A comprehensive guide to navigating the legal, financial, and emot
 pubDate: 2025-04-22
 author: "MD Home Care"
 tags: []
-image: "/assets/deceasedestate.webp"
+image: "/mdhomecarebuild/assets/deceasedestate.webp"
 ---
 
 # Selling Deceased Estate Property in Australia: The Ultimate Guide (2025 Update)Losing a loved one is incredibly difficult. On top of the emotional burden, you might find yourself responsible for managing their affairs, including selling their property – often referred to as a **deceased estate property** or simply **deceased property**. This process, sometimes called a **probate sale** or **executor's auction**, can feel overwhelming, involving legal steps, financial decisions, and often, complex family dynamics. Whether you're in Sydney, Melbourne, Brisbane, or regional NSW, VIC, QLD, SA or WA, this guide provides a comprehensive overview of selling a **deceased estate** in Australia.

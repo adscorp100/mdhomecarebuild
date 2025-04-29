@@ -4,7 +4,7 @@ description: "No summary available"
 pubDate: 2025-03-09
 author: "MD Home Care"
 tags: []
-image: "/assets/makingbed.webp"
+image: "/mdhomecarebuild/assets/makingbed.webp"
 ---
 
 ## What is a Level 3 Home Care Package?A level 3 home care package is part of Australia's government-subsidized program to help older adults and those with complex needs live independently at home. It's designed for intermediate care needs, offering more support than basic or low-level packages but less than high-level care.

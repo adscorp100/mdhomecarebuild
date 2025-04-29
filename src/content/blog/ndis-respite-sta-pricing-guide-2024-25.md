@@ -4,7 +4,7 @@ description: "No summary available"
 pubDate: 2025-03-06
 author: "MD Home Care"
 tags: []
-image: "/assets/grandma.webp"
+image: "/mdhomecarebuild/assets/grandma.webp"
 ---
 
 ## What is NDIS Short-Term Accommodation and Respite Care?The National Disability Insurance Scheme (NDIS) offers short-term accommodation (STA) and respite care to support people with disabilities and their caregivers. STA provides temporary housing and care, often for skill development or a change of environment, while respite care specifically gives caregivers a break, ensuring participants are cared for in a safe setting.

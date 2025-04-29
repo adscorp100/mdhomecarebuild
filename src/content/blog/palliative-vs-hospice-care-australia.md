@@ -4,7 +4,7 @@ description: "No description provided"
 pubDate: 2024-07-26
 author: "MD Home Care"
 tags: []
-image: "/assets/homecare.webp"
+image: "/mdhomecarebuild/assets/homecare.webp"
 ---
 
 # Understanding Your Care Options: Palliative Care vs. Hospice Care in Australia

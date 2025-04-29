@@ -4,7 +4,7 @@ description: "Comprehensive guide to NDIS support worker pay rates 2024-2025, in
 pubDate: 2025-03-06
 author: "MD Home Care"
 tags: []
-image: "/assets/carer.webp"
+image: "/mdhomecarebuild/assets/carer.webp"
 ---
 
 ## NDIS Support Worker Pay Rates 2024: Key Points- NDIS support worker pay rates vary by qualifications, time of day, and day of week, typically ranging from $30.96 to $42.31 per hour in 2024-2025.

@@ -4,7 +4,7 @@ description: "Comprehensive guide to understanding NDIS Core Supports funding, i
 pubDate: 2025-05-10
 author: "MD Home Care"
 tags: []
-image: "/assets/disabled carer.webp"
+image: "/mdhomecarebuild/assets/disabled carer.webp"
 ---
 
 ## Introduction: What are NDIS Core Supports and Why Understanding Them Matters?The National Disability Insurance Scheme (NDIS) represents a fundamental shift in how Australia supports people with permanent and significant disability. It provides funding for 'reasonable and necessary' supports, aiming to help participants pursue their goals, increase independence, enhance social and economic participation, and improve overall quality of life. Central to achieving these aims is the **Core Supports budget**, a critical component of many NDIS plans.

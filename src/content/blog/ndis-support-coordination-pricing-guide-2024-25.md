@@ -4,7 +4,7 @@ description: "No description provided"
 pubDate: 2025-04-29
 author: "MD Home Care"
 tags: []
-image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
+image: "/mdhomecarebuild/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 
 # Understanding NDIS Support Coordination Pricing 2024-25

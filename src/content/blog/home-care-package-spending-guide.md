@@ -4,7 +4,7 @@ description: "Confused about what your Home Care Package funds can cover? Get cl
 pubDate: 2025-04-25
 author: "MD Home Care"
 tags: []
-image: "/assets/homecare.webp"
+image: "/mdhomecarebuild/assets/homecare.webp"
 ---
 
 ## Key Points- Home Care Package funds must be spent on services directly related to your assessed care needs as documented in your care plan.

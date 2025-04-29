@@ -4,7 +4,7 @@ description: "Complete guide to government funded personal alarms through My Age
 pubDate: 2025-03-11
 author: "MD Home Care"
 tags: []
-image: "/assets/two women looking at alarm.webp"
+image: "/mdhomecarebuild/assets/two women looking at alarm.webp"
 ---
 
 ## Can You Get a Personal Alarm Through My Aged Care? Key Points- Government-funded personal alarms in Australia are available through programs like CHSP, HCP, NDIS, and DVA, with state-specific options like Personal Alert Victoria (PAV) in Victoria and Personal Alert SA in South Australia.

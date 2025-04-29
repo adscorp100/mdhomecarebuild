@@ -106,10 +106,12 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
               </ul>
             </div>
             <div class="tools-links">
-              <h4>Tools</h4>
+              <h4>Services</h4>
               <ul>
-                <li><a href={`${baseUrl}/tools/ndis-eligibility-checker`}>NDIS Eligibility Checker</a></li>
-                <li><a href={`${baseUrl}/tools`}>All Tools</a></li>
+                <li><a href={`${baseUrl}/services/disability-services`}>Disability Services</a></li>
+                <li><a href={`${baseUrl}/services/personal-care`}>Personal Care</a></li>
+                <li><a href={`${baseUrl}/services/clinical-care`}>Clinical Care</a></li>
+                <li><a href={`${baseUrl}/services`}>All Services</a></li>
               </ul>
             </div>
           </div>
@@ -146,8 +148,8 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
     
     /* Text colors */
     --text-color: #0F172A; /* Very dark blue, nearly black */
-    --text-light: #64748B; /* Medium gray with blue tint */
-    --text-lighter: #94A3B8; /* Light gray with blue tint */
+    --text-light: #334155; /* Darker gray with blue tint for better contrast */
+    --text-lighter: #64748B; /* Darker medium gray with blue tint */
     
     /* Background colors */
     --background: #FFFFFF; /* White */
@@ -306,17 +308,21 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
   .phone-link {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
-    color: var(--primary-color) !important;
+    color: white !important;
     font-weight: 600 !important;
-    background-color: var(--complementary);
-    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    padding: 0.75rem 1.5rem;
     border-radius: 2rem;
+    min-width: 200px;
+    text-align: center;
+    transition: background-color 0.2s ease;
   }
 
   .phone-link:hover {
-    background-color: var(--primary-light);
-    color: var(--background) !important;
+    background-color: var(--primary-dark);
+    color: white !important;
   }
 
   .phone-link:hover::after {
@@ -328,6 +334,11 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
     background-color: var(--light-background);
     padding: 4rem 0 1.5rem;
     margin-top: 4rem;
+  }
+
+  /* Main content */
+  main {
+    background-color: #FFFFFF;
   }
 
   .footer-container {
@@ -346,18 +357,25 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
   .footer-logo img {
     height: 40px;
     margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .footer-logo h3 {
     margin-bottom: 1rem;
     color: var(--primary-color);
     font-size: 1.5rem;
+    text-align: center;
   }
 
   .footer-logo p {
     color: var(--text-light);
     max-width: 300px;
     margin-bottom: 1.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .footer-links {
@@ -415,6 +433,9 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
     gap: 0.5rem;
     margin-bottom: 1rem;
     color: var(--text-light);
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .footer-phone:hover {
@@ -427,14 +448,17 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
     background-color: var(--primary-color);
     color: white;
     text-decoration: none;
-    border-radius: 0.25rem;
-    font-weight: 500;
+    border-radius: 2rem;
+    font-weight: 600;
     margin-top: 0.5rem;
     transition: background-color 0.2s ease;
+    min-width: 160px;
+    text-align: center;
   }
 
   .contact-button:hover {
     background-color: var(--primary-dark);
+    color: white;
   }
 
   .footer-bottom {
@@ -460,5 +484,9 @@ const baseUrl = import.meta.env.BASE_URL || "/mdhomecarebuild";
       flex-direction: column;
       gap: 2rem;
     }
+  }
+
+  .contact-info {
+    text-align: center;
   }
 </style> 

@@ -4,7 +4,7 @@ description: "No summary available"
 pubDate: 2025-03-09
 author: "MD Home Care"
 tags: []
-image: "/assets/holdinglinen.webp"
+image: "/mdhomecarebuild/assets/holdinglinen.webp"
 ---
 
 ## Key Points- Home care package level 2 supports older Australians with low-level care needs to live independently at home, providing assistance with daily tasks like cleaning and personal care.

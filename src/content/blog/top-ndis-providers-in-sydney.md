@@ -4,7 +4,7 @@ description: "Find the best NDIS providers Sydney offers with our complete guide
 pubDate: 2025-03-09
 author: "MD Home Care"
 tags: []
-image: "/assets/sydney.webp"
+image: "/mdhomecarebuild/assets/sydney.webp"
 ---
 
 ## Key Points About NDIS Providers Sydney- Our research ranks the top 20 NDIS providers Sydney offers, including major registered NDIS providers like Achieve Australia and local specialists like HomeCaring.

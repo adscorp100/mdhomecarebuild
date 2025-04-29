@@ -458,6 +458,11 @@ document.addEventListener('DOMContentLoaded', () => {
     margin-bottom: 2rem;
     border-bottom: 1px solid #eee;
     padding-bottom: 1.5rem;
+    position: static;
+    background: none;
+    box-shadow: none;
+    z-index: auto;
+    width: 100%;
   }
   
   .category-tag {
@@ -487,15 +492,94 @@ document.addEventListener('DOMContentLoaded', () => {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
+    margin-top: 2rem;
   }
   
   .service-image img {
     width: 100%;
     border-radius: 8px;
+    max-height: 500px;
+    object-fit: cover;
   }
   
   .service-body {
     line-height: 1.8;
+  }
+
+  .service-body h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-color);
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+  
+  .service-body h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  .service-body h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  
+  .service-body p {
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+  }
+  
+  .service-body ul,
+  .service-body ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .service-body li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-body pre {
+    background-color: var(--light-background);
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  .service-body code {
+    font-family: monospace;
+  }
+
+  .service-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  .service-body th,
+  .service-body td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+  }
+
+  .service-body th {
+    background-color: var(--light-background);
+    font-weight: 600;
+  }
+
+  .service-body tr:nth-child(even) {
+    background-color: #f9f9f9;
   }
   
   .locations-section {
@@ -606,7 +690,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   @media (min-width: 768px) {
     .service-content {
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: 1fr;
     }
     
     .related-grid {
