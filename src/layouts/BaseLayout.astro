@@ -82,7 +82,28 @@ const baseUrl = "";
       <!-- Desktop Navigation -->
       <nav class="desktop-nav">
         <a href="/">Home</a>
-        <a href="/services">Services</a>
+        
+        <!-- Services Dropdown -->
+        <div class="dropdown">
+          <a href="/services" class="dropdown-trigger">
+            Services
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-icon"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <div class="dropdown-content">
+            <a href="/services/disability-services">Disability Services</a>
+            <a href="/services/personal-care">Personal Care</a>
+            <a href="/services/clinical-care">Clinical Care</a>
+            <a href="/services/support-workers">Support Workers</a>
+            <a href="/services/domestic-assistance">Domestic Assistance</a>
+            <a href="/services/transport-services">Transport Services</a>
+            <a href="/services/respite-care">Respite Care</a>
+            <a href="/services/community-access-support">Community Access</a>
+            <a href="/services/therapy-services">Therapy Services</a>
+            <a href="/services/sil-services">SIL Services</a>
+            <a href="/services">All Services</a>
+          </div>
+        </div>
+        
         <a href="/blog">Blog</a>
         <a href="/contact">Contact</a>
         <a href="tel:+61405429512" class="phone-link">
@@ -100,7 +121,28 @@ const baseUrl = "";
         </div>
         <nav class="drawer-links">
           <a href="/">Home</a>
-          <a href="/services">Services</a>
+          
+          <!-- Mobile Services Dropdown -->
+          <div class="mobile-dropdown">
+            <button class="mobile-dropdown-trigger">
+              Services
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mobile-dropdown-icon"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="mobile-dropdown-content">
+              <a href="/services">All Services</a>
+              <a href="/services/disability-services">Disability Services</a>
+              <a href="/services/personal-care">Personal Care</a>
+              <a href="/services/clinical-care">Clinical Care</a>
+              <a href="/services/support-workers">Support Workers</a>
+              <a href="/services/domestic-assistance">Domestic Assistance</a>
+              <a href="/services/transport-services">Transport Services</a>
+              <a href="/services/respite-care">Respite Care</a>
+              <a href="/services/community-access-support">Community Access</a>
+              <a href="/services/therapy-services">Therapy Services</a>
+              <a href="/services/sil-services">SIL Services</a>
+            </div>
+          </div>
+          
           <a href="/blog">Blog</a>
           <a href="/contact">Contact</a>
           <a href="tel:+61405429512" class="drawer-phone-link">
@@ -184,6 +226,25 @@ const baseUrl = "";
           link.addEventListener('click', () => {
             mobileDrawer.classList.remove('active');
             body.classList.remove('no-scroll');
+          });
+        });
+      }
+      
+      // Mobile dropdown functionality
+      const mobileDropdownTrigger = document.querySelector('.mobile-dropdown-trigger');
+      const mobileDropdown = document.querySelector('.mobile-dropdown');
+      
+      if (mobileDropdownTrigger && mobileDropdown) {
+        mobileDropdownTrigger.addEventListener('click', () => {
+          mobileDropdown.classList.toggle('active');
+        });
+        
+        // Close dropdown when clicking a dropdown item
+        const dropdownLinks = document.querySelectorAll('.mobile-dropdown-content a');
+        dropdownLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            // Keep the mobile drawer open, just close the dropdown
+            mobileDropdown.classList.remove('active');
           });
         });
       }
@@ -347,81 +408,147 @@ const baseUrl = "";
 
   /* Desktop Navigation */
   .desktop-nav {
-    display: flex;
-    justify-content: center;
-    padding: 0 1.5rem;
-    gap: 2rem;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    display: none;
   }
 
-  .desktop-nav a {
-    text-decoration: none;
-    color: var(--header-text-color);
-    font-weight: 500;
-    font-size: 1rem;
-    transition: color 0.2s ease;
-    position: relative;
-    padding: 0.75rem 0;
+  @media (min-width: 768px) {
+    .desktop-nav {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      justify-content: center;
+      padding: 0 1.5rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .desktop-nav a {
+      color: var(--header-text-color);
+      font-weight: 500;
+      font-size: 0.9rem;
+      padding: 0.5rem 0;
+      position: relative;
+    }
+    
+    .desktop-nav a:hover {
+      color: var(--primary-light);
+    }
+    
+    .desktop-nav a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: var(--primary-color);
+      transition: width 0.3s ease;
+    }
+    
+    .desktop-nav a:hover::after {
+      width: 100%;
+    }
+    
+    /* Phone Link */
+    .phone-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      color: var(--header-background) !important;
+      font-weight: 600 !important;
+      background-color: var(--primary-light);
+      padding: 0.6rem 1.2rem !important;
+      border-radius: 2rem;
+      min-width: 180px;
+      white-space: nowrap;
+      text-align: center;
+      transition: background-color 0.2s ease;
+    }
+    
+    .phone-link:hover {
+      background-color: var(--primary-color);
+      color: var(--header-background) !important;
+    }
+    
+    .phone-link:hover::after {
+      width: 0 !important;
+    }
+    
+    /* Dropdown Styles */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-trigger {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      cursor: pointer;
+    }
+    
+    .dropdown-icon {
+      transition: transform 0.2s ease;
+    }
+    
+    .dropdown:hover .dropdown-icon {
+      transform: rotate(180deg);
+    }
+    
+    .dropdown-content {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: var(--header-background);
+      min-width: 200px;
+      border: 1px solid var(--header-border-color);
+      border-radius: 0.25rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(10px);
+      transition: all 0.2s ease-in-out;
+      z-index: 100;
+      padding: 0.5rem 0;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+    
+    .dropdown-content a {
+      display: block;
+      padding: 0.5rem 1rem;
+      color: var(--header-text-light);
+      font-size: 0.875rem;
+      white-space: nowrap;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: rgba(255, 255, 255, 0.05);
+      color: var(--primary-light);
+    }
+    
+    .dropdown-content a::after {
+      display: none;
+    }
   }
 
-  .desktop-nav a:hover {
-    color: var(--primary-light);
-  }
-
-  .desktop-nav a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--primary-light);
-    transition: width 0.2s ease;
-  }
-
-  .desktop-nav a:hover::after {
-    width: 100%;
-  }
-
-  .phone-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    color: var(--header-background) !important;
-    font-weight: 600 !important;
-    background-color: var(--primary-light);
-    padding: 0.6rem 1.2rem !important;
-    border-radius: 2rem;
-    min-width: 180px;
-    white-space: nowrap;
-    text-align: center;
-    transition: background-color 0.2s ease;
-  }
-
-  .phone-link:hover {
-    background-color: var(--primary-color);
-    color: var(--header-background) !important;
-  }
-
-  .phone-link:hover::after {
-    width: 0 !important;
-  }
-
-  /* Mobile drawer */
+  /* Mobile Drawer */
   .mobile-drawer {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 80%;
-    max-width: 320px;
+    width: 100%;
     height: 100%;
     background-color: var(--header-background);
-    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    transition: right 0.3s ease;
+    z-index: 1001;
+    transition: right 0.3s ease-in-out;
     overflow-y: auto;
   }
 
@@ -450,23 +577,61 @@ const baseUrl = "";
   }
 
   .drawer-links a {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
     color: var(--header-text-color);
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 1rem 0;
-    transition: color 0.2s ease;
-    margin-bottom: 1rem;
-  }
-
-  .drawer-links a:last-child {
-    margin-bottom: 0;
+    border-bottom: 1px solid var(--header-border-color);
   }
 
   .drawer-links a:hover {
-    color: var(--primary-light);
+    background-color: rgba(255, 255, 255, 0.05);
   }
 
+  /* Mobile dropdown styles */
+  .mobile-dropdown {
+    width: 100%;
+    border-bottom: 1px solid var(--header-border-color);
+  }
+
+  .mobile-dropdown-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+    color: var(--header-text-color);
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .mobile-dropdown-icon {
+    transition: transform 0.2s ease;
+  }
+
+  .mobile-dropdown.active .mobile-dropdown-icon {
+    transform: rotate(180deg);
+  }
+
+  .mobile-dropdown-content {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .mobile-dropdown.active .mobile-dropdown-content {
+    display: block;
+  }
+
+  .mobile-dropdown-content a {
+    padding-left: 2.5rem;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  /* Drawer Phone Link */
   .drawer-phone-link {
     display: flex;
     align-items: center;
