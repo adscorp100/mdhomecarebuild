@@ -316,8 +316,8 @@ Object.keys(suburbsByState).forEach(state => {
 const sortedStates = Object.keys(suburbsByState).sort();
 
 // Create a generic title and description with 'Australia' instead of {suburb}
-const genericTitle = entry.data.title.replace('{suburb}', 'Australia');
-const genericDescription = entry.data.description.replace('{suburb}', 'Australia');
+const genericTitle = entry.data.title.replace(/{suburb}/g, 'Australia');
+const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australia');
 ---
 
 <BaseLayout 
@@ -393,8 +393,8 @@ const genericDescription = entry.data.description.replace('{suburb}', 'Australia
           <div class="related-grid">
             {relatedServices.map((service) => (
               <div class="related-card">
-                <h3>{service.data.title.replace('{suburb}', 'Australia')}</h3>
-                <p>{service.data.description.replace('{suburb}', 'Australia')}</p>
+                <h3>{service.data.title.replace(/{suburb}/g, 'Australia')}</h3>
+                <p>{service.data.description.replace(/{suburb}/g, 'Australia')}</p>
                 <a href={`/services/${service.slug}`}>Learn More →</a>
               </div>
             ))}
@@ -419,17 +419,20 @@ const genericDescription = entry.data.description.replace('{suburb}', 'Australia
 <script>
 // Suburb search functionality
 document.addEventListener('DOMContentLoaded', () => {
-  // Replace all {suburb} with "Australia" in the content
+  // Replace all placeholders with default values in the content
   const contentContainer = document.getElementById('content-container');
   if (contentContainer) {
     // Replace text in the content container and all its child nodes
-    const replaceText = (element, find, replace) => {
+    const replaceText = (element, placeholders) => {
       // Skip certain elements like script and style tags
       if (element.tagName === 'SCRIPT' || element.tagName === 'STYLE') return;
 
       // Handle text nodes
       if (element.nodeType === Node.TEXT_NODE) {
-        const newText = element.textContent.replace(new RegExp(find, 'g'), replace);
+        let newText = element.textContent;
+        for (const [find, replace] of Object.entries(placeholders)) {
+          newText = newText.replace(new RegExp(find, 'g'), replace);
+        }
         if (element.textContent !== newText) {
           element.textContent = newText;
         }
@@ -438,12 +441,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Recursively process child nodes
       for (const child of element.childNodes) {
-        replaceText(child, find, replace);
+        replaceText(child, placeholders);
       }
     };
 
-    // Run the replacement on the content container
-    replaceText(contentContainer, '{suburb}', 'Australia');
+    // Run the replacement on the content container with all placeholders
+    replaceText(contentContainer, {
+      '{suburb}': 'Australia',
+      '{region}': 'all regions',
+      '{state}': 'nationwide'
+    });
   }
   
   const searchInput = document.getElementById('suburb-search');

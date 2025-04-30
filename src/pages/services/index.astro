@@ -44,25 +44,24 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
           <ul class="category-links">
             {sortedCategories.map((category) => (
               <li>
-                <a href={`#category-${category.toLowerCase().replace(/\s+/g, '-')}`} class="category-link">
+                <a href={"#category-" + category.toLowerCase().replace(/\s+/g, '-')} class="category-link">
                   {category}
                   <span class="category-count">{servicesByCategory[category].length}</span>
                 </a>
               </li>
             ))}
           </ul>
-          <a href="#top" class="back-to-top-nav">↑ Back to Top</a>
         </div>
         
         <!-- Service Categories Content -->
         <div class="services-content">
           {sortedCategories.map((category) => (
-            <div id={`category-${category.toLowerCase().replace(/\s+/g, '-')}`} class="category-section">
+            <div id={"category-" + category.toLowerCase().replace(/\s+/g, '-')} class="category-section">
               <h2>{category}</h2>
               <div class="services-grid">
                 {servicesByCategory[category].map((service) => (
                   <article class="service-card">
-                    <a href={`/services/${service.slug}`} class="card-link">
+                    <a href={"/services/" + service.slug} class="card-link">
                       {service.data.image && (
                         <div class="card-image">
                           <img src={service.data.image} alt={service.data.title.replace('{suburb}', 'Australia')} />
@@ -70,14 +69,13 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
                       )}
                       <div class="card-content">
                         <h3>{service.data.title.replace('{suburb}', 'Australia')}</h3>
-                        <p class="service-description">{service.data.description.replace('{suburb}', 'Australia')}</p>
+                        <p class="service-description">{service.data.description.replace(/\{suburb\}/g, 'Australia')}</p>
                         <span class="read-more">View details</span>
                       </div>
                     </a>
                   </article>
                 ))}
               </div>
-              <a href="#top" class="back-to-top">↑ Top</a>
             </div>
           ))}
         </div>
@@ -158,6 +156,28 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
     position: sticky;
     top: 100px;
     z-index: 10;
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+    padding-right: 10px;
+    scrollbar-width: thin;
+  }
+  
+  .category-nav::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .category-nav::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .category-nav::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+  }
+  
+  .category-nav::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
   }
   
   .category-nav h2 {
@@ -169,7 +189,7 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
   .category-links {
     list-style: none;
     padding: 0;
-    margin: 0 0 1.5rem 0;
+    margin: 0;
   }
   
   .category-links li {
@@ -198,10 +218,7 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
   }
   
   .back-to-top-nav {
-    font-size: 0.9rem;
-    color: var(--text-lighter);
-    margin-top: 1rem;
-    display: inline-block;
+    display: none;
   }
   
   .category-section {
@@ -228,10 +245,14 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
     height: 100%;
     display: flex;
     transition: transform 0.2s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
   }
   
   .service-card:hover {
     transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
   }
   
   .card-link {
@@ -261,10 +282,12 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
   }
   
   .card-content {
-    padding: 1rem 0;
+    padding: 1.25rem;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    background-color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.03);
   }
   
   .card-content h3 {
@@ -295,12 +318,7 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
   }
   
   .back-to-top {
-    display: inline-block;
-    margin-top: 1rem;
-    font-weight: 400;
-    color: var(--text-lighter);
-    text-decoration: none;
-    font-size: 0.9rem;
+    display: none;
   }
   
   /* Mobile & Tablet Layouts */

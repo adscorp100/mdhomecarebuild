@@ -49,4 +49,4 @@ Our personal care services in {suburb} can be accessed through NDIS funding or H
 
 Contact our {suburb} office today to discuss how our personal care services can help you maintain your independence and quality of life right here in {suburb}. We're here to answer your questions and provide a personalized quote based on your specific needs.
 
-Serving all areas of {suburb} and nearby neighborhoods in {region}, {state}.
+Proudly serving all areas of {suburb} and nearby neighborhoods in {region}, {state}. Our {suburb} team is available throughout the entire {region} area.
