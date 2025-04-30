@@ -108,13 +108,58 @@ const structuredData = JSON.stringify(articleSchema);
   .post-content table {
     display: block;
     width: 100%;
-    overflow-x: auto;
-    border-collapse: collapse;
     margin-bottom: 1.5rem;
     font-size: 0.9rem;
     -webkit-overflow-scrolling: touch;
   }
   
+  /* Card-style tables for all viewport sizes */
+  .post-content table.responsive-table {
+    display: block;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  .post-content table.responsive-table thead {
+    display: none;
+  }
+  
+  .post-content table.responsive-table tbody {
+    display: block;
+    width: 100%;
+  }
+  
+  .post-content table.responsive-table tr {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+  
+  .post-content table.responsive-table td {
+    display: flex;
+    padding: 12px 16px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .post-content table.responsive-table td:last-child {
+    border-bottom: none;
+  }
+  
+  .post-content table.responsive-table td:before {
+    content: attr(data-label);
+    font-weight: 600;
+    width: 30%;
+    min-width: 120px;
+    display: inline-block;
+    margin-right: 16px;
+  }
+  
+  /* Traditional table styles - no longer used but kept for reference */
   .post-content th,
   .post-content td {
     border: 1px solid #ddd;
@@ -127,6 +172,32 @@ const structuredData = JSON.stringify(articleSchema);
     font-weight: 600;
   }
 </style>
+
+<script>
+  // Add data attributes to table cells for responsive display
+  document.addEventListener('DOMContentLoaded', () => {
+    const tables = document.querySelectorAll('.post-content table');
+    
+    tables.forEach(table => {
+      // Add responsive-table class to all tables
+      table.classList.add('responsive-table');
+      
+      // Get all headers
+      const headers = Array.from(table.querySelectorAll('th')).map(th => th.textContent);
+      
+      // For each row in tbody, add data-label to each cell
+      const rows = table.querySelectorAll('tbody tr');
+      rows.forEach(row => {
+        const cells = row.querySelectorAll('td');
+        cells.forEach((cell, index) => {
+          if (headers[index]) {
+            cell.setAttribute('data-label', headers[index]);
+          }
+        });
+      });
+    });
+  });
+</script>
 
 <style>
   .blog-container {
@@ -368,6 +439,7 @@ const structuredData = JSON.stringify(articleSchema);
     
     .blog-post {
       padding: 2rem;
+      max-width: 900px;
     }
     
     .post-content-wrapper {
@@ -400,6 +472,7 @@ const structuredData = JSON.stringify(articleSchema);
     
     .blog-post {
       padding: 2rem 0;
+      max-width: 1000px;
     }
     
     .post-header h1 {
@@ -425,6 +498,23 @@ const structuredData = JSON.stringify(articleSchema);
     
     .post-content p {
       margin-bottom: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .blog-post {
+      max-width: 1100px;
+    }
+    
+    .post-content-wrapper {
+      grid-template-columns: 280px 1fr;
+      gap: 3rem;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .blog-post {
+      max-width: 1200px;
     }
   }
 
