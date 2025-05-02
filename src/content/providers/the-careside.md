@@ -1,12 +1,12 @@
 ---
 name: "The CareSide"
-description: "The CareSide delivers the highest quality care at the industry's most affordable prices, providing more hours of premium home care with prices on average 25% lower than other providers."
+description: "Family-owned provider (est. 2017) offering affordable, high-quality home care, emphasizing continuity of care and directly employed staff. Averages 25% more care hours for clients."
 category: "Aged Care"
 phone: "1300 85 40 80"
 email: "enquiry@thecareside.com.au"
 website: "https://thecareside.com.au"
 address: ""
-services: ["Home Care Packages", "Commonwealth Home Support Program", "Personal Care", "Palliative Care", "Nursing Care", "Live-In Care", "Post-Hospital Care", "Companion Care", "Overnight Care", "Respite Care", "24-Hour Care", "Self-Managed Care", "Private Home Care", "Gardening"]
+services: ["Home Care Packages (HCP)", "CHSP", "Personal Care", "Palliative Care", "Nursing Care", "Live-In Care", "Post-Hospital Care", "Companion Care", "Overnight Care", "Respite Care", "24-Hour Care", "Self-Managed Care", "Private Home Care", "Gardening"]
 operatingHours: ""
 ndisRegistered: false
 agedCareRegistered: true
@@ -69,7 +69,8 @@ The CareSide provides services across all of Australia including:
 ## Recognition
 
 Registered affiliations include:
-- Leading Age Services Australia
+- Approved Aged Care Provider
+- LASA Member
 - My Care My Choice
 - My Care Path
 - Motor Neurone Disease Association of WA 

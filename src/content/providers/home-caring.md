@@ -1,49 +1,51 @@
 ---
-name: "Home Caring"
-description: "Home Caring provides exceptional support services for seniors and people with a disability throughout Australia."
-category: "Home Care"
+name: "HomeCaring"
+description: "Provides exceptional support for seniors and people with disability, focusing on comfort, confidence, independence, and dignity at home."
+category: "Both"
 phone: "1300 875 377"
 email: "info@homecaring.com.au"
 website: "https://www.homecaring.com.au"
 address: "Suite 4, 327-329 Woodpark Rd, Smithfield NSW 2164, Australia"
-services: ["NDIS Support", "Home Care Packages", "Disability Support", "Dementia Care", "Palliative Care", "Respite Care", "24/7 Care", "Allied Health Care"]
+services: ["Home Care Packages (L1-4)", "NDIS Support", "SIL", "SDA", "Core Supports", "Plan Management", "Support Coordination", "Therapy", "Behaviour Support", "Private Care", "Dementia Care", "Palliative Care", "Respite Care"]
 operatingHours: "Monday to Friday, 9:00 AM - 5:00 PM"
 ndisRegistered: true
 agedCareRegistered: true
 claimed: false
 ---
 
-# Home Caring
+# HomeCaring
 
-Home Caring provides exceptional support services for seniors and people with a disability throughout Australia.
+HomeCaring provides exceptional support services for seniors and people with a disability throughout Australia.
 
 ## About This Provider
 
-Home Caring is dedicated to providing the support you need, from a team who cares, in a way that suits you best. They offer a range of services for both NDIS participants and Home Care Package recipients.
+HomeCaring is dedicated to providing the support you need, from a team who cares, in a way that suits you best. They offer a range of services for both NDIS participants and Home Care Package recipients.
 
 Their philosophy is that everyone should have a sense of independence and dignity in their own home, without the pressure of coping all on their own. This drives them to provide high quality, compassionate home care services that meet individual needs – they provide care of the highest standards that clients can trust.
 
 ## Services Offered
 
 ### Home Aged Care
+- Home Care Packages (Level 1-4)
 - Personal Care
 - Domestic Assistance
 - Dementia Care
 - Palliative Care
 - Respite Care
 - 24/7 Care
-- Allied Health Care
+- Private Care
 
 ### Disability Support Services
-- Life Skills
-- Community Participation
-- Behavior Support
-- Complex Care
-- Disability Care
+- NDIS Support
+- Supported Independent Living (SIL)
+- Specialist Disability Accommodation (SDA)
+- Core Supports
+- Plan Management
 - Support Coordination
-- Assistive Technology
+- Therapy
+- Behaviour Support
 
-## Why Choose Home Caring
+## Why Choose HomeCaring
 
 ### Locally Based, Multicultural Teams
 Their multicultural care team lives locally and is passionate about helping people in their community live fulfilled and confident lives.
@@ -65,22 +67,28 @@ Their care experts are available whenever needed. Clients can also book services
 
 ## Service Locations
 
-Home Caring provides services across Australia, including:
+HomeCaring provides services across Australia, including:
 - New South Wales
-- Northern Territory
-- Queensland
-- South Australia
-- Tasmania
 - Victoria
+- Queensland
 - Western Australia
+- South Australia
+- Australian Capital Territory
+- Tasmania
+- Northern Territory
+
+## Accreditations
+
+- Approved Aged Care Provider
+- NDIS Registered Provider
 
 ## Frequently Asked Questions
 
-### How can Home Caring benefit me?
-Home Caring has a dedicated team of professionals with skills and experience across the aged care and disability sectors. They provide services through the NDIS, Home Care Packages and private arrangements. They have the flexibility and knowledge to be responsive to client needs at all times. They offer a complimentary in-home assessment and can guide clients through various ways of receiving appropriate support.
+### How can HomeCaring benefit me?
+HomeCaring has a dedicated team of professionals with skills and experience across the aged care and disability sectors. They provide services through the NDIS, Home Care Packages and private arrangements. They have the flexibility and knowledge to be responsive to client needs at all times. They offer a complimentary in-home assessment and can guide clients through various ways of receiving appropriate support.
 
-### Can I switch from my current provider to Home Caring?
+### Can I switch from my current provider to HomeCaring?
 Yes! Clients can get in touch with their team to learn about the process and how they can work together to maximize their package.
 
-### What services does Home Caring provide?
-Home Caring provides a comprehensive range of services under NDIS and Home Care Packages. They can also provide privately paid services when government funding isn't available or while waiting for approvals. 
+### What services does HomeCaring provide?
+HomeCaring provides a comprehensive range of services under NDIS and Home Care Packages. They can also provide privately paid services when government funding isn't available or while waiting for approvals. 
