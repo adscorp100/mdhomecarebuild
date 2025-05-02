@@ -17,7 +17,36 @@ const { entry } = Astro.props;
 const { Content, headings } = await entry.render();
 
 // Generate JSON-LD structured data for the article
-const articleSchema = {
+const articleSchema: {
+  "@context": string;
+  "@type": string;
+  headline: string;
+  datePublished: string;
+  author: {
+    "@type": string;
+    name: string;
+  };
+  publisher: {
+    "@type": string;
+    name: string;
+    logo: {
+      "@type": string;
+      url: string;
+    };
+  };
+  description: string;
+  image: string | undefined;
+  mainEntityOfPage: {
+    "@type": string;
+    "@id": string;
+  };
+  hasPart?: Array<{
+    "@type": string;
+    isAccessibleForFree: string;
+    cssSelector: string;
+    name: string;
+  }>;
+} = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": entry.data.title,
@@ -128,6 +157,18 @@ const structuredData = JSON.stringify(articleSchema);
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
+  }
+  
+  /* Mobile styles for content elements */
+  @media (max-width: 639px) {
+    .post-content ul, 
+    .post-content ol {
+      padding-left: 2rem !important;
+    }
+    
+    .post-content li {
+      margin-bottom: 0.75rem !important;
+    }
   }
   
   .post-content table.responsive-table thead {
@@ -244,7 +285,9 @@ const structuredData = JSON.stringify(articleSchema);
           // Handle close button click
           closeBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            document.body.removeChild(tocOverlay);
+            if (tocOverlay && document.body.contains(tocOverlay)) {
+              document.body.removeChild(tocOverlay);
+            }
             document.body.style.overflow = '';
           });
           
@@ -252,7 +295,9 @@ const structuredData = JSON.stringify(articleSchema);
           const tocLinks = tocOverlay.querySelectorAll('.toc-item a');
           tocLinks.forEach(link => {
             link.addEventListener('click', () => {
-              document.body.removeChild(tocOverlay);
+              if (tocOverlay && document.body.contains(tocOverlay)) {
+                document.body.removeChild(tocOverlay);
+              }
               document.body.style.overflow = '';
             });
           });
@@ -260,7 +305,9 @@ const structuredData = JSON.stringify(articleSchema);
           // Handle click outside to close
           tocOverlay.addEventListener('click', (e) => {
             if (e.target === tocOverlay) {
-              document.body.removeChild(tocOverlay);
+              if (tocOverlay && document.body.contains(tocOverlay)) {
+                document.body.removeChild(tocOverlay);
+              }
               document.body.style.overflow = '';
             }
           });
@@ -465,6 +512,11 @@ const structuredData = JSON.stringify(articleSchema);
     .post-content td {
       padding: 0.6rem 0.8rem;
       min-width: 120px;
+    }
+    
+    .post-content ul, 
+    .post-content ol {
+      padding-left: 1.5rem;
     }
   }
   
@@ -870,5 +922,17 @@ const structuredData = JSON.stringify(articleSchema);
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Mobile specific adjustments */
+  @media (max-width: 639px) {
+    .post-content ul, 
+    .post-content ol {
+      padding-left: 2rem;
+    }
+    
+    .post-content li {
+      margin-bottom: 0.75rem;
+    }
   }
 </style> 
