@@ -1,0 +1,422 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Define props
+export interface Props {
+  provider: any;
+}
+
+// Generate static paths for all providers
+export async function getStaticPaths() {
+  const providers = await getCollection('providers');
+  
+  return providers.map(provider => ({
+    params: { slug: provider.slug },
+    props: { provider },
+  }));
+}
+
+// Get the provider from props
+const { provider } = Astro.props;
+
+// Render the provider content to HTML
+const { Content } = await provider.render();
+---
+
+<BaseLayout title={`${provider.data.name} | Provider Directory | MD Home Care`}>
+  <div class="container">
+    <article class="provider-article">
+      <!-- Provider Header -->
+      <div class="provider-header">
+        <div class="back-link">
+          <a href="/directory">← Back to Directory</a>
+        </div>
+        <h1>{provider.data.name}</h1>
+        
+        <div class="provider-meta">
+          {provider.data.category && (
+            <span class="provider-category">{provider.data.category}</span>
+          )}
+          
+          <div class="provider-registrations">
+            {provider.data.ndisRegistered && (
+              <span class="registration-badge ndis">NDIS Registered</span>
+            )}
+            {provider.data.agedCareRegistered && (
+              <span class="registration-badge aged-care">Aged Care Approved</span>
+            )}
+            <span class={`claim-badge ${provider.data.claimed ? 'claimed' : 'unclaimed'}`}>
+              {provider.data.claimed ? 'Verified Listing' : 'Unverified Listing'}
+            </span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Provider Content -->
+      <div class="provider-content-wrap">
+        <div class="provider-content">
+          <!-- Contact Information Sidebar -->
+          <aside class="provider-sidebar">
+            <div class="contact-card">
+              <h3>Contact Information</h3>
+              
+              {provider.data.phone && (
+                <div class="contact-item">
+                  <span class="contact-label">Phone:</span>
+                  <a href={`tel:${provider.data.phone.replace(/\s+/g, '')}`} class="contact-value">{provider.data.phone}</a>
+                </div>
+              )}
+              
+              {provider.data.email && (
+                <div class="contact-item">
+                  <span class="contact-label">Email:</span>
+                  <a href={`mailto:${provider.data.email}`} class="contact-value">{provider.data.email}</a>
+                </div>
+              )}
+              
+              {provider.data.website && (
+                <div class="contact-item">
+                  <span class="contact-label">Website:</span>
+                  <a href={provider.data.website} target="_blank" rel="noopener noreferrer" class="contact-value">Visit Website</a>
+                </div>
+              )}
+              
+              {provider.data.address && (
+                <div class="contact-item">
+                  <span class="contact-label">Address:</span>
+                  <span class="contact-value">{provider.data.address}</span>
+                </div>
+              )}
+              
+              {provider.data.operatingHours && (
+                <div class="contact-item">
+                  <span class="contact-label">Hours:</span>
+                  <span class="contact-value">{provider.data.operatingHours}</span>
+                </div>
+              )}
+            </div>
+            
+            {provider.data.services && provider.data.services.length > 0 && (
+              <div class="services-card">
+                <h3>Services Offered</h3>
+                <ul class="services-list">
+                  {provider.data.services.map((service: string) => (
+                    <li>{service}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            
+            <div class="cta-card">
+              <h3>Need More Information?</h3>
+              <p>Our team can help you connect with this provider or find alternatives in your area.</p>
+              <a href="/contact" class="cta-button">Contact Our Team</a>
+            </div>
+            
+            {!provider.data.claimed && (
+              <div class="claim-card">
+                <h3>Are you from {provider.data.name}?</h3>
+                <p>Claim this listing to update your information and connect with potential clients directly.</p>
+                <a href="/contact?claim={provider.slug}" class="claim-button">Claim This Listing</a>
+              </div>
+            )}
+          </aside>
+          
+          <!-- Main Content -->
+          <div class="main-content">
+            <p class="provider-description">{provider.data.description}</p>
+            
+            <div class="content-wrapper">
+              <Content />
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .provider-article {
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .provider-header {
+    margin-bottom: 2rem;
+  }
+  
+  .back-link {
+    margin-bottom: 1rem;
+  }
+  
+  .back-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+  }
+  
+  .back-link a:hover {
+    color: var(--primary-dark);
+  }
+  
+  .provider-header h1 {
+    color: var(--primary-dark);
+    margin-bottom: 0.75rem;
+    font-size: 2rem;
+  }
+  
+  .provider-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .provider-category {
+    background-color: var(--light-background);
+    color: var(--text-color);
+    padding: 0.3rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .provider-registrations {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .registration-badge {
+    padding: 0.3rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  
+  .registration-badge.ndis {
+    background-color: #f0f7ff;
+    color: #0066CC;
+  }
+  
+  .registration-badge.aged-care {
+    background-color: #f0fff7;
+    color: #00994d;
+  }
+  
+  .claim-badge {
+    padding: 0.3rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  
+  .claim-badge.claimed {
+    background-color: #f0fff7;
+    color: #00994d;
+  }
+  
+  .claim-badge.claimed::before {
+    content: '✓';
+    margin-right: 0.3rem;
+    font-weight: bold;
+  }
+  
+  .claim-badge.unclaimed {
+    background-color: #fff0f0;
+    color: #994d00;
+  }
+  
+  .provider-content-wrap {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .provider-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .provider-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+  }
+  
+  .content-wrapper {
+    line-height: 1.6;
+  }
+  
+  .content-wrapper h2 {
+    color: var(--primary-dark);
+    margin: 1.5rem 0 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .content-wrapper p {
+    margin-bottom: 1rem;
+  }
+  
+  .content-wrapper ul,
+  .content-wrapper ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+  
+  .content-wrapper li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Sidebar styles */
+  .provider-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .contact-card,
+  .services-card,
+  .cta-card,
+  .claim-card {
+    background-color: var(--light-background);
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+  
+  .contact-card h3,
+  .services-card h3,
+  .cta-card h3,
+  .claim-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: var(--primary-dark);
+  }
+  
+  .contact-item {
+    margin-bottom: 0.75rem;
+  }
+  
+  .contact-label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.25rem;
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+  
+  .contact-value {
+    display: block;
+    color: var(--text-light);
+    word-break: break-word;
+  }
+  
+  a.contact-value {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  a.contact-value:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+  }
+  
+  .services-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .services-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 0.95rem;
+  }
+  
+  .services-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .cta-card {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .cta-card h3 {
+    color: white;
+  }
+  
+  .cta-card p {
+    margin-bottom: 1.25rem;
+    font-size: 0.95rem;
+    opacity: 0.9;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: white;
+    color: var(--primary-color);
+    padding: 0.5rem 1.25rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    text-align: center;
+  }
+  
+  .cta-card .cta-button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: translateY(-2px);
+  }
+  
+  .claim-card {
+    border: 1px dashed #ccc;
+    background-color: #fafafa;
+  }
+  
+  .claim-card p {
+    margin-bottom: 1.25rem;
+    font-size: 0.95rem;
+    color: var(--text-light);
+  }
+  
+  .claim-button {
+    display: inline-block;
+    background-color: #f8f8f8;
+    color: var(--text-color);
+    border: 1px solid #ddd;
+    padding: 0.5rem 1.25rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    text-align: center;
+  }
+  
+  .claim-button:hover {
+    background-color: #eee;
+    transform: translateY(-2px);
+  }
+  
+  /* Desktop layout */
+  @media (min-width: 900px) {
+    .provider-content {
+      grid-template-columns: 300px 1fr;
+    }
+  }
+</style> 

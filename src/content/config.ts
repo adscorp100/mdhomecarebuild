@@ -24,7 +24,26 @@ const services = defineCollection({
   }),
 });
 
+// Define schema for providers collection
+const providersCollection = defineCollection({
+  schema: z.object({
+    name: z.string(),
+    description: z.string(),
+    category: z.string(),
+    phone: z.string().optional(),
+    email: z.string().optional(),
+    website: z.string().optional(),
+    address: z.string().optional(),
+    services: z.array(z.string()).optional(),
+    operatingHours: z.string().optional(),
+    ndisRegistered: z.boolean().optional(),
+    agedCareRegistered: z.boolean().optional(),
+    claimed: z.boolean().default(false),
+  }),
+});
+
 export const collections = {
   'blog': blog,
   'services': services,
+  'providers': providersCollection,
 }; 
