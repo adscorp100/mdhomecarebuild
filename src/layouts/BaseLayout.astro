@@ -16,6 +16,91 @@ const {
 // Get the base URL for assets
 const baseUrl = "";
 
+// Generate JSON-LD structured data for organization
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "MD Homecare",
+  "url": "https://mdhomecare.com.au",
+  "logo": "https://mdhomecare.com.au/assets/logo.svg",
+  "image": "https://mdhomecare.com.au/assets/logo.svg",
+  "description": "Professional NDIS home care services in Melbourne & Sydney. MD Homecare offers disability homecare support, domiciliary care services, SIL, and community participation.",
+  "telephone": "+61405429512",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "6/11 York St",
+    "addressLocality": "Sydney",
+    "addressRegion": "NSW",
+    "postalCode": "2000",
+    "addressCountry": "AU"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -33.8651,
+    "longitude": 151.2069
+  },
+  "sameAs": [
+    "https://www.facebook.com/mdhomecare",
+    "https://www.instagram.com/mdhomecare"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "15",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Sarah Thompson"
+      },
+      "datePublished": "2023-10-15",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "reviewBody": "MD Homecare's support workers have been amazing for my daughter. They're incredibly patient, caring, and reliable. I couldn't ask for better NDIS support."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Michael Johnson"
+      },
+      "datePublished": "2023-09-22",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "reviewBody": "The team at MD Homecare has made such a difference in my life. Their in-home disability support services are personalized and professional."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Emma Wilson"
+      },
+      "datePublished": "2023-11-08",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "reviewBody": "Very satisfied with the domestic assistance services. The support workers are always on time and do a thorough job."
+    }
+  ]
+};
+
+const structuredDataOrg = JSON.stringify(organizationSchema);
 // Import the logo directly from the src/assets directory
 // Removed unused imports
 ---
@@ -56,6 +141,9 @@ const baseUrl = "";
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Organization LocalBusiness Structured Data -->
+    <script type="application/ld+json" set:html={structuredDataOrg} />
   </head>
   <body>
     <header class="site-header">

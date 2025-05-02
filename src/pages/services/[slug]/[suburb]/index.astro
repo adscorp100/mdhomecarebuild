@@ -297,12 +297,11 @@ export async function getStaticPaths() {
 // Get the service and suburb data for the current page
 const { service, suburbInfo } = Astro.props;
 const { Content } = await service.render();
-
 // Format suburb name for display (convert slug to title case)
-const formatSuburbName = (slug) => {
+const formatSuburbName = (slug: string): string => {
   return slug
     .split('-')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 };
 
@@ -318,8 +317,8 @@ const relatedServices = allServices
   .slice(0, 3); // Limit to 3 related services
 
 // Create a title and description with the suburb name
-const title = service.data.title.replace('{suburb}', suburbName);
-const description = service.data.description.replace('{suburb}', suburbName);
+const title = service.data.title.replace(/{suburb}/g, suburbName);
+const description = service.data.description.replace(/{suburb}/g, suburbName);
 ---
 
 <BaseLayout 
@@ -399,29 +398,36 @@ const description = service.data.description.replace('{suburb}', suburbName);
 // After the page loads, replace all instances of {suburb} with the actual suburb name
 document.addEventListener('DOMContentLoaded', () => {
   const contentContainer = document.getElementById('content-container');
+  const serviceDescription = document.querySelector('.service-description');
+  
+  // Function to replace text in an element and its children
+  const replaceText = (element, find, replace) => {
+    // Skip certain elements like script and style tags
+    if (element.tagName === 'SCRIPT' || element.tagName === 'STYLE') return;
+
+    // Handle text nodes
+    if (element.nodeType === Node.TEXT_NODE) {
+      const newText = element.textContent.replace(new RegExp(find, 'g'), replace);
+      if (element.textContent !== newText) {
+        element.textContent = newText;
+      }
+      return;
+    }
+
+    // Recursively process child nodes
+    for (const child of element.childNodes) {
+      replaceText(child, find, replace);
+    }
+  };
+
+  // Replace in content container
   if (contentContainer) {
-    // Replace text in the content container and all its child nodes
-    const replaceText = (element, find, replace) => {
-      // Skip certain elements like script and style tags
-      if (element.tagName === 'SCRIPT' || element.tagName === 'STYLE') return;
-
-      // Handle text nodes
-      if (element.nodeType === Node.TEXT_NODE) {
-        const newText = element.textContent.replace(new RegExp(find, 'g'), replace);
-        if (element.textContent !== newText) {
-          element.textContent = newText;
-        }
-        return;
-      }
-
-      // Recursively process child nodes
-      for (const child of element.childNodes) {
-        replaceText(child, find, replace);
-      }
-    };
-
-    // Run the replacement on the content container
     replaceText(contentContainer, '{suburb}', suburbName);
+  }
+  
+  // Also replace in service description (redundant but just to be safe)
+  if (serviceDescription) {
+    replaceText(serviceDescription, '{suburb}', suburbName);
   }
 });
 </script>

@@ -78,9 +78,9 @@ const sortedCategories = Object.keys(providersByCategory).sort();
                         <div class="card-header">
                           <h3>{provider.data.name}</h3>
                           {provider.data.claimed ? (
-                            <span class="claim-status claimed" title="Verified Listing">✓</span>
+                            <span class="claim-status claimed">Verified</span>
                           ) : (
-                            <span class="claim-status unclaimed" title="Unverified Listing">○</span>
+                            <span class="claim-status unclaimed">Unverified</span>
                           )}
                         </div>
                         <p class="provider-contact">
@@ -336,25 +336,21 @@ const sortedCategories = Object.keys(providersByCategory).sort();
   .claim-status {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 50%;
-    font-size: 0.9rem;
-    font-weight: bold;
-    line-height: 1;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+    opacity: 0.85;
   }
   
   .claim-status.claimed {
-    background-color: #e6f7e6;
+    background-color: rgba(0, 153, 77, 0.08);
     color: #00994d;
-    border: 1px solid #00994d;
   }
   
   .claim-status.unclaimed {
-    background-color: #fff0e6;
+    background-color: rgba(153, 77, 0, 0.08);
     color: #994d00;
-    border: 1px solid #994d00;
   }
   
   .provider-contact {
