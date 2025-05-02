@@ -60,7 +60,7 @@ const articleSchema: {
     "name": "MD Homecare",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.example.com/logo.png" // Add your actual logo URL here
+      "url": new URL('/src/assets/logo.svg', Astro.url).toString()
     }
   },
   "description": entry.data.description,
@@ -140,6 +140,149 @@ const structuredData = JSON.stringify(articleSchema);
     </svg>
   </button>
 </BaseLayout>
+
+<script>
+  // Service keywords to match and link - manually defined to avoid server/client mismatch
+  interface ServiceKeyword {
+    slug: string;
+    keywords: string[];
+  }
+
+  const serviceKeywords: ServiceKeyword[] = [
+    { slug: 'clinical-care', keywords: ['clinical care', 'nursing services', 'wound care', 'medication administration', 'catheter care', 'ostomy care', 'diabetic management', 'health assessments', 'vital signs monitoring', 'medical assessment', 'nursing', 'clinical', 'high-intensity personal activities'] },
+    
+    { slug: 'personal-care', keywords: ['personal care', 'bathing assistance', 'grooming', 'personal hygiene', 'showering', 'dressing', 'oral hygiene', 'toileting assistance', 'medication reminders', 'care', 'independence', 'quality of life'] },
+    
+    { slug: 'domestic-assistance', keywords: ['domestic assistance', 'household tasks', 'home help', 'cleaning services', 'meal preparation', 'laundry services', 'gardening', 'shopping', 'household chores', 'domestic', 'cleaning', 'household'] },
+    
+    { slug: 'respite-care', keywords: ['respite care', 'respite services', 'carer relief', 'short-term care', 'in-home respite', 'short term accommodation', 'STA', 'respite costs', 'carer support', 'respite'] },
+    
+    { slug: 'disability-services', keywords: ['disability support', 'disability services', 'NDIS support', 'daily living assistance', 'community participation', 'disability care', 'ndis funding', 'disability assistance', 'person-centered approach', 'disability', 'ndis', 'national disability insurance scheme', 'ndis provider', 'ndis business', 'participant', 'people with disability', 'participant-focused', 'participant plans'] },
+    
+    { slug: 'support-workers', keywords: ['support workers', 'care workers', 'disability support workers', 'ndis support worker', 'independent support worker', 'support staff', 'care staff', 'support coordination', 'workers', 'support', 'key personnel', 'staffing', 'hiring compliant staff'] },
+    
+    { slug: 'sil-services', keywords: ['supported independent living', 'SIL', 'supported accommodation', 'group homes', 'shared living support', 'disability accommodation', 'independent living', 'supported living'] },
+    
+    { slug: 'disability-home-support-services', keywords: ['disability home support', 'home modifications', 'housing support', 'in-home support', 'home-based care', 'disability home care', 'home support', 'assistive products'] },
+    
+    { slug: 'aged-care-home-modifications-maintenance', keywords: ['home modifications', 'aged care modifications', 'accessibility modifications', 'home maintenance', 'bathroom modifications', 'kitchen modifications', 'ramps', 'handrails', 'modifications', 'aged care', 'premises fit-out'] },
+    
+    { slug: 'therapy-services', keywords: ['therapy services', 'physiotherapy', 'occupational therapy', 'speech therapy', 'rehabilitation', 'behavioral therapy', 'psychology', 'exercise physiology', 'counselling', 'dietetics', 'social work', 'therapeutic supports', 'therapy', 'specialized expertise'] },
+    
+    { slug: 'transport-services', keywords: ['transport services', 'disability transport', 'assisted transport', 'medical transport', 'transportation assistance', 'ndis transport funding', 'mobility support', 'transport'] },
+    
+    { slug: 'specialist-disability-accommodation', keywords: ['specialist disability accommodation', 'SDA', 'disability housing', 'accessible housing', 'improved liveability', 'disability accommodation', 'ndis housing', 'accommodation'] },
+    
+    { slug: 'community-access-support', keywords: ['community access', 'social participation', 'community inclusion', 'community activities', 'social support', 'social skills', 'community engagement', 'recreational activities', 'community participation', 'community', 'social', 'community networking', 'community services', 'community connections'] },
+    
+    { slug: 'ndis-specialist-support-coordination', keywords: ['support coordination', 'NDIS coordination', 'disability coordination', 'ndis planning', 'plan management', 'specialist support', 'service coordination', 'coordination', 'local area coordinators', 'LACs', 'support coordinators', 'service agreements'] },
+    
+    { slug: 'ndis-behaviour-support-practitioner-training', keywords: ['behavior support', 'behaviour support', 'positive behavior support', 'behavior management', 'behavior practitioner', 'behavioral strategies', 'behavioral intervention', 'behaviour', 'safeguarding', 'NDIS Practice Standards', 'NDIS Code of Conduct'] }
+  ];
+  
+  // Add service links after DOM is fully loaded
+  document.addEventListener('DOMContentLoaded', () => {
+    // Find the blog post content element
+    const contentElement = document.querySelector('.post-content');
+    if (!contentElement) return;
+    
+    const linkedServices = new Set<string>();
+    
+    // Process each service
+    serviceKeywords.forEach(service => {
+      // Skip if already processed
+      if (linkedServices.has(service.slug)) return;
+      
+      // Try each keyword until one matches
+      for (const keyword of service.keywords) {
+        // Skip if already linked
+        if (linkedServices.has(service.slug) || 
+            contentElement.innerHTML.includes(`href="/services/${service.slug}"`)) {
+          break;
+        }
+        
+        // Find text nodes containing the keyword
+        const textNodes: Node[] = [];
+        const walker = document.createTreeWalker(
+          contentElement, 
+          NodeFilter.SHOW_TEXT, 
+          null
+        );
+        
+        let node: Node | null;
+        while (node = walker.nextNode()) {
+          const nodeValue = node.nodeValue;
+          const parentElement = node.parentElement;
+          
+          if (nodeValue && 
+              parentElement && 
+              nodeValue.toLowerCase().includes(keyword.toLowerCase()) && 
+              parentElement.nodeName !== 'A') {
+            textNodes.push(node);
+          }
+        }
+        
+        // Link the first occurrence
+        if (textNodes.length > 0) {
+          const firstNode = textNodes[0];
+          const nodeText = firstNode.nodeValue;
+          const parentNode = firstNode.parentNode;
+          
+          if (nodeText && parentNode) {
+            const keywordRegex = new RegExp(`\\b${escapeRegExp(keyword)}\\b`, 'i');
+            const match = nodeText.match(keywordRegex);
+            
+            if (match && match.index !== undefined) {
+              const matchIndex = match.index;
+              const beforeText = nodeText.substring(0, matchIndex);
+              const matchedText = match[0];
+              const afterText = nodeText.substring(matchIndex + matchedText.length);
+              
+              // Create new elements
+              const beforeTextNode = document.createTextNode(beforeText);
+              const linkElement = document.createElement('a');
+              linkElement.href = `/services/${service.slug}`;
+              linkElement.textContent = matchedText;
+              linkElement.className = 'service-link';
+              const afterTextNode = document.createTextNode(afterText);
+              
+              // Replace the original text node
+              parentNode.insertBefore(beforeTextNode, firstNode);
+              parentNode.insertBefore(linkElement, firstNode);
+              parentNode.insertBefore(afterTextNode, firstNode);
+              parentNode.removeChild(firstNode);
+              
+              // Mark this service as processed
+              linkedServices.add(service.slug);
+              break;
+            }
+          }
+        }
+      }
+    });
+  });
+  
+  // Helper function to escape special characters in regex patterns
+  function escapeRegExp(string: string): string {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+</script>
+
+<style>
+  /* Style for service links */
+  .service-link {
+    color: var(--primary-dark, #3b82f6);
+    text-decoration: underline;
+    text-decoration-color: rgba(59, 130, 246, 0.4);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: text-decoration-color 0.2s ease;
+  }
+  
+  .service-link:hover {
+    text-decoration-color: rgba(59, 130, 246, 1);
+  }
+</style>
 
 <style is:global>
   /* Global table styles to ensure they apply to content rendered from markdown */
