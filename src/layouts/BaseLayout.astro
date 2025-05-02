@@ -144,6 +144,16 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
     
     <!-- Organization LocalBusiness Structured Data -->
     <script type="application/ld+json" set:html={structuredDataOrg} />
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-05DBKL39SX"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-05DBKL39SX');
+    </script>
   </head>
   <body>
     <header class="site-header">
