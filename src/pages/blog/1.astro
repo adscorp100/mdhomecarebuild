@@ -1,0 +1,5 @@
+---
+// Redirect /blog/1 to /blog
+Astro.response.status = 301;
+Astro.response.headers.set('Location', '/blog');
+--- 
