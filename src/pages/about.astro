@@ -1,8 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = "About | MD Homecare";
+const description = "Learn about MD Homecare, our mission, values, and dedicated team of professionals providing exceptional home care services across Melbourne and Sydney.";
+const image = "/assets/team.webp"; // Assuming you have this image
 ---
 
-<BaseLayout title="About | MD Homecare">
+<BaseLayout 
+  title={title} 
+  description={description}
+  image={image}
+>
   <div class="container">
     <section class="about-section">
       <h1>About Us</h1>

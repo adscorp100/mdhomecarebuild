@@ -4,13 +4,19 @@ interface Props {
   title: string;
   description?: string;
   image?: string;
+  canonical?: string;
+  noindex?: boolean;
+  nofollow?: boolean;
 }
 
 // Destructure props with defaults
 const { 
   title, 
   description = "Providing compassionate and professional home care services", 
-  image = "/images/default-social.jpg" 
+  image = "/images/default-social.jpg",
+  canonical = Astro.url.href,
+  noindex = false,
+  nofollow = false
 } = Astro.props;
 
 // Get the base URL for assets
@@ -18,6 +24,7 @@ const baseUrl = "";
 
 // Import getCollection to fetch blog posts
 import { getCollection } from 'astro:content';
+import { SEO } from 'astro-seo';
 
 // Get blog posts, sort by date, and take the 5 most recent
 const allBlogPosts = await getCollection('blog');
@@ -130,28 +137,55 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content={Astro.generator}>
     
-    <!-- Primary Meta Tags -->
-    <title>{title}</title>
-    <meta name="title" content={title}>
-    <meta name="description" content={description}>
+    <SEO
+      title={title}
+      description={description}
+      canonical={canonical}
+      openGraph={{
+        basic: {
+          title: title,
+          type: "website",
+          image: image,
+          url: Astro.url,
+        },
+        optional: {
+          description: description,
+          locale: "en_AU",
+          siteName: "MD Homecare",
+        },
+        image: {
+          alt: "MD Homecare website image",
+        },
+        article: {
+          publishedTime: new Date().toISOString(),
+          tags: ["homecare", "NDIS", "disability", "support"],
+        },
+      }}
+      twitter={{
+        card: "summary_large_image",
+        title: title,
+        description: description,
+        image: image,
+        imageAlt: "MD Homecare website image",
+        site: "@mdhomecare",
+        creator: "@mdhomecare",
+      }}
+      extend={{
+        link: [
+          { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
+          { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
+          { rel: "manifest", href: "/manifest.json" },
+        ],
+        meta: [
+          { name: "generator", content: Astro.generator },
+          { name: "robots", content: noindex ? "noindex" : "index,follow" },
+          { name: "robots", content: nofollow ? "nofollow" : undefined },
+          { name: "theme-color", content: "#4f46e5" },
+          { name: "author", content: "MD Homecare" },
+        ],
+      }}
+    />
     
-    <!-- Open Graph / Twitter Card data -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content={Astro.url}>
-    <meta property="og:title" content={title}>
-    <meta property="og:description" content={description}>
-    <meta property="og:image" content={image}>
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content={Astro.url}>
-    <meta property="twitter:title" content={title}>
-    <meta property="twitter:description" content={description}>
-    <meta property="twitter:image" content={image}>
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/manifest.json">
-
     <!-- Styles -->
     <link rel="stylesheet" href="/styles/global.css">
     

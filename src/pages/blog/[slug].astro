@@ -87,9 +87,17 @@ if (headings && headings.length > 0) {
 }
 
 const structuredData = JSON.stringify(articleSchema);
+
+// Prepare canonical URL for the article
+const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
 ---
 
-<BaseLayout title={`${entry.data.title} | MD Homecare`} description={entry.data.description}>
+<BaseLayout 
+  title={`${entry.data.title} | MD Homecare`} 
+  description={entry.data.description}
+  image={entry.data.image}
+  canonical={canonicalUrl}
+>
   <!-- Add structured data for SEO -->
   <script type="application/ld+json" set:html={structuredData} />
   

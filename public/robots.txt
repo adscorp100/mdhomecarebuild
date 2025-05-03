@@ -1,6 +1,11 @@
-# Allow all crawlers
+# www.robotstxt.org/
+# Allow crawling of all content
 User-agent: *
 Allow: /
+
+# Disallow crawling of specific pages/directories if needed
+# Disallow: /private/
+# Disallow: /admin/
 
 # Sitemap location
 Sitemap: https://mdhomecare.com.au/sitemap-index.xml 
