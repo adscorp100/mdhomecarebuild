@@ -1,193 +1,470 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const metaDescription = "Contact MD Home Care for professional in-home care services. Our dedicated care team is available 24/7 to discuss your home care needs. Call MD Homecare today or send us a message for personalized support.";
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact MD Home Care",
+  "description": metaDescription,
+  "url": "https://mdhomecare.com.au/contact",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+61405429512",
+    "contactType": "customer service",
+    "availableLanguage": "English",
+    "areaServed": "AU"
+  },
+  "provider": {
+    "@type": "HomeHealthcareService",
+    "name": "MD Home Care",
+    "description": "Professional in-home care services provider"
+  }
+};
 ---
 
-<BaseLayout title="Contact | MD Homecare">
-  <div class="container">
-    <section class="contact-section">
-      <h1>Contact Us</h1>
-      
-      <div class="intro-text">
-        <p>Providing compassionate, professional care to enhance your quality of life at home. We're here to listen and respond to your unique needs.</p>
+<BaseLayout 
+  title="Contact MD Home Care | 24/7 In-Home Care Services Support" 
+  description={metaDescription}
+  canonical="https://mdhomecare.com.au/contact"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  
+  <div class="contact-hero" style="background-image: url('/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp')">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="category-tag">Contact MD Home Care</div>
+      <h1>24/7 In-Home Care Support</h1>
+      <p class="hero-description">MD Home Care is here to provide professional in-home care services tailored to your needs. Our dedicated care team is ready to discuss how we can support you or your loved ones.</p>
+      <div class="hero-cta">
+        <a href="tel:+61405429512" class="cta-primary" aria-label="Call MD Home Care now">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          Call MD Home
+        </a>
+        <a href="#contact-form" class="cta-secondary" aria-label="Send a message to MD Home Care">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+          </svg>
+          Send Message
+        </a>
       </div>
-      
-      <div class="contact-content">
-        <div class="contact-cta">
-          <h2>Speak With Our Care Team</h2>
-          <p>Have questions about our services or need personalized support? Our team is ready to help you navigate your care options.</p>
-          <a href="tel:+61405429512" class="primary-cta">Call +61 405 429 512</a>
+    </div>
+  </div>
+
+  <div class="contact-container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="info-card">
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </div>
+          <h2>Call MD Home Care</h2>
+          <p>Our professional in-home care team is available 24/7 to assist you</p>
+          <a href="tel:+61405429512" class="info-link" aria-label="Call MD Home Care on +61 405 429 512">+61 405 429 512</a>
+          <p class="support-hours">Available 24/7 for all your in-home care needs</p>
         </div>
-        
+      </div>
+
+      <div class="form-section" id="contact-form">
         <div class="form-container">
-          <h2>Send Us a Message</h2>
-          <p>Complete the form below, and we'll respond promptly to discuss how we can best support your home care journey.</p>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSezT6XKZq1kDIJa1G3k2HDgur_E7gMhZ2JdAjy5ermn8wvRyA/viewform?embedded=true" 
+          <h2>Request In-Home Care Services</h2>
+          <p>Complete the form below to discuss your in-home care needs with MD Home Care. We'll respond promptly to help arrange the support you need.</p>
+          <iframe 
+            src="https://docs.google.com/forms/d/e/1FAIpQLSezT6XKZq1kDIJa1G3k2HDgur_E7gMhZ2JdAjy5ermn8wvRyA/viewform?embedded=true" 
             frameborder="0" 
             marginheight="0" 
-            marginwidth="0">
-            Loading…
+            marginwidth="0"
+            title="Contact MD Home Care Form"
+            aria-label="Contact form for MD Home Care services">
+            Loading contact form...
           </iframe>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+
+  <div class="seo-content">
+    <div class="content-wrapper">
+      <h2>Professional In-Home Care Services by MD Home Care</h2>
+      <p>MD Home Care is your trusted provider of professional in-home care services. Whether you need personal care, disability support, or specialized home care assistance, our dedicated team is here to help. We understand that choosing the right in-home care service is important, which is why our care team is available 24/7 to discuss your specific needs.</p>
+      
+      <h3>Why Choose MD Home Care?</h3>
+      <ul>
+        <li>24/7 availability for all your care needs</li>
+        <li>Professional and experienced care team</li>
+        <li>Personalized in-home care services</li>
+        <li>Comprehensive support for you and your family</li>
+        <li>Easy contact options - call or message anytime</li>
+      </ul>
+    </div>
   </div>
 </BaseLayout>
 
 <style>
-  .contact-section {
-    padding: 3rem 0;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  
-  h1 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-    font-size: 2.2rem;
-  }
-  
-  .intro-text {
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto 2.5rem;
-  }
-  
-  .intro-text p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: var(--light-text, #555);
-  }
-  
-  .contact-content {
+  .contact-hero {
+    position: relative;
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     display: flex;
-    flex-direction: column;
-    gap: 3.5rem;
-  }
-  
-  .contact-cta {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    justify-content: center;
+    padding: 8rem 2rem;
+    margin: -2rem 0 0;
+    isolation: isolate;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    );
+  }
+
+  .hero-content {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
-    padding: 2rem;
-    background-color: var(--background-accent, #f7f9fc);
-    border-radius: 8px;
-  }
-  
-  .contact-cta h2, .form-container h2 {
-    font-size: 1.5rem;
-    margin: 0 0 0.5rem;
-  }
-  
-  .contact-cta p {
-    font-size: 1.1rem;
-    margin: 0 0 1rem;
-    max-width: 550px;
-  }
-  
-  .primary-cta {
-    display: inline-block;
-    background-color: var(--primary-color);
     color: white;
-    font-size: 1.25rem;
+    padding: 3.5rem;
+    background: rgba(23, 23, 23, 0.6);
+    backdrop-filter: blur(12px);
+    border-radius: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  }
+
+  .category-tag {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 0.6rem 1.2rem;
+    border-radius: 3rem;
+    font-size: 0.9rem;
     font-weight: 600;
-    padding: 0.75rem 1.5rem;
-    border-radius: 6px;
+    letter-spacing: 0.03em;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0 0 1.5rem;
+    letter-spacing: -0.02em;
+    color: white;
+  }
+
+  .hero-description {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .cta-primary, .cta-secondary {
+    padding: 1rem 2.5rem;
+    border-radius: 3rem;
+    font-weight: 600;
+    font-size: 1.1rem;
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
   }
-  
-  .primary-cta:hover {
-    background-color: var(--secondary-color);
+
+  .cta-primary svg, .cta-secondary svg {
+    transition: transform 0.3s ease;
+  }
+
+  .cta-primary:hover svg, .cta-secondary:hover svg {
+    transform: scale(1.1);
+  }
+
+  .cta-primary {
+    background: white;
+    color: var(--primary-color);
+  }
+
+  .cta-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .cta-primary:hover, .cta-secondary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
-  
-  .form-container {
-    width: 100%;
+
+  .contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
   }
-  
-  .form-container h2 {
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .contact-info {
+    position: sticky;
+    top: 2rem;
+  }
+
+  .info-card {
+    background: white;
+    padding: 3rem;
+    border-radius: 1.5rem;
     text-align: center;
-    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
   }
-  
-  .form-container p {
-    text-align: center;
+
+  .info-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    border-color: var(--primary-color);
+  }
+
+  .card-icon {
+    width: 64px;
+    height: 64px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 2rem;
+  }
+
+  .card-icon svg {
+    color: white;
+    width: 32px;
+    height: 32px;
+  }
+
+  .info-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+  }
+
+  .info-card p {
+    color: var(--text-light);
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
   }
-  
+
+  .info-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  .info-link:hover {
+    transform: translateY(-2px);
+    color: var(--primary-dark);
+  }
+
+  .support-hours {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .form-section {
+    background: white;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+  }
+
+  .form-container {
+    padding: 3rem;
+  }
+
+  .form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+  }
+
+  .form-container p {
+    color: var(--text-light);
+    margin-bottom: 2rem;
+  }
+
   iframe {
     width: 100%;
-    height: 650px;
+    height: 600px;
     border: none;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
   }
-  
-  @media (max-width: 768px) {
-    .contact-section {
-      padding: 2rem 0;
-      max-width: 100%;
-      margin: 0;
+
+  @media (max-width: 968px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+      gap: 3rem;
     }
-    
+
+    .hero-content {
+      padding: 2.5rem;
+      margin: 0 1rem;
+    }
+
     h1 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
+      font-size: 2.5rem;
     }
-    
-    .intro-text {
-      margin: 0 0 2rem;
-      padding: 0 1rem;
-    }
-    
-    .intro-text p {
+
+    .hero-description {
       font-size: 1.1rem;
     }
-    
-    .contact-cta {
-      padding: 1.5rem;
-      margin: 0;
-      border-radius: 0;
+
+    .contact-container {
+      padding: 3rem 1.5rem;
     }
-    
+
+    .info-card {
+      padding: 2rem;
+    }
+
     .form-container {
-      padding: 1.5rem 0;
-      margin: 0;
+      padding: 2rem;
     }
-    
-    .form-container h2, .form-container p {
-      padding: 0 1rem;
-      margin-left: 0;
-      margin-right: 0;
+
+    iframe {
+      height: 500px;
     }
-    
-    .contact-cta h2, .form-container h2 {
+  }
+
+  @media (max-width: 480px) {
+    .hero-cta {
+      flex-direction: column;
+    }
+
+    .cta-primary, .cta-secondary {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .info-card {
+      padding: 1.5rem;
+    }
+
+    .form-container {
+      padding: 1.5rem;
+    }
+
+    .info-link {
       font-size: 1.3rem;
     }
-    
-    .contact-cta p, .form-container p {
-      font-size: 1rem;
+
+    .card-icon {
+      width: 56px;
+      height: 56px;
     }
-    
-    .primary-cta {
-      font-size: 1.1rem;
-      padding: 0.6rem 1.2rem;
+
+    .card-icon svg {
+      width: 28px;
+      height: 28px;
     }
-    
-    iframe {
-      height: 580px;
-      border-radius: 0;
-      margin: 0;
+  }
+
+  .seo-content {
+    background: var(--light-background);
+    padding: 4rem 0;
+    margin-top: 4rem;
+  }
+
+  .content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .content-wrapper h2 {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+  }
+
+  .content-wrapper h3 {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin: 2rem 0 1rem;
+  }
+
+  .content-wrapper p {
+    color: var(--text-light);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
+  .content-wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem;
+  }
+
+  .content-wrapper li {
+    color: var(--text-light);
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+
+  .content-wrapper li::before {
+    content: "•";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    .seo-content {
+      padding: 3rem 0;
     }
-    
-    .container {
-      padding: 0;
-      margin: 0;
-      max-width: 100%;
+
+    .content-wrapper h2 {
+      font-size: 1.75rem;
+    }
+
+    .content-wrapper h3 {
+      font-size: 1.25rem;
     }
   }
 </style>
