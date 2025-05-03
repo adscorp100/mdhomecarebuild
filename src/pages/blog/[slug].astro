@@ -183,35 +183,37 @@ const structuredData = JSON.stringify(articleSchema);
   }
 
   const serviceKeywords: ServiceKeyword[] = [
-    { slug: 'clinical-care', keywords: ['clinical care', 'nursing services', 'wound care', 'medication administration', 'catheter care', 'ostomy care', 'diabetic management', 'health assessments', 'vital signs monitoring', 'medical assessment', 'nursing', 'clinical', 'high-intensity personal activities'] },
+    { slug: 'clinical-care', keywords: ['clinical care', 'nursing services', 'wound care', 'medication administration', 'catheter care', 'ostomy care', 'diabetic management', 'health assessments', 'vital signs monitoring', 'medical assessment', 'nursing', 'clinical', 'high-intensity personal activities', 'medication management', 'monitoring of medical conditions'] },
     
-    { slug: 'personal-care', keywords: ['personal care', 'bathing assistance', 'grooming', 'personal hygiene', 'showering', 'dressing', 'oral hygiene', 'toileting assistance', 'medication reminders', 'care', 'independence', 'quality of life'] },
+    { slug: 'personal-care', keywords: ['personal care', 'bathing assistance', 'grooming', 'personal hygiene', 'showering', 'dressing', 'oral hygiene', 'toileting assistance', 'medication reminders', 'care', 'independence', 'quality of life', 'continence management', 'toileting', 'showering assistance'] },
     
-    { slug: 'domestic-assistance', keywords: ['domestic assistance', 'household tasks', 'home help', 'cleaning services', 'meal preparation', 'laundry services', 'gardening', 'shopping', 'household chores', 'domestic', 'cleaning', 'household'] },
+    { slug: 'domestic-assistance', keywords: ['domestic assistance', 'household tasks', 'home help', 'cleaning services', 'meal preparation', 'laundry services', 'gardening', 'shopping', 'household chores', 'domestic', 'cleaning', 'household', 'domestic help', 'laundry', 'daily tasks'] },
     
     { slug: 'respite-care', keywords: ['respite care', 'respite services', 'carer relief', 'short-term care', 'in-home respite', 'short term accommodation', 'STA', 'respite costs', 'carer support', 'respite'] },
     
-    { slug: 'disability-services', keywords: ['disability support', 'disability services', 'NDIS support', 'daily living assistance', 'community participation', 'disability care', 'ndis funding', 'disability assistance', 'person-centered approach', 'disability', 'ndis', 'national disability insurance scheme', 'ndis provider', 'ndis business', 'participant', 'people with disability', 'participant-focused', 'participant plans'] },
+    { slug: 'disability-services', keywords: ['disability support', 'disability services', 'NDIS support', 'daily living assistance', 'community participation', 'disability care', 'ndis funding', 'disability assistance', 'person-centered approach', 'disability', 'ndis', 'national disability insurance scheme', 'ndis provider', 'ndis business', 'participant', 'people with disability', 'participant-focused', 'participant plans', 'intermediate care needs'] },
     
-    { slug: 'support-workers', keywords: ['support workers', 'care workers', 'disability support workers', 'ndis support worker', 'independent support worker', 'support staff', 'care staff', 'support coordination', 'workers', 'support', 'key personnel', 'staffing', 'hiring compliant staff'] },
+    { slug: 'support-workers', keywords: ['support workers', 'care workers', 'disability support workers', 'ndis support worker', 'independent support worker', 'support staff', 'care staff', 'support coordination', 'workers', 'support', 'key personnel', 'staffing', 'hiring compliant staff', 'aged care worker', 'care worker qualifications'] },
     
-    { slug: 'sil-services', keywords: ['supported independent living', 'SIL', 'supported accommodation', 'group homes', 'shared living support', 'disability accommodation', 'independent living', 'supported living'] },
+    { slug: 'sil-services', keywords: ['supported independent living', 'SIL', 'supported accommodation', 'group homes', 'shared living support', 'disability accommodation', 'independent living', 'supported living', 'live independently'] },
     
-    { slug: 'disability-home-support-services', keywords: ['disability home support', 'home modifications', 'housing support', 'in-home support', 'home-based care', 'disability home care', 'home support', 'assistive products'] },
+    { slug: 'disability-home-support-services', keywords: ['disability home support', 'home modifications', 'housing support', 'in-home support', 'home-based care', 'disability home care', 'home support', 'assistive products', 'living independently', 'independent living'] },
     
-    { slug: 'aged-care-home-modifications-maintenance', keywords: ['home modifications', 'aged care modifications', 'accessibility modifications', 'home maintenance', 'bathroom modifications', 'kitchen modifications', 'ramps', 'handrails', 'modifications', 'aged care', 'premises fit-out'] },
+    { slug: 'aged-care-home-modifications-maintenance', keywords: ['home modifications', 'aged care modifications', 'accessibility modifications', 'home maintenance', 'bathroom modifications', 'kitchen modifications', 'ramps', 'handrails', 'modifications', 'aged care', 'premises fit-out', 'safety enhancements', 'installing rails', 'installing ramps'] },
     
-    { slug: 'therapy-services', keywords: ['therapy services', 'physiotherapy', 'occupational therapy', 'speech therapy', 'rehabilitation', 'behavioral therapy', 'psychology', 'exercise physiology', 'counselling', 'dietetics', 'social work', 'therapeutic supports', 'therapy', 'specialized expertise'] },
+    { slug: 'therapy-services', keywords: ['therapy services', 'physiotherapy', 'occupational therapy', 'speech therapy', 'rehabilitation', 'behavioral therapy', 'psychology', 'exercise physiology', 'counselling', 'dietetics', 'social work', 'therapeutic supports', 'therapy', 'specialized expertise', 'allied health services', 'podiatry'] },
     
-    { slug: 'transport-services', keywords: ['transport services', 'disability transport', 'assisted transport', 'medical transport', 'transportation assistance', 'ndis transport funding', 'mobility support', 'transport'] },
+    { slug: 'transport-services', keywords: ['transport services', 'disability transport', 'assisted transport', 'medical transport', 'transportation assistance', 'ndis transport funding', 'mobility support', 'transport', 'social and recreational activities', 'transport to appointments', 'transport to social events'] },
     
     { slug: 'specialist-disability-accommodation', keywords: ['specialist disability accommodation', 'SDA', 'disability housing', 'accessible housing', 'improved liveability', 'disability accommodation', 'ndis housing', 'accommodation'] },
     
-    { slug: 'community-access-support', keywords: ['community access', 'social participation', 'community inclusion', 'community activities', 'social support', 'social skills', 'community engagement', 'recreational activities', 'community participation', 'community', 'social', 'community networking', 'community services', 'community connections'] },
+    { slug: 'community-access-support', keywords: ['community access', 'social participation', 'community inclusion', 'community activities', 'social support', 'social skills', 'community engagement', 'recreational activities', 'community participation', 'community', 'social', 'community networking', 'community services', 'community connections', 'staying active and connected'] },
     
-    { slug: 'ndis-specialist-support-coordination', keywords: ['support coordination', 'NDIS coordination', 'disability coordination', 'ndis planning', 'plan management', 'specialist support', 'service coordination', 'coordination', 'local area coordinators', 'LACs', 'support coordinators', 'service agreements'] },
+    { slug: 'ndis-specialist-support-coordination', keywords: ['support coordination', 'NDIS coordination', 'disability coordination', 'ndis planning', 'plan management', 'specialist support', 'service coordination', 'coordination', 'local area coordinators', 'LACs', 'support coordinators', 'service agreements', 'care plan', 'chosen provider'] },
     
-    { slug: 'ndis-behaviour-support-practitioner-training', keywords: ['behavior support', 'behaviour support', 'positive behavior support', 'behavior management', 'behavior practitioner', 'behavioral strategies', 'behavioral intervention', 'behaviour', 'safeguarding', 'NDIS Practice Standards', 'NDIS Code of Conduct'] }
+    { slug: 'ndis-behaviour-support-practitioner-training', keywords: ['behavior support', 'behaviour support', 'positive behavior support', 'behavior management', 'behavior practitioner', 'behavioral strategies', 'behavioral intervention', 'behaviour', 'safeguarding', 'NDIS Practice Standards', 'NDIS Code of Conduct'] },
+    
+    { slug: 'home-care-packages', keywords: ['home care package', 'level 3 home care package', 'level 1 home care package', 'level 2 home care package', 'level 4 home care package', 'consumer-directed care', 'aged care assessment team', 'ACAT', 'my aged care', 'commonwealth home support programme', 'support at home program', 'care needs', 'care recipient', 'government subsidy', 'income-tested care fee', 'basic daily fee', 'additional service fees'] }
   ];
   
   // Add service links after DOM is fully loaded
