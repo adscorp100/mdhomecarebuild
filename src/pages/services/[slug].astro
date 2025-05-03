@@ -2,8 +2,27 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
+// Define TypeScript interfaces
+interface SuburbInfo {
+  state: string;
+  region: string;
+}
+
+interface SuburbData {
+  [key: string]: SuburbInfo;
+}
+
+interface SuburbWithName extends SuburbInfo {
+  slug: string;
+  name: string;
+}
+
+interface SuburbsByState {
+  [key: string]: SuburbWithName[];
+}
+
 // Hardcode suburbs data
-const suburbsData = {
+const suburbsData: SuburbData = {
   "sydney": { "state": "NSW", "region": "Greater Sydney" },
   "burwood": { "state": "NSW", "region": "Inner West" },
   "parramatta": { "state": "NSW", "region": "Western Sydney" },
@@ -282,10 +301,10 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 
 // Format suburb name for display (convert slug to title case)
-const formatSuburbName = (slug) => {
+const formatSuburbName = (slug: string): string => {
   return slug
     .split('-')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 };
 
@@ -299,7 +318,7 @@ const relatedServices = allServices
   .slice(0, 3); // Limit to 3 related services
 
 // Group suburbs by state
-const suburbsByState = {};
+const suburbsByState: SuburbsByState = {};
 Object.entries(suburbsData).forEach(([slug, info]) => {
   if (!suburbsByState[info.state]) {
     suburbsByState[info.state] = [];
@@ -309,7 +328,7 @@ Object.entries(suburbsData).forEach(([slug, info]) => {
 
 // Sort suburbs alphabetically within each state
 Object.keys(suburbsByState).forEach(state => {
-  suburbsByState[state].sort((a, b) => a.name.localeCompare(b.name));
+  suburbsByState[state].sort((a: SuburbWithName, b: SuburbWithName) => a.name.localeCompare(b.name));
 });
 
 // Sort states
@@ -375,7 +394,7 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
               <h3>{state}</h3>
               <ul class="suburbs-grid">
                 {suburbsByState[state].map((suburb) => (
-                  <li class="suburb-item" key={suburb.slug}>
+                  <li class="suburb-item">
                     <a href={`/services/${entry.slug}/${suburb.slug}`} class="suburb-link">
                       {suburb.name}
                     </a>
@@ -417,18 +436,22 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
 </BaseLayout>
 
 <script>
+interface Placeholders {
+  [key: string]: string;
+}
+
 // Suburb search functionality
 document.addEventListener('DOMContentLoaded', () => {
   // Replace all placeholders with default values in the content
   const contentContainer = document.getElementById('content-container');
   if (contentContainer) {
     // Replace text in the content container and all its child nodes
-    const replaceText = (element, placeholders) => {
+    const replaceText = (element: Node, placeholders: Placeholders): void => {
       // Skip certain elements like script and style tags
-      if (element.tagName === 'SCRIPT' || element.tagName === 'STYLE') return;
+      if (element instanceof HTMLElement && (element.tagName === 'SCRIPT' || element.tagName === 'STYLE')) return;
 
       // Handle text nodes
-      if (element.nodeType === Node.TEXT_NODE) {
+      if (element.nodeType === Node.TEXT_NODE && element.textContent) {
         let newText = element.textContent;
         for (const [find, replace] of Object.entries(placeholders)) {
           newText = newText.replace(new RegExp(find, 'g'), replace);
@@ -453,15 +476,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
   
-  const searchInput = document.getElementById('suburb-search');
+  const searchInput = document.getElementById('suburb-search') as HTMLInputElement;
   
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
-      const searchTerm = e.target.value.toLowerCase();
-      const suburbLinks = document.querySelectorAll('.suburb-link');
+      const target = e.target as HTMLInputElement;
+      const searchTerm = target.value.toLowerCase();
+      const suburbLinks = document.querySelectorAll<HTMLAnchorElement>('.suburb-link');
       
       suburbLinks.forEach(link => {
-        const suburb = link.textContent.toLowerCase();
+        const suburb = link.textContent?.toLowerCase() || '';
         if (searchTerm === '' || suburb.includes(searchTerm)) {
           link.style.display = 'block';
         } else {
@@ -470,7 +494,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       
       // Show/hide state sections based on whether they have visible suburbs
-      document.querySelectorAll('.state-section').forEach(section => {
+      document.querySelectorAll<HTMLElement>('.state-section').forEach(section => {
         const visibleSuburbs = section.querySelectorAll('.suburb-link[style="display: block"]').length;
         if (visibleSuburbs === 0) {
           section.style.display = 'none';
