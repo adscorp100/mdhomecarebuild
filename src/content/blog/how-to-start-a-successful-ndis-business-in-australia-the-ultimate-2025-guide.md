@@ -2,7 +2,7 @@
 title: "How to Start a Successful NDIS Business in Australia: The Ultimate 2025 Guide"
 description: "Step-by-step guide to planning, registering, launching, and growing a successful NDIS business in Australia for 2025."
 pubDate: 2025-05-03
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "https://cdn.prod.website-files.com/67ba898f18b9815458c46343/6801c4048c32ec3d75779e12_care-assure-Zx4ddAfk0Ck-unsplash.webp"
 ---

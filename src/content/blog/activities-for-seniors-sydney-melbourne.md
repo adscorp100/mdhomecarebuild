@@ -2,7 +2,7 @@
 title: "Australia's Best Activities for Seniors: Your Ultimate Guide to Fun in Sydney & Melbourne (2025)"
 description: "No summary available"
 pubDate: 2025-04-16
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "https://cdn.prod.website-files.com/67ba898f18b9815458c46343/67fef87bdc87f90111443481_brandon-hoogenboom-GjvxL-2AgnU-unsplash.jpg"
 ---

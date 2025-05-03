@@ -2,7 +2,7 @@
 title: The Ultimate Guide to Buying, Selling & Donating Second-Hand Disability Equipment in Australia [Updated 2025]
 description: Your complete guide to navigating the second-hand market for disability equipment in Australia. Learn how to safely buy, effectively sell, and generously donate used mobility aids and assistive technology in 2025.
 pubDate: 2025-01-11
-author: "MD Home Care Team"
+author: "Camila"
 image: "/assets/disabled carer.webp"
 tags: ["disability equipment", "second hand", "mobility aids", "NDIS", "assistive technology", "Australia", "buying guide", "selling guide", "donating"]
 ---

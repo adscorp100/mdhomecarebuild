@@ -2,7 +2,7 @@
 title: "Free Personal Alarms for the Elderly Australia: Government Funded Personal Alarm Guide 2025"
 description: "Complete guide to government funded personal alarms through My Aged Care, NDIS medical alarms, care alert government rebate programs, and aged care alarm systems for seniors in Australia."
 pubDate: 2025-03-11
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/two women looking at alarm.webp"
 ---

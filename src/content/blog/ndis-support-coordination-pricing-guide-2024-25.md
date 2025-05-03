@@ -2,7 +2,7 @@
 title: "NDIS Support Coordination Pricing Guide 2024-25"
 description: "Comprehensive breakdown of NDIS Support Coordination pricing for 2024-25, including rates for different support levels, remote services, and after-hours loading."
 pubDate: 2025-04-29
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---

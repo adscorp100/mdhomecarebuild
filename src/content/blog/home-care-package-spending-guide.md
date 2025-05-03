@@ -2,7 +2,7 @@
 title: "What Can I Spend My Home Care Package On? Your Ultimate 2025 Guide"
 description: "Confused about what your Home Care Package funds can cover? Get clear answers on approved services, items, and exclusions in 2025. Maximize your support today!"
 pubDate: 2025-04-25
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/homecare.webp"
 ---

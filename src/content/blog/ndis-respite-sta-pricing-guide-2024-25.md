@@ -2,7 +2,7 @@
 title: "NDIS Respite and Short-Term Accommodation Pricing Guide 2024-25"
 description: "Current pricing guide for NDIS Short-Term Accommodation (STA) and respite care for 2024-25, with detailed cost breakdowns by staff ratio and service type."
 pubDate: 2025-03-06
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/grandma.webp"
 ---

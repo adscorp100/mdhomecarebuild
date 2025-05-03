@@ -2,7 +2,7 @@
 title: "How Much is the Disability Pension Per Fortnight? Australia's DSP Guide (2025)"
 description: "Learn about Australia's Disability Support Pension (DSP) including payment rates, eligibility criteria, income and asset tests, and how long the pension lasts."
 pubDate: 2025-04-29
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---

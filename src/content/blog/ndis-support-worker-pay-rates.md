@@ -2,7 +2,7 @@
 title: "NDIS Support Worker Pay Rates 2024-2025: Complete Hourly Rate Guide"
 description: "Comprehensive guide to NDIS support worker pay rates 2024-2025, including hourly rates for different levels, weekend and overnight rates, and SCHADS award information."
 pubDate: 2025-03-06
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/carer.webp"
 ---

@@ -2,7 +2,7 @@
 title: "How Much Does Respite Care Cost Per Day NDIS? Respite Care Costs Australia 2025"
 description: "Discover exact NDIS respite care rates and costs per day in 2025. Complete breakdown of NDIS short term accommodation rates, price guide information, and how much does respite care cost per week."
 pubDate: 2025-03-06
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/respite care.webp"
 ---

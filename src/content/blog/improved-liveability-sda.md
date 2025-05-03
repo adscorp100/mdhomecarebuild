@@ -2,7 +2,7 @@
 title: "Improved Liveability SDA: Features & Eligibility Guide for 2025"
 description: "Learn about Improved Liveability Specialist Disability Accommodation (SDA), including key design features, eligibility criteria, funding, and the current controversy surrounding its future."
 pubDate: 2025-03-10
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/accessible bathroom.webp"
 ---

@@ -2,7 +2,7 @@
 title: "NDIS Price Guide 2024-2025"
 description: "Comprehensive guide to the NDIS Price Guide for 2024-2025, including latest updates, support worker rates, and detailed breakdown of the support catalogue."
 pubDate: 2025-03-06
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/clinic.webp"
 ---

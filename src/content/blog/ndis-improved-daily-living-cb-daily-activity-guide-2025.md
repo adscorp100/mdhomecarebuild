@@ -2,7 +2,7 @@
 title: "NDIS Improved Daily Living (CB Daily Activity) Explained: Your Ultimate 2025 Guide"
 description: "Comprehensive guide to understanding NDIS Improved Daily Living (CB Daily Activity) funding, including what it covers, flexibility rules, pricing, and how to effectively use this Capacity Building support to develop skills and independence."
 pubDate: 2025-05-03
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/disabled carer.webp"
 ---

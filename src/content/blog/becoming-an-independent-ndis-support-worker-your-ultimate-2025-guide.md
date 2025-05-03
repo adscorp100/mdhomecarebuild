@@ -2,7 +2,7 @@
 title: "Becoming an Independent NDIS Support Worker: Your Ultimate 2025 Guide"
 description: "Comprehensive guide for aspiring independent NDIS support workers covering business setup, legal requirements, insurance, pricing, and building a successful practice in Australia."
 pubDate: 2025-03-15
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/Ilovendis.webp"
 

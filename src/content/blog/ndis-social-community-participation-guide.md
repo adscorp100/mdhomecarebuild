@@ -2,7 +2,7 @@
 title: "The Ultimate Guide to NDIS Increased Social and Community Participation: Funding, Examples & Access"
 description: "Comprehensive guide to understanding NDIS social and community participation funding, including core supports, capacity building, practical examples, and how to access this vital support to enhance connection and independence."
 pubDate: 2025-05-03
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---

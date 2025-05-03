@@ -2,7 +2,7 @@
 title: "Where Can I Use My Companion Card NSW | NDIS Companion Card Guide"
 description: "Learn what is a companion card, companion card eligibility, how to get a companion card, and where to use your NSW companion card in 2025"
 pubDate: 2025-04-15
-author: "MD Home Care"
+author: "Camila"
 tags: ["companion card", "ndis companion card", "what is companion card", "companion card eligibility", "companion card nsw"]
 image: "https://cdn.prod.website-files.com/67ba898f18b9815458c46343/67fede722e42bd5a878ec998_cdc-F98Mv9O6LfI-unsplash.jpg"
 ---

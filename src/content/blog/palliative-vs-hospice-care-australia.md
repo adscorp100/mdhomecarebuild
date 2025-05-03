@@ -2,7 +2,7 @@
 title: "Understanding Your Care Options: Palliative Care vs. Hospice Care in Australia"
 description: "Learn the key differences between palliative care and hospice care in Australia, including eligibility, costs, services provided, and how to access these vital support systems."
 pubDate: 2024-07-26
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/homecare.webp"
 ---

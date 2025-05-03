@@ -2,7 +2,7 @@
 title: "NDIS Core Supports Explained: Your Ultimate Guide to Funding, Categories & Examples (2025 Update)"
 description: "Comprehensive guide to understanding NDIS Core Supports funding, including the four categories, flexibility rules, budget management, and practical examples to help participants maximize their NDIS plans in 2025."
 pubDate: 2025-05-03
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/disabled carer.webp"
 ---

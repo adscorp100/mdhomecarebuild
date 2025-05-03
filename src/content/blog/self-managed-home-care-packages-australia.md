@@ -2,7 +2,7 @@
 title: "Self-Managed Home Care Packages in Australia: The Complete Guide (2025)"
 description: "A comprehensive guide to self-managing Home Care Packages in Australia, including benefits, responsibilities, provider selection, and practical tips for maximizing control and value from your aged care funding."
 pubDate: 2025-05-03
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/holdinglinen.webp"
 ---

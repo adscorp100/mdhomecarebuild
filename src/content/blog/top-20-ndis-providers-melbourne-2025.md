@@ -4,7 +4,7 @@ description: Discover 20 highly-regarded NDIS providers in Melbourne for 2025. T
 slug: top-20-ndis-providers-melbourne-2025
 image: /assets/ndis-provider-melbourne.webp
 alt: Person in wheelchair receiving support from an NDIS provider in Melbourne
-author: "MD Home Care"
+author: "Camila"
 pubDate: 2024-08-01
 tags: ["NDIS", "Providers", "Melbourne", "Victoria"]
 readingTime: 25

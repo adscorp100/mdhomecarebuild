@@ -2,7 +2,7 @@
 title: "How Much Does It Really Cost to Become an NDIS Provider in 2025? (Complete Guide)"
 description: "Comprehensive breakdown of NDIS provider registration costs in 2025, including mandatory audit fees, worker screening checks, and operational expenses for new providers."
 pubDate: 2025-03-08
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/clinic.webp"
 ---

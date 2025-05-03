@@ -2,7 +2,7 @@
 title: "Guide to Becoming an Independent NDIS Support Worker"
 description: "No summary available"
 pubDate: 2025-03-06
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "/assets/disabled carer.webp"
 ---

@@ -2,7 +2,7 @@
 title: "Understanding STA Meaning in NDIS: A Comprehensive Guide"
 description: "Learn what STA (Short-Term Accommodation) means in NDIS, including eligibility criteria, funding details, key design features, and how to access this support."
 pubDate: 2025-02-23
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "https://cdn.prod.website-files.com/67ba898f18b9815458c46343/67bab1b323b017da45fe302f_dr-kanapon-phumratprapin-xOvJBvcame8-unsplash.webp"
 ---

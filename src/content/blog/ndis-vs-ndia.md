@@ -2,7 +2,7 @@
 title: "NDIS vs NDIA"
 description: "Understand the key differences between NDIS and NDIA in Australia's disability support system. Learn what each acronym stands for and their unique roles."
 pubDate: 2025-04-18
-author: "MD Home Care"
+author: "Camila"
 tags: []
 image: "https://cdn.prod.website-files.com/67ba898f18b9815458c46343/6801c4048c32ec3d75779e12_care-assure-Zx4ddAfk0Ck-unsplash.webp"
 ---
