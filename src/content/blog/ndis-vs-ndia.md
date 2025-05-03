@@ -150,3 +150,23 @@ We hope this guide has clearly explained the **NDIS vs NDIA** relationship, answ
 For the latest, most detailed, and official information, or to start applying, please go directly to the official **National Disability Insurance Scheme website** at **ndis.gov.au**. Sections like "Understanding the NDIS" and "About Us" have more valuable details straight from the source.
 
 ‍
+
+## Frequently Asked Questions
+
+### What is the difference between NDIS and NDIA?
+The NDIS (National Disability Insurance Scheme) is the entire support system and funding program for Australians with disability. The NDIA (National Disability Insurance Agency) is the government organization that runs and manages the NDIS. In simple terms, the NDIS is "what" the program is, while the NDIA is "who" implements it.
+
+### Who do I contact with questions about my NDIS plan?
+You should contact the NDIA or your Local Area Coordinator (LAC). The NDIA is the agency responsible for approving plans, managing funding, and making decisions about eligibility. Your LAC works as a partner of the NDIA and can help with most day-to-day questions about using your plan.
+
+### Is NDIS means-tested?
+No, the NDIS is not means-tested. Eligibility and funding are based on your disability-related needs, not on your income or assets. This is different from many other government programs and is a key feature of the NDIS being a social insurance scheme rather than a welfare program.
+
+### Can I get both the Disability Support Pension (DSP) and NDIS funding?
+Yes, you can receive both. The DSP is an income support payment for people who cannot work due to disability, while NDIS funding pays for disability-related supports and services. They serve different purposes and are administered by different government bodies - DSP by Services Australia and NDIS by the NDIA.
+
+### How do I apply to join the NDIS?
+To apply for the NDIS, you need to submit an Access Request Form to the NDIA along with evidence about your disability. You can start the process by contacting the NDIA directly at 1800 800 110 or by visiting a Local Area Coordinator in your area. The NDIA (not the NDIS) makes the decision about your eligibility.
+
+### What are the different ways to manage NDIS funding?
+There are three main options: Self-management (you manage the funds directly), Plan-management (a third-party plan manager handles payments), or NDIA-managed (the NDIA pays registered providers directly). You can choose different options for different parts of your plan to balance flexibility and administrative work.

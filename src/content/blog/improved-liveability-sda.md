@@ -81,3 +81,23 @@ Despite potential policy changes, many Improved Liveability SDA properties remai
 While the future of Improved Liveability SDA is uncertain for new builds, it remains an important housing option for many NDIS participants with sensory, intellectual, or cognitive impairments. If you believe this SDA category may suit your needs, discuss it with your NDIS planners and support team as soon as possible to explore your options.
 
 [**Need Advice on SDA? Contact us!**](/contact)
+
+## Frequently Asked Questions
+
+### What is Improved Liveability SDA?
+Improved Liveability SDA is a category of Specialist Disability Accommodation designed for NDIS participants with sensory, intellectual, or cognitive impairments. It features design elements like wider doorways, luminance contrasts, improved wayfinding, and sound insulation to create an environment that minimizes sensory overwhelm and maximizes independence.
+
+### Is Improved Liveability SDA being phased out?
+While the NDIS Review has recommended removing Improved Liveability as a design category for new developments, as of March 2025, it remains a valid SDA category. Existing approved properties continue to receive funding, and current residents' funding won't change unless their circumstances do.
+
+### Who is eligible for Improved Liveability SDA?
+Eligibility is primarily for NDIS participants with sensory, intellectual, or cognitive impairments who can live relatively independently with appropriate design accommodations. Common qualifying conditions include autism spectrum disorder, intellectual disability, acquired brain injury, and some mental health conditions.
+
+### How is Improved Liveability different from other SDA categories?
+Unlike Fully Accessible or High Physical Support categories that focus on physical accessibility features (like hoists), Improved Liveability focuses on design elements that support sensory and cognitive needs, such as enhanced wayfinding, contrast, and noise reduction.
+
+### How much does Improved Liveability SDA cost participants?
+Participants typically contribute a "reasonable rent contribution," which is usually 25% of the Disability Support Pension plus Commonwealth Rent Assistance. The NDIS covers the capital costs of the specialized housing above this contribution.
+
+### How do I apply for Improved Liveability SDA funding?
+You'll need to demonstrate that SDA is a "reasonable and necessary" support in your NDIS plan, show that Improved Liveability is the appropriate design category for your needs, provide evidence from specialists like occupational therapists, and work with your Support Coordinator to find suitable accommodation.

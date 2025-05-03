@@ -193,3 +193,23 @@ While generally offering the most flexibility within the NDIS funding structure,
 Effective management is paramount. This involves not only tracking expenditure against the allocated budget and plan duration but also ensuring all purchased supports meet the reasonable and necessary criteria, represent value for money, and align with the NDIS Pricing Arrangements and Price Limits where applicable. Proactive communication with NDIS contacts and diligent record-keeping are crucial elements of successful budget management.
 
 Ultimately, knowledge is power. By understanding the structure, rules, and potential applications of the Core Supports budget, NDIS participants, along with their families and support networks, are better equipped to make informed choices. This understanding facilitates the strategic use of funding to meet immediate needs, adapt to changing circumstances, and make tangible progress towards personal goals. Taking control of Core Supports is a key step towards harnessing the full potential of the NDIS to foster independence, enhance participation, and improve quality of life. Participants are encouraged to ask questions, seek clarification from their LAC, planner, or support coordinator, and utilise the available resources to confidently navigate their NDIS journey.
+
+## Frequently Asked Questions
+
+### What are NDIS Core Supports?
+NDIS Core Supports are funds provided to help participants with everyday activities and current disability-related needs. They're the most flexible category of NDIS funding and are divided into four categories: Assistance with Daily Life, Consumables, Assistance with Social and Community Participation, and Transport.
+
+### Can I use my Core Supports funding for anything I want?
+No, while Core Supports are flexible, all purchases must be on the NDIS Support Lists (formalized in October 2024), meet the 'reasonable and necessary' criteria, and be related to your disability support needs. Some funding may also be designated as 'stated supports' which must be used for specific purposes only.
+
+### What's the difference between Core Supports and Capacity Building Supports?
+Core Supports focus on your current everyday needs, while Capacity Building Supports aim to build your skills and independence for the future. Core funding is generally flexible between categories, whereas Capacity Building funding must be used within the specific category it was allocated for.
+
+### Can I move money between different Core Support categories?
+Generally yes, Core Supports offer flexibility to move funds between categories (like from Daily Life to Consumables), provided the funds aren't designated as 'stated supports' and share the same management type (e.g., both self-managed or both plan-managed).
+
+### What happens if I don't use all my Core Supports funding?
+Unused funds don't automatically roll over to your next plan. Consistent underspending may result in reduced funding in future plans, as it suggests you don't need all the allocated supports. However, underspending shouldn't be viewed negatively if your needs have genuinely changed.
+
+### How do I know if something is covered under NDIS Core Supports?
+You can check the NDIS Support Lists on the NDIS website, consult the NDIS Price Guide and Support Catalogue, or discuss with your Support Coordinator, LAC, or NDIS planner. If you're unsure about a specific purchase, it's always best to check before spending the funds.

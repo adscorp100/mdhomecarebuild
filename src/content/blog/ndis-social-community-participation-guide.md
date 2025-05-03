@@ -209,3 +209,23 @@ Social and Community Participation funding is a vital part of the NDIS, designed
 This guide has outlined the core principles of this support, highlighting the crucial distinction between Core Supports (providing assistance for participation) and Capacity Building (developing skills to participate). A vast array of activities can potentially be supported, ranging from joining social groups and recreational pursuits to undertaking specific skill development programs, provided they are reasonable and necessary and align with individual NDIS goals. Accessing this funding effectively involves clear goal setting during planning meetings, finding suitable providers, and understanding the roles of support workers and coordinators. Furthermore, demystifying NDIS codes and line items associated with this funding can enhance participants' ability to navigate the scheme.
 
 Ultimately, the goal of NDIS Social and Community Participation funding is to break down barriers and open doors to greater community engagement. Participants are encouraged to explore the possibilities that align with their interests and aspirations, discuss their goals openly with their NDIS planner or LAC and support network, and take proactive steps towards building meaningful connections within their community. By leveraging this support effectively, individuals can significantly enhance their independence, skills, and overall quality of life. 
+
+## Frequently Asked Questions
+
+### What's the difference between Core Supports and Capacity Building for social participation?
+Core Supports (Assistance with Social and Community Participation) funds direct support to help you participate in activities now, like a support worker helping you attend community events. Capacity Building (Increased Social and Community Participation) focuses on developing skills so you can participate more independently in the future, such as social skills training or travel training.
+
+### Will the NDIS pay for my membership or class fees?
+Generally, the NDIS funds the disability-related support you need to participate in activities, not the standard costs that anyone would pay. For example, NDIS might fund a support worker to help you attend a class but not the class enrollment fee itself. However, there may be exceptions for specialized programs that directly address disability-specific needs.
+
+### What activities can be funded under Social and Community Participation?
+A wide range of activities can be supported including joining clubs and groups, attending community events, sports and recreation, arts programs, volunteering, skill-building classes, and everyday community activities like shopping. The key requirement is that the activities align with your NDIS goals and the support is reasonable and necessary.
+
+### How do I include Social and Community Participation in my NDIS plan?
+During your planning meeting, clearly discuss your goals related to community involvement, what activities interest you, and what specific supports you need to participate (e.g., transport, support worker hours). Explain how these activities will help you work toward your goals and improve your independence or well-being.
+
+### Can I use Social and Community Participation funding for group activities?
+Yes, both Core and Capacity Building funding can support participation in group activities. Core Supports might fund a support worker to help you attend a group, while Capacity Building might fund participation in a structured group program designed to build specific skills.
+
+### What NDIS codes are used for Social and Community Participation?
+Common codes include 04_210_0125_6_1 (Access Community Social and Recreational Activities) under Core Supports, and 09_011_0125_6_3 (Community Participation Activities) under Capacity Building. Your provider will use the appropriate code when claiming payment for the support they deliver. 

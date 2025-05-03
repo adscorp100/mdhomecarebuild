@@ -315,3 +315,23 @@ We'd love to hear from you! What are your favourite activities for seniors in Sy
   - Parks Victoria: [www.parks.vic.gov.au/get-into-nature/accessibility-in-parks](https://www.parks.vic.gov.au/get-into-nature/accessibility-in-parks)
 
 ‍
+
+## Frequently Asked Questions
+
+### What are the best free activities for seniors in Sydney and Melbourne?
+Both cities offer many free options. In Sydney, explore the Royal Botanic Garden, take a harbor foreshore walk, visit the Art Gallery of NSW (free general admission), attend library events, and look for council-run programs during the annual Seniors Festival. In Melbourne, enjoy the Royal Botanic Gardens, NGV's permanent collections, free guided walks by Parks Victoria, library programs like tech help sessions and stretch classes, and community activities like Walking Basketball at Melbourne Sports and Aquatic Centre.
+
+### How can seniors with mobility limitations enjoy Sydney and Melbourne?
+Many attractions are accessible, including the Sydney Opera House, Royal Botanic Gardens, and major museums in both cities (see our accessibility table). Consider activities like harbor cruises, accessible beach matting at St Kilda or Bondi (seasonal), seated exercise classes, cultural events, or scenic drives. Chair Yoga is available in multiple locations across both cities. Parks Victoria offers TrailRider all-terrain wheelchairs, and many attractions provide wheelchairs/scooters for loan. Always check accessibility information before visiting.
+
+### What are U3A and Probus clubs, and how do I join?
+University of the Third Age (U3A) and Probus are popular clubs for retirees. U3A focuses on lifelong learning with low-cost courses on everything from arts to languages to physical activities, run by volunteers. Probus emphasizes friendship and social activities with regular meetings featuring guest speakers and special interest groups. Both have multiple branches across Sydney and Melbourne. To join, visit their websites (Sydney U3A, U3A Victoria, or Probus South Pacific), find your local club, and contact them directly about membership.
+
+### Are there any discounts available for seniors at attractions?
+Yes, many attractions offer concession rates for Seniors Card holders or Pensioner Concession Card holders. Some places like Melbourne Museum offer free entry for pensioners. The Companion Card program allows free entry for a carer accompanying someone with a significant disability. Always ask about senior discounts when booking or purchasing tickets. During the annual Seniors Festival (typically held in March/April in both NSW and Victoria), many additional free or discounted activities become available.
+
+### What council-run programs are available for seniors?
+Local councils in both cities offer extensive programs. The City of Sydney provides community transport, Meals on Wheels, a Home Library Service, pensioner rebates, and specific activities at community centers. City of Melbourne runs Tech Connect sessions, Chatty Cafes, and publishes an "Out and About guide" for older people. Other councils like Boroondara have searchable activity directories. Contact your local council or check their website for senior-specific programs and the "What's On" calendar of events.
+
+### How can I find like-minded seniors to socialize with in Sydney or Melbourne?
+Join local clubs or groups based on your interests. Options include U3A, Probus, Men's Sheds, Life Activities Clubs, or specific interest groups like walking clubs, craft circles, or book clubs at libraries. Local council community centers often host social activities. Check community noticeboards, library event calendars, council websites, neighborhood houses, and seniors centers. During the annual Seniors Festival, special events create excellent opportunities to meet others. Many religious organizations also run seniors groups.

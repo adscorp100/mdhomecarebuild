@@ -85,3 +85,23 @@ This table clarifies the distinction, aiding in understanding and application.
 - The Benefits of Community Participation Activities for People Living with Disability: [Community participation plays a crucial role in enhancing the lives of people living with disabilities](https://ucareicare.com.au/benefits-of-community-participation-activities/)
 
 ‍
+
+## Frequently Asked Questions
+
+### What exactly does NDIS community participation funding cover?
+NDIS community participation funding covers the supports needed to help participants engage in community, social, and recreational activities. This includes funding for support workers to accompany you to events, transportation assistance, and support to join group activities. It's important to understand that NDIS typically covers the disability-related support costs (like support worker hours), not the standard activity costs themselves (like ticket prices or membership fees) that anyone would pay.
+
+### What's the difference between Core and Capacity Building supports for community participation?
+Core supports (Support Category 4) fund day-to-day assistance to help you participate in activities right now, such as a support worker to accompany you to events. These funds are flexible and can be used across different Core categories. Capacity Building supports (Support Category 9) focus on developing your skills for more independent participation in the future, such as social skills training or travel training programs. Capacity Building funds are less flexible and must be used within their specific category.
+
+### How do I include community participation in my NDIS plan?
+To include community participation in your NDIS plan, clearly identify your social and community goals during your planning meeting. Be specific about what activities you want to engage in and what support you'll need to participate. Provide examples of how these activities will help you work toward greater independence or well-being. If community participation isn't in your current plan, you can request a plan review to include these goals and related funding.
+
+### Can I use my NDIS funding for any community activity I want?
+You can use your NDIS funding for community activities that align with your goals and are considered "reasonable and necessary." The activity should help you pursue your goals, increase your independence, build your capacity, or improve your well-being. Activities can range from recreational pursuits to educational courses, but they should have a clear connection to addressing your disability-related needs.
+
+### How do I find inclusive community activities in my area?
+Look for inclusive activities through local community centers, disability-specific organizations, and council websites. Online platforms like MyCareSpace and community Facebook groups can be valuable resources. Your Local Area Coordinator (LAC) or Support Coordinator can also help identify suitable options. Don't forget to check with local libraries, community colleges, and volunteer organizations that might offer accessible programs.
+
+### What if I experience anxiety about participating in community activities?
+Many NDIS participants experience anxiety about joining new activities. Start with small, low-pressure activities in environments where you feel comfortable. Consider having a trusted support worker accompany you initially. Some participants use Capacity Building funding for programs specifically designed to build social confidence. Discuss these concerns with your support team who can help develop strategies to gradually increase your comfort with community participation.

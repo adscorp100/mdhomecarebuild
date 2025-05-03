@@ -126,4 +126,22 @@ Level 4 Home Care Packages are a lifeline for Australians with high care needs, 
 - [Home Care Packages Program Department of Health](https://www.health.gov.au/our-work/hcp)
 - [Find a Provider My Aged Care](https://www.myagedcare.gov.au/find-provider)
 
-‍
+## Frequently Asked Questions
+
+### What is a Level 4 Home Care Package?
+A Level 4 Home Care Package is the highest level of support in Australia's Home Care Packages Program, designed for older Australians with high-level care needs. It provides approximately $62,013 annually (as of 2025) to fund services that help recipients remain living independently at home.
+
+### How do I qualify for a Level 4 Home Care Package?
+To qualify, you need an assessment through the Single Assessment System using the Integrated Assessment Tool. Contact My Aged Care at 1800 200 422 to arrange this assessment, which evaluates your care needs. Those with complex, high-level needs requiring daily assistance will typically qualify for Level 4.
+
+### What services can I get with a Level 4 Home Care Package?
+Services can include personal care (bathing, dressing), nursing care, household tasks (cleaning, gardening), meals, allied health services (physiotherapy, occupational therapy), social support, transport assistance, home modifications, and equipment. The specific services are tailored to your individual needs.
+
+### How much will I need to contribute?
+You may need to pay a basic daily fee (currently $13.08 per day for Level 4) and possibly an income-tested care fee depending on your financial situation, assessed by Services Australia. Full pensioners typically pay only the basic daily fee, while those with higher incomes may pay more.
+
+### How long will I wait for a Level 4 package?
+Wait times can vary significantly based on demand and availability. As of 2025, the wait time for a Level 4 package can be several months. You may be offered a lower-level package as an interim measure while you wait.
+
+### What will happen when Home Care Packages transition to the Support at Home program?
+From July 1, 2025, Home Care Packages will transition to the new Support at Home program. If you already have a Level 4 package, you'll automatically transfer to an equivalent support level without needing reassessment unless your care needs change. The new program will eventually offer eight support levels and budgets up to $78,000 annually.

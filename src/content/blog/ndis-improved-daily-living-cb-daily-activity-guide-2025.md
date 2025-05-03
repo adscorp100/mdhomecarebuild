@@ -248,3 +248,40 @@ For the most current and detailed information regarding NDIS supports, pricing, 
 - NDIS Pricing Arrangements and Price Limits (PAPL): Outlines the maximum prices registered providers can charge and the rules governing specific supports. Published annually and updated periodically.
 - NDIS Support Catalogue: Lists all specific support item numbers, descriptions, units of measure, and associated rules. Published alongside the PAPL.
 - Disability Gateway: A resource for finding information about disability services and supports available across Australia.
+
+## Frequently Asked Questions
+
+### What's the difference between Improved Daily Living and CB Daily Activity?
+There is no difference—they're the same funding category, just referred to by different names in various NDIS documents. "Improved Daily Living Skills" typically appears in NDIS plans and the Support Catalogue, while "CB Daily Activity" is often used in the NDIS portal. The "CB" simply stands for "Capacity Building." This inconsistent terminology has caused confusion, but the NDIS PACE system aims to standardize the language. Regardless of which term you see, this funding supports therapies, training, and assessments designed to build skills and independence.
+
+### Can I use Improved Daily Living funding for any therapy I want?
+The flexibility depends on your NDIS plan type. With newer PACE plans, you generally have flexibility to use your Improved Daily Living funding for any therapy or training within this category that aligns with your plan goals. For example, you could divide funding between occupational therapy, psychology, and speech therapy based on your needs. However, older (non-PACE) plans might contain "stated supports" where funding is specifically allocated for a particular therapy (e.g., "$5,000 for psychology") and cannot be redirected to other therapies. In all cases, the therapy must relate to your disability needs and plan goals.
+
+### What therapies and supports can be funded under Improved Daily Living?
+Improved Daily Living can fund a wide range of therapies and supports including:
+- Allied health therapies (Occupational Therapy, Physiotherapy, Speech Pathology, Psychology, Exercise Physiology, Dietetics)
+- Counseling and Social Work
+- Specialized assessments
+- Life skills training (cooking, budgeting, time management)
+- Public transport training
+- Driver training (if disability-related)
+- Technology skills workshops
+- Training for parents/carers to support skill development
+- Art or music therapy
+- Specialized early childhood intervention (for children under 7)
+All supports must aim to increase independence and functional capacity related to your disability.
+
+### What's the difference between Improved Daily Living and Assistance with Daily Life?
+Though they sound similar, these categories serve different purposes:
+- Improved Daily Living (Capacity Building): Funds therapies and training that teach you skills to become more independent (e.g., an occupational therapist teaching you strategies to shower independently)
+- Assistance with Daily Life (Core): Funds someone to directly help you with daily tasks (e.g., a support worker physically assisting you with showering)
+The key difference is building capacity versus providing direct assistance. Improved Daily Living focuses on long-term skill development through professional therapies and training, while Assistance with Daily Life provides immediate practical help through support workers.
+
+### How do travel costs and cancellations work with therapists under Improved Daily Living?
+For travel costs, therapists can charge for travel time to and from appointments, with limits based on your location: up to 30 minutes each way in major cities and regional areas (MMM zones 1-3) or up to 60 minutes each way in remote areas (MMM zones 4-5). Travel must be billed separately using specific "Provider Travel" codes. For cancellations, as of July 2024, you must provide 2 clear business days' notice to avoid cancellation fees for therapy appointments (reduced from the previous 7-day requirement). These details should be clearly outlined in your service agreement with each provider.
+
+### What happens if I don't use all my Improved Daily Living funding?
+Unlike some Core supports, Improved Daily Living funding doesn't automatically roll over to the next plan period. If you don't use it, you may risk having the amount reduced in your next plan if the NDIA sees consistent underspending. To avoid this, consider: reviewing your goals and whether the funded supports still align; discussing barriers to using the funding with your Support Coordinator or Local Area Coordinator; requesting alternate therapies that might better suit your needs; or adjusting appointment frequency to ensure you can use the full allocation effectively.
+
+### How do I choose the right therapist for Improved Daily Living supports?
+When selecting therapists, consider: their qualifications and registration status (e.g., AHPRA registration for allied health professionals); their experience with your specific disability type; their approach and the evidence base for their methods; how well they communicate and listen; practical factors like location, availability, and cancellation policies; and whether they offer in-home, clinic-based, or telehealth services to suit your preferences. Don't hesitate to request an initial consultation to assess compatibility, and ask your Support Coordinator (if you have one) for recommendations of therapists who have worked successfully with similar participants.

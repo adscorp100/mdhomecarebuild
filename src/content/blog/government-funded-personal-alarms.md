@@ -162,4 +162,24 @@ Government-funded personal alarms are essential for enhancing safety and indepen
 - [Healthtranslations](https://www.healthtranslations.vic.gov.au/bhcv2/bhcht.nsf/PresentDetail?Open=&s=Personal_Alert_Victoria_-_Information_sheet)
 - [Personal Alert Victoria 13019 - DFFH Service Providers](https://providers.dffh.vic.gov.au/personal-alert-victoria-13019)
 
+## Frequently Asked Questions
+
+### How do I get a free personal alarm in Australia?
+You may be eligible for a free or subsidized personal alarm through programs like Commonwealth Home Support Programme (CHSP), Home Care Packages (HCP), National Disability Insurance Scheme (NDIS), or Department of Veteran's Affairs (DVA). Some states also have specific programs like Personal Alert Victoria (PAV) or Personal Alert AssistanceSA (PAASA).
+
+### Who is eligible for a government-funded personal alarm?
+Eligibility varies by program. Generally, you need to be aged 65+ (or 50+ for Aboriginal and Torres Strait Islander people) for aged care programs, have a permanent disability for NDIS, or meet specific state program criteria. Most programs require an assessment of your needs and circumstances.
+
+### How do I apply for a personal alarm through My Aged Care?
+Contact My Aged Care at 1800 200 422 or visit [myagedcare.gov.au](https://www.myagedcare.gov.au/) to request an assessment. If approved, you can choose a provider who offers personal alarms through either the Commonwealth Home Support Programme or a Home Care Package.
+
+### What's the difference between auto-dial and monitored personal alarms?
+Auto-dial alarms call pre-programmed contacts (like family members) when activated, while monitored alarms connect to a 24/7 professional monitoring center that can assess the situation and dispatch emergency services if needed. Monitored services typically have ongoing monthly fees.
+
+### Do personal alarms with fall detection cost more?
+Yes, personal alarms with automatic fall detection technology typically cost more than standard button-activated alarms. However, this additional cost may be covered by government funding programs depending on your assessed needs.
+
+### Are there specific programs for personal alarms in my state?
+Yes, some states have their own programs: Victoria offers Personal Alert Victoria (PAV), South Australia has Personal Alert AssistanceSA (PAASA), New South Wales provides funding through EnableNSW, and Western Australia offers a Safety and Security Rebate. Queensland primarily relies on national programs.
+
 ‍

@@ -138,3 +138,25 @@ Perhaps the most significant benefit is the unparalleled level of choice and fle
 - **Determine Scheduling:** Arrange for services at times that genuinely suit the individual's lifestyle and preferences, rather than fitting into predetermined time slots offered by a provider. This allows for care that integrates seamlessly into daily life.
 
 This level of control ensures care is truly person-centred and responsive to individual circumstances.
+
+## Frequently Asked Questions
+
+### What is a self-managed Home Care Package?
+A self-managed Home Care Package gives you more control over your aged care services while still receiving government funding. You take an active role in choosing your services, selecting support workers, scheduling care, and managing your budget, though you still need to partner with an approved provider.
+
+### Who is eligible for a Home Care Package in Australia?
+Generally, Australians aged 65 years or older (50 years or older for Aboriginal or Torres Strait Islander people) who have been assessed by an Aged Care Assessment Team (ACAT) as needing coordinated home care services are eligible for Home Care Packages.
+
+### How much funding do I get with a Home Care Package?
+Home Care Package funding varies by level. As of early 2025, the approximate government subsidy per fortnight is: Level 1 $410, Level 2 $721, Level 3 $1,570, and Level 4 $2,380. These amounts are subject to change.
+
+### What's the difference between self-managed and provider-managed Home Care Packages?
+With self-management, you have more control over choosing workers, scheduling services, and managing your budget, often with lower provider fees. Provider-managed packages offer more convenience but typically have higher management fees and less direct control over worker selection.
+
+### Can I receive Home Care Package funding directly into my bank account?
+No, even when self-managing, the government subsidy and any client contributions must go to an approved Home Care Package provider. The provider then processes payments for your chosen services based on your directions.
+
+### When will the new Support at Home program replace Home Care Packages?
+The Australian government is transitioning to the new Support at Home program, which is anticipated to replace the current Home Care Package structure from July 1, 2025.
+
+‍

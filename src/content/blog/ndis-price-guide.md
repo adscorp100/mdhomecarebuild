@@ -92,4 +92,24 @@ The NDIS Price Guide for 2024-25 is essential for navigating the scheme, providi
 - NGO Training Centre NDIS price guide updates [Breaking News: Updates to the NDIS Price Guide for 2024 - 2025](https://ngotrainingcentre.com/breaking-news-updates-to-the-ndis-price-guide-for-2024-2025/)
 - Carelogy NDIS support worker pay rates 2024 [NDIS Support Worker Pay Rates 2024 | Detailed Guide](https://carelogy.com.au/support-worker/ndis-support-worker-pay-rates-2024/)
 
+## Frequently Asked Questions
+
+### What is the NDIS Price Guide?
+The NDIS Price Guide is an official document that outlines the maximum prices that can be charged for supports and services under the National Disability Insurance Scheme. It helps ensure transparency and consistency in pricing for both participants and providers.
+
+### How often is the NDIS Price Guide updated?
+The NDIS Price Guide is updated annually, with the new guide typically released at the beginning of each financial year (July 1). However, minor updates and adjustments may occur throughout the year as needed.
+
+### Where can I find the latest NDIS Price Guide?
+The latest NDIS Price Guide can be accessed on the official NDIS website under "Pricing arrangements" or directly at [www.ndis.gov.au/providers/pricing-arrangements](https://www.ndis.gov.au/providers/pricing-arrangements).
+
+### What are the key changes in the 2024-25 NDIS Price Guide?
+The 2024-25 NDIS Price Guide includes a 3.19% increase in standard support prices, 23 new Intensive and Complex Behaviour Support Items, removal of 35 legacy items, and adjustments to short-notice cancellation periods for certain supports.
+
+### Do providers have to charge exactly what's in the Price Guide?
+No, the NDIS Price Guide sets maximum price limits. Providers can charge less than these limits but cannot exceed them (except for self-managed participants who can negotiate different rates).
+
+### What is the difference between the NDIS Price Guide and Support Catalogue?
+The NDIS Price Guide contains the pricing rules and policies, while the Support Catalogue is a comprehensive listing of all available supports with their specific codes and price limits. They work together as part of the overall pricing arrangements.
+
 ‍

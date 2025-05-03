@@ -88,3 +88,23 @@ The Disability Support Pension is a vital support system for many Australians. U
 Remember that the information provided here is a general overview. For personalised advice and the most up-to-date details, always refer to the official Services Australia website or contact them directly.
 
 **Disclaimer:** This blog post provides general information only and should not be considered financial or legal advice. Please consult with a qualified professional or Services Australia for advice tailored to your specific situation.
+
+## Frequently Asked Questions
+
+### How much is the disability pension per fortnight in Australia?
+As of 2025, the maximum DSP payment for a single person aged 21 or over is approximately $1,116.30 per fortnight, including supplements. For couples, it's about $841.40 per fortnight each. These rates are subject to income and asset tests and may change with indexed increases in March and September.
+
+### How much money can I have in the bank while on disability pension?
+The asset limits depend on whether you're single or partnered and a homeowner or non-homeowner. For single homeowners, you can have assets (excluding your home) up to a certain threshold before your pension reduces. For the most current asset limits, check the Services Australia website as they're updated regularly.
+
+### How long does the disability support pension last?
+The DSP continues for as long as you meet the eligibility criteria, including medical requirements and income/asset tests. It doesn't automatically stop at age 65 - you'll typically be transferred to the Age Pension at that point, usually with a similar payment rate.
+
+### How much can I earn on disability pension before it affects my payment?
+There is an income free area, which is the amount you can earn before your pension starts to reduce. Once you exceed this amount, your pension reduces by 50 cents for each dollar over the limit. The income free area is indexed periodically, so check the Services Australia website for current figures.
+
+### Does my partner's income affect my disability pension?
+Yes, if you have a partner, their income is counted in the income test for your DSP. There is a combined income free area for couples, and if your combined income exceeds this limit, your pension will be reduced according to the income test rules.
+
+### Can I get an advance payment on my disability pension?
+Yes, DSP recipients can apply for an advance payment, which is essentially borrowing from future pension payments. The minimum and maximum advance amounts depend on how long you've been receiving the pension and your circumstances. You can apply through myGov, the Centrelink app, or by contacting Centrelink directly.

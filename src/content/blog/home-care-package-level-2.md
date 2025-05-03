@@ -132,3 +132,23 @@ Home care package level 2 is a vital resource for older Australians needing low-
 - [Home Care Package Changes 2024 - What's New? | Haisey Home Care](https://www.haiseyhomecare.com.au/blog/home-care-package-changes-2024)
 - [Home Care Packages Program operational manual – A guide for home care providers | Australian Government Department of Health and Aged Care](https://www.health.gov.au/resources/publications/home-care-packages-program-operational-manual-a-guide-for-home-care-providers?language=en)
 - [Home Care Package Program reforms | Australian Government Department of Health and Aged Care](https://www.health.gov.au/topics/aged-care/aged-care-reforms-and-reviews/home-care-packages-program-reforms)
+
+## Frequently Asked Questions
+
+### What is a Level 2 Home Care Package?
+A Level 2 Home Care Package is a government-subsidized program designed for older Australians with low-level care needs. It provides funding to support services that help you remain living independently at home, including personal care, household assistance, and social support.
+
+### How much funding do I get with a Level 2 Home Care Package?
+As of 2025, a Level 2 package provides approximately $18,814 annually ($51.49 daily). This government subsidy goes to your chosen service provider who then delivers services according to your care plan.
+
+### How do I qualify for a Level 2 Home Care Package?
+To qualify, you generally need to be 65 years or older (50+ for Aboriginal or Torres Strait Islander people), be an Australian resident, and require low-level support to stay at home. You'll need an assessment by an Aged Care Assessment Team (ACAT) to determine your eligibility and package level.
+
+### What services can I get with a Level 2 Home Care Package?
+Services typically include personal care (help with showering, dressing), household tasks (cleaning, laundry, meal preparation), transport assistance, social support, and minor home maintenance. The exact services depend on your individual needs and care plan.
+
+### How much will I have to pay out of pocket?
+You may need to pay a basic daily fee of $12.40 and potentially an income-tested care fee up to $37.55 per day depending on your income. Full pensioners generally don't pay an income-tested fee. Your provider should clearly explain all fees before services begin.
+
+### When will Home Care Packages change to the Support at Home program?
+The Australian Government plans to replace the current Home Care Packages program with the new Support at Home program from July 1, 2025. This change aims to provide more flexible and responsive care to meet individual needs.

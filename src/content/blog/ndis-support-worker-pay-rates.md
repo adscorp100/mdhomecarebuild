@@ -103,4 +103,24 @@ NDIS support worker pay rates are complex, varying by qualifications, time, and 
 - [Workstem Updated SCHADS Award Pay Rates Guide](https://www.workstem.com/au/blog/updated-schads-award-pay-rates-guide/)
 - [MyCareSpace NDIS Self Management How to hire your own Support Worker with an ABN](https://mycarespace.com.au/resources/ndis-self-management-how-to-hire-your-own-support-worker-with-an-abn)
 
+## Frequently Asked Questions
+
+### What is the average hourly rate for NDIS support workers in 2024-2025?
+The average hourly rate for NDIS support workers in 2024-2025 ranges from approximately $30.96 to $42.31, depending on qualifications, experience, and the time of day/week when support is provided.
+
+### Do NDIS support workers get paid more on weekends?
+Yes, NDIS support workers are paid higher rates for weekend shifts. Weekend rates are typically higher than standard weekday rates to compensate for working during non-standard hours.
+
+### What is the difference between Level 2 and Level 3 support worker pay rates?
+Level 2 support workers (generally less experienced or with fewer qualifications) typically earn between $30.96 and $35.08 per hour, while Level 3 support workers (more experienced or with relevant qualifications) earn between $33.02 and $37.15 per hour.
+
+### How are overnight shift rates calculated for NDIS support workers?
+Overnight shift rates typically include a flat rate for the shift plus additional pay for any active hours during the night. For example, in 2024-2025, overnight support might be charged at rates like $224.58 for plan-managed clients, though exact rates may vary.
+
+### Can NDIS participants negotiate pay rates with support workers?
+Self-managed NDIS participants can negotiate pay rates directly with independent support workers, potentially outside the NDIS price limits. However, plan-managed and agency-managed participants must adhere to the NDIS price limits.
+
+### What is the SCHADS Award and how does it relate to NDIS support worker pay?
+The Social, Community, Home Care and Disability Services (SCHADS) Industry Award is the industrial award that sets minimum pay rates and conditions for disability support workers. NDIS support worker pay rates are typically based on the SCHADS Award classifications and pay scales.
+
 ‍

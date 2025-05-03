@@ -119,3 +119,28 @@ Level 3 Home Care Packages are a vital resource for Australians with intermediat
 - [Home Care Package Level 3 Your Side Australia](https://yourside.org.au/level-3-home-care-package/)
 - [Home Care Package Changes 2024-2025 Support at Home Feros Care](https://www.feroscare.com.au/aged-care/information-support/aged-care-reform/changes-to-in-home-aged-care)
 - [A Guide to Home Care Package Levels 1,2,3 & 4 Feros Care](https://www.feroscare.com.au/faqs/faqs-detail/what-are-the-different-levels-of-home-care-packages)
+
+## Frequently Asked Questions
+
+### What exactly is a Level 3 Home Care Package?
+A Level 3 Home Care Package is a government-subsidized program designed for older Australians with intermediate care needs. It provides approximately $40,529 annually (as of 2025) to fund customized services that help you remain living independently at home. This level offers more support than Level 1 or 2 packages but less intensive assistance than a Level 4 package.
+
+### How do I know if I qualify for a Level 3 package?
+You may qualify for a Level 3 package if you're generally aged 65+ (or 50+ for Aboriginal and Torres Strait Islander people), an Australian citizen or permanent resident, and have intermediate care needs. This typically means you require regular assistance with tasks like personal care, mobility, meal preparation, and medication management, but don't need around-the-clock care. An assessment by the Aged Care Assessment Team will determine the appropriate package level for your needs.
+
+### What services can I get with a Level 3 Home Care Package?
+A Level 3 package can fund a wide range of services tailored to your needs, including personal care (assistance with showering, dressing), nursing services (medication management, wound care), domestic assistance (cleaning, laundry, meal preparation), allied health services (physiotherapy, podiatry), social support, transport to appointments, home modifications (grab rails, ramps), and equipment (mobility aids). A Level 3 package typically provides around 16 hours of support every fortnight, though this varies based on the services chosen.
+
+### How much will I need to pay out of pocket?
+In addition to the government subsidy of $40,529 annually, you may need to pay:
+- A basic daily fee (up to $12.75 per day for Level 3 as of September 2024)
+- An income-tested care fee if your income exceeds certain thresholds (ranging from nothing to approximately $32.30 per day)
+- Any additional service fees for extras outside your care plan
+
+Full pensioners typically only pay the basic daily fee, while those with higher incomes may pay more. You can use the fee estimator on the My Aged Care website to get a personalized estimate.
+
+### How long is the wait time for a Level 3 package?
+Wait times vary depending on demand and availability. As of 2025, the national wait time for a Level 3 package can be several months to over a year after approval. During this waiting period, you may be offered a lower-level package (Level 1 or 2) as an interim measure. Your position in the national priority queue is based on your needs and how long you've been waiting.
+
+### What will happen to my Level 3 package when the Support at Home program starts in July 2025?
+When the Home Care Packages Program transitions to the Support at Home program on July 1, 2025, existing package recipients will transfer to the new program at an equivalent support level. You won't need reassessment unless your care needs change significantly. The new program aims to offer more flexible, needs-based support with potentially eight different funding levels instead of the current four. Your current provider can continue delivering services, though the pricing structure and assessment process will change over time.

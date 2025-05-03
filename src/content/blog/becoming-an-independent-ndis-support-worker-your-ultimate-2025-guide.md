@@ -236,3 +236,26 @@ Working as an independent NDIS support worker offers autonomy, meaningful engage
 - Maintaining qualifications, ethical standards and ongoing learning
 
 With careful planning, proactive compliance and a commitment to quality, you can build a sustainable, reputable independent practice that makes a real difference in the lives of NDIS participants throughout Australia. 
+
+## Frequently Asked Questions
+
+### How much can I earn as an independent NDIS support worker?
+Earnings vary based on specialization, experience, and funding type. As of 2025, typical hourly rates range from $50-90 for standard supports, with higher rates for evenings, weekends, and complex supports. Registered providers must follow NDIS Price Guide limits ($59.81-$103.57/hr for standard to high-intensity supports as of July 2024), while unregistered providers working with self-managed participants have more flexibility. Remember that as a sole trader, you're responsible for your tax, superannuation, insurance, and covering periods without billable hours.
+
+### Do I need qualifications to become an independent NDIS support worker?
+While the NDIS Commission doesn't mandate specific qualifications for basic support roles, most participants and plan managers prefer workers with a Certificate III in Individual Support (Disability) or equivalent. For specialized supports like behavior support or early intervention, relevant qualifications are required. Regardless of qualifications, all support workers must complete the free NDIS Worker Orientation Module, maintain current First Aid and CPR certification, and hold valid NDIS Worker Screening clearance.
+
+### What's the difference between registered and unregistered NDIS providers?
+As a registered provider, you undergo quality audits against NDIS Practice Standards, can service participants with any funding management type (including NDIA-managed), appear on the official NDIS Provider Register, and must adhere to NDIS Price Limits. Registration costs $3,000-$10,000+ depending on services offered. Unregistered providers avoid these audits and costs but can only work with self-managed and plan-managed participants, have no official NDIS listing, and must build credibility independently through testimonials and networking.
+
+### What insurance do I need as an independent NDIS support worker?
+At minimum, you need Public Liability insurance (typically $5-20 million coverage) and Professional Indemnity insurance (typically $1-2 million coverage), often available as a combined policy for $600-$1,500 annually. Ensure your policy specifically covers disability support work including any high-risk activities you perform like manual handling or medication assistance. If you use your vehicle for work, inform your car insurer and consider comprehensive coverage with business use. Many independent workers also invest in income protection insurance to cover periods of illness or injury.
+
+### How do I find NDIS participants to support as an independent worker?
+Successful strategies include: (1) Joining platforms like Mable, Hireup, or Better Caring that connect workers with participants; (2) Creating profiles on directories like MyCareSpace or CareAbout; (3) Networking with Support Coordinators and Plan Managers who can refer participants; (4) Building a professional website optimized for local search terms; (5) Engaging in NDIS Facebook groups and community forums; (6) Delivering exceptional service to generate word-of-mouth referrals; and (7) Offering a specific specialty or niche service that differentiates you from agencies (e.g., particular cultural background, language skills, or specialized experience).
+
+### What's the difference between being an employee and an independent contractor?
+As an employee, you receive a regular wage/salary, have tax withheld by your employer, receive superannuation contributions, are entitled to paid leave, work under close direction, use employer-provided equipment, and have limited liability. As an independent contractor, you operate your own business, issue invoices rather than receiving wages, manage your own tax obligations, arrange your own superannuation, don't receive paid leave, have greater autonomy in how you complete work, use your own equipment in most cases, and bear liability for your work. Misclassifying the relationship (known as "sham contracting") carries significant penalties.
+
+### How do I handle tax and superannuation as an independent support worker?
+As a sole trader, report all business income on your personal tax return using the business section. Keep detailed records of work-related expenses for deductions (vehicle costs, phone/internet, insurance, home office). Consider making quarterly tax installments (PAYG) to avoid a large end-of-year bill. While not mandatory, making personal superannuation contributions (potentially tax-deductible up to $27,500 annually including any employer contributions) is strongly recommended for retirement planning. If your annual turnover exceeds $75,000, you must register for GST, though most disability supports are GST-free with a proper service agreement.
