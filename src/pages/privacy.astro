@@ -1,0 +1,199 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Privacy Policy | MD Homecare" description="Our commitment to protecting your privacy and personal information at MD Homecare">
+  <div class="container">
+    <div class="policy-container">
+      <h1>Privacy Policy</h1>
+      <p class="last-updated">Last Updated: {new Date().toLocaleDateString('en-AU', {day: 'numeric', month: 'long', year: 'numeric'})}</p>
+      
+      <section class="policy-section">
+        <h2>1. Introduction</h2>
+        <p>MD Homecare is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and protect your personal information in accordance with the Australian Privacy Principles (APPs) contained in the Privacy Act 1988 (Cth).</p>
+        <p>By using our services, website, or providing us with your personal information, you consent to the collection, use, and disclosure of your information as described in this Privacy Policy.</p>
+      </section>
+      
+      <section class="policy-section">
+        <h2>2. Information We Collect</h2>
+        <p>We may collect the following types of personal information:</p>
+        <ul>
+          <li><strong>Personal details:</strong> Your name, date of birth, contact information, and identification details</li>
+          <li><strong>Health information:</strong> Your medical history, disability information, support needs, and other health-related information necessary to provide appropriate care services</li>
+          <li><strong>Financial information:</strong> Payment details, NDIS plan information, and billing information</li>
+          <li><strong>Service information:</strong> Records of services provided, assessments, and support plans</li>
+          <li><strong>Website usage:</strong> Information about how you use our website, collected through cookies and similar technologies</li>
+        </ul>
+      </section>
+      
+      <section class="policy-section">
+        <h2>3. How We Collect Your Information</h2>
+        <p>We collect personal information directly from you when you:</p>
+        <ul>
+          <li>Register for our services</li>
+          <li>Complete our forms (online or in person)</li>
+          <li>Communicate with us through phone, email, or in person</li>
+          <li>Use our website</li>
+          <li>Provide feedback or make a complaint</li>
+        </ul>
+        <p>We may also collect information from third parties such as:</p>
+        <ul>
+          <li>Healthcare providers</li>
+          <li>The National Disability Insurance Agency (NDIA)</li>
+          <li>Government agencies</li>
+          <li>Your representatives (with your consent)</li>
+        </ul>
+      </section>
+      
+      <section class="policy-section">
+        <h2>4. How We Use Your Information</h2>
+        <p>We use your personal information to:</p>
+        <ul>
+          <li>Provide and manage our care services</li>
+          <li>Develop and implement your support plans</li>
+          <li>Process payments and manage billing</li>
+          <li>Communicate with you about our services</li>
+          <li>Comply with our legal and regulatory obligations</li>
+          <li>Improve our services and develop new offerings</li>
+          <li>Respond to your inquiries and feedback</li>
+          <li>Protect the health and safety of our clients and staff</li>
+        </ul>
+      </section>
+      
+      <section class="policy-section">
+        <h2>5. Disclosure of Your Information</h2>
+        <p>We may disclose your personal information to:</p>
+        <ul>
+          <li>Our staff and contractors who need the information to provide services to you</li>
+          <li>Healthcare providers involved in your care</li>
+          <li>The NDIA and other government agencies as required</li>
+          <li>Third-party service providers who assist us in operating our business</li>
+          <li>Anyone you authorize us to disclose information to</li>
+        </ul>
+        <p>We will not disclose your personal information to overseas recipients without your consent, unless required by law.</p>
+      </section>
+      
+      <section class="policy-section">
+        <h2>6. Data Security</h2>
+        <p>We take reasonable steps to protect your personal information from misuse, interference, loss, unauthorized access, modification, or disclosure. These steps include:</p>
+        <ul>
+          <li>Using secure servers and encryption for digital information</li>
+          <li>Physical security measures for paper-based records</li>
+          <li>Staff training on privacy and confidentiality</li>
+          <li>Access controls and authentication procedures</li>
+          <li>Regular security assessments and updates</li>
+        </ul>
+        <p>While we strive to protect your personal information, we cannot guarantee the security of information transmitted over the internet.</p>
+      </section>
+      
+      <section class="policy-section">
+        <h2>7. Accessing and Correcting Your Information</h2>
+        <p>You have the right to access and correct your personal information held by us. To request access or corrections, please contact our Privacy Officer using the details provided below.</p>
+        <p>We will respond to your request within a reasonable timeframe. In some circumstances, we may charge a reasonable fee for providing access to your information.</p>
+        <p>If we refuse your request for access or correction, we will provide you with written reasons and information about how you can complain about the refusal.</p>
+      </section>
+      
+      <section class="policy-section">
+        <h2>8. Complaints</h2>
+        <p>If you believe that we have breached your privacy or you have concerns about how we have handled your personal information, please contact our Privacy Officer.</p>
+        <p>We will investigate your complaint and respond to you within a reasonable timeframe. If you are not satisfied with our response, you may contact the Office of the Australian Information Commissioner (OAIC) at <a href="https://www.oaic.gov.au" target="_blank">www.oaic.gov.au</a>.</p>
+      </section>
+      
+      <section class="policy-section">
+        <h2>9. Changes to Our Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. The updated policy will be posted on our website, and the revised version will be effective from the date of posting.</p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  .policy-container {
+    max-width: 800px;
+    margin: 3rem auto 5rem;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  h1 {
+    font-size: 2.25rem;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  .last-updated {
+    color: var(--text-lighter);
+    font-size: 0.9rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .policy-section {
+    margin-bottom: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: var(--primary-dark);
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+  
+  ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+  }
+  
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-details {
+    background-color: var(--light-background);
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+  }
+  
+  .contact-details p {
+    margin-bottom: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .policy-container {
+      padding: 1.5rem;
+      margin: 2rem auto 3rem;
+    }
+    
+    h1 {
+      font-size: 1.75rem;
+    }
+    
+    h2 {
+      font-size: 1.3rem;
+    }
+  }
+</style> 
