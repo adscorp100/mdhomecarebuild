@@ -11,14 +11,14 @@ const sortedServices = allServices.sort(
 );
 
 // Group services by category
-const servicesByCategory = sortedServices.reduce((acc, service) => {
+const servicesByCategory: Record<string, typeof allServices> = sortedServices.reduce((acc, service) => {
   const category = service.data.category;
   if (!acc[category]) {
     acc[category] = [];
   }
   acc[category].push(service);
   return acc;
-}, {});
+}, {} as Record<string, typeof allServices>);
 
 // Sort categories alphabetically
 const sortedCategories = Object.keys(servicesByCategory).sort();
@@ -55,9 +55,12 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
         
         <!-- Service Categories Content -->
         <div class="services-content">
-          {sortedCategories.map((category) => (
+          {sortedCategories.map((category, index) => (
             <div id={"category-" + category.toLowerCase().replace(/\s+/g, '-')} class="category-section">
-              <h2>{category}</h2>
+              <div class="category-header">
+                <h2>{category}</h2>
+                <p class="category-service-count">{servicesByCategory[category].length} services available</p>
+              </div>
               <div class="services-grid">
                 {servicesByCategory[category].map((service) => (
                   <article class="service-card">
@@ -75,6 +78,15 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
                     </a>
                   </article>
                 ))}
+              </div>
+              
+              <div class="category-navigation">
+                {index < sortedCategories.length - 1 && (
+                  <a href={"#category-" + sortedCategories[index + 1].toLowerCase().replace(/\s+/g, '-')} class="next-category">
+                    Next: {sortedCategories[index + 1]} <span class="nav-arrow">→</span>
+                  </a>
+                )}
+                <a href="#" class="back-to-top">Back to top <span class="nav-arrow">↑</span></a>
               </div>
             </div>
           ))}
@@ -222,15 +234,33 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
   }
   
   .category-section {
-    margin-bottom: 3.5rem;
+    margin-bottom: 4rem;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
     scroll-margin-top: 160px;
+    border-bottom: 1px solid var(--border-color);
   }
   
-  .category-section h2 {
+  .category-section:last-child {
+    border-bottom: none;
+  }
+  
+  .category-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--light-background);
+  }
+  
+  .category-header h2 {
     color: var(--primary-dark);
     font-size: 1.75rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .category-service-count {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    margin: 0;
   }
   
   .services-grid {
@@ -317,8 +347,35 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
     font-size: 0.9rem;
   }
   
-  .back-to-top {
-    display: none;
+  .category-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .next-category, .back-to-top {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: var(--light-background);
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .next-category:hover, .back-to-top:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .nav-arrow {
+    margin-left: 0.5rem;
+    font-size: 1.1rem;
   }
   
   /* Mobile & Tablet Layouts */
@@ -349,6 +406,10 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
     
     .category-section {
       scroll-margin-top: 20px;
+    }
+    
+    .category-navigation {
+      justify-content: center;
     }
   }
   
@@ -397,4 +458,50 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
       grid-template-columns: 250px 1fr;
     }
   }
-</style> 
+
+  /* Add smooth scrolling behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+<!-- Add JavaScript for category highlighting based on scroll position -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const categoryLinks = document.querySelectorAll('.category-link');
+    const categorySections = document.querySelectorAll('.category-section');
+    
+    // Highlight active category in navigation when scrolling
+    const highlightActiveCategory = () => {
+      let currentSectionId = '';
+      
+      categorySections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top + window.scrollY;
+        const sectionHeight = section.getBoundingClientRect().height;
+        
+        if (window.scrollY >= sectionTop - 200 && window.scrollY < sectionTop + sectionHeight - 200) {
+          const id = section.getAttribute('id');
+          if (id) {
+            currentSectionId = id;
+          }
+        }
+      });
+      
+      // Remove active class from all links
+      categoryLinks.forEach(link => {
+        link.classList.remove('active-category');
+      });
+      
+      // Add active class to current section link
+      if (currentSectionId) {
+        const activeLink = document.querySelector(`.category-link[href="#${currentSectionId}"]`);
+        if (activeLink) {
+          activeLink.classList.add('active-category');
+        }
+      }
+    };
+    
+    window.addEventListener('scroll', highlightActiveCategory);
+    highlightActiveCategory(); // Run once on page load
+  });
+</script> 
