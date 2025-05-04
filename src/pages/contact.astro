@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const metaDescription = "Contact MD Home Care for professional in-home care services. Our dedicated care team is available 24/7 to discuss your home care needs. Call MD Homecare today or send us a message for personalized support.";
+const metaDescription = "Contact MD Home Care for professional in-home care services. Our dedicated care team is available to discuss your home care needs. Call MD Homecare today or send us a message for personalized support.";
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
@@ -24,7 +24,7 @@ const structuredData = {
 ---
 
 <BaseLayout 
-  title="Contact MD Home Care | 24/7 In-Home Care Services Support" 
+  title="Contact MD Home Care | In-Home Care Services Support" 
   description={metaDescription}
   canonical="https://mdhomecare.com.au/contact"
 >
@@ -33,21 +33,29 @@ const structuredData = {
   <div class="contact-hero" style="background-image: url('/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp')">
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <div class="category-tag">Contact MD Home Care</div>
-      <h1>24/7 In-Home Care Support</h1>
-      <p class="hero-description">MD Home Care is here to provide professional in-home care services tailored to your needs. Our dedicated care team is ready to discuss how we can support you or your loved ones.</p>
+      <div class="category-tag">
+        <img src="/assets/avatar.webp" alt="MD Home Care Team Member" class="avatar-image" />
+        Contact Us
+      </div>
+      <h1>Need In-Home Care or Disability Support?</h1>
+      <p class="hero-description">Please get in touch with MD Home Care and find out how we can help you or your loved ones live more independently at home.</p>
       <div class="hero-cta">
-        <a href="tel:+61405429512" class="cta-primary" aria-label="Call MD Home Care now">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <a href="tel:+61405429512" class="cta-primary pulse-animation" aria-label="Call MD Home Care now">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
           </svg>
-          Call MD Home
+          <div class="cta-text">
+            <span class="desktop-text">Get Help Today</span>
+            <span class="mobile-text">Call Now</span>
+            <span class="social-proof">Trusted by 100+ families</span>
+          </div>
         </a>
         <a href="#contact-form" class="cta-secondary" aria-label="Send a message to MD Home Care">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
           </svg>
-          Send Message
+          <span class="desktop-text">Send Message</span>
+          <span class="mobile-text">Message</span>
         </a>
       </div>
     </div>
@@ -63,16 +71,16 @@ const structuredData = {
             </svg>
           </div>
           <h2>Call MD Home Care</h2>
-          <p>Our professional in-home care team is available 24/7 to assist you</p>
+          <p>Our professional in-home care team is available to assist you</p>
           <a href="tel:+61405429512" class="info-link" aria-label="Call MD Home Care on +61 405 429 512">+61 405 429 512</a>
-          <p class="support-hours">Available 24/7 for all your in-home care needs</p>
+          <p class="support-hours">Available for all your in-home care needs</p>
         </div>
       </div>
 
       <div class="form-section" id="contact-form">
         <div class="form-container">
-          <h2>Request In-Home Care Services</h2>
-          <p>Complete the form below to discuss your in-home care needs with MD Home Care. We'll respond promptly to help arrange the support you need.</p>
+          <h2>How Can We Help You?</h2>
+          <p>Complete the form below to discuss your specific care needs with MD Home Care. We're here to help you find the right support services.</p>
           <iframe 
             src="https://docs.google.com/forms/d/e/1FAIpQLSezT6XKZq1kDIJa1G3k2HDgur_E7gMhZ2JdAjy5ermn8wvRyA/viewform?embedded=true" 
             frameborder="0" 
@@ -90,11 +98,10 @@ const structuredData = {
   <div class="seo-content">
     <div class="content-wrapper">
       <h2>Professional In-Home Care Services by MD Home Care</h2>
-      <p>MD Home Care is your trusted provider of professional in-home care services. Whether you need personal care, disability support, or specialized home care assistance, our dedicated team is here to help. We understand that choosing the right in-home care service is important, which is why our care team is available 24/7 to discuss your specific needs.</p>
+      <p>MD Home Care is your trusted provider of professional in-home care services. Whether you need personal care, disability support, or specialized home care assistance, our dedicated team is here to help. We understand that choosing the right in-home care service is important, which is why our care team is available to discuss your specific needs.</p>
       
       <h3>Why Choose MD Home Care?</h3>
       <ul>
-        <li>24/7 availability for all your care needs</li>
         <li>Professional and experienced care team</li>
         <li>Personalized in-home care services</li>
         <li>Comprehensive support for you and your family</li>
@@ -124,6 +131,15 @@ const structuredData = {
     margin-right: -50vw;
   }
 
+  /* iOS fix for background images */
+  @supports (-webkit-touch-callout: none) {
+    .contact-hero {
+      background-attachment: scroll;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
   .hero-overlay {
     position: absolute;
     inset: 0;
@@ -149,9 +165,11 @@ const structuredData = {
   }
 
   .category-tag {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
     background: rgba(255, 255, 255, 0.15);
-    padding: 0.6rem 1.2rem;
+    padding: 0.4rem 1.2rem 0.4rem 0.4rem;
     border-radius: 3rem;
     font-size: 0.9rem;
     font-weight: 600;
@@ -160,6 +178,14 @@ const structuredData = {
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: rgba(255, 255, 255, 0.95);
     margin-bottom: 1.5rem;
+  }
+
+  .avatar-image {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.6);
   }
 
   h1 {
@@ -206,8 +232,68 @@ const structuredData = {
   }
 
   .cta-primary {
-    background: white;
+    background: linear-gradient(135deg, white, #f8f8f8);
     color: var(--primary-color);
+    position: relative;
+    border: 2px solid white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1), 0 0 0 3px rgba(255, 255, 255, 0.2);
+    padding: 1.1rem 2.2rem 1.1rem 1.4rem;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .cta-primary::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-color) 100%);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+  }
+
+  .cta-primary:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 0 0 4px rgba(255, 255, 255, 0.3);
+  }
+
+  .cta-primary:hover::before {
+    opacity: 0.05;
+  }
+
+  .cta-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .social-proof {
+    font-size: 0.65rem;
+    opacity: 0.7;
+    font-weight: 400;
+    margin-top: 0.2rem;
+  }
+
+  .pulse-animation {
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1), 0 0 0 3px rgba(255, 255, 255, 0.2);
+    }
+    50% {
+      transform: scale(1.03);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15), 0 0 0 4px rgba(255, 255, 255, 0.3);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1), 0 0 0 3px rgba(255, 255, 255, 0.2);
+    }
   }
 
   .cta-secondary {
@@ -370,6 +456,19 @@ const structuredData = {
   }
 
   @media (max-width: 480px) {
+    .hero-content {
+      padding: 2rem 1.5rem;
+      margin: 0 0.5rem;
+    }
+
+    .contact-hero {
+      padding: 8rem 1rem;
+    }
+
+    .contact-container {
+      padding: 2.5rem 1rem;
+    }
+
     .hero-cta {
       flex-direction: column;
     }
@@ -378,6 +477,14 @@ const structuredData = {
       width: 100%;
       text-align: center;
       justify-content: center;
+      padding: 0.9rem 1.3rem;
+      font-size: 0.95rem;
+      white-space: nowrap;
+    }
+
+    .cta-primary svg, .cta-secondary svg {
+      width: 18px;
+      height: 18px;
     }
 
     .info-card {
@@ -385,7 +492,7 @@ const structuredData = {
     }
 
     .form-container {
-      padding: 1.5rem;
+      padding: 1.5rem 1rem;
     }
 
     .info-link {
@@ -400,6 +507,19 @@ const structuredData = {
     .card-icon svg {
       width: 28px;
       height: 28px;
+    }
+
+    .content-wrapper {
+      padding: 0 1rem;
+    }
+
+    .mobile-text {
+      display: inline;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .desktop-text {
+      display: none;
     }
   }
 
@@ -465,6 +585,22 @@ const structuredData = {
 
     .content-wrapper h3 {
       font-size: 1.25rem;
+    }
+  }
+
+  /* Mobile/Desktop text toggles */
+  .mobile-text {
+    display: none;
+  }
+  
+  @media (max-width: 480px) {
+    .mobile-text {
+      display: inline;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .desktop-text {
+      display: none;
     }
   }
 </style>

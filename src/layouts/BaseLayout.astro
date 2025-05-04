@@ -180,7 +180,9 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
           { name: "generator", content: Astro.generator },
           { name: "robots", content: noindex ? "noindex" : "index,follow" },
           { name: "robots", content: nofollow ? "nofollow" : undefined },
-          { name: "theme-color", content: "#4f46e5" },
+          { name: "theme-color", content: "#0f172a" },
+          { name: "apple-mobile-web-app-capable", content: "yes" },
+          { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" },
           { name: "author", content: "MD Homecare" },
         ],
       }}
