@@ -23,16 +23,244 @@ interface SuburbsByState {
 
 // Hardcode suburbs data
 const suburbsData: SuburbData = {
+  // Greater Sydney
   "sydney": { "state": "NSW", "region": "Greater Sydney" },
-  "burwood": { "state": "NSW", "region": "Inner West" },
-  "parramatta": { "state": "NSW", "region": "Western Sydney" },
-  "chatswood": { "state": "NSW", "region": "North Shore" },
+  "cbd": { "state": "NSW", "region": "Greater Sydney" },
+  "haymarket": { "state": "NSW", "region": "Greater Sydney" },
+  "the-rocks": { "state": "NSW", "region": "Greater Sydney" },
+  "barangaroo": { "state": "NSW", "region": "Greater Sydney" },
+  "pyrmont": { "state": "NSW", "region": "Greater Sydney" },
+  "ultimo": { "state": "NSW", "region": "Greater Sydney" },
+  "chippendale": { "state": "NSW", "region": "Greater Sydney" },
+  "surry-hills": { "state": "NSW", "region": "Greater Sydney" },
+  "darlinghurst": { "state": "NSW", "region": "Greater Sydney" },
+  "potts-point": { "state": "NSW", "region": "Greater Sydney" },
+  "elizabeth-bay": { "state": "NSW", "region": "Greater Sydney" },
+  "rushcutters-bay": { "state": "NSW", "region": "Greater Sydney" },
+  "woolloomooloo": { "state": "NSW", "region": "Greater Sydney" },
+  "redfern": { "state": "NSW", "region": "Greater Sydney" },
+  "waterloo": { "state": "NSW", "region": "Greater Sydney" },
+  "zetland": { "state": "NSW", "region": "Greater Sydney" },
+  "alexandria": { "state": "NSW", "region": "Greater Sydney" },
+  "erskineville": { "state": "NSW", "region": "Greater Sydney" },
+  
+  // Eastern Suburbs
   "bondi": { "state": "NSW", "region": "Eastern Suburbs" },
+  "bondi-beach": { "state": "NSW", "region": "Eastern Suburbs" },
+  "bondi-junction": { "state": "NSW", "region": "Eastern Suburbs" },
+  "bronte": { "state": "NSW", "region": "Eastern Suburbs" },
+  "clovelly": { "state": "NSW", "region": "Eastern Suburbs" },
+  "coogee": { "state": "NSW", "region": "Eastern Suburbs" },
+  "maroubra": { "state": "NSW", "region": "Eastern Suburbs" },
+  "kensington": { "state": "NSW", "region": "Eastern Suburbs" },
+  "randwick": { "state": "NSW", "region": "Eastern Suburbs" },
+  "vaucluse": { "state": "NSW", "region": "Eastern Suburbs" },
+  "rose-bay": { "state": "NSW", "region": "Eastern Suburbs" },
+  "double-bay": { "state": "NSW", "region": "Eastern Suburbs" },
+  "bellevue-hill": { "state": "NSW", "region": "Eastern Suburbs" },
+  "dover-heights": { "state": "NSW", "region": "Eastern Suburbs" },
+  "queens-park": { "state": "NSW", "region": "Eastern Suburbs" },
+  "pagewood": { "state": "NSW", "region": "Eastern Suburbs" },
+  "eastgardens": { "state": "NSW", "region": "Eastern Suburbs" },
+  "little-bay": { "state": "NSW", "region": "Eastern Suburbs" },
+  "la-perouse": { "state": "NSW", "region": "Eastern Suburbs" },
+  
+  // Inner West
+  "burwood": { "state": "NSW", "region": "Inner West" },
+  "strathfield": { "state": "NSW", "region": "Inner West" },
+  "newtown": { "state": "NSW", "region": "Inner West" },
+  "marrickville": { "state": "NSW", "region": "Inner West" },
+  "dulwich-hill": { "state": "NSW", "region": "Inner West" },
+  "summer-hill": { "state": "NSW", "region": "Inner West" },
+  "ashfield": { "state": "NSW", "region": "Inner West" },
+  "leichhardt": { "state": "NSW", "region": "Inner West" },
+  "balmain": { "state": "NSW", "region": "Inner West" },
+  "rozelle": { "state": "NSW", "region": "Inner West" },
+  "lilyfield": { "state": "NSW", "region": "Inner West" },
+  "annandale": { "state": "NSW", "region": "Inner West" },
+  "petersham": { "state": "NSW", "region": "Inner West" },
+  "stanmore": { "state": "NSW", "region": "Inner West" },
+  "enmore": { "state": "NSW", "region": "Inner West" },
+  "croydon": { "state": "NSW", "region": "Inner West" },
+  "croydon-park": { "state": "NSW", "region": "Inner West" },
+  "haberfield": { "state": "NSW", "region": "Inner West" },
+  "five-dock": { "state": "NSW", "region": "Inner West" },
+  "drummoyne": { "state": "NSW", "region": "Inner West" },
+  "glebe": { "state": "NSW", "region": "Inner West" },
+  
+  // North Shore
+  "chatswood": { "state": "NSW", "region": "North Shore" },
+  "st-leonards": { "state": "NSW", "region": "North Shore" },
+  "artarmon": { "state": "NSW", "region": "Lower North Shore" },
+  "willoughby": { "state": "NSW", "region": "Lower North Shore" },
+  "naremburn": { "state": "NSW", "region": "Lower North Shore" },
+  "northbridge": { "state": "NSW", "region": "Lower North Shore" },
+  "cammeray": { "state": "NSW", "region": "Lower North Shore" },
+  "cremorne": { "state": "NSW", "region": "Lower North Shore" },
+  "neutral-bay": { "state": "NSW", "region": "Lower North Shore" },
+  "mosman": { "state": "NSW", "region": "Lower North Shore" },
+  "north-sydney": { "state": "NSW", "region": "Lower North Shore" },
+  "kirribilli": { "state": "NSW", "region": "Lower North Shore" },
+  "lavender-bay": { "state": "NSW", "region": "Lower North Shore" },
+  "wollstonecraft": { "state": "NSW", "region": "Lower North Shore" },
+  "greenwich": { "state": "NSW", "region": "Lower North Shore" },
+  "lane-cove": { "state": "NSW", "region": "Lower North Shore" },
+  "riverview": { "state": "NSW", "region": "Lower North Shore" },
+  "longueville": { "state": "NSW", "region": "Lower North Shore" },
+  
+  // Upper North Shore
+  "gordon": { "state": "NSW", "region": "Upper North Shore" },
+  "killara": { "state": "NSW", "region": "Upper North Shore" },
+  "lindfield": { "state": "NSW", "region": "Upper North Shore" },
+  "roseville": { "state": "NSW", "region": "Upper North Shore" },
+  "pymble": { "state": "NSW", "region": "Upper North Shore" },
+  "turramurra": { "state": "NSW", "region": "Upper North Shore" },
+  "wahroonga": { "state": "NSW", "region": "Upper North Shore" },
+  "warrawee": { "state": "NSW", "region": "Upper North Shore" },
+  "st-ives": { "state": "NSW", "region": "Upper North Shore" },
+  "hornsby": { "state": "NSW", "region": "Upper North Shore" },
+  "waitara": { "state": "NSW", "region": "Upper North Shore" },
+  "asquith": { "state": "NSW", "region": "Upper North Shore" },
+  "berowra": { "state": "NSW", "region": "Upper North Shore" },
+  
+  // Northern Suburbs
+  "ryde": { "state": "NSW", "region": "Northern Sydney" },
+  "eastwood": { "state": "NSW", "region": "Northern Sydney" },
+  "epping": { "state": "NSW", "region": "Northern Sydney" },
+  "macquarie-park": { "state": "NSW", "region": "Northern Sydney" },
+  "north-ryde": { "state": "NSW", "region": "Northern Sydney" },
+  "marsfield": { "state": "NSW", "region": "Northern Sydney" },
+  "west-ryde": { "state": "NSW", "region": "Northern Sydney" },
+  "meadowbank": { "state": "NSW", "region": "Northern Sydney" },
+  "denistone": { "state": "NSW", "region": "Northern Sydney" },
+  "putney": { "state": "NSW", "region": "Northern Sydney" },
+  "gladesville": { "state": "NSW", "region": "Northern Sydney" },
+  "hunters-hill": { "state": "NSW", "region": "Northern Sydney" },
+  
+  // Northern Beaches
   "manly": { "state": "NSW", "region": "Northern Beaches" },
+  "dee-why": { "state": "NSW", "region": "Northern Beaches" },
+  "brookvale": { "state": "NSW", "region": "Northern Beaches" },
+  "freshwater": { "state": "NSW", "region": "Northern Beaches" },
+  "curl-curl": { "state": "NSW", "region": "Northern Beaches" },
+  "queenscliff": { "state": "NSW", "region": "Northern Beaches" },
+  "fairlight": { "state": "NSW", "region": "Northern Beaches" },
+  "balgowlah": { "state": "NSW", "region": "Northern Beaches" },
+  "seaforth": { "state": "NSW", "region": "Northern Beaches" },
+  "narrabeen": { "state": "NSW", "region": "Northern Beaches" },
+  "collaroy": { "state": "NSW", "region": "Northern Beaches" },
+  "avalon": { "state": "NSW", "region": "Northern Beaches" },
+  "newport": { "state": "NSW", "region": "Northern Beaches" },
+  "mona-vale": { "state": "NSW", "region": "Northern Beaches" },
+  "palm-beach": { "state": "NSW", "region": "Northern Beaches" },
+  
+  // Hills District
+  "castle-hill": { "state": "NSW", "region": "Hills District" },
+  "baulkham-hills": { "state": "NSW", "region": "Hills District" },
+  "bella-vista": { "state": "NSW", "region": "Hills District" },
+  "kellyville": { "state": "NSW", "region": "Hills District" },
+  "rouse-hill": { "state": "NSW", "region": "Hills District" },
+  "pennant-hills": { "state": "NSW", "region": "Hills District" },
+  "cherrybrook": { "state": "NSW", "region": "Hills District" },
+  "west-pennant-hills": { "state": "NSW", "region": "Hills District" },
+  "northmead": { "state": "NSW", "region": "Hills District" },
+  "winston-hills": { "state": "NSW", "region": "Hills District" },
+  "north-rocks": { "state": "NSW", "region": "Hills District" },
+  "carlingford": { "state": "NSW", "region": "Hills District" },
+  
+  // Western Sydney
+  "parramatta": { "state": "NSW", "region": "Western Sydney" },
   "penrith": { "state": "NSW", "region": "Western Sydney" },
   "blacktown": { "state": "NSW", "region": "Western Sydney" },
+  "westmead": { "state": "NSW", "region": "Western Sydney" },
+  "wentworthville": { "state": "NSW", "region": "Western Sydney" },
+  "toongabbie": { "state": "NSW", "region": "Western Sydney" },
+  "seven-hills": { "state": "NSW", "region": "Western Sydney" },
+  "kings-langley": { "state": "NSW", "region": "Western Sydney" },
+  "kings-park": { "state": "NSW", "region": "Western Sydney" },
+  "prospect": { "state": "NSW", "region": "Western Sydney" },
+  "girraween": { "state": "NSW", "region": "Western Sydney" },
+  "pemulwuy": { "state": "NSW", "region": "Western Sydney" },
+  "greystanes": { "state": "NSW", "region": "Western Sydney" },
+  "merrylands": { "state": "NSW", "region": "Western Sydney" },
+  "guildford": { "state": "NSW", "region": "Western Sydney" },
+  "auburn": { "state": "NSW", "region": "Western Sydney" },
+  "granville": { "state": "NSW", "region": "Western Sydney" },
+  "harris-park": { "state": "NSW", "region": "Western Sydney" },
+  "st-marys": { "state": "NSW", "region": "Western Sydney" },
+  "mount-druitt": { "state": "NSW", "region": "Western Sydney" },
+  "rooty-hill": { "state": "NSW", "region": "Western Sydney" },
+  "doonside": { "state": "NSW", "region": "Western Sydney" },
+  "quakers-hill": { "state": "NSW", "region": "Western Sydney" },
+  
+  // South Western Sydney
   "liverpool": { "state": "NSW", "region": "South Western Sydney" },
+  "fairfield": { "state": "NSW", "region": "South Western Sydney" },
+  "cabramatta": { "state": "NSW", "region": "South Western Sydney" },
+  "bankstown": { "state": "NSW", "region": "South Western Sydney" },
+  "revesby": { "state": "NSW", "region": "South Western Sydney" },
+  "padstow": { "state": "NSW", "region": "South Western Sydney" },
+  "punchbowl": { "state": "NSW", "region": "South Western Sydney" },
+  "yagoona": { "state": "NSW", "region": "South Western Sydney" },
+  "bass-hill": { "state": "NSW", "region": "South Western Sydney" },
+  "chester-hill": { "state": "NSW", "region": "South Western Sydney" },
+  "sefton": { "state": "NSW", "region": "South Western Sydney" },
+  "birrong": { "state": "NSW", "region": "South Western Sydney" },
+  "regents-park": { "state": "NSW", "region": "South Western Sydney" },
+  "berala": { "state": "NSW", "region": "South Western Sydney" },
+  "lidcombe": { "state": "NSW", "region": "South Western Sydney" },
+  "condell-park": { "state": "NSW", "region": "South Western Sydney" },
+  "greenacre": { "state": "NSW", "region": "South Western Sydney" },
+  "chullora": { "state": "NSW", "region": "South Western Sydney" },
+  "villawood": { "state": "NSW", "region": "South Western Sydney" },
+  "canley-vale": { "state": "NSW", "region": "South Western Sydney" },
+  "canley-heights": { "state": "NSW", "region": "South Western Sydney" },
+  "warwick-farm": { "state": "NSW", "region": "South Western Sydney" },
+  "casula": { "state": "NSW", "region": "South Western Sydney" },
+  "prestons": { "state": "NSW", "region": "South Western Sydney" },
+  "hoxton-park": { "state": "NSW", "region": "South Western Sydney" },
+  "west-hoxton": { "state": "NSW", "region": "South Western Sydney" },
+  "middleton-grange": { "state": "NSW", "region": "South Western Sydney" },
+  
+  // St George
+  "hurstville": { "state": "NSW", "region": "St George" },
+  "kogarah": { "state": "NSW", "region": "St George" },
+  "rockdale": { "state": "NSW", "region": "St George" },
+  "brighton-le-sands": { "state": "NSW", "region": "St George" },
+  "sans-souci": { "state": "NSW", "region": "St George" },
+  "ramsgate": { "state": "NSW", "region": "St George" },
+  "monterey": { "state": "NSW", "region": "St George" },
+  "dolls-point": { "state": "NSW", "region": "St George" },
+  "sandringham": { "state": "NSW", "region": "St George" },
+  "beverly-hills": { "state": "NSW", "region": "St George" },
+  "kingsgrove": { "state": "NSW", "region": "St George" },
+  "bexley": { "state": "NSW", "region": "St George" },
+  "carlton": { "state": "NSW", "region": "St George" },
+  "allawah": { "state": "NSW", "region": "St George" },
+  "mortdale": { "state": "NSW", "region": "St George" },
+  "penshurst": { "state": "NSW", "region": "St George" },
+  "oatley": { "state": "NSW", "region": "St George" },
+  
+  // Sutherland Shire
   "cronulla": { "state": "NSW", "region": "Sutherland Shire" },
+  "sutherland": { "state": "NSW", "region": "Sutherland Shire" },
+  "miranda": { "state": "NSW", "region": "Sutherland Shire" },
+  "caringbah": { "state": "NSW", "region": "Sutherland Shire" },
+  "gymea": { "state": "NSW", "region": "Sutherland Shire" },
+  "engadine": { "state": "NSW", "region": "Sutherland Shire" },
+  "sylvania": { "state": "NSW", "region": "Sutherland Shire" },
+  "jannali": { "state": "NSW", "region": "Sutherland Shire" },
+  "como": { "state": "NSW", "region": "Sutherland Shire" },
+  "oyster-bay": { "state": "NSW", "region": "Sutherland Shire" },
+  "woolooware": { "state": "NSW", "region": "Sutherland Shire" },
+  "loftus": { "state": "NSW", "region": "Sutherland Shire" },
+  "yarrawarrah": { "state": "NSW", "region": "Sutherland Shire" },
+  "grays-point": { "state": "NSW", "region": "Sutherland Shire" },
+  "kirrawee": { "state": "NSW", "region": "Sutherland Shire" },
+  "kareela": { "state": "NSW", "region": "Sutherland Shire" },
+  "yowie-bay": { "state": "NSW", "region": "Sutherland Shire" },
+  "lilli-pilli": { "state": "NSW", "region": "Sutherland Shire" },
+  "port-hacking": { "state": "NSW", "region": "Sutherland Shire" },
   "newcastle": { "state": "NSW", "region": "Hunter Region" },
   "wollongong": { "state": "NSW", "region": "Illawarra" },
   "gosford": { "state": "NSW", "region": "Central Coast" },
@@ -40,9 +268,6 @@ const suburbsData: SuburbData = {
   "tamworth": { "state": "NSW", "region": "New England" },
   "dubbo": { "state": "NSW", "region": "Central West" },
   "byron-bay": { "state": "NSW", "region": "Northern Rivers" },
-  "balmain": { "state": "NSW", "region": "Inner West" },
-  "dee-why": { "state": "NSW", "region": "Northern Beaches" },
-  "hurstville": { "state": "NSW", "region": "St George" },
   "melbourne": { "state": "VIC", "region": "Greater Melbourne" },
   "brunswick": { "state": "VIC", "region": "Inner North" },
   "footscray": { "state": "VIC", "region": "Inner West" },
@@ -105,186 +330,7 @@ const suburbsData: SuburbData = {
   "woden": { "state": "ACT", "region": "South Canberra" },
   "tuggeranong": { "state": "ACT", "region": "South Canberra" },
   "gungahlin": { "state": "ACT", "region": "North Canberra" },
-  "queanbeyan": { "state": "NSW", "region": "Capital Region" },
-  "hornsby": { "state": "NSW", "region": "Northern Sydney" },
-  "sutherland": { "state": "NSW", "region": "Sutherland Shire" },
-  "campbelltown": { "state": "NSW", "region": "Macarthur" },
-  "castle-hill": { "state": "NSW", "region": "Hills District" },
-  "epping": { "state": "NSW", "region": "Northern Sydney" },
-  "strathfield": { "state": "NSW", "region": "Inner West" },
-  "newtown": { "state": "NSW", "region": "Inner West" },
-  "miranda": { "state": "NSW", "region": "Sutherland Shire" },
-  "coogee": { "state": "NSW", "region": "Eastern Suburbs" },
-  "leichhardt": { "state": "NSW", "region": "Inner West" },
-  "maroubra": { "state": "NSW", "region": "Eastern Suburbs" },
-  "crows-nest": { "state": "NSW", "region": "Lower North Shore" },
-  "port-macquarie": { "state": "NSW", "region": "Mid North Coast" },
-  "coffs-harbour": { "state": "NSW", "region": "Mid North Coast" },
-  "orange": { "state": "NSW", "region": "Central West" },
-  "albury": { "state": "NSW", "region": "Murray" },
-  "wagga-wagga": { "state": "NSW", "region": "Riverina" },
-  "lismore": { "state": "NSW", "region": "Northern Rivers" },
-  "grafton": { "state": "NSW", "region": "Northern Rivers" },
-  "broken-hill": { "state": "NSW", "region": "Far West" },
-  "mosman": { "state": "NSW", "region": "Lower North Shore" },
-  "double-bay": { "state": "NSW", "region": "Eastern Suburbs" },
-  "camberwell": { "state": "VIC", "region": "Inner East" },
-  "hawthorn": { "state": "VIC", "region": "Inner East" },
-  "northcote": { "state": "VIC", "region": "Inner North" },
-  "fitzroy": { "state": "VIC", "region": "Inner North" },
-  "south-yarra": { "state": "VIC", "region": "Inner South" },
-  "carlton": { "state": "VIC", "region": "Inner North" },
-  "moonee-ponds": { "state": "VIC", "region": "Inner North-West" },
-  "essendon": { "state": "VIC", "region": "Inner North-West" },
-  "doncaster": { "state": "VIC", "region": "Eastern Melbourne" },
-  "glen-waverley": { "state": "VIC", "region": "Eastern Melbourne" },
-  "box-hill": { "state": "VIC", "region": "Eastern Melbourne" },
-  "ringwood": { "state": "VIC", "region": "Eastern Melbourne" },
-  "croydon": { "state": "VIC", "region": "Eastern Melbourne" },
-  "berwick": { "state": "VIC", "region": "South East Melbourne" },
-  "cranbourne": { "state": "VIC", "region": "South East Melbourne" },
-  "pakenham": { "state": "VIC", "region": "South East Melbourne" },
-  "sunbury": { "state": "VIC", "region": "North-Western Melbourne" },
-  "shepparton": { "state": "VIC", "region": "Goulburn Valley" },
-  "wangaratta": { "state": "VIC", "region": "North East" },
-  "wodonga": { "state": "VIC", "region": "North East" },
-  "warrnambool": { "state": "VIC", "region": "Western District" },
-  "traralgon": { "state": "VIC", "region": "Gippsland" },
-  "sale": { "state": "VIC", "region": "Gippsland" },
-  "narre-warren": { "state": "VIC", "region": "South East Melbourne" },
-  "cheltenham": { "state": "VIC", "region": "Bayside" },
-  "ipswich": { "state": "QLD", "region": "Greater Brisbane" },
-  "redcliffe": { "state": "QLD", "region": "Moreton Bay" },
-  "caboolture": { "state": "QLD", "region": "Moreton Bay" },
-  "cleveland": { "state": "QLD", "region": "Redland City" },
-  "springwood": { "state": "QLD", "region": "Logan City" },
-  "robina": { "state": "QLD", "region": "Gold Coast" },
-  "burleigh-heads": { "state": "QLD", "region": "Gold Coast" },
-  "mooloolaba": { "state": "QLD", "region": "Sunshine Coast" },
-  "noosa": { "state": "QLD", "region": "Sunshine Coast" },
-  "caloundra": { "state": "QLD", "region": "Sunshine Coast" },
-  "maroochydore": { "state": "QLD", "region": "Sunshine Coast" },
-  "gladstone": { "state": "QLD", "region": "Gladstone Region" },
-  "emerald": { "state": "QLD", "region": "Central Highlands" },
-  "yeppoon": { "state": "QLD", "region": "Capricorn Coast" },
-  "innisfail": { "state": "QLD", "region": "Far North Queensland" },
-  "mt-isa": { "state": "QLD", "region": "North West Queensland" },
-  "gympie": { "state": "QLD", "region": "Wide Bay Burnett" },
-  "dalby": { "state": "QLD", "region": "Darling Downs" },
-  "warwick": { "state": "QLD", "region": "Darling Downs" },
-  "goondiwindi": { "state": "QLD", "region": "Darling Downs" },
-  "charters-towers": { "state": "QLD", "region": "North Queensland" },
-  "rockingham": { "state": "WA", "region": "Southern Perth" },
-  "armadale": { "state": "WA", "region": "South Eastern Perth" },
-  "midland": { "state": "WA", "region": "Eastern Perth" },
-  "cannington": { "state": "WA", "region": "South Eastern Perth" },
-  "wanneroo": { "state": "WA", "region": "Northern Perth" },
-  "claremont": { "state": "WA", "region": "Western Suburbs" },
-  "cottesloe": { "state": "WA", "region": "Western Suburbs" },
-  "albany": { "state": "WA", "region": "Great Southern" },
-  "busselton": { "state": "WA", "region": "South West" },
-  "margaret-river": { "state": "WA", "region": "South West" },
-  "esperance": { "state": "WA", "region": "Goldfields-Esperance" },
-  "karratha": { "state": "WA", "region": "Pilbara" },
-  "port-hedland": { "state": "WA", "region": "Pilbara" },
-  "newman": { "state": "WA", "region": "Pilbara" },
-  "kununurra": { "state": "WA", "region": "Kimberley" },
-  "derby": { "state": "WA", "region": "Kimberley" },
-  "carnarvon": { "state": "WA", "region": "Gascoyne" },
-  "north-sydney": { "state": "NSW", "region": "Lower North Shore" },
-  "neutral-bay": { "state": "NSW", "region": "Lower North Shore" },
-  "lane-cove": { "state": "NSW", "region": "Lower North Shore" },
-  "artarmon": { "state": "NSW", "region": "Lower North Shore" },
-  "willoughby": { "state": "NSW", "region": "Lower North Shore" },
-  "ryde": { "state": "NSW", "region": "Northern Sydney" },
-  "eastwood": { "state": "NSW", "region": "Northern Sydney" },
-  "macquarie-park": { "state": "NSW", "region": "Northern Sydney" },
-  "gordon": { "state": "NSW", "region": "Upper North Shore" },
-  "killara": { "state": "NSW", "region": "Upper North Shore" },
-  "pymble": { "state": "NSW", "region": "Upper North Shore" },
-  "turramurra": { "state": "NSW", "region": "Upper North Shore" },
-  "wahroonga": { "state": "NSW", "region": "Upper North Shore" },
-  "pennant-hills": { "state": "NSW", "region": "Hills District" },
-  "baulkham-hills": { "state": "NSW", "region": "Hills District" },
-  "kellyville": { "state": "NSW", "region": "Hills District" },
-  "rouse-hill": { "state": "NSW", "region": "Hills District" },
-  "fairfield": { "state": "NSW", "region": "South Western Sydney" },
-  "cabramatta": { "state": "NSW", "region": "South Western Sydney" },
-  "bankstown": { "state": "NSW", "region": "South Western Sydney" },
-  "revesby": { "state": "NSW", "region": "South Western Sydney" },
-  "padstow": { "state": "NSW", "region": "South Western Sydney" },
-  "punchbowl": { "state": "NSW", "region": "South Western Sydney" },
-  "kensington": { "state": "NSW", "region": "Eastern Suburbs" },
-  "randwick": { "state": "NSW", "region": "Eastern Suburbs" },
-  "bronte": { "state": "NSW", "region": "Eastern Suburbs" },
-  "vaucluse": { "state": "NSW", "region": "Eastern Suburbs" },
-  "rose-bay": { "state": "NSW", "region": "Eastern Suburbs" },
-  "caringbah": { "state": "NSW", "region": "Sutherland Shire" },
-  "gymea": { "state": "NSW", "region": "Sutherland Shire" },
-  "engadine": { "state": "NSW", "region": "Sutherland Shire" },
-  "glebe": { "state": "NSW", "region": "Inner West" },
-  "drummoyne": { "state": "NSW", "region": "Inner West" },
-  "kew": { "state": "VIC", "region": "Inner East" },
-  "malvern": { "state": "VIC", "region": "Inner East" },
-  "caulfield": { "state": "VIC", "region": "Inner South-East" },
-  "albert-park": { "state": "VIC", "region": "Inner South" },
-  "port-melbourne": { "state": "VIC", "region": "Inner South" },
-  "south-melbourne": { "state": "VIC", "region": "Inner South" },
-  "williamstown": { "state": "VIC", "region": "Inner West" },
-  "yarraville": { "state": "VIC", "region": "Inner West" },
-  "seddon": { "state": "VIC", "region": "Inner West" },
-  "newport": { "state": "VIC", "region": "Inner West" },
-  "ascot-vale": { "state": "VIC", "region": "Inner North-West" },
-  "maribyrnong": { "state": "VIC", "region": "Inner North-West" },
-  "coburg": { "state": "VIC", "region": "Inner North" },
-  "preston": { "state": "VIC", "region": "Inner North" },
-  "thornbury": { "state": "VIC", "region": "Inner North" },
-  "collingwood": { "state": "VIC", "region": "Inner North" },
-  "abbotsford": { "state": "VIC", "region": "Inner North" },
-  "balwyn": { "state": "VIC", "region": "Eastern Melbourne" },
-  "surrey-hills": { "state": "VIC", "region": "Eastern Melbourne" },
-  "burwood-east": { "state": "VIC", "region": "Eastern Melbourne" },
-  "blackburn": { "state": "VIC", "region": "Eastern Melbourne" },
-  "mount-waverley": { "state": "VIC", "region": "Eastern Melbourne" },
-  "rowville": { "state": "VIC", "region": "Eastern Melbourne" },
-  "wantirna": { "state": "VIC", "region": "Eastern Melbourne" },
-  "ferntree-gully": { "state": "VIC", "region": "Eastern Melbourne" },
-  "boronia": { "state": "VIC", "region": "Eastern Melbourne" },
-  "lilydale": { "state": "VIC", "region": "Eastern Melbourne" },
-  "mornington": { "state": "VIC", "region": "Mornington Peninsula" },
-  "rosebud": { "state": "VIC", "region": "Mornington Peninsula" },
-  "rye": { "state": "VIC", "region": "Mornington Peninsula" },
-  "sorrento": { "state": "VIC", "region": "Mornington Peninsula" },
-  "moranbah": { "state": "QLD", "region": "Isaac Region" },
-  "airlie-beach": { "state": "QLD", "region": "Whitsunday Region" },
-  "bowen": { "state": "QLD", "region": "Whitsunday Region" },
-  "proserpine": { "state": "QLD", "region": "Whitsunday Region" },
-  "ayr": { "state": "QLD", "region": "Burdekin Region" },
-  "home-hill": { "state": "QLD", "region": "Burdekin Region" },
-  "ingham": { "state": "QLD", "region": "Hinchinbrook Region" },
-  "mission-beach": { "state": "QLD", "region": "Cassowary Coast" },
-  "tully": { "state": "QLD", "region": "Cassowary Coast" },
-  "port-douglas": { "state": "QLD", "region": "Far North Queensland" },
-  "mossman": { "state": "QLD", "region": "Far North Queensland" },
-  "atherton": { "state": "QLD", "region": "Tablelands" },
-  "mareeba": { "state": "QLD", "region": "Tablelands" },
-  "cooktown": { "state": "QLD", "region": "Cook Shire" },
-  "weipa": { "state": "QLD", "region": "Far North Queensland" },
-  "thursday-island": { "state": "QLD", "region": "Torres Strait" },
-  "roma": { "state": "QLD", "region": "Maranoa" },
-  "charleville": { "state": "QLD", "region": "Murweh Shire" },
-  "longreach": { "state": "QLD", "region": "Central West Queensland" },
-  "barcaldine": { "state": "QLD", "region": "Central West Queensland" },
-  "winton": { "state": "QLD", "region": "Central West Queensland" },
-  "cloncurry": { "state": "QLD", "region": "North West Queensland" },
-  "normanton": { "state": "QLD", "region": "Gulf Country" },
-  "karumba": { "state": "QLD", "region": "Gulf Country" },
-  "gawler": { "state": "SA", "region": "Barossa" },
-  "nuriootpa": { "state": "SA", "region": "Barossa" },
-  "tanunda": { "state": "SA", "region": "Barossa" },
-  "barossa-valley": { "state": "SA", "region": "Barossa" },
-  "clare": { "state": "SA", "region": "Clare Valley" },
-  "burra": { "state": "SA", "region": "Mid North" }
+  "queanbeyan": { "state": "NSW", "region": "Capital Region" }
 };
 
 // Generate static paths for all service pages
@@ -459,7 +505,7 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0;
   }
 
   .service-hero {
@@ -623,7 +669,9 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
   }
 
   .service-content {
-    padding-top: 4rem;
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   .service-cta-banner {
@@ -708,6 +756,8 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
     font-size: 1.1rem;
     line-height: 1.8;
     color: var(--text-color);
+    max-width: 800px;
+    margin: 0 auto;
   }
 
   .locations-section {
@@ -866,29 +916,34 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
 
   .service-footer {
     text-align: center;
-    margin: 6rem 0;
-    padding-top: 3rem;
+    margin: 4rem auto;
+    padding: 2rem;
+    max-width: 1200px;
     border-top: 1px solid var(--border-color);
   }
 
   .back-link {
     display: inline-flex;
     align-items: center;
-    color: var(--text-light);
+    gap: 0.5rem;
+    color: var(--text-color);
     text-decoration: none;
     font-weight: 500;
-    font-size: 1.1rem;
-    transition: all 0.3s ease;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    background: var(--light-background);
   }
 
   .back-link:hover {
-    color: var(--primary-color);
+    background: var(--border-color);
     transform: translateX(-4px);
   }
 
   @media (max-width: 768px) {
     .service-container {
-      padding: 0 1rem;
+      padding: 0;
     }
 
     .service-hero {
@@ -922,7 +977,7 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
     }
 
     .service-content {
-      padding: 0 1.5rem;
+      padding: 3rem 1.5rem;
     }
 
     .service-image {
@@ -961,11 +1016,16 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
     .service-description {
       font-size: 1.1rem;
     }
+
+    .service-footer {
+      margin: 3rem auto;
+      padding: 1.5rem;
+    }
   }
 
   @media (max-width: 480px) {
     .service-container {
-      padding: 0 0.75rem;
+      padding: 0;
     }
 
     .hero-content {
@@ -978,7 +1038,7 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
     }
 
     .service-content {
-      padding: 0 1rem;
+      padding: 2rem 1rem;
     }
 
     .service-cta-banner {
@@ -1005,11 +1065,6 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
 
     .related-card {
       padding: 1.75rem;
-    }
-
-    .service-footer {
-      margin: 4rem 0;
-      padding-top: 2rem;
     }
 
     .cta-primary, .cta-secondary {
@@ -1109,25 +1164,26 @@ document.addEventListener('DOMContentLoaded', () => {
     searchInput.addEventListener('input', (e) => {
       const target = e.target as HTMLInputElement;
       const searchTerm = target.value.toLowerCase();
-      const suburbLinks = document.querySelectorAll<HTMLAnchorElement>('.suburb-link');
+      const suburbItems = document.querySelectorAll<HTMLLIElement>('.suburb-item');
       
-      suburbLinks.forEach(link => {
-        const suburb = link.textContent?.toLowerCase() || '';
-        if (searchTerm === '' || suburb.includes(searchTerm)) {
-          link.style.display = 'block';
+      suburbItems.forEach(item => {
+        const suburbName = item.querySelector('.suburb-name')?.textContent?.toLowerCase() || '';
+        const regionName = item.querySelector('.region-name')?.textContent?.toLowerCase() || '';
+        
+        if (searchTerm === '' || suburbName.includes(searchTerm) || regionName.includes(searchTerm)) {
+          item.style.display = 'list-item';
         } else {
-          link.style.display = 'none';
+          item.style.display = 'none';
         }
       });
       
       // Show/hide state sections based on whether they have visible suburbs
       document.querySelectorAll<HTMLElement>('.state-section').forEach(section => {
-        const visibleSuburbs = section.querySelectorAll('.suburb-link[style="display: block"]').length;
-        if (visibleSuburbs === 0) {
-          section.style.display = 'none';
-        } else {
-          section.style.display = 'block';
-        }
+        const visibleSuburbs = Array.from(section.querySelectorAll<HTMLLIElement>('.suburb-item')).filter(
+          item => item.style.display !== 'none'
+        ).length;
+        
+        section.style.display = visibleSuburbs === 0 ? 'none' : 'block';
       });
     });
   }
