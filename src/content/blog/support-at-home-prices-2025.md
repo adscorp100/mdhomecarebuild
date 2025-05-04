@@ -1,7 +1,7 @@
 ---
 title: "Support at Home Prices 2025: Your Guide to Understanding Indicative Costs"
 description: "Navigate the new Support at Home program replacing Home Care Packages from July 2025. Learn about indicative pricing ranges for in-home aged care services based on the latest government survey data."
-pubDate: 2025-04-01
+pubDate: 2025-05-05
 category: "Aged Care"
 image: "/assets/occupationaltherapy.webp"
 author: "MD Home Care Team"
