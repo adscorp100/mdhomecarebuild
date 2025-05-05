@@ -25,6 +25,8 @@ const baseUrl = "";
 // Import getCollection to fetch blog posts
 import { getCollection } from 'astro:content';
 import { SEO } from 'astro-seo';
+// Import PostHog component
+import PostHog from '../components/posthog.astro';
 
 // Get blog posts, sort by date, and take the 5 most recent
 const allBlogPosts = await getCollection('blog');
@@ -208,6 +210,9 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
 
       gtag('config', 'G-05DBKL39SX');
     </script>
+    
+    <!-- PostHog Analytics -->
+    <PostHog />
   </head>
   <body>
     <header class="site-header">
