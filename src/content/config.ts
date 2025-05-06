@@ -56,6 +56,7 @@ const jobsCollection = defineCollection({
     canonicalUrl: z.string().optional(),
     noindex: z.boolean().optional(),
     featured: z.boolean().optional(),
+    keywords: z.array(z.string()).default([]),
   }),
 });
 
