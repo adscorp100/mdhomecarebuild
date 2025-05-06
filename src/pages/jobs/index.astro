@@ -1,0 +1,511 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Get all jobs
+const allJobs = await getCollection('jobs');
+
+// Sort jobs alphabetically by title
+const sortedJobs = allJobs.sort(
+  (a, b) => a.data.title.replace('{suburb}', '').localeCompare(b.data.title.replace('{suburb}', ''))
+);
+
+// Group jobs by category
+const jobsByCategory: Record<string, typeof allJobs> = sortedJobs.reduce((acc, job) => {
+  const category = job.data.category;
+  if (!acc[category]) {
+    acc[category] = [];
+  }
+  acc[category].push(job);
+  return acc;
+}, {} as Record<string, typeof allJobs>);
+
+// Sort categories alphabetically
+const sortedCategories = Object.keys(jobsByCategory).sort();
+---
+
+<BaseLayout title="Career Opportunities | MD Home Care">
+  <div class="container">
+    <section class="jobs-section">
+      <div class="jobs-header">
+        <h1>Career Opportunities</h1>
+        <p>Join our team of dedicated professionals making a difference in the lives of others.</p>
+        
+        <!-- Job Application CTA -->
+        <div class="job-cta">
+          <p>Ready to Start Your Career? <a href="/contact" class="cta-button">Apply Now</a></p>
+        </div>
+      </div>
+      
+      <div class="jobs-layout">
+        <!-- Category Navigation -->
+        <div class="category-nav">
+          <h2>Categories</h2>
+          <ul class="category-links">
+            {sortedCategories.map((category) => (
+              <li>
+                <a href={"#category-" + category.toLowerCase().replace(/\s+/g, '-')} class="category-link">
+                  {category}
+                  <span class="category-count">{jobsByCategory[category].length}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        
+        <!-- Job Categories Content -->
+        <div class="jobs-content">
+          {sortedCategories.map((category, index) => (
+            <div id={"category-" + category.toLowerCase().replace(/\s+/g, '-')} class="category-section">
+              <div class="category-header">
+                <h2>{category}</h2>
+                <p class="category-job-count">{jobsByCategory[category].length} positions available</p>
+              </div>
+              <div class="jobs-grid">
+                {jobsByCategory[category].map((job) => (
+                  <article class="job-card">
+                    <a href={"/jobs/" + job.slug} class="card-link">
+                      {job.data.image && (
+                        <div class="card-image">
+                          <img src={job.data.image} alt={job.data.title.replace('{suburb}', 'Australia')} />
+                        </div>
+                      )}
+                      <div class="card-content">
+                        <h3>{job.data.title.replace('{suburb}', 'Australia')}</h3>
+                        <p class="job-description">{job.data.description.replace(/\{suburb\}/g, 'Australia')}</p>
+                        <div class="job-meta">
+                          <span class="certification-count">{job.data.certifications.length} Required Certifications</span>
+                          <span class="read-more">View Position</span>
+                        </div>
+                      </div>
+                    </a>
+                  </article>
+                ))}
+              </div>
+              
+              <div class="category-navigation">
+                {index < sortedCategories.length - 1 && (
+                  <a href={"#category-" + sortedCategories[index + 1].toLowerCase().replace(/\s+/g, '-')} class="next-category">
+                    Next: {sortedCategories[index + 1]} <span class="nav-arrow">→</span>
+                  </a>
+                )}
+                <a href="#" class="back-to-top">Back to top <span class="nav-arrow">↑</span></a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .jobs-section {
+    padding: 2rem 0;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .jobs-header {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .jobs-header h1 {
+    color: var(--primary-dark);
+    margin-bottom: 0.5rem;
+  }
+  
+  .jobs-header p {
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Job CTA styles */
+  .job-cta {
+    background-color: var(--light-background);
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem auto 0;
+    text-align: center;
+    max-width: 700px;
+  }
+  
+  .job-cta p {
+    margin: 0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .cta-button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
+  .cta-button:hover {
+    background-color: var(--primary-dark);
+  }
+  
+  .jobs-layout {
+    display: block;
+  }
+  
+  /* Category Navigation */
+  .category-nav {
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 100px;
+    z-index: 10;
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+    padding-right: 10px;
+    scrollbar-width: thin;
+  }
+  
+  .category-nav::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .category-nav::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .category-nav::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+  }
+  
+  .category-nav::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+  }
+  
+  .category-nav h2 {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    color: var(--primary-dark);
+  }
+  
+  .category-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .category-links li {
+    margin-bottom: 0.25rem;
+  }
+  
+  .category-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    color: var(--text-color);
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .category-link:hover {
+    color: var(--primary-color);
+    transform: translateX(4px);
+  }
+  
+  .category-count {
+    color: var(--text-lighter);
+    font-size: 0.85rem;
+  }
+  
+  .category-section {
+    margin-bottom: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    scroll-margin-top: 160px;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .category-section:last-child {
+    border-bottom: none;
+  }
+  
+  .category-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--light-background);
+  }
+  
+  .category-header h2 {
+    color: var(--primary-dark);
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .category-job-count {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    margin: 0;
+  }
+  
+  .jobs-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .job-card {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    transition: transform 0.2s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .job-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .job-card:hover .card-image img {
+    transform: scale(1.05);
+  }
+  
+  .card-content {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.03);
+  }
+  
+  .card-content h3 {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    color: var(--primary-dark);
+  }
+  
+  .job-description {
+    margin: 0 0 1rem 0;
+    color: var(--text-light);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .job-meta {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .certification-count {
+    color: var(--text-light);
+  }
+  
+  .read-more {
+    font-weight: 500;
+    color: var(--primary-color);
+  }
+  
+  .category-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .next-category, .back-to-top {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: var(--light-background);
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .next-category:hover, .back-to-top:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .nav-arrow {
+    margin-left: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  /* Mobile & Tablet Layouts */
+  @media (max-width: 1023px) {
+    .jobs-layout {
+      display: block;
+    }
+    
+    .job-cta {
+      padding: 1rem;
+    }
+    
+    .job-cta p {
+      flex-direction: column;
+    }
+    
+    .category-nav {
+      padding-bottom: 1rem;
+      margin-bottom: 2rem;
+      position: relative;
+      top: 0;
+      border-bottom: 1px solid var(--border-color);
+    }
+    
+    .jobs-content {
+      width: 100%;
+    }
+    
+    .category-section {
+      scroll-margin-top: 20px;
+    }
+    
+    .category-navigation {
+      justify-content: center;
+    }
+  }
+  
+  /* Tablet+ Layouts */
+  @media (min-width: 600px) {
+    .jobs-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .card-content h3 {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Desktop Layout */
+  @media (min-width: 1024px) {
+    .jobs-layout {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+    
+    .jobs-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .category-nav {
+      margin-bottom: 0;
+      padding-right: 1rem;
+    }
+    
+    .jobs-content {
+      overflow: hidden;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .jobs-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .jobs-layout {
+      grid-template-columns: 250px 1fr;
+    }
+  }
+
+  /* Add smooth scrolling behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+<!-- Add JavaScript for category highlighting based on scroll position -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const categoryLinks = document.querySelectorAll('.category-link');
+    const categorySections = document.querySelectorAll('.category-section');
+    
+    // Highlight active category in navigation when scrolling
+    const highlightActiveCategory = () => {
+      let currentSectionId = '';
+      
+      categorySections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top + window.scrollY;
+        const sectionHeight = section.getBoundingClientRect().height;
+        
+        if (window.scrollY >= sectionTop - 200 && window.scrollY < sectionTop + sectionHeight - 200) {
+          const id = section.getAttribute('id');
+          if (id) {
+            currentSectionId = id;
+          }
+        }
+      });
+      
+      // Remove active class from all links
+      categoryLinks.forEach(link => {
+        link.classList.remove('active-category');
+      });
+      
+      // Add active class to current section link
+      if (currentSectionId) {
+        const activeLink = document.querySelector(`.category-link[href="#${currentSectionId}"]`);
+        if (activeLink) {
+          activeLink.classList.add('active-category');
+        }
+      }
+    };
+    
+    window.addEventListener('scroll', highlightActiveCategory);
+    highlightActiveCategory(); // Run once on page load
+  });
+</script> 

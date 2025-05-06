@@ -1,0 +1,1060 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+// Define TypeScript interfaces for suburb data
+interface SuburbInfo {
+  state: string;
+  region: string;
+}
+
+interface SuburbData {
+  [key: string]: SuburbInfo;
+}
+
+interface SuburbWithName extends SuburbInfo {
+  slug: string;
+  name: string;
+}
+
+interface SuburbsByState {
+  [key: string]: SuburbWithName[];
+}
+
+export async function getStaticPaths() {
+  const jobs = await getCollection('jobs');
+  return jobs.map(job => ({
+    params: { slug: job.slug },
+    props: { job },
+  }));
+}
+
+const { job } = Astro.props;
+const { Content } = await job.render();
+
+// Hardcode suburbs data - same as used in services pages
+const suburbsData: SuburbData = {
+  // Greater Sydney
+  "sydney": { "state": "NSW", "region": "Greater Sydney" },
+  "cbd": { "state": "NSW", "region": "Greater Sydney" },
+  "haymarket": { "state": "NSW", "region": "Greater Sydney" },
+  "the-rocks": { "state": "NSW", "region": "Greater Sydney" },
+  "barangaroo": { "state": "NSW", "region": "Greater Sydney" },
+  "pyrmont": { "state": "NSW", "region": "Greater Sydney" },
+  "ultimo": { "state": "NSW", "region": "Greater Sydney" },
+  "chippendale": { "state": "NSW", "region": "Greater Sydney" },
+  "surry-hills": { "state": "NSW", "region": "Greater Sydney" },
+  "darlinghurst": { "state": "NSW", "region": "Greater Sydney" },
+  "potts-point": { "state": "NSW", "region": "Greater Sydney" },
+  "elizabeth-bay": { "state": "NSW", "region": "Greater Sydney" },
+  "rushcutters-bay": { "state": "NSW", "region": "Greater Sydney" },
+  "woolloomooloo": { "state": "NSW", "region": "Greater Sydney" },
+  "redfern": { "state": "NSW", "region": "Greater Sydney" },
+  "waterloo": { "state": "NSW", "region": "Greater Sydney" },
+  "zetland": { "state": "NSW", "region": "Greater Sydney" },
+  "alexandria": { "state": "NSW", "region": "Greater Sydney" },
+  "erskineville": { "state": "NSW", "region": "Greater Sydney" },
+  
+  // Eastern Suburbs
+  "bondi": { "state": "NSW", "region": "Eastern Suburbs" },
+  "bondi-beach": { "state": "NSW", "region": "Eastern Suburbs" },
+  "bondi-junction": { "state": "NSW", "region": "Eastern Suburbs" },
+  "bronte": { "state": "NSW", "region": "Eastern Suburbs" },
+  "clovelly": { "state": "NSW", "region": "Eastern Suburbs" },
+  "coogee": { "state": "NSW", "region": "Eastern Suburbs" },
+  "maroubra": { "state": "NSW", "region": "Eastern Suburbs" },
+  "kensington": { "state": "NSW", "region": "Eastern Suburbs" },
+  "randwick": { "state": "NSW", "region": "Eastern Suburbs" },
+  "vaucluse": { "state": "NSW", "region": "Eastern Suburbs" },
+  "rose-bay": { "state": "NSW", "region": "Eastern Suburbs" },
+  "double-bay": { "state": "NSW", "region": "Eastern Suburbs" },
+  "bellevue-hill": { "state": "NSW", "region": "Eastern Suburbs" },
+  "dover-heights": { "state": "NSW", "region": "Eastern Suburbs" },
+  "queens-park": { "state": "NSW", "region": "Eastern Suburbs" },
+  "pagewood": { "state": "NSW", "region": "Eastern Suburbs" },
+  "eastgardens": { "state": "NSW", "region": "Eastern Suburbs" },
+  "little-bay": { "state": "NSW", "region": "Eastern Suburbs" },
+  "la-perouse": { "state": "NSW", "region": "Eastern Suburbs" },
+  
+  // Inner West
+  "burwood": { "state": "NSW", "region": "Inner West" },
+  "strathfield": { "state": "NSW", "region": "Inner West" },
+  "newtown": { "state": "NSW", "region": "Inner West" },
+  "marrickville": { "state": "NSW", "region": "Inner West" },
+  "dulwich-hill": { "state": "NSW", "region": "Inner West" },
+  "summer-hill": { "state": "NSW", "region": "Inner West" },
+  "ashfield": { "state": "NSW", "region": "Inner West" },
+  "leichhardt": { "state": "NSW", "region": "Inner West" },
+  "balmain": { "state": "NSW", "region": "Inner West" },
+  "rozelle": { "state": "NSW", "region": "Inner West" },
+  "lilyfield": { "state": "NSW", "region": "Inner West" },
+  "annandale": { "state": "NSW", "region": "Inner West" },
+  "petersham": { "state": "NSW", "region": "Inner West" },
+  "stanmore": { "state": "NSW", "region": "Inner West" },
+  "enmore": { "state": "NSW", "region": "Inner West" },
+  "croydon": { "state": "NSW", "region": "Inner West" },
+  "croydon-park": { "state": "NSW", "region": "Inner West" },
+  "haberfield": { "state": "NSW", "region": "Inner West" },
+  "five-dock": { "state": "NSW", "region": "Inner West" },
+  "drummoyne": { "state": "NSW", "region": "Inner West" },
+  "glebe": { "state": "NSW", "region": "Inner West" },
+  
+  // Other major cities and regions
+  "melbourne": { "state": "VIC", "region": "Greater Melbourne" },
+  "brisbane": { "state": "QLD", "region": "Greater Brisbane" },
+  "perth": { "state": "WA", "region": "Greater Perth" },
+  "adelaide": { "state": "SA", "region": "Greater Adelaide" },
+  "gold-coast": { "state": "QLD", "region": "South East Queensland" },
+  "newcastle": { "state": "NSW", "region": "Hunter Region" },
+  "canberra": { "state": "ACT", "region": "Capital Region" },
+  "wollongong": { "state": "NSW", "region": "Illawarra" },
+  "hobart": { "state": "TAS", "region": "Greater Hobart" },
+  "darwin": { "state": "NT", "region": "Top End" }
+};
+
+// Format suburb name for display
+const formatSuburbName = (slug: string): string => {
+  return slug
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+};
+
+// Group suburbs by state for easier navigation
+const suburbsByState: SuburbsByState = {};
+Object.entries(suburbsData).forEach(([slug, info]) => {
+  if (!suburbsByState[info.state]) {
+    suburbsByState[info.state] = [];
+  }
+  suburbsByState[info.state].push({ 
+    slug, 
+    name: formatSuburbName(slug), 
+    ...info 
+  });
+});
+
+// Sort suburbs alphabetically within each state
+Object.keys(suburbsByState).forEach(state => {
+  suburbsByState[state].sort((a, b) => a.name.localeCompare(b.name));
+});
+
+// Sort states
+const sortedStates = Object.keys(suburbsByState).sort();
+
+// Format content with "Australia" as default
+const formattedTitle = job.data.title.replace(/{suburb}/g, 'Australia');
+const formattedDescription = job.data.description.replace(/{suburb}/g, 'Australia');
+const formattedMetaTitle = job.data.metaTitle?.replace(/{suburb}/g, 'Australia') || formattedTitle;
+const formattedMetaDescription = job.data.metaDescription?.replace(/{suburb}/g, 'Australia') || formattedDescription;
+
+// Define suburb replacement function for the markdown content
+const replacePlaceholders = (text: string | null | undefined): string => {
+  if (!text) return '';
+  return text.replace(/{suburb}/g, 'Australia');
+};
+
+// Define a default image if none is provided in the job data
+const jobImage = job.data.image || '/images/careers/default-job-bg.jpg';
+---
+
+<style is:global>
+	body, html {
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
+	}
+	
+	main {
+		padding: 0 !important;
+		margin: 0 !important;
+		overflow-x: hidden;
+		width: 100%;
+	}
+</style>
+
+<BaseLayout 
+  title={formattedTitle}
+  description={formattedDescription}
+  metaTitle={formattedMetaTitle}
+  metaDescription={formattedMetaDescription}
+  canonical={job.data.canonicalUrl}
+  noindex={job.data.noindex}
+>
+  <div class="job-container">
+    <article class="job-page">
+      <header class="job-hero" style={`background-image: url(${jobImage})`}>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <div class="category-tag-container">
+            <div class="category-tag">{job.data.category || 'Career Opportunity'}</div>
+            <div class="avatar-container">
+              <img src="/assets/avatar.webp" alt="MD Home Care Team Member" class="avatar-image" />
+            </div>
+          </div>
+          <h1>
+            <span class="main-title">{formattedTitle}</span>
+          </h1>
+          <p class="job-description">{formattedDescription}</p>
+          {job.data.keywords && job.data.keywords.length > 0 && (
+            <div class="keyword-tags">
+              {job.data.keywords.map((keyword) => (
+                <span class="tag">#{keyword}</span>
+              ))}
+            </div>
+          )}
+          
+          <div class="hero-cta">
+            <a href="/contact" class="cta-primary pulse-animation">
+              <div class="cta-text">
+                <span class="desktop-text">Apply Now</span>
+                <span class="mobile-text">Apply</span>
+                <span class="social-proof">Join our growing team</span>
+              </div>
+            </a>
+            <a href="#learn-more" class="cta-secondary">Learn More</a>
+          </div>
+          <div class="trust-signal">
+            <div class="rating-container">
+              <div class="stars">★★★★<span class="star-half">★</span></div>
+              <span class="rating-text">4.8 (32 employee reviews)</span>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      <div class="job-content" id="learn-more">
+        <div class="job-body">
+          <!-- Job Content with suburb replacements -->
+          <div id="job-content-container">
+            <Content />
+          </div>
+          
+          <!-- Requirements Section -->
+          <div class="requirements-section">
+            <h2>Required Qualifications</h2>
+            <ul class="requirements-list">
+              {job.data.requirements.map((requirement) => (
+                <li>{replacePlaceholders(requirement)}</li>
+              ))}
+            </ul>
+          </div>
+          
+          <!-- Certifications Section -->
+          <div class="certifications-section">
+            <h2>Essential Certifications</h2>
+            <ul class="certifications-list">
+              {job.data.certifications.map((certification) => (
+                <li>{replacePlaceholders(certification)}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        
+        <div class="job-cta-banner">
+          <div class="cta-content">
+            <h3>Ready to join our team?</h3>
+            <p>Apply today to start your career journey with MD Homecare.</p>
+          </div>
+          <div class="cta-buttons">
+            <a href="/contact" class="primary-button">Apply Now</a>
+          </div>
+        </div>
+      </div>
+      
+      <section class="locations-section">
+        <div class="section-header">
+          <h2>Find this position in your area</h2>
+          <p>Select your location to see specific information about this job in your suburb.</p>
+        </div>
+        
+        <div class="location-search">
+          <input type="text" id="suburb-search" placeholder="Search for your suburb..." />
+        </div>
+        
+        <div class="states-container">
+          {sortedStates.map(state => (
+            <div class="state-section">
+              <h3>{state}</h3>
+              <ul class="suburbs-grid">
+                {suburbsByState[state].map((suburb) => (
+                  <li class="suburb-item">
+                    <a href={`/jobs/${job.slug}/${suburb.slug}`} class="suburb-link">
+                      <span class="suburb-name">{suburb.name}</span>
+                      <span class="region-name">{suburb.region}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </section>
+      
+      <footer class="job-footer">
+        <div class="navigation">
+          <a href="/jobs" class="back-link">← Back to Careers</a>
+        </div>
+      </footer>
+    </article>
+  </div>
+</BaseLayout>
+
+<script>
+  // Client-side script to replace any remaining {suburb} instances
+  document.addEventListener('DOMContentLoaded', () => {
+    const contentContainer = document.getElementById('job-content-container');
+    if (contentContainer) {
+      contentContainer.innerHTML = contentContainer.innerHTML.replace(/\{suburb\}/g, 'Australia');
+    }
+    
+    // Add suburb search functionality
+    const searchInput = document.getElementById('suburb-search') as HTMLInputElement;
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        const target = e.target as HTMLInputElement;
+        const searchTerm = target.value.toLowerCase();
+        const suburbItems = document.querySelectorAll<HTMLLIElement>('.suburb-item');
+        
+        suburbItems.forEach(item => {
+          const suburbName = item.querySelector('.suburb-name')?.textContent?.toLowerCase() || '';
+          const regionName = item.querySelector('.region-name')?.textContent?.toLowerCase() || '';
+          
+          if (searchTerm === '' || suburbName.includes(searchTerm) || regionName.includes(searchTerm)) {
+            item.style.display = 'list-item';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+        
+        // Show/hide state sections based on whether they have visible suburbs
+        document.querySelectorAll<HTMLElement>('.state-section').forEach(section => {
+          const visibleSuburbs = Array.from(section.querySelectorAll<HTMLLIElement>('.suburb-item')).filter(
+            item => item.style.display !== 'none'
+          ).length;
+          
+          section.style.display = visibleSuburbs === 0 ? 'none' : 'block';
+        });
+      });
+    }
+  });
+</script>
+
+<style>
+  .job-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .job-hero {
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    isolation: isolate;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    z-index: 1;
+  }
+
+  /* iOS fix for background images */
+  @supports (-webkit-touch-callout: none) {
+    .job-hero {
+      background-attachment: scroll;
+    }
+  }
+
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: none;
+  }
+
+  .hero-content {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--text-color);
+    padding: 3.5rem;
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(12px);
+    border-radius: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  }
+
+  .main-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 1.5rem 0;
+    display: block;
+    letter-spacing: -0.02em;
+    color: var(--text-color);
+  }
+
+  .job-description {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    color: var(--text-light);
+  }
+
+  .category-tag-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .category-tag {
+    display: inline-block;
+    background: rgba(var(--primary-rgb), 0.1);
+    padding: 0.6rem 1.2rem;
+    border-radius: 3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(var(--primary-rgb), 0.2);
+    color: var(--primary-color);
+    text-shadow: none;
+  }
+
+  .avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .avatar-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgba(var(--primary-rgb), 0.3);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .keyword-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 2rem 0;
+    justify-content: center;
+  }
+
+  .tag {
+    background: rgba(var(--primary-rgb), 0.05);
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(var(--primary-rgb), 0.1);
+    transition: all 0.3s ease;
+    color: var(--primary-color);
+    text-shadow: none;
+  }
+
+  .tag:hover {
+    background: rgba(var(--primary-rgb), 0.1);
+    transform: translateY(-1px);
+    border-color: rgba(var(--primary-rgb), 0.2);
+  }
+
+  .hero-cta {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .trust-signal {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  
+  .stars {
+    color: #FFCA28;
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+  }
+  
+  .star-half {
+    position: relative;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    vertical-align: top;
+  }
+  
+  .star-half::before {
+    content: "★";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    overflow: hidden;
+    color: #FFCA28;
+  }
+  
+  .rating-text {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    font-weight: 500;
+  }
+
+  .cta-primary {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 3rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .cta-primary:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background: var(--primary-dark);
+  }
+
+  .pulse-animation {
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+      transform: scale(1.03);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .cta-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .social-proof {
+    font-size: 0.65rem;
+    opacity: 0.7;
+    font-weight: 400;
+    margin-top: 0.2rem;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .cta-secondary {
+    background: rgba(0, 0, 0, 0.05);
+    color: var(--text-color);
+    padding: 1rem 2.5rem;
+    border-radius: 3rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cta-secondary:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .job-content {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .job-cta-banner {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    color: white;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    margin: 6rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    position: relative;
+    top: 2rem;
+  }
+
+  .cta-content h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .cta-content p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .primary-button, .secondary-button {
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .primary-button {
+    background: white;
+    color: var(--primary-color);
+  }
+
+  .secondary-button {
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .primary-button:hover, .secondary-button:hover {
+    transform: translateY(-2px);
+  }
+
+  .primary-button:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .secondary-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: white;
+  }
+
+  .job-body {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-color);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .job-body :global(h2) {
+    color: var(--primary-dark);
+    margin: 2rem 0 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .job-body :global(p) {
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .job-body :global(ul) {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .requirements-section,
+  .certifications-section {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .requirements-section h2,
+  .certifications-section h2 {
+    color: var(--primary-dark);
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  .requirements-list,
+  .certifications-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .requirements-list li,
+  .certifications-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-color);
+    line-height: 1.6;
+    list-style-type: none;
+  }
+
+  .requirements-list li::before,
+  .certifications-list li::before {
+    content: "•";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+    display: inline-block;
+    width: 1em;
+  }
+
+  .locations-section {
+    background-color: var(--light-background);
+    padding: 6rem 2rem;
+    margin: 6rem 0;
+  }
+
+  .section-header {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 4rem;
+  }
+
+  .section-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .location-search {
+    max-width: 600px;
+    margin: 0 auto 4rem;
+  }
+
+  #suburb-search {
+    width: 100%;
+    padding: 1.2rem 1.5rem;
+    border: 2px solid var(--border-color);
+    border-radius: 0.75rem;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    background-color: white;
+  }
+
+  #suburb-search:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 4px rgba(var(--primary-rgb), 0.1);
+    outline: none;
+  }
+
+  .states-container {
+    display: grid;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .state-section h3 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .suburbs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  .suburb-link {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    background-color: white;
+    border-radius: 0.75rem;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
+  }
+
+  .suburb-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    border-color: var(--primary-color);
+  }
+
+  .suburb-name {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .region-name {
+    font-size: 0.9rem;
+    color: var(--text-light);
+  }
+
+  .job-footer {
+    text-align: center;
+    margin: 4rem auto;
+    padding: 2rem;
+    max-width: 1200px;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    background: var(--light-background);
+  }
+
+  .back-link:hover {
+    background: var(--border-color);
+    transform: translateX(-4px);
+  }
+
+  @media (max-width: 768px) {
+    .job-container {
+      padding: 0;
+    }
+
+    .job-hero {
+      min-height: 100vh;
+      padding: 8rem 1.5rem 4rem;
+    }
+
+    .job-cta-banner {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .cta-buttons {
+      justify-content: center;
+      width: 100%;
+    }
+
+    .primary-button, .secondary-button {
+      width: 100%;
+    }
+
+    .hero-cta {
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .cta-primary, .cta-secondary {
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .cta-text {
+      align-items: center;
+    }
+
+    .job-content {
+      padding: 3rem 1.5rem;
+    }
+
+    .job-cta-banner {
+      flex-direction: column;
+      gap: 1rem;
+      padding: 1.5rem;
+    }
+
+    .suburbs-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .section-header h2 {
+      font-size: 2rem;
+    }
+
+    .hero-content {
+      padding: 2.5rem;
+      margin: 0 1rem;
+      background: rgba(255, 255, 255, 0.45);
+    }
+
+    .main-title {
+      font-size: 2.5rem;
+    }
+
+    .job-description {
+      font-size: 1.1rem;
+    }
+
+    .job-footer {
+      margin: 3rem auto;
+      padding: 1.5rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .job-container {
+      padding: 0;
+    }
+
+    .hero-content {
+      padding: 2rem 1.5rem;
+      margin: 0 0.5rem;
+      background: rgba(255, 255, 255, 0.45);
+    }
+
+    .job-hero {
+      padding: 6rem 1rem 3rem;
+    }
+
+    .job-content {
+      padding: 2rem 1rem;
+    }
+
+    .job-cta-banner {
+      padding: 1.5rem 1rem;
+      margin: 3rem 0;
+    }
+
+    .locations-section {
+      padding: 4rem 1rem;
+    }
+
+    .state-section h3 {
+      font-size: 1.5rem;
+    }
+
+    .section-header {
+      padding: 0 0.5rem;
+    }
+
+    .cta-primary, .cta-secondary {
+      padding: 0.85rem 1.5rem;
+      font-size: 1rem;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .cta-text {
+      align-items: center;
+    }
+
+    #suburb-search {
+      padding: 0.9rem 1rem;
+      font-size: 1rem;
+    }
+
+    .suburb-link {
+      padding: 1rem;
+    }
+
+    .suburb-name {
+      font-size: 1rem;
+    }
+
+    .region-name {
+      font-size: 0.8rem;
+    }
+  }
+
+  /* Mobile/Desktop text toggles */
+  .mobile-text {
+    display: none;
+  }
+  
+  @media (max-width: 480px) {
+    .mobile-text {
+      display: inline;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .desktop-text {
+      display: none;
+    }
+    
+    .job-container {
+      padding: 0;
+    }
+  }
+</style>
+
+<!-- Fix for ensuring the header is visible on mobile -->
+<style is:global>
+  /* Ensure the site header is always on top */
+  .site-header {
+    position: fixed;
+    z-index: 999 !important;
+    width: 100%;
+    top: 0;
+  }
+  
+  body {
+    padding-top: 74px;
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      padding-top: 0;
+    }
+    
+    .site-header {
+      position: sticky;
+    }
+  }
+</style> 

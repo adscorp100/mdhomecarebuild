@@ -42,8 +42,26 @@ const providersCollection = defineCollection({
   }),
 });
 
+const jobsCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    category: z.string(),
+    requirements: z.array(z.string()),
+    certifications: z.array(z.string()),
+    image: z.string().optional(),
+    metaTitle: z.string(),
+    metaDescription: z.string(),
+    canonicalUrl: z.string().optional(),
+    noindex: z.boolean().optional(),
+    featured: z.boolean().optional(),
+  }),
+});
+
 export const collections = {
   'blog': blog,
   'services': services,
   'providers': providersCollection,
+  'jobs': jobsCollection,
 }; 
