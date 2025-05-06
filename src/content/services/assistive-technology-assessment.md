@@ -3,7 +3,7 @@ title: "Specialised Assistive Technology Assessment in {suburb}"
 description: "Expert assessment and recommendations for NDIS-funded assistive technology to enhance independence and quality of life for people with disability in {suburb}."
 pubDate: 2025-02-23
 category: "Assistive Technology"
-image: "/assets/accessible bathroom.webp"
+image: "/assets/accessible-bathroom.webp"
 
 ---
 

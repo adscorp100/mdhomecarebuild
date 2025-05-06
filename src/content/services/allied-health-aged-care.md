@@ -4,7 +4,6 @@ description: "Connecting older residents in {suburb} with specialized allied hea
 pubDate: 2025-02-23
 category: "Aged Care"
 image: "/assets/physio.webp"
-
 ---
 
 ## Allied Health Services for Older Australians in {suburb}
