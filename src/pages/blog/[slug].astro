@@ -172,15 +172,6 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
       </div>
     </article>
   </div>
-  
-  <!-- Quick TOC navigation button for mobile -->
-  <button class="toc-quick-nav" aria-label="Table of contents navigation" id="toc-quick-nav">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-      <line x1="3" y1="6" x2="21" y2="6"></line>
-      <line x1="3" y1="12" x2="21" y2="12"></line>
-      <line x1="3" y1="18" x2="21" y2="18"></line>
-    </svg>
-  </button>
 </BaseLayout>
 
 <script>
@@ -434,92 +425,6 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
       });
     });
     
-    // TOC Quick Navigation for mobile
-    const tocQuickNav = document.getElementById('toc-quick-nav');
-    const tocContainer = document.querySelector('.toc-container');
-    
-    if (tocQuickNav && tocContainer) {
-      tocQuickNav.addEventListener('click', () => {
-        // Create mobile TOC overlay
-        let tocOverlay = document.getElementById('mobile-toc-overlay');
-        
-        if (!tocOverlay) {
-          tocOverlay = document.createElement('div');
-          tocOverlay.id = 'mobile-toc-overlay';
-          tocOverlay.className = 'mobile-toc-overlay';
-          
-          // Create container div with proper scroll handling
-          const overlayContainer = document.createElement('div');
-          overlayContainer.className = 'mobile-toc-container';
-          
-          // Clone the TOC content
-          const tocContent = tocContainer.cloneNode(true);
-          overlayContainer.appendChild(tocContent);
-          tocOverlay.appendChild(overlayContainer);
-          
-          // Add close button
-          const closeBtn = document.createElement('button');
-          closeBtn.className = 'mobile-toc-close';
-          closeBtn.innerHTML = '×';
-          closeBtn.setAttribute('aria-label', 'Close table of contents');
-          overlayContainer.appendChild(closeBtn);
-          
-          document.body.appendChild(tocOverlay);
-          
-          // Prevent body scrolling
-          document.body.style.overflow = 'hidden';
-          
-          // Handle close button click
-          closeBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            if (tocOverlay && document.body.contains(tocOverlay)) {
-              document.body.removeChild(tocOverlay);
-            }
-            document.body.style.overflow = '';
-          });
-          
-          // Handle link clicks (close overlay after navigation)
-          const tocLinks = tocOverlay.querySelectorAll('.toc-item a');
-          tocLinks.forEach(link => {
-            link.addEventListener('click', () => {
-              if (tocOverlay && document.body.contains(tocOverlay)) {
-                document.body.removeChild(tocOverlay);
-              }
-              document.body.style.overflow = '';
-            });
-          });
-          
-          // Handle click outside to close
-          tocOverlay.addEventListener('click', (e) => {
-            if (e.target === tocOverlay) {
-              if (tocOverlay && document.body.contains(tocOverlay)) {
-                document.body.removeChild(tocOverlay);
-              }
-              document.body.style.overflow = '';
-            }
-          });
-
-          // Ensure links are fully tappable
-          const allTocItems = tocOverlay.querySelectorAll('.toc-item');
-          allTocItems.forEach(item => {
-            const link = item.querySelector('a');
-            if (link) {
-              item.addEventListener('click', (e) => {
-                // Only trigger if the item itself was clicked (not the link directly)
-                if (e.target === item) {
-                  link.click();
-                }
-              });
-            }
-          });
-        } else {
-          // Toggle visibility if already exists
-          tocOverlay.style.display = tocOverlay.style.display === 'none' ? 'block' : 'none';
-          document.body.style.overflow = tocOverlay.style.display === 'none' ? '' : 'hidden';
-        }
-      });
-    }
-    
     // Make TOC headers fully clickable
     const tocHeaders = document.querySelectorAll('.toc-header');
     tocHeaders.forEach(header => {
@@ -534,6 +439,16 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
             // Manually trigger the toggle button click
             tocNav.classList.toggle('toc-open');
             tocToggle.classList.toggle('toc-toggle-open');
+            
+            // Ensure the content is scrollable when open on mobile
+            if (window.innerWidth <= 768 && tocNav.classList.contains('toc-open')) {
+              // Set a slight delay to allow for the CSS transition
+              setTimeout(() => {
+                (tocNav as HTMLElement).style.maxHeight = 'none';
+                const maxScroll = Math.min(tocNav.scrollHeight, window.innerHeight * 0.6);
+                (tocNav as HTMLElement).style.maxHeight = maxScroll + 'px';
+              }, 50);
+            }
           }
         }
       });
@@ -867,43 +782,6 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
     max-height: 80vh;
   }
 
-  /* Quick navigate button for mobile */
-  .toc-quick-nav {
-    display: none;
-    position: fixed;
-    bottom: 1.5rem;
-    right: 1.5rem;
-    z-index: 99;
-    background-color: var(--primary-dark, #3b82f6);
-    color: white;
-    border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease;
-  }
-
-  .toc-quick-nav:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  }
-
-  .toc-quick-nav svg {
-    width: 1.5rem;
-    height: 1.5rem;
-    stroke-width: 2;
-  }
-
-  @media (max-width: 1023px) {
-    .toc-quick-nav {
-      display: flex;
-    }
-  }
-
   /* Override the TOC container styles from TableOfContents.astro */
   .toc-sidebar .toc-container {
     background-color: #fcfcfc;
@@ -938,6 +816,19 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
 
   .toc-sidebar .toc-toggle {
     cursor: pointer;
+  }
+
+  .toc-sidebar .toc-nav {
+    padding: 0;
+    overflow-y: auto;
+    max-height: 100%;
+  }
+  
+  .toc-sidebar .toc-nav.toc-open {
+    max-height: 50vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 1rem 0;
   }
 
   .toc-sidebar .toc-nav ol {
@@ -1269,6 +1160,23 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
     
     .post-content li {
       margin-bottom: 0.75rem;
+    }
+    
+    /* Improved mobile TOC scrolling */
+    .toc-sidebar .toc-nav.toc-open {
+      padding-bottom: 2rem;
+      margin-bottom: 1rem;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      /* Set a good default height that can be dynamically adjusted by JS */
+      max-height: 50vh;
+    }
+    
+    /* Help ensure long TOCs are fully scrollable */
+    .toc-sidebar .toc-nav.toc-open::after {
+      content: "";
+      display: block;
+      height: 1rem; /* Space at the bottom to ensure scrolling works properly */
     }
   }
 

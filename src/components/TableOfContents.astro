@@ -192,12 +192,14 @@ const toc = headings.filter(heading => heading.depth === 2 || heading.depth === 
     .toc-nav {
       max-height: 0;
       overflow: hidden;
-      transition: max-height 0.3s ease;
+      transition: all 0.3s ease;
       padding: 0;
     }
 
     .toc-nav.toc-open {
-      max-height: 500px;
+      max-height: 60vh;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
       padding: 1rem 0;
     }
   }
