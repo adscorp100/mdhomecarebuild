@@ -526,6 +526,7 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
     background-color: var(--background);
     color: var(--text-color);
     scroll-behavior: smooth;
+    height: 100%; /* Add height to support sticky elements */
   }
 
   body {
@@ -534,6 +535,8 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
     background-color: var(--background);
     color: var(--text-color);
     line-height: 1.6;
+    min-height: 100%; /* Add min-height to support sticky elements */
+    position: relative; /* Add position to support sticky elements */
   }
 
   body.no-scroll {
@@ -565,11 +568,12 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
   /* Header Styles - Using dark theme */
   .site-header {
     background-color: var(--header-background);
+    position: -webkit-sticky; /* For Safari */
     position: sticky;
     top: 0;
     width: 100%;
-    z-index: 100;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   }
 
   .header-content {
@@ -817,7 +821,7 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
       visibility: hidden;
       transform: translateY(-10px);
       transition: all 0.25s ease-in-out;
-      z-index: 100;
+      z-index: 99;
       padding: 2rem 0;
       overflow: visible;
     }
@@ -1017,6 +1021,8 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    position: relative;
+    z-index: 1;
   }
 
   /* Footer Styles */
@@ -1247,6 +1253,12 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
     .dropdown-content {
       top: 76px;
     }
+    
+    .site-header {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    }
   }
 
   @media (max-width: 992px) {
@@ -1256,6 +1268,20 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
     
     .dropdown-content {
       top: 74px;
+    }
+    
+    .site-header {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .site-header {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
     }
   }
 
@@ -1271,6 +1297,8 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
       flex-direction: row;
       align-items: center;
       padding: 0.5rem 1.5rem;
+      position: sticky;
+      top: 0;
     }
     
     .desktop-nav {
