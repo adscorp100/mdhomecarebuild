@@ -35,18 +35,17 @@ const structuredData = {
     <div class="hero-content">
       <div class="category-tag">
         <img src="/assets/avatar.webp" alt="MD Home Care Team Member" class="avatar-image" />
-        Contact Us
+        Service Inquiries & Referrals
       </div>
-      <h1>Need In-Home Care or Disability Support?</h1>
-      <p class="hero-description">Please get in touch with MD Home Care and find out how we can help you or your loved ones live more independently at home.</p>
+      <h1>Contact Us</h1>
+      <p class="hero-description">Need In-Home Care or Disability Support? Please get in touch with MD Home Care and find out how we can help you or your loved ones live more independently at home.</p>
       <div class="hero-cta">
-        <a href="tel:+61405429512" class="cta-primary pulse-animation" aria-label="Call MD Home Care now">
+        <a href="tel:+61405429512" class="cta-primary" aria-label="Call MD Home Care now">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
           </svg>
           <div class="cta-text">
-            <span class="desktop-text">Get Help Today</span>
-            <span class="mobile-text">Call Now</span>
+            <span>Call now</span>
             <span class="social-proof">Trusted by 100+ families</span>
           </div>
         </a>
@@ -54,9 +53,12 @@ const structuredData = {
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
           </svg>
-          <span class="desktop-text">Send Message</span>
-          <span class="mobile-text">Message</span>
+          <span>Send Message</span>
         </a>
+        <div class="online-status">
+          <span class="online-dot"></span>
+          <span class="online-text">Available now</span>
+        </div>
       </div>
     </div>
   </div>
@@ -208,11 +210,19 @@ const structuredData = {
     border-radius: 3rem;
     font-size: 0.9rem;
     font-weight: 600;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.01em;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: rgba(255, 255, 255, 0.95);
     margin-bottom: 1.5rem;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 480px) {
+    .category-tag {
+      font-size: 0.85rem;
+      padding: 0.35rem 1rem 0.35rem 0.35rem;
+    }
   }
 
   .avatar-image {
@@ -233,10 +243,11 @@ const structuredData = {
   }
 
   .hero-description {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     line-height: 1.6;
     margin-bottom: 2rem;
     color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
   }
 
   .hero-cta {
@@ -244,6 +255,48 @@ const structuredData = {
     gap: 1.5rem;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 3rem;
+  }
+
+  .online-status {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    color: #10b981;
+    font-weight: 500;
+    padding: 0.35rem 0;
+  }
+
+  .online-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #10b981;
+    border-radius: 50%;
+    display: inline-block;
+    animation: pulse-green 2s infinite;
+  }
+
+  @keyframes pulse-green {
+    0% {
+      transform: scale(0.95);
+      opacity: 0.8;
+    }
+    
+    70% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    
+    100% {
+      transform: scale(0.95);
+      opacity: 0.8;
+    }
   }
 
   .cta-primary, .cta-secondary {
@@ -310,25 +363,6 @@ const structuredData = {
     opacity: 0.7;
     font-weight: 400;
     margin-top: 0.2rem;
-  }
-
-  .pulse-animation {
-    animation: pulse 2s infinite;
-  }
-
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1), 0 0 0 3px rgba(255, 255, 255, 0.2);
-    }
-    50% {
-      transform: scale(1.03);
-      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15), 0 0 0 4px rgba(255, 255, 255, 0.3);
-    }
-    100% {
-      transform: scale(1);
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1), 0 0 0 3px rgba(255, 255, 255, 0.2);
-    }
   }
 
   .cta-secondary {
@@ -625,11 +659,11 @@ const structuredData = {
     }
 
     h1 {
-      font-size: 2.5rem;
+      font-size: 2.8rem;
     }
 
     .hero-description {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
     }
 
     .contact-container {
@@ -665,6 +699,7 @@ const structuredData = {
 
     .hero-cta {
       flex-direction: column;
+      padding-bottom: 3.5rem;
     }
 
     .cta-primary, .cta-secondary {
@@ -679,6 +714,13 @@ const structuredData = {
     .cta-primary svg, .cta-secondary svg {
       width: 18px;
       height: 18px;
+    }
+
+    .online-status {
+      bottom: 0;
+      white-space: nowrap;
+      font-size: 0.8rem;
+      padding: 0.35rem 0;
     }
 
     .info-card {
@@ -714,6 +756,14 @@ const structuredData = {
     }
     .desktop-text {
       display: none;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+    }
+
+    .hero-description {
+      font-size: 1.1rem;
     }
   }
 
@@ -809,6 +859,27 @@ const structuredData = {
       }
     }
   }
+
+  // Check if current time is within business hours in Sydney
+  function isBusinessHours() {
+    const sydneyTime = new Date().toLocaleString('en-US', { timeZone: 'Australia/Sydney' });
+    const hour = new Date(sydneyTime).getHours();
+    return hour >= 9 && hour < 19; // Between 9 AM and 7 PM
+  }
+
+  // Update online status visibility
+  function updateOnlineStatus() {
+    const onlineStatus = document.querySelector('.online-status') as HTMLElement;
+    if (onlineStatus) {
+      onlineStatus.style.display = isBusinessHours() ? 'flex' : 'none';
+    }
+  }
+
+  // Initial check
+  updateOnlineStatus();
+
+  // Update every minute
+  setInterval(updateOnlineStatus, 60000);
 
   // This would normally send to a server, but for a static site we're just showing a simple notification
   document.querySelector('.contact-form')?.addEventListener('submit', (e) => {
