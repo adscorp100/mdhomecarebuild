@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# blog-post - Wrapper script for create-blog-post.sh
+# This allows running the blog post creator from anywhere in the project
+
+# Find the project root directory (where package.json is located)
+find_project_root() {
+  local dir="$PWD"
+  while [[ "$dir" != "/" ]]; do
+    if [[ -f "$dir/package.json" ]]; then
+      echo "$dir"
+      return 0
+    fi
+    dir="$(dirname "$dir")"
+  done
+  echo "$PWD"  # Default to current directory if no package.json found
+  return 1
+}
+
+PROJECT_ROOT=$(find_project_root)
+SCRIPT_PATH="$PROJECT_ROOT/create-blog-post.sh"
+
+if [[ ! -f "$SCRIPT_PATH" ]]; then
+  echo "Error: Blog post generator script not found at $SCRIPT_PATH"
+  exit 1
+fi
+
+# Pass all arguments to the main script
+"$SCRIPT_PATH" "$@" 
