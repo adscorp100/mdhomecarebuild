@@ -1,0 +1,796 @@
+---
+// Eligibility Checker Component
+---
+
+<div class="eligibility-checker-container" id="eligibility-checker">
+  <div class="checker-wrapper">
+    <div class="checker-intro">
+      <h2>Check Eligibility</h2>
+      <p>Take our quick assessment to find out if you or your loved one qualifies for support. It only takes a minute.</p>
+    </div>
+
+    <div class="progress-bar-container">
+      <div class="progress-bar" id="checker-progress-bar">
+        <div class="progress-filled"></div>
+      </div>
+      <div class="progress-text" id="progress-text">Step 1 of 4</div>
+    </div>
+
+    <form id="eligibility-checker-form">
+      <!-- Question screens -->
+      <div class="question-screen" id="question-1" data-index="1">
+        <h3 class="question-title">What is the age of the person needing support?</h3>
+        <div class="form-group">
+          <div class="age-selector">
+            <div class="age-presets">
+              <button type="button" class="age-preset-btn" data-age="18">Under 18</button>
+              <button type="button" class="age-preset-btn" data-age="30">18-30</button>
+              <button type="button" class="age-preset-btn" data-age="45">31-45</button>
+              <button type="button" class="age-preset-btn" data-age="60">46-60</button>
+              <button type="button" class="age-preset-btn" data-age="75">61+</button>
+            </div>
+            <div class="age-input-container">
+              <label for="age">Or enter exact age:</label>
+              <input type="number" id="age" name="age" min="0" max="120" required aria-required="true">
+            </div>
+          </div>
+        </div>
+        <div class="button-container">
+          <button type="button" class="btn btn-primary next-button" data-next="2">Continue</button>
+        </div>
+      </div>
+
+      <div class="question-screen" id="question-2" data-index="2" style="display: none;">
+        <h3 class="question-title">Does the person already receive NDIS funding?</h3>
+        <div class="form-group radio-group">
+          <div class="radio-option">
+            <input type="radio" id="ndis-yes" name="ndis_funding" value="yes" required>
+            <label for="ndis-yes">Yes</label>
+          </div>
+          <div class="radio-option">
+            <input type="radio" id="ndis-no" name="ndis_funding" value="no">
+            <label for="ndis-no">No</label>
+          </div>
+          <div class="radio-option">
+            <input type="radio" id="ndis-notsure" name="ndis_funding" value="not_sure">
+            <label for="ndis-notsure">Not sure</label>
+          </div>
+        </div>
+        <div class="button-container">
+          <button type="button" class="btn btn-secondary back-button" data-prev="1">Back</button>
+          <button type="button" class="btn btn-primary next-button" data-next="3">Continue</button>
+        </div>
+      </div>
+
+      <div class="question-screen" id="question-3" data-index="3" style="display: none;">
+        <h3 class="question-title">Does the person have a diagnosed disability or chronic condition?</h3>
+        <div class="form-group radio-group">
+          <div class="radio-option">
+            <input type="radio" id="disability-yes" name="disability" value="yes" required>
+            <label for="disability-yes">Yes</label>
+          </div>
+          <div class="radio-option">
+            <input type="radio" id="disability-no" name="disability" value="no">
+            <label for="disability-no">No</label>
+          </div>
+          <div class="radio-option">
+            <input type="radio" id="disability-notsure" name="disability" value="not_sure">
+            <label for="disability-notsure">Not sure</label>
+          </div>
+        </div>
+        <div class="button-container">
+          <button type="button" class="btn btn-secondary back-button" data-prev="2">Back</button>
+          <button type="button" class="btn btn-primary next-button" data-next="4">Continue</button>
+        </div>
+      </div>
+
+      <div class="question-screen" id="question-4" data-index="4" style="display: none;">
+        <h3 class="question-title">What's the postcode where the person lives?</h3>
+        <div class="form-group">
+          <input type="text" id="postcode" name="postcode" pattern="[0-9]{4}" maxlength="4" required aria-required="true" placeholder="e.g. 2000">
+          <small>Please enter a valid Australian postcode (4 digits)</small>
+        </div>
+        <div class="button-container">
+          <button type="button" class="btn btn-secondary back-button" data-prev="3">Back</button>
+          <button type="submit" class="btn btn-primary submit-button">See Results</button>
+        </div>
+      </div>
+
+      <!-- Results screen -->
+      <div class="question-screen results-screen" id="results-screen" style="display: none;">
+        <div class="results-content">
+          <div class="results-icon" id="results-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="success-icon">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <div class="results-details">
+            <h3 class="results-title">Assessment Result</h3>
+            <div class="results-message" id="results-message">
+              <!-- Will be filled by JavaScript -->
+            </div>
+          </div>
+        </div>
+
+        <div class="results-actions">
+          <a href="/contact" class="cta-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+            Get in Touch
+          </a>
+        </div>
+        
+        <div class="restart-container">
+          <button type="button" class="btn btn-text restart-button" id="restart-button">
+            Start Over
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<style>
+  .eligibility-checker-container {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    margin: 2rem auto;
+    max-width: 700px;
+    overflow: hidden;
+    border: 1px solid var(--border-color, #eee);
+  }
+
+  .checker-wrapper {
+    padding: 1.5rem;
+  }
+
+  .checker-intro {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .checker-intro h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--text-color, #333);
+  }
+
+  .checker-intro p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text-light, #666);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .progress-bar-container {
+    margin-bottom: 1.5rem;
+  }
+
+  .progress-bar {
+    height: 6px;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+  }
+
+  .progress-filled {
+    height: 100%;
+    background-color: var(--primary-color, #1E88E5);
+    width: 25%; /* Will be updated by JS */
+    transition: width 0.3s ease;
+  }
+
+  .progress-text {
+    font-size: 0.8rem;
+    color: #666;
+    text-align: right;
+  }
+
+  .question-screen {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  .question-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    color: var(--text-color, #333);
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--text-color, #333);
+  }
+
+  /* Age selector styles */
+  .age-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .age-presets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .age-preset-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 500;
+  }
+
+  .age-preset-btn:hover {
+    background-color: #e0e0e0;
+  }
+
+  .age-preset-btn.active {
+    background-color: var(--primary-color, #1E88E5);
+    color: white;
+    border-color: var(--primary-color, #1E88E5);
+  }
+
+  .age-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .age-input-container label {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+  }
+
+  /* Form input styles */
+  .form-group input[type="number"],
+  .form-group input[type="text"],
+  .form-group input[type="email"] {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+  }
+
+  .form-group input:focus {
+    border-color: var(--primary-color, #1E88E5);
+    box-shadow: 0 0 0 3px rgba(30, 136, 229, 0.1);
+    outline: none;
+  }
+
+  .form-group small {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #666;
+  }
+
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .radio-option {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .radio-option:hover {
+    border-color: #ccc;
+    background-color: #f9f9f9;
+  }
+
+  .radio-option input[type="radio"] {
+    margin-right: 1rem;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+
+  .radio-option label {
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+
+  .btn {
+    padding: 0.7rem 1.25rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+  }
+
+  .btn-primary {
+    background-color: var(--primary-color, #1E88E5);
+    color: white;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--primary-dark, #1565C0);
+    transform: translateY(-2px);
+  }
+
+  .btn-secondary {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+
+  .btn-secondary:hover {
+    background-color: #e0e0e0;
+  }
+
+  .btn-text {
+    background: none;
+    color: #666;
+    padding: 0.5rem 1rem;
+  }
+
+  .btn-text:hover {
+    color: var(--primary-color, #1E88E5);
+    background-color: #f5f5f5;
+  }
+
+  /* Results Screen Styles */
+  .results-screen {
+    text-align: center;
+  }
+
+  .results-content {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+
+  .results-icon {
+    flex-shrink: 0;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    color: var(--primary-color, #1E88E5);
+  }
+
+  .results-icon.success {
+    color: #2e7d32;
+  }
+  
+  .success-icon {
+    color: #2e7d32;
+  }
+
+  .results-icon.warning {
+    color: #ed6c02;
+  }
+
+  .results-details {
+    flex: 1;
+  }
+
+  .results-title {
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-color, #333);
+  }
+
+  .results-message {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: var(--text-color, #333);
+  }
+
+  .results-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-button {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    background: var(--primary-color, #1E88E5);
+    color: white;
+    padding: 1rem;
+    border-radius: 3rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background: var(--primary-dark, #1565C0);
+  }
+
+  .icon {
+    flex-shrink: 0;
+  }
+
+  .restart-container {
+    margin-top: 1rem;
+  }
+
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .checker-wrapper {
+      padding: 1.25rem;
+    }
+
+    .question-title {
+      font-size: 1.2rem;
+    }
+
+    .radio-option {
+      padding: 0.7rem;
+    }
+
+    .radio-option label {
+      font-size: 0.95rem;
+    }
+
+    .button-container {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      width: 100%;
+    }
+
+    .btn-secondary {
+      order: 2;
+    }
+
+    .btn-primary {
+      order: 1;
+    }
+
+    .results-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .results-icon {
+      margin-right: 0;
+      margin-bottom: 0.75rem;
+    }
+  }
+</style>
+
+<script>
+  // Wait for page to load
+  document.addEventListener('DOMContentLoaded', function() {
+    // Start time tracking
+    const startTime = Date.now();
+    
+    // Get elements
+    const form = document.getElementById('eligibility-checker-form');
+    const progressBar = document.querySelector('.progress-filled') as HTMLElement;
+    const progressText = document.getElementById('progress-text');
+    const screens = document.querySelectorAll('.question-screen');
+    const resultsScreen = document.getElementById('results-screen');
+    const resultsMessage = document.getElementById('results-message');
+    const resultsIcon = document.getElementById('results-icon');
+    const restartButton = document.getElementById('restart-button');
+    const agePresetButtons = document.querySelectorAll('.age-preset-btn');
+    const ageInput = document.getElementById('age') as HTMLInputElement;
+    
+    // Current screen tracking
+    let currentScreen = 1;
+    const totalScreens = screens.length - 1; // Excluding the results screen
+    
+    // User responses
+    const userResponses: {
+      age: string | null;
+      ndis_funding: string | null;
+      disability: string | null;
+      postcode: string | null;
+    } = {
+      age: null,
+      ndis_funding: null,
+      disability: null,
+      postcode: null
+    };
+    
+    // Handle age preset buttons
+    agePresetButtons.forEach(button => {
+      button.addEventListener('click', function(this: HTMLElement) {
+        const age = this.getAttribute('data-age');
+        if (ageInput && age) {
+          ageInput.value = age;
+        }
+        
+        // Remove active class from all buttons and add to current
+        agePresetButtons.forEach(btn => btn.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+    
+    // Load saved responses from localStorage if available
+    const savedResponses = localStorage.getItem('eligibilityCheckerResponses');
+    if (savedResponses) {
+      try {
+        const parsedResponses = JSON.parse(savedResponses);
+        Object.assign(userResponses, parsedResponses);
+        
+        // Fill in the form with saved values
+        if (userResponses.age) {
+          const ageEl = document.getElementById('age') as HTMLInputElement;
+          if (ageEl) ageEl.value = userResponses.age;
+          
+          // Find and activate the matching preset button if applicable
+          agePresetButtons.forEach(btn => {
+            const btnAge = btn.getAttribute('data-age');
+            if (btnAge && userResponses.age && parseInt(btnAge) === parseInt(userResponses.age)) {
+              btn.classList.add('active');
+            }
+          });
+        }
+        
+        if (userResponses.ndis_funding) {
+          const radioEl = document.querySelector(`input[name="ndis_funding"][value="${userResponses.ndis_funding}"]`) as HTMLInputElement;
+          if (radioEl) radioEl.checked = true;
+        }
+        
+        if (userResponses.disability) {
+          const radioEl = document.querySelector(`input[name="disability"][value="${userResponses.disability}"]`) as HTMLInputElement;
+          if (radioEl) radioEl.checked = true;
+        }
+        
+        if (userResponses.postcode) {
+          const postcodeEl = document.getElementById('postcode') as HTMLInputElement;
+          if (postcodeEl) postcodeEl.value = userResponses.postcode;
+        }
+      } catch (e) {
+        console.error('Error loading saved responses:', e);
+        localStorage.removeItem('eligibilityCheckerResponses');
+      }
+    }
+    
+    // Update progress bar
+    function updateProgress(screenIndex: number) {
+      const progress = (screenIndex / totalScreens) * 100;
+      if (progressBar) progressBar.style.width = `${progress}%`;
+      if (progressText) progressText.textContent = `Step ${screenIndex} of ${totalScreens}`;
+    }
+    
+    // Show screen
+    function showScreen(screenIndex: number) {
+      screens.forEach(screen => {
+        if (screen) (screen as HTMLElement).style.display = 'none';
+      });
+      const nextScreen = document.getElementById(`question-${screenIndex}`);
+      if (nextScreen) (nextScreen as HTMLElement).style.display = 'block';
+      currentScreen = screenIndex;
+      updateProgress(screenIndex);
+    }
+    
+    // Register event listeners for next buttons
+    document.querySelectorAll('.next-button').forEach(button => {
+      button.addEventListener('click', function(this: HTMLElement) {
+        const currentQuestionScreen = document.getElementById(`question-${currentScreen}`);
+        
+        // Validate current screen
+        let valid = true;
+        if (currentQuestionScreen) {
+          const inputs = currentQuestionScreen.querySelectorAll('input[required]');
+          inputs.forEach(input => {
+            if (input instanceof HTMLInputElement) {
+              if (input.type === 'radio') {
+                const radioGroup = input.name;
+                if (!currentQuestionScreen.querySelector(`input[name="${radioGroup}"]:checked`)) {
+                  valid = false;
+                }
+              } else if (!input.value.trim()) {
+                valid = false;
+                input.classList.add('error');
+              }
+            }
+          });
+        }
+        
+        if (!valid) return;
+        
+        // Store responses
+        if (currentScreen === 1) {
+          const ageEl = document.getElementById('age');
+          if (ageEl instanceof HTMLInputElement) {
+            userResponses.age = ageEl.value;
+          }
+        } else if (currentScreen === 2) {
+          const radioEl = document.querySelector('input[name="ndis_funding"]:checked');
+          if (radioEl instanceof HTMLInputElement) {
+            userResponses.ndis_funding = radioEl.value;
+          }
+        } else if (currentScreen === 3) {
+          const radioEl = document.querySelector('input[name="disability"]:checked');
+          if (radioEl instanceof HTMLInputElement) {
+            userResponses.disability = radioEl.value;
+          }
+        }
+        
+        // Save to localStorage
+        localStorage.setItem('eligibilityCheckerResponses', JSON.stringify(userResponses));
+        
+        // Move to next screen
+        const nextScreen = parseInt(this.getAttribute('data-next') || '0');
+        showScreen(nextScreen);
+      });
+    });
+    
+    // Register event listeners for back buttons
+    document.querySelectorAll('.back-button').forEach(button => {
+      button.addEventListener('click', function(this: HTMLElement) {
+        const prevScreen = parseInt(this.getAttribute('data-prev') || '0');
+        showScreen(prevScreen);
+      });
+    });
+    
+    // Form submission
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Store postcode
+        const postcodeEl = document.getElementById('postcode');
+        if (postcodeEl instanceof HTMLInputElement) {
+          userResponses.postcode = postcodeEl.value;
+        }
+        localStorage.setItem('eligibilityCheckerResponses', JSON.stringify(userResponses));
+        
+        // Calculate results
+        const age = parseInt(userResponses.age || '0');
+        const hasDisability = userResponses.disability === 'yes';
+        let resultMessage = '';
+        let resultType = 'default'; // default, success, warning
+        
+        if (age > 65) {
+          resultMessage = 'The person may qualify for Aged Care services. Want to speak to someone about available options?';
+          resultType = 'warning';
+        } else if (age <= 65 && hasDisability) {
+          resultMessage = 'Based on your responses, the person may be eligible for NDIS support. Let\'s discuss their specific needs.';
+          resultType = 'success';
+        } else {
+          resultMessage = 'Let\'s help you figure out the next steps together. Our specialists can guide you through the options available.';
+          resultType = 'default';
+        }
+        
+        // Display results
+        if (resultsMessage) resultsMessage.textContent = resultMessage;
+        screens.forEach(screen => {
+          if (screen) (screen as HTMLElement).style.display = 'none';
+        });
+        if (resultsScreen) (resultsScreen as HTMLElement).style.display = 'block';
+        if (progressBar) progressBar.style.width = '100%';
+        if (progressText) progressText.textContent = 'Complete!';
+        
+        // Set appropriate result icon class
+        if (resultsIcon) {
+          resultsIcon.classList.remove('success', 'warning');
+          if (resultType !== 'default') {
+            resultsIcon.classList.add(resultType);
+          }
+        }
+        
+        // Track completion
+        const completionTime = (Date.now() - startTime) / 1000; // in seconds
+        
+        // Send GA4 event if available
+        if (typeof (window as any).gtag === 'function') {
+          (window as any).gtag('event', 'eligibility_complete', {
+            'service_type': 'ndis',
+            'completion_time': completionTime,
+            'age_range': getAgeRange(age),
+            'has_disability': hasDisability
+          });
+        }
+      });
+    }
+    
+    // Helper function for age ranges (for analytics)
+    function getAgeRange(age: number): string {
+      if (age < 18) return 'under_18';
+      if (age < 30) return '18_29';
+      if (age < 50) return '30_49';
+      if (age < 65) return '50_64';
+      return '65_plus';
+    }
+    
+    // Restart functionality
+    if (restartButton) {
+      restartButton.addEventListener('click', function() {
+        showScreen(1);
+        if (form instanceof HTMLFormElement) {
+          form.reset();
+        }
+        
+        // Reset age preset buttons
+        agePresetButtons.forEach(btn => btn.classList.remove('active'));
+        
+        // Clear localStorage (optional)
+        // localStorage.removeItem('eligibilityCheckerResponses');
+      });
+    }
+    
+    // Initialize the first screen
+    showScreen(1);
+    
+    // Add input validation handlers
+    document.querySelectorAll('input').forEach(input => {
+      input.addEventListener('input', function() {
+        if (this instanceof HTMLElement) {
+          this.classList.remove('error');
+        }
+      });
+    });
+    
+    // Make radio container clickable
+    document.querySelectorAll('.radio-option').forEach(option => {
+      option.addEventListener('click', function(this: HTMLElement) {
+        const radio = this.querySelector('input[type="radio"]');
+        if (radio instanceof HTMLInputElement) {
+          radio.checked = true;
+        }
+      });
+    });
+  });
+</script> 

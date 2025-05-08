@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import EligibilityChecker from '../../components/EligibilityChecker.astro';
 
 // Define TypeScript interfaces
 interface SuburbInfo {
@@ -436,7 +437,7 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
                 <span class="mobile-text">Contact Now</span>
               </div>
             </a>
-            <a href="#learn-more" class="cta-secondary">Learn More</a>
+            <a href="#eligibility-checker" class="cta-secondary">Learn More <span class="down-arrow">↓</span></a>
           </div>
           <div class="trust-signal">
             <div class="rating-container">
@@ -446,6 +447,11 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
           </div>
         </div>
       </header>
+      
+      <!-- Eligibility Checker Tool -->
+      <div id="eligibility-checker">
+        <EligibilityChecker />
+      </div>
       
       <div class="service-content" id="learn-more">
         <div class="service-body">
@@ -789,6 +795,24 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
     border-color: rgba(0, 0, 0, 0.15);
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .down-arrow {
+    font-size: 1.2rem;
+    margin-left: 0.2rem;
+    animation: bounce 3s ease-in-out infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(3px);
+    }
+    60% {
+      transform: translateY(2px);
+    }
   }
 
   .service-content {
