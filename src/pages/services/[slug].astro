@@ -403,6 +403,49 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
 	}
 </style>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What services are available through MD Home Care?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "MD Home Care offers a comprehensive range of services including personal care, nursing care, allied health services, meal preparation, continence management, mobility equipment, transport assistance, home cleaning, home modifications, social support, and respite care. The exact services available may vary by location and individual needs."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How do I access MD Home Care services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "To access our services, you can contact us directly through our website or phone. We'll assess your needs and discuss available services in your area. We can help connect you with appropriate funding options like NDIS, Home Care Packages, or private payment arrangements."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What areas do you service?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide services across multiple regions in Australia. You can check service availability in your specific suburb by using our location search tool on the website. We're continuously expanding our service areas to help more people access quality care."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What qualifications do your care workers have?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "All our care workers are qualified professionals with relevant certifications in their fields. They undergo regular training, have current police checks, and are fully insured. Our team includes registered nurses, allied health professionals, and qualified support workers."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How are services priced?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Service pricing varies depending on the type of service, duration, and funding arrangement (NDIS, Home Care Package, or private). We provide transparent pricing information and can discuss costs during your initial consultation. We work to ensure our services remain accessible and affordable."
+    }
+  }]
+}
+</script>
+
 <BaseLayout 
   title={`${genericTitle} | MD Home Care`} 
   description={genericDescription}

@@ -400,6 +400,49 @@ const description = service.data.description.replace(/{suburb}/g, suburbName);
 	}
 </style>
 
+<script type="application/ld+json" set:html={`
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What services does MD Home Care offer in ${suburbName}?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In ${suburbName}, MD Home Care provides a comprehensive range of services including personal care, nursing care, allied health services, meal preparation, continence management, mobility equipment, transport assistance, home cleaning, home modifications, social support, and respite care. Our services are tailored to meet the specific needs of ${suburbName} residents."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How can I access MD Home Care services in ${suburbName}?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "To access our services in ${suburbName}, you can contact us directly through our website or phone. We'll arrange a consultation to assess your needs and discuss available services in ${suburbName}. We can help connect you with appropriate funding options like NDIS, Home Care Packages, or private payment arrangements."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Do you have local care workers in ${suburbName}?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we have a team of qualified care workers based in ${suburbName} and surrounding areas. All our care workers are local professionals who understand the community and can provide personalized care services. They are fully qualified, police-checked, and insured."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What are your service hours in ${suburbName}?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We offer flexible service hours in ${suburbName} to accommodate different needs. This includes regular business hours, after-hours care, and 24/7 support for certain services. We work with each client to establish a schedule that best suits their requirements."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What funding options are available for services in ${suburbName}?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In ${suburbName}, our services can be accessed through various funding options including NDIS, Home Care Packages, and private payment arrangements. We can help you understand your eligibility for different funding options and assist with the application process."
+    }
+  }]
+}
+`}></script>
+
 <BaseLayout 
   title={title + " | MD Home Care"}
   description={description}
