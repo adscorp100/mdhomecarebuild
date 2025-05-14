@@ -4,7 +4,7 @@ description: "Master your NDIS support worker interview with our comprehensive g
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
-image: "/assets/avatar.webp"
+image: "/assets/carer.webp"
 ---
 
 ## Support Worker Interview Questions: Key Points
