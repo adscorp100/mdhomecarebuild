@@ -1,14 +1,35 @@
 ---
-title: "Your Quick Guide to NDIS Line Items (2024-25): Codes, Prices & Explanations"
-description: "Understand NDIS line items, pricing, and rules with our comprehensive guide to the 2024-25 NDIS framework. Learn about support categories, budget types, and key conditions for accurate claiming."
+title: "NDIS Line Items (2025): Complete Guide to Support Codes & Pricing"
+description: "Master NDIS codes with our comprehensive guide to line items, support codes, and pricing for 2024-25. Includes daily life assistance codes, pricing tables, and claiming rules."
 pubDate: 2025-05-05
 author: "Camila"
 category: "NDIS"
 image: "/assets/Ilovendis.webp"
 ---
-# Your Quick Guide to NDIS Line Items (2024-25): Codes, Prices & Explanations
+# NDIS Line Items (2025): Complete Guide to Support Codes & Pricing
 
-## Section 1: Introduction - Navigating NDIS Line Items
+## Quick Navigation
+- [NDIS Support Codes List](#section-4-ndis-line-items---detailed-listings)
+- [Daily Life Assistance Codes](#01--assistance-with-daily-life)
+- [Home and Living Line Items](#01--assistance-with-daily-life)
+- [Cancellation Codes & Rules](#short-notice-cancellations-snc)
+- [Improved Daily Living Skills Codes](#15--improved-daily-living-skills)
+
+## Understanding NDIS Codes and Line Items
+
+The National Disability Insurance Scheme (NDIS) uses a comprehensive system of codes and line items to categorize and track support funding. This guide provides detailed information about NDIS service codes, pricing, and claiming rules for 2024-25, helping participants and providers navigate the system effectively.
+
+### What are NDIS Support Codes?
+
+NDIS support codes (also known as line items or item codes) are unique identifiers used to classify and claim different types of disability supports. Each code consists of:
+- A numerical identifier (e.g., 01_002_0107_1_1)
+- A support category designation
+- A clear description of the service
+- Associated pricing and claiming rules
+
+## Section 1: Complete NDIS Codes List 2024-25
+
+### Understanding the NDIS Price Guide and Support Codes
 
 The National Disability Insurance Scheme (NDIS) provides funding for a wide range of supports and services. Understanding how these are categorized, coded, and priced is crucial for participants, their families, carers, support coordinators, and providers. This guide serves as a practical, quick reference for specific NDIS line items requested by users, based on the 2024-25 NDIS framework. It aims to demystify these codes and provide clarity on associated pricing and rules.
 
@@ -38,7 +59,9 @@ These documents are typically updated annually around July 1st, but amendments c
 
 Additionally, supplementary documents called **Addenda** may be released for specific circumstances, such as bereavement or temporary measures like those related to COVID-19. These must be read in conjunction with the main PAPL document.
 
-## Section 2: Quick NDIS Budget & Pricing Overview
+## Section 2: NDIS Support Categories and Item Codes
+
+### NDIS Budget Types and Service Codes
 
 Before diving into the specific line items, it's helpful to understand the broader context of NDIS budgets and pricing rules.
 
@@ -83,25 +106,11 @@ Several factors influence the maximum price limit for a support item:
 
 The application of higher price limits in remote areas acknowledges the genuine increased costs of operating in these regions. However, if budget allocations are not proportionally increased for remote participants, this can lead to challenges where the same nominal funding amount buys fewer hours of support compared to metropolitan areas, potentially impacting service access equity. The complexity of varying rates also demands careful attention to detail during invoicing and budget tracking.
 
-## Section 3: Understanding the Line Item Tables
+## Section 4: NDIS Line Items - Complete Support Codes List
 
-The following sections detail the specific NDIS line items requested by the user, grouped by their primary Support Category. Each table provides a quick reference with the following information:
+### 01 – NDIS Assistance with Daily Life Codes
 
-* **Line Item Code:** The unique numerical identifier used by the NDIS.
-* **Official Name:** The formal name of the support item as listed in the NDIS Support Catalogue 2024-25.
-* **Brief Description:** A simplified explanation of the support provided, based on official definitions and common usage.
-* **Price Limit (National):** The maximum price per unit for services delivered in MMM1-5 locations, based on the NDIS Support Catalogue 2024-25 (effective Oct 1, 2024). Note that higher limits apply for Remote (MMM6) and Very Remote (MMM7) locations.
-* **Unit:** The unit of measure for the price limit (e.g., Hour, Each, Day, Week, Per Km).
-* **Key Conditions:** Flags indicating common rules associated with the item:
-  * **Quote Req?:** Indicates if a quote typically needs NDIS approval before funding.
-  * **Stated?:** Indicates if this item is often funded as a 'stated support', meaning funds are restricted to this item only.
-  * **Rules Apply:** Notes whether specific NDIS rules for Provider Travel, Non-Face-to-Face (NF2F) supports, or Short Notice Cancellations (SNC) typically apply to this type of support. These rules are explained in detail in Section 5.
-
-## Section 4: NDIS Line Items - Detailed Listings
-
-### 01 – Assistance with Daily Life
-
-**Category Definition:** This Core Supports category funds assistance or supervision for personal tasks in day-to-day life, enabling participants to live as independently as possible. Supports can be provided individually in various environments, including the participant's home. It covers a wide range, from basic personal care to more complex arrangements like Supported Independent Living (SIL) and Short Term Accommodation (STA)/Respite. Many items in this category have price variations based on time of day, day of week, and support intensity, reflecting the 24/7 nature of these needs and alignment with support worker award conditions. High-cost items like SIL and STA often require quotes.
+**Category Definition & Support Codes:** This Core Supports category funds assistance or supervision for personal tasks in day-to-day life, enabling participants to live as independently as possible. Supports can be provided individually in various environments, including the participant's home. It covers a wide range, from basic personal care to more complex arrangements like Supported Independent Living (SIL) and Short Term Accommodation (STA)/Respite. Many items in this category have price variations based on time of day, day of week, and support intensity, reflecting the 24/7 nature of these needs and alignment with support worker award conditions. High-cost items like SIL and STA often require quotes.
 
 **Table: 01 – Assistance with Daily Life Line Items**
 
@@ -127,7 +136,7 @@ The following sections detail the specific NDIS line items requested by the user
 | `01_799_0104_1_1` | Provider travel - non-labour costs | Covers non-labour travel costs (e.g., tolls, parking, km allowance up to $0.97/km) incurred by providers when travelling to deliver _High Intensity Daily Personal Activities_ (Reg Group 0104) supports. | $1.00 (Represents claimable cost, not price limit) | Each | Quote Req: No. Stated: No. Rules Apply: Specific travel cost rules apply (see Section 5). |
 | `01_821_0115_1_1` | Assistance in Supported Independent Living - Weekly | Weekly rate for supports provided within a Supported Independent Living (SIL) arrangement. Amount is usually determined by a SIL quote and stated in the plan. | As stated in plan/agreed with NDIA | Week | Quote Req: Yes. Stated: Yes. Rules Apply: SIL specific rules, Travel, NF2F, SNC (7 days DSW). |
 
-### 03 – Consumables & Core Supports
+### 03 – NDIS Consumables Support Codes
 
 **Category Definition:** This Core Supports category funds everyday items needed to manage disability-related aspects of life. It covers a wide range of low-cost items like continence products, nutritional supplements, personal care aids, and low-cost assistive technology (generally under $1,500). While the budget is generally flexible within Core, purchases must be reasonable, necessary, and directly related to the participant's disability needs.
 
@@ -138,7 +147,7 @@ The following sections detail the specific NDIS line items requested by the user
 | `03_040000919_0103_1_1` | Disability-Related Health Consumables - Low Cost | Low-cost (under $1,500), non-durable health consumables needed due to disability (e.g., wound care, incontinence aids). | $1.00 (Represents claimable cost, not price limit) | Each | Quote Req: No. Stated: No. Rules Apply: Consumables rules apply. |
 | `03_090000911_0103_1_1` | Low Cost AT - Personal Care And Safety | Low-cost (under $1,500) assistive technology specifically for personal care and safety (e.g., non-slip mats, grab rails, personal alarms). AHP letter may be needed. | $1.00 (Represents claimable cost, not price limit) | Each | Quote Req: No. Stated: No. Rules Apply: Consumables/Low-Cost AT rules apply. |
 
-### 04 – Assistance with Social, Economic and Community Participation
+### 04 – NDIS Community Participation Codes
 
 **Category Definition:** This Core Supports category funds supports enabling participants to engage in community, social, civic, or recreational activities. It can cover support workers assisting with participation, transport related to activities, or costs associated with group/centre-based programs.
 
@@ -159,7 +168,7 @@ The following sections detail the specific NDIS line items requested by the user
 | `04_799_0125_6_1` | Provider travel - non-labour costs | Covers non-labour travel costs (e.g., tolls, parking, km allowance up to $0.97/km) incurred by providers when travelling to deliver _Participation in Community, Social and Civic Activities_ (Reg Group 0125) supports. | $1.00 (Represents claimable cost, not price limit) | Each | Quote Req: No. Stated: No. Rules Apply: Specific travel cost rules apply (see Section 5). |
 | `04_801_0133_5_1` | Supports in Employment - Weekday Daytime | Support worker assistance provided within a workplace setting during standard weekday daytime hours to help a participant obtain or retain employment. | $67.56 | Hour | Quote Req: No. Stated: No. Rules Apply: Travel, NF2F, SNC (7 days DSW). |
 
-### 07 – Support Coordination & Specialist Support Coordination
+### 07 – Support Coordination Codes
 
 **Category Definition:** This Capacity Building category funds assistance to help participants understand and implement their NDIS plan, connect with services (NDIS, community, mainstream), and build their capacity to coordinate their own supports. Funding is usually stated and cannot be used flexibly for other categories. There are different levels based on complexity.
 
@@ -215,7 +224,7 @@ _(Note: The user provided items 10\_016\_0102\_5\_3 and 10\_021\_0102\_5\_3 unde
 |---------------|--------------|------------------|---------------------------------------|------|---------------|
 | `12_027_0126_3_3` | Advice provided by an Exercise Physiologist regarding exercise required | Provision of exercise advice and programs by a qualified Exercise Physiologist, tailored to manage the impact of the participant's disability. | $166.99 | Hour | Quote Req: No. Stated: No. Rules Apply: Travel, NF2F, SNC (2 business days non-DSW). |
 
-### 15 – Improved Daily Living Skills
+### 15 – NDIS Improved Daily Living Skills Codes
 
 **Category Definition:** This Capacity Building category funds assessment, training, and therapy supports to help participants increase their skills, independence, and community participation in daily life. This is a common category for allied health therapies like Occupational Therapy (OT), Psychology, Speech Pathology, etc., aimed at building long-term capacity.
 
