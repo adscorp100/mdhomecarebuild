@@ -11,7 +11,10 @@ export interface Props {
 export async function getStaticPaths() {
   const providers = await getCollection('providers');
   
-  return providers.map(provider => ({
+  // Filter out the home-caring provider if it somehow still exists in the collection
+  const filteredProviders = providers.filter(provider => provider.slug !== 'home-caring');
+  
+  return filteredProviders.map(provider => ({
     params: { slug: provider.slug },
     props: { provider },
   }));

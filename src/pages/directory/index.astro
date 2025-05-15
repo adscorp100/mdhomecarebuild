@@ -6,8 +6,11 @@ import type { CollectionEntry } from 'astro:content';
 // Get all providers
 const allProviders = await getCollection('providers');
 
+// Filter out home-caring if it somehow still exists in the collection
+const filteredProviders = allProviders.filter(provider => provider.slug !== 'home-caring');
+
 // Sort providers alphabetically by name
-const sortedProviders = allProviders.sort(
+const sortedProviders = filteredProviders.sort(
   (a, b) => a.data.name.localeCompare(b.data.name)
 );
 
