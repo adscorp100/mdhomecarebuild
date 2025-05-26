@@ -465,13 +465,6 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
             <span class="main-title">{genericTitle}</span>
           </h1>
           <p class="service-description">{genericDescription}</p>
-          {entry.data.keywords && entry.data.keywords.length > 0 && (
-            <div class="keyword-tags">
-              {entry.data.keywords.map((keyword) => (
-                <span class="tag">#{keyword}</span>
-              ))}
-            </div>
-          )}
           
           <div class="hero-cta">
             <a href="/contact" class="cta-primary pulse-animation">

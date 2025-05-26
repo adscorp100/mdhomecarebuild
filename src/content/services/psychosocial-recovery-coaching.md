@@ -1,15 +1,20 @@
 ---
-title: "Psychosocial Recovery Coaching in {suburb}"
-description: "Specialized recovery coaching for NDIS participants in {suburb} with psychosocial disability, supporting mental health recovery and building independence."
+title: "Psychosocial Recovery Coach NDIS Services in {suburb}"
+description: "Professional psychosocial recovery coach services for NDIS participants in {suburb}. Specialized recovery coaching for mental health recovery, building independence and community participation."
+keywords: ["psychosocial recovery coach", "recovery coach"]
 pubDate: 2025-02-23
 category: "Mental Health Support"
 image: "/assets/downs.webp"
 
 ---
 
-## What is Psychosocial Recovery Coaching in {suburb}?
+## Psychosocial Recovery Coach Services in {suburb}
 
-Psychosocial Recovery Coaching is a specialized NDIS support designed for participants in {suburb} with a primary psychosocial disability - a disability arising from a mental health condition. Recovery Coaches work collaboratively with participants, their families, and other support services to develop recovery plans, build capacity and resilience, and increase independence and participation in the community.
+A psychosocial recovery coach is a specialized NDIS support professional designed for participants in {suburb} with a primary psychosocial disability - a disability arising from a mental health condition. Recovery coaches work collaboratively with participants, their families, and other support services to develop recovery plans, build capacity and resilience, and increase independence and participation in the community.
+
+### What is a Psychosocial Recovery Coach?
+
+A psychosocial recovery coach is a qualified professional who provides specialized support to NDIS participants experiencing psychosocial disability. Recovery coaches combine professional expertise with often lived experience of mental health challenges to provide person-centered, recovery-oriented support that focuses on building capacity, achieving goals, and enhancing quality of life.
 
 ### Key Features of Psychosocial Recovery Coaching in {suburb}:
 

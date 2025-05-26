@@ -22,9 +22,17 @@ const servicesByCategory: Record<string, typeof allServices> = sortedServices.re
 
 // Sort categories alphabetically
 const sortedCategories = Object.keys(servicesByCategory).sort();
+
+// Collect all keywords from services for meta tags (but not for display)
+const allKeywords = allServices.flatMap(service => service.data.keywords || []);
+const uniqueKeywords = [...new Set(allKeywords)];
+const metaKeywords = uniqueKeywords.join(', ');
 ---
 
 <BaseLayout title="Our Services | MD Home Care">
+  <head slot="head">
+    <meta name="keywords" content={metaKeywords} />
+  </head>
   <div class="container">
     <section class="services-section">
       <div class="services-header">

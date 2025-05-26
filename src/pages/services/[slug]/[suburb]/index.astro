@@ -463,13 +463,6 @@ const description = service.data.description.replace(/{suburb}/g, suburbName);
             <span class="main-title">{title}</span>
           </h1>
           <p class="service-description">{description}</p>
-          {service.data.keywords && service.data.keywords.length > 0 && (
-            <div class="keyword-tags">
-              {service.data.keywords.map((keyword) => (
-                <span class="tag">#{keyword}</span>
-              ))}
-            </div>
-          )}
           
           <div class="hero-cta">
             <a href="/contact" class="cta-primary pulse-animation">
