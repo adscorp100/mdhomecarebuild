@@ -1,25 +1,29 @@
 ---
-title: "Level 4 Home Care Package Complete Guide"
-description: "No summary available"
+title: "Home Care Package Level 4: $79,473 Maximum Funding Guide 2025 - High Care Needs"
+description: "Home care package level 4 provides $79,473 annual funding for high care needs. Complete guide to Level 4 home care package eligibility, costs, services, and application process in Australia."
 pubDate: 2025-02-23
 author: "Camila"
 tags: []
 image: "https://cdn.prod.website-files.com/67ba898f18b9815458c46343/67baa2c6b21db79b34b31c4f_dominik-lange-VUOiQW4OeLI-unsplash.webp"
 ---
 
-## Key Points
+## Level 4 Home Care Package: $79,473 Maximum Government Funding for High Care Needs
 
-Level 4 Home Care Packages (HCP) are for Australians with high care needs, offering up to $62,013 annually.
+**Quick Facts - Updated 2025:**
+- **Maximum Annual Funding**: $79,473 (as of January 2025 - increased from previous $62,013)
+- **Daily Government Subsidy**: $217.73 per day
+- **Your Daily Fee**: $13.08 basic daily fee (may apply)
+- **Support Hours**: 18.5-25 hours per fortnight typically
+- **Eligibility**: High-level care needs, complex conditions
+- **Assessment Required**: Single Assessment System evaluation
 
-Services include personal care, nursing, household tasks, and more, tailored to individual needs.
-
-Qualification requires an assessment via the Single Assessment System, using the Integrated Assessment Tool.
-
-The program will transition to the Support at Home program from July 1, 2025, with equivalent funding.
+**⚠️ Important Update**: The Support at Home program replaces Home Care Packages from July 1, 2025, with funding up to $78,000 annually.
 
 ## What is a Level 4 Home Care Package?
 
-A Level 4 Home Care Package is the highest level of support under Australia's current Home Care Packages Program, designed for older people with complex care needs. It helps them stay independent at home with services like personal care, nursing, and household assistance, funded at approximately $62,013 per year as of January 2025.
+A Level 4 Home Care Package is the highest level of support under Australia's current Home Care Packages Program, designed for older people with complex care needs. It helps them stay independent at home with services like personal care, nursing, and household assistance, funded at approximately $79,473 per year as of January 2025.
+
+**Comparing all home care package levels?** See our [complete guide to home care packages Australia](home-care-packages-australia-complete-guide) for detailed comparisons of all four levels.
 
 ## How to Qualify
 

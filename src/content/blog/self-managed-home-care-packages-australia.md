@@ -1,13 +1,24 @@
 ---
-title: "Self-Managed Home Care Packages in Australia: The Complete Guide (2025)"
-description: "A comprehensive guide to self-managing Home Care Packages in Australia, including benefits, responsibilities, provider selection, and practical tips for maximizing control and value from your aged care funding."
+title: "Self-Managed Home Care Packages Australia 2025: Save 15-26% on Fees + Choose Your Own Workers"
+description: "Self-manage your Home Care Package to save on provider fees (15-26% vs 30%+) and choose your own support workers. Complete guide to eligibility, costs, benefits, and setup process."
 pubDate: 2025-05-03
 author: "Camila"
 tags: []
 image: "/assets/holdinglinen.webp"
 ---
 
-The desire to remain living independently and comfortably in one's own home is a deeply held value for many older Australians. Recognising this, the Australian Government offers Home Care Packages (HCPs), a vital program providing funding for tailored care and support services to facilitate ageing in place. Within this framework, a significant shift towards Consumer Directed Care (CDC) has empowered individuals, offering them more say in how their support is delivered.
+## Self-Managed Home Care Packages: Save 15-26% on Fees + Choose Your Own Workers
+
+**Key Benefits of Self-Management:**
+- **Lower Provider Fees**: 15-26% vs 30%+ for provider-managed packages
+- **Choose Your Workers**: Select independent support workers or agencies
+- **Flexible Scheduling**: Arrange care times to suit your routine
+- **Budget Control**: Direct how your funding is spent on services
+- **Government Funding Levels**: Level 1 ($410/fortnight) to Level 4 ($2,380/fortnight)
+
+**⚠️ Important**: Support at Home program replaces Home Care Packages from July 1, 2025
+
+Self-managing your Home Care Package gives you maximum control over your aged care while potentially saving thousands in provider fees annually.
 
 A key manifestation of this shift is the option to self-manage a Home Care Package. This approach has gained considerable popularity, offering individuals greater control, choice, and flexibility compared to the traditional model where a provider manages most aspects of care. Self-managing means taking an active role in deciding which services are needed, who provides them, and how the allocated budget is spent. However, this increased autonomy comes hand-in-hand with greater administrative responsibility.
 

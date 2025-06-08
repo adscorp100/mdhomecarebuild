@@ -14,6 +14,80 @@ image: "/assets/carer.webp"
 - Level 2 and Level 3 support worker pay rates differ based on qualifications, with Level 3 workers earning more
 - Self-managed NDIS participants can negotiate different rates with independent support workers
 
+## Official NDIS Price Guide Downloads
+
+<div style="background: #f8f9fa; border-radius: 8px; padding: 20px; margin: 24px 0;">
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; margin-bottom: 16px;">
+
+<div style="background: white; border-radius: 6px; padding: 16px; border: 1px solid #e0e0e0;">
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+<h4 style="margin: 0; font-size: 16px; font-weight: 600; color: #1d1d1f;">Price Guide 2024-25</h4>
+<div style="display: flex; gap: 6px;">
+<a href="https://www.ndis.gov.au/media/7150/download?attachment" target="_blank" style="background: #007aff; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 12px; font-weight: 500;">PDF</a>
+<a href="https://www.ndis.gov.au/media/7151/download?attachment" target="_blank" style="background: #f0f0f0; color: #1d1d1f; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 12px; font-weight: 500;">Word</a>
+</div>
+</div>
+<p style="margin: 0; font-size: 13px; color: #666;">Official pricing framework & limits</p>
+</div>
+
+<div style="background: white; border-radius: 6px; padding: 16px; border: 1px solid #e0e0e0;">
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+<h4 style="margin: 0; font-size: 16px; font-weight: 600; color: #1d1d1f;">Support Catalogue</h4>
+<a href="https://www.ndis.gov.au/media/7146/download?attachment" target="_blank" style="background: #007aff; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 12px; font-weight: 500;">Excel</a>
+</div>
+<p style="margin: 0; font-size: 13px; color: #666;">All support items & codes</p>
+</div>
+
+<div style="background: white; border-radius: 6px; padding: 16px; border: 1px solid #e0e0e0;">
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+<h4 style="margin: 0; font-size: 16px; font-weight: 600; color: #1d1d1f;">Cost Model Guide</h4>
+<div style="display: flex; gap: 6px;">
+<a href="https://www.ndis.gov.au/media/7152/download?attachment" target="_blank" style="background: #007aff; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 12px; font-weight: 500;">PDF</a>
+<a href="https://www.ndis.gov.au/media/7153/download?attachment" target="_blank" style="background: #f0f0f0; color: #1d1d1f; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 12px; font-weight: 500;">Word</a>
+</div>
+</div>
+<p style="margin: 0; font-size: 13px; color: #666;">Pricing methodology details</p>
+</div>
+
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px;">
+
+<div style="background: white; border-radius: 6px; padding: 12px; border: 1px solid #e0e0e0;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<span style="font-size: 14px; font-weight: 500; color: #1d1d1f;">Assistive Technology</span>
+<div style="display: flex; gap: 4px;">
+<a href="https://www.ndis.gov.au/media/7158/download?attachment" target="_blank" style="background: #f0f0f0; color: #1d1d1f; padding: 4px 8px; border-radius: 3px; text-decoration: none; font-size: 11px; font-weight: 500;">PDF</a>
+<a href="https://www.ndis.gov.au/media/7159/download?attachment" target="_blank" style="background: #f0f0f0; color: #1d1d1f; padding: 4px 8px; border-radius: 3px; text-decoration: none; font-size: 11px; font-weight: 500;">Word</a>
+</div>
+</div>
+</div>
+
+<div style="background: white; border-radius: 6px; padding: 12px; border: 1px solid #e0e0e0;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<span style="font-size: 14px; font-weight: 500; color: #1d1d1f;">COVID Addendum</span>
+<div style="display: flex; gap: 4px;">
+<a href="https://www.ndis.gov.au/media/7154/download?attachment" target="_blank" style="background: #f0f0f0; color: #1d1d1f; padding: 4px 8px; border-radius: 3px; text-decoration: none; font-size: 11px; font-weight: 500;">PDF</a>
+<a href="https://www.ndis.gov.au/media/7155/download?attachment" target="_blank" style="background: #f0f0f0; color: #1d1d1f; padding: 4px 8px; border-radius: 3px; text-decoration: none; font-size: 11px; font-weight: 500;">Word</a>
+</div>
+</div>
+</div>
+
+<div style="background: white; border-radius: 6px; padding: 12px; border: 1px solid #e0e0e0;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<span style="font-size: 14px; font-weight: 500; color: #1d1d1f;">Bereavement Guide</span>
+<div style="display: flex; gap: 4px;">
+<a href="https://www.ndis.gov.au/media/7156/download?attachment" target="_blank" style="background: #f0f0f0; color: #1d1d1f; padding: 4px 8px; border-radius: 3px; text-decoration: none; font-size: 11px; font-weight: 500;">PDF</a>
+<a href="https://www.ndis.gov.au/media/7157/download?attachment" target="_blank" style="background: #f0f0f0; color: #1d1d1f; padding: 4px 8px; border-radius: 3px; text-decoration: none; font-size: 11px; font-weight: 500;">Word</a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
 ## NDIS Pay Rates for Support Workers
 
 NDIS support worker pay rates are the hourly wages paid to workers providing assistance to people with disabilities under the National Disability Insurance Scheme. These rates vary based on several factors including the worker's qualifications and when support is provided. Unqualified support workers typically earn between $30.96 and $35.08 per hour, while team leaders may earn up to $42.31 per hour according to 2025 figures.
@@ -28,15 +102,22 @@ The hourly rates for NDIS support workers vary significantly based on:
 
 ## How Much Do NDIS Workers Get Paid?
 
-Here's a summary of approximate NDIS support worker pay rates based on the SCHADS Award 2025:
+**NDIS Support Worker Pay Rates 2025:**
 
-| Support Worker Level | Hourly Rate Range (AUD) |
-|----------|-------------------------|
-| Level 2 Disability Support Worker Pay | $30.96 – $35.08 |
-| Level 3 Support Worker NDIS Pay Rates | $33.02 – $37.15 |
-| Team Leaders/Supervisors | $37.15 – $42.31 |
+| Support Worker Level | Weekday Hours | Evening Hours | Weekend Hours | Public Holiday |
+|---------------------|---------------|---------------|---------------|----------------|
+| **Level 2 (Unqualified)** | $30.96 – $35.08 | $34.06 – $38.59 | $46.44 – $52.62 | $61.92 – $70.16 |
+| **Level 3 (Certificate III)** | $33.02 – $37.15 | $36.32 – $40.87 | $49.53 – $55.73 | $66.04 – $74.30 |
+| **Team Leaders/Supervisors** | $37.15 – $42.31 | $40.87 – $46.54 | $55.73 – $63.47 | $74.30 – $84.62 |
 
-A weekday daytime shift might be at the lower end of these ranges, while a public holiday night shift would be significantly higher.
+**Key Pay Rate Facts:**
+- Weekday daytime: Standard rates (6am-8pm Monday-Friday)
+- Evening rates: 10% higher (8pm-midnight)
+- Weekend rates: 50% higher (Saturday/Sunday)
+- Public holidays: 100% higher than standard rates
+- Night shifts: Additional loadings apply for overnight work
+
+
 
 ## NDIS Support Worker Hourly Rate
 
@@ -133,23 +214,29 @@ Self-managed NDIS participants can negotiate pay rates directly with independent
 ### What is the SCHADS Award 2025 disability support worker classification?
 The SCHADS Award 2025 classifies disability support workers into levels based on qualifications and responsibilities, with different pay rates for each level.
 
+### What are the current NDIS support worker pay rates 2025?
+NDIS support worker pay rates in 2025 range from $30.96-$42.31 per hour for standard weekday shifts, with Level 2 workers earning $30.96-$35.08/hour and Level 3 workers earning $33.02-$37.15/hour.
+
+### What is the NDIS support worker hourly rate for evenings and weekends?
+NDIS support worker hourly rates increase for non-standard hours: evening shifts (8pm-midnight) are 10% higher, weekend rates are 50% higher, and public holidays are 100% higher than standard weekday rates.
+
+### How much do NDIS workers get paid compared to other industries?
+NDIS support worker pay rates are competitive, with qualified workers earning $33-37/hour compared to the Australian median of $39.50/hour, plus additional penalty rates for evenings, weekends, and public holidays.
+
 ### What is the difference between support worker pay rates NDIS and standard disability sector rates?
 NDIS support worker pay rates are competitive with broader disability sector rates, reflecting the specialized nature of NDIS support work.
 
 ### How does the NDIS hourly rate compare to other industries?
 Compared to the median hourly earnings for all Australian employees ($39.50 per hour in 2023), NDIS support worker hourly rates are competitive, especially for qualified workers and team leaders.
 
+
+
 ### Key Citations
 
-- [NDIS Support Worker Rates 2024 MyCareSpace](https://mycarespace.com.au/resources/ndis-support-worker-rates)
-- [Pricing arrangements NDIS](https://www.ndis.gov.au/providers/pricing-arrangements)
-- [SCHADS Award 2024/2025 Pay Rates Viewer Updated Pay Rate & Classification Guide](https://awardmatcher.com.au/blog/schads-pay-rates-2024)
-- [Social and community services industry pay rates Fair Work Ombudsman](https://www.fairwork.gov.au/pay-and-wages/minimum-wages/social-and-community-services-industry-pay-rates)
-- [NDIS Improvements Support catalogue](https://improvements.ndis.gov.au/providers/claims-and-payments/support-catalogue)
+- [NDIS Pricing Arrangements Official Page](https://www.ndis.gov.au/providers/pricing-arrangements)
+- [NDIS Support Catalogue 2024-25](https://www.ndis.gov.au/providers/pricing-arrangements/support-catalogue)
+- [SCHADS Award 2024/2025 Pay Rates](https://www.fairwork.gov.au/employment-conditions/awards/awards-summary/ma000100-summary)
+- [Social and Community Services Industry Pay Rates - Fair Work Ombudsman](https://www.fairwork.gov.au/pay-and-wages/minimum-wages/social-and-community-services-industry-pay-rates)
 - [NDIS Pricing Updates](https://www.ndis.gov.au/providers/pricing-arrangements/pricing-updates)
-- [Carelogy NDIS Support Worker Pay Rates 2024-25](https://carelogy.com.au/support-worker/ndis-support-worker-pay-rates-2024-25/)
-- [Careseekers Blog Overnight Rates & How They Work](https://blog.careseekers.com.au/2021/03/02/overnight-rates-how-they-work/)
-- [Workstem Updated SCHADS Award Pay Rates Guide](https://www.workstem.com/au/blog/updated-schads-award-pay-rates-guide/)
-- [MyCareSpace NDIS Self Management How to hire your own Support Worker with an ABN](https://mycarespace.com.au/resources/ndis-self-management-how-to-hire-your-own-support-worker-with-an-abn)
 
 ‍

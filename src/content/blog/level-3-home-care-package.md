@@ -1,14 +1,24 @@
 ---
-title: "Home Care Package Level 3: Complete Guide to Aged Care Funding in 2025"
-description: "Everything you need to know about Home Care Package Level 3 - eligibility, funding, services, and how to apply for government funded home care in Australia"
+title: "Home Care Package Level 3: $40,529 Annual Funding Guide 2025 - Eligibility & Costs"
+description: "Home care package level 3 provides $40,529 annual funding for intermediate care needs. Complete guide to Level 3 home care package eligibility, costs, services, and application process."
 pubDate: 2025-03-09
 author: "Camila"
 tags: ["home care packages", "aged care packages", "level 3 home care package", "government funded home care"]
 image: "/assets/makingbed.webp"
 ---
 
-## What is a Level 3 Home Care Package?
-A Level 3 Home Care Package is part of Australia's government-subsidized Home Care Packages Program to help older adults and those with complex needs live independently at home. It's designed for intermediate care needs, offering more support than basic Level 1 or Low-level Level 2 packages but less than High-level Level 4 care.
+## Level 3 Home Care Package: $40,529 Annual Funding for Intermediate Care Needs
+
+**Quick Facts:**
+- **Annual Government Funding**: $40,529 (2025 rates)
+- **Daily Funding**: $111.04 per day
+- **Your Contribution**: Basic daily fee $12.75/day (may apply)
+- **Typical Support Hours**: ~16 hours per fortnight
+- **Eligibility**: 65+ years (50+ for Aboriginal/Torres Strait Islander)
+
+A Level 3 Home Care Package provides government-subsidized funding to help older Australians with intermediate care needs remain living independently at home. This package level bridges the gap between basic Level 1/2 support and intensive Level 4 care.
+
+**Need to compare all package levels?** Visit our [complete home care packages Australia guide](home-care-packages-australia-complete-guide) for detailed comparisons of funding, eligibility, and services across all four levels.
 
 ## Home Care Package Levels Explained
 Home Care Packages are funded by the Australian Government to provide coordinated care services, allowing individuals to live independently. The Home Care Packages Program uses a consumer-directed care approach, ensuring services align with individual needs and goals.

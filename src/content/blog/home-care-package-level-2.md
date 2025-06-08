@@ -1,21 +1,28 @@
 ---
-title: "Home Care Package Level 2 Guide"
-description: "No summary available"
+title: "Home Care Package Level 2: $18,814 Annual Funding Guide 2025 - Low Care Needs"
+description: "Home care package level 2 provides $18,814 annual funding for low care needs. Complete guide to Level 2 home care package eligibility, costs ($12.40 daily fee), services, and application."
 pubDate: 2025-03-09
 author: "Camila"
 tags: []
 image: "/assets/holdinglinen.webp"
 ---
 
-## Key Points
-- Home care package level 2 supports older Australians with low-level care needs to live independently at home, providing assistance with daily tasks like cleaning and personal care.
-- Eligibility includes being 65+ (or 50+ for Indigenous Australians), an Australian resident, and needing support, assessed by an Aged Care Assessment Team (ACAT).
-- Funding is around $18,814 annually, with possible out-of-pocket costs like a basic daily fee of $12.40 and income-tested fees up to $37.55/day.
-- Services including help with showering, household tasks, transport, and shopping, tailored to individual needs.
-- The upcoming "Support at Home" program, replacing current packages from July 1, 2025, with new classifications and pricing.
+## Level 2 Home Care Package: $18,814 Annual Funding for Low Care Needs
+
+**Quick Facts - 2025 Rates:**
+- **Annual Government Funding**: $18,814 (based on $51.49 daily subsidy)
+- **Your Daily Fee**: $12.40 basic daily fee
+- **Income-Tested Fee**: $0-$37.55/day (based on income assessment)
+- **Typical Support Hours**: ~7 hours per fortnight  
+- **Eligibility**: 65+ years (50+ for Aboriginal/Torres Strait Islander)
+- **Assessment Required**: Free ACAT evaluation
+
+**⚠️ Program Change**: Support at Home program replaces Home Care Packages from July 1, 2025.
 
 ## What is Home Care Package Level 2?
 Home care package level 2 is designed for older Australians with low-level care needs, helping them stay independent at home. It covers daily tasks like cleaning, personal care, and transport, funded by the government to delay moving to residential care.
+
+**Considering other package levels?** Check our [comprehensive home care packages Australia guide](home-care-packages-australia-complete-guide) to compare all four levels and find the right fit for your care needs.
 
 ## Eligibility and Application
 To qualify, you generally need to be 65 or older (50 for Indigenous Australians), an Australian resident, and require support. The process involves contacting [My Aged Care](https://www.myagedcare.gov.au/) for an ACAT assessment to determine your needs and package level.

@@ -1,15 +1,23 @@
 ---
-title: "Understanding STA Meaning in NDIS: A Comprehensive Guide"
-description: "Learn what STA (Short-Term Accommodation) means in NDIS, including eligibility criteria, funding details, key design features, and how to access this support."
+title: "What is STA in NDIS? Short-Term Accommodation Rates $633-$2,801/Day + Eligibility Guide 2025"
+description: "STA (Short-Term Accommodation) in NDIS provides respite care $633-$2,801/day for up to 14 days. Complete guide to eligibility, booking process, and funding details for disability accommodation."
 pubDate: 2025-02-23
 author: "Camila"
 tags: []
 image: "https://cdn.prod.website-files.com/67ba898f18b9815458c46343/67bab1b323b017da45fe302f_dr-kanapon-phumratprapin-xOvJBvcame8-unsplash.webp"
 ---
 
-## **Introduction**
+## What is STA in NDIS? Short-Term Accommodation Explained
 
-Navigating the National Disability Insurance Scheme (NDIS) can be complex, especially with terms like **STA (Short-Term Accommodation)** frequently appearing in support plans. If you're wondering, "What does STA mean in NDIS?" or how it benefits participants, this guide breaks down everything you need to know. We'll explain STA's role, eligibility criteria, funding, and how to access it.
+**STA Quick Facts:**
+- **Full Name**: Short-Term Accommodation  
+- **Daily Rates**: $633-$2,801 per day (2025 NDIS price limits)
+- **Maximum Stay**: Up to 14 consecutive days
+- **Purpose**: Respite care for families + skill development for participants
+- **Includes**: Accommodation, personal care, meals, overnight support
+- **Typical Annual Allocation**: 7-28 days per NDIS plan
+
+**STA = Short-Term Accommodation** - temporary disability housing with 24/7 support for NDIS participants needing respite or skills development.
 
 ### **What is STA in NDIS?**
 

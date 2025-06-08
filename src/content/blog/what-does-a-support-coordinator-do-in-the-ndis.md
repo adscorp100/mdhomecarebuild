@@ -1,6 +1,6 @@
 ---
-title: "What Does a Support Coordinator Do in the NDIS? Complete Guide to Support Coordination & Plan Management 2025"
-description: "Comprehensive guide to NDIS support coordination and plan management in 2025. Understand what a support coordinator does, their daily responsibilities, and how they maximize your NDIS plan outcomes through effective coordination."
+title: "What Does a Support Coordinator Do in the NDIS? Complete Guide to Finding Support Coordination Near Me 2025"
+description: "Complete guide to NDIS support coordinators in 2025. Learn what support coordinators do, how to find support coordination near me, costs, and how they maximize your NDIS plan outcomes through effective coordination."
 pubDate: 2025-06-02
 author: "Camila"
 category: "NDIS"
@@ -260,6 +260,68 @@ The best support coordinators combine technical knowledge with interpersonal ski
 - Patience and persistence
 
 These qualities combine to create coordinators who can effectively navigate complex systems while remaining deeply connected to the participant's individual needs and preferences.
+
+## How to Find Support Coordination Near Me
+
+### Finding Local Support Coordinators
+
+**NDIS Provider Finder**
+- Use the official NDIS provider finder tool
+- Search by location and service type
+- Filter by support coordination level needed
+- Check provider registration status
+- View contact details and service areas
+
+**Local Search Strategies**
+- Search "support coordinator near me" + your suburb
+- Check local disability service directories
+- Contact regional NDIS offices for referrals
+- Ask your Local Area Coordinator for recommendations
+- Join local NDIS Facebook groups for peer recommendations
+
+**Geographic Coverage Considerations**
+- Many support coordinators service multiple suburbs
+- Remote and telehealth options available
+- Travel fees may apply for distant locations
+- Regional providers may have longer wait lists
+- Metropolitan areas typically have more options
+
+### Evaluating Local Support Coordinators
+
+**Key Questions to Ask**
+- What is your experience with my type of disability?
+- How many participants do you currently support?
+- What areas do you service?
+- What are your availability and response times?
+- Can you provide local participant references?
+- What is your approach to capacity building?
+
+**Red Flags to Avoid**
+- Unwillingness to meet in person initially
+- Extremely low fees (may indicate poor quality)
+- Lack of specific disability experience
+- Poor communication or responsiveness
+- Pressure to sign long-term agreements
+- Unwillingness to provide references
+
+### Support Coordination Costs and NDIS Funding
+
+**2025 NDIS Hourly Rates**
+- Support Connection: $65.09 per hour
+- Support Coordination: $100.14 per hour  
+- Specialist Support Coordination: $190.54 per hour
+
+**Typical Annual Allocation**
+- Support Connection: 20-30 hours ($1,300-$1,950)
+- Support Coordination: 40-100 hours ($4,000-$10,000)
+- Specialist Support Coordination: 50-150 hours ($9,500-$28,500)
+
+**Additional Costs to Consider**
+- Travel time charges (if applicable)
+- Weekend or after-hours rates (25% loading)
+- Cancellation fees (check policies)
+- Initial setup or onboarding fees
+- Report writing or documentation fees
 
 ### Common Support Coordination Challenges and Solutions
 Support coordinators regularly navigate a range of challenges in their role:

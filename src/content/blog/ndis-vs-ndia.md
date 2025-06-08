@@ -1,10 +1,10 @@
 ---
-title: "NDIS vs NDIA"
-description: "Understand the key differences between NDIS and NDIA in Australia's disability support system. Learn what each acronym stands for and their unique roles."
+title: "NDIS Meaning: What Does NDIS Stand For? Complete Guide to NDIS vs NDIA Australia"
+description: "Complete guide to NDIS meaning and what NDIS stands for in Australia. Understand the key differences between NDIS and NDIA, eligibility, and how the disability support system works."
 pubDate: 2025-04-18
 author: "Camila"
-tags: []
-image: "https://cdn.prod.website-files.com/67ba898f18b9815458c46343/6801c4048c32ec3d75779e12_care-assure-Zx4ddAfk0Ck-unsplash.webp"
+tags: ["NDIS", "NDIA", "disability support", "NDIS meaning", "what does NDIS stand for"]
+image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 
 Trying to understand Australia's disability support system can be confusing, especially with names that sound so alike. Two names often mixed up are **NDIS** and **NDIA**. They are both important parts of disability support in Australia, but they do different jobs. Knowing the **difference between NDIS and NDIA** is important for anyone using the system – whether you need support yourself, or you're a family member, carer, or service provider. Because the names are so similar, it's easy to get confused about who does what, making it hard to find help.

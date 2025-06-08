@@ -1,13 +1,23 @@
 ---
-title: "NDIS Price Guide 2024-2025: Complete Pricing Guide & Support Worker Rates"
-description: "Comprehensive guide to the NDIS Price Guide for 2024-2025, including latest updates, support worker rates, and detailed breakdown of the support catalogue."
+title: "NDIS Price Guide 2025: Support Worker Rates $30-42/Hour + Latest Price Updates"
+description: "Current NDIS support worker rates: $30-42/hour based on qualifications. Complete 2024-25 price guide with latest 3.19% rate increases, NDIS codes, and support item pricing for participants and providers."
 pubDate: 2025-03-06
 author: "Camila"
 tags: []
 image: "/assets/clinic.webp"
 ---
 
-The National Disability Insurance Scheme (NDIS) Price Guide is a vital document that details pricing arrangements and limits for various supports and services under the NDIS. It ensures clarity and transparency for both participants and providers, updated annually to reflect market changes and legislative updates. The latest version, for the 2024-25 financial year, was released in July 2024 and includes significant modifications from the previous year, such as price adjustments and new support items.
+## NDIS Support Worker Rates 2025: $30-42/Hour + Latest Price Updates
+
+**Current NDIS Support Worker Hourly Rates (2024-25):**
+- **Unqualified Support Workers**: $30-34/hour
+- **Qualified Support Workers**: $32-36/hour  
+- **Team Leaders/Supervisors**: $36-42/hour
+- **Rate Increase**: 3.19% increase from July 1, 2024
+- **Weekend/Evening**: Higher rates apply
+- **Price Negotiation**: Plan-managed participants can negotiate below maximum rates
+
+The NDIS Price Guide sets maximum pricing limits for all supports and services, ensuring transparency and cost control while allowing providers flexibility to compete on price.
 
 ## NDIS Price Guide 2024-25: Latest Updates & NDIS Pricing Changes
 

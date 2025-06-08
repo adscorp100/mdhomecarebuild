@@ -1,15 +1,21 @@
 ---
-title: "NDIS Social and Community Participation Guide: Complete Funding, Activities & Community Access Resource"
-description: "Comprehensive guide to understanding NDIS social and community participation funding, including core supports, capacity building, practical examples, and how to access this vital support to enhance connection and independence."
+title: "NDIS Community Participation Funding Guide 2025: Activities, Codes & Support Worker Rates"
+description: "Get NDIS funding for community activities, social groups, and skill development. Complete guide to Core Support vs Capacity Building funding, eligible activities, NDIS codes, and current support worker rates."
 pubDate: 2025-05-03
 author: "Camila"
 tags: []
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 
-## Introduction: NDIS Community Participation & Social Activities Support
+## NDIS Community Participation Funding: Core Support vs Capacity Building
 
-A sense of connection, belonging, and active participation in community life is fundamental to overall well-being and achieving personal aspirations. The National Disability Insurance Scheme (NDIS) recognises this intrinsic human need, embedding support for social and community engagement as a key component of enabling participants to live fulfilling lives. Engaging with the community fosters independence, builds essential life skills, and combats isolation.
+**Quick Navigation:**
+- **Core Support (Category 04)**: Support worker assistance for community activities
+- **Capacity Building (Category 09)**: Skill development programs and training
+- **Popular Activities**: Social groups, sports, art classes, travel training
+- **Support Worker Rates**: $30-42/hour depending on qualifications
+
+The NDIS provides two types of funding to help participants engage in community activities and develop social connections. Understanding the difference between Core Support and Capacity Building funding is crucial for maximizing your NDIS plan benefits.
 
 Within the NDIS framework, "Social and Community Participation" refers to the support provided to participants to enable them to engage meaningfully in social, community, and recreational activities. This support is designed to help individuals pursue their interests, develop skills, forge relationships, and become active members of their communities. Search trends indicate a high level of interest in understanding this support, with many seeking information on [increased social and community participation] and [assistance with social and community participation]. These searches often represent the starting point for individuals exploring how the NDIS can support their community engagement goals.
 

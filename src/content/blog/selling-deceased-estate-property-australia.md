@@ -1,9 +1,9 @@
 ---
-title: "Selling Deceased Estate Property in Australia: The Ultimate Guide (2025 Update)"
-description: "A comprehensive guide to navigating the legal, financial, and emotional aspects of selling property from a deceased estate in Australia, covering probate requirements, tax implications, and state-specific considerations."
+title: "Selling Deceased Estate Property in Australia: Complete Guide to Probate Sales (2025)"
+description: "Complete guide to selling deceased estate property in Australia. Learn about probate requirements, tax implications, timelines, and legal considerations for deceased property sales across all states."
 pubDate: 2025-04-22
 author: "Camila"
-tags: []
+tags: ["deceased estate property", "probate sale", "deceased property", "estate property", "selling deceased estate"]
 image: "/assets/deceasedestate.webp"
 ---
 
