@@ -7,7 +7,7 @@ tags: ["support at home program", "support at home program 2025", "aged care ref
 image: "/assets/homecare.webp"
 ---
 
-The **Support at Home Program** represents the most significant transformation of Australia's aged care system in decades. Launching from July 1, 2025, this revolutionary program will replace the current Commonwealth Home Support Programme (CHSP) and Home Care Packages system, creating a unified, streamlined approach to aged care support. This comprehensive guide explains everything you need to know about the **Support at Home Program 2025**, including changes, benefits, eligibility, and how to prepare for the transition.
+The **Support at Home Program** represents the most significant transformation of Australia's aged care system in decades. Launching from July 1, 2025, this revolutionary program will replace the current Commonwealth Home Support Programme (CHSP) and Home Care Packages system, creating a unified, streamlined approach to aged care support. You can read more about the [changes from the old Home Care Package system here](/blog/home-care-package-changes-the-new-support-at-home-program). This comprehensive guide explains everything you need to know about the **Support at Home Program 2025**, including changes, benefits, eligibility, and how to prepare for the transition.
 
 ## What is the Support at Home Program?
 
@@ -24,7 +24,7 @@ The **Support at Home Program** is Australia's new unified aged care system desi
 **Person-Centered Approach:**
 - Individual needs-based assessment
 - Flexible service delivery options
-- Choice and control over care services
+- Choice and control over care services, including options for [self-managed packages](/blog/self-managed-home-care-packages-australia)
 - Cultural and linguistic appropriateness
 
 **Enhanced Support:**
@@ -109,7 +109,7 @@ The **Support at Home Program** will operate on a more flexible support model ra
 
 **New Services:**
 - 24/7 support coordination for complex needs
-- Enhanced respite and family support
+- Enhanced respite and family support, including [respite care](/blog/respite-care-meaning-australia-guide) and [short-term restorative care](/blog/short-term-restorative-care-strc-complete-guide)
 - Transitional care services
 - Preventive health and wellness programs
 
@@ -229,6 +229,8 @@ The **Support at Home Program** will operate on a more flexible support model ra
 - Protection for those on lower incomes
 - Transparent fee structures
 - Hardship provisions available
+
+For a more detailed breakdown, see our guide on [Support at Home prices for 2025](/blog/support-at-home-prices-2025).
 
 **Basic Daily Fee:**
 - All recipients pay basic daily fee

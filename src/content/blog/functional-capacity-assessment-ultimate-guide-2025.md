@@ -17,7 +17,7 @@ image: "/assets/occupationaltherapy.webp"
 
 ## What is a Functional Capacity Assessment?
 
-A functional capacity assessment (FCA) is a comprehensive evaluation that measures your ability to perform daily activities and participate in community life. For NDIS participants, FCAs provide crucial evidence to support funding decisions and ensure you receive appropriate supports for your disability-related needs.
+A functional capacity assessment (FCA) is a comprehensive evaluation that measures your ability to perform daily activities and participate in community life. For NDIS participants, FCAs provide crucial evidence to support funding decisions and ensure you receive appropriate supports for your disability-related needs. For more background, see our guides on [functional capacity assessments in the NDIS](/blog/functional-capacity-assessments-in-the-ndis) and [what an FCA is and why it matters](/blog/functional-capacity-assessment-what-it-is-and-why-it-matters).
 
 ### Purpose of Functional Capacity Assessments
 
@@ -35,6 +35,8 @@ A functional capacity assessment (FCA) is a comprehensive evaluation that measur
 - **Cognitive Function**: Memory, problem-solving, decision-making
 - **Physical Capabilities**: Strength, endurance, coordination, balance
 - **Psychosocial Functioning**: Mental health, social skills, coping strategies
+
+The final output is a detailed report. You can see an example in our guide on [what a good FCA report looks like](/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like). This is just one type of report used in the NDIS; another important one is the [Carer Impact Statement](/blog/ndis-reports-carer-impact-statements-templates-examples).
 
 ## Who Conducts Functional Capacity Assessments?
 
@@ -87,6 +89,8 @@ A functional capacity assessment (FCA) is a comprehensive evaluation that measur
 ## Preparing for Your Functional Capacity Assessment
 
 ### Before the Assessment
+
+To understand the types of questions you might be asked, review our guide to [NDIS functional capacity assessment questions](/blog/ndis-functional-capacity-assessment-questions).
 
 **Physical Preparation**
 - Get adequate rest the night before

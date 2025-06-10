@@ -17,7 +17,7 @@ image: "/assets/downs.webp"
 
 ## Understanding NDIS Eligibility
 
-The National Disability Insurance Scheme (NDIS) provides support to Australians with permanent and significant disability. Understanding eligibility requirements is the first step toward accessing life-changing supports and services.
+The National Disability Insurance Scheme (NDIS) provides support to Australians with permanent and significant disability. Understanding eligibility requirements is the first step toward accessing life-changing [supports and services](/blog/ndis-core-supports).
 
 ### Core NDIS Eligibility Criteria
 
@@ -38,7 +38,7 @@ The National Disability Insurance Scheme (NDIS) provides support to Australians 
 - Permanent and significant disability
 - Disability substantially reduces ability to participate effectively in activities
 - Support needs likely to be permanent
-- Disability attributed to intellectual, cognitive, neurological, sensory or physical impairment, or psychosocial disability
+- Disability attributed to intellectual, cognitive, neurological, sensory or physical impairment, or [psychosocial disability](/blog/what-is-a-psychosocial-recovery-coach-role-eligibility)
 
 ## NDIS Disability Requirements Explained
 
@@ -74,6 +74,8 @@ The National Disability Insurance Scheme (NDIS) provides support to Australians 
 - Information processing difficulties
 - Learning and memory impairments
 - Examples: Dementia, traumatic brain injury, autism spectrum disorder
+- Global developmental delay
+- Intellectual disability
 
 ### Early Intervention Requirements
 
@@ -93,13 +95,15 @@ The National Disability Insurance Scheme (NDIS) provides support to Australians 
 
 ## NDIS Eligibility Assessment Process
 
+Many applicants work with a [Local Area Coordinator (LAC)](/blog/what-is-a-local-area-coordinator-complete-guide) during this process, who can help guide them through the requirements.
+
 ### Step 1: Access Request Submission
 
 **Required Documentation**
 - Access Request Form
 - Evidence of identity and residency
 - Medical reports and assessments
-- Functional impact statements
+- [Functional impact statements](/blog/ndis-functional-capacity-assessment-ultimate-guide-2025)
 - Professional recommendations
 
 **Medical Evidence Requirements**
@@ -110,6 +114,8 @@ The National Disability Insurance Scheme (NDIS) provides support to Australians 
 - Professional opinion on permanence
 
 ### Step 2: NDIA Review Process
+
+The NDIA (National Disability Insurance Agency) is the government body that runs the NDIS. You can learn more about the [difference between the NDIS and NDIA here](/blog/ndis-vs-ndia).
 
 **Documentation Review**
 - Eligibility criteria assessment
@@ -127,7 +133,7 @@ The National Disability Insurance Scheme (NDIS) provides support to Australians 
 ### Step 3: Eligibility Decision
 
 **Possible Outcomes**
-- **Eligible**: Proceed to planning meeting
+- **Eligible**: Proceed to planning meeting. Once your plan is approved, you will work with professionals like a [Support Coordinator](/blog/what-does-a-support-coordinator-do-in-the-ndis) or a [Plan Manager](/blog/ndis-plan-manager-complete-guide-2025) to manage your supports. Understanding the [NDIS Price Guide](/blog/ndis-price-guide) is a key part of this stage.
 - **Not Eligible**: Reasons provided with review options
 - **More Information Needed**: Specific requirements outlined
 - **Early Intervention Pathway**: Alternative eligibility route
@@ -149,7 +155,7 @@ The National Disability Insurance Scheme (NDIS) provides support to Australians 
 **Solution**:
 - Provide specific examples of limitations
 - Document assistance currently needed
-- Include family/carer observations
+- Include family/carer observations and consider creating a [Carer Impact Statement](/blog/ndis-reports-carer-impact-statements-templates-examples)
 - Use standardized assessment tools
 
 ### Permanence Requirements

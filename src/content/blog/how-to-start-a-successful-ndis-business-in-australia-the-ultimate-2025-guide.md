@@ -71,6 +71,8 @@ Integrate NDIS compliance from the outset—outline how you will meet Practice S
 
 ### 3.1 The Official 5-Step Registration Process
 
+For a detailed breakdown of the costs and steps involved, see our guides on [NDIS provider registration costs](/blog/ndis-provider-registration-costs-explained) and the [NDIS provider application process](/blog/ndis-provider-application-process-guide-2025).
+
 1. **Online Application**: Submit details on structure, locations, services (registration groups), and key personnel; complete self-assessment against Practice Standards.
 2. **Select Approved Auditor**: Choose a Verification (lower-risk services) or Certification (higher-risk) audit; obtain quotes and engage an NDIS-approved auditor.
 3. **Undergo Audit**: Submit evidence (Verification) or host site visits/interviews (Certification).
@@ -95,7 +97,7 @@ Ongoing training, robust policies, and continuous improvement embed these standa
 
 ### 3.4 Key Personnel & Suitability Requirements
 
-The Commission assesses both organisational and individual suitability. Key Personnel (directors, CEOs, senior managers) must demonstrate competence, integrity, and capacity to uphold quality and safeguarding obligations. Additionally, staff in risk-assessed roles require NDIS Worker Screening Checks.
+The Commission assesses both organisational and individual suitability. Key Personnel (directors, CEOs, senior managers) must demonstrate competence, integrity, and capacity to uphold quality and safeguarding obligations. Additionally, staff in risk-assessed roles require an [NDIS Worker Screening Check](/blog/ndis-worker-screening-check-complete-guide-2025).
 
 ## Section 4: Phase 3 – Setting Up for Operational Success
 
@@ -112,6 +114,8 @@ Mandatory for registration:
 - Public Liability Insurance  
 - Professional Indemnity Insurance  
 - Personal Accident Insurance  
+
+For more details, see our [guide to support worker insurance](/blog/support-worker-insurance-australia-what-you-need).
 
 Obtain quotes from specialist brokers or platforms like BizCover.
 
@@ -157,6 +161,8 @@ Invest in dedicated NDIS platforms for:
 - NDIS directories (MyCareSpace, Clickability)  
 - Community networking (LACs, support coordinators)  
 - Events, expos, word-of-mouth referrals
+
+For a more detailed guide on attracting participants, see our article on [how to find and get NDIS clients](/blog/how-to-find-get-ndis-clients-support-worker).
 
 ### 5.2 Building Client Trust & Exceptional Service
 

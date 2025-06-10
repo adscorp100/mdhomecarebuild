@@ -20,7 +20,7 @@ This comprehensive guide walks you through exactly how to become a disability su
 
 ## What Does a Disability Support Worker Do?
 
-Disability support workers provide practical assistance and support to people with physical, intellectual, or psychosocial disabilities. Key responsibilities include:
+Disability support workers provide practical assistance and support to people with physical, intellectual, or psychosocial disabilities. It's a role distinct from a [Support Coordinator](/blog/support-worker-vs-support-coordinator), who focuses on planning and coordinating services. Key responsibilities include:
 
 **Personal Care Support:**
 - Assistance with bathing, dressing, and grooming
@@ -45,6 +45,8 @@ Disability support workers provide practical assistance and support to people wi
 - Crisis support and intervention
 - Communication assistance
 - Advocacy and empowerment
+
+For individuals with significant psychosocial disabilities, support workers may work alongside a [Psychosocial Recovery Coach](/blog/what-is-a-psychosocial-recovery-coach-role-eligibility), who focuses on recovery-oriented goals.
 
 ## Step 1: Meet Basic Requirements
 
@@ -72,6 +74,8 @@ Disability support workers provide practical assistance and support to people wi
 - **Processing Time**: 2-6 weeks
 - **Required**: For all NDIS-funded support work
 
+For a detailed walkthrough of this process, see our [complete guide to the NDIS Worker Screening Check](/blog/ndis-worker-screening-check-complete-guide-2025).
+
 **First Aid Certificate:**
 - **Type**: HLTAID011 Provide First Aid
 - **Cost**: $120-$200
@@ -80,7 +84,13 @@ Disability support workers provide practical assistance and support to people wi
 
 ## Step 2: Choose Your Training Pathway
 
+While it's possible to enter the field without formal qualifications, having them can lead to better pay and more opportunities. Learn more in our guide on [whether you need a qualification to be a support worker](/blog/can-i-work-as-an-ndis-support-worker-without-a-qualification).
+
+All workers, regardless of qualifications, must complete the [NDIS Worker Orientation Module](/blog/ndis-worker-orientation-module-guide).
+
 ### Formal Qualifications (Recommended)
+
+To explore your options further, check out our review of the [top NDIS courses for support workers](/blog/top-ndis-courses-for-support-workers).
 
 **Certificate III in Individual Support (CHC33021)**
 - **Duration**: 6-12 months
@@ -161,6 +171,8 @@ Disability support workers provide practical assistance and support to people wi
 
 ## Step 4: Find Employment
 
+Once you're ready to apply for roles, prepare for success with our guide on [common support worker interview questions](/blog/support-worker-interview-questions-what-employers-look-for).
+
 ### Types of Employers
 
 **NDIS Provider Organizations:**
@@ -182,6 +194,8 @@ Disability support workers provide practical assistance and support to people wi
 - Flexible scheduling
 - Personal relationships
 
+If you choose this path, you'll need to know [how to find your own NDIS clients](/blog/how-to-find-get-ndis-clients-support-worker) and operate as an independent contractor. This involves [getting an ABN](/blog/how-to-get-an-abn-as-an-ndis-support-worker) and understanding the responsibilities of being an [independent NDIS support worker](/blog/how-to-work-as-independent-ndis-support-worker).
+
 **Plan Management Organizations:**
 - Hybrid model between agency and direct employment
 - Administrative support provided
@@ -194,7 +208,7 @@ Disability support workers provide practical assistance and support to people wi
 - SEEK, Indeed, CareerOne
 - Disability-specific job boards
 - NDIS provider websites
-- Social media groups
+- Social media groups (e.g., searching for [support workers in Sydney](/blog/support-workers-in-sydney))
 
 **Direct Applications:**
 - Contact local providers directly
@@ -211,6 +225,8 @@ Disability support workers provide practical assistance and support to people wi
 ## Step 5: Understand Pay and Conditions
 
 ### Current Pay Rates (2025)
+
+These rates are an estimate. For a full breakdown, see our detailed guides on [NDIS support worker pay rates](/blog/ndis-support-worker-pay-rates) and the official [support worker hourly rates](/blog/ndis-support-worker-hourly-rate-2025).
 
 **Entry Level (0-2 years):**
 - **Weekday**: $30-35/hour
@@ -229,7 +245,7 @@ Disability support workers provide practical assistance and support to people wi
 - Overnight support: $65-120/hour
 - Complex care: $50-65/hour
 
-### Employment Types
+### Employment Types and Other Considerations
 
 **Casual Employment:**
 - Flexible hours
@@ -248,6 +264,9 @@ Disability support workers provide practical assistance and support to people wi
 - Full benefits package
 - Career progression
 - Job security
+
+**Travel and Insurance:**
+As an independent worker, you'll also need to factor in costs like [travel allowances](/blog/ndis-support-worker-travel-allowances) and ensure you have the right [support worker insurance](/blog/support-worker-insurance-australia-what-you-need).
 
 ## Step 6: Develop Specialized Skills
 
@@ -446,6 +465,10 @@ Yes, disability support work can be emotionally challenging as you support peopl
 ### What career advancement opportunities are available?
 
 Career progression includes specialized support roles, team leadership, coordination positions, and management roles. Additional training can lead to behavior support, occupational therapy assistance, or plan management roles with higher pay and responsibilities.
+
+## Is Becoming a Support Worker Right for You?
+
+This guide provides the practical steps, but becoming a great support worker is about more than just qualifications. To help you decide, read our analysis on [whether being a support worker is worth it](/blog/is-being-a-support-worker-worth-it-in-2025-pay-lifestyle-and-challenges), which covers the lifestyle and challenges of the role.
 
 ---
 

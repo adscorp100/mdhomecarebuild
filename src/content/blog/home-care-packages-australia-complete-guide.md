@@ -36,12 +36,16 @@ Australia's Home Care Package system provides structured support across four dis
 - **Typical Services**: Personal care assistance, domestic help, meal preparation, basic nursing
 - **Support Hours**: 7-10 hours per fortnight typically
 
+For a deeper dive into what a Level 2 package can offer, see our [complete guide to the Level 2 Home Care Package](/blog/level-2-home-care-package).
+
 ### Level 3 Home Care Package: Intermediate Care
 - **Annual Funding**: $40,529 (2025 rates)
 - **Daily Funding**: Approximately $111.04
 - **Target Needs**: Intermediate care requirements
 - **Typical Services**: Comprehensive personal care, nursing services, allied health, home modifications
 - **Support Hours**: 16 hours per fortnight typically
+
+Learn more about the specific services and funding in our [guide to the Level 3 Home Care Package](/blog/level-3-home-care-package).
 
 ### Level 4 Home Care Package: High-Level Care
 - **Annual Funding**: $79,473 (2025 rates)
@@ -50,9 +54,11 @@ Australia's Home Care Package system provides structured support across four dis
 - **Typical Services**: Intensive personal care, regular nursing, complex medical support, respite care
 - **Support Hours**: 24+ hours per fortnight typically
 
+Explore the full range of high-level care options in our [comprehensive guide to the Level 4 Home Care Package](/blog/level-4-home-care-package).
+
 ## Home Care Package Costs and Fees Structure
 
-Understanding the cost structure is crucial for budgeting and planning your home care package effectively.
+Understanding the cost structure is crucial for budgeting and planning your home care package effectively. To learn how to make the most of your funds, read our comprehensive [home care package spending guide](/blog/home-care-package-spending-guide).
 
 ### Government Subsidies (2025 Rates)
 
@@ -76,6 +82,7 @@ Understanding the cost structure is crucial for budgeting and planning your home
 - Based on your income and assets
 - May apply in addition to basic daily fee
 - Assessed annually
+- For more detailed information, read our [complete guide to the income-tested care fee](/blog/income-tested-care-fee-complete-guide-australia).
 
 **Additional Service Fees:**
 - For services beyond your package allocation
@@ -177,7 +184,7 @@ Your care needs will be assessed to determine:
 - Transport to appointments and activities
 - Social support and companionship
 - Community engagement activities
-- Respite care for family carers
+- [Respite care for family carers](/blog/respite-care-meaning-australia-guide)
 - Technology support and training
 
 ### Home Modifications and Equipment
@@ -186,6 +193,9 @@ Your care needs will be assessed to determine:
 - Mobility equipment (walking frames, wheelchairs)
 - Assistive technology
 - Home safety assessments
+
+### Self-Managed vs. Provider-Managed Care
+Another key decision is whether to self-manage your package or have it fully managed by a provider. Self-managing can offer more flexibility and control over your funds. For more details, explore our guide on [self-managed home care packages in Australia](/blog/self-managed-home-care-packages-australia).
 
 ## Choosing the Right Home Care Provider
 
@@ -228,7 +238,7 @@ Your care needs will be assessed to determine:
 ## Support at Home Program 2025: Major Changes Coming
 
 ### Overview of the New System
-The Australian Government is implementing significant reforms to home care services, with the Support at Home program replacing the current Home Care Packages Program from July 1, 2025.
+The Australian Government is implementing significant reforms to home care services, with the [Support at Home program](/blog/support-at-home-program-2025-complete-guide) replacing the current Home Care Packages Program from July 1, 2025. These [home care package changes](/blog/home-care-package-changes-the-new-support-at-home-program) aim to create a more streamlined and accessible system for all older Australians.
 
 ### Key Changes and Improvements
 

@@ -14,13 +14,15 @@ image: "/assets/disabled carer.webp"
 - Key challenges include administrative demands, physical demands, emotional fatigue, and navigating complex systems.
 
 ## Support Worker Salary and Benefits in 2025
-The financial aspects of support work vary based on several factors:
+The financial aspects of support work vary based on several factors. For a detailed breakdown, see our guides on [NDIS support worker pay rates](/blog/ndis-support-worker-pay-rates) and the [hourly rates for 2025](/blog/ndis-support-worker-hourly-rate-2025).
 
 - **Base Hourly Rates**:
   - Entry-level (no qualifications): $28-$32
   - Certificate III qualified: $32-$38
   - Certificate IV qualified: $38-$45
   - Specialized roles (e.g., behavior support): $45-$60+
+
+The level of qualification significantly impacts earning potential. You can learn more in our article about [whether you need a qualification to be a support worker](/blog/do-you-need-a-qualification-to-be-an-ndis-support-worker).
 
 - **Penalty Rates**:
   - Saturday: 150% of base rate
@@ -232,7 +234,7 @@ Support workers often become connected to broader community networks through the
 **Flexibility Trade-offs**
 The flexible scheduling sometimes comes with unpredictability, last-minute changes, or on-call expectations, which can impact personal planning.
 
-Workers who thrive in support roles typically develop strong boundaries while maintaining genuine connections, and create personalized strategies for managing the unique work-life integration challenges.
+Workers who thrive in support roles typically develop strong boundaries while maintaining genuine connections, and create personalized strategies for managing the unique work-life integration challenges. If you've decided this career is for you, the next step is to learn [how to find and get NDIS clients](/blog/how-to-find-get-ndis-clients-support-worker).
 
 ### Emotional and Social Dimensions of Support Work
 The intrinsic rewards and emotional aspects of support work significantly influence job satisfaction:

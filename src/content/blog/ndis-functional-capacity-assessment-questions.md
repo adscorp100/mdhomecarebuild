@@ -14,7 +14,7 @@ image: "/assets/physio.webp"
 - Understanding the types of questions in advance helps you prepare and provide comprehensive information during your assessment.
 
 ## Purpose of NDIS Functional Capacity Assessments
-Functional capacity assessments (FCAs) serve several important purposes in the NDIS process:
+Functional capacity assessments (FCAs) serve several important purposes in the NDIS process. For a complete overview of the entire process, see our [ultimate guide to Functional Capacity Assessments](/blog/functional-capacity-assessment-ultimate-guide-2025).
 
 - Determining eligibility for NDIS support
 - Identifying specific functional impacts of your disability
@@ -186,6 +186,8 @@ Rate your level of difficulty with the following activities (No difficulty, Some
 3. "If you needed to learn how to use a new piece of technology, what challenges might you face and what would help you?"
 4. "If there was an unexpected change to your regular schedule, how would this impact you and how would you manage it?"
 5. "If you wanted to join a community group or activity, what barriers might you need to overcome and what supports would help?"
+
+The answers to these questions will be compiled into a detailed report. To see what a finished document looks like, view our guide on [what a good FCA report looks like](/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like).
 
 ## Comprehensive Analysis of Functional Capacity Assessment Methodology
 The approach to functional capacity assessment within the NDIS context has evolved significantly, reflecting advances in disability theory, assessment technology, and person-centered practice. This analysis examines the current state of functional assessment methodology, emerging trends, and best practices based on the latest research and NDIS operational guidelines from 2025.

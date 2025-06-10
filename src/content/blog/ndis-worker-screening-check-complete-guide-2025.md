@@ -15,6 +15,8 @@ image: "/assets/nurse.webp"
 - Required before starting work with NDIS participants
 - Includes continuous monitoring throughout validity period
 
+This guide provides a comprehensive overview of the NDIS Worker Screening Check. This check is a mandatory part of the [NDIS provider application process](/blog/ndis-provider-application-process-guide-2025) and a key compliance step when [starting an NDIS business](/blog/how-to-start-a-successful-ndis-business-in-australia-the-ultimate-2025-guide).
+
 ## What is the NDIS Worker Screening Check?
 
 The NDIS Worker Screening Check is a mandatory background screening process designed to protect NDIS participants from the risk of harm. Administered by state and territory screening agencies, this specialized check goes beyond standard police checks to assess whether a person poses an unacceptable risk of harm to people with disability.

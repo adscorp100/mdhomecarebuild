@@ -14,7 +14,7 @@ image: "/assets/respite care.webp"
 - **Types**: In-home, centre-based, overnight, and emergency respite
 - **⚠️ Updates**: Expanded funding for informal carers under Carer Gateway program
 
-Respite care means temporary care provided to give primary carers a break from their caring responsibilities.
+Respite care means temporary care provided to give primary carers a break from their caring responsibilities. These services are a key component of the new [Support at Home Program](/blog/support-at-home-program-2025-complete-guide) commencing in 2025.
 
 Caring for a family member with disability, chronic illness, or age-related needs can be emotionally and physically demanding. While most carers find their role rewarding, everyone needs a break to rest, recharge, and attend to their own needs. This is where respite care becomes essential.
 
@@ -22,7 +22,7 @@ Understanding what respite care means and how to access it can make a significan
 
 ## What is Respite Care? Understanding Respite Care Meaning
 
-Respite care is temporary care provided to people with disability, chronic illness, or age-related needs, specifically designed to give their primary carers a break from their caring responsibilities. The word "respite" means a short period of rest or relief from something difficult or unpleasant.
+Respite care is temporary care provided to people with disability, chronic illness, or age-related needs, specifically designed to give their primary carers a break from their caring responsibilities. The word "respite" means a short period of rest or relief from something difficult or unpleasant. It differs from programs like [Short Term Restorative Care (STRC)](/blog/short-term-restorative-care-strc-complete-guide), which focus on rehabilitation and recovery rather than carer relief.
 
 Respite care serves two primary purposes:
 - **Carer relief**: Giving carers time to rest, work, socialize, or attend to personal needs
@@ -145,6 +145,8 @@ Respite care serves two primary purposes:
 - **Weekend**: $35-55/hour
 - **Overnight**: $65-120/hour
 - **STA**: $300-500/day
+
+For more detailed information on NDIS-specific pricing, see our guide on [how much respite care costs per day under the NDIS](/blog/how-much-does-respite-care-cost-per-day-ndis).
 
 ### Aged Care Package Respite
 

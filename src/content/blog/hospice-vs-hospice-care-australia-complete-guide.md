@@ -14,7 +14,7 @@ image: "/assets/respite care.webp"
 - **Location**: Home, hospice facilities, or hospitals
 - **⚠️ Updates**: Increased government funding for community-based hospice services
 
-When facing a life-limiting illness, understanding your care options becomes crucial for making informed decisions about treatment and quality of life. Hospice care represents a compassionate approach to end-of-life care that focuses on comfort, dignity, and emotional support rather than curative treatments.
+When facing a life-limiting illness, understanding your care options becomes crucial for making informed decisions about treatment and quality of life. Hospice care represents a compassionate approach to end-of-life care that focuses on comfort, dignity, and emotional support rather than curative treatments. For a detailed comparison with palliative care, see our guide on [palliative vs. hospice care in Australia](/blog/palliative-vs-hospice-care-australia).
 
 This comprehensive guide explains what hospice care means, how it works in Australia, the services available, and how it differs from other types of care, helping you and your family navigate this important healthcare decision.
 
@@ -50,6 +50,7 @@ While hospice and palliative care share similar goals, they differ in timing, fo
 ## Types of Hospice Care Services in Australia
 
 ### In-Home Hospice Care
+For many, receiving care at home is the preferred option. You can learn more about this in our guide to [in-home care in Australia](/blog/in-home-care-australia).
 
 **What it includes:**
 - Regular visits from hospice nurses
@@ -143,6 +144,8 @@ While hospice and palliative care share similar goals, they differ in timing, fo
 - Grief counseling
 - Memorial services
 - Long-term bereavement care
+
+The end of the hospice journey also involves managing a loved one's affairs. For guidance on this, you can read our article on [selling a deceased estate property](/blog/selling-deceased-estate-property-australia).
 
 ## Hospice Care Eligibility in Australia
 

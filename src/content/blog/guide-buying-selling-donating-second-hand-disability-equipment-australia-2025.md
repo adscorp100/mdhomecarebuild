@@ -11,7 +11,7 @@ tags: ["disability equipment", "second hand", "mobility aids", "NDIS", "assistiv
 
 ## 1. Introduction: Accessing Affordable Disability Equipment in Australia
 
-Acquiring new disability equipment and mobility aids often represents a significant financial outlay for many Australians.1 Fortunately, the second-hand market offers a viable and cost-effective alternative, enabling individuals to access necessary equipment without the substantial expense of brand-new items. This comprehensive guide serves as a central resource for navigating the process of buying, selling, and donating used disability equipment across Australia.
+Acquiring new disability equipment and mobility aids often represents a significant financial outlay for many Australians.1 Fortunately, the second-hand market offers a viable and cost-effective alternative, enabling individuals to access necessary equipment without the substantial expense of brand-new items. This comprehensive guide serves as a central resource for navigating the process of buying, selling, and donating used disability equipment across Australia. For information on specific suppliers, you can also read our guides on [Surgical House](/blog/surgical-house-ndis-equipment-guide) and [Independent Living Centres](/blog/independent-living-centres-ndis-support-australia).
 
 The focus extends beyond simply finding items; it delves into crucial considerations such as safety checks, understanding the implications of National Disability Insurance Scheme (NDIS) funding, and identifying reputable sources for these transactions. Engaging with the second-hand market presents a dual advantage: buyers can achieve considerable savings, while sellers can recoup some of their initial costs or ensure their no-longer-needed equipment benefits someone else.2 This approach also fosters sustainability by reducing waste and promoting a circular economy within the healthcare sector.
 
@@ -52,7 +52,7 @@ Navigating these potential pitfalls requires diligence. The significant knowledg
 
 ## 3. Where to Find Second-Hand Disability Equipment in Australia
 
-The market for used disability equipment in Australia is diverse, offering several avenues for buyers. Knowing where to look and understanding the characteristics of each platform can streamline the search process.
+The market for used disability equipment in Australia is diverse, offering several avenues for buyers. Knowing where to look and understanding the characteristics of each platform can streamline the search process. For a focused look at this topic, see our guide on [where to buy and sell second-hand disability equipment](/blog/where-buy-sell-second-hand-disability-equipment-australia).
 
 ### 3.1 Online Marketplaces & Classifieds
 
@@ -69,6 +69,8 @@ These platforms offer broad reach but vary in specialization.
     *   **Pros:** More relevant listings, potentially more knowledgeable sellers/buyers, potentially higher trust level.
     *   **Cons:** May have fewer listings than general platforms.
 *   **Trading Post:** Also listed as a source for mobility aids.6
+
+Key retailers who supply NDIS equipment, such as [Surgical House](/blog/surgical-house-ndis-equipment-guide) and [Independent Living Centres](/blog/independent-living-centres-ndis-support-australia), may also have clearance or ex-demo stock available.
 
 ### 3.2 Dedicated Facebook Groups
 

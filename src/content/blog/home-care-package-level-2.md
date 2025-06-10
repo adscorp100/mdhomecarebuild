@@ -22,13 +22,13 @@ image: "/assets/holdinglinen.webp"
 ## What is Home Care Package Level 2?
 Home care package level 2 is designed for older Australians with low-level care needs, helping them stay independent at home. It covers daily tasks like cleaning, personal care, and transport, funded by the government to delay moving to residential care.
 
-**Considering other package levels?** Check our [comprehensive home care packages Australia guide](home-care-packages-australia-complete-guide) to compare all four levels and find the right fit for your care needs.
+A Level 2 package is a step up from basic support and sits below the more intensive [Level 3](/blog/level-3-home-care-package) and [Level 4](/blog/level-4-home-care-package) packages. To understand where it fits in the broader system, see our [complete guide to Home Care Packages in Australia](/blog/home-care-packages-australia-complete-guide).
 
 ## Eligibility and Application
 To qualify, you generally need to be 65 or older (50 for Indigenous Australians), an Australian resident, and require support. The process involves contacting [My Aged Care](https://www.myagedcare.gov.au/) for an ACAT assessment to determine your needs and package level.
 
 ## Funding and Costs
-The government provides a daily subsidy of $51.49 for level 2, equating to about $18,814 yearly. You may pay a basic daily fee of $12.40 and, depending on income, an income-tested fee up to $37.55/day, assessed by Services Australia.
+The government provides a daily subsidy of $51.49 for level 2, equating to about $18,814 yearly. You may pay a basic daily fee of $12.40 and, depending on income, an [income-tested fee](/blog/income-tested-care-fee-complete-guide-australia) up to $37.55/day, assessed by Services Australia. For tips on managing these funds, see our [home care package spending guide](/blog/home-care-package-spending-guide).
 
 ## Services Included
 Services typically include assistance with showering, dressing, cleaning, meal prep, transport, shopping, and gardening, all tailored to your needs by your chosen provider.
@@ -83,10 +83,10 @@ Providers play a critical role in delivering home care package services, as outl
 - Ensuring high-quality care, complying with legislation, and protecting your rights and privacy.
 - Providing transparency in pricing, with fees for additional services agreed upon with you.
 
-You can choose your provider using the [My Aged Care Find a provider tool](https://www.myagedcare.gov.au/node/161), ensuring they meet your needs and offer competitive pricing. Providers must also support consumer-directed care, allowing you to switch providers if unsatisfied, as noted by [ACCC](https://www.accc.gov.au/consumers/specific-products-and-activities/home-care-services).
+You have the choice to either use a provider to manage your funds or to [self-manage your home care package](/blog/self-managed-home-care-packages-australia), which can offer greater flexibility. You can choose your provider using the [My Aged Care Find a provider tool](https://www.myagedcare.gov.au/node/161), ensuring they meet your needs and offer competitive pricing. Providers must also support consumer-directed care, allowing you to switch providers if unsatisfied, as noted by [ACCC](https://www.accc.gov.au/consumers/specific-products-and-activities/home-care-services).
 
 ### Upcoming Changes: Support at Home Program
-Significant changes are on the horizon with the introduction of the "Support at Home" program, set to replace the current Home Care Packages Program and Short-Term Restorative Care Programme from July 1, 2025, as per [Australian Government Department of Health and Aged Care](https://www.health.gov.au/our-work/support-at-home). The Commonwealth Home Support Programme will transition no earlier than July 1, 2027. This new program aims to:
+Significant changes are on the horizon with the introduction of the ["Support at Home" program](/blog/support-at-home-program-2025-complete-guide), set to replace the current Home Care Packages Program and Short-Term Restorative Care Programme from July 1, 2025, as per [Australian Government Department of Health and Aged Care](https://www.health.gov.au/our-work/support-at-home). The Commonwealth Home Support Programme will transition no earlier than July 1, 2027. This new program aims to:
 
 - Better support independence at home with upfront services like allied health and home modifications.
 - Introduce new classification and budget levels to meet individual needs more effectively.

@@ -19,6 +19,8 @@ image: "/assets/accessible-bathroom.webp"
 
 Independent Living Centres (ILCs) are not-for-profit organizations that provide free, independent information and advice about assistive technology, equipment, and disability-related products. Unlike commercial suppliers, ILCs don't sell equipment but instead focus on providing unbiased advice to help people with disabilities make informed choices about assistive technology and daily living aids.
 
+For a broader overview of all equipment sourcing options, including second-hand markets, refer to our [ultimate guide to buying and selling disability equipment](/blog/guide-buying-selling-donating-second-hand-disability-equipment-australia-2025).
+
 ### What Makes ILCs Unique
 
 Independent Living Centres distinguish themselves through:
@@ -94,6 +96,8 @@ ILCs provide professional assessment services:
 
 ## How ILCs Support NDIS Participants
 
+While ILCs provide independent advice, many NDIS participants will ultimately purchase equipment from commercial suppliers like [Surgical House](/blog/surgical-house-ndis-equipment-guide). ILCs play a crucial role in helping participants make informed decisions before engaging with a seller.
+
 ### Pre-Purchase Support
 
 ILCs help NDIS participants before making equipment purchases:
@@ -106,7 +110,7 @@ ILCs help NDIS participants before making equipment purchases:
 
 #### NDIS Plan Preparation
 - **Goal Alignment**: Ensuring equipment choices support NDIS goals
-- **Documentation Support**: Helping prepare justification for equipment requests
+- **Documentation Support**: Helping prepare justification for equipment requests. This justification is often supported by a [Functional Capacity Assessment](/blog/ndis-functional-capacity-assessment-questions).
 - **Quote Preparation**: Assistance understanding and comparing supplier quotes
 - **Plan Review Preparation**: Supporting evidence gathering for plan reviews
 

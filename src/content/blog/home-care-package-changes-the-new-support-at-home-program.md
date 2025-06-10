@@ -14,7 +14,7 @@ image: "/assets/Doing Dishes.webp"
 - The evidence leans toward current Home Care Package holders transitioning smoothly, with no new assessments needed unless needs change.
 
 ## Introduction
-The Support at Home program is a major reform in Australia's aged care system, designed to enhance in-home care for older people. Set to launch on July 1, 2025, it will replace the Home Care Packages Program and Short-Term Restorative Care Programme, with the Commonwealth Home Support Programme transitioning no earlier than July 1, 2027. This initiative aims to make care more accessible and equitable, responding to recommendations from the Royal Commission into Aged Care Quality and Safety.
+The Support at Home program is a major reform in Australia's aged care system, designed to enhance in-home care for older people. For a full breakdown of the new system, see our [complete guide to the Support at Home Program](/blog/support-at-home-program-2025-complete-guide). Set to launch on July 1, 2025, it will replace the Home Care Packages Program and Short-Term Restorative Care Programme, with the Commonwealth Home Support Programme transitioning no earlier than July 1, 2027. This initiative aims to make care more accessible and equitable, responding to recommendations from the Royal Commission into Aged Care Quality and Safety.
 
 ## Key Features and Services
 The program offers a range of services to support independence, including:
@@ -26,7 +26,7 @@ The program offers a range of services to support independence, including:
 It includes special pathways like the Restorative Care Pathway (up to 12 weeks, extra budget ~$6,000 for allied health) and the Assistive Technology and Home Modifications (AT-HM) Scheme (up to $15,000 for modifications, funding tiers from $500 to $15,000).
 
 ## Financial Contributions
-Contributions are means-tested based on the Age Pension, with exemptions for clinical services. Holders of the Commonwealth Seniors Health Card may pay less. The "No Worse Off Principle" ensures current recipients assessed by September 12, 2024, won't face higher costs and can access residential care under current fees.
+Contributions are means-tested based on the Age Pension, with exemptions for clinical services. For a detailed breakdown of costs, you can view the [Support at Home prices for 2025](/blog/support-at-home-prices-2025). Holders of the Commonwealth Seniors Health Card may pay less. The "No Worse Off Principle" ensures current recipients assessed by September 12, 2024, won't face higher costs and can access residential care under current fees.
 
 ## Accessing the Program
 Older Australians can apply through [My Aged Care](https://www.myagedcare.gov.au/help-at-home) online or by calling 1800 200 422. Assessments use the Single Assessment System, typically conducted at home.

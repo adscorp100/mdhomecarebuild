@@ -10,7 +10,7 @@ image: "/assets/disabled carer.webp"
 
 ## How to Find and Get NDIS Clients as a Support Worker: 2025 Guide
 
-Building a successful support worker practice requires effective strategies for finding and attracting NDIS clients. Whether you're a new support worker or looking to expand your existing client base, this comprehensive guide provides proven methods to connect with NDIS participants who need your services.
+Building a successful support worker practice requires effective strategies for finding and attracting NDIS clients. This is a crucial step in [starting a successful NDIS business](/blog/how-to-start-a-successful-ndis-business-in-australia-the-ultimate-2025-guide) and is particularly important for those looking to [work as an independent support worker](/blog/how-to-work-as-independent-ndis-support-worker). Whether you're a new support worker or looking to expand your existing client base, this comprehensive guide provides proven methods to connect with NDIS participants who need your services.
 
 ### Key Points: Finding NDIS Clients
 - Multiple channels exist for connecting with NDIS participants seeking support workers

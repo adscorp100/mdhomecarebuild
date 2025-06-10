@@ -14,6 +14,8 @@ image: "/assets/carer.webp"
 - Level 2 and Level 3 support worker pay rates differ based on qualifications, with Level 3 workers earning more
 - Self-managed NDIS participants can negotiate different rates with independent support workers
 
+For a broader look at the pros and cons of this career path, see our guide on [whether being a support worker is worth it in 2025](/blog/is-being-a-support-worker-worth-it-in-2025-pay-lifestyle-and-challenges).
+
 ## Official NDIS Price Guide Downloads
 
 <div style="background: #f8f9fa; border-radius: 8px; padding: 20px; margin: 24px 0;">
@@ -117,8 +119,6 @@ The hourly rates for NDIS support workers vary significantly based on:
 - Public holidays: 100% higher than standard rates
 - Night shifts: Additional loadings apply for overnight work
 
-
-
 ## NDIS Support Worker Hourly Rate
 
 The NDIS support worker hourly rate varies based on these key factors:
@@ -135,7 +135,7 @@ The NDIS support worker hourly rate varies based on these key factors:
 
 - **Management Type**: Self-managed participants can negotiate rates directly, while plan-managed and agency-managed participants must adhere to NDIS price limits
 
-For a detailed breakdown of current hourly rates including geographic variations and specialized services, see our comprehensive [NDIS Support Worker Hourly Rate 2025 guide](/blog/ndis-support-worker-hourly-rate-2025/).
+For a detailed breakdown of current hourly rates including geographic variations and specialized services, see our comprehensive [NDIS Support Worker Hourly Rate 2025 guide](/blog/ndis-support-worker-hourly-rate-2025).
 
 ## NDIS Disability Support Worker Pay Rate
 
@@ -179,7 +179,7 @@ Self-managed NDIS participants can directly negotiate pay rates with independent
 - Provide higher compensation for workers in some cases
 - Create opportunities for more personalized support arrangements
 
-For guidance on becoming an independent support worker, including setting up your business and understanding qualification requirements, see our [Complete Guide to Becoming an Independent NDIS Support Worker](/blog/becoming-an-independent-ndis-support-worker-your-ultimate-2025-guide/) and [Do You Need a Qualification to be an NDIS Support Worker?](/blog/do-you-need-a-qualification-to-be-an-ndis-support-worker/)
+For guidance on becoming an independent support worker, including setting up your business and understanding qualification requirements, see our [Complete Guide to Becoming an Independent NDIS Support Worker](/blog/becoming-an-independent-ndis-support-worker-your-ultimate-2025-guide/) and [Do You Need a Qualification to be an NDIS Support Worker?](/blog/do-you-need-a-qualification-to-be-an-ndis-support-worker).
 
 ## NDIS Sole Trader Pay Rates
 
@@ -201,7 +201,7 @@ The difference between Level 2 and Level 3 support worker pay reflects qualifica
 | Level 2 | Basic support, routine tasks | $30.96 – $35.08 |
 | Level 3 | More complex support, some supervision | $33.02 – $37.15 |
 
-Level 3 support workers typically have more qualifications, experience, or responsibility than Level 2 workers.
+Level 3 support workers typically have more qualifications, experience, or responsibility than Level 2 workers. The requirements for these levels are detailed in our guide on [whether you need a qualification to be a support worker](/blog/do-you-need-a-qualification-to-be-an-ndis-support-worker).
 
 ## Frequently Asked Questions About NDIS Support Worker Rates
 
@@ -234,8 +234,6 @@ NDIS support worker pay rates are competitive with broader disability sector rat
 
 ### How does the NDIS hourly rate compare to other industries?
 Compared to the median hourly earnings for all Australian employees ($39.50 per hour in 2023), NDIS support worker hourly rates are competitive, especially for qualified workers and team leaders.
-
-
 
 ### Key Citations
 

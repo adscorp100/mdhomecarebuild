@@ -15,7 +15,7 @@ image: "/assets/carer.webp"
 - Many insurance providers offer specialized packages for support workers with discounts for multiple policies
 
 ## Why Support Workers Need Insurance
-Working as a support worker involves unique risks that require proper insurance protection. Without adequate coverage, you could face significant financial and legal consequences if something goes wrong while providing care. Insurance is crucial because:
+Working as a support worker involves unique risks that require proper insurance protection. This is a critical step when [starting an NDIS business](/blog/how-to-start-a-successful-ndis-business-in-australia-the-ultimate-2025-guide). Without adequate coverage, you could face significant financial and legal consequences if something goes wrong while providing care. Insurance is crucial because:
 
 - You work in people's homes and community settings with vulnerable individuals
 - You may provide personal care, mobility assistance, or medication support
@@ -23,9 +23,7 @@ Working as a support worker involves unique risks that require proper insurance 
 - Client complaints about care quality could lead to legal action
 - Your own injury while working could result in lost income
 
-Whether you're an independent support worker or employed by an agency, understanding insurance requirements is essential for protecting yourself, your clients, and your career.
-
-For step-by-step guidance on obtaining insurance coverage, see our detailed [How to Get Support Worker Insurance in Australia](/blog/how-to-get-support-worker-insurance-in-australia-a-2025-guide/) guide. If you're setting up as an independent support worker, our [Complete Guide to Becoming an Independent NDIS Support Worker](/blog/becoming-an-independent-ndis-support-worker-your-ultimate-2025-guide/) covers insurance requirements as part of the business setup process.
+Whether you're an independent support worker or employed by an agency, understanding insurance requirements is essential for protecting yourself, your clients, and your career. For those working independently, our [guide on becoming an independent support worker](/blog/how-to-work-as-independent-ndis-support-worker) provides more detail on this and other requirements.
 
 ## Essential Insurance Types for Support Workers
 Support workers in Australia typically need three core types of insurance:

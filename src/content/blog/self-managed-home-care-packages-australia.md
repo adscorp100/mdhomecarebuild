@@ -24,7 +24,7 @@ A key manifestation of this shift is the option to self-manage a Home Care Packa
 
 This guide aims to provide a comprehensive overview for older Australians, their families, and representatives considering the self-management pathway. It delves into what self-managed packages entail, weighs the benefits against the responsibilities, outlines the setup process, offers guidance on selecting a provider partner, details allowable expenses, and provides practical tips for success. The objective is to offer deeper insights and more practical information than currently available elsewhere, equipping readers to make informed decisions.
 
-It is also important to note that the Australian aged care sector is undergoing significant reform, with the introduction of the new Support at Home program anticipated from 1 July 2025. While this will replace the current HCP structure, the core principles of consumer choice and control, including self-management options, are expected to continue, making the information in this guide relevant both now and for the transition ahead.
+It is also important to note that the Australian aged care sector is undergoing significant reform, with the introduction of the new [Support at Home program](/blog/support-at-home-program-2025-complete-guide) anticipated from 1 July 2025. While this will replace the current HCP structure, the core principles of consumer choice and control, including self-management options, are expected to continue, making the information in this guide relevant both now and for the transition ahead.
 
 ## 1. Understanding Self-Managed Home Care Packages in Australia
 
@@ -50,7 +50,7 @@ Self-managing a Home Care Package means the recipient, or their chosen represent
 This involves several key responsibilities:
 
 - **Choosing Services:** Deciding which specific services are needed (e.g., personal care, cleaning, nursing, allied health) based on assessed needs and goals.
-- **Selecting Workers/Providers:** Identifying, interviewing, and choosing the individuals or organisations who will deliver the care, potentially including independent support workers or specific agencies.
+- **Selecting Workers/Providers:** Identifying, interviewing, and choosing the individuals or organisations who will deliver the care, a process detailed in our [Home Care Package spending guide](/blog/home-care-package-spending-guide), potentially including independent support workers or specific agencies.
 - **Scheduling Care:** Arranging when and how often services are delivered to suit personal routines and preferences.
 - **Managing the Budget:** Actively overseeing how the package funds are spent, ensuring value for money and alignment with the budget.
 - **Coordinating Day-to-Day Care:** Liaising with workers and ensuring the smooth delivery of the planned support.

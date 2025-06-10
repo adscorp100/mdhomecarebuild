@@ -16,9 +16,9 @@ image: "/assets/makingbed.webp"
 - **Typical Support Hours**: ~16 hours per fortnight
 - **Eligibility**: 65+ years (50+ for Aboriginal/Torres Strait Islander)
 
-A Level 3 Home Care Package provides government-subsidized funding to help older Australians with intermediate care needs remain living independently at home. This package level bridges the gap between basic Level 1/2 support and intensive Level 4 care.
+A Level 3 Home Care Package provides government-subsidized funding to help older Australians with intermediate care needs remain living independently at home. This package level bridges the gap between basic [Level 2 support](/blog/level-2-home-care-package) and intensive [Level 4 care](/blog/level-4-home-care-package).
 
-**Need to compare all package levels?** Visit our [complete home care packages Australia guide](home-care-packages-australia-complete-guide) for detailed comparisons of funding, eligibility, and services across all four levels.
+**Need to compare all package levels?** Visit our [complete guide to home care packages in Australia](/blog/home-care-packages-australia-complete-guide) for detailed comparisons of funding, eligibility, and services across all four levels.
 
 ## Home Care Package Levels Explained
 Home Care Packages are funded by the Australian Government to provide coordinated care services, allowing individuals to live independently. The Home Care Packages Program uses a consumer-directed care approach, ensuring services align with individual needs and goals.
@@ -38,8 +38,10 @@ The funding for Level 3 Home Care Packages is primarily through a government sub
 - **Government Subsidy:** $40,529 annually for Level 3.
 - **Care Recipient Contributions:** These may include:
     - **Basic Daily Fee:** Up to $12.75 per day as of September 20, 2024, for Level 3.
-    - **Income-Tested Care Fee:** Based on income and assets, determined by Services Australia.
+    - **Income-Tested Care Fee:** Based on income and assets, determined by Services Australia. For a detailed explanation, see our [income-tested care fee guide](/blog/income-tested-care-fee-complete-guide-australia).
     - **Additional Service Fees:** For extra services beyond the package, agreed upon with the provider.
+
+For tips on how to best use your funds, read our [home care package spending guide](/blog/home-care-package-spending-guide).
 
 For instance, in a case study from [My Aged Care](https://www.myagedcare.gov.au/home-care-package-costs-and-fees), a full pensioner with a Level 3 package paid only the basic daily fee, resulting in a total daily budget of $123.79 ($111.04 government subsidy + $12.75 basic fee).
 
@@ -84,10 +86,12 @@ Selecting a provider is a critical step, as it affects the quality and type of c
 - **Pricing Transparency:** Understand all fees, including basic daily fees and additional service charges, to avoid surprises.
 - **Care Worker Qualifications:** Verify the experience and training of care workers, especially for specialized services.
 
+It's also important to decide if you want to use a traditional provider or explore [self-managing your home care package](/blog/self-managed-home-care-packages-australia) for greater flexibility.
+
 Providers must meet quality standards and provide consumer-directed care, ensuring transparency in pricing, as outlined by the [Australian Government Department of Health and Aged Care](https://www.health.gov.au/our-work/hcp).
 
 ## Support at Home Program 2025: Changes to Home Care Packages
-A significant development is the transition to the Support at Home program, set to replace the Home Care Packages Program and Short-Term Restorative Care Programme from July 1, 2025. This reform, in response to the Royal Commission into Aged Care Quality and Safety, aims to create a simpler, more equitable system. Key points include:
+A significant development is the transition to the [Support at Home program](/blog/support-at-home-program-2025-complete-guide), set to replace the Home Care Packages Program and Short-Term Restorative Care Programme from July 1, 2025. This reform, in response to the Royal Commission into Aged Care Quality and Safety, aims to create a simpler, more equitable system. Key points include:
 
 - Delayed price caps on services until July 1, 2026, allowing providers to set prices currently.
 - Transition support for providers, including IT upgrade grants of $10,000, as noted by [Feros Care](https://www.feroscare.com.au/aged-care/information-support/aged-care-reform/changes-to-in-home-aged-care).

@@ -9,7 +9,7 @@ author: "MD Home Care Team"
 
 ## Support at Home Prices 2025: Your Guide to Understanding Indicative Costs
 
-The Australian aged care landscape is changing. From 1 July 2025, the new Support at Home program will begin replacing the existing Home Care Packages (HCP) Program and the Short-Term Restorative Care (STRC) Programme. If you or a loved one receive in-home care, understanding the potential costs under this new system is crucial.
+The Australian aged care landscape is changing. From 1 July 2025, the new Support at Home program will begin replacing the existing Home Care Packages (HCP) Program and the Short-Term Restorative Care (STRC) Programme. For a comprehensive overview of the new system, see our [complete guide to the Support at Home Program](/blog/support-at-home-program-2025-complete-guide). If you or a loved one receive in-home care, understanding the potential costs under this new system is crucial.
 
 Recently, the government released a summary of indicative prices for various Support at Home services, based on a survey of current HCP providers conducted in February 2025 and published on 24 March 2025.
 
@@ -58,6 +58,8 @@ The prices listed below are what providers intend to charge for the service deli
 
 - The type of service
 - Your means assessment status (income and assets)
+
+A key part of this is the [income-tested care fee](/blog/income-tested-care-fee-complete-guide-australia), which you can learn more about in our detailed guide.
 
 Good news: No one will pay co-contributions for clinical care services (like nursing).
 

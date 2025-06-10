@@ -13,8 +13,10 @@ image: "/assets/ndis-provider-melbourne.webp"
 - Annual registration renewal costs include NDIS Commission fees and surveillance audit expenses.
 - Hidden costs including insurance, compliance systems, and staff training can add significant expenses.
 
+This guide provides a detailed breakdown of the costs involved in becoming an NDIS provider. For a complete overview of starting an NDIS business, from planning to launch, see our [ultimate guide to starting a successful NDIS business](/blog/how-to-start-a-successful-ndis-business-in-australia-the-ultimate-2025-guide).
+
 ## NDIS Provider Registration Fees: Initial Application Costs
-The first expense in becoming an NDIS provider is the application fee payable to the NDIS Commission:
+The first expense in becoming an NDIS provider is the application fee payable to the NDIS Commission. For a step-by-step guide through the entire application, view our [NDIS provider application process guide](/blog/ndis-provider-application-process-guide-2025).
 
 - **Individuals/sole traders**: $606
 - **Organizations**: $606 for initial application

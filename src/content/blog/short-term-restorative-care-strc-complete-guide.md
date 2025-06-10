@@ -7,11 +7,11 @@ tags: ["short term restorative care", "STRC", "restorative care", "aged care pro
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 
-**Short Term Restorative Care (STRC)** is a specialized aged care program designed to help older Australians recover, rebuild skills, and regain independence after illness, injury, or decline in function. This comprehensive guide covers everything you need to know about **STRC programs**, including eligibility requirements, available services, how to access programs, and what to expect during the restorative care process.
+**Short Term Restorative Care (STRC)** is a specialized aged care program designed to help older Australians recover, rebuild skills, and regain independence after illness, injury, or decline in function. This program is part of the wider aged care system, which is transitioning to the new [Support at Home Program in 2025](/blog/support-at-home-program-2025-complete-guide). This comprehensive guide covers everything you need to know about **STRC programs**, including eligibility requirements, available services, how to access programs, and what to expect during the restorative care process.
 
 ## What is Short Term Restorative Care (STRC)?
 
-**Short Term Restorative Care** is an intensive, time-limited aged care service that focuses on helping older people improve their physical abilities, rebuild confidence, and maintain independence in their own homes. STRC programs combine therapeutic interventions with practical support to maximize recovery potential and prevent unnecessary admission to permanent residential care.
+**Short Term Restorative Care** is an intensive, time-limited aged care service that focuses on helping older people improve their physical abilities, rebuild confidence, and maintain independence in their own homes. STRC programs combine therapeutic interventions with practical support to maximize recovery potential and prevent unnecessary admission to permanent residential care. It is distinct from other forms of short-term assistance, such as [respite care](/blog/respite-care-meaning-australia-guide), which primarily focuses on providing a break for carers.
 
 ### Key Features of STRC
 
@@ -33,6 +33,11 @@ image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.we
 - Skills development and confidence building
 - Independence and quality of life improvement
 
+**Post-Hospital Discharge:**
+- Recovery from surgery or acute illness
+- Deconditioning from extended hospital stay
+- Need for rehabilitation support at home
+- Prevention of hospital readmission
 ## Who is Eligible for Short Term Restorative Care?
 
 ### Basic Eligibility Criteria
@@ -61,6 +66,9 @@ image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.we
 - Deconditioning from extended hospital stay
 - Need for rehabilitation support at home
 - Prevention of hospital readmission
+- Maintaining community connections
+
+It is distinct from other forms of short-term assistance, such as [respite care](/blog/respite-care-meaning-australia-guide), which primarily focuses on providing a break for carers.
 
 **Functional Decline:**
 - Gradual loss of mobility or strength

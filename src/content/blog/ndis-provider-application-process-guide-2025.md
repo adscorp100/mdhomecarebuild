@@ -15,7 +15,7 @@ image: "/assets/grandma.webp"
 - New streamlined pathways are available in 2025 for sole practitioners and allied health providers
 
 ## Is NDIS Provider Registration Right for You?
-Before embarking on the registration process, carefully consider whether becoming a registered NDIS provider aligns with your business goals:
+Before embarking on the registration process, carefully consider whether becoming a registered NDIS provider aligns with your business goals. This process is a key part of [starting a successful NDIS business](/blog/how-to-start-a-successful-ndis-business-in-australia-the-ultimate-2025-guide).
 
 ### Benefits of Registration
 - Access to all NDIS participants, including agency-managed (approximately 40% of participants)
@@ -31,7 +31,7 @@ Before embarking on the registration process, carefully consider whether becomin
 - Need to implement comprehensive quality management systems
 - Pricing constraints due to NDIS Price Guide limitations
 
-For many small providers and individual practitioners, the decision hinges on whether access to agency-managed participants justifies the additional costs and compliance requirements.
+For many small providers and individual practitioners, the decision hinges on whether access to agency-managed participants justifies the additional [NDIS provider registration costs](/blog/ndis-provider-registration-costs-explained) and compliance requirements.
 
 ## The Five Stages of NDIS Provider Registration
 The NDIS provider registration process consists of five distinct stages:
@@ -40,7 +40,7 @@ The NDIS provider registration process consists of five distinct stages:
 - Determine appropriate registration groups based on services provided
 - Review NDIS Practice Standards relevant to your registration groups
 - Develop policies, procedures, and systems to meet Practice Standards
-- Ensure all staff have completed necessary checks and training
+- Ensure all staff have completed necessary checks and training, including the [NDIS Worker Screening Check](/blog/ndis-worker-screening-check-complete-guide-2025)
 - Select a suitable approved quality auditor
 
 ### Stage 2: Application Submission (1-2 Weeks)

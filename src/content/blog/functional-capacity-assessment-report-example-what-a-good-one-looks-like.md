@@ -14,7 +14,9 @@ image: "/assets/occupationaltherapy.webp"
 - A well-structured report typically costs between $800-$1,500 and takes 6-10 hours to complete, including assessment, writing, and review.
 
 ## Understanding Functional Capacity Assessment Reports
-A Functional Capacity Assessment (FCA) report is a comprehensive document prepared by qualified allied health professionals that evaluates a person's abilities and limitations in performing daily activities. These reports serve several critical purposes:
+A Functional Capacity Assessment (FCA) report is a comprehensive document prepared by qualified allied health professionals that evaluates a person's abilities and limitations in performing daily activities. It is the end result of a detailed assessment process. For a complete overview of that process, see our [ultimate guide to Functional Capacity Assessments](/blog/functional-capacity-assessment-ultimate-guide-2025).
+
+These reports serve several critical purposes:
 
 - **NDIS Applications and Reviews**: Providing evidence for initial access or plan reviews.
 - **Support Coordination**: Guiding support coordinators in implementing effective supports.
@@ -35,7 +37,7 @@ An effective functional capacity assessment report includes several essential co
 - **Clear Support Quantification**: Precise details on type, frequency, and duration of recommended supports.
 - **Person-Centered Language**: Respectful, strength-based terminology focusing on the individual, not just their disability.
 
-These elements combine to create reports that effectively advocate for appropriate supports while maintaining the dignity and agency of the person being assessed.
+These elements combine to create reports that effectively advocate for appropriate supports while maintaining the dignity and agency of the person being assessed. The information in the report is gathered by asking specific [functional capacity assessment questions](/blog/ndis-functional-capacity-assessment-questions).
 
 ## Annotated Functional Capacity Assessment Report Example
 Below, we've included an excerpt from an exemplary functional capacity assessment report with annotations highlighting key features that make it effective:

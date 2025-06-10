@@ -33,7 +33,7 @@ For comprehensive information about support worker pay rates including weekend a
 
 ### Background and Importance of the NDIS Price List
 
-The National Disability Insurance Scheme (NDIS) Price Guide is a cornerstone document for the scheme, providing a framework for pricing arrangements and price limits for supports and services. Effective from July 1, 2024, to June 30, 2025, the 2024-25 guide ensures transparency and consistency in financial dealings between participants, their families, carers, and providers. It is updated annually to reflect changes in the market, legislative adjustments, and to maintain the scheme's sustainability, making it essential for informed decision-making.
+The National Disability Insurance Scheme (NDIS) Price Guide is a cornerstone document for the scheme, providing a framework for pricing arrangements and price limits for supports and services. Effective from July 1, 2024, to June 30, 2025, the 2024-25 guide ensures transparency and consistency in financial dealings between participants, their families, carers, and providers. It is updated annually to reflect changes in the market, legislative adjustments, and to maintain the scheme's sustainability, making it essential for informed decision-making. For providers, understanding these figures is critical, and our [NDIS Provider Cost Guide](/blog/ndis-provider-cost-guide-2025) offers a deeper analysis of the associated operational costs.
 
 ### Overview of the NDIS Pricing Guide 2024-25 Updates
 
@@ -49,7 +49,7 @@ These changes aim to enhance service delivery and participant outcomes, though p
 
 The NDIS Support Catalogue, part of the 2024-25 guide, lists all available supports with price limits, support categories, descriptions, and line item numbers, crucial for lodging payment requests. It includes:
 
-- **Support Categories**: Broad groupings such as Assistance with Daily Life, Assistance with Social and Community Participation, and Consumables, each with specific sub-items.
+- **Support Categories**: Broad groupings such as Assistance with Daily Life, Assistance with Social and Community Participation, and Consumables, each with specific sub-items. These are funded from your [Core Supports budget](/blog/ndis-core-supports). You can learn more in our guides to [Improved Daily Living supports](/blog/ndis-improved-daily-living-cb-daily-activity-guide-2025), [Social and Community Participation](/blog/ndis-social-community-participation-guide), and [NDIS Consumables](/blog/ndis-support-categories-consumables-guide-2025).
 - **NDIS Line Item Codes**: Unique codes for each support item, essential for accurate invoicing and claiming. For example, community social and recreational activities might use code 04_210_0125_6_1, as seen in [Down Syndrome NSW blog](https://www.downsyndromensw.org.au/blog/ndis-pricing-arrangements-and-price-limits-2024-25).
 - **Price Limits**: Maximum prices providers can charge, with flexibility for negotiation below these limits, ensuring cost-effectiveness.
 
@@ -72,8 +72,9 @@ These rates reflect a 3.19% increase, aiming to attract and retain skilled worke
 The guide covers diverse support areas, each with tailored pricing:
 
 - **Assistive Technology and Home Modifications**: Supports for independent living, including aids, equipment, and related delivery, with codes listed in the [Assistive Technology Code Guide](https://www.ndis.gov.au/providers/pricing-arrangements), effective from July 1, 2024. The NDIS home maintenance rate is specified for property upkeep services.
-- **Specialist Disability Accommodation (SDA)**: Housing for significant disability needs, with pricing arrangements detailed separately in the NDIS SDA Price Guide 2024, accessible via [SDA pricing page](https://www.ndis.gov.au/providers/pricing-arrangements/specialist-disability-accommodation).
+- **Specialist Disability Accommodation (SDA)**: Housing for significant disability needs, with pricing arrangements detailed separately in the NDIS SDA Price Guide 2024, accessible via [SDA pricing page](https://www.ndis.gov.au/providers/pricing-arrangements/specialist-disability-accommodation). You can learn more in our [SIL and SDA funding guide](/blog/sil-sles-ndis-funding-guide-2025).
 - **Therapy Services**: Including occupational, physiotherapy, and speech therapy, with no adjustments for most therapies except psychologists, as per [NDIS pricing updates](https://www.ndis.gov.au/providers/pricing-arrangements/pricing-updates). The NDIS physiotherapy price guide provides specific rates for these services.
+- **Other Key Services**: Pricing for other critical supports are also detailed in their own guides, including the [Support Coordination Pricing Guide](/blog/ndis-support-coordination-pricing-guide-2024-25) and the [Respite and STA Pricing Guide](/blog/ndis-respite-sta-pricing-guide-2024-25).
 
 These areas ensure participants receive necessary supports, with pricing reflecting cost structures and market analysis.
 
