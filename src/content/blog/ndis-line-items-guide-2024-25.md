@@ -19,6 +19,8 @@ image: "/assets/Ilovendis.webp"
 
 The National Disability Insurance Scheme (NDIS) uses a comprehensive system of codes and line items to categorize and track support funding. This guide provides detailed information about NDIS service codes, pricing, and claiming rules for 2024-25, helping participants and providers navigate the system effectively.
 
+For specific information about support worker pay rates that align with these line items, see our [Complete NDIS Support Worker Pay Rates Guide](/blog/ndis-support-worker-pay-rates/). If you're looking for comprehensive pricing information, our [NDIS Price Guide](/blog/ndis-price-guide/) provides additional context for understanding costs across different support categories.
+
 ### What are NDIS Support Codes?
 
 NDIS support codes (also known as line items or item codes) are unique identifiers used to classify and claim different types of disability supports. Each code consists of:
@@ -112,6 +114,8 @@ The application of higher price limits in remote areas acknowledges the genuine 
 
 **Category Definition & Support Codes:** This Core Supports category funds assistance or supervision for personal tasks in day-to-day life, enabling participants to live as independently as possible. Supports can be provided individually in various environments, including the participant's home. It covers a wide range, from basic personal care to more complex arrangements like Supported Independent Living (SIL) and Short Term Accommodation (STA)/Respite. Many items in this category have price variations based on time of day, day of week, and support intensity, reflecting the 24/7 nature of these needs and alignment with support worker award conditions. High-cost items like SIL and STA often require quotes.
 
+For detailed information about daily living supports, see our comprehensive guide to [NDIS Improved Daily Living Skills](/blog/ndis-improved-daily-living-cb-daily-activity-guide-2025/). If you're interested in respite or STA pricing specifically, our [NDIS Respite STA Pricing Guide](/blog/ndis-respite-sta-pricing-guide-2024-25/) provides detailed cost breakdowns.
+
 **Table: 01 – Assistance with Daily Life Line Items**
 
 | Line Item Code | Official Name | Brief Description | Price Limit (National MMM1-5, 2024-25) | Unit | Key Conditions |
@@ -150,6 +154,8 @@ The application of higher price limits in remote areas acknowledges the genuine 
 ### 04 – NDIS Community Participation Codes
 
 **Category Definition:** This Core Supports category funds supports enabling participants to engage in community, social, civic, or recreational activities. It can cover support workers assisting with participation, transport related to activities, or costs associated with group/centre-based programs.
+
+For comprehensive information about community participation supports and activities, see our detailed [NDIS Social Community Participation Guide](/blog/ndis-social-community-participation-guide/).
 
 **Table: 04 – Assistance with Social, Economic and Community Participation Line Items**
 

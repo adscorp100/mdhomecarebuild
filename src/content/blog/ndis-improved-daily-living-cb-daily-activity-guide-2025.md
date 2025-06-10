@@ -134,7 +134,9 @@ Price Limits: The NDIS publishes the Pricing Arrangements and Price Limits (PAPL
 
 Negotiation: Participants (especially if self-managed or plan-managed) and providers can negotiate a price lower than the official price limit. Unregistered providers are not bound by the price limits but must still adhere to principles of fair pricing.   
 
-No Extra Charges: Registered providers are prohibited from charging more than the price limit for price-limited supports. They also cannot add extra fees, such as 'gap' payments, credit card surcharges, or booking fees, to the cost of NDIS supports.   
+No Extra Charges: Registered providers are prohibited from charging more than the price limit for price-limited supports. They also cannot add extra fees, such as 'gap' payments, credit card surcharges, or booking fees, to the cost of NDIS supports.
+
+For comprehensive information about current NDIS pricing, see our [NDIS Price Guide](/blog/ndis-price-guide/) and [NDIS Line Items Guide](/blog/ndis-line-items-guide-2024-25/) which provide detailed information about codes and pricing arrangements.   
 
 Updates (e.g., 2024-25): Pricing arrangements are subject to change. For example, the 2024-25 updates included adjustments to price limits for supports delivered by Disability Support Workers (based on wage increases), the removal of the Temporary Transformation Payment (TTP) loading, continued price freezes for some therapy and coordination supports, and changes to cancellation policies. Staying informed about the current PAPL is essential. The dynamic nature of pricing reflects ongoing adjustments to market conditions, wage costs, and scheme sustainability efforts. However, price freezes in areas like therapy, despite rising operational costs, can create pressure on providers and potentially impact service availability or quality.   
 
@@ -192,7 +194,9 @@ Improved Daily Living supports do not exist in isolation; they are designed to w
 ### Synergy with Other Capacity Building Categories:
 Skills gained via Improved Daily Living can directly facilitate success in other Capacity Building domains:
 
-Increased Social & Community Participation (Category 9 / CB Social Community): Enhanced communication skills from Speech Therapy, improved emotional regulation or confidence from Psychology/OT, or the ability to travel independently learned through Public Transport Training can all remove barriers to joining community groups, attending events, or building social connections. Developing skills to manage anxiety or sensory sensitivities (via OT/Psych) might be essential for some participants to comfortably engage in community settings.   
+Increased Social & Community Participation (Category 9 / CB Social Community): Enhanced communication skills from Speech Therapy, improved emotional regulation or confidence from Psychology/OT, or the ability to travel independently learned through Public Transport Training can all remove barriers to joining community groups, attending events, or building social connections. Developing skills to manage anxiety or sensory sensitivities (via OT/Psych) might be essential for some participants to comfortably engage in community settings.
+
+For detailed information about social and community participation supports, see our [NDIS Social Community Participation Guide](/blog/ndis-social-community-participation-guide/).   
 
 Finding & Keeping a Job (Category 10 / CB Employment): Many skills crucial for employment, such as time management, organisation, planning, problem-solving, communication, and managing the workplace impact of a disability, can be developed through therapies like OT, Psychology, or Speech Pathology funded under Improved Daily Living.   
 

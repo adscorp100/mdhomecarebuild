@@ -135,6 +135,8 @@ The NDIS support worker hourly rate varies based on these key factors:
 
 - **Management Type**: Self-managed participants can negotiate rates directly, while plan-managed and agency-managed participants must adhere to NDIS price limits
 
+For a detailed breakdown of current hourly rates including geographic variations and specialized services, see our comprehensive [NDIS Support Worker Hourly Rate 2025 guide](/blog/ndis-support-worker-hourly-rate-2025/).
+
 ## NDIS Disability Support Worker Pay Rate
 
 Based on the SCHADS Award 2025, these are the current disability support worker pay rates:
@@ -177,6 +179,8 @@ Self-managed NDIS participants can directly negotiate pay rates with independent
 - Provide higher compensation for workers in some cases
 - Create opportunities for more personalized support arrangements
 
+For guidance on becoming an independent support worker, including setting up your business and understanding qualification requirements, see our [Complete Guide to Becoming an Independent NDIS Support Worker](/blog/becoming-an-independent-ndis-support-worker-your-ultimate-2025-guide/) and [Do You Need a Qualification to be an NDIS Support Worker?](/blog/do-you-need-a-qualification-to-be-an-ndis-support-worker/)
+
 ## NDIS Sole Trader Pay Rates
 
 Independent support workers and sole traders working with NDIS participants should:
@@ -185,6 +189,8 @@ Independent support workers and sole traders working with NDIS participants shou
 - Maintain detailed records of support sessions
 - Clearly establish rates and expectations with participants
 - Consider different rates for different times/types of support
+
+When setting up as a sole trader, you'll need to understand business setup requirements including [getting an ABN as an NDIS Support Worker](/blog/how-to-get-an-abn-as-an-ndis-support-worker/) and obtaining [appropriate insurance coverage](/blog/support-worker-insurance-australia-what-you-need/). For specific guidance on travel allowances that affect your rates, see our [NDIS Support Worker Travel Allowances guide](/blog/ndis-support-worker-travel-allowances/).
 
 ## Level 2 Disability Support Worker Pay vs Level 3 Support Worker NDIS Pay Rates
 

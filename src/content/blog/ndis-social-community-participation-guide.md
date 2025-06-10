@@ -15,6 +15,8 @@ image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.we
 - **Popular Activities**: Social groups, sports, art classes, travel training
 - **Support Worker Rates**: $30-42/hour depending on qualifications
 
+For detailed support worker rates and comprehensive pricing information, see our [NDIS Support Worker Pay Rates Guide](/blog/ndis-support-worker-pay-rates/) and [NDIS Line Items Guide](/blog/ndis-line-items-guide-2024-25/) for specific codes and billing information.
+
 The NDIS provides two types of funding to help participants engage in community activities and develop social connections. Understanding the difference between Core Support and Capacity Building funding is crucial for maximizing your NDIS plan benefits.
 
 Within the NDIS framework, "Social and Community Participation" refers to the support provided to participants to enable them to engage meaningfully in social, community, and recreational activities. This support is designed to help individuals pursue their interests, develop skills, forge relationships, and become active members of their communities. Search trends indicate a high level of interest in understanding this support, with many seeking information on [increased social and community participation] and [assistance with social and community participation]. These searches often represent the starting point for individuals exploring how the NDIS can support their community engagement goals.
@@ -148,6 +150,8 @@ Once funding is approved, the next step is finding suitable providers. This coul
 - Community organisations that offer inclusive activities.
 
 Tools like the NDIS Provider Finder (available on the NDIS portal), recommendations from Support Coordinators or LACs, and community networks can assist in locating appropriate services. Some platforms may also offer directories specific to NDIS services.
+
+For location-specific provider lists, see our guides for [Top NDIS Providers in Sydney](/blog/top-ndis-providers-in-sydney/) and [Top NDIS Providers Melbourne](/blog/top-20-ndis-providers-melbourne-2025/). To understand provider costs, refer to our [NDIS Provider Cost Guide](/blog/ndis-provider-cost-guide-2025/).
 
 ### 4. Role of Support Workers:
 

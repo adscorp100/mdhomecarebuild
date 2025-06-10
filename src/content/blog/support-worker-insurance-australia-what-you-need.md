@@ -25,6 +25,8 @@ Working as a support worker involves unique risks that require proper insurance 
 
 Whether you're an independent support worker or employed by an agency, understanding insurance requirements is essential for protecting yourself, your clients, and your career.
 
+For step-by-step guidance on obtaining insurance coverage, see our detailed [How to Get Support Worker Insurance in Australia](/blog/how-to-get-support-worker-insurance-in-australia-a-2025-guide/) guide. If you're setting up as an independent support worker, our [Complete Guide to Becoming an Independent NDIS Support Worker](/blog/becoming-an-independent-ndis-support-worker-your-ultimate-2025-guide/) covers insurance requirements as part of the business setup process.
+
 ## Essential Insurance Types for Support Workers
 Support workers in Australia typically need three core types of insurance:
 
@@ -54,6 +56,8 @@ If you're providing services under the NDIS, specific insurance requirements app
 - **Therapists and Specialists**: May need higher Professional Indemnity coverage ($10-20 million) depending on services provided
 
 The NDIS Quality and Safeguards Commission may request proof of insurance during audits or registration. Working without appropriate insurance could jeopardize your NDIS provider status and leave you personally exposed to claims.
+
+For information about NDIS provider registration requirements beyond insurance, see our guide on [Do NDIS Providers Need Insurance?](/blog/do-ndis-providers-need-insurance/) and [How to Become an NDIS Provider](/blog/how-to-become-ndis-provider-australia-2025/).
 
 ## Comprehensive Analysis of Support Worker Insurance in Australia
 The support worker insurance landscape in Australia is complex and tailored to the unique risks associated with disability and aged care work. This analysis provides detailed insights into insurance considerations, options, and industry-specific requirements for 2025.

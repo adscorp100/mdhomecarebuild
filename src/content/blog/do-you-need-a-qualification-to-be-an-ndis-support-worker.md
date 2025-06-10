@@ -27,6 +27,8 @@ While the NDIS itself doesn't mandate specific qualifications for all support wo
 
 The level of qualification needed also depends on the specific support categories you'll be delivering and the complexity of participants' needs.
 
+Once you have qualifications and experience, you'll want to understand current pay rates - see our comprehensive [NDIS Support Worker Pay Rates Guide](/blog/ndis-support-worker-pay-rates/) and [NDIS Support Worker Hourly Rate 2025](/blog/ndis-support-worker-hourly-rate-2025/) for current market rates.
+
 ## Training Options for NDIS Support Workers
 Several pathways exist for obtaining qualifications relevant to NDIS support work:
 
@@ -64,6 +66,8 @@ There are multiple entry points to a career in disability support, depending on 
 - **Recognition of Prior Learning (RPL)**: Convert relevant experience and existing knowledge into formal qualifications through assessment.
 
 Many successful support workers begin their careers without formal qualifications and gradually build their credentials while working in the field.
+
+For guidance on becoming an independent support worker once you have qualifications, see our [Complete Guide to Becoming an Independent NDIS Support Worker](/blog/becoming-an-independent-ndis-support-worker-your-ultimate-2025-guide/). If you're considering whether you can work without any qualifications, our guide [Can I Work as an NDIS Support Worker Without a Qualification?](/blog/can-i-work-as-an-ndis-support-worker-without-a-qualification/) provides specific information about unqualified entry paths.
 
 ## Comprehensive Guide to NDIS Support Worker Qualifications
 The disability support sector in Australia has undergone significant transformation since the introduction of the National Disability Insurance Scheme (NDIS). As the sector continues to evolve, so do the expectations regarding qualifications and training for support workers. This comprehensive guide explores the qualification landscape for NDIS support workers in 2025, addressing both minimum requirements and pathways for career advancement.

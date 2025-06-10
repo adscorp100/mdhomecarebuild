@@ -54,6 +54,8 @@ The hourly rates for NDIS support workers differ significantly based on employme
 
 Independent support workers generally have higher hourly rates but need to account for business expenses, non-billable time, and lack of paid leave when calculating their effective income.
 
+For comprehensive information on all NDIS pay rates including weekend and public holiday rates, see our [Complete NDIS Support Worker Pay Rates Guide](/blog/ndis-support-worker-pay-rates/). If you're considering becoming independent, our guides on [Becoming an Independent NDIS Support Worker](/blog/becoming-an-independent-ndis-support-worker-your-ultimate-2025-guide/) and [Getting Support Worker Insurance](/blog/support-worker-insurance-australia-what-you-need/) provide essential setup information.
+
 ## Comprehensive Analysis of NDIS Support Worker Hourly Rates
 The NDIS support worker hourly rate structure is complex and influenced by numerous factors. This detailed analysis explores the nuances of how rates are determined, regional variations, specialized service premiums, and the economic factors impacting rates in 2025.
 

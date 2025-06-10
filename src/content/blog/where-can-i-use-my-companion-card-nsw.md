@@ -193,6 +193,8 @@ The range of participating venues is diverse, covering many aspects of community
 
 Given that the list of affiliates can change, and participation might vary between different locations of a chain, it is always a good idea to check the online directory or contact the venue directly before visiting to confirm they accept the Companion Card.
 
+For seniors in NSW looking for activities, our guide to [Activities for Seniors Sydney Melbourne](/blog/activities-for-seniors-sydney-melbourne/) provides specific activity recommendations. For understanding community participation funding options, see our [NDIS Social Community Participation Guide](/blog/ndis-social-community-participation-guide/).
+
 ### Using the Companion Card on NSW Public Transport
 
 The NSW Companion Card provides significant benefits for travel on the state's public transport network:

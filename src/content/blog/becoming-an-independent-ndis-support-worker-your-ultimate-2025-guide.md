@@ -68,6 +68,8 @@ Most independent support workers start as a **sole trader**—it's simple to set
 ### Getting Your Australian Business Number (ABN)  
 An ABN is mandatory for contracting with NDIS participants. It lets you issue compliant invoices, avoid PAYG withholding on client payments, and register a business name if you trade under a name other than your own. Obtain it free via the Australian Business Register once you're "carrying on an enterprise" in Australia.
 
+For a step-by-step guide on the ABN application process specifically for NDIS support workers, see our detailed [How to Get an ABN as an NDIS Support Worker](/blog/how-to-get-an-abn-as-an-ndis-support-worker/) guide.
+
 ### Business Name Registration  
 If you plan to trade under a name (e.g. "Caring Companion Services") rather than your legal name, register it with ASIC. You need an ABN before registering a business name.
 
@@ -85,6 +87,8 @@ Working with people with disability requires specific background checks to safeg
 
 ### NDIS Worker Orientation Module  
 Complete the free "Quality, Safety and You" module to understand the NDIS Code of Conduct and your obligations—mandatory for registered providers, strongly recommended for all.
+
+For detailed information about the orientation module requirements and how to complete it, see our [NDIS Worker Orientation Module Guide](/blog/ndis-worker-orientation-module-guide/).
 
 ---
 
@@ -105,6 +109,8 @@ Many insurers offer combined PL and PI policies tailored to support workers. Ens
 - **Comprehensive Motor Vehicle Insurance** (with business-use cover or nominated driver status)
 
 Shop around for specialist brokers (e.g. BizCover, HMD Insurance, Upcover) and compare policy details.
+
+For comprehensive information about insurance requirements and options for support workers, see our detailed guides on [Support Worker Insurance Australia](/blog/support-worker-insurance-australia-what-you-need/) and [How to Get Support Worker Insurance in Australia](/blog/how-to-get-support-worker-insurance-in-australia-a-2025-guide/).
 
 ---
 
@@ -138,6 +144,8 @@ Shop around for specialist brokers (e.g. BizCover, HMD Insurance, Upcover) and c
 ### Setting Your Rates: Navigating NDIS Pricing  
 NDIS Price Limits vary by time of day, support complexity, worker level and location (including remote loadings). Registered providers must adhere to these limits; unregistered providers negotiating with self-managed participants have more flexibility.
 
+For current pay rates and comprehensive pricing information, see our [NDIS Support Worker Pay Rates Guide](/blog/ndis-support-worker-pay-rates/) and [NDIS Support Worker Hourly Rate 2025](/blog/ndis-support-worker-hourly-rate-2025/). Understanding travel allowances is also important for pricing your services - see our [NDIS Support Worker Travel Allowances guide](/blog/ndis-support-worker-travel-allowances/).
+
 ### Crafting Effective Service Agreements  
 Although only mandatory for Specialist Disability Accommodation, written service agreements are strongly recommended for all supports. They should cover:
 
@@ -146,6 +154,8 @@ Although only mandatory for Specialist Disability Accommodation, written service
 - Payment and cancellation terms  
 - Dispute resolution process  
 - GST-free supply confirmation
+
+For templates and detailed guidance on writing service agreements, see our [How to Write an NDIS Service Agreement](/blog/how-to-write-an-ndis-service-agreement-template-and-key-clauses/) guide.
 
 ### Invoicing Essentials  
 Invoices must include:

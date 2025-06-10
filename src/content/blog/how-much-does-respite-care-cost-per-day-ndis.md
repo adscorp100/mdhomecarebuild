@@ -20,6 +20,8 @@ Respite care, or Short Term Accommodation (STA) under NDIS, covers support for u
 - **Day of the Week**: Weekdays are cheaper than weekends or public holidays.
 - **Location**: National rates apply to most areas, with higher respite costs per day in remote or very remote locations.
 
+For detailed breakdown of specific line items and codes used for respite care billing, see our comprehensive [NDIS Line Items Guide](/blog/ndis-line-items-guide-2024-25/). For a broader understanding of all NDIS pricing, refer to our [NDIS Price Guide](/blog/ndis-price-guide/).
+
 For example, on a standard weekday in a national location, the NDIS short term accommodation rates are:
 
 - 1:1 ratio: $2,098.80 per day
@@ -50,6 +52,8 @@ NDIS respite care is funded through the Short Term Accommodation (STA) category,
 
 ### NDIS Funded Respite: Eligibility Requirements
 To access respite care for NDIS participants, it must be included in the participant's NDIS plan. The plan should outline the need for respite, and funding is allocated based on individual circumstances. Evidence to support inclusion may include demonstrating that respite care reduces future support needs, maintains functional capacity, enhances independence, or increases community participation. Consulting with an NDIS support coordinator can help determine eligibility and ensure respite care is appropriately funded.
+
+If you need to request changes to your NDIS plan to include respite care, our guide on [How to Request NDIS Plan Reviews for Better Support](/blog/how-to-request-ndis-plan-reviews-better-support/) provides step-by-step instructions for the review process.
 
 ### NDIS Respite Care Costs: Price Structure and Variability
 How much is respite care under NDIS is not fixed and varies based on several factors, as outlined in the NDIS price guide 2025. These factors include:

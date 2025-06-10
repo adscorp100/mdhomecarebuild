@@ -23,6 +23,8 @@ A functional capacity assessment (FCA) is a structured evaluation that measures 
 
 FCAs form a critical part of the evidence base for NDIS planning decisions, directly influencing funding allocations for supports and services.
 
+For comprehensive guides on what a functional capacity assessment includes and sample reports, see our [Ultimate Functional Capacity Assessment Guide 2025](/blog/functional-capacity-assessment-ultimate-guide-2025/) and [Functional Capacity Assessment Report Example](/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like/).
+
 ## Who Conducts Functional Capacity Assessments?
 FCAs are performed by qualified health professionals, including:
 
@@ -135,6 +137,8 @@ FCAs are particularly important during plan reviews, where they provide evidence
 - **Progress toward goals**: Measuring achievements since the previous plan
 
 Updated assessments every 1-3 years ensure NDIS plans remain responsive to participants' changing circumstances. For progressive conditions, more frequent assessments may be necessary to capture functional decline and adjust supports accordingly.
+
+For detailed guidance on the plan review process, see our [How to Request NDIS Plan Reviews for Better Support](/blog/how-to-request-ndis-plan-reviews-better-support/) guide. For information about specific NDIS questions that may be asked during functional assessments, see our [NDIS Functional Capacity Assessment Questions](/blog/ndis-functional-capacity-assessment-questions/) guide.
 
 ### Funding for Functional Capacity Assessments
 The cost of functional capacity assessments can be covered through:

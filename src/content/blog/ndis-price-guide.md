@@ -27,6 +27,8 @@ The 2024-25 NDIS Price Guide, effective from July 1, 2024, saw a 3.19% increase 
 
 Support worker rates vary by qualifications and time of day, with current 2024-25 rates ranging from $30.00–$34.00 per hour for unqualified workers, $32.00–$36.00 for qualified, and $36.00–$42.00 for team leaders/supervisors. The NDIS does not set prices directly; providers negotiate within price limits, especially for plan-managed participants. For detailed access, the official guide and support catalogue are available at [NDIS pricing arrangements](https://www.ndis.gov.au/providers/pricing-arrangements) and [MyCareSpace resource](https://mycarespace.com.au/resources/ndis-support-worker-rates).
 
+For comprehensive information about support worker pay rates including weekend and public holiday rates, see our detailed [NDIS Support Worker Pay Rates Guide](/blog/ndis-support-worker-pay-rates/) and [NDIS Support Worker Hourly Rate 2025](/blog/ndis-support-worker-hourly-rate-2025/). For specific line item codes and billing information, refer to our [NDIS Line Items Guide](/blog/ndis-line-items-guide-2024-25/).
+
 ## Comprehensive Analysis of NDIS Price Guide 2024-25 & NDIS Pricing Guide: Detailed Insights for Participants and Providers
 
 ### Background and Importance of the NDIS Price List
