@@ -68,6 +68,8 @@ Art therapy combines creative expression with therapeutic intervention to suppor
 - **Sensory Art Therapy**: Tactile and sensory experiences through art-making
 - **Cognitive Art Therapy**: Using art activities to support cognitive rehabilitation
 
+![Therapy assistant and allied health support](/assets/physio.webp)
+
 **Benefits of NDIS Art Therapy:**
 - Non-verbal communication opportunities
 - Emotional regulation and expression

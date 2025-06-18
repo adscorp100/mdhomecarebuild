@@ -22,6 +22,8 @@ Supported Independent Living is a specialized NDIS funding category that provide
 - Development of a personalized support plan
 - Regular reviews to ensure the services meet changing needs
 
+![Supported independent living services](/assets/holdinglinen.webp)
+
 SIL support in {suburb} can range from a few hours per day to 24/7 assistance, depending on individual requirements. Support workers help with meal preparation, personal care, medication management, household tasks, and community participation.
 
 ## Who Needs SIL Accommodation in {suburb}

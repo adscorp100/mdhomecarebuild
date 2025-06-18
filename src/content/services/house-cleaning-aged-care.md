@@ -36,6 +36,8 @@ When providing cleaning services for seniors in {suburb}, we prioritize:
 - **Health Awareness**: Using appropriate cleaning products for seniors with sensitivities
 - **Safety Consciousness**: Identifying and reporting potential hazards noticed during cleaning
 
+![Professional cleaning services](/assets/cleaner.webp)
+
 ### Benefits of Our House Cleaning Services in {suburb}
 
 Our cleaning services offer {suburb} seniors numerous advantages:

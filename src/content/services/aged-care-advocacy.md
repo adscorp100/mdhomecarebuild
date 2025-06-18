@@ -41,6 +41,8 @@ Supporting older people to raise and resolve concerns with aged care providers i
 
 Building the capacity of older people to speak up for themselves within the aged care system.
 
+![Aged care advocacy services](/assets/elderlyaboriginal.webp)
+
 ## The National Aged Care Advocacy Program
 
 The primary mechanism for aged care advocacy support is the National Aged Care Advocacy Program (NACAP), delivered nationally by the Older Persons Advocacy Network (OPAN) and its state and territory member organisations serving {suburb} and surrounding areas.

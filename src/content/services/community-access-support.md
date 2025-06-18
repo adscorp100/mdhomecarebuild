@@ -36,6 +36,8 @@ Our community disability services in {suburb} help individuals to:
 - **Promote Inclusion**: Become active members of the {suburb} community
 - **Enhance Wellbeing**: Improve overall quality of life and mental health
 
+![Community disability support services](/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp)
+
 ### Personalized Community Access Support Plans
 
 We develop individualized community access plans for each client in {suburb}, considering:

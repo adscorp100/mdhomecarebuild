@@ -36,6 +36,8 @@ When providing life skills training in {suburb}, we follow evidence-based practi
 - **Progressive Independence**: Gradually reducing support as competence increases
 - **Adaptable Strategies**: Using teaching methods that match individual learning styles
 
+![Life skills development and support](/assets/drinkingtea.webp)
+
 ### Benefits of Our Life Skills Development Services in {suburb}
 
 Our life skills services offer {suburb} residents numerous advantages:

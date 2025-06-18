@@ -31,6 +31,8 @@ To begin your career as a behaviour support practitioner in {suburb}, you'll nee
 - Commitment to ongoing professional development
 - Knowledge of {suburb}'s disability support networks (preferred)
 
+![Behaviour support practitioner training](/assets/downs.webp)
+
 ## How to Become a Registered Behaviour Support Practitioner in {suburb}
 
 ### Step-by-Step Registration Process:

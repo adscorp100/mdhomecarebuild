@@ -48,6 +48,8 @@ Assistive Technology (AT) encompasses any equipment, device, or system that help
 5. **Implementation:** Sourcing and setting up approved equipment
 6. **Training and Follow-up:** Learning to use your new technology effectively
 
+![Assistive technology assessment](/assets/two women looking at alarm.webp)
+
 ## Finding AT Assessors in {suburb}
 
 While MD Homecare does not provide specialized AT assessment services, we can help connect you with qualified AT assessors serving {suburb}, such as:

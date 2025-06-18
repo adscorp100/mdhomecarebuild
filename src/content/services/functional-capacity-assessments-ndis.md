@@ -30,6 +30,8 @@ A functional capacity assessment is a detailed evaluation conducted by qualified
 - Review of medical and therapeutic reports
 - Environmental assessment of home and community settings
 
+![Functional capacity assessment services](/assets/occupationaltherapy.webp)
+
 ### Functional Capacity Assessment NDIS Process
 
 **Who Conducts NDIS Functional Capacity Assessments:**

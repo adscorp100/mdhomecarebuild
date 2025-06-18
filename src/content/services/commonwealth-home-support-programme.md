@@ -41,6 +41,8 @@ Access to services like podiatry, physiotherapy, and occupational therapy in {su
 
 Assistance with preparing meals or delivering pre-prepared meals to your {suburb} home.
 
+![Commonwealth home support programme](/assets/grandma.webp)
+
 ### Transport Services
 
 Help getting to and from appointments, shopping, or social activities in {suburb}.

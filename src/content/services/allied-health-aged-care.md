@@ -40,6 +40,8 @@ Physiotherapists help older people in {suburb} maintain and improve physical fun
 - Management of chronic conditions affecting movement
 - Exercise programs tailored to older adults
 
+![Allied health and physiotherapy services](/assets/physio.webp)
+
 ## Occupational Therapy Services for Older People in {suburb}
 
 Occupational Therapists help older people in {suburb} to remain independent through:
@@ -69,6 +71,8 @@ Dietitians provide specialized nutritional advice for older people in {suburb}, 
 - Strategies for addressing unintended weight loss
 - Texture-modified diet advice for swallowing difficulties
 - Nutrition education for older people and their carers
+
+![Dietetic and nutrition services](/assets/dieticiain.webp)
 
 ## Psychology and Counselling Services for Older People in {suburb}
 

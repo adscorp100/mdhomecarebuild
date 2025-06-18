@@ -36,6 +36,8 @@ When providing social support visits in {suburb}, we prioritize:
 - **Meaningful Interaction**: Moving beyond small talk to deeper, more satisfying conversation
 - **Flexibility**: Adapting visits to your energy levels, mood, and changing interests
 
+![Social support and companionship](/assets/drinkingtea.webp)
+
 ### Benefits of Our Social Support Visits in {suburb}
 
 Our social support services offer {suburb} seniors numerous advantages:

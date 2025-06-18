@@ -47,6 +47,8 @@ Respite care provided in the comfort of the person's own home:
 - **Arthritis care** including pain management and mobility support
 - Domestic assistance and meal preparation
 
+![Professional respite care services](/assets/respite care.webp)
+
 **Overnight Respite**
 - Care workers staying overnight allowing caregivers uninterrupted sleep
 - **Community nursing** support for complex medical needs

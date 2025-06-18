@@ -60,6 +60,8 @@ Specialized meal services cater to dietary requirements related to health condit
 
 Regular deliveries provide structure and eliminate meal planning challenges for {suburb} residents.
 
+![Meal preparation and delivery](/assets/Doing Dishes.webp)
+
 ## Types of Meal Services Available in {suburb}
 
 ### Ready-to-Heat Meals

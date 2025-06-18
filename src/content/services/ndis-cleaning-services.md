@@ -32,6 +32,8 @@ Our **NDIS cleaning services** in {suburb} are designed to support participants 
 - **Move-in/Move-out Cleaning**: Comprehensive cleaning for housing transitions
 - **Emergency Cleaning**: Rapid response cleaning for urgent situations
 
+![Professional cleaning services](/assets/cleaner.webp)
+
 ### NDIS Domestic Assistance Programs
 
 **Household Task Support**
@@ -40,6 +42,8 @@ Our **NDIS cleaning services** in {suburb} are designed to support participants 
 - **Bed Making and Linen Changes**: Fresh bedding and comfortable sleeping environments
 - **Dish Washing and Kitchen Maintenance**: Clean kitchens and food preparation areas
 - **Domestic Assistance NDIS {suburb}**: Comprehensive household support
+
+![Domestic assistance with laundry](/assets/holdinglinen.webp)
 
 **Skill Development Programs**
 - **Cleaning Skills Training**: Teaching effective and efficient cleaning techniques
@@ -62,6 +66,8 @@ Our **NDIS cleaning services** in {suburb} are designed to support participants 
 - **Kitchen and Meal Area Maintenance**: Keeping food preparation areas clean and safe
 - **Bathroom and Personal Care Area Cleaning**: Maintaining hygiene and accessibility
 - **General Tidying and Organization**: Keeping living spaces comfortable and functional
+
+![Kitchen cleaning and meal preparation support](/assets/Doing Dishes.webp)
 
 **Capacity Building - Improved Daily Living**
 - **Skill Development Sessions**: Learning effective cleaning and organization techniques

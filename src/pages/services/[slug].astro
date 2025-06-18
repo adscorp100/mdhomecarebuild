@@ -457,9 +457,6 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
         <div class="hero-content">
           <div class="category-tag-container">
             <div class="category-tag">{entry.data.category}</div>
-            <div class="avatar-container">
-              <img src="/assets/avatar.webp" alt="MD Home Care Team Member" class="avatar-image" />
-            </div>
           </div>
           <h1>
             <span class="main-title">{genericTitle}</span>
@@ -665,20 +662,7 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
     text-shadow: none;
   }
 
-  .avatar-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
-  .avatar-image {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 2px solid rgba(var(--primary-rgb), 0.3);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
 
   .keyword-tags {
     display: flex;

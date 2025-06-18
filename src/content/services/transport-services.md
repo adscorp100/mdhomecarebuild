@@ -30,6 +30,8 @@ Our transport service in {suburb} features:
 - **Climate Control:** Air-conditioned vehicles for comfort in all weather conditions
 - **Trained Drivers:** Experienced in assisting passengers with various needs in {suburb}
 
+![Transport services](/assets/sydney.webp)
+
 ### Comprehensive Support in {suburb}
 
 Our transport service in {suburb} is more than just getting from point A to point B. We provide:

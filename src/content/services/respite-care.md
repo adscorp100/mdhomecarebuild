@@ -21,6 +21,8 @@ Our respite care in {suburb} is designed to provide:
 - **Skilled {suburb} Support**: Delivered by experienced {suburb} respite care workers
 - **Personalized {suburb} Approach**: Care tailored to individual needs and preferences of {suburb} residents
 
+![Respite care services](/assets/respite care.webp)
+
 ### Types of Respite Care We Offer in {suburb}
 
 We provide several respite care options to meet different needs throughout {suburb}:

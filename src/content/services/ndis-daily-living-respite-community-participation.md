@@ -32,6 +32,8 @@ Our **community participation {suburb}** programs are designed to help NDIS part
 - **Safety Training**: Building confidence and skills for independent community access
 - **Technology Support**: Using apps and tools for community navigation
 
+![NDIS community participation and social support](/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp)
+
 ### Community Participation Support Programs
 
 **Educational and Learning Support**

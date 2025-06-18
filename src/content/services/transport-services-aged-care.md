@@ -35,6 +35,8 @@ When providing transport services for seniors in {suburb}, we prioritize:
 - **Flexibility**: Accommodating schedule changes and waiting during appointments
 - **Personal Attention**: Support tailored to your specific mobility and assistance needs
 
+![Transport and mobility services](/assets/sydney.webp)
+
 ### Benefits of Our Senior Transport Services in {suburb}
 
 Our transport services offer {suburb} seniors numerous advantages:

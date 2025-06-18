@@ -36,6 +36,8 @@ Occupational therapy is particularly valuable for older residents in {suburb} as
 - Assists with adapting to life after illness, injury, or surgery
 - Promotes engagement in meaningful activities and routines
 
+![Occupational therapy services](/assets/occupationaltherapy.webp)
+
 ### Benefits of Home-Based Occupational Therapy in {suburb}
 
 Our occupational therapy home visits offer {suburb} residents numerous advantages:
@@ -71,6 +73,8 @@ Our occupational therapists assist with various aspects of daily living includin
 - **Leisure Activities**: Maintaining engagement in hobbies and interests
 - **Community Participation**: Accessing local services and activities
 - **Social Connection**: Maintaining relationships and reducing isolation
+
+![Accessible bathroom modifications](/assets/accessible bathroom.webp)
 
 ### Funding Options for {suburb} Residents
 

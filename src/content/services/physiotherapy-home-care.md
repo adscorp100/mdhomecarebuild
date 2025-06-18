@@ -35,6 +35,8 @@ Physiotherapy is particularly valuable for older residents in {suburb} as it:
 - Provides alternatives to medication for pain management
 - Improves overall quality of life and wellbeing
 
+![Professional physiotherapy services](/assets/physio.webp)
+
 ### Benefits of Home-Based Physiotherapy in {suburb}
 
 Our physiotherapy home visits offer {suburb} residents numerous advantages:
@@ -72,6 +74,8 @@ Our physiotherapists are experienced in treating various conditions including:
 - Fractures and orthopedic injuries
 - General age-related mobility decline
 - Respiratory conditions
+
+![Senior care and mobility support](/assets/grandmawhite.webp)
 
 ### Funding Options for {suburb} Residents
 

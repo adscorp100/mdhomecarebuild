@@ -36,6 +36,8 @@ When providing meal preparation services in {suburb}, we emphasize:
 - **Independence**: Involving you in the process as much as you desire
 - **Education**: Sharing simple cooking techniques if you wish to learn
 
+![Kitchen and meal preparation support](/assets/Doing Dishes.webp)
+
 ### Benefits of Our Meal Preparation Services in {suburb}
 
 Our meal preparation services offer {suburb} residents numerous advantages:

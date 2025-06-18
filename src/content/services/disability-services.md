@@ -30,6 +30,8 @@ Our **disability home care services** in {suburb} are designed to support indivi
 - **In Home Disability Care**: Tailored assistance for specific conditions and requirements
 - **NDIS Personal Care**: Professional support meeting NDIS standards
 
+![Disability support services](/assets/disabled carer.webp)
+
 ## Supported Independent Living (SIL) {suburb}
 
 As experienced **SIL providers** in {suburb}, we offer comprehensive **supported independent living** services:
@@ -60,6 +62,8 @@ As a registered **NDIS provider** in {suburb}, we deliver comprehensive disabili
 - **Personal Care**: Assistance with daily living activities
 - **Community Access**: Support engaging with {suburb}'s community activities
 
+![NDIS support and services](/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp)
+
 ### NDIS Capacity Building
 - **Skill Development**: Programs building independence in daily living
 - **Support Coordination**: Help navigating and maximizing your NDIS plan
@@ -87,6 +91,8 @@ Our comprehensive **disability support services** in {suburb} include:
 - **Support Coordination**: Connecting you with the right services in {suburb}
 - **Plan Implementation**: Help understanding and using your NDIS funding
 - **Regular Reviews**: Ensuring your supports meet your evolving needs
+
+![Wheelchair accessibility and mobility support](/assets/wheelchair.webp)
 
 ## Why Choose Our NDIS Provider Services {suburb}
 

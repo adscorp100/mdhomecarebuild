@@ -32,6 +32,8 @@ As a support worker in {suburb}, you'll play a vital role in:
 - Providing emotional support and companionship
 - Contributing to care planning and goal achievement
 
+![Join our support worker team](/assets/carer.webp)
+
 ## Why We Need You in {suburb}
 
 The demand for qualified support workers in {suburb} continues to grow. With the expansion of the NDIS and an aging population, there's never been a better time to enter this rewarding field in the {suburb} area. Whether you're interested in disability support, aged care, or mental health support, we have opportunities across {suburb} that match your interests and skills.

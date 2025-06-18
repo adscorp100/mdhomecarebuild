@@ -22,6 +22,8 @@ We offer comprehensive **disability home care services** throughout {suburb} and
 - **Overnight Care**: 24-hour support and sleepover options for continuous assistance
 - **Specialized Care**: Tailored support for complex health and disability needs
 
+![Disability home care and support](/assets/disabled carer.webp)
+
 ## Disability Home Support Services {suburb}
 
 Our **disability home support** extends beyond basic care to enhance quality of life:

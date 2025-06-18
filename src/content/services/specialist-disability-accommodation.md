@@ -24,6 +24,8 @@ We offer various SDA design categories in {suburb} to match individual needs:
 - **Robust Design:** Housing with special features that make it resilient, reducing the risk of injury and enabling complex behaviors to be supported
 - **High Physical Support:** Housing with a very high level of accessibility, including structural provisions for ceiling hoists and other assistive technology
 
+![Specialist disability accommodation](/assets/accessible-bathroom.webp)
+
 ### SDA Property Features in {suburb}
 
 Our SDA properties in {suburb} may include:

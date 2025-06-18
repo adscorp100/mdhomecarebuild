@@ -36,6 +36,8 @@ When helping {suburb} residents with mobility equipment, we focus on:
 - **Ongoing Support**: Assistance with maintenance and adjustments as needs change
 - **Home Environment Considerations**: Ensuring your home accommodates the equipment
 
+![Mobility equipment for home care](/assets/wheelchair.webp)
+
 ### Benefits of Our Mobility Equipment Services in {suburb}
 
 Our mobility equipment services offer {suburb} residents numerous advantages:

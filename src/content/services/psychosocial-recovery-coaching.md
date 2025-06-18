@@ -35,6 +35,8 @@ Working together with participants to develop personalized recovery plans that f
 
 Supporting participants to develop practical skills for daily living, self-management, and independence in {suburb}.
 
+![Mental health recovery support](/assets/downs.webp)
+
 ### System Navigation and Coordination
 
 Helping participants navigate complex service systems, including mental health services, housing, and other supports available in {suburb}.

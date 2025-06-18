@@ -69,6 +69,8 @@ We provide expert support accessing **specialist disability accommodation** in {
 - **Compatibility Matching**: Connecting compatible residents in shared SDA
 - **Ongoing Support**: Continued liaison with SDA providers
 
+![Accessible accommodation and housing](/assets/accessible-bathroom.webp)
+
 **SDA Housing Features**
 - **Fully Accessible Design**: Wheelchair accessible throughout
 - **Assistive Technology**: Pre-installed accessibility technology

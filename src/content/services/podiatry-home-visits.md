@@ -47,6 +47,8 @@ Our podiatry home visits offer {suburb} residents numerous advantages:
 - **Family Involvement**: Opportunity for family members or carers to be present and informed
 - **Access for All**: Making podiatry care accessible to those with mobility limitations
 
+![Podiatry and physiotherapy home visits](/assets/physio.webp)
+
 ### What to Expect During a Home Podiatry Visit in {suburb}
 
 Our podiatry home visits in {suburb} typically include:

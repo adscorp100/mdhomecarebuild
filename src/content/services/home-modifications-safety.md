@@ -35,6 +35,8 @@ When providing home modification services in {suburb}, we follow a thorough proc
 - **User Training**: Guidance on how to use new modifications and equipment effectively
 - **Follow-up Support**: Ongoing assistance and adjustments as your needs change
 
+![Home accessibility modifications](/assets/accessible-bathroom.webp)
+
 ### Benefits of Our Home Safety Modifications in {suburb}
 
 Our home modification services offer {suburb} residents numerous advantages:

@@ -19,6 +19,8 @@ Professional insurance is essential for all NDIS support workers and providers o
 - Covers incidents like accidental damage to client property or visitor injuries
 - Annual premiums typically range from $300-800 for support workers
 
+![Support worker and provider insurance](/assets/nurse.webp)
+
 **Professional Indemnity Insurance**
 - Protects against claims of professional negligence or failure to provide proper care
 - Coverage typically $1-5 million for independent support workers

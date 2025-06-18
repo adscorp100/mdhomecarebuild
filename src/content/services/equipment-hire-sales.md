@@ -30,6 +30,8 @@ Beyond complex Assistive Technology requiring specialized assessment and funding
 - Crutches and walking sticks
 - Transfer aids and patient lifters
 
+![Equipment hire and sales](/assets/wheelchair.webp)
+
 ### Bathroom and Toileting Aids
 
 - Shower chairs and stools

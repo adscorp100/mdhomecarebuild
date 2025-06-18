@@ -25,6 +25,8 @@ We offer a comprehensive range of domestic assistance services for {suburb} resi
 - **Home Organization**: Help with decluttering and organizing your living spaces
 - **Pet Care Assistance**: Basic help with feeding and caring for pets
 
+![Domestic assistance services](/assets/makingbed.webp)
+
 ### Who Can Benefit from Our Services
 
 Our domestic assistance services in {suburb} are available for:

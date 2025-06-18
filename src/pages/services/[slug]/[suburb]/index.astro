@@ -457,10 +457,7 @@ const description = service.data.description.replace(/{suburb}/g, suburbName);
         <div class="hero-content">
           <div class="location-info">
             <span class="category-tag">{service.data.category}</span>
-            <span class="location-tag">{suburbName}, {suburbInfo.state} - {suburbInfo.region}</span>
-            <div class="avatar-container">
-              <img src="/assets/avatar.webp" alt="MD Home Care Team Member" class="avatar-image" />
-            </div>
+            <span class="location-tag">{suburbInfo.region}, {suburbInfo.state}</span>
           </div>
           <h1>
             <span class="main-title">{title}</span>
@@ -689,20 +686,7 @@ document.addEventListener('DOMContentLoaded', () => {
     align-items: center;
   }
 
-  .avatar-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
-  .avatar-image {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 2px solid rgba(var(--primary-rgb), 0.3);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
 
   .category-tag, .location-tag {
     display: inline-block;

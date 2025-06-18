@@ -52,6 +52,8 @@ Comprehensive **home care packages** with full service coordination in {suburb}:
 - **Nursing services at home {suburb}** with registered nurses
 - **Home care assistance {suburb}** tailored to local needs
 
+![Home care support and services](/assets/homecare.webp)
+
 ## Home Care Package Levels and Services
 
 ### Level 1 Home Care Package - $9,000 Annual Subsidy
@@ -134,6 +136,8 @@ Comprehensive **home care packages** with full service coordination in {suburb}:
 - Meal preparation and nutrition support
 - **Home help** and household management
 
+![Personal care and assistance](/assets/makingbed.webp)
+
 ### Support Services
 - **Companion care** and social support in {suburb}
 - **Respite care services** for family caregivers
@@ -178,6 +182,8 @@ All our **home care packages** in {suburb} meet:
 - Local **home care providers** familiar with {suburb} resources
 - **Elderly home care** enabling continued neighborhood participation
 - **In home care** supporting cultural and community activities
+
+![Elderly home care and social support](/assets/grandma.webp)
 
 ### Local Expertise
 **Home care services** benefits in {suburb}:

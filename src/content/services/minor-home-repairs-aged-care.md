@@ -38,6 +38,8 @@ When providing home repair services in {suburb}, we prioritize:
 - **Preventative Advice**: Offering suggestions to prevent future issues
 - **Clean Work Practices**: Leaving your home tidy after completing repairs
 
+![Minor home repairs and maintenance](/assets/homecare.webp)
+
 ### Benefits of Our Minor Home Repair Services in {suburb}
 
 Our repair services offer {suburb} seniors numerous advantages:

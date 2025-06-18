@@ -36,6 +36,8 @@ When providing complex care in {suburb}, we prioritize:
 - **Family Involvement**: Including family members in care planning and decision-making
 - **Continuity of Care**: Ensuring consistent care delivery across the support team
 
+![Complex clinical care services](/assets/clinic.webp)
+
 ### Benefits of Our Complex Care Services in {suburb}
 
 Our complex care services offer {suburb} residents numerous advantages:

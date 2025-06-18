@@ -36,6 +36,8 @@ When providing gardening services in {suburb}, we emphasize:
 - **Physical Accessibility**: Focusing on making your garden accessible and enjoyable
 - **Water Efficiency**: Understanding {suburb}'s climate and water-wise gardening approaches
 
+![Professional gardening services](/assets/gardener.webp)
+
 ### Benefits of Our Light Gardening Services in {suburb}
 
 Our gardening services offer {suburb} residents numerous advantages:

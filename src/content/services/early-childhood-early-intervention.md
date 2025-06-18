@@ -38,6 +38,8 @@ Children accessing this pathway often receive therapies such as:
 - Psychology for behavioral and emotional support
 - Group-based early intervention programs in {suburb}
 
+![Early childhood early intervention](/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp)
+
 ## Finding Early Childhood Partners in {suburb}
 
 While MD Homecare does not provide specialized early childhood intervention services, we can help connect families in {suburb} with their local Early Childhood Partner. These partners are geographically assigned and include organizations such as:

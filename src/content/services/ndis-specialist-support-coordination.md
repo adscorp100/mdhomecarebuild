@@ -33,6 +33,8 @@ Complex support coordination for participants with high-intensity needs in {subu
 - Child protection involvement
 - Justice system engagement
 
+![NDIS support coordination services](/assets/ndis-provider-melbourne.webp)
+
 ## NDIS Home Care Services {suburb}
 
 In addition to support coordination, our {suburb} NDIS services include:

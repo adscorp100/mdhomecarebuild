@@ -49,6 +49,8 @@ With **plan management NDIS** participants can access:
 - **Financial Reporting**: Regular statements showing budget usage and remaining funds
 - **Compliance Management**: Ensuring all transactions meet NDIA requirements
 
+![NDIS plan management services](/assets/ndis-provider-melbourne.webp)
+
 ### Reduced Administrative Burden
 
 Participants benefit from:

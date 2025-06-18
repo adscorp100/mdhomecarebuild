@@ -23,6 +23,8 @@ We offer a comprehensive range of home modifications for seniors in {suburb}, in
 - **Safety Features**: Installation of emergency alert systems, smoke detectors, and other safety equipment
 - **Flooring Adjustments**: Replacement of hazardous flooring with safe, accessible alternatives
 
+![Home modifications and maintenance](/assets/accessible-bathroom.webp)
+
 ### Home Maintenance Services in {suburb}
 
 Our team provides ongoing maintenance services throughout {suburb}, including:

@@ -31,6 +31,8 @@ Financial planners specializing in NDIS can help {suburb} participants with:
 - Long-term financial security planning
 - Understanding plan-managed funding options
 
+![Financial and legal services](/assets/deceasedestate.webp)
+
 ### Aged Care Financial Advice
 
 Financial advisers with aged care accreditation can assist {suburb} residents with:

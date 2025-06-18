@@ -37,6 +37,8 @@ Working to change policies, practices, and attitudes that create barriers for pe
 
 Specialized legal support for disability-related matters, including discrimination and rights protection in {suburb}.
 
+![NDIS advocacy services](/assets/carer.webp)
+
 ## The Importance of Independent Advocacy
 
 It's crucial to understand that NDIS Support Coordinators and service providers like MD Homecare cannot provide formal advocacy, particularly in situations involving:

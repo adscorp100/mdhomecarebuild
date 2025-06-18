@@ -47,6 +47,8 @@ When providing **positive behaviour support** in {suburb}, we adhere to best pra
 - **Holistic Perspective**: Considering physical, emotional, and environmental influences
 - **Collaborative Teamwork**: Engaging with all stakeholders in the person's life
 
+![Intellectual disability support services](/assets/downs.webp)
+
 ## Behaviour Support Plan Development {suburb}
 
 Our **behaviour support practitioners** create comprehensive, individualized **behaviour support plans** that include:

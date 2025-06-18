@@ -40,6 +40,8 @@ For people with permanent disability in {suburb} who need regular, ongoing suppo
 - Post-placement support to ensure sustainable employment
 - Assistance with accessing work-related equipment
 
+![Employment and occupational therapy support](/assets/occupationaltherapy.webp)
+
 ## School Leaver Employment Supports (SLES) in {suburb}
 
 SLES is an NDIS-funded early intervention approach designed to help Year 12 school leavers in {suburb} prepare for and transition to employment.

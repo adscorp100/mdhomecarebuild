@@ -25,6 +25,8 @@ We provide the following specialized therapy services to {suburb} residents:
 - **Music Therapy**: Using music to address physical, emotional, cognitive, and social needs
 - **Art Therapy**: Creative therapeutic approaches to support expression and healing
 
+![Professional therapy services](/assets/physio.webp)
+
 ### Specialized Programs for {suburb}
 
 We offer targeted therapy programs designed to meet specific needs in the {suburb} community:

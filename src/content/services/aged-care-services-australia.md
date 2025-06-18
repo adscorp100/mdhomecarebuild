@@ -68,6 +68,8 @@ Australia's aged care system provides comprehensive support services to help old
 - **Private Providers**: Baptcare, Brightwater Care Group, Arcare
 - **Specialized Services**: Dementia care specialists, multicultural specific providers
 
+![Elderly care support services](/assets/grandma.webp)
+
 **Popular Sydney Aged Care Services**
 - In-home personal care and domestic assistance
 - Community transport throughout Sydney's extensive public transport network
@@ -145,6 +147,8 @@ Australia's aged care system provides comprehensive support services to help old
 - Continence care and management
 - Support with eating and nutrition
 
+![Home care assistance and support](/assets/homecare.webp)
+
 **Domestic Assistance**
 - House cleaning and home maintenance
 - Laundry and ironing services
@@ -197,6 +201,8 @@ Australia's aged care system provides comprehensive support services to help old
 - Social support and companionship
 - Support to maintain hobbies and interests
 - Connection to community groups and services
+
+![Social support and companionship](/assets/drinkingtea.webp)
 
 **Respite Care**
 - In-home respite for family caregivers

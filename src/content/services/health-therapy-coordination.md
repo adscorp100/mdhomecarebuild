@@ -24,6 +24,8 @@ Our experienced health coordination team provides:
 - **Transport Coordination**: Arranging transportation to medical appointments
 - **Telehealth Setup**: Supporting remote health consultations
 
+![Health and therapy coordination](/assets/physio.webp)
+
 ## Therapy Coordination Support {suburb}
 
 We help {suburb} residents coordinate their therapy services including:

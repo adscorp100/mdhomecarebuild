@@ -35,6 +35,8 @@ When providing personal care in {suburb}, we prioritize:
 - **Cultural Sensitivity**: Respecting cultural preferences and requirements
 - **Gender Preferences**: Accommodating requests for male or female support workers when possible
 
+![Personal care and support services](/assets/carer.webp)
+
 ### Benefits of Our Personal Care Services in {suburb}
 
 Our personal care services offer {suburb} residents numerous advantages:

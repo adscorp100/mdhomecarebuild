@@ -22,6 +22,8 @@ Our experienced {suburb} support workers provide assistance with:
 - **{suburb} Mobility Support**: Help with moving around your home safely
 - **Meal Preparation in {suburb}**: Assistance with preparing nutritious meals and eating
 
+![Personal care services](/assets/carer.webp)
+
 ### Experienced and Qualified {suburb} Carers
 
 All our personal care support workers in {suburb} are carefully selected for their qualifications, experience, and genuine commitment to care. They receive ongoing training in personal care techniques, manual handling, and person-centered approaches to ensure you receive the highest standard of support in {suburb}.

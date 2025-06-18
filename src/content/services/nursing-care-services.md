@@ -22,6 +22,8 @@ Our **home nursing services** in {suburb} are designed to meet a wide range of m
 - **Chronic Disease Management**: Ongoing support for diabetes, heart conditions, respiratory issues, and other chronic illnesses
 - **Vital Signs Monitoring**: Regular assessment of blood pressure, temperature, pulse, and respiratory function
 
+![Professional nursing care services](/assets/nurse.webp)
+
 ### Specialized Nursing Services
 - **Palliative and End-of-Life Care**: Comfort-focused nursing care for individuals with life-limiting conditions
 - **Dementia and Alzheimer's Care**: Specialized nursing support for cognitive health conditions
@@ -98,6 +100,8 @@ Our **private nursing care** services offer:
 - Post-cardiac procedure care
 - Emergency cardiac care protocols
 
+![Home care support services](/assets/homecare.webp)
+
 ### Respiratory Care
 - Oxygen therapy management
 - Respiratory assessment and monitoring
@@ -132,6 +136,8 @@ All nurses providing **nursing care services** in {suburb} are:
 - Experience in hospital, community health, and home care settings
 - Advanced life support certifications
 - Specialized training in chronic disease management
+
+![Elderly care and support](/assets/grandma.webp)
 
 ## Benefits of Home Nursing Care
 

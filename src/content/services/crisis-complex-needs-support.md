@@ -24,6 +24,8 @@ Our experienced crisis support team provides:
 - **Safety Planning**: Development of personalized safety protocols
 - **Crisis De-escalation**: Skilled response to escalating situations
 
+![Crisis and complex needs support](/assets/carer.webp)
+
 ## Complex Needs Support {suburb}
 
 We provide specialized support for individuals with high and complex needs in {suburb}:

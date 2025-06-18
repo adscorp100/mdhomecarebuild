@@ -35,6 +35,8 @@ When helping {suburb} seniors with assistive technology, we focus on:
 - **Ongoing Assistance**: Continuing support as you become familiar with your assistive devices
 - **Future Planning**: Anticipating changing needs and technology updates
 
+![Assistive technology and accessibility](/assets/two women looking at alarm.webp)
+
 ### Benefits of Assistive Technology for Seniors in {suburb}
 
 Appropriate assistive technology offers {suburb} seniors numerous advantages:

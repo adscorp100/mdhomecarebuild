@@ -41,6 +41,8 @@ Dietitians provide specialized nutritional advice and support for NDIS participa
 - Weight management for health conditions
 - Tube feeding support
 
+![Allied health disciplines](/assets/dieticiain.webp)
+
 ## Exercise Physiology Services in {suburb}
 
 Exercise Physiologists in {suburb} develop tailored exercise programs to address:

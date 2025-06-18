@@ -51,6 +51,8 @@ Residential aged care facilities in {suburb} typically provide:
 - Emotional and social support
 - Specialized clinical care as needed
 
+![Residential aged care services](/assets/drinkingtea.webp)
+
 ## Accessing Residential Aged Care in {suburb}
 
 1. **Contact My Aged Care:** Call 1800 200 422 or visit their website

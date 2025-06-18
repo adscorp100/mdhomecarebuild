@@ -27,6 +27,8 @@ image: "/assets/clinic.webp"
 - Speech therapy
 - Respiratory therapy
 
+![Clinical care services](/assets/clinic.webp)
+
 ## Why Choose Our {suburb} Health Services
 - Qualified healthcare professionals with specialized training
 - Personalized care plans developed with client input

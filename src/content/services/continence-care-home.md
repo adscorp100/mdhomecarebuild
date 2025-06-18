@@ -36,6 +36,8 @@ When providing continence care in {suburb}, we prioritize:
 - **Environmental Considerations**: Ensuring easy access to bathroom facilities
 - **Product Selection**: Advising on appropriate continence products for individual needs
 
+![Accessible bathroom and personal care](/assets/accessible bathroom.webp)
+
 ### Benefits of Our Continence Care Services in {suburb}
 
 Our continence care services offer {suburb} residents numerous advantages:
