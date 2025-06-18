@@ -467,13 +467,23 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
           <p class="service-description">{genericDescription}</p>
           
           <div class="hero-cta">
-            <a href="/contact" class="cta-primary pulse-animation">
+            <a href="tel:+61863869999" class="cta-primary pulse-animation">
               <div class="cta-text">
-                <span class="desktop-text">Get in Touch</span>
-                <span class="mobile-text">Contact Now</span>
+                <span class="desktop-text">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="phone-icon">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                  08 6386 9999
+                </span>
+                <span class="mobile-text">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="phone-icon">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                  Call Now
+                </span>
               </div>
             </a>
-            <a href="#eligibility-checker" class="cta-secondary">Learn More <span class="down-arrow">↓</span></a>
+            <a href="/contact" class="cta-secondary">Message</a>
           </div>
           <div class="trust-signal">
             <div class="rating-container">
@@ -484,8 +494,8 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
         </div>
       </header>
       
-      <!-- Eligibility Checker Tool -->
-      <div id="eligibility-checker">
+      <!-- Eligibility Checker Tool - Will be injected into content via JavaScript -->
+      <div id="eligibility-checker-template" style="display: none;">
         <EligibilityChecker />
       </div>
       
@@ -798,6 +808,16 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .desktop-text, .mobile-text {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .phone-icon {
+    flex-shrink: 0;
   }
 
   .social-proof {
@@ -1371,6 +1391,41 @@ document.addEventListener('DOMContentLoaded', () => {
       '{state}': 'nationwide'
     });
   }
+
+  // Inject eligibility checker after the second paragraph in content
+  const injectEligibilityChecker = () => {
+    const contentContainer = document.getElementById('content-container');
+    const eligibilityTemplate = document.getElementById('eligibility-checker-template');
+    
+    if (contentContainer && eligibilityTemplate) {
+      // Find all paragraphs in the content (excluding those inside headers)
+      const paragraphs = contentContainer.querySelectorAll('p');
+      
+      if (paragraphs.length >= 2) {
+        // Clone the eligibility checker template
+        const eligibilityChecker = eligibilityTemplate.cloneNode(true) as HTMLElement;
+        eligibilityChecker.id = 'eligibility-checker-injected';
+        eligibilityChecker.style.display = 'block';
+        eligibilityChecker.style.margin = '3rem 0';
+        eligibilityChecker.style.padding = '2rem 0';
+        eligibilityChecker.style.borderTop = '1px solid #eee';
+        eligibilityChecker.style.borderBottom = '1px solid #eee';
+        
+        // Insert after the second paragraph
+        const secondParagraph = paragraphs[1];
+        if (secondParagraph.parentNode) {
+          secondParagraph.parentNode.insertBefore(eligibilityChecker, secondParagraph.nextSibling);
+        }
+        
+        console.log('Eligibility checker injected after second paragraph');
+      } else {
+        console.warn('Less than 2 paragraphs found, eligibility checker not injected');
+      }
+    }
+  };
+  
+  // Inject eligibility checker after content is processed
+  setTimeout(injectEligibilityChecker, 100);
   
   const searchInput = document.getElementById('suburb-search') as HTMLInputElement;
   
