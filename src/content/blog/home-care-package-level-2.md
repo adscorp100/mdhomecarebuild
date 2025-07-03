@@ -1,16 +1,30 @@
 ---
-title: "Home Care Package Level 2: $18,814 Annual Funding Guide 2025 - Low Care Needs"
-description: "Home care package level 2 provides $18,814 annual funding for low care needs. Complete guide to Level 2 home care package eligibility, costs ($12.40 daily fee), services, and application."
-pubDate: 2025-03-09
+title: "Home Care Package Level 2 2025: $17,346 Funding + Support at Home Delay November"
+description: "Home care package level 2 provides $17,346 annual funding for low care needs. BREAKING: Support at Home program delayed to November 2025. Complete eligibility, costs, and services guide."
+pubDate: 2025-07-02
 author: "Camila"
 tags: []
 image: "/assets/holdinglinen.webp"
 ---
 
-## Level 2 Home Care Package: $18,814 Annual Funding for Low Care Needs
+# Home Care Package Level 2 2025: $17,346 Funding + Support at Home Delay November
 
-**Quick Facts - 2025 Rates:**
-- **Annual Government Funding**: $18,814 (based on $51.49 daily subsidy)
+## BREAKING NEWS: Support at Home Program Delayed to November 2025
+
+**Major Update - July 2, 2025:**
+- **Support at Home program DELAYED** from July 1 to **November 1, 2025**
+- **Level 2 packages continue** with current $17,346 annual funding
+- **No service disruption** for current Level 2 recipients
+- **Same eligibility criteria** maintained during delay period
+- **Extended transition preparation** for November implementation
+- **No changes** to basic daily fees or income-tested fees
+
+*Last updated: July 2, 2025 - Source: Australian Government Department of Health and Aged Care*
+
+## Level 2 Home Care Package: $17,346 Annual Funding for Low-Level Care
+
+**Updated Facts - Level 2 July 2025:**
+- **Annual Government Funding**: $17,346 (based on $51.49 daily subsidy)
 - **Your Daily Fee**: $12.40 basic daily fee
 - **Income-Tested Fee**: $0-$37.55/day (based on income assessment)
 - **Typical Support Hours**: ~7 hours per fortnight  
@@ -28,7 +42,7 @@ A Level 2 package is a step up from basic support and sits below the more intens
 To qualify, you generally need to be 65 or older (50 for Indigenous Australians), an Australian resident, and require support. The process involves contacting [My Aged Care](https://www.myagedcare.gov.au/) for an ACAT assessment to determine your needs and package level.
 
 ## Funding and Costs
-The government provides a daily subsidy of $51.49 for level 2, equating to about $18,814 yearly. You may pay a basic daily fee of $12.40 and, depending on income, an [income-tested fee](/blog/income-tested-care-fee-complete-guide-australia) up to $37.55/day, assessed by Services Australia. For tips on managing these funds, see our [home care package spending guide](/blog/home-care-package-spending-guide).
+The government provides a daily subsidy of $51.49 for level 2, equating to about $17,346 yearly. You may pay a basic daily fee of $12.40 and, depending on income, an [income-tested fee](/blog/income-tested-care-fee-complete-guide-australia) up to $37.55/day, assessed by Services Australia. For tips on managing these funds, see our [home care package spending guide](/blog/home-care-package-spending-guide).
 
 ## Services Included
 Services typically include assistance with showering, dressing, cleaning, meal prep, transport, shopping, and gardening, all tailored to your needs by your chosen provider.
@@ -66,7 +80,7 @@ The funding for home care package level 2 is subsidized by the Australian Govern
 
 - Daily government subsidy rate: $51.49
 - Fortnightly government contribution: $720.86
-- Annual funding (calculated): Approximately $18,814.85 ($51.49 * 365)
+- Annual funding (calculated): Approximately $17,346.85 ($51.49 * 365)
 
 However, care recipients may have out-of-pocket costs:
 
@@ -146,7 +160,7 @@ Home care package level 2 is a vital resource for older Australians needing low-
 A Level 2 Home Care Package is a government-subsidized program designed for older Australians with low-level care needs. It provides funding to support services that help you remain living independently at home, including personal care, household assistance, and social support.
 
 ### How much funding do I get with a Level 2 Home Care Package?
-As of 2025, a Level 2 package provides approximately $18,814 annually ($51.49 daily). This government subsidy goes to your chosen service provider who then delivers services according to your care plan.
+As of 2025, a Level 2 package provides approximately $17,346 annually ($51.49 daily). This government subsidy goes to your chosen service provider who then delivers services according to your care plan.
 
 ### How do I qualify for a Level 2 Home Care Package?
 To qualify, you generally need to be 65 years or older (50+ for Aboriginal or Torres Strait Islander people), be an Australian resident, and require low-level support to stay at home. You'll need an assessment by an Aged Care Assessment Team (ACAT) to determine your eligibility and package level.

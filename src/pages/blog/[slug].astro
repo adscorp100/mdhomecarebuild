@@ -148,12 +148,6 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
           </div>
         </div>
         <!-- End of E-E-A-T Enhancing Authority Section -->
-        
-        <div class="post-tags">
-          {entry.data.tags.map((tag) => (
-            <span class="tag">#{tag}</span>
-          ))}
-        </div>
       </header>
       
       {entry.data.image && (
@@ -182,37 +176,53 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
   }
 
   const serviceKeywords: ServiceKeyword[] = [
-    { slug: 'clinical-care', keywords: ['clinical care', 'nursing services', 'wound care', 'medication administration', 'catheter care', 'ostomy care', 'diabetic management', 'health assessments', 'vital signs monitoring', 'medical assessment', 'nursing', 'clinical', 'high-intensity personal activities', 'medication management', 'monitoring of medical conditions'] },
+    // Clinical/Medical Services - Focus on specific medical terms
+    { slug: 'clinical-care', keywords: ['clinical care', 'nursing services', 'wound care', 'medication administration', 'catheter care', 'ostomy care', 'diabetic management', 'health assessments', 'vital signs monitoring', 'medical assessment', 'nursing care', 'high-intensity personal activities', 'medication management', 'monitoring of medical conditions', 'complex medical needs'] },
     
-    { slug: 'personal-care', keywords: ['personal care', 'bathing assistance', 'grooming', 'personal hygiene', 'showering', 'dressing', 'oral hygiene', 'toileting assistance', 'medication reminders', 'care', 'independence', 'quality of life', 'continence management', 'toileting', 'showering assistance'] },
+    // Personal Care - Specific care activities
+    { slug: 'personal-care', keywords: ['personal care', 'bathing assistance', 'grooming assistance', 'personal hygiene', 'showering assistance', 'dressing assistance', 'oral hygiene', 'toileting assistance', 'medication reminders', 'personal care services', 'continence management', 'personal support'] },
     
-    { slug: 'domestic-assistance', keywords: ['domestic assistance', 'household tasks', 'home help', 'cleaning services', 'meal preparation', 'laundry services', 'gardening', 'shopping', 'household chores', 'domestic', 'cleaning', 'household', 'domestic help', 'laundry', 'daily tasks'] },
+    // Domestic Services - Household specific terms
+    { slug: 'domestic-assistance', keywords: ['domestic assistance', 'household tasks', 'home help', 'cleaning services', 'meal preparation', 'laundry services', 'gardening services', 'shopping assistance', 'household chores', 'domestic support', 'household maintenance', 'domestic help', 'daily household tasks'] },
     
-    { slug: 'respite-care', keywords: ['respite care', 'respite services', 'carer relief', 'short-term care', 'in-home respite', 'short term accommodation', 'STA', 'respite costs', 'carer support', 'respite'] },
+    // Respite Care - Specific to respite
+    { slug: 'respite-care', keywords: ['respite care', 'respite services', 'carer relief', 'short-term care', 'in-home respite', 'short term accommodation', 'STA', 'respite costs', 'carer support', 'respite funding', 'short term respite'] },
     
-    { slug: 'disability-services', keywords: ['disability support', 'disability services', 'NDIS support', 'daily living assistance', 'community participation', 'disability care', 'ndis funding', 'disability assistance', 'person-centered approach', 'disability', 'ndis', 'national disability insurance scheme', 'ndis provider', 'ndis business', 'participant', 'people with disability', 'participant-focused', 'participant plans', 'intermediate care needs'] },
+    // NDIS/Disability Services - Specific NDIS terms
+    { slug: 'disability-services', keywords: ['disability support', 'disability services', 'NDIS support', 'daily living assistance', 'NDIS funding', 'disability assistance', 'person-centered approach', 'NDIS provider', 'NDIS business', 'people with disability', 'participant-focused', 'participant plans', 'intermediate care needs', 'NDIS participants', 'disability support services'] },
     
-    { slug: 'support-workers', keywords: ['support workers', 'care workers', 'disability support workers', 'ndis support worker', 'independent support worker', 'support staff', 'care staff', 'support coordination', 'workers', 'support', 'key personnel', 'staffing', 'hiring compliant staff', 'aged care worker', 'care worker qualifications'] },
+    // Support Workers - Specific worker roles
+    { slug: 'support-workers', keywords: ['support workers', 'care workers', 'disability support workers', 'NDIS support worker', 'independent support worker', 'support staff', 'care staff', 'support worker rates', 'support worker pay', 'key personnel', 'staffing solutions', 'hiring compliant staff', 'aged care worker', 'care worker qualifications', 'qualified support workers'] },
     
-    { slug: 'sil-services', keywords: ['supported independent living', 'SIL', 'supported accommodation', 'group homes', 'shared living support', 'disability accommodation', 'independent living', 'supported living', 'live independently'] },
+    // SIL Services - Independent living specific
+    { slug: 'sil-services', keywords: ['supported independent living', 'SIL', 'supported accommodation', 'group homes', 'shared living support', 'disability accommodation', 'independent living support', 'supported living services', 'SIL services'] },
     
-    { slug: 'disability-home-support-services', keywords: ['disability home support', 'home modifications', 'housing support', 'in-home support', 'home-based care', 'disability home care', 'home support', 'assistive products', 'living independently', 'independent living'] },
+    // Home Support - Home-based care
+    { slug: 'disability-home-support-services', keywords: ['disability home support', 'home modifications', 'housing support', 'in-home support', 'home-based care', 'disability home care', 'home support services', 'assistive products', 'living independently', 'home care assistance'] },
     
-    { slug: 'aged-care-home-modifications-maintenance', keywords: ['home modifications', 'aged care modifications', 'accessibility modifications', 'home maintenance', 'bathroom modifications', 'kitchen modifications', 'ramps', 'handrails', 'modifications', 'aged care', 'premises fit-out', 'safety enhancements', 'installing rails', 'installing ramps'] },
+    // Home Modifications - Specific modifications
+    { slug: 'aged-care-home-modifications-maintenance', keywords: ['home modifications', 'aged care modifications', 'accessibility modifications', 'home maintenance', 'bathroom modifications', 'kitchen modifications', 'ramps installation', 'handrails installation', 'home modification services', 'premises fit-out', 'safety enhancements', 'accessibility improvements'] },
     
-    { slug: 'therapy-services', keywords: ['therapy services', 'physiotherapy', 'occupational therapy', 'speech therapy', 'rehabilitation', 'behavioral therapy', 'psychology', 'exercise physiology', 'counselling', 'dietetics', 'social work', 'therapeutic supports', 'therapy', 'specialized expertise', 'allied health services', 'podiatry'] },
+    // Therapy Services - Specific therapies
+    { slug: 'therapy-services', keywords: ['therapy services', 'physiotherapy', 'occupational therapy', 'speech therapy', 'rehabilitation services', 'behavioral therapy', 'psychology services', 'exercise physiology', 'counselling services', 'dietetics', 'social work', 'therapeutic supports', 'specialized expertise', 'allied health services', 'podiatry services'] },
     
-    { slug: 'transport-services', keywords: ['transport services', 'disability transport', 'assisted transport', 'medical transport', 'transportation assistance', 'ndis transport funding', 'mobility support', 'transport', 'social and recreational activities', 'transport to appointments', 'transport to social events'] },
+    // Transport - Transport specific
+    { slug: 'transport-services', keywords: ['transport services', 'disability transport', 'assisted transport', 'medical transport', 'transportation assistance', 'NDIS transport funding', 'mobility support', 'transport funding', 'social and recreational activities', 'transport to appointments', 'transport to social events'] },
     
-    { slug: 'specialist-disability-accommodation', keywords: ['specialist disability accommodation', 'SDA', 'disability housing', 'accessible housing', 'improved liveability', 'disability accommodation', 'ndis housing', 'accommodation'] },
+    // SDA - Specialist accommodation
+    { slug: 'specialist-disability-accommodation', keywords: ['specialist disability accommodation', 'SDA', 'disability housing', 'accessible housing', 'improved liveability', 'SDA funding', 'NDIS housing', 'accessible accommodation'] },
     
-    { slug: 'community-access-support', keywords: ['community access', 'social participation', 'community inclusion', 'community activities', 'social support', 'social skills', 'community engagement', 'recreational activities', 'community participation', 'community', 'social', 'community networking', 'community services', 'community connections', 'staying active and connected'] },
+    // Community Access - Community participation
+    { slug: 'community-access-support', keywords: ['community access', 'social participation', 'community inclusion', 'community activities', 'social support', 'social skills development', 'community engagement', 'recreational activities', 'community participation', 'community participation support', 'community networking', 'community services', 'community connections', 'staying active and connected'] },
     
-    { slug: 'ndis-specialist-support-coordination', keywords: ['support coordination', 'NDIS coordination', 'disability coordination', 'ndis planning', 'plan management', 'specialist support', 'service coordination', 'coordination', 'local area coordinators', 'LACs', 'support coordinators', 'service agreements', 'care plan', 'chosen provider'] },
+    // Support Coordination - Coordination specific
+    { slug: 'ndis-specialist-support-coordination', keywords: ['support coordination', 'NDIS coordination', 'disability coordination', 'NDIS planning', 'plan management', 'specialist support coordination', 'service coordination', 'support coordinators', 'local area coordinators', 'LACs', 'service agreements', 'care plan coordination', 'chosen provider'] },
     
-    { slug: 'ndis-behaviour-support-practitioner-training', keywords: ['behavior support', 'behaviour support', 'positive behavior support', 'behavior management', 'behavior practitioner', 'behavioral strategies', 'behavioral intervention', 'behaviour', 'safeguarding', 'NDIS Practice Standards', 'NDIS Code of Conduct'] },
+    // Behaviour Support - Behaviour specific
+    { slug: 'ndis-behaviour-support-practitioner-training', keywords: ['behavior support', 'behaviour support', 'positive behavior support', 'behavior management', 'behavior practitioner', 'behavioral strategies', 'behavioral intervention', 'behaviour support services', 'safeguarding practices', 'NDIS Practice Standards', 'NDIS Code of Conduct'] },
     
-    { slug: 'home-care-packages', keywords: ['home care package', 'level 3 home care package', 'level 1 home care package', 'level 2 home care package', 'level 4 home care package', 'consumer-directed care', 'aged care assessment team', 'ACAT', 'my aged care', 'commonwealth home support programme', 'support at home program', 'care needs', 'care recipient', 'government subsidy', 'income-tested care fee', 'basic daily fee', 'additional service fees'] }
+    // Home Care Packages - Package specific
+    { slug: 'home-care-packages', keywords: ['home care package', 'level 3 home care package', 'level 1 home care package', 'level 2 home care package', 'level 4 home care package', 'consumer-directed care', 'aged care assessment team', 'ACAT assessment', 'my aged care', 'commonwealth home support programme', 'support at home program', 'care needs assessment', 'care recipient', 'government subsidy', 'income-tested care fee', 'basic daily fee', 'additional service fees'] }
   ];
   
   // Add service links after DOM is fully loaded
@@ -320,33 +330,253 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
 </style>
 
 <style is:global>
-  /* Global table styles to ensure they apply to content rendered from markdown */
-  .post-content table {
-    display: block;
-    width: 100%;
-    margin-bottom: 1.5rem;
-    font-size: 0.9rem;
-    -webkit-overflow-scrolling: touch;
+  /* Global content styles for markdown-generated content */
+  .post-content {
+    line-height: 1.6;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
   }
   
-  /* Card-style tables for all viewport sizes */
-  .post-content table.responsive-table {
-    display: block;
+  /* Headings */
+  .post-content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+    line-height: 1.2;
+  }
+  
+  .post-content h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+  
+  .post-content h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  .post-content h4 {
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  .post-content h5 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  .post-content h6 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  
+  /* Paragraphs */
+  .post-content p {
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+  }
+  
+  /* Lists - Fixed indentation */
+  .post-content ul, 
+  .post-content ol {
+    margin-bottom: 1.25rem;
+    padding-left: 2rem;
+    list-style-position: outside;
+  }
+
+  .post-content ul {
+    list-style-type: disc;
+  }
+
+  .post-content ol {
+    list-style-type: decimal;
+  }
+
+  .post-content li {
+    margin-bottom: 0.5rem;
+    padding-left: 0.25rem;
+  }
+
+  .post-content li > ul,
+  .post-content li > ol {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .post-content li > ul > li,
+  .post-content li > ol > li {
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Nested list styles */
+  .post-content ul ul {
+    list-style-type: circle;
+  }
+  
+  .post-content ul ul ul {
+    list-style-type: square;
+  }
+  
+  /* Links */
+  .post-content a {
+    color: var(--primary-dark, #3b82f6);
+    text-decoration: underline;
+    text-decoration-color: rgba(59, 130, 246, 0.4);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: text-decoration-color 0.2s ease;
+  }
+  
+  .post-content a:hover {
+    text-decoration-color: rgba(59, 130, 246, 1);
+  }
+  
+  /* Code */
+  .post-content pre {
+    background-color: var(--light-background, #f8f9fa);
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin-bottom: 1.25rem;
+    max-width: 100%;
+    white-space: pre-wrap;
+    word-break: break-all;
+    border: 1px solid #e9ecef;
+  }
+  
+  .post-content code {
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-size: 0.9rem;
+    background-color: #f1f3f4;
+    padding: 0.125rem 0.25rem;
+    border-radius: 3px;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+
+  .post-content pre code {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    font-size: 0.85rem;
+  }
+  
+  /* Blockquotes */
+  .post-content blockquote {
+    border-left: 4px solid var(--primary-dark, #3b82f6);
+    margin: 1.5rem 0;
+    padding: 1rem 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 0 6px 6px 0;
+    font-style: italic;
+  }
+
+  .post-content blockquote p {
+    margin-bottom: 0.5rem;
+  }
+
+  .post-content blockquote p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Images */
+  .post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 1rem 0;
+  }
+  
+  /* Horizontal Rules */
+  .post-content hr {
+    border: none;
+    height: 1px;
+    background-color: #e9ecef;
+    margin: 2rem 0;
+  }
+  
+  /* Strong and emphasis */
+  .post-content strong {
+    font-weight: 600;
+  }
+  
+  .post-content em {
+    font-style: italic;
+  }
+
+  /* Tables */
+  .post-content table {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .post-content .table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    position: relative;
   }
   
-  /* Mobile styles for content elements */
-  @media (max-width: 639px) {
-    .post-content ul, 
-    .post-content ol {
-      padding-left: 2rem !important;
-    }
-    
-    .post-content li {
-      margin-bottom: 0.75rem !important;
-    }
+  .post-content th,
+  .post-content td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .post-content th {
+    background-color: #f8fafc;
+    font-weight: 600;
+    border-bottom: 2px solid #e2e8f0;
+    position: sticky;
+    top: 0;
+  }
+
+  .post-content tr:last-child td {
+    border-bottom: none;
+  }
+
+  .post-content tr:hover {
+    background-color: #f8fafc;
+  }
+  
+  /* Responsive table styles */
+  .post-content table.responsive-table {
+    display: block;
+    border: none;
+    border-radius: 0;
   }
   
   .post-content table.responsive-table thead {
@@ -361,7 +591,7 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
   .post-content table.responsive-table tr {
     display: block;
     margin-bottom: 1rem;
-    border: 1px solid #ddd;
+    border: 1px solid #e2e8f0;
     border-radius: 6px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   }
@@ -372,6 +602,7 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
     text-align: left;
     border: none;
     border-bottom: 1px solid #eee;
+    align-items: flex-start;
   }
   
   .post-content table.responsive-table td:last-child {
@@ -385,20 +616,71 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
     min-width: 120px;
     display: inline-block;
     margin-right: 16px;
-  }
-  
-  /* Traditional table styles - no longer used but kept for reference */
-  .post-content th,
-  .post-content td {
-    border: 1px solid #ddd;
-    padding: 8px 12px;
-    text-align: left;
+    flex-shrink: 0;
   }
 
-  .post-content th {
-    background-color: #f2f2f2;
-    font-weight: 600;
+  /* Mobile responsive adjustments */
+  @media (max-width: 640px) {
+    .post-content {
+      font-size: 0.95rem;
+    }
+    
+    .post-content h1 {
+      font-size: 1.75rem;
+    }
+    
+    .post-content h2 {
+      font-size: 1.4rem;
+      margin-top: 1.5rem;
+    }
+    
+    .post-content h3 {
+      font-size: 1.2rem;
+    }
+
+    .post-content h4 {
+      font-size: 1.05rem;
+    }
+    
+    .post-content ul, 
+    .post-content ol {
+      padding-left: 1.75rem;
+    }
+    
+    .post-content li {
+      margin-bottom: 0.6rem;
+    }
+    
+    .post-content th,
+    .post-content td {
+      padding: 0.6rem 0.8rem;
+      min-width: 120px;
+    }
+    
+    .post-content pre {
+      padding: 0.75rem;
+      font-size: 0.8rem;
+    }
+    
+    .post-content blockquote {
+      margin: 1rem 0;
+      padding: 0.75rem 1rem;
+    }
   }
+
+  /* Tablet adjustments */
+  @media (min-width: 641px) and (max-width: 1023px) {
+    .post-content {
+      font-size: 1.05rem;
+    }
+    
+    .post-content ul, 
+    .post-content ol {
+      padding-left: 2.25rem;
+    }
+  }
+
+  /* These styles are now handled in the global stylesheet above */
 </style>
 
 <script>
@@ -598,7 +880,7 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
   
   .post-header {
     margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0;
     position: static;
     background: none;
     box-shadow: none;
@@ -619,20 +901,6 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
     gap: 0.75rem;
   }
   
-  .post-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin: 0.75rem 0;
-  }
-  
-  .tag {
-    background-color: var(--light-background);
-    padding: 0.25rem 0.75rem;
-    border-radius: 20px;
-    font-size: 0.8rem;
-  }
-  
   .post-content-wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -640,127 +908,7 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
     margin-top: 1.5rem;
   }
   
-  .post-content {
-    line-height: 1.6;
-    font-size: 1rem;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    max-width: 100%;
-  }
-  
-  .post-content h2 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--text-color);
-    border-bottom: 1px solid #eee;
-    padding-bottom: 0.5rem;
-  }
-  
-  .post-content h3 {
-    margin-top: 1.5rem;
-    margin-bottom: 0.75rem;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--text-color);
-  }
-
-  .post-content h4 {
-    margin-top: 1.25rem;
-    margin-bottom: 0.75rem;
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--text-color);
-  }
-  
-  .post-content p {
-    margin-bottom: 1.25rem;
-    font-size: 1rem;
-  }
-  
-  .post-content ul, .post-content ol {
-    margin-bottom: 1.25rem;
-    padding-left: 1.25rem;
-  }
-
-  .post-content li {
-    margin-bottom: 0.5rem;
-  }
-  
-  .post-content pre {
-    background-color: var(--light-background);
-    padding: 0.75rem;
-    border-radius: 4px;
-    overflow-x: auto;
-    margin-bottom: 1.25rem;
-    max-width: 100%;
-    white-space: pre-wrap;
-    word-break: break-all;
-  }
-  
-  .post-content code {
-    font-family: monospace;
-    font-size: 0.9rem;
-    word-break: break-all;
-    word-wrap: break-word;
-  }
-
-  .post-content table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin-bottom: 0;
-    font-size: 0.95rem;
-    border: 1px solid #e2e8f0;
-    border-radius: 6px;
-  }
-
-  .post-content .table-wrapper {
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    margin-bottom: 1.5rem;
-    border-radius: 6px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-  }
-  
-  .post-content th,
-  .post-content td {
-    padding: 0.75rem 1rem;
-    text-align: left;
-    border-bottom: 1px solid #e2e8f0;
-  }
-
-  .post-content th {
-    background-color: #f8fafc;
-    font-weight: 600;
-    border-bottom: 2px solid #e2e8f0;
-    position: sticky;
-    top: 0;
-  }
-
-  .post-content tr:last-child td {
-    border-bottom: none;
-  }
-
-  .post-content tr:hover {
-    background-color: #f8fafc;
-  }
-
-  @media (max-width: 640px) {
-    .post-content th,
-    .post-content td {
-      padding: 0.6rem 0.8rem;
-      min-width: 120px;
-    }
-    
-    .post-content ul, 
-    .post-content ol {
-      padding-left: 1.5rem;
-    }
-  }
+  /* Post content wrapper styles (layout only) */
   
   .post-image {
     margin: 0 0 1.5rem;
@@ -882,9 +1030,7 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
       font-size: 2rem;
     }
     
-    .post-content p {
-      font-size: 1.05rem;
-    }
+
     
     .post-image img {
       max-height: 400px;
@@ -898,7 +1044,7 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
     
     .post-header {
       margin-bottom: 2rem;
-      padding-bottom: 1.5rem;
+      padding-bottom: 0;
     }
     
     .post-header h1 {
@@ -912,10 +1058,6 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
     
     .post-content-wrapper {
       gap: 1.5rem;
-    }
-    
-    .post-content {
-      line-height: 1.7;
     }
   }
   
@@ -1001,27 +1143,6 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
     .post-header h1 {
       font-size: 2.5rem;
     }
-    
-    .post-content h2 {
-      font-size: 1.75rem;
-      margin-top: 3rem;
-      margin-bottom: 1.5rem;
-    }
-    
-    .post-content h3 {
-      font-size: 1.4rem;
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-    }
-    
-    .post-content h4 {
-      font-size: 1.2rem;
-      margin-top: 1.5rem;
-    }
-    
-    .post-content p {
-      margin-bottom: 1.5rem;
-    }
   }
 
   @media (min-width: 1280px) {
@@ -1041,10 +1162,7 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
     }
   }
 
-  .post-content img {
-    max-width: 100%;
-    height: auto;
-  }
+  /* Image styles now in global section */
 
   .post-content .table-wrapper.scrollable::after {
     content: "";
@@ -1153,15 +1271,6 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
 
   /* Mobile specific adjustments */
   @media (max-width: 639px) {
-    .post-content ul, 
-    .post-content ol {
-      padding-left: 2rem;
-    }
-    
-    .post-content li {
-      margin-bottom: 0.75rem;
-    }
-    
     /* Improved mobile TOC scrolling */
     .toc-sidebar .toc-nav.toc-open {
       padding-bottom: 2rem;

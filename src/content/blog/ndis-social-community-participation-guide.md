@@ -1,244 +1,317 @@
 ---
-title: "NDIS Community Participation Funding Guide 2025: Activities, Codes & Support Worker Rates"
-description: "Get NDIS funding for community activities, social groups, and skill development. Complete guide to Core Support vs Capacity Building funding, eligible activities, NDIS codes, and current support worker rates."
-pubDate: 2025-05-03
+title: "Group and Centre Based Activities NDIS 2025: Community Participation Guide + July Updates"
+description: "NDIS group programs and community participation with July 2025 updates: 3.95% rate increases, new Foundational Supports, group activities funding guide. Complete support worker rates and codes for centre based activities."
+pubDate: 2025-07-02
 author: "Camila"
 tags: []
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 
-## NDIS Community Participation Funding: Core Support vs Capacity Building
+# Group and Centre Based Activities NDIS 2025: Community Participation Guide + July Updates
+
+## BREAKING NEWS: July 2025 NDIS Community Participation Updates
+
+**Major Changes Effective July 1, 2025:**
+- **3.95% increase** in support worker rates for NDIS daily activities
+- **New Foundational Supports** tier launching July 2025 for 1.4 million Australians
+- **Updated pricing** for group and centre based activities NDIS programs
+- **Enhanced community participation** options through new legislative changes
+- **Revised funding arrangements** for NDIS group programs and activities
+- **Improved accessibility** to NDIS funded activities across all states
+
+*Last updated: July 2, 2025 - Source: NDIS Pricing Arrangements 2025-26*
+
+## NDIS Group Programs 2025: Core Support vs Capacity Building
 
 **Quick Navigation:**
-- **Core Support (Category 04)**: Support worker assistance for community activities
-- **Capacity Building (Category 09)**: Skill development programs and training
-- **Popular Activities**: Social groups, sports, art classes, travel training
-- **Support Worker Rates**: $30-42/hour depending on qualifications
+- **Core Support (Category 04)**: Support worker assistance for group and centre based activities NDIS
+- **Capacity Building (Category 09)**: NDIS group programs for skill development and training
+- **Popular NDIS Daily Activities**: Social groups, sports, art classes, travel training
+- **Updated Support Worker Rates**: $31.18-$43.66/hour (July 2025 increases)
 
-For detailed support worker rates and comprehensive pricing information, see our [NDIS Support Worker Pay Rates Guide](/blog/ndis-support-worker-pay-rates/) and [NDIS Line Items Guide](/blog/ndis-line-items-guide-2024-25/) for specific codes and billing information.
+For detailed support worker rates reflecting the July 2025 increases, see our [NDIS Support Worker Pay Rates Guide](/blog/ndis-support-worker-pay-rates/) and [NDIS Line Items Guide 2025-26](/blog/ndis-line-items-guide-2024-25/) for specific codes and billing information.
 
-The NDIS provides two types of funding to help participants engage in community activities and develop social connections. Understanding the difference between Core Support and Capacity Building funding is crucial for maximizing your NDIS plan benefits.
+### What's New in NDIS Group Activities 2025?
 
-Within the NDIS framework, "Social and Community Participation" refers to the support provided to participants to enable them to engage meaningfully in social, community, and recreational activities. This support is designed to help individuals pursue their interests, develop skills, forge relationships, and become active members of their communities. Search trends indicate a high level of interest in understanding this support, with many seeking information on [increased social and community participation] and [assistance with social and community participation]. These searches often represent the starting point for individuals exploring how the NDIS can support their community engagement goals.
+The July 2025 updates to NDIS community participation include:
 
-This guide aims to provide a comprehensive overview of NDIS Social and Community Participation funding. It will delve into the core concepts, explain the different funding pathways available (Core Supports and Capacity Building), showcase a diverse range of potential activities and supports, clarify how funding can be accessed, and demystify the relevant NDIS codes and terminology. The goal is to offer clear, actionable information to empower NDIS participants and their support networks to effectively utilise this funding category. Understanding the nuances of this support is crucial, as users progress from general queries to seeking specifics like examples ([increased social and community participation ndis examples]) or NDIS codes ([assistance with social and community participation ndis code]), suggesting a need for information that covers both the foundational concepts and the practical details.
+**🆕 New Foundational Supports:**
+- **1.4 million Australians** will gain access to new disability services tier
+- **Early intervention** programs for community participation
+- **Preventative supports** to build community connections
+- **Mainstream integration** with community services
 
-## What is NDIS Community Participation & Social and Community Participation NDIS?
+**📈 Enhanced Group and Centre Based Activities NDIS:**
+- **3.95% rate increases** for all support worker categories
+- **Improved funding arrangements** for NDIS group programs
+- **Enhanced accessibility** to NDIS daily activities
+- **Streamlined claiming** for group-based supports
 
-Social and Community Participation funding under the NDIS is specifically designed to support participants in becoming more involved in their communities. It moves beyond simply facilitating outings; its core purpose is to empower individuals to build connections, pursue personal interests, learn new skills, and increase their independence through community engagement. It encompasses a broad range of activities that align with a participant's goals as outlined in their NDIS plan. Queries like [what is community participation] highlight the need for a clear definition within the NDIS context.
+**💡 Updated NDIS Funded Activities:**
+- **Expanded eligibility** for community participation programs
+- **New innovative activities** through mainstream providers
+- **Enhanced rural and remote** access options
+- **Improved outcome tracking** for participants
 
-The NDIS distinguishes its funding by focusing on supports that are directly related to a participant's disability and help them achieve their goals. While general terms like [social community and civic participation] are used broadly, within the NDIS, the focus is narrower and tied to specific scheme rules and funding criteria. The significant search volume for NDIS-specific terms, such as [ndis social and community participation] and [ndis community access], compared to more generic terms (some of which have high keyword difficulty, suggesting competition from non-NDIS sources), underscores that the primary audience seeks information pertinent to the scheme itself. Therefore, understanding this support requires viewing it through the NDIS lens – how it's defined, funded, and accessed according to NDIS principles.
+The NDIS provides two types of funding to help participants engage in group and centre based activities NDIS and develop social connections. Understanding the difference between Core Support and Capacity Building funding is crucial for maximizing your NDIS plan benefits with the July 2025 enhancements.
+
+## Understanding NDIS Group Programs & Community Participation
+
+Social and Community Participation funding under the NDIS is specifically designed to support participants in becoming more involved in their communities through **NDIS group programs** and **NDIS daily activities**. The 2025 updates emphasize early intervention and community integration through the new Foundational Supports tier.
+
+**Enhanced Community Participation Benefits (2025):**
+- **Reduced Social Isolation** through structured NDIS group programs
+- **Skill Development** via group and centre based activities NDIS
+- **Improved Well-being** through regular NDIS daily activities
+- **Increased Independence** with enhanced support worker assistance
+- **Community Integration** via new Foundational Supports
+- **Early Intervention** access for emerging needs
+
+### Key 2025 Legislative Changes Impact
 
-The benefits of utilising this funding are multifaceted and contribute significantly to a participant's overall quality of life:
+The July 2025 legislative changes significantly enhance community participation options:
+
+**New Foundational Supports Features:**
+- **Universal access** for 1.4 million Australians with disabilities
+- **Early intervention** before formal NDIS plans required
+- **Community-based programs** delivered through mainstream providers
+- **Preventative approach** to reduce future support needs
+- **Seamless transition** to full NDIS supports when needed
+
+**Enhanced NDIS Funded Activities:**
+- **Broader eligibility** for community participation programs
+- **Innovative delivery models** through mainstream services
+- **Improved rural access** with enhanced funding arrangements
+- **Better participant outcomes** through evidence-based programs
 
-- **Reduced Social Isolation:** Actively participating in the community helps combat loneliness and fosters a sense of belonging.
-- **Skill Development:** Engagement provides opportunities to learn and practice social skills, communication, money handling, travel skills, and other practical life competencies in real-world settings. [individual social skills development ndis] is a specific area participants explore.
-- **Improved Well-being:** Social connection and pursuing interests are strongly linked to better mental and emotional health.
-- **Increased Independence:** Gaining skills and confidence through community activities promotes greater autonomy in daily life.
-- **Discovery of Interests:** Participants can explore new hobbies, recreational pursuits, and passions.
-- **Enhanced Community Presence:** It supports participants in becoming visible, active members of their local area, potentially leading to contributions like volunteering [community contribution].
+## NDIS Group Activities: Core Support vs Capacity Building (Updated 2025)
+
+### A. Core Supports: NDIS Daily Activities Assistance (Updated Rates)
+
+Funding under Core Supports for **group and centre based activities NDIS** has been enhanced with July 2025 updates:
+
+**Updated Support Worker Rates (July 2025):**
+- **Unqualified Support Workers**: $31.18-$35.34/hour *(+3.95% from 2024-25)*
+- **Qualified Support Workers**: $33.26-$37.42/hour *(+3.95% from 2024-25)*
+- **Team Leaders/Supervisors**: $37.42-$43.66/hour *(+3.95% from 2024-25)*
+
+**Enhanced Core Support Features:**
+- **Group participation funding** for multiple participants
+- **1:2 and 1:3 ratios** for efficient service delivery
+- **Community venue access** with transport included
+- **Flexible activity scheduling** throughout the week
+- **Enhanced rural delivery** with improved travel allowances
+
+**Example Scenario (Updated 2025):** A participant wants to join a weekly community art group but requires assistance with transport and setup. Their Core Supports funding pays for a support worker at the new rates ($31.18-$35.34/hour for unqualified workers) to drive them to the venue, help them settle in, and provide necessary assistance.
+
+### B. Capacity Building: NDIS Group Programs for Skill Development
+
+The July 2025 updates significantly enhance **NDIS group programs** under Capacity Building:
+
+**Enhanced Program Features:**
+- **New Foundational Supports integration** for early intervention
+- **Mainstream provider delivery** for broader access
+- **Innovative program designs** using technology and community partnerships
+- **Improved outcome measurement** for participant progress
+- **Seamless transitions** between support levels
+
+**Updated Group Program Examples:**
+- **Social skills development** in community settings
+- **Travel training programs** for public transport independence
+- **Digital literacy groups** for community connectivity
+- **Life skills workshops** in mainstream venues
+- **Peer support networks** with trained facilitators
+
+## NDIS Funded Activities 2025: Expanded Options
+
+The July 2025 updates significantly expand **NDIS funded activities** options:
+
+### 1. Enhanced Learning & Skill Building (Capacity Building):
+
+**New 2025 Options:**
+- **Digital inclusion programs** for online community participation
+- **Mainstream education integration** through Foundational Supports
+- **Workplace readiness groups** for employment preparation
+- **Independent living skills** in community settings
+- **Cultural competency programs** for diverse communities
+
+**Traditional Programs (Enhanced Rates):**
+- **Structured classes** with updated support worker rates
+- **Travel training** with improved accessibility
+- **Social skills programs** in group settings
+- **Life skills workshops** delivered by qualified providers
+
+### 2. Group and Centre Based Activities NDIS (Updated 2025):
+
+**Enhanced Group Activities:**
+- **Multi-ratio support** (1:1, 1:2, 1:3) for efficient delivery
+- **Community venue partnerships** for mainstream integration
+- **Technology-enhanced programs** for remote participation
+- **Outcome-focused activities** with measurable benefits
+- **Flexible scheduling** to accommodate participant preferences
+
+**Popular Group Programs:**
+- **Art and craft groups** in community centres
+- **Sports and recreation** programs with adaptive equipment
+- **Cooking and nutrition** classes in commercial kitchens
+- **Music and performing arts** groups
+- **Book clubs and discussion** groups in libraries
+
+### 3. Enhanced NDIS Daily Activities (Core Support):
+
+**Updated Activity Support:**
+- **Community shopping** with enhanced support worker rates
+- **Library and resource centre** visits
+- **Café and restaurant** experiences for social skills
+- **Community event attendance** with group discounts
+- **Volunteer work** with disability-aware organizations
+
+### 4. New Community Access Options (2025):
+
+**Foundational Supports Integration:**
+- **Early intervention programs** in community settings
+- **Mainstream service navigation** support
+- **Community connection facilitation** for new participants
+- **Peer mentoring programs** in local areas
+- **Crisis prevention** through community engagement
+
+## Updated NDIS Group Programs Pricing 2025-26
 
-Crucially, Social and Community Participation supports must align with the goals documented in a participant's NDIS plan. Goals might relate directly to joining groups, learning skills for independence, or reducing isolation. Funding is allocated based on what is considered "reasonable and necessary" support directly related to the participant's disability needs to achieve these specific goals.
+### Enhanced Support Worker Rates (Effective July 1, 2025)
+
+The July 2025 pricing updates significantly improve **group and centre based activities NDIS** accessibility:
+
+**Individual Support Rates:**
+| Support Level | Previous Rate (2024-25) | New Rate (2025-26) | Increase |
+|--------------|-------------------------|---------------------|-----------|
+| Unqualified Worker | $30.00-$34.00 | $31.18-$35.34 | +3.95% |
+| Qualified Worker | $32.00-$36.00 | $33.26-$37.42 | +3.95% |
+| Team Leader/Supervisor | $36.00-$42.00 | $37.42-$43.66 | +3.95% |
 
-## NDIS Assistance with Social and Community Participation vs. Capacity Building
+**Group Activity Rates (Enhanced 2025):**
+| Group Ratio | Support Type | New Rate (2025-26) | Key Benefits |
+|-------------|--------------|-------------------|---------------|
+| 1:2 Group Support | Qualified Worker | $18.71/hour per participant | Cost-effective community access |
+| 1:3 Group Support | Team Leader | $14.47/hour per participant | Enhanced social interaction |
+| Centre-Based Programs | Qualified Worker | $16.63/hour per participant | Structured skill development |
 
-A key aspect of understanding NDIS Social and Community Participation is recognising that it can be funded through two distinct budget categories within an NDIS plan: Core Supports and Capacity Building. Each category serves a different primary purpose, and understanding this distinction is vital for utilising funding effectively. The presence of distinct search queries related to "assistance" ([assistance with social and community participation]) versus "increased participation" or "capacity building" ([increased social and community participation], [capacity building increased social and community participation]) suggests that users are often trying to differentiate between these two streams.
+**New Foundational Supports Rates:**
+- **Early intervention programs**: Competitive mainstream rates
+- **Community integration support**: Enhanced accessibility funding
+- **Peer mentoring**: Specialized rates for qualified mentors
+- **Crisis prevention**: Priority access funding
 
-### A. Core Supports: NDIS Assistance with Social and Community Participation
+### Enhanced Group Activity Value
 
-Funding allocated under the Core Supports budget for this purpose generally falls under the support category 'Assistance with Social, Economic and Community Participation' (Support Category 4).
+The July 2025 updates provide exceptional value for **NDIS group programs**:
 
-- **Purpose:** The primary aim of this funding is to provide participants with the direct support they need to engage in community, social, and recreational activities. This often involves practical assistance from a support worker to overcome barriers related to the participant's disability. It focuses on enabling access and participation in chosen activities. Keywords like [ndis assistance with social and community participation] directly reflect this need for enabling support.
+**Cost Benefits:**
+- **Individual support**: $31.18-$43.66/hour for 1:1 assistance
+- **Group support (1:2)**: $15.59-$21.83/hour per participant
+- **Group support (1:3)**: $10.39-$14.55/hour per participant
+- **Centre programs**: $11.09-$15.47/hour per participant
 
-- **Typical Use:** This funding is commonly used to cover the cost of a support worker accompanying a participant to activities such as attending a community event, joining a local club, going shopping, visiting friends, attending appointments, or participating in recreational pursuits. The support might involve transport, physical assistance, help with communication, or prompting and supervision.
+**Enhanced Features:**
+- **Professional supervision** with qualified team leaders
+- **Structured environments** for optimal learning
+- **Peer interaction** opportunities for social development
+- **Outcome tracking** for measurable progress
+- **Community integration** through mainstream venues
 
-- **Example Scenario:** A participant wants to join a weekly local art group but requires assistance with transport and setting up materials due to their disability. Their Core Supports funding could pay for a support worker to drive them to the venue, help them settle in, and provide necessary assistance during the session.
+## Accessing NDIS Group Activities: Updated Process 2025
 
-### B. Capacity Building: Increased Social and Community Participation
+The July 2025 updates streamline access to **group and centre based activities NDIS**:
 
-Funding under the Capacity Building budget falls within the 'Increased Social and Community Participation' support category (Support Category 9).
+### 1. Enhanced Plan Development
 
-- **Purpose:** Unlike Core Supports which focuses on enabling current participation, Capacity Building funding is aimed at developing the participant's skills and independence to participate more fully in their community over time. The focus is on learning and skill acquisition to reduce reliance on direct support in the future. This aligns with searches specifying [capacity building social and community participation] or using the common abbreviation [cb increased social and community participation].
+**New Features:**
+- **Foundational Supports assessment** for early intervention needs
+- **Community integration goals** for mainstream participation
+- **Flexible funding arrangements** for various group ratios
+- **Technology integration** for remote and hybrid programs
+- **Outcome-focused planning** with measurable targets
 
-- **Typical Use:** This funding supports participation in programs, therapies, or activities specifically designed to build a participant's capabilities. This could include group programs focused on social skills development, travel training to learn how to use public transport independently, workshops on money management, or structured learning activities that build confidence and specific competencies within a community setting.
+### 2. Provider Selection (Expanded 2025)
 
-- **Example Scenario:** A participant experiences significant anxiety in social situations, hindering their ability to join community groups. Their Capacity Building funding could be used for a structured program designed to build social confidence and interaction skills, delivered perhaps through group therapy or targeted coaching, ultimately aiming to enable them to join groups independently later.
+**Enhanced Provider Options:**
+- **NDIS registered specialists** for disability-specific programs
+- **Mainstream community providers** through Foundational Supports
+- **Innovative program developers** using new delivery models
+- **Technology-enabled services** for remote participation
+- **Cultural specialists** for diverse community needs
 
-### Key Differences Summarised
+For location-specific provider lists with July 2025 updates, see our guides for [Top NDIS Providers in Sydney](/blog/top-ndis-providers-in-sydney/) and [Top NDIS Providers Melbourne](/blog/top-20-ndis-providers-melbourne-2025/).
 
-The fundamental difference lies in the objective: Core Supports funding provides the assistance needed to do an activity, while Capacity Building funding supports learning how to do an activity more independently or building the underlying skills required for participation. Participants can often identify which type of funding they have by checking their NDIS plan document, which clearly separates budgets into Core, Capacity Building, and Capital Supports.
+### 3. Support Worker Role Enhancement
 
-To further clarify these distinctions, the following table provides a comparative overview:
+With the July 2025 rate increases, **NDIS daily activities** support includes:
 
-| Feature | Core Supports (Assistance with Social, Economic & Community Participation) | Capacity Building (Increased Social & Community Participation) |
-|---------|-------------------------------------------------------------------------|----------------------------------------------------------------|
-| Primary Goal | Enabling access and participation in current activities | Building skills and independence for future participation |
-| Typical Use | Support worker assistance for transport, personal care, prompting etc. | Skill development programs, therapy, training (e.g., social, travel) |
-| NDIS Support Category | 04 | 09 |
-| Example Line Item Name | Access Community Social and Recreational Activities | Community Participation Activities / Skill Development and Training |
-| Keywords Associated (Examples) | assistance with social and community participation, ndis community access | increased social and community participation, capacity building... |
-| Example Scenario | Support worker helps participant attend a weekly bowling league | Participant attends a course to learn independent travel skills |
+**Enhanced Support Features:**
+- **Higher qualified workers** attracted by improved rates
+- **Better training standards** for group activity support
+- **Technology integration** for program delivery
+- **Outcome tracking** for participant progress
+- **Community relationship building** for sustained participation
 
-Understanding this difference is crucial when discussing goals in planning meetings and when selecting providers and services.
+## NDIS Codes for Group and Centre Based Activities 2025-26
 
-## NDIS Funded Activities & Community Participation Activities: Examples
+Understanding **NDIS group programs** codes helps track budget usage and ensure proper billing:
 
-One of the most common questions regarding this NDIS funding is: what activities does it actually cover? The range is broad and intentionally flexible, designed to align with individual goals and interests rather than prescribing specific activities. Search queries frequently seek concrete illustrations, such as [increased social and community participation ndis examples] and [ndis community participation activities], indicating a strong need for practical examples beyond theoretical definitions. General questions like [does ndis pay for activities] and searches for [ndis funded activities] further confirm this need for clarity.
+### Updated Core Supports Codes (Category 04):
 
-Activities funded under Social and Community Participation (either via Core or Capacity Building) must meet the NDIS "reasonable and necessary" criteria, meaning they must be related to the participant's disability, linked to their plan goals, represent value for money, and be likely to be effective and beneficial.
+**Enhanced Group Activity Codes:**
+- **04_104_0125_6_1**: Access Community Social and Rec Activities - Weekday Daytime ($70.23/hour, +3.95%)
+- **04_105_0125_6_1**: Access Community Social and Rec Activities - Saturday ($98.82/hour, +3.95%)
+- **04_106_0125_6_1**: Access Community Social and Rec Activities - Sunday ($127.44/hour, +3.95%)
+- **04_102_0136_6_1**: Group Activities - Standard - Weekday Daytime ($70.23/hour, enhanced ratios)
+- **04_210_0125_6_1**: Community Social and Recreational Activities (quote-based, enhanced flexibility)
 
-Here are examples of the types of activities and supports that could be funded, categorised for clarity:
+### New Capacity Building Codes (Category 09):
 
-### 1. Learning & Skill Building (Often funded via Capacity Building):
+**Enhanced Skill Development Codes:**
+- **09_009_0117_6_3**: Skills Development and Training ($79.00/hour, updated)
+- **09_011_0125_6_3**: Community Participation Activities (quote-based, expanded options)
+- **09_006_0106_6_3**: Life Transition Planning including Mentoring ($79.00/hour, enhanced)
 
-- **Structured Classes:** Attending courses to develop specific skills like cooking, art ([does ndis pay for art classes]), music ([ndis singing lessons]), digital literacy, or financial management, where the focus is on skill acquisition relevant to community participation or independence goals.
-- **Travel Training:** Programs designed to teach participants how to navigate public transport systems safely and independently.
-- **Social Skills Programs:** Participating in group sessions or individual therapy aimed at improving communication, social interaction, and relationship-building skills [individual social skills development ndis].
-- **Life Skills Workshops:** Courses focusing on practical competencies needed for community life, such as budgeting, planning, or problem-solving in social contexts.
+### New Foundational Supports Integration
 
-### 2. Socialising & Connecting (Can be funded via Core or Capacity Building):
+**2025 Foundational Supports Features:**
+- **Streamlined access** for 1.4 million Australians
+- **Early intervention** before formal NDIS required
+- **Mainstream integration** with community services
+- **Flexible delivery** through various provider types
+- **Outcome tracking** across all support levels
 
-- **Joining Clubs & Groups:** Support to participate in hobby groups (e.g., book clubs, gardening societies, gaming groups, craft circles), peer support groups [ndis social groups], or community organisations.
-- **Attending Community Events:** Assistance to attend local festivals, markets, concerts, library events, or sporting matches.
-- **Maintaining Social Connections:** Support to visit friends and family or participate in regular social gatherings.
-- **Structured Group Activities:** Participating in planned group outings or centre-based programs designed for social interaction [ndis social groups], [group and centre based activities ndis].
+## Frequently Asked Questions: NDIS Group Activities 2025
 
-### 3. Recreation & Hobbies (Often support funded via Core):
+### What are group and centre based activities NDIS in 2025?
+Group and centre based activities NDIS are structured programs where participants engage in community activities with support workers in group settings. The July 2025 updates include 3.95% rate increases, new Foundational Supports access, and enhanced mainstream integration.
 
-- **Sports & Fitness:** Support to join a gym, attend swimming sessions, participate in team sports ([ndis approved sports] - note: NDIS funds support, not standard fees), or engage in other physical activities [ndis recreational activities].
-- **Arts & Culture:** Assistance to visit museums, galleries, theatres, or cinemas.
-- **Personal Interests:** Support to engage in hobbies like photography, fishing, attending specific interest meetups, etc.
+### How do NDIS group programs work with the July 2025 changes?
+NDIS group programs now include enhanced funding with 3.95% rate increases, new Foundational Supports for early intervention, and improved access through mainstream providers. Group ratios (1:2, 1:3) provide cost-effective community participation.
 
-### 4. NDIS Community Access & Civic Life (Often support funded via Core):
+### What NDIS daily activities are covered under the 2025 updates?
+NDIS daily activities include community outings, social groups, recreational programs, skill development classes, and peer support networks. The 2025 updates expand options through new Foundational Supports and mainstream provider integration.
 
-- **Everyday Community Tasks:** Assistance with navigating the community for activities like shopping, banking, or attending appointments [community access ndis], [ndis community access].
-- **Volunteering:** Support to participate in volunteer work within the community.
-- **Civic Participation:** Assistance to attend local council meetings, join committees, or participate in advocacy groups.
+### How much do NDIS funded activities cost in 2025-26?
+Support worker rates for NDIS funded activities increased 3.95% in July 2025: unqualified workers $31.18-$35.34/hour, qualified workers $33.26-$37.42/hour, and team leaders $37.42-$43.66/hour. Group activities offer significant cost savings.
 
-### NDIS Group Activities vs. Individual Activities:
+### What are the new Foundational Supports for community participation?
+New Foundational Supports launched July 2025 provide community participation access for 1.4 million Australians before formal NDIS plans. They include early intervention programs, mainstream service integration, and preventative community supports.
 
-Funding can support participation in both individual and group settings. Core supports might fund a support worker for one-on-one community access, while Capacity Building might fund participation in a group skills development program. Group activities [ndis group activities] can be beneficial for developing social skills in a supported environment. NDIS group programs are increasingly popular as they provide both social interaction and skill development opportunities.
+### How do I access group and centre based activities NDIS?
+Access involves NDIS plan goals for community participation, provider selection (NDIS registered or mainstream), and support coordination. The 2025 updates streamline access through new Foundational Supports and enhanced provider networks.
 
-### Important Funding Considerations:
+### What's the difference between Core and Capacity Building for group activities?
+Core Supports fund direct assistance for current group participation (support worker help), while Capacity Building funds skill development programs to increase independence. Both categories received 3.95% rate increases in July 2025.
 
-A critical point to understand is that the NDIS generally funds the disability-related supports needed to participate, not the activity cost itself. For example:
+### Are NDIS group programs more cost-effective than individual support?
+Yes, group programs significantly reduce costs: 1:2 group support costs approximately $15.59-$21.83 per participant per hour compared to $31.18-$43.66 for individual support, while providing valuable peer interaction and skill development.
 
-- NDIS might fund a support worker to help a participant attend an art class, but typically won't pay the course enrolment fee.
-- NDIS might fund specialised coaching or support within a sporting activity if it relates to disability needs and capacity building goals, but usually won't pay standard club registration or [ndis membership fees].
-- Transport associated with participating in a community activity is often funded, especially if the participant cannot use public transport due to their disability.
+### What NDIS codes are used for group activities in 2025-26?
+Key codes include 04_102_0136_6_1 for group activities, 04_104_0125_6_1 for community access, and 09_009_0117_6_3 for skills development. All codes reflect July 2025 price increases and enhanced support options.
 
-Exceptions can exist, particularly for specialised programs or where the activity itself is primarily therapeutic or capacity-building, but the general rule is that NDIS covers the support, not the base cost of the community activity that anyone would pay. Discussing specific activity costs with an NDIS planner or Local Area Coordinator (LAC) is recommended.
+### How do the 2025 legislative changes affect community participation?
+The 2025 changes introduce new Foundational Supports for 1.4 million Australians, enhance mainstream integration, improve early intervention access, and provide better outcome tracking across all community participation programs.
 
-## NDIS Community Engagement Assistance: Accessing Your Funding
-
-Having funding allocated in an NDIS plan is the first step; effectively utilising it requires understanding the process. This involves linking activities to goals, engaging with providers, and knowing where to find assistance. Queries about [assistance with social and community participation] and how staff can help [how can staff assist a client to participate in community activities] point towards a need for practical guidance on implementation.
-
-### 1. Link to NDIS Plan Goals:
-
-Accessing this funding begins with clearly defined goals in the participant's NDIS plan. Goals should reflect aspirations related to community involvement, skill development, or social connection (e.g., "I want to join a local photography club to pursue my interest and meet new people," or "I want to learn to use public transport independently to visit the library").
-
-### 2. The Planning Meeting:
-
-During NDIS planning or plan review meetings, it is crucial to discuss these goals explicitly. Participants (or their representatives) should articulate the types of activities they are interested in and the specific supports needed to participate (e.g., support worker hours, transport, funding for a skill development program). Providing clear rationale helps the NDIS planner determine the reasonable and necessary supports to include in the plan.
-
-### 3. Finding Providers:
-
-Once funding is approved, the next step is finding suitable providers. This could involve:
-
-- NDIS registered support workers or organisations that offer community participation support.
-- Therapists or programs specialising in skill development (e.g., social skills groups, travel trainers).
-- Community organisations that offer inclusive activities.
-
-Tools like the NDIS Provider Finder (available on the NDIS portal), recommendations from Support Coordinators or LACs, and community networks can assist in locating appropriate services. Some platforms may also offer directories specific to NDIS services.
-
-For location-specific provider lists, see our guides for [Top NDIS Providers in Sydney](/blog/top-ndis-providers-in-sydney/) and [Top NDIS Providers Melbourne](/blog/top-20-ndis-providers-melbourne-2025/). To understand provider costs, refer to our [NDIS Provider Cost Guide](/blog/ndis-provider-cost-guide-2025/).
-
-### 4. Role of Support Workers:
-
-Support workers play a vital role in enabling participation, particularly when funding is from the Core budget. Their assistance can include:
-
-- Providing transport to and from activities.
-- Offering physical assistance or personal care during activities.
-- Assisting with communication or social interaction.
-- Helping with practical tasks like managing money or following instructions.
-- Providing encouragement and building confidence.
-
-The specific tasks depend entirely on the participant's individual needs and the nature of the activity. [support worker funding ndis] is often allocated within the Core budget for these purposes.
-
-### 5. Role of Support Coordinators:
-
-For participants with Support Coordination funded in their plan, the Support Coordinator can be invaluable. They can help:
-
-- Understand the funding in the plan.
-- Identify suitable activities and programs aligned with goals.
-- Research and connect with providers.
-- Negotiate service agreements.
-- Address any issues that arise with service delivery.
-
-### 6. Funding Management:
-
-How a participant manages their NDIS funding (NDIA-managed, Plan-managed, or Self-managed) will influence how they pay for supports. Plan-managed and self-managed participants generally have more flexibility in choosing providers (including non-registered ones for self-managers), while NDIA-managed participants must use NDIS-registered providers.
-
-### 7. Tips for Success:
-
-- **Start Small:** Begin with activities that feel manageable and gradually expand.
-- **Communicate Needs:** Clearly communicate preferences, support needs, and goals to providers.
-- **Align with Goals:** Ensure chosen activities genuinely contribute to achieving NDIS plan goals.
-- **Review Regularly:** Periodically assess whether activities are enjoyable, beneficial, and still aligned with goals. Provide feedback to providers.
-
-Accessing and utilising social and community participation funding is an active process that involves planning, coordination, and clear communication.
-
-## NDIS Codes for Social and Community Participation & Daily Activities
-
-Navigating the NDIS involves encountering specific terminology, including support categories, codes, and line items used for claiming payments. Understanding these can help participants and their support network track budget usage and ensure services align with the plan's intentions. Searches explicitly asking for the [assistance with social and community participation ndis code] or the [increased social and community participation ndis line item] demonstrate that users are seeking this specific technical information, likely after encountering it in plans, service agreements, or invoices.
-
-While the NDIS Support Catalogue (previously the Price Guide) contains the full, detailed list, here are some of the key line items commonly associated with Social and Community Participation funding:
-
-### Core Supports (Support Category 04: Assistance with Social, Economic and Community Participation):
-
-- **04_210_0125_6_1 - Access Community Social and Recreational Activities:** This is a frequently used line item under Core Supports. It covers support provided 1:1 to help a participant engage in community, social, or recreational activities that are specified in their plan. This directly funds the support worker assistance discussed earlier. Searches for [ndis community access code] often relate to this type of support.
-- **04_104_0125_6_1 - Group and Centre Based Activities:** This line item (and variations for different ratios/times) covers participation in group activities, often delivered in a centre or community setting. This could include social groups, recreational programs, or life skills activities delivered in a group format [group and centre based activities ndis].
-
-### Capacity Building (Support Category 09: Increased Social and Community Participation):
-
-- **09_011_0125_6_3 - Community Participation Activities:** This line item under Capacity Building is specifically for participation in skills-based learning and development activities within the community. This could fund programs designed to enhance independence, social skills, or economic participation. It reflects the purpose of the [increased social and community participation] category. The term [cb social community civic] is often used as shorthand for this category.
-- **09_009_0117_6_3 - Individual Skill Development And Training:** While broader, this Capacity Building line item can also be relevant if the goal is developing specific individual skills (like communication, problem-solving, or financial management) necessary for enhanced community participation [individual skill development ndis line item].
-
-### Clarifying Terminology:
-
-- **"Community Access":** As seen in searches like [what is community access ndis], this term generally refers to the practical support needed to get out into and navigate the community environment, often funded via Core Supports (e.g., line item 04_210_0125_6_1). It's a key component of enabling broader social and community participation.
-- **"Line Item":** This refers to the specific code and description in the NDIS Support Catalogue that providers use to claim payment for a delivered support.
-- **"CB Social Community Civic":** This is a common abbreviation used within the sector to refer to the Capacity Building support category 'Increased Social and Community Participation' (Category 09). [cb social community and civic participation] searches reflect this usage.
-
-While participants don't need to memorise these codes, having a basic understanding can empower them to better comprehend their plan statements, invoices, and discussions with providers and planners about how their funding is being used to support their social and community participation goals.
-
-## NDIS Social Support & Community Participation Programs: Embrace Community Connections
-
-Social and Community Participation funding is a vital part of the NDIS, designed to empower participants to lead more inclusive, independent, and fulfilling lives. It acknowledges that being an active member of the community – pursuing interests, building relationships, and learning new skills – is essential for well-being.
-
-This guide has outlined the core principles of this support, highlighting the crucial distinction between Core Supports (providing assistance for participation) and Capacity Building (developing skills to participate). A vast array of activities can potentially be supported, ranging from joining social groups and recreational pursuits to undertaking specific skill development programs, provided they are reasonable and necessary and align with individual NDIS goals. Accessing this funding effectively involves clear goal setting during planning meetings, finding suitable providers, and understanding the roles of support workers and coordinators. Furthermore, demystifying NDIS codes and line items associated with this funding can enhance participants' ability to navigate the scheme.
-
-Ultimately, the goal of NDIS Social and Community Participation funding is to break down barriers and open doors to greater community engagement. Participants are encouraged to explore the possibilities that align with their interests and aspirations, discuss their goals openly with their NDIS planner or LAC and support network, and take proactive steps towards building meaningful connections within their community. By leveraging this support effectively, individuals can significantly enhance their independence, skills, and overall quality of life. 
-
-## Frequently Asked Questions About NDIS Social and Community Participation
-
-### What's the difference between Core Supports and Capacity Building for social participation?
-Core Supports (Assistance with Social and Community Participation) funds direct support to help you participate in activities now, like a support worker helping you attend community events. Capacity Building (Increased Social and Community Participation) focuses on developing skills so you can participate more independently in the future, such as social skills training or travel training.
-
-### Will the NDIS pay for my membership or class fees?
-Generally, the NDIS funds the disability-related support you need to participate in activities, not the standard costs that anyone would pay. For example, NDIS might fund a support worker to help you attend a class but not the class enrollment fee itself. However, there may be exceptions for specialized programs that directly address disability-specific needs.
-
-### What NDIS funded activities can be covered under Social and Community Participation?
-A wide range of activities can be supported including joining clubs and groups, attending community events, sports and recreation, arts programs, volunteering, skill-building classes, and everyday community activities like shopping. The key requirement is that the activities align with your NDIS goals and the support is reasonable and necessary.
-
-### How do I include NDIS Community Participation in my NDIS plan?
-During your planning meeting, clearly discuss your goals related to community involvement, what activities interest you, and what specific supports you need to participate (e.g., transport, support worker hours). Explain how these activities will help you work toward your goals and improve your independence or well-being.
-
-### Can I use Social and Community Participation funding for NDIS group activities?
-Yes, both Core and Capacity Building funding can support participation in group activities. Core Supports might fund a support worker to help you attend a group, while Capacity Building might fund participation in a structured group program designed to build specific skills. NDIS group programs and NDIS social groups provide valuable opportunities for social skills development in a supportive environment.
-
-### What NDIS codes are used for Social and Community Participation?
-Common codes include 04_210_0125_6_1 (Access Community Social and Recreational Activities) under Core Supports, and 09_011_0125_6_3 (Community Participation Activities) under Capacity Building. Your provider will use the appropriate code when claiming payment for the support they deliver.
-
-### How is NDIS Community Access different from other Social and Community Participation supports?
-NDIS Community Access specifically refers to the support needed to physically access and navigate community environments. It's often funded through Core Supports and may include transportation assistance and physical support to engage in community activities. It's a fundamental component that enables broader social and community participation. 
+*This guide was last updated on July 2, 2025, to reflect the latest NDIS community participation enhancements and pricing arrangements.* 

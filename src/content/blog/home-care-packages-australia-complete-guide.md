@@ -1,20 +1,34 @@
 ---
-title: "Home Care Packages Australia: Complete Guide 2025 - Levels, Costs & Eligibility"
-description: "Complete guide to home care packages Australia: 4 levels, $10,588-$79,473 funding, eligibility requirements, costs, application process, and Support at Home program 2025 changes."
-pubDate: 2025-01-15
+title: "Home Care Packages Australia 2025: Complete Guide + Support at Home Delayed November"
+description: "Home care packages Australia guide: 4 levels, $10,588-$79,473 funding, eligibility, costs. BREAKING: Support at Home program delayed to November 2025. Complete application process guide."
+pubDate: 2025-07-02
 author: "Camila"
 tags: ["home care packages", "aged care packages", "government funded home care", "support at home", "home care australia"]
 image: "/assets/homecare.webp"
 ---
 
+# Home Care Packages Australia 2025: Complete Guide + Support at Home Delayed November
+
+## BREAKING NEWS: Support at Home Program Delayed to November 2025
+
+**Major Update - July 2, 2025:**
+- **Support at Home program DELAYED** from July 1 to **November 1, 2025**
+- **Current packages continue** unchanged with existing funding levels
+- **No disruption** to current home care package recipients
+- **Same funding maintained** for all existing participants
+- **Extended preparation time** for new program implementation
+- **No fee changes** for current recipients during delay period
+
+*Last updated: July 2, 2025 - Source: Australian Government Department of Health and Aged Care*
+
 ## Home Care Packages Australia: Complete Guide to All 4 Levels & $79,473+ Funding
 
-**Quick Facts - Home Care Packages Australia 2025:**
+**Updated Facts - Home Care Packages Australia July 2025:**
 - **Funding Levels**: $10,588 (Level 1) to $79,473 (Level 4) annually
 - **Eligibility**: 65+ years (50+ for Aboriginal/Torres Strait Islander)
-- **Total Packages**: 4 levels based on care needs
+- **Total Packages**: 4 levels based on care needs (continues until November 2025)
 - **Application**: Through My Aged Care (1800 200 422)
-- **⚠️ Major Update**: Support at Home program launches July 2025
+- **Current Status**: Existing system extended to November 1, 2025
 
 Home Care Packages provide government-funded support to help older Australians remain living independently at home. With funding ranging from $10,588 to $79,473 annually across four package levels, these programs offer personalized care services tailored to individual needs and preferences.
 
