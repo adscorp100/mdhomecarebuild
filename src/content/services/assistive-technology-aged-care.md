@@ -4,6 +4,7 @@ description: "Specialized assistive technology solutions for seniors in {suburb}
 pubDate: 2025-04-22
 category: "Assistive Technology"
 image: "/assets/accessible-bathroom.webp"
+keywords: []
 ---
 
 ## Assistive Technology for Aged Care in {suburb}

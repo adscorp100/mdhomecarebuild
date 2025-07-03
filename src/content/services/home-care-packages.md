@@ -4,7 +4,7 @@ description: "Professional home care packages in {suburb} and surrounding areas.
 pubDate: 2025-02-23
 category: "Services"
 image: "/assets/grandmawhite.webp"
-tags: ["home care packages", "self managed home care packages", "home care providers", "home care packages {suburb}", "aged care packages", "home care package level 3", "home care package level 4"]
+keywords: ["home care packages", "self managed home care packages", "home care providers", "home care packages {suburb}", "aged care packages", "home care package level 3", "home care package level 4"]
 author: "MD Homecare Team"
 ---
 

@@ -583,7 +583,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Inject eligibility checker after the second paragraph in content
   const injectEligibilityChecker = () => {
-    const contentContainer = document.getElementById('content-container');
     const eligibilityTemplate = document.getElementById('eligibility-checker-template');
     
     if (contentContainer && eligibilityTemplate) {
@@ -614,9 +613,248 @@ document.addEventListener('DOMContentLoaded', () => {
   // Inject eligibility checker after content is processed
   setTimeout(injectEligibilityChecker, 100);
 
+  // Comprehensive Markdown Content Styling
+  if (contentContainer) {
+    // Existing styles
+    contentContainer.style.fontSize = '1.1rem';
+    contentContainer.style.lineHeight = '1.8';
+    contentContainer.style.color = '--text-color';
+    contentContainer.style.maxWidth = '900px';
+    contentContainer.style.margin = '0 auto';
+    contentContainer.style.padding = '0 1rem';
 
+    // Headings
+    contentContainer.querySelectorAll('h1').forEach(heading => {
+      heading.style.fontSize = '2.5rem';
+      heading.style.fontWeight = '800';
+      heading.style.marginTop = '3rem';
+      heading.style.marginBottom = '1.5rem';
+      heading.style.color = '--text-color';
+      heading.style.lineHeight = '1.2';
+      heading.style.letterSpacing = '-0.02em';
+      heading.style.borderBottom = '2px solid var(--primary-color)';
+      heading.style.paddingBottom = '0.5rem';
+    });
 
+    contentContainer.querySelectorAll('h2').forEach(heading => {
+      heading.style.marginTop = '3rem';
+      heading.style.marginBottom = '1.5rem';
+      heading.style.fontSize = '1.75rem';
+      heading.style.fontWeight = '700';
+      heading.style.color = '--text-color';
+      heading.style.borderBottom = '1px solid #eee';
+      heading.style.paddingBottom = '0.5rem';
+      heading.style.letterSpacing = '-0.01em';
+    });
 
+    contentContainer.querySelectorAll('h3').forEach(heading => {
+      heading.style.marginTop = '2rem';
+      heading.style.marginBottom = '1rem';
+      heading.style.fontSize = '1.4rem';
+      heading.style.fontWeight = '600';
+      heading.style.color = '--text-color';
+      heading.style.letterSpacing = '-0.01em';
+    });
+
+    contentContainer.querySelectorAll('h4').forEach(heading => {
+      heading.style.marginTop = '1.5rem';
+      heading.style.marginBottom = '1rem';
+      heading.style.fontSize = '1.2rem';
+      heading.style.fontWeight = '600';
+      heading.style.color = '--text-color';
+    });
+
+    contentContainer.querySelectorAll('h5').forEach(heading => {
+      heading.style.marginTop = '1.25rem';
+      heading.style.marginBottom = '0.75rem';
+      heading.style.fontSize = '1.1rem';
+      heading.style.fontWeight = '600';
+      heading.style.color = '--text-color';
+    });
+
+    contentContainer.querySelectorAll('h6').forEach(heading => {
+      heading.style.marginTop = '1rem';
+      heading.style.marginBottom = '0.5rem';
+      heading.style.fontSize = '1rem';
+      heading.style.fontWeight = '600';
+      heading.style.color = '--text-color';
+    });
+
+    // Paragraphs
+    contentContainer.querySelectorAll('p').forEach(paragraph => {
+      paragraph.style.marginBottom = '1.5rem';
+      paragraph.style.fontSize = '1.05rem';
+      paragraph.style.lineHeight = '1.7';
+    });
+
+    // Lists
+    contentContainer.querySelectorAll('ul, ol').forEach(list => {
+      list.style.marginBottom = '1.5rem';
+      list.style.paddingLeft = '2rem';
+      list.style.listStylePosition = 'outside';
+    });
+
+    contentContainer.querySelectorAll('ul').forEach(list => {
+      list.style.listStyleType = 'disc';
+    });
+
+    contentContainer.querySelectorAll('ol').forEach(list => {
+      list.style.listStyleType = 'decimal';
+    });
+
+    contentContainer.querySelectorAll('li').forEach(li => {
+      li.style.marginBottom = '0.5rem';
+      li.style.paddingLeft = '0.25rem';
+      li.style.lineHeight = '1.6';
+    });
+
+    contentContainer.querySelectorAll('li > ul, li > ol').forEach(nestedList => {
+      nestedList.style.marginTop = '0.5rem';
+      nestedList.style.marginBottom = '0.5rem';
+      nestedList.style.paddingLeft = '1.5rem';
+    });
+
+    contentContainer.querySelectorAll('li > ul > li, li > ol > li').forEach(nestedItem => {
+      nestedItem.style.marginBottom = '0.25rem';
+    });
+
+    // Nested list styles
+    contentContainer.querySelectorAll('ul ul').forEach(list => {
+      list.style.listStyleType = 'circle';
+    });
+
+    contentContainer.querySelectorAll('ul ul ul').forEach(list => {
+      list.style.listStyleType = 'square';
+    });
+
+    // Links
+    contentContainer.querySelectorAll('a').forEach(link => {
+      link.style.color = '--primary-color';
+      link.style.textDecoration = 'underline';
+      link.style.textDecorationColor = 'rgba(var(--primary-rgb), 0.4)';
+      link.style.textDecorationThickness = '1px';
+      link.style.textUnderlineOffset = '2px';
+      link.style.transition = 'all 0.2s ease';
+      link.style.fontWeight = '500';
+    });
+
+    contentContainer.querySelectorAll('a:hover').forEach(link => {
+      link.style.color = '--primary-dark';
+      link.style.textDecorationColor = '--primary-dark';
+      link.style.transform = 'translateY(-1px)';
+    });
+
+    // Strong and emphasis
+    contentContainer.querySelectorAll('strong').forEach(strong => {
+      strong.style.fontWeight = '700';
+      strong.style.color = '--text-color';
+    });
+
+    contentContainer.querySelectorAll('em').forEach(em => {
+      em.style.fontStyle = 'italic';
+      em.style.color = '--text-light';
+    });
+
+    // Blockquotes
+    contentContainer.querySelectorAll('blockquote').forEach(blockquote => {
+      blockquote.style.borderLeft = '4px solid var(--primary-color)';
+      blockquote.style.margin = '2rem 0';
+      blockquote.style.padding = '1.5rem 2rem';
+      blockquote.style.backgroundColor = '--light-background';
+      blockquote.style.borderRadius = '0 8px 8px 0';
+      blockquote.style.fontStyle = 'italic';
+      blockquote.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.05)';
+    });
+
+    contentContainer.querySelectorAll('blockquote p').forEach(paragraph => {
+      paragraph.style.marginBottom = '0.5rem';
+      paragraph.style.fontSize = '1.1rem';
+    });
+
+    contentContainer.querySelectorAll('blockquote p:last-child').forEach(paragraph => {
+      paragraph.style.marginBottom = '0';
+    });
+
+    // Code
+    contentContainer.querySelectorAll('pre').forEach(pre => {
+      pre.style.backgroundColor = '--light-background';
+      pre.style.padding = '1.5rem';
+      pre.style.borderRadius = '8px';
+      pre.style.overflowX = 'auto';
+      pre.style.marginBottom = '1.5rem';
+      pre.style.border = '1px solid var(--border-color)';
+      pre.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.05)';
+    });
+
+    contentContainer.querySelectorAll('code').forEach(code => {
+      code.style.fontFamily = 'Monaco, Menlo, Ubuntu Mono, monospace';
+      code.style.fontSize = '0.9rem';
+      code.style.backgroundColor = '#f1f3f4';
+      code.style.padding = '0.2rem 0.4rem';
+      code.style.borderRadius = '4px';
+      code.style.color = '--text-color';
+    });
+
+    contentContainer.querySelectorAll('pre code').forEach(code => {
+      code.style.backgroundColor = 'transparent';
+      code.style.padding = '0';
+      code.style.borderRadius = '0';
+      code.style.fontSize = '0.85rem';
+    });
+
+    // Images
+    contentContainer.querySelectorAll('img').forEach(img => {
+      img.style.maxWidth = '100%';
+      img.style.height = 'auto';
+      img.style.borderRadius = '8px';
+      img.style.margin = '2rem 0';
+      img.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.1)';
+      img.style.display = 'block';
+    });
+
+    // Horizontal Rules
+    contentContainer.querySelectorAll('hr').forEach(hr => {
+      hr.style.border = 'none';
+      hr.style.height = '2px';
+      hr.style.background = 'linear-gradient(to right, var(--primary-color), var(--primary-light))';
+      hr.style.margin = '3rem 0';
+      hr.style.borderRadius = '1px';
+    });
+
+    // Tables
+    contentContainer.querySelectorAll('table').forEach(table => {
+      table.style.width = '100%';
+      table.style.borderCollapse = 'separate';
+      table.style.borderSpacing = '0';
+      table.style.marginBottom = '1.5rem';
+      table.style.fontSize = '0.95rem';
+      table.style.border = '1px solid var(--border-color)';
+      table.style.borderRadius = '8px';
+      table.style.overflow = 'hidden';
+      table.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.05)';
+    });
+
+    contentContainer.querySelectorAll('th, td').forEach(cell => {
+      cell.style.padding = '0.75rem 1rem';
+      cell.style.textAlign = 'left';
+      cell.style.borderBottom = '1px solid var(--border-color)';
+    });
+
+    contentContainer.querySelectorAll('th').forEach(th => {
+      th.style.backgroundColor = '--light-background';
+      th.style.fontWeight = '600';
+      th.style.color = '--text-color';
+      th.style.borderBottom = '2px solid var(--border-color)';
+    });
+
+    contentContainer.querySelectorAll('tr:last-child td').forEach(cell => {
+      cell.style.borderBottom = 'none';
+    });
+
+    contentContainer.querySelectorAll('tr:hover').forEach(row => {
+      row.style.backgroundColor = 'rgba(var(--primary-rgb), 0.02)';
+    });
+  }
 });
 </script>
 
@@ -685,8 +923,6 @@ document.addEventListener('DOMContentLoaded', () => {
     margin-bottom: 1.5rem;
     align-items: center;
   }
-
-
 
   .category-tag, .location-tag {
     display: inline-block;
@@ -909,8 +1145,6 @@ document.addEventListener('DOMContentLoaded', () => {
       transform: translateY(2px);
     }
   }
-
-
 
   .service-content {
     padding-top: 4rem;
@@ -1175,8 +1409,6 @@ document.addEventListener('DOMContentLoaded', () => {
       min-height: 100vh;
       padding: 8rem 1.5rem 4rem;
     }
-
-
 
     .hero-content {
       padding: 2.5rem;

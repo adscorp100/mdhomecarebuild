@@ -1,11 +1,10 @@
 ---
 title: "NDIS Cleaning Services {suburb} - Domestic Assistance & Household Support"
 description: "NDIS cleaning services in {suburb}. Professional domestic assistance, household support, and cleaning services for NDIS participants. Registered NDIS provider offering flexible cleaning support."
-keywords: ["ndis cleaning services {suburb}", "ndis domestic assistance {suburb}", "ndis household support", "ndis cleaning"]
 pubDate: 2025-02-23
 category: "Domestic Support"
 image: "/assets/homecare.webp"
-tags: ["ndis cleaning services {suburb}", "ndis domestic assistance", "ndis household support", "domestic assistance ndis {suburb}", "ndis cleaning", "household tasks ndis"]
+keywords: ["ndis cleaning services {suburb}", "ndis domestic assistance {suburb}", "ndis household support", "ndis cleaning", "domestic assistance ndis {suburb}", "household tasks ndis"]
 ---
 
 # NDIS Cleaning Services {suburb} - Professional Domestic Assistance

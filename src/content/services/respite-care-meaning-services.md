@@ -4,7 +4,7 @@ description: "Comprehensive respite care services including occupational therapy
 pubDate: 2025-05-16
 category: "Respite Care"
 image: "/assets/respite care.webp"
-tags: ["respite care", "occupational therapy near me", "arthritis care", "speech therapist", "community nurse", "community nursing", "relief care", "family support"]
+keywords: ["respite care", "occupational therapy near me", "arthritis care", "speech therapist", "community nurse", "community nursing", "relief care", "family support"]
 author: "MD Homecare Team"
 ---
 

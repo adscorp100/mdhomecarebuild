@@ -4,7 +4,7 @@ description: "Professional NDIS plan management services from registered plan ma
 pubDate: 2025-02-23
 category: "Plan Management"
 image: "/assets/ndis-provider-melbourne.webp"
-tags: ["plan manager", "ndis plan management", "plan management ndis", "ndis plan managers", "financial administration"]
+keywords: ["plan manager", "ndis plan management", "plan management ndis", "ndis plan managers", "financial administration"]
 author: "MD Homecare Team"
 
 ---

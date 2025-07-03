@@ -4,7 +4,7 @@ description: "Comprehensive guide to aged care services, home care providers, an
 pubDate: 2025-01-15
 category: "Aged Care"
 image: "/assets/grandmawhite.webp"
-tags: ["aged care services", "aged care providers", "aged care sydney", "aged care melbourne", "aged care adelaide", "aged care gold coast", "what can i spend my aged care package on", "home care"]
+keywords: ["aged care services", "aged care providers", "aged care sydney", "aged care melbourne", "aged care adelaide", "aged care gold coast", "what can i spend my aged care package on", "home care"]
 author: "MD Homecare Team"
 
 ---

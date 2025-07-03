@@ -5,6 +5,7 @@ pubDate: 2025-04-12
 category: "Home Modifications"
 image: "/assets/accessible-bathroom.webp"
 
+keywords: []
 ---
 
 ## Home Modifications for Safety in {suburb}

@@ -662,8 +662,6 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
     text-shadow: none;
   }
 
-
-
   .keyword-tags {
     display: flex;
     flex-wrap: wrap;
@@ -945,6 +943,329 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
     color: var(--text-color);
     max-width: 800px;
     margin: 0 auto;
+  }
+
+  /* Comprehensive Markdown Content Styling */
+  #content-container {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-color);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  /* Headings */
+  #content-container h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+  }
+
+  #content-container h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-color);
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    letter-spacing: -0.01em;
+  }
+
+  #content-container h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-color);
+    letter-spacing: -0.01em;
+  }
+
+  #content-container h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  #content-container h5 {
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  #content-container h6 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  /* Paragraphs */
+  #content-container p {
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  /* Lists */
+  #content-container ul,
+  #content-container ol {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+    list-style-position: outside;
+  }
+
+  #content-container ul {
+    list-style-type: disc;
+  }
+
+  #content-container ol {
+    list-style-type: decimal;
+  }
+
+  #content-container li {
+    margin-bottom: 0.5rem;
+    padding-left: 0.25rem;
+    line-height: 1.6;
+  }
+
+  #content-container li > ul,
+  #content-container li > ol {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+  }
+
+  #content-container li > ul > li,
+  #content-container li > ol > li {
+    margin-bottom: 0.25rem;
+  }
+
+  /* Nested list styles */
+  #content-container ul ul {
+    list-style-type: circle;
+  }
+
+  #content-container ul ul ul {
+    list-style-type: square;
+  }
+
+  /* Links */
+  #content-container a {
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-decoration-color: rgba(var(--primary-rgb), 0.4);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: all 0.2s ease;
+    font-weight: 500;
+  }
+
+  #content-container a:hover {
+    color: var(--primary-dark);
+    text-decoration-color: var(--primary-dark);
+    transform: translateY(-1px);
+  }
+
+  /* Strong and emphasis */
+  #content-container strong {
+    font-weight: 700;
+    color: var(--text-color);
+  }
+
+  #content-container em {
+    font-style: italic;
+    color: var(--text-light);
+  }
+
+  /* Blockquotes */
+  #content-container blockquote {
+    border-left: 4px solid var(--primary-color);
+    margin: 2rem 0;
+    padding: 1.5rem 2rem;
+    background-color: var(--light-background);
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  #content-container blockquote p {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  #content-container blockquote p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Code */
+  #content-container pre {
+    background-color: var(--light-background);
+    padding: 1.5rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  #content-container code {
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-size: 0.9rem;
+    background-color: #f1f3f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    color: var(--text-color);
+  }
+
+  #content-container pre code {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    font-size: 0.85rem;
+  }
+
+  /* Images */
+  #content-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: block;
+  }
+
+  /* Horizontal Rules */
+  #content-container hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, var(--primary-color), var(--primary-light));
+    margin: 3rem 0;
+    border-radius: 1px;
+  }
+
+  /* Tables */
+  #content-container table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  #content-container th,
+  #content-container td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  #content-container th {
+    background-color: var(--light-background);
+    font-weight: 600;
+    color: var(--text-color);
+    border-bottom: 2px solid var(--border-color);
+  }
+
+  #content-container tr:last-child td {
+    border-bottom: none;
+  }
+
+  #content-container tr:hover {
+    background-color: rgba(var(--primary-rgb), 0.02);
+  }
+
+  /* Service-specific styling - keep existing styles that work */
+  .service-body h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-color);
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+  
+  .service-body h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  .service-body h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  
+  .service-body p {
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+  }
+  
+  .service-body ul,
+  .service-body ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .service-body li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-body pre {
+    background-color: var(--light-background);
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  .service-body code {
+    font-family: monospace;
+  }
+
+  .service-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  .service-body th,
+  .service-body td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+  }
+
+  .service-body th {
+    background-color: var(--light-background);
+    font-weight: 600;
+  }
+
+  .service-body tr:nth-child(even) {
+    background-color: #f9f9f9;
   }
 
   .locations-section {
@@ -1410,7 +1731,275 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Inject eligibility checker after content is processed
   setTimeout(injectEligibilityChecker, 100);
-  
+
+  // Comprehensive Markdown Content Styling
+  if (contentContainer) {
+    // Existing styles
+    contentContainer.style.fontSize = '1.1rem';
+    contentContainer.style.lineHeight = '1.8';
+    contentContainer.style.color = 'var(--text-color)';
+    contentContainer.style.maxWidth = '900px';
+    contentContainer.style.margin = '0 auto';
+    contentContainer.style.padding = '0 1rem';
+
+    // Headings
+    contentContainer.querySelectorAll('h1').forEach(heading => {
+      const h = heading as HTMLElement;
+      h.style.fontSize = '2.5rem';
+      h.style.fontWeight = '800';
+      h.style.marginTop = '3rem';
+      h.style.marginBottom = '1.5rem';
+      h.style.color = 'var(--text-color)';
+      h.style.lineHeight = '1.2';
+      h.style.letterSpacing = '-0.02em';
+      h.style.borderBottom = '2px solid var(--primary-color)';
+      h.style.paddingBottom = '0.5rem';
+    });
+
+    contentContainer.querySelectorAll('h2').forEach(heading => {
+      const h = heading as HTMLElement;
+      h.style.marginTop = '3rem';
+      h.style.marginBottom = '1.5rem';
+      h.style.fontSize = '1.75rem';
+      h.style.fontWeight = '700';
+      h.style.color = 'var(--text-color)';
+      h.style.borderBottom = '1px solid #eee';
+      h.style.paddingBottom = '0.5rem';
+      h.style.letterSpacing = '-0.01em';
+    });
+
+    contentContainer.querySelectorAll('h3').forEach(heading => {
+      const h = heading as HTMLElement;
+      h.style.marginTop = '2rem';
+      h.style.marginBottom = '1rem';
+      h.style.fontSize = '1.4rem';
+      h.style.fontWeight = '600';
+      h.style.color = 'var(--text-color)';
+      h.style.letterSpacing = '-0.01em';
+    });
+
+    contentContainer.querySelectorAll('h4').forEach(heading => {
+      const h = heading as HTMLElement;
+      h.style.marginTop = '1.5rem';
+      h.style.marginBottom = '1rem';
+      h.style.fontSize = '1.2rem';
+      h.style.fontWeight = '600';
+      h.style.color = 'var(--text-color)';
+    });
+
+    contentContainer.querySelectorAll('h5').forEach(heading => {
+      const h = heading as HTMLElement;
+      h.style.marginTop = '1.25rem';
+      h.style.marginBottom = '0.75rem';
+      h.style.fontSize = '1.1rem';
+      h.style.fontWeight = '600';
+      h.style.color = 'var(--text-color)';
+    });
+
+    contentContainer.querySelectorAll('h6').forEach(heading => {
+      const h = heading as HTMLElement;
+      h.style.marginTop = '1rem';
+      h.style.marginBottom = '0.5rem';
+      h.style.fontSize = '1rem';
+      h.style.fontWeight = '600';
+      h.style.color = 'var(--text-color)';
+    });
+
+    // Paragraphs
+    contentContainer.querySelectorAll('p').forEach(paragraph => {
+      const p = paragraph as HTMLElement;
+      p.style.marginBottom = '1.5rem';
+      p.style.fontSize = '1.05rem';
+      p.style.lineHeight = '1.7';
+    });
+
+    // Lists
+    contentContainer.querySelectorAll('ul, ol').forEach(list => {
+      const l = list as HTMLElement;
+      l.style.marginBottom = '1.5rem';
+      l.style.paddingLeft = '2rem';
+      l.style.listStylePosition = 'outside';
+    });
+
+    contentContainer.querySelectorAll('ul').forEach(list => {
+      const l = list as HTMLElement;
+      l.style.listStyleType = 'disc';
+    });
+
+    contentContainer.querySelectorAll('ol').forEach(list => {
+      const l = list as HTMLElement;
+      l.style.listStyleType = 'decimal';
+    });
+
+    contentContainer.querySelectorAll('li').forEach(li => {
+      const item = li as HTMLElement;
+      item.style.marginBottom = '0.5rem';
+      item.style.paddingLeft = '0.25rem';
+      item.style.lineHeight = '1.6';
+    });
+
+    contentContainer.querySelectorAll('li > ul, li > ol').forEach(nestedList => {
+      const l = nestedList as HTMLElement;
+      l.style.marginTop = '0.5rem';
+      l.style.marginBottom = '0.5rem';
+      l.style.paddingLeft = '1.5rem';
+    });
+
+    contentContainer.querySelectorAll('li > ul > li, li > ol > li').forEach(nestedItem => {
+      const item = nestedItem as HTMLElement;
+      item.style.marginBottom = '0.25rem';
+    });
+
+    // Nested list styles
+    contentContainer.querySelectorAll('ul ul').forEach(list => {
+      const l = list as HTMLElement;
+      l.style.listStyleType = 'circle';
+    });
+
+    contentContainer.querySelectorAll('ul ul ul').forEach(list => {
+      const l = list as HTMLElement;
+      l.style.listStyleType = 'square';
+    });
+
+    // Links
+    contentContainer.querySelectorAll('a').forEach(link => {
+      const a = link as HTMLElement;
+      a.style.color = 'var(--primary-color)';
+      a.style.textDecoration = 'underline';
+      a.style.textDecorationColor = 'rgba(var(--primary-rgb), 0.4)';
+      a.style.textDecorationThickness = '1px';
+      a.style.textUnderlineOffset = '2px';
+      a.style.transition = 'all 0.2s ease';
+      a.style.fontWeight = '500';
+    });
+
+    // Strong and emphasis
+    contentContainer.querySelectorAll('strong').forEach(strong => {
+      const s = strong as HTMLElement;
+      s.style.fontWeight = '700';
+      s.style.color = 'var(--text-color)';
+    });
+
+    contentContainer.querySelectorAll('em').forEach(em => {
+      const e = em as HTMLElement;
+      e.style.fontStyle = 'italic';
+      e.style.color = 'var(--text-light)';
+    });
+
+    // Blockquotes
+    contentContainer.querySelectorAll('blockquote').forEach(blockquote => {
+      const bq = blockquote as HTMLElement;
+      bq.style.borderLeft = '4px solid var(--primary-color)';
+      bq.style.margin = '2rem 0';
+      bq.style.padding = '1.5rem 2rem';
+      bq.style.backgroundColor = 'var(--light-background)';
+      bq.style.borderRadius = '0 8px 8px 0';
+      bq.style.fontStyle = 'italic';
+      bq.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.05)';
+    });
+
+    contentContainer.querySelectorAll('blockquote p').forEach(paragraph => {
+      const p = paragraph as HTMLElement;
+      p.style.marginBottom = '0.5rem';
+      p.style.fontSize = '1.1rem';
+    });
+
+    contentContainer.querySelectorAll('blockquote p:last-child').forEach(paragraph => {
+      const p = paragraph as HTMLElement;
+      p.style.marginBottom = '0';
+    });
+
+    // Code
+    contentContainer.querySelectorAll('pre').forEach(pre => {
+      const p = pre as HTMLElement;
+      p.style.backgroundColor = 'var(--light-background)';
+      p.style.padding = '1.5rem';
+      p.style.borderRadius = '8px';
+      p.style.overflowX = 'auto';
+      p.style.marginBottom = '1.5rem';
+      p.style.border = '1px solid var(--border-color)';
+      p.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.05)';
+    });
+
+    contentContainer.querySelectorAll('code').forEach(code => {
+      const c = code as HTMLElement;
+      c.style.fontFamily = 'Monaco, Menlo, Ubuntu Mono, monospace';
+      c.style.fontSize = '0.9rem';
+      c.style.backgroundColor = '#f1f3f4';
+      c.style.padding = '0.2rem 0.4rem';
+      c.style.borderRadius = '4px';
+      c.style.color = 'var(--text-color)';
+    });
+
+    contentContainer.querySelectorAll('pre code').forEach(code => {
+      const c = code as HTMLElement;
+      c.style.backgroundColor = 'transparent';
+      c.style.padding = '0';
+      c.style.borderRadius = '0';
+      c.style.fontSize = '0.85rem';
+    });
+
+    // Images
+    contentContainer.querySelectorAll('img').forEach(img => {
+      const i = img as HTMLElement;
+      i.style.maxWidth = '100%';
+      i.style.height = 'auto';
+      i.style.borderRadius = '8px';
+      i.style.margin = '2rem 0';
+      i.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.1)';
+      i.style.display = 'block';
+    });
+
+    // Horizontal Rules
+    contentContainer.querySelectorAll('hr').forEach(hr => {
+      const h = hr as HTMLElement;
+      h.style.border = 'none';
+      h.style.height = '2px';
+      h.style.background = 'linear-gradient(to right, var(--primary-color), var(--primary-light))';
+      h.style.margin = '3rem 0';
+      h.style.borderRadius = '1px';
+    });
+
+    // Tables
+    contentContainer.querySelectorAll('table').forEach(table => {
+      const t = table as HTMLElement;
+      t.style.width = '100%';
+      t.style.borderCollapse = 'separate';
+      t.style.borderSpacing = '0';
+      t.style.marginBottom = '1.5rem';
+      t.style.fontSize = '0.95rem';
+      t.style.border = '1px solid var(--border-color)';
+      t.style.borderRadius = '8px';
+      t.style.overflow = 'hidden';
+      t.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.05)';
+    });
+
+    contentContainer.querySelectorAll('th, td').forEach(cell => {
+      const c = cell as HTMLElement;
+      c.style.padding = '0.75rem 1rem';
+      c.style.textAlign = 'left';
+      c.style.borderBottom = '1px solid var(--border-color)';
+    });
+
+    contentContainer.querySelectorAll('th').forEach(th => {
+      const t = th as HTMLElement;
+      t.style.backgroundColor = 'var(--light-background)';
+      t.style.fontWeight = '600';
+      t.style.color = 'var(--text-color)';
+      t.style.borderBottom = '2px solid var(--border-color)';
+    });
+
+    contentContainer.querySelectorAll('tr:last-child td').forEach(cell => {
+      const c = cell as HTMLElement;
+      c.style.borderBottom = 'none';
+    });
+
+    contentContainer.querySelectorAll('tr:hover').forEach(row => {
+      const r = row as HTMLElement;
+      r.style.backgroundColor = 'rgba(var(--primary-rgb), 0.02)';
+    });
+  }
+
   const searchInput = document.getElementById('suburb-search') as HTMLInputElement;
   
   if (searchInput) {

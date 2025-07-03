@@ -1,11 +1,10 @@
 ---
 title: "NDIS Community Access & Participation Services {suburb}"
 description: "NDIS community access and participation services in {suburb}. Community participation support, social activities, skill development, and community access programs for NDIS participants."
-keywords: ["community participation {suburb}", "community access ndis {suburb}", "ndis community participation", "community participation support"]
 pubDate: 2025-02-23
 category: "Community Services"
 image: "/assets/homecare.webp"
-tags: ["community participation {suburb}", "community access ndis {suburb}", "ndis community participation", "community participation support {suburb}", "social and community participation ndis"]
+keywords: ["community participation {suburb}", "community access ndis {suburb}", "ndis community participation", "community participation support", "community participation support {suburb}", "social and community participation ndis"]
 ---
 
 # NDIS Community Access & Participation Services {suburb}
