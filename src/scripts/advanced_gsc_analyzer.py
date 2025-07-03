@@ -14,6 +14,7 @@ import os
 import sys
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional, Tuple
+from urllib.parse import urlparse
 
 try:
     from googleapiclient.discovery import build
@@ -98,6 +99,27 @@ class AdvancedGSCAnalyzer:
             print(f"❌ GSC query failed: {e}")
             return []
 
+    def query_gsc_data_by_keyword(self, site: str, start_date: str, end_date: str, keyword_filter: str, limit: int = 50) -> List[Dict]:
+        """Query GSC data for a specific keyword to find ranking pages."""
+        request_body = {
+            'startDate': start_date,
+            'endDate': end_date,
+            'dimensions': ['page'],
+            'dimensionFilterGroups': [{'filters': [{'dimension': 'query', 'operator': 'contains', 'expression': keyword_filter}]}],
+            'rowLimit': limit
+        }
+        try:
+            if not self.service:
+                return []
+            response = self.service.searchanalytics().query(siteUrl=site, body=request_body).execute()
+            # Sort by impressions before returning
+            rows = response.get('rows', [])
+            rows.sort(key=lambda x: x['impressions'], reverse=True)
+            return rows
+        except Exception as e:
+            print(f"❌ GSC query for keyword '{keyword_filter}' failed: {e}")
+            return []
+
     def analyze_momentum(self, data_90d: List[Dict], data_7d: List[Dict]) -> Tuple[List[Dict], List[Dict]]:
         """Identify rising and fading keywords based on position changes, weighted by volume."""
         query_data_90d = {row['keys'][0]: row for row in data_90d}
@@ -180,7 +202,7 @@ class AdvancedGSCAnalyzer:
         
         paa_divs = soup.find_all("div", {"class": "related-question-pair"})
         for div in paa_divs:
-            question = div.find("div", role="heading")
+            question = div.find("div", {"role": "heading"})
             if question:
                 paa_questions.append(question.get_text(strip=True))
                 
@@ -234,14 +256,19 @@ class AdvancedGSCAnalyzer:
             print(f"{k['keys'][0]:<50} {k.get('clicks', 0):<8} {k.get('impressions', 0):<12} {ctr:<8.1f} {k.get('position', 0):<10.1f}")
 
 def main():
-    parser = argparse.ArgumentParser(description='Advanced GSC SEO Analyzer')
-    # Auto-detects credentials file path - works from any directory
+    parser = argparse.ArgumentParser(
+        description='Advanced GSC SEO Analyzer. Use --page for full page analysis or --keyword for cannibalization checks.',
+        formatter_class=argparse.RawTextHelpFormatter
+    )
     parser.add_argument('--credentials', default='scripts/gsc_credentials.json', help='Credentials file (auto-detects if not specified)')
-    parser.add_argument('--site', help='Site URL (optional - will use first available)')
-    parser.add_argument('--page', required=True, help='Page filter (e.g., "/fr/features/audio-summarizer")')
-    
+    parser.add_argument('--site', help='Site URL (e.g., "https://mdhomecare.com.au"). Optional - will use first available.')
+
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument('--page', help='Page URI to analyze (e.g., "/blog/my-post" or full URL)')
+    group.add_argument('--keyword', help='Keyword to check for cannibalization (e.g., "ndis price guide")')
+
     args = parser.parse_args()
-    
+
     # Smart credential file detection
     credentials_path = find_credentials_file(args.credentials)
     analyzer = AdvancedGSCAnalyzer(credentials_path)
@@ -251,33 +278,77 @@ def main():
     if not site:
         sites = analyzer.get_sites()
         if not sites:
-            print("❌ No sites available")
-            return
-        site = sites[0]
-        print(f"🌐 Using site: {site}")
+            print("❌ No sites found in GSC account.")
+            sys.exit(1)
+        # Find the main site automatically. Prioritize domain property.
+        domain_property = next((s for s in sites if 'sc-domain:' in s), None)
+        if domain_property:
+            site = domain_property
+        else:
+            # Fallback to the first non-domain property if available, otherwise first site
+            site = next((s for s in sites if 'sc-domain:' not in s), sites[0])
+        print(f"✅ Using auto-detected site: {site}")
+    
+    start_date_90d = (datetime.now() - timedelta(days=90)).strftime('%Y-%m-%d')
+    end_date = datetime.now().strftime('%Y-%m-%d')
 
-    print(f"🔍 Analyzing page: {args.page}...")
+    if args.keyword:
+        print(f"\n🔎 Checking for keyword cannibalization for: '{args.keyword}'")
+        print(f"   (Data from last 90 days for site: {site})")
+        
+        keyword_data = analyzer.query_gsc_data_by_keyword(site, start_date_90d, end_date, args.keyword)
+        
+        if not keyword_data:
+            print("\n✅ No pages found ranking for this keyword or similar terms. It's safe to create a new post.")
+            sys.exit(0)
+            
+        print("\n⚠️  The following pages are already ranking for this keyword or similar terms (sorted by impressions):")
+        print("-" * 110)
+        print(f"{'Page URL':<70} {'Impressions':<15} {'Clicks':<10} {'Position':<10}")
+        print("-" * 110)
+        
+        for row in keyword_data:
+            page_url = row['keys'][0] # Keep the full URL for clarity
+            impressions = row['impressions']
+            clicks = row['clicks']
+            position = row['position']
+            print(f"{page_url:<70} {impressions:<15} {clicks:<10} {position:<10.1f}")
+            
+        print("\n💡 Recommendation: Instead of creating a new post, consider updating the top-ranking page with your new content.")
+        sys.exit(0)
 
-    end_date = datetime.now() - timedelta(days=3)
-    start_date_90d = (end_date - timedelta(days=90)).strftime('%Y-%m-%d')
-    start_date_7d = (end_date - timedelta(days=7)).strftime('%Y-%m-%d')
-    end_date_str = end_date.strftime('%Y-%m-%d')
+    if args.page:
+        page_filter = args.page
+        # If a full URL is provided, extract just the path for filtering.
+        # This makes the filter more reliable, especially for domain properties.
+        if page_filter.startswith('http'):
+            page_filter = urlparse(page_filter).path
 
-    data_90d = analyzer.query_gsc_data(site, start_date_90d, end_date_str, args.page)
-    data_7d = analyzer.query_gsc_data(site, start_date_7d, end_date_str, args.page)
+        # Proceed with original page analysis logic
+        start_date_7d = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
 
-    if not data_90d:
-        print("❌ No data found for the last 90 days. Cannot perform analysis.")
-        return
+        print(f"\n🚀 Fetching data for page containing path: '{page_filter}'")
+        print(f"   (This may take a moment...)")
+        
+        data_90d = analyzer.query_gsc_data(site, start_date_90d, end_date, page_filter, limit=1000)
+        data_7d = analyzer.query_gsc_data(site, start_date_7d, end_date, page_filter, limit=1000)
 
-    top_keywords_90d = sorted(data_90d, key=lambda x: x['clicks'], reverse=True)
-    top_keyword = top_keywords_90d[0]['keys'][0] if top_keywords_90d else ""
+        if not data_90d:
+            print(f"❌ No data found for pages containing '{page_filter}' in the last 90 days.")
+            sys.exit(1)
+            
+        # Get top keyword for SERP analysis
+        top_keyword_by_clicks = sorted(data_90d, key=lambda x: x.get('clicks', 0), reverse=True)[0]['keys'][0]
+        
+        momentum = analyzer.analyze_momentum(data_90d, data_7d)
+        striking_distance = analyzer.find_striking_distance(data_90d)
+        serp = analyzer.analyze_serp(top_keyword_by_clicks)
+        
+        # Get top keywords sorted by clicks for the final report
+        top_keywords_sorted = sorted(data_90d, key=lambda x: x.get('clicks', 0), reverse=True)
 
-    momentum = analyzer.analyze_momentum(data_90d, data_7d)
-    striking_distance = analyzer.find_striking_distance(data_90d)
-    serp = analyzer.analyze_serp(top_keyword)
+        analyzer.print_analysis(page_filter, top_keyword_by_clicks, momentum, striking_distance, serp, top_keywords_sorted)
 
-    analyzer.print_analysis(args.page, top_keyword, momentum, striking_distance, serp, top_keywords_90d)
 
 if __name__ == '__main__':
     main() 

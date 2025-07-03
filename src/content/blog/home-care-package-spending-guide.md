@@ -117,6 +117,28 @@ Your Home Care Package is a valuable resource designed to support your independe
 
 ## Frequently Asked Questions
 
+### Can I buy appliances like a fridge, washing machine, or air conditioner?
+This is one of the most common questions, and the answer has important nuances.
+
+As a general rule, Home Care Package funds **cannot** be used to pay for general household appliances or "white goods" like a standard fridge, television, or washing machine. These are considered normal living expenses that are separate from your care needs.
+
+However, there can be **exceptions** if the item is a form of **assistive technology** essential for your health and safety due to a specific, assessed condition. The key is that the item must help manage your condition, not just improve your home.
+
+Here's how it works in practice:
+- **Standard Air Conditioner:** Unlikely to be approved if it's just for general comfort.
+- **Exception:** An air conditioner or purifier *may* be approved if you have a severe respiratory condition (like COPD or severe asthma) and your doctor confirms that climate control is critical to manage your health at home.
+- **Standard Fridge:** Not covered for storing food.
+- **Exception:** A small, specialized fridge *may* be approved if it's solely for storing essential, temperature-sensitive medications like insulin.
+- **Washing Machine:** Generally not covered.
+- **Exception:** A special washing machine with features to manage severe incontinence might be considered if it's a critical part of your care plan.
+
+**To get an appliance approved, you will almost certainly need:**
+1. A formal assessment from an allied health professional (like an Occupational Therapist).
+2. A letter from your GP or specialist explaining why the item is essential for your health and wellbeing.
+3. To demonstrate that the appliance is a cost-effective solution compared to other options (e.g., a laundry service).
+
+Always discuss this with your provider *before* making any purchases. They can confirm if the item meets the strict criteria based on your care plan.
+
 ### Can I use my Home Care Package to pay for home modifications?
 You can use your Home Care Package for minor home modifications that enhance your safety, accessibility, and independence. These typically include installing grab rails, ramps, shower chairs, raised toilet seats, and easy-access tapware. The modifications must be directly related to your assessed care needs and documented in your care plan. However, HCP funds cannot be used for major structural changes like building extensions, full bathroom renovations, or roof repairs. There's also typically a cost threshold – modifications exceeding $1,500 usually require an occupational therapist assessment and quote comparison. For extensive modifications, you may need to explore other funding sources like the Commonwealth Home Support Programme (CHSP) or state-based home modification grants.
 
