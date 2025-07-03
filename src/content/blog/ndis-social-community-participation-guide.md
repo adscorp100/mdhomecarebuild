@@ -1,71 +1,73 @@
 ---
-title: "Group and Centre Based Activities NDIS 2025: Community Participation Guide + July Updates"
-description: "NDIS group programs and community participation with July 2025 updates: 3.95% rate increases, new Foundational Supports, group activities funding guide. Complete support worker rates and codes for centre based activities."
-pubDate: 2025-07-02
+title: "Increased Social and Community Participation NDIS Code: The Ultimate 2025 Guide"
+description: "Unlock NDIS funding with our guide to the Increased Social and Community Participation NDIS Code. Discover 2025 rates, funded group activities, and how to access foundational supports. Your ultimate resource for NDIS group programs and daily activities."
+pubDate: 2025-07-04
 author: "Camila"
 tags: []
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 
-# Group and Centre Based Activities NDIS 2025: Community Participation Guide + July Updates
+## What is the NDIS Code for Social and Community Participation?
 
-## BREAKING NEWS: July 2025 NDIS Community Participation Updates
+The primary NDIS code for Increased Social and Community Participation is **09_008_0116_6_3** under the Capacity Building support category. This code allows NDIS participants to access a wide range of **NDIS group programs** and **group and centre based activities NDIS** designed to build skills, independence, and social connections.
+
+This guide explains how to use this funding, what activities are covered, and breaks down the latest July 2025 NDIS updates.
+
+### Key July 2025 NDIS Updates
 
 **Major Changes Effective July 1, 2025:**
-- **3.95% increase** in support worker rates for NDIS daily activities
-- **New Foundational Supports** tier launching July 2025 for 1.4 million Australians
-- **Updated pricing** for group and centre based activities NDIS programs
-- **Enhanced community participation** options through new legislative changes
-- **Revised funding arrangements** for NDIS group programs and activities
-- **Improved accessibility** to NDIS funded activities across all states
+- **3.95% Rate Increase**: Support worker rates for all NDIS daily activities have increased.
+- **New Foundational Supports**: A new support tier for 1.4 million Australians, focusing on early intervention and community integration.
+- **Updated Pricing**: Revised pricing for NDIS group programs and activities.
+- **Enhanced Community Participation**: New legislative changes expand options for NDIS funded activities.
 
-*Last updated: July 2, 2025 - Source: NDIS Pricing Arrangements 2025-26*
+*Last updated: July 4, 2025 - Source: NDIS Pricing Arrangements 2025-26*
 
-## NDIS Group Programs 2025: Core Support vs Capacity Building
+## Core vs. Capacity Building: Which Is For You?
 
 **Quick Navigation:**
-- **Core Support (Category 04)**: Support worker assistance for group and centre based activities NDIS
-- **Capacity Building (Category 09)**: NDIS group programs for skill development and training
-- **Popular NDIS Daily Activities**: Social groups, sports, art classes, travel training
-- **Updated Support Worker Rates**: $31.18-$43.66/hour (July 2025 increases)
+- **Core Support (Category 04)**: Covers support worker assistance for NDIS daily activities.
+- **Capacity Building (Category 09)**: Funds NDIS group programs for skill development.
+- **Popular Activities**: Social groups, sports, art classes, travel training.
+- **Updated Rates**: See our detailed breakdown of the July 2025 increases.
 
 For detailed support worker rates reflecting the July 2025 increases, see our [NDIS Support Worker Pay Rates Guide](/blog/ndis-support-worker-pay-rates/) and [NDIS Line Items Guide 2025-26](/blog/ndis-line-items-guide-2024-25/) for specific codes and billing information.
 
-### What's New in NDIS Group Activities 2025?
+### How the 2025 NDIS Updates Affect You
 
 The July 2025 updates to NDIS community participation include:
 
 **🆕 New Foundational Supports:**
-- **1.4 million Australians** will gain access to new disability services tier
-- **Early intervention** programs for community participation
-- **Preventative supports** to build community connections
-- **Mainstream integration** with community services
+- **1.4 million Australians** gain access to a new disability services tier.
+- **Early intervention** programs for building community participation.
+- **Preventative supports** to foster community connections.
+- **Mainstream integration** with local community services.
 
-**📈 Enhanced Group and Centre Based Activities NDIS:**
-- **3.95% rate increases** for all support worker categories
-- **Improved funding arrangements** for NDIS group programs
-- **Enhanced accessibility** to NDIS daily activities
-- **Streamlined claiming** for group-based supports
+**📈 Enhanced Group Activities:**
+- **3.95% rate increases** for all support worker categories.
+- **Improved funding arrangements** for NDIS group programs.
+- **Enhanced accessibility** to NDIS daily activities.
+- **Streamlined claiming** for all group-based supports.
 
-**💡 Updated NDIS Funded Activities:**
-- **Expanded eligibility** for community participation programs
-- **New innovative activities** through mainstream providers
-- **Enhanced rural and remote** access options
-- **Improved outcome tracking** for participants
+**💡 Expanded Funded Activities:**
+- **Expanded eligibility** for community participation programs.
+- **New innovative activities** delivered by mainstream providers.
+- **Enhanced rural and remote** access and funding.
+- **Improved outcome tracking** for NDIS participants.
 
-The NDIS provides two types of funding to help participants engage in group and centre based activities NDIS and develop social connections. Understanding the difference between Core Support and Capacity Building funding is crucial for maximizing your NDIS plan benefits with the July 2025 enhancements.
+The NDIS provides two types of funding to help participants engage in **group and centre based activities NDIS** and develop social connections. Understanding the difference between Core Support and Capacity Building funding is crucial for maximizing your NDIS plan benefits with the July 2025 enhancements.
 
-## Understanding NDIS Group Programs & Community Participation
+## Why NDIS Community Participation Matters
 
 Social and Community Participation funding under the NDIS is specifically designed to support participants in becoming more involved in their communities through **NDIS group programs** and **NDIS daily activities**. The 2025 updates emphasize early intervention and community integration through the new Foundational Supports tier.
 
-**Enhanced Community Participation Benefits (2025):**
-- **Reduced Social Isolation** through structured NDIS group programs
-- **Skill Development** via group and centre based activities NDIS
-- **Improved Well-being** through regular NDIS daily activities
-- **Increased Independence** with enhanced support worker assistance
-- **Community Integration** via new Foundational Supports
-- **Early Intervention** access for emerging needs
+**Benefits of Community Participation (2025):**
+- **Reduced Social Isolation**: Through structured NDIS group programs.
+- **Skill Development**: Via group and centre based activities NDIS.
+- **Improved Well-being**: Through regular NDIS daily activities.
+- **Increased Independence**: With enhanced support worker assistance.
+- **Community Integration**: Via new Foundational Supports.
+- **Early Intervention**: Access for emerging needs.
 
 ### Key 2025 Legislative Changes Impact
 
@@ -84,234 +86,148 @@ The July 2025 legislative changes significantly enhance community participation 
 - **Improved rural access** with enhanced funding arrangements
 - **Better participant outcomes** through evidence-based programs
 
-## NDIS Group Activities: Core Support vs Capacity Building (Updated 2025)
+## Core Support for NDIS Daily Activities
 
-### A. Core Supports: NDIS Daily Activities Assistance (Updated Rates)
-
-Funding under Core Supports for **group and centre based activities NDIS** has been enhanced with July 2025 updates:
+Funding under Core Supports for **group and centre based activities NDIS** is for hands-on assistance from a support worker. The July 2025 updates bring higher rates and more flexibility.
 
 **Updated Support Worker Rates (July 2025):**
-- **Unqualified Support Workers**: $31.18-$35.34/hour *(+3.95% from 2024-25)*
-- **Qualified Support Workers**: $33.26-$37.42/hour *(+3.95% from 2024-25)*
-- **Team Leaders/Supervisors**: $37.42-$43.66/hour *(+3.95% from 2024-25)*
+- **Unqualified Support Workers**: $31.18 - $35.34/hour *(+3.95%)*
+- **Qualified Support Workers**: $33.26 - $37.42/hour *(+3.95%)*
+- **Team Leaders/Supervisors**: $37.42 - $43.66/hour *(+3.95%)*
 
-**Enhanced Core Support Features:**
-- **Group participation funding** for multiple participants
-- **1:2 and 1:3 ratios** for efficient service delivery
-- **Community venue access** with transport included
-- **Flexible activity scheduling** throughout the week
-- **Enhanced rural delivery** with improved travel allowances
+**Core Support Features:**
+- Funding for group participation (1:2 and 1:3 ratios).
+- Covers access to community venues and transport.
+- Flexible scheduling for activities.
+- Improved travel allowances for rural areas.
 
-**Example Scenario (Updated 2025):** A participant wants to join a weekly community art group but requires assistance with transport and setup. Their Core Supports funding pays for a support worker at the new rates ($31.18-$35.34/hour for unqualified workers) to drive them to the venue, help them settle in, and provide necessary assistance.
+**Example Scenario:** A participant wants to join a weekly community art group. Their Core Supports funding pays for a support worker at the new rates to help with transport and provide necessary assistance during the activity.
 
-### B. Capacity Building: NDIS Group Programs for Skill Development
+## Capacity Building for Skill Development
 
-The July 2025 updates significantly enhance **NDIS group programs** under Capacity Building:
+The July 2025 updates significantly enhance **NDIS group programs** under Capacity Building, which focuses on skill development.
 
-**Enhanced Program Features:**
-- **New Foundational Supports integration** for early intervention
-- **Mainstream provider delivery** for broader access
-- **Innovative program designs** using technology and community partnerships
-- **Improved outcome measurement** for participant progress
-- **Seamless transitions** between support levels
+**Program Features:**
+- Integration with new Foundational Supports for early intervention.
+- Delivery through mainstream providers for broader access.
+- Innovative program designs using technology.
+- Improved outcome measurement to track progress.
 
-**Updated Group Program Examples:**
-- **Social skills development** in community settings
-- **Travel training programs** for public transport independence
-- **Digital literacy groups** for community connectivity
-- **Life skills workshops** in mainstream venues
-- **Peer support networks** with trained facilitators
+**Examples of Capacity Building Programs:**
+- Social skills development in community settings.
+- Travel training for public transport independence.
+- Digital literacy groups for online connectivity.
+- Life skills workshops in mainstream venues.
+- Peer support networks with trained facilitators.
 
-## NDIS Funded Activities 2025: Expanded Options
+## What NDIS Funded Activities Are Available?
 
-The July 2025 updates significantly expand **NDIS funded activities** options:
+The July 2025 updates significantly expand the options for **NDIS funded activities**.
 
-### 1. Enhanced Learning & Skill Building (Capacity Building):
+### 1. Learning & Skill Building
 
 **New 2025 Options:**
-- **Digital inclusion programs** for online community participation
-- **Mainstream education integration** through Foundational Supports
-- **Workplace readiness groups** for employment preparation
-- **Independent living skills** in community settings
-- **Cultural competency programs** for diverse communities
+- Digital inclusion programs for online community participation.
+- Mainstream education integration through Foundational Supports.
+- Workplace readiness groups for employment skills.
+- Independent living skills workshops.
 
-**Traditional Programs (Enhanced Rates):**
-- **Structured classes** with updated support worker rates
-- **Travel training** with improved accessibility
-- **Social skills programs** in group settings
-- **Life skills workshops** delivered by qualified providers
-
-### 2. Group and Centre Based Activities NDIS (Updated 2025):
+### 2. Group and Centre-Based Activities
 
 **Enhanced Group Activities:**
-- **Multi-ratio support** (1:1, 1:2, 1:3) for efficient delivery
-- **Community venue partnerships** for mainstream integration
-- **Technology-enhanced programs** for remote participation
-- **Outcome-focused activities** with measurable benefits
-- **Flexible scheduling** to accommodate participant preferences
+- Support for various ratios (1:1, 1:2, 1:3).
+- Partnerships with community venues for mainstream integration.
+- Technology-enhanced programs for remote participation.
 
 **Popular Group Programs:**
-- **Art and craft groups** in community centres
-- **Sports and recreation** programs with adaptive equipment
-- **Cooking and nutrition** classes in commercial kitchens
-- **Music and performing arts** groups
-- **Book clubs and discussion** groups in libraries
+- Art and craft groups.
+- Sports and recreation programs.
+- Cooking and nutrition classes.
+- Music and performing arts groups.
+- Book clubs and discussion groups.
 
-### 3. Enhanced NDIS Daily Activities (Core Support):
+### 3. NDIS Daily Activities (Core Support)
 
-**Updated Activity Support:**
-- **Community shopping** with enhanced support worker rates
-- **Library and resource centre** visits
-- **Café and restaurant** experiences for social skills
-- **Community event attendance** with group discounts
-- **Volunteer work** with disability-aware organizations
+**Examples of Supported Activities:**
+- Community shopping trips.
+- Library and resource centre visits.
+- Attending community events.
+- Volunteering with local organizations.
 
-### 4. New Community Access Options (2025):
+### 4. Community Access Options
 
 **Foundational Supports Integration:**
-- **Early intervention programs** in community settings
-- **Mainstream service navigation** support
-- **Community connection facilitation** for new participants
-- **Peer mentoring programs** in local areas
-- **Crisis prevention** through community engagement
+- Early intervention programs in community settings.
+- Support for navigating mainstream services.
+- Facilitation of community connections for new participants.
+- Peer mentoring programs.
 
-## Updated NDIS Group Programs Pricing 2025-26
+## Updated NDIS Pricing for Group Programs (2025-26)
 
-### Enhanced Support Worker Rates (Effective July 1, 2025)
+The July 2025 pricing updates make **group and centre based activities NDIS** more accessible.
 
-The July 2025 pricing updates significantly improve **group and centre based activities NDIS** accessibility:
+### Support Worker Rates (Effective July 1, 2025)
 
 **Individual Support Rates:**
-| Support Level | Previous Rate (2024-25) | New Rate (2025-26) | Increase |
-|--------------|-------------------------|---------------------|-----------|
-| Unqualified Worker | $30.00-$34.00 | $31.18-$35.34 | +3.95% |
-| Qualified Worker | $32.00-$36.00 | $33.26-$37.42 | +3.95% |
-| Team Leader/Supervisor | $36.00-$42.00 | $37.42-$43.66 | +3.95% |
+| Support Level | New Rate (2025-26) |
+|---|---|
+| Unqualified Worker | $31.18 - $35.34 |
+| Qualified Worker | $33.26 - $37.42 |
+| Team Leader/Supervisor | $37.42 - $43.66 |
 
-**Group Activity Rates (Enhanced 2025):**
-| Group Ratio | Support Type | New Rate (2025-26) | Key Benefits |
-|-------------|--------------|-------------------|---------------|
-| 1:2 Group Support | Qualified Worker | $18.71/hour per participant | Cost-effective community access |
-| 1:3 Group Support | Team Leader | $14.47/hour per participant | Enhanced social interaction |
-| Centre-Based Programs | Qualified Worker | $16.63/hour per participant | Structured skill development |
+**Group Activity Rates:**
+| Group Ratio | Support Type | Rate per Participant |
+|---|---|---|
+| 1:2 Group Support | Qualified Worker | $18.71/hour |
+| 1:3 Group Support | Team Leader | $14.47/hour |
+| Centre-Based Programs | Qualified Worker | $16.63/hour |
 
-**New Foundational Supports Rates:**
-- **Early intervention programs**: Competitive mainstream rates
-- **Community integration support**: Enhanced accessibility funding
-- **Peer mentoring**: Specialized rates for qualified mentors
-- **Crisis prevention**: Priority access funding
-
-### Enhanced Group Activity Value
+### Value of Group Activities
 
 The July 2025 updates provide exceptional value for **NDIS group programs**:
+- **Cost-Effective**: Group support significantly reduces the per-participant hourly cost compared to 1:1 support.
+- **Professional Supervision**: Access to qualified team leaders and structured environments.
+- **Peer Interaction**: Opportunities for social development and connection.
+- **Outcome Tracking**: Measurable progress towards goals.
 
-**Cost Benefits:**
-- **Individual support**: $31.18-$43.66/hour for 1:1 assistance
-- **Group support (1:2)**: $15.59-$21.83/hour per participant
-- **Group support (1:3)**: $10.39-$14.55/hour per participant
-- **Centre programs**: $11.09-$15.47/hour per participant
+## How to Access NDIS Group Activities
 
-**Enhanced Features:**
-- **Professional supervision** with qualified team leaders
-- **Structured environments** for optimal learning
-- **Peer interaction** opportunities for social development
-- **Outcome tracking** for measurable progress
-- **Community integration** through mainstream venues
+The July 2025 updates streamline the process for accessing **group and centre based activities NDIS**.
 
-## Accessing NDIS Group Activities: Updated Process 2025
+### 1. Plan Development
 
-The July 2025 updates streamline access to **group and centre based activities NDIS**:
+Your NDIS plan should include goals related to community integration. The new Foundational Supports assessment can help identify early intervention needs.
 
-### 1. Enhanced Plan Development
+### 2. Finding a Provider
 
-**New Features:**
-- **Foundational Supports assessment** for early intervention needs
-- **Community integration goals** for mainstream participation
-- **Flexible funding arrangements** for various group ratios
-- **Technology integration** for remote and hybrid programs
-- **Outcome-focused planning** with measurable targets
+You can choose from:
+- NDIS registered specialists.
+- Mainstream community providers (through Foundational Supports).
+- Innovative program developers using new delivery models.
 
-### 2. Provider Selection (Expanded 2025)
+For location-specific provider lists, see our guides for [Top NDIS Providers in Sydney](/blog/top-ndis-providers-in-sydney/) and [Top NDIS Providers Melbourne](/blog/top-20-ndis-providers-melbourne-2025/).
 
-**Enhanced Provider Options:**
-- **NDIS registered specialists** for disability-specific programs
-- **Mainstream community providers** through Foundational Supports
-- **Innovative program developers** using new delivery models
-- **Technology-enabled services** for remote participation
-- **Cultural specialists** for diverse community needs
+### 3. Role of a Support Worker
 
-For location-specific provider lists with July 2025 updates, see our guides for [Top NDIS Providers in Sydney](/blog/top-ndis-providers-in-sydney/) and [Top NDIS Providers Melbourne](/blog/top-20-ndis-providers-melbourne-2025/).
+With the July 2025 rate increases, you can expect higher quality support for **NDIS daily activities**. A support worker can help you participate in chosen activities, develop skills, and connect with your community.
 
-### 3. Support Worker Role Enhancement
+## Frequently Asked Questions (FAQ)
 
-With the July 2025 rate increases, **NDIS daily activities** support includes:
+### What is the NDIS code for social and community participation?
+The main support category is "Increased Social and Community Participation" (Category 9). The specific line item code is **09_008_0116_6_3**. This is used for programs that help you build skills to participate in the community. For simple access to community activities with a support worker, you would use your Core Supports budget (Category 4).
 
-**Enhanced Support Features:**
-- **Higher qualified workers** attracted by improved rates
-- **Better training standards** for group activity support
-- **Technology integration** for program delivery
-- **Outcome tracking** for participant progress
-- **Community relationship building** for sustained participation
+### What are NDIS group activities?
+NDIS group activities are funded social and recreational events where multiple NDIS participants can join in. Examples include art classes, sports clubs, cooking groups, and community outings. They are designed to help you build friendships, learn new skills, and become more active in your community.
 
-## NDIS Codes for Group and Centre Based Activities 2025-26
+### What are centre-based activities?
+Centre-based activities are NDIS group programs that take place at a specific location, like a community centre or a provider's facility. These offer structured programs in a safe environment, focusing on skill-building in areas like communication, social interaction, and independent living.
 
-Understanding **NDIS group programs** codes helps track budget usage and ensure proper billing:
+### What is the difference between core and capacity building?
+**Core Supports** fund assistance to help you with your daily life, including participating in community activities. **Capacity Building Supports** are for activities that help you learn new skills and become more independent. For example, Core might pay for a support worker to take you to a concert, while Capacity Building would pay for you to take music lessons.
 
-### Updated Core Supports Codes (Category 04):
+### How do I find NDIS group programs near me?
+You can search the NDIS Provider Finder tool on the official NDIS website. You can also ask your Support Coordinator or Local Area Coordinator (LAC) for recommendations. Finally, MD Home Care offers a range of NDIS group programs and can help you find the right fit.
 
-**Enhanced Group Activity Codes:**
-- **04_104_0125_6_1**: Access Community Social and Rec Activities - Weekday Daytime ($70.23/hour, +3.95%)
-- **04_105_0125_6_1**: Access Community Social and Rec Activities - Saturday ($98.82/hour, +3.95%)
-- **04_106_0125_6_1**: Access Community Social and Rec Activities - Sunday ($127.44/hour, +3.95%)
-- **04_102_0136_6_1**: Group Activities - Standard - Weekday Daytime ($70.23/hour, enhanced ratios)
-- **04_210_0125_6_1**: Community Social and Recreational Activities (quote-based, enhanced flexibility)
+**Ready to explore your options for community participation? [Contact MD Home Care today](/contact) for a free consultation!**
 
-### New Capacity Building Codes (Category 09):
-
-**Enhanced Skill Development Codes:**
-- **09_009_0117_6_3**: Skills Development and Training ($79.00/hour, updated)
-- **09_011_0125_6_3**: Community Participation Activities (quote-based, expanded options)
-- **09_006_0106_6_3**: Life Transition Planning including Mentoring ($79.00/hour, enhanced)
-
-### New Foundational Supports Integration
-
-**2025 Foundational Supports Features:**
-- **Streamlined access** for 1.4 million Australians
-- **Early intervention** before formal NDIS required
-- **Mainstream integration** with community services
-- **Flexible delivery** through various provider types
-- **Outcome tracking** across all support levels
-
-## Frequently Asked Questions: NDIS Group Activities 2025
-
-### What are group and centre based activities NDIS in 2025?
-Group and centre based activities NDIS are structured programs where participants engage in community activities with support workers in group settings. The July 2025 updates include 3.95% rate increases, new Foundational Supports access, and enhanced mainstream integration.
-
-### How do NDIS group programs work with the July 2025 changes?
-NDIS group programs now include enhanced funding with 3.95% rate increases, new Foundational Supports for early intervention, and improved access through mainstream providers. Group ratios (1:2, 1:3) provide cost-effective community participation.
-
-### What NDIS daily activities are covered under the 2025 updates?
-NDIS daily activities include community outings, social groups, recreational programs, skill development classes, and peer support networks. The 2025 updates expand options through new Foundational Supports and mainstream provider integration.
-
-### How much do NDIS funded activities cost in 2025-26?
-Support worker rates for NDIS funded activities increased 3.95% in July 2025: unqualified workers $31.18-$35.34/hour, qualified workers $33.26-$37.42/hour, and team leaders $37.42-$43.66/hour. Group activities offer significant cost savings.
-
-### What are the new Foundational Supports for community participation?
-New Foundational Supports launched July 2025 provide community participation access for 1.4 million Australians before formal NDIS plans. They include early intervention programs, mainstream service integration, and preventative community supports.
-
-### How do I access group and centre based activities NDIS?
-Access involves NDIS plan goals for community participation, provider selection (NDIS registered or mainstream), and support coordination. The 2025 updates streamline access through new Foundational Supports and enhanced provider networks.
-
-### What's the difference between Core and Capacity Building for group activities?
-Core Supports fund direct assistance for current group participation (support worker help), while Capacity Building funds skill development programs to increase independence. Both categories received 3.95% rate increases in July 2025.
-
-### Are NDIS group programs more cost-effective than individual support?
-Yes, group programs significantly reduce costs: 1:2 group support costs approximately $15.59-$21.83 per participant per hour compared to $31.18-$43.66 for individual support, while providing valuable peer interaction and skill development.
-
-### What NDIS codes are used for group activities in 2025-26?
-Key codes include 04_102_0136_6_1 for group activities, 04_104_0125_6_1 for community access, and 09_009_0117_6_3 for skills development. All codes reflect July 2025 price increases and enhanced support options.
-
-### How do the 2025 legislative changes affect community participation?
-The 2025 changes introduce new Foundational Supports for 1.4 million Australians, enhance mainstream integration, improve early intervention access, and provide better outcome tracking across all community participation programs.
-
-*This guide was last updated on July 2, 2025, to reflect the latest NDIS community participation enhancements and pricing arrangements.* 
+*This guide was last updated on July 4, 2025, to reflect the latest NDIS community participation enhancements and pricing arrangements.* 

@@ -1,103 +1,113 @@
 ---
-title: "Home Care Package Changes: The New Support at Home Program"
-description: "No summary available"
-pubDate: 2025-03-09
-author: "Camila"
-tags: []
-image: "/assets/Doing Dishes.webp"
+title: "Support at Home Program 2025: A Complete Guide to the Home Care Package Changes"
+description: "The Support at Home program replaces Home Care Packages from November 2025. This guide explains the changes, what it means for your funding, and how to access services like home modifications."
+pubDate: 2025-07-04T00:00:00Z
+author: "MD Home Care"
+tags: ["Support at Home", "Home Care Packages", "Aged Care", "Aged Care Reform", "Home Modifications"]
+image: "/assets/drinkingtea.webp"
 ---
 
-## Key Points
-- The Support at Home program, starting July 1, 2025, replaces existing in-home aged care programs to help older Australians live independently longer.
-- It seems likely that the program will simplify access with a Single Assessment System and offer flexible services like clinical care, independence support, and home modifications.
-- Research suggests contributions will vary based on means testing, with no charge for clinical services and lower fees for Commonwealth Seniors Health Card holders.
-- The evidence leans toward current Home Care Package holders transitioning smoothly, with no new assessments needed unless needs change.
+A major change is coming to aged care in Australia. The government's new **Support at Home program** is set to replace the existing Home Care Package (HCP) system. If you or a loved one currently receives in-home care, or you're just starting to look into it, you probably have a lot of questions and concerns.
 
-## Introduction
-The Support at Home program is a major reform in Australia's aged care system, designed to enhance in-home care for older people. For a full breakdown of the new system, see our [complete guide to the Support at Home Program](/blog/support-at-home-program-2025-complete-guide). Set to launch on July 1, 2025, it will replace the Home Care Packages Program and Short-Term Restorative Care Programme, with the Commonwealth Home Support Programme transitioning no earlier than July 1, 2027. This initiative aims to make care more accessible and equitable, responding to recommendations from the Royal Commission into Aged Care Quality and Safety.
+You might be worried about what this means for your funding, your services, or if the new system will be more complicated. We understand. This guide is here to walk you through everything you need to know about the Support at Home program, based on the latest information from the Australian Government.
 
-## Key Features and Services
-The program offers a range of services to support independence, including:
+## **IMPORTANT UPDATE: Program Start Date Changed**
 
-- **Clinical care**: Nursing, occupational therapy, and continence care, with no financial contribution required.
-- **Independence services**: Help with daily tasks like showering and medication, with moderate contributions.
-- **Everyday living services**: Cleaning, gardening, and meal prep, which may incur higher contributions.
+The Support at Home program was originally scheduled to begin on July 1, 2025. The Australian Government has officially delayed the start date.
 
-It includes special pathways like the Restorative Care Pathway (up to 12 weeks, extra budget ~$6,000 for allied health) and the Assistive Technology and Home Modifications (AT-HM) Scheme (up to $15,000 for modifications, funding tiers from $500 to $15,000).
+**The new start date for the Support at Home program is November 1, 2025.**
 
-## Financial Contributions
-Contributions are means-tested based on the Age Pension, with exemptions for clinical services. For a detailed breakdown of costs, you can view the [Support at Home prices for 2025](/blog/support-at-home-prices-2025). Holders of the Commonwealth Seniors Health Card may pay less. The "No Worse Off Principle" ensures current recipients assessed by September 12, 2024, won't face higher costs and can access residential care under current fees.
+---
 
-## Accessing the Program
-Older Australians can apply through [My Aged Care](https://www.myagedcare.gov.au/help-at-home) online or by calling 1800 200 422. Assessments use the Single Assessment System, typically conducted at home.
+## What is the New Support at Home Program?
 
-## Program Overview and Purpose
-The Support at Home program is designed to reform in-home aged care, replacing the Home Care Packages Program and Short-Term Restorative Care Programme from July 1, 2025, with the Commonwealth Home Support Programme transitioning no earlier than July 1, 2027. This initiative responds to the Royal Commission into Aged Care Quality and Safety, aiming to create a simpler, more equitable system that helps older people live independently at home for longer. It addresses previous complexities in the aged care system, such as long wait times for Home Care Packages and varying service availability under the Commonwealth Home Support Programme.
+The Support at Home program is a new, unified system for providing in-home aged care services in Australia. From **November 1, 2025**, it will replace the following programs:
 
-The program's vision is to ensure improved access to services, equipment, and home modifications, promoting health, activity, and social connection within the community. It consolidates multiple programs into a single model, reducing administrative burden and confusion for users.
+-   **Home Care Packages (HCP) Program**
+-   **Short-Term Restorative Care (STRC) Programme**
+-   **Commonwealth Home Support Programme (CHSP)** (will transition later, no earlier than July 1, 2027)
 
-## Key Features
-The Support at Home program introduces several innovative features to meet diverse needs:
+The goal is to create a single, streamlined program that is easier to access and navigate. It was designed in response to the Royal Commission into Aged Care Quality and Safety to give older Australians more choice and control over their care, helping them to live independently and safely at home for longer.
 
-- **Restorative Care Pathway**: This pathway offers up to 12 weeks of support, with an additional budget of approximately $6,000, which can increase to $12,000 if required, focusing on allied health services to enhance independence.
-- **Assistive Technology and Home Modifications (AT-HM) Scheme**: Provides funding for home modifications (up to $15,000) and assistive technology (up to $15,000, with higher amounts possible based on evidence). Funding is tiered: Low ($500), Medium ($2,000), and High ($15,000), ensuring tailored support for individual needs.
-- **End-of-Life Pathway**: Offers up to $25,000 over 3 months, with 16 weeks to utilize the funds, specifically for the last 3 months of life to ensure comfort and dignity.
+## How Will Support at Home Work? A Step-by-Step Guide
 
-These features aim to provide upfront supports and early interventions, addressing gaps in the current system and supporting higher levels of care for those with complex needs.
+While the old system could be confusing, the new program aims to simplify the process. Here's how it generally works:
 
-## Services Provided
-The program categorizes services into three main areas, each designed to support different aspects of daily living:
+### Step 1: The Assessment
 
-- **Clinical Care**: Includes nursing, occupational therapy, and continence care, with no financial contribution required, ensuring essential health services are accessible.
-- **Independence Services**: Covers assistance with personal tasks such as showering, dressing, medication management, transport, and respite care, with moderate contributions expected.
-- **Everyday Living Services**: Encompasses cleaning, gardening, shopping, and meal preparation, which may incur higher contributions due to their non-clinical nature.
+Everything starts with an assessment to understand your needs.
 
-The program operates with 8 ongoing service classifications, each assigned a quarterly budget. A notable aspect is the allocation of 10% of each quarterly budget for care management, applicable even to self-managed arrangements, ensuring coordinated and effective care delivery.
+-   **How to Apply:** You can apply for an assessment through the **[My Aged Care](https://www.myagedcare.gov.au/)** website or by calling them on **1800 200 422**.
+-   **The Process:** A trained assessor will meet with you (usually in your home) to discuss your situation, your health, and what you need help with. This is done through the new **Single Assessment System**.
+-   **The Outcome:** Based on the assessment, you will be approved for a certain level of support and funding.
 
-## Financial Contributions and the "No Worse Off Principle"
-Financial contributions are means-tested based on the Age Pension, ensuring fairness and accessibility. The structure is as follows:
+### Step 2: Choosing a Provider
 
-| Service Type                | Contribution Level    |
-| :-------------------------- | :-------------------- |
-| Clinical Support Services   | No contribution       |
-| Independence Services       | Moderate contribution |
-| AT-HM Products/Equipment    | Moderate contribution |
-| Everyday Living Services    | Higher contribution   |
+Once you are approved, you will choose a registered aged care provider, like MD Home Care. This provider will manage your funds and coordinate your services. Under the new program, you will have a single provider to keep things simple.
 
-Holders of the Commonwealth Seniors Health Card benefit from lower contributions, aligning with government efforts to support vulnerable groups. The "No Worse Off Principle" is a critical safeguard, ensuring that individuals on Home Care Packages, the National Priority System, or assessed eligible by September 12, 2024, will not face increased financial contributions. Additionally, they can enter residential care under the current fee system, providing continuity and protection.
+### Step 3: Planning Your Care
 
-## Accessing the Program
-Access to the Support at Home program is facilitated through [My Aged Care](https://www.myagedcare.gov.au/help-at-home), with options to apply online or by calling 1800 200 422. The assessment process uses the Single Assessment System, typically conducted in person at the individual's home, ensuring a personalized evaluation of needs. This streamlined approach aims to simplify entry into the program, reducing barriers for older Australians.
+You and your chosen provider will work together to create a personalized care plan based on your needs and goals. This plan will outline the specific services you will receive.
 
-## Transition Arrangements
-For current recipients, the transition to Support at Home is designed to be seamless:
+### Step 4: Receiving Services
 
-- Home Care Package holders will transition to Support at Home at their current service levels, with no new assessment required unless their needs change.
-- Individuals on the National Priority System awaiting allocation will automatically transition to a Support at Home classification once a place is available, maintaining continuity.
-- The Commonwealth Home Support Programme will continue as a separate program until no earlier than July 1, 2027, ensuring existing clients are not disrupted during the transition period.
+Your provider will arrange for support workers and health professionals to deliver the services outlined in your care plan.
 
-These arrangements reflect the government's commitment to minimizing disruption and ensuring readiness across the sector, with resources like the Support at Home Program Provider Transition Guide available for providers.
+## What Services Are Available? (Including Home Modifications)
 
-## Funding Model and Equity
-The program moves to a fee-for-service funding model, with payments based on agreed prices for services delivered, eliminating the accrual of unspent funds. This shift aims to improve efficiency and ensure resources are utilized effectively. To address service availability, especially in regional, rural, and remote areas, a grant program supports providers, ensuring equitable access for all seniors, including those with unique needs like dementia support and cultural safety for Aboriginal and Torres Strait Islander people.
+The Support at Home program will offer a broad range of services, which are generally grouped into these categories:
 
-## Frequently Asked Questions
-To address common queries, here are some key points:
+-   **Clinical Care:** Services like nursing, physiotherapy, and other allied health support. **There is no charge for these clinical services.**
+-   **Independence Services:** Help with daily personal activities like showering, dressing, medication management, transport, and respite care.
+-   **Everyday Living Services:** Support with tasks like cleaning, gardening, shopping, and preparing meals.
+-   **Assistive Technology and Home Modifications:** This is a key area. The program provides funding for equipment and changes to your home to improve safety and independence. This can include:
+    -   Grab rails in the bathroom
+    -   Ramps for wheelchair access
+    -   Stairlifts
+    -   Easy-to-use appliances
 
-- **When does the program start?** July 1, 2025, for Home Care Packages and Short-Term Restorative Care, with Commonwealth Home Support Programme transitioning no earlier than July 1, 2027.
-- **How does funding work?** On a fee-for-service basis, with quarterly budgets and no accrual of unspent funds, ensuring transparency and efficiency.
-- **What happens to my current care arrangement?** Current recipients will transition smoothly, with the "No Worse Off Principle" protecting financial contributions and service levels.
+Funding for home modifications is tiered based on need, with schemes available to cover costs up to $15,000 in some cases.
 
-## Resources and Further Information
+## Frequently Asked Questions (Answering Your Concerns)
+
+Here are answers to the common questions and fears we hear from the community about these changes.
+
+### Will I lose my current funding or services?
+
+No. The government has committed to a **"No Worse Off" principle**. If you currently have a Home Care Package, you will be automatically transferred to the new Support at Home program at a funding level that allows you to continue receiving at least the same level of services. You will not need a new assessment unless your needs change.
+
+### Is the new system more complicated?
+
+The aim is the opposite. By combining multiple programs into one, the goal is to make the system **simpler and easier to understand**. Having a single provider and a single assessment process should reduce confusion and administrative headaches for families.
+
+### How much will I have to pay?
+
+Your contribution will be based on a means test, similar to the current Age Pension system.
+
+| Service Type | Contribution Level |
+| :--- | :--- |
+| Clinical Support Services | **No contribution** |
+| Independence Services | Moderate contribution |
+| Home Modifications/Equipment | Moderate contribution |
+| Everyday Living Services | Higher contribution |
+
+If you have a Commonwealth Seniors Health Card, you may have lower contribution fees.
+
+### What happens if my health needs change?
+
+The system is designed to be flexible. If your needs change, you can request a reassessment at any time. This could lead to a different funding level to ensure you get the support you need, especially for more complex health issues or end-of-life care.
+
+## Conclusion: A More Flexible Future for In-Home Care
+
+The new Support at Home program represents a significant and positive shift in how aged care is delivered in Australia. While change can be unsettling, the program is designed to give you more control, more choice, and a more streamlined experience.
+
+The key is to stay informed and work with a trusted provider who can help you navigate the changes.
+
+At MD Home Care, we are committed to helping you understand the new system and access the best possible support. If you have any questions about the Support at Home program or need help with your care needs, **[contact our friendly team today](/contact)**.
+
+### Resources and Further Information
 For additional details, refer to the following official resources:
 
-- [Support at Home program handbook](https://www.health.gov.au/sites/default/files/2024-10/support-at-home-program-handbook.pdf)
-- [Support at Home program – Booklet for older people, families and carers](https://www.health.gov.au/sites/default/files/2024-12/support-at-home-program-booklet-for-older-people-families-and-carers.pdf)
-- [My Aged Care help at home services](https://www.myagedcare.gov.au/help-at-home)
-- [Features of the new Support at Home program](https://www.health.gov.au/our-work/support-at-home/features)
-
-## Key Citations
-- [Support at Home program handbook Australian Government Department of Health and Aged Care](https://www.health.gov.au/sites/default/files/2024-10/support-at-home-program-handbook.pdf)
-- [Support at Home program – Booklet for older people, families and carers Australian Government Department of Health and Aged Care](https://www.health.gov.au/sites/default/files/2024-12/support-at-home-program-booklet-for-older-people-families-and-carers.pdf)
-- [My Aged Care help at home services Australian Government](https://www.myagedcare.gov.au/help-at-home)
-- [Features of the new Support at Home program Australian Government Department of Health and Aged Care](https://www.health.gov.au/our-work/support-at-home/features)
+- [My Aged Care - Help at Home](https://www.myagedcare.gov.au/help-at-home)
+- [Department of Health - About Support at Home](https://www.health.gov.au/our-work/support-at-home/about)
+- [Department of Health - Features of Support at Home](https://www.health.gov.au/our-work/support-at-home/features) 
