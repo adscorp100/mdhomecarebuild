@@ -1,8 +1,10 @@
 ---
 title: "What is Allied Health? A Guide to Therapy Services (OT, Physio & More)"
 description: "Confused by terms like 'Allied Health'? Our simple guide explains what Occupational Therapy, Physiotherapy, Podiatry, and other therapy services are."
+pubDate: 2025-07-04
+category: "Health Services"
 image: "/assets/physio.webp"
-service: "Allied Health"
+keywords: ["allied health", "occupational therapy", "physiotherapy", "speech pathology", "dietetics", "podiatry"]
 ---
 
 ## A Clear Guide to Allied Health Services

@@ -1,8 +1,10 @@
 ---
 title: "Find the Right Aged Care Service For You | MD Home Care"
 description: "Feeling overwhelmed by aged care options? We're here to help. Explore our clear guide to in-home support, residential care, and specialist services."
+pubDate: 2025-07-04
+category: "Aged Care Services"
 image: "/assets/carer.webp"
-service: "Aged Care Services"
+keywords: ["aged care services", "home care", "residential care", "in-home support", "aged care options"]
 ---
 
 ## Navigating Aged Care? Let's Make It Simple.

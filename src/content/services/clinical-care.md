@@ -4,8 +4,7 @@ description: "Need round-the-clock care in {suburb}? Our 24/7 in-home nursing se
 pubDate: 2025-07-02
 category: "Health Services"
 image: "/assets/nurse.webp"
-keywords: []
-service: "24/7 Nursing Care"
+keywords: ["24/7 nursing care", "in-home nursing", "clinical care", "complex care", "palliative care"]
 ---
 
 ## 24/7 Nursing Care in {suburb}: In the Comfort of Your Home.

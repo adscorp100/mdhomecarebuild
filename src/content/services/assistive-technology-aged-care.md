@@ -4,8 +4,7 @@ description: "Discover practical assistive technology devices that help seniors 
 pubDate: 2025-04-22
 category: "Assistive Technology"
 image: "/assets/two women looking at alarm.webp"
-keywords: []
-service: "Assistive Technology"
+keywords: ["assistive technology", "seniors", "independent living", "personal alarms", "fall detectors"]
 ---
 
 ## Live More Independently in {suburb} with the Right Assistive Technology.

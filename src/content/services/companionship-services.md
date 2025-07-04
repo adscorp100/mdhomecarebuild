@@ -1,8 +1,10 @@
 ---
 title: "Find the Perfect Companion in {suburb}: NDIS & Aged Care Companionship"
 description: "Feeling lonely? We don't just provide a carer, we find a friend. Our {suburb} companionship services focus on matching you with someone who shares your interests."
+pubDate: 2025-07-04
+category: "Social Support"
 image: "/assets/drinkingtea.webp"
-service: "Companionship Services"
+keywords: ["companionship services", "social support", "ndis companions", "aged care friendship", "emotional support"]
 ---
 
 ## It's Not Just Care, It's Friendship. Find Your Perfect Companion in {suburb}.

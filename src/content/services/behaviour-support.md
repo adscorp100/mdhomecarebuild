@@ -4,8 +4,7 @@ description: "Feeling overwhelmed? Our Positive Behaviour Support (PBS) services
 pubDate: 2025-05-03
 category: "Disability Services"
 image: "/assets/downs.webp"
-keywords: []
-service: "Behaviour Support"
+keywords: ["ndis behaviour support", "positive behaviour support", "pbs", "challenging behaviour", "disability support"]
 ---
 
 ## Positive Behaviour Support in {suburb}: Creating a Safer, Happier Future.

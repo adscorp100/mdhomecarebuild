@@ -4,7 +4,7 @@ description: "What happens in an Assistive Technology (AT) Assessment in {suburb
 pubDate: 2025-07-04
 category: "Disability Services"
 image: "/assets/occupationaltherapy.webp"
-service: "Assistive Technology Assessment"
+keywords: ["assistive technology assessment", "occupational therapy", "ndis", "at assessment", "disability support"]
 ---
 
 ## Find the Right Tools in {suburb}: What to Expect from an Assistive Technology Assessment.

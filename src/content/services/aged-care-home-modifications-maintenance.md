@@ -1,8 +1,10 @@
 ---
 title: "Aged Care Home Modifications & Maintenance in {suburb}"
 description: "Keep your {suburb} home safe and accessible with our expert home modification and maintenance services. We specialise in aged care and disability support. Call us!"
+pubDate: 2025-07-04
+category: "Home Care Services"
 image: "/assets/accessible-bathroom.webp"
-service: "Home Modifications & Maintenance"
+keywords: ["home modifications", "aged care maintenance", "accessibility", "home safety", "disability modifications"]
 ---
 
 ## Make Your {suburb} Home Safer, For Longer. Certified Aged Care & Disability Home Modifications.

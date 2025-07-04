@@ -1,8 +1,10 @@
 ---
 title: "Community Nursing Care in {suburb} for NDIS & Aged Care at Home"
 description: "Need a qualified nurse in {suburb} for a specific task? Our community nursing service provides expert wound care, medication management, catheter care and more at home."
+pubDate: 2025-07-04
+category: "Health Services"
 image: "/assets/clinic.webp"
-service: "Community Nursing Care"
+keywords: ["community nursing", "wound care", "medication management", "home nursing", "clinical care"]
 ---
 
 ## Expert Nursing Care in {suburb}, One Task at a Time.
