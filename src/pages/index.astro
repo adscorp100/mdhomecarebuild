@@ -1,20 +1,26 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Card from '../components/Card.astro';
 
-// Get the base URL for assets
 const heroBackground = `/assets/grandmawhite.webp`;
 
-// SEO metadata
-const title = "NDIS Home Care Services Melbourne & Sydney | Disability Homecare";
-const description = "Expert NDIS home care services in Melbourne & Sydney. We provide professional disability homecare support, in-home care, domiciliary services, and NDIS-approved support workers.";
+const title = "NDIS Provider Sydney & Melbourne | Home Care, Accommodation, Support";
+const description = "Your local NDIS provider in Sydney & Melbourne for SIL & SDA accommodation, 24/7 high-intensity home care, and expert support coordination. No waitlists for key services. Get a free consultation today.";
 ---
 
-<style is:global>
-	body, html {
-		margin: 0;
-		padding: 0;
-		overflow-x: hidden;
-		scroll-behavior: smooth;
+<style>
+	/* Root Variables from Original Design */
+	:root {
+		--primary-color: #00529F;
+		--primary-dark: #003d75;
+		--primary-rgb: 0, 82, 159;
+		--secondary-color: #FFC107;
+		--background: #f8f9fa;
+		--card-background: #ffffff;
+		--text-color: #333;
+		--text-light: #6c757d;
+		--border-color: #dee2e6;
+		--complementary: #e6f3ff;
 	}
 	
 	main {
@@ -23,268 +29,67 @@ const description = "Expert NDIS home care services in Melbourne & Sydney. We pr
 		overflow-x: hidden;
 		width: 100%;
 	}
-</style>
 
-<BaseLayout title={title} description={description}>
-	<section class="hero-section" style={`background-image: url('${heroBackground}');`}>
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="hero-content">
-				<div class="category-tag-container">
-					<div class="category-tag">NDIS Services</div>
-					<div class="avatar-container">
-						<img src="/assets/avatar.webp" alt="MD Home Care Team Member" class="avatar-image" />
-					</div>
-				</div>
-				<h1>
-					<span class="main-title">NDIS Home Care Services</span>
-					<span class="accent-title">In Melbourne & Sydney</span>
-				</h1>
-				<p>Providing compassionate and professional disability homecare support. We're dedicated to enhancing the quality of life for our clients through NDIS in-home care, independent support workers, and specialized disability home care services.</p>
-				<div class="hero-cta">
-					<a href="tel:+61863869999" class="cta-primary pulse-animation">
-						<div class="cta-text">
-							<span class="desktop-text">
-								<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="phone-icon">
-									<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-								</svg>
-								08 6386 9999
-							</span>
-							<span class="mobile-text">
-								<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="phone-icon">
-									<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-								</svg>
-								Call Now
-							</span>
-						</div>
-					</a>
-					<a href="/contact" class="cta-secondary">Message</a>
-				</div>
-				<div class="trust-signal">
-					<div class="rating-container">
-						<div class="stars">★★★★<span class="star-half">★</span></div>
-						<span class="rating-text">4.7 (45 verified reviews)</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 1rem;
+	}
 
-	<div id="services" class="services-section">
-		<div class="container">
-			<h2 class="section-title">Disability Home Care & NDIS Support</h2>
-			<div class="services-grid">
-				<div class="service-card">
-					<a href="/services/disability-home-support-services" class="card-link">
-						<div class="service-image">
-							<img src="/assets/homecare.webp" alt="Disability Home Care" class="service-img">
-						</div>
-						<div class="service-icon">
-							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"></path><path d="M12 8v8"></path><path d="M8 12h8"></path></svg>
-						</div>
-						<h3>Disability Home Care Services</h3>
-						<p>Personalized disability support services in Melbourne and Sydney, providing domestic assistance and in-home disability care.</p>
-					</a>
-				</div>
-				<div class="service-card">
-					<a href="/services/ndis-specialist-support-coordination" class="card-link">
-						<div class="service-image">
-							<img src="/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp" alt="NDIS Support Services" class="service-img">
-						</div>
-						<div class="service-icon">
-							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-						</div>
-						<h3>NDIS Home Care Provider</h3>
-						<p>Qualified NDIS support workers and independent support worker services in Melbourne & Sydney to help participants achieve their goals.</p>
-					</a>
-				</div>
-				<div class="service-card">
-					<a href="/services/sil-services" class="card-link">
-						<div class="service-image">
-							<img src="/assets/carer.webp" alt="Specialist Support Services" class="service-img">
-						</div>
-						<div class="service-icon">
-							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
-						</div>
-						<h3>In-Home Disability Care</h3>
-						<p>SIL providers in Melbourne and Sydney offering community participation and supported independent living.</p>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="featured-section">
-		<div class="featured-image">
-			<img src="/assets/disabled carer.webp" alt="Disability Services" class="full-width-img">
-		</div>
-	</div>
-
-	<div class="featured-services">
-		<div class="container">
-			<h2 class="section-title">NDIS In-Home Care Providers</h2>
-			<div class="featured-grid">
-				<div class="featured-item">
-					<a href="/services/community-access-support" class="card-link">
-						<div class="featured-item-image">
-							<img src="/assets/sydney.webp" alt="Community Participation" class="featured-img">
-						</div>
-						<h3>NDIS Home Care Sydney</h3>
-						<p>Our disability community participation programs in Sydney help clients engage with their communities in meaningful ways.</p>
-					</a>
-				</div>
-				<div class="featured-item">
-					<a href="/services/specialist-disability-accommodation" class="card-link">
-						<div class="featured-item-image">
-							<img src="/assets/Ilovendis.webp" alt="SIL Accommodation" class="featured-img">
-						</div>
-						<h3>NDIS Home Care Melbourne</h3>
-						<p>As trusted SIL providers in Melbourne, we offer quality supported independent living accommodations tailored to individual needs.</p>
-					</a>
-				</div>
-				<div class="featured-item">
-					<a href="/services/domestic-assistance" class="card-link">
-						<div class="featured-item-image">
-							<img src="/assets/Doing Dishes.webp" alt="Disability Home Care" class="featured-img">
-						</div>
-						<h3>NDIS Homecare Support</h3>
-						<p>Professional in-home disability care and domestic assistance services that respect independence and dignity.</p>
-					</a>
-				</div>
-				<div class="featured-item">
-					<a href="/services/support-workers" class="card-link">
-						<div class="featured-item-image">
-							<img src="/assets/wheelchair.webp" alt="Independent Support Workers" class="featured-img">
-						</div>
-						<h3>NDIS In-Home Support</h3>
-						<p>Our NDIS independent support workers in Melbourne & Sydney provide personalized care with competitive hourly rates and qualifications.</p>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</BaseLayout>
-
-<style>
-	/* Hero Section */
+	/* Restored Hero Section Style */
 	.hero-section {
 		position: relative;
-		min-height: 100vh;
+		min-height: 90vh;
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		padding: 0;
-		margin: 0;
+		padding: 4rem 0;
 		isolation: isolate;
-		width: 100vw;
-		left: 50%;
-		right: 50%;
-		margin-left: -50vw;
-		margin-right: -50vw;
-		z-index: 1;
-		color-scheme: light;
-	}
-	
-	/* iOS fix for background images */
-	@supports (-webkit-touch-callout: none) {
-		.hero-section {
-			background-attachment: scroll;
-		}
 	}
 
-	.overlay {
+	.hero-section::before {
+		content: '';
 		position: absolute;
 		inset: 0;
-		background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.1) 100%);
+		background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.2) 100%);
 		z-index: 1;
 	}
 
 	.hero-content {
 		position: relative;
 		max-width: 800px;
-		margin: 0 auto;
 		text-align: center;
 		color: var(--text-color);
-		padding: 3.5rem;
-		background: rgba(255, 255, 255, 0.75);
-		backdrop-filter: blur(10px);
-		-webkit-backdrop-filter: blur(10px);
+		padding: 3rem;
+		background: rgba(255, 255, 255, 0.8);
+		backdrop-filter: blur(12px);
+		-webkit-backdrop-filter: blur(12px);
 		border-radius: 1.5rem;
-		border: 1px solid rgba(255, 255, 255, 0.8);
+		border: 1px solid rgba(255, 255, 255, 0.9);
 		box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 		z-index: 2;
 	}
 
-	.category-tag-container {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		gap: 1rem;
-		margin-bottom: 1.5rem;
-	}
-
-	.category-tag {
-		display: inline-block;
-		background: rgba(var(--primary-rgb), 0.15);
-		padding: 0.6rem 1.2rem;
-		border-radius: 3rem;
-		font-size: 0.9rem;
-		font-weight: 600;
-		letter-spacing: 0.03em;
-		backdrop-filter: blur(10px);
-		-webkit-backdrop-filter: blur(10px);
-		border: 1px solid rgba(var(--primary-rgb), 0.3);
-		color: var(--primary-color);
-	}
-
-	.avatar-container {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.avatar-image {
-		width: 40px;
-		height: 40px;
-		object-fit: cover;
-		border-radius: 50%;
-		border: 2px solid rgba(var(--primary-rgb), 0.3);
-		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-	}
-
-	.main-title {
-		display: block;
-		font-size: 3.5rem;
+	.hero-content h1 {
+		font-size: clamp(2.5rem, 5vw, 3.8rem);
 		font-weight: 800;
-		line-height: 1.1;
-		margin-bottom: 0.5rem;
-		color: var(--text-color);
-	}
-
-	.accent-title {
-		display: block;
-		font-size: 3.5rem;
-		font-weight: 800;
-		line-height: 1.1;
-		margin-bottom: 1.5rem;
-		color: var(--primary-color);
+		line-height: 1.2;
+		color: var(--primary-dark);
+		margin-bottom: 1rem;
 	}
 
 	.hero-content p {
-		font-size: 1.25rem;
-		color: var(--text-color);
-		margin-bottom: 2rem;
-		max-width: 600px;
-		line-height: 1.6;
-		font-weight: 400;
+		font-size: 1.2rem;
+		max-width: 650px;
 		margin: 0 auto 2rem;
+		line-height: 1.6;
+		color: var(--text-color);
 	}
 
 	.hero-cta {
-		margin-top: 2.5rem;
 		display: flex;
 		gap: 1.5rem;
 		justify-content: center;
@@ -296,382 +101,653 @@ const description = "Expert NDIS home care services in Melbourne & Sydney. We pr
 		color: white;
 		padding: 1rem 2.5rem;
 		border-radius: 3rem;
-		font-weight: 600;
-		font-size: 1.1rem;
 		text-decoration: none;
+		font-weight: 700;
+		font-size: 1.1rem;
 		transition: all 0.3s ease;
-		border: 1px solid rgba(255, 255, 255, 0.3);
-		backdrop-filter: blur(10px);
-		-webkit-backdrop-filter: blur(10px);
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-		position: relative;
-		border: 2px solid var(--primary-color);
-		overflow: hidden;
-		z-index: 1;
-		display: inline-flex;
-		align-items: center;
+		box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 	}
 
 	.cta-primary:hover {
-		transform: translateY(-4px);
-		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+		transform: translateY(-3px);
+		box-shadow: 0 8px 25px rgba(0,0,0,0.3);
 		background: var(--primary-dark);
 	}
 
-	.pulse-animation {
-		animation: pulse 2s infinite;
-	}
-
-	@keyframes pulse {
-		0% {
-			transform: scale(1);
-			box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-		}
-		50% {
-			transform: scale(1.03);
-			box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-		}
-		100% {
-			transform: scale(1);
-			box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-		}
-	}
-
-	.cta-text {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.desktop-text, .mobile-text {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-	}
-
-	.phone-icon {
-		flex-shrink: 0;
-	}
-
 	.cta-secondary {
-		background: rgba(255, 255, 255, 0.8);
+		background: transparent;
 		color: var(--primary-color);
 		padding: 1rem 2.5rem;
 		border-radius: 3rem;
-		font-weight: 600;
-		font-size: 1.1rem;
 		text-decoration: none;
+		font-weight: 700;
+		font-size: 1.1rem;
 		transition: all 0.3s ease;
-		border: 1px solid rgba(var(--primary-rgb), 0.2);
-		backdrop-filter: blur(10px);
-		-webkit-backdrop-filter: blur(10px);
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.75rem;
+		border: 2px solid var(--primary-color);
 	}
 
 	.cta-secondary:hover {
-		background: white;
-		border-color: var(--primary-color);
-		transform: translateY(-2px);
-		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+		background: var(--primary-color);
+		color: white;
 	}
 
-	.trust-signal {
-		margin-top: 1.5rem;
-		display: flex;
-		justify-content: center;
-	}
-	
-	.rating-container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 0.4rem;
-	}
-	
-	.stars {
-		color: #FFCA28;
-		font-size: 1.25rem;
-		letter-spacing: 0.1rem;
-		line-height: 1;
-	}
-	
-	.star-half {
-		position: relative;
-		display: inline-block;
-		color: rgba(0, 0, 0, 0.1);
-		overflow: hidden;
-		vertical-align: top;
-	}
-	
-	.star-half::before {
-		content: "★";
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 50%;
-		overflow: hidden;
-		color: #FFCA28;
-	}
-	
-	.rating-text {
-		font-size: 0.85rem;
-		color: var(--text-color);
-		font-weight: 500;
-	}
-
-	/* Services Section */
-	.services-section {
-		padding: 4rem 0;
+	/* Restored Service Showcase Style */
+	.service-showcase {
+		padding: 5rem 1rem;
+		background-color: var(--background);
 	}
 
 	.section-title {
 		text-align: center;
-		margin-bottom: 2.5rem;
-		font-size: 2.25rem;
-		color: var(--text-color);
+		font-size: 2.5rem;
 		font-weight: 700;
+		color: var(--primary-color);
+		margin-bottom: 3rem;
 	}
 
 	.services-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		gap: 1.5rem;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 2rem;
 	}
 
 	.service-card {
-		padding: 1.5rem;
 		background-color: var(--card-background);
 		border: 1px solid var(--border-color);
 		border-radius: 1rem;
 		transition: transform 0.3s ease, box-shadow 0.3s ease;
 		overflow: hidden;
-		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+		text-align: center;
 	}
 
 	.service-card:hover {
 		transform: translateY(-5px);
-		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+		box-shadow: 0 10px 20px rgba(0,0,0,0.08);
 	}
 
 	.service-image {
-		margin: -1.5rem -1.5rem 1.25rem -1.5rem;
-		height: 180px;
+		height: 200px;
 		overflow: hidden;
-		border-radius: 1rem 1rem 0 0;
 	}
 
-	.service-img {
+	.service-image img {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-		transition: transform 0.5s ease;
+		transition: transform 0.4s ease;
 	}
 
-	.service-card:hover .service-img {
+	.service-card:hover .service-image img {
 		transform: scale(1.05);
 	}
 
-	.service-icon {
-		width: 50px;
-		height: 50px;
-		background-color: var(--complementary);
-		border-radius: 50%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		color: var(--primary-color);
-		margin-bottom: 1rem;
-		position: relative;
-		margin-top: -40px;
-		border: 3px solid white;
-		box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	.service-content {
+		padding: 1.5rem;
 	}
 
-	.service-card h3 {
-		font-size: 1.3rem;
-		margin-bottom: 0.75rem;
+	.service-content h3 {
+		font-size: 1.4rem;
+		font-weight: 600;
 		color: var(--text-color);
-	}
-
-	.service-card p {
-		color: var(--text-light);
-		line-height: 1.5;
-		font-size: 0.95rem;
 		margin-bottom: 0.5rem;
 	}
 
-	/* Featured Section */
-	.featured-section {
-		width: 100%;
-		margin: 1rem 0 3rem;
-		overflow: hidden;
+	.service-content p {
+		font-size: 1rem;
+		color: var(--text-light);
+		line-height: 1.5;
+	}
+	
+
+	/* Suburb Finder - Styled to match */
+	.suburb-finder {
+		padding: 5rem 1rem;
+		background-color: var(--primary-color);
+		color: white;
 	}
 
-	.featured-image {
-		width: 100%;
-		height: 400px;
-		overflow: hidden;
-		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+	.suburb-finder .section-title {
+		color: white;
 	}
 
-	.full-width-img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
+	.suburb-search-container {
+		max-width: 600px;
+		margin: 0 auto;
+		position: relative;
 	}
 
-	/* Featured Services */
-	.featured-services {
-		padding: 4rem 0;
+	#suburb-search {
+		width: 100%;
+		padding: 1.2rem 1.5rem;
+		font-size: 1.1rem;
+		border-radius: 50px;
+		border: 2px solid var(--secondary-color);
+		outline: none;
+		transition: border-color 0.2s ease, box-shadow 0.2s ease;
+		-webkit-appearance: none;
+	}
+
+	/* Remove Chrome's ugly yellow autofill background */
+	#suburb-search:-webkit-autofill,
+	#suburb-search:-webkit-autofill:hover,
+	#suburb-search:-webkit-autofill:focus,
+	#suburb-search:-webkit-autofill:active {
+		-webkit-box-shadow: 0 0 0 30px var(--card-background) inset !important;
+		-webkit-text-fill-color: var(--text-color) !important;
+	}
+
+	#suburb-search:focus {
+		border-color: var(--primary-color);
+		box-shadow: 0 0 0 4px rgba(var(--primary-rgb), 0.15);
+	}
+
+	#suburb-suggestions {
+		display: none; /* Hide by default */
+		position: absolute;
+		width: 100%;
+		background: white;
+		color: black;
+		border-radius: 1rem;
+		margin-top: 0.5rem;
+		max-height: 250px;
+		overflow-y: auto;
+		box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+		z-index: 10;
+		text-align: left;
+		border: 1px solid var(--border-color);
+	}
+
+	.suggestion-item {
+		display: block;
+		padding: 1.5rem;
+		cursor: pointer;
+		transition: all 0.2s ease-in-out;
+		font-weight: 500;
+		color: var(--text-color);
+		text-decoration: none;
+		border-bottom: 1px solid var(--border-color);
+	}
+
+	.suggestion-item:last-child {
+		border-bottom: none;
+	}
+
+	.suggestion-item:hover, .suggestion-item:focus {
+		background-color: var(--complementary);
+    	color: var(--primary-dark);
+		outline: none;
+		transform: translateX(5px);
+	}
+
+	/* Trust Section - Styled to match */
+	.trust-section {
+		padding: 5rem 1rem;
 		background-color: var(--background);
 	}
 
-	.featured-grid {
+	.trust-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-		gap: 1.5rem;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		gap: 2rem;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
 
-	.featured-item {
-		padding: 1.25rem;
-		background-color: var(--card-background);
+	.trust-item {
+		display: flex;
+		align-items: flex-start;
+		gap: 1.5rem;
+		background: white;
+		padding: 2rem;
 		border-radius: 1rem;
-		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-		overflow: hidden;
-		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		border: 1px solid var(--border-color);
+	}
+
+	.trust-icon {
+		color: var(--primary-color);
+		flex-shrink: 0;
+		margin-top: 5px;
 	}
 	
-	.featured-item:hover {
-		transform: translateY(-5px);
-		box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+	.trust-icon svg {
+		width: 40px;
+		height: 40px;
 	}
 
-	.featured-item-image {
-		margin: -1.25rem -1.25rem 1.25rem -1.25rem;
-		height: 160px;
-		overflow: hidden;
-		border-radius: 1rem 1rem 0 0;
+	.trust-item h3 {
+		font-size: 1.3rem;
+		font-weight: 600;
+		margin-bottom: 0.5rem;
+	}
+	
+	.trust-item p {
+		color: var(--text-light);
+		line-height: 1.6;
 	}
 
-	.featured-img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		transition: transform 0.5s ease;
+	/* Resource Hub */
+	.resource-hub {
+		padding: 5rem 1rem;
 	}
 
-	.featured-item:hover .featured-img {
-		transform: scale(1.05);
+	.posts-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		gap: 2rem;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	
+	/* Testimonials */
+	.testimonials {
+		padding: 5rem 1rem;
+		background-color: var(--complementary);
 	}
 
-	.featured-item h3 {
+	.testimonial-card {
+		background: white;
+		padding: 2.5rem;
+		border-radius: 1rem;
+		box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+		text-align: center;
+		max-width: 700px;
+		margin: 0 auto;
+		border: 1px solid var(--border-color);
+	}
+
+	.testimonial-card p {
 		font-size: 1.2rem;
-		margin-bottom: 0.6rem;
+		line-height: 1.7;
+		font-style: italic;
+		color: var(--text-light);
+		margin-bottom: 1.5rem;
+	}
+
+	.testimonial-author {
+		font-weight: 700;
 		color: var(--primary-color);
 	}
 
-	.featured-item p {
-		color: var(--text-light);
-		line-height: 1.5;
-		font-size: 0.9rem;
+	.stars {
+		color: var(--secondary-color);
+		margin-bottom: 1rem;
+		font-size: 1.5rem;
 	}
 
-	.card-link {
-		color: inherit;
-		text-decoration: none;
-		display: block;
+	/* Service Modal */
+	#service-modal-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.6);
+		z-index: 100;
+		display: none;
+		align-items: center;
+		justify-content: center;
 	}
 
-	/* Responsive Styles */
-	@media (max-width: 768px) {
-		.hero-section {
-			padding: 4rem 0;
+	#service-modal {
+		background: white;
+		padding: 2rem;
+		border-radius: 1rem;
+		max-width: 800px;
+		width: 90%;
+		max-height: 80vh;
+		overflow-y: auto;
+		position: relative;
 		}
 
-		.main-title, .accent-title {
-			font-size: 2.5rem;
-		}
+	#modal-close-btn {
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+		background: none;
+		border: none;
+		font-size: 2rem;
+		cursor: pointer;
+		line-height: 1;
+	}
 
-		.hero-content {
-			margin: 0 1rem;
-			padding: 1.5rem;
-		}
+	#modal-title {
+		margin-top: 0;
+		margin-bottom: 1.5rem;
+		color: var(--primary-color);
+	}
 
-		.hero-content p {
-			font-size: 1.1rem;
-		}
-
-		.hero-cta {
-			flex-direction: column;
+	#modal-service-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 			gap: 1rem;
 		}
 
-		.cta-primary, .cta-secondary {
-			width: 100%;
-			justify-content: center;
-			text-align: center;
-		}
-		
-		.cta-text {
-			align-items: center;
-		}
-
-		.services-grid, .featured-grid {
-			grid-template-columns: 1fr;
-		}
-
-		.featured-image {
-			height: 250px;
-		}
+	#modal-service-list a {
+		display: block;
+		padding: 1rem;
+		background: var(--background);
+		border-radius: 0.5rem;
+		text-decoration: none;
+		color: var(--text-color);
+		font-weight: 500;
+		transition: all 0.2s ease;
 	}
 
-	/* Mobile/Desktop text toggles */
-	.mobile-text {
-		display: none;
+	#modal-service-list a:hover {
+		background: var(--complementary);
+		color: var(--primary-dark);
+		transform: translateY(-2px);
 	}
 	
-	@media (max-width: 480px) {
-		.mobile-text {
-			display: inline;
-			font-size: 1.1rem;
-			font-weight: 700;
-		}
-		.desktop-text {
-			display: none;
-		}
-		
-		.hero-content {
-			padding: 2rem 1.5rem;
-			margin: 0 0.5rem;
-		}
-	}
 </style>
 
-<!-- Fix for ensuring the header is visible on mobile -->
-<style is:global>
-	/* Ensure the site header is always on top */
-	.site-header {
-		position: fixed;
-		z-index: 999 !important;
-		width: 100%;
-		top: 0;
+<BaseLayout {title} {description}>
+	<!-- Hero Section -->
+	<section class="hero-section" style={`background-image: url('${heroBackground}');`}>
+		<div class="hero-content">
+			<h1>Your Local NDIS Provider for Home Care, Accommodation & Support</h1>
+			<p>Serving families across Sydney & Melbourne with trusted, 24/7 care. We offer SIL & SDA accommodation, high-intensity home support, and expert coordination with no waitlists for key services.</p>
+			<div class="hero-cta">
+				<a href="/contact" class="cta-primary">Get a Free Consultation</a>
+				<a href="tel:+61863869999" class="cta-secondary">Call 08 6386 9999</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Service Showcase -->
+	<section class="service-showcase">
+		<div class="container">
+			<h2 class="section-title">A Complete Range of NDIS Services</h2>
+			<div class="services-grid">
+				<a href="/services/disability-home-support-services" class="service-card">
+					<div class="service-image"><img src="/assets/homecare.webp" alt="In-Home Support" /></div>
+					<div class="service-content">
+						<h3>In-Home Support</h3>
+						<p>Personalized care, assistance, and high-intensity support in the comfort of your own home.</p>
+					</div>
+				</a>
+				<a href="/services/sil-services" class="service-card">
+					<div class="service-image"><img src="/assets/accessible-bathroom.webp" alt="SIL & SDA Accommodation" /></div>
+					<div class="service-content">
+						<h3>SIL & SDA Accommodation</h3>
+						<p>Safe, modern, and supportive housing options tailored to your needs for independent living.</p>
+					</div>
+				</a>
+				<a href="/services/community-access-support" class="service-card">
+					<div class="service-image"><img src="/assets/elderlyaboriginal.webp" alt="Community Access" /></div>
+					<div class="service-content">
+						<h3>Community Access</h3>
+						<p>Engage with your community, participate in activities, and build social connections with our support.</p>
+					</div>
+				</a>
+				<a href="/services/ndis-specialist-support-coordination" class="service-card">
+					<div class="service-image"><img src="/assets/carer.webp" alt="Specialist Coordination" /></div>
+					<div class="service-content">
+						<h3>Specialist Coordination</h3>
+						<p>Expert guidance to help you understand, implement, and get the most out of your NDIS plan.</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Find Your Suburb -->
+	<section class="suburb-finder">
+		<div class="container">
+			<h2 class="section-title">Find an NDIS Provider in Your Suburb</h2>
+			<div class="suburb-search-container">
+				<input type="text" id="suburb-search" placeholder="Start typing any suburb across Australia...">
+				<div id="suburb-suggestions"></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Why Choose Us? -->
+	<section class="trust-section">
+		<div class="container">
+			<h2 class="section-title">The MD Homecare Difference</h2>
+			<div class="trust-grid">
+				<div class="trust-item">
+					<div class="trust-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+					</div>
+					<div>
+						<h3>Vetted & Managed Professionals</h3>
+						<p>We provide consistent, high-quality care you can rely on. Our team is fully managed and vetted, not a random marketplace.</p>
+					</div>
+				</div>
+				<div class="trust-item">
+					<div class="trust-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+					</div>
+					<div>
+						<h3>No Waitlists for Key Services</h3>
+						<p>We offer immediate availability for critical services like in-home support and SIL accommodation to get you the help you need, faster.</p>
+					</div>
+				</div>
+				<div class="trust-item">
+					<div class="trust-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+					</div>
+					<div>
+						<h3>Registered Nurse-Led</h3>
+						<p>Our services are overseen by registered nurses, ensuring clinical excellence and providing your family with total peace of mind.</p>
+					</div>
+				</div>
+				<div class="trust-item">
+					<div class="trust-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>
+					</div>
+					<div>
+						<h3>Culturally Competent Care</h3>
+						<p>We celebrate diversity. Our team speaks a variety of languages and understands the cultural needs of the communities we serve.</p>
+					</div>
+				</div>
+				<div class="trust-item">
+					<div class="trust-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M16.2 7.8l-4.4 4.4-2.8-2.8"></path></svg>
+					</div>
+					<div>
+						<h3>Transparent Pricing & Budgeting</h3>
+						<p>No hidden fees. We provide clear pricing and help you maximize your NDIS budget to achieve your goals.</p>
+					</div>
+				</div>
+				<div class="trust-item">
+					<div class="trust-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 100 20 10 10 0 100-20z"></path><path d="M12 6v6l4 2"></path></svg>
+					</div>
+					<div>
+						<h3>24/7 Support & High-Intensity Care</h3>
+						<p>We specialize in complex and high-intensity care, with dedicated support available around the clock.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Testimonials -->
+	<section class="testimonials">
+		<div class="container">
+			<h2 class="section-title">Trusted by Families Across Australia</h2>
+			<div class="testimonial-card">
+				<div class="stars">★★★★★</div>
+				<p>"MD Homecare has been a lifesaver for our family. The carers are professional, compassionate, and have become like family to us. We finally have peace of mind knowing our son is in the best possible hands. We couldn't recommend them more highly."</p>
+				<div class="testimonial-author">- The Robertson Family, Parramatta</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Resource Hub -->
+	<section class="resource-hub">
+		<div class="container">
+			<h2 class="section-title">Your NDIS Resource Hub</h2>
+			<div class="posts-grid">
+				<Card
+					href="/blog/ndis-price-guide"
+					title="The 2025 NDIS Price Guide: A Simple Breakdown"
+					body="Understand the costs, plan your budget, and get the most out of your NDIS funding with our clear, simple guide."
+				/>
+				<Card
+					href="/blog/ndis-support-worker-pay-rates"
+					title="Support Worker Pay Rates: What You Need to Know"
+					body="Whether you're a client budgeting for care or a worker exploring career options, our guide has the answers."
+				/>
+				<Card
+					href="/blog/home-care-packages-australia-complete-guide"
+					title="Home Care Packages Explained: A Complete Guide"
+					body="Navigating aged care can be confusing. Our guide simplifies the process and explains your options."
+				/>
+			</div>
+		</div>
+	</section>
+
+	<!-- Service Modal -->
+	<div id="service-modal-overlay">
+		<div id="service-modal">
+			<button id="modal-close-btn">&times;</button>
+			<h2 id="modal-title"></h2>
+			<ul id="modal-service-list"></ul>
+		</div>
+	</div>
+
+</BaseLayout>
+
+<script>
+	// --- DATA ---
+	const services = [
+		{ name: "Accommodation Support", slug: "accommodation-support" },
+		{ name: "Aged Care Advocacy", slug: "aged-care-advocacy" },
+		{ name: "Home Modifications", slug: "aged-care-home-modifications-maintenance" },
+		{ name: "Allied Health", slug: "allied-health-disciplines" },
+		{ name: "Assistive Technology", slug: "assistive-technology-assessment" },
+		{ name: "Behaviour Support", slug: "behaviour-support" },
+		{ name: "Clinical Care", slug: "clinical-care" },
+		{ name: "Community Access", slug: "community-access-support" },
+		{ name: "Community Nursing", slug: "community-nursing-care" },
+		{ name: "Companionship Services", slug: "companionship-services" },
+		{ name: "Complex Care", slug: "complex-care" },
+		{ name: "Continence Care", slug: "continence-care-home" },
+		{ name: "Domestic Assistance", slug: "domestic-assistance" },
+		{ name: "Home Care Packages", slug: "home-care-packages" },
+		{ name: "Life Skills Development", slug: "life-skills-development" },
+		{ name: "Meal Preparation", slug: "meal-preparation-support" },
+		{ name: "Occupational Therapy", slug: "occupational-therapy-home" },
+		{ name: "Personal Care", slug: "personal-care" },
+		{ name: "Physiotherapy", slug: "physiotherapy-home-care" },
+		{ name: "Plan Management", slug: "plan-management" },
+		{ name: "Psychosocial Recovery Coaching", slug: "psychosocial-recovery-coaching" },
+		{ name: "Respite Care", slug: "respite-care" },
+		{ name: "SIL Services", slug: "sil-services" },
+		{ name: "Specialist Coordination", slug: "ndis-specialist-support-coordination" },
+		{ name: "Specialist Disability Accommodation", slug: "specialist-disability-accommodation" },
+		{ name: "Support Workers", slug: "support-workers" },
+		{ name: "Transport Services", slug: "transport-services" }
+	];
+
+	// --- DOM ELEMENTS ---
+	const searchInput = document.getElementById('suburb-search') as HTMLInputElement;
+	const suggestionsPanel = document.getElementById('suburb-suggestions') as HTMLDivElement;
+	const modalOverlay = document.getElementById('service-modal-overlay') as HTMLDivElement;
+	const modal = document.getElementById('service-modal') as HTMLDivElement;
+	const modalTitle = document.getElementById('modal-title') as HTMLHeadingElement;
+	const modalServiceList = document.getElementById('modal-service-list') as HTMLUListElement;
+	const modalCloseBtn = document.getElementById('modal-close-btn') as HTMLButtonElement;
+
+	let suburbs: { [key: string]: { state: string; region: string } } = {};
+
+	// --- FUNCTIONS ---
+	async function fetchSuburbs() {
+		try {
+			const response = await fetch('/data/australian-suburbs.json');
+			if (!response.ok) {
+				throw new Error('Network response was not ok');
+			}
+			suburbs = await response.json();
+		} catch (error) {
+			console.error('Failed to fetch suburbs:', error);
+		}
+	}
+
+	function displaySuggestions(input: string) {
+		const suburbKeys = Object.keys(suburbs);
+		const filteredSuburbs = suburbKeys.filter(suburb => suburb.toLowerCase().startsWith(input));
+		suggestionsPanel.innerHTML = '';
+
+		if (filteredSuburbs.length > 0) {
+			filteredSuburbs.forEach(suburb => {
+				const a = document.createElement('a');
+				a.href = '#'; // Use a placeholder href for semantics
+				const state = suburbs[suburb].state;
+				const displayName = toTitleCase(suburb.replace(/-/g, ' '));
+				a.textContent = `${displayName}, ${state}`;
+				a.className = 'suggestion-item';
+				a.onclick = (e) => {
+					e.preventDefault(); // Prevent navigation
+					showServicesForSuburb(suburb);
+				};
+				suggestionsPanel.appendChild(a);
+			});
+			suggestionsPanel.style.display = 'block';
+		} else {
+			suggestionsPanel.style.display = 'none';
+		}
+	}
+
+	function toTitleCase(str: string) {
+		return str.replace(/\w\S*/g, (txt: string) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
 	}
 	
-	body {
-		padding-top: 74px;
+	function showServicesForSuburb(suburbKey: string) {
+		const displayName = toTitleCase(suburbKey.replace(/-/g, ' '));
+		modalTitle.textContent = `Available Services in ${displayName}`;
+		modalServiceList.innerHTML = '';
+
+		services.forEach(service => {
+			const li = document.createElement('li');
+			const a = document.createElement('a');
+			a.href = `/services/${service.slug}/${suburbKey}`;
+			a.textContent = service.name;
+			li.appendChild(a);
+			modalServiceList.appendChild(li);
+		});
+
+		modalOverlay.style.display = 'flex';
+		suggestionsPanel.style.display = 'none';
+		searchInput.value = '';
+	}
+
+	function closeModal() {
+		modalOverlay.style.display = 'none';
 	}
 	
-	@media (min-width: 768px) {
-		body {
-			padding-top: 0;
+	// --- EVENT LISTENERS ---
+	searchInput.addEventListener('input', () => {
+		const input = searchInput.value.toLowerCase();
+		if (input.length > 1) {
+			displaySuggestions(input);
+		} else {
+			suggestionsPanel.style.display = 'none';
 		}
-		
-		.site-header {
-			position: sticky;
+	});
+
+	document.addEventListener('click', (e) => {
+		const target = e.target as HTMLElement;
+		if (!suggestionsPanel.contains(target) && target !== searchInput) {
+			suggestionsPanel.style.display = 'none';
 		}
-	}
-</style>
+	});
+
+	modalCloseBtn.addEventListener('click', closeModal);
+	modalOverlay.addEventListener('click', (e) => {
+		if (e.target === modalOverlay) {
+			closeModal();
+		}
+	});
+
+	// --- INITIALIZATION ---
+	fetchSuburbs();
+
+</script>
