@@ -1,9 +1,9 @@
 ---
 title: "Respite Care Meaning: Complete Guide to Respite Services Australia 2025"
 description: "Understand respite care meaning, types, costs and eligibility. Complete guide to respite care services for carers, families and NDIS participants in Australia."
-pubDate: 2025-01-15
-author: "Camila"
-tags: ["respite care", "carer support", "ndis respite", "family support"]
+pubDate: 2025-07-06
+author: "MD Home Care"
+tags: ["respite care", "carer support", "ndis respite", "family support", "respite care duration"]
 image: "/assets/respite care.webp"
 ---
 
@@ -27,6 +27,31 @@ Respite care is temporary care provided to people with disability, chronic illne
 Respite care serves two primary purposes:
 - **Carer relief**: Giving carers time to rest, work, socialize, or attend to personal needs
 - **Care continuity**: Ensuring the person being cared for continues to receive appropriate support and supervision
+
+## How Long Can You Use Respite Care?
+
+One of the most common sources of confusion and anxiety for carers is understanding the limits of respite care. Many worry about running out of their allocated days. Let's clarify the rules so you can plan with confidence.
+
+According to official government guidelines, you can access up to **63 days of subsidised residential respite care in a financial year** (from 1 July to 30 June). This can be taken as a single block or broken up into smaller periods as you need it.
+
+These 63 days are a standard entitlement for anyone who has been assessed and approved for residential respite care through a [My Aged Care assessment](https://www.myagedcare.gov.au/assessment/what-happens-your-assessment).
+
+### What are the Rules for Extensions?
+
+Sometimes, 63 days may not be enough. The good news is that extensions are possible.
+
+An Aged Care Assessor can approve an **extension of up to another 21 days** of residential respite care. This brings the potential total to 84 days in a financial year. An extension is typically granted if:
+- You need more time due to unforeseen circumstances.
+- The person you care for needs more support.
+- You are waiting for a permanent place in an aged care home.
+
+It's crucial to speak with your assessor as early as possible if you think you might need an extension. You can find more details on the [Department of Health website](https://www.health.gov.au/our-work/residential-aged-care/funding/residential-respite-subsidy-and-supplements).
+
+### Can My Home Care Package Cover Respite?
+
+Yes, if you have a Home Care Package, you can use the funds to help pay for residential respite. While you are in respite care, your Home Care Package subsidies will be paused, but you can use your package funds to cover costs like the basic daily fee or any additional service fees.
+
+This is explained in more detail on the [My Aged Care website](https://www.myagedcare.gov.au/manage-your-residential-respite-services).
 
 ### Key Characteristics of Respite Care
 

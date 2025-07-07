@@ -120,6 +120,23 @@ class AdvancedGSCAnalyzer:
             print(f"❌ GSC query for keyword '{keyword_filter}' failed: {e}")
             return []
 
+    def get_all_pages(self, site: str, start_date: str, end_date: str, limit: int = 5000) -> List[Dict]:
+        """Query GSC for all pages."""
+        request_body = {
+            'startDate': start_date,
+            'endDate': end_date,
+            'dimensions': ['page'],
+            'rowLimit': limit
+        }
+        try:
+            if not self.service:
+                return []
+            response = self.service.searchanalytics().query(siteUrl=site, body=request_body).execute()
+            return response.get('rows', [])
+        except Exception as e:
+            print(f"❌ GSC query failed: {e}")
+            return []
+
     def analyze_momentum(self, data_90d: List[Dict], data_7d: List[Dict]) -> Tuple[List[Dict], List[Dict]]:
         """Identify rising and fading keywords based on position changes, weighted by volume."""
         query_data_90d = {row['keys'][0]: row for row in data_90d}
@@ -255,17 +272,71 @@ class AdvancedGSCAnalyzer:
             ctr = (k.get('clicks', 0) / k.get('impressions', 1)) * 100 if k.get('impressions', 0) > 0 else 0
             print(f"{k['keys'][0]:<50} {k.get('clicks', 0):<8} {k.get('impressions', 0):<12} {ctr:<8.1f} {k.get('position', 0):<10.1f}")
 
+    def print_opportunity_pages(self, pages: List[Dict], min_impressions=100, max_ctr=1.0):
+        """Prints pages with high impressions and low CTR."""
+        print(f"\n\n💎 Opportunity Pages (Impressions > {min_impressions} and CTR < {max_ctr}%)")
+        print("-" * 100)
+        print(f"{'Page':<60} {'Clicks':<10} {'Impressions':<15} {'CTR %':<10}")
+        print("-" * 100)
+        
+        opportunity_pages = []
+        for row in pages:
+            clicks = row.get('clicks', 0)
+            impressions = row.get('impressions', 0)
+            if impressions > 0:
+                ctr = (clicks / impressions * 100)
+                if impressions >= min_impressions and ctr < max_ctr:
+                    row['ctr'] = ctr
+                    opportunity_pages.append(row)
+        
+        # Sort by impressions descending
+        sorted_pages = sorted(opportunity_pages, key=lambda x: x.get('impressions', 0), reverse=True)
+        
+        if not sorted_pages:
+            print("✅ No pages found matching the opportunity criteria.")
+            return
+
+        for row in sorted_pages:
+            page = row['keys'][0]
+            clicks = row.get('clicks', 0)
+            impressions = row.get('impressions', 0)
+            ctr = row['ctr']
+            print(f"{page:<60} {clicks:<10} {impressions:<15} {ctr:<9.2f}%")
+
+    def print_all_pages(self, pages: List[Dict]):
+        """Prints a summary of all pages."""
+        print("\n\n📊 Top Pages by Clicks")
+        print("-" * 80)
+        print(f"{'Page':<50} {'Clicks':<10} {'Impressions':<15} {'CTR %':<10}")
+        print("-" * 80)
+        
+        # Sort by clicks
+        sorted_pages = sorted(pages, key=lambda x: x.get('clicks', 0), reverse=True)
+        
+        for row in sorted_pages[:50]: # Print top 50
+            page = row['keys'][0]
+            clicks = row.get('clicks', 0)
+            impressions = row.get('impressions', 0)
+            ctr = (clicks / impressions * 100) if impressions > 0 else 0
+            print(f"{page:<50} {clicks:<10} {impressions:<15} {ctr:<9.1f}%")
+
 def main():
     parser = argparse.ArgumentParser(
         description='Advanced GSC SEO Analyzer. Use --page for full page analysis or --keyword for cannibalization checks.',
         formatter_class=argparse.RawTextHelpFormatter
     )
     parser.add_argument('--credentials', default='scripts/gsc_credentials.json', help='Credentials file (auto-detects if not specified)')
-    parser.add_argument('--site', help='Site URL (e.g., "https://mdhomecare.com.au"). Optional - will use first available.')
-
-    group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument('--page', help='Page URI to analyze (e.g., "/blog/my-post" or full URL)')
-    group.add_argument('--keyword', help='Keyword to check for cannibalization (e.g., "ndis price guide")')
+    parser.add_argument("--site", help="GSC site URL (e.g., https://www.example.com)")
+    
+    # Mutually exclusive group for main action
+    action_group = parser.add_mutually_exclusive_group(required=True)
+    action_group.add_argument("--page", help="Analyze a specific page URL")
+    action_group.add_argument("--keyword", help="Find pages ranking for a specific keyword")
+    action_group.add_argument("--list-pages", action='store_true', help="List all pages with performance data")
+    action_group.add_argument("--opportunity-pages", action='store_true', help="List pages with high impressions and low CTR")
+    
+    # Optional flags
+    parser.add_argument("--days", type=int, default=90, help="Number of days for analysis (default: 90)")
 
     args = parser.parse_args()
 
@@ -291,6 +362,16 @@ def main():
     
     start_date_90d = (datetime.now() - timedelta(days=90)).strftime('%Y-%m-%d')
     end_date = datetime.now().strftime('%Y-%m-%d')
+
+    if args.list_pages:
+        all_pages = analyzer.get_all_pages(site, start_date_90d, end_date)
+        analyzer.print_all_pages(all_pages)
+        return
+
+    if args.opportunity_pages:
+        all_pages = analyzer.get_all_pages(site, start_date_90d, end_date)
+        analyzer.print_opportunity_pages(all_pages)
+        return
 
     if args.keyword:
         print(f"\n🔎 Checking for keyword cannibalization for: '{args.keyword}'")
