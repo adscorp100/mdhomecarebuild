@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import EligibilityChecker from '../../../../components/EligibilityChecker.astro';
-// import ServiceCoverageMap from '../../../../components/ServiceCoverageMap.astro';
 import suburbsJson from '../../../../data/australian-suburbs.json';
 
 // Generate static paths for all service/suburb combinations
@@ -29,7 +28,7 @@ export async function getStaticPaths() {
     "zetland": { "state": "NSW", "region": "Greater Sydney" },
     "alexandria": { "state": "NSW", "region": "Greater Sydney" },
     "erskineville": { "state": "NSW", "region": "Greater Sydney" },
-    
+
     // Eastern Suburbs
     "bondi": { "state": "NSW", "region": "Eastern Suburbs" },
     "bondi-beach": { "state": "NSW", "region": "Eastern Suburbs" },
@@ -50,7 +49,7 @@ export async function getStaticPaths() {
     "eastgardens": { "state": "NSW", "region": "Eastern Suburbs" },
     "little-bay": { "state": "NSW", "region": "Eastern Suburbs" },
     "la-perouse": { "state": "NSW", "region": "Eastern Suburbs" },
-    
+
     // Inner West
     "burwood": { "state": "NSW", "region": "Inner West" },
     "strathfield": { "state": "NSW", "region": "Inner West" },
@@ -73,7 +72,7 @@ export async function getStaticPaths() {
     "five-dock": { "state": "NSW", "region": "Inner West" },
     "drummoyne": { "state": "NSW", "region": "Inner West" },
     "glebe": { "state": "NSW", "region": "Inner West" },
-    
+
     // North Shore
     "chatswood": { "state": "NSW", "region": "North Shore" },
     "st-leonards": { "state": "NSW", "region": "North Shore" },
@@ -93,7 +92,7 @@ export async function getStaticPaths() {
     "lane-cove": { "state": "NSW", "region": "Lower North Shore" },
     "riverview": { "state": "NSW", "region": "Lower North Shore" },
     "longueville": { "state": "NSW", "region": "Lower North Shore" },
-    
+
     // Upper North Shore
     "gordon": { "state": "NSW", "region": "Upper North Shore" },
     "killara": { "state": "NSW", "region": "Upper North Shore" },
@@ -108,7 +107,7 @@ export async function getStaticPaths() {
     "waitara": { "state": "NSW", "region": "Upper North Shore" },
     "asquith": { "state": "NSW", "region": "Upper North Shore" },
     "berowra": { "state": "NSW", "region": "Upper North Shore" },
-    
+
     // Northern Suburbs
     "ryde": { "state": "NSW", "region": "Northern Sydney" },
     "eastwood": { "state": "NSW", "region": "Northern Sydney" },
@@ -122,7 +121,7 @@ export async function getStaticPaths() {
     "putney": { "state": "NSW", "region": "Northern Sydney" },
     "gladesville": { "state": "NSW", "region": "Northern Sydney" },
     "hunters-hill": { "state": "NSW", "region": "Northern Sydney" },
-    
+
     // Northern Beaches
     "manly": { "state": "NSW", "region": "Northern Beaches" },
     "dee-why": { "state": "NSW", "region": "Northern Beaches" },
@@ -139,7 +138,7 @@ export async function getStaticPaths() {
     "newport": { "state": "NSW", "region": "Northern Beaches" },
     "mona-vale": { "state": "NSW", "region": "Northern Beaches" },
     "palm-beach": { "state": "NSW", "region": "Northern Beaches" },
-    
+
     // Hills District
     "castle-hill": { "state": "NSW", "region": "Hills District" },
     "baulkham-hills": { "state": "NSW", "region": "Hills District" },
@@ -153,7 +152,7 @@ export async function getStaticPaths() {
     "winston-hills": { "state": "NSW", "region": "Hills District" },
     "north-rocks": { "state": "NSW", "region": "Hills District" },
     "carlingford": { "state": "NSW", "region": "Hills District" },
-    
+
     // Western Sydney
     "parramatta": { "state": "NSW", "region": "Western Sydney" },
     "penrith": { "state": "NSW", "region": "Western Sydney" },
@@ -178,7 +177,7 @@ export async function getStaticPaths() {
     "rooty-hill": { "state": "NSW", "region": "Western Sydney" },
     "doonside": { "state": "NSW", "region": "Western Sydney" },
     "quakers-hill": { "state": "NSW", "region": "Western Sydney" },
-    
+
     // South Western Sydney
     "liverpool": { "state": "NSW", "region": "South Western Sydney" },
     "fairfield": { "state": "NSW", "region": "South Western Sydney" },
@@ -207,7 +206,7 @@ export async function getStaticPaths() {
     "hoxton-park": { "state": "NSW", "region": "South Western Sydney" },
     "west-hoxton": { "state": "NSW", "region": "South Western Sydney" },
     "middleton-grange": { "state": "NSW", "region": "South Western Sydney" },
-    
+
     // St George
     "hurstville": { "state": "NSW", "region": "St George" },
     "kogarah": { "state": "NSW", "region": "St George" },
@@ -226,7 +225,7 @@ export async function getStaticPaths() {
     "mortdale": { "state": "NSW", "region": "St George" },
     "penshurst": { "state": "NSW", "region": "St George" },
     "oatley": { "state": "NSW", "region": "St George" },
-    
+
     // Sutherland Shire
     "cronulla": { "state": "NSW", "region": "Sutherland Shire" },
     "sutherland": { "state": "NSW", "region": "Sutherland Shire" },
@@ -247,7 +246,7 @@ export async function getStaticPaths() {
     "yowie-bay": { "state": "NSW", "region": "Sutherland Shire" },
     "lilli-pilli": { "state": "NSW", "region": "Sutherland Shire" },
     "port-hacking": { "state": "NSW", "region": "Sutherland Shire" },
-    
+
     // Rest of Australia
     "newcastle": { "state": "NSW", "region": "Hunter Region" },
     "wollongong": { "state": "NSW", "region": "Illawarra" },
@@ -262,7 +261,7 @@ export async function getStaticPaths() {
     "tuggeranong": { "state": "ACT", "region": "South Canberra" },
     "gungahlin": { "state": "ACT", "region": "North Canberra" },
     "queanbeyan": { "state": "NSW", "region": "Capital Region" },
-    
+
     // Victoria
     "melbourne": { "state": "VIC", "region": "Greater Melbourne" },
     "brunswick": { "state": "VIC", "region": "Inner North" },
@@ -278,7 +277,7 @@ export async function getStaticPaths() {
     "werribee": { "state": "VIC", "region": "Western Melbourne" },
     "toorak": { "state": "VIC", "region": "Inner East" },
     "mildura": { "state": "VIC", "region": "Mallee" },
-    
+
     // Queensland
     "brisbane": { "state": "QLD", "region": "Greater Brisbane" },
     "gold-coast": { "state": "QLD", "region": "South East Queensland" },
@@ -293,7 +292,7 @@ export async function getStaticPaths() {
     "southport": { "state": "QLD", "region": "Gold Coast" },
     "west-end": { "state": "QLD", "region": "Inner Brisbane" },
     "fortitude-valley": { "state": "QLD", "region": "Inner Brisbane" },
-    
+
     // Western Australia
     "perth": { "state": "WA", "region": "Greater Perth" },
     "fremantle": { "state": "WA", "region": "Greater Perth" },
@@ -305,7 +304,7 @@ export async function getStaticPaths() {
     "broome": { "state": "WA", "region": "Kimberley" },
     "scarborough": { "state": "WA", "region": "Coastal Perth" },
     "subiaco": { "state": "WA", "region": "Inner Perth" },
-    
+
     // South Australia
     "adelaide": { "state": "SA", "region": "Greater Adelaide" },
     "glenelg": { "state": "SA", "region": "Western Adelaide" },
@@ -316,7 +315,7 @@ export async function getStaticPaths() {
     "victor-harbor": { "state": "SA", "region": "Fleurieu Peninsula" },
     "norwood": { "state": "SA", "region": "Eastern Adelaide" },
     "port-adelaide": { "state": "SA", "region": "Western Adelaide" },
-    
+
     // Tasmania
     "hobart": { "state": "TAS", "region": "Greater Hobart" },
     "launceston": { "state": "TAS", "region": "Northern Tasmania" },
@@ -324,28 +323,28 @@ export async function getStaticPaths() {
     "burnie": { "state": "TAS", "region": "North West" },
     "sandy-bay": { "state": "TAS", "region": "Greater Hobart" },
     "kingston": { "state": "TAS", "region": "Greater Hobart" },
-    
+
     // Northern Territory
     "darwin": { "state": "NT", "region": "Top End" },
     "alice-springs": { "state": "NT", "region": "Central Australia" },
     "palmerston": { "state": "NT", "region": "Top End" },
     "katherine": { "state": "NT", "region": "Katherine Region" },
     "nhulunbuy": { "state": "NT", "region": "East Arnhem" },
-    
+
     "campbelltown": { "state": "NSW", "region": "Macarthur" }
   };
 
   const serviceEntries = await getCollection('services');
   const paths = [];
-  
+
   for (const service of serviceEntries) {
     for (const [suburbSlug, suburbInfo] of Object.entries(suburbsData)) {
       paths.push({
-        params: { 
+        params: {
           slug: service.slug,
           suburb: suburbSlug
         },
-        props: { 
+        props: {
           service,
           suburbInfo: {
             slug: suburbSlug,
@@ -355,13 +354,14 @@ export async function getStaticPaths() {
       });
     }
   }
-  
+
   return paths;
 }
 
 // Get the service and suburb data for the current page
 const { service, suburbInfo } = Astro.props;
 const { Content } = await service.render();
+
 // Format suburb name for display (convert slug to title case)
 const formatSuburbName = (slug: string): string => {
   return slug
@@ -375,32 +375,16 @@ const suburbName = formatSuburbName(suburbInfo.slug);
 // Get related services in the same category
 const allServices = await getCollection('services');
 const relatedServices = allServices
-  .filter(s => 
-    s.data.category === service.data.category && 
+  .filter(s =>
+    s.data.category === service.data.category &&
     s.slug !== service.slug
   )
-  .slice(0, 3); // Limit to 3 related services
+  .slice(0, 3);
 
 // Create a title and description with the suburb name
 const title = service.data.title.replace(/{suburb}/g, suburbName);
 const description = service.data.description.replace(/{suburb}/g, suburbName);
 ---
-
-<style is:global>
-	body, html {
-		margin: 0;
-		padding: 0;
-		overflow-x: hidden;
-		scroll-behavior: smooth;
-	}
-	
-	main {
-		padding: 0 !important;
-		margin: 0 !important;
-		overflow-x: hidden;
-		width: 100%;
-	}
-</style>
 
 <script type="application/ld+json" set:html={`
 {
@@ -445,118 +429,235 @@ const description = service.data.description.replace(/{suburb}/g, suburbName);
 }
 `}></script>
 
-<BaseLayout 
+<BaseLayout
   title={title + " | MD Home Care"}
   description={description}
 >
-
-  <div class="service-container">
-    <article class="service-page">
-      <header class="service-hero" style={service.data.image ? `background-image: url(${service.data.image})` : ''}>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <div class="location-info">
-            <span class="category-tag">{service.data.category}</span>
-            <span class="location-tag">{suburbInfo.region}, {suburbInfo.state}</span>
-          </div>
-          <h1>
-            <span class="main-title">{title}</span>
-          </h1>
-          <p class="service-description">{description}</p>
-          
-          <div class="hero-cta">
-            <a href="tel:+61863869999" class="cta-primary pulse-animation">
-              <div class="cta-text">
-                <span class="desktop-text">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="phone-icon">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                  </svg>
-                  08 6386 9999
-                </span>
-                <span class="mobile-text">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="phone-icon">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                  </svg>
-                  Call Now
-                </span>
+  <div class="w-full">
+    <article>
+      <!-- Hero Section -->
+      <header
+        class="relative min-h-[80vh] bg-cover bg-center bg-fixed flex items-center justify-center"
+        style={service.data.image ? `background-image: url(${service.data.image})` : 'background-color: oklch(var(--b2))'}
+      >
+        <div class="absolute inset-0 bg-gradient-to-b from-black/20 to-black/40"></div>
+        <div class="relative z-10 max-w-3xl mx-auto text-center px-4 py-12">
+          <div class="card bg-base-100/80 backdrop-blur-lg shadow-2xl border border-base-200">
+            <div class="card-body p-8 md:p-12">
+              <!-- Location Tags -->
+              <div class="flex flex-wrap justify-center gap-2 mb-4">
+                <span class="badge badge-primary badge-lg">{service.data.category}</span>
+                <span class="badge badge-outline badge-lg">{suburbInfo.region}, {suburbInfo.state}</span>
               </div>
-            </a>
-            <a href="/contact" class="cta-secondary">Message</a>
-          </div>
-          <div class="trust-signal">
-            <div class="rating-container">
-              <div class="stars">★★★★<span class="star-half">★</span></div>
-              <span class="rating-text">4.7 (45 verified reviews)</span>
+
+              <!-- Title -->
+              <h1 class="text-3xl md:text-5xl font-extrabold text-base-content mb-4 leading-tight">
+                {title}
+              </h1>
+
+              <!-- Description -->
+              <p class="text-lg text-base-content/70 mb-6">
+                {description}
+              </p>
+
+              <!-- CTA Buttons -->
+              <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tel:+61863869999" class="btn btn-primary btn-lg gap-2 animate-pulse">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  <span class="hidden sm:inline">08 6386 9999</span>
+                  <span class="sm:hidden">Call Now</span>
+                </a>
+                <a href="/contact#contact-form" class="btn btn-outline btn-lg">
+                  Send Message
+                </a>
+              </div>
+
+              <!-- Trust Signal -->
+              <div class="flex justify-center mt-6">
+                <div class="flex flex-col items-center gap-1">
+                  <div class="rating rating-md">
+                    <input type="radio" class="mask mask-star-2 bg-warning" disabled />
+                    <input type="radio" class="mask mask-star-2 bg-warning" disabled />
+                    <input type="radio" class="mask mask-star-2 bg-warning" disabled />
+                    <input type="radio" class="mask mask-star-2 bg-warning" disabled />
+                    <input type="radio" class="mask mask-star-2 bg-warning" disabled checked />
+                  </div>
+                  <span class="text-sm text-base-content/60">4.7 (45 verified reviews)</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </header>
-      
-      <!-- Eligibility Checker Tool - Will be injected into content via JavaScript -->
-      <div id="eligibility-checker-template" style="display: none;">
+
+      <!-- Eligibility Checker Template -->
+      <div id="eligibility-checker-template" class="hidden">
         <EligibilityChecker />
       </div>
-      
-      <!-- Service Coverage Map -->
-      <!-- 
-      <ServiceCoverageMap 
-        suburbName={suburbName}
-        suburbInfo={suburbInfo}
-        title={title}
-        description={description}
-      />
-      -->
-      
-      <div class="service-content" id="learn-more">
-        <div class="service-body">
-          <div id="content-container" data-suburb={suburbName}>
-            <Content />
+
+      <!-- Main Content -->
+      <div class="max-w-4xl mx-auto px-4 py-12" id="learn-more">
+        <div class="prose prose-lg max-w-none" id="content-container" data-suburb={suburbName}>
+          <Content />
+        </div>
+
+        <!-- CTA Banner -->
+        <div class="alert bg-gradient-to-r from-primary to-accent text-primary-content my-12 shadow-lg">
+          <div class="flex flex-col md:flex-row items-center justify-between w-full gap-4">
+            <div>
+              <h3 class="font-bold text-xl">Ready to experience our service in {suburbName}?</h3>
+              <p class="text-primary-content/90">Contact us today to discuss how we can help you or your loved ones.</p>
+            </div>
+            <a href="/contact#contact-form" class="btn btn-outline btn-sm md:btn-md border-primary-content text-primary-content hover:bg-primary-content hover:text-primary">
+              Contact Us
+            </a>
           </div>
         </div>
       </div>
-      
+
+      <!-- Related Services -->
       {relatedServices.length > 0 && (
-        <aside class="related-services">
-          <h2>Related Services in {suburbName}</h2>
-          <div class="related-grid">
-            {relatedServices.map((relatedService) => (
-              <div class="related-card">
-                <h3>{relatedService.data.title.replace('{suburb}', suburbName)}</h3>
-                <p>{relatedService.data.description.replace('{suburb}', suburbName)}</p>
-                <a href={`/services/${relatedService.slug}/${suburbInfo.slug}`}>Learn More →</a>
-              </div>
-            ))}
+        <section class="bg-base-200 py-16 px-4">
+          <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-base-content mb-10">Related Services in {suburbName}</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {relatedServices.map((relatedService) => (
+                <div class="card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-base-200 hover:border-primary">
+                  <div class="card-body">
+                    <h3 class="card-title text-lg">{relatedService.data.title.replace('{suburb}', suburbName)}</h3>
+                    <p class="text-base-content/70 text-sm line-clamp-3">{relatedService.data.description.replace('{suburb}', suburbName)}</p>
+                    <div class="card-actions justify-end mt-4">
+                      <a href={`/services/${relatedService.slug}/${suburbInfo.slug}`} class="link link-primary font-semibold inline-flex items-center gap-1">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
-        </aside>
+        </section>
       )}
-      
-      <footer class="service-footer">
-        <div class="cta-container">
-          <h3>Want to know more about this service in {suburbName}?</h3>
-          <a href="/contact" class="contact-button">Contact Us</a>
-        </div>
-        
-        <div class="navigation">
-          <a href="/services" class="back-link">← Back to Services</a>
-          <a href={`/services/${service.slug}`} class="back-link">← View All Locations</a>
+
+      <!-- Footer Navigation -->
+      <footer class="max-w-6xl mx-auto py-8 px-4 border-t border-base-300">
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a href="/services" class="btn btn-ghost gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+            Back to Services
+          </a>
+          <a href={`/services/${service.slug}`} class="btn btn-ghost gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+            View All Locations
+          </a>
         </div>
       </footer>
     </article>
   </div>
 </BaseLayout>
 
-<script define:vars={{ suburbName, suburbInfo, suburbsData: suburbsJson }}>
-// After the page loads, replace all instances of {suburb} with the actual suburb name
+<style>
+  @reference "../../../../styles/global.css";
+
+  /* iOS fix for background images */
+  @supports (-webkit-touch-callout: none) {
+    header {
+      background-attachment: scroll !important;
+    }
+  }
+
+  /* Prose styling enhancements */
+  .prose h2 {
+    @apply text-2xl font-bold mt-10 mb-4 text-base-content border-b border-base-300 pb-2;
+  }
+
+  .prose h3 {
+    @apply text-xl font-semibold mt-8 mb-3 text-base-content;
+  }
+
+  .prose h4 {
+    @apply text-lg font-semibold mt-6 mb-2 text-base-content;
+  }
+
+  .prose p {
+    @apply mb-4 text-base-content;
+  }
+
+  .prose ul, .prose ol {
+    @apply mb-4 pl-6;
+  }
+
+  .prose ul {
+    @apply list-disc;
+  }
+
+  .prose ol {
+    @apply list-decimal;
+  }
+
+  .prose li {
+    @apply mb-2;
+  }
+
+  .prose a {
+    @apply link link-primary;
+  }
+
+  .prose blockquote {
+    @apply border-l-4 border-primary pl-4 py-2 my-6 bg-base-200 rounded-r-lg italic;
+  }
+
+  .prose code {
+    @apply bg-base-200 px-1.5 py-0.5 rounded text-sm font-mono;
+  }
+
+  .prose pre {
+    @apply bg-neutral text-neutral-content p-4 rounded-lg overflow-x-auto my-4;
+  }
+
+  .prose pre code {
+    @apply bg-transparent p-0;
+  }
+
+  .prose table {
+    @apply w-full border-collapse my-6;
+  }
+
+  .prose th, .prose td {
+    @apply border border-base-300 px-4 py-2 text-left;
+  }
+
+  .prose th {
+    @apply bg-base-200 font-semibold;
+  }
+
+  .prose img {
+    @apply rounded-lg shadow-md my-6;
+  }
+
+  .prose hr {
+    @apply border-base-300 my-8;
+  }
+</style>
+
+<script define:vars={{ suburbName }}>
 document.addEventListener('DOMContentLoaded', () => {
   const contentContainer = document.getElementById('content-container');
-  const serviceDescription = document.querySelector('.service-description');
-  
+
   // Function to replace text in an element and its children
   const replaceText = (element, find, replace) => {
-    // Skip certain elements like script and style tags
     if (element.tagName === 'SCRIPT' || element.tagName === 'STYLE') return;
 
-    // Handle text nodes
     if (element.nodeType === Node.TEXT_NODE) {
       const newText = element.textContent.replace(new RegExp(find, 'g'), replace);
       if (element.textContent !== newText) {
@@ -565,7 +666,6 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // Recursively process child nodes
     for (const child of element.childNodes) {
       replaceText(child, find, replace);
     }
@@ -575,944 +675,26 @@ document.addEventListener('DOMContentLoaded', () => {
   if (contentContainer) {
     replaceText(contentContainer, '{suburb}', suburbName);
   }
-  
-  // Also replace in service description (redundant but just to be safe)
-  if (serviceDescription) {
-    replaceText(serviceDescription, '{suburb}', suburbName);
-  }
 
-  // Inject eligibility checker after the second paragraph in content
+  // Inject eligibility checker after the second paragraph
   const injectEligibilityChecker = () => {
     const eligibilityTemplate = document.getElementById('eligibility-checker-template');
-    
+
     if (contentContainer && eligibilityTemplate) {
-      // Find all paragraphs in the content (excluding those inside headers)
       const paragraphs = contentContainer.querySelectorAll('p');
-      
+
       if (paragraphs.length >= 2) {
-        // Clone the eligibility checker template
         const eligibilityChecker = eligibilityTemplate.cloneNode(true);
         eligibilityChecker.id = 'eligibility-checker-injected';
-        eligibilityChecker.style.display = 'block';
-        eligibilityChecker.style.margin = '3rem 0';
-        eligibilityChecker.style.padding = '2rem 0';
-        eligibilityChecker.style.borderTop = '1px solid #eee';
-        eligibilityChecker.style.borderBottom = '1px solid #eee';
-        
-        // Insert after the second paragraph
+        eligibilityChecker.classList.remove('hidden');
+        eligibilityChecker.classList.add('my-8', 'py-8', 'border-y', 'border-base-300');
+
         const secondParagraph = paragraphs[1];
         secondParagraph.parentNode.insertBefore(eligibilityChecker, secondParagraph.nextSibling);
-        
-        console.log('Eligibility checker injected after second paragraph');
-      } else {
-        console.warn('Less than 2 paragraphs found, eligibility checker not injected');
       }
     }
   };
-  
-  // Inject eligibility checker after content is processed
+
   setTimeout(injectEligibilityChecker, 100);
-
-  // Comprehensive Markdown Content Styling
-  if (contentContainer) {
-    // Existing styles
-    contentContainer.style.fontSize = '1.1rem';
-    contentContainer.style.lineHeight = '1.8';
-    contentContainer.style.color = '--text-color';
-    contentContainer.style.maxWidth = '900px';
-    contentContainer.style.margin = '0 auto';
-    contentContainer.style.padding = '0 1rem';
-
-    // Headings
-    contentContainer.querySelectorAll('h1').forEach(heading => {
-      heading.style.fontSize = '2.5rem';
-      heading.style.fontWeight = '800';
-      heading.style.marginTop = '3rem';
-      heading.style.marginBottom = '1.5rem';
-      heading.style.color = '--text-color';
-      heading.style.lineHeight = '1.2';
-      heading.style.letterSpacing = '-0.02em';
-      heading.style.borderBottom = '2px solid var(--primary-color)';
-      heading.style.paddingBottom = '0.5rem';
-    });
-
-    contentContainer.querySelectorAll('h2').forEach(heading => {
-      heading.style.marginTop = '3rem';
-      heading.style.marginBottom = '1.5rem';
-      heading.style.fontSize = '1.75rem';
-      heading.style.fontWeight = '700';
-      heading.style.color = '--text-color';
-      heading.style.borderBottom = '1px solid #eee';
-      heading.style.paddingBottom = '0.5rem';
-      heading.style.letterSpacing = '-0.01em';
-    });
-
-    contentContainer.querySelectorAll('h3').forEach(heading => {
-      heading.style.marginTop = '2rem';
-      heading.style.marginBottom = '1rem';
-      heading.style.fontSize = '1.4rem';
-      heading.style.fontWeight = '600';
-      heading.style.color = '--text-color';
-      heading.style.letterSpacing = '-0.01em';
-    });
-
-    contentContainer.querySelectorAll('h4').forEach(heading => {
-      heading.style.marginTop = '1.5rem';
-      heading.style.marginBottom = '1rem';
-      heading.style.fontSize = '1.2rem';
-      heading.style.fontWeight = '600';
-      heading.style.color = '--text-color';
-    });
-
-    contentContainer.querySelectorAll('h5').forEach(heading => {
-      heading.style.marginTop = '1.25rem';
-      heading.style.marginBottom = '0.75rem';
-      heading.style.fontSize = '1.1rem';
-      heading.style.fontWeight = '600';
-      heading.style.color = '--text-color';
-    });
-
-    contentContainer.querySelectorAll('h6').forEach(heading => {
-      heading.style.marginTop = '1rem';
-      heading.style.marginBottom = '0.5rem';
-      heading.style.fontSize = '1rem';
-      heading.style.fontWeight = '600';
-      heading.style.color = '--text-color';
-    });
-
-    // Paragraphs
-    contentContainer.querySelectorAll('p').forEach(paragraph => {
-      paragraph.style.marginBottom = '1.5rem';
-      paragraph.style.fontSize = '1.05rem';
-      paragraph.style.lineHeight = '1.7';
-    });
-
-    // Lists
-    contentContainer.querySelectorAll('ul, ol').forEach(list => {
-      list.style.marginBottom = '1.5rem';
-      list.style.paddingLeft = '2rem';
-      list.style.listStylePosition = 'outside';
-    });
-
-    contentContainer.querySelectorAll('ul').forEach(list => {
-      list.style.listStyleType = 'disc';
-    });
-
-    contentContainer.querySelectorAll('ol').forEach(list => {
-      list.style.listStyleType = 'decimal';
-    });
-
-    contentContainer.querySelectorAll('li').forEach(li => {
-      li.style.marginBottom = '0.5rem';
-      li.style.paddingLeft = '0.25rem';
-      li.style.lineHeight = '1.6';
-    });
-
-    contentContainer.querySelectorAll('li > ul, li > ol').forEach(nestedList => {
-      nestedList.style.marginTop = '0.5rem';
-      nestedList.style.marginBottom = '0.5rem';
-      nestedList.style.paddingLeft = '1.5rem';
-    });
-
-    contentContainer.querySelectorAll('li > ul > li, li > ol > li').forEach(nestedItem => {
-      nestedItem.style.marginBottom = '0.25rem';
-    });
-
-    // Nested list styles
-    contentContainer.querySelectorAll('ul ul').forEach(list => {
-      list.style.listStyleType = 'circle';
-    });
-
-    contentContainer.querySelectorAll('ul ul ul').forEach(list => {
-      list.style.listStyleType = 'square';
-    });
-
-    // Links
-    contentContainer.querySelectorAll('a').forEach(link => {
-      link.style.color = '--primary-color';
-      link.style.textDecoration = 'underline';
-      link.style.textDecorationColor = 'rgba(var(--primary-rgb), 0.4)';
-      link.style.textDecorationThickness = '1px';
-      link.style.textUnderlineOffset = '2px';
-      link.style.transition = 'all 0.2s ease';
-      link.style.fontWeight = '500';
-    });
-
-    contentContainer.querySelectorAll('a:hover').forEach(link => {
-      link.style.color = '--primary-dark';
-      link.style.textDecorationColor = '--primary-dark';
-      link.style.transform = 'translateY(-1px)';
-    });
-
-    // Strong and emphasis
-    contentContainer.querySelectorAll('strong').forEach(strong => {
-      strong.style.fontWeight = '700';
-      strong.style.color = '--text-color';
-    });
-
-    contentContainer.querySelectorAll('em').forEach(em => {
-      em.style.fontStyle = 'italic';
-      em.style.color = '--text-light';
-    });
-
-    // Blockquotes
-    contentContainer.querySelectorAll('blockquote').forEach(blockquote => {
-      blockquote.style.borderLeft = '4px solid var(--primary-color)';
-      blockquote.style.margin = '2rem 0';
-      blockquote.style.padding = '1.5rem 2rem';
-      blockquote.style.backgroundColor = '--light-background';
-      blockquote.style.borderRadius = '0 8px 8px 0';
-      blockquote.style.fontStyle = 'italic';
-      blockquote.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.05)';
-    });
-
-    contentContainer.querySelectorAll('blockquote p').forEach(paragraph => {
-      paragraph.style.marginBottom = '0.5rem';
-      paragraph.style.fontSize = '1.1rem';
-    });
-
-    contentContainer.querySelectorAll('blockquote p:last-child').forEach(paragraph => {
-      paragraph.style.marginBottom = '0';
-    });
-
-    // Code
-    contentContainer.querySelectorAll('pre').forEach(pre => {
-      pre.style.backgroundColor = '--light-background';
-      pre.style.padding = '1.5rem';
-      pre.style.borderRadius = '8px';
-      pre.style.overflowX = 'auto';
-      pre.style.marginBottom = '1.5rem';
-      pre.style.border = '1px solid var(--border-color)';
-      pre.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.05)';
-    });
-
-    contentContainer.querySelectorAll('code').forEach(code => {
-      code.style.fontFamily = 'Monaco, Menlo, Ubuntu Mono, monospace';
-      code.style.fontSize = '0.9rem';
-      code.style.backgroundColor = '#f1f3f4';
-      code.style.padding = '0.2rem 0.4rem';
-      code.style.borderRadius = '4px';
-      code.style.color = '--text-color';
-    });
-
-    contentContainer.querySelectorAll('pre code').forEach(code => {
-      code.style.backgroundColor = 'transparent';
-      code.style.padding = '0';
-      code.style.borderRadius = '0';
-      code.style.fontSize = '0.85rem';
-    });
-
-    // Images
-    contentContainer.querySelectorAll('img').forEach(img => {
-      img.style.maxWidth = '100%';
-      img.style.height = 'auto';
-      img.style.borderRadius = '8px';
-      img.style.margin = '2rem 0';
-      img.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.1)';
-      img.style.display = 'block';
-    });
-
-    // Horizontal Rules
-    contentContainer.querySelectorAll('hr').forEach(hr => {
-      hr.style.border = 'none';
-      hr.style.height = '2px';
-      hr.style.background = 'linear-gradient(to right, var(--primary-color), var(--primary-light))';
-      hr.style.margin = '3rem 0';
-      hr.style.borderRadius = '1px';
-    });
-
-    // Tables
-    contentContainer.querySelectorAll('table').forEach(table => {
-      table.style.width = '100%';
-      table.style.borderCollapse = 'separate';
-      table.style.borderSpacing = '0';
-      table.style.marginBottom = '1.5rem';
-      table.style.fontSize = '0.95rem';
-      table.style.border = '1px solid var(--border-color)';
-      table.style.borderRadius = '8px';
-      table.style.overflow = 'hidden';
-      table.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.05)';
-    });
-
-    contentContainer.querySelectorAll('th, td').forEach(cell => {
-      cell.style.padding = '0.75rem 1rem';
-      cell.style.textAlign = 'left';
-      cell.style.borderBottom = '1px solid var(--border-color)';
-    });
-
-    contentContainer.querySelectorAll('th').forEach(th => {
-      th.style.backgroundColor = '--light-background';
-      th.style.fontWeight = '600';
-      th.style.color = '--text-color';
-      th.style.borderBottom = '2px solid var(--border-color)';
-    });
-
-    contentContainer.querySelectorAll('tr:last-child td').forEach(cell => {
-      cell.style.borderBottom = 'none';
-    });
-
-    contentContainer.querySelectorAll('tr:hover').forEach(row => {
-      row.style.backgroundColor = 'rgba(var(--primary-rgb), 0.02)';
-    });
-  }
 });
 </script>
-
-<style>
-  .service-container {
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 2rem;
-  }
-
-  .service-hero {
-    position: relative;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    isolation: isolate;
-    width: 100vw;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    z-index: 1;
-  }
-
-  /* iOS fix for background images */
-  @supports (-webkit-touch-callout: none) {
-    .service-hero {
-      background-attachment: scroll;
-    }
-  }
-
-  .hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: none;
-    z-index: 1;
-  }
-
-  .hero-content {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    color: var(--text-color);
-    padding: 3.5rem;
-    background: rgba(255, 255, 255, 0.45);
-    backdrop-filter: blur(12px);
-    border-radius: 1.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    z-index: 2;
-  }
-
-  .location-info {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 1.5rem;
-    align-items: center;
-  }
-
-  .category-tag, .location-tag {
-    display: inline-block;
-    background: rgba(var(--primary-rgb), 0.1);
-    padding: 0.6rem 1.2rem;
-    border-radius: 3rem;
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 0.03em;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(var(--primary-rgb), 0.2);
-    color: var(--primary-color);
-    text-shadow: none;
-  }
-
-  .main-title {
-    font-size: 3.5rem;
-    font-weight: 800;
-    line-height: 1.1;
-    margin: 1.5rem 0;
-    display: block;
-    letter-spacing: -0.02em;
-    color: var(--text-color);
-  }
-
-  .service-description {
-    font-size: 1.25rem;
-    line-height: 1.6;
-    margin-bottom: 2rem;
-    font-weight: 400;
-    color: var(--text-light);
-  }
-
-  .keyword-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-    margin: 2rem 0;
-    justify-content: center;
-  }
-
-  .tag {
-    background: rgba(var(--primary-rgb), 0.05);
-    padding: 0.5rem 1.2rem;
-    border-radius: 2rem;
-    font-size: 0.9rem;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(var(--primary-rgb), 0.1);
-    transition: all 0.3s ease;
-    color: var(--primary-color);
-    text-shadow: none;
-  }
-
-  .tag:hover {
-    background: rgba(var(--primary-rgb), 0.1);
-    transform: translateY(-1px);
-    border-color: rgba(var(--primary-rgb), 0.2);
-  }
-
-  .hero-cta {
-    margin-top: 3rem;
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .trust-signal {
-    margin-top: 1.5rem;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .rating-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.4rem;
-  }
-  
-  .stars {
-    color: #FFCA28;
-    font-size: 1.25rem;
-    letter-spacing: 0.1rem;
-    line-height: 1;
-  }
-  
-  .star-half {
-    position: relative;
-    display: inline-block;
-    color: rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    vertical-align: top;
-  }
-  
-  .star-half::before {
-    content: "★";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 50%;
-    overflow: hidden;
-    color: #FFCA28;
-  }
-  
-  .rating-text {
-    font-size: 0.85rem;
-    color: var(--text-light);
-    font-weight: 500;
-  }
-
-  .pulse-animation {
-    animation: pulse 2s infinite;
-  }
-
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    }
-    50% {
-      transform: scale(1.03);
-      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-    }
-    100% {
-      transform: scale(1);
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    }
-  }
-
-  .cta-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .desktop-text, .mobile-text {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .phone-icon {
-    flex-shrink: 0;
-  }
-
-  .social-proof {
-    font-size: 0.65rem;
-    opacity: 0.7;
-    font-weight: 400;
-    margin-top: 0.2rem;
-    color: rgba(255, 255, 255, 0.9);
-  }
-
-  .cta-primary {
-    background: var(--primary-color);
-    color: white;
-    padding: 1rem 2.5rem;
-    border-radius: 3rem;
-    font-weight: 600;
-    font-size: 1.1rem;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    position: relative;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    z-index: 1;
-    display: inline-flex;
-    align-items: center;
-  }
-  
-  .cta-primary:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    background: var(--primary-dark);
-  }
-  
-  .cta-secondary {
-    background: rgba(0, 0, 0, 0.05);
-    color: var(--text-color);
-    padding: 1rem 2.5rem;
-    border-radius: 3rem;
-    font-weight: 600;
-    font-size: 1.1rem;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.75rem;
-  }
-
-  .cta-secondary:hover {
-    background: rgba(0, 0, 0, 0.1);
-    border-color: rgba(0, 0, 0, 0.15);
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  }
-
-  .down-arrow {
-    font-size: 1.2rem;
-    margin-left: 0.2rem;
-    animation: bounce 3s ease-in-out infinite;
-  }
-  
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(3px);
-    }
-    60% {
-      transform: translateY(2px);
-    }
-  }
-
-  .service-content {
-    padding-top: 4rem;
-  }
-
-  .service-body {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: var(--text-color);
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  .service-page {
-    width: 100%;
-  }
-
-  .service-image {
-    margin: -8rem auto 4rem;
-    border-radius: 1rem;
-    overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    position: relative;
-  }
-
-  .service-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  .service-header {
-    margin-bottom: 2rem;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 1.5rem;
-    position: static;
-    background: none;
-    box-shadow: none;
-    z-index: auto;
-    width: 100%;
-  }
-  
-  .service-body h2 {
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: var(--text-color);
-    border-bottom: 1px solid #eee;
-    padding-bottom: 0.5rem;
-  }
-  
-  .service-body h3 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: var(--text-color);
-  }
-
-  .service-body h4 {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--text-color);
-  }
-  
-  .service-body p {
-    margin-bottom: 1.5rem;
-    font-size: 1.05rem;
-  }
-  
-  .service-body ul,
-  .service-body ol {
-    margin-bottom: 1.5rem;
-    padding-left: 1.5rem;
-  }
-
-  .service-body li {
-    margin-bottom: 0.5rem;
-  }
-  
-  .service-body pre {
-    background-color: var(--light-background);
-    padding: 1rem;
-    border-radius: 4px;
-    overflow-x: auto;
-    margin-bottom: 1.5rem;
-  }
-  
-  .service-body code {
-    font-family: monospace;
-  }
-
-  .service-body table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 1.5rem;
-    font-size: 0.95rem;
-  }
-
-  .service-body th,
-  .service-body td {
-    border: 1px solid #ddd;
-    padding: 0.75rem;
-    text-align: left;
-  }
-
-  .service-body th {
-    background-color: var(--light-background);
-    font-weight: 600;
-  }
-
-  .service-body tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  .related-services {
-    max-width: 1200px;
-    margin: 6rem auto;
-    padding: 0 2rem;
-  }
-  
-  .related-services h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 3rem;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-  }
-  
-  .related-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2rem;
-  }
-  
-  .related-card {
-    background-color: white;
-    padding: 2.5rem;
-    border-radius: 1rem;
-    transition: all 0.3s ease;
-    border: 1px solid var(--border-color);
-  }
-  
-  .related-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-    border-color: var(--primary-color);
-  }
-  
-  .related-card h3 {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-    letter-spacing: -0.01em;
-  }
-  
-  .related-card p {
-    color: var(--text-light);
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-  }
-  
-  .related-card a {
-    display: inline-flex;
-    align-items: center;
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1rem;
-    transition: all 0.3s ease;
-  }
-  
-  .related-card a:hover {
-    transform: translateX(4px);
-  }
-  
-  .service-footer {
-    text-align: center;
-    margin: 6rem 0;
-    padding: 4rem 2rem;
-    background: var(--light-background);
-    border-radius: 1.5rem;
-    border: 1px solid var(--border-color);
-  }
-  
-  .cta-container {
-    margin-bottom: 3rem;
-  }
-  
-  .cta-container h3 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-    color: var(--text-color);
-    font-weight: 700;
-    letter-spacing: -0.02em;
-  }
-  
-  .contact-button {
-    display: inline-block;
-    background: var(--primary-color);
-    color: white;
-    padding: 1.2rem 3rem;
-    border-radius: 3rem;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.2rem;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contact-button:hover {
-    background: var(--primary-dark);
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  }
-  
-  .navigation {
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-    margin-top: 3rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--border-color);
-  }
-  
-  .back-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: var(--text-color);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.1rem;
-    transition: all 0.3s ease;
-    padding: 0.8rem 1.5rem;
-    border-radius: 2rem;
-    background: white;
-    border: 1px solid var(--border-color);
-  }
-  
-  .back-link:hover {
-    color: var(--primary-color);
-    transform: translateX(-4px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    border-color: var(--primary-color);
-  }
-  
-  /* Mobile/Desktop text toggles */
-  .mobile-text {
-    display: none;
-  }
-  
-  @media (max-width: 768px) {
-    .service-container {
-      padding: 0 1rem;
-    }
-
-    .service-hero {
-      min-height: 100vh;
-      padding: 8rem 1.5rem 4rem;
-    }
-
-    .hero-content {
-      padding: 2.5rem;
-      margin: 0 1rem;
-      background: rgba(255, 255, 255, 0.45);
-    }
-
-    .main-title {
-      font-size: 2.5rem;
-    }
-
-    .service-description {
-      font-size: 1.1rem;
-    }
-
-    .hero-cta {
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .cta-primary, .cta-secondary {
-      width: 100%;
-      text-align: center;
-      justify-content: center;
-    }
-    
-    .cta-text {
-      align-items: center;
-    }
-
-    .service-content {
-      padding: 0 1.5rem;
-    }
-
-    .related-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .navigation {
-      flex-direction: column;
-      gap: 1rem;
-      align-items: center;
-    }
-
-    .back-link {
-      width: 100%;
-      justify-content: center;
-      font-size: 1rem;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .service-container {
-      padding: 0 0.75rem;
-    }
-
-    .hero-content {
-      padding: 2rem 1.5rem;
-      margin: 0 0.5rem;
-      background: rgba(255, 255, 255, 0.45);
-    }
-
-    .service-hero {
-      padding: 6rem 1rem 3rem;
-    }
-    
-    .cta-primary, .cta-secondary {
-      padding: 0.85rem 1.5rem;
-      font-size: 1rem;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .cta-text {
-      align-items: center;
-    }
-
-    .service-content {
-      padding: 0 1rem;
-    }
-
-    .service-footer {
-      padding: 3rem 1rem;
-      margin: 4rem 0;
-    }
-
-    .cta-container h3 {
-      font-size: 1.5rem;
-    }
-
-    .contact-button {
-      padding: 1rem 2rem;
-      font-size: 1rem;
-    }
-
-    /* Mobile/Desktop text toggles */
-    .mobile-text {
-      display: inline;
-      font-size: 1.1rem;
-      font-weight: 700;
-    }
-    
-    .desktop-text {
-      display: none;
-    }
-  }
-</style> 

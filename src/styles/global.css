@@ -151,16 +151,6 @@
     @apply bg-secondary text-secondary-content;
   }
 
-  /* Service dropdown mega menu */
-  .mega-menu {
-    @apply absolute top-full left-0 w-full bg-base-100 shadow-xl border-t border-base-300;
-    @apply opacity-0 invisible translate-y-2 transition-all duration-200;
-  }
-
-  .mega-menu.active,
-  .group:hover .mega-menu {
-    @apply opacity-100 visible translate-y-0;
-  }
 }
 
 /* Utilities layer */

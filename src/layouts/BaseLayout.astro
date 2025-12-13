@@ -239,60 +239,59 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
               <li><a href="/" class="font-medium hover:text-info">Home</a></li>
 
               <!-- Services Dropdown -->
-              <li class="dropdown dropdown-hover">
-                <div tabindex="0" role="button" class="font-medium hover:text-info flex items-center gap-1">
-                  Services
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                  </svg>
-                </div>
-                <div tabindex="0" class="dropdown-content z-[100] menu bg-base-100 shadow-xl border border-base-300 rounded-box w-[800px] p-6 -translate-x-1/2 left-1/2">
-                  <div class="grid grid-cols-4 gap-6">
-                    <!-- Personal Support -->
-                    <div>
-                      <h4 class="font-semibold text-primary mb-3 pb-2 border-b border-base-200">Personal Support</h4>
-                      <ul class="space-y-2">
-                        <li><a href="/services/disability-services" class="text-base-content/80 hover:text-primary hover:pl-1 transition-all text-sm">Disability Services</a></li>
-                        <li><a href="/services/personal-care" class="text-base-content/80 hover:text-primary hover:pl-1 transition-all text-sm">Personal Care</a></li>
-                        <li><a href="/services/clinical-care" class="text-base-content/80 hover:text-primary hover:pl-1 transition-all text-sm">Clinical Care</a></li>
-                        <li><a href="/services/support-workers" class="text-base-content/80 hover:text-primary hover:pl-1 transition-all text-sm">Support Workers</a></li>
-                      </ul>
-                    </div>
+              <li>
+                <div class="dropdown dropdown-hover dropdown-bottom">
+                  <div tabindex="0" role="button" class="font-medium hover:text-info flex items-center gap-1 cursor-pointer">
+                    Services
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
+                  <div tabindex="0" class="dropdown-content z-[100] bg-base-100 shadow-2xl rounded-box w-[700px] p-0 mt-0 left-1/2 -translate-x-1/2">
+                    <div class="grid grid-cols-4 gap-0">
+                      <!-- Personal Support -->
+                      <div class="p-5 border-r border-base-200">
+                        <h4 class="font-semibold text-primary mb-3 text-sm">Personal Support</h4>
+                        <div class="flex flex-col gap-0.5">
+                          <a href="/services/disability-services" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Disability Services</a>
+                          <a href="/services/personal-care" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Personal Care</a>
+                          <a href="/services/clinical-care" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Clinical Care</a>
+                          <a href="/services/support-workers" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Support Workers</a>
+                        </div>
+                      </div>
 
-                    <!-- Home & Living -->
-                    <div>
-                      <h4 class="font-semibold text-primary mb-3 pb-2 border-b border-base-200">Home & Living</h4>
-                      <ul class="space-y-2">
-                        <li><a href="/services/domestic-assistance" class="text-base-content/80 hover:text-primary hover:pl-1 transition-all text-sm">Domestic Assistance</a></li>
-                        <li><a href="/services/sil-services" class="text-base-content/80 hover:text-primary hover:pl-1 transition-all text-sm">SIL Services</a></li>
-                        <li><a href="/services/specialist-disability-accommodation" class="text-base-content/80 hover:text-primary hover:pl-1 transition-all text-sm">Specialist Accommodation</a></li>
-                        <li><a href="/services/respite-care" class="text-base-content/80 hover:text-primary hover:pl-1 transition-all text-sm">Respite Care</a></li>
-                      </ul>
-                    </div>
+                      <!-- Home & Living -->
+                      <div class="p-5 border-r border-base-200">
+                        <h4 class="font-semibold text-primary mb-3 text-sm">Home & Living</h4>
+                        <div class="flex flex-col gap-0.5">
+                          <a href="/services/domestic-assistance" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Domestic Assistance</a>
+                          <a href="/services/sil-services" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">SIL Services</a>
+                          <a href="/services/specialist-disability-accommodation" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Specialist Accommodation</a>
+                          <a href="/services/respite-care" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Respite Care</a>
+                        </div>
+                      </div>
 
-                    <!-- Community & Mobility -->
-                    <div>
-                      <h4 class="font-semibold text-primary mb-3 pb-2 border-b border-base-200">Community & Mobility</h4>
-                      <ul class="space-y-2">
-                        <li><a href="/services/community-access-support" class="text-base-content/80 hover:text-primary hover:pl-1 transition-all text-sm">Community Access</a></li>
-                        <li><a href="/services/transport-services" class="text-base-content/80 hover:text-primary hover:pl-1 transition-all text-sm">Transport Services</a></li>
-                        <li><a href="/services/disability-home-support-services" class="text-base-content/80 hover:text-primary hover:pl-1 transition-all text-sm">Home Support</a></li>
-                      </ul>
-                    </div>
+                      <!-- Community & Mobility -->
+                      <div class="p-5 border-r border-base-200">
+                        <h4 class="font-semibold text-primary mb-3 text-sm whitespace-nowrap">Community & Mobility</h4>
+                        <div class="flex flex-col gap-0.5">
+                          <a href="/services/community-access-support" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Community Access</a>
+                          <a href="/services/transport-services" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Transport Services</a>
+                          <a href="/services/disability-home-support-services" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Home Support</a>
+                        </div>
+                      </div>
 
-                    <!-- Specialized Care -->
-                    <div>
-                      <h4 class="font-semibold text-primary mb-3 pb-2 border-b border-base-200">Specialized Care</h4>
-                      <ul class="space-y-2">
-                        <li><a href="/services/therapy-services" class="text-base-content/80 hover:text-primary hover:pl-1 transition-all text-sm">Therapy Services</a></li>
-                        <li><a href="/services/ndis-specialist-support-coordination" class="text-base-content/80 hover:text-primary hover:pl-1 transition-all text-sm">NDIS Support Coordination</a></li>
-                        <li><a href="/services" class="text-primary font-medium hover:pl-1 transition-all text-sm flex items-center gap-1">
-                          All Services
-                          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                          </svg>
-                        </a></li>
-                      </ul>
+                      <!-- Specialized Care -->
+                      <div class="p-5">
+                        <h4 class="font-semibold text-primary mb-3 text-sm">Specialized Care</h4>
+                        <div class="flex flex-col gap-0.5">
+                          <a href="/services/therapy-services" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Therapy Services</a>
+                          <a href="/services/ndis-specialist-support-coordination" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">NDIS Coordination</a>
+                          <a href="/services" class="block py-1.5 text-primary font-medium transition-colors text-sm mt-3">
+                            All Services →
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
