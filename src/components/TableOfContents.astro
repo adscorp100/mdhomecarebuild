@@ -1,8 +1,4 @@
 ---
-// TableOfContents.astro
-// This component generates a SEO-friendly table of contents that extracts headings
-// from the rendered content and allows users to jump to specific sections
-
 export interface Props {
   headings: {
     depth: number;
@@ -13,40 +9,31 @@ export interface Props {
 
 const { headings } = Astro.props;
 
-// Filter only h2 and h3 headings to keep the TOC clean
-const toc = headings.filter(heading => heading.depth === 2 || heading.depth === 3);
+// Filter only h2 headings for a cleaner TOC
+const toc = headings.filter(heading => heading.depth === 2);
 ---
 
 {toc.length > 0 && (
-  <div class="card bg-base-200 border border-base-300 sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto">
-    <!-- DaisyUI Collapse for mobile, always open on desktop -->
-    <div class="collapse collapse-arrow lg:collapse-open">
-      <input type="checkbox" class="peer" />
-      <div class="collapse-title font-semibold text-base-content flex items-center gap-2 min-h-0 py-4 px-5">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
-        </svg>
-        Table of Contents
-      </div>
-      <nav class="collapse-content px-0">
-        <div class="flex flex-col gap-0.5 py-2 px-3">
-          {toc.map((heading) => (
-            <a
-              href={`#${heading.slug}`}
-              class={`toc-link py-2 px-3 text-base-content/70 hover:text-primary transition-colors ${heading.depth === 3 ? 'ml-4 text-sm' : 'font-medium'}`}
-              data-heading-id={heading.slug}
-            >
-              {heading.text}
-            </a>
-          ))}
-        </div>
-      </nav>
-    </div>
-  </div>
+  <nav class="hidden lg:block">
+    <h4 class="text-base font-semibold text-base-content mb-4">On this page</h4>
+    <ul class="flex flex-col gap-2">
+      {toc.map((heading) => (
+        <li>
+          <a
+            href={`#${heading.slug}`}
+            class="toc-link block text-base text-base-content/70 hover:text-primary truncate"
+            data-heading-id={heading.slug}
+            title={heading.text}
+          >
+            {heading.text}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
 )}
 
 <script>
-  // Highlight current section on scroll
   document.addEventListener('DOMContentLoaded', () => {
     const tocLinks = document.querySelectorAll('.toc-link');
     const observerOptions = {
@@ -61,21 +48,18 @@ const toc = headings.filter(heading => heading.depth === 2 || heading.depth === 
 
         if (link) {
           if (entry.isIntersecting) {
-            // Remove active class from all links
             tocLinks.forEach(l => {
               l.classList.remove('text-primary', 'font-semibold');
-              l.classList.add('text-base-content/70');
+              l.classList.add('text-base-content/60');
             });
-            // Add active class to current link
-            link.classList.remove('text-base-content/70');
+            link.classList.remove('text-base-content/60');
             link.classList.add('text-primary', 'font-semibold');
           }
         }
       });
     }, observerOptions);
 
-    // Observe all h2 and h3 elements
-    document.querySelectorAll('h2[id], h3[id]').forEach(heading => {
+    document.querySelectorAll('h2[id]').forEach(heading => {
       headingObserver.observe(heading);
     });
   });

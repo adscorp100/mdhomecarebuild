@@ -32,99 +32,51 @@ const { data: posts, currentPage, lastPage } = page;
     </div>
 
     <!-- Blog Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       {posts.map((post) => (
-        <article class="card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-base-200">
-          <a href={`/blog/${post.slug}`} class="block group">
-            {post.data.image && (
-              <figure class="h-48 overflow-hidden">
-                <img
-                  src={post.data.image}
-                  alt={post.data.title}
-                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </figure>
-            )}
-            <div class="card-body">
-              <!-- Meta -->
-              <div class="flex flex-wrap justify-between text-sm text-base-content/60 mb-2">
-                <span>{post.data.pubDate.toLocaleDateString('en-US', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric'
-                })}</span>
-                <span>by {post.data.author}</span>
-              </div>
-
-              <!-- Title -->
-              <h2 class="card-title text-lg group-hover:text-primary transition-colors">
-                {post.data.title}
-              </h2>
-
-              <!-- Description -->
-              <p class="text-base-content/70 text-sm line-clamp-3">
-                {post.data.description}
-              </p>
-
-              <!-- Tags -->
-              <div class="flex flex-wrap gap-2 mt-3">
-                {post.data.tags.slice(0, 3).map((tag: string) => (
-                  <span class="badge badge-ghost badge-sm">#{tag}</span>
-                ))}
-              </div>
-
-              <!-- Read More -->
-              <div class="card-actions justify-end mt-4">
-                <span class="link link-primary font-semibold text-sm inline-flex items-center gap-1">
-                  Read More
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </a>
-        </article>
+        <a href={`/blog/${post.slug}`} class="card card-compact bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
+          {post.data.image && (
+            <figure>
+              <img
+                src={post.data.image}
+                alt={post.data.title}
+                class="h-48 w-full object-cover"
+              />
+            </figure>
+          )}
+          <div class="card-body">
+            <p class="text-sm text-base-content/60">
+              {post.data.pubDate.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+              })} · {post.data.author}
+            </p>
+            <h2 class="card-title">{post.data.title}</h2>
+            <p class="text-base-content/70 line-clamp-2">{post.data.description}</p>
+          </div>
+        </a>
       ))}
     </div>
 
     <!-- Pagination -->
     {lastPage > 1 && (
-      <div class="flex justify-center items-center mt-16">
-        <div class="join">
-          {currentPage > 1 && (
-            <a
-              href={currentPage === 2 ? '/blog' : `/blog/${currentPage - 1}`}
-              class="join-item btn btn-outline"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-              </svg>
-              Previous
-            </a>
-          )}
-
-          {Array.from({ length: lastPage }, (_, i) => i + 1).map((pageNum: number) => (
-            <a
-              href={pageNum === 1 ? '/blog' : `/blog/${pageNum}`}
-              class={`join-item btn ${currentPage === pageNum ? 'btn-primary' : 'btn-outline'}`}
-            >
-              {pageNum}
-            </a>
-          ))}
-
-          {currentPage < lastPage && (
-            <a
-              href={`/blog/${currentPage + 1}`}
-              class="join-item btn btn-outline"
-            >
-              Next
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-              </svg>
-            </a>
-          )}
-        </div>
+      <div class="flex justify-center items-center gap-4 mt-12">
+        <a
+          href={currentPage === 2 ? '/blog' : `/blog/${currentPage - 1}`}
+          class={`btn btn-ghost btn-sm ${currentPage === 1 ? 'btn-disabled' : ''}`}
+        >
+          «
+        </a>
+        <span class="text-sm text-base-content/70">
+          Page {currentPage} of {lastPage}
+        </span>
+        <a
+          href={`/blog/${currentPage + 1}`}
+          class={`btn btn-ghost btn-sm ${currentPage === lastPage ? 'btn-disabled' : ''}`}
+        >
+          »
+        </a>
       </div>
     )}
   </div>
