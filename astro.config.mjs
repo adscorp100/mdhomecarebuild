@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
@@ -12,9 +13,12 @@ export default defineConfig({
       changefreq: 'weekly',
       priority: 0.7,
       lastmod: new Date(),
-      filter: (page) => 
+      filter: (page) =>
         // Exclude any pages you don't want in the sitemap
         !page.includes('/private/'),
     }),
   ],
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });

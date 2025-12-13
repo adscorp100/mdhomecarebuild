@@ -23,7 +23,7 @@ const servicesByCategory: Record<string, typeof allServices> = sortedServices.re
 // Sort categories alphabetically
 const sortedCategories = Object.keys(servicesByCategory).sort();
 
-// Collect all keywords from services for meta tags (but not for display)
+// Collect all keywords from services for meta tags
 const allKeywords = allServices.flatMap(service => service.data.keywords || []);
 const uniqueKeywords = [...new Set(allKeywords)];
 const metaKeywords = uniqueKeywords.join(', ');
@@ -33,460 +33,136 @@ const metaKeywords = uniqueKeywords.join(', ');
   <head slot="head">
     <meta name="keywords" content={metaKeywords} />
   </head>
-  <div class="container">
-    <section class="services-section">
-      <div class="services-header">
-        <h1>Our Services</h1>
-        <p>Explore our comprehensive range of care and support services designed to meet your individual needs.</p>
-        
-        <!-- Service Consultation CTA -->
-        <div class="service-cta">
-          <p>Need Help Choosing a Service? <a href="/contact" class="cta-button">Talk to Our Team</a></p>
-        </div>
+
+  <div class="max-w-7xl mx-auto px-4 py-12">
+    <!-- Header -->
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold text-base-content mb-4">Our Services</h1>
+      <p class="text-lg text-base-content/70 max-w-2xl mx-auto mb-8">
+        Explore our comprehensive range of care and support services designed to meet your individual needs.
+      </p>
+
+      <!-- CTA Alert -->
+      <div class="alert bg-base-200 max-w-xl mx-auto">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-primary shrink-0 w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+        <span>Need Help Choosing a Service?</span>
+        <a href="/contact" class="btn btn-primary btn-sm">Talk to Our Team</a>
       </div>
-      
-      <div class="services-layout">
-        <!-- Category Navigation -->
-        <div class="category-nav">
-          <h2>Categories</h2>
-          <ul class="category-links">
+    </div>
+
+    <!-- Services Layout -->
+    <div class="lg:grid lg:grid-cols-[220px_1fr] lg:gap-12">
+      <!-- Category Navigation (Sidebar) -->
+      <aside class="mb-8 lg:mb-0">
+        <div class="lg:sticky lg:top-20">
+          <h2 class="text-lg font-semibold text-base-content mb-4">Categories</h2>
+          <ul class="menu bg-base-200 rounded-lg p-2">
             {sortedCategories.map((category) => (
               <li>
-                <a href={"#category-" + category.toLowerCase().replace(/\s+/g, '-')} class="category-link">
-                  {category}
-                  <span class="category-count">{servicesByCategory[category].length}</span>
+                <a
+                  href={"#category-" + category.toLowerCase().replace(/\s+/g, '-')}
+                  class="category-link flex justify-between"
+                >
+                  <span>{category}</span>
+                  <span class="badge badge-ghost badge-sm">{servicesByCategory[category].length}</span>
                 </a>
               </li>
             ))}
           </ul>
         </div>
-        
-        <!-- Service Categories Content -->
-        <div class="services-content">
-          {sortedCategories.map((category, index) => (
-            <div id={"category-" + category.toLowerCase().replace(/\s+/g, '-')} class="category-section">
-              <div class="category-header">
-                <h2>{category}</h2>
-                <p class="category-service-count">{servicesByCategory[category].length} services available</p>
-              </div>
-              <div class="services-grid">
-                {servicesByCategory[category].map((service) => (
-                  <article class="service-card">
-                    <a href={"/services/" + service.slug} class="card-link">
-                      {service.data.image && (
-                        <div class="card-image">
-                          <img src={service.data.image} alt={service.data.title.replace('{suburb}', 'Australia')} />
-                        </div>
-                      )}
-                      <div class="card-content">
-                        <h3>{service.data.title.replace('{suburb}', 'Australia')}</h3>
-                        <p class="service-description">{service.data.description.replace(/\{suburb\}/g, 'Australia')}</p>
-                        <span class="read-more">View details</span>
-                      </div>
-                    </a>
-                  </article>
-                ))}
-              </div>
-              
-              <div class="category-navigation">
-                {index < sortedCategories.length - 1 && (
-                  <a href={"#category-" + sortedCategories[index + 1].toLowerCase().replace(/\s+/g, '-')} class="next-category">
-                    Next: {sortedCategories[index + 1]} <span class="nav-arrow">→</span>
-                  </a>
-                )}
-                <a href="#" class="back-to-top">Back to top <span class="nav-arrow">↑</span></a>
-              </div>
+      </aside>
+
+      <!-- Service Categories -->
+      <div class="space-y-16">
+        {sortedCategories.map((category, index) => (
+          <section
+            id={"category-" + category.toLowerCase().replace(/\s+/g, '-')}
+            class="scroll-mt-24"
+          >
+            <!-- Category Header -->
+            <div class="border-b border-base-300 pb-4 mb-6">
+              <h2 class="text-2xl font-bold text-base-content">{category}</h2>
+              <p class="text-sm text-base-content/60 mt-1">
+                {servicesByCategory[category].length} services available
+              </p>
             </div>
-          ))}
-        </div>
+
+            <!-- Services Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+              {servicesByCategory[category].map((service) => (
+                <article class="card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-base-200">
+                  <a href={"/services/" + service.slug} class="block group">
+                    {service.data.image && (
+                      <figure class="h-44 overflow-hidden">
+                        <img
+                          src={service.data.image}
+                          alt={service.data.title.replace('{suburb}', 'Australia')}
+                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                      </figure>
+                    )}
+                    <div class="card-body p-5">
+                      <h3 class="card-title text-base group-hover:text-primary transition-colors">
+                        {service.data.title.replace('{suburb}', 'Australia')}
+                      </h3>
+                      <p class="text-sm text-base-content/70 line-clamp-3">
+                        {service.data.description.replace(/\{suburb\}/g, 'Australia')}
+                      </p>
+                      <div class="card-actions justify-end mt-3">
+                        <span class="link link-primary text-sm font-medium inline-flex items-center gap-1">
+                          View details
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              ))}
+            </div>
+
+            <!-- Category Navigation -->
+            <div class="flex flex-wrap justify-between gap-4 mt-8">
+              {index < sortedCategories.length - 1 && (
+                <a
+                  href={"#category-" + sortedCategories[index + 1].toLowerCase().replace(/\s+/g, '-')}
+                  class="btn btn-ghost btn-sm gap-2"
+                >
+                  Next: {sortedCategories[index + 1]}
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              )}
+              <a href="#" class="btn btn-ghost btn-sm gap-2 ml-auto">
+                Back to top
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                </svg>
+              </a>
+            </div>
+          </section>
+        ))}
       </div>
-    </section>
+    </div>
   </div>
 </BaseLayout>
 
-<style>
-  .services-section {
-    padding: 2rem 0;
-    max-width: 1300px;
-    margin: 0 auto;
-  }
-  
-  .services-header {
-    margin-bottom: 3rem;
-    text-align: center;
-  }
-  
-  .services-header h1 {
-    color: var(--primary-dark);
-    margin-bottom: 0.5rem;
-  }
-  
-  .services-header p {
-    color: var(--text-light);
-    margin-bottom: 1.5rem;
-  }
-  
-  /* Service CTA styles */
-  .service-cta {
-    background-color: var(--light-background);
-    border-radius: 8px;
-    padding: 1rem 1.5rem;
-    margin: 1.5rem auto 0;
-    text-align: center;
-    max-width: 700px;
-  }
-  
-  .service-cta p {
-    margin: 0;
-    font-size: 1.1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  
-  .cta-button {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    font-weight: 500;
-    text-decoration: none;
-    transition: background-color 0.2s ease;
-    display: inline-block;
-    white-space: nowrap;
-  }
-  
-  .cta-button:hover {
-    background-color: var(--primary-dark);
-  }
-  
-  .cta-content {
-    margin-bottom: 0;
-  }
-  
-  .services-layout {
-    display: block;
-  }
-  
-  /* Category Navigation */
-  .category-nav {
-    margin-bottom: 2rem;
-    position: sticky;
-    top: 100px;
-    z-index: 10;
-    max-height: calc(100vh - 150px);
-    overflow-y: auto;
-    padding-right: 10px;
-    scrollbar-width: thin;
-  }
-  
-  .category-nav::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  .category-nav::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
-  }
-  
-  .category-nav::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 10px;
-  }
-  
-  .category-nav::-webkit-scrollbar-thumb:hover {
-    background: #aaa;
-  }
-  
-  .category-nav h2 {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    color: var(--primary-dark);
-  }
-  
-  .category-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .category-links li {
-    margin-bottom: 0.25rem;
-  }
-  
-  .category-link {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem 0;
-    color: var(--text-color);
-    font-size: 0.95rem;
-    transition: all 0.2s ease;
-    border-bottom: 1px solid transparent;
-  }
-  
-  .category-link:hover {
-    color: var(--primary-color);
-    transform: translateX(4px);
-  }
-  
-  .category-count {
-    color: var(--text-lighter);
-    font-size: 0.85rem;
-  }
-  
-  .back-to-top-nav {
-    display: none;
-  }
-  
-  .category-section {
-    margin-bottom: 4rem;
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
-    scroll-margin-top: 160px;
-    border-bottom: 1px solid var(--border-color);
-  }
-  
-  .category-section:last-child {
-    border-bottom: none;
-  }
-  
-  .category-header {
-    margin-bottom: 1.5rem;
-    padding-bottom: 0.75rem;
-    border-bottom: 2px solid var(--light-background);
-  }
-  
-  .category-header h2 {
-    color: var(--primary-dark);
-    font-size: 1.75rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .category-service-count {
-    font-size: 0.95rem;
-    color: var(--text-light);
-    margin: 0;
-  }
-  
-  .services-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    margin-top: 1rem;
-  }
-  
-  .service-card {
-    background-color: white;
-    height: 100%;
-    display: flex;
-    transition: transform 0.2s ease;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-  }
-  
-  .service-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
-  }
-  
-  .card-link {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .card-image {
-    width: 100%;
-    height: 180px;
-    overflow: hidden;
-  }
-  
-  .card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-  }
-  
-  .service-card:hover .card-image img {
-    transform: scale(1.05);
-  }
-  
-  .card-content {
-    padding: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    background-color: white;
-    border-top: 1px solid rgba(0, 0, 0, 0.03);
-  }
-  
-  .card-content h3 {
-    font-size: 1.1rem;
-    line-height: 1.3;
-    margin-bottom: 0.5rem;
-    color: var(--primary-dark);
-  }
-  
-  .service-description {
-    margin: 0 0 1rem 0;
-    color: var(--text-light);
-    font-size: 0.9rem;
-    line-height: 1.5;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  
-  .read-more {
-    display: inline-block;
-    margin-top: auto;
-    padding-top: 0.5rem;
-    font-weight: 500;
-    color: var(--primary-color);
-    font-size: 0.9rem;
-  }
-  
-  .category-navigation {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  
-  .next-category, .back-to-top {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    background-color: var(--light-background);
-    border-radius: 6px;
-    text-decoration: none;
-    color: var(--text-color);
-    font-size: 0.95rem;
-    font-weight: 500;
-    transition: all 0.2s ease;
-  }
-  
-  .next-category:hover, .back-to-top:hover {
-    background-color: var(--primary-color);
-    color: white;
-  }
-  
-  .nav-arrow {
-    margin-left: 0.5rem;
-    font-size: 1.1rem;
-  }
-  
-  /* Mobile & Tablet Layouts */
-  @media (max-width: 1023px) {
-    .services-layout {
-      display: block;
-    }
-    
-    .service-cta {
-      padding: 1rem;
-    }
-    
-    .service-cta p {
-      flex-direction: column;
-    }
-    
-    .category-nav {
-      padding-bottom: 1rem;
-      margin-bottom: 2rem;
-      position: relative;
-      top: 0;
-      border-bottom: 1px solid var(--border-color);
-    }
-    
-    .services-content {
-      width: 100%;
-    }
-    
-    .category-section {
-      scroll-margin-top: 20px;
-    }
-    
-    .category-navigation {
-      justify-content: center;
-    }
-  }
-  
-  /* Tablet+ Layouts */
-  @media (min-width: 600px) {
-    .services-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .card-content h3 {
-      font-size: 1rem;
-    }
-  }
-  
-  /* Desktop Layout */
-  @media (min-width: 1024px) {
-    .services-layout {
-      display: grid;
-      grid-template-columns: 220px 1fr;
-      gap: 3rem;
-      align-items: start;
-    }
-    
-    .services-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .category-nav {
-      margin-bottom: 0;
-      padding-right: 1rem;
-    }
-    
-    .services-content {
-      overflow: hidden;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .services-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-  
-  @media (min-width: 1400px) {
-    .services-layout {
-      grid-template-columns: 250px 1fr;
-    }
-  }
-
-  /* Add smooth scrolling behavior */
-  html {
-    scroll-behavior: smooth;
-  }
-</style>
-
-<!-- Add JavaScript for category highlighting based on scroll position -->
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     const categoryLinks = document.querySelectorAll('.category-link');
-    const categorySections = document.querySelectorAll('.category-section');
-    
-    // Highlight active category in navigation when scrolling
+    const categorySections = document.querySelectorAll('section[id^="category-"]');
+
     const highlightActiveCategory = () => {
       let currentSectionId = '';
-      
+
       categorySections.forEach(section => {
         const sectionTop = section.getBoundingClientRect().top + window.scrollY;
         const sectionHeight = section.getBoundingClientRect().height;
-        
+
         if (window.scrollY >= sectionTop - 200 && window.scrollY < sectionTop + sectionHeight - 200) {
           const id = section.getAttribute('id');
           if (id) {
@@ -494,22 +170,20 @@ const metaKeywords = uniqueKeywords.join(', ');
           }
         }
       });
-      
-      // Remove active class from all links
+
       categoryLinks.forEach(link => {
-        link.classList.remove('active-category');
+        link.classList.remove('active', 'bg-primary', 'text-primary-content');
       });
-      
-      // Add active class to current section link
+
       if (currentSectionId) {
         const activeLink = document.querySelector(`.category-link[href="#${currentSectionId}"]`);
         if (activeLink) {
-          activeLink.classList.add('active-category');
+          activeLink.classList.add('active', 'bg-primary', 'text-primary-content');
         }
       }
     };
-    
+
     window.addEventListener('scroll', highlightActiveCategory);
-    highlightActiveCategory(); // Run once on page load
+    highlightActiveCategory();
   });
-</script> 
+</script>

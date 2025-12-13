@@ -1,221 +1,182 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Terms of Service | MD Homecare";
+const description = "Terms and conditions for using MD Homecare services";
 ---
 
-<BaseLayout title="Terms of Service | MD Homecare" description="Terms and conditions for using MD Homecare services">
-  <div class="container">
-    <div class="policy-container">
-      <h1>Terms of Service</h1>
-      <p class="last-updated">Last Updated: {new Date().toLocaleDateString('en-AU', {day: 'numeric', month: 'long', year: 'numeric'})}</p>
-      
-      <section class="policy-section">
-        <h2>1. Introduction</h2>
-        <p>Welcome to MD Homecare. These Terms of Service ("Terms") govern your use of our services, website, and related platforms. By accessing or using our services, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our services.</p>
-        <p>MD Homecare provides disability support and home care services as part of the National Disability Insurance Scheme (NDIS) and other care programs in Australia.</p>
-      </section>
-      
-      <section class="policy-section">
-        <h2>2. Service Agreement</h2>
-        <p>Before commencement of services, clients (or their authorized representatives) will be required to enter into a formal Service Agreement with MD Homecare. This agreement will outline:</p>
-        <ul>
-          <li>The specific services to be provided</li>
-          <li>Service schedules and duration</li>
-          <li>Applicable fees and funding arrangements</li>
-          <li>Rights and responsibilities of both parties</li>
-          <li>Cancellation and termination policies</li>
-        </ul>
-        <p>The Service Agreement, once signed, forms part of these Terms of Service.</p>
-      </section>
-      
-      <section class="policy-section">
-        <h2>3. Our Services</h2>
-        <p>MD Homecare offers a range of disability support and home care services, including but not limited to:</p>
-        <ul>
-          <li>Personal care assistance</li>
-          <li>Domestic assistance</li>
-          <li>Community access support</li>
-          <li>Respite care</li>
-          <li>Clinical care</li>
-          <li>Therapy services</li>
-          <li>Supported Independent Living (SIL)</li>
-        </ul>
-        <p>The availability and scope of services may vary depending on location, staff availability, funding arrangements, and individual needs assessment.</p>
-      </section>
-      
-      <section class="policy-section">
-        <h2>4. Your Responsibilities</h2>
-        <p>As a client of MD Homecare, you agree to:</p>
-        <ul>
-          <li>Provide accurate and complete information about your needs, medical history, and support requirements</li>
-          <li>Treat MD Homecare staff with respect and dignity</li>
-          <li>Maintain a safe environment for service delivery</li>
-          <li>Provide reasonable notice for service changes or cancellations as outlined in your Service Agreement</li>
-          <li>Make payments for services as agreed upon (if applicable)</li>
-          <li>Comply with NDIS rules and regulations (for NDIS participants)</li>
-          <li>Inform MD Homecare of any changes to your circumstances that may affect service delivery</li>
-        </ul>
-      </section>
-      
-      <section class="policy-section">
-        <h2>5. Fees and Payment</h2>
-        <p>Fees for our services are outlined in your Service Agreement and may be:</p>
-        <ul>
-          <li>Funded through the NDIS for eligible participants</li>
-          <li>Covered by Home Care Packages or other government programs</li>
-          <li>Paid privately by clients</li>
-        </ul>
-        <p>For privately paid services, payment terms are outlined in your Service Agreement. Failure to make payments as agreed may result in suspension or termination of services.</p>
-        <p>All fees are subject to change with reasonable notice, and in accordance with applicable laws and regulations.</p>
-      </section>
-      
-      <section class="policy-section">
-        <h2>6. Cancellation Policy</h2>
-        <p>Our cancellation policy aligns with the NDIS Price Guide for NDIS-funded services and is detailed in your Service Agreement. Generally:</p>
-        <ul>
-          <li>Cancellations with adequate notice (as specified in your Service Agreement) will not incur charges</li>
-          <li>Late cancellations may result in full or partial service charges</li>
-          <li>Repeated cancellations may affect service scheduling and availability</li>
-        </ul>
-        <p>We understand that emergencies happen, and we will work with you to accommodate genuine emergency situations.</p>
-      </section>
-      
-      <section class="policy-section">
-        <h2>7. Privacy and Confidentiality</h2>
-        <p>MD Homecare is committed to protecting your privacy and maintaining the confidentiality of your personal and health information. Our collection, use, and disclosure of your information is governed by our Privacy Policy and applicable privacy laws.</p>
-        <p>By using our services, you consent to our collection, use, and disclosure of your information as outlined in our Privacy Policy.</p>
-      </section>
-      
-      <section class="policy-section">
-        <h2>8. Feedback and Complaints</h2>
-        <p>We value your feedback and are committed to continuous improvement. If you have any concerns or complaints about our services, please contact us directly to discuss the matter.</p>
-        <p>We have a formal complaints procedure that ensures all complaints are handled fairly, confidentially, and promptly. If your complaint cannot be resolved directly with us, you may also contact the NDIS Quality and Safeguards Commission or other relevant authorities.</p>
-      </section>
-      
-      <section class="policy-section">
-        <h2>9. Limitation of Liability</h2>
-        <p>To the extent permitted by law, MD Homecare's liability for any loss or damage suffered by you in connection with our services is limited to:</p>
-        <ul>
-          <li>Resupplying the services; or</li>
-          <li>Paying the cost of having the services resupplied</li>
-        </ul>
-        <p>MD Homecare is not liable for any indirect, special, or consequential loss or damage, loss of profit, or loss of opportunity.</p>
-        <p>Nothing in these Terms excludes, restricts, or modifies any right or remedy, or any guarantee, warranty, or other term or condition, implied or imposed by any legislation that cannot lawfully be excluded or limited.</p>
-      </section>
-      
-      <section class="policy-section">
-        <h2>10. Termination of Services</h2>
-        <p>Either party may terminate the Service Agreement with notice as specified in your Service Agreement. MD Homecare reserves the right to terminate services immediately if:</p>
-        <ul>
-          <li>You breach these Terms or your Service Agreement</li>
-          <li>The safety of our staff is compromised</li>
-          <li>The service environment is unsafe</li>
-          <li>Funding is withdrawn or exhausted</li>
-          <li>We can no longer provide the services you require</li>
-        </ul>
-        <p>Upon termination, you are responsible for payment of any outstanding fees for services provided.</p>
-      </section>
-      
-      <section class="policy-section">
-        <h2>11. Changes to Terms</h2>
-        <p>MD Homecare may update these Terms from time to time to reflect changes in our practices or legal requirements. The updated Terms will be posted on our website, and the revised version will be effective from the date of posting.</p>
-        <p>Continued use of our services after any changes to these Terms constitutes your acceptance of the revised Terms.</p>
-      </section>
-      
-      <section class="policy-section">
-        <h2>12. Governing Law</h2>
-        <p>These Terms are governed by the laws of New South Wales, Australia. Any disputes arising under these Terms will be subject to the exclusive jurisdiction of the courts of New South Wales.</p>
-      </section>
+<BaseLayout title={title} description={description}>
+  <!-- Hero Section -->
+  <section class="hero min-h-[30vh] bg-base-200">
+    <div class="hero-content text-center">
+      <div class="max-w-3xl">
+        <h1 class="text-4xl lg:text-5xl font-extrabold text-base-content mb-4">Terms of Service</h1>
+        <p class="text-base-content/60">
+          Last Updated: {new Date().toLocaleDateString('en-AU', {day: 'numeric', month: 'long', year: 'numeric'})}
+        </p>
+      </div>
     </div>
-  </div>
-</BaseLayout>
+  </section>
 
-<style>
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-  }
-  
-  .policy-container {
-    max-width: 800px;
-    margin: 3rem auto 5rem;
-    background-color: white;
-    border-radius: 8px;
-    padding: 2.5rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  }
-  
-  h1 {
-    font-size: 2.25rem;
-    color: var(--text-color);
-    margin-bottom: 0.5rem;
-  }
-  
-  .last-updated {
-    color: var(--text-lighter);
-    font-size: 0.9rem;
-    margin-bottom: 2.5rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid #eee;
-  }
-  
-  .policy-section {
-    margin-bottom: 2.5rem;
-  }
-  
-  h2 {
-    font-size: 1.5rem;
-    color: var(--primary-dark);
-    margin-bottom: 1rem;
-  }
-  
-  p {
-    margin-bottom: 1rem;
-    line-height: 1.7;
-  }
-  
-  ul {
-    padding-left: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  li {
-    margin-bottom: 0.5rem;
-    line-height: 1.6;
-  }
-  
-  a {
-    color: var(--primary-color);
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .contact-details {
-    background-color: var(--light-background);
-    padding: 1.5rem;
-    border-radius: 6px;
-    margin-top: 1rem;
-  }
-  
-  .contact-details p {
-    margin-bottom: 0.5rem;
-  }
-  
-  @media (max-width: 768px) {
-    .policy-container {
-      padding: 1.5rem;
-      margin: 2rem auto 3rem;
-    }
-    
-    h1 {
-      font-size: 1.75rem;
-    }
-    
-    h2 {
-      font-size: 1.3rem;
-    }
-  }
-</style> 
+  <!-- Content Section -->
+  <section class="py-12 px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="card bg-base-100 shadow-xl">
+        <div class="card-body prose-mdhomecare">
+
+          <section class="mb-8">
+            <h2 class="text-2xl font-bold text-primary mb-4">1. Introduction</h2>
+            <p>Welcome to MD Homecare. These Terms of Service ("Terms") govern your use of our services, website, and related platforms. By accessing or using our services, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our services.</p>
+            <p>MD Homecare provides disability support and home care services as part of the National Disability Insurance Scheme (NDIS) and other care programs in Australia.</p>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="mb-8">
+            <h2 class="text-2xl font-bold text-primary mb-4">2. Service Agreement</h2>
+            <p>Before commencement of services, clients (or their authorized representatives) will be required to enter into a formal Service Agreement with MD Homecare. This agreement will outline:</p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li>The specific services to be provided</li>
+              <li>Service schedules and duration</li>
+              <li>Applicable fees and funding arrangements</li>
+              <li>Rights and responsibilities of both parties</li>
+              <li>Cancellation and termination policies</li>
+            </ul>
+            <p class="mt-4">The Service Agreement, once signed, forms part of these Terms of Service.</p>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="mb-8">
+            <h2 class="text-2xl font-bold text-primary mb-4">3. Our Services</h2>
+            <p>MD Homecare offers a range of disability support and home care services, including but not limited to:</p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li>Personal care assistance</li>
+              <li>Domestic assistance</li>
+              <li>Community access support</li>
+              <li>Respite care</li>
+              <li>Clinical care</li>
+              <li>Therapy services</li>
+              <li>Supported Independent Living (SIL)</li>
+            </ul>
+            <p class="mt-4">The availability and scope of services may vary depending on location, staff availability, funding arrangements, and individual needs assessment.</p>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="mb-8">
+            <h2 class="text-2xl font-bold text-primary mb-4">4. Your Responsibilities</h2>
+            <p>As a client of MD Homecare, you agree to:</p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li>Provide accurate and complete information about your needs, medical history, and support requirements</li>
+              <li>Treat MD Homecare staff with respect and dignity</li>
+              <li>Maintain a safe environment for service delivery</li>
+              <li>Provide reasonable notice for service changes or cancellations as outlined in your Service Agreement</li>
+              <li>Make payments for services as agreed upon (if applicable)</li>
+              <li>Comply with NDIS rules and regulations (for NDIS participants)</li>
+              <li>Inform MD Homecare of any changes to your circumstances that may affect service delivery</li>
+            </ul>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="mb-8">
+            <h2 class="text-2xl font-bold text-primary mb-4">5. Fees and Payment</h2>
+            <p>Fees for our services are outlined in your Service Agreement and may be:</p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li>Funded through the NDIS for eligible participants</li>
+              <li>Covered by Home Care Packages or other government programs</li>
+              <li>Paid privately by clients</li>
+            </ul>
+            <p class="mt-4">For privately paid services, payment terms are outlined in your Service Agreement. Failure to make payments as agreed may result in suspension or termination of services.</p>
+            <p>All fees are subject to change with reasonable notice, and in accordance with applicable laws and regulations.</p>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="mb-8">
+            <h2 class="text-2xl font-bold text-primary mb-4">6. Cancellation Policy</h2>
+            <p>Our cancellation policy aligns with the NDIS Price Guide for NDIS-funded services and is detailed in your Service Agreement. Generally:</p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li>Cancellations with adequate notice (as specified in your Service Agreement) will not incur charges</li>
+              <li>Late cancellations may result in full or partial service charges</li>
+              <li>Repeated cancellations may affect service scheduling and availability</li>
+            </ul>
+            <p class="mt-4">We understand that emergencies happen, and we will work with you to accommodate genuine emergency situations.</p>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="mb-8">
+            <h2 class="text-2xl font-bold text-primary mb-4">7. Privacy and Confidentiality</h2>
+            <p>MD Homecare is committed to protecting your privacy and maintaining the confidentiality of your personal and health information. Our collection, use, and disclosure of your information is governed by our <a href="/privacy" class="link link-primary">Privacy Policy</a> and applicable privacy laws.</p>
+            <p>By using our services, you consent to our collection, use, and disclosure of your information as outlined in our Privacy Policy.</p>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="mb-8">
+            <h2 class="text-2xl font-bold text-primary mb-4">8. Feedback and Complaints</h2>
+            <p>We value your feedback and are committed to continuous improvement. If you have any concerns or complaints about our services, please contact us directly to discuss the matter.</p>
+            <p>We have a formal complaints procedure that ensures all complaints are handled fairly, confidentially, and promptly. If your complaint cannot be resolved directly with us, you may also contact the NDIS Quality and Safeguards Commission or other relevant authorities.</p>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="mb-8">
+            <h2 class="text-2xl font-bold text-primary mb-4">9. Limitation of Liability</h2>
+            <p>To the extent permitted by law, MD Homecare's liability for any loss or damage suffered by you in connection with our services is limited to:</p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li>Resupplying the services; or</li>
+              <li>Paying the cost of having the services resupplied</li>
+            </ul>
+            <p class="mt-4">MD Homecare is not liable for any indirect, special, or consequential loss or damage, loss of profit, or loss of opportunity.</p>
+            <p>Nothing in these Terms excludes, restricts, or modifies any right or remedy, or any guarantee, warranty, or other term or condition, implied or imposed by any legislation that cannot lawfully be excluded or limited.</p>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="mb-8">
+            <h2 class="text-2xl font-bold text-primary mb-4">10. Termination of Services</h2>
+            <p>Either party may terminate the Service Agreement with notice as specified in your Service Agreement. MD Homecare reserves the right to terminate services immediately if:</p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li>You breach these Terms or your Service Agreement</li>
+              <li>The safety of our staff is compromised</li>
+              <li>The service environment is unsafe</li>
+              <li>Funding is withdrawn or exhausted</li>
+              <li>We can no longer provide the services you require</li>
+            </ul>
+            <p class="mt-4">Upon termination, you are responsible for payment of any outstanding fees for services provided.</p>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="mb-8">
+            <h2 class="text-2xl font-bold text-primary mb-4">11. Changes to Terms</h2>
+            <p>MD Homecare may update these Terms from time to time to reflect changes in our practices or legal requirements. The updated Terms will be posted on our website, and the revised version will be effective from the date of posting.</p>
+            <p>Continued use of our services after any changes to these Terms constitutes your acceptance of the revised Terms.</p>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="mb-8">
+            <h2 class="text-2xl font-bold text-primary mb-4">12. Governing Law</h2>
+            <p>These Terms are governed by the laws of New South Wales, Australia. Any disputes arising under these Terms will be subject to the exclusive jurisdiction of the courts of New South Wales.</p>
+          </section>
+
+          <!-- Contact Card -->
+          <div class="alert bg-base-200 mt-8">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-primary shrink-0 w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <div>
+              <h3 class="font-bold">Have Questions?</h3>
+              <p class="text-sm">If you have any questions about these Terms, please <a href="/contact" class="link link-primary">contact us</a> or call <a href="tel:+61863869999" class="link link-primary">08 6386 9999</a>.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
