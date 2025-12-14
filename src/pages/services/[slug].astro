@@ -677,8 +677,8 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
     @apply bg-base-200 font-semibold;
   }
 
-  .prose img {
-    @apply rounded-lg shadow-md my-6;
+  .prose :global(img) {
+    @apply rounded-2xl shadow-md my-6;
   }
 
   .prose hr {
