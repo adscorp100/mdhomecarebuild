@@ -1,22 +1,25 @@
 ---
-title: "Mable Support Workers 2025: NDIS Rates, Platform Guide & How to Find Quality Care"
-description: "Complete guide to Mable support workers 2025: NDIS pay rates $35-45/hour, platform benefits, how to find quality support workers, and why 89% of participants recommend Mable for NDIS services."
-pubDate: 2025-01-15
+title: "Mable Support Worker Rates 2025: $58/Hour Average + Weekend Rates & NDIS Guide"
+description: "Mable support worker rates December 2025: Average $58/hour weekday, $39 minimum. Weekend rates higher. Is Mable NDIS registered? Platform vs provider explained. 7.95% client fee breakdown."
+pubDate: 2025-12-15
 author: "Camila"
-tags: ["Mable Support Workers", "NDIS", "Support Workers", "Disability Support", "Mable Platform"]
-image: "@/assets/carer.webp"
+tags: ["Mable Support Workers", "NDIS", "Support Workers", "Disability Support", "Mable Platform", "Mable Rates"]
+image: "/assets/carer.webp"
 ---
 
-# Mable Support Workers 2025: NDIS Rates, Platform Guide & How to Find Quality Care
+# Mable Support Worker Rates 2025: Complete Guide to NDIS Rates, Weekend Rates & Platform Fees
 
-**Quick Facts - Mable Support Workers 2025:**
-- **Pay Rates**: $35-45/hour for NDIS support workers
-- **Platform Fee**: 5% service fee on bookings
-- **Background Checks**: All workers police checked and verified
-- **Coverage**: Available across Australia with 24/7 support
-- **⚠️ Updates**: Enhanced safety features and insurance coverage 2025
+**Quick Facts - Mable Support Workers December 2025:**
+- **Average Weekday Rate**: $58/hour (personal care/disability support)
+- **Minimum Hourly Rate**: $39/hour (platform minimum)
+- **NDIS Price Cap**: $70.23/hour (Assistance with Self Care - Standard Weekday)
+- **Client Platform Fee**: 7.95% (added to agreed rate)
+- **Support Worker Fee**: 10% (deducted from worker earnings)
+- **⚠️ July 2025 Update**: 3.5% minimum wage increase reflected in NDIS price limits
 
-Mable is Australia's leading online platform connecting people with disabilities to quality support workers for NDIS and private services. With over 15,000 vetted support workers and 89% participant satisfaction, Mable offers a safe, flexible way to find, book, and manage disability support services at competitive rates.
+*Last Updated: December 15, 2025 - Reflecting 2025-26 NDIS Pricing Arrangements v1.1*
+
+Mable is Australia's leading online platform connecting people with disabilities to independent support workers for NDIS and private services. Unlike traditional providers, Mable is a marketplace where you negotiate rates directly with workers within the NDIS price limits.
 
 ## What is Mable Support?
 
@@ -31,23 +34,57 @@ Mable is an online marketplace platform that connects NDIS participants and peop
 
 Founded in 2014, Mable has become Australia's most trusted platform for finding disability support workers, processing over 500,000 hours of support monthly.
 
-## Mable NDIS Support Worker Rates 2025
+## Is Mable NDIS Registered? Understanding Mable's Status
 
-### Standard NDIS Support Worker Rates on Mable
+**Important Clarification**: Mable is NOT a traditional NDIS-registered provider - it's an online platform that connects participants with independent support workers.
 
-| Support Type | Weekday Hours | Evening Hours | Weekend Hours | Public Holiday |
-|--------------|---------------|---------------|---------------|----------------|
-| **Level 2 Support** | $35-40/hour | $38-45/hour | $52-60/hour | $70-80/hour |
-| **Level 3 Support** | $38-43/hour | $42-48/hour | $57-65/hour | $76-86/hour |
-| **Specialized Support** | $42-48/hour | $46-53/hour | $63-72/hour | $84-96/hour |
+### What This Means for You:
+
+| NDIS Plan Management Type | Can You Use Mable? | Notes |
+|---------------------------|-------------------|-------|
+| **Self-Managed** | ✅ Yes | Full flexibility to use Mable |
+| **Plan-Managed** | ✅ Yes | Can book independent workers on Mable |
+| **Agency-Managed (NDIA)** | ❌ No | Must use registered NDIS providers only |
+
+Mable doesn't fit into provider registration categories because they don't provide support directly - they're a technology platform connecting people. The support workers on Mable are independent sole traders who may or may not be individually registered.
+
+## Mable Support Worker Rates December 2025
+
+### Current Average Rates on Mable (Data: April-September 2025)
+
+| Time Period | Average Agreed Rate | With 7.95% Client Fee | Worker Earnings (after 10%) |
+|-------------|--------------------|-----------------------|----------------------------|
+| **Weekday Daytime** | $58/hour | $63/hour | $52/hour |
+| **Weekend** | Higher rates | Negotiated directly | Varies |
+| **Public Holidays** | Highest rates | Negotiated directly | Varies |
+
+### NDIS Price Limits for Comparison (2025-26)
+
+| Support Type | NDIS Price Cap | Mable Average | Potential Savings |
+|--------------|---------------|---------------|-------------------|
+| **Self Care - Weekday Daytime** | $70.23/hour | $63/hour (with fee) | ~$7/hour |
+| **Self Care - Saturday** | Higher | Negotiated | Varies |
+| **Self Care - Sunday** | Highest | Negotiated | Varies |
+
+*Source: NDIS Pricing Arrangements and Price Limits 2025-26 v1.1 (effective 24 November 2025)*
+
+### Mable Platform Fees Explained
+
+**For Clients (NDIS Participants):**
+- **7.95% Platform Fee**: Added on top of the agreed hourly rate
+- Example: $58/hour agreed rate = $63/hour total cost
+
+**For Support Workers:**
+- **10% Support Engagement Fee**: Deducted from earnings
+- Example: $58/hour agreed rate = $52/hour in pocket
 
 ### Mable Platform Benefits for NDIS Participants
 
-**Cost Savings**: Direct booking often 15-25% cheaper than agency rates
-**Quality Control**: All support workers background checked and verified
+**Cost Savings**: Often cheaper than traditional agency rates despite fees
+**Quality Control**: All workers require NDIS Worker Screening Check
 **Flexibility**: Book support when you need it, no long-term contracts
 **Choice**: Access to thousands of support workers across Australia
-**Transparency**: Clear pricing and support worker profiles
+**Transparency**: Workers set their own rates within NDIS price limits
 
 ## How Mable Support Workers Work
 
@@ -159,16 +196,17 @@ Founded in 2014, Mable has become Australia's most trusted platform for finding 
 
 ## Mable vs Other NDIS Support Platforms
 
-| Feature | Mable | Hireup | Other Agencies |
-|---------|--------|---------|---------------|
-| **Platform Fee** | 5% | 8-12% | 15-30% |
-| **Background Checks** | Comprehensive | Standard | Varies |
+| Feature | Mable | Hireup | Traditional Agencies |
+|---------|--------|---------|---------------------|
+| **Client Fee** | 7.95% | 8-12% | 15-30% markup |
+| **Worker Fee** | 10% | Varies | N/A (employees) |
+| **NDIS Registered** | Platform only | Yes | Yes |
+| **Agency-Managed OK** | ❌ No | ✅ Yes | ✅ Yes |
+| **Background Checks** | NDIS Worker Screening | NDIS Worker Screening | Varies |
 | **Insurance** | Included | Included | Often extra |
-| **Support Worker Pool** | 15,000+ | 8,000+ | Varies |
 | **Booking Flexibility** | High | Medium | Low |
-| **Payment Speed** | 48 hours | 1 week | 2-4 weeks |
 
-**Winner**: Mable offers the best combination of cost-effectiveness, choice, and platform features for most NDIS participants.
+**Best For**: Mable is ideal for self-managed and plan-managed participants who want choice and potentially lower costs. Agency-managed participants must use registered providers like Hireup or traditional agencies.
 
 ## How to Get Started with Mable Support
 
@@ -228,10 +266,15 @@ Founded in 2014, Mable has become Australia's most trusted platform for finding 
 ## Common Mable Support Questions
 
 ### How Much Does Mable Cost?
-Mable charges a 5% service fee on all bookings, significantly lower than traditional agencies (15-30%). Participants pay support workers directly through the platform, with transparent pricing and no hidden fees.
+Mable charges a **7.95% client platform fee** on all bookings. Support workers also pay a 10% support engagement fee from their earnings. Despite these fees, using Mable is often cheaper than traditional agencies (which charge 15-30% markup). Based on April-September 2025 data, the average agreed weekday rate for personal care/disability support is **$58/hour**, which becomes **$63/hour** after the client fee.
 
 ### Is Mable NDIS Registered?
-Yes, Mable is a registered NDIS provider, allowing plan-managed and self-managed participants to use their NDIS funding for platform bookings. Agency-managed participants need prior approval from their Local Area Coordinator.
+**Important Clarification**: Mable is NOT a traditional registered NDIS provider - it's an online platform that connects participants with independent support workers. Mable doesn't fit into provider registration categories because they don't provide support directly.
+
+**Who Can Use Mable:**
+- ✅ **Self-managed participants**: Full flexibility to use Mable
+- ✅ **Plan-managed participants**: Can book independent workers on Mable
+- ❌ **Agency-managed (NDIA) participants**: Cannot use Mable - must use registered providers only
 
 ### What Happens if My Support Worker Doesn't Show Up?
 Mable provides 24/7 support for booking issues. If a support worker cancels last minute or doesn't show up, Mable helps find replacement support and may provide compensation for inconvenience.
@@ -283,13 +326,13 @@ Mable represents the future of disability support services in Australia, offerin
 ## Frequently Asked Questions About Mable Support Workers
 
 ### How much do Mable support workers charge?
-Mable support workers typically charge $35-45 per hour for standard NDIS support, with rates varying based on qualifications, experience, and time of service. Evening, weekend, and public holiday rates are higher. Mable charges a 5% platform service fee, making it significantly cheaper than traditional agencies that charge 15-30% markup.
+Based on Mable platform data from April-September 2025, the average weekday hourly rate for personal care/disability support is **$58/hour**. With Mable's 7.95% client platform fee, this totals approximately **$63/hour** for clients. Rates vary based on worker experience, qualifications, and time of service. Weekend and public holiday rates are higher. The minimum rate on Mable is **$39/hour**.
 
 ### Are Mable support workers qualified and safe?
 Yes, all Mable support workers undergo comprehensive background checks including National Police Checks, NDIS Worker Screening, and reference verification. The platform requires relevant qualifications and experience, with mandatory training modules. All bookings include $20 million public liability insurance coverage.
 
 ### Can I use my NDIS funding to pay Mable support workers?
-Yes, Mable is a registered NDIS provider. Self-managed and plan-managed participants can use their NDIS funding directly through the platform. Agency-managed participants may need approval from their Local Area Coordinator, but many are approved for Mable services.
+**Self-managed and plan-managed** participants can use their NDIS funding on Mable. However, **agency-managed (NDIA) participants cannot use Mable** because they must use registered NDIS providers only, and Mable is a platform, not a registered provider. If you're agency-managed, consider asking your LAC about changing to plan-managed or self-managed to access Mable.
 
 ### How do I find the right support worker on Mable?
 Use Mable's search filters to find workers by location, availability, specializations, and ratings. Read detailed profiles, reviews from other participants, and qualifications. Contact potential workers through the platform's secure messaging to discuss your needs before booking a trial session.

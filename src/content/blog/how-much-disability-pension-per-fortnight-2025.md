@@ -1,18 +1,21 @@
 ---
-title: "How Much is the Disability Pension Per Fortnight? DSP Rates 2025 Complete Guide"
-description: "Get $1,116.30 per fortnight with Disability Support Pension. Complete guide to DSP payment rates, eligibility, asset tests, and how long payments last in 2025."
-pubDate: 2025-01-15
+title: "How Much is the Disability Pension Per Fortnight 2025? $1,149 DSP Rates (December Update)"
+description: "Disability pension December 2025: Singles get up to $1,149/fortnight (after September indexation). Asset limits $314,000 homeowners. Does DSP stop at 65? Complete rates guide."
+pubDate: 2025-12-15
 author: "Camila"
-tags: ["disability support pension", "dsp rates", "disability pension", "centrelink payments"]
+tags: ["disability support pension", "dsp rates", "disability pension", "centrelink payments", "dsp 2025", "disability pension rates"]
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 
-**Quick Facts - Disability Support Pension 2025:**
-- **Single Rate**: $1,116.30 per fortnight (including supplements)
-- **Couple Rate**: $841.40 per fortnight each
+**Quick Facts - Disability Support Pension December 2025:**
+- **Single Rate**: Up to $1,149.00 per fortnight (after September 2025 indexation)
+- **Couple Rate**: Up to $866.80 per fortnight each
 - **Asset Limits**: $314,000 (homeowner) / $566,500 (non-homeowner)
-- **Income Free Area**: $216 per fortnight
-- **⚠️ Updates**: March 2025 indexation increases applied
+- **Income Free Area**: $212 per fortnight + $300 Work Bonus
+- **Payment Cut-off**: $2,510 per fortnight (single)
+- **⚠️ Next Update**: March 20, 2026 indexation
+
+*Last Updated: December 15, 2025 - Reflecting September 20, 2025 indexation*
 
 The Disability Support Pension (DSP) provides crucial financial support for Australians who cannot work due to permanent disability or medical conditions. Understanding exactly how much you can receive, eligibility requirements, and how long payments last is essential for financial planning and security.
 
@@ -20,23 +23,23 @@ This comprehensive guide covers everything you need to know about DSP payment ra
 
 ## How Much is the Disability Pension Per Fortnight in 2025?
 
-### Current DSP Payment Rates (March 2025)
+### Current DSP Payment Rates (After September 20, 2025 Indexation)
 
 **Single Recipients (21 years and over):**
-- **Base Pension**: $987.60 per fortnight
-- **Pension Supplement**: $82.20 per fortnight
-- **Energy Supplement**: $19.50 per fortnight
-- **Total Maximum**: $1,116.30 per fortnight
+- **Maximum Payment**: Up to $1,149.00 per fortnight (including all supplements)
+- **Base Pension**: ~$1,020 per fortnight
+- **Pension Supplement**: ~$82.50 per fortnight
+- **Energy Supplement**: ~$19.50 per fortnight
 
 **Partnered Recipients (21 years and over):**
-- **Base Pension**: $743.40 per fortnight each
-- **Pension Supplement**: $82.20 per fortnight each
-- **Energy Supplement**: $15.80 per fortnight each
-- **Total Maximum**: $841.40 per fortnight each
+- **Maximum Payment**: Up to $866.80 per fortnight each
+- **Combined Couple Maximum**: Up to $1,733.60 per fortnight
 
 **Annual Payment Amounts:**
-- **Single**: $29,023.80 per year
-- **Couple**: $21,876.40 per year each
+- **Single**: Up to $29,874 per year
+- **Couple**: Up to $22,537 per year each
+
+*Note: DSP rates are indexed on March 20 and September 20 each year based on CPI, wages, and cost of living measures.*
 
 ### Additional Payments and Supplements
 
@@ -79,32 +82,32 @@ The energy supplement assists with household energy costs and is paid as:
 
 ### Income Test Thresholds
 
-**Income Free Area (per fortnight):**
-- **Single**: $216
-- **Couple (combined)**: $384
+**Income Free Area (per fortnight) - September 2025:**
+- **Single**: $212 per fortnight
+- **Couple (combined)**: $372 per fortnight
 
 **Reduction Rates:**
-- 50 cents per dollar over income free area
+- 50 cents reduction for every dollar earned over income free area
 - Pension reduces gradually until cut-off point
 - Work bonus may apply for employment income
 
-### Income Cut-Off Points
+### Income Cut-Off Points (September 2025)
 
 **Single Recipients:**
-- Payment stops when fortnightly income exceeds $2,489.60
+- Payment stops when fortnightly income exceeds $2,510.00
 - Includes all income sources (work, investments, gifts)
 
 **Coupled Recipients:**
-- Payment stops when combined income exceeds $3,799.20
+- Payment stops when combined income exceeds approximately $3,840
 - Includes both partners' income
 
 ### Work Bonus for Employment Income
 
 **Additional Income Free Area:**
-- Up to $300 per fortnight for work income
-- Applies to employment income only
-- Banking of unused bonus amounts
-- Encourages workforce participation
+- Up to **$300 per fortnight** for work income
+- Applies to **employment income only** (not investments)
+- **Unused amounts bank up** to $11,800 (Work Bonus balance)
+- Encourages workforce participation without immediate penalty
 
 ## DSP Asset Test: How Much Money Can You Have in the Bank?
 
@@ -170,15 +173,24 @@ The energy supplement assists with household energy costs and is paid as:
 
 ### Does Disability Pension Stop at 65?
 
-**Age Pension Transfer:**
-- DSP recipients automatically transfer to Age Pension at 65
-- Payment rate usually remains the same or similar
-- Maintains pension-level benefits
-- Continues healthcare concessions
+**No, the Disability Support Pension does NOT stop at 65.** This is one of the most common questions people search for, and here's what actually happens:
+
+**Age Pension Transfer Process:**
+- Services Australia sends you a letter about **13 weeks before** you reach Age Pension age (currently 67)
+- You can **choose to stay on DSP** or transfer to Age Pension
+- If you transfer, your **payment rate usually stays the same or similar**
+- You'll continue receiving pension-level benefits and healthcare concessions
+
+**Key Differences Between DSP and Age Pension:**
+| Factor | DSP | Age Pension |
+|--------|-----|-------------|
+| **Overseas travel** | 28 days per year before affected | 26 weeks before affected |
+| **Medical reviews** | May be required (especially under 35) | No medical reviews |
+| **Work limits** | Must work under 15 hours/week | More flexible work hours |
 
 **No Gap in Payments:**
 - Seamless transition process
-- No need to reapply
+- No need to reapply from scratch
 - Maintains payment history
 - Continues direct deposit arrangements
 
@@ -402,11 +414,11 @@ The energy supplement assists with household energy costs and is paid as:
 
 ### How much is the disability pension per fortnight for a single person?
 
-The Disability Support Pension for a single person is $1,116.30 per fortnight in 2025, including the base pension ($987.60), pension supplement ($82.20), and energy supplement ($19.50). This amount may be reduced if you have income over $216 per fortnight or assets exceeding limits.
+After the September 20, 2025 indexation, the Disability Support Pension for a single person is **up to $1,149.00 per fortnight**, including all supplements (base pension, pension supplement, and energy supplement). This amount may be reduced if you have income over $212 per fortnight or assets exceeding $314,000 (homeowner) / $566,500 (non-homeowner).
 
 ### How much is DSP for couples per fortnight?
 
-Couples each receive up to $841.40 per fortnight on the Disability Support Pension, which includes the base pension ($743.40), pension supplement ($82.20), and energy supplement ($15.80). Combined, a couple can receive up to $1,682.80 per fortnight.
+Couples each receive **up to $866.80 per fortnight** on the Disability Support Pension after September 2025 indexation. Combined, a couple can receive **up to $1,733.60 per fortnight**.
 
 ### How long does the disability support pension last?
 
@@ -414,15 +426,21 @@ The Disability Support Pension continues indefinitely while you meet eligibility
 
 ### How much can I earn before my disability pension is affected?
 
-You can earn up to $216 per fortnight (income free area) without affecting your DSP. Income above this reduces your pension by 50 cents per dollar. The work bonus allows an additional $300 per fortnight for employment income specifically.
+You can earn up to **$212 per fortnight** (income free area) without affecting your DSP. Income above this reduces your pension by 50 cents per dollar. The **Work Bonus** allows an additional **$300 per fortnight** for employment income specifically, and unused amounts bank up to $11,800. Your payment stops entirely when income exceeds **$2,510 per fortnight** (single).
 
 ### What are the asset limits for disability pension?
 
-For 2025, single homeowners can have assets up to $314,000, while non-homeowners can have up to $566,500. Couples can have combined assets up to $470,000 (homeowners) or $722,500 (non-homeowners). Your home is exempt from the asset test.
+For 2025 (from September 20), the asset limits are:
+- **Single homeowner**: $314,000
+- **Single non-homeowner**: $566,500
+- **Couple homeowner**: $470,000 (combined)
+- **Couple non-homeowner**: $722,500 (combined)
+
+Your principal home is **exempt** from the asset test. If your assets exceed limits, your pension reduces by $3 per fortnight for every $1,000 over the limit.
 
 ### Does disability pension stop at 65 years old?
 
-No, the Disability Support Pension doesn't stop at age 65. You'll automatically be transferred to the Age Pension when you reach Age Pension age (currently 67), usually with the same or similar payment rate and continued benefits.
+**No**, the Disability Support Pension does NOT stop at age 65. You'll receive a letter from Services Australia about 13 weeks before you reach Age Pension age (currently 67) asking whether you want to stay on DSP or transfer to Age Pension. If you transfer, your payment rate usually remains the same or similar, and you'll continue receiving pension-level benefits.
 
 ---
 
