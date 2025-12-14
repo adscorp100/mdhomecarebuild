@@ -217,8 +217,8 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
         <header class="navbar bg-secondary text-secondary-content sticky top-0 z-50 shadow-lg px-4 lg:px-8">
           <div class="navbar-start">
             <!-- Mobile Menu Button -->
-            <label for="mobile-drawer" class="btn btn-ghost lg:hidden" aria-label="Open menu">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <label for="mobile-drawer" class="btn btn-ghost btn-sm btn-square lg:hidden" aria-label="Open menu">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </label>
@@ -427,62 +427,46 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
           </div>
 
           <!-- Mobile Navigation Links -->
-          <ul class="space-y-1">
-            <li><a href="/" class="text-lg font-medium py-3 border-b border-neutral hover:bg-white/5">Home</a></li>
+          <ul class="menu menu-lg w-full p-0">
+            <li class="w-full"><a href="/" class="w-full text-lg font-medium py-3 rounded-none border-b border-neutral">Home</a></li>
 
-            <!-- Services Collapse -->
-            <li>
-              <details class="collapse collapse-arrow border-b border-neutral">
-                <summary class="collapse-title text-lg font-medium px-0 py-3 min-h-0">Services</summary>
-                <div class="collapse-content px-0 bg-base-100 rounded-lg">
+            <!-- Services Submenu -->
+            <li class="w-full">
+              <details>
+                <summary class="w-full text-lg font-medium py-3 rounded-none border-b border-neutral">Services</summary>
+                <ul class="bg-base-100 rounded-lg mt-1 mb-2 p-0 w-full">
                   <!-- Personal Support -->
-                  <div class="py-3 px-4">
-                    <h4 class="font-semibold text-primary text-sm mb-2 pb-1 border-b border-base-200">Personal Support</h4>
-                    <ul class="space-y-2">
-                      <li><a href="/services/disability-services" class="text-base-content/80 hover:text-primary text-sm block py-1">Disability Services</a></li>
-                      <li><a href="/services/personal-care" class="text-base-content/80 hover:text-primary text-sm block py-1">Personal Care</a></li>
-                      <li><a href="/services/clinical-care" class="text-base-content/80 hover:text-primary text-sm block py-1">Clinical Care</a></li>
-                      <li><a href="/services/support-workers" class="text-base-content/80 hover:text-primary text-sm block py-1">Support Workers</a></li>
-                    </ul>
-                  </div>
+                  <li class="menu-title text-primary text-sm pt-3 pb-1">Personal Support</li>
+                  <li><a href="/services/disability-services" class="text-base-content/80 hover:text-primary text-sm py-2">Disability Services</a></li>
+                  <li><a href="/services/personal-care" class="text-base-content/80 hover:text-primary text-sm py-2">Personal Care</a></li>
+                  <li><a href="/services/clinical-care" class="text-base-content/80 hover:text-primary text-sm py-2">Clinical Care</a></li>
+                  <li><a href="/services/support-workers" class="text-base-content/80 hover:text-primary text-sm py-2">Support Workers</a></li>
 
                   <!-- Home & Living -->
-                  <div class="py-3 px-4">
-                    <h4 class="font-semibold text-primary text-sm mb-2 pb-1 border-b border-base-200">Home & Living</h4>
-                    <ul class="space-y-2">
-                      <li><a href="/services/domestic-assistance" class="text-base-content/80 hover:text-primary text-sm block py-1">Domestic Assistance</a></li>
-                      <li><a href="/services/sil-services" class="text-base-content/80 hover:text-primary text-sm block py-1">SIL Services</a></li>
-                      <li><a href="/services/specialist-disability-accommodation" class="text-base-content/80 hover:text-primary text-sm block py-1">Specialist Accommodation</a></li>
-                      <li><a href="/services/respite-care" class="text-base-content/80 hover:text-primary text-sm block py-1">Respite Care</a></li>
-                    </ul>
-                  </div>
+                  <li class="menu-title text-primary text-sm pt-3 pb-1">Home & Living</li>
+                  <li><a href="/services/domestic-assistance" class="text-base-content/80 hover:text-primary text-sm py-2">Domestic Assistance</a></li>
+                  <li><a href="/services/sil-services" class="text-base-content/80 hover:text-primary text-sm py-2">SIL Services</a></li>
+                  <li><a href="/services/specialist-disability-accommodation" class="text-base-content/80 hover:text-primary text-sm py-2">Specialist Accommodation</a></li>
+                  <li><a href="/services/respite-care" class="text-base-content/80 hover:text-primary text-sm py-2">Respite Care</a></li>
 
                   <!-- Community & Mobility -->
-                  <div class="py-3 px-4">
-                    <h4 class="font-semibold text-primary text-sm mb-2 pb-1 border-b border-base-200">Community & Mobility</h4>
-                    <ul class="space-y-2">
-                      <li><a href="/services/community-access-support" class="text-base-content/80 hover:text-primary text-sm block py-1">Community Access</a></li>
-                      <li><a href="/services/transport-services" class="text-base-content/80 hover:text-primary text-sm block py-1">Transport Services</a></li>
-                      <li><a href="/services/disability-home-support-services" class="text-base-content/80 hover:text-primary text-sm block py-1">Home Support</a></li>
-                    </ul>
-                  </div>
+                  <li class="menu-title text-primary text-sm pt-3 pb-1">Community & Mobility</li>
+                  <li><a href="/services/community-access-support" class="text-base-content/80 hover:text-primary text-sm py-2">Community Access</a></li>
+                  <li><a href="/services/transport-services" class="text-base-content/80 hover:text-primary text-sm py-2">Transport Services</a></li>
+                  <li><a href="/services/disability-home-support-services" class="text-base-content/80 hover:text-primary text-sm py-2">Home Support</a></li>
 
                   <!-- Specialized Care -->
-                  <div class="py-3 px-4">
-                    <h4 class="font-semibold text-primary text-sm mb-2 pb-1 border-b border-base-200">Specialized Care</h4>
-                    <ul class="space-y-2">
-                      <li><a href="/services/therapy-services" class="text-base-content/80 hover:text-primary text-sm block py-1">Therapy Services</a></li>
-                      <li><a href="/services/ndis-specialist-support-coordination" class="text-base-content/80 hover:text-primary text-sm block py-1">NDIS Support Coordination</a></li>
-                      <li><a href="/services" class="text-primary font-medium text-sm block py-1">All Services →</a></li>
-                    </ul>
-                  </div>
-                </div>
+                  <li class="menu-title text-primary text-sm pt-3 pb-1">Specialized Care</li>
+                  <li><a href="/services/therapy-services" class="text-base-content/80 hover:text-primary text-sm py-2">Therapy Services</a></li>
+                  <li><a href="/services/ndis-specialist-support-coordination" class="text-base-content/80 hover:text-primary text-sm py-2">NDIS Support Coordination</a></li>
+                  <li><a href="/services" class="text-primary font-medium text-sm py-2">All Services</a></li>
+                </ul>
               </details>
             </li>
 
-            <li><a href="/blog" class="text-lg font-medium py-3 border-b border-neutral hover:bg-white/5">Blog</a></li>
-            <li><a href="/jobs" class="text-lg font-medium py-3 border-b border-neutral hover:bg-white/5">Jobs</a></li>
-            <li><a href="/contact" class="text-lg font-medium py-3 border-b border-neutral hover:bg-white/5">Contact</a></li>
+            <li class="w-full"><a href="/blog" class="w-full text-lg font-medium py-3 rounded-none border-b border-neutral">Blog</a></li>
+            <li class="w-full"><a href="/jobs" class="w-full text-lg font-medium py-3 rounded-none border-b border-neutral">Jobs</a></li>
+            <li class="w-full"><a href="/contact" class="w-full text-lg font-medium py-3 rounded-none border-b border-neutral">Contact</a></li>
           </ul>
 
           <!-- Mobile Phone Link -->
