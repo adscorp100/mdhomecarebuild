@@ -504,13 +504,13 @@ const description = service.data.description.replace(/{suburb}/g, suburbName);
         </div>
 
         <!-- CTA Banner -->
-        <div class="alert bg-gradient-to-r from-primary to-accent text-primary-content my-12 shadow-lg">
+        <div class="bg-primary text-primary-content my-12 shadow-lg rounded-box p-6">
           <div class="flex flex-col md:flex-row items-center justify-between w-full gap-4">
             <div>
               <h3 class="font-bold text-xl">Ready to experience our service in {suburbName}?</h3>
               <p class="text-primary-content/90">Contact us today to discuss how we can help you or your loved ones.</p>
             </div>
-            <a href="/contact#contact-form" class="btn btn-outline btn-sm md:btn-md border-primary-content text-primary-content hover:bg-primary-content hover:text-primary">
+            <a href="/contact#contact-form" class="btn btn-outline btn-sm md:btn-md border-primary-content text-primary-content hover:bg-primary-content hover:text-primary shrink-0 ml-auto md:ml-0">
               Contact Us
             </a>
           </div>
@@ -687,7 +687,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const eligibilityChecker = eligibilityTemplate.cloneNode(true);
         eligibilityChecker.id = 'eligibility-checker-injected';
         eligibilityChecker.classList.remove('hidden');
-        eligibilityChecker.classList.add('my-8', 'py-8', 'border-y', 'border-base-300');
+        eligibilityChecker.classList.add('my-8');
 
         const secondParagraph = paragraphs[1];
         secondParagraph.parentNode.insertBefore(eligibilityChecker, secondParagraph.nextSibling);
