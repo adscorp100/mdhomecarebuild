@@ -1,11 +1,20 @@
 ---
-title: "How Much is the Disability Pension Per Fortnight? Australia's DSP Guide (2025)"
-description: "Learn about Australia's Disability Support Pension (DSP) including payment rates, eligibility criteria, income and asset tests, and how long the pension lasts."
-pubDate: 2025-04-29
+title: "Disability Support Pension Australia 2025: Eligibility, Asset Test & Bank Limits"
+description: "DSP Australia December 2025: How much money can you have in the bank? $314,000 (homeowner). Income test $212/fortnight. Partner income rules. Complete eligibility guide."
+pubDate: 2025-12-15
 author: "Camila"
-tags: []
+tags: ["disability support pension", "DSP eligibility", "DSP asset test", "Centrelink disability pension"]
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
+
+**Quick Facts - DSP Australia December 2025:**
+- **Maximum Single Payment**: Up to $1,149/fortnight (after September 2025 indexation)
+- **Bank/Asset Limits**: $314,000 (homeowner) / $566,500 (non-homeowner)
+- **Income Free Area**: $212/fortnight + $300 Work Bonus
+- **Partner Income**: Combined limit $372/fortnight before affecting payment
+- **Does DSP Stop at 65?**: No - you transfer to Age Pension at 67
+
+*Last Updated: December 15, 2025 - Reflecting September 20, 2025 indexation*
 
 The Disability Support Pension (DSP) is a crucial safety net for many Australians who are unable to work due to illness or injury. However, navigating the ins and outs of eligibility, payment rates, and ongoing requirements can feel complex.
 
@@ -23,14 +32,17 @@ One of the most pressing questions for many is the actual amount they will recei
 
 **Important Note:** Centrelink payment rates are subject to change, typically in March and September each year. The figures provided here are based on the most recent publicly available information. For the absolutely latest and most accurate figures, it is always best to check the official Services Australia website or use their payment estimator tools.
 
-As of the most recent update, here are the general maximum fortnightly rates (these are examples and subject to change - *always verify with Services Australia*):
+**Current DSP Rates (After September 20, 2025 Indexation):**
 
-- **Single, 21 or over:** Up to approximately $1,116.30 per fortnight (including Pension Supplement and Energy Supplement)
-- **Single, under 21 with dependent child:** Up to approximately $1,116.30 per fortnight (including Pension Supplement and Energy Supplement)
-- **Single, under 21 without dependent child:** Varies depending on living situation and assessment.
-- **Partnered, 21 or over:** Up to approximately $841.40 per fortnight each (including Pension Supplement and Energy Supplement)
+| Recipient Type | Maximum Fortnightly Payment |
+|----------------|----------------------------|
+| **Single, 21 or over** | Up to $1,149.00 |
+| **Single, under 21 with dependent child** | Up to $1,149.00 |
+| **Single, under 21 without dependent child** | Varies by living situation |
+| **Partnered, 21 or over** | Up to $866.80 each |
+| **Couple combined** | Up to $1,733.60 |
 
-These rates can be affected by the income and asset tests.
+*Rates include base pension, pension supplement, and energy supplement. Your actual payment may be lower based on income and asset tests.*
 
 ## Is the Disability Support Pension Means Tested?
 
@@ -53,9 +65,27 @@ If you are partnered, your partner's income is also taken into account under the
 
 The asset test looks at the value of assets you and your partner (if applicable) own. This includes things like money in bank accounts, investments, real estate (excluding your primary residence), vehicles, and other valuable items.
 
-Similar to the income test, there are asset value limits. If your assets are below these limits, they generally won't affect your DSP. However, if your assets exceed the limits, your DSP payment may be reduced or even stopped. The asset limits vary depending on whether you are single or partnered and whether you are a homeowner or non-homeowner.
+### Current Asset Limits (September 2025)
 
-**Important Note:** Your principal home is generally exempt from the asset test.
+| Your Situation | Full Pension Limit | Payment Stops At |
+|----------------|-------------------|------------------|
+| **Single, homeowner** | $314,000 | Calculated based on taper rate |
+| **Single, non-homeowner** | $566,500 | Calculated based on taper rate |
+| **Couple, homeowner** | $470,000 combined | Calculated based on taper rate |
+| **Couple, non-homeowner** | $722,500 combined | Calculated based on taper rate |
+
+**How the Asset Test Reduces Your Payment:**
+- If your assets exceed the limit, your pension reduces by **$3 per fortnight for every $1,000 over** (single) or **$1.50 each** (couples)
+- Your **principal home is exempt** from the asset test
+- Up to **$8,300 vehicle value** is exempt
+
+**What Counts as Assets:**
+- Bank accounts and savings
+- Shares and managed funds
+- Investment properties
+- Vehicles over $8,300 value
+- Superannuation (if you've reached preservation age)
+- Business assets
 
 ## How Long Does Disability Support Pension Last? Does Disability Pension Stop at 65?
 
@@ -63,7 +93,24 @@ The Disability Support Pension is designed to provide long-term support for indi
 
 Generally, if you are granted the DSP, it continues for as long as you meet the eligibility criteria, including the medical rules and the income and asset tests.
 
-A common question is whether the **disability pension stops at 65**. No, the Disability Support Pension does not automatically stop at age 65. If you are receiving DSP when you reach Age Pension age, you will generally be transferred to the Age Pension. However, your payment rate will usually remain the same or be very similar, and you will continue to receive pension-level payments. The transfer is typically administrative and ensures you continue to receive appropriate support.
+### Does Disability Pension Stop at 65? (Common Question)
+
+**No, the Disability Support Pension does NOT automatically stop at age 65.** This is one of the most searched questions about DSP. Here's what actually happens:
+
+1. **About 13 weeks before** you reach Age Pension age (currently 67), Services Australia sends you a letter
+2. **You can choose** to stay on DSP or transfer to Age Pension
+3. If you transfer, your **payment rate usually stays the same or similar**
+4. You'll **continue receiving pension-level benefits** and healthcare concessions
+
+**Key Differences to Consider:**
+
+| Factor | DSP | Age Pension |
+|--------|-----|-------------|
+| **Overseas travel** | 28 days/year before affected | 26 weeks before affected |
+| **Medical reviews** | May be required (especially under 35) | No medical reviews |
+| **Work limits** | Under 15 hours/week | More flexible |
+
+The transfer is typically administrative and ensures you continue to receive appropriate support.
 
 ## Disability Support Pension Eligibility: How Do You Qualify?
 
@@ -92,19 +139,25 @@ Remember that the information provided here is a general overview. For personali
 ## Frequently Asked Questions
 
 ### How much is the disability pension per fortnight in Australia?
-As of 2025, the maximum DSP payment for a single person aged 21 or over is approximately $1,116.30 per fortnight, including supplements. For couples, it's about $841.40 per fortnight each. These rates are subject to income and asset tests and may change with indexed increases in March and September.
+After the September 20, 2025 indexation, the maximum DSP payment for a single person aged 21 or over is **up to $1,149.00 per fortnight**, including all supplements. For couples, it's **up to $866.80 per fortnight each** (combined $1,733.60). These rates are subject to income and asset tests and are indexed in March and September each year.
 
 ### How much money can I have in the bank while on disability pension?
-The asset limits depend on whether you're single or partnered and a homeowner or non-homeowner. For single homeowners, you can have assets (excluding your home) up to a certain threshold before your pension reduces. For the most current asset limits, check the Services Australia website as they're updated regularly.
+**Current asset limits (September 2025):**
+- **Single homeowner**: $314,000
+- **Single non-homeowner**: $566,500
+- **Couple homeowner**: $470,000 combined
+- **Couple non-homeowner**: $722,500 combined
+
+Your principal home is **exempt**. If your assets exceed limits, your pension reduces by $3 per fortnight for every $1,000 over the limit.
 
 ### How long does the disability support pension last?
-The DSP continues for as long as you meet the eligibility criteria, including medical requirements and income/asset tests. It doesn't automatically stop at age 65 - you'll typically be transferred to the Age Pension at that point, usually with a similar payment rate.
+The DSP continues for as long as you meet the eligibility criteria, including medical requirements and income/asset tests. It doesn't automatically stop at age 65 - you'll typically be transferred to the Age Pension at age 67, usually with a similar payment rate. Services Australia contacts you about 13 weeks before to discuss your options.
 
 ### How much can I earn on disability pension before it affects my payment?
-There is an income free area, which is the amount you can earn before your pension starts to reduce. Once you exceed this amount, your pension reduces by 50 cents for each dollar over the limit. The income free area is indexed periodically, so check the Services Australia website for current figures.
+You can earn **$212 per fortnight** (income free area) without affecting your DSP. The **Work Bonus** allows an additional **$300 per fortnight** specifically for employment income (unused amounts bank up to $11,800). Once you exceed the limits, your pension reduces by 50 cents for each dollar over. Your payment stops entirely when income exceeds **$2,510 per fortnight** (single).
 
 ### Does my partner's income affect my disability pension?
-Yes, if you have a partner, their income is counted in the income test for your DSP. There is a combined income free area for couples, and if your combined income exceeds this limit, your pension will be reduced according to the income test rules.
+Yes, if you have a partner, their income is counted in the income test for your DSP. The **combined income free area is $372 per fortnight**. If your combined income exceeds this limit, your pension will be reduced by 25 cents per dollar over for each of you.
 
 ### Can I get an advance payment on my disability pension?
-Yes, DSP recipients can apply for an advance payment, which is essentially borrowing from future pension payments. The minimum and maximum advance amounts depend on how long you've been receiving the pension and your circumstances. You can apply through myGov, the Centrelink app, or by contacting Centrelink directly.
+Yes, DSP recipients can apply for an advance payment, which is essentially borrowing from future pension payments. The minimum and maximum advance amounts depend on how long you've been receiving the pension and your circumstances. You can apply through myGov, the Centrelink app, or by contacting Centrelink directly on 132 717.

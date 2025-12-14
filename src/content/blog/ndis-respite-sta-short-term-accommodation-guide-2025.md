@@ -4,7 +4,7 @@ description: "Confused about what STA means in the NDIS? This simple 2025 guide 
 pubDate: 2025-07-02
 author: "Camila"
 tags: ["STA NDIS", "Short Term Accommodation", "NDIS Respite", "NDIS"]
-image: "@/assets/respite care.webp"
+image: "/assets/respite care.webp"
 ---
 
 If you're navigating the NDIS, you've likely come across the term **STA**. It's a common type of support, but it can be confusing. What does it stand for, what does it include, and how is it different from respite care?

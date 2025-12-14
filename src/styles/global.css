@@ -1,0 +1,172 @@
+/* Google Fonts - Inter (must be first) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui";
+
+/* Custom MD Homecare Theme */
+@plugin "daisyui/theme" {
+  name: "mdhomecare";
+  default: true;
+  color-scheme: light;
+
+  /* Primary - Bright Healthcare Blue (#0EA5E9) */
+  --color-primary: oklch(68.5% 0.169 227.39);
+  --color-primary-content: oklch(100% 0 0);
+
+  /* Secondary - Dark blue for header (#0F172A) */
+  --color-secondary: oklch(20.8% 0.042 265.75);
+  --color-secondary-content: oklch(96.8% 0.007 247.86);
+
+  /* Accent - Medium blue (#0284C7) */
+  --color-accent: oklch(57.4% 0.156 231.6);
+  --color-accent-content: oklch(100% 0 0);
+
+  /* Neutral - Dark blue-gray (#334155) */
+  --color-neutral: oklch(37.3% 0.034 259.73);
+  --color-neutral-content: oklch(96.8% 0.007 247.86);
+
+  /* Base colors - Light theme */
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: oklch(97.7% 0.013 237.69);
+  --color-base-300: oklch(95.1% 0.026 236.62);
+  --color-base-content: oklch(20.8% 0.042 265.75);
+
+  /* State colors */
+  --color-info: oklch(74.6% 0.16 232.66);
+  --color-info-content: oklch(20.8% 0.042 265.75);
+
+  --color-success: oklch(84.5% 0.143 164.98);
+  --color-success-content: oklch(20.8% 0.042 265.75);
+
+  --color-warning: oklch(87.9% 0.169 91.61);
+  --color-warning-content: oklch(20.8% 0.042 265.75);
+
+  --color-error: oklch(70.4% 0.191 22.18);
+  --color-error-content: oklch(100% 0 0);
+
+  /* Border radius customization */
+  --radius-box: 1rem;
+  --radius-field: 0.5rem;
+  --radius-selector: 0.5rem;
+
+  /* Animation */
+  --animation-btn: 0.2s;
+  --animation-input: 0.2s;
+
+  /* Button focus scale */
+  --btn-focus-scale: 0.98;
+
+  /* Border widths */
+  --border-btn: 1px;
+
+  /* Tab styling */
+  --tab-border: 1px;
+  --tab-radius: 0.5rem;
+}
+
+/* Custom brand color utilities */
+@theme {
+  --color-md-primary: #0EA5E9;
+  --color-md-primary-light: #38BDF8;
+  --color-md-primary-dark: #0369A1;
+  --color-md-accent: #0284C7;
+  --color-md-complementary: #E0F2FE;
+  --color-md-highlight: #6EE7B7;
+  --color-md-header-bg: #0F172A;
+  --color-md-header-text: #F1F5F9;
+  --color-md-header-text-light: #CBD5E1;
+  --color-md-header-border: #334155;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* Base layer customizations */
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-base-100 text-base-content;
+  }
+
+
+  /* Improved focus states for accessibility */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary;
+  }
+
+  /* Better link defaults */
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+/* Component layer - custom DaisyUI component overrides */
+@layer components {
+  /* Rounded buttons only - not form inputs */
+  .btn {
+    border-radius: 9999px !important;
+  }
+
+  /* Container utility */
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Card hover effect */
+  .card-hover {
+    @apply transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg;
+  }
+
+  /* Prose/article content styling for blog posts */
+  .prose-mdhomecare {
+    @apply prose prose-slate max-w-none;
+    @apply prose-headings:text-base-content prose-headings:font-semibold;
+    @apply prose-a:text-primary prose-a:no-underline hover:prose-a:underline;
+    @apply prose-strong:text-base-content prose-strong:font-semibold;
+    @apply prose-ul:list-disc prose-ol:list-decimal;
+    @apply prose-code:text-primary prose-code:bg-base-200 prose-code:px-1 prose-code:py-0.5 prose-code:rounded;
+    @apply prose-pre:bg-neutral prose-pre:text-neutral-content;
+  }
+
+  .prose-mdhomecare p {
+    color: oklch(var(--bc) / 0.9);
+  }
+
+  .prose-mdhomecare li {
+    color: oklch(var(--bc) / 0.9);
+  }
+
+  .prose-mdhomecare blockquote {
+    @apply border-l-primary;
+    color: oklch(var(--bc) / 0.8);
+  }
+
+  /* Header dark theme styling */
+  .header-dark {
+    @apply bg-secondary text-secondary-content;
+  }
+
+}
+
+/* Utilities layer */
+@layer utilities {
+  /* No scroll utility for mobile menu */
+  .no-scroll {
+    @apply overflow-hidden;
+  }
+
+  /* Text balance for headings */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+}

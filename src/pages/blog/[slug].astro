@@ -73,9 +73,8 @@ const articleSchema: {
 
 // Add table of contents to structured data if headings exist
 if (headings && headings.length > 0) {
-  // Filter only h2 and h3 for the TOC
   const tocHeadings = headings.filter(h => h.depth === 2 || h.depth === 3);
-  
+
   if (tocHeadings.length > 0) {
     articleSchema.hasPart = tocHeadings.map(heading => ({
       "@type": "WebPageElement",
@@ -87,217 +86,214 @@ if (headings && headings.length > 0) {
 }
 
 const structuredData = JSON.stringify(articleSchema);
-
-// Prepare canonical URL for the article
 const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
 ---
 
-<BaseLayout 
-  title={`${entry.data.title} | MD Homecare`} 
+<BaseLayout
+  title={`${entry.data.title} | MD Homecare`}
   description={entry.data.description}
   image={entry.data.image}
   canonical={canonicalUrl}
 >
-  <!-- Add structured data for SEO -->
   <script type="application/ld+json" set:html={structuredData} />
-  
-  <div class="container blog-container">
-    <article class="blog-post">
-      <header class="post-header">
-        <h1>{entry.data.title}</h1>
-        
-        <!-- E-E-A-T Enhancing Authority Section -->
-        <div class="authority-indicators">
-          <div class="verified-badge">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="verified-icon">
-              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-              <polyline points="22 4 12 14.01 9 11.01"></polyline>
-            </svg>
-            <span>Verified Article</span>
-          </div>
-          
-          <div class="author-profile">
-            <img src="/assets/avatar.webp" alt={`${entry.data.author} profile photo`} class="author-image" />
-            <div class="author-info">
-              <span class="author-name">{entry.data.author}</span>
-              <span class="author-credentials">Healthcare Expert</span>
-            </div>
-          </div>
-          
-          <div class="article-meta">
-            <div class="meta-item">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="meta-icon">
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12 6 12 12 16 14"></polyline>
-              </svg>
-              <span>8 min read</span>
-            </div>
-            <div class="meta-item">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="meta-icon">
-                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                <line x1="16" y1="2" x2="16" y2="6"></line>
-                <line x1="8" y1="2" x2="8" y2="6"></line>
-                <line x1="3" y1="10" x2="21" y2="10"></line>
-              </svg>
-              <span>Published: {entry.data.pubDate.toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-              })}</span>
+
+  <!-- Breadcrumb -->
+  <div class="bg-base-200 border-b border-base-300">
+    <div class="max-w-5xl mx-auto px-4 py-3">
+      <div class="breadcrumbs text-sm">
+        <ul>
+          <li><a href="/" class="link link-hover">Home</a></li>
+          <li><a href="/blog" class="link link-hover">Blog</a></li>
+          <li class="text-base-content/60">{entry.data.title}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-5xl mx-auto px-4 py-8 lg:py-12">
+    <article>
+      <!-- Header -->
+      <header class="mb-8">
+        <h1 class="text-3xl lg:text-4xl font-bold text-base-content mb-6 leading-tight">
+          {entry.data.title}
+        </h1>
+
+        <!-- E-E-A-T Authority Indicators -->
+        <div class="card bg-base-200 border border-base-300">
+          <div class="card-body p-4 lg:p-6">
+            <div class="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-8">
+              <!-- Author Profile -->
+              <div class="flex items-center gap-4">
+                <div class="avatar">
+                  <div class="w-14 lg:w-16 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                    <img src="/assets/avatar.webp" alt={`${entry.data.author} profile photo`} />
+                  </div>
+                </div>
+                <div>
+                  <p class="font-semibold text-base-content">{entry.data.author}</p>
+                  <p class="text-sm text-base-content/60">Healthcare Expert</p>
+                </div>
+              </div>
+
+              <!-- Verified Badge -->
+              <div class="badge badge-success gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                Verified Article
+              </div>
+
+              <!-- Meta Info -->
+              <div class="flex flex-wrap items-center gap-4 text-sm text-base-content/60 lg:ml-auto">
+                <div class="flex items-center gap-1.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span>8 min read</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                  <span>{entry.data.pubDate.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                  })}</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <!-- End of E-E-A-T Enhancing Authority Section -->
       </header>
-      
+
+      <!-- Featured Image -->
       {entry.data.image && (
-        <div class="post-image">
-          <img src={entry.data.image} alt={entry.data.title} />
-        </div>
+        <figure class="mb-8">
+          <img src={entry.data.image} alt={entry.data.title} class="w-full h-auto max-h-96 object-cover rounded-box" />
+        </figure>
       )}
-      
-      <div class="post-content-wrapper">
-        <div class="toc-sidebar">
+
+      <!-- Content with TOC -->
+      <div class="lg:grid lg:grid-cols-[220px_1fr] lg:gap-8">
+        <!-- Table of Contents Sidebar -->
+        <aside class="lg:sticky lg:top-20 lg:h-fit mb-8 lg:mb-0">
           <TableOfContents headings={headings} />
-        </div>
-        <div class="post-content">
+        </aside>
+
+        <!-- Article Content -->
+        <div class="prose-mdhomecare post-content">
           <Content />
         </div>
+      </div>
+
+      <!-- Back to Blog -->
+      <div class="divider my-12"></div>
+      <div class="flex justify-center">
+        <a href="/blog" class="btn btn-outline btn-primary gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+          </svg>
+          Back to Blog
+        </a>
       </div>
     </article>
   </div>
 </BaseLayout>
 
 <script>
-  // Service keywords to match and link - manually defined to avoid server/client mismatch
+  // Service keywords to match and link
   interface ServiceKeyword {
     slug: string;
     keywords: string[];
   }
 
   const serviceKeywords: ServiceKeyword[] = [
-    // Clinical/Medical Services - Focus on specific medical terms
     { slug: 'clinical-care', keywords: ['clinical care', 'nursing services', 'wound care', 'medication administration', 'catheter care', 'ostomy care', 'diabetic management', 'health assessments', 'vital signs monitoring', 'medical assessment', 'nursing care', 'high-intensity personal activities', 'medication management', 'monitoring of medical conditions', 'complex medical needs'] },
-    
-    // Personal Care - Specific care activities
     { slug: 'personal-care', keywords: ['personal care', 'bathing assistance', 'grooming assistance', 'personal hygiene', 'showering assistance', 'dressing assistance', 'oral hygiene', 'toileting assistance', 'medication reminders', 'personal care services', 'continence management', 'personal support'] },
-    
-    // Domestic Services - Household specific terms
     { slug: 'domestic-assistance', keywords: ['domestic assistance', 'household tasks', 'home help', 'cleaning services', 'meal preparation', 'laundry services', 'gardening services', 'shopping assistance', 'household chores', 'domestic support', 'household maintenance', 'domestic help', 'daily household tasks'] },
-    
-    // Respite Care - Specific to respite
     { slug: 'respite-care', keywords: ['respite care', 'respite services', 'carer relief', 'short-term care', 'in-home respite', 'short term accommodation', 'STA', 'respite costs', 'carer support', 'respite funding', 'short term respite'] },
-    
-    // NDIS/Disability Services - Specific NDIS terms
     { slug: 'disability-services', keywords: ['disability support', 'disability services', 'NDIS support', 'daily living assistance', 'NDIS funding', 'disability assistance', 'person-centered approach', 'NDIS provider', 'NDIS business', 'people with disability', 'participant-focused', 'participant plans', 'intermediate care needs', 'NDIS participants', 'disability support services'] },
-    
-    // Support Workers - Specific worker roles
     { slug: 'support-workers', keywords: ['support workers', 'care workers', 'disability support workers', 'NDIS support worker', 'independent support worker', 'support staff', 'care staff', 'support worker rates', 'support worker pay', 'key personnel', 'staffing solutions', 'hiring compliant staff', 'aged care worker', 'care worker qualifications', 'qualified support workers'] },
-    
-    // SIL Services - Independent living specific
     { slug: 'sil-services', keywords: ['supported independent living', 'SIL', 'supported accommodation', 'group homes', 'shared living support', 'disability accommodation', 'independent living support', 'supported living services', 'SIL services'] },
-    
-    // Home Support - Home-based care
     { slug: 'disability-home-support-services', keywords: ['disability home support', 'home modifications', 'housing support', 'in-home support', 'home-based care', 'disability home care', 'home support services', 'assistive products', 'living independently', 'home care assistance'] },
-    
-    // Home Modifications - Specific modifications
     { slug: 'aged-care-home-modifications-maintenance', keywords: ['home modifications', 'aged care modifications', 'accessibility modifications', 'home maintenance', 'bathroom modifications', 'kitchen modifications', 'ramps installation', 'handrails installation', 'home modification services', 'premises fit-out', 'safety enhancements', 'accessibility improvements'] },
-    
-    // Therapy Services - Specific therapies
     { slug: 'therapy-services', keywords: ['therapy services', 'physiotherapy', 'occupational therapy', 'speech therapy', 'rehabilitation services', 'behavioral therapy', 'psychology services', 'exercise physiology', 'counselling services', 'dietetics', 'social work', 'therapeutic supports', 'specialized expertise', 'allied health services', 'podiatry services'] },
-    
-    // Transport - Transport specific
     { slug: 'transport-services', keywords: ['transport services', 'disability transport', 'assisted transport', 'medical transport', 'transportation assistance', 'NDIS transport funding', 'mobility support', 'transport funding', 'social and recreational activities', 'transport to appointments', 'transport to social events'] },
-    
-    // SDA - Specialist accommodation
     { slug: 'specialist-disability-accommodation', keywords: ['specialist disability accommodation', 'SDA', 'disability housing', 'accessible housing', 'improved liveability', 'SDA funding', 'NDIS housing', 'accessible accommodation'] },
-    
-    // Community Access - Community participation
     { slug: 'community-access-support', keywords: ['community access', 'social participation', 'community inclusion', 'community activities', 'social support', 'social skills development', 'community engagement', 'recreational activities', 'community participation', 'community participation support', 'community networking', 'community services', 'community connections', 'staying active and connected'] },
-    
-    // Support Coordination - Coordination specific
     { slug: 'ndis-specialist-support-coordination', keywords: ['support coordination', 'NDIS coordination', 'disability coordination', 'NDIS planning', 'plan management', 'specialist support coordination', 'service coordination', 'support coordinators', 'local area coordinators', 'LACs', 'service agreements', 'care plan coordination', 'chosen provider'] },
-    
-    // Behaviour Support - Behaviour specific
     { slug: 'ndis-behaviour-support-practitioner-training', keywords: ['behavior support', 'behaviour support', 'positive behavior support', 'behavior management', 'behavior practitioner', 'behavioral strategies', 'behavioral intervention', 'behaviour support services', 'safeguarding practices', 'NDIS Practice Standards', 'NDIS Code of Conduct'] },
-    
-    // Home Care Packages - Package specific
     { slug: 'home-care-packages', keywords: ['home care package', 'level 3 home care package', 'level 1 home care package', 'level 2 home care package', 'level 4 home care package', 'consumer-directed care', 'aged care assessment team', 'ACAT assessment', 'my aged care', 'commonwealth home support programme', 'support at home program', 'care needs assessment', 'care recipient', 'government subsidy', 'income-tested care fee', 'basic daily fee', 'additional service fees'] }
   ];
-  
-  // Add service links after DOM is fully loaded
+
   document.addEventListener('DOMContentLoaded', () => {
-    // Find the blog post content element
     const contentElement = document.querySelector('.post-content');
     if (!contentElement) return;
-    
+
     const linkedServices = new Set<string>();
-    
-    // Process each service
+
     serviceKeywords.forEach(service => {
-      // Skip if already processed
       if (linkedServices.has(service.slug)) return;
-      
-      // Try each keyword until one matches
+
       for (const keyword of service.keywords) {
-        // Skip if already linked
-        if (linkedServices.has(service.slug) || 
+        if (linkedServices.has(service.slug) ||
             contentElement.innerHTML.includes(`href="/services/${service.slug}"`)) {
           break;
         }
-        
-        // Find text nodes containing the keyword
+
         const textNodes: Node[] = [];
         const walker = document.createTreeWalker(
-          contentElement, 
-          NodeFilter.SHOW_TEXT, 
+          contentElement,
+          NodeFilter.SHOW_TEXT,
           null
         );
-        
+
         let node: Node | null;
         while (node = walker.nextNode()) {
           const nodeValue = node.nodeValue;
           const parentElement = node.parentElement;
-          
-          if (nodeValue && 
-              parentElement && 
-              nodeValue.toLowerCase().includes(keyword.toLowerCase()) && 
+
+          if (nodeValue &&
+              parentElement &&
+              nodeValue.toLowerCase().includes(keyword.toLowerCase()) &&
               parentElement.nodeName !== 'A') {
             textNodes.push(node);
           }
         }
-        
-        // Link the first occurrence
+
         if (textNodes.length > 0) {
           const firstNode = textNodes[0];
           const nodeText = firstNode.nodeValue;
           const parentNode = firstNode.parentNode;
-          
+
           if (nodeText && parentNode) {
             const keywordRegex = new RegExp(`\\b${escapeRegExp(keyword)}\\b`, 'i');
             const match = nodeText.match(keywordRegex);
-            
+
             if (match && match.index !== undefined) {
               const matchIndex = match.index;
               const beforeText = nodeText.substring(0, matchIndex);
               const matchedText = match[0];
               const afterText = nodeText.substring(matchIndex + matchedText.length);
-              
-              // Create new elements
+
               const beforeTextNode = document.createTextNode(beforeText);
               const linkElement = document.createElement('a');
               linkElement.href = `/services/${service.slug}`;
               linkElement.textContent = matchedText;
-              linkElement.className = 'service-link';
+              linkElement.className = 'link link-primary';
               const afterTextNode = document.createTextNode(afterText);
-              
-              // Replace the original text node
+
               parentNode.insertBefore(beforeTextNode, firstNode);
               parentNode.insertBefore(linkElement, firstNode);
               parentNode.insertBefore(afterTextNode, firstNode);
               parentNode.removeChild(firstNode);
-              
-              // Mark this service as processed
+
               linkedServices.add(service.slug);
               break;
             }
@@ -306,997 +302,122 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
       }
     });
   });
-  
-  // Helper function to escape special characters in regex patterns
+
   function escapeRegExp(string: string): string {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 </script>
 
-<style>
-  /* Style for service links */
-  .service-link {
-    color: var(--primary-dark, #3b82f6);
-    text-decoration: underline;
-    text-decoration-color: rgba(59, 130, 246, 0.4);
-    text-decoration-thickness: 1px;
-    text-underline-offset: 2px;
-    transition: text-decoration-color 0.2s ease;
-  }
-  
-  .service-link:hover {
-    text-decoration-color: rgba(59, 130, 246, 1);
-  }
-</style>
-
 <style is:global>
-  /* Global content styles for markdown-generated content */
+  @reference "../../styles/global.css";
+  /* Post content prose styling */
   .post-content {
-    line-height: 1.6;
-    font-size: 1rem;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    max-width: 100%;
+    @apply text-base-content leading-relaxed;
   }
-  
-  /* Headings */
+
   .post-content h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem;
-    color: var(--text-color);
-    line-height: 1.2;
+    @apply text-3xl font-bold mt-10 mb-6 text-base-content;
   }
-  
+
   .post-content h2 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--text-color);
-    border-bottom: 1px solid #eee;
-    padding-bottom: 0.5rem;
+    @apply text-2xl font-bold mt-8 mb-4 text-base-content pb-2 border-b border-base-300;
   }
-  
+
   .post-content h3 {
-    margin-top: 1.5rem;
-    margin-bottom: 0.75rem;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--text-color);
+    @apply text-xl font-semibold mt-6 mb-3 text-base-content;
   }
 
   .post-content h4 {
-    margin-top: 1.25rem;
-    margin-bottom: 0.75rem;
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--text-color);
+    @apply text-lg font-semibold mt-5 mb-3 text-base-content;
   }
 
-  .post-content h5 {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--text-color);
-  }
-
-  .post-content h6 {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--text-color);
-  }
-  
-  /* Paragraphs */
   .post-content p {
-    margin-bottom: 1.25rem;
-    font-size: 1rem;
+    @apply mb-5;
+    color: oklch(var(--bc) / 0.9);
   }
-  
-  /* Lists - Fixed indentation */
-  .post-content ul, 
+
+  .post-content ul,
   .post-content ol {
-    margin-bottom: 1.25rem;
-    padding-left: 2rem;
-    list-style-position: outside;
+    @apply mb-5 pl-6;
   }
 
   .post-content ul {
-    list-style-type: disc;
+    @apply list-disc;
   }
 
   .post-content ol {
-    list-style-type: decimal;
+    @apply list-decimal;
   }
 
   .post-content li {
-    margin-bottom: 0.5rem;
-    padding-left: 0.25rem;
+    @apply mb-2;
+    color: oklch(var(--bc) / 0.9);
   }
 
   .post-content li > ul,
   .post-content li > ol {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    padding-left: 1.5rem;
+    @apply mt-2 mb-2 pl-5;
   }
 
-  .post-content li > ul > li,
-  .post-content li > ol > li {
-    margin-bottom: 0.25rem;
-  }
-  
-  /* Nested list styles */
-  .post-content ul ul {
-    list-style-type: circle;
-  }
-  
-  .post-content ul ul ul {
-    list-style-type: square;
-  }
-  
-  /* Links */
   .post-content a {
-    color: var(--primary-dark, #3b82f6);
-    text-decoration: underline;
-    text-decoration-color: rgba(59, 130, 246, 0.4);
-    text-decoration-thickness: 1px;
-    text-underline-offset: 2px;
-    transition: text-decoration-color 0.2s ease;
-  }
-  
-  .post-content a:hover {
-    text-decoration-color: rgba(59, 130, 246, 1);
-  }
-  
-  /* Code */
-  .post-content pre {
-    background-color: var(--light-background, #f8f9fa);
-    padding: 1rem;
-    border-radius: 6px;
-    overflow-x: auto;
-    margin-bottom: 1.25rem;
-    max-width: 100%;
-    white-space: pre-wrap;
-    word-break: break-all;
-    border: 1px solid #e9ecef;
-  }
-  
-  .post-content code {
-    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-    font-size: 0.9rem;
-    background-color: #f1f3f4;
-    padding: 0.125rem 0.25rem;
-    border-radius: 3px;
-    word-break: break-all;
-    word-wrap: break-word;
+    @apply link link-primary;
   }
 
-  .post-content pre code {
-    background-color: transparent;
-    padding: 0;
-    border-radius: 0;
-    font-size: 0.85rem;
-  }
-  
-  /* Blockquotes */
   .post-content blockquote {
-    border-left: 4px solid var(--primary-dark, #3b82f6);
-    margin: 1.5rem 0;
-    padding: 1rem 1.5rem;
-    background-color: #f8f9fa;
-    border-radius: 0 6px 6px 0;
-    font-style: italic;
+    @apply border-l-4 border-primary pl-4 py-2 my-6 bg-base-200 rounded-r-lg italic;
   }
 
   .post-content blockquote p {
-    margin-bottom: 0.5rem;
+    @apply mb-2;
   }
 
   .post-content blockquote p:last-child {
-    margin-bottom: 0;
+    @apply mb-0;
   }
-  
-  /* Images */
+
+  .post-content code {
+    @apply bg-base-200 px-1.5 py-0.5 rounded text-sm font-mono text-primary;
+  }
+
+  .post-content pre {
+    @apply bg-neutral text-neutral-content p-4 rounded-lg overflow-x-auto mb-5;
+  }
+
+  .post-content pre code {
+    @apply bg-transparent p-0 text-inherit;
+  }
+
   .post-content img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 6px;
-    margin: 1rem 0;
+    @apply max-w-full h-auto rounded-2xl my-4;
   }
-  
-  /* Horizontal Rules */
+
   .post-content hr {
-    border: none;
-    height: 1px;
-    background-color: #e9ecef;
-    margin: 2rem 0;
+    @apply border-base-300 my-8;
   }
-  
-  /* Strong and emphasis */
+
   .post-content strong {
-    font-weight: 600;
+    @apply font-semibold text-base-content;
   }
-  
+
   .post-content em {
-    font-style: italic;
+    @apply italic;
   }
 
   /* Tables */
   .post-content table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin-bottom: 1.5rem;
-    font-size: 0.95rem;
-    border: 1px solid #e2e8f0;
-    border-radius: 6px;
-    overflow: hidden;
+    @apply w-full border-collapse mb-6 text-sm;
   }
 
-  .post-content .table-wrapper {
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    margin-bottom: 1.5rem;
-    border-radius: 6px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    position: relative;
-  }
-  
   .post-content th,
   .post-content td {
-    padding: 0.75rem 1rem;
-    text-align: left;
-    border-bottom: 1px solid #e2e8f0;
+    @apply p-3 text-left border-b border-base-300;
   }
 
   .post-content th {
-    background-color: #f8fafc;
-    font-weight: 600;
-    border-bottom: 2px solid #e2e8f0;
-    position: sticky;
-    top: 0;
-  }
-
-  .post-content tr:last-child td {
-    border-bottom: none;
+    @apply bg-base-200 font-semibold;
   }
 
   .post-content tr:hover {
-    background-color: #f8fafc;
+    background-color: oklch(var(--b2) / 0.5);
   }
-  
-  /* Responsive table styles */
-  .post-content table.responsive-table {
-    display: block;
-    border: none;
-    border-radius: 0;
-  }
-  
-  .post-content table.responsive-table thead {
-    display: none;
-  }
-  
-  .post-content table.responsive-table tbody {
-    display: block;
-    width: 100%;
-  }
-  
-  .post-content table.responsive-table tr {
-    display: block;
-    margin-bottom: 1rem;
-    border: 1px solid #e2e8f0;
-    border-radius: 6px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-  }
-  
-  .post-content table.responsive-table td {
-    display: flex;
-    padding: 12px 16px;
-    text-align: left;
-    border: none;
-    border-bottom: 1px solid #eee;
-    align-items: flex-start;
-  }
-  
-  .post-content table.responsive-table td:last-child {
-    border-bottom: none;
-  }
-  
-  .post-content table.responsive-table td:before {
-    content: attr(data-label);
-    font-weight: 600;
-    width: 30%;
-    min-width: 120px;
-    display: inline-block;
-    margin-right: 16px;
-    flex-shrink: 0;
-  }
-
-  /* Mobile responsive adjustments */
-  @media (max-width: 640px) {
-    .post-content {
-      font-size: 0.95rem;
-    }
-    
-    .post-content h1 {
-      font-size: 1.75rem;
-    }
-    
-    .post-content h2 {
-      font-size: 1.4rem;
-      margin-top: 1.5rem;
-    }
-    
-    .post-content h3 {
-      font-size: 1.2rem;
-    }
-
-    .post-content h4 {
-      font-size: 1.05rem;
-    }
-    
-    .post-content ul, 
-    .post-content ol {
-      padding-left: 1.75rem;
-    }
-    
-    .post-content li {
-      margin-bottom: 0.6rem;
-    }
-    
-    .post-content th,
-    .post-content td {
-      padding: 0.6rem 0.8rem;
-      min-width: 120px;
-    }
-    
-    .post-content pre {
-      padding: 0.75rem;
-      font-size: 0.8rem;
-    }
-    
-    .post-content blockquote {
-      margin: 1rem 0;
-      padding: 0.75rem 1rem;
-    }
-  }
-
-  /* Tablet adjustments */
-  @media (min-width: 641px) and (max-width: 1023px) {
-    .post-content {
-      font-size: 1.05rem;
-    }
-    
-    .post-content ul, 
-    .post-content ol {
-      padding-left: 2.25rem;
-    }
-  }
-
-  /* These styles are now handled in the global stylesheet above */
 </style>
-
-<script>
-  // Add data attributes to table cells for responsive display
-  document.addEventListener('DOMContentLoaded', () => {
-    const tables = document.querySelectorAll('.post-content table');
-    
-    tables.forEach(table => {
-      // Add responsive-table class to all tables
-      table.classList.add('responsive-table');
-      
-      // Get all headers
-      const headers = Array.from(table.querySelectorAll('th')).map(th => th.textContent);
-      
-      // For each row in tbody, add data-label to each cell
-      const rows = table.querySelectorAll('tbody tr');
-      rows.forEach(row => {
-        const cells = row.querySelectorAll('td');
-        cells.forEach((cell, index) => {
-          if (headers[index]) {
-            cell.setAttribute('data-label', headers[index]);
-          }
-        });
-      });
-    });
-    
-    // Make TOC headers fully clickable
-    const tocHeaders = document.querySelectorAll('.toc-header');
-    tocHeaders.forEach(header => {
-      header.addEventListener('click', (e) => {
-        // Only trigger if clicking on the header itself or its direct children (except links)
-        const target = e.target as HTMLElement;
-        if (target && target.tagName !== 'A') {
-          const tocToggle = header.querySelector('.toc-toggle');
-          const tocNav = header.closest('.toc-container')?.querySelector('.toc-nav');
-          
-          if (tocToggle && tocNav) {
-            // Manually trigger the toggle button click
-            tocNav.classList.toggle('toc-open');
-            tocToggle.classList.toggle('toc-toggle-open');
-            
-            // Ensure the content is scrollable when open on mobile
-            if (window.innerWidth <= 768 && tocNav.classList.contains('toc-open')) {
-              // Set a slight delay to allow for the CSS transition
-              setTimeout(() => {
-                (tocNav as HTMLElement).style.maxHeight = 'none';
-                const maxScroll = Math.min(tocNav.scrollHeight, window.innerHeight * 0.6);
-                (tocNav as HTMLElement).style.maxHeight = maxScroll + 'px';
-              }, 50);
-            }
-          }
-        }
-      });
-    });
-  });
-</script>
-
-<style>
-  /* Authority Indicators Styles */
-  .authority-indicators {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 1.5rem 0;
-    padding: 1rem;
-    background-color: #f9fafb;
-    border-radius: 8px;
-    border: 1px solid #eaedf0;
-  }
-
-  .verified-badge {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: #107840;
-    font-weight: 500;
-  }
-
-  .verified-icon {
-    width: 1.25rem;
-    height: 1.25rem;
-    stroke: #107840;
-  }
-
-  .author-profile {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .author-image {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
-
-  .author-info {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .author-name {
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: var(--text-color);
-  }
-
-  .author-credentials {
-    font-size: 0.85rem;
-    color: var(--light-text);
-  }
-
-  .article-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 0.5rem;
-  }
-
-  .meta-item {
-    display: flex;
-    align-items: center;
-    gap: 0.35rem;
-    font-size: 0.85rem;
-    color: var(--light-text);
-  }
-
-  .meta-icon {
-    width: 1rem;
-    height: 1rem;
-    stroke: #6b7280;
-  }
-
-  @media (min-width: 768px) {
-    .authority-indicators {
-      padding: 1.25rem;
-      margin: 2rem 0 1.5rem;
-    }
-
-    .author-image {
-      width: 80px;
-      height: 80px;
-    }
-
-    .author-name {
-      font-size: 1.2rem;
-    }
-
-    .author-credentials {
-      font-size: 0.9rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .authority-indicators {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1.5rem;
-    }
-
-    .verified-badge {
-      order: 2;
-    }
-
-    .author-profile {
-      order: 1;
-      margin-right: auto;
-    }
-
-    .article-meta {
-      order: 3;
-      margin-top: 0;
-    }
-  }
-
-  .blog-container {
-    max-width: 100%;
-    overflow-x: hidden;
-    padding: 0 1rem;
-  }
-
-  .blog-post {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 1rem 0;
-    width: 100%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    hyphens: auto;
-  }
-  
-  .post-header {
-    margin-bottom: 1.5rem;
-    padding-bottom: 0;
-    position: static;
-    background: none;
-    box-shadow: none;
-    z-index: auto;
-  }
-  
-  .post-header h1 {
-    font-size: 1.8rem;
-    line-height: 1.3;
-    margin-bottom: 0.75rem;
-  }
-  
-  .post-meta {
-    margin: 0.75rem 0;
-    color: var(--light-text);
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-  }
-  
-  .post-content-wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    margin-top: 1.5rem;
-  }
-  
-  /* Post content wrapper styles (layout only) */
-  
-  .post-image {
-    margin: 0 0 1.5rem;
-    border-radius: 6px;
-    overflow: hidden;
-    width: 100%;
-  }
-  
-  .post-image img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-  }
-  
-  /* Mobile TOC styles */
-  .toc-sidebar {
-    margin-bottom: 1.5rem;
-    overflow-y: auto;
-    max-height: 80vh;
-  }
-
-  /* Override the TOC container styles from TableOfContents.astro */
-  .toc-sidebar .toc-container {
-    background-color: #fcfcfc;
-    border: 1px solid #f0f0f0;
-    border-radius: 8px;
-    margin: 0;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
-    position: relative;
-    top: 0;
-    max-height: none;
-    overflow: visible;
-  }
-
-  .toc-sidebar .toc-header {
-    padding: 0.75rem 1rem;
-    border-bottom: 1px solid #f0f0f0;
-    cursor: pointer;
-    user-select: none;
-    transition: background-color 0.2s ease;
-  }
-
-  .toc-sidebar .toc-header:hover {
-    background-color: rgba(0,0,0,0.03);
-  }
-
-  .toc-sidebar .toc-header h2 {
-    font-size: 1rem;
-    font-weight: 600;
-    pointer-events: none;
-    cursor: pointer;
-  }
-
-  .toc-sidebar .toc-toggle {
-    cursor: pointer;
-  }
-
-  .toc-sidebar .toc-nav {
-    padding: 0;
-    overflow-y: auto;
-    max-height: 100%;
-  }
-  
-  .toc-sidebar .toc-nav.toc-open {
-    max-height: 50vh;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    padding: 1rem 0;
-  }
-
-  .toc-sidebar .toc-nav ol {
-    padding: 0 1rem;
-  }
-
-  /* Make TOC items fully clickable */
-  .toc-sidebar .toc-item {
-    margin-bottom: 0.4rem;
-    position: relative;
-  }
-
-  .toc-sidebar .toc-item a {
-    border-left-width: 1px;
-    font-size: 0.9rem;
-    transition: all 0.2s ease;
-    display: block;
-    width: 100%;
-    padding: 0.5rem 0.75rem;
-    margin-left: 0;
-    border-radius: 4px;
-  }
-
-  .toc-sidebar .toc-item a:hover {
-    background-color: rgba(0,0,0,0.03);
-  }
-
-  .toc-sidebar .toc-level-2 {
-    border-bottom: 1px solid #f0f0f0;
-  }
-
-  .toc-sidebar .toc-level-2:last-child {
-    border-bottom: none;
-  }
-
-  .toc-sidebar .toc-level-3 a {
-    padding-left: 1.75rem;
-  }
-
-  /* Responsive adjustments */
-  @media (min-width: 640px) {
-    .blog-container {
-      padding: 0 1.5rem;
-    }
-    
-    .blog-post {
-      padding: 1.5rem 0;
-    }
-    
-    .post-header h1 {
-      font-size: 2rem;
-    }
-    
-
-    
-    .post-image img {
-      max-height: 400px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .blog-container {
-      padding: 0 2rem;
-    }
-    
-    .post-header {
-      margin-bottom: 2rem;
-      padding-bottom: 0;
-    }
-    
-    .post-header h1 {
-      font-size: 2.2rem;
-    }
-    
-    .blog-post {
-      padding: 2rem;
-      max-width: 900px;
-    }
-    
-    .post-content-wrapper {
-      gap: 1.5rem;
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    .blog-container {
-      padding: 0;
-    }
-    
-    .post-content-wrapper {
-      grid-template-columns: 220px 1fr;
-      gap: 2rem;
-    }
-    
-    .toc-sidebar {
-      position: sticky;
-      top: 2rem;
-      height: fit-content;
-      background-color: transparent;
-      padding: 0;
-      margin-bottom: 0;
-      border: none;
-      box-shadow: none;
-    }
-    
-    /* Enhanced desktop TOC styles */
-    .toc-sidebar .toc-container {
-      border-left: 2px solid #e9e9e9;
-      padding-left: 0.5rem;
-      margin-left: 0.5rem;
-    }
-    
-    .toc-sidebar .toc-header {
-      padding: 0 0 0.5rem 1rem;
-      border-bottom: none;
-    }
-    
-    .toc-sidebar .toc-header h2 {
-      font-size: 0.95rem;
-      color: #666;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-    
-    .toc-sidebar .toc-nav {
-      padding: 0;
-    }
-    
-    .toc-sidebar .toc-nav ol {
-      padding: 0 0 0 1rem;
-    }
-    
-    .toc-sidebar .toc-item a {
-      padding: 0.25rem 0.5rem;
-      margin-left: -0.5rem;
-      border-left: 2px solid transparent;
-      border-radius: 0;
-      font-size: 0.9rem;
-    }
-    
-    .toc-sidebar .toc-item a:hover {
-      background-color: transparent;
-    }
-    
-    .toc-sidebar .toc-item a.active {
-      border-left-color: var(--primary-dark, #3b82f6);
-      color: var(--primary-dark, #3b82f6);
-    }
-    
-    .toc-sidebar .toc-level-3 {
-      padding-left: 0.75rem;
-      font-size: 0.85rem;
-    }
-    
-    .toc-sidebar .toc-level-3 a {
-      padding-left: 0.5rem;
-    }
-    
-    .blog-post {
-      padding: 2rem 0;
-      max-width: 1000px;
-    }
-    
-    .post-header h1 {
-      font-size: 2.5rem;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .blog-post {
-      max-width: 1100px;
-    }
-    
-    .post-content-wrapper {
-      grid-template-columns: 240px 1fr;
-      gap: 3rem;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .blog-post {
-      max-width: 1200px;
-    }
-  }
-
-  /* Image styles now in global section */
-
-  .post-content .table-wrapper.scrollable::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 30px;
-    background: linear-gradient(to right, rgba(255,255,255,0), rgba(0,0,0,0.05));
-    pointer-events: none;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-  }
-
-  .post-content .table-wrapper {
-    position: relative;
-  }
-
-  /* Mobile TOC overlay */
-  .mobile-toc-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-  }
-  
-  .mobile-toc-container {
-    background-color: white;
-    border-radius: 12px;
-    width: 100%;
-    max-width: 400px;
-    max-height: 85vh;
-    position: relative;
-    animation: fadeIn 0.3s ease;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .mobile-toc-overlay .toc-container {
-    background-color: white;
-    border-radius: 12px;
-    width: 100%;
-    overflow-y: auto;
-    position: relative;
-    border: none;
-    -webkit-overflow-scrolling: touch;
-    padding-bottom: 1rem;
-    max-height: calc(85vh - 50px);
-  }
-  
-  .mobile-toc-overlay .toc-nav {
-    padding-top: 0.5rem;
-    padding-bottom: 2.5rem;
-  }
-  
-  .mobile-toc-overlay .toc-item a {
-    padding: 0.75rem 1rem;
-    border-radius: 0;
-    margin: 0;
-    display: block;
-    width: 100%;
-  }
-  
-  .mobile-toc-overlay .toc-level-2 {
-    border-bottom: 1px solid #f0f0f0;
-  }
-  
-  .mobile-toc-overlay .toc-level-2:last-child {
-    border-bottom: none;
-  }
-  
-  .mobile-toc-overlay .toc-level-3 a {
-    padding-left: 1.75rem;
-  }
-  
-  .mobile-toc-close {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    background-color: #f0f0f0;
-    border: none;
-    color: #333;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    z-index: 101;
-  }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  /* Mobile specific adjustments */
-  @media (max-width: 639px) {
-    /* Improved mobile TOC scrolling */
-    .toc-sidebar .toc-nav.toc-open {
-      padding-bottom: 2rem;
-      margin-bottom: 1rem;
-      overflow-y: auto;
-      -webkit-overflow-scrolling: touch;
-      /* Set a good default height that can be dynamically adjusted by JS */
-      max-height: 50vh;
-    }
-    
-    /* Help ensure long TOCs are fully scrollable */
-    .toc-sidebar .toc-nav.toc-open::after {
-      content: "";
-      display: block;
-      height: 1rem; /* Space at the bottom to ensure scrolling works properly */
-    }
-  }
-
-  /* Mobile TOC overlay styles */
-  .mobile-toc-overlay .toc-header {
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  .mobile-toc-overlay .toc-header h2,
-  .mobile-toc-overlay .toc-toggle {
-    cursor: pointer;
-  }
-</style> 

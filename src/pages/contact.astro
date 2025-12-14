@@ -23,832 +23,215 @@ const structuredData = {
 };
 ---
 
-<BaseLayout 
-  title="Contact MD Home Care | In-Home Care Services Support" 
+<BaseLayout
+  title="Contact MD Home Care | In-Home Care Services Support"
   description={metaDescription}
   canonical="https://mdhomecare.com.au/contact"
 >
   <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
-  
-  <div class="contact-hero" style="background-image: url('/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp')">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <div class="category-tag">
-        <img src="/assets/avatar.webp" alt="MD Home Care Team Member" class="avatar-image" />
-        Service Inquiries & Referrals
-      </div>
-      <h1>Contact Us</h1>
-      <p class="hero-description">Need In-Home Care or Disability Support? Please get in touch with MD Home Care and find out how we can help you or your loved ones live more independently at home.</p>
-      <div class="hero-cta">
-        <a href="tel:+61863869999" class="cta-primary" aria-label="Call MD Home Care now">
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-          </svg>
-          <div class="cta-text">
-            <span>Call now</span>
-            <span class="social-proof">Trusted by 100+ families</span>
-          </div>
-        </a>
-        <a href="#contact-form" class="cta-secondary" aria-label="Send a message to MD Home Care">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
-          </svg>
-          <span>Send Message</span>
-        </a>
-        <div class="online-status">
-          <span class="online-dot"></span>
-          <span class="online-text">Available now</span>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="contact-container">
-    <div class="contact-grid">
-      <div class="contact-info">
-        <div class="info-card">
-          <div class="card-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <!-- Hero Section -->
+  <section
+    class="hero min-h-[90vh] bg-cover bg-center bg-fixed relative"
+    style="background-image: url('/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp');"
+  >
+    <div class="hero-overlay bg-gradient-to-r from-white/50 to-white/20"></div>
+    <div class="hero-content text-center">
+      <div class="max-w-3xl bg-white/80 backdrop-blur-xl rounded-3xl p-8 lg:p-12 shadow-2xl border border-white/90">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-primary leading-tight mb-6">
+          Get in Touch with MD Home Care
+        </h1>
+        <p class="text-lg text-base-content/80 max-w-2xl mx-auto mb-8 leading-relaxed">
+          Need In-Home Care or Disability Support? Please get in touch with MD Home Care and find out how we can help you or your loved ones live more independently at home.
+        </p>
+        <div class="flex flex-wrap gap-4 justify-center mb-6">
+          <a href="tel:+61863869999" class="btn btn-primary btn-lg gap-2 shadow-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
             </svg>
+            Call 08 6386 9999
+          </a>
+          <a href="#contact-form" class="btn btn-outline btn-lg gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
+            Send a Message
+          </a>
+        </div>
+
+        <!-- Online Status -->
+        <div id="online-status" class="flex items-center justify-center gap-2 text-success">
+          <span class="w-2 h-2 bg-success rounded-full animate-pulse"></span>
+          <span class="text-sm font-medium">Available now</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Grid -->
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
+      <!-- Contact Info Card -->
+      <div class="lg:col-span-2">
+        <div class="card bg-base-100 shadow-xl border border-base-200 sticky top-24">
+          <div class="card-body text-center">
+            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary-content" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <h2 class="card-title justify-center text-2xl mb-2">Call MD Home Care</h2>
+            <p class="text-base-content/70 mb-6">Our professional in-home care team is available to assist you</p>
+            <a href="tel:+61863869999" class="text-3xl font-bold text-primary hover:text-primary-focus transition-colors mb-4">
+              08 6386 9999
+            </a>
+            <div class="divider"></div>
+            <p class="text-sm text-base-content/60">Available for all your in-home care needs</p>
           </div>
-          <h2>Call MD Home Care</h2>
-          <p>Our professional in-home care team is available to assist you</p>
-          <a href="tel:+61863869999" class="info-link" aria-label="Call MD Home Care on 08 6386 9999">08 6386 9999</a>
-          <p class="support-hours">Available for all your in-home care needs</p>
         </div>
       </div>
 
-      <div class="form-section" id="contact-form">
-        <div class="form-container">
-          <h2>How Can We Help You?</h2>
-          <p>Complete the form below to discuss your specific care needs with MD Home Care. We're here to help you find the right support services.</p>
-          <form class="contact-form">
-            <div class="form-group">
-              <label for="email">Email <span class="required">*</span></label>
-              <div class="input-wrapper">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-icon">
-                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                  <polyline points="22,6 12,13 2,6"></polyline>
-                </svg>
-                <input type="email" id="email" name="email" placeholder="Your email address" required>
+      <!-- Contact Form -->
+      <div class="lg:col-span-3" id="contact-form">
+        <div class="card bg-base-100 shadow-xl border border-base-200">
+          <div class="card-body">
+            <h2 class="card-title text-2xl mb-2">How Can We Help You?</h2>
+            <p class="text-base-content/70 mb-6">Complete the form below to discuss your specific care needs with MD Home Care. We're here to help you find the right support services.</p>
+
+            <form class="space-y-5">
+              <!-- Name Field -->
+              <div class="form-control">
+                <label class="floating-label">
+                  <span>Full Name <span class="text-error">*</span></span>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Full Name"
+                    class="input input-bordered w-full"
+                    required
+                  />
+                </label>
               </div>
-            </div>
-            
-            <div class="form-group">
-              <label for="phone">Phone Number <span class="optional">(optional)</span></label>
-              <div class="input-wrapper">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-icon">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                </svg>
-                <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+
+              <!-- Email Field -->
+              <div class="form-control">
+                <label class="floating-label">
+                  <span>Email Address <span class="text-error">*</span></span>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email Address"
+                    class="input input-bordered w-full"
+                    required
+                  />
+                </label>
               </div>
-            </div>
-            
-            <div class="form-group">
-              <label for="message">Your Message <span class="required">*</span></label>
-              <div class="input-wrapper textarea-wrapper">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-icon textarea-icon">
-                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
-                </svg>
-                <textarea id="message" name="message" placeholder="How can we help you?" required rows="4"></textarea>
+
+              <!-- Phone Field -->
+              <div class="form-control">
+                <label class="floating-label">
+                  <span>Phone Number</span>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Phone Number"
+                    class="input input-bordered w-full"
+                  />
+                </label>
               </div>
-            </div>
-            
-            <button type="submit" class="submit-button">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="button-icon">
-                <line x1="22" y1="2" x2="11" y2="13"></line>
-                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-              </svg>
-              Send Message
-            </button>
-          </form>
+
+              <!-- Service Type Select -->
+              <div class="form-control">
+                <label class="floating-label">
+                  <span>Service Type</span>
+                  <select id="service" name="service" class="select select-bordered w-full">
+                    <option value="" disabled selected>Select a service</option>
+                    <option value="ndis">NDIS Support Services</option>
+                    <option value="aged-care">Aged Care Services</option>
+                    <option value="disability">Disability Support</option>
+                    <option value="personal-care">Personal Care</option>
+                    <option value="domestic">Domestic Assistance</option>
+                    <option value="respite">Respite Care</option>
+                    <option value="other">Other / General Enquiry</option>
+                  </select>
+                </label>
+              </div>
+
+              <!-- Message Field -->
+              <div class="form-control">
+                <label class="floating-label">
+                  <span>Your Message <span class="text-error">*</span></span>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Your Message"
+                    class="textarea textarea-bordered w-full h-32 resize-none"
+                    required
+                  ></textarea>
+                </label>
+              </div>
+
+              <!-- Privacy Notice -->
+              <p class="text-xs text-base-content/60 text-center">
+                By submitting this form, you agree to our <a href="/privacy" class="link link-primary">Privacy Policy</a>.
+              </p>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="seo-content">
-    <div class="content-wrapper">
-      <h2>Professional In-Home Care Services by MD Home Care</h2>
-      <p>MD Home Care is your trusted provider of professional in-home care services. Whether you need personal care, disability support, or specialized home care assistance, our dedicated team is here to help. We understand that choosing the right in-home care service is important, which is why our care team is available to discuss your specific needs.</p>
-      
-      <h3>Why Choose MD Home Care?</h3>
-      <ul>
-        <li>Professional and experienced care team</li>
-        <li>Personalized in-home care services</li>
-        <li>Comprehensive support for you and your family</li>
-        <li>Easy contact options - call or message anytime</li>
+  <!-- SEO Content Section -->
+  <section class="bg-base-200 py-16">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-base-content mb-6">Professional In-Home Care Services by MD Home Care</h2>
+      <p class="text-base-content/70 leading-relaxed mb-6">
+        MD Home Care is your trusted provider of professional in-home care services. Whether you need personal care, disability support, or specialized home care assistance, our dedicated team is here to help. We understand that choosing the right in-home care service is important, which is why our care team is available to discuss your specific needs.
+      </p>
+
+      <h3 class="text-xl font-semibold text-base-content mb-4">Why Choose MD Home Care?</h3>
+      <ul class="space-y-3">
+        <li class="flex items-start gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+          </svg>
+          <span class="text-base-content/70">Professional and experienced care team</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+          </svg>
+          <span class="text-base-content/70">Personalized in-home care services</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+          </svg>
+          <span class="text-base-content/70">Comprehensive support for you and your family</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+          </svg>
+          <span class="text-base-content/70">Easy contact options - call or message anytime</span>
+        </li>
       </ul>
     </div>
-  </div>
+  </section>
 </BaseLayout>
-
-<style>
-  :root {
-    --primary-rgb: 0, 122, 255; /* Apple blue */
-  }
-  
-  .contact-hero {
-    position: relative;
-    min-height: 60vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8rem 2rem;
-    margin: -2rem 0 0;
-    isolation: isolate;
-    width: 100vw;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-  }
-
-  /* iOS fix for background images */
-  @supports (-webkit-touch-callout: none) {
-    .contact-hero {
-      background-attachment: scroll;
-      background-size: cover;
-      background-position: center;
-    }
-  }
-
-  .hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.4) 0%,
-      rgba(0, 0, 0, 0.6) 100%
-    );
-  }
-
-  .hero-content {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    color: white;
-    padding: 3.5rem;
-    background: rgba(23, 23, 23, 0.6);
-    backdrop-filter: blur(12px);
-    border-radius: 1.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-  }
-
-  .category-tag {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.6rem;
-    background: rgba(255, 255, 255, 0.15);
-    padding: 0.4rem 1.2rem 0.4rem 0.4rem;
-    border-radius: 3rem;
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 0.01em;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: rgba(255, 255, 255, 0.95);
-    margin-bottom: 1.5rem;
-    white-space: nowrap;
-  }
-
-  @media (max-width: 480px) {
-    .category-tag {
-      font-size: 0.85rem;
-      padding: 0.35rem 1rem 0.35rem 0.35rem;
-    }
-  }
-
-  .avatar-image {
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 2px solid rgba(255, 255, 255, 0.6);
-  }
-
-  h1 {
-    font-size: 3.5rem;
-    font-weight: 800;
-    line-height: 1.1;
-    margin: 0 0 1.5rem;
-    letter-spacing: -0.02em;
-    color: white;
-  }
-
-  .hero-description {
-    font-size: 1.4rem;
-    line-height: 1.6;
-    margin-bottom: 2rem;
-    color: rgba(255, 255, 255, 0.9);
-    font-weight: 500;
-  }
-
-  .hero-cta {
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    padding-bottom: 3rem;
-  }
-
-  .online-status {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    font-size: 0.8rem;
-    color: #10b981;
-    font-weight: 500;
-    padding: 0.35rem 0;
-  }
-
-  .online-dot {
-    width: 6px;
-    height: 6px;
-    background-color: #10b981;
-    border-radius: 50%;
-    display: inline-block;
-    animation: pulse-green 2s infinite;
-  }
-
-  @keyframes pulse-green {
-    0% {
-      transform: scale(0.95);
-      opacity: 0.8;
-    }
-    
-    70% {
-      transform: scale(1);
-      opacity: 1;
-    }
-    
-    100% {
-      transform: scale(0.95);
-      opacity: 0.8;
-    }
-  }
-
-  .cta-primary, .cta-secondary {
-    padding: 1rem 2.5rem;
-    border-radius: 3rem;
-    font-weight: 600;
-    font-size: 1.1rem;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.75rem;
-  }
-
-  .cta-primary svg, .cta-secondary svg {
-    transition: transform 0.3s ease;
-  }
-
-  .cta-primary:hover svg, .cta-secondary:hover svg {
-    transform: scale(1.1);
-  }
-
-  .cta-primary {
-    background: linear-gradient(135deg, white, #f8f8f8);
-    color: var(--primary-color);
-    position: relative;
-    border: 2px solid white;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1), 0 0 0 3px rgba(255, 255, 255, 0.2);
-    padding: 1.1rem 2.2rem 1.1rem 1.4rem;
-    overflow: hidden;
-    z-index: 1;
-  }
-
-  .cta-primary::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-color) 100%);
-    opacity: 0;
-    z-index: -1;
-    transition: opacity 0.3s ease;
-  }
-
-  .cta-primary:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 0 0 4px rgba(255, 255, 255, 0.3);
-  }
-
-  .cta-primary:hover::before {
-    opacity: 0.05;
-  }
-
-  .cta-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .social-proof {
-    font-size: 0.65rem;
-    opacity: 0.7;
-    font-weight: 400;
-    margin-top: 0.2rem;
-    text-align: center;
-  }
-
-  .cta-secondary {
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-  }
-
-  .cta-primary:hover, .cta-secondary:hover {
-    transform: translateY(-2px);
-  }
-
-  .contact-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 4rem 2rem;
-  }
-
-  .contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    gap: 4rem;
-    align-items: start;
-  }
-
-  .contact-info {
-    position: sticky;
-    top: 2rem;
-  }
-
-  .info-card {
-    background: white;
-    padding: 3rem;
-    border-radius: 1.5rem;
-    text-align: center;
-    transition: all 0.3s ease;
-    border: 1px solid var(--border-color);
-  }
-
-  .info-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-    border-color: var(--primary-color);
-  }
-
-  .card-icon {
-    width: 64px;
-    height: 64px;
-    background: var(--primary-color);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 2rem;
-  }
-
-  .card-icon svg {
-    color: white;
-    width: 32px;
-    height: 32px;
-  }
-
-  .info-card h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-    color: var(--text-color);
-  }
-
-  .info-card p {
-    color: var(--text-light);
-    margin-bottom: 1.5rem;
-    font-size: 1.1rem;
-  }
-
-  .info-link {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.5rem;
-    display: block;
-    margin-bottom: 1rem;
-    transition: all 0.3s ease;
-  }
-
-  .info-link:hover {
-    transform: translateY(-2px);
-    color: var(--primary-dark);
-  }
-
-  .support-hours {
-    font-size: 0.95rem;
-    color: var(--text-light);
-    margin-top: 1rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--border-color);
-  }
-
-  .form-section {
-    background: white;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    border: 1px solid var(--border-color);
-  }
-
-  .form-container {
-    padding: 3rem;
-  }
-
-  .form-container h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: var(--text-color);
-  }
-
-  .form-container p {
-    color: var(--text-light);
-    margin-bottom: 2rem;
-  }
-
-  iframe {
-    width: 100%;
-    height: 600px;
-    border: none;
-  }
-
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    max-width: 100%;
-  }
-
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .form-group label {
-    font-weight: 500;
-    font-size: 1rem;
-    color: rgb(29, 29, 31);
-    margin-left: 0.25rem;
-    letter-spacing: -0.01em;
-  }
-
-  .required {
-    color: rgb(var(--primary-rgb));
-  }
-  
-  .optional {
-    color: rgb(142, 142, 147);
-    font-weight: normal;
-    font-size: 0.9rem;
-  }
-
-  .input-wrapper {
-    position: relative;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    background-color: rgb(250, 250, 252);
-    transition: all 0.2s ease;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-  }
-
-  .input-wrapper:focus-within {
-    border-color: rgb(var(--primary-rgb));
-    box-shadow: 0 0 0 2px rgba(var(--primary-rgb), 0.15);
-    transform: none;
-  }
-  
-  .input-wrapper.focused {
-    background-color: rgb(250, 250, 252);
-  }
-
-  .input-icon {
-    position: absolute;
-    left: 1rem;
-    color: rgb(142, 142, 147);
-    opacity: 0.8;
-    pointer-events: none;
-    transition: all 0.2s ease;
-  }
-
-  .textarea-icon {
-    top: 1rem;
-  }
-
-  .input-wrapper input,
-  .input-wrapper textarea {
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 0.9rem 1rem 0.9rem 2.8rem;
-    font-size: 1rem;
-    color: rgb(29, 29, 31);
-    background: transparent;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    letter-spacing: -0.01em;
-  }
-
-  .input-wrapper textarea {
-    resize: vertical;
-    min-height: 120px;
-    padding: 1rem 1rem 1rem 2.8rem;
-    line-height: 1.5;
-  }
-  
-  .input-wrapper:focus-within .input-icon {
-    color: rgb(var(--primary-rgb));
-    opacity: 1;
-  }
-
-  .submit-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    background: rgb(var(--primary-rgb));
-    color: white;
-    border: none;
-    padding: 0.9rem 2rem;
-    font-weight: 500;
-    font-size: 1rem;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    margin-top: 0.5rem;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    letter-spacing: -0.01em;
-  }
-
-  .button-icon {
-    transition: transform 0.2s ease;
-  }
-
-  .submit-button:hover .button-icon {
-    transform: translateX(3px);
-  }
-  
-  .submit-button:hover {
-    background: rgba(var(--primary-rgb), 0.9);
-  }
-
-  .submit-button:active {
-    transform: scale(0.98);
-  }
-
-  /* Form animation */
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(8px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .contact-form .form-group {
-    animation: fadeIn 0.4s ease forwards;
-    opacity: 0;
-  }
-
-  .contact-form .form-group:nth-child(1) {
-    animation-delay: 0.1s;
-  }
-
-  .contact-form .form-group:nth-child(2) {
-    animation-delay: 0.2s;
-  }
-
-  .contact-form .form-group:nth-child(3) {
-    animation-delay: 0.3s;
-  }
-
-  .contact-form .submit-button {
-    animation: fadeIn 0.4s 0.4s ease forwards;
-    opacity: 0;
-  }
-
-  @media (max-width: 968px) {
-    .contact-grid {
-      grid-template-columns: 1fr;
-      gap: 3rem;
-    }
-
-    .hero-content {
-      padding: 2.5rem;
-      margin: 0 1rem;
-    }
-
-    h1 {
-      font-size: 2.8rem;
-    }
-
-    .hero-description {
-      font-size: 1.2rem;
-    }
-
-    .contact-container {
-      padding: 3rem 1.5rem;
-    }
-
-    .info-card {
-      padding: 2rem;
-    }
-
-    .form-container {
-      padding: 2rem;
-    }
-
-    iframe {
-      height: 500px;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .hero-content {
-      padding: 2rem 1.5rem;
-      margin: 0 0.5rem;
-    }
-
-    .contact-hero {
-      padding: 8rem 1rem;
-    }
-
-    .contact-container {
-      padding: 2.5rem 1rem;
-    }
-
-    .hero-cta {
-      flex-direction: column;
-      padding-bottom: 3.5rem;
-    }
-
-    .cta-primary, .cta-secondary {
-      width: 100%;
-      text-align: center;
-      justify-content: center;
-      padding: 0.9rem 1.3rem;
-      font-size: 0.95rem;
-      white-space: nowrap;
-    }
-
-    .cta-primary svg, .cta-secondary svg {
-      width: 18px;
-      height: 18px;
-    }
-
-    .online-status {
-      bottom: 0;
-      white-space: nowrap;
-      font-size: 0.8rem;
-      padding: 0.35rem 0;
-    }
-
-    .info-card {
-      padding: 1.5rem;
-    }
-
-    .form-container {
-      padding: 1.5rem 1rem;
-    }
-
-    .info-link {
-      font-size: 1.3rem;
-    }
-
-    .card-icon {
-      width: 56px;
-      height: 56px;
-    }
-
-    .card-icon svg {
-      width: 28px;
-      height: 28px;
-    }
-
-    .content-wrapper {
-      padding: 0 1rem;
-    }
-
-    .mobile-text {
-      display: inline;
-      font-size: 1.1rem;
-      font-weight: 700;
-    }
-    .desktop-text {
-      display: none;
-    }
-
-    h1 {
-      font-size: 2.4rem;
-    }
-
-    .hero-description {
-      font-size: 1.1rem;
-    }
-  }
-
-  .seo-content {
-    background: var(--light-background);
-    padding: 4rem 0;
-    margin-top: 4rem;
-  }
-
-  .content-wrapper {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 2rem;
-  }
-
-  .content-wrapper h2 {
-    font-size: 2rem;
-    color: var(--text-color);
-    margin-bottom: 1.5rem;
-  }
-
-  .content-wrapper h3 {
-    font-size: 1.5rem;
-    color: var(--text-color);
-    margin: 2rem 0 1rem;
-  }
-
-  .content-wrapper p {
-    color: var(--text-light);
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-  }
-
-  .content-wrapper ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 2rem;
-  }
-
-  .content-wrapper li {
-    color: var(--text-light);
-    margin-bottom: 0.75rem;
-    padding-left: 1.5rem;
-    position: relative;
-  }
-
-  .content-wrapper li::before {
-    content: "•";
-    color: var(--primary-color);
-    position: absolute;
-    left: 0;
-    font-weight: bold;
-  }
-
-  @media (max-width: 768px) {
-    .seo-content {
-      padding: 3rem 0;
-    }
-
-    .content-wrapper h2 {
-      font-size: 1.75rem;
-    }
-
-    .content-wrapper h3 {
-      font-size: 1.25rem;
-    }
-  }
-
-  /* Mobile/Desktop text toggles */
-  .mobile-text {
-    display: none;
-  }
-  
-  @media (max-width: 480px) {
-    .mobile-text {
-      display: inline;
-      font-size: 1.1rem;
-      font-weight: 700;
-    }
-    .desktop-text {
-      display: none;
-    }
-  }
-</style>
 
 <script>
   // Add PostHog type declaration
@@ -865,74 +248,74 @@ const structuredData = {
   function isBusinessHours() {
     const sydneyTime = new Date().toLocaleString('en-US', { timeZone: 'Australia/Sydney' });
     const hour = new Date(sydneyTime).getHours();
-    return hour >= 9 && hour < 19; // Between 9 AM and 7 PM
+    return hour >= 9 && hour < 19;
   }
 
   // Update online status visibility
   function updateOnlineStatus() {
-    const onlineStatus = document.querySelector('.online-status') as HTMLElement;
+    const onlineStatus = document.getElementById('online-status');
     if (onlineStatus) {
       onlineStatus.style.display = isBusinessHours() ? 'flex' : 'none';
     }
   }
 
-  // Initial check
   updateOnlineStatus();
-
-  // Update every minute
   setInterval(updateOnlineStatus, 60000);
 
-  // This would normally send to a server, but for a static site we're just showing a simple notification
-  document.querySelector('.contact-form')?.addEventListener('submit', (e) => {
+  // Form submission handler
+  document.querySelector('form')?.addEventListener('submit', (e) => {
     e.preventDefault();
-    
+
     const form = e.target as HTMLFormElement;
-    const submitButton = form.querySelector('.submit-button') as HTMLButtonElement;
-    const originalText = submitButton.textContent;
+    const submitButton = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+    const originalHTML = submitButton.innerHTML;
+    const name = (form.querySelector('#name') as HTMLInputElement).value;
     const email = (form.querySelector('#email') as HTMLInputElement).value;
     const phone = (form.querySelector('#phone') as HTMLInputElement).value;
+    const service = (form.querySelector('#service') as HTMLSelectElement).value;
     const message = (form.querySelector('#message') as HTMLTextAreaElement).value;
-    
+
     // Track form submission in PostHog
     if (window.posthog) {
-      // First identify the user with their email and phone
       window.posthog.identify(email, {
+        name: name,
         email: email,
         phone: phone || undefined,
         last_seen: new Date().toISOString()
       });
 
-      // Then capture the form submission with the full message
       window.posthog.capture('contact_form_submitted', {
+        name: name,
         email: email,
         phone: phone || undefined,
+        service_type: service || undefined,
         message: message,
         message_length: message.length
       });
     }
-    
+
     // Disable form and show sending status
     submitButton.disabled = true;
-    submitButton.textContent = 'Sending...';
+    submitButton.innerHTML = '<span class="loading loading-spinner loading-sm"></span> Sending...';
     Array.from(form.elements).forEach(element => {
       if (element instanceof HTMLInputElement || element instanceof HTMLTextAreaElement) {
         element.disabled = true;
       }
     });
-    
-    // Simulate sending to a server
+
+    // Simulate sending
     setTimeout(() => {
-      // Show success state
-      submitButton.textContent = 'Message Sent';
-      submitButton.style.backgroundColor = '#34c759'; // Apple green success color
-      
-      // Reset form
+      submitButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg> Message Sent!';
+      submitButton.classList.remove('btn-primary');
+      submitButton.classList.add('btn-success');
+
       setTimeout(() => {
         form.reset();
-        submitButton.textContent = originalText;
+        submitButton.innerHTML = originalHTML;
         submitButton.disabled = false;
-        submitButton.style.backgroundColor = '';
-        
+        submitButton.classList.remove('btn-success');
+        submitButton.classList.add('btn-primary');
+
         Array.from(form.elements).forEach(element => {
           if (element instanceof HTMLInputElement || element instanceof HTMLTextAreaElement) {
             element.disabled = false;
@@ -942,14 +325,16 @@ const structuredData = {
     }, 1500);
   });
 
-  // Track email identification when email is entered
+  // Track email identification
   document.querySelector('#email')?.addEventListener('blur', (e) => {
     const email = (e.target as HTMLInputElement).value;
+    const name = (document.querySelector('#name') as HTMLInputElement)?.value;
     if (email && window.posthog) {
       window.posthog.identify(email, {
+        name: name || undefined,
         email: email,
         last_seen: new Date().toISOString()
       });
     }
   });
-</script> 
+</script>

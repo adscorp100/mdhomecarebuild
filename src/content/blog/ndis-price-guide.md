@@ -1,25 +1,31 @@
 ---
-title: "NDIS Price Guide 2025-26: Complete Pricing Updates + 3.95% Rate Increases July 2025"
-description: "Official NDIS Price Guide 2025-26 with July 2025 updates: 3.95% support worker rate increases, 50% travel funding cuts, standardized psychology rates $223.99. Complete pricing guide for participants and providers."
-pubDate: 2025-07-02
+title: "NDIS Price Guide 2025-26: December Update v1.1 + $70.23 Support Worker Rates"
+description: "NDIS Price Guide 2025-26 v1.1 (November 24, 2025): Support worker weekday rate $70.23/hour, psychology $232.99, physiotherapy $193.99. Download PDF + Support Catalogue links."
+pubDate: 2025-12-15
 author: "Camila"
-tags: []
+tags: ["NDIS Price Guide", "NDIS Rates 2025", "NDIS Support Worker Rates", "NDIS Pricing"]
 image: "/assets/clinic.webp"
 ---
 
-# NDIS Price Guide 2025-26: Complete Pricing Updates + 3.95% Rate Increases July 2025
+# NDIS Price Guide 2025-26: Complete Guide + December v1.1 Updates
 
-## BREAKING NEWS: July 2025 NDIS Price Guide Updates
+## LATEST UPDATE: November 24, 2025 - Version 1.1 Released
 
-**Major Changes Effective July 1, 2025:**
-- **3.95% price increase** for core supports (up from 3.19% in 2024-25)
-- **50% cut to travel funding** for therapy providers
-- **Behaviour Support rates** increased by $10 to **$232.99/hour**
-- **Nursing supports** increased by **3.2%**
-- **Psychology rates standardized** at **$223.99** across all states
-- **New "funding periods"** introduced in NDIS plans (effective May 19, 2025)
+**Current NDIS Pricing Arrangements Version:** PAPL 2025-26 v1.1 (effective 24 November 2025)
 
-*Last updated: July 2, 2025 - Source: NDIA Pricing Arrangements and Price Limits 2025-26*
+**Key 2025-26 Rates at a Glance:**
+- **Support Worker (Weekday Daytime)**: $70.23/hour (Assistance with Self Care - Standard)
+- **Psychology**: $232.99/hour (standardized across all states)
+- **Physiotherapy**: $193.99/hour (new national limit)
+- **Dietitians/Podiatrists**: $188.99/hour
+- **Behaviour Support**: $232.99/hour
+- **3.95% increase** applied from July 1, 2025 (largest increase in recent years)
+
+**Download Official Documents:**
+- [NDIS Pricing Arrangements and Price Limits 2025-26 v1.1 (PDF)](https://www.ndis.gov.au/providers/pricing-arrangements) - 1.3MB
+- [NDIS Support Catalogue 2025-26 v1.1 (XLSX)](https://www.ndis.gov.au/providers/pricing-arrangements) - 549KB
+
+*Last updated: December 15, 2025 - Source: NDIA Pricing Arrangements and Price Limits 2025-26 v1.1*
 
 ## NDIS Price Guide 2025-26: Current Support Worker Rates
 
@@ -45,25 +51,29 @@ The 2025-26 NDIS Price Guide, effective from July 1, 2025, introduced the larges
 - Significant impact on rural and remote service delivery
 - **Community concerns** about reduced access to services
 
-### Rate Adjustments by Service Type
+### Rate Adjustments by Service Type (Current as of v1.1)
 - **Disability Support Worker (DSW)**: +3.95% across all categories
-- **Behaviour Support**: +$10 increase to $232.99/hour
+- **Behaviour Support**: $232.99/hour
 - **Nursing Services**: +3.2% increase
-- **Psychology**: Standardized at $223.99 across all states
-- **Physiotherapy**: Maintained at $183.99/hour (capped)
+- **Psychology**: $232.99/hour (standardized across all states)
+- **Physiotherapy**: $193.99/hour (new national limit - increased from previous)
+- **Dietitians/Podiatrists**: $188.99/hour
 
 ## NDIS Price Guide 2025 vs 2024: Comparison
 
-| Support Type | 2024-25 Rate | 2025-26 Rate | Change |
-|-------------|--------------|--------------|---------|
+| Support Type | 2024-25 Rate | 2025-26 Rate (v1.1) | Change |
+|-------------|--------------|---------------------|---------|
+| Support Worker (Weekday Daytime) | $67.56/hour | $70.23/hour | +3.95% |
 | Unqualified Support Worker | $30.00-$34.00 | $31.18-$35.34 | +3.95% |
 | Qualified Support Worker | $32.00-$36.00 | $33.26-$37.42 | +3.95% |
 | Team Leader/Supervisor | $36.00-$42.00 | $37.42-$43.66 | +3.95% |
 | Behaviour Support | $222.99 | $232.99 | +$10.00 |
-| Psychology (All States) | Varied | $223.99 | Standardized |
+| Psychology (All States) | Varied | $232.99 | Standardized |
+| Physiotherapy | $183.99 | $193.99 | Increased |
+| Dietitians/Podiatrists | $188.99 | $188.99 | - |
 | Nursing Services | Various | Various | +3.2% |
 
-*Source: NDIA Pricing Arrangements and Price Limits 2025-26*
+*Source: NDIA Pricing Arrangements and Price Limits 2025-26 v1.1 (effective 24 November 2025)*
 
 ## NDIS Support Worker Rates & NDIS Hourly Rate Guide
 
@@ -183,9 +193,14 @@ The NDIS Price Guide is updated annually, typically released at the beginning of
 The NDIS behaviour support rate increased by $10 to $232.99 per hour in the 2025-26 guide, reflecting the specialized nature of these services.
 
 ### How do I access NDIS pricing information for line items?
-For specific line item codes and billing information, refer to the NDIS Support Catalogue 2025-26 or consult our detailed [NDIS Line Items Guide](/blog/ndis-line-items-guide/) for comprehensive code listings and pricing.
+For specific line item codes and billing information, refer to the NDIS Support Catalogue 2025-26 v1.1 or consult our detailed [NDIS Line Items Guide](/blog/ndis-line-items-guide/) for comprehensive code listings and pricing.
 
-*This guide was last updated on July 2, 2025, to reflect the latest NDIS pricing arrangements and price limits for 2025-26.*
+### Where can I download the official NDIS Price Guide 2025-26 PDF?
+The official NDIS Price Guide 2025-26 v1.1 can be downloaded from [www.ndis.gov.au/providers/pricing-arrangements](https://www.ndis.gov.au/providers/pricing-arrangements). The current version (v1.1) is effective from 24 November 2025 and includes:
+- NDIS Pricing Arrangements and Price Limits 2025-26 v1.1 (PDF 1.3MB)
+- NDIS Support Catalogue 2025-26 v1.1 (XLSX 549KB)
+
+*This guide was last updated on December 15, 2025, to reflect NDIS Pricing Arrangements and Price Limits 2025-26 v1.1 (effective 24 November 2025).*
 
 ## Key Citations
 
