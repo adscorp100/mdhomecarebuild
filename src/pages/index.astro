@@ -17,51 +17,71 @@ const description = "Trusted NDIS provider in Sydney & Melbourne offering 24/7 h
 const features = [
   {
     icon: "hugeicons:shield-01",
-    title: "Vetted Professionals",
-    desc: "Every carer is fully background-checked, qualified, and employed directly by us."
+    badge: "Our People",
+    title: "Vetted Professionals You Can Trust",
+    desc: "Finding the right support worker can feel overwhelming. That's why we take the guesswork out of it. Every carer on our team is fully background-checked, qualified, and employed directly by us—not through agencies or subcontractors.",
+    desc2: "We invest in our people because we know that consistency matters. When you work with MD Homecare, you'll see familiar faces who understand your needs and preferences.",
+    img: "/assets/nurse.webp"
   },
   {
     icon: "hugeicons:clock-01",
+    badge: "Always Available",
     title: "24/7 Dedicated Support",
-    desc: "Round-the-clock care for complex needs, ensuring peace of mind at all times."
+    desc: "Life doesn't follow a 9-to-5 schedule, and neither do we. Whether it's an early morning routine, overnight care, or support during weekends and holidays, our team is here when you need us.",
+    desc2: "For participants with complex needs, round-the-clock support isn't a luxury—it's essential. We provide seamless care coordination so you always have someone in your corner.",
+    img: "/assets/grandma.webp"
   },
   {
     icon: "hugeicons:favourite",
-    title: "Nurse-Led Care",
-    desc: "Clinical oversight by Registered Nurses for high-intensity and complex support."
+    badge: "Clinical Excellence",
+    title: "Nurse-Led Care Teams",
+    desc: "Complex care requires expert oversight. Our services are led by experienced Registered Nurses who develop comprehensive care plans, provide clinical governance, and ensure best-practice standards are met every single day.",
+    desc2: "From wound care and medication management to high-intensity daily personal activities, we bring hospital-grade expertise into the comfort of your home.",
+    img: "/assets/clinic.webp"
   },
   {
     icon: "hugeicons:global",
-    title: "Culturally Diverse",
-    desc: "A team that speaks your language and understands your cultural needs."
+    badge: "Community",
+    title: "Culturally Diverse Teams",
+    desc: "We believe that great care starts with understanding. Our team speaks over 20 languages and represents diverse cultural backgrounds, ensuring we can connect with participants and families in ways that feel authentic and respectful.",
+    desc2: "Whether it's preparing culturally appropriate meals, respecting religious practices, or simply communicating in your preferred language, we adapt our care to fit your life.",
+    img: "/assets/elderlyaboriginal.webp"
   }
 ];
 
 const services = [
   {
+    badge: "Daily Living",
     title: "In-Home Support",
-    desc: "Personal care, domestic assistance, and daily living support tailored to you.",
+    desc: "Your home should be a place of comfort and independence. Our in-home support services help you maintain your daily routines with dignity, from personal care and hygiene assistance to meal preparation and household tasks.",
+    desc2: "We work with you to create a support plan that fits seamlessly into your life, ensuring you have the help you need without losing the independence you value.",
     icon: "hugeicons:home-03",
     link: "/services/disability-home-support-services",
     img: "/assets/homecare.webp"
   },
   {
-    title: "SIL & Accommodation",
-    desc: "Supported Independent Living (SIL) and SDA homes designed for comfort.",
+    badge: "Accommodation",
+    title: "SIL & Specialist Housing",
+    desc: "For those who need more comprehensive support, our Supported Independent Living (SIL) services provide 24/7 care in purpose-built or modified homes. We also connect participants with Specialist Disability Accommodation (SDA) options.",
+    desc2: "Our SIL homes are designed to foster independence while ensuring safety. You'll live alongside others with similar support needs, building community and friendships along the way.",
     icon: "hugeicons:building-03",
     link: "/services/sil-services",
     img: "/assets/accessible-bathroom.webp"
   },
   {
+    badge: "Social & Recreation",
     title: "Community Access",
-    desc: "Stay connected with social activities, transport, and community participation.",
+    desc: "Life is richer when you're connected to your community. Our community access programs help you participate in social activities, pursue hobbies, access local services, and build meaningful relationships outside the home.",
+    desc2: "Whether it's joining a local sports club, attending community events, or simply getting out for coffee with friends, we provide the transport and support to make it happen.",
     icon: "hugeicons:user-group",
     link: "/services/community-access-support",
-    img: "/assets/elderlyaboriginal.webp"
+    img: "/assets/wheelchair.webp"
   },
   {
+    badge: "Plan Navigation",
     title: "Support Coordination",
-    desc: "Expert help to navigate your NDIS plan and maximize your funding.",
+    desc: "The NDIS can be complex to navigate. Our specialist support coordinators help you understand your plan, connect with the right providers, and ensure you're getting the most out of your funding.",
+    desc2: "We act as your advocate, helping you build capacity to manage your own supports over time while ensuring nothing falls through the cracks.",
     icon: "hugeicons:file-01",
     link: "/services/ndis-specialist-support-coordination",
     img: "/assets/carer.webp"
@@ -80,18 +100,18 @@ const stats = [
   
   <!-- Hero Section -->
   <section
-    class="relative min-h-[90vh] flex items-center bg-cover bg-center bg-no-repeat bg-fixed pt-20"
+    class="relative min-h-[60vh] flex items-center bg-cover bg-center bg-no-repeat bg-fixed pt-16"
     style="background-image: url('/assets/grandmawhite.webp');"
   >
     <!-- Subtle Overlay for Readability -->
     <div class="absolute inset-0 bg-white/50 z-0 top-0"></div>
 
-    <div class="container-custom relative z-10 py-20 lg:py-32">
-      <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+    <div class="container-custom relative z-10 py-10 lg:py-14">
+      <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
         
         <!-- Hero Content -->
         <div class="w-full lg:w-1/2 text-center lg:text-left">
-          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-8 tracking-wide">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
             <span class="relative flex h-2 w-2">
               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
               <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
@@ -99,12 +119,12 @@ const stats = [
             Taking New Participants
           </div>
           
-          <h1 class="text-5xl lg:text-7xl font-bold text-secondary leading-[1.05] mb-6 tracking-tight text-balance">
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-4 tracking-tight text-balance">
             Live Independently, <br class="hidden lg:block" />
             <span class="text-primary">Supported by Care.</span>
         </h1>
-          
-          <p class="text-xl text-secondary/70 font-medium mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0 text-balance">
+
+          <p class="text-lg text-secondary/70 font-medium mb-6 leading-relaxed max-w-2xl mx-auto lg:mx-0 text-balance">
             Your trusted NDIS partner in Sydney & Melbourne. We provide compassionate in-home care, SIL accommodation, and specialist support designed around <em>your</em> life.
           </p>
           
@@ -118,7 +138,7 @@ const stats = [
           </div>
 
           <!-- Trust Badges -->
-          <div class="mt-12 flex flex-wrap items-center justify-center lg:justify-start gap-4 text-secondary/70 text-sm font-semibold">
+          <div class="mt-6 flex flex-wrap items-center justify-center lg:justify-start gap-3 text-secondary/70 text-sm font-semibold">
             <div class="flex items-center gap-2 bg-white/40 backdrop-blur-sm px-4 py-1.5 rounded-full border border-white/20">
               <Icon name="hugeicons:tick-02" class="h-4 w-4 text-primary" />
               <span>Verified Quality</span>
@@ -135,7 +155,7 @@ const stats = [
         </div>
 
         <!-- Floating Call Card (Clickable Button) -->
-        <div class="w-full lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0 relative pointer-events-none">
+        <div class="w-full lg:w-1/2 flex justify-center lg:justify-end mt-4 lg:mt-0 relative pointer-events-none">
              <a href="tel:+61863869999" class="pointer-events-auto block group">
                 <div class="bg-primary p-6 rounded-[2rem] shadow-xl shadow-primary/20 hover:shadow-2xl hover:shadow-primary/30 hover:-translate-y-1 transition-all duration-300 flex items-center gap-6">
                     <div class="w-14 h-14 rounded-full bg-white/20 flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300">
@@ -176,32 +196,33 @@ const stats = [
         <p class="text-lg text-secondary/60 leading-relaxed">
           Whether you need daily assistance at home, specialized accommodation, or community access, our team is here to help you achieve your goals.
         </p>
-          </div>
+      </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {services.map(service => (
-          <a href={service.link} class="group relative flex flex-col h-full bg-base-100 rounded-[2rem] overflow-hidden border border-base-200 hover:border-primary/50 transition-all duration-500 hover:-translate-y-1">
-            <div class="h-56 overflow-hidden relative">
-              <img src={service.img} alt={service.title} class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.02]" />
-              <div class="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-500"></div>
+      <div class="space-y-24 lg:space-y-32">
+        {services.map((service, i) => (
+          <div class={`flex flex-col ${i % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-12 lg:gap-20`}>
+            <div class="lg:w-1/2 relative">
+              <div class={`absolute inset-0 rounded-[3rem] transform scale-105 z-0 ${i % 2 === 0 ? 'bg-primary/10 rotate-3' : 'bg-secondary/5 -rotate-3'}`}></div>
+              <img src={service.img} alt={service.title} class="relative z-10 rounded-[3rem] shadow-2xl w-full h-auto object-cover aspect-[4/3]" />
             </div>
-            <div class="p-8 flex flex-col flex-1 bg-white">
-              <div class="w-12 h-12 rounded-full bg-base-100 border border-base-200 flex items-center justify-center text-primary mb-6 -mt-14 relative z-10 group-hover:scale-110 transition-transform duration-300 bg-white">
-                <Icon name={service.icon} class="h-6 w-6" />
+            <div class="lg:w-1/2">
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wide mb-6">
+                {service.badge}
               </div>
-              <h4 class="text-xl font-bold text-secondary mb-3 group-hover:text-primary transition-colors tracking-tight">{service.title}</h4>
-              <p class="text-secondary/60 text-sm leading-relaxed mb-6 flex-1">{service.desc}</p>
-              <span class="text-primary font-semibold text-sm inline-flex items-center gap-2 mt-auto group-hover:gap-3 transition-all">
-                Learn More 
-                <Icon name="hugeicons:arrow-right-01" class="h-4 w-4" />
-              </span>
+              <h3 class="text-3xl lg:text-4xl font-bold text-secondary mb-6 leading-tight tracking-tight">{service.title}</h3>
+              <p class="text-lg text-secondary/60 mb-6 leading-relaxed">{service.desc}</p>
+              <p class="text-lg text-secondary/60 mb-8 leading-relaxed">{service.desc2}</p>
+              <a href={service.link} class="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all">
+                Learn more about {service.title.toLowerCase()}
+                <Icon name="hugeicons:arrow-right-01" class="h-5 w-5" />
+              </a>
+            </div>
           </div>
-        </a>
         ))}
       </div>
-      
-      <div class="text-center mt-16">
-        <a href="/services" class="btn btn-outline border-base-200 hover:border-primary hover:bg-transparent hover:text-primary px-8 rounded-full">View All Services</a>
+
+      <div class="text-center mt-20">
+        <a href="/services" class="btn btn-primary rounded-full px-8">View All Services</a>
       </div>
     </div>
   </section>
@@ -258,32 +279,37 @@ const stats = [
   <!-- Why Choose Us -->
   <section class="py-32 bg-base-200/30">
     <div class="container-custom">
-      <div class="flex flex-col md:flex-row gap-16 lg:gap-24">
-        <div class="md:w-1/3">
-          <h2 class="text-sm font-bold text-primary tracking-widest uppercase mb-4">Why MD Homecare?</h2>
-          <h3 class="text-4xl lg:text-5xl font-bold text-secondary mb-8 leading-tight tracking-tight">Care That Feels Like Family.</h3>
-          <p class="text-secondary/60 mb-10 leading-relaxed text-lg">
-            We don't just provide services; we build relationships. Our approach is centered on respect, dignity, and understanding the unique story of every individual we support.
-          </p>
-          <a href="/about" class="btn btn-primary rounded-full px-8">About Our Team</a>
-        </div>
+      <div class="text-center max-w-3xl mx-auto mb-20">
+        <h2 class="text-sm font-bold text-primary tracking-widest uppercase mb-4">Why MD Homecare?</h2>
+        <h3 class="text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">Care That Feels Like Family.</h3>
+        <p class="text-lg text-secondary/60 leading-relaxed">
+          We don't just provide services; we build relationships. Our approach is centered on respect, dignity, and understanding the unique story of every individual we support.
+        </p>
+      </div>
 
-        <div class="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-8">
-          {features.map(feature => (
-            <div class="card bg-white rounded-[2rem] border border-base-200 hover:border-primary/30 transition-all duration-300 group">
-              <div class="card-body p-8">
-                <!-- Enhanced Icon Asset -->
-                <div class="w-14 h-14 rounded-2xl bg-base-200 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-all duration-300">
-                  <Icon name={feature.icon} class="h-7 w-7" />
-              </div>
-                <h4 class="text-xl font-bold text-secondary mb-3 tracking-tight">{feature.title}</h4>
-                <p class="text-secondary/60 leading-relaxed">{feature.desc}</p>
-              </div>
+      <div class="space-y-24 lg:space-y-32">
+        {features.map((feature, i) => (
+          <div class={`flex flex-col ${i % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-12 lg:gap-20`}>
+            <div class="lg:w-1/2 relative">
+              <div class={`absolute inset-0 rounded-[3rem] transform scale-105 z-0 ${i % 2 === 0 ? 'bg-primary/10 rotate-3' : 'bg-secondary/5 -rotate-3'}`}></div>
+              <img src={feature.img} alt={feature.title} class="relative z-10 rounded-[3rem] shadow-2xl w-full h-auto object-cover aspect-[4/3]" />
             </div>
-          ))}
-        </div>
+            <div class="lg:w-1/2">
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wide mb-6">
+                {feature.badge}
               </div>
+              <h3 class="text-3xl lg:text-4xl font-bold text-secondary mb-6 leading-tight tracking-tight">{feature.title}</h3>
+              <p class="text-lg text-secondary/60 mb-6 leading-relaxed">{feature.desc}</p>
+              <p class="text-lg text-secondary/60 leading-relaxed">{feature.desc2}</p>
             </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="text-center mt-20">
+        <a href="/about" class="btn btn-primary rounded-full px-8">About Our Team</a>
+      </div>
+    </div>
   </section>
 
   <!-- Testimonials -->
@@ -386,23 +412,23 @@ const stats = [
         </a>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {recentBlogPosts.map(post => (
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        {recentBlogPosts.map((post, i) => (
           <a href={`/blog/${post.slug}`} class="group">
-            <div class="rounded-[2rem] overflow-hidden mb-6 aspect-[16/10] relative bg-base-200">
-              <img 
-                src={post.data.image || '/assets/homecare.webp'} 
-                alt={post.data.title} 
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+            <div class="relative mb-6">
+              <div class={`absolute inset-0 rounded-[2rem] transform scale-105 z-0 ${i % 2 === 0 ? 'bg-primary/10 rotate-2' : 'bg-secondary/5 -rotate-2'}`}></div>
+              <img
+                src={post.data.image || '/assets/homecare.webp'}
+                alt={post.data.title}
+                class="relative z-10 rounded-[2rem] shadow-xl w-full h-auto object-cover aspect-[16/10]"
               />
-              <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[2rem]"></div>
             </div>
+            <p class="text-primary text-xs mb-2 font-bold uppercase tracking-wider">
+              {new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+            </p>
             <h4 class="text-xl font-bold text-secondary mb-3 group-hover:text-primary transition-colors line-clamp-2 tracking-tight">
               {post.data.title}
             </h4>
-            <p class="text-secondary/50 text-xs mb-3 font-medium uppercase tracking-wider">
-              {new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-            </p>
             <p class="text-secondary/60 line-clamp-2 text-sm leading-relaxed">
               {post.data.description}
             </p>
