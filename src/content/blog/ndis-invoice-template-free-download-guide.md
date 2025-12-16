@@ -4,7 +4,9 @@ description: "Download our free NDIS invoice template for 2025. Learn how to cre
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "invoice", "template", "providers", "billing"]
-image: "/assets/ndis-provider-melbourne.webp"
+popupTitle: "Looking for NDIS Services?"
+popupSubtitle: "We offer transparent pricing and quality support"
+image: "/assets/cleaner.webp"
 ---
 
 ## NDIS Invoice Template: Key Points

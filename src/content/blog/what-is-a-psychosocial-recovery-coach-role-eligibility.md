@@ -4,6 +4,8 @@ description: "Learn what a psychosocial recovery coach does in the NDIS, their q
 pubDate: 2025-04-04
 author: "Camila"
 tags: []
+popupTitle: "Ready to Start Your Recovery Journey?"
+popupSubtitle: "We can connect you with qualified recovery coaches"
 image: "/assets/avatar.webp"
 ---
 

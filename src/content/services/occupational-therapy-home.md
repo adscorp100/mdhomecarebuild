@@ -1,10 +1,16 @@
 ---
-title: "In-Home Occupational Therapy Services in {suburb}"
+title: "Occupational Therapy in {suburb}"
 description: "Struggling with daily tasks at home? Our {suburb} Occupational Therapists provide expert in-home support, helping you improve safety, enhance independence, and live life to the fullest. Get your free consultation."
 pubDate: 2025-04-05
 category: "Allied Health"
 image: "/assets/accessible-bathroom.webp"
 keywords: ["occupational therapy {suburb}", "home occupational therapy {suburb}", "occupational therapist {suburb}", "in-home occupational therapy"]
+quickFacts:
+  costRange: "$150-$250/hour (NDIS price guide rates)"
+  fundingOptions: "NDIS Capacity Building, Home Care Packages, Medicare, Private"
+  availability: "Weekdays, some weekend availability"
+  serviceHours: "By appointment"
+  waitTime: "1-3 weeks depending on therapist availability"
 ---
 
 ## Regain Your Independence with Occupational Therapy at Home in {suburb}

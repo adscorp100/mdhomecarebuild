@@ -4,6 +4,8 @@ description: "Complete guide to NDIS plan managers 2025: Learn plan management c
 pubDate: 2025-01-15
 author: "Camila"
 tags: ["NDIS Plan Manager", "Plan Management", "NDIS", "Disability Support"]
+popupTitle: "Need Help Managing Your NDIS Plan?"
+popupSubtitle: "We make plan management simple and stress-free"
 image: "/assets/disabled carer.webp"
 ---
 

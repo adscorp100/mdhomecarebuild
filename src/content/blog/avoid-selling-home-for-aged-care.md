@@ -4,6 +4,8 @@ description: "A clear guide to keeping your family home. Learn how the aged care
 pubDate: 2025-07-06
 author: "MD Home Care"
 tags: ["aged care", "nursing home fees", "means test", "sell house for care"]
+popupTitle: "Worried About Losing Your Home?"
+popupSubtitle: "We can explain your options for protecting your assets"
 image: "/assets/homecare.webp"
 ---
 

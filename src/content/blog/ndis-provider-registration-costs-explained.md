@@ -4,6 +4,8 @@ description: "Discover exactly how much does it cost to become an NDIS provider 
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
+popupTitle: "Want Reliable NDIS Services?"
+popupSubtitle: "Our registered team delivers quality care you can trust"
 image: "/assets/ndis-provider-melbourne.webp"
 ---
 

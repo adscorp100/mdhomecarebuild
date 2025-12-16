@@ -4,6 +4,8 @@ description: "Complete guide to navigating the NDIS participant portal in 2025. 
 pubDate: 2025-06-02
 author: "Camila"
 category: "NDIS"
+popupTitle: "Having Trouble with the NDIS Portal?"
+popupSubtitle: "Our team can help you navigate and manage your plan online"
 image: "/assets/disabled carer.webp"
 ---
 

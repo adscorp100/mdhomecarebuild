@@ -1,11 +1,17 @@
 ---
-title: "Mobility Equipment for Home Care in {suburb}"
+title: "Mobility Equipment in {suburb}"
 description: "Professional assessment and provision of mobility equipment for residents in {suburb}. We help source and set up appropriate mobility aids to enhance safety, independence, and quality of life in your home."
 pubDate: 2025-03-25
 category: "Assistive Technology"
 image: "/assets/accessible-bathroom.webp"
 
 keywords: []
+quickFacts:
+  costRange: "From $15/day or $50/week (varies by item)"
+  fundingOptions: "NDIS Assistive Technology, Home Care Packages, Private"
+  availability: "Same-day delivery available"
+  serviceHours: "Delivery Monday-Saturday"
+  waitTime: "Same-day for urgent needs"
 ---
 
 ## Mobility Equipment for Home Care in {suburb}

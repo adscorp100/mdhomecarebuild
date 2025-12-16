@@ -1,10 +1,16 @@
 ---
-title: "Assistive Technology Assessment in {suburb}: A Step-by-Step Guide"
+title: "Assistive Technology Assessment in {suburb}"
 description: "What happens in an Assistive Technology (AT) Assessment in {suburb}? Our guide explains the step-by-step process and how an OT can help you find the right tools."
 pubDate: 2025-07-04
 category: "Disability Services"
 image: "/assets/occupationaltherapy.webp"
 keywords: ["assistive technology assessment", "occupational therapy", "ndis", "at assessment", "disability support"]
+quickFacts:
+  costRange: "$150-$250/hour (NDIS price guide rates)"
+  fundingOptions: "NDIS Capacity Building, Home Care Packages, Medicare, Private"
+  availability: "Weekdays, some weekend availability"
+  serviceHours: "By appointment"
+  waitTime: "1-3 weeks depending on therapist availability"
 ---
 
 ## Find the Right Tools in {suburb}: What to Expect from an Assistive Technology Assessment.

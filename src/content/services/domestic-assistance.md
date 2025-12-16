@@ -1,5 +1,5 @@
 ---
-title: "Trusted Domestic Assistance in {suburb} | Home & Life Management"
+title: "Domestic Assistance in {suburb}"
 description: "More than just cleaning. Our Domestic Assistance service in {suburb} helps you manage your home and daily life, from shopping and paying bills to meal prep and light cleaning. Stay independent and in control."
 pubDate: 2025-07-04
 category: "Home Support"
@@ -9,6 +9,12 @@ keywords:
   - "in-home support {suburb}"
   - "household tasks ndis"
   - "aged care home help"
+quickFacts:
+  costRange: "$45-$65/hour (subsidised rates for eligible clients)"
+  fundingOptions: "Home Care Packages, CHSP, DVA, Private"
+  availability: "Monday to Saturday"
+  serviceHours: "Regular weekly or fortnightly scheduling"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # Helping You Live Independently and In Control of Your Home

@@ -1,10 +1,16 @@
 ---
-title: "Assistive Technology for Seniors in {suburb}: Devices for Independent Living"
+title: "Assistive Technology in {suburb}"
 description: "Discover practical assistive technology devices that help seniors in {suburb} live more safely and independently at home. From personal alarms to simple gadgets."
 pubDate: 2025-04-22
 category: "Assistive Technology"
 image: "/assets/two women looking at alarm.webp"
 keywords: ["assistive technology", "seniors", "independent living", "personal alarms", "fall detectors"]
+quickFacts:
+  costRange: "From $15/day or $50/week (varies by item)"
+  fundingOptions: "NDIS Assistive Technology, Home Care Packages, Private"
+  availability: "Same-day delivery available"
+  serviceHours: "Delivery Monday-Saturday"
+  waitTime: "Same-day for urgent needs"
 ---
 
 ## Live More Independently in {suburb} with the Right Assistive Technology.

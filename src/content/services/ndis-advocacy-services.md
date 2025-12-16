@@ -6,6 +6,12 @@ category: "Advocacy"
 image: "/assets/carer.webp"
 
 keywords: []
+quickFacts:
+  costRange: "$100-$190/hour (NDIS price guide)"
+  fundingOptions: "NDIS Capacity Building - Support Coordination"
+  availability: "Weekdays"
+  serviceHours: "Business hours with flexible appointments"
+  waitTime: "Usually within 1 week"
 ---
 
 ## What are NDIS Advocacy Services in {suburb}?

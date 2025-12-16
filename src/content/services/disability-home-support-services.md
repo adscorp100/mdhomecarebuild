@@ -1,11 +1,17 @@
 ---
-title: "Disability Home Care & Support Services in {suburb}"
+title: "Disability Home Care in {suburb}"
 description: "Professional in-home disability care and support services in {suburb}. Personalized disability home support promoting independence and quality of life for individuals with disabilities."
 pubDate: 2025-01-28
 category: "Disability Services"
 image: "/assets/grandma.webp"
 
 keywords: []
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # Disability Home Care & Support Services {suburb}

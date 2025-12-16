@@ -4,7 +4,9 @@ description: "Download our free NDIS timesheet template for 2025. Learn proper t
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "timesheet", "template", "support-workers", "billing"]
-image: "/assets/ndis-provider-melbourne.webp"
+popupTitle: "Need Help with NDIS Billing?"
+popupSubtitle: "We handle the paperwork so you don't have to"
+image: "/assets/makingbed.webp"
 ---
 
 ## NDIS Timesheet Template: Key Points

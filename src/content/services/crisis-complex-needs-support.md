@@ -1,11 +1,17 @@
 ---
-title: "Crisis & Complex Needs Support Services in {suburb}"
+title: "Crisis Support Services in {suburb}"
 description: "Specialized crisis intervention and complex needs support for individuals with disability in {suburb}. Emergency response, intensive support coordination, and high-level care during critical situations."
 pubDate: 2025-06-15
 category: "Disability Services"
 image: "/assets/carer.webp"
 
 keywords: []
+quickFacts:
+  costRange: "$50-$85/hour (subsidies available via NDIS/HCP)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "Same-day service for urgent needs"
+  serviceHours: "24/7 availability"
+  waitTime: "Often within 2-4 hours for emergencies"
 ---
 
 # Crisis & Complex Needs Support Services {suburb}

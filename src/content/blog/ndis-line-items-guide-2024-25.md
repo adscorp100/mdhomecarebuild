@@ -4,6 +4,8 @@ description: "Official NDIS codes 2025-26 with July updates: 23 new support item
 pubDate: 2025-07-02
 author: "Camila"
 category: "NDIS"
+popupTitle: "Confused About NDIS Pricing?"
+popupSubtitle: "We can help you understand your plan and funding"
 image: "/assets/Ilovendis.webp"
 ---
 

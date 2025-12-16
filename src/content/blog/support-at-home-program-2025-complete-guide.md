@@ -4,6 +4,8 @@ description: "Everything you need to know about the Support at Home Program laun
 pubDate: 2025-01-20
 author: "Camila"
 tags: ["support at home program", "support at home program 2025", "aged care reform", "new aged care system", "aged care changes"]
+popupTitle: "Ready to Access the Support at Home Program?"
+popupSubtitle: "Let us guide you through the application and transition process"
 image: "/assets/homecare.webp"
 ---
 

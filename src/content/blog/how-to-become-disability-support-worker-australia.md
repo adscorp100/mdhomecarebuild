@@ -4,6 +4,8 @@ description: "Learn how to become a disability support worker in Australia. Comp
 pubDate: 2025-01-15
 author: "Camila"
 tags: ["how to become disability support worker", "disability support worker qualifications", "ndis careers", "support worker training"]
+popupTitle: "Ready to Start Your Support Worker Career?"
+popupSubtitle: "We can help you navigate training, qualifications, and job placement"
 image: "/assets/disabled carer.webp"
 ---
 

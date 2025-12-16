@@ -4,7 +4,9 @@ description: "Download our free NDIS support plan template for 2025. Learn how t
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "support-plan", "template", "goals", "participant"]
-image: "/assets/ndis-provider-melbourne.webp"
+popupTitle: "Need Help Creating Your Support Plan?"
+popupSubtitle: "We can guide you through the planning process"
+image: "/assets/grandmawhite.webp"
 ---
 
 ## NDIS Support Plan Template: Key Points

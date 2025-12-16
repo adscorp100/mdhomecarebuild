@@ -1,0 +1,91 @@
+---
+/**
+ * SuburbTestimonials Component
+ * Displays testimonials specific to a suburb or region
+ */
+
+import { Icon } from 'astro-icon/components';
+
+interface Testimonial {
+  name: string;
+  service: string;
+  quote: string;
+  rating: number;
+  date: string;
+}
+
+interface Props {
+  suburbSlug: string;
+  suburbName: string;
+  regionSlug?: string;
+  maxTestimonials?: number;
+}
+
+const { suburbSlug, suburbName, regionSlug, maxTestimonials = 2 } = Astro.props;
+
+// Import testimonials data
+import testimonials from '../data/suburb-testimonials.json';
+
+// Try to get testimonials for this specific suburb, or fall back to region/state
+let suburbTestimonials: Testimonial[] = [];
+
+// First try exact suburb match
+if (testimonials[suburbSlug as keyof typeof testimonials]) {
+  suburbTestimonials = testimonials[suburbSlug as keyof typeof testimonials] as Testimonial[];
+}
+// Then try region slug if provided
+else if (regionSlug && testimonials[regionSlug as keyof typeof testimonials]) {
+  suburbTestimonials = testimonials[regionSlug as keyof typeof testimonials] as Testimonial[];
+}
+
+// Limit to max testimonials
+const displayTestimonials = suburbTestimonials.slice(0, maxTestimonials);
+---
+
+{displayTestimonials.length > 0 && (
+  <section class="bg-base-200 border border-base-300 rounded-box p-6 mb-8">
+    <h2 class="text-xl font-bold text-base-content mb-4 flex items-center gap-2">
+      <Icon name="hugeicons:comment-01" class="h-6 w-6 text-primary" />
+      What Our Clients in {suburbName} Say
+    </h2>
+
+    <div class="space-y-4">
+      {displayTestimonials.map((testimonial) => (
+        <div class="bg-base-100 rounded-lg p-4 border border-base-300">
+          <!-- Rating -->
+          <div class="text-warning text-sm mb-2 flex gap-0.5" aria-label={`${testimonial.rating} out of 5 stars`}>
+            {Array(5).fill(0).map((_, i) => (
+              <Icon
+                name={i < testimonial.rating ? "hugeicons:star" : "hugeicons:star"}
+                class={`h-4 w-4 ${i < testimonial.rating ? 'fill-current' : 'opacity-30'}`}
+              />
+            ))}
+          </div>
+
+          <!-- Quote -->
+          <blockquote class="text-base-content/80 text-sm italic mb-2">
+            "{testimonial.quote}"
+          </blockquote>
+
+          <!-- Attribution -->
+          <p class="text-sm font-medium text-base-content">
+            — {testimonial.name}
+            <span class="text-base-content/60 font-normal">, {suburbName}</span>
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <!-- Trust badge -->
+    <div class="mt-4 pt-4 border-t border-base-300 flex items-center justify-between">
+      <div class="flex items-center gap-2 text-sm text-base-content/60">
+        <Icon name="hugeicons:checkmark-badge-02" class="h-4 w-4 text-success" />
+        <span>Verified client reviews</span>
+      </div>
+      <a href="/reviews" class="text-primary text-sm hover:underline flex items-center gap-1">
+        Read more reviews
+        <Icon name="hugeicons:arrow-right-01" class="h-4 w-4" />
+      </a>
+    </div>
+  </section>
+)}

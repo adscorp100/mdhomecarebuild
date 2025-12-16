@@ -1,11 +1,17 @@
 ---
-title: "Respite Care Services in {suburb}: A Break for You, Quality Care for Them"
+title: "Respite Care Services in {suburb}"
 description: "Feeling overwhelmed as a carer? Our respite care services in {suburb} provide the essential break you need. We offer in-home, emergency, and planned respite care to support you and your loved one."
 pubDate: 2025-06-15
 category: "Caregiver Support"
 image: "/assets/respite care.webp"
 keywords: ["respite care {suburb}", "in-home respite care {suburb}", "emergency respite care", "respite services"]
 author: "MD Homecare Team"
+quickFacts:
+  costRange: "$50-$85/hour (subsidies available via NDIS/HCP)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "Same-day service for urgent needs"
+  serviceHours: "24/7 availability"
+  waitTime: "Often within 2-4 hours for emergencies"
 ---
 
 # You Can't Pour from an Empty Cup. Let Us Help You Refill Yours.

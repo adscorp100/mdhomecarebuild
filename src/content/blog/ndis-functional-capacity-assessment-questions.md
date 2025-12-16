@@ -4,6 +4,8 @@ description: "Comprehensive guide to functional capacity assessment questions fo
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
+popupTitle: "Preparing for Your Assessment?"
+popupSubtitle: "Our team can help you present your needs effectively"
 image: "/assets/physio.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "Can you get free home help for seniors in Australia? Yes. This gui
 pubDate: 2025-07-03
 author: "MD Home Care"
 tags: ["free home help for seniors", "home help for seniors", "free services for pensioners"]
+popupTitle: "Need Help Accessing Aged Care Services?"
+popupSubtitle: "We'll guide you through the funding process step by step"
 image: "/assets/homecare.webp"
 ---
 

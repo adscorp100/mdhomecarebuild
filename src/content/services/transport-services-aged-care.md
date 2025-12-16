@@ -1,11 +1,17 @@
 ---
-title: "Transport Services for Aged Care in {suburb}"
+title: "Aged Care Transport in {suburb}"
 description: "Safe and reliable transport services for seniors in {suburb}. Our professional drivers and comfortable vehicles provide convenient transportation to medical appointments, shopping trips, social activities, and more."
 pubDate: 2025-04-18
 category: "Mobility Support"
 image: "/assets/hero.webp"
 
 keywords: []
+quickFacts:
+  costRange: "$35-$60/hour plus km (vehicle provided)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA"
+  availability: "7 days a week"
+  serviceHours: "Flexible booking times"
+  waitTime: "24-48 hours advance booking recommended"
 ---
 
 ## Transport Services for Aged Care in {suburb}

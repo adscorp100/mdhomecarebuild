@@ -4,6 +4,8 @@ description: "Learn everything about functional capacity assessment in the NDIS 
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
+popupTitle: "Need Support with Your NDIS Plan?"
+popupSubtitle: "Our team can guide you through assessments and funding applications"
 image: "/assets/occupationaltherapy.webp"
 ---
 

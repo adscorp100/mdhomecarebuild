@@ -4,6 +4,8 @@ description: "See a detailed Functional Capacity Assessment report example and l
 pubDate: 2025-07-02
 author: "MD Home Care"
 tags: ["NDIS", "Functional Capacity Assessment", "Occupational Therapy"]
+popupTitle: "Want to Maximize Your NDIS Funding?"
+popupSubtitle: "Our therapists create comprehensive reports that support your goals"
 ---
 
 Looking for a clear example of a functional capacity assessment report? You're in the right place. This guide won't just show you what a good report looks like—it will break down each section, explain why it's crucial for your NDIS plan, and give you the confidence to navigate your assessment process.

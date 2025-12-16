@@ -1,5 +1,5 @@
 ---
-title: "Expert NDIS Support Coordination in {suburb} You Can Trust"
+title: "NDIS Support Coordination in {suburb}"
 description: "Feeling overwhelmed by the NDIS? Our expert Support Coordinators in {suburb} help you navigate your plan, connect with trusted providers, and build a life of independence. Get your free consultation."
 pubDate: 2025-07-04
 category: "Support Coordination"
@@ -9,6 +9,12 @@ keywords:
   - "ndis support coordinator {suburb}"
   - "ndis plan help {suburb}"
   - "specialist support coordination"
+quickFacts:
+  costRange: "$100-$190/hour (NDIS price guide)"
+  fundingOptions: "NDIS Capacity Building - Support Coordination"
+  availability: "Weekdays"
+  serviceHours: "Business hours with flexible appointments"
+  waitTime: "Usually within 1 week"
 ---
 
 # Finally, an NDIS Support Coordinator in {suburb} Who Truly Understands

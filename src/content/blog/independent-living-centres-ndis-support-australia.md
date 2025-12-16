@@ -4,6 +4,8 @@ description: "Complete guide to Independent Living Centres in Australia and how 
 pubDate: 2025-06-02
 author: "Camila"
 category: "NDIS"
+popupTitle: "Need Help Finding the Right Equipment?"
+popupSubtitle: "We can connect you with resources and trial services"
 image: "/assets/accessible-bathroom.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "Your ultimate 2025 guide on how to become an independent NDIS supp
 pubDate: 2025-07-04
 author: "MD Home Care"
 tags: ['ndis', 'support worker', 'independent support worker', 'sole trader']
+popupTitle: "Thinking of Going Independent?"
+popupSubtitle: "Get practical guidance on setting up your NDIS support business"
 image: "/assets/disabled carer.webp"
 ---
 

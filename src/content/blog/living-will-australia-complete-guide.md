@@ -4,6 +4,8 @@ description: "Everything you need to know about living wills (advance care direc
 pubDate: 2025-05-16
 author: "Camila"
 tags: ["advance care directive", "living will", "end of life planning", "legal documents", "healthcare decisions"]
+popupTitle: "Planning Ahead for Healthcare Decisions?"
+popupSubtitle: "We can help you understand advance care directives"
 image: "/assets/elderlyaboriginal.webp"
 ---
 

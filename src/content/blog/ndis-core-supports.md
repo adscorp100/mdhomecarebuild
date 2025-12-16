@@ -4,6 +4,8 @@ description: "Comprehensive guide to understanding NDIS Core Supports funding, i
 pubDate: 2025-05-03
 author: "Camila"
 tags: []
+popupTitle: "Confused About Your Core Supports?"
+popupSubtitle: "Let us help you understand and maximize your NDIS funding"
 image: "/assets/disabled carer.webp"
 ---
 

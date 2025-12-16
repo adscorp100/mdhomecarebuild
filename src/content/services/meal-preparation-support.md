@@ -1,5 +1,5 @@
 ---
-title: "In-Home Meal Prep & Cooking Help in {suburb}"
+title: "Meal Preparation Services in {suburb}"
 description: "Enjoy healthy, delicious meals without the stress. Our trusted meal preparation support service in {suburb} helps with planning, shopping, and cooking in your own home. NDIS & Home Care Package approved."
 pubDate: 2025-07-02
 category: "Daily Living Support"
@@ -9,6 +9,12 @@ keywords:
   - "meal preparation support {suburb}"
   - "help with cooking for seniors"
   - "NDIS meal preparation"
+quickFacts:
+  costRange: "$15-$25 per meal (subsidised rates available)"
+  fundingOptions: "Home Care Packages, CHSP, DVA, Private"
+  availability: "Daily delivery available"
+  serviceHours: "Lunch and dinner options"
+  waitTime: "Start within 1 week"
 ---
 
 ## Enjoy Healthy, Delicious Meals, Prepared Safely in Your Own {suburb} Home.

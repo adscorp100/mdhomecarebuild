@@ -1,0 +1,191 @@
+---
+/**
+ * QuickFacts Component
+ * Displays key service information in a scannable format for featured snippet optimization
+ * and improved CTR through clear cost/availability signals.
+ *
+ * Uses semantic HTML table structure for better Google featured snippet extraction.
+ * Uses Hugeicons for consistent, professional iconography.
+ */
+
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  serviceName: string;
+  suburb: string;
+  costRange?: string;
+  fundingOptions?: string;
+  availability?: string;
+  serviceHours?: string;
+  waitTime?: string;
+}
+
+const {
+  serviceName,
+  suburb,
+  costRange,
+  fundingOptions,
+  availability,
+  serviceHours,
+  waitTime
+} = Astro.props;
+
+// Only render if at least one fact is provided
+const hasFacts = costRange || fundingOptions || availability || serviceHours || waitTime;
+
+// Build facts array for table rendering with hugeicons icon names
+const factsArray: { label: string; value: string; iconName: string }[] = [];
+if (costRange) factsArray.push({ label: "Typical Cost", value: costRange, iconName: "hugeicons:dollar-circle" });
+if (fundingOptions) factsArray.push({ label: "Funding Options", value: fundingOptions, iconName: "hugeicons:bank" });
+if (availability) factsArray.push({ label: "Availability", value: availability, iconName: "hugeicons:calendar-03" });
+if (serviceHours) factsArray.push({ label: "Service Hours", value: serviceHours, iconName: "hugeicons:clock-01" });
+if (waitTime) factsArray.push({ label: "Wait Time to Start", value: waitTime, iconName: "hugeicons:rocket-01" });
+const facts = factsArray;
+
+// Generate Table schema for better snippet extraction
+const tableSchema = hasFacts ? {
+  "@context": "https://schema.org",
+  "@type": "Table",
+  "about": `${serviceName} in ${suburb}`,
+  "name": `Quick Facts - ${serviceName} in ${suburb}`
+} : null;
+---
+
+{hasFacts && (
+  <>
+    {/* Schema markup for table */}
+    {tableSchema && (
+      <script type="application/ld+json" set:html={JSON.stringify(tableSchema)}></script>
+    )}
+
+    <div class="quick-facts w-full not-prose" itemscope itemtype="https://schema.org/Service">
+      <meta itemprop="name" content={`${serviceName} in ${suburb}`} />
+
+      <h2 class="text-2xl font-bold text-secondary mb-8 flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+          <Icon name="hugeicons:information-circle" class="h-5 w-5" />
+        </div>
+        Quick Facts
+      </h2>
+
+      {/* Semantic table for featured snippet extraction */}
+      <table class="w-full quick-facts-table">
+        <caption class="sr-only">Key information about {serviceName} in {suburb}</caption>
+        <thead class="sr-only">
+          <tr>
+            <th scope="col">Feature</th>
+            <th scope="col">Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          {facts.map((fact) => (
+            <tr class="border-b border-base-300 last:border-0">
+              <th scope="row" class="py-3 pr-4 text-left align-top w-1/3">
+                <span class="text-sm font-semibold text-primary uppercase tracking-wide flex items-center gap-2">
+                  <Icon name={fact.iconName} class="h-5 w-5" aria-hidden="true" />
+                  {fact.label}
+                </span>
+              </th>
+              <td class="py-3 text-base-content">
+                {fact.label === "Typical Cost" && costRange && (
+                  <span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                    <meta itemprop="priceCurrency" content="AUD" />
+                    <span itemprop="description">{fact.value}</span>
+                  </span>
+                )}
+                {fact.label === "Funding Options" && (
+                  <span>{fact.value}</span>
+                )}
+                {fact.label === "Availability" && (
+                  <span itemprop="hoursAvailable">{fact.value}</span>
+                )}
+                {fact.label === "Service Hours" && (
+                  <span>{fact.value}</span>
+                )}
+                {fact.label === "Wait Time to Start" && (
+                  <span>{fact.value}</span>
+                )}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+
+      {/* Alternative definition list for accessibility */}
+      <dl class="hidden">
+        {costRange && (
+          <>
+            <dt>Cost</dt>
+            <dd>{costRange}</dd>
+          </>
+        )}
+        {fundingOptions && (
+          <>
+            <dt>Funding</dt>
+            <dd>{fundingOptions}</dd>
+          </>
+        )}
+        {availability && (
+          <>
+            <dt>Availability</dt>
+            <dd>{availability}</dd>
+          </>
+        )}
+        {serviceHours && (
+          <>
+            <dt>Hours</dt>
+            <dd>{serviceHours}</dd>
+          </>
+        )}
+        {waitTime && (
+          <>
+            <dt>Wait Time</dt>
+            <dd>{waitTime}</dd>
+          </>
+        )}
+      </dl>
+
+      {/* CTA row */}
+      <div class="mt-8 pt-8 border-t border-base-200 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <p class="text-base text-secondary/70 font-medium">
+          Need help understanding your options?
+        </p>
+        <a href="/contact" class="btn btn-primary rounded-full px-6 shadow-lg shadow-primary/20 hover:shadow-xl hover:-translate-y-0.5 transition-all">
+          <Icon name="hugeicons:message-01" class="h-5 w-5 mr-2" />
+          Speak with a Care Advisor
+        </a>
+      </div>
+    </div>
+
+    <style>
+      .quick-facts-table th,
+      .quick-facts-table td {
+        vertical-align: top;
+        padding-bottom: 1.5rem;
+      }
+      
+      .quick-facts-table tr:last-child th,
+      .quick-facts-table tr:last-child td {
+        padding-bottom: 0;
+      }
+
+      /* Ensure table renders well on mobile */
+      @media (max-width: 640px) {
+        .quick-facts-table th,
+        .quick-facts-table td {
+          display: block;
+          width: 100%;
+        }
+
+        .quick-facts-table th {
+          padding-bottom: 0.25rem;
+        }
+
+        .quick-facts-table td {
+          padding-top: 0;
+          padding-bottom: 1rem;
+        }
+      }
+    </style>
+  </>
+)}

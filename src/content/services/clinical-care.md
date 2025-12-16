@@ -1,10 +1,16 @@
 ---
-title: "24/7 Nursing Care at Home in {suburb}: Expert Clinical Support"
+title: "24/7 Nursing Care at Home in {suburb}"
 description: "Need round-the-clock care in {suburb}? Our 24/7 in-home nursing services provide expert, compassionate clinical support for complex health needs."
 pubDate: 2025-07-02
 category: "Health Services"
 image: "/assets/nurse.webp"
 keywords: ["24/7 nursing care", "in-home nursing", "clinical care", "complex care", "palliative care"]
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## 24/7 Nursing Care in {suburb}: In the Comfort of Your Home.
@@ -45,6 +51,21 @@ This level of comprehensive care is most suited for individuals who:
 
 **Making the right decision for care is crucial. Let us help. Contact us for a confidential discussion with a {suburb} Clinical Care Advisor to explore your options.**
 
-**[Speak with a Clinical Care Advisor Today](/contact)**
+## Frequently Asked Questions
 
-‍
+**How much does 24/7 nursing care at home cost?**
+The cost varies depending on the level of care required and your funding source. Under NDIS or Home Care Packages, nursing services are typically subsidised between $50-$90 per hour. We provide a transparent quote after assessing your specific needs, and help you maximise your available funding.
+
+**Can you provide care for someone with dementia or Alzheimer's?**
+Yes. Our nurses and care team have specialised training in dementia care, including managing behaviours of concern, maintaining safety, and providing compassionate support. We create individualised care plans that respect the person's dignity and established routines.
+
+**What qualifications do your nurses have?**
+All our nursing staff are Registered Nurses (RNs) or Enrolled Nurses (ENs) with current AHPRA registration. They have completed relevant clinical training and undergo ongoing professional development. All staff also have NDIS Worker Screening clearances and police checks.
+
+**How does in-home nursing coordinate with my GP and specialists?**
+We maintain open communication with your entire healthcare team. Our nurses can attend GP appointments virtually or provide detailed reports. We implement care plans prescribed by specialists and flag any concerns for early intervention. This coordinated approach helps prevent hospital readmissions.
+
+**Can you help with palliative care at home?**
+Yes. Our experienced nursing team provides compassionate end-of-life care focused on comfort, dignity, and quality of life. We work closely with palliative care specialists and can coordinate with hospice services to ensure comprehensive support for both the individual and their family.
+
+**[Speak with a Clinical Care Advisor Today](/contact)**

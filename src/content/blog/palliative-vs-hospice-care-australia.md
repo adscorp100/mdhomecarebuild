@@ -4,6 +4,8 @@ description: "Learn the key differences between palliative care and hospice care
 pubDate: 2024-07-26
 author: "Camila"
 tags: []
+popupTitle: "Questions About End-of-Life Care?"
+popupSubtitle: "Our compassionate team is here to help"
 image: "/assets/homecare.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "Current NDIS respite price guide for Short-Term Accommodation (STA
 pubDate: 2025-05-13
 author: "Camila"
 tags: ["ndis respite care rates", "ndis short term accommodation rates", "ndis respite price guide", "ndis sta price guide", "ndis funded respite"]
+popupTitle: "Looking for Affordable Respite Care?"
+popupSubtitle: "We offer competitive rates and quality support"
 image: "/assets/grandma.webp"
 ---
 

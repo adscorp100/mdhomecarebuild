@@ -4,7 +4,9 @@ description: "Mable support worker rates December 2025: Average $58/hour weekday
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["Mable Support Workers", "NDIS", "Support Workers", "Disability Support", "Mable Platform", "Mable Rates"]
-image: "/assets/carer.webp"
+popupTitle: "Questions About Support Worker Rates?"
+popupSubtitle: "Get transparent pricing information and budget guidance"
+image: "/assets/homecare.webp"
 ---
 
 # Mable Support Worker Rates 2025: Complete Guide to NDIS Rates, Weekend Rates & Platform Fees

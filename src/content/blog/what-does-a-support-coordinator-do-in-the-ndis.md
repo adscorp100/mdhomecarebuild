@@ -4,6 +4,8 @@ description: "Complete guide to NDIS support coordinators in 2025. Learn what su
 pubDate: 2025-06-02
 author: "Camila"
 category: "NDIS"
+popupTitle: "Need Help Managing Your NDIS Plan?"
+popupSubtitle: "Our support coordinators can maximize your plan outcomes"
 image: "/assets/disabled carer.webp"
 ---
 

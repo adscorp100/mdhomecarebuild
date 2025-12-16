@@ -4,6 +4,8 @@ description: "Complete guide to functional capacity assessment for NDIS particip
 pubDate: 2025-01-16
 author: "MD Homecare Team"
 tags: ["functional capacity assessment", "ndis assessment", "fca report", "ndis funding"]
+popupTitle: "Need Help with Your NDIS Assessment?"
+popupSubtitle: "Connect with experienced allied health professionals who understand your needs"
 image: "/assets/occupationaltherapy.webp"
 ---
 

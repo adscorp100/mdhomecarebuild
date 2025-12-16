@@ -4,6 +4,8 @@ description: "Comprehensive breakdown of NDIS provider registration costs in 202
 pubDate: 2025-03-08
 author: "Camila"
 tags: []
+popupTitle: "Looking for Trusted NDIS Support?"
+popupSubtitle: "We're a fully registered, quality-focused provider"
 image: "/assets/clinic.webp"
 ---
 

@@ -5,6 +5,8 @@ keywords: ["how to become ndis provider", "how to become an ndis provider", "how
 pubDate: 2025-01-15
 category: "NDIS Business"
 author: "MD Homecare"
+popupTitle: "Planning to Become an NDIS Provider?"
+popupSubtitle: "Get expert guidance on registration, audits, and compliance"
 image: "/assets/homecare.webp"
 ---
 

@@ -110,6 +110,29 @@
   /* Rounded buttons only - not form inputs */
   .btn {
     border-radius: 9999px !important;
+    box-shadow: none !important;
+  }
+
+  /* Remove glow/shadow from all button states */
+  .btn:hover,
+  .btn:focus,
+  .btn:focus-visible,
+  .btn:active,
+  .btn-primary,
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:focus-visible,
+  .btn-primary:active {
+    box-shadow: none !important;
+  }
+
+  /* Better outline button styling */
+  .btn-outline {
+    @apply bg-white text-primary border-primary/30;
+  }
+
+  .btn-outline:hover {
+    @apply bg-primary/5 text-primary border-primary;
   }
 
   /* Container utility */

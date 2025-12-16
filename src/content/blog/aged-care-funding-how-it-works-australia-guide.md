@@ -4,6 +4,8 @@ description: "Comprehensive guide to aged care funding in Australia. Understand 
 pubDate: 2025-01-20
 author: "Camila"
 tags: ["aged care funding", "aged care subsidy", "government funding", "aged care costs", "australia aged care"]
+popupTitle: "Questions About Aged Care Funding?"
+popupSubtitle: "We can help you navigate the financial aspects"
 image: "/assets/grandma.webp"
 ---
 

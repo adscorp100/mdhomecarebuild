@@ -1,10 +1,16 @@
 ---
-title: "Trusted NDIS Support Worker & Provider Insurance in {suburb}"
+title: "NDIS Provider Insurance in {suburb}"
 description: "Feeling overwhelmed by NDIS insurance requirements in {suburb}? Get clear, expert guidance on Public Liability and Professional Indemnity insurance. We make it simple to get the right cover and protect your support work."
 keywords: ["support worker insurance {suburb}", "ndis provider insurance {suburb}", "disability support worker insurance", "public liability insurance support worker"]
 pubDate: 2025-02-23
 category: "Insurance Services"
 image: "/assets/nurse.webp"
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## Finally, NDIS Insurance That Gives You Peace of Mind in {suburb}

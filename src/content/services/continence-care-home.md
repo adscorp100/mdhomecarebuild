@@ -1,5 +1,5 @@
 ---
-title: "Professional Continence Assessment in {suburb} | In-Home Service"
+title: "Continence Care Services in {suburb}"
 description: "Regain control and dignity with a professional continence assessment in {suburb}. Our qualified Continence Nurses provide a discreet, in-home service to create a personalised plan that works. NDIS & Aged Care."
 pubDate: 2025-07-04
 category: "Clinical Care"
@@ -9,6 +9,12 @@ keywords:
   - "continence nurse {suburb}"
   - "continence care plan"
   - "NDIS continence assessment"
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # A Professional & Discreet Path to Managing Continence in {suburb}

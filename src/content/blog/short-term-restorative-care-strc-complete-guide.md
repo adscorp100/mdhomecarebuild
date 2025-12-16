@@ -4,6 +4,8 @@ description: "Complete guide to Short Term Restorative Care (STRC) in Australia.
 pubDate: 2025-01-20
 author: "Camila"
 tags: ["short term restorative care", "STRC", "restorative care", "aged care programs", "recovery services"]
+popupTitle: "Recovering from Illness or Surgery?"
+popupSubtitle: "STRC programs can help you regain independence"
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 

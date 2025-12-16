@@ -4,6 +4,8 @@ description: "Confused about Home Care Package eligibility? This guide simplifie
 pubDate: 2025-07-06
 author: "MD Home Care"
 tags: ["home care package eligibility", "acat assessment", "my aged care", "aged care", "home care"]
+popupTitle: "Ready to Apply for Home Care?"
+popupSubtitle: "Let us guide you through the eligibility and application process"
 image: "/assets/accessible-bathroom.webp"
 ---
 

@@ -1,7 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
 
 const metaDescription = "Contact MD Home Care for professional in-home care services. Our dedicated care team is available to discuss your home care needs. Call MD Homecare today or send us a message for personalized support.";
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
@@ -24,213 +26,140 @@ const structuredData = {
 ---
 
 <BaseLayout
-  title="Contact MD Home Care | In-Home Care Services Support"
+  title="Contact Us | MD Home Care"
   description={metaDescription}
   canonical="https://mdhomecare.com.au/contact"
 >
   <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
 
-  <!-- Hero Section -->
-  <section
-    class="hero min-h-[90vh] bg-cover bg-center bg-fixed relative"
-    style="background-image: url('/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp');"
-  >
-    <div class="hero-overlay bg-gradient-to-r from-white/50 to-white/20"></div>
-    <div class="hero-content text-center">
-      <div class="max-w-3xl bg-white/80 backdrop-blur-xl rounded-3xl p-8 lg:p-12 shadow-2xl border border-white/90">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-primary leading-tight mb-6">
-          Get in Touch with MD Home Care
-        </h1>
-        <p class="text-lg text-base-content/80 max-w-2xl mx-auto mb-8 leading-relaxed">
-          Need In-Home Care or Disability Support? Please get in touch with MD Home Care and find out how we can help you or your loved ones live more independently at home.
-        </p>
-        <div class="flex flex-wrap gap-4 justify-center mb-6">
-          <a href="tel:+61863869999" class="btn btn-primary btn-lg gap-2 shadow-lg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-            </svg>
-            Call 08 6386 9999
-          </a>
-          <a href="#contact-form" class="btn btn-outline btn-lg gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
-            </svg>
-            Send a Message
-          </a>
-        </div>
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
 
-        <!-- Online Status -->
-        <div id="online-status" class="flex items-center justify-center gap-2 text-success">
-          <span class="w-2 h-2 bg-success rounded-full animate-pulse"></span>
-          <span class="text-sm font-medium">Available now</span>
-        </div>
-      </div>
-    </div>
-  </section>
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+        <div class="flex flex-col lg:flex-row gap-16 lg:gap-24">
+            
+            <!-- Left Column: Content & Contact Info -->
+            <div class="lg:w-1/2">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-primary/5 text-primary text-sm font-semibold mb-8 tracking-wide">
+                    <span class="relative flex h-2 w-2">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                    </span>
+                    Taking New Participants
+                </div>
 
-  <!-- Contact Grid -->
-  <div class="max-w-6xl mx-auto px-4 py-16">
-    <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
-      <!-- Contact Info Card -->
-      <div class="lg:col-span-2">
-        <div class="card bg-base-100 shadow-xl border border-base-200 sticky top-24">
-          <div class="card-body text-center">
-            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary-content" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-              </svg>
+                <h1 class="text-5xl lg:text-7xl font-bold text-secondary leading-[1.05] mb-6 tracking-tight text-balance">
+                    Let's Start a <br/><span class="text-primary">Conversation.</span>
+                </h1>
+                
+                <p class="text-xl text-secondary/70 font-medium mb-12 leading-relaxed text-balance">
+                    Whether you're a participant, a family member, or a provider looking to refer or collaborate, we're here to help.
+                </p>
+
+                <div class="space-y-6">
+                    <!-- Phone Card -->
+                    <a href="tel:+61863869999" class="block group">
+                        <div class="bg-primary p-6 rounded-[2rem] shadow-xl shadow-primary/20 hover:shadow-2xl hover:shadow-primary/30 hover:-translate-y-1 transition-all duration-300 flex items-center gap-6">
+                            <div class="w-14 h-14 rounded-full bg-white/20 flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300">
+                                <Icon name="hugeicons:call-02" class="h-7 w-7" />
+                            </div>
+                            <div>
+                                <p class="text-white/80 font-bold uppercase tracking-wider mb-1 text-xs">Call Us 24/7</p>
+                                <p class="text-3xl font-bold text-white">08 6386 9999</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Trust Indicators -->
+                 <div class="mt-12">
+                    <div class="bg-white/50 backdrop-blur-sm rounded-[2rem] border border-white/20 p-8 shadow-sm">
+                        <p class="text-secondary font-bold text-lg mb-4 leading-tight">Trusted by families & providers across Sydney & Melbourne</p>
+                        <div class="flex flex-wrap items-center gap-4">
+                             <div class="flex items-center gap-3">
+                                 <div class="flex text-warning">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                 </div>
+                                 <span class="font-bold text-secondary text-sm uppercase tracking-wide">5.0 Star Rating</span>
+                             </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <h2 class="card-title justify-center text-2xl mb-2">Call MD Home Care</h2>
-            <p class="text-base-content/70 mb-6">Our professional in-home care team is available to assist you</p>
-            <a href="tel:+61863869999" class="text-3xl font-bold text-primary hover:text-primary-focus transition-colors mb-4">
-              08 6386 9999
-            </a>
-            <div class="divider"></div>
-            <p class="text-sm text-base-content/60">Available for all your in-home care needs</p>
-          </div>
+
+            <!-- Right Column: Contact Form -->
+            <div class="lg:w-1/2">
+                <div class="bg-white rounded-[2.5rem] p-8 lg:p-12 shadow-xl shadow-base-200/50 border border-base-200 relative overflow-hidden">
+                    <div class="relative z-10">
+                        <h3 class="text-2xl font-bold text-secondary mb-8">Send us a message</h3>
+                        
+                        <form class="space-y-6">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="form-control">
+                                    <label class="label text-sm font-bold text-secondary/70 ml-1 mb-1">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Full Name" class="input input-lg w-full bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-2xl transition-all outline-none" required />
+                                </div>
+                                <div class="form-control">
+                                    <label class="label text-sm font-bold text-secondary/70 ml-1 mb-1">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="0400 000 000" class="input input-lg w-full bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-2xl transition-all outline-none" />
+                                </div>
+                            </div>
+
+                            <div class="form-control">
+                                <label class="label text-sm font-bold text-secondary/70 ml-1 mb-1">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="email@example.com" class="input input-lg w-full bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-2xl transition-all outline-none" required />
+                            </div>
+
+                            <div class="form-control">
+                                <label class="label text-sm font-bold text-secondary/70 ml-1 mb-1">I am a...</label>
+                                <select id="service" name="service" class="select select-lg w-full bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-2xl transition-all text-base-content/70 font-normal outline-none">
+                                    <option value="" disabled selected>Select an option...</option>
+                                    <optgroup label="Looking for Care">
+                                        <option value="ndis">NDIS Participant</option>
+                                        <option value="family">Family Member / Guardian</option>
+                                    </optgroup>
+                                    <optgroup label="For Providers & Professionals">
+                                        <option value="referral">Making a Referral</option>
+                                        <option value="partnership">Service Provider / Partnership</option>
+                                        <option value="coordinator">Support Coordinator</option>
+                                        <option value="allied-health">Allied Health Professional</option>
+                                    </optgroup>
+                                    <optgroup label="Other">
+                                        <option value="job">Job Application / Careers</option>
+                                        <option value="other">General Enquiry</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+
+                            <div class="form-control">
+                                <label class="label text-sm font-bold text-secondary/70 ml-1 mb-1">Message</label>
+                                <textarea id="message" name="message" placeholder="How can we help? If making a referral, please include details." class="textarea textarea-lg w-full bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-2xl transition-all min-h-[250px] resize-none outline-none text-base" required></textarea>
+                            </div>
+
+                            <div class="pt-4">
+                                <button type="submit" class="btn btn-primary btn-lg w-full rounded-[1.5rem] text-lg font-bold shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-1 transition-all duration-300">
+                                    Send Message
+                                    <Icon name="hugeicons:arrow-right-01" class="h-5 w-5 ml-2" />
+                                </button>
+                            </div>
+                            
+                            <p class="text-center text-xs text-secondary/40 mt-6">
+                                By submitting this form, you agree to our <a href="/privacy" class="underline hover:text-primary">Privacy Policy</a>.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- Contact Form -->
-      <div class="lg:col-span-3" id="contact-form">
-        <div class="card bg-base-100 shadow-xl border border-base-200">
-          <div class="card-body">
-            <h2 class="card-title text-2xl mb-2">How Can We Help You?</h2>
-            <p class="text-base-content/70 mb-6">Complete the form below to discuss your specific care needs with MD Home Care. We're here to help you find the right support services.</p>
-
-            <form class="space-y-5">
-              <!-- Name Field -->
-              <div class="form-control">
-                <label class="floating-label">
-                  <span>Full Name <span class="text-error">*</span></span>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Full Name"
-                    class="input input-bordered w-full"
-                    required
-                  />
-                </label>
-              </div>
-
-              <!-- Email Field -->
-              <div class="form-control">
-                <label class="floating-label">
-                  <span>Email Address <span class="text-error">*</span></span>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Email Address"
-                    class="input input-bordered w-full"
-                    required
-                  />
-                </label>
-              </div>
-
-              <!-- Phone Field -->
-              <div class="form-control">
-                <label class="floating-label">
-                  <span>Phone Number</span>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    placeholder="Phone Number"
-                    class="input input-bordered w-full"
-                  />
-                </label>
-              </div>
-
-              <!-- Service Type Select -->
-              <div class="form-control">
-                <label class="floating-label">
-                  <span>Service Type</span>
-                  <select id="service" name="service" class="select select-bordered w-full">
-                    <option value="" disabled selected>Select a service</option>
-                    <option value="ndis">NDIS Support Services</option>
-                    <option value="aged-care">Aged Care Services</option>
-                    <option value="disability">Disability Support</option>
-                    <option value="personal-care">Personal Care</option>
-                    <option value="domestic">Domestic Assistance</option>
-                    <option value="respite">Respite Care</option>
-                    <option value="other">Other / General Enquiry</option>
-                  </select>
-                </label>
-              </div>
-
-              <!-- Message Field -->
-              <div class="form-control">
-                <label class="floating-label">
-                  <span>Your Message <span class="text-error">*</span></span>
-                  <textarea
-                    id="message"
-                    name="message"
-                    placeholder="Your Message"
-                    class="textarea textarea-bordered w-full h-32 resize-none"
-                    required
-                  ></textarea>
-                </label>
-              </div>
-
-              <!-- Privacy Notice -->
-              <p class="text-xs text-base-content/60 text-center">
-                By submitting this form, you agree to our <a href="/privacy" class="link link-primary">Privacy Policy</a>.
-              </p>
-
-              <!-- Submit Button -->
-              <button type="submit" class="btn btn-primary btn-block gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <line x1="22" y1="2" x2="11" y2="13"></line>
-                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-                </svg>
-                Send Message
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 
-  <!-- SEO Content Section -->
-  <section class="bg-base-200 py-16">
-    <div class="max-w-3xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-base-content mb-6">Professional In-Home Care Services by MD Home Care</h2>
-      <p class="text-base-content/70 leading-relaxed mb-6">
-        MD Home Care is your trusted provider of professional in-home care services. Whether you need personal care, disability support, or specialized home care assistance, our dedicated team is here to help. We understand that choosing the right in-home care service is important, which is why our care team is available to discuss your specific needs.
-      </p>
-
-      <h3 class="text-xl font-semibold text-base-content mb-4">Why Choose MD Home Care?</h3>
-      <ul class="space-y-3">
-        <li class="flex items-start gap-3">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-          </svg>
-          <span class="text-base-content/70">Professional and experienced care team</span>
-        </li>
-        <li class="flex items-start gap-3">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-          </svg>
-          <span class="text-base-content/70">Personalized in-home care services</span>
-        </li>
-        <li class="flex items-start gap-3">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-          </svg>
-          <span class="text-base-content/70">Comprehensive support for you and your family</span>
-        </li>
-        <li class="flex items-start gap-3">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-          </svg>
-          <span class="text-base-content/70">Easy contact options - call or message anytime</span>
-        </li>
-      </ul>
-    </div>
-  </section>
 </BaseLayout>
 
 <script>
@@ -243,24 +172,6 @@ const structuredData = {
       }
     }
   }
-
-  // Check if current time is within business hours in Sydney
-  function isBusinessHours() {
-    const sydneyTime = new Date().toLocaleString('en-US', { timeZone: 'Australia/Sydney' });
-    const hour = new Date(sydneyTime).getHours();
-    return hour >= 9 && hour < 19;
-  }
-
-  // Update online status visibility
-  function updateOnlineStatus() {
-    const onlineStatus = document.getElementById('online-status');
-    if (onlineStatus) {
-      onlineStatus.style.display = isBusinessHours() ? 'flex' : 'none';
-    }
-  }
-
-  updateOnlineStatus();
-  setInterval(updateOnlineStatus, 60000);
 
   // Form submission handler
   document.querySelector('form')?.addEventListener('submit', (e) => {
@@ -285,6 +196,7 @@ const structuredData = {
       });
 
       window.posthog.capture('contact_form_submitted', {
+        source: 'contact_page',
         name: name,
         email: email,
         phone: phone || undefined,
@@ -298,14 +210,14 @@ const structuredData = {
     submitButton.disabled = true;
     submitButton.innerHTML = '<span class="loading loading-spinner loading-sm"></span> Sending...';
     Array.from(form.elements).forEach(element => {
-      if (element instanceof HTMLInputElement || element instanceof HTMLTextAreaElement) {
+      if (element instanceof HTMLInputElement || element instanceof HTMLTextAreaElement || element instanceof HTMLSelectElement) {
         element.disabled = true;
       }
     });
 
     // Simulate sending
     setTimeout(() => {
-      submitButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg> Message Sent!';
+      submitButton.innerHTML = 'Message Sent!';
       submitButton.classList.remove('btn-primary');
       submitButton.classList.add('btn-success');
 
@@ -317,7 +229,7 @@ const structuredData = {
         submitButton.classList.add('btn-primary');
 
         Array.from(form.elements).forEach(element => {
-          if (element instanceof HTMLInputElement || element instanceof HTMLTextAreaElement) {
+          if (element instanceof HTMLInputElement || element instanceof HTMLTextAreaElement || element instanceof HTMLSelectElement) {
             element.disabled = false;
           }
         });

@@ -4,6 +4,8 @@ description: "Complete step-by-step guide to becoming an independent NDIS suppor
 pubDate: 2025-04-06
 author: "Camila"
 tags: []
+popupTitle: "Want to Work Independently?"
+popupSubtitle: "Get guidance on setting up as a self-employed support worker"
 image: "/assets/homecare.webp"
 ---
 

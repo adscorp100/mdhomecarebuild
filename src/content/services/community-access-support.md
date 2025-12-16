@@ -1,10 +1,16 @@
 ---
-title: "NDIS Community Access & Participation Support in {suburb}"
+title: "Community Access Support in {suburb}"
 description: "Get out and about in {suburb} with a support worker you can trust. Our NDIS Community Access support is about connection, not just transport."
 pubDate: 2025-07-04
 category: "Community Services"
 image: "/assets/disabled carer.webp"
 keywords: ["community access", "ndis support", "community participation", "transport services", "social support"]
+quickFacts:
+  costRange: "$50-$70/hour (group rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## More Than Just a Ride in {suburb}: It's About Connection & Community.
@@ -33,6 +39,23 @@ Our Community Access and Participation support is tailored to you. We can help y
 *   **Community Events:** Enjoy local {suburb} festivals, markets, and community gatherings.
 
 Whatever your goals are for getting out into the community in {suburb}, we are here to make it happen.
+
+## Frequently Asked Questions
+
+**How is Community Access different from just transport?**
+Transport simply gets you from A to B. Community Access provides a support worker who stays with you throughout your outing, providing assistance, companionship, and support with whatever you're doing. They help you participate fully in activities, not just arrive at them.
+
+**Can I use Community Access for regular activities like gym or swimming?**
+Absolutely. Many of our clients use Community Access to maintain regular fitness routines, hobbies, and social activities. We can support you at the gym, pool, yoga class, art groups, or any regular activity that helps you achieve your goals.
+
+**What if I need help with communication or have complex needs?**
+Our support workers are trained to work with clients who have a range of communication needs, including those using communication devices, Auslan, or visual supports. During our intake process, we match you with a support worker who has the right skills and experience for your specific needs.
+
+**Is Community Access covered under my NDIS plan?**
+Yes. Community Access typically falls under Core Supports - Assistance with Social and Community Participation. If you have funding in this category, you can use it for our services. We can help you understand your plan and budget allocation.
+
+**Can I choose what activities we do?**
+Yes, this is your support and your life. You choose the activities based on your interests and NDIS goals. Whether it's visiting a museum, attending a sporting event, or just grabbing coffee with a friend, we support what matters to you.
 
 **Ready to get out and about in {suburb} with a support worker you can rely on? Let's find the right person for you.**
 

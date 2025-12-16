@@ -4,6 +4,8 @@ description: "Complete guide to NDIS support worker training: Certificate III ($
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
+popupTitle: "Want to Work With Fully Qualified Support Workers?"
+popupSubtitle: "All our staff have completed certified NDIS training"
 image: "/assets/clinic.webp"
 ---
 

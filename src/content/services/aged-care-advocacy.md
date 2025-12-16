@@ -1,10 +1,16 @@
 ---
-title: "Expert Aged Care Navigation & Support in {suburb}"
+title: "Aged Care Support in {suburb}"
 description: "Feeling overwhelmed by the aged care system? Our expert navigators in {suburb} can help. We provide professional guidance to help you find the right care, manage providers, and get the most from your funding."
 pubDate: 2025-07-04
 category: "Aged Care"
 image: "/assets/elderlyaboriginal.webp"
 keywords: ["aged care navigation {suburb}", "aged care consultant", "help with my aged care", "aged care support"]
+quickFacts:
+  costRange: "$100-$190/hour (NDIS price guide)"
+  fundingOptions: "NDIS Capacity Building - Support Coordination"
+  availability: "Weekdays"
+  serviceHours: "Business hours with flexible appointments"
+  waitTime: "Usually within 1 week"
 ---
 
 # Stop Fighting the Aged Care System. Get an Expert on Your Side.

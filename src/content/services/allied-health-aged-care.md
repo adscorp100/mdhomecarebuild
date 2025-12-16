@@ -1,10 +1,16 @@
 ---
-title: "In-Home Therapy & Allied Health Services in {suburb}"
+title: "Allied Health Services in {suburb}"
 description: "Stay safe, mobile, and independent at home. Our professional therapists in {suburb}—including Physiotherapists, Occupational Therapists, and Podiatrists—provide expert care in the comfort of your own home."
 pubDate: 2025-07-04
 category: "Aged Care"
 image: "/assets/physio.webp"
 keywords: ["in-home therapy {suburb}", "home physiotherapy", "occupational therapy at home", "allied health {suburb}"]
+quickFacts:
+  costRange: "$150-$250/hour (NDIS price guide rates)"
+  fundingOptions: "NDIS Capacity Building, Home Care Packages, Medicare, Private"
+  availability: "Weekdays, some weekend availability"
+  serviceHours: "By appointment"
+  waitTime: "1-3 weeks depending on therapist availability"
 ---
 
 # Stay Safe, Mobile, and Independent with In-Home Therapy

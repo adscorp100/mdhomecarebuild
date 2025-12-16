@@ -1,288 +1,467 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Card from '../components/Card.astro';
+import { Icon } from 'astro-icon/components';
+import { getCollection } from 'astro:content';
 
-const heroBackground = `/assets/grandmawhite.webp`;
+// Fetch recent blog posts for the resources section
+const allBlogPosts = await getCollection('blog');
+const recentBlogPosts = allBlogPosts
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
 
-const title = "NDIS Provider Sydney & Melbourne | Home Care, Accommodation, Support";
-const description = "Your local NDIS provider in Sydney & Melbourne for SIL & SDA accommodation, 24/7 high-intensity home care, and expert support coordination. No waitlists for key services. Get a free consultation today.";
+// SEO Metadata
+const title = "NDIS Provider Sydney & Melbourne | MD Home Care";
+const description = "Trusted NDIS provider in Sydney & Melbourne offering 24/7 home care, SIL accommodation, and support coordination. Empowering independence with compassionate care.";
+
+// Data for sections
+const features = [
+  {
+    icon: "hugeicons:shield-01",
+    badge: "Our People",
+    title: "Vetted Professionals You Can Trust",
+    desc: "Finding the right support worker can feel overwhelming. That's why we take the guesswork out of it. Every carer on our team is fully background-checked, qualified, and employed directly by us—not through agencies or subcontractors.",
+    desc2: "We invest in our people because we know that consistency matters. When you work with MD Homecare, you'll see familiar faces who understand your needs and preferences.",
+    img: "/assets/nurse.webp"
+  },
+  {
+    icon: "hugeicons:clock-01",
+    badge: "Always Available",
+    title: "24/7 Dedicated Support",
+    desc: "Life doesn't follow a 9-to-5 schedule, and neither do we. Whether it's an early morning routine, overnight care, or support during weekends and holidays, our team is here when you need us.",
+    desc2: "For participants with complex needs, round-the-clock support isn't a luxury—it's essential. We provide seamless care coordination so you always have someone in your corner.",
+    img: "/assets/grandma.webp"
+  },
+  {
+    icon: "hugeicons:favourite",
+    badge: "Clinical Excellence",
+    title: "Nurse-Led Care Teams",
+    desc: "Complex care requires expert oversight. Our services are led by experienced Registered Nurses who develop comprehensive care plans, provide clinical governance, and ensure best-practice standards are met every single day.",
+    desc2: "From wound care and medication management to high-intensity daily personal activities, we bring hospital-grade expertise into the comfort of your home.",
+    img: "/assets/clinic.webp"
+  },
+  {
+    icon: "hugeicons:global",
+    badge: "Community",
+    title: "Culturally Diverse Teams",
+    desc: "We believe that great care starts with understanding. Our team speaks over 20 languages and represents diverse cultural backgrounds, ensuring we can connect with participants and families in ways that feel authentic and respectful.",
+    desc2: "Whether it's preparing culturally appropriate meals, respecting religious practices, or simply communicating in your preferred language, we adapt our care to fit your life.",
+    img: "/assets/elderlyaboriginal.webp"
+  }
+];
+
+const services = [
+  {
+    badge: "Daily Living",
+    title: "In-Home Support",
+    desc: "Your home should be a place of comfort and independence. Our in-home support services help you maintain your daily routines with dignity, from personal care and hygiene assistance to meal preparation and household tasks.",
+    desc2: "We work with you to create a support plan that fits seamlessly into your life, ensuring you have the help you need without losing the independence you value.",
+    icon: "hugeicons:home-03",
+    link: "/services/disability-home-support-services",
+    img: "/assets/homecare.webp"
+  },
+  {
+    badge: "Accommodation",
+    title: "SIL & Specialist Housing",
+    desc: "For those who need more comprehensive support, our Supported Independent Living (SIL) services provide 24/7 care in purpose-built or modified homes. We also connect participants with Specialist Disability Accommodation (SDA) options.",
+    desc2: "Our SIL homes are designed to foster independence while ensuring safety. You'll live alongside others with similar support needs, building community and friendships along the way.",
+    icon: "hugeicons:building-03",
+    link: "/services/sil-services",
+    img: "/assets/accessible-bathroom.webp"
+  },
+  {
+    badge: "Social & Recreation",
+    title: "Community Access",
+    desc: "Life is richer when you're connected to your community. Our community access programs help you participate in social activities, pursue hobbies, access local services, and build meaningful relationships outside the home.",
+    desc2: "Whether it's joining a local sports club, attending community events, or simply getting out for coffee with friends, we provide the transport and support to make it happen.",
+    icon: "hugeicons:user-group",
+    link: "/services/community-access-support",
+    img: "/assets/wheelchair.webp"
+  },
+  {
+    badge: "Plan Navigation",
+    title: "Support Coordination",
+    desc: "The NDIS can be complex to navigate. Our specialist support coordinators help you understand your plan, connect with the right providers, and ensure you're getting the most out of your funding.",
+    desc2: "We act as your advocate, helping you build capacity to manage your own supports over time while ensuring nothing falls through the cracks.",
+    icon: "hugeicons:file-01",
+    link: "/services/ndis-specialist-support-coordination",
+    img: "/assets/carer.webp"
+  }
+];
+
+const stats = [
+  { label: "Families Supported", value: "500+" },
+  { label: "Years Experience", value: "10+" },
+  { label: "Suburbs Served", value: "150+" },
+  { label: "Satisfaction Rate", value: "98%" },
+];
 ---
 
 <BaseLayout {title} {description}>
+  
   <!-- Hero Section -->
   <section
-    class="hero min-h-[90vh] bg-cover bg-center bg-fixed relative"
-    style={`background-image: url('${heroBackground}');`}
+    class="relative min-h-[60vh] flex items-center bg-cover bg-center bg-no-repeat bg-fixed pt-16"
+    style="background-image: url('/assets/grandmawhite.webp');"
   >
-    <div class="hero-overlay bg-gradient-to-r from-white/50 to-white/20"></div>
-    <div class="hero-content text-center">
-      <div class="max-w-3xl bg-white/80 backdrop-blur-xl rounded-3xl p-8 lg:p-12 shadow-2xl border border-white/90">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-primary leading-tight mb-6">
-          Your Local NDIS Provider for Home Care, Accommodation & Support
+    <!-- Subtle Overlay for Readability -->
+    <div class="absolute inset-0 bg-white/50 z-0 top-0"></div>
+
+    <div class="container-custom relative z-10 py-10 lg:py-14">
+      <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
+        
+        <!-- Hero Content -->
+        <div class="w-full lg:w-1/2 text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+            </span>
+            Taking New Participants
+          </div>
+          
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-4 tracking-tight text-balance">
+            Live Independently, <br class="hidden lg:block" />
+            <span class="text-primary">Supported by Care.</span>
         </h1>
-        <p class="text-lg text-base-content/80 max-w-2xl mx-auto mb-8 leading-relaxed">
-          Serving families across Sydney & Melbourne with trusted, 24/7 care. We offer SIL & SDA accommodation, high-intensity home support, and expert coordination with no waitlists for key services.
-        </p>
-        <div class="flex flex-wrap gap-4 justify-center">
-          <a href="/contact" class="btn btn-primary btn-lg gap-2 shadow-lg">
-            Get a Free Consultation
-          </a>
-          <a href="tel:+61863869999" class="btn btn-outline btn-lg gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-            </svg>
-            Call 08 6386 9999
-          </a>
+
+          <p class="text-lg text-secondary/70 font-medium mb-6 leading-relaxed max-w-2xl mx-auto lg:mx-0 text-balance">
+            Your trusted NDIS partner in Sydney & Melbourne. We provide compassionate in-home care, SIL accommodation, and specialist support designed around <em>your</em> life.
+          </p>
+          
+          <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
+            <a href="/contact" class="btn btn-primary btn-lg px-8 rounded-full border-none hover:-translate-y-0.5 transition-transform duration-300">
+              Find Support
+            </a>
+            <a href="/services" class="btn btn-lg px-8 rounded-full bg-white border border-base-200 text-secondary hover:bg-base-200 hover:border-primary/20 transition-all duration-300">
+              Explore Services
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="mt-6 flex flex-wrap items-center justify-center lg:justify-start gap-3 text-secondary/70 text-sm font-semibold">
+            <div class="flex items-center gap-2 bg-white/40 backdrop-blur-sm px-4 py-1.5 rounded-full border border-white/20">
+              <Icon name="hugeicons:tick-02" class="h-4 w-4 text-primary" />
+              <span>Verified Quality</span>
+            </div>
+            <div class="flex items-center gap-2 bg-white/40 backdrop-blur-sm px-4 py-1.5 rounded-full border border-white/20">
+              <Icon name="hugeicons:tick-02" class="h-4 w-4 text-primary" />
+              <span>No Waitlists</span>
+            </div>
+            <div class="flex items-center gap-2 bg-white/40 backdrop-blur-sm px-4 py-1.5 rounded-full border border-white/20">
+              <Icon name="hugeicons:tick-02" class="h-4 w-4 text-primary" />
+              <span>RN Led Teams</span>
+            </div>
+          </div>
         </div>
+
+        <!-- Floating Call Card (Clickable Button) -->
+        <div class="w-full lg:w-1/2 flex justify-center lg:justify-end mt-4 lg:mt-0 relative pointer-events-none">
+             <a href="tel:+61863869999" class="pointer-events-auto block group">
+                <div class="bg-primary p-6 rounded-[2rem] shadow-xl shadow-primary/20 hover:shadow-2xl hover:shadow-primary/30 hover:-translate-y-1 transition-all duration-300 flex items-center gap-6">
+                    <div class="w-14 h-14 rounded-full bg-white/20 flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300">
+                        <Icon name="hugeicons:call-02" class="h-7 w-7" />
+                    </div>
+                    <div>
+                        <p class="text-white/80 font-bold uppercase tracking-wider mb-1 text-xs">Call Us 24/7</p>
+                        <p class="text-3xl font-bold text-white">08 6386 9999</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Service Showcase -->
-  <section class="py-20 bg-base-200">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl lg:text-4xl font-bold text-center text-primary mb-12">
-        A Complete Range of NDIS Services
-      </h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <a href="/services/disability-home-support-services" class="card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 group">
-          <figure class="h-48 overflow-hidden">
-            <img src="/assets/homecare.webp" alt="In-Home Support" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-          </figure>
-          <div class="card-body text-center">
-            <h3 class="card-title justify-center text-lg">In-Home Support</h3>
-            <p class="text-sm text-base-content/70">Personalized care, assistance, and high-intensity support in the comfort of your own home.</p>
+  <!-- Statistics Strip -->
+  <section class="border-y border-base-200 bg-base-200/50">
+    <div class="container-custom py-16">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        {stats.map(stat => (
+          <div class="text-center">
+            <p class="text-4xl lg:text-5xl font-bold text-primary mb-2 tracking-tighter">{stat.value}</p>
+            <p class="text-sm text-secondary/60 font-semibold uppercase tracking-widest">{stat.label}</p>
           </div>
-        </a>
+        ))}
+      </div>
+          </div>
+  </section>
 
-        <a href="/services/sil-services" class="card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 group">
-          <figure class="h-48 overflow-hidden">
-            <img src="/assets/accessible-bathroom.webp" alt="SIL & SDA Accommodation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-          </figure>
-          <div class="card-body text-center">
-            <h3 class="card-title justify-center text-lg">SIL & SDA Accommodation</h3>
-            <p class="text-sm text-base-content/70">Safe, modern, and supportive housing options tailored to your needs for independent living.</p>
-          </div>
-        </a>
+  <!-- Services Section -->
+  <section class="py-32 bg-base-100">
+    <div class="container-custom">
+      <div class="text-center max-w-3xl mx-auto mb-20">
+        <h2 class="text-sm font-bold text-primary tracking-widest uppercase mb-4">Our Services</h2>
+        <h3 class="text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">Comprehensive Support for Every Stage</h3>
+        <p class="text-lg text-secondary/60 leading-relaxed">
+          Whether you need daily assistance at home, specialized accommodation, or community access, our team is here to help you achieve your goals.
+        </p>
+      </div>
 
-        <a href="/services/community-access-support" class="card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 group">
-          <figure class="h-48 overflow-hidden">
-            <img src="/assets/elderlyaboriginal.webp" alt="Community Access" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-          </figure>
-          <div class="card-body text-center">
-            <h3 class="card-title justify-center text-lg">Community Access</h3>
-            <p class="text-sm text-base-content/70">Engage with your community, participate in activities, and build social connections with our support.</p>
+      <div class="space-y-24 lg:space-y-32">
+        {services.map((service, i) => (
+          <div class={`flex flex-col ${i % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-12 lg:gap-20`}>
+            <div class="lg:w-1/2 relative">
+              <div class={`absolute inset-0 rounded-[3rem] transform scale-105 z-0 ${i % 2 === 0 ? 'bg-primary/10 rotate-3' : 'bg-secondary/5 -rotate-3'}`}></div>
+              <img src={service.img} alt={service.title} class="relative z-10 rounded-[3rem] shadow-2xl w-full h-auto object-cover aspect-[4/3]" />
+            </div>
+            <div class="lg:w-1/2">
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wide mb-6">
+                {service.badge}
+              </div>
+              <h3 class="text-3xl lg:text-4xl font-bold text-secondary mb-6 leading-tight tracking-tight">{service.title}</h3>
+              <p class="text-lg text-secondary/60 mb-6 leading-relaxed">{service.desc}</p>
+              <p class="text-lg text-secondary/60 mb-8 leading-relaxed">{service.desc2}</p>
+              <a href={service.link} class="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all">
+                Learn more about {service.title.toLowerCase()}
+                <Icon name="hugeicons:arrow-right-01" class="h-5 w-5" />
+              </a>
+            </div>
           </div>
-        </a>
+        ))}
+      </div>
 
-        <a href="/services/ndis-specialist-support-coordination" class="card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 group">
-          <figure class="h-48 overflow-hidden">
-            <img src="/assets/carer.webp" alt="Specialist Coordination" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-          </figure>
-          <div class="card-body text-center">
-            <h3 class="card-title justify-center text-lg">Specialist Coordination</h3>
-            <p class="text-sm text-base-content/70">Expert guidance to help you understand, implement, and get the most out of your NDIS plan.</p>
-          </div>
-        </a>
+      <div class="text-center mt-20">
+        <a href="/services" class="btn btn-primary rounded-full px-8">View All Services</a>
       </div>
     </div>
   </section>
 
-  <!-- Find Your Suburb -->
-  <section class="py-20 bg-primary text-primary-content">
-    <div class="max-w-3xl mx-auto px-4 text-center">
-      <h2 class="text-3xl lg:text-4xl font-bold mb-8">
-        Find an NDIS Provider in Your Suburb
-      </h2>
-      <div class="relative">
-        <input
-          type="text"
-          id="suburb-search"
-          placeholder="Start typing any suburb across Australia..."
-          class="input input-lg w-full text-base-content border-2 border-warning focus:border-primary focus:outline-none rounded-full px-6"
-        />
-        <div id="suburb-suggestions" class="hidden absolute w-full bg-base-100 text-base-content rounded-2xl mt-2 max-h-64 overflow-y-auto shadow-xl z-10 text-left border border-base-300"></div>
+  <!-- Suburb Search Section -->
+  <section class="py-32 bg-secondary text-secondary-content relative overflow-hidden">
+    <!-- Background Elements -->
+    <div class="absolute inset-0 opacity-20 pointer-events-none">
+      <div class="absolute right-0 top-0 w-2/3 h-full bg-gradient-to-l from-primary/20 to-transparent"></div>
+    </div>
+
+    <div class="container-custom relative z-10">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-4xl lg:text-5xl font-bold mb-8 tracking-tight">Find Support in Your Area</h2>
+        <p class="text-lg text-secondary-content/70 mb-12">
+          We provide services across Sydney and Melbourne. Enter your suburb to see what's available near you.
+        </p>
+        
+        <div class="relative max-w-xl mx-auto">
+          <div class="flex items-center justify-center relative group">
+            <div class="absolute left-6 text-base-content/40 z-10">
+              <Icon name="hugeicons:search-01" class="h-6 w-6" />
+            </div>
+            <input
+              type="text"
+              id="suburb-search"
+              placeholder="Search by suburb (e.g. Parramatta, Richmond)..."
+              class="input input-lg w-full h-16 pl-14 pr-6 rounded-full bg-base-100 text-base-content focus:outline-none border-2 border-transparent focus:border-primary/50 transition-all duration-300"
+            />
+          </div>
+          <!-- Dropdown Results -->
+          <div id="suburb-suggestions" class="hidden absolute left-0 right-0 top-full mt-4 bg-base-100 text-base-content rounded-[1.5rem] shadow-2xl max-h-72 overflow-y-auto z-50 text-left border border-base-200/50 p-2"></div>
+
+          <!-- Service Results Accordion (shown after suburb selection) -->
+          <div id="service-results" class="hidden mt-8">
+            <div class="bg-base-100 rounded-[1.5rem] border border-base-200/50 overflow-hidden">
+              <button id="accordion-toggle" class="w-full flex items-center justify-between p-6 text-left hover:bg-base-200/50 transition-colors">
+                <div>
+                  <h4 id="accordion-title" class="text-xl font-bold text-secondary">Services in Your Area</h4>
+                  <p class="text-sm text-secondary/60 mt-1">Click to view available services</p>
+                </div>
+                <Icon name="hugeicons:arrow-down-01" id="accordion-icon" class="h-6 w-6 text-primary transition-transform duration-300" />
+              </button>
+              <div id="accordion-content" class="px-6 pb-6">
+                <ul id="service-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Why Choose Us -->
-  <section class="py-20 bg-base-200">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl lg:text-4xl font-bold text-center text-primary mb-12">
-        The MD Homecare Difference
-      </h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Trust Item 1 -->
-        <div class="card bg-base-100 shadow-sm border border-base-200">
-          <div class="card-body">
-            <div class="flex items-start gap-4">
-              <div class="text-primary">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="font-semibold text-lg mb-2">Vetted & Managed Professionals</h3>
-                <p class="text-base-content/70 text-sm">We provide consistent, high-quality care you can rely on. Our team is fully managed and vetted, not a random marketplace.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+  <section class="py-32 bg-base-200/30">
+    <div class="container-custom">
+      <div class="text-center max-w-3xl mx-auto mb-20">
+        <h2 class="text-sm font-bold text-primary tracking-widest uppercase mb-4">Why MD Homecare?</h2>
+        <h3 class="text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">Care That Feels Like Family.</h3>
+        <p class="text-lg text-secondary/60 leading-relaxed">
+          We don't just provide services; we build relationships. Our approach is centered on respect, dignity, and understanding the unique story of every individual we support.
+        </p>
+      </div>
 
-        <!-- Trust Item 2 -->
-        <div class="card bg-base-100 shadow-sm border border-base-200">
-          <div class="card-body">
-            <div class="flex items-start gap-4">
-              <div class="text-primary">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                </svg>
+      <div class="space-y-24 lg:space-y-32">
+        {features.map((feature, i) => (
+          <div class={`flex flex-col ${i % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-12 lg:gap-20`}>
+            <div class="lg:w-1/2 relative">
+              <div class={`absolute inset-0 rounded-[3rem] transform scale-105 z-0 ${i % 2 === 0 ? 'bg-primary/10 rotate-3' : 'bg-secondary/5 -rotate-3'}`}></div>
+              <img src={feature.img} alt={feature.title} class="relative z-10 rounded-[3rem] shadow-2xl w-full h-auto object-cover aspect-[4/3]" />
+            </div>
+            <div class="lg:w-1/2">
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wide mb-6">
+                {feature.badge}
               </div>
-              <div>
-                <h3 class="font-semibold text-lg mb-2">No Waitlists for Key Services</h3>
-                <p class="text-base-content/70 text-sm">We offer immediate availability for critical services like in-home support and SIL accommodation to get you the help you need, faster.</p>
-              </div>
+              <h3 class="text-3xl lg:text-4xl font-bold text-secondary mb-6 leading-tight tracking-tight">{feature.title}</h3>
+              <p class="text-lg text-secondary/60 mb-6 leading-relaxed">{feature.desc}</p>
+              <p class="text-lg text-secondary/60 leading-relaxed">{feature.desc2}</p>
             </div>
           </div>
-        </div>
+        ))}
+      </div>
 
-        <!-- Trust Item 3 -->
-        <div class="card bg-base-100 shadow-sm border border-base-200">
-          <div class="card-body">
-            <div class="flex items-start gap-4">
-              <div class="text-primary">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="font-semibold text-lg mb-2">Registered Nurse-Led</h3>
-                <p class="text-base-content/70 text-sm">Our services are overseen by registered nurses, ensuring clinical excellence and providing your family with total peace of mind.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Trust Item 4 -->
-        <div class="card bg-base-100 shadow-sm border border-base-200">
-          <div class="card-body">
-            <div class="flex items-start gap-4">
-              <div class="text-primary">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
-                  <line x1="16" y1="8" x2="2" y2="22"></line>
-                  <line x1="17.5" y1="15" x2="9" y2="15"></line>
-                </svg>
-              </div>
-              <div>
-                <h3 class="font-semibold text-lg mb-2">Culturally Competent Care</h3>
-                <p class="text-base-content/70 text-sm">We celebrate diversity. Our team speaks a variety of languages and understands the cultural needs of the communities we serve.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Trust Item 5 -->
-        <div class="card bg-base-100 shadow-sm border border-base-200">
-          <div class="card-body">
-            <div class="flex items-start gap-4">
-              <div class="text-primary">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <path d="M16.2 7.8l-4.4 4.4-2.8-2.8"></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="font-semibold text-lg mb-2">Transparent Pricing & Budgeting</h3>
-                <p class="text-base-content/70 text-sm">No hidden fees. We provide clear pricing and help you maximize your NDIS budget to achieve your goals.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Trust Item 6 -->
-        <div class="card bg-base-100 shadow-sm border border-base-200">
-          <div class="card-body">
-            <div class="flex items-start gap-4">
-              <div class="text-primary">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path d="M12 2a10 10 0 100 20 10 10 0 100-20z"></path>
-                  <path d="M12 6v6l4 2"></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="font-semibold text-lg mb-2">24/7 Support & High-Intensity Care</h3>
-                <p class="text-base-content/70 text-sm">We specialize in complex and high-intensity care, with dedicated support available around the clock.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="text-center mt-20">
+        <a href="/about" class="btn btn-primary rounded-full px-8">About Our Team</a>
       </div>
     </div>
   </section>
 
   <!-- Testimonials -->
-  <section class="py-20 bg-info/10">
-    <div class="max-w-4xl mx-auto px-4 text-center">
-      <h2 class="text-3xl lg:text-4xl font-bold text-primary mb-12">
-        Trusted by Families Across Australia
-      </h2>
-      <div class="card bg-base-100 shadow-xl">
-        <div class="card-body py-10 px-8 lg:px-16">
-          <div class="text-warning text-3xl mb-4">★★★★★</div>
-          <p class="text-lg text-base-content/80 italic leading-relaxed mb-6">
-            "MD Homecare has been a lifesaver for our family. The carers are professional, compassionate, and have become like family to us. We finally have peace of mind knowing our son is in the best possible hands. We couldn't recommend them more highly."
+  <section class="py-32 bg-base-100">
+    <div class="container-custom text-center">
+      <h2 class="text-4xl lg:text-5xl font-bold text-secondary mb-20 tracking-tight">Stories from Our Community</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Review 1 -->
+        <div class="bg-base-200 rounded-[2rem] p-10 text-left relative group hover:bg-white border border-transparent hover:border-base-200 transition-all duration-500">
+          <div class="text-warning text-lg mb-6 flex gap-1">
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+          </div>
+          <p class="text-secondary/70 italic mb-8 leading-loose text-lg">
+            "The peace of mind I have knowing my mother is being cared for by such genuine, skilled people is priceless. They truly go above and beyond."
           </p>
-          <p class="font-bold text-primary">- The Robertson Family, Parramatta</p>
+              <div>
+            <p class="font-bold text-secondary">Sarah Jenkins</p>
+            <p class="text-xs text-secondary/40 uppercase tracking-wider font-semibold mt-1">Sydney, NSW</p>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="bg-base-200 rounded-[2rem] p-10 text-left relative group hover:bg-white border border-transparent hover:border-base-200 transition-all duration-500">
+          <div class="text-warning text-lg mb-6 flex gap-1">
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+              </div>
+          <p class="text-secondary/70 italic mb-8 leading-loose text-lg">
+            "We struggled to find a provider who understood complex care needs until we found MD Homecare. Their nurses are exceptional."
+          </p>
+              <div>
+            <p class="font-bold text-secondary">Michael Ross</p>
+            <p class="text-xs text-secondary/40 uppercase tracking-wider font-semibold mt-1">Melbourne, VIC</p>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="bg-base-200 rounded-[2rem] p-10 text-left relative group hover:bg-white border border-transparent hover:border-base-200 transition-all duration-500">
+          <div class="text-warning text-lg mb-6 flex gap-1">
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+            <Icon name="hugeicons:star" class="h-5 w-5 fill-current" />
+              </div>
+          <p class="text-secondary/70 italic mb-8 leading-loose text-lg">
+            "Consistent, reliable, and friendly. The support workers actually engage with my son and have helped him build confidence."
+          </p>
+              <div>
+            <p class="font-bold text-secondary">Amanda Lee</p>
+            <p class="text-xs text-secondary/40 uppercase tracking-wider font-semibold mt-1">Parramatta, NSW</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Resource Hub -->
-  <section class="py-20">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl lg:text-4xl font-bold text-center text-primary mb-12">
-        Your NDIS Resource Hub
-      </h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <Card
-          href="/blog/ndis-price-guide"
-          title="The 2025 NDIS Price Guide: A Simple Breakdown"
-          body="Understand the costs, plan your budget, and get the most out of your NDIS funding with our clear, simple guide."
-        />
-        <Card
-          href="/blog/ndis-support-worker-pay-rates"
-          title="Support Worker Pay Rates: What You Need to Know"
-          body="Whether you're a client budgeting for care or a worker exploring career options, our guide has the answers."
-        />
-        <Card
-          href="/blog/home-care-packages-australia-complete-guide"
-          title="Home Care Packages Explained: A Complete Guide"
-          body="Navigating aged care can be confusing. Our guide simplifies the process and explains your options."
-        />
+  <!-- CTA Section -->
+  <section class="py-32 bg-primary text-primary-content relative overflow-hidden">
+    <!-- Decorative circles -->
+    <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/3 w-[500px] h-[500px] bg-white/5 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/3 w-[500px] h-[500px] bg-white/5 rounded-full blur-3xl"></div>
+
+    <div class="container-custom relative z-10 text-center">
+      <h2 class="text-4xl lg:text-6xl font-bold mb-8 tracking-tight">Ready to Start Your Journey?</h2>
+      <p class="text-xl text-primary-content/80 mb-12 max-w-2xl mx-auto leading-relaxed">
+        Speak to our friendly team today about your NDIS plan or home care needs. We're here to listen and help.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-6 justify-center">
+        <a href="/contact" class="btn btn-lg bg-white text-primary hover:bg-base-100 border-none shadow-none rounded-full px-10">
+          Contact Us Today
+        </a>
+        <a href="tel:+61863869999" class="btn btn-lg btn-outline text-white border-white/30 hover:bg-white/10 hover:border-white rounded-full px-10">
+          <Icon name="hugeicons:call-02" class="h-5 w-5" />
+          Call 08 6386 9999
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- Service Modal -->
+  <!-- Resources/Blog Section -->
+  <section class="py-32 bg-base-100">
+    <div class="container-custom">
+      <div class="flex flex-col sm:flex-row justify-between items-end mb-16 gap-4">
+        <div>
+          <h2 class="text-sm font-bold text-primary tracking-widest uppercase mb-4">Resources</h2>
+          <h3 class="text-4xl font-bold text-secondary tracking-tight">Latest News & Guides</h3>
+        </div>
+        <a href="/blog" class="link link-hover text-primary font-semibold flex items-center gap-2 hover:gap-3 transition-all">
+          View all articles
+          <Icon name="hugeicons:arrow-right-01" class="h-4 w-4" />
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        {recentBlogPosts.map((post, i) => (
+          <a href={`/blog/${post.slug}`} class="group">
+            <div class="relative mb-6">
+              <div class={`absolute inset-0 rounded-[2rem] transform scale-105 z-0 ${i % 2 === 0 ? 'bg-primary/10 rotate-2' : 'bg-secondary/5 -rotate-2'}`}></div>
+              <img
+                src={post.data.image || '/assets/homecare.webp'}
+                alt={post.data.title}
+                class="relative z-10 rounded-[2rem] shadow-xl w-full h-auto object-cover aspect-[16/10]"
+              />
+            </div>
+            <p class="text-primary text-xs mb-2 font-bold uppercase tracking-wider">
+              {new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+            </p>
+            <h4 class="text-xl font-bold text-secondary mb-3 group-hover:text-primary transition-colors line-clamp-2 tracking-tight">
+              {post.data.title}
+            </h4>
+            <p class="text-secondary/60 line-clamp-2 text-sm leading-relaxed">
+              {post.data.description}
+            </p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Modal (Kept for functionality) -->
   <dialog id="service-modal" class="modal">
-    <div class="modal-box max-w-3xl">
+    <div class="modal-box max-w-3xl rounded-2xl p-0 overflow-hidden">
+      <div class="bg-secondary p-6 flex justify-between items-center text-white">
+        <h3 class="font-bold text-xl" id="modal-title">Available Services</h3>
       <form method="dialog">
-        <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+          <button class="btn btn-sm btn-circle btn-ghost text-white/70 hover:text-white">
+          <Icon name="hugeicons:cancel-01" class="h-5 w-5" />
+        </button>
       </form>
-      <h3 class="font-bold text-xl text-primary mb-6" id="modal-title"></h3>
+      </div>
+      <div class="p-6 max-h-[70vh] overflow-y-auto">
       <ul id="modal-service-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3"></ul>
+      </div>
     </div>
     <form method="dialog" class="modal-backdrop">
       <button>close</button>
     </form>
   </dialog>
+
 </BaseLayout>
 
 <script>
+  // Suburb Search Functionality
   const services = [
     { name: "Accommodation Support", slug: "accommodation-support" },
     { name: "Aged Care Advocacy", slug: "aged-care-advocacy" },
@@ -333,22 +512,26 @@ const description = "Your local NDIS provider in Sydney & Melbourne for SIL & SD
 
   function displaySuggestions(input: string) {
     const suburbKeys = Object.keys(suburbs);
-    const filteredSuburbs = suburbKeys.filter(suburb => suburb.toLowerCase().startsWith(input));
+    const filteredSuburbs = suburbKeys.filter(suburb => suburb.toLowerCase().startsWith(input)).slice(0, 10);
     suggestionsPanel.innerHTML = '';
 
     if (filteredSuburbs.length > 0) {
       filteredSuburbs.forEach(suburb => {
-        const a = document.createElement('a');
-        a.href = '#';
+        const div = document.createElement('div');
         const state = suburbs[suburb].state;
         const displayName = toTitleCase(suburb.replace(/-/g, ' '));
-        a.textContent = `${displayName}, ${state}`;
-        a.className = 'block p-4 cursor-pointer transition-all hover:bg-base-200 hover:text-primary hover:translate-x-1 font-medium border-b border-base-200 last:border-b-0';
-        a.onclick = (e) => {
-          e.preventDefault();
+        
+        div.innerHTML = `
+          <div class="px-4 py-3 cursor-pointer hover:bg-base-200 transition-colors border-b border-base-200 last:border-none">
+            <p class="font-medium text-secondary">${displayName}</p>
+            <p class="text-xs text-base-content/50 uppercase">${state}</p>
+          </div>
+        `;
+        
+        div.onclick = () => {
           showServicesForSuburb(suburb);
         };
-        suggestionsPanel.appendChild(a);
+        suggestionsPanel.appendChild(div);
       });
       suggestionsPanel.classList.remove('hidden');
     } else {
@@ -357,12 +540,12 @@ const description = "Your local NDIS provider in Sydney & Melbourne for SIL & SD
   }
 
   function toTitleCase(str: string) {
-    return str.replace(/\w\S*/g, (txt: string) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
+    return str.replace(/\w\S*/g, (txt: string) => txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase());
   }
 
   function showServicesForSuburb(suburbKey: string) {
     const displayName = toTitleCase(suburbKey.replace(/-/g, ' '));
-    modalTitle.textContent = `Available Services in ${displayName}`;
+    modalTitle.textContent = `Services in ${displayName}`;
     modalServiceList.innerHTML = '';
 
     services.forEach(service => {
@@ -370,7 +553,7 @@ const description = "Your local NDIS provider in Sydney & Melbourne for SIL & SD
       const a = document.createElement('a');
       a.href = `/services/${service.slug}/${suburbKey}`;
       a.textContent = service.name;
-      a.className = 'block p-3 bg-base-200 rounded-lg hover:bg-primary hover:text-primary-content font-medium transition-all hover:-translate-y-0.5';
+      a.className = 'block p-3 bg-base-100 border border-base-200 rounded-lg hover:border-primary hover:text-primary hover:shadow-sm font-medium transition-all text-sm text-center sm:text-left';
       li.appendChild(a);
       modalServiceList.appendChild(li);
     });
@@ -380,6 +563,7 @@ const description = "Your local NDIS provider in Sydney & Melbourne for SIL & SD
     searchInput.value = '';
   }
 
+  if (searchInput) {
   searchInput.addEventListener('input', () => {
     const input = searchInput.value.toLowerCase();
     if (input.length > 1) {
@@ -391,10 +575,11 @@ const description = "Your local NDIS provider in Sydney & Melbourne for SIL & SD
 
   document.addEventListener('click', (e) => {
     const target = e.target as HTMLElement;
-    if (!suggestionsPanel.contains(target) && target !== searchInput) {
+      if (suggestionsPanel && !suggestionsPanel.contains(target) && target !== searchInput) {
       suggestionsPanel.classList.add('hidden');
     }
   });
+  }
 
   fetchSuburbs();
 </script>

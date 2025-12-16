@@ -4,6 +4,8 @@ description: "Your complete guide to the mandatory NDIS Worker Orientation Modul
 pubDate: 2025-07-02
 author: "Camila"
 tags: ['ndis', 'ndis worker', 'support worker', 'ndis module']
+popupTitle: "Starting Your NDIS Career?"
+popupSubtitle: "Join a team that invests in training and quality"
 image: "/assets/holdinglinen.webp"
 ---
 

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
 
 // Get all services
 const allServices = await getCollection('services');
@@ -27,163 +28,288 @@ const sortedCategories = Object.keys(servicesByCategory).sort();
 const allKeywords = allServices.flatMap(service => service.data.keywords || []);
 const uniqueKeywords = [...new Set(allKeywords)];
 const metaKeywords = uniqueKeywords.join(', ');
+
+// Page SEO
+const title = "Services | MD Home Care";
+const description = "Explore our comprehensive range of NDIS and aged care services designed to support independence and quality of life.";
 ---
 
-<BaseLayout title="Our Services | MD Home Care">
+<BaseLayout {title} {description}>
   <head slot="head">
     <meta name="keywords" content={metaKeywords} />
   </head>
 
-  <div class="max-w-7xl mx-auto px-4 py-12">
-    <!-- Header -->
-    <div class="text-center mb-12">
-      <h1 class="text-4xl font-bold text-base-content mb-4">Our Services</h1>
-      <p class="text-lg text-base-content/70 max-w-2xl mx-auto mb-8">
-        Explore our comprehensive range of care and support services designed to meet your individual needs.
-      </p>
-
-      <!-- CTA Alert -->
-      <div class="alert bg-base-200 max-w-xl mx-auto">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-primary shrink-0 w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-        </svg>
-        <span>Need Help Choosing a Service?</span>
-        <a href="/contact" class="btn btn-primary btn-sm">Talk to Our Team</a>
+  <div class="min-h-screen bg-base-200/50">
+    <!-- Hero Section -->
+    <div class="bg-base-100 border-b border-base-200 pt-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-24">
+        <div class="max-w-3xl">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/5 border border-primary/10 text-primary text-xs font-semibold tracking-wide uppercase mb-6">
+            <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+            World-Class Care
+          </div>
+          <h1 class="text-5xl lg:text-7xl font-bold tracking-tight text-secondary mb-6 text-balance">
+            Services designed for <span class="text-primary">independence.</span>
+          </h1>
+          <p class="text-xl text-secondary/60 leading-relaxed max-w-2xl text-balance">
+            Comprehensive NDIS and aged care support tailored to your lifestyle. Navigate our offerings below to find exactly what you need.
+          </p>
+        </div>
       </div>
     </div>
 
-    <!-- Services Layout -->
-    <div class="lg:grid lg:grid-cols-[220px_1fr] lg:gap-12">
-      <!-- Category Navigation (Sidebar) -->
-      <aside class="mb-8 lg:mb-0">
-        <div class="lg:sticky lg:top-20">
-          <h2 class="text-lg font-semibold text-base-content mb-4">Categories</h2>
-          <ul class="menu bg-base-200 rounded-lg p-2">
-            {sortedCategories.map((category) => (
-              <li>
-                <a
-                  href={"#category-" + category.toLowerCase().replace(/\s+/g, '-')}
-                  class="category-link flex justify-between"
-                >
-                  <span>{category}</span>
-                  <span class="badge badge-ghost badge-sm">{servicesByCategory[category].length}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      
+      <!-- Search & Filter Bar -->
+      <div class="sticky top-28 z-30 mb-12 flex justify-center">
+        <div class="w-full max-w-6xl bg-base-100/80 backdrop-blur-xl border border-base-200 shadow-sm rounded-full p-2 flex flex-col sm:flex-row gap-2 transition-all duration-300 focus-within:ring-2 focus-within:ring-primary/20 focus-within:border-primary/50">
+          <div class="relative flex-1">
+            <Icon name="hugeicons:search-01" class="absolute left-6 top-1/2 -translate-y-1/2 w-5 h-5 text-base-content/40" />
+            <input 
+              type="text" 
+              id="service-search"
+              placeholder="Search services (e.g., 'Nursing', 'Transport', 'SIL')..." 
+              class="w-full h-12 pl-14 pr-12 bg-transparent border-none focus:outline-none text-base-content placeholder:text-base-content/40 text-lg rounded-full"
+            />
+            <button 
+              id="clear-search-input" 
+              class="hidden absolute right-4 top-1/2 -translate-y-1/2 text-base-content/40 hover:text-primary transition-colors p-1 rounded-full hover:bg-base-200"
+              aria-label="Clear search"
+            >
+              <Icon name="hugeicons:cancel-circle" class="w-5 h-5" />
+            </button>
+          </div>
+          <div class="hidden sm:flex items-center gap-2 px-6 border-l border-base-200 text-sm text-base-content/40 font-medium rounded-r-full">
+            <span id="service-count">{allServices.length}</span> Services
+          </div>
         </div>
-      </aside>
+      </div>
 
-      <!-- Service Categories -->
-      <div class="space-y-16">
-        {sortedCategories.map((category, index) => (
-          <section
-            id={"category-" + category.toLowerCase().replace(/\s+/g, '-')}
-            class="scroll-mt-24"
-          >
-            <!-- Category Header -->
-            <div class="border-b border-base-300 pb-4 mb-6">
-              <h2 class="text-2xl font-bold text-base-content">{category}</h2>
-              <p class="text-sm text-base-content/60 mt-1">
-                {servicesByCategory[category].length} services available
-              </p>
+      <div class="lg:grid lg:grid-cols-12 lg:gap-12 items-start">
+        
+        <!-- Sidebar Navigation -->
+        <aside class="hidden lg:block lg:col-span-3">
+          <nav class="sticky top-52 space-y-8">
+            <div>
+              <h3 class="text-xs font-bold text-base-content/40 uppercase tracking-widest mb-4 px-2">Categories</h3>
+              <ul class="space-y-1">
+                {sortedCategories.map((category) => (
+                  <li>
+                    <a
+                      href={"#category-" + category.toLowerCase().replace(/\s+/g, '-')}
+                      class="category-link group flex items-center justify-between px-3 py-2 rounded-lg text-sm font-medium text-base-content/60 hover:text-primary hover:bg-primary/5 transition-all duration-200"
+                      data-target={"category-" + category.toLowerCase().replace(/\s+/g, '-')}
+                    >
+                      <span>{category}</span>
+                      <span class="opacity-0 group-hover:opacity-100 transition-opacity text-primary">
+                        <Icon name="hugeicons:arrow-right-01" class="w-4 h-4" />
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
-
-            <!-- Services Grid -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
-              {servicesByCategory[category].map((service) => (
-                <article class="card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-base-200">
-                  <a href={"/services/" + service.slug} class="block group">
-                    {service.data.image && (
-                      <figure class="h-44 overflow-hidden">
-                        <img
-                          src={service.data.image}
-                          alt={service.data.title.replace('{suburb}', 'Australia')}
-                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                        />
-                      </figure>
-                    )}
-                    <div class="card-body p-5">
-                      <h3 class="card-title text-base group-hover:text-primary transition-colors">
-                        {service.data.title.replace('{suburb}', 'Australia')}
-                      </h3>
-                      <p class="text-sm text-base-content/70 line-clamp-3">
-                        {service.data.description.replace(/\{suburb\}/g, 'Australia')}
-                      </p>
-                      <div class="card-actions justify-end mt-3">
-                        <span class="link link-primary text-sm font-medium inline-flex items-center gap-1">
-                          View details
-                          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                          </svg>
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              ))}
+            
+            <div class="bg-primary/5 rounded-2xl p-6 border border-primary/10">
+              <Icon name="hugeicons:customer-support" class="w-8 h-8 text-primary mb-4" />
+              <h4 class="font-bold text-secondary mb-2">Need guidance?</h4>
+              <p class="text-sm text-secondary/60 mb-4">Our care specialists can help you build the right plan.</p>
+              <a href="/contact" class="btn btn-primary btn-sm w-full rounded-full">Contact Support</a>
             </div>
+          </nav>
+        </aside>
 
-            <!-- Category Navigation -->
-            <div class="flex flex-wrap justify-between gap-4 mt-8">
-              {index < sortedCategories.length - 1 && (
-                <a
-                  href={"#category-" + sortedCategories[index + 1].toLowerCase().replace(/\s+/g, '-')}
-                  class="btn btn-ghost btn-sm gap-2"
-                >
-                  Next: {sortedCategories[index + 1]}
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                  </svg>
+        <!-- Main Content -->
+        <main class="lg:col-span-9 space-y-20">
+          {sortedCategories.map((category) => (
+            <section
+              id={"category-" + category.toLowerCase().replace(/\s+/g, '-')}
+              class="scroll-mt-32 service-category-section"
+            >
+              <div class="flex items-end justify-between border-b border-base-200 pb-4 mb-8">
+                <div>
+                  <h2 class="text-2xl font-bold text-secondary tracking-tight">{category}</h2>
+                  <p class="text-base-content/60 mt-1">{servicesByCategory[category].length} services</p>
+                </div>
+                <a href={`/services/category/${category.toLowerCase().replace(/[&\s]+/g, '-').replace(/--+/g, '-')}`} class="hidden sm:inline-flex items-center gap-1 text-sm font-medium text-primary hover:text-primary-focus transition-colors">
+                  View Category <Icon name="hugeicons:arrow-right-01" class="w-4 h-4" />
                 </a>
-              )}
-              <a href="#" class="btn btn-ghost btn-sm gap-2 ml-auto">
-                Back to top
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
-                </svg>
-              </a>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {servicesByCategory[category].map((service) => (
+                  <a 
+                    href={"/services/" + service.slug} 
+                    class="service-card group relative bg-white rounded-2xl p-6 border border-base-200 shadow-sm hover:shadow-md hover:border-primary/20 transition-all duration-300 flex flex-col h-full"
+                    data-title={service.data.title.toLowerCase()}
+                    data-desc={service.data.description.toLowerCase()}
+                    data-keywords={service.data.keywords.join(' ').toLowerCase()}
+                  >
+                    <div class="flex items-start justify-between mb-4">
+                      <div class="w-12 h-12 rounded-xl bg-base-200 overflow-hidden border border-base-200 flex items-center justify-center text-secondary group-hover:border-primary/50 transition-colors duration-300 shrink-0">
+                        {service.data.image ? (
+                          <img src={service.data.image} alt="" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" />
+                        ) : (
+                          <Icon name="hugeicons:star" class="w-6 h-6 text-base-content/40 group-hover:text-primary transition-colors" />
+                        )}
+                      </div>
+                      <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-base-200 text-base-content/30 group-hover:bg-primary/10 group-hover:text-primary transition-colors opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 duration-300">
+                         <Icon name="hugeicons:arrow-up-right-01" class="w-4 h-4" />
+                      </span>
+                    </div>
+
+                    <h3 class="text-lg font-bold text-secondary mb-2 group-hover:text-primary transition-colors">
+                      {service.data.title.replace('{suburb}', 'Australia')}
+                    </h3>
+                    
+                    <p class="text-sm text-secondary/60 leading-relaxed mb-4 line-clamp-3 flex-1">
+                      {service.data.description.replace(/\{suburb\}/g, 'Australia')}
+                    </p>
+
+                    {service.data.quickFacts && (
+                      <div class="flex flex-wrap gap-2 mt-auto pt-4 border-t border-base-100">
+                        {service.data.quickFacts.availability && (
+                          <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-green-50 text-green-700 text-xs font-medium">
+                            <span class="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+                            {service.data.quickFacts.availability}
+                          </span>
+                        )}
+                         {service.data.quickFacts.fundingOptions && (
+                          <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-blue-50 text-blue-700 text-xs font-medium">
+                            NDIS
+                          </span>
+                        )}
+                      </div>
+                    )}
+                  </a>
+                ))}
+              </div>
+            </section>
+          ))}
+          
+          <div id="no-results" class="hidden py-12 text-center">
+            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-base-200 mb-4">
+              <Icon name="hugeicons:search-02" class="w-8 h-8 text-base-content/40" />
             </div>
-          </section>
-        ))}
+            <h3 class="text-lg font-bold text-secondary mb-2">No services found</h3>
+            <p class="text-base-content/60 max-w-md mx-auto">
+              We couldn't find any services matching your search. Try different keywords or browse the categories.
+            </p>
+            <button id="clear-search-btn" class="btn btn-outline btn-sm mt-6">Clear Search</button>
+          </div>
+        </main>
       </div>
     </div>
   </div>
 </BaseLayout>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const categoryLinks = document.querySelectorAll('.category-link');
-    const categorySections = document.querySelectorAll('section[id^="category-"]');
+  // Search Functionality
+  const searchInput = document.getElementById('service-search') as HTMLInputElement;
+  const clearSearchInputBtn = document.getElementById('clear-search-input');
+  const serviceCards = document.querySelectorAll('.service-card');
+  const categorySections = document.querySelectorAll('.service-category-section');
+  const noResults = document.getElementById('no-results');
+  const clearSearchBtn = document.getElementById('clear-search-btn');
+  const serviceCount = document.getElementById('service-count');
+  const categoryLinks = document.querySelectorAll('.category-link');
 
-    const highlightActiveCategory = () => {
-      let currentSectionId = '';
+  function filterServices() {
+    const query = searchInput.value.toLowerCase();
+    let visibleCount = 0;
 
-      categorySections.forEach(section => {
-        const sectionTop = section.getBoundingClientRect().top + window.scrollY;
-        const sectionHeight = section.getBoundingClientRect().height;
+    // Toggle clear button
+    if (query.length > 0) {
+      clearSearchInputBtn?.classList.remove('hidden');
+    } else {
+      clearSearchInputBtn?.classList.add('hidden');
+    }
 
-        if (window.scrollY >= sectionTop - 200 && window.scrollY < sectionTop + sectionHeight - 200) {
-          const id = section.getAttribute('id');
-          if (id) {
-            currentSectionId = id;
-          }
-        }
-      });
+    serviceCards.forEach(card => {
+      const title = card.getAttribute('data-title') || '';
+      const desc = card.getAttribute('data-desc') || '';
+      const keywords = card.getAttribute('data-keywords') || '';
+      const parentSection = card.closest('.service-category-section') as HTMLElement;
 
-      categoryLinks.forEach(link => {
-        link.classList.remove('active', 'bg-primary', 'text-primary-content');
-      });
+      if (title.includes(query) || desc.includes(query) || keywords.includes(query)) {
+        (card as HTMLElement).style.display = 'flex';
+        visibleCount++;
+        if (parentSection) parentSection.style.display = 'block';
+      } else {
+        (card as HTMLElement).style.display = 'none';
+      }
+    });
 
-      if (currentSectionId) {
-        const activeLink = document.querySelector(`.category-link[href="#${currentSectionId}"]`);
+    // Hide empty categories
+    categorySections.forEach(section => {
+      const visibleCards = section.querySelectorAll('.service-card[style="display: flex;"]');
+      if (visibleCards.length === 0 && query !== '') {
+        (section as HTMLElement).style.display = 'none';
+      } else if (query === '') {
+         (section as HTMLElement).style.display = 'block';
+      } else if (visibleCards.length > 0) {
+        (section as HTMLElement).style.display = 'block';
+      }
+    });
+
+    // Show/Hide No Results
+    if (visibleCount === 0) {
+      noResults?.classList.remove('hidden');
+    } else {
+      noResults?.classList.add('hidden');
+    }
+  }
+
+  searchInput?.addEventListener('input', filterServices);
+  
+  const clearSearch = () => {
+    if (searchInput) {
+      searchInput.value = '';
+      filterServices();
+      searchInput.focus();
+    }
+  };
+
+  clearSearchInputBtn?.addEventListener('click', clearSearch);
+  clearSearchBtn?.addEventListener('click', clearSearch);
+
+  // Category link click handler - Reset search
+  categoryLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      if (searchInput && searchInput.value !== '') {
+        searchInput.value = '';
+        filterServices();
+      }
+    });
+  });
+
+  // Active Navigation State
+  const observerOptions = {
+    root: null,
+    rootMargin: '-100px 0px -80% 0px', // Trigger when section is near top
+    threshold: 0
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // Remove active class from all
+        categoryLinks.forEach(link => {
+          link.classList.remove('text-primary', 'bg-primary/5', 'font-bold');
+          link.classList.add('text-base-content/60');
+        });
+
+        // Add active class to current
+        const id = entry.target.id;
+        const activeLink = document.querySelector(`.category-link[data-target="${id}"]`);
         if (activeLink) {
-          activeLink.classList.add('active', 'bg-primary', 'text-primary-content');
+          activeLink.classList.remove('text-base-content/60');
+          activeLink.classList.add('text-primary', 'bg-primary/5', 'font-bold');
         }
       }
-    };
+    });
+  }, observerOptions);
 
-    window.addEventListener('scroll', highlightActiveCategory);
-    highlightActiveCategory();
-  });
+  categorySections.forEach(section => observer.observe(section));
+
 </script>

@@ -4,6 +4,8 @@ description: "Your complete guide to NDIS support worker pay rates for July 2025
 pubDate: 2025-07-04
 author: "MD Home Care"
 tags: ["NDIS Pay Rates", "NDIS Price Guide", "Support Worker", "SCHADS Award", "NDIS Pay Rise"]
+popupTitle: "Confused About NDIS Pricing?"
+popupSubtitle: "We provide transparent rates and quality care"
 image: "/assets/carer.webp"
 ---
 

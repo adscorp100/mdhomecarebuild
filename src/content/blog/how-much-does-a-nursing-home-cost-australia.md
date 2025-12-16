@@ -4,6 +4,8 @@ description: "A complete 2025 guide to Australian nursing home costs. We break d
 pubDate: 2025-07-06
 author: "MD Home Care"
 tags: ["nursing home cost", "aged care fees", "australia", "rad", "dap", "means test", "consumer rights"]
+popupTitle: "Overwhelmed by Aged Care Fees?"
+popupSubtitle: "We can help you understand costs and plan financially"
 image: "/assets/drinkingtea.webp"
 ---
 

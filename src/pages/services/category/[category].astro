@@ -1,0 +1,156 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const allServices = await getCollection('services');
+  const uniqueCategories = [...new Set(allServices.map(s => s.data.category))];
+
+  return uniqueCategories.map(category => ({
+    params: { category: category.toLowerCase().replace(/[&\s]+/g, '-').replace(/--+/g, '-') },
+    props: { categoryName: category }
+  }));
+}
+
+function categoryToSlug(category: string): string {
+  return category.toLowerCase().replace(/[&\s]+/g, '-').replace(/--+/g, '-');
+}
+
+const { categoryName } = Astro.props;
+
+const allServices = await getCollection('services');
+const uniqueCategories = [...new Set(allServices.map(s => s.data.category))].sort();
+
+const categoryServices = allServices
+  .filter(s => s.data.category === categoryName)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const categoryDescriptions: Record<string, { description: string; longDescription: string }> = {
+  "Disability Services": {
+    description: "Comprehensive NDIS disability support services including personal care, community access, and daily living assistance.",
+    longDescription: "Our disability support services are designed to help people with disabilities live more independently and achieve their personal goals."
+  },
+  "Health Services": {
+    description: "Professional in-home health and nursing services including clinical care, medication management, and wound care.",
+    longDescription: "Our health services bring professional clinical care into your home."
+  },
+  "Daily Living Support": {
+    description: "Assistance with everyday tasks to help you maintain independence at home.",
+    longDescription: "Daily living support helps you maintain your independence and quality of life."
+  },
+  "Allied Health": {
+    description: "Allied health services including physiotherapy, occupational therapy, speech pathology, and podiatry.",
+    longDescription: "Our allied health services provide specialist therapeutic support."
+  },
+  "Aged Care": {
+    description: "Comprehensive aged care services for seniors, including home care packages, respite care, and companionship services.",
+    longDescription: "Our aged care services support older Australians to live independently."
+  },
+  "Home Support": {
+    description: "Domestic assistance and home support services including cleaning, laundry, shopping, and meal preparation.",
+    longDescription: "Our home support services help you maintain a safe home."
+  },
+  "Community Services": {
+    description: "Community access and participation support to help you stay connected.",
+    longDescription: "Community participation is essential for wellbeing."
+  },
+  "Caregiver Support": {
+    description: "Respite care and support services for carers.",
+    longDescription: "We understand the demands of being a carer."
+  },
+  "Supported Living": {
+    description: "Supported Independent Living (SIL) and accommodation services.",
+    longDescription: "Our SIL services help people live as independently as possible."
+  },
+  "Home Maintenance": {
+    description: "Light home maintenance services including gardening and minor repairs.",
+    longDescription: "A well-maintained home is a safe home."
+  },
+  "Assistive Technology": {
+    description: "Assistive technology assessment, supply, and training.",
+    longDescription: "Assistive technology can transform your daily life."
+  }
+};
+
+const categoryInfo = categoryDescriptions[categoryName] || {
+  description: "Explore our services and find the right support for your needs.",
+  longDescription: "Our services are designed to meet your individual needs and goals."
+};
+
+const title = categoryName + " Services";
+const description = categoryInfo.description;
+
+const otherCategories = uniqueCategories.filter(cat => cat !== categoryName);
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="max-w-6xl mx-auto px-4 py-12">
+    <nav class="text-sm mb-8" aria-label="Breadcrumb">
+      <ol class="flex items-center gap-2">
+        <li><a href="/" class="text-primary hover:underline">Home</a></li>
+        <li><span class="text-base-content/40">/</span></li>
+        <li><a href="/services" class="text-primary hover:underline">Services</a></li>
+        <li><span class="text-base-content/40">/</span></li>
+        <li class="text-base-content/70">{categoryName}</li>
+      </ol>
+    </nav>
+
+    <header class="mb-12">
+      <h1 class="text-4xl font-bold text-base-content mb-4">{categoryName} Services</h1>
+      <p class="text-lg text-base-content/70 max-w-3xl mb-6">
+        {categoryInfo.longDescription}
+      </p>
+
+      <div class="flex flex-wrap gap-4 mb-6">
+        <div class="badge badge-lg badge-primary">{categoryServices.length} Services Available</div>
+        <div class="badge badge-lg badge-outline">NDIS Registered Provider</div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="/contact" class="btn btn-primary">Get a Free Consultation</a>
+        <a href="tel:+61863869999" class="btn btn-outline">Call 08 6386 9999</a>
+      </div>
+    </header>
+
+    <section>
+      <h2 class="text-2xl font-bold text-base-content mb-6">Our {categoryName} Services</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {categoryServices.map((service) => (
+          <article class="card bg-base-100 shadow-lg border border-base-200">
+            <a href={'/services/' + service.slug} class="block group">
+              <div class="card-body">
+                <h3 class="card-title text-lg">{service.data.title.replace(/{suburb}/g, '').trim()}</h3>
+                <p class="text-base-content/70 text-sm line-clamp-2">{service.data.description.replace(/{suburb}/g, '').trim()}</p>
+                <div class="card-actions justify-end mt-4">
+                  <span class="text-primary text-sm font-medium">Learn More</span>
+                </div>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="mt-16 pt-12 border-t border-base-300">
+      <h2 class="text-2xl font-bold text-base-content mb-6">Explore Other Categories</h2>
+      <div class="flex flex-wrap gap-3">
+        {otherCategories.map((cat) => (
+          <a href={'/services/category/' + categoryToSlug(cat)} class="btn btn-outline btn-sm">{cat}</a>
+        ))}
+        <a href="/services" class="btn btn-ghost btn-sm">View All Services</a>
+      </div>
+    </section>
+
+    <section class="mt-16 bg-primary text-primary-content rounded-box p-8 text-center">
+      <h2 class="text-2xl font-bold mb-4">Ready to Get Started?</h2>
+      <p class="mb-6 text-primary-content/90 max-w-2xl mx-auto">
+        Get a free, no-obligation consultation today.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/contact" class="btn bg-white text-primary hover:bg-white/90">Book Free Consultation</a>
+        <a href="tel:+61863869999" class="btn btn-outline border-white text-white hover:bg-white hover:text-primary">Call 08 6386 9999</a>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

@@ -1,11 +1,17 @@
 ---
-title: "Specialist Disability Accommodation (SDA) in {suburb}"
+title: "Specialist Disability Accommodation in {suburb}"
 description: "NDIS-approved Specialist Disability Accommodation in {suburb} designed for individuals with extreme functional impairment or very high support needs. Our SDA properties provide accessible, safe, and tailored living environments to enhance independence and quality of life."
 pubDate: 2024-07-23
 category: "Accommodation"
 image: "/assets/homecare.webp"
 
 keywords: []
+quickFacts:
+  costRange: "Varies by support level (NDIS funded)"
+  fundingOptions: "NDIS Core Supports - Assistance with Daily Life"
+  availability: "24/7 supported living"
+  serviceHours: "Round-the-clock support available"
+  waitTime: "Intake assessment required, 2-4 weeks"
 ---
 
 ## NDIS Specialist Disability Accommodation in {suburb}

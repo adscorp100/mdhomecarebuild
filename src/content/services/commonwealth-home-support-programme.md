@@ -1,11 +1,17 @@
 ---
-title: "Commonwealth Home Support Programme (CHSP) in {suburb}"
+title: "CHSP Services in {suburb}"
 description: "Connecting older residents in {suburb} with entry-level support services through the Commonwealth Home Support Programme to help maintain independence at home."
 pubDate: 2025-02-23
 category: "Aged Care"
 image: "/assets/grandma.webp"
 
 keywords: []
+quickFacts:
+  costRange: "$45-$65/hour (subsidised rates for eligible clients)"
+  fundingOptions: "Home Care Packages, CHSP, DVA, Private"
+  availability: "Monday to Saturday"
+  serviceHours: "Regular weekly or fortnightly scheduling"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## What is the Commonwealth Home Support Programme in {suburb}?

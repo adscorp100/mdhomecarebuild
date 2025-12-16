@@ -1,11 +1,17 @@
 ---
-title: "Health & Therapy Coordination Services in {suburb}"
+title: "Health Coordination Services in {suburb}"
 description: "Professional coordination of allied health and therapy services for individuals with disability in {suburb}. Expert assistance scheduling appointments, managing therapy programs, and integrating health supports."
 pubDate: 2025-06-18
 category: "Disability Services"
 image: "/assets/physio.webp"
 
 keywords: []
+quickFacts:
+  costRange: "$100-$190/hour (NDIS price guide)"
+  fundingOptions: "NDIS Capacity Building - Support Coordination"
+  availability: "Weekdays"
+  serviceHours: "Business hours with flexible appointments"
+  waitTime: "Usually within 1 week"
 ---
 
 # Health & Therapy Coordination Services {suburb}

@@ -1,5 +1,5 @@
 ---
-title: "Managed Meal Delivery for NDIS & Aged Care in {suburb}"
+title: "Meal Delivery Services in {suburb}"
 description: "Stop stressing about meal delivery. We find and manage the perfect dietitian-approved meal provider for you in {suburb}, and handle all the NDIS & Home Care Package admin. The easy way to get delicious, healthy meals."
 pubDate: 2025-07-02
 category: "Support Services"
@@ -9,6 +9,12 @@ keywords:
   - "NDIS meal providers {suburb}"
   - "HCP meal providers"
   - "home delivered meals"
+quickFacts:
+  costRange: "$15-$25 per meal (subsidised rates available)"
+  fundingOptions: "Home Care Packages, CHSP, DVA, Private"
+  availability: "Daily delivery available"
+  serviceHours: "Lunch and dinner options"
+  waitTime: "Start within 1 week"
 ---
 
 ## Stop Worrying About Meals. Get the Perfect, Funded Meal Plan, Managed For You.

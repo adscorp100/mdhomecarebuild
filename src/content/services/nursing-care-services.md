@@ -1,10 +1,16 @@
 ---
-title: "Trusted In-Home Nursing Care Services in {suburb}"
+title: "In-Home Nursing Care in {suburb}"
 description: "Need professional nursing care at home in {suburb}? Our registered nurses provide compassionate, hospital-quality medical care, including wound management, medication support, and 24-hour care, all in the comfort of your own home."
 pubDate: 2025-05-16
 category: "Health & Medical Care"
 image: "/assets/nurse.webp"
 keywords: ["home nursing care {suburb}", "in-home nursing {suburb}", "registered nurse home visit {suburb}", "24 hour nursing care {suburb}"]
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # Hospital-Quality Nursing Care, in the Comfort of Your {suburb} Home

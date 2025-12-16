@@ -4,6 +4,8 @@ description: "Worried about aged care costs with no assets? This guide explains 
 pubDate: 2025-07-02
 author: "MD Home Care"
 tags: ["aged care for pensioners with no assets", "aged care fees", "government funded aged care"]
+popupTitle: "Worried About Affording Care?"
+popupSubtitle: "We can help you access government-funded support"
 image: "/assets/grandma.webp"
 ---
 

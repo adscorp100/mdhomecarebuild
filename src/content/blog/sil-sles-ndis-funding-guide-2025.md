@@ -4,6 +4,8 @@ description: "Complete guide to SIL and SLES NDIS funding 2025: Learn eligibilit
 pubDate: 2025-01-15
 author: "Camila"
 tags: ["SIL NDIS", "SLES", "Supported Independent Living", "NDIS Funding", "Disability Accommodation"]
+popupTitle: "Exploring Independent Living Options?"
+popupSubtitle: "We can help you access SIL and SLES funding"
 image: "/assets/accessible bathroom.webp"
 ---
 

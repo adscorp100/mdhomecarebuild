@@ -1,11 +1,17 @@
 ---
-title: "Choosing Your Home Care Package Provider in {suburb} | The MD Home Care Difference"
+title: "Home Care Packages in {suburb}"
 description: "Tired of high fees and poor service? See why families in {suburb} are switching to MD Home Care. We offer low fees, exceptional carers, and a dedicated Care Manager to help you get the most from your funds."
 pubDate: 2025-07-04
 category: "Services"
 image: "/assets/grandmawhite.webp"
 keywords: ["home care package provider {suburb}", "low fee home care provider", "compare home care packages", "switch home care provider"]
 author: "MD Home Care Team"
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # Are You Getting the Most Out of Your Home Care Package?

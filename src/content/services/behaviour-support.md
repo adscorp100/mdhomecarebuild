@@ -1,10 +1,16 @@
 ---
-title: "NDIS Behaviour Support in {suburb}: A Compassionate Approach"
+title: "NDIS Behaviour Support in {suburb}"
 description: "Feeling overwhelmed? Our Positive Behaviour Support (PBS) services in {suburb} focus on understanding needs, not just managing behaviour. A compassionate approach for NDIS participants."
 pubDate: 2025-05-03
 category: "Disability Services"
 image: "/assets/downs.webp"
 keywords: ["ndis behaviour support", "positive behaviour support", "pbs", "challenging behaviour", "disability support"]
+quickFacts:
+  costRange: "$150-$214/hour (NDIS price guide)"
+  fundingOptions: "NDIS Capacity Building"
+  availability: "By appointment"
+  serviceHours: "Weekdays with some evening availability"
+  waitTime: "2-4 weeks for initial assessment"
 ---
 
 ## Positive Behaviour Support in {suburb}: Creating a Safer, Happier Future.

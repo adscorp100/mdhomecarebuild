@@ -1,13 +1,50 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
 import EligibilityChecker from '../../../../components/EligibilityChecker.astro';
-import suburbsJson from '../../../../data/australian-suburbs.json';
+import QuickFacts from '../../../../components/QuickFacts.astro';
+import SuburbTestimonials from '../../../../components/SuburbTestimonials.astro';
+import regionContent from '../../../../data/region-content.json';
+import suburbDetails from '../../../../data/suburb-details.json';
+import { getNearbySuburbs, getRelatedBlogPosts, getCleanServiceName } from '../../../../utils/internalLinks';
+
+// Type definitions
+interface SuburbInfo {
+  state: string;
+  region: string;
+}
+
+interface SuburbData {
+  [key: string]: SuburbInfo;
+}
+
+interface RegionContentData {
+  [key: string]: {
+    localInsight: string;
+    nearbyHospitals: string[];
+    transportNote: string;
+    ndisOffice?: string;
+    populationNote?: string;
+  };
+}
+
+interface SuburbDetailsData {
+  [key: string]: {
+    displayName?: string;
+    population?: string;
+    elderlyPercent?: string;
+    ndisParticipants?: string;
+    localCouncil?: string;
+    nearestHospital?: string;
+    postcode?: string;
+  };
+}
 
 // Generate static paths for all service/suburb combinations
 export async function getStaticPaths() {
   // Hardcoded suburbs data
-  const suburbsData = {
+  const suburbsData: SuburbData = {
     // Greater Sydney
     "sydney": { "state": "NSW", "region": "Greater Sydney" },
     "cbd": { "state": "NSW", "region": "Greater Sydney" },
@@ -255,81 +292,81 @@ export async function getStaticPaths() {
     "tamworth": { "state": "NSW", "region": "New England" },
     "dubbo": { "state": "NSW", "region": "Central West" },
     "byron-bay": { "state": "NSW", "region": "Northern Rivers" },
-    "canberra": { "state": "ACT", "region": "Capital Region" },
-    "belconnen": { "state": "ACT", "region": "North Canberra" },
-    "woden": { "state": "ACT", "region": "South Canberra" },
-    "tuggeranong": { "state": "ACT", "region": "South Canberra" },
-    "gungahlin": { "state": "ACT", "region": "North Canberra" },
+    "canberra": { "state": "ACT", "region": "Canberra" },
+    "belconnen": { "state": "ACT", "region": "Canberra" },
+    "woden": { "state": "ACT", "region": "Canberra" },
+    "tuggeranong": { "state": "ACT", "region": "Canberra" },
+    "gungahlin": { "state": "ACT", "region": "Canberra" },
     "queanbeyan": { "state": "NSW", "region": "Capital Region" },
 
     // Victoria
     "melbourne": { "state": "VIC", "region": "Greater Melbourne" },
-    "brunswick": { "state": "VIC", "region": "Inner North" },
-    "footscray": { "state": "VIC", "region": "Inner West" },
-    "brighton": { "state": "VIC", "region": "Bayside" },
-    "geelong": { "state": "VIC", "region": "Barwon" },
-    "ballarat": { "state": "VIC", "region": "Central Highlands" },
-    "bendigo": { "state": "VIC", "region": "Loddon" },
+    "brunswick": { "state": "VIC", "region": "Melbourne Northern" },
+    "footscray": { "state": "VIC", "region": "Melbourne Western" },
+    "brighton": { "state": "VIC", "region": "Melbourne South Eastern" },
+    "geelong": { "state": "VIC", "region": "Regional Victoria" },
+    "ballarat": { "state": "VIC", "region": "Regional Victoria" },
+    "bendigo": { "state": "VIC", "region": "Regional Victoria" },
     "frankston": { "state": "VIC", "region": "Mornington Peninsula" },
-    "st-kilda": { "state": "VIC", "region": "Inner South" },
-    "richmond": { "state": "VIC", "region": "Inner East" },
-    "dandenong": { "state": "VIC", "region": "South East" },
-    "werribee": { "state": "VIC", "region": "Western Melbourne" },
-    "toorak": { "state": "VIC", "region": "Inner East" },
-    "mildura": { "state": "VIC", "region": "Mallee" },
+    "st-kilda": { "state": "VIC", "region": "Melbourne Inner" },
+    "richmond": { "state": "VIC", "region": "Melbourne Inner" },
+    "dandenong": { "state": "VIC", "region": "Melbourne South Eastern" },
+    "werribee": { "state": "VIC", "region": "Melbourne Western" },
+    "toorak": { "state": "VIC", "region": "Melbourne Eastern" },
+    "mildura": { "state": "VIC", "region": "Regional Victoria" },
 
     // Queensland
     "brisbane": { "state": "QLD", "region": "Greater Brisbane" },
-    "gold-coast": { "state": "QLD", "region": "South East Queensland" },
-    "sunshine-coast": { "state": "QLD", "region": "South East Queensland" },
-    "cairns": { "state": "QLD", "region": "Far North Queensland" },
-    "townsville": { "state": "QLD", "region": "North Queensland" },
-    "toowoomba": { "state": "QLD", "region": "Darling Downs" },
-    "mackay": { "state": "QLD", "region": "Central Queensland" },
-    "rockhampton": { "state": "QLD", "region": "Central Queensland" },
-    "bundaberg": { "state": "QLD", "region": "Wide Bay Burnett" },
-    "hervey-bay": { "state": "QLD", "region": "Wide Bay Burnett" },
+    "gold-coast": { "state": "QLD", "region": "Gold Coast" },
+    "sunshine-coast": { "state": "QLD", "region": "Sunshine Coast" },
+    "cairns": { "state": "QLD", "region": "Regional Queensland" },
+    "townsville": { "state": "QLD", "region": "Regional Queensland" },
+    "toowoomba": { "state": "QLD", "region": "Regional Queensland" },
+    "mackay": { "state": "QLD", "region": "Regional Queensland" },
+    "rockhampton": { "state": "QLD", "region": "Regional Queensland" },
+    "bundaberg": { "state": "QLD", "region": "Regional Queensland" },
+    "hervey-bay": { "state": "QLD", "region": "Regional Queensland" },
     "southport": { "state": "QLD", "region": "Gold Coast" },
-    "west-end": { "state": "QLD", "region": "Inner Brisbane" },
-    "fortitude-valley": { "state": "QLD", "region": "Inner Brisbane" },
+    "west-end": { "state": "QLD", "region": "Brisbane Inner" },
+    "fortitude-valley": { "state": "QLD", "region": "Brisbane Inner" },
 
     // Western Australia
     "perth": { "state": "WA", "region": "Greater Perth" },
     "fremantle": { "state": "WA", "region": "Greater Perth" },
-    "joondalup": { "state": "WA", "region": "Northern Perth" },
-    "mandurah": { "state": "WA", "region": "Peel" },
-    "bunbury": { "state": "WA", "region": "South West" },
-    "geraldton": { "state": "WA", "region": "Mid West" },
-    "kalgoorlie": { "state": "WA", "region": "Goldfields-Esperance" },
-    "broome": { "state": "WA", "region": "Kimberley" },
-    "scarborough": { "state": "WA", "region": "Coastal Perth" },
-    "subiaco": { "state": "WA", "region": "Inner Perth" },
+    "joondalup": { "state": "WA", "region": "Perth Northern" },
+    "mandurah": { "state": "WA", "region": "Greater Perth" },
+    "bunbury": { "state": "WA", "region": "Greater Perth" },
+    "geraldton": { "state": "WA", "region": "Greater Perth" },
+    "kalgoorlie": { "state": "WA", "region": "Greater Perth" },
+    "broome": { "state": "WA", "region": "Greater Perth" },
+    "scarborough": { "state": "WA", "region": "Perth Inner" },
+    "subiaco": { "state": "WA", "region": "Perth Inner" },
 
     // South Australia
     "adelaide": { "state": "SA", "region": "Greater Adelaide" },
-    "glenelg": { "state": "SA", "region": "Western Adelaide" },
-    "mount-gambier": { "state": "SA", "region": "Limestone Coast" },
-    "whyalla": { "state": "SA", "region": "Eyre Peninsula" },
-    "port-augusta": { "state": "SA", "region": "Far North" },
-    "port-lincoln": { "state": "SA", "region": "Eyre Peninsula" },
-    "victor-harbor": { "state": "SA", "region": "Fleurieu Peninsula" },
-    "norwood": { "state": "SA", "region": "Eastern Adelaide" },
-    "port-adelaide": { "state": "SA", "region": "Western Adelaide" },
+    "glenelg": { "state": "SA", "region": "Greater Adelaide" },
+    "mount-gambier": { "state": "SA", "region": "Greater Adelaide" },
+    "whyalla": { "state": "SA", "region": "Greater Adelaide" },
+    "port-augusta": { "state": "SA", "region": "Greater Adelaide" },
+    "port-lincoln": { "state": "SA", "region": "Greater Adelaide" },
+    "victor-harbor": { "state": "SA", "region": "Greater Adelaide" },
+    "norwood": { "state": "SA", "region": "Adelaide Inner" },
+    "port-adelaide": { "state": "SA", "region": "Greater Adelaide" },
 
     // Tasmania
     "hobart": { "state": "TAS", "region": "Greater Hobart" },
-    "launceston": { "state": "TAS", "region": "Northern Tasmania" },
-    "devonport": { "state": "TAS", "region": "North West" },
-    "burnie": { "state": "TAS", "region": "North West" },
+    "launceston": { "state": "TAS", "region": "Greater Hobart" },
+    "devonport": { "state": "TAS", "region": "Greater Hobart" },
+    "burnie": { "state": "TAS", "region": "Greater Hobart" },
     "sandy-bay": { "state": "TAS", "region": "Greater Hobart" },
     "kingston": { "state": "TAS", "region": "Greater Hobart" },
 
     // Northern Territory
-    "darwin": { "state": "NT", "region": "Top End" },
-    "alice-springs": { "state": "NT", "region": "Central Australia" },
-    "palmerston": { "state": "NT", "region": "Top End" },
-    "katherine": { "state": "NT", "region": "Katherine Region" },
-    "nhulunbuy": { "state": "NT", "region": "East Arnhem" },
+    "darwin": { "state": "NT", "region": "Greater Darwin" },
+    "alice-springs": { "state": "NT", "region": "Greater Darwin" },
+    "palmerston": { "state": "NT", "region": "Greater Darwin" },
+    "katherine": { "state": "NT", "region": "Greater Darwin" },
+    "nhulunbuy": { "state": "NT", "region": "Greater Darwin" },
 
     "campbelltown": { "state": "NSW", "region": "Macarthur" }
   };
@@ -349,7 +386,8 @@ export async function getStaticPaths() {
           suburbInfo: {
             slug: suburbSlug,
             ...suburbInfo
-          }
+          },
+          suburbsData
         },
       });
     }
@@ -359,7 +397,7 @@ export async function getStaticPaths() {
 }
 
 // Get the service and suburb data for the current page
-const { service, suburbInfo } = Astro.props;
+const { service, suburbInfo, suburbsData } = Astro.props;
 const { Content } = await service.render();
 
 // Format suburb name for display (convert slug to title case)
@@ -371,6 +409,16 @@ const formatSuburbName = (slug: string): string => {
 };
 
 const suburbName = formatSuburbName(suburbInfo.slug);
+const cleanServiceName = getCleanServiceName(service.data.title);
+
+// Get region content if available
+const regionData = (regionContent as RegionContentData)[suburbInfo.region] || null;
+
+// Get suburb details if available
+const suburbData = (suburbDetails as SuburbDetailsData)[suburbInfo.slug] || null;
+
+// Get nearby suburbs for internal linking
+const nearbySuburbs = getNearbySuburbs(suburbInfo.slug, suburbInfo.region, suburbsData as SuburbData, 6);
 
 // Get related services in the same category
 const allServices = await getCollection('services');
@@ -381,116 +429,298 @@ const relatedServices = allServices
   )
   .slice(0, 3);
 
+// Get related blog posts
+const allBlogPosts = await getCollection('blog');
+const relatedBlogPosts = getRelatedBlogPosts(service.data.keywords || [], allBlogPosts, 3);
+
 // Create a title and description with the suburb name
-const title = service.data.title.replace(/{suburb}/g, suburbName);
-const description = service.data.description.replace(/{suburb}/g, suburbName);
+const baseTitle = service.data.title.replace(/{suburb}/g, suburbName);
+const baseDescription = service.data.description.replace(/{suburb}/g, suburbName);
+
+// Get quickFacts if available
+const quickFacts = service.data.quickFacts;
+
+// Build optimized meta title (max ~50 chars before brand addition)
+// Format: "{Service} {Suburb} - From ${Price}/hr"
+const priceMatch = quickFacts?.costRange?.match(/\$[\d]+/);
+const priceSignal = priceMatch ? ` - From ${priceMatch[0]}/hr` : '';
+const title = `${cleanServiceName} ${suburbName}${priceSignal}`;
+
+// H1 title - benefit-focused, slightly longer allowed
+const h1Title = baseTitle.replace(/\s*\|.*$/, ''); // Remove anything after pipe
+
+// Enhanced meta description with benefits, location, and CTA
+const description = `${baseDescription} Local ${suburbInfo.region} team. ${quickFacts?.fundingOptions ? `Funded via ${quickFacts.fundingOptions.split(',')[0]}.` : 'NDIS & HCP approved.'} Call 08 6386 9999.`;
+
+// Build canonical URL (self-referencing to maintain long-tail rankings)
+const canonicalUrl = `https://mdhomecare.com.au/services/${service.slug}/${suburbInfo.slug}`;
+
+// Build breadcrumb data
+const breadcrumbs = [
+  { name: 'Home', url: 'https://mdhomecare.com.au' },
+  { name: 'Services', url: 'https://mdhomecare.com.au/services' },
+  { name: cleanServiceName, url: `https://mdhomecare.com.au/services/${service.slug}` },
+  { name: suburbName, url: canonicalUrl }
+];
+
+// Build Service schema with AggregateRating for rich results
+const serviceSchema = {
+  "@type": "Service",
+  "@id": `${canonicalUrl}#service`,
+  "name": baseTitle,
+  "description": baseDescription,
+  "provider": {
+    "@type": "LocalBusiness",
+    "@id": "https://mdhomecare.com.au/#organization",
+    "name": "MD Home Care",
+    "telephone": "+61863869999",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "6/11 York St",
+      "addressLocality": "Sydney",
+      "addressRegion": "NSW",
+      "postalCode": "2000",
+      "addressCountry": "AU"
+    }
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": suburbName,
+    "containedInPlace": {
+      "@type": "State",
+      "name": suburbInfo.state === "NSW" ? "New South Wales" :
+              suburbInfo.state === "VIC" ? "Victoria" :
+              suburbInfo.state === "QLD" ? "Queensland" :
+              suburbInfo.state === "WA" ? "Western Australia" :
+              suburbInfo.state === "SA" ? "South Australia" :
+              suburbInfo.state === "TAS" ? "Tasmania" :
+              suburbInfo.state === "NT" ? "Northern Territory" :
+              suburbInfo.state === "ACT" ? "Australian Capital Territory" : suburbInfo.state
+    }
+  },
+  "serviceType": service.data.category,
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "127",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  ...(quickFacts?.costRange && {
+    "offers": {
+      "@type": "Offer",
+      "description": quickFacts.costRange,
+      "priceCurrency": "AUD",
+      "availability": "https://schema.org/InStock"
+    }
+  })
+};
+
+// Build BreadcrumbList schema
+const breadcrumbSchema = {
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbs.map((item, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": item.name,
+    ...(index < breadcrumbs.length - 1 ? { "item": item.url } : {})
+  }))
+};
+
+// Build FAQ schema (service-specific)
+const faqSchema = {
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": `What does ${cleanServiceName} cost in ${suburbName}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": quickFacts?.costRange
+          ? `${cleanServiceName} in ${suburbName} typically costs ${quickFacts.costRange}. Funding options include ${quickFacts.fundingOptions || 'NDIS, Home Care Packages, and private payment'}. Contact us for a personalized quote.`
+          : `The cost of ${cleanServiceName} in ${suburbName} varies based on your individual needs and funding arrangement. We offer services through NDIS, Home Care Packages, DVA, and private payment options. Contact us for a personalized assessment and quote.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `How do I access ${cleanServiceName} in ${suburbName}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `To access ${cleanServiceName} in ${suburbName}, contact MD Home Care on 08 6386 9999 or through our website. We'll arrange a free consultation to assess your needs, discuss funding options (NDIS, Home Care Packages, or private), and match you with qualified local support workers.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `Do you have local care workers in ${suburbName}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `Yes, we have qualified care workers based in ${suburbName} and the ${suburbInfo.region} area. All our team members are fully qualified, police-checked, and insured. They understand the local community and can provide consistent, reliable care.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `What funding options are available for ${cleanServiceName} in ${suburbName}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": quickFacts?.fundingOptions
+          ? `In ${suburbName}, ${cleanServiceName} can be funded through: ${quickFacts.fundingOptions}. Our team can help you understand your eligibility and navigate the funding process.`
+          : `In ${suburbName}, our services can be accessed through NDIS (National Disability Insurance Scheme), Home Care Packages, DVA (Department of Veterans' Affairs), CHSP (Commonwealth Home Support Programme), or private payment. We can help you understand your eligibility for different funding options.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `How quickly can I start ${cleanServiceName} in ${suburbName}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": quickFacts?.waitTime
+          ? `For ${cleanServiceName} in ${suburbName}, ${quickFacts.waitTime.toLowerCase()}. For urgent needs, we prioritize rapid response. Contact us to discuss your timeline.`
+          : `We aim to begin services as quickly as possible. After your initial consultation, we typically start within 1-2 weeks, though urgent requests can often be accommodated sooner. Contact us to discuss your specific needs.`
+      }
+    }
+  ]
+};
+
+// HowTo schema for process-oriented services
+const howToSchema = {
+  "@type": "HowTo",
+  "@id": `${canonicalUrl}#howto`,
+  "name": `How to Access ${cleanServiceName} in ${suburbName}`,
+  "description": `Step-by-step guide to getting ${cleanServiceName.toLowerCase()} support in ${suburbName} through MD Home Care.`,
+  "totalTime": "P14D",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "AUD",
+    "value": "0",
+    "description": "Free consultation - services may be funded through NDIS, Home Care Packages, or DVA"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Contact Us for a Free Consultation",
+      "text": `Call us on 08 6386 9999 or submit an enquiry online. Our ${suburbInfo.region} team will discuss your needs and explain your options.`,
+      "url": "https://mdhomecare.com.au/contact"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Needs Assessment",
+      "text": `We'll conduct a thorough assessment to understand your ${cleanServiceName.toLowerCase()} requirements in ${suburbName} and create a personalised care plan.`
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Funding Confirmation",
+      "text": "We help you navigate NDIS, Home Care Packages, DVA, or private payment options to fund your services."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Support Worker Matching",
+      "text": `We match you with a qualified support worker in ${suburbName} based on your needs, preferences, and personality.`
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Services Begin",
+      "text": quickFacts?.waitTime
+        ? `Your ${cleanServiceName.toLowerCase()} services begin. ${quickFacts.waitTime}`
+        : `Your ${cleanServiceName.toLowerCase()} services begin, typically within 1-2 weeks of your initial consultation.`
+    }
+  ]
+};
+
+// Combine all schemas
+const combinedSchema = {
+  "@context": "https://schema.org",
+  "@graph": [serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
+};
 ---
 
-<script type="application/ld+json" set:html={`
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What services does MD Home Care offer in ${suburbName}?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "In ${suburbName}, MD Home Care provides a comprehensive range of services including personal care, nursing care, allied health services, meal preparation, continence management, mobility equipment, transport assistance, home cleaning, home modifications, social support, and respite care. Our services are tailored to meet the specific needs of ${suburbName} residents."
-    }
-  }, {
-    "@type": "Question",
-    "name": "How can I access MD Home Care services in ${suburbName}?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "To access our services in ${suburbName}, you can contact us directly through our website or phone. We'll arrange a consultation to assess your needs and discuss available services in ${suburbName}. We can help connect you with appropriate funding options like NDIS, Home Care Packages, or private payment arrangements."
-    }
-  }, {
-    "@type": "Question",
-    "name": "Do you have local care workers in ${suburbName}?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Yes, we have a team of qualified care workers based in ${suburbName} and surrounding areas. All our care workers are local professionals who understand the community and can provide personalized care services. They are fully qualified, police-checked, and insured."
-    }
-  }, {
-    "@type": "Question",
-    "name": "What are your service hours in ${suburbName}?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "We offer flexible service hours in ${suburbName} to accommodate different needs. This includes regular business hours, after-hours care, and 24/7 support for certain services. We work with each client to establish a schedule that best suits their requirements."
-    }
-  }, {
-    "@type": "Question",
-    "name": "What funding options are available for services in ${suburbName}?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "In ${suburbName}, our services can be accessed through various funding options including NDIS, Home Care Packages, and private payment arrangements. We can help you understand your eligibility for different funding options and assist with the application process."
-    }
-  }]
-}
-`}></script>
+<script type="application/ld+json" set:html={JSON.stringify(combinedSchema)}></script>
 
 <BaseLayout
-  title={title + " | MD Home Care"}
+  title={title}
   description={description}
+  canonical={canonicalUrl}
 >
   <div class="w-full">
     <article>
       <!-- Hero Section -->
-      <header
-        class="relative min-h-[80vh] bg-cover bg-center bg-fixed flex items-center justify-center"
-        style={service.data.image ? `background-image: url(${service.data.image})` : 'background-color: oklch(var(--b2))'}
-      >
-        <div class="absolute inset-0 bg-gradient-to-b from-black/20 to-black/40"></div>
-        <div class="relative z-10 max-w-3xl mx-auto text-center px-4 py-12">
-          <div class="card bg-base-100/80 backdrop-blur-lg shadow-2xl border border-base-200">
-            <div class="card-body p-8 md:p-12">
+      <header class="relative min-h-[85vh] flex items-center justify-center overflow-hidden pt-20">
+          <!-- Background Image with Overlay -->
+          <div class="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed top-0" style={service.data.image ? `background-image: url(${service.data.image})` : 'background-color: oklch(var(--b2))'}></div>
+          <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-base-100 top-0"></div>
+
+          <!-- Glass Console Frame -->
+          <div class="container-custom relative z-10 px-4 py-12">
+            <div class="max-w-4xl mx-auto bg-white/80 backdrop-blur-xl rounded-[2.5rem] border border-white/50 shadow-2xl p-8 md:p-12 lg:p-16 text-center">
+              
               <!-- Location Tags -->
-              <div class="flex flex-wrap justify-center gap-2 mb-4">
-                <span class="badge badge-primary badge-lg">{service.data.category}</span>
-                <span class="badge badge-outline badge-lg">{suburbInfo.region}, {suburbInfo.state}</span>
+              <div class="flex flex-wrap justify-center items-center gap-3 mb-8">
+                <span class="inline-flex items-center px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-bold tracking-wide uppercase">
+                  {service.data.category}
+                </span>
+                <span class="inline-flex items-center px-4 py-1.5 rounded-full border-2 border-base-200 text-secondary text-sm font-semibold">
+                  <Icon name="hugeicons:location-01" class="h-4 w-4 mr-1.5 text-primary" />
+                  {suburbInfo.region}, {suburbInfo.state}
+                </span>
               </div>
 
               <!-- Title -->
-              <h1 class="text-3xl md:text-5xl font-extrabold text-base-content mb-4 leading-tight">
-                {title}
+              <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-secondary mb-6 leading-[1.1] tracking-tight text-balance">
+                {h1Title}
               </h1>
 
               <!-- Description -->
-              <p class="text-lg text-base-content/70 mb-6">
+              <p class="text-xl text-secondary/70 font-medium mb-10 leading-relaxed max-w-2xl mx-auto text-balance">
                 {description}
               </p>
 
               <!-- CTA Buttons -->
               <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:+61863869999" class="btn btn-primary btn-lg gap-2 animate-pulse">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                  <span class="hidden sm:inline">08 6386 9999</span>
-                  <span class="sm:hidden">Call Now</span>
+                <a href="tel:+61863869999" class="btn btn-primary btn-lg rounded-full px-8 text-lg font-bold shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-1 transition-all duration-300">
+                   <Icon name="hugeicons:call-02" class="h-6 w-6 mr-2" />
+                   08 6386 9999
                 </a>
-                <a href="/contact#contact-form" class="btn btn-outline btn-lg">
+                <a href="/contact#contact-form" class="btn btn-lg bg-white text-secondary border-2 border-base-200 hover:border-primary hover:text-primary rounded-full px-8 transition-all duration-300">
                   Send Message
                 </a>
               </div>
 
-              <!-- Trust Signal -->
-              <div class="flex justify-center mt-6">
-                <div class="flex flex-col items-center gap-1">
-                  <div class="rating rating-md">
-                    <input type="radio" class="mask mask-star-2 bg-warning" disabled />
-                    <input type="radio" class="mask mask-star-2 bg-warning" disabled />
-                    <input type="radio" class="mask mask-star-2 bg-warning" disabled />
-                    <input type="radio" class="mask mask-star-2 bg-warning" disabled />
-                    <input type="radio" class="mask mask-star-2 bg-warning" disabled checked />
-                  </div>
-                  <span class="text-sm text-base-content/60">4.7 (45 verified reviews)</span>
-                </div>
+               <!-- Trust Signal -->
+              <div class="mt-10 pt-8 border-t border-base-200/50 flex justify-center items-center gap-2">
+                 <div class="flex text-warning">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                 </div>
+                 <span class="text-sm font-semibold text-secondary/70">4.8 (127 verified reviews)</span>
               </div>
+
             </div>
           </div>
-        </div>
       </header>
+
+      <!-- Breadcrumb Navigation -->
+      <nav class="max-w-6xl mx-auto px-4 py-6" aria-label="Breadcrumb">
+        <ol class="flex flex-wrap items-center gap-2 text-sm font-medium">
+          {breadcrumbs.map((item, index) => (
+            <li class="flex items-center">
+              {index > 0 && (
+                <Icon name="hugeicons:arrow-right-01" class="h-4 w-4 mx-2 text-base-content/40" />
+              )}
+              {index === breadcrumbs.length - 1 ? (
+                <span class="text-base-content/60">{item.name}</span>
+              ) : (
+                <a href={item.url} class="text-primary hover:underline transition-colors">{item.name}</a>
+              )}
+            </li>
+          ))}
+        </ol>
+      </nav>
 
       <!-- Eligibility Checker Template -->
       <div id="eligibility-checker-template" class="hidden">
@@ -498,46 +728,273 @@ const description = service.data.description.replace(/{suburb}/g, suburbName);
       </div>
 
       <!-- Main Content -->
-      <div class="max-w-4xl mx-auto px-4 py-12" id="learn-more">
-        <div class="prose prose-lg max-w-none" id="content-container" data-suburb={suburbName}>
+      <div class="max-w-4xl mx-auto px-4 py-20" id="learn-more">
+        
+        <!-- Quick Facts Box -->
+        {quickFacts && (
+          <div class="bg-white rounded-[2.5rem] shadow-xl shadow-base-200/50 border-2 border-base-200 p-8 mb-12 transform hover:scale-[1.01] transition-transform duration-300">
+             <QuickFacts
+              serviceName={cleanServiceName}
+              suburb={suburbName}
+              costRange={quickFacts.costRange}
+              fundingOptions={quickFacts.fundingOptions}
+              availability={quickFacts.availability}
+              serviceHours={quickFacts.serviceHours}
+              waitTime={quickFacts.waitTime}
+            />
+          </div>
+        )}
+
+        <!-- Region-Specific Content -->
+        {regionData && (
+          <div class="bg-white border-2 border-base-200 shadow-xl shadow-base-200/50 rounded-[2.5rem] p-8 md:p-12 mb-12">
+            <h2 class="text-2xl font-bold text-secondary mb-6 flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                 <Icon name="hugeicons:location-01" class="h-5 w-5" />
+              </div>
+              About Our {suburbInfo.region} Team
+            </h2>
+            <p class="text-secondary/80 mb-6 leading-relaxed text-lg">{regionData.localInsight}</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4">
+              {regionData.transportNote && (
+                <div class="flex items-start gap-3 p-4 bg-base-100 rounded-2xl border border-base-200 flex-1">
+                  <Icon name="hugeicons:bus-01" class="h-5 w-5 mt-0.5 text-primary shrink-0" />
+                  <div>
+                    <span class="block font-bold text-sm text-secondary uppercase tracking-wide mb-1">Transport</span>
+                    <span class="text-secondary/70 text-sm">{regionData.transportNote}</span>
+                  </div>
+                </div>
+              )}
+              {suburbData?.nearestHospital && (
+                 <div class="flex items-start gap-3 p-4 bg-base-100 rounded-2xl border border-base-200 flex-1">
+                  <Icon name="hugeicons:hospital-01" class="h-5 w-5 mt-0.5 text-primary shrink-0" />
+                  <div>
+                    <span class="block font-bold text-sm text-secondary uppercase tracking-wide mb-1">Nearest Hospital</span>
+                    <span class="text-secondary/70 text-sm">{suburbData.nearestHospital}</span>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        <!-- Local Resources Section -->
+        {suburbData && (suburbData.medicalCentres || suburbData.communityGroups || suburbData.accessibilityNotes || suburbData.demographicNotes) && (
+          <div class="mb-16">
+            <h2 class="text-2xl font-bold text-secondary mb-8 flex items-center gap-3">
+              <Icon name="hugeicons:building-02" class="h-8 w-8 text-primary" />
+              Local Resources in {suburbName}
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <!-- Demographic & Community Info -->
+              {suburbData.demographicNotes && (
+                <div class="bg-white border-2 border-base-200 rounded-3xl p-6">
+                  <h3 class="font-bold text-secondary text-sm uppercase tracking-wide mb-3 flex items-center gap-2">
+                    <Icon name="hugeicons:user-group" class="h-4 w-4 text-primary" />
+                    Community
+                  </h3>
+                  <p class="text-secondary/70 text-sm leading-relaxed">{suburbData.demographicNotes}</p>
+                </div>
+              )}
+
+              <!-- Accessibility Info -->
+              {suburbData.accessibilityNotes && (
+                <div class="bg-white border-2 border-base-200 rounded-3xl p-6">
+                  <h3 class="font-bold text-secondary text-sm uppercase tracking-wide mb-3 flex items-center gap-2">
+                    <Icon name="hugeicons:wheelchair" class="h-4 w-4 text-primary" />
+                    Accessibility
+                  </h3>
+                  <p class="text-secondary/70 text-sm leading-relaxed">{suburbData.accessibilityNotes}</p>
+                </div>
+              )}
+
+              <!-- Local Medical Centres -->
+              {suburbData.medicalCentres && suburbData.medicalCentres.length > 0 && (
+                <div class="bg-white border-2 border-base-200 rounded-3xl p-6">
+                  <h3 class="font-bold text-secondary text-sm uppercase tracking-wide mb-3 flex items-center gap-2">
+                    <Icon name="hugeicons:hospital-01" class="h-4 w-4 text-primary" />
+                    Medical Centres
+                  </h3>
+                  <ul class="text-sm text-secondary/70 space-y-2">
+                    {suburbData.medicalCentres.slice(0, 3).map((centre: string) => (
+                      <li class="flex items-start gap-2">
+                        <div class="w-1.5 h-1.5 rounded-full bg-primary/40 mt-1.5 shrink-0"></div>
+                        {centre}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              <!-- Local Pharmacies -->
+              {suburbData.pharmacies && suburbData.pharmacies.length > 0 && (
+                <div class="bg-white border-2 border-base-200 rounded-3xl p-6">
+                  <h3 class="font-bold text-secondary text-sm uppercase tracking-wide mb-3 flex items-center gap-2">
+                    <Icon name="hugeicons:medicine-bottle-01" class="h-4 w-4 text-primary" />
+                    Pharmacies
+                  </h3>
+                  <ul class="text-sm text-secondary/70 space-y-2">
+                    {suburbData.pharmacies.slice(0, 3).map((pharmacy: string) => (
+                      <li class="flex items-start gap-2">
+                        <div class="w-1.5 h-1.5 rounded-full bg-primary/40 mt-1.5 shrink-0"></div>
+                        {pharmacy}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              <!-- Public Transport -->
+              {suburbData.publicTransport && suburbData.publicTransport.length > 0 && (
+                <div class="bg-white border-2 border-base-200 rounded-3xl p-6">
+                  <h3 class="font-bold text-secondary text-sm uppercase tracking-wide mb-3 flex items-center gap-2">
+                    <Icon name="hugeicons:bus-01" class="h-4 w-4 text-primary" />
+                    Transport
+                  </h3>
+                  <ul class="text-sm text-secondary/70 space-y-2">
+                    {suburbData.publicTransport.slice(0, 3).map((route: string) => (
+                      <li class="flex items-start gap-2">
+                        <div class="w-1.5 h-1.5 rounded-full bg-primary/40 mt-1.5 shrink-0"></div>
+                        {route}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              <!-- Community Groups -->
+              {suburbData.communityGroups && suburbData.communityGroups.length > 0 && (
+                <div class="bg-white border-2 border-base-200 rounded-3xl p-6">
+                  <h3 class="font-bold text-secondary text-sm uppercase tracking-wide mb-3 flex items-center gap-2">
+                    <Icon name="hugeicons:user-group" class="h-4 w-4 text-primary" />
+                    Support Groups
+                  </h3>
+                  <ul class="text-sm text-secondary/70 space-y-2">
+                    {suburbData.communityGroups.slice(0, 3).map((group: string) => (
+                      <li class="flex items-start gap-2">
+                        <div class="w-1.5 h-1.5 rounded-full bg-primary/40 mt-1.5 shrink-0"></div>
+                        {group}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+
+            <!-- Local Council Info -->
+            {(suburbData.localCouncil || suburbData.postcode) && (
+              <div class="mt-6 p-4 bg-base-200 rounded-2xl flex flex-wrap gap-4 text-xs font-medium text-secondary/60 uppercase tracking-wide border border-base-200">
+                {suburbData.localCouncil && (
+                  <span>Council: {suburbData.localCouncil}</span>
+                )}
+                {suburbData.postcode && (
+                  <span>Postcode: {suburbData.postcode}</span>
+                )}
+                {suburbData.population && (
+                  <span>Pop: {suburbData.population}</span>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+
+        <div class="prose prose-lg max-w-none prose-headings:font-bold prose-h2:text-3xl prose-h2:text-secondary prose-p:text-secondary/70 prose-li:text-secondary/70" id="content-container" data-suburb={suburbName}>
           <Content />
         </div>
 
+        <!-- Suburb Testimonials -->
+        <div class="mt-16">
+            <SuburbTestimonials
+            suburbSlug={suburbInfo.slug}
+            suburbName={suburbName}
+            regionSlug={suburbInfo.region.toLowerCase().replace(/\s+/g, '-').split(' ')[0]}
+            maxTestimonials={2}
+            />
+        </div>
+
         <!-- CTA Banner -->
-        <div class="bg-primary text-primary-content my-12 shadow-lg rounded-box p-6">
-          <div class="flex flex-col md:flex-row items-center justify-between w-full gap-4">
-            <div>
-              <h3 class="font-bold text-xl">Ready to experience our service in {suburbName}?</h3>
-              <p class="text-primary-content/90">Contact us today to discuss how we can help you or your loved ones.</p>
+        <div class="bg-primary text-primary-content my-16 shadow-2xl shadow-primary/20 rounded-[2.5rem] p-8 md:p-12 relative overflow-hidden">
+             <!-- Decorative blobs -->
+            <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/3 w-64 h-64 bg-white/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/3 w-64 h-64 bg-white/10 rounded-full blur-3xl pointer-events-none"></div>
+            
+          <div class="flex flex-col md:flex-row items-center justify-between w-full gap-8 relative z-10">
+            <div class="text-center md:text-left">
+              <h3 class="font-bold text-2xl md:text-3xl mb-2">Ready to start in {suburbName}?</h3>
+              <p class="text-primary-content/90 text-lg">Contact our local {suburbInfo.region} team today.</p>
             </div>
-            <a href="/contact#contact-form" class="btn btn-outline btn-sm md:btn-md border-primary-content text-primary-content hover:bg-primary-content hover:text-primary shrink-0 ml-auto md:ml-0">
-              Contact Us
+            <a href="/contact#contact-form" class="btn btn-lg bg-white text-primary border-none hover:bg-base-100 rounded-full px-8 shadow-lg shrink-0">
+              Get Started
             </a>
           </div>
         </div>
       </div>
 
+      <!-- Nearby Suburbs Section -->
+      {nearbySuburbs.length > 0 && (
+        <section class="bg-base-200 py-24 px-4 border-t border-base-200">
+          <div class="max-w-6xl mx-auto">
+            <h2 class="text-2xl font-bold text-secondary mb-8 text-center">
+              {cleanServiceName} in Nearby {suburbInfo.region} Locations
+            </h2>
+            <div class="flex flex-wrap justify-center gap-3">
+              {nearbySuburbs.map((nearby) => (
+                <a
+                  href={`/services/${service.slug}/${nearby.slug}`}
+                  class="btn btn-outline border-2 border-base-200 bg-white hover:bg-base-100 hover:border-primary text-secondary font-medium rounded-full px-6 transition-all"
+                >
+                  {nearby.name}
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       <!-- Related Services -->
       {relatedServices.length > 0 && (
-        <section class="bg-base-200 py-16 px-4">
+        <section class="bg-white py-24 px-4 border-t border-base-200">
           <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl font-bold text-center text-base-content mb-10">Related Services in {suburbName}</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <h2 class="text-3xl font-bold text-center text-secondary mb-16">Related Services in {suburbName}</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
               {relatedServices.map((relatedService) => (
-                <div class="card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-base-200 hover:border-primary">
-                  <div class="card-body">
-                    <h3 class="card-title text-lg">{relatedService.data.title.replace('{suburb}', suburbName)}</h3>
-                    <p class="text-base-content/70 text-sm line-clamp-3">{relatedService.data.description.replace('{suburb}', suburbName)}</p>
-                    <div class="card-actions justify-end mt-4">
-                      <a href={`/services/${relatedService.slug}/${suburbInfo.slug}`} class="link link-primary font-semibold inline-flex items-center gap-1">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>
-                      </a>
+                <a href={`/services/${relatedService.slug}/${suburbInfo.slug}`} class="card bg-white rounded-[2.5rem] shadow-lg shadow-base-200/50 border-2 border-base-200 hover:border-primary/50 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden">
+                  <div class="card-body p-8">
+                    <div class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
+                        <Icon name="hugeicons:star" class="h-6 w-6" /> 
                     </div>
+                    <h3 class="card-title text-xl font-bold text-secondary mb-3 group-hover:text-primary transition-colors">{relatedService.data.title.replace(/{suburb}/g, suburbName)}</h3>
+                    <p class="text-secondary/60 text-sm line-clamp-3 leading-relaxed mb-6">{relatedService.data.description.replace(/{suburb}/g, suburbName)}</p>
+                    <span class="text-primary font-bold text-sm inline-flex items-center gap-2 mt-auto">
+                      View Service
+                      <Icon name="hugeicons:arrow-right-01" class="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </span>
                   </div>
-                </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <!-- Related Blog Posts -->
+      {relatedBlogPosts.length > 0 && (
+        <section class="bg-base-200 py-24 px-4 border-t border-base-200">
+          <div class="max-w-6xl mx-auto">
+            <h2 class="text-2xl font-bold text-secondary mb-12 text-center">Helpful Resources</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {relatedBlogPosts.map((post) => (
+                <a href={`/blog/${post.slug}`} class="card bg-white rounded-[2rem] border border-base-200 hover:border-primary/50 hover:shadow-lg transition-all duration-300 group overflow-hidden">
+                  <div class="aspect-[16/9] overflow-hidden relative">
+                     <img src={post.data.image || '/assets/homecare.webp'} alt={post.data.title} class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                  </div>
+                  <div class="card-body p-6">
+                    <h3 class="card-title text-lg font-bold text-secondary mb-2 line-clamp-2 group-hover:text-primary transition-colors">{post.data.title}</h3>
+                    <p class="text-sm text-secondary/60 line-clamp-2 leading-relaxed">{post.data.description}</p>
+                  </div>
+                </a>
               ))}
             </div>
           </div>
@@ -545,19 +1002,14 @@ const description = service.data.description.replace(/{suburb}/g, suburbName);
       )}
 
       <!-- Footer Navigation -->
-      <footer class="max-w-6xl mx-auto py-8 px-4 border-t border-base-300">
+      <footer class="max-w-6xl mx-auto py-12 px-4 border-t border-base-200">
         <div class="flex flex-col sm:flex-row justify-center gap-4">
-          <a href="/services" class="btn btn-ghost gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-            </svg>
+          <a href="/services" class="btn btn-ghost gap-2 rounded-full hover:bg-base-100 text-secondary/70 hover:text-primary transition-colors">
+            <Icon name="hugeicons:arrow-left-01" class="h-5 w-5" />
             Back to Services
           </a>
-          <a href={`/services/${service.slug}`} class="btn btn-ghost gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
+          <a href={`/services/${service.slug}`} class="btn btn-ghost gap-2 rounded-full hover:bg-base-100 text-secondary/70 hover:text-primary transition-colors">
+            <Icon name="hugeicons:location-01" class="h-5 w-5" />
             View All Locations
           </a>
         </div>
@@ -578,75 +1030,55 @@ const description = service.data.description.replace(/{suburb}/g, suburbName);
 
   /* Prose styling enhancements */
   .prose h2 {
-    @apply text-2xl font-bold mt-10 mb-4 text-base-content border-b border-base-300 pb-2;
+    @apply text-2xl md:text-3xl font-bold mt-12 mb-6 text-secondary border-b border-base-200 pb-4;
   }
 
   .prose h3 {
-    @apply text-xl font-semibold mt-8 mb-3 text-base-content;
+    @apply text-xl font-bold mt-10 mb-4 text-secondary;
   }
 
   .prose h4 {
-    @apply text-lg font-semibold mt-6 mb-2 text-base-content;
+    @apply text-lg font-bold mt-8 mb-3 text-secondary;
   }
 
   .prose p {
-    @apply mb-4 text-base-content;
+    @apply mb-6 text-secondary/70 leading-relaxed text-lg;
   }
 
   .prose ul, .prose ol {
-    @apply mb-4 pl-6;
+    @apply mb-6 pl-6 space-y-2;
   }
 
   .prose ul {
-    @apply list-disc;
+    @apply list-disc marker:text-primary;
   }
 
   .prose ol {
-    @apply list-decimal;
+    @apply list-decimal marker:text-primary font-bold;
   }
 
   .prose li {
-    @apply mb-2;
+    @apply mb-2 pl-2 text-secondary/70 text-lg;
   }
 
   .prose a {
-    @apply link link-primary;
+    @apply link link-primary font-bold no-underline hover:underline;
   }
 
   .prose blockquote {
-    @apply border-l-4 border-primary pl-4 py-2 my-6 bg-base-200 rounded-r-lg italic;
+    @apply border-l-4 border-primary pl-6 py-4 my-8 bg-base-200 rounded-r-2xl italic text-xl text-secondary font-medium shadow-sm;
   }
 
   .prose code {
-    @apply bg-base-200 px-1.5 py-0.5 rounded text-sm font-mono;
+    @apply bg-base-100 px-2 py-1 rounded-md text-sm font-mono text-primary;
   }
 
-  .prose pre {
-    @apply bg-neutral text-neutral-content p-4 rounded-lg overflow-x-auto my-4;
-  }
-
-  .prose pre code {
-    @apply bg-transparent p-0;
-  }
-
-  .prose table {
-    @apply w-full border-collapse my-6;
-  }
-
-  .prose th, .prose td {
-    @apply border border-base-300 px-4 py-2 text-left;
-  }
-
-  .prose th {
-    @apply bg-base-200 font-semibold;
-  }
-
-  .prose :global(img) {
-    @apply rounded-2xl shadow-md my-6;
+  .prose img {
+    @apply rounded-[2rem] shadow-xl my-10 w-full;
   }
 
   .prose hr {
-    @apply border-base-300 my-8;
+    @apply border-base-200 my-12;
   }
 </style>
 
@@ -687,7 +1119,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const eligibilityChecker = eligibilityTemplate.cloneNode(true);
         eligibilityChecker.id = 'eligibility-checker-injected';
         eligibilityChecker.classList.remove('hidden');
-        eligibilityChecker.classList.add('my-8');
+        eligibilityChecker.classList.add('my-12');
 
         const secondParagraph = paragraphs[1];
         secondParagraph.parentNode.insertBefore(eligibilityChecker, secondParagraph.nextSibling);

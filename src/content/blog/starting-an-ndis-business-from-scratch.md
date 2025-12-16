@@ -4,6 +4,8 @@ description: "Complete guide to starting an NDIS business in 2025. Learn the ess
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
+popupTitle: "Thinking of Starting an NDIS Business?"
+popupSubtitle: "Get expert guidance on compliance and setup"
 image: "/assets/sydney.webp"
 ---
 

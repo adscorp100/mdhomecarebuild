@@ -4,6 +4,8 @@ description: "Explore whether being a support worker is worth it in 2025. Honest
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
+popupTitle: "Considering a Career in Support Work?"
+popupSubtitle: "Let us help you understand the realities and opportunities"
 image: "/assets/disabled carer.webp"
 ---
 

@@ -1,11 +1,17 @@
 ---
-title: "Minor Home Repairs for Aged Care in {suburb}"
+title: "Minor Home Repairs in {suburb}"
 description: "Professional minor home repair services for seniors in {suburb}. Our experienced handymen provide safe, reliable solutions for small household repairs to maintain a safe and comfortable living environment."
 pubDate: 2025-04-10
 category: "Home Maintenance"
 image: "/assets/homecare.webp"
 
 keywords: []
+quickFacts:
+  costRange: "$45-$65/hour (subsidised rates for eligible clients)"
+  fundingOptions: "Home Care Packages, CHSP, DVA, Private"
+  availability: "Monday to Saturday"
+  serviceHours: "Regular weekly or fortnightly scheduling"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## Minor Home Repairs for Aged Care in {suburb}

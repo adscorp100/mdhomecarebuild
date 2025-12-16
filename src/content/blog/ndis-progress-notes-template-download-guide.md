@@ -4,7 +4,9 @@ description: "Download our free NDIS progress notes template for 2025. Learn the
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "progress-notes", "template", "documentation", "SOAP"]
-image: "/assets/ndis-provider-melbourne.webp"
+popupTitle: "Looking for Professional Documentation?"
+popupSubtitle: "Our support workers maintain detailed, compliant records"
+image: "/assets/physio.webp"
 ---
 
 ## NDIS Progress Notes Template: Key Points

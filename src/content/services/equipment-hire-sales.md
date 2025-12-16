@@ -1,11 +1,17 @@
 ---
-title: "Specialist Equipment Hire & Sales in {suburb}"
+title: "Equipment Hire & Sales in {suburb}"
 description: "Connecting residents in {suburb} with quality equipment hire and sales providers for mobility aids, daily living equipment, and short-term disability and aged care needs."
 pubDate: 2025-02-23
 category: "Support Services"
 image: "/assets/wheelchair.webp"
 
 keywords: []
+quickFacts:
+  costRange: "From $15/day or $50/week (varies by item)"
+  fundingOptions: "NDIS Assistive Technology, Home Care Packages, Private"
+  availability: "Same-day delivery available"
+  serviceHours: "Delivery Monday-Saturday"
+  waitTime: "Same-day for urgent needs"
 ---
 
 ## Specialist Equipment Hire & Sales in {suburb}
