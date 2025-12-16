@@ -2,6 +2,8 @@
 // Import global styles (Tailwind CSS 4 + DaisyUI 5)
 import '../styles/global.css';
 import { Icon } from 'astro-icon/components';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 
 // Define the props interface
 interface Props {
@@ -35,26 +37,9 @@ const title = rawTitle.includes("MD Home Care") || rawTitle.includes("MD Homecar
     ? rawTitle + brandSuffix
     : rawTitle;
 
-// Import getCollection to fetch blog posts
-import { getCollection } from 'astro:content';
 import { SEO } from 'astro-seo';
 // Import PostHog component
 import PostHog from '../components/posthog.astro';
-
-// Get blog posts, sort by date, and take the 5 most recent
-const allBlogPosts = await getCollection('blog');
-const recentBlogPosts = allBlogPosts
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 5);
-
-// Format dates for display
-function formatDate(date: Date): string {
-  return new Intl.DateTimeFormat('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  }).format(date);
-}
 
 // Generate JSON-LD structured data for organization
 const organizationSchema = {
@@ -216,308 +201,104 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
     <!-- PostHog Analytics -->
     <PostHog />
   </head>
-  <body class="min-h-screen bg-base-100">
+  <body class="min-h-screen bg-base-100 selection:bg-primary/20 selection:text-primary">
+    
     <!-- DaisyUI Navbar with Drawer for Mobile -->
-    <div class="drawer">
+    <div class="drawer drawer-end">
       <input id="mobile-drawer" type="checkbox" class="drawer-toggle" />
 
-      <div class="drawer-content flex flex-col">
-        <!-- Navbar -->
-        <header class="navbar bg-secondary text-secondary-content sticky top-0 z-50 px-4 lg:px-8 min-h-16">
-          <!-- Mobile/Tablet: Menu button on left -->
-          <div class="navbar-start">
-            <label for="mobile-drawer" class="btn btn-ghost btn-sm btn-square lg:hidden" aria-label="Open menu">
-              <Icon name="hugeicons:menu-02" class="h-5 w-5" />
-            </label>
-
-            <!-- Desktop Logo (lg and up) -->
-            <a href="/" class="hidden lg:flex items-center gap-3 hover:opacity-90 transition-opacity">
-              <img src="/assets/logo.svg" alt="MD Homecare Logo" class="h-9 w-auto flex-shrink-0" />
-              <div class="flex flex-col">
-                <span class="text-lg font-bold text-info leading-tight whitespace-nowrap">MD Homecare</span>
-                <span class="text-xs text-secondary-content/70 leading-tight whitespace-nowrap">Empowering Independence</span>
-              </div>
-            </a>
-          </div>
-
-          <!-- Mobile/Tablet: Centered Logo -->
-          <div class="navbar-center lg:hidden">
-            <a href="/" class="flex items-center gap-2 hover:opacity-90 transition-opacity">
-              <img src="/assets/logo.svg" alt="MD Homecare Logo" class="h-8 w-auto flex-shrink-0" />
-              <span class="text-base font-bold text-info whitespace-nowrap">MD Homecare</span>
-            </a>
-          </div>
-
-          <!-- Desktop Navigation (lg and up) -->
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1 gap-1">
-              <li><a href="/" class="font-medium hover:text-info">Home</a></li>
-
-              <!-- Services Dropdown -->
-              <li>
-                <div class="dropdown dropdown-hover dropdown-bottom">
-                  <div tabindex="0" role="button" class="font-medium hover:text-info flex items-center gap-1 cursor-pointer">
-                    Services
-                    <Icon name="hugeicons:arrow-down-01" class="h-4 w-4" />
-                  </div>
-                  <div tabindex="0" class="dropdown-content z-[100] bg-base-100 shadow-2xl rounded-box w-[700px] p-0 mt-0 left-1/2 -translate-x-1/2">
-                    <div class="grid grid-cols-4 gap-0">
-                      <!-- Personal Support -->
-                      <div class="p-5 border-r border-base-200">
-                        <h4 class="font-semibold text-primary mb-3 text-sm">Personal Support</h4>
-                        <div class="flex flex-col gap-0.5">
-                          <a href="/services/disability-services" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Disability Services</a>
-                          <a href="/services/personal-care" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Personal Care</a>
-                          <a href="/services/clinical-care" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Clinical Care</a>
-                          <a href="/services/support-workers" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Support Workers</a>
-                        </div>
-                      </div>
-
-                      <!-- Home & Living -->
-                      <div class="p-5 border-r border-base-200">
-                        <h4 class="font-semibold text-primary mb-3 text-sm">Home & Living</h4>
-                        <div class="flex flex-col gap-0.5">
-                          <a href="/services/domestic-assistance" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Domestic Assistance</a>
-                          <a href="/services/sil-services" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">SIL Services</a>
-                          <a href="/services/specialist-disability-accommodation" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Specialist Accommodation</a>
-                          <a href="/services/respite-care" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Respite Care</a>
-                        </div>
-                      </div>
-
-                      <!-- Community & Mobility -->
-                      <div class="p-5 border-r border-base-200">
-                        <h4 class="font-semibold text-primary mb-3 text-sm whitespace-nowrap">Community & Mobility</h4>
-                        <div class="flex flex-col gap-0.5">
-                          <a href="/services/community-access-support" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Community Access</a>
-                          <a href="/services/transport-services" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Transport Services</a>
-                          <a href="/services/disability-home-support-services" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Home Support</a>
-                        </div>
-                      </div>
-
-                      <!-- Specialized Care -->
-                      <div class="p-5">
-                        <h4 class="font-semibold text-primary mb-3 text-sm">Specialized Care</h4>
-                        <div class="flex flex-col gap-0.5">
-                          <a href="/services/therapy-services" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">Therapy Services</a>
-                          <a href="/services/ndis-specialist-support-coordination" class="block py-1.5 text-base-content/80 hover:text-primary transition-colors text-sm">NDIS Coordination</a>
-                          <a href="/services" class="block py-1.5 text-primary font-medium transition-colors text-sm mt-3">
-                            All Services →
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <li><a href="/blog" class="font-medium hover:text-info">Blog</a></li>
-              <li><a href="/jobs" class="font-medium hover:text-info">Jobs</a></li>
-              <li><a href="/contact" class="font-medium hover:text-info">Contact</a></li>
-            </ul>
-          </div>
-
-          <!-- Phone Button (Desktop & Mobile) -->
-          <div class="navbar-end gap-2">
-            <a href="tel:+61863869999" class="btn btn-info btn-sm lg:btn-md gap-2">
-              <Icon name="hugeicons:call-02" class="h-4 w-4" />
-              <span class="hidden sm:inline">08 6386 9999</span>
-              <span class="sm:hidden">Call</span>
-            </a>
-          </div>
-        </header>
-
+      <div class="drawer-content flex flex-col min-h-screen">
+        <Header />
+        
         <!-- Page Content -->
-        <main class="flex-1 bg-base-100">
+        <main class="flex-1 w-full">
           <slot />
         </main>
 
-        <!-- Footer -->
-        <footer class="bg-secondary text-secondary-content mt-16">
-          <div class="max-w-7xl mx-auto px-6 py-16">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-              <!-- Company Info -->
-              <div class="text-center md:text-left">
-                <img src="/assets/logo.svg" alt="MD Homecare Logo" class="h-12 w-auto mx-auto md:mx-0 mb-4 drop-shadow-lg" />
-                <h3 class="text-xl font-bold text-info mb-3">MD Homecare</h3>
-                <p class="text-secondary-content/70 text-sm leading-relaxed mb-6">
-                  Providing compassionate and professional home care services to enhance the quality of life for our clients.
-                </p>
-
-                <!-- Contact Section -->
-                <div class="space-y-3">
-                  <h4 class="font-semibold text-info">Contact Us</h4>
-                  <a href="tel:+61863869999" class="flex items-center justify-center md:justify-start gap-3 text-secondary-content/70 hover:text-info transition-colors">
-                    <span class="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center">
-                      <Icon name="hugeicons:call-02" class="h-4 w-4" />
-                    </span>
-                    <span>08 6386 9999</span>
-                  </a>
-                  <a href="/contact" class="btn btn-info btn-sm w-full md:w-auto">Message Us</a>
-                </div>
-              </div>
-
-              <!-- Quick Links -->
-              <div>
-                <h4 class="font-semibold text-info mb-4">Quick Links</h4>
-                <ul class="space-y-3">
-                  <li><a href="/" class="text-secondary-content/70 hover:text-info hover:pl-1 transition-all">Home</a></li>
-                  <li><a href="/services" class="text-secondary-content/70 hover:text-info hover:pl-1 transition-all">Services</a></li>
-                  <li><a href="/blog" class="text-secondary-content/70 hover:text-info hover:pl-1 transition-all">Blog</a></li>
-                  <li><a href="/jobs" class="text-secondary-content/70 hover:text-info hover:pl-1 transition-all">Jobs</a></li>
-                  <li><a href="/contact" class="text-secondary-content/70 hover:text-info hover:pl-1 transition-all">Contact</a></li>
-                </ul>
-              </div>
-
-              <!-- Services -->
-              <div>
-                <h4 class="font-semibold text-info mb-4">Services</h4>
-                <ul class="space-y-3">
-                  <li><a href="/services/disability-services" class="text-secondary-content/70 hover:text-info hover:pl-1 transition-all text-sm">Disability Services</a></li>
-                  <li><a href="/services/personal-care" class="text-secondary-content/70 hover:text-info hover:pl-1 transition-all text-sm">Personal Care</a></li>
-                  <li><a href="/services/clinical-care" class="text-secondary-content/70 hover:text-info hover:pl-1 transition-all text-sm">Clinical Care</a></li>
-                  <li><a href="/services/support-workers" class="text-secondary-content/70 hover:text-info hover:pl-1 transition-all text-sm">Support Workers</a></li>
-                  <li><a href="/services/domestic-assistance" class="text-secondary-content/70 hover:text-info hover:pl-1 transition-all text-sm">Domestic Assistance</a></li>
-                  <li><a href="/services/transport-services" class="text-secondary-content/70 hover:text-info hover:pl-1 transition-all text-sm">Transport Services</a></li>
-                  <li><a href="/services/respite-care" class="text-secondary-content/70 hover:text-info hover:pl-1 transition-all text-sm">Respite Care</a></li>
-                  <li><a href="/services/sil-services" class="text-secondary-content/70 hover:text-info hover:pl-1 transition-all text-sm">SIL Services</a></li>
-                  <li>
-                    <a href="/services" class="text-info font-medium hover:pl-1 transition-all text-sm inline-flex items-center gap-1">
-                      All Services
-                      <Icon name="hugeicons:arrow-right-01" class="h-4 w-4" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              <!-- Latest Blog Posts -->
-              <div>
-                <h4 class="font-semibold text-info mb-4">Latest Blog Posts</h4>
-                <ul class="space-y-4">
-                  {recentBlogPosts.map(post => (
-                    <li>
-                      <a href={`/blog/${post.slug}`} class="group block">
-                        <span class="text-secondary-content/70 group-hover:text-info transition-colors text-sm font-medium line-clamp-1">{post.data.title}</span>
-                        <span class="text-secondary-content/50 text-xs">{formatDate(post.data.pubDate)}</span>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-
-            <!-- Footer Bottom -->
-            <div class="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-              <p class="text-secondary-content/60 text-sm">
-                &copy; {new Date().getFullYear()} MD Homecare. All rights reserved.
-              </p>
-              <div class="flex items-center gap-4 text-sm">
-                <a href="/privacy" class="text-secondary-content/60 hover:text-info transition-colors">Privacy Policy</a>
-                <span class="text-secondary-content/30">•</span>
-                <a href="/terms" class="text-secondary-content/60 hover:text-info transition-colors">Terms of Service</a>
-              </div>
-            </div>
-          </div>
-        </footer>
+        <Footer />
       </div>
 
       <!-- Mobile Drawer Sidebar -->
       <div class="drawer-side z-[100]">
-        <label for="mobile-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-        <div class="bg-secondary text-secondary-content min-h-full w-80 flex flex-col">
+        <label for="mobile-drawer" aria-label="close sidebar" class="drawer-overlay backdrop-blur-sm bg-black/20"></label>
+        <div class="bg-secondary text-secondary-content min-h-full w-80 p-6 flex flex-col gap-6 shadow-2xl">
+          
           <!-- Header with close button -->
-          <div class="flex items-center justify-between p-4 border-b border-white/10">
+          <div class="flex items-center justify-between border-b border-white/10 pb-6">
             <a href="/" class="flex items-center gap-2">
               <img src="/assets/logo.svg" alt="MD Homecare Logo" class="h-8 w-auto" />
-              <span class="text-base font-bold text-info">MD Homecare</span>
+              <span class="text-base font-bold text-white">MD Homecare</span>
             </a>
-            <label for="mobile-drawer" class="btn btn-ghost btn-sm btn-circle">
-              <Icon name="hugeicons:cancel-01" class="h-5 w-5" />
+            <label for="mobile-drawer" class="btn btn-ghost btn-sm btn-circle text-white/50 hover:text-white hover:bg-white/10">
+              <Icon name="hugeicons:cancel-01" class="h-6 w-6" />
             </label>
           </div>
 
           <!-- Mobile Navigation Links -->
-          <nav class="flex-1 overflow-y-auto py-4">
-            <ul class="space-y-1 px-4">
+          <nav class="flex-1 overflow-y-auto">
+            <ul class="flex flex-col gap-2">
               <li>
-                <a href="/" class="block py-3 text-lg font-medium hover:text-info transition-colors">Home</a>
+                <a href="/" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-colors text-lg font-medium text-white">Home</a>
               </li>
 
               <!-- Services Accordion -->
               <li>
                 <details class="group" id="services-details">
-                  <summary class="flex items-center justify-between py-3 text-lg font-medium cursor-pointer hover:text-info transition-colors list-none [&::-webkit-details-marker]:hidden">
+                  <summary class="flex items-center justify-between px-4 py-3 rounded-xl hover:bg-white/10 transition-colors text-lg font-medium text-white cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                     Services
-                    <Icon name="hugeicons:arrow-down-01" class="h-5 w-5 transition-transform duration-200 group-open:rotate-180" />
+                    <Icon name="hugeicons:arrow-down-01" class="h-5 w-5 transition-transform duration-200 group-open:rotate-180 opacity-50" />
                   </summary>
-                  <div class="services-content overflow-hidden transition-all duration-300 ease-out">
-                    <div class="mt-2 mb-3 mx-0 bg-base-100 rounded-xl">
-                      <div class="p-4 space-y-4">
+                  
+                  <div class="services-content overflow-hidden transition-all duration-300 ease-out pl-4">
+                    <div class="border-l-2 border-white/10 pl-4 py-2 space-y-6 mt-2">
+                      
                       <!-- Personal Support -->
                       <div>
-                        <h4 class="text-xs font-semibold text-primary uppercase tracking-wide mb-2">Personal Support</h4>
-                        <ul class="space-y-1">
-                          <li><a href="/services/disability-services" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Disability Services</a></li>
-                          <li><a href="/services/personal-care" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Personal Care</a></li>
-                          <li><a href="/services/clinical-care" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Clinical Care</a></li>
-                          <li><a href="/services/support-workers" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Support Workers</a></li>
+                        <h4 class="text-xs font-bold text-primary uppercase tracking-wider mb-3">Personal Support</h4>
+                        <ul class="space-y-2">
+                          <li><a href="/services/disability-services" class="block text-base text-secondary-content/70 hover:text-white transition-colors">Disability Services</a></li>
+                          <li><a href="/services/personal-care" class="block text-base text-secondary-content/70 hover:text-white transition-colors">Personal Care</a></li>
+                          <li><a href="/services/clinical-care" class="block text-base text-secondary-content/70 hover:text-white transition-colors">Clinical Care</a></li>
+                          <li><a href="/services/support-workers" class="block text-base text-secondary-content/70 hover:text-white transition-colors">Support Workers</a></li>
                         </ul>
                       </div>
 
                       <!-- Home & Living -->
                       <div>
-                        <h4 class="text-xs font-semibold text-primary uppercase tracking-wide mb-2">Home & Living</h4>
-                        <ul class="space-y-1">
-                          <li><a href="/services/domestic-assistance" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Domestic Assistance</a></li>
-                          <li><a href="/services/sil-services" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">SIL Services</a></li>
-                          <li><a href="/services/specialist-disability-accommodation" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Specialist Accommodation</a></li>
-                          <li><a href="/services/respite-care" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Respite Care</a></li>
-                        </ul>
-                      </div>
-
-                      <!-- Community & Mobility -->
-                      <div>
-                        <h4 class="text-xs font-semibold text-primary uppercase tracking-wide mb-2">Community & Mobility</h4>
-                        <ul class="space-y-1">
-                          <li><a href="/services/community-access-support" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Community Access</a></li>
-                          <li><a href="/services/transport-services" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Transport Services</a></li>
-                          <li><a href="/services/disability-home-support-services" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Home Support</a></li>
-                        </ul>
-                      </div>
-
-                      <!-- Specialized Care -->
-                      <div>
-                        <h4 class="text-xs font-semibold text-primary uppercase tracking-wide mb-2">Specialized Care</h4>
-                        <ul class="space-y-1">
-                          <li><a href="/services/therapy-services" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Therapy Services</a></li>
-                          <li><a href="/services/ndis-specialist-support-coordination" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">NDIS Support Coordination</a></li>
+                        <h4 class="text-xs font-bold text-primary uppercase tracking-wider mb-3">Home & Living</h4>
+                        <ul class="space-y-2">
+                          <li><a href="/services/domestic-assistance" class="block text-base text-secondary-content/70 hover:text-white transition-colors">Domestic Assistance</a></li>
+                          <li><a href="/services/sil-services" class="block text-base text-secondary-content/70 hover:text-white transition-colors">SIL Services</a></li>
+                          <li><a href="/services/respite-care" class="block text-base text-secondary-content/70 hover:text-white transition-colors">Respite Care</a></li>
                         </ul>
                       </div>
 
                       <!-- All Services Link -->
-                      <a href="/services" class="block py-2 text-sm font-medium text-primary hover:underline">
-                        View All Services →
+                      <a href="/services" class="inline-flex items-center gap-2 text-sm font-bold text-primary hover:underline pt-2">
+                        View All Services
+                        <Icon name="hugeicons:arrow-right-01" class="h-4 w-4" />
                       </a>
-                      </div>
+
                     </div>
                   </div>
                 </details>
               </li>
 
               <li>
-                <a href="/blog" class="block py-3 text-lg font-medium hover:text-info transition-colors">Blog</a>
+                <a href="/blog" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-colors text-lg font-medium text-white">Blog</a>
               </li>
               <li>
-                <a href="/jobs" class="block py-3 text-lg font-medium hover:text-info transition-colors">Jobs</a>
+                <a href="/jobs" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-colors text-lg font-medium text-white">Jobs</a>
               </li>
               <li>
-                <a href="/contact" class="block py-3 text-lg font-medium hover:text-info transition-colors">Contact</a>
+                <a href="/contact" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/10 transition-colors text-lg font-medium text-white">Contact</a>
               </li>
             </ul>
           </nav>
 
           <!-- Mobile Phone Link -->
-          <div class="p-4 border-t border-white/10">
-            <a href="tel:+61863869999" class="btn btn-info btn-block gap-2">
+          <div class="pt-6 border-t border-white/10">
+            <a href="tel:+61863869999" class="btn btn-primary w-full rounded-full gap-2 font-bold shadow-lg shadow-primary/20">
               <Icon name="hugeicons:call-02" class="h-5 w-5" />
               Call 08 6386 9999
             </a>
@@ -529,10 +310,10 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
     <!-- Smooth accordion animation script -->
     <script>
       document.addEventListener('DOMContentLoaded', () => {
-        const details = document.getElementById('services-details');
+        const details = document.getElementById('services-details') as HTMLDetailsElement;
         if (!details) return;
 
-        const content = details.querySelector('.services-content');
+        const content = details.querySelector('.services-content') as HTMLElement;
         if (!content) return;
 
         // Set initial state

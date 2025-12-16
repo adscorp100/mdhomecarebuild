@@ -646,29 +646,11 @@ const combinedSchema = {
 >
   <div class="w-full">
     <article>
-      <!-- Breadcrumb Navigation -->
-      <nav class="max-w-6xl mx-auto px-4 py-6" aria-label="Breadcrumb">
-        <ol class="flex flex-wrap items-center gap-2 text-sm font-medium">
-          {breadcrumbs.map((item, index) => (
-            <li class="flex items-center">
-              {index > 0 && (
-                <Icon name="hugeicons:arrow-right-01" class="h-4 w-4 mx-2 text-base-content/40" />
-              )}
-              {index === breadcrumbs.length - 1 ? (
-                <span class="text-base-content/60">{item.name}</span>
-              ) : (
-                <a href={item.url} class="text-primary hover:underline transition-colors">{item.name}</a>
-              )}
-            </li>
-          ))}
-        </ol>
-      </nav>
-
       <!-- Hero Section -->
-      <header class="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
+      <header class="relative min-h-[85vh] flex items-center justify-center overflow-hidden pt-20">
           <!-- Background Image with Overlay -->
-          <div class="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed" style={service.data.image ? `background-image: url(${service.data.image})` : 'background-color: oklch(var(--b2))'}></div>
-          <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-base-100"></div>
+          <div class="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed top-0" style={service.data.image ? `background-image: url(${service.data.image})` : 'background-color: oklch(var(--b2))'}></div>
+          <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-base-100 top-0"></div>
 
           <!-- Glass Console Frame -->
           <div class="container-custom relative z-10 px-4 py-12">
@@ -721,6 +703,24 @@ const combinedSchema = {
             </div>
           </div>
       </header>
+
+      <!-- Breadcrumb Navigation -->
+      <nav class="max-w-6xl mx-auto px-4 py-6" aria-label="Breadcrumb">
+        <ol class="flex flex-wrap items-center gap-2 text-sm font-medium">
+          {breadcrumbs.map((item, index) => (
+            <li class="flex items-center">
+              {index > 0 && (
+                <Icon name="hugeicons:arrow-right-01" class="h-4 w-4 mx-2 text-base-content/40" />
+              )}
+              {index === breadcrumbs.length - 1 ? (
+                <span class="text-base-content/60">{item.name}</span>
+              ) : (
+                <a href={item.url} class="text-primary hover:underline transition-colors">{item.name}</a>
+              )}
+            </li>
+          ))}
+        </ol>
+      </nav>
 
       <!-- Eligibility Checker Template -->
       <div id="eligibility-checker-template" class="hidden">
