@@ -1,6 +1,7 @@
 ---
 // Import global styles (Tailwind CSS 4 + DaisyUI 5)
 import '../styles/global.css';
+import { Icon } from 'astro-icon/components';
 
 // Define the props interface
 interface Props {
@@ -218,9 +219,7 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
           <div class="navbar-start">
             <!-- Mobile Menu Button -->
             <label for="mobile-drawer" class="btn btn-ghost btn-sm btn-square lg:hidden" aria-label="Open menu">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
+              <Icon name="hugeicons:menu-02" class="h-5 w-5" />
             </label>
 
             <!-- Logo -->
@@ -243,9 +242,7 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
                 <div class="dropdown dropdown-hover dropdown-bottom">
                   <div tabindex="0" role="button" class="font-medium hover:text-info flex items-center gap-1 cursor-pointer">
                     Services
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                    </svg>
+                    <Icon name="hugeicons:arrow-down-01" class="h-4 w-4" />
                   </div>
                   <div tabindex="0" class="dropdown-content z-[100] bg-base-100 shadow-2xl rounded-box w-[700px] p-0 mt-0 left-1/2 -translate-x-1/2">
                     <div class="grid grid-cols-4 gap-0">
@@ -306,9 +303,7 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
           <!-- Phone Button (Desktop & Mobile) -->
           <div class="navbar-end gap-2">
             <a href="tel:+61863869999" class="btn btn-info btn-sm lg:btn-md gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
+              <Icon name="hugeicons:call-02" class="h-4 w-4" />
               <span class="hidden sm:inline">08 6386 9999</span>
               <span class="sm:hidden">Call</span>
             </a>
@@ -337,9 +332,7 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
                   <h4 class="font-semibold text-info">Contact Us</h4>
                   <a href="tel:+61863869999" class="flex items-center justify-center md:justify-start gap-3 text-secondary-content/70 hover:text-info transition-colors">
                     <span class="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                      </svg>
+                      <Icon name="hugeicons:call-02" class="h-4 w-4" />
                     </span>
                     <span>08 6386 9999</span>
                   </a>
@@ -374,9 +367,7 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
                   <li>
                     <a href="/services" class="text-info font-medium hover:pl-1 transition-all text-sm inline-flex items-center gap-1">
                       All Services
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                      </svg>
+                      <Icon name="hugeicons:arrow-right-01" class="h-4 w-4" />
                     </a>
                   </li>
                 </ul>
@@ -420,9 +411,7 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
           <!-- Close Button -->
           <div class="flex justify-end mb-4">
             <label for="mobile-drawer" class="btn btn-ghost btn-sm btn-circle">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-              </svg>
+              <Icon name="hugeicons:cancel-01" class="h-6 w-6" />
             </label>
           </div>
 
@@ -472,9 +461,7 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
           <!-- Mobile Phone Link -->
           <div class="mt-6">
             <a href="tel:+61863869999" class="btn btn-info btn-block gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
+              <Icon name="hugeicons:call-02" class="h-5 w-5" />
               Call Us: 08 6386 9999
             </a>
           </div>

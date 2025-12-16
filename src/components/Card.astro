@@ -1,4 +1,6 @@
 ---
+import { Icon } from 'astro-icon/components';
+
 interface Props {
   title: string;
   body: string;
@@ -28,9 +30,7 @@ const { href, title, body, imgSrc } = Astro.props;
       <div class="card-actions justify-end mt-4">
         <a href={href} class="link link-primary font-semibold inline-flex items-center gap-1 group">
           Learn more
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-          </svg>
+          <Icon name="hugeicons:arrow-right-01" class="h-4 w-4 transition-transform group-hover:translate-x-1" />
         </a>
       </div>
     )}

@@ -4,6 +4,8 @@
  * Displays testimonials specific to a suburb or region
  */
 
+import { Icon } from 'astro-icon/components';
+
 interface Testimonial {
   name: string;
   service: string;
@@ -38,51 +40,38 @@ else if (regionSlug && testimonials[regionSlug as keyof typeof testimonials]) {
 
 // Limit to max testimonials
 const displayTestimonials = suburbTestimonials.slice(0, maxTestimonials);
-
-// Helper to render star rating
-const renderStars = (rating: number) => {
-  return Array(5).fill(0).map((_, i) => i < rating ? '★' : '☆').join('');
-};
 ---
 
 {displayTestimonials.length > 0 && (
   <section class="bg-base-200 border border-base-300 rounded-box p-6 mb-8">
     <h2 class="text-xl font-bold text-base-content mb-4 flex items-center gap-2">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-      </svg>
+      <Icon name="hugeicons:comment-01" class="h-6 w-6 text-primary" />
       What Our Clients in {suburbName} Say
     </h2>
 
     <div class="space-y-4">
       {displayTestimonials.map((testimonial) => (
         <div class="bg-base-100 rounded-lg p-4 border border-base-300">
-          <div class="flex items-start gap-3">
-            <!-- Avatar placeholder -->
-            <div class="avatar placeholder">
-              <div class="bg-primary text-primary-content rounded-full w-10 h-10">
-                <span class="text-lg font-bold">{testimonial.name.charAt(0)}</span>
-              </div>
-            </div>
-
-            <div class="flex-1">
-              <!-- Rating -->
-              <div class="text-warning text-sm mb-1" aria-label={`${testimonial.rating} out of 5 stars`}>
-                {renderStars(testimonial.rating)}
-              </div>
-
-              <!-- Quote -->
-              <blockquote class="text-base-content/80 text-sm italic mb-2">
-                "{testimonial.quote}"
-              </blockquote>
-
-              <!-- Attribution -->
-              <p class="text-sm font-medium text-base-content">
-                — {testimonial.name}
-                <span class="text-base-content/60 font-normal">, {suburbName}</span>
-              </p>
-            </div>
+          <!-- Rating -->
+          <div class="text-warning text-sm mb-2 flex gap-0.5" aria-label={`${testimonial.rating} out of 5 stars`}>
+            {Array(5).fill(0).map((_, i) => (
+              <Icon
+                name={i < testimonial.rating ? "hugeicons:star" : "hugeicons:star"}
+                class={`h-4 w-4 ${i < testimonial.rating ? 'fill-current' : 'opacity-30'}`}
+              />
+            ))}
           </div>
+
+          <!-- Quote -->
+          <blockquote class="text-base-content/80 text-sm italic mb-2">
+            "{testimonial.quote}"
+          </blockquote>
+
+          <!-- Attribution -->
+          <p class="text-sm font-medium text-base-content">
+            — {testimonial.name}
+            <span class="text-base-content/60 font-normal">, {suburbName}</span>
+          </p>
         </div>
       ))}
     </div>
@@ -90,13 +79,12 @@ const renderStars = (rating: number) => {
     <!-- Trust badge -->
     <div class="mt-4 pt-4 border-t border-base-300 flex items-center justify-between">
       <div class="flex items-center gap-2 text-sm text-base-content/60">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-        </svg>
+        <Icon name="hugeicons:checkmark-badge-02" class="h-4 w-4 text-success" />
         <span>Verified client reviews</span>
       </div>
-      <a href="/reviews" class="text-primary text-sm hover:underline">
-        Read more reviews →
+      <a href="/reviews" class="text-primary text-sm hover:underline flex items-center gap-1">
+        Read more reviews
+        <Icon name="hugeicons:arrow-right-01" class="h-4 w-4" />
       </a>
     </div>
   </section>

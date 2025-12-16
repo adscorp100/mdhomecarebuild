@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
 import suburbsData from '../../data/suburbs-data.json';
 import suburbDetails from '../../data/suburb-details.json';
 import regionContent from '../../data/region-content.json';
@@ -200,8 +201,13 @@ const locationSchema = {
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           {testimonials.slice(0, 2).map((testimonial: { name: string; quote: string; rating: number }) => (
             <div class="bg-base-100 rounded-lg p-6 border border-base-300">
-              <div class="text-warning mb-2">
-                {'★'.repeat(testimonial.rating)}{'☆'.repeat(5 - testimonial.rating)}
+              <div class="text-warning mb-2 flex gap-0.5">
+                {Array(5).fill(0).map((_, i) => (
+                  <Icon
+                    name="hugeicons:star"
+                    class={`h-5 w-5 ${i < testimonial.rating ? 'fill-current' : 'opacity-30'}`}
+                  />
+                ))}
               </div>
               <blockquote class="text-base-content/80 italic mb-4">
                 "{testimonial.quote}"

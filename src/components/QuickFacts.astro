@@ -5,7 +5,10 @@
  * and improved CTR through clear cost/availability signals.
  *
  * Uses semantic HTML table structure for better Google featured snippet extraction.
+ * Uses Hugeicons for consistent, professional iconography.
  */
+
+import { Icon } from 'astro-icon/components';
 
 interface Props {
   serviceName: string;
@@ -30,13 +33,13 @@ const {
 // Only render if at least one fact is provided
 const hasFacts = costRange || fundingOptions || availability || serviceHours || waitTime;
 
-// Build facts array for table rendering
-const factsArray: { label: string; value: string; icon: string }[] = [];
-if (costRange) factsArray.push({ label: "Typical Cost", value: costRange, icon: "💰" });
-if (fundingOptions) factsArray.push({ label: "Funding Options", value: fundingOptions, icon: "🏛️" });
-if (availability) factsArray.push({ label: "Availability", value: availability, icon: "📅" });
-if (serviceHours) factsArray.push({ label: "Service Hours", value: serviceHours, icon: "⏰" });
-if (waitTime) factsArray.push({ label: "Wait Time to Start", value: waitTime, icon: "🚀" });
+// Build facts array for table rendering with hugeicons icon names
+const factsArray: { label: string; value: string; iconName: string }[] = [];
+if (costRange) factsArray.push({ label: "Typical Cost", value: costRange, iconName: "hugeicons:dollar-circle" });
+if (fundingOptions) factsArray.push({ label: "Funding Options", value: fundingOptions, iconName: "hugeicons:bank" });
+if (availability) factsArray.push({ label: "Availability", value: availability, iconName: "hugeicons:calendar-03" });
+if (serviceHours) factsArray.push({ label: "Service Hours", value: serviceHours, iconName: "hugeicons:clock-01" });
+if (waitTime) factsArray.push({ label: "Wait Time to Start", value: waitTime, iconName: "hugeicons:rocket-01" });
 const facts = factsArray;
 
 // Generate Table schema for better snippet extraction
@@ -59,9 +62,7 @@ const tableSchema = hasFacts ? {
       <meta itemprop="name" content={`${serviceName} in ${suburb}`} />
 
       <h2 class="text-xl font-bold text-base-content mb-4 flex items-center gap-2">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
+        <Icon name="hugeicons:information-circle" class="h-6 w-6 text-primary" />
         Quick Facts – {serviceName} in {suburb}
       </h2>
 
@@ -79,7 +80,7 @@ const tableSchema = hasFacts ? {
             <tr class="border-b border-base-300 last:border-0">
               <th scope="row" class="py-3 pr-4 text-left align-top w-1/3">
                 <span class="text-sm font-semibold text-primary uppercase tracking-wide flex items-center gap-2">
-                  <span class="text-lg" aria-hidden="true">{fact.icon}</span>
+                  <Icon name={fact.iconName} class="h-5 w-5" aria-hidden="true" />
                   {fact.label}
                 </span>
               </th>
@@ -148,9 +149,7 @@ const tableSchema = hasFacts ? {
           <span class="font-medium">Need help understanding your options?</span>
         </p>
         <a href="/contact" class="btn btn-primary btn-sm">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-          </svg>
+          <Icon name="hugeicons:message-01" class="h-4 w-4" />
           Speak with a Care Advisor
         </a>
       </div>
