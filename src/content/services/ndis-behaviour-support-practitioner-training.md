@@ -1,5 +1,5 @@
 ---
-title: "Become an NDIS Behaviour Support Practitioner in {suburb}"
+title: "NDIS Behaviour Support Training in {suburb}"
 description: "Start a rewarding career. Our NDIS Behaviour Support Practitioner training gives you the qualifications and real-world skills to make a difference in {suburb}. Enrol today."
 pubDate: 2025-07-02
 category: "Training"

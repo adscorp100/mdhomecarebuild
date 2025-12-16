@@ -1,5 +1,5 @@
 ---
-title: "Life Skills Development Services in {suburb}"
+title: "Life Skills Development in {suburb}"
 description: "Professional life skills development services in {suburb} helping individuals build essential daily living, social, and community skills for greater independence and confidence."
 pubDate: 2025-05-01
 category: "Skill Development"

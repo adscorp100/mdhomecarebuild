@@ -1,5 +1,5 @@
 ---
-title: "Assistive Technology Assessment in {suburb}: A Step-by-Step Guide"
+title: "Assistive Technology Assessment in {suburb}"
 description: "What happens in an Assistive Technology (AT) Assessment in {suburb}? Our guide explains the step-by-step process and how an OT can help you find the right tools."
 pubDate: 2025-07-04
 category: "Disability Services"

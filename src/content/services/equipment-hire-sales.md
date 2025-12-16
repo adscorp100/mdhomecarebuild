@@ -1,5 +1,5 @@
 ---
-title: "Specialist Equipment Hire & Sales in {suburb}"
+title: "Equipment Hire & Sales in {suburb}"
 description: "Connecting residents in {suburb} with quality equipment hire and sales providers for mobility aids, daily living equipment, and short-term disability and aged care needs."
 pubDate: 2025-02-23
 category: "Support Services"

@@ -1,5 +1,5 @@
 ---
-title: "Early Childhood Early Intervention (ECEI) in {suburb}"
+title: "Early Childhood Intervention in {suburb}"
 description: "Connecting families in {suburb} with early childhood services and supports to help children under 9 with developmental delay or disability reach their full potential."
 pubDate: 2025-02-23
 category: "Early Childhood"

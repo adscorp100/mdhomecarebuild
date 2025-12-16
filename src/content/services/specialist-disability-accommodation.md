@@ -1,5 +1,5 @@
 ---
-title: "Specialist Disability Accommodation (SDA) in {suburb}"
+title: "Specialist Disability Accommodation in {suburb}"
 description: "NDIS-approved Specialist Disability Accommodation in {suburb} designed for individuals with extreme functional impairment or very high support needs. Our SDA properties provide accessible, safe, and tailored living environments to enhance independence and quality of life."
 pubDate: 2024-07-23
 category: "Accommodation"

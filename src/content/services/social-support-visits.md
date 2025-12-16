@@ -1,5 +1,5 @@
 ---
-title: "Trusted Companion Care in {suburb} | Bringing Joy & Connection"
+title: "Social Support Services in {suburb}"
 description: "Is your loved one feeling lonely or isolated? Our Companion Care service in {suburb} provides trusted, friendly, and carefully matched companions to share interests, stories, and laughter. Restore connection and peace of mind."
 pubDate: 2025-07-04
 category: "Social Support"

@@ -384,8 +384,14 @@ Object.keys(suburbsByState).forEach(state => {
 const sortedStates = Object.keys(suburbsByState).sort();
 
 // Create a generic title and description with 'Australia' instead of {suburb}
-const genericTitle = entry.data.title.replace(/{suburb}/g, 'Australia');
+const baseTitle = entry.data.title.replace(/{suburb}/g, 'Australia');
 const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australia');
+
+// Optimized meta title - remove pipes and keep concise
+const genericTitle = baseTitle.replace(/\s*\|.*$/, ''); // Remove anything after first pipe
+
+// H1 title - can be slightly longer, benefit-focused
+const h1Title = baseTitle.replace(/\s*\|.*$/, '');
 ---
 
 <script type="application/ld+json">
@@ -432,7 +438,7 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
 </script>
 
 <BaseLayout
-  title={`${genericTitle} | MD Home Care`}
+  title={genericTitle}
   description={genericDescription}
 >
   <div class="w-full">
@@ -453,7 +459,7 @@ const genericDescription = entry.data.description.replace(/{suburb}/g, 'Australi
 
               <!-- Title -->
               <h1 class="text-3xl md:text-5xl font-extrabold text-base-content mb-4 leading-tight">
-                {genericTitle}
+                {h1Title}
               </h1>
 
               <!-- Description -->

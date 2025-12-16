@@ -1,5 +1,5 @@
 ---
-title: "NDIS Community Access & Participation Services {suburb}"
+title: "NDIS Community Participation in {suburb}"
 description: "NDIS community access and participation services in {suburb}. Community participation support, social activities, skill development, and community access programs for NDIS participants."
 pubDate: 2025-02-23
 category: "Community Services"

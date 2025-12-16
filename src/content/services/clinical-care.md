@@ -1,5 +1,5 @@
 ---
-title: "24/7 Nursing Care at Home in {suburb}: Expert Clinical Support"
+title: "24/7 Nursing Care at Home in {suburb}"
 description: "Need round-the-clock care in {suburb}? Our 24/7 in-home nursing services provide expert, compassionate clinical support for complex health needs."
 pubDate: 2025-07-02
 category: "Health Services"

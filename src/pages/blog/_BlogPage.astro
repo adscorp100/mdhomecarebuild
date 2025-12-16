@@ -21,7 +21,7 @@ const { page } = Astro.props as Props;
 const { data: posts, currentPage, lastPage } = page;
 ---
 
-<BaseLayout title={`Blog ${currentPage > 1 ? `Page ${currentPage}` : ''} | MD Homecare`}>
+<BaseLayout title={`Blog${currentPage > 1 ? ` Page ${currentPage}` : ''}`}>
   <div class="max-w-5xl mx-auto px-4 py-12">
     <!-- Header -->
     <div class="text-center mb-12">

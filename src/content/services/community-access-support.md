@@ -1,5 +1,5 @@
 ---
-title: "NDIS Community Access & Participation Support in {suburb}"
+title: "Community Access Support in {suburb}"
 description: "Get out and about in {suburb} with a support worker you can trust. Our NDIS Community Access support is about connection, not just transport."
 pubDate: 2025-07-04
 category: "Community Services"

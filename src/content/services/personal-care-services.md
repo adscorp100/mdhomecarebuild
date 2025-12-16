@@ -1,5 +1,5 @@
 ---
-title: "Professional In-Home Personal Care Services in {suburb}"
+title: "Personal Care Services in {suburb}"
 description: "Dignified and respectful personal care services in {suburb}. Our trained support workers provide compassionate assistance with daily routines, hygiene, and mobility, helping you live independently and with confidence."
 pubDate: 2025-03-15
 category: "Daily Living Support"

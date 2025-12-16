@@ -1,5 +1,5 @@
 ---
-title: "Managed Meal Delivery for NDIS & Aged Care in {suburb}"
+title: "Meal Delivery Services in {suburb}"
 description: "Stop stressing about meal delivery. We find and manage the perfect dietitian-approved meal provider for you in {suburb}, and handle all the NDIS & Home Care Package admin. The easy way to get delicious, healthy meals."
 pubDate: 2025-07-02
 category: "Support Services"

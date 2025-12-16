@@ -1,5 +1,5 @@
 ---
-title: "Mobility Equipment for Home Care in {suburb}"
+title: "Mobility Equipment in {suburb}"
 description: "Professional assessment and provision of mobility equipment for residents in {suburb}. We help source and set up appropriate mobility aids to enhance safety, independence, and quality of life in your home."
 pubDate: 2025-03-25
 category: "Assistive Technology"

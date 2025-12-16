@@ -90,7 +90,7 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
 ---
 
 <BaseLayout
-  title={`${entry.data.title} | MD Homecare`}
+  title={entry.data.title}
   description={entry.data.description}
   image={entry.data.image}
   canonical={canonicalUrl}

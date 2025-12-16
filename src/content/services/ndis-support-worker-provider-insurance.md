@@ -1,5 +1,5 @@
 ---
-title: "Trusted NDIS Support Worker & Provider Insurance in {suburb}"
+title: "NDIS Provider Insurance in {suburb}"
 description: "Feeling overwhelmed by NDIS insurance requirements in {suburb}? Get clear, expert guidance on Public Liability and Professional Indemnity insurance. We make it simple to get the right cover and protect your support work."
 keywords: ["support worker insurance {suburb}", "ndis provider insurance {suburb}", "disability support worker insurance", "public liability insurance support worker"]
 pubDate: 2025-02-23

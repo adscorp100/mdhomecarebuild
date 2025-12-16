@@ -1,5 +1,5 @@
 ---
-title: "In-Home Meal Prep & Cooking Help in {suburb}"
+title: "Meal Preparation Services in {suburb}"
 description: "Enjoy healthy, delicious meals without the stress. Our trusted meal preparation support service in {suburb} helps with planning, shopping, and cooking in your own home. NDIS & Home Care Package approved."
 pubDate: 2025-07-02
 category: "Daily Living Support"

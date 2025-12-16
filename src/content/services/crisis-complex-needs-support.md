@@ -1,5 +1,5 @@
 ---
-title: "Crisis & Complex Needs Support Services in {suburb}"
+title: "Crisis Support Services in {suburb}"
 description: "Specialized crisis intervention and complex needs support for individuals with disability in {suburb}. Emergency response, intensive support coordination, and high-level care during critical situations."
 pubDate: 2025-06-15
 category: "Disability Services"

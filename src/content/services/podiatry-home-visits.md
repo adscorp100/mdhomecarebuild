@@ -1,5 +1,5 @@
 ---
-title: "Mobile Podiatry & In-Home Foot Care in {suburb}"
+title: "Mobile Podiatry in {suburb}"
 description: "Can't get to a podiatry clinic? Our mobile podiatrists in {suburb} provide expert foot care in your home. Specialising in diabetic foot care, nail care, and pain relief. NDIS & Aged Care approved."
 pubDate: 2025-03-20
 category: "Allied Health"

@@ -1,5 +1,5 @@
 ---
-title: "Choosing Your Home Care Package Provider in {suburb} | The MD Home Care Difference"
+title: "Home Care Packages in {suburb}"
 description: "Tired of high fees and poor service? See why families in {suburb} are switching to MD Home Care. We offer low fees, exceptional carers, and a dedicated Care Manager to help you get the most from your funds."
 pubDate: 2025-07-04
 category: "Services"

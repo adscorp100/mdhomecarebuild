@@ -1,5 +1,5 @@
 ---
-title: "Personal Care: Support to Live Independently, With Dignity"
+title: "Personal Care Services in {suburb}"
 description: "Considering personal care? It's a big step. Learn about how respectful, professional support can help you or a loved one maintain independence and dignity at home. NDIS & Home Care Package approved."
 pubDate: 2025-07-02
 category: "Daily Living Support"

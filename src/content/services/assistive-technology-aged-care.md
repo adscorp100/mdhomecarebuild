@@ -1,5 +1,5 @@
 ---
-title: "Assistive Technology for Seniors in {suburb}: Devices for Independent Living"
+title: "Assistive Technology in {suburb}"
 description: "Discover practical assistive technology devices that help seniors in {suburb} live more safely and independently at home. From personal alarms to simple gadgets."
 pubDate: 2025-04-22
 category: "Assistive Technology"

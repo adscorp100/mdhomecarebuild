@@ -1,5 +1,5 @@
 ---
-title: "Commonwealth Home Support Programme (CHSP) in {suburb}"
+title: "CHSP Services in {suburb}"
 description: "Connecting older residents in {suburb} with entry-level support services through the Commonwealth Home Support Programme to help maintain independence at home."
 pubDate: 2025-02-23
 category: "Aged Care"

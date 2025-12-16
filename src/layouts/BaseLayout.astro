@@ -17,7 +17,7 @@ interface Props {
 
 // Destructure props with defaults
 const {
-  title,
+  title: rawTitle,
   description = "Providing compassionate and professional home care services",
   image = "/images/default-social.jpg",
   canonical = Astro.url.href,
@@ -26,6 +26,14 @@ const {
   metaTitle,
   metaDescription
 } = Astro.props;
+
+// Smart title construction - add brand suffix if not already present and title is short enough
+const brandSuffix = " | MD Home Care";
+const title = rawTitle.includes("MD Home Care") || rawTitle.includes("MD Homecare")
+  ? rawTitle
+  : rawTitle.length + brandSuffix.length <= 65
+    ? rawTitle + brandSuffix
+    : rawTitle;
 
 // Import getCollection to fetch blog posts
 import { getCollection } from 'astro:content';

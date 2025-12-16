@@ -1,5 +1,5 @@
 ---
-title: "In-Home Physiotherapy & Home Care Services in {suburb}"
+title: "Home Physiotherapy in {suburb}"
 description: "Struggling with pain or mobility? Our {suburb} physiotherapists provide expert care in your own home, helping you recover from injury, manage pain, and regain independence. Get your free consultation."
 pubDate: 2025-04-02
 category: "Allied Health"

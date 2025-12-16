@@ -1,5 +1,5 @@
 ---
-title: "Professional Continence Assessment in {suburb} | In-Home Service"
+title: "Continence Care Services in {suburb}"
 description: "Regain control and dignity with a professional continence assessment in {suburb}. Our qualified Continence Nurses provide a discreet, in-home service to create a personalised plan that works. NDIS & Aged Care."
 pubDate: 2025-07-04
 category: "Clinical Care"

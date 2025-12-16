@@ -1,5 +1,5 @@
 ---
-title: "Trusted Domestic Assistance in {suburb} | Home & Life Management"
+title: "Domestic Assistance in {suburb}"
 description: "More than just cleaning. Our Domestic Assistance service in {suburb} helps you manage your home and daily life, from shopping and paying bills to meal prep and light cleaning. Stay independent and in control."
 pubDate: 2025-07-04
 category: "Home Support"

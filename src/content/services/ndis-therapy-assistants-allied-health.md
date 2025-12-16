@@ -1,5 +1,5 @@
 ---
-title: "Expert NDIS Therapy Assistants & Allied Health Support in {suburb}"
+title: "NDIS Therapy Assistants in {suburb}"
 description: "Unlock your potential with NDIS Therapy Assistants in {suburb}. Our qualified team, supervised by allied health professionals, helps you build skills, achieve goals, and increase your independence. Find out how."
 keywords: ["therapy assistant ndis {suburb}", "allied health assistant ndis {suburb}", "ndis therapy assistant", "occupational therapy assistant"]
 pubDate: 2025-02-23

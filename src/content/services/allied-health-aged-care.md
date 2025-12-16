@@ -1,5 +1,5 @@
 ---
-title: "In-Home Therapy & Allied Health Services in {suburb}"
+title: "Allied Health Services in {suburb}"
 description: "Stay safe, mobile, and independent at home. Our professional therapists in {suburb}—including Physiotherapists, Occupational Therapists, and Podiatrists—provide expert care in the comfort of your own home."
 pubDate: 2025-07-04
 category: "Aged Care"

@@ -1,5 +1,5 @@
 ---
-title: "In-Home Occupational Therapy Services in {suburb}"
+title: "Occupational Therapy in {suburb}"
 description: "Struggling with daily tasks at home? Our {suburb} Occupational Therapists provide expert in-home support, helping you improve safety, enhance independence, and live life to the fullest. Get your free consultation."
 pubDate: 2025-04-05
 category: "Allied Health"

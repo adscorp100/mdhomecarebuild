@@ -1,5 +1,5 @@
 ---
-title: "Financial & Legal Services for Disability & Aged Care in {suburb}"
+title: "Financial & Legal Services in {suburb}"
 description: "Connecting residents in {suburb} with specialized financial and legal professionals who understand the complexities of disability and aged care planning."
 pubDate: 2025-02-23
 category: "Support Services"

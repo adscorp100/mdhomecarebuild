@@ -1,5 +1,5 @@
 ---
-title: "Minor Home Repairs for Aged Care in {suburb}"
+title: "Minor Home Repairs in {suburb}"
 description: "Professional minor home repair services for seniors in {suburb}. Our experienced handymen provide safe, reliable solutions for small household repairs to maintain a safe and comfortable living environment."
 pubDate: 2025-04-10
 category: "Home Maintenance"

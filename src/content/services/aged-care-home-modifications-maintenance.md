@@ -1,5 +1,5 @@
 ---
-title: "Aged Care Home Modifications & Maintenance in {suburb}"
+title: "Home Modifications in {suburb}"
 description: "Keep your {suburb} home safe and accessible with our expert home modification and maintenance services. We specialise in aged care and disability support. Call us!"
 pubDate: 2025-07-04
 category: "Home Care Services"

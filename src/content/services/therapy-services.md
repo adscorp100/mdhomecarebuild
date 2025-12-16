@@ -1,5 +1,5 @@
 ---
-title: "NDIS Therapy Services in {suburb} to Help You Thrive"
+title: "NDIS Therapy Services in {suburb}"
 description: "Feeling stuck? Our NDIS therapy services in {suburb}—including OT, physio, and speech therapy—can help you gain independence and improve your quality of life. Find the right support."
 pubDate: 2025-07-02
 category: "Disability Services"

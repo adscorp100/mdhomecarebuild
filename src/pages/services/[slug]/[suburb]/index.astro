@@ -440,9 +440,14 @@ const baseDescription = service.data.description.replace(/{suburb}/g, suburbName
 // Get quickFacts if available
 const quickFacts = service.data.quickFacts;
 
-// Enhanced title with price signal for better CTR
-const priceSignal = quickFacts?.costRange ? ` | ${quickFacts.costRange.split('(')[0].trim()}` : '';
-const title = `${baseTitle}${priceSignal}`;
+// Build optimized meta title (max ~50 chars before brand addition)
+// Format: "{Service} {Suburb} - From ${Price}/hr"
+const priceMatch = quickFacts?.costRange?.match(/\$[\d]+/);
+const priceSignal = priceMatch ? ` - From ${priceMatch[0]}/hr` : '';
+const title = `${cleanServiceName} ${suburbName}${priceSignal}`;
+
+// H1 title - benefit-focused, slightly longer allowed
+const h1Title = baseTitle.replace(/\s*\|.*$/, ''); // Remove anything after pipe
 
 // Enhanced meta description with benefits, location, and CTA
 const description = `${baseDescription} Local ${suburbInfo.region} team. ${quickFacts?.fundingOptions ? `Funded via ${quickFacts.fundingOptions.split(',')[0]}.` : 'NDIS & HCP approved.'} Call 08 6386 9999.`;
@@ -635,7 +640,7 @@ const combinedSchema = {
 <script type="application/ld+json" set:html={JSON.stringify(combinedSchema)}></script>
 
 <BaseLayout
-  title={title + " | MD Home Care"}
+  title={title}
   description={description}
   canonical={canonicalUrl}
 >
@@ -676,7 +681,7 @@ const combinedSchema = {
 
               <!-- Title -->
               <h1 class="text-3xl md:text-5xl font-extrabold text-base-content mb-4 leading-tight">
-                {title}
+                {h1Title}
               </h1>
 
               <!-- Description -->

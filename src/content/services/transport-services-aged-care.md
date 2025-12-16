@@ -1,5 +1,5 @@
 ---
-title: "Transport Services for Aged Care in {suburb}"
+title: "Aged Care Transport in {suburb}"
 description: "Safe and reliable transport services for seniors in {suburb}. Our professional drivers and comfortable vehicles provide convenient transportation to medical appointments, shopping trips, social activities, and more."
 pubDate: 2025-04-18
 category: "Mobility Support"

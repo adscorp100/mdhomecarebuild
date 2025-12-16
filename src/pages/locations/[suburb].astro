@@ -60,8 +60,12 @@ const stateNames: Record<string, string> = {
   "NT": "Northern Territory"
 };
 
-const title = `Home Care & NDIS Services in ${suburbName} | MD Home Care`;
-const description = `Find quality home care and NDIS services in ${suburbName}, ${stateNames[suburbInfo.state]}. Personal care, domestic assistance, disability support, and more. Local carers, flexible scheduling.`;
+// Optimized meta title (under 60 chars with brand)
+const title = `Home Care & NDIS in ${suburbName}`;
+const description = `Find quality home care and NDIS services in ${suburbName}, ${stateNames[suburbInfo.state]}. Personal care, domestic assistance, disability support. Local carers, flexible scheduling. Call 08 6386 9999.`;
+
+// H1 can be slightly longer
+const h1Title = `Home Care & NDIS Services in ${suburbName}`;
 
 // Schema markup
 const locationSchema = {
@@ -109,7 +113,7 @@ const locationSchema = {
       </div>
 
       <h1 class="text-4xl font-bold text-base-content mb-4">
-        Home Care & NDIS Services in {suburbName}
+        {h1Title}
       </h1>
 
       <p class="text-lg text-base-content/70 max-w-3xl mb-6">

@@ -1,5 +1,5 @@
 ---
-title: "NDIS Psychosocial Recovery Coaching in {suburb}"
+title: "Psychosocial Recovery Coaching in {suburb}"
 description: "Feeling stuck? Our NDIS Psychosocial Recovery Coaches in {suburb} can help. We partner with you to navigate challenges, build skills, and take control of your mental health recovery journey. Learn how."
 pubDate: 2025-05-18
 category: "Mental Health Support"

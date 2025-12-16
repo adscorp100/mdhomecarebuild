@@ -1,5 +1,5 @@
 ---
-title: "Functional Capacity Assessments for NDIS Participants in {suburb}"
+title: "Functional Capacity Assessments in {suburb}"
 description: "Professional functional capacity assessments for NDIS participants in {suburb}. Expert occupational therapists conduct comprehensive FCA evaluations to support your NDIS plan. Get your functional capacity report today."
 keywords: ["functional capacity assessment", "functional capacity report"]
 pubDate: 2025-02-23

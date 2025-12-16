@@ -1,5 +1,5 @@
 ---
-title: "Expert Aged Care Navigation & Support in {suburb}"
+title: "Aged Care Support in {suburb}"
 description: "Feeling overwhelmed by the aged care system? Our expert navigators in {suburb} can help. We provide professional guidance to help you find the right care, manage providers, and get the most from your funding."
 pubDate: 2025-07-04
 category: "Aged Care"

@@ -1,5 +1,5 @@
 ---
-title: "NDIS Behaviour Support in {suburb}: A Compassionate Approach"
+title: "NDIS Behaviour Support in {suburb}"
 description: "Feeling overwhelmed? Our Positive Behaviour Support (PBS) services in {suburb} focus on understanding needs, not just managing behaviour. A compassionate approach for NDIS participants."
 pubDate: 2025-05-03
 category: "Disability Services"
