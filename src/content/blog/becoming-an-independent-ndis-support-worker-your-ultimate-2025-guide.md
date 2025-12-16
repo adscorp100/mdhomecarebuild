@@ -4,6 +4,8 @@ description: "Comprehensive guide for aspiring independent NDIS support workers 
 pubDate: 2025-03-15
 author: "Camila"
 tags: []
+popupTitle: "Thinking About Going Independent?"
+popupSubtitle: "We can help you build a successful support work practice"
 image: "/assets/Ilovendis.webp"
 
 ---

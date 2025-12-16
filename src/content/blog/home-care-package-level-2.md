@@ -4,6 +4,8 @@ description: "Home care package level 2 provides $17,346 annual funding for low 
 pubDate: 2025-07-02
 author: "Camila"
 tags: []
+popupTitle: "Questions About Home Care Packages?"
+popupSubtitle: "Our team can help you understand your funding and options"
 image: "/assets/holdinglinen.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "Feeling lost in the NDIS functional capacity assessment process? O
 pubDate: 2025-07-05
 author: "MD Home Care"
 tags: ["functional capacity assessment", "ndis", "fca cost", "ndis process"]
+popupTitle: "Confused About NDIS Assessments?"
+popupSubtitle: "Let us simplify the process and support your application"
 image: "/assets/occupationaltherapy.webp"
 ---
 

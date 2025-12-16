@@ -4,6 +4,8 @@ description: "Feeling overwhelmed choosing a provider? This guide reveals the ke
 pubDate: 2025-07-05
 author: "MD Home Care"
 tags: ["NDIS Provider", "Aged Care Provider", "Home Care", "Support Worker"]
+popupTitle: "Need Help Choosing the Right Provider?"
+popupSubtitle: "We're here to answer your questions and guide you"
 image: "/assets/carer.webp"
 ---
 

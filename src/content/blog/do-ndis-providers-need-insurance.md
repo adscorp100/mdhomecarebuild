@@ -4,6 +4,8 @@ description: "Learn exactly what insurance NDIS providers need to stay compliant
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
+popupTitle: "Starting Your NDIS Provider Journey?"
+popupSubtitle: "Get expert guidance on insurance, registration, and compliance requirements"
 image: "/assets/Ilovendis.webp"
 ---
 

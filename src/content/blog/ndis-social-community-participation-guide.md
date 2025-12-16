@@ -4,6 +4,8 @@ description: "Looking for NDIS community participation ideas? Our 2025 guide exp
 pubDate: 2025-07-06
 author: 'MD Home Care'
 tags: ["NDIS", "Community Participation", "Social Activities"]
+popupTitle: "Want to Get More Involved in Your Community?"
+popupSubtitle: "We can help you find and access social activities"
 image: '/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp'
 ---
 

@@ -5,6 +5,8 @@ keywords: ["ndis schedule of supports template", "schedule of supports", "schedu
 pubDate: 2025-02-10
 category: "NDIS Planning"
 author: "MD Homecare"
+popupTitle: "Questions About NDIS Pricing?"
+popupSubtitle: "We offer transparent pricing and clear explanations"
 image: "/assets/occupationaltherapy.webp"
 ---
 

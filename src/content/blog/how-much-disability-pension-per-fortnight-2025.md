@@ -4,6 +4,8 @@ description: "Disability pension December 2025: Singles get up to $1,149/fortnig
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["disability support pension", "dsp rates", "disability pension", "centrelink payments", "dsp 2025", "disability pension rates"]
+popupTitle: "Need Help with Your DSP Application?"
+popupSubtitle: "Get support navigating Centrelink and maximizing your entitlements"
 image: "/assets/wheelchair.webp"
 ---
 

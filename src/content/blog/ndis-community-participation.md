@@ -4,6 +4,8 @@ description: "Your complete guide to NDIS Community Participation. Learn what 'A
 pubDate: 2025-07-02
 author: "Camila"
 tags: ['ndis', 'community participation', 'social support', 'ndis plan']
+popupTitle: "Want to Engage More in Your Community?"
+popupSubtitle: "We can help you access community participation support"
 image: "/assets/downs.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "Everything you need to know about ACAT assessment levels and home 
 pubDate: 2025-01-20
 author: "Camila"
 tags: ["ACAT", "home care packages", "aged care", "assessment levels", "elderly care"]
+popupTitle: "Ready to Apply for Your ACAT Assessment?"
+popupSubtitle: "Our team can guide you through the entire process"
 image: "/assets/grandma.webp"
 ---
 

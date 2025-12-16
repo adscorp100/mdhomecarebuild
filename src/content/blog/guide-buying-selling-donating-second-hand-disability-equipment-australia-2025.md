@@ -5,6 +5,8 @@ pubDate: 2025-01-11
 author: "Camila"
 image: "/assets/disabled carer.webp"
 tags: ["disability equipment", "second hand", "mobility aids", "NDIS", "assistive technology", "Australia", "buying guide", "selling guide", "donating"]
+popupTitle: "Need Help Finding Disability Equipment?"
+popupSubtitle: "Our team can guide you to quality equipment within your budget"
 ---
 
 # The Ultimate Guide to Buying, Selling & Donating Second-Hand Disability Equipment in Australia [Updated 2025]

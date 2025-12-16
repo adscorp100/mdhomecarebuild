@@ -3,6 +3,16 @@
 // A minimal, elegant popup to capture leads from blog readers
 // Triggers after 15 seconds OR 30% scroll (whichever comes first)
 import { Icon } from 'astro-icon/components';
+
+interface Props {
+  popupTitle?: string;
+  popupSubtitle?: string;
+}
+
+const {
+  popupTitle = "Have Questions?",
+  popupSubtitle = "We're here to help."
+} = Astro.props;
 ---
 
 <!-- Popup Overlay -->
@@ -12,7 +22,7 @@ import { Icon } from 'astro-icon/components';
 
   <!-- Popup Container -->
   <div class="absolute inset-0 flex items-center justify-center p-4">
-    <div id="popup-content" class="relative bg-white rounded-[2rem] shadow-2xl w-full max-w-md overflow-hidden transform scale-95 opacity-0 transition-all duration-300">
+    <div id="popup-content" class="relative bg-white rounded-[2rem] shadow-2xl w-full max-w-md lg:max-w-xl overflow-hidden transform scale-95 opacity-0 transition-all duration-300">
 
       <!-- Close Button -->
       <button id="popup-close" class="absolute top-4 right-4 z-10 btn btn-ghost btn-sm btn-circle text-secondary/40 hover:text-secondary hover:bg-base-200">
@@ -26,8 +36,8 @@ import { Icon } from 'astro-icon/components';
         <div class="flex items-center gap-4 mb-6">
           <Icon name="hugeicons:message-question" class="h-10 w-10 text-primary shrink-0" />
           <div>
-            <h3 class="text-xl font-bold text-secondary">Have Questions?</h3>
-            <p class="text-secondary/60 text-sm">We're here to help.</p>
+            <h3 class="text-xl font-bold text-secondary">{popupTitle}</h3>
+            <p class="text-secondary/60 text-sm">{popupSubtitle}</p>
           </div>
         </div>
 

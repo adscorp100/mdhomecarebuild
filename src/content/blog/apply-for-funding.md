@@ -4,6 +4,8 @@ description: "Learn how to apply for in home support services through the NDIS w
 pubDate: 2025-02-24
 author: "Camila"
 tags: []
+popupTitle: "Ready to Apply for NDIS Funding?"
+popupSubtitle: "We can help you navigate the application process"
 image: "/assets/Ilovendis.webp"
 
 ---

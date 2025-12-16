@@ -4,6 +4,8 @@ description: "Comprehensive breakdown of NDIS support worker pay rates in 2025. 
 pubDate: 2025-04-03
 author: "Camila"
 tags: []
+popupTitle: "Looking for Quality Support Workers?"
+popupSubtitle: "Our team provides experienced, professional care"
 image: "/assets/nurse.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "Discover what psychosocial recovery coaches do, their qualificatio
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
+popupTitle: "Need Psychosocial Recovery Support?"
+popupSubtitle: "Connect with our experienced mental health support team"
 image: "/assets/carer.webp"
 ---
 

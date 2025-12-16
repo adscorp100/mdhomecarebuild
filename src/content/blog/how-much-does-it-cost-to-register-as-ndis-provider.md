@@ -4,6 +4,8 @@ description: "Comprehensive breakdown of NDIS provider registration costs in 202
 pubDate: 2025-04-07
 author: "Camila"
 tags: []
+popupTitle: "Considering NDIS Provider Registration?"
+popupSubtitle: "Get expert advice on costs, compliance, and business setup"
 image: "/assets/ndis-provider-melbourne.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "A comprehensive guide to fall prevention for seniors in Australia.
 pubDate: 2025-07-05
 author: "MD Home Care"
 tags: ["Fall Prevention", "Seniors Health", "Aged Care", "Home Modifications"]
+popupTitle: "Worried About Fall Risks at Home?"
+popupSubtitle: "Get a free home safety assessment and personalized prevention plan"
 image: "/assets/accessible-bathroom.webp"
 ---
 

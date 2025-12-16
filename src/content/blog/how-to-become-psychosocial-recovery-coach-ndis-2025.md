@@ -4,6 +4,8 @@ description: "Learn how to become a psychosocial recovery coach in Australia. St
 pubDate: 2025-12-14
 author: "Camila"
 tags: []
+popupTitle: "Interested in Mental Health Recovery Support?"
+popupSubtitle: "Discover how to become a psychosocial recovery coach with our help"
 image: "/assets/carer.webp"
 ---
 

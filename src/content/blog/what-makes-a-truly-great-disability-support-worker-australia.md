@@ -4,6 +4,8 @@ description: "Discover the essential qualities, skills, and values that define e
 pubDate: 2025-05-03
 author: "Camila"
 tags: []
+popupTitle: "Looking for Exceptional Support Workers?"
+popupSubtitle: "We match you with qualified, compassionate support professionals"
 image: "/assets/carer.webp"
 ---
 

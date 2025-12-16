@@ -4,6 +4,8 @@ description: "Discover when and how family members can be paid support workers u
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
+popupTitle: "Questions About Family Support Arrangements?"
+popupSubtitle: "Let us help you understand your NDIS options"
 image: "/assets/grandma.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "Complete NDIS support worker checklist for 2025. Essential require
 pubDate: 2025-04-09
 author: "Camila"
 tags: []
+popupTitle: "Ready to Start Your Support Worker Career?"
+popupSubtitle: "Join a team that values quality and care"
 image: "/assets/physio.webp"
 ---
 

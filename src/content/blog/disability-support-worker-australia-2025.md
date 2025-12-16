@@ -4,6 +4,8 @@ description: "Get $30-42/hour as a disability support worker in Australia. Compl
 pubDate: 2025-01-15
 author: "Camila"
 tags: ["disability support worker", "ndis careers", "support worker jobs", "disability support work"]
+popupTitle: "Interested in a Support Work Career?"
+popupSubtitle: "Join our team and make a real difference"
 image: "/assets/disabled carer.webp"
 ---
 

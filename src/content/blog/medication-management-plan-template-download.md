@@ -4,6 +4,8 @@ description: "Download our free medication management plan template for 2025. Le
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["medication", "management-plan", "template", "ndis", "aged-care"]
+popupTitle: "Need Help with Medication Management?"
+popupSubtitle: "Our trained team can ensure safe medication support"
 image: "/assets/nurse.webp"
 ---
 

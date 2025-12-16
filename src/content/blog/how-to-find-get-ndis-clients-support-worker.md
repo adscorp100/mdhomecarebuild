@@ -5,6 +5,8 @@ keywords: ["how to find ndis clients", "how to get ndis clients", "find ndis cli
 pubDate: 2025-01-25
 category: "Support Worker Business"
 author: "MD Homecare"
+popupTitle: "Struggling to Find NDIS Clients?"
+popupSubtitle: "Get practical strategies to build your client base and grow your business"
 image: "/assets/disabled carer.webp"
 ---
 

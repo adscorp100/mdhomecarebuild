@@ -4,6 +4,8 @@ description: "Aged care is changing in July 2025. This guide explains the new Su
 pubDate: 2025-07-05
 author: "MD Home Care"
 tags: ["Aged Care Changes", "Support at Home", "Home Care Packages", "CHSP"]
+popupTitle: "Concerned About Aged Care Changes?"
+popupSubtitle: "We're here to explain the new system clearly"
 image: "/assets/holdinglinen.webp"
 ---
 

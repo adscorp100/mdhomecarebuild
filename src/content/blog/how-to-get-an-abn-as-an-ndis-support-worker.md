@@ -4,6 +4,8 @@ description: "Complete guide on how to get an ABN for support workers in the NDI
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
+popupTitle: "Ready to Work Independently?"
+popupSubtitle: "We can help you navigate ABN setup and business requirements"
 image: "/assets/holdinglinen.webp"
 ---
 

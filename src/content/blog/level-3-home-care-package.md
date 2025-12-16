@@ -4,6 +4,8 @@ description: "How much is a Level 3 Home Care Package in 2025? Our guide breaks 
 pubDate: 2025-07-06
 author: 'MD Home Care'
 tags: ["Home Care Package", "Aged Care", "Level 3"]
+popupTitle: "Need Help with Your Home Care Package?"
+popupSubtitle: "We can guide you through funding and service options"
 image: '/assets/accessible-bathroom.webp'
 ---
 

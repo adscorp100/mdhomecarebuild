@@ -4,6 +4,8 @@ description: "Discover rewarding career opportunities as a support worker in Syd
 pubDate: 2025-02-23
 author: "Camila"
 tags: []
+popupTitle: "Looking for Quality Support Workers in Sydney?"
+popupSubtitle: "Connect with our experienced team of support professionals"
 image: "https://cdn.prod.website-files.com/67ba898f18b9815458c46343/67baad9bd87ba750e0be84ae_Screenshot%202025-02-23%20at%204.08.45%E2%80%AFpm.webp"
 ---
 

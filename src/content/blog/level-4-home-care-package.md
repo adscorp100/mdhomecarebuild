@@ -4,6 +4,8 @@ description: "A Level 4 Home Care Package provides $79,473 for high-level care. 
 pubDate: 2025-07-06
 author: 'MD Home Care'
 tags: ["Home Care Package", "Aged Care", "Level 4", "Complex Care"]
+popupTitle: "Managing Complex Care Needs?"
+popupSubtitle: "Our experienced team can support high-level care at home"
 image: '/assets/nurse.webp'
 ---
 

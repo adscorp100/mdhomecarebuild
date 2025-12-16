@@ -4,6 +4,8 @@ description: "Discover if you can work as an NDIS support worker without qualifi
 pubDate: 2025-05-15T00:00:00Z
 author: "Camila"
 tags: []
+popupTitle: "Ready to Start Your Care Career?"
+popupSubtitle: "We offer training and support for new workers"
 image: "/assets/makingbed.webp"
 ---
 

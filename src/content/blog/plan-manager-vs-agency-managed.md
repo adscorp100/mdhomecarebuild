@@ -4,6 +4,8 @@ description: "Confused about NDIS fund management? This guide breaks down the di
 pubDate: 2025-07-05
 author: "MD Home Care"
 tags: ["NDIS", "Plan Manager", "NDIS Provider", "NDIS Funding"]
+popupTitle: "Unsure About Plan Management?"
+popupSubtitle: "Let us help you choose the best option"
 image: "/assets/grandmawhite.webp"
 ---
 

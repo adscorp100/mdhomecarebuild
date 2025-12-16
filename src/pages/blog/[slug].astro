@@ -226,7 +226,10 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
   </div>
 
   <!-- Lead Capture Popup -->
-  <BlogLeadPopup />
+  <BlogLeadPopup
+    popupTitle={entry.data.popupTitle}
+    popupSubtitle={entry.data.popupSubtitle}
+  />
 </BaseLayout>
 
 <style>

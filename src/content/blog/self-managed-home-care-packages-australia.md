@@ -4,6 +4,8 @@ description: "The Support at Home program starts July 1, 2025. Learn how self-ma
 pubDate: 2025-07-02
 author: "Camila"
 tags: ['home care package', 'self-managed care', 'support at home', 'aged care']
+popupTitle: "Want More Control Over Your Care?"
+popupSubtitle: "Discover the benefits of self-management"
 image: "/assets/holdinglinen.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "Confused about accessing NDIS for a psychosocial disability? This 
 pubDate: 2025-07-05
 author: "MD Home Care"
 tags: ["NDIS", "Psychosocial Disability", "Mental Health", "NDIS Provider"]
+popupTitle: "Questions About Psychosocial Support?"
+popupSubtitle: "Our team understands mental health and the NDIS"
 image: "/assets/two women looking at alarm.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "Confused about what STA means in the NDIS? This simple 2025 guide 
 pubDate: 2025-07-02
 author: "Camila"
 tags: ["STA NDIS", "Short Term Accommodation", "NDIS Respite", "NDIS"]
+popupTitle: "Need Short-Term Accommodation?"
+popupSubtitle: "We can help arrange quality STA for your needs"
 image: "/assets/respite care.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "Your expert guide to becoming a registered NDIS provider in 2025. 
 pubDate: 2025-07-05
 author: "MD Home Care"
 tags: ["NDIS Provider", "NDIS Registration", "Start NDIS Business"]
+popupTitle: "Need Help Choosing an NDIS Provider?"
+popupSubtitle: "We're experienced, registered, and here to help"
 image: "/assets/clinic.webp" # A more professional image
 ---
 

@@ -4,6 +4,8 @@ description: "Learn what functional capacity assessments are, why they matter fo
 pubDate: 2025-04-01
 author: "Camila"
 tags: []
+popupTitle: "Planning Your NDIS Assessment?"
+popupSubtitle: "We can help you prepare and understand what to expect"
 image: "/assets/occupationaltherapy.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "Everything you need to know about applying for a Companion Card in
 pubDate: 2025-12-16
 author: "Camila"
 tags: ["companion card", "disability support", "NDIS", "accessibility"]
+popupTitle: "Need Help with Your Companion Card Application?"
+popupSubtitle: "We can assist with documentation and support coordination"
 image: "/assets/downs.webp"
 ---
 

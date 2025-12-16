@@ -4,6 +4,8 @@ description: "Your guide to NDIS support worker hourly rates in 2025. Learn abou
 pubDate: 2025-07-02
 author: "Camila"
 tags: ["NDIS", "Pay Rates", "Support Worker"]
+popupTitle: "Looking for Fair Pay and Support?"
+popupSubtitle: "Discover competitive rates with MD Home Care"
 image: "/assets/disabled carer.webp"
 ---
 

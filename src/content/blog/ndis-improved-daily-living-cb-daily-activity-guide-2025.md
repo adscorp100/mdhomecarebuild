@@ -4,6 +4,8 @@ description: "Comprehensive guide to understanding NDIS Improved Daily Living (C
 pubDate: 2025-05-03
 author: "Camila"
 tags: []
+popupTitle: "Want to Maximize Your NDIS Funding?"
+popupSubtitle: "We can help you access the right supports for your goals"
 image: "/assets/disabled carer.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "Your ultimate guide to government funded personal alarms in Austra
 pubDate: 2025-07-04
 author: "MD Home Care"
 tags: ["Personal Alarm", "Aged Care", "Government Funding", "NDIS", "My Aged Care"]
+popupTitle: "Looking for a Personal Alarm System?"
+popupSubtitle: "We'll help you access government funding and choose the right option"
 image: "/assets/two women looking at alarm.webp"
 ---
 

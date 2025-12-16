@@ -4,6 +4,8 @@ description: "Download our free NDIS service agreement template for 2025. Learn 
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "service-agreement", "template", "providers", "compliance"]
+popupTitle: "Want Clear Service Agreements?"
+popupSubtitle: "We make our commitments transparent and easy to understand"
 image: "/assets/holdinglinen.webp"
 ---
 

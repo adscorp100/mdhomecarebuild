@@ -4,6 +4,8 @@ description: "Complete 2025 guide to support worker insurance in Australia. Comp
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
+popupTitle: "Confused About Insurance Requirements?"
+popupSubtitle: "Get clear guidance on the coverage you need to work safely"
 image: "/assets/carer.webp"
 ---
 

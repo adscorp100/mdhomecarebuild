@@ -4,6 +4,8 @@ description: "Learn what is a companion card, companion card eligibility, how to
 pubDate: 2025-04-15
 author: "Camila"
 tags: ["companion card", "ndis companion card", "what is companion card", "companion card eligibility", "companion card nsw"]
+popupTitle: "Questions About Accessing Community Services?"
+popupSubtitle: "Our team can help you navigate available support programs"
 image: "https://cdn.prod.website-files.com/67ba898f18b9815458c46343/67fede722e42bd5a878ec998_cdc-F98Mv9O6LfI-unsplash.jpg"
 ---
 

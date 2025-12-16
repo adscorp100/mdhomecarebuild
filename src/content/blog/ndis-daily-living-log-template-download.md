@@ -4,6 +4,8 @@ description: "Download our free NDIS daily living log template for 2025. Learn h
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "daily-living-log", "template", "tracking", "support"]
+popupTitle: "Need Help Managing Your NDIS Plan?"
+popupSubtitle: "We can guide you through tracking and documentation"
 image: "/assets/Doing Dishes.webp"
 ---
 

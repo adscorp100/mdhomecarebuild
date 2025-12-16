@@ -4,6 +4,8 @@ description: "Comprehensive guide to Local Area Coordinators (LACs) in the NDIS 
 pubDate: 2025-01-20
 author: "Camila"
 tags: ["NDIS", "Local Area Coordinator", "LAC", "disability support", "NDIS planning"]
+popupTitle: "Confused About NDIS Planning?"
+popupSubtitle: "Let us help you navigate the NDIS system and access supports"
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 

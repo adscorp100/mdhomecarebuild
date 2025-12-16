@@ -4,6 +4,8 @@ description: "Find CHSP providers near you. Complete guide to Commonwealth Home 
 pubDate: 2025-01-20
 author: "Camila"
 tags: ["CHSP providers", "commonwealth home support program", "aged care providers", "entry level services", "CHSP services"]
+popupTitle: "Need Entry-Level Home Support?"
+popupSubtitle: "Discover how CHSP services can help you stay independent"
 image: "/assets/homecare.webp"
 ---
 

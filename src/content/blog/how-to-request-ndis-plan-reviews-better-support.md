@@ -4,6 +4,8 @@ description: "Complete guide to requesting NDIS plan reviews and reassessments i
 pubDate: 2025-06-02
 author: "Camila"
 category: "NDIS"
+popupTitle: "Need More Support in Your NDIS Plan?"
+popupSubtitle: "We can help you prepare for plan reviews and reassessments"
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 

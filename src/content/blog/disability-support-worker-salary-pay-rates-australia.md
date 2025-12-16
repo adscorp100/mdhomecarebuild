@@ -4,6 +4,8 @@ description: "Your complete guide to Disability Support Worker pay rates in Aust
 pubDate: 2025-07-02
 author: "Camila"
 tags: ["disability support worker", "salary", "pay rates", "schads award", "ndis"]
+popupTitle: "Looking for Fair Pay as a Support Worker?"
+popupSubtitle: "We offer competitive rates and career progression"
 image: "/assets/disabled carer.webp"
 ---
 

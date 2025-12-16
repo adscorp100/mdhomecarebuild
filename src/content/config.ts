@@ -9,6 +9,9 @@ const blog = defineCollection({
     author: z.string(),
     image: z.string().optional(),
     tags: z.array(z.string()).default([]),
+    // Popup CTA fields - contextual messaging to maximize conversions
+    popupTitle: z.string().optional(),    // e.g., "Need Help with Your Companion Card?"
+    popupSubtitle: z.string().optional(), // e.g., "We can guide you through the application"
   }),
 });
 

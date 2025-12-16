@@ -4,6 +4,8 @@ description: "Understand the critical legal and ethical responsibilities of 'dut
 pubDate: 2025-07-04
 author: "MD Home Care"
 tags: ["duty of care in aged care", "legal and ethical requirements of duty of care in aged care", "example of breach of duty of care in aged care", "consequences of breaching duty of care in aged care"]
+popupTitle: "Concerned About Quality Aged Care?"
+popupSubtitle: "Let us help you understand your rights and find the right support"
 image: "/assets/carer.webp"
 ---
 

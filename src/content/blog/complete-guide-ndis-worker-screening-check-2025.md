@@ -4,6 +4,8 @@ description: "Everything you need to know about the NDIS Worker Screening Check 
 pubDate: 2025-01-15
 author: "MD Homecare Team"
 tags: ["ndis worker screening check", "worker screening", "ndis clearance", "disability worker check"]
+popupTitle: "Looking for NDIS Work Opportunities?"
+popupSubtitle: "Join our team of qualified support workers"
 image: "/assets/nurse.webp"
 ---
 

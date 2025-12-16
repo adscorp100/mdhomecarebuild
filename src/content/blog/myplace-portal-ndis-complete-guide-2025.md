@@ -5,6 +5,8 @@ pubDate: 2025-12-14
 author: "Camila"
 image: "/assets/disabled carer.webp"
 tags: ["ndis", "myplace portal", "ndis portal", "participant portal", "self-managed"]
+popupTitle: "Stuck with Portal Issues?"
+popupSubtitle: "We can help you navigate the NDIS system smoothly"
 ---
 
 # myplace Portal: Complete Guide to the NDIS Participant Portal

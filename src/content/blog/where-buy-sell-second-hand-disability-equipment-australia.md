@@ -5,6 +5,8 @@ keywords: ["where to sell second hand disability equipment", "second hand disabi
 pubDate: 2025-01-30
 category: "Equipment & Technology"
 author: "MD Homecare"
+popupTitle: "Need Help Sourcing Disability Equipment?"
+popupSubtitle: "We can assist you with equipment advice and funding"
 image: "/assets/wheelchair.webp"
 ---
 

@@ -4,6 +4,8 @@ description: "Stay informed with the latest NDIS news and updates for December 2
 pubDate: 2025-12-16
 author: "Camila"
 tags: ["NDIS", "disability support", "NDIS news", "NDIS changes 2025"]
+popupTitle: "Overwhelmed by NDIS Changes?"
+popupSubtitle: "We stay updated so you don't have to"
 image: "/assets/accessible bathroom.webp"
 ---
 
