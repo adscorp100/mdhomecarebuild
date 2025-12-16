@@ -20,6 +20,8 @@ These services benefit both participants and caregivers. Costs depend on several
 - Day of the week (weekday, weekend, or public holiday)
 - Location (national, remote, very remote)
 
+**Calculate your respite costs:** Use our free **[NDIS Respite Calculator](/tools/ndis-respite-calculator)** to get an instant estimate based on your support ratio, location, and planned stay dates.
+
 The latest pricing, effective from October 1, 2024, is detailed below.
 
 ## NDIS Short Term Accommodation Rates

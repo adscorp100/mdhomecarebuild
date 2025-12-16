@@ -15,6 +15,8 @@ image: "/assets/Ilovendis.webp"
 - Registered providers must provide proof of insurance during registration and audit processes.
 - Insurance costs for NDIS providers typically range from $1,000 to $5,000+ annually depending on services provided.
 
+**Estimate your total costs:** Use our **[NDIS Provider Registration Calculator](/tools/ndis-provider-calculator)** to see how insurance fits into your overall registration expenses.
+
 ## Mandatory Insurance Requirements for NDIS Providers
 The NDIS Quality and Safeguards Commission requires all providers to maintain adequate and appropriate insurance for the supports and services they deliver. This is both a legal requirement and an essential risk management strategy.
 

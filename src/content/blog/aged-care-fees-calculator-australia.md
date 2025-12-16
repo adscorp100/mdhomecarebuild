@@ -11,6 +11,8 @@ image: "/assets/homecare.webp"
 
 Navigating the cost of aged care in Australia can feel like one of life's most stressful challenges. You want the best care for your loved one, but the complexity of the fees—from the basic daily fee to the means-tested calculations and accommodation costs—can be overwhelming.
 
+**Helpful tools:** Use our **[Aged Care Calculator](/tools/aged-care-calculator)** to estimate residential care fees, or take the **[HCP vs NDIS Quiz](/tools/hcp-vs-ndis)** if you're not sure which program is right for you.
+
 This guide is designed to be your single source of truth. We will walk you through every fee, show you how to get an official estimate, and answer the real-world questions that cause the most confusion.
 
 ## How to Estimate Your Aged Care Fees: The Official Calculator

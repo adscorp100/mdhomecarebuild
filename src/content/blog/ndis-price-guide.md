@@ -29,6 +29,8 @@ image: "/assets/dieticiain.webp"
 
 *Last updated: December 15, 2025 - Source: NDIA Pricing Arrangements and Price Limits 2025-26 v1.1*
 
+**Free tools:** Calculate exact rates with our **[NDIS Pay Rate Calculator](/tools/ndis-pay-rate-calculator)** or find line item codes with the **[NDIS Code Lookup Tool](/tools/ndis-code-lookup)**.
+
 ## NDIS Price Guide 2025-26: Current Support Worker Rates
 
 **Updated NDIS Support Worker Hourly Rates (2025-26):**

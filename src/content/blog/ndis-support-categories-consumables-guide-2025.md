@@ -18,6 +18,8 @@ image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.we
 - **Budget Flexibility**: Transfer funds between categories within limits
 - **⚠️ Updates**: New assistive technology rules and consumables guidelines
 
+**Plan your budget:** Use our free **[NDIS Budget Planner](/tools/ndis-budget-planner)** to allocate your funding across support categories and calculate weekly support hours.
+
 The NDIS organizes all supports into 15 specific categories across three main budget types: Core Supports, Capital Supports, and Capacity Building Supports. Understanding these categories is essential for maximizing your NDIS funding and ensuring you can access the right supports for your needs.
 
 ## The 15 NDIS Support Categories Explained

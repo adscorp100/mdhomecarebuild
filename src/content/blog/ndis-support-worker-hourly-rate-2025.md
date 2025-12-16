@@ -13,9 +13,11 @@ With the NDIS 2025-26 price guide now in effect, support workers and participant
 
 This guide breaks down the NDIS support worker hourly rates for 2025, so you know exactly what to expect.
 
+**Calculate your exact rates:** Use our free **[NDIS Pay Rate Calculator](/tools/ndis-pay-rate-calculator)** to see rates for weekdays, weekends, and public holidays. Or estimate your annual earnings with our **[Support Worker Income Calculator](/tools/support-worker-income-calculator)**.
+
 ## NDIS Support Worker Pay Rates 2025 (at a Glance)
 
-Here’s a quick summary of the updated weekday hourly rates for agency-employed support workers under the SCHADS Award.
+Here's a quick summary of the updated weekday hourly rates for agency-employed support workers under the SCHADS Award.
 
 | Worker Level | Weekday Rate | Evening Rate |
 | :--- | :--- | :--- |

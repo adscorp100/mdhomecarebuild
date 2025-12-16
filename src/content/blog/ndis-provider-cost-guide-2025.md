@@ -9,6 +9,8 @@ popupSubtitle: "We're a fully registered, quality-focused provider"
 image: "/assets/clinic.webp"
 ---
 
+**Estimate your registration costs:** Use our free **[NDIS Provider Registration Cost Calculator](/tools/ndis-provider-calculator)** to get a personalized estimate including audit fees, insurance, and suitability assessments.
+
 ## 1. Introduction: Navigating the Path to NDIS Provider Registration
 
 The National Disability Insurance Scheme (NDIS) presents significant opportunities for businesses, organisations, and sole traders across Australia to make a meaningful contribution to the disability sector. By delivering essential supports and services, NDIS providers play a vital role in empowering participants to achieve their goals and enhance their quality of life. However, embarking on the journey to become a registered NDIS provider involves navigating a complex regulatory landscape managed by the NDIS Quality and Safeguards Commission (NDIS Commission).

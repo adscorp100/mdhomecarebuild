@@ -15,6 +15,8 @@ image: "/assets/holdinglinen.webp"
 - To be eligible, you must be providing services as a business rather than an employee.
 - After obtaining an ABN, you'll need to set up proper tax arrangements, insurance, and service agreements.
 
+**Planning your independent career?** Use our **[Support Worker Income Calculator](/tools/support-worker-income-calculator)** to estimate your earnings and the **[NDIS Worker Screening Calculator](/tools/ndis-screening-calculator)** to check clearance costs.
+
 ## Do NDIS Support Workers Need an ABN?
 Whether you need an ABN as an NDIS support worker depends on your employment arrangement:
 

@@ -21,6 +21,8 @@ Understanding NDIS travel charges and allowances is crucial for support workers,
 - Travel time and distance calculations must follow NDIS guidelines
 - Participants have rights regarding travel charges and transparency
 
+**Calculate your travel costs:** Use our free **[NDIS Travel Calculator](/tools/ndis-travel-calculator)** to estimate km allowances and travel time claims based on your location and support type.
+
 ## Understanding NDIS Travel Charges
 
 ### What Are NDIS Travel Charges?

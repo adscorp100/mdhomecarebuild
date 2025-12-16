@@ -31,6 +31,8 @@ image: "/assets/Ilovendis.webp"
 - [Improved Daily Living Skills Codes](#15--improved-daily-living-skills)
 - [New July 2025 Items](#new-support-items-july-2025)
 
+**Find codes instantly:** Use our free **[NDIS Code Lookup Tool](/tools/ndis-code-lookup)** to search for any line item code, view pricing, and see claiming rules.
+
 ## Understanding NDIS Codes 2025-26: Latest Updates
 
 The National Disability Insurance Scheme (NDIS) uses a comprehensive system of codes and line items to categorize and track support funding. The **2025-26 NDIS Support Catalogue** represents the most significant update in recent years, with 23 new support items and 35 legacy items removed, helping participants and providers navigate the updated system effectively.

@@ -15,6 +15,8 @@ image: "/assets/carer.webp"
 - NDIS registered providers require minimum insurance of $10 million public liability and $5 million professional indemnity.
 - Independent support workers should consider income protection and personal accident coverage in addition to liability insurance.
 
+**Planning your support work business?** Estimate your total setup costs with the **[NDIS Provider Registration Calculator](/tools/ndis-provider-calculator)** or calculate your **[potential income](/tools/support-worker-income-calculator)**.
+
 ## Support Worker Insurance in Australia: Essential Coverage Types
 Support workers need several types of insurance coverage to protect themselves and their clients:
 

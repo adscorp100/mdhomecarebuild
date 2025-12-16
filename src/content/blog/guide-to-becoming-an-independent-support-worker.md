@@ -13,6 +13,11 @@ Becoming an independent NDIS support worker offers incredible flexibility and th
 
 This guide is your complete checklist for becoming an independent support worker in Australia, covering everything from your ABN and insurance to finding your first clients.
 
+**Helpful calculators for independent workers:**
+- **[Support Worker Income Calculator](/tools/support-worker-income-calculator)** - Estimate your earnings based on hours and shift types
+- **[NDIS Worker Screening Cost Calculator](/tools/ndis-screening-calculator)** - Check screening costs in your state
+- **[NDIS Travel Calculator](/tools/ndis-travel-calculator)** - Calculate km rates for travel claims
+
 ## Sole Trader vs. Agency: Which is Right for You?
 
 Before you start, it's important to understand the difference between being a sole trader and an agency employee.

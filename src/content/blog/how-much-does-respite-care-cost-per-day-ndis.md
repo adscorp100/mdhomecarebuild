@@ -26,6 +26,8 @@ Here’s a quick overview of the average respite care costs per day under the ND
 
 *Note: These rates are for national areas and do not include the higher costs for remote locations or public holidays.*
 
+**Calculate your respite costs:** Use our free **[NDIS Respite Calculator](/tools/ndis-respite-calculator)** to estimate STA costs based on support ratio, location, and days of the week.
+
 ## What is NDIS Respite Care (Short Term Accommodation)?
 
 Under the NDIS, respite care is officially known as **Short Term Accommodation (STA)**. It’s a support service where an NDIS participant lives away from their usual home for a short period. STA is designed to give both caregivers and participants a break from their daily routines.

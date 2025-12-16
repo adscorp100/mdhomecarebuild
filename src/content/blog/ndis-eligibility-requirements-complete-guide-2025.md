@@ -17,6 +17,8 @@ image: "/assets/downs.webp"
 - Early intervention requirements may have different criteria
 - Evidence from medical professionals required for application
 
+**Not sure if you're eligible?** Take our free **[NDIS Eligibility Quiz](/tools/ndis-eligibility-quiz)** to check if you might qualify for NDIS funding based on your circumstances.
+
 ## Understanding NDIS Eligibility
 
 The National Disability Insurance Scheme (NDIS) provides support to Australians with permanent and significant disability. Understanding eligibility requirements is the first step toward accessing life-changing [supports and services](/blog/ndis-core-supports).

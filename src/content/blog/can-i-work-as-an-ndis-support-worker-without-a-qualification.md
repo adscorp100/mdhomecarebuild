@@ -15,6 +15,10 @@ image: "/assets/makingbed.webp"
 - Transferable skills from other sectors (customer service, healthcare, teaching) and relevant life experience (supporting family members) can compensate for formal qualifications.
 - Career progression and higher pay rates typically require obtaining qualifications over time, with many employers offering "earn and learn" programs for new workers.
 
+**Essential tools for new support workers:**
+- **[NDIS Worker Screening Cost Calculator](/tools/ndis-screening-calculator)** - Find out how much your screening check costs in your state
+- **[Support Worker Income Calculator](/tools/support-worker-income-calculator)** - Estimate your potential earnings
+
 ## Minimum Requirements for NDIS Support Workers
 Although formal qualifications aren't mandatory across the board, all NDIS support workers must meet certain baseline requirements:
 

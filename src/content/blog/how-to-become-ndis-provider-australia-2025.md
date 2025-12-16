@@ -21,6 +21,8 @@ Becoming an NDIS provider in Australia offers significant opportunities to make 
 - Audit costs add $15,000-$100,000+ to total registration expenses
 - Ongoing compliance requirements include annual audits and quality reporting
 
+**Get a cost estimate:** Use our free **[NDIS Provider Registration Cost Calculator](/tools/ndis-provider-calculator)** to estimate your total registration costs based on your specific situation.
+
 ## Understanding NDIS Provider Registration
 
 ### What is NDIS Provider Registration?

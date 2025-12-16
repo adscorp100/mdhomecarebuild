@@ -13,6 +13,8 @@ As an NDIS worker, completing the **NDIS Worker Orientation Module "Quality, Saf
 
 This guide provides a clear, step-by-step walkthrough of everything you need to know to complete the module, get your certificate, and understand your obligations under the NDIS Code of Conduct.
 
+**Next steps after the orientation module:** Check your **[NDIS Worker Screening costs by state](/tools/ndis-screening-calculator)** and estimate your potential **[support worker income](/tools/support-worker-income-calculator)**.
+
 ## What is the NDIS Worker Orientation Module?
 
 The NDIS Worker Orientation Module is a free, mandatory online training program for all individuals working within the NDIS system. Its primary purpose is to ensure every worker understands the NDIS Code of Conduct and the rights of the people they support.

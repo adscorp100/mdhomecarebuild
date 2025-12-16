@@ -13,6 +13,8 @@ image: "/assets/grandma.webp"
 Navigating the aged care system can feel overwhelming, especially when you're worried about how to pay for it without significant assets. Many Australian pensioners share this concern, fearing they won't be able to afford the quality care they need. This guide is here to put those fears to rest. We'll walk you through the exact steps to access government-funded aged care, explain how costs are determined, and show you that a secure future is absolutely possible, even with no assets.
 
 <!-- ADDRESS THE CORE QUESTION (H2) -->
+**Estimate your costs:** Use our free **[Aged Care Calculator](/tools/aged-care-calculator)** to see how fees are calculated based on your income and assets. Pensioners with no assets will typically pay only the basic daily fee.
+
 ## Can You Get Aged Care in Australia With No Assets?
 
 Yes, you can absolutely get aged care in Australia if you have no assets. The Australian government has systems in place, including financial hardship provisions, to ensure that everyone can access the care they need, regardless of their financial situation. You will not be denied care because you don't own a home or have large savings.

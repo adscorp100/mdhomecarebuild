@@ -13,6 +13,8 @@ The way Australia delivers aged care is about to change significantly. As of **J
 
 Self-managing your government-funded aged care allows you to choose your own support workers and get more care hours from your budget by reducing high provider fees. This guide explains how the new system works, compares the best self-managed aged care providers for 2025, and shows you how to take control of your care.
 
+**Estimate your care hours:** Use our free **[Home Care Package Calculator](/tools/home-care-package-calculator)** to see how many hours of support you can get from your funding based on different provider fee structures.
+
 ## Support at Home 2025: What's Changing?
 
 The Support at Home program is designed to be more flexible and streamlined. While the core benefit of self-management remains—more choice and lower fees—the structure is different.

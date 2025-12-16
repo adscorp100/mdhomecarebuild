@@ -14,6 +14,8 @@ Navigating the cost of aged care in Australia can be one of the most stressful e
 
 This guide is here to change that. We will walk you through every aspect of nursing home costs in Australia for 2025, using over a dozen official government sources. We will break down the different fees, explain the assessment process step-by-step, and, most importantly, address the real-world questions and "hidden costs" that cause the most worry. Our goal is to give you clarity, confidence, and a full understanding of your rights.
 
+**Estimate your fees:** Use our free **[Aged Care Calculator](/tools/aged-care-calculator)** to get an estimate of residential aged care costs based on your financial situation.
+
 <!-- ADDRESS THE CORE QUESTION (H2) -->
 ## The Real Cost of Nursing Homes in Australia
 

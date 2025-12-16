@@ -16,6 +16,8 @@ image: "/assets/nurse.webp"
 - Full-time NDIS support workers typically earn between $62,000 and $93,500 annually
 - Agency workers generally earn slightly less than independent contractors but receive benefits and greater job security
 
+**Free calculators:** Use our **[NDIS Pay Rate Calculator](/tools/ndis-pay-rate-calculator)** to calculate rates by time of day, or the **[Support Worker Income Calculator](/tools/support-worker-income-calculator)** to estimate your annual earnings.
+
 ## Current NDIS Support Worker Base Hourly Rates
 The base hourly rates for NDIS support workers in 2025 are determined by several factors, including qualification level, experience, and role complexity. The standard weekday daytime rates are:
 

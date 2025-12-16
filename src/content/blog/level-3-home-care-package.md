@@ -95,6 +95,8 @@ The goal is to create a simpler, more flexible system. While details are still b
 ### What is the difference between a Level 2 and Level 3 package?
 A Level 2 package is for low-level care needs (approx. 3-5 hours/week), while a Level 3 package is for intermediate needs (approx. 10-13 hours/week) and provides a significantly higher subsidy.
 
+**Not sure if you qualify for aged care or NDIS?** Take our free **[HCP vs NDIS Comparison Quiz](/tools/hcp-vs-ndis)** to find out which program suits your situation.
+
 ### What if my Level 3 funding is not enough?
 If your care needs increase, you can request a reassessment from My Aged Care to be considered for a Level 4 package. It's also worth reviewing your provider's fees, as switching to a provider with lower fees can free up more of your funding for care.
 
