@@ -1,0 +1,262 @@
+---
+// BlogLeadPopup.astro
+// A minimal, elegant popup to capture leads from blog readers
+// Triggers after 15 seconds OR 30% scroll (whichever comes first)
+import { Icon } from 'astro-icon/components';
+---
+
+<!-- Popup Overlay -->
+<div id="blog-lead-popup" class="fixed inset-0 z-50 hidden">
+  <!-- Backdrop -->
+  <div id="popup-backdrop" class="absolute inset-0 bg-black/20 opacity-0 transition-opacity duration-300"></div>
+
+  <!-- Popup Container -->
+  <div class="absolute inset-0 flex items-center justify-center p-4">
+    <div id="popup-content" class="relative bg-white rounded-[2rem] shadow-2xl w-full max-w-md overflow-hidden transform scale-95 opacity-0 transition-all duration-300">
+
+      <!-- Close Button -->
+      <button id="popup-close" class="absolute top-4 right-4 z-10 btn btn-ghost btn-sm btn-circle text-secondary/40 hover:text-secondary hover:bg-base-200">
+        <Icon name="hugeicons:cancel-01" class="h-5 w-5" />
+      </button>
+
+      <!-- Content -->
+      <div class="p-8">
+
+        <!-- Minimal Header -->
+        <div class="flex items-center gap-4 mb-6">
+          <Icon name="hugeicons:message-question" class="h-10 w-10 text-primary shrink-0" />
+          <div>
+            <h3 class="text-xl font-bold text-secondary">Have Questions?</h3>
+            <p class="text-secondary/60 text-sm">We're here to help.</p>
+          </div>
+        </div>
+
+        <!-- Call Option -->
+        <a href="tel:+61863869999" id="popup-call-btn" class="flex items-center gap-4 p-4 rounded-2xl border-2 border-primary bg-primary/5 hover:bg-primary/10 transition-all group mb-4">
+          <div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
+            <Icon name="hugeicons:call-02" class="h-6 w-6 text-white" />
+          </div>
+          <div class="text-left">
+            <p class="text-xs font-bold text-primary uppercase tracking-wider mb-0.5">Call Us Now</p>
+            <p class="text-xl font-bold text-secondary">08 6386 9999</p>
+          </div>
+        </a>
+
+        <!-- Divider -->
+        <div class="flex items-center gap-4 my-6">
+          <div class="flex-1 h-px bg-base-200"></div>
+          <span class="text-sm font-medium text-secondary/40">or send a message</span>
+          <div class="flex-1 h-px bg-base-200"></div>
+        </div>
+
+        <!-- Minimal Form -->
+        <form id="popup-form" class="space-y-4">
+          <div class="form-control">
+            <input
+              type="text"
+              id="popup-name"
+              name="name"
+              placeholder="Your name"
+              class="input input-bordered w-full bg-base-100 border-2 border-base-200 focus:border-primary focus:ring-2 focus:ring-primary/10 rounded-xl transition-all outline-none"
+              required
+            />
+          </div>
+
+          <div class="form-control">
+            <input
+              type="tel"
+              id="popup-phone"
+              name="phone"
+              placeholder="Phone number"
+              class="input input-bordered w-full bg-base-100 border-2 border-base-200 focus:border-primary focus:ring-2 focus:ring-primary/10 rounded-xl transition-all outline-none"
+              required
+            />
+          </div>
+
+          <div class="form-control">
+            <textarea
+              id="popup-message"
+              name="message"
+              placeholder="How can we help? (optional)"
+              class="textarea textarea-bordered w-full bg-base-100 border-2 border-base-200 focus:border-primary focus:ring-2 focus:ring-primary/10 rounded-xl transition-all resize-none outline-none h-20"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary w-full rounded-xl text-base font-bold shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 transition-all duration-300">
+            Send Message
+            <Icon name="hugeicons:arrow-right-01" class="h-5 w-5 ml-1" />
+          </button>
+        </form>
+
+        <!-- Privacy note -->
+        <p class="text-center text-xs text-secondary/40 mt-4">
+          We respect your privacy. No spam, ever.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Success Toast -->
+<div id="popup-toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 opacity-0 translate-y-4 transition-all duration-300 pointer-events-none">
+  <div class="alert alert-success shadow-lg rounded-2xl px-6 py-4">
+    <Icon name="hugeicons:checkmark-circle-02" class="h-6 w-6" />
+    <span class="font-medium">Thanks! We'll be in touch soon.</span>
+  </div>
+</div>
+
+<script>
+  // PostHog type declaration
+  declare global {
+    interface Window {
+      posthog?: {
+        identify: (id: string, properties?: Record<string, any>) => void;
+        capture: (event: string, properties?: Record<string, any>) => void;
+      }
+    }
+  }
+
+  const popup = document.getElementById('blog-lead-popup');
+  const backdrop = document.getElementById('popup-backdrop');
+  const content = document.getElementById('popup-content');
+  const closeBtn = document.getElementById('popup-close');
+  const form = document.getElementById('popup-form') as HTMLFormElement;
+  const callBtn = document.getElementById('popup-call-btn');
+  const toast = document.getElementById('popup-toast');
+
+  let hasShown = false;
+  let timeoutId: ReturnType<typeof setTimeout>;
+
+  // Show popup with animation
+  function showPopup() {
+    if (hasShown || !popup || !backdrop || !content) return;
+    hasShown = true;
+
+    popup.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+
+    // Trigger animations
+    requestAnimationFrame(() => {
+      backdrop?.classList.add('opacity-100');
+      content?.classList.remove('scale-95', 'opacity-0');
+      content?.classList.add('scale-100', 'opacity-100');
+    });
+
+    // Track popup shown
+    if (window.posthog) {
+      window.posthog.capture('blog_lead_popup_shown', {
+        source: 'blog',
+        page_url: window.location.href,
+        page_title: document.title
+      });
+    }
+  }
+
+  // Hide popup with animation
+  function hidePopup() {
+    if (!popup || !backdrop || !content) return;
+
+    backdrop.classList.remove('opacity-100');
+    content.classList.add('scale-95', 'opacity-0');
+    content.classList.remove('scale-100', 'opacity-100');
+
+    setTimeout(() => {
+      popup.classList.add('hidden');
+      document.body.style.overflow = '';
+    }, 300);
+  }
+
+  // Show success toast
+  function showToast() {
+    if (!toast) return;
+    toast.classList.remove('opacity-0', 'translate-y-4');
+    toast.classList.add('opacity-100', 'translate-y-0');
+
+    setTimeout(() => {
+      toast.classList.add('opacity-0', 'translate-y-4');
+      toast.classList.remove('opacity-100', 'translate-y-0');
+    }, 4000);
+  }
+
+  // Trigger conditions
+  // 1. Time-based: 15 seconds
+  timeoutId = setTimeout(showPopup, 15000);
+
+  // 2. Scroll-based: 30% of page
+  function checkScroll() {
+    const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+    if (scrollPercent >= 30) {
+      showPopup();
+      window.removeEventListener('scroll', checkScroll);
+      clearTimeout(timeoutId);
+    }
+  }
+  window.addEventListener('scroll', checkScroll, { passive: true });
+
+  // Close handlers
+  closeBtn?.addEventListener('click', hidePopup);
+  backdrop?.addEventListener('click', hidePopup);
+
+  // Escape key closes popup
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !popup?.classList.contains('hidden')) {
+      hidePopup();
+    }
+  });
+
+  // Track call button click
+  callBtn?.addEventListener('click', () => {
+    if (window.posthog) {
+      window.posthog.capture('contact_call_clicked', {
+        source: 'blog_popup',
+        page_url: window.location.href,
+        page_title: document.title
+      });
+    }
+  });
+
+  // Form submission
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const submitButton = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+    const originalHTML = submitButton.innerHTML;
+    const name = (form.querySelector('#popup-name') as HTMLInputElement).value;
+    const phone = (form.querySelector('#popup-phone') as HTMLInputElement).value;
+    const message = (form.querySelector('#popup-message') as HTMLTextAreaElement).value;
+
+    // Track in PostHog - same pattern as contact page with source parameter
+    if (window.posthog) {
+      // Identify by phone since we don't have email
+      window.posthog.identify(phone, {
+        name: name,
+        phone: phone,
+        last_seen: new Date().toISOString()
+      });
+
+      window.posthog.capture('contact_form_submitted', {
+        source: 'blog_popup',
+        name: name,
+        phone: phone,
+        message: message || undefined,
+        message_length: message?.length || 0,
+        page_url: window.location.href,
+        page_title: document.title
+      });
+    }
+
+    // Show sending state
+    submitButton.disabled = true;
+    submitButton.innerHTML = '<span class="loading loading-spinner loading-sm"></span> Sending...';
+
+    // Simulate send (replace with actual API call if needed)
+    setTimeout(() => {
+      hidePopup();
+      showToast();
+      form.reset();
+      submitButton.innerHTML = originalHTML;
+      submitButton.disabled = false;
+    }, 1000);
+  });
+</script>

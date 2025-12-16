@@ -196,6 +196,7 @@ const structuredData = {
       });
 
       window.posthog.capture('contact_form_submitted', {
+        source: 'contact_page',
         name: name,
         email: email,
         phone: phone || undefined,

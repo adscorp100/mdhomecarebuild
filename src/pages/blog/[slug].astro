@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 import { getRelatedBlogPosts } from '../../utils/internalLinks';
+import BlogLeadPopup from '../../components/BlogLeadPopup.astro';
 
 // Generate static paths for all blog posts
 export async function getStaticPaths() {
@@ -223,6 +224,9 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
 
     </article>
   </div>
+
+  <!-- Lead Capture Popup -->
+  <BlogLeadPopup />
 </BaseLayout>
 
 <style>
