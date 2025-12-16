@@ -58,12 +58,14 @@ const tableSchema = hasFacts ? {
       <script type="application/ld+json" set:html={JSON.stringify(tableSchema)}></script>
     )}
 
-    <div class="quick-facts bg-base-200 border border-base-300 rounded-box p-6 mb-8 not-prose" itemscope itemtype="https://schema.org/Service">
+    <div class="quick-facts w-full not-prose" itemscope itemtype="https://schema.org/Service">
       <meta itemprop="name" content={`${serviceName} in ${suburb}`} />
 
-      <h2 class="text-xl font-bold text-base-content mb-4 flex items-center gap-2">
-        <Icon name="hugeicons:information-circle" class="h-6 w-6 text-primary" />
-        Quick Facts – {serviceName} in {suburb}
+      <h2 class="text-2xl font-bold text-secondary mb-8 flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+          <Icon name="hugeicons:information-circle" class="h-5 w-5" />
+        </div>
+        Quick Facts
       </h2>
 
       {/* Semantic table for featured snippet extraction */}
@@ -144,12 +146,12 @@ const tableSchema = hasFacts ? {
       </dl>
 
       {/* CTA row */}
-      <div class="mt-4 pt-4 border-t border-base-300 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-        <p class="text-sm text-base-content/70">
-          <span class="font-medium">Need help understanding your options?</span>
+      <div class="mt-8 pt-8 border-t border-base-200 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <p class="text-base text-secondary/70 font-medium">
+          Need help understanding your options?
         </p>
-        <a href="/contact" class="btn btn-primary btn-sm">
-          <Icon name="hugeicons:message-01" class="h-4 w-4" />
+        <a href="/contact" class="btn btn-primary rounded-full px-6 shadow-lg shadow-primary/20 hover:shadow-xl hover:-translate-y-0.5 transition-all">
+          <Icon name="hugeicons:message-01" class="h-5 w-5 mr-2" />
           Speak with a Care Advisor
         </a>
       </div>
@@ -159,6 +161,12 @@ const tableSchema = hasFacts ? {
       .quick-facts-table th,
       .quick-facts-table td {
         vertical-align: top;
+        padding-bottom: 1.5rem;
+      }
+      
+      .quick-facts-table tr:last-child th,
+      .quick-facts-table tr:last-child td {
+        padding-bottom: 0;
       }
 
       /* Ensure table renders well on mobile */

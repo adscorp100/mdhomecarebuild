@@ -3,142 +3,153 @@
 import { Icon } from 'astro-icon/components';
 ---
 
-<div class="card bg-base-100 shadow-xl border border-base-300 eligibility-checker-card" id="eligibility-checker">
-  <div class="card-body">
+<div class="bg-white rounded-[2rem] shadow-lg shadow-base-200/50 border border-base-200 p-6 md:p-8 eligibility-checker-card" id="eligibility-checker">
+  <div class="w-full">
     <!-- Header -->
     <div class="text-center mb-6">
-      <h2 class="card-title text-2xl font-bold justify-center mb-2">Check Eligibility</h2>
-      <p class="text-base-content/70">Take our quick assessment to find out if you or your loved one qualifies for support. It only takes a minute.</p>
+      <div class="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-primary/10 text-primary mb-4">
+        <Icon name="hugeicons:task-01" class="h-6 w-6" />
+      </div>
+      <h2 class="text-2xl font-bold text-secondary mb-2">Check Eligibility</h2>
+      <p class="text-base text-secondary/60 max-w-lg mx-auto">Take our quick assessment to find out if you or your loved one qualifies.</p>
     </div>
 
     <!-- Progress -->
-    <div class="mb-6">
-      <progress class="progress progress-primary w-full" value="25" max="100"></progress>
-      <p class="text-sm text-base-content/60 text-right mt-1 progress-text">Step 1 of 4</p>
+    <div class="mb-6 max-w-md mx-auto">
+      <progress class="progress progress-primary w-full h-2" value="25" max="100"></progress>
+      <p class="text-xs font-bold text-secondary/40 text-right mt-1.5 uppercase tracking-wider progress-text">Step 1 of 4</p>
     </div>
 
-    <form id="eligibility-checker-form" class="eligibility-checker-form">
+    <form id="eligibility-checker-form" class="eligibility-checker-form max-w-lg mx-auto">
       <!-- Question 1: Age -->
       <div class="question-screen" id="question-1" data-index="1">
-        <h3 class="text-xl font-semibold mb-4">What is the age of the person needing support?</h3>
+        <h3 class="text-lg font-bold text-secondary mb-4 text-center">What is the age of the person needing support?</h3>
 
         <div class="form-control mb-6">
           <!-- Age Preset Buttons -->
           <div class="flex flex-wrap gap-2 justify-center mb-4">
-            <button type="button" class="btn btn-outline btn-sm age-preset-btn" data-age="18">Under 18</button>
-            <button type="button" class="btn btn-outline btn-sm age-preset-btn" data-age="30">18-30</button>
-            <button type="button" class="btn btn-outline btn-sm age-preset-btn" data-age="45">31-45</button>
-            <button type="button" class="btn btn-outline btn-sm age-preset-btn" data-age="60">46-60</button>
-            <button type="button" class="btn btn-outline btn-sm age-preset-btn" data-age="75">61+</button>
+            <button type="button" class="btn btn-sm btn-outline border hover:border-primary hover:bg-primary/5 hover:text-primary rounded-full px-4 age-preset-btn" data-age="18">Under 18</button>
+            <button type="button" class="btn btn-sm btn-outline border hover:border-primary hover:bg-primary/5 hover:text-primary rounded-full px-4 age-preset-btn" data-age="30">18-30</button>
+            <button type="button" class="btn btn-sm btn-outline border hover:border-primary hover:bg-primary/5 hover:text-primary rounded-full px-4 age-preset-btn" data-age="45">31-45</button>
+            <button type="button" class="btn btn-sm btn-outline border hover:border-primary hover:bg-primary/5 hover:text-primary rounded-full px-4 age-preset-btn" data-age="60">46-60</button>
+            <button type="button" class="btn btn-sm btn-outline border hover:border-primary hover:bg-primary/5 hover:text-primary rounded-full px-4 age-preset-btn" data-age="75">61+</button>
           </div>
 
           <!-- Age Input -->
-          <label class="label">
-            <span class="label-text text-base-content/70">Or enter exact age:</span>
-          </label>
-          <input type="number" id="age" name="age" min="0" max="120" required
-            class="input input-bordered w-full" placeholder="Enter age" />
+          <div class="text-center">
+            <span class="text-xs font-bold text-secondary/40 uppercase tracking-wide mb-2 block">Or enter exact age</span>
+            <input type="number" id="age" name="age" min="0" max="120" required
+              class="input input-md input-bordered w-full max-w-[120px] text-center font-bold text-lg rounded-xl focus:border-primary focus:ring-2 focus:ring-primary/10 transition-all" placeholder="Years" />
+          </div>
         </div>
 
-        <div class="flex justify-end">
-          <button type="button" class="btn btn-primary next-button" data-next="2">Continue</button>
+        <div class="flex justify-center">
+          <button type="button" class="btn btn-primary btn-md rounded-full px-8 shadow-lg shadow-primary/20 hover:shadow-xl hover:-translate-y-0.5 transition-all next-button" data-next="2">
+            Continue <Icon name="hugeicons:arrow-right-01" class="h-4 w-4 ml-2" />
+          </button>
         </div>
       </div>
 
       <!-- Question 2: NDIS Funding -->
       <div class="question-screen hidden" id="question-2" data-index="2">
-        <h3 class="text-xl font-semibold mb-4">Does the person already receive NDIS funding?</h3>
+        <h3 class="text-lg font-bold text-secondary mb-4 text-center">Does the person already receive NDIS funding?</h3>
 
         <div class="form-control space-y-3 mb-6">
-          <label class="label cursor-pointer justify-start gap-4 p-4 border border-base-300 rounded-lg hover:bg-base-200 transition-colors">
-            <input type="radio" name="ndis_funding" value="yes" class="radio radio-primary" required />
-            <span class="label-text text-base">Yes</span>
+          <label class="label cursor-pointer justify-start gap-3 p-3 border border-base-200 rounded-xl hover:border-primary hover:bg-primary/5 transition-all group">
+            <input type="radio" name="ndis_funding" value="yes" class="radio radio-sm radio-primary" required />
+            <span class="label-text text-base font-medium text-secondary group-hover:text-primary transition-colors">Yes, they have a plan</span>
           </label>
-          <label class="label cursor-pointer justify-start gap-4 p-4 border border-base-300 rounded-lg hover:bg-base-200 transition-colors">
-            <input type="radio" name="ndis_funding" value="no" class="radio radio-primary" />
-            <span class="label-text text-base">No</span>
+          <label class="label cursor-pointer justify-start gap-3 p-3 border border-base-200 rounded-xl hover:border-primary hover:bg-primary/5 transition-all group">
+            <input type="radio" name="ndis_funding" value="no" class="radio radio-sm radio-primary" />
+            <span class="label-text text-base font-medium text-secondary group-hover:text-primary transition-colors">No, not yet</span>
           </label>
-          <label class="label cursor-pointer justify-start gap-4 p-4 border border-base-300 rounded-lg hover:bg-base-200 transition-colors">
-            <input type="radio" name="ndis_funding" value="not_sure" class="radio radio-primary" />
-            <span class="label-text text-base">Not sure</span>
+          <label class="label cursor-pointer justify-start gap-3 p-3 border border-base-200 rounded-xl hover:border-primary hover:bg-primary/5 transition-all group">
+            <input type="radio" name="ndis_funding" value="not_sure" class="radio radio-sm radio-primary" />
+            <span class="label-text text-base font-medium text-secondary group-hover:text-primary transition-colors">Not sure</span>
           </label>
         </div>
 
-        <div class="flex justify-between gap-3">
-          <button type="button" class="btn btn-ghost back-button" data-prev="1">Back</button>
-          <button type="button" class="btn btn-primary next-button" data-next="3">Continue</button>
+        <div class="flex justify-between items-center px-2">
+          <button type="button" class="btn btn-sm btn-ghost hover:bg-transparent hover:text-primary text-secondary/60 back-button" data-prev="1">
+            <Icon name="hugeicons:arrow-left-01" class="h-4 w-4 mr-1" /> Back
+          </button>
         </div>
       </div>
 
       <!-- Question 3: Disability -->
       <div class="question-screen hidden" id="question-3" data-index="3">
-        <h3 class="text-xl font-semibold mb-4">Does the person have a diagnosed disability or chronic condition?</h3>
+        <h3 class="text-lg font-bold text-secondary mb-4 text-center">Does the person have a diagnosed disability or chronic condition?</h3>
 
         <div class="form-control space-y-3 mb-6">
-          <label class="label cursor-pointer justify-start gap-4 p-4 border border-base-300 rounded-lg hover:bg-base-200 transition-colors">
-            <input type="radio" name="disability" value="yes" class="radio radio-primary" required />
-            <span class="label-text text-base">Yes</span>
+          <label class="label cursor-pointer justify-start gap-3 p-3 border border-base-200 rounded-xl hover:border-primary hover:bg-primary/5 transition-all group">
+            <input type="radio" name="disability" value="yes" class="radio radio-sm radio-primary" required />
+            <span class="label-text text-base font-medium text-secondary group-hover:text-primary transition-colors">Yes</span>
           </label>
-          <label class="label cursor-pointer justify-start gap-4 p-4 border border-base-300 rounded-lg hover:bg-base-200 transition-colors">
-            <input type="radio" name="disability" value="no" class="radio radio-primary" />
-            <span class="label-text text-base">No</span>
+          <label class="label cursor-pointer justify-start gap-3 p-3 border border-base-200 rounded-xl hover:border-primary hover:bg-primary/5 transition-all group">
+            <input type="radio" name="disability" value="no" class="radio radio-sm radio-primary" />
+            <span class="label-text text-base font-medium text-secondary group-hover:text-primary transition-colors">No</span>
           </label>
-          <label class="label cursor-pointer justify-start gap-4 p-4 border border-base-300 rounded-lg hover:bg-base-200 transition-colors">
-            <input type="radio" name="disability" value="not_sure" class="radio radio-primary" />
-            <span class="label-text text-base">Not sure</span>
+          <label class="label cursor-pointer justify-start gap-3 p-3 border border-base-200 rounded-xl hover:border-primary hover:bg-primary/5 transition-all group">
+            <input type="radio" name="disability" value="not_sure" class="radio radio-sm radio-primary" />
+            <span class="label-text text-base font-medium text-secondary group-hover:text-primary transition-colors">Not sure / Undiagnosed</span>
           </label>
         </div>
 
-        <div class="flex justify-between gap-3">
-          <button type="button" class="btn btn-ghost back-button" data-prev="2">Back</button>
-          <button type="button" class="btn btn-primary next-button" data-next="4">Continue</button>
+        <div class="flex justify-between items-center px-2">
+          <button type="button" class="btn btn-sm btn-ghost hover:bg-transparent hover:text-primary text-secondary/60 back-button" data-prev="2">
+             <Icon name="hugeicons:arrow-left-01" class="h-4 w-4 mr-1" /> Back
+          </button>
         </div>
       </div>
 
       <!-- Question 4: Postcode -->
       <div class="question-screen hidden" id="question-4" data-index="4">
-        <h3 class="text-xl font-semibold mb-4">What's the postcode where the person lives?</h3>
+        <h3 class="text-lg font-bold text-secondary mb-4 text-center">What's the postcode where the person lives?</h3>
 
         <div class="form-control mb-6">
           <input type="text" id="postcode" name="postcode" pattern="[0-9]{4}" maxlength="4" required
-            class="input input-bordered w-full" placeholder="e.g. 2000" />
-          <label class="label">
-            <span class="label-text-alt text-base-content/60">Please enter a valid Australian postcode (4 digits)</span>
+            class="input input-md input-bordered w-full text-center text-lg tracking-widest font-bold rounded-xl focus:border-primary focus:ring-2 focus:ring-primary/10 transition-all" placeholder="e.g. 2000" />
+          <label class="label justify-center">
+            <span class="label-text-alt text-secondary/60 mt-1">Please enter a valid Australian postcode</span>
           </label>
         </div>
 
-        <div class="flex justify-between gap-3">
-          <button type="button" class="btn btn-ghost back-button" data-prev="3">Back</button>
-          <button type="button" class="btn btn-primary submit-results-btn">See Results</button>
+        <div class="flex justify-between items-center gap-4">
+          <button type="button" class="btn btn-sm btn-ghost hover:bg-transparent hover:text-primary text-secondary/60 back-button" data-prev="3">
+            <Icon name="hugeicons:arrow-left-01" class="h-4 w-4 mr-1" /> Back
+          </button>
+          <button type="button" class="btn btn-primary btn-md rounded-full px-6 shadow-lg shadow-primary/20 hover:shadow-xl hover:-translate-y-0.5 transition-all submit-results-btn">
+            See Results
+          </button>
         </div>
       </div>
 
       <!-- Results Screen -->
       <div class="question-screen hidden results-screen">
-        <div class="text-center mb-8">
-          <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-success/10 mb-4 results-icon-wrapper">
-            <Icon name="hugeicons:checkmark-circle-02" class="h-8 w-8 text-success results-icon" />
+        <div class="text-center mb-6">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-success/10 mb-4 results-icon-wrapper scale-100 transition-transform duration-500">
+            <Icon name="hugeicons:checkmark-circle-02" class="h-7 w-7 text-success results-icon" />
           </div>
-          <h3 class="text-2xl font-bold text-base-content mb-2">Assessment Complete</h3>
-          <p class="text-base-content/70 results-message"></p>
+          <h3 class="text-2xl font-bold text-secondary mb-2">Assessment Complete</h3>
+          <p class="text-base text-secondary/70 results-message max-w-md mx-auto leading-relaxed"></p>
         </div>
 
-        <div class="bg-base-200 rounded-box p-6 mb-6">
-          <p class="text-sm text-base-content/80 text-center">
-            Our team is ready to help you navigate your options and find the right support.
+        <div class="bg-base-200/50 border border-base-200 rounded-xl p-4 mb-6">
+          <p class="text-sm text-secondary/80 text-center font-medium">
+            Our team is ready to help you navigate your options.
           </p>
         </div>
 
-        <div class="grid gap-3">
-          <a href="tel:+61863869999" class="btn btn-primary btn-lg gap-2">
-            <Icon name="hugeicons:call-02" class="h-5 w-5" />
+        <div class="grid gap-3 max-w-xs mx-auto">
+          <a href="tel:+61863869999" class="btn btn-primary btn-md w-full rounded-full shadow-lg shadow-primary/20 hover:shadow-xl hover:-translate-y-0.5 transition-all">
+            <Icon name="hugeicons:call-02" class="h-5 w-5 mr-2" />
             Call Us Now
           </a>
-          <a href="/contact#contact-form" class="btn btn-outline gap-2">
-            <Icon name="hugeicons:mail-01" class="h-5 w-5" />
+          <a href="/contact#contact-form" class="btn btn-outline btn-md w-full bg-white border hover:bg-base-100 hover:border-primary text-secondary rounded-full">
+            <Icon name="hugeicons:mail-01" class="h-5 w-5 mr-2" />
             Send a Message
           </a>
-          <button type="button" class="btn btn-ghost btn-sm mt-2 restart-button">
+          <button type="button" class="btn btn-ghost btn-xs mt-2 restart-button text-secondary/50 hover:text-secondary">
             Start Over
           </button>
         </div>
