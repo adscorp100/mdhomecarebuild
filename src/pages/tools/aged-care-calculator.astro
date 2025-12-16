@@ -1,0 +1,734 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Aged Care Fees Calculator Australia 2025",
+  "description": "Free aged care calculator. Estimate nursing home costs, means tested fees, RAD vs DAP options. Calculate residential and home care package fees for 2025.",
+  "url": "https://mdhomecare.com.au/tools/aged-care-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does aged care cost in Australia 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aged care costs in Australia 2025 vary based on your means assessment. Everyone pays the Basic Daily Fee of $61.96/day ($22,615/year). Additional means-tested fees can range from $0 to $321.44/day depending on your income and assets. The annual cap on means-tested fees is $33,309.14 and lifetime cap is $79,941.94."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the aged care means tested fee calculator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The means tested care fee calculator determines your additional aged care costs based on income and assets. Services Australia assesses your financial situation to calculate fees above the basic daily fee. Use our calculator above to estimate your means tested fee before the official assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the basic daily fee for aged care 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Basic Daily Fee for residential aged care in 2025 is $61.96 per day ($433.72 per week or approximately $22,615 per year). This fee applies to everyone in residential aged care, regardless of their income or assets. It's set at 85% of the single Age Pension."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between RAD and DAP in aged care?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RAD (Refundable Accommodation Deposit) is a lump sum payment that's fully refundable when you leave care. DAP (Daily Accommodation Payment) is an ongoing daily payment calculated from the RAD amount. You can pay 100% RAD, 100% DAP, or a combination. The DAP is calculated as RAD × (MPIR/365), where MPIR is currently 8.34%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a cap on aged care fees?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, there are caps on means-tested care fees in aged care. The annual cap for 2025 is $33,309.14 per year, and the lifetime cap is $79,941.94. Once you reach these caps, you won't pay any more means-tested fees (though you still pay the basic daily fee and accommodation costs)."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="Aged Care Fees Calculator Australia 2025 - Estimate Your Costs"
+  description="Free aged care calculator. Estimate nursing home costs, means tested fees, RAD vs DAP options. Calculate residential and home care package fees for 2025."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">Aged Care Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            Aged Care Fees Calculator <span class="text-primary">2025</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Estimate your residential aged care costs including basic daily fees, means-tested fees, and accommodation options. Updated with <strong>2025 rates</strong>.
+          </p>
+
+          <!-- Quick Facts Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:money-bag-02" class="w-5 h-5 text-primary" />
+              Key Aged Care Fees (2025)
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Basic Daily Fee</span>
+                <span class="font-bold text-secondary">$61.96/day</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Max Means Tested Fee</span>
+                <span class="font-bold text-secondary">$321.44/day</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Annual Fee Cap</span>
+                <span class="font-bold text-secondary">$33,309/yr</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Lifetime Fee Cap</span>
+                <span class="font-bold text-secondary">$79,942</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accommodation Info -->
+          <div class="bg-accent/5 border border-accent/20 rounded-[2rem] p-6 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:building-02" class="w-5 h-5 text-accent" />
+              Accommodation Payment
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-accent/10">
+                <span class="text-secondary/70">Current MPIR</span>
+                <span class="font-bold text-secondary">8.34%</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Payment Options</span>
+                <span class="font-bold text-secondary">RAD, DAP, or combo</span>
+              </div>
+            </div>
+            <p class="text-xs text-secondary/60 mt-3">RAD = Lump sum (refundable). DAP = Daily payment. You can combine both.</p>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Disclaimer:</strong> This calculator provides estimates only. Actual fees are determined by Services Australia's means assessment. Contact My Aged Care on 1800 200 422 for accurate assessments.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="aged-care-calculator">
+
+            <div class="mb-8">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-xs font-bold text-secondary/40 uppercase tracking-wider step-indicator">Step 1 of 3</span>
+                <span class="text-xs font-bold text-primary uppercase tracking-wider">Fee Estimator</span>
+              </div>
+              <progress class="progress progress-primary w-full h-2" value="33" max="100" id="calc-progress"></progress>
+            </div>
+
+            <!-- Step 1: Personal Details -->
+            <div class="calc-step" id="step-1">
+              <h3 class="text-xl font-bold text-secondary mb-6">Your Situation</h3>
+
+              <div class="space-y-6">
+                <div class="form-control">
+                  <label class="label text-sm font-bold text-secondary/70 mb-2">Relationship Status</label>
+                  <div class="grid grid-cols-2 gap-3">
+                    <label class="cursor-pointer">
+                      <input type="radio" name="relationship" value="single" class="peer hidden" checked />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <Icon name="hugeicons:user" class="w-6 h-6 mx-auto mb-2 text-secondary/60" />
+                        <span class="font-medium text-secondary">Single</span>
+                      </div>
+                    </label>
+                    <label class="cursor-pointer">
+                      <input type="radio" name="relationship" value="partnered" class="peer hidden" />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <Icon name="hugeicons:user-group" class="w-6 h-6 mx-auto mb-2 text-secondary/60" />
+                        <span class="font-medium text-secondary">Partnered</span>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-control">
+                  <label class="label text-sm font-bold text-secondary/70 mb-2">Home Ownership</label>
+                  <div class="grid grid-cols-2 gap-3">
+                    <label class="cursor-pointer">
+                      <input type="radio" name="homeowner" value="yes" class="peer hidden" checked />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <Icon name="hugeicons:home-01" class="w-6 h-6 mx-auto mb-2 text-secondary/60" />
+                        <span class="font-medium text-secondary">Own Home</span>
+                      </div>
+                    </label>
+                    <label class="cursor-pointer">
+                      <input type="radio" name="homeowner" value="no" class="peer hidden" />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <Icon name="hugeicons:building-02" class="w-6 h-6 mx-auto mb-2 text-secondary/60" />
+                        <span class="font-medium text-secondary">Renter</span>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-control">
+                  <label class="label text-sm font-bold text-secondary/70 mb-2">Will your partner remain in the home?</label>
+                  <div class="grid grid-cols-2 gap-3" id="partner-in-home-group">
+                    <label class="cursor-pointer">
+                      <input type="radio" name="partner-in-home" value="yes" class="peer hidden" checked />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <span class="font-medium text-secondary">Yes</span>
+                        <span class="text-xs text-secondary/50 block">Home exempt from assets</span>
+                      </div>
+                    </label>
+                    <label class="cursor-pointer">
+                      <input type="radio" name="partner-in-home" value="no" class="peer hidden" />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <span class="font-medium text-secondary">No</span>
+                        <span class="text-xs text-secondary/50 block">Home assessed</span>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-8 flex justify-end">
+                <button class="btn btn-primary rounded-full px-8 next-step" data-next="2">
+                  Continue
+                  <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 ml-2" />
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 2: Financial Details -->
+            <div class="calc-step hidden" id="step-2">
+              <h3 class="text-xl font-bold text-secondary mb-6">Financial Details</h3>
+
+              <div class="space-y-6">
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text font-bold text-secondary/70">Annual income (before tax)</span>
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                    <input
+                      type="number"
+                      id="income"
+                      placeholder="e.g. 30000"
+                      class="input input-lg w-full pl-10 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                    />
+                  </div>
+                  <p class="text-xs text-secondary/50 mt-2">Include pension, super income, rental income, dividends.</p>
+                </div>
+
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text font-bold text-secondary/70">Total assessable assets</span>
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                    <input
+                      type="number"
+                      id="assets"
+                      placeholder="e.g. 500000"
+                      class="input input-lg w-full pl-10 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                    />
+                  </div>
+                  <p class="text-xs text-secondary/50 mt-2">Include savings, investments, super balance, property value (if applicable).</p>
+                </div>
+
+                <div class="form-control" id="home-value-field">
+                  <label class="label">
+                    <span class="label-text font-bold text-secondary/70">Home value (if being assessed)</span>
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                    <input
+                      type="number"
+                      id="home-value"
+                      placeholder="e.g. 800000"
+                      class="input input-lg w-full pl-10 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                    />
+                  </div>
+                  <p class="text-xs text-secondary/50 mt-2">Only the first $201,231.20 of home value is counted (capped asset amount).</p>
+                </div>
+              </div>
+
+              <div class="mt-8 flex justify-between">
+                <button class="btn btn-ghost rounded-full px-6 prev-step" data-prev="1">
+                  <Icon name="hugeicons:arrow-left-01" class="w-5 h-5 mr-2" />
+                  Back
+                </button>
+                <button class="btn btn-primary rounded-full px-8 next-step" data-next="3">
+                  Calculate Fees
+                  <Icon name="hugeicons:calculator-01" class="w-5 h-5 ml-2" />
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 3: Results -->
+            <div class="calc-step hidden" id="step-3">
+              <h3 class="text-xl font-bold text-secondary mb-6">Your Estimated Aged Care Fees</h3>
+
+              <div class="space-y-6">
+                <!-- Basic Daily Fee -->
+                <div class="bg-base-200/30 rounded-2xl p-5">
+                  <div class="flex items-center justify-between mb-2">
+                    <h4 class="font-bold text-secondary">Basic Daily Fee</h4>
+                    <span class="badge badge-neutral">Everyone Pays</span>
+                  </div>
+                  <div class="grid grid-cols-3 gap-4 text-center">
+                    <div>
+                      <p class="text-xs text-secondary/60">Per Day</p>
+                      <p class="text-lg font-bold text-secondary">$61.96</p>
+                    </div>
+                    <div>
+                      <p class="text-xs text-secondary/60">Per Week</p>
+                      <p class="text-lg font-bold text-secondary">$433.72</p>
+                    </div>
+                    <div>
+                      <p class="text-xs text-secondary/60">Per Year</p>
+                      <p class="text-lg font-bold text-secondary">$22,615</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Means Tested Fee -->
+                <div class="bg-primary/5 border border-primary/20 rounded-2xl p-5" id="mtf-result">
+                  <div class="flex items-center justify-between mb-2">
+                    <h4 class="font-bold text-secondary">Means Tested Care Fee</h4>
+                    <span class="badge badge-primary" id="mtf-status">Calculating...</span>
+                  </div>
+                  <div class="grid grid-cols-3 gap-4 text-center">
+                    <div>
+                      <p class="text-xs text-secondary/60">Per Day</p>
+                      <p class="text-lg font-bold text-primary" id="mtf-day">$0.00</p>
+                    </div>
+                    <div>
+                      <p class="text-xs text-secondary/60">Per Week</p>
+                      <p class="text-lg font-bold text-primary" id="mtf-week">$0.00</p>
+                    </div>
+                    <div>
+                      <p class="text-xs text-secondary/60">Per Year</p>
+                      <p class="text-lg font-bold text-primary" id="mtf-year">$0.00</p>
+                    </div>
+                  </div>
+                  <p class="text-xs text-secondary/60 mt-3" id="mtf-note"></p>
+                </div>
+
+                <!-- Total Care Fees -->
+                <div class="bg-success/5 border border-success/20 rounded-2xl p-5">
+                  <div class="flex items-center justify-between mb-2">
+                    <h4 class="font-bold text-secondary">Total Care Fees (excl. accommodation)</h4>
+                  </div>
+                  <div class="grid grid-cols-3 gap-4 text-center">
+                    <div>
+                      <p class="text-xs text-secondary/60">Per Day</p>
+                      <p class="text-lg font-bold text-success" id="total-day">$61.96</p>
+                    </div>
+                    <div>
+                      <p class="text-xs text-secondary/60">Per Week</p>
+                      <p class="text-lg font-bold text-success" id="total-week">$433.72</p>
+                    </div>
+                    <div>
+                      <p class="text-xs text-secondary/60">Per Year</p>
+                      <p class="text-lg font-bold text-success" id="total-year">$22,615</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Accommodation Estimate -->
+                <div class="bg-accent/5 border border-accent/20 rounded-2xl p-5">
+                  <h4 class="font-bold text-secondary mb-3">Accommodation Payment Estimate</h4>
+                  <p class="text-sm text-secondary/70 mb-3">Based on typical RAD of $400,000 (varies by facility):</p>
+                  <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-white rounded-xl p-4 text-center">
+                      <p class="text-xs text-secondary/60 mb-1">Option A: Full RAD</p>
+                      <p class="text-xl font-bold text-accent">$400,000</p>
+                      <p class="text-xs text-secondary/50">Refundable lump sum</p>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 text-center">
+                      <p class="text-xs text-secondary/60 mb-1">Option B: Full DAP</p>
+                      <p class="text-xl font-bold text-accent" id="dap-amount">$91.40/day</p>
+                      <p class="text-xs text-secondary/50">Daily payment (8.34% MPIR)</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Summary -->
+                <div class="bg-secondary text-white rounded-2xl p-6">
+                  <h4 class="font-bold mb-4">Estimated Total Annual Cost</h4>
+                  <div class="grid grid-cols-2 gap-4">
+                    <div>
+                      <p class="text-sm text-white/70">With Full RAD</p>
+                      <p class="text-2xl font-bold" id="summary-rad">$22,615/yr</p>
+                      <p class="text-xs text-white/50">+ $400k deposit</p>
+                    </div>
+                    <div>
+                      <p class="text-sm text-white/70">With Full DAP</p>
+                      <p class="text-2xl font-bold" id="summary-dap">$55,976/yr</p>
+                      <p class="text-xs text-white/50">No deposit required</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-8 flex justify-between">
+                <button class="btn btn-ghost rounded-full px-6 prev-step" data-prev="2">
+                  <Icon name="hugeicons:arrow-left-01" class="w-5 h-5 mr-2" />
+                  Back
+                </button>
+                <button class="btn btn-outline btn-primary rounded-full px-6" id="reset-calc">
+                  <Icon name="hugeicons:refresh" class="w-5 h-5 mr-2" />
+                  Start Over
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much does aged care cost in Australia 2025?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Aged care costs in Australia 2025 consist of multiple components:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Basic Daily Fee</strong>: $61.96/day ($22,615/year) - everyone pays this</li>
+                <li><strong>Means Tested Care Fee</strong>: $0-$321.44/day based on your income and assets</li>
+                <li><strong>Accommodation</strong>: Either RAD (lump sum, refundable) or DAP (daily payment)</li>
+              </ul>
+              <p class="mt-2">Total costs typically range from $22,615/year (pension-level income, low assets) to over $100,000/year for those with significant means.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the means tested care fee calculator?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The means tested care fee is an additional daily fee based on your income and assets. Services Australia calculates this using:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Income test</strong>: 50% of income over $32,019/year</li>
+                <li><strong>Assets test</strong>: 17.5% per year of assets over $201,231 (capped)</li>
+                <li>The higher of the two tests applies</li>
+                <li><strong>Maximum fee</strong>: $321.44/day ($117,326/year before caps)</li>
+              </ul>
+              <p class="mt-2">Annual and lifetime caps protect you from unlimited fees.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the basic daily fee for aged care 2025?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The Basic Daily Fee for residential aged care in 2025 is:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>$61.96 per day</strong></li>
+                <li>$433.72 per week</li>
+                <li>$22,615.40 per year</li>
+              </ul>
+              <p class="mt-2">This fee is set at 85% of the single basic Age Pension and applies to everyone in residential aged care, regardless of income or assets. It contributes to daily living costs like meals, laundry, and utilities.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the difference between RAD and DAP in aged care?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>RAD (Refundable Accommodation Deposit)</strong>:</p>
+              <ul class="list-disc pl-5 mt-1 space-y-1">
+                <li>Lump sum payment (typically $200,000-$800,000+)</li>
+                <li>Fully refundable when you leave care</li>
+                <li>Can use proceeds from selling your home</li>
+                <li>No ongoing accommodation costs</li>
+              </ul>
+              <p class="mt-3"><strong>DAP (Daily Accommodation Payment)</strong>:</p>
+              <ul class="list-disc pl-5 mt-1 space-y-1">
+                <li>Daily rental payment</li>
+                <li>Calculated as RAD × (MPIR ÷ 365)</li>
+                <li>Current MPIR: 8.34% (Maximum Permissible Interest Rate)</li>
+                <li>Example: $400,000 RAD = $91.40/day DAP</li>
+              </ul>
+              <p class="mt-3">You can pay any combination of RAD and DAP that suits your finances.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Is there a cap on aged care fees?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Yes, means-tested care fees are capped at two levels:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-2">
+                <li><strong>Annual cap (2025)</strong>: $33,309.14 - Maximum means-tested fees in any 12-month period</li>
+                <li><strong>Lifetime cap (2025)</strong>: $79,941.94 - Maximum means-tested fees you'll ever pay</li>
+              </ul>
+              <p class="mt-2">Once you reach either cap, you stop paying means-tested care fees (you still pay basic daily fee and accommodation). These caps help protect your assets over time and make aged care more predictable.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How is the family home treated in aged care fees?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The family home is treated differently depending on circumstances:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-2">
+                <li><strong>Protected person lives there</strong>: Home is fully exempt (spouse, dependent child, carer who lived there 2+ years)</li>
+                <li><strong>No protected person</strong>: Home is capped at $201,231.20 for assets test purposes</li>
+                <li><strong>Rented out</strong>: Rental income counts in income test</li>
+              </ul>
+              <p class="mt-2">You don't have to sell your home to pay for aged care - there are options like renting it out, RAD from other assets, or combination payments.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Resources</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/aged-care-fees-calculator-australia/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Aged Care Fees Guide</h3>
+            <p class="text-sm text-secondary/60">Complete breakdown of all aged care costs and how they're calculated.</p>
+          </a>
+          <a href="/blog/avoid-selling-home-for-aged-care/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Avoid Selling Your Home</h3>
+            <p class="text-sm text-secondary/60">Strategies to fund aged care without selling the family home.</p>
+          </a>
+          <a href="/blog/aged-care-for-pensioners-with-no-assets/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Aged Care for Pensioners</h3>
+            <p class="text-sm text-secondary/60">Guide for pensioners with limited assets entering aged care.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  // 2025 Aged Care Rates
+  const RATES = {
+    basicDailyFee: 61.96,
+    maxMeansTested: 321.44,
+    annualCap: 33309.14,
+    lifetimeCap: 79941.94,
+    incomeThreshold: 32019,
+    assetThreshold: 201231.20,
+    homeAssetCap: 201231.20,
+    incomeTestRate: 0.50,
+    assetTestRate: 0.175,
+    mpir: 0.0834,
+    typicalRAD: 400000
+  };
+
+  const calculator = document.getElementById('aged-care-calculator');
+  const steps = calculator.querySelectorAll('.calc-step');
+  const progress = document.getElementById('calc-progress');
+  const stepIndicator = calculator.querySelector('.step-indicator');
+  const nextBtns = calculator.querySelectorAll('.next-step');
+  const prevBtns = calculator.querySelectorAll('.prev-step');
+  const resetBtn = document.getElementById('reset-calc');
+  const partnerInHomeGroup = document.getElementById('partner-in-home-group');
+  const homeValueField = document.getElementById('home-value-field');
+
+  let currentStep = 1;
+
+  function showStep(step) {
+    steps.forEach((s, i) => {
+      s.classList.toggle('hidden', i + 1 !== step);
+    });
+    progress.value = (step / 3) * 100;
+    stepIndicator.textContent = `Step ${step} of 3`;
+    currentStep = step;
+
+    if (step === 3) {
+      calculateResults();
+    }
+  }
+
+  function updateFieldVisibility() {
+    const relationship = document.querySelector('input[name="relationship"]:checked').value;
+    const homeowner = document.querySelector('input[name="homeowner"]:checked').value;
+    const partnerInHome = document.querySelector('input[name="partner-in-home"]:checked').value;
+
+    // Show partner-in-home only if partnered and homeowner
+    const showPartnerQuestion = relationship === 'partnered' && homeowner === 'yes';
+    partnerInHomeGroup.closest('.form-control').classList.toggle('hidden', !showPartnerQuestion);
+
+    // Show home value field if home will be assessed
+    const homeAssessed = homeowner === 'yes' && (relationship === 'single' || partnerInHome === 'no');
+    homeValueField.classList.toggle('hidden', !homeAssessed);
+  }
+
+  function calculateResults() {
+    const relationship = document.querySelector('input[name="relationship"]:checked').value;
+    const homeowner = document.querySelector('input[name="homeowner"]:checked').value;
+    const partnerInHome = document.querySelector('input[name="partner-in-home"]:checked').value;
+    const income = parseFloat(document.getElementById('income').value) || 0;
+    const assets = parseFloat(document.getElementById('assets').value) || 0;
+    const homeValue = parseFloat(document.getElementById('home-value').value) || 0;
+
+    // Determine if home is included in assets
+    const homeAssessed = homeowner === 'yes' && (relationship === 'single' || partnerInHome === 'no');
+    const cappedHomeValue = homeAssessed ? Math.min(homeValue, RATES.homeAssetCap) : 0;
+    const totalAssets = assets + cappedHomeValue;
+
+    // Income test: 50% of income over threshold
+    const incomeOverThreshold = Math.max(0, income - RATES.incomeThreshold);
+    const incomeTestFee = (incomeOverThreshold * RATES.incomeTestRate) / 365;
+
+    // Asset test: 17.5% of assets over threshold / 365
+    const assetsOverThreshold = Math.max(0, totalAssets - RATES.assetThreshold);
+    const assetTestFee = (assetsOverThreshold * RATES.assetTestRate) / 365;
+
+    // Higher of the two tests
+    let meansTested = Math.max(incomeTestFee, assetTestFee);
+    meansTested = Math.min(meansTested, RATES.maxMeansTested);
+
+    // Update UI
+    const mtfDay = meansTested;
+    const mtfWeek = mtfDay * 7;
+    const mtfYear = Math.min(mtfDay * 365, RATES.annualCap);
+
+    document.getElementById('mtf-day').textContent = `$${mtfDay.toFixed(2)}`;
+    document.getElementById('mtf-week').textContent = `$${mtfWeek.toFixed(2)}`;
+    document.getElementById('mtf-year').textContent = `$${mtfYear.toLocaleString('en-AU', { maximumFractionDigits: 0 })}`;
+
+    if (meansTested === 0) {
+      document.getElementById('mtf-status').textContent = 'No Fee';
+      document.getElementById('mtf-status').className = 'badge badge-success';
+      document.getElementById('mtf-note').textContent = 'Income and assets below thresholds - no means tested fee applies.';
+    } else if (meansTested >= RATES.maxMeansTested) {
+      document.getElementById('mtf-status').textContent = 'Maximum';
+      document.getElementById('mtf-status').className = 'badge badge-error';
+      document.getElementById('mtf-note').textContent = `Capped at maximum fee. Annual cap of $${RATES.annualCap.toLocaleString()} applies.`;
+    } else {
+      document.getElementById('mtf-status').textContent = 'Partial Fee';
+      document.getElementById('mtf-status').className = 'badge badge-warning';
+      document.getElementById('mtf-note').textContent = incomeTestFee > assetTestFee
+        ? 'Based on income test (higher than asset test).'
+        : 'Based on asset test (higher than income test).';
+    }
+
+    // Total care fees
+    const totalDay = RATES.basicDailyFee + mtfDay;
+    const totalWeek = totalDay * 7;
+    const totalYear = (RATES.basicDailyFee * 365) + mtfYear;
+
+    document.getElementById('total-day').textContent = `$${totalDay.toFixed(2)}`;
+    document.getElementById('total-week').textContent = `$${totalWeek.toFixed(2)}`;
+    document.getElementById('total-year').textContent = `$${totalYear.toLocaleString('en-AU', { maximumFractionDigits: 0 })}`;
+
+    // DAP calculation
+    const dapDaily = (RATES.typicalRAD * RATES.mpir) / 365;
+    document.getElementById('dap-amount').textContent = `$${dapDaily.toFixed(2)}/day`;
+
+    // Summary
+    const dapAnnual = dapDaily * 365;
+    document.getElementById('summary-rad').textContent = `$${totalYear.toLocaleString('en-AU', { maximumFractionDigits: 0 })}/yr`;
+    document.getElementById('summary-dap').textContent = `$${(totalYear + dapAnnual).toLocaleString('en-AU', { maximumFractionDigits: 0 })}/yr`;
+  }
+
+  // Event Listeners
+  nextBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      showStep(parseInt(btn.dataset.next));
+    });
+  });
+
+  prevBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      showStep(parseInt(btn.dataset.prev));
+    });
+  });
+
+  resetBtn.addEventListener('click', () => {
+    document.getElementById('income').value = '';
+    document.getElementById('assets').value = '';
+    document.getElementById('home-value').value = '';
+    document.querySelector('input[name="relationship"][value="single"]').checked = true;
+    document.querySelector('input[name="homeowner"][value="yes"]').checked = true;
+    document.querySelector('input[name="partner-in-home"][value="yes"]').checked = true;
+    updateFieldVisibility();
+    showStep(1);
+  });
+
+  // Update visibility when options change
+  document.querySelectorAll('input[name="relationship"], input[name="homeowner"], input[name="partner-in-home"]').forEach(radio => {
+    radio.addEventListener('change', updateFieldVisibility);
+  });
+
+  // Initialize
+  updateFieldVisibility();
+})();
+</script>

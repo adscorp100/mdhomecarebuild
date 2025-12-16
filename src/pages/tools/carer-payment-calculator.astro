@@ -1,0 +1,708 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Carer Payment Calculator Australia 2025",
+  "description": "Free carer payment calculator. Calculate Carer Payment and Carer Allowance based on income, assets, and care hours. Updated with December 2025 rates.",
+  "url": "https://mdhomecare.com.au/tools/carer-payment-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much is Carer Payment and Allowance 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As of December 2025, the Carer Payment maximum rate is $1,149.00 per fortnight for singles and $866.80 per fortnight each for couples. The Carer Allowance is $156.90 per fortnight and is not income or asset tested. You may be able to receive both payments if you meet the eligibility requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the 5 eligibility requirements for Carer Payment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 5 key eligibility requirements for Carer Payment are: 1) You provide constant care for someone with a severe disability or medical condition, 2) The care receiver lives in Australia and has a qualifying condition, 3) You provide care in a private home (yours or theirs), 4) You meet the income and assets test, and 5) You're an Australian resident and in Australia when you claim."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Carer Allowance means tested?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, Carer Allowance is NOT means tested. There is no income test or assets test for Carer Allowance. This means you can receive the full $156.90 per fortnight regardless of your income or assets. However, Carer Payment IS means tested with income and asset limits."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Carer Payment income test?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Carer Payment income test allows you to earn up to $212 per fortnight (single) or $372 per fortnight combined (couple) before your payment is reduced. For every dollar over this limit, your payment reduces by 50 cents in the dollar until it cuts out completely at around $2,510/fn (single) or $3,849/fn (couple combined)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the Carer Payment rates in 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Carer Payment rates for December 2025 are: Single - $1,149.00 per fortnight ($29,874 per year), Partnered (each) - $866.80 per fortnight ($22,537 per year). These rates are indexed in March and September each year. Carer Payment is the same rate as the Age Pension and Disability Support Pension."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="Carer Payment Calculator Australia 2025 - Estimate Your Entitlement"
+  description="Free carer payment calculator. Calculate Carer Payment and Carer Allowance based on income, assets, and care hours. Updated with December 2025 rates."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">Carer Payment Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            Carer Payment Calculator <span class="text-primary">2025</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Estimate your Carer Payment and Carer Allowance entitlement based on your income, assets, and care situation. Updated with <strong>December 2025 rates</strong>.
+          </p>
+
+          <!-- Quick Facts Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:money-bag-02" class="w-5 h-5 text-primary" />
+              Carer Payment Rates (Dec 2025)
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Single, max rate</span>
+                <span class="font-bold text-secondary">$1,149.00/fn</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Partnered, each max</span>
+                <span class="font-bold text-secondary">$866.80/fn</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Income free area (single)</span>
+                <span class="font-bold text-secondary">$212/fn</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Asset limit (single, homeowner)</span>
+                <span class="font-bold text-secondary">$314,000</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carer Allowance Card -->
+          <div class="bg-accent/5 border border-accent/20 rounded-[2rem] p-6 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:wallet-02" class="w-5 h-5 text-accent" />
+              Carer Allowance (Dec 2025)
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-accent/10">
+                <span class="text-secondary/70">Carer Allowance rate</span>
+                <span class="font-bold text-secondary">$156.90/fn</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Means tested?</span>
+                <span class="font-bold text-success">NO</span>
+              </div>
+            </div>
+            <p class="text-xs text-secondary/60 mt-3">Carer Allowance has no income or asset test - you may receive it even if you don't qualify for Carer Payment.</p>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Disclaimer:</strong> This calculator provides estimates only. Actual payments depend on individual circumstances assessed by Services Australia. Always confirm with Centrelink.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="carer-calculator">
+
+            <!-- Step Indicator -->
+            <div class="mb-8">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-xs font-bold text-secondary/40 uppercase tracking-wider step-indicator">Step 1 of 3</span>
+                <span class="text-xs font-bold text-primary uppercase tracking-wider">Payment Estimator</span>
+              </div>
+              <progress class="progress progress-primary w-full h-2" value="33" max="100" id="calc-progress"></progress>
+            </div>
+
+            <!-- Step 1: Personal Details -->
+            <div class="calc-step" id="step-1">
+              <h3 class="text-xl font-bold text-secondary mb-6">Your Details</h3>
+
+              <div class="space-y-6">
+                <!-- Relationship Status -->
+                <div class="form-control">
+                  <label class="label text-sm font-bold text-secondary/70 mb-2">Relationship Status</label>
+                  <div class="grid grid-cols-2 gap-3">
+                    <label class="cursor-pointer">
+                      <input type="radio" name="relationship" value="single" class="peer hidden" checked />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <Icon name="hugeicons:user" class="w-6 h-6 mx-auto mb-2 text-secondary/60" />
+                        <span class="font-medium text-secondary">Single</span>
+                      </div>
+                    </label>
+                    <label class="cursor-pointer">
+                      <input type="radio" name="relationship" value="partnered" class="peer hidden" />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <Icon name="hugeicons:user-group" class="w-6 h-6 mx-auto mb-2 text-secondary/60" />
+                        <span class="font-medium text-secondary">Partnered</span>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Homeowner Status -->
+                <div class="form-control">
+                  <label class="label text-sm font-bold text-secondary/70 mb-2">Do you own your home?</label>
+                  <div class="grid grid-cols-2 gap-3">
+                    <label class="cursor-pointer">
+                      <input type="radio" name="homeowner" value="yes" class="peer hidden" checked />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <Icon name="hugeicons:home-01" class="w-6 h-6 mx-auto mb-2 text-secondary/60" />
+                        <span class="font-medium text-secondary">Homeowner</span>
+                      </div>
+                    </label>
+                    <label class="cursor-pointer">
+                      <input type="radio" name="homeowner" value="no" class="peer hidden" />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <Icon name="hugeicons:building-02" class="w-6 h-6 mx-auto mb-2 text-secondary/60" />
+                        <span class="font-medium text-secondary">Non-homeowner</span>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Care Hours -->
+                <div class="form-control">
+                  <label class="label text-sm font-bold text-secondary/70 mb-2">How many hours of care do you provide per week?</label>
+                  <div class="grid grid-cols-2 gap-3">
+                    <label class="cursor-pointer">
+                      <input type="radio" name="care-hours" value="constant" class="peer hidden" checked />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <span class="font-medium text-secondary">Constant care</span>
+                        <span class="text-xs text-secondary/50 block">(for Carer Payment)</span>
+                      </div>
+                    </label>
+                    <label class="cursor-pointer">
+                      <input type="radio" name="care-hours" value="significant" class="peer hidden" />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <span class="font-medium text-secondary">14+ hours/week</span>
+                        <span class="text-xs text-secondary/50 block">(for Carer Allowance)</span>
+                      </div>
+                    </label>
+                  </div>
+                  <p class="text-xs text-secondary/50 mt-2">Constant care means the person requires care equivalent to a full-time job. 14+ hours qualifies for Carer Allowance only.</p>
+                </div>
+              </div>
+
+              <div class="mt-8 flex justify-end">
+                <button class="btn btn-primary rounded-full px-8 next-step" data-next="2">
+                  Continue
+                  <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 ml-2" />
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 2: Income & Assets -->
+            <div class="calc-step hidden" id="step-2">
+              <h3 class="text-xl font-bold text-secondary mb-6">Income & Assets</h3>
+
+              <div class="space-y-6">
+                <!-- Income -->
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text font-bold text-secondary/70">Your fortnightly income (before tax)</span>
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                    <input
+                      type="number"
+                      id="income"
+                      placeholder="0"
+                      class="input input-lg w-full pl-10 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                    />
+                  </div>
+                  <p class="text-xs text-secondary/50 mt-2">Include wages, business income, and investment income. Exclude Centrelink payments.</p>
+                </div>
+
+                <!-- Partner Income (if partnered) -->
+                <div class="form-control hidden" id="partner-income-field">
+                  <label class="label">
+                    <span class="label-text font-bold text-secondary/70">Partner's fortnightly income (before tax)</span>
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                    <input
+                      type="number"
+                      id="partner-income"
+                      placeholder="0"
+                      class="input input-lg w-full pl-10 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                    />
+                  </div>
+                </div>
+
+                <!-- Assets -->
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text font-bold text-secondary/70">Total assessable assets</span>
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                    <input
+                      type="number"
+                      id="assets"
+                      placeholder="0"
+                      class="input input-lg w-full pl-10 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                    />
+                  </div>
+                  <p class="text-xs text-secondary/50 mt-2">Include savings, investments, property (excluding your home), vehicles, and other assets. Your primary home is not counted.</p>
+                </div>
+              </div>
+
+              <div class="mt-8 flex justify-between">
+                <button class="btn btn-ghost rounded-full px-6 prev-step" data-prev="1">
+                  <Icon name="hugeicons:arrow-left-01" class="w-5 h-5 mr-2" />
+                  Back
+                </button>
+                <button class="btn btn-primary rounded-full px-8 next-step" data-next="3">
+                  Calculate
+                  <Icon name="hugeicons:calculator-01" class="w-5 h-5 ml-2" />
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 3: Results -->
+            <div class="calc-step hidden" id="step-3">
+              <h3 class="text-xl font-bold text-secondary mb-6">Your Estimated Entitlement</h3>
+
+              <div class="space-y-6">
+                <!-- Carer Payment Result -->
+                <div class="bg-primary/5 border border-primary/20 rounded-2xl p-6" id="carer-payment-result">
+                  <div class="flex items-center justify-between mb-4">
+                    <h4 class="font-bold text-secondary flex items-center gap-2">
+                      <Icon name="hugeicons:money-bag-02" class="w-5 h-5 text-primary" />
+                      Carer Payment
+                    </h4>
+                    <span class="badge badge-primary" id="cp-eligibility">Checking...</span>
+                  </div>
+                  <div class="text-4xl font-bold text-primary mb-2" id="cp-amount">$0.00</div>
+                  <p class="text-sm text-secondary/60">per fortnight</p>
+                  <div class="mt-4 text-sm text-secondary/70" id="cp-breakdown"></div>
+                </div>
+
+                <!-- Carer Allowance Result -->
+                <div class="bg-accent/5 border border-accent/20 rounded-2xl p-6" id="carer-allowance-result">
+                  <div class="flex items-center justify-between mb-4">
+                    <h4 class="font-bold text-secondary flex items-center gap-2">
+                      <Icon name="hugeicons:wallet-02" class="w-5 h-5 text-accent" />
+                      Carer Allowance
+                    </h4>
+                    <span class="badge badge-accent" id="ca-eligibility">Checking...</span>
+                  </div>
+                  <div class="text-4xl font-bold text-accent mb-2" id="ca-amount">$0.00</div>
+                  <p class="text-sm text-secondary/60">per fortnight</p>
+                  <div class="mt-4 text-sm text-secondary/70" id="ca-breakdown"></div>
+                </div>
+
+                <!-- Total Combined -->
+                <div class="bg-success/5 border border-success/20 rounded-2xl p-6">
+                  <div class="flex items-center justify-between mb-2">
+                    <h4 class="font-bold text-secondary">Total Estimated Payments</h4>
+                  </div>
+                  <div class="grid grid-cols-2 gap-4">
+                    <div>
+                      <p class="text-sm text-secondary/60">Per fortnight</p>
+                      <p class="text-2xl font-bold text-success" id="total-fortnight">$0.00</p>
+                    </div>
+                    <div>
+                      <p class="text-sm text-secondary/60">Per year</p>
+                      <p class="text-2xl font-bold text-success" id="total-year">$0.00</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Next Steps -->
+                <div class="bg-base-200/50 rounded-2xl p-5">
+                  <h4 class="font-bold text-secondary mb-3">Next Steps</h4>
+                  <ul class="text-sm text-secondary/70 space-y-2">
+                    <li class="flex items-start gap-2">
+                      <Icon name="hugeicons:checkmark-circle-02" class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span>Apply online through <a href="https://www.servicesaustralia.gov.au/carer-payment" target="_blank" rel="noopener" class="text-primary hover:underline">Services Australia</a></span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                      <Icon name="hugeicons:checkmark-circle-02" class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span>Gather medical evidence and care recipient details</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                      <Icon name="hugeicons:checkmark-circle-02" class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span>Complete the Carer Assessment form</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="mt-8 flex justify-between">
+                <button class="btn btn-ghost rounded-full px-6 prev-step" data-prev="2">
+                  <Icon name="hugeicons:arrow-left-01" class="w-5 h-5 mr-2" />
+                  Back
+                </button>
+                <button class="btn btn-outline btn-primary rounded-full px-6" id="reset-calc">
+                  <Icon name="hugeicons:refresh" class="w-5 h-5 mr-2" />
+                  Start Over
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much is Carer Payment and Allowance 2025?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>As of December 2025, the <strong>Carer Payment</strong> maximum rate is <strong>$1,149.00 per fortnight</strong> for singles and <strong>$866.80 per fortnight each</strong> for couples. This is the same rate as the Age Pension and Disability Support Pension.</p>
+              <p class="mt-2">The <strong>Carer Allowance</strong> is <strong>$156.90 per fortnight</strong> and is NOT income or asset tested - you can receive it regardless of your financial situation if you meet the care requirements.</p>
+              <p class="mt-2">Together, a single carer providing constant care could receive up to <strong>$1,305.90 per fortnight</strong> ($33,953 per year).</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What are the 5 eligibility requirements for Carer Payment?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The 5 key eligibility requirements for Carer Payment are:</p>
+              <ol class="list-decimal pl-5 mt-2 space-y-2">
+                <li><strong>Constant care requirement</strong>: You provide constant care for someone with a severe disability, medical condition, or who is frail aged</li>
+                <li><strong>Care receiver eligibility</strong>: The person you care for must have a qualifying condition and require care equivalent to a full-time job</li>
+                <li><strong>Care location</strong>: You provide care in a private home (your home or the care receiver's home)</li>
+                <li><strong>Income and assets test</strong>: You must meet the income test (under $212/fn single) and assets test ($314,000 homeowner)</li>
+                <li><strong>Residency</strong>: You must be an Australian resident and be in Australia when you claim</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Is Carer Allowance means tested?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>No, Carer Allowance is NOT means tested.</strong> There is no income test or assets test for Carer Allowance. This means you can receive the full $156.90 per fortnight regardless of your income or assets, as long as you meet the care requirements.</p>
+              <p class="mt-2">This is different from <strong>Carer Payment</strong>, which IS means tested. Many carers who don't qualify for Carer Payment due to income or assets can still receive Carer Allowance.</p>
+              <p class="mt-2">To receive Carer Allowance, you need to provide at least 14 hours of care per week (averaged over 12 months) to someone with a disability or medical condition.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the Carer Payment income test?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The Carer Payment income test works as follows:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Income free area (single)</strong>: $212 per fortnight - you can earn this much without any reduction</li>
+                <li><strong>Income free area (couple combined)</strong>: $372 per fortnight</li>
+                <li><strong>Taper rate</strong>: For every dollar over the free area, your payment reduces by 50 cents</li>
+                <li><strong>Cut-off (single)</strong>: Payment stops at approximately $2,510 per fortnight</li>
+                <li><strong>Cut-off (couple)</strong>: Payment stops at approximately $3,849 per fortnight combined</li>
+              </ul>
+              <p class="mt-2">Employment income may have a Work Bonus applied (up to $300/fn not counted).</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What are the Carer Payment rates 2025?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Current Carer Payment rates (December 2025):</p>
+              <table class="table table-sm mt-2">
+                <thead>
+                  <tr><th>Status</th><th>Per Fortnight</th><th>Per Year</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Single</td><td><strong>$1,149.00</strong></td><td>$29,874</td></tr>
+                  <tr><td>Partnered (each)</td><td><strong>$866.80</strong></td><td>$22,537</td></tr>
+                  <tr><td>+ Carer Allowance</td><td><strong>$156.90</strong></td><td>$4,079</td></tr>
+                </tbody>
+              </table>
+              <p class="mt-2">Rates are indexed in March and September each year. Carer Payment is equivalent to the Age Pension and Disability Support Pension rate.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much is Carer Allowance per fortnight?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Carer Allowance is <strong>$156.90 per fortnight</strong> (approximately $4,079 per year) as of December 2025.</p>
+              <p class="mt-2">Key facts about Carer Allowance:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>NOT means tested - no income or assets test</li>
+                <li>You can receive it on top of other payments (including Carer Payment)</li>
+                <li>Requires providing at least 14 hours of care per week</li>
+                <li>Paid for each qualifying care receiver (you can receive multiple allowances)</li>
+                <li>Includes a $600 annual Carer Supplement payment in July</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Resources</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/carer-payment-and-allowance-australia-guide/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Carer Payment & Allowance Guide</h3>
+            <p class="text-sm text-secondary/60">Complete guide to eligibility, rates, and how to apply.</p>
+          </a>
+          <a href="/tools/dsp-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">DSP Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate Disability Support Pension entitlements.</p>
+          </a>
+          <a href="/tools/ndis-pay-rate-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Pay Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate support worker rates and costs.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  // December 2025 Carer Payment Rates
+  const RATES = {
+    carerPayment: {
+      single: 1149.00,
+      partnered: 866.80
+    },
+    carerAllowance: 156.90,
+    incomeTest: {
+      freeAreaSingle: 212,
+      freeAreaCouple: 372,
+      taperRate: 0.50
+    },
+    assetLimits: {
+      single: {
+        homeowner: 314000,
+        nonHomeowner: 566000
+      },
+      partnered: {
+        homeowner: 470000,
+        nonHomeowner: 722000
+      }
+    }
+  };
+
+  // DOM Elements
+  const calculator = document.getElementById('carer-calculator');
+  const steps = calculator.querySelectorAll('.calc-step');
+  const progress = document.getElementById('calc-progress');
+  const stepIndicator = calculator.querySelector('.step-indicator');
+  const nextBtns = calculator.querySelectorAll('.next-step');
+  const prevBtns = calculator.querySelectorAll('.prev-step');
+  const resetBtn = document.getElementById('reset-calc');
+  const partnerIncomeField = document.getElementById('partner-income-field');
+
+  let currentStep = 1;
+
+  // Step Navigation
+  function showStep(step) {
+    steps.forEach((s, i) => {
+      s.classList.toggle('hidden', i + 1 !== step);
+    });
+    progress.value = (step / 3) * 100;
+    stepIndicator.textContent = `Step ${step} of 3`;
+    currentStep = step;
+
+    if (step === 3) {
+      calculateResults();
+    }
+  }
+
+  // Toggle partner income field based on relationship
+  function updatePartnerField() {
+    const relationship = document.querySelector('input[name="relationship"]:checked').value;
+    partnerIncomeField.classList.toggle('hidden', relationship === 'single');
+  }
+
+  // Calculate Results
+  function calculateResults() {
+    const relationship = document.querySelector('input[name="relationship"]:checked').value;
+    const homeowner = document.querySelector('input[name="homeowner"]:checked').value;
+    const careHours = document.querySelector('input[name="care-hours"]:checked').value;
+    const income = parseFloat(document.getElementById('income').value) || 0;
+    const partnerIncome = parseFloat(document.getElementById('partner-income').value) || 0;
+    const assets = parseFloat(document.getElementById('assets').value) || 0;
+
+    const isPartnered = relationship === 'partnered';
+    const isHomeowner = homeowner === 'yes';
+    const providesConstantCare = careHours === 'constant';
+
+    // Calculate Carer Payment
+    let carerPayment = 0;
+    let cpEligible = false;
+    let cpBreakdown = '';
+
+    // Asset test
+    const assetLimit = isPartnered
+      ? (isHomeowner ? RATES.assetLimits.partnered.homeowner : RATES.assetLimits.partnered.nonHomeowner)
+      : (isHomeowner ? RATES.assetLimits.single.homeowner : RATES.assetLimits.single.nonHomeowner);
+
+    const passesAssetTest = assets <= assetLimit;
+
+    // Income test
+    const totalIncome = isPartnered ? income + partnerIncome : income;
+    const freeArea = isPartnered ? RATES.incomeTest.freeAreaCouple : RATES.incomeTest.freeAreaSingle;
+    const maxPayment = isPartnered ? RATES.carerPayment.partnered : RATES.carerPayment.single;
+
+    if (providesConstantCare && passesAssetTest) {
+      if (totalIncome <= freeArea) {
+        carerPayment = maxPayment;
+        cpEligible = true;
+        cpBreakdown = `Full rate - income under free area ($${freeArea}/fn)`;
+      } else {
+        const excess = totalIncome - freeArea;
+        const reduction = excess * RATES.incomeTest.taperRate;
+        carerPayment = Math.max(0, maxPayment - reduction);
+        cpEligible = carerPayment > 0;
+        cpBreakdown = cpEligible
+          ? `Reduced by $${reduction.toFixed(2)}/fn due to income over $${freeArea}`
+          : `Income too high - exceeds cut-off threshold`;
+      }
+    } else if (!providesConstantCare) {
+      cpBreakdown = 'Requires constant care (equivalent to a full-time job) to qualify for Carer Payment';
+    } else if (!passesAssetTest) {
+      cpBreakdown = `Assets exceed limit of $${assetLimit.toLocaleString()}`;
+    }
+
+    // Calculate Carer Allowance (no means test)
+    const carerAllowance = RATES.carerAllowance;
+    const caEligible = true; // Always eligible if caring 14+ hours
+    const caBreakdown = 'No income or assets test applies to Carer Allowance';
+
+    // Update UI
+    document.getElementById('cp-amount').textContent = `$${carerPayment.toFixed(2)}`;
+    document.getElementById('cp-eligibility').textContent = cpEligible ? 'Eligible' : 'Not Eligible';
+    document.getElementById('cp-eligibility').className = `badge ${cpEligible ? 'badge-success' : 'badge-error'}`;
+    document.getElementById('cp-breakdown').textContent = cpBreakdown;
+
+    document.getElementById('ca-amount').textContent = `$${carerAllowance.toFixed(2)}`;
+    document.getElementById('ca-eligibility').textContent = caEligible ? 'Eligible' : 'Check Required';
+    document.getElementById('ca-eligibility').className = `badge ${caEligible ? 'badge-success' : 'badge-warning'}`;
+    document.getElementById('ca-breakdown').textContent = caBreakdown;
+
+    const totalFortnight = carerPayment + carerAllowance;
+    const totalYear = totalFortnight * 26;
+
+    document.getElementById('total-fortnight').textContent = `$${totalFortnight.toFixed(2)}`;
+    document.getElementById('total-year').textContent = `$${totalYear.toLocaleString('en-AU', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`;
+  }
+
+  // Event Listeners
+  nextBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const nextStep = parseInt(btn.dataset.next);
+      showStep(nextStep);
+    });
+  });
+
+  prevBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const prevStep = parseInt(btn.dataset.prev);
+      showStep(prevStep);
+    });
+  });
+
+  resetBtn.addEventListener('click', () => {
+    document.getElementById('income').value = '';
+    document.getElementById('partner-income').value = '';
+    document.getElementById('assets').value = '';
+    document.querySelector('input[name="relationship"][value="single"]').checked = true;
+    document.querySelector('input[name="homeowner"][value="yes"]').checked = true;
+    document.querySelector('input[name="care-hours"][value="constant"]').checked = true;
+    updatePartnerField();
+    showStep(1);
+  });
+
+  // Update partner field visibility when relationship changes
+  document.querySelectorAll('input[name="relationship"]').forEach(radio => {
+    radio.addEventListener('change', updatePartnerField);
+  });
+
+  // Initialize
+  updatePartnerField();
+})();
+</script>

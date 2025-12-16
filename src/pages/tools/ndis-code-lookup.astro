@@ -1,0 +1,461 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+import ndisCodesRaw from '../../data/ndis-support-catalogue.json';
+
+// Process the raw data into a more compact format for the client
+const ndisCodes = ndisCodesRaw.map(item => ({
+  code: item.code,
+  name: item.name,
+  category: item.supportCategoryNumber.toString().padStart(2, '0'),
+  categoryName: item.supportCategoryName,
+  regGroup: item.registrationGroupName,
+  rate: item.priceNSW,
+  unit: item.unit,
+  quote: item.quote,
+  isLegacy: item.isLegacy
+})).filter(item => item.code); // Remove any items without a code
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS Line Item Code Lookup 2025",
+  "description": "Free NDIS code lookup tool. Search 2025-26 line item codes by number or description. Find invoicing codes, price limits, and support categories instantly.",
+  "url": "https://mdhomecare.com.au/tools/ndis-code-lookup",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are NDIS line item codes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS line item codes are unique identifiers used for invoicing NDIS supports. Each code corresponds to a specific support type and has an associated price limit. Providers use these codes when claiming payments for services delivered to NDIS participants."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I find NDIS codes for invoicing 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can find NDIS codes for invoicing in the official NDIS Support Catalogue and Pricing Arrangements. Our free lookup tool above allows you to search all 2025-26 NDIS line item codes by number or description instantly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the NDIS social and community participation code?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The main NDIS social and community participation codes fall under category 04 (Assistance with Social and Community Participation). Key codes include 04_104_0125_6_1 for standard weekday community participation at $70.23/hour, with higher rates for weekends and public holidays."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I search for NDIS support item numbers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use our lookup tool above to search NDIS support item numbers. You can search by the full code (e.g., 01_011_0107_1_1), partial code, or by description (e.g., 'personal care' or 'community access'). Results show the code, description, category, and current price limit."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="NDIS Line Item Code Lookup 2025 - Search Support Codes & Rates"
+  description="Free NDIS code lookup tool. Search 2025-26 line item codes by number or description. Find invoicing codes, price limits, and support categories instantly."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">NDIS Code Lookup</li>
+        </ol>
+      </nav>
+
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+          <Icon name="hugeicons:search-01" class="w-4 h-4" />
+          Free Lookup Tool
+        </div>
+
+        <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+          NDIS Line Item Code <span class="text-primary">Lookup 2025</span>
+        </h1>
+
+        <p class="text-lg text-secondary/70 leading-relaxed max-w-2xl mx-auto">
+          Search NDIS support codes by number or description. Find the right line item codes for invoicing with current <strong>2025-26 price limits</strong>.
+        </p>
+      </div>
+
+      <!-- Search Tool -->
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="code-lookup">
+
+          <!-- Search Input -->
+          <div class="form-control mb-6">
+            <div class="relative">
+              <Icon name="hugeicons:search-01" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-secondary/40" />
+              <input
+                type="text"
+                id="search-input"
+                placeholder="Search by code (e.g. 01_011) or description (e.g. personal care)..."
+                class="input input-lg w-full pl-12 pr-4 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+              />
+            </div>
+          </div>
+
+          <!-- Category Filter -->
+          <div class="flex flex-wrap gap-2 mb-6">
+            <button class="category-btn btn btn-sm rounded-full btn-primary" data-category="all">All ({ndisCodes.length})</button>
+            <button class="category-btn btn btn-sm rounded-full btn-ghost" data-category="01">Daily Life</button>
+            <button class="category-btn btn btn-sm rounded-full btn-ghost" data-category="04">Community</button>
+            <button class="category-btn btn btn-sm rounded-full btn-ghost" data-category="05">Assistive Tech</button>
+            <button class="category-btn btn btn-sm rounded-full btn-ghost" data-category="06">Home Mods</button>
+            <button class="category-btn btn btn-sm rounded-full btn-ghost" data-category="07">Support Coord</button>
+            <button class="category-btn btn btn-sm rounded-full btn-ghost" data-category="09">Daily Living Skills</button>
+            <button class="category-btn btn btn-sm rounded-full btn-ghost" data-category="10">Employment</button>
+            <button class="category-btn btn btn-sm rounded-full btn-ghost" data-category="11">Health</button>
+            <button class="category-btn btn btn-sm rounded-full btn-ghost" data-category="12">Life Choices</button>
+            <button class="category-btn btn btn-sm rounded-full btn-ghost" data-category="14">Relationships</button>
+            <button class="category-btn btn btn-sm rounded-full btn-ghost" data-category="15">Consumables</button>
+          </div>
+
+          <!-- Results Count -->
+          <div class="flex items-center justify-between mb-4">
+            <p class="text-sm text-secondary/60"><span id="results-count">0</span> codes found</p>
+            <button id="copy-all-btn" class="btn btn-ghost btn-sm text-primary hidden">
+              <Icon name="hugeicons:copy-01" class="w-4 h-4 mr-1" />
+              Copy Selected
+            </button>
+          </div>
+
+          <!-- Results Table -->
+          <div class="overflow-x-auto">
+            <table class="table w-full">
+              <thead>
+                <tr class="text-secondary/60 border-b-2 border-base-200">
+                  <th class="font-bold">Code</th>
+                  <th class="font-bold">Description</th>
+                  <th class="font-bold text-right">Rate Limit</th>
+                  <th class="font-bold text-center">Copy</th>
+                </tr>
+              </thead>
+              <tbody id="results-body">
+                <tr>
+                  <td colspan="4" class="text-center py-12 text-secondary/50">
+                    <Icon name="hugeicons:search-01" class="w-12 h-12 mx-auto mb-3 opacity-30" />
+                    <p>Start typing to search NDIS codes...</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Load More -->
+          <div id="load-more-container" class="text-center mt-6 hidden">
+            <button id="load-more-btn" class="btn btn-outline btn-primary rounded-full">
+              Load More Results
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Quick Reference Cards -->
+      <div class="max-w-4xl mx-auto mt-12">
+        <h2 class="text-xl font-bold text-secondary mb-6 text-center">Popular NDIS Code Categories</h2>
+        <div class="grid md:grid-cols-3 gap-4">
+          <div class="bg-white rounded-2xl p-5 border border-base-200 shadow-sm">
+            <h3 class="font-bold text-secondary mb-2">01 - Daily Living</h3>
+            <p class="text-sm text-secondary/60 mb-3">Personal care, domestic assistance, community nursing</p>
+            <p class="text-xs text-primary font-medium">Standard rate: $70.23/hr</p>
+          </div>
+          <div class="bg-white rounded-2xl p-5 border border-base-200 shadow-sm">
+            <h3 class="font-bold text-secondary mb-2">04 - Community Access</h3>
+            <p class="text-sm text-secondary/60 mb-3">Social participation, group activities, community access</p>
+            <p class="text-xs text-primary font-medium">Standard rate: $70.23/hr</p>
+          </div>
+          <div class="bg-white rounded-2xl p-5 border border-base-200 shadow-sm">
+            <h3 class="font-bold text-secondary mb-2">15 - Capacity Building</h3>
+            <p class="text-sm text-secondary/60 mb-3">Therapy, training, skill development</p>
+            <p class="text-xs text-primary font-medium">Varies by service type</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What are NDIS line item codes?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>NDIS line item codes are unique identifiers used for invoicing NDIS supports. Each code corresponds to a specific support type (like personal care or community access) and has an associated price limit set by the NDIA. Providers must use these codes when claiming payments for services delivered to NDIS participants. The codes follow a structured format like 01_011_0107_1_1, where each segment indicates the category, sub-category, and specific support type.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Where can I find NDIS codes for invoicing 2025?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>You can find NDIS codes for invoicing in the official NDIS Support Catalogue and Pricing Arrangements and Price Limits (PAPL) document, updated for 2025-26. Our free lookup tool above allows you to search all current NDIS line item codes instantly. The official NDIS price guide is updated annually (usually July) with any mid-year amendments. Always verify rates against the <a href="https://www.ndis.gov.au/providers/pricing-arrangements" class="text-primary hover:underline" target="_blank" rel="noopener">official NDIS website</a>.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the NDIS social and community participation code?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The main NDIS social and community participation codes fall under <strong>Category 04 - Assistance with Social and Community Participation</strong>. Key codes include:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>04_104_0125_6_1</strong> - Access Community Social and Rec Activities (Weekday Daytime) - $70.23/hr</li>
+                <li><strong>04_104_0125_6_1_S</strong> - Saturday rate - $98.32/hr</li>
+                <li><strong>04_104_0125_6_1_U</strong> - Sunday rate - $126.42/hr</li>
+                <li><strong>04_102_0125_6_1</strong> - Group-based community participation (lower rate)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How do I search for NDIS support item numbers?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Use our lookup tool above to search NDIS support item numbers. You can search by:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Full code (e.g., "01_011_0107_1_1")</li>
+                <li>Partial code (e.g., "01_011" for all daily living codes)</li>
+                <li>Description keywords (e.g., "personal care", "community access", "transport")</li>
+                <li>Category filter buttons to narrow by support type</li>
+              </ul>
+              <p class="mt-2">Results show the code, full description, category, and current 2025-26 price limit.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What NDIS codes should I use for invoicing personal care?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>For personal care invoicing, the main NDIS codes under Category 01 (Assistance with Daily Life) include:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>01_011_0107_1_1</strong> - Assistance with Self-Care Activities (Standard) - $70.23/hr weekday</li>
+                <li><strong>01_011_0107_1_1_T</strong> - Provider Travel for personal care</li>
+                <li><strong>01_015_0107_1_1</strong> - High Intensity personal care - $77.40/hr</li>
+                <li><strong>01_012_0107_1_1</strong> - Assistance in Shared Living Arrangements</li>
+              </ul>
+              <p class="mt-2">Weekend and public holiday rates have different code suffixes (_S for Saturday, _U for Sunday, _P for Public Holiday).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Resources</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/ndis-line-items-guide-2024-25/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Line Items Guide 2025</h3>
+            <p class="text-sm text-secondary/60">Complete guide to all NDIS support codes and categories.</p>
+          </a>
+          <a href="/tools/ndis-pay-rate-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Pay Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate support worker rates by day and time.</p>
+          </a>
+          <a href="/blog/ndis-price-guide/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Price Guide 2025-26</h3>
+            <p class="text-sm text-secondary/60">Full breakdown of NDIS pricing arrangements.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<!-- Inject the NDIS codes data -->
+<script id="ndis-codes-data" type="application/json" set:html={JSON.stringify(ndisCodes)} />
+
+<script is:inline>
+(function() {
+  // Load NDIS codes from the injected data
+  const NDIS_CODES = JSON.parse(document.getElementById('ndis-codes-data').textContent);
+
+  const searchInput = document.getElementById('search-input');
+  const resultsBody = document.getElementById('results-body');
+  const resultsCount = document.getElementById('results-count');
+  const categoryBtns = document.querySelectorAll('.category-btn');
+  const loadMoreContainer = document.getElementById('load-more-container');
+  const loadMoreBtn = document.getElementById('load-more-btn');
+
+  let currentCategory = 'all';
+  let currentResults = [];
+  let displayedCount = 0;
+  const RESULTS_PER_PAGE = 20;
+
+  function searchCodes(query, category) {
+    query = query.toLowerCase().trim();
+
+    return NDIS_CODES.filter(code => {
+      const matchesCategory = category === 'all' || code.category === category;
+      const matchesQuery = !query ||
+        code.code.toLowerCase().includes(query) ||
+        code.name.toLowerCase().includes(query) ||
+        (code.regGroup && code.regGroup.toLowerCase().includes(query)) ||
+        (code.categoryName && code.categoryName.toLowerCase().includes(query));
+
+      return matchesCategory && matchesQuery;
+    });
+  }
+
+  function renderResults(results, append = false) {
+    if (!append) {
+      displayedCount = 0;
+    }
+
+    const toShow = results.slice(displayedCount, displayedCount + RESULTS_PER_PAGE);
+    displayedCount += toShow.length;
+
+    if (!append) {
+      if (results.length === 0) {
+        resultsBody.innerHTML = `
+          <tr>
+            <td colspan="4" class="text-center py-12 text-secondary/50">
+              <svg class="w-12 h-12 mx-auto mb-3 opacity-30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              <p>No codes found matching your search.</p>
+              <p class="text-sm mt-2">Try a different search term or category.</p>
+            </td>
+          </tr>
+        `;
+        loadMoreContainer.classList.add('hidden');
+        return;
+      }
+      resultsBody.innerHTML = '';
+    }
+
+    toShow.forEach(item => {
+      const row = document.createElement('tr');
+      row.className = 'hover:bg-base-200/50 transition-colors';
+
+      // Format rate display
+      let rateDisplay = 'Quote';
+      if (item.rate) {
+        const unit = item.unit === 'H' ? '/hr' : item.unit === 'D' ? '/day' : item.unit === 'E' ? ' each' : item.unit === 'WK' ? '/wk' : item.unit === 'YR' ? '/yr' : '';
+        rateDisplay = '$' + item.rate.toFixed(2) + unit;
+      }
+
+      // Add legacy badge if applicable
+      const legacyBadge = item.isLegacy ? '<span class="badge badge-warning badge-xs ml-2">Legacy</span>' : '';
+
+      row.innerHTML = `
+        <td class="font-mono text-sm text-primary font-medium whitespace-nowrap">${item.code}</td>
+        <td class="text-sm text-secondary/80">
+          <div>${item.name}${legacyBadge}</div>
+          <div class="text-xs text-secondary/50 mt-1">${item.regGroup || ''}</div>
+        </td>
+        <td class="text-right font-bold text-secondary whitespace-nowrap">${rateDisplay}</td>
+        <td class="text-center">
+          <button class="btn btn-ghost btn-sm btn-square copy-btn" data-code="${item.code}" title="Copy code">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path>
+            </svg>
+          </button>
+        </td>
+      `;
+      resultsBody.appendChild(row);
+    });
+
+    // Show/hide load more
+    if (displayedCount < results.length) {
+      loadMoreContainer.classList.remove('hidden');
+    } else {
+      loadMoreContainer.classList.add('hidden');
+    }
+
+    // Add copy handlers
+    document.querySelectorAll('.copy-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const code = btn.dataset.code;
+        navigator.clipboard.writeText(code).then(() => {
+          btn.innerHTML = `<svg class="w-4 h-4 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>`;
+          setTimeout(() => {
+            btn.innerHTML = `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>`;
+          }, 1500);
+        });
+      });
+    });
+  }
+
+  function doSearch() {
+    const query = searchInput.value;
+    currentResults = searchCodes(query, currentCategory);
+    resultsCount.textContent = currentResults.length;
+    renderResults(currentResults);
+  }
+
+  // Search input handler
+  let searchTimeout;
+  searchInput.addEventListener('input', () => {
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(doSearch, 200);
+  });
+
+  // Category filter handlers
+  categoryBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      categoryBtns.forEach(b => {
+        b.classList.remove('btn-primary');
+        b.classList.add('btn-ghost');
+      });
+      btn.classList.remove('btn-ghost');
+      btn.classList.add('btn-primary');
+
+      currentCategory = btn.dataset.category;
+      doSearch();
+    });
+  });
+
+  // Load more handler
+  loadMoreBtn.addEventListener('click', () => {
+    renderResults(currentResults, true);
+  });
+
+  // Initial load - show all codes
+  doSearch();
+})();
+</script>

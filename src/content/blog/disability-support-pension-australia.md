@@ -18,6 +18,11 @@ image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.we
 
 *Last Updated: December 15, 2025 - Reflecting September 20, 2025 indexation*
 
+> **Calculate Your DSP Payment**
+> Use our free [DSP Calculator](/tools/dsp-calculator) to estimate your Disability Support Pension based on your income, assets, and relationship status. Get instant results using current September 2025 rates.
+>
+> [**Try the DSP Calculator →**](/tools/dsp-calculator)
+
 The Disability Support Pension (DSP) is a crucial safety net for many Australians who are unable to work due to illness or injury. However, navigating the ins and outs of eligibility, payment rates, and ongoing requirements can feel complex.
 
 If you've found yourself searching for answers about "**how much is the disability pension per fortnight**," "**how long does disability support pension last**," or "**how much money can I have in the bank on a disability pension Australia**," you're not alone. These are some of the most common questions people have about the DSP.
@@ -128,7 +133,12 @@ If you are receiving the Disability Support Pension, you may be eligible for an 
 
 ## How Much Does Centrelink Pay on Disability Pension? Using a Disability Support Pension Calculator
 
-While this guide provides general information, your specific DSP entitlement will depend on your individual circumstances. Services Australia provides online estimators and calculators that can help you get an idea of how much you might receive based on your income and assets. These tools are valuable resources for understanding your potential payment rate.
+While this guide provides general information, your specific DSP entitlement will depend on your individual circumstances. To get an estimate of your potential payment, try our **free [DSP Calculator](/tools/dsp-calculator)** which uses the current September 2025 rates to calculate your estimated fortnightly payment based on your income, assets, and relationship status.
+
+> **Get Your Instant DSP Estimate**
+> Our calculator factors in income tests, asset tests, Work Bonus, and relationship status to give you a personalised estimate.
+>
+> [**Calculate Your DSP Payment →**](/tools/dsp-calculator)
 
 ## In Conclusion: Understanding Your Disability Support Pension Payments
 

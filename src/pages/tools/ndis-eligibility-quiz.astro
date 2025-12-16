@@ -1,0 +1,627 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS Eligibility Checker 2025",
+  "description": "Free NDIS eligibility quiz. Answer 6 questions to check if you qualify for the National Disability Insurance Scheme. Instant results with next steps.",
+  "url": "https://mdhomecare.com.au/tools/ndis-eligibility-quiz",
+  "applicationCategory": "HealthApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the eligibility requirements for NDIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS eligibility requirements include: 1) Being under 65 years old, 2) Being an Australian citizen, permanent resident, or Protected Special Category Visa holder, 3) Having a permanent disability that significantly affects daily activities, 4) The disability is likely to be lifelong, and 5) You need support from others or equipment to complete everyday tasks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I check if I'm eligible for NDIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can check NDIS eligibility by taking our free quiz above, which asks about your age, residency, disability type, and support needs. For official eligibility assessment, contact the NDIS on 1800 800 110 or submit an Access Request Form with supporting evidence from healthcare professionals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get NDIS if I'm over 65?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally, you cannot join the NDIS if you're over 65. You must be under 65 when you first apply. However, if you're already an NDIS participant before turning 65, you can choose to stay on the NDIS or transition to the aged care system. People over 65 with disability may access support through My Aged Care instead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What disabilities qualify for NDIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS covers permanent disabilities including: physical disabilities, intellectual disabilities, sensory impairments (vision, hearing), neurological conditions (MS, Parkinson's), autism spectrum disorder, psychosocial disabilities (from mental health conditions), and acquired brain injuries. The disability must substantially impact your functional capacity in daily activities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a diagnosis to apply for NDIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While a formal diagnosis helps, NDIS focuses on functional impact rather than just diagnosis. You need evidence that your disability is permanent and substantially reduces your functional capacity. This can come from doctors, specialists, psychologists, or allied health professionals who can describe how your condition affects daily life."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="NDIS Eligibility Checker 2025 - Free Quiz to Check If You Qualify"
+  description="Free NDIS eligibility quiz. Answer 6 questions to check if you qualify for the National Disability Insurance Scheme. Instant results with next steps."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">NDIS Eligibility Quiz</li>
+        </ol>
+      </nav>
+
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+          <Icon name="hugeicons:checkmark-badge-01" class="w-4 h-4" />
+          Free Eligibility Check
+        </div>
+
+        <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+          NDIS Eligibility <span class="text-primary">Quiz</span>
+        </h1>
+
+        <p class="text-lg text-secondary/70 leading-relaxed max-w-2xl mx-auto">
+          Answer 6 quick questions to check if you may be eligible for the National Disability Insurance Scheme. Takes less than 2 minutes.
+        </p>
+      </div>
+
+      <!-- Quiz Container -->
+      <div class="max-w-2xl mx-auto">
+        <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="eligibility-quiz">
+
+          <!-- Progress -->
+          <div class="mb-8">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-xs font-bold text-secondary/40 uppercase tracking-wider" id="question-indicator">Question 1 of 6</span>
+              <span class="text-xs font-bold text-primary uppercase tracking-wider">Eligibility Check</span>
+            </div>
+            <progress class="progress progress-primary w-full h-2" value="16.67" max="100" id="quiz-progress"></progress>
+          </div>
+
+          <!-- Question 1: Age -->
+          <div class="quiz-question" id="q1">
+            <h3 class="text-xl font-bold text-secondary mb-6">Are you under 65 years old?</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="age" value="yes" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all flex items-center gap-4">
+                  <div class="w-6 h-6 rounded-full border-2 border-base-300 peer-checked:border-primary peer-checked:bg-primary flex items-center justify-center">
+                    <div class="w-3 h-3 rounded-full bg-white hidden peer-checked:block"></div>
+                  </div>
+                  <span class="font-medium text-secondary">Yes, I'm under 65</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="age" value="no" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all flex items-center gap-4">
+                  <div class="w-6 h-6 rounded-full border-2 border-base-300 peer-checked:border-primary peer-checked:bg-primary flex items-center justify-center">
+                    <div class="w-3 h-3 rounded-full bg-white hidden peer-checked:block"></div>
+                  </div>
+                  <span class="font-medium text-secondary">No, I'm 65 or older</span>
+                </div>
+              </label>
+            </div>
+            <p class="text-xs text-secondary/50 mt-4">You must be under 65 when you first apply for the NDIS.</p>
+          </div>
+
+          <!-- Question 2: Residency -->
+          <div class="quiz-question hidden" id="q2">
+            <h3 class="text-xl font-bold text-secondary mb-6">Are you an Australian citizen or permanent resident?</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="residency" value="citizen" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, Australian citizen</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="residency" value="permanent" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, permanent resident</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="residency" value="protected" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, Protected Special Category Visa holder</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="residency" value="no" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No, none of the above</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 3: Disability Type -->
+          <div class="quiz-question hidden" id="q3">
+            <h3 class="text-xl font-bold text-secondary mb-6">Do you have a permanent disability?</h3>
+            <p class="text-sm text-secondary/60 mb-4">This includes physical, intellectual, sensory, cognitive, neurological, or psychosocial disabilities.</p>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="disability" value="yes" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, I have a permanent disability</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="disability" value="unsure" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I'm not sure if my condition qualifies</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="disability" value="no" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No, I don't have a disability</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 4: Permanence -->
+          <div class="quiz-question hidden" id="q4">
+            <h3 class="text-xl font-bold text-secondary mb-6">Is your disability likely to be lifelong?</h3>
+            <p class="text-sm text-secondary/60 mb-4">Or is it likely to last for more than 2 years?</p>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="permanence" value="lifelong" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, it's lifelong/permanent</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="permanence" value="longterm" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, likely more than 2 years</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="permanence" value="temporary" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No, it's temporary or short-term</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 5: Functional Impact -->
+          <div class="quiz-question hidden" id="q5">
+            <h3 class="text-xl font-bold text-secondary mb-6">Does your disability substantially affect your daily activities?</h3>
+            <p class="text-sm text-secondary/60 mb-4">Such as self-care, communication, mobility, learning, or social interaction.</p>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="impact" value="substantial" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, it substantially affects my daily life</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="impact" value="moderate" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Somewhat - I can do some things independently</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="impact" value="minimal" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No, it has minimal impact on daily activities</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 6: Support Needs -->
+          <div class="quiz-question hidden" id="q6">
+            <h3 class="text-xl font-bold text-secondary mb-6">Do you need support from others or equipment to do everyday tasks?</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="support" value="yes" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, I need regular support or equipment</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="support" value="sometimes" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Sometimes - for certain tasks</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="support" value="no" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No, I manage independently</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Results -->
+          <div class="quiz-question hidden" id="results">
+            <div class="text-center mb-6" id="result-icon"></div>
+            <h3 class="text-2xl font-bold text-secondary mb-4 text-center" id="result-title">Checking...</h3>
+            <div class="mb-6" id="result-message"></div>
+
+            <div class="bg-base-200/30 rounded-2xl p-5 mb-6" id="result-breakdown">
+              <h4 class="font-bold text-secondary mb-3">Your Answers Summary</h4>
+              <div id="answers-summary" class="space-y-2 text-sm"></div>
+            </div>
+
+            <div id="next-steps" class="mb-6"></div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="mt-8 flex justify-between" id="nav-buttons">
+            <button class="btn btn-ghost rounded-full px-6 hidden" id="prev-btn">
+              <Icon name="hugeicons:arrow-left-01" class="w-5 h-5 mr-2" />
+              Back
+            </button>
+            <button class="btn btn-primary rounded-full px-8 ml-auto" id="next-btn">
+              Continue
+              <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 ml-2" />
+            </button>
+            <button class="btn btn-primary rounded-full px-8 hidden" id="restart-btn">
+              <Icon name="hugeicons:refresh" class="w-5 h-5 mr-2" />
+              Start Over
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70 mt-6">
+          <p class="flex items-start gap-2">
+            <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+            <span><strong>Disclaimer:</strong> This quiz provides an indication only. Actual eligibility is determined by the NDIA through a formal Access Request. Contact NDIS on 1800 800 110 for official assessment.</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What are the eligibility requirements for NDIS?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The main NDIS eligibility requirements are:</p>
+              <ol class="list-decimal pl-5 mt-2 space-y-1">
+                <li><strong>Age</strong>: You must be under 65 when you first apply</li>
+                <li><strong>Residency</strong>: Australian citizen, permanent resident, or Protected Special Category Visa holder</li>
+                <li><strong>Disability</strong>: Have a permanent disability (physical, intellectual, sensory, cognitive, neurological, or psychosocial)</li>
+                <li><strong>Permanence</strong>: The disability is likely to be lifelong</li>
+                <li><strong>Impact</strong>: The disability substantially reduces your functional capacity in daily activities</li>
+                <li><strong>Support needs</strong>: You need support from others or equipment for everyday tasks</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How do I check if I'm eligible for NDIS?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>You can check NDIS eligibility in several ways:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Take our quiz above</strong> for an instant indication</li>
+                <li><strong>Call the NDIS</strong> on 1800 800 110 to discuss your situation</li>
+                <li><strong>Submit an Access Request Form</strong> through the NDIS website</li>
+                <li><strong>Visit a Local Area Coordinator (LAC)</strong> or NDIS partner in your area</li>
+              </ul>
+              <p class="mt-2">You'll need evidence from healthcare professionals describing your disability and how it affects you.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Can I get NDIS if I'm over 65?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Generally, <strong>you cannot join the NDIS if you're over 65</strong>. You must be under 65 when you first apply.</p>
+              <p class="mt-2">However:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>If you're already an NDIS participant before turning 65, you can choose to stay on the NDIS</li>
+                <li>You can also choose to transition to the aged care system (My Aged Care)</li>
+                <li>People over 65 with disability may access support through Home Care Packages or residential aged care</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What disabilities qualify for NDIS?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>NDIS covers a wide range of permanent disabilities including:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Physical disabilities</strong>: Cerebral palsy, spinal cord injuries, muscular dystrophy</li>
+                <li><strong>Intellectual disabilities</strong>: Down syndrome, developmental delays</li>
+                <li><strong>Sensory impairments</strong>: Vision loss, hearing loss, deafblindness</li>
+                <li><strong>Neurological conditions</strong>: Multiple sclerosis, Parkinson's disease, epilepsy</li>
+                <li><strong>Autism spectrum disorder</strong></li>
+                <li><strong>Psychosocial disabilities</strong>: From schizophrenia, bipolar disorder, severe depression, anxiety</li>
+                <li><strong>Acquired brain injuries</strong>: From stroke, accidents, illness</li>
+              </ul>
+              <p class="mt-2">The key factor is that the disability substantially impacts your functional capacity.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Do I need a diagnosis to apply for NDIS?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>While a formal diagnosis helps, <strong>NDIS focuses on functional impact rather than just diagnosis</strong>.</p>
+              <p class="mt-2">What you need:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Evidence that your disability is permanent or likely to be permanent</li>
+                <li>Evidence that it substantially reduces your functional capacity</li>
+                <li>Reports from healthcare professionals (doctors, specialists, psychologists, OTs, etc.)</li>
+                <li>Description of how your condition affects daily activities</li>
+              </ul>
+              <p class="mt-2">Some conditions have automatic eligibility (List A), meaning you may not need as much evidence if you have a formal diagnosis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Resources</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/ndis-eligibility-requirements-complete-guide-2025/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Eligibility Guide</h3>
+            <p class="text-sm text-secondary/60">Complete guide to eligibility requirements and how to apply.</p>
+          </a>
+          <a href="/tools/dsp-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">DSP Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate Disability Support Pension entitlements.</p>
+          </a>
+          <a href="/tools/ndis-pay-rate-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Pay Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate support worker costs and rates.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  const questions = ['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'results'];
+  let currentQuestion = 0;
+
+  const progressBar = document.getElementById('quiz-progress');
+  const indicator = document.getElementById('question-indicator');
+  const prevBtn = document.getElementById('prev-btn');
+  const nextBtn = document.getElementById('next-btn');
+  const restartBtn = document.getElementById('restart-btn');
+
+  const answers = {
+    age: null,
+    residency: null,
+    disability: null,
+    permanence: null,
+    impact: null,
+    support: null
+  };
+
+  function showQuestion(index) {
+    questions.forEach((q, i) => {
+      document.getElementById(q).classList.toggle('hidden', i !== index);
+    });
+
+    currentQuestion = index;
+
+    if (index < 6) {
+      progressBar.value = ((index + 1) / 6) * 100;
+      indicator.textContent = `Question ${index + 1} of 6`;
+      prevBtn.classList.toggle('hidden', index === 0);
+      nextBtn.classList.remove('hidden');
+      restartBtn.classList.add('hidden');
+    } else {
+      progressBar.value = 100;
+      indicator.textContent = 'Results';
+      prevBtn.classList.add('hidden');
+      nextBtn.classList.add('hidden');
+      restartBtn.classList.remove('hidden');
+      showResults();
+    }
+  }
+
+  function showResults() {
+    // Collect answers
+    answers.age = document.querySelector('input[name="age"]:checked')?.value;
+    answers.residency = document.querySelector('input[name="residency"]:checked')?.value;
+    answers.disability = document.querySelector('input[name="disability"]:checked')?.value;
+    answers.permanence = document.querySelector('input[name="permanence"]:checked')?.value;
+    answers.impact = document.querySelector('input[name="impact"]:checked')?.value;
+    answers.support = document.querySelector('input[name="support"]:checked')?.value;
+
+    // Calculate eligibility
+    let score = 0;
+    let issues = [];
+
+    if (answers.age === 'yes') score++;
+    else issues.push('Age requirement (under 65)');
+
+    if (['citizen', 'permanent', 'protected'].includes(answers.residency)) score++;
+    else issues.push('Residency requirement');
+
+    if (answers.disability === 'yes') score++;
+    else if (answers.disability === 'unsure') { score += 0.5; issues.push('Disability status unclear'); }
+    else issues.push('No permanent disability');
+
+    if (['lifelong', 'longterm'].includes(answers.permanence)) score++;
+    else issues.push('Disability not permanent');
+
+    if (answers.impact === 'substantial') score++;
+    else if (answers.impact === 'moderate') { score += 0.5; issues.push('Functional impact may not meet threshold'); }
+    else issues.push('Minimal functional impact');
+
+    if (answers.support === 'yes') score++;
+    else if (answers.support === 'sometimes') { score += 0.5; issues.push('Support needs may be limited'); }
+    else issues.push('No support needs identified');
+
+    // Display results
+    const resultIcon = document.getElementById('result-icon');
+    const resultTitle = document.getElementById('result-title');
+    const resultMessage = document.getElementById('result-message');
+    const nextSteps = document.getElementById('next-steps');
+
+    if (score >= 5.5) {
+      resultIcon.innerHTML = '<div class="w-20 h-20 rounded-full bg-success/20 flex items-center justify-center mx-auto"><svg class="w-10 h-10 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></div>';
+      resultTitle.textContent = 'Likely Eligible';
+      resultTitle.className = 'text-2xl font-bold text-success mb-4 text-center';
+      resultMessage.innerHTML = '<p class="text-center text-secondary/70">Based on your answers, you appear to meet the basic eligibility requirements for the NDIS. We recommend proceeding with a formal Access Request.</p>';
+      nextSteps.innerHTML = `
+        <div class="bg-success/5 border border-success/20 rounded-2xl p-5">
+          <h4 class="font-bold text-secondary mb-3">Recommended Next Steps</h4>
+          <ol class="list-decimal pl-5 space-y-2 text-sm text-secondary/70">
+            <li>Gather evidence from your doctors/specialists about your disability</li>
+            <li>Contact the NDIS on <strong>1800 800 110</strong> or visit <a href="https://www.ndis.gov.au" target="_blank" class="text-primary hover:underline">ndis.gov.au</a></li>
+            <li>Submit an Access Request Form with supporting documents</li>
+            <li>Attend an assessment meeting if required</li>
+          </ol>
+        </div>`;
+    } else if (score >= 4) {
+      resultIcon.innerHTML = '<div class="w-20 h-20 rounded-full bg-warning/20 flex items-center justify-center mx-auto"><svg class="w-10 h-10 text-warning" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg></div>';
+      resultTitle.textContent = 'May Be Eligible';
+      resultTitle.className = 'text-2xl font-bold text-warning mb-4 text-center';
+      resultMessage.innerHTML = `<p class="text-center text-secondary/70">Based on your answers, you may meet NDIS eligibility requirements, but some areas need clarification.</p>
+        <div class="mt-4 text-sm"><strong>Areas to clarify:</strong><ul class="list-disc pl-5 mt-1">${issues.map(i => `<li>${i}</li>`).join('')}</ul></div>`;
+      nextSteps.innerHTML = `
+        <div class="bg-warning/5 border border-warning/20 rounded-2xl p-5">
+          <h4 class="font-bold text-secondary mb-3">Recommended Next Steps</h4>
+          <ol class="list-decimal pl-5 space-y-2 text-sm text-secondary/70">
+            <li>Speak with your GP or specialist about your condition</li>
+            <li>Gather medical evidence about functional impact</li>
+            <li>Contact NDIS on <strong>1800 800 110</strong> to discuss your situation</li>
+            <li>You can still apply - the NDIA makes final eligibility decisions</li>
+          </ol>
+        </div>`;
+    } else {
+      resultIcon.innerHTML = '<div class="w-20 h-20 rounded-full bg-error/20 flex items-center justify-center mx-auto"><svg class="w-10 h-10 text-error" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></div>';
+      resultTitle.textContent = 'Unlikely Eligible';
+      resultTitle.className = 'text-2xl font-bold text-error mb-4 text-center';
+      resultMessage.innerHTML = `<p class="text-center text-secondary/70">Based on your answers, you may not meet the current NDIS eligibility requirements.</p>
+        <div class="mt-4 text-sm"><strong>Main reasons:</strong><ul class="list-disc pl-5 mt-1">${issues.map(i => `<li>${i}</li>`).join('')}</ul></div>`;
+      nextSteps.innerHTML = `
+        <div class="bg-base-200/50 rounded-2xl p-5">
+          <h4 class="font-bold text-secondary mb-3">Alternative Options</h4>
+          <ul class="list-disc pl-5 space-y-2 text-sm text-secondary/70">
+            <li>If over 65: Contact <a href="https://www.myagedcare.gov.au" target="_blank" class="text-primary hover:underline">My Aged Care</a> on 1800 200 422</li>
+            <li>Speak to your GP about other support options</li>
+            <li>Check state-based disability services in your area</li>
+            <li>You can still contact NDIS to discuss your specific situation</li>
+          </ul>
+        </div>`;
+    }
+
+    // Show answers summary
+    const summaryDiv = document.getElementById('answers-summary');
+    const answerLabels = {
+      age: { yes: 'Under 65', no: '65 or older' },
+      residency: { citizen: 'Australian citizen', permanent: 'Permanent resident', protected: 'Protected SCV holder', no: 'Not eligible residency' },
+      disability: { yes: 'Has permanent disability', unsure: 'Unsure about disability', no: 'No disability' },
+      permanence: { lifelong: 'Lifelong/permanent', longterm: 'More than 2 years', temporary: 'Temporary' },
+      impact: { substantial: 'Substantial impact', moderate: 'Moderate impact', minimal: 'Minimal impact' },
+      support: { yes: 'Needs regular support', sometimes: 'Sometimes needs support', no: 'Manages independently' }
+    };
+
+    summaryDiv.innerHTML = Object.entries(answers).map(([key, value]) => {
+      const label = answerLabels[key]?.[value] || 'Not answered';
+      const icon = ['yes', 'citizen', 'permanent', 'protected', 'lifelong', 'longterm', 'substantial'].includes(value)
+        ? '<span class="text-success">✓</span>'
+        : value === null ? '<span class="text-secondary/30">○</span>'
+        : ['unsure', 'moderate', 'sometimes'].includes(value) ? '<span class="text-warning">~</span>'
+        : '<span class="text-error">✗</span>';
+      return `<div class="flex justify-between items-center py-1 border-b border-base-200 last:border-0"><span class="text-secondary/60 capitalize">${key}</span><span class="font-medium">${icon} ${label}</span></div>`;
+    }).join('');
+  }
+
+  // Event listeners
+  nextBtn.addEventListener('click', () => {
+    const questionNames = ['age', 'residency', 'disability', 'permanence', 'impact', 'support'];
+    const currentName = questionNames[currentQuestion];
+
+    if (currentQuestion < 6) {
+      const selected = document.querySelector(`input[name="${currentName}"]:checked`);
+      if (!selected) {
+        alert('Please select an option to continue.');
+        return;
+      }
+    }
+
+    if (currentQuestion < 6) {
+      showQuestion(currentQuestion + 1);
+    }
+  });
+
+  prevBtn.addEventListener('click', () => {
+    if (currentQuestion > 0) {
+      showQuestion(currentQuestion - 1);
+    }
+  });
+
+  restartBtn.addEventListener('click', () => {
+    // Reset all answers
+    document.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    showQuestion(0);
+  });
+
+  // Initialize
+  showQuestion(0);
+})();
+</script>

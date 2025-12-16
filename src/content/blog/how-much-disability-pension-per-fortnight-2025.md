@@ -19,6 +19,11 @@ image: "/assets/wheelchair.webp"
 
 *Last Updated: December 15, 2025 - Reflecting September 20, 2025 indexation*
 
+> **Calculate Your DSP Payment Instantly**
+> Use our free [DSP Calculator](/tools/dsp-calculator) to estimate your Disability Support Pension based on your income, assets, and relationship status. Updated with September 2025 rates.
+>
+> [**Try the DSP Calculator →**](/tools/dsp-calculator)
+
 The Disability Support Pension (DSP) provides crucial financial support for Australians who cannot work due to permanent disability or medical conditions. Understanding exactly how much you can receive, eligibility requirements, and how long payments last is essential for financial planning and security.
 
 This comprehensive guide covers everything you need to know about DSP payment rates in 2025, including exact fortnightly amounts, income and asset test limits, and step-by-step application guidance.
@@ -284,6 +289,11 @@ The energy supplement assists with household energy costs and is paid as:
 - Time limits apply for appeals
 
 ## DSP Payment Calculator: Estimating Your Entitlement
+
+> **Get Your Instant DSP Estimate**
+> Our free calculator factors in income tests, asset tests, Work Bonus, and relationship status to give you a personalised estimate using current September 2025 rates.
+>
+> [**Calculate Your DSP Payment →**](/tools/dsp-calculator)
 
 ### Using Official Calculators
 

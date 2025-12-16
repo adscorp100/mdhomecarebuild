@@ -1,0 +1,570 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "DSP Calculator Australia 2025",
+  "description": "Free Disability Support Pension calculator. Estimate your DSP payment based on income, assets, and relationship status using current September 2025 rates.",
+  "url": "https://mdhomecare.com.au/tools/dsp-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+---
+
+<BaseLayout
+  title="DSP Calculator Australia 2025 - Estimate Your Disability Support Pension"
+  description="Free DSP calculator. Estimate your Disability Support Pension payment based on income, assets, and relationship status. Updated with September 2025 rates."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">DSP Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            DSP Calculator <span class="text-primary">Australia 2025</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Estimate your Disability Support Pension payment based on your income, assets, and relationship status. Updated with <strong>September 2025 indexation rates</strong>.
+          </p>
+
+          <!-- Quick Facts Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-8">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:information-circle" class="w-5 h-5 text-primary" />
+              Current DSP Rates (Sept 2025)
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Single, 21+ max</span>
+                <span class="font-bold text-secondary">$1,149.00/fn</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Partnered, each max</span>
+                <span class="font-bold text-secondary">$866.80/fn</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Income free area</span>
+                <span class="font-bold text-secondary">$212/fn</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Asset limit (single, homeowner)</span>
+                <span class="font-bold text-secondary">$314,000</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Disclaimer:</strong> This calculator provides estimates only. Actual payments depend on individual circumstances assessed by Services Australia. Always confirm with Centrelink.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="dsp-calculator">
+
+            <!-- Step Indicator -->
+            <div class="mb-8">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-xs font-bold text-secondary/40 uppercase tracking-wider step-indicator">Step 1 of 3</span>
+                <span class="text-xs font-bold text-primary uppercase tracking-wider">Estimate Calculator</span>
+              </div>
+              <progress class="progress progress-primary w-full h-2" value="33" max="100" id="calc-progress"></progress>
+            </div>
+
+            <!-- Step 1: Personal Details -->
+            <div class="calc-step" id="step-1">
+              <h3 class="text-xl font-bold text-secondary mb-6">Your Details</h3>
+
+              <div class="space-y-6">
+                <!-- Relationship Status -->
+                <div class="form-control">
+                  <label class="label text-sm font-bold text-secondary/70 mb-2">Relationship Status</label>
+                  <div class="grid grid-cols-2 gap-3">
+                    <label class="cursor-pointer">
+                      <input type="radio" name="relationship" value="single" class="peer hidden" checked />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <Icon name="hugeicons:user" class="w-6 h-6 mx-auto mb-2 text-secondary/60 peer-checked:text-primary" />
+                        <span class="font-medium text-secondary">Single</span>
+                      </div>
+                    </label>
+                    <label class="cursor-pointer">
+                      <input type="radio" name="relationship" value="partnered" class="peer hidden" />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <Icon name="hugeicons:user-group" class="w-6 h-6 mx-auto mb-2 text-secondary/60 peer-checked:text-primary" />
+                        <span class="font-medium text-secondary">Partnered</span>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Homeowner Status -->
+                <div class="form-control">
+                  <label class="label text-sm font-bold text-secondary/70 mb-2">Do you own your home?</label>
+                  <div class="grid grid-cols-2 gap-3">
+                    <label class="cursor-pointer">
+                      <input type="radio" name="homeowner" value="yes" class="peer hidden" checked />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <Icon name="hugeicons:home-01" class="w-6 h-6 mx-auto mb-2 text-secondary/60 peer-checked:text-primary" />
+                        <span class="font-medium text-secondary">Homeowner</span>
+                      </div>
+                    </label>
+                    <label class="cursor-pointer">
+                      <input type="radio" name="homeowner" value="no" class="peer hidden" />
+                      <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                        <Icon name="hugeicons:building-03" class="w-6 h-6 mx-auto mb-2 text-secondary/60 peer-checked:text-primary" />
+                        <span class="font-medium text-secondary">Non-homeowner</span>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Age -->
+                <div class="form-control">
+                  <label class="label text-sm font-bold text-secondary/70 mb-2">Your Age</label>
+                  <div class="flex flex-wrap gap-2">
+                    <label class="cursor-pointer">
+                      <input type="radio" name="age" value="under21" class="peer hidden" />
+                      <div class="px-4 py-2 rounded-full border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary peer-checked:text-white transition-all text-sm font-medium text-secondary">
+                        Under 21
+                      </div>
+                    </label>
+                    <label class="cursor-pointer">
+                      <input type="radio" name="age" value="21plus" class="peer hidden" checked />
+                      <div class="px-4 py-2 rounded-full border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary peer-checked:text-white transition-all text-sm font-medium text-secondary">
+                        21 or over
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-8 flex justify-end">
+                <button type="button" class="btn btn-primary btn-lg rounded-full px-8 next-step" data-next="2">
+                  Continue
+                  <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 ml-2" />
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 2: Income -->
+            <div class="calc-step hidden" id="step-2">
+              <h3 class="text-xl font-bold text-secondary mb-6">Your Income</h3>
+
+              <div class="space-y-6">
+                <!-- Your Income -->
+                <div class="form-control">
+                  <label class="label text-sm font-bold text-secondary/70 mb-2">
+                    Your fortnightly income (before tax)
+                    <span class="tooltip tooltip-left" data-tip="Include wages, self-employment income, and other regular income. Don't include DSP.">
+                      <Icon name="hugeicons:help-circle" class="w-4 h-4 text-secondary/40 ml-1" />
+                    </span>
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                    <input type="number" id="your-income" name="your-income" value="0" min="0" step="1"
+                      class="input input-lg w-full pl-8 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl" />
+                  </div>
+                </div>
+
+                <!-- Partner Income (shown conditionally) -->
+                <div class="form-control partner-field hidden">
+                  <label class="label text-sm font-bold text-secondary/70 mb-2">
+                    Partner's fortnightly income (before tax)
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                    <input type="number" id="partner-income" name="partner-income" value="0" min="0" step="1"
+                      class="input input-lg w-full pl-8 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl" />
+                  </div>
+                </div>
+
+                <!-- Work Bonus Info -->
+                <div class="bg-info/5 border border-info/20 rounded-xl p-4">
+                  <p class="text-sm text-secondary/70 flex items-start gap-2">
+                    <Icon name="hugeicons:bulb" class="w-5 h-5 text-info flex-shrink-0 mt-0.5" />
+                    <span><strong>Work Bonus:</strong> You can earn up to $300/fortnight from work that doesn't count towards the income test. This calculator applies the Work Bonus automatically.</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="mt-8 flex justify-between">
+                <button type="button" class="btn btn-ghost text-secondary/60 hover:text-secondary prev-step" data-prev="1">
+                  <Icon name="hugeicons:arrow-left-01" class="w-5 h-5 mr-2" />
+                  Back
+                </button>
+                <button type="button" class="btn btn-primary btn-lg rounded-full px-8 next-step" data-next="3">
+                  Continue
+                  <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 ml-2" />
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 3: Assets -->
+            <div class="calc-step hidden" id="step-3">
+              <h3 class="text-xl font-bold text-secondary mb-6">Your Assets</h3>
+
+              <div class="space-y-6">
+                <!-- Total Assets -->
+                <div class="form-control">
+                  <label class="label text-sm font-bold text-secondary/70 mb-2">
+                    Total assets (excluding your home)
+                    <span class="tooltip tooltip-left" data-tip="Include bank accounts, shares, investments, vehicles over $8,300, investment properties, and super (if over preservation age).">
+                      <Icon name="hugeicons:help-circle" class="w-4 h-4 text-secondary/40 ml-1" />
+                    </span>
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                    <input type="number" id="total-assets" name="total-assets" value="0" min="0" step="1000"
+                      class="input input-lg w-full pl-8 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl" />
+                  </div>
+                </div>
+
+                <!-- Asset Examples -->
+                <div class="bg-base-200/50 rounded-xl p-4">
+                  <p class="text-xs font-bold text-secondary/50 uppercase tracking-wide mb-2">What counts as assets:</p>
+                  <ul class="text-sm text-secondary/70 space-y-1">
+                    <li class="flex items-center gap-2"><Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success" /> Bank accounts & savings</li>
+                    <li class="flex items-center gap-2"><Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success" /> Shares & managed funds</li>
+                    <li class="flex items-center gap-2"><Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success" /> Investment properties</li>
+                    <li class="flex items-center gap-2"><Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success" /> Vehicles over $8,300 value</li>
+                    <li class="flex items-center gap-2"><Icon name="hugeicons:cancel-circle" class="w-4 h-4 text-error" /> Your home (exempt)</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="mt-8 flex justify-between">
+                <button type="button" class="btn btn-ghost text-secondary/60 hover:text-secondary prev-step" data-prev="2">
+                  <Icon name="hugeicons:arrow-left-01" class="w-5 h-5 mr-2" />
+                  Back
+                </button>
+                <button type="button" class="btn btn-primary btn-lg rounded-full px-8 calculate-btn">
+                  Calculate Estimate
+                  <Icon name="hugeicons:calculator-01" class="w-5 h-5 ml-2" />
+                </button>
+              </div>
+            </div>
+
+            <!-- Results -->
+            <div class="calc-step hidden" id="results">
+              <div class="text-center mb-8">
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-success/10 mb-4">
+                  <Icon name="hugeicons:checkmark-circle-02" class="w-8 h-8 text-success" />
+                </div>
+                <h3 class="text-2xl font-bold text-secondary mb-2">Your Estimated DSP Payment</h3>
+                <p class="text-secondary/60">Based on current September 2025 rates</p>
+              </div>
+
+              <!-- Main Result -->
+              <div class="bg-gradient-to-br from-primary to-accent rounded-2xl p-8 text-center text-white mb-6">
+                <p class="text-sm font-bold uppercase tracking-wider opacity-80 mb-2">Estimated Fortnightly Payment</p>
+                <p class="text-5xl font-bold mb-2" id="result-amount">$0.00</p>
+                <p class="text-sm opacity-80" id="result-annual">(~$0 per year)</p>
+              </div>
+
+              <!-- Breakdown -->
+              <div class="bg-base-200/50 rounded-2xl p-6 mb-6">
+                <h4 class="font-bold text-secondary mb-4">Calculation Breakdown</h4>
+                <div class="space-y-3 text-sm">
+                  <div class="flex justify-between py-2 border-b border-base-300">
+                    <span class="text-secondary/70">Maximum rate</span>
+                    <span class="font-bold text-secondary" id="breakdown-max">$0.00</span>
+                  </div>
+                  <div class="flex justify-between py-2 border-b border-base-300">
+                    <span class="text-secondary/70">Income reduction</span>
+                    <span class="font-bold text-error" id="breakdown-income">-$0.00</span>
+                  </div>
+                  <div class="flex justify-between py-2 border-b border-base-300">
+                    <span class="text-secondary/70">Asset reduction</span>
+                    <span class="font-bold text-error" id="breakdown-assets">-$0.00</span>
+                  </div>
+                  <div class="flex justify-between py-2">
+                    <span class="font-bold text-secondary">Your estimated payment</span>
+                    <span class="font-bold text-primary" id="breakdown-total">$0.00</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Status Messages -->
+              <div id="status-messages" class="space-y-3 mb-6"></div>
+
+              <!-- Actions -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <button type="button" class="btn btn-outline btn-lg rounded-full restart-calc">
+                  <Icon name="hugeicons:refresh" class="w-5 h-5 mr-2" />
+                  Recalculate
+                </button>
+                <a href="/contact" class="btn btn-primary btn-lg rounded-full">
+                  <Icon name="hugeicons:call-02" class="w-5 h-5 mr-2" />
+                  Get Support
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Learn More About DSP</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/disability-support-pension-australia/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Complete DSP Guide 2025</h3>
+            <p class="text-sm text-secondary/60">Everything you need to know about eligibility, payments, and asset tests.</p>
+          </a>
+          <a href="/blog/how-much-disability-pension-per-fortnight-2025/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">DSP Payment Rates 2025</h3>
+            <p class="text-sm text-secondary/60">Current payment rates after September 2025 indexation.</p>
+          </a>
+          <a href="/contact" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Need Help?</h3>
+            <p class="text-sm text-secondary/60">Our team can help you understand your options and access support.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  // DSP Rates September 2025
+  const DSP_RATES = {
+    single21Plus: 1149.00,
+    single21PlusWithChild: 1149.00,
+    singleUnder21NoChild: 625.70, // Varies, using at-home rate
+    partnered: 866.80,
+
+    // Income test
+    incomeFreeAreaSingle: 212,
+    incomeFreeAreaCouple: 372,
+    workBonus: 300,
+    incomeReductionRate: 0.50, // 50 cents per dollar over threshold
+
+    // Asset test limits (full pension)
+    assetLimitSingleHomeowner: 314000,
+    assetLimitSingleNonHomeowner: 566500,
+    assetLimitCoupleHomeowner: 470000,
+    assetLimitCoupleNonHomeowner: 722500,
+    assetReductionRateSingle: 3.00, // $3 per $1000 over
+    assetReductionRateCouple: 1.50  // $1.50 each per $1000 over
+  };
+
+  const calculator = document.getElementById('dsp-calculator');
+  if (!calculator) return;
+
+  const progress = calculator.querySelector('#calc-progress');
+  const stepIndicator = calculator.querySelector('.step-indicator');
+  const steps = calculator.querySelectorAll('.calc-step');
+  const partnerFields = calculator.querySelectorAll('.partner-field');
+
+  let currentStep = 1;
+
+  function updateProgress(step) {
+    const progressValues = { 1: 33, 2: 66, 3: 100 };
+    if (progress) progress.value = progressValues[step] || 100;
+    if (stepIndicator) stepIndicator.textContent = `Step ${step} of 3`;
+  }
+
+  function showStep(step) {
+    steps.forEach(s => s.classList.add('hidden'));
+    const targetStep = calculator.querySelector(`#step-${step}`);
+    if (targetStep) targetStep.classList.remove('hidden');
+    currentStep = step;
+    updateProgress(step);
+  }
+
+  function showResults() {
+    steps.forEach(s => s.classList.add('hidden'));
+    const results = calculator.querySelector('#results');
+    if (results) results.classList.remove('hidden');
+    if (stepIndicator) stepIndicator.textContent = 'Complete';
+    if (progress) progress.value = 100;
+  }
+
+  // Handle relationship change to show/hide partner fields
+  calculator.querySelectorAll('input[name="relationship"]').forEach(input => {
+    input.addEventListener('change', () => {
+      const isPartnered = input.value === 'partnered';
+      partnerFields.forEach(field => {
+        field.classList.toggle('hidden', !isPartnered);
+      });
+    });
+  });
+
+  // Next step buttons
+  calculator.querySelectorAll('.next-step').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const nextStep = parseInt(btn.dataset.next);
+      showStep(nextStep);
+    });
+  });
+
+  // Previous step buttons
+  calculator.querySelectorAll('.prev-step').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const prevStep = parseInt(btn.dataset.prev);
+      showStep(prevStep);
+    });
+  });
+
+  // Restart button
+  calculator.querySelectorAll('.restart-calc').forEach(btn => {
+    btn.addEventListener('click', () => {
+      showStep(1);
+      // Reset form values
+      calculator.querySelectorAll('input[type="number"]').forEach(input => {
+        input.value = '0';
+      });
+    });
+  });
+
+  // Calculate button
+  const calcBtn = calculator.querySelector('.calculate-btn');
+  if (calcBtn) {
+    calcBtn.addEventListener('click', calculateDSP);
+  }
+
+  function calculateDSP() {
+    // Get values
+    const relationship = calculator.querySelector('input[name="relationship"]:checked')?.value || 'single';
+    const isHomeowner = calculator.querySelector('input[name="homeowner"]:checked')?.value === 'yes';
+    const age = calculator.querySelector('input[name="age"]:checked')?.value || '21plus';
+    const yourIncome = parseFloat(document.getElementById('your-income')?.value) || 0;
+    const partnerIncome = parseFloat(document.getElementById('partner-income')?.value) || 0;
+    const totalAssets = parseFloat(document.getElementById('total-assets')?.value) || 0;
+
+    const isPartnered = relationship === 'partnered';
+    const isUnder21 = age === 'under21';
+
+    // Determine max rate
+    let maxRate;
+    if (isPartnered) {
+      maxRate = DSP_RATES.partnered;
+    } else if (isUnder21) {
+      maxRate = DSP_RATES.singleUnder21NoChild;
+    } else {
+      maxRate = DSP_RATES.single21Plus;
+    }
+
+    // Calculate income reduction
+    const totalIncome = yourIncome + (isPartnered ? partnerIncome : 0);
+    const incomeAfterWorkBonus = Math.max(0, yourIncome - DSP_RATES.workBonus) + (isPartnered ? partnerIncome : 0);
+    const incomeFreeArea = isPartnered ? DSP_RATES.incomeFreeAreaCouple : DSP_RATES.incomeFreeAreaSingle;
+    const assessableIncome = Math.max(0, incomeAfterWorkBonus - incomeFreeArea);
+    const incomeReduction = assessableIncome * DSP_RATES.incomeReductionRate;
+
+    // Calculate asset reduction
+    let assetLimit;
+    if (isPartnered) {
+      assetLimit = isHomeowner ? DSP_RATES.assetLimitCoupleHomeowner : DSP_RATES.assetLimitCoupleNonHomeowner;
+    } else {
+      assetLimit = isHomeowner ? DSP_RATES.assetLimitSingleHomeowner : DSP_RATES.assetLimitSingleNonHomeowner;
+    }
+
+    const assetsOverLimit = Math.max(0, totalAssets - assetLimit);
+    const assetReductionRate = isPartnered ? DSP_RATES.assetReductionRateCouple : DSP_RATES.assetReductionRateSingle;
+    const assetReduction = (assetsOverLimit / 1000) * assetReductionRate;
+
+    // Calculate final payment
+    const totalReduction = incomeReduction + assetReduction;
+    const estimatedPayment = Math.max(0, maxRate - totalReduction);
+    const annualPayment = estimatedPayment * 26;
+
+    // Update UI
+    document.getElementById('result-amount').textContent = `$${estimatedPayment.toFixed(2)}`;
+    document.getElementById('result-annual').textContent = `(~$${annualPayment.toLocaleString('en-AU', { maximumFractionDigits: 0 })} per year)`;
+    document.getElementById('breakdown-max').textContent = `$${maxRate.toFixed(2)}`;
+    document.getElementById('breakdown-income').textContent = `-$${incomeReduction.toFixed(2)}`;
+    document.getElementById('breakdown-assets').textContent = `-$${assetReduction.toFixed(2)}`;
+    document.getElementById('breakdown-total').textContent = `$${estimatedPayment.toFixed(2)}`;
+
+    // Status messages
+    const statusDiv = document.getElementById('status-messages');
+    statusDiv.innerHTML = '';
+
+    if (estimatedPayment === 0) {
+      statusDiv.innerHTML = `
+        <div class="bg-error/10 border border-error/20 rounded-xl p-4 text-sm">
+          <p class="flex items-start gap-2 text-error">
+            <svg class="w-5 h-5 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+            <span><strong>Based on these figures, you may not be eligible for DSP</strong> due to income or assets exceeding the limits. Contact Centrelink to confirm your eligibility.</span>
+          </p>
+        </div>
+      `;
+    } else if (estimatedPayment < maxRate) {
+      statusDiv.innerHTML = `
+        <div class="bg-warning/10 border border-warning/20 rounded-xl p-4 text-sm">
+          <p class="flex items-start gap-2 text-warning-content">
+            <svg class="w-5 h-5 flex-shrink-0 mt-0.5 text-warning" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span><strong>Part-rate pension:</strong> Your income or assets reduce your payment from the maximum rate. This is an estimate only.</span>
+          </p>
+        </div>
+      `;
+    } else {
+      statusDiv.innerHTML = `
+        <div class="bg-success/10 border border-success/20 rounded-xl p-4 text-sm">
+          <p class="flex items-start gap-2 text-success">
+            <svg class="w-5 h-5 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span><strong>Full-rate eligible:</strong> Based on these figures, you may be eligible for the full DSP rate. Contact Centrelink to apply.</span>
+          </p>
+        </div>
+      `;
+    }
+
+    // Track calculation
+    if (typeof gtag === 'function') {
+      gtag('event', 'dsp_calculator_complete', {
+        relationship: relationship,
+        homeowner: isHomeowner,
+        estimated_payment: estimatedPayment
+      });
+    }
+
+    showResults();
+  }
+})();
+</script>

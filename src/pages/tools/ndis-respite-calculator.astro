@@ -1,0 +1,546 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS Respite Cost Calculator 2025",
+  "description": "Free NDIS respite calculator. Calculate short term accommodation (STA) costs per day/week. 2025-26 rates for standard, high support, and SDA respite.",
+  "url": "https://mdhomecare.com.au/tools/ndis-respite-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does NDIS respite care cost per day?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS respite care (Short Term Accommodation or STA) costs $346.51 per day for standard weekday rates in 2025-26. Weekend rates are higher: $384.92 on Saturdays and $423.32 on Sundays. These rates include accommodation and basic personal care. Additional support like high intensity care is charged separately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the NDIS STA rates 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS STA rates for 2025-26 are: Standard weekday $346.51/day, Saturday $384.92/day, Sunday $423.32/day, and Public Holiday $461.72/day. High Physical Support STA rates are higher. These rates cover accommodation and personal care in a 24-hour facility."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does respite care cost per week NDIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS respite care costs approximately $2,500-$2,800 per week for standard STA, depending on the mix of weekday and weekend days. A typical 7-night stay with 5 weekdays and 2 weekend days costs around $2,540. High physical support or SDA accommodation costs more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between NDIS respite care and STA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respite care and STA (Short Term Accommodation) refer to the same NDIS support. STA is the official NDIS term for respite - temporary accommodation away from your usual home that provides overnight support. STA is funded under Core Supports in NDIS plans and can be used for carer respite or participant skill-building."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What NDIS line item codes are used for respite/STA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The main NDIS line item codes for STA/respite are: 01_799_0104_1_1 (Standard weekday), 01_799_0104_1_1_S (Saturday), 01_799_0104_1_1_U (Sunday), and 01_799_0104_1_1_P (Public Holiday). High Physical Support uses codes starting with 01_800. These codes include both accommodation and personal care."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="NDIS Respite Cost Calculator 2025 - STA Rates & Pricing"
+  description="Free NDIS respite calculator. Calculate short term accommodation (STA) costs per day/week. 2025-26 rates for standard, high support, and SDA respite."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">NDIS Respite Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            NDIS Respite Cost Calculator <span class="text-primary">2025</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Calculate Short Term Accommodation (STA) costs for NDIS respite care. Get accurate pricing for weekdays, weekends, and public holidays using <strong>2025-26 NDIS rates</strong>.
+          </p>
+
+          <!-- Rate Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:bed-single-01" class="w-5 h-5 text-primary" />
+              NDIS STA Rates 2025-26
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Standard Weekday</span>
+                <span class="font-bold text-secondary">$346.51/day</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Saturday</span>
+                <span class="font-bold text-secondary">$384.92/day</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Sunday</span>
+                <span class="font-bold text-secondary">$423.32/day</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Public Holiday</span>
+                <span class="font-bold text-secondary">$461.72/day</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- High Support Rates -->
+          <div class="bg-accent/5 border border-accent/20 rounded-[2rem] p-6 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:shield-user" class="w-5 h-5 text-accent" />
+              High Physical Support STA
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-accent/10">
+                <span class="text-secondary/70">Weekday</span>
+                <span class="font-bold text-secondary">$412.15/day</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Weekend rates</span>
+                <span class="font-bold text-secondary">Higher</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Note:</strong> Rates are NDIS price limits. Actual provider rates may vary. STA must be approved in your NDIS plan.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="respite-calculator">
+
+            <h3 class="text-xl font-bold text-secondary mb-6">Calculate Your Respite Costs</h3>
+
+            <div class="space-y-6">
+              <!-- Support Level -->
+              <div class="form-control">
+                <label class="label text-sm font-bold text-secondary/70 mb-2">Support Level</label>
+                <div class="grid grid-cols-2 gap-3">
+                  <label class="cursor-pointer">
+                    <input type="radio" name="support-level" value="standard" class="peer hidden" checked />
+                    <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                      <span class="font-medium text-secondary">Standard</span>
+                      <span class="text-xs text-secondary/50 block">Most common</span>
+                    </div>
+                  </label>
+                  <label class="cursor-pointer">
+                    <input type="radio" name="support-level" value="high" class="peer hidden" />
+                    <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                      <span class="font-medium text-secondary">High Physical</span>
+                      <span class="text-xs text-secondary/50 block">Complex needs</span>
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Number of Nights -->
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text font-bold text-secondary/70">Number of nights</span>
+                </label>
+                <input
+                  type="number"
+                  id="nights"
+                  value="7"
+                  min="1"
+                  max="90"
+                  class="input input-lg w-full bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                />
+              </div>
+
+              <!-- Day Breakdown -->
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text font-bold text-secondary/70">Day type breakdown</span>
+                </label>
+                <div class="grid grid-cols-2 gap-4">
+                  <div>
+                    <label class="text-xs text-secondary/60">Weekdays (Mon-Fri)</label>
+                    <input
+                      type="number"
+                      id="weekdays"
+                      value="5"
+                      min="0"
+                      max="90"
+                      class="input input-md w-full bg-white border-2 border-base-200 focus:border-primary rounded-xl mt-1"
+                    />
+                  </div>
+                  <div>
+                    <label class="text-xs text-secondary/60">Saturdays</label>
+                    <input
+                      type="number"
+                      id="saturdays"
+                      value="1"
+                      min="0"
+                      max="90"
+                      class="input input-md w-full bg-white border-2 border-base-200 focus:border-primary rounded-xl mt-1"
+                    />
+                  </div>
+                  <div>
+                    <label class="text-xs text-secondary/60">Sundays</label>
+                    <input
+                      type="number"
+                      id="sundays"
+                      value="1"
+                      min="0"
+                      max="90"
+                      class="input input-md w-full bg-white border-2 border-base-200 focus:border-primary rounded-xl mt-1"
+                    />
+                  </div>
+                  <div>
+                    <label class="text-xs text-secondary/60">Public Holidays</label>
+                    <input
+                      type="number"
+                      id="holidays"
+                      value="0"
+                      min="0"
+                      max="90"
+                      class="input input-md w-full bg-white border-2 border-base-200 focus:border-primary rounded-xl mt-1"
+                    />
+                  </div>
+                </div>
+                <p class="text-xs text-secondary/50 mt-2">Total days should equal number of nights. Adjust as needed.</p>
+              </div>
+
+              <!-- Calculate Button -->
+              <button class="btn btn-primary w-full rounded-full" id="calculate-btn">
+                <Icon name="hugeicons:calculator-01" class="w-5 h-5 mr-2" />
+                Calculate Respite Cost
+              </button>
+            </div>
+
+            <!-- Results -->
+            <div class="mt-8 hidden" id="results">
+              <h4 class="font-bold text-secondary mb-4">Cost Breakdown</h4>
+
+              <div class="space-y-4">
+                <div class="bg-base-200/30 rounded-xl p-4">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-sm text-secondary/70">Weekday nights</span>
+                    <span class="font-bold text-secondary" id="weekday-cost">$0.00</span>
+                  </div>
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-sm text-secondary/70">Saturday nights</span>
+                    <span class="font-bold text-secondary" id="saturday-cost">$0.00</span>
+                  </div>
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-sm text-secondary/70">Sunday nights</span>
+                    <span class="font-bold text-secondary" id="sunday-cost">$0.00</span>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <span class="text-sm text-secondary/70">Public holiday nights</span>
+                    <span class="font-bold text-secondary" id="holiday-cost">$0.00</span>
+                  </div>
+                </div>
+
+                <div class="bg-primary/10 border border-primary/20 rounded-xl p-5">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="font-bold text-secondary">Total Cost</span>
+                    <span class="text-2xl font-bold text-primary" id="total-cost">$0.00</span>
+                  </div>
+                  <div class="flex justify-between items-center text-sm text-secondary/60">
+                    <span>Average per night</span>
+                    <span id="avg-night">$0.00</span>
+                  </div>
+                </div>
+
+                <!-- Line Item Codes -->
+                <div class="bg-secondary/5 rounded-xl p-4">
+                  <h5 class="font-bold text-secondary text-sm mb-3">NDIS Line Item Codes</h5>
+                  <div class="space-y-2 text-xs" id="line-items">
+                    <!-- Populated by JS -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much does NDIS respite care cost per day?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>NDIS respite care (Short Term Accommodation) costs vary by day type in 2025-26:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Weekday (Mon-Fri)</strong>: $346.51 per day</li>
+                <li><strong>Saturday</strong>: $384.92 per day</li>
+                <li><strong>Sunday</strong>: $423.32 per day</li>
+                <li><strong>Public Holiday</strong>: $461.72 per day</li>
+              </ul>
+              <p class="mt-2">These rates include overnight accommodation and basic personal care support in a shared or individual respite facility.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What are the NDIS STA rates 2025?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>NDIS STA (Short Term Accommodation) rates for 2025-26 price year are:</p>
+              <table class="table table-sm mt-2">
+                <thead>
+                  <tr><th>Type</th><th>Standard</th><th>High Physical Support</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Weekday</td><td>$346.51</td><td>$412.15</td></tr>
+                  <tr><td>Saturday</td><td>$384.92</td><td>$457.68</td></tr>
+                  <tr><td>Sunday</td><td>$423.32</td><td>$503.20</td></tr>
+                  <tr><td>Public Holiday</td><td>$461.72</td><td>$548.72</td></tr>
+                </tbody>
+              </table>
+              <p class="mt-2">These are maximum NDIS price limits - providers may charge less.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much does respite care cost per week NDIS?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>NDIS respite care for a typical 7-night week costs:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>5 weekdays + 2 weekend days</strong>: ~$2,540</li>
+                <li><strong>All weekdays (Mon-Sun start)</strong>: ~$2,426</li>
+                <li><strong>Including a public holiday</strong>: Add ~$115</li>
+              </ul>
+              <p class="mt-2">High Physical Support STA adds approximately 20% to these costs. Two weeks of respite typically costs $5,000-$5,500 for standard support.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the difference between NDIS respite care and STA?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Respite care and STA are the same thing</strong> - just different names for the same NDIS support:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>STA (Short Term Accommodation)</strong> is the official NDIS term</li>
+                <li><strong>Respite care</strong> is the common/traditional name</li>
+                <li>Both refer to temporary overnight accommodation with support</li>
+                <li>Funded under Core Supports in your NDIS plan</li>
+              </ul>
+              <p class="mt-2">STA provides a break for carers (respite) while also giving participants opportunities to try new things, build independence, or recover after hospital stays.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What NDIS line item codes are used for respite/STA?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The main NDIS line item codes for STA (respite) are:</p>
+              <table class="table table-sm mt-2">
+                <thead>
+                  <tr><th>Code</th><th>Description</th><th>Rate</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td class="font-mono">01_799_0104_1_1</td><td>STA - Weekday</td><td>$346.51</td></tr>
+                  <tr><td class="font-mono">01_799_0104_1_1_S</td><td>STA - Saturday</td><td>$384.92</td></tr>
+                  <tr><td class="font-mono">01_799_0104_1_1_U</td><td>STA - Sunday</td><td>$423.32</td></tr>
+                  <tr><td class="font-mono">01_799_0104_1_1_P</td><td>STA - Public Holiday</td><td>$461.72</td></tr>
+                  <tr><td class="font-mono">01_800_0104_1_1</td><td>STA High Physical - Weekday</td><td>$412.15</td></tr>
+                </tbody>
+              </table>
+              <p class="mt-2">Use our <a href="/tools/ndis-code-lookup" class="text-primary hover:underline">NDIS Code Lookup tool</a> to find all STA-related codes.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How do I get respite care approved in my NDIS plan?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>To get STA/respite approved in your NDIS plan:</p>
+              <ol class="list-decimal pl-5 mt-2 space-y-1">
+                <li>Discuss your need for respite with your planner or LAC</li>
+                <li>Explain how respite supports your goals (carer support, skill building, etc.)</li>
+                <li>Provide evidence of carer fatigue or capacity building needs</li>
+                <li>Request a specific number of nights per year (14-28 nights is common)</li>
+                <li>STA funding appears in your Core Supports budget</li>
+              </ol>
+              <p class="mt-2">STA is typically approved as a set number of days per plan year. Unused STA funding can often be used flexibly for other Core supports.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Resources</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/how-much-does-respite-care-cost-per-day-ndis/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Respite Cost Guide</h3>
+            <p class="text-sm text-secondary/60">Complete breakdown of respite costs and funding options.</p>
+          </a>
+          <a href="/tools/ndis-code-lookup" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Code Lookup</h3>
+            <p class="text-sm text-secondary/60">Search all NDIS line item codes including STA.</p>
+          </a>
+          <a href="/tools/ndis-pay-rate-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Pay Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate support worker rates for all day types.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  // 2025-26 NDIS STA Rates
+  const RATES = {
+    standard: {
+      weekday: 346.51,
+      saturday: 384.92,
+      sunday: 423.32,
+      holiday: 461.72,
+      codes: {
+        weekday: '01_799_0104_1_1',
+        saturday: '01_799_0104_1_1_S',
+        sunday: '01_799_0104_1_1_U',
+        holiday: '01_799_0104_1_1_P'
+      }
+    },
+    high: {
+      weekday: 412.15,
+      saturday: 457.68,
+      sunday: 503.20,
+      holiday: 548.72,
+      codes: {
+        weekday: '01_800_0104_1_1',
+        saturday: '01_800_0104_1_1_S',
+        sunday: '01_800_0104_1_1_U',
+        holiday: '01_800_0104_1_1_P'
+      }
+    }
+  };
+
+  const calculateBtn = document.getElementById('calculate-btn');
+  const resultsDiv = document.getElementById('results');
+
+  calculateBtn.addEventListener('click', () => {
+    const supportLevel = document.querySelector('input[name="support-level"]:checked').value;
+    const rates = RATES[supportLevel];
+
+    const weekdays = parseInt(document.getElementById('weekdays').value) || 0;
+    const saturdays = parseInt(document.getElementById('saturdays').value) || 0;
+    const sundays = parseInt(document.getElementById('sundays').value) || 0;
+    const holidays = parseInt(document.getElementById('holidays').value) || 0;
+    const totalNights = weekdays + saturdays + sundays + holidays;
+
+    const weekdayCost = weekdays * rates.weekday;
+    const saturdayCost = saturdays * rates.saturday;
+    const sundayCost = sundays * rates.sunday;
+    const holidayCost = holidays * rates.holiday;
+    const totalCost = weekdayCost + saturdayCost + sundayCost + holidayCost;
+    const avgNight = totalNights > 0 ? totalCost / totalNights : 0;
+
+    document.getElementById('weekday-cost').textContent = `$${weekdayCost.toFixed(2)} (${weekdays} × $${rates.weekday})`;
+    document.getElementById('saturday-cost').textContent = `$${saturdayCost.toFixed(2)} (${saturdays} × $${rates.saturday})`;
+    document.getElementById('sunday-cost').textContent = `$${sundayCost.toFixed(2)} (${sundays} × $${rates.sunday})`;
+    document.getElementById('holiday-cost').textContent = `$${holidayCost.toFixed(2)} (${holidays} × $${rates.holiday})`;
+    document.getElementById('total-cost').textContent = `$${totalCost.toFixed(2)}`;
+    document.getElementById('avg-night').textContent = `$${avgNight.toFixed(2)}/night`;
+
+    // Line items
+    const lineItemsDiv = document.getElementById('line-items');
+    let lineItemsHtml = '';
+
+    if (weekdays > 0) {
+      lineItemsHtml += `<div class="flex justify-between"><span class="font-mono text-primary">${rates.codes.weekday}</span><span>STA Weekday × ${weekdays}</span></div>`;
+    }
+    if (saturdays > 0) {
+      lineItemsHtml += `<div class="flex justify-between"><span class="font-mono text-primary">${rates.codes.saturday}</span><span>STA Saturday × ${saturdays}</span></div>`;
+    }
+    if (sundays > 0) {
+      lineItemsHtml += `<div class="flex justify-between"><span class="font-mono text-primary">${rates.codes.sunday}</span><span>STA Sunday × ${sundays}</span></div>`;
+    }
+    if (holidays > 0) {
+      lineItemsHtml += `<div class="flex justify-between"><span class="font-mono text-primary">${rates.codes.holiday}</span><span>STA Public Holiday × ${holidays}</span></div>`;
+    }
+
+    lineItemsDiv.innerHTML = lineItemsHtml || '<p class="text-secondary/50">No nights selected</p>';
+
+    resultsDiv.classList.remove('hidden');
+  });
+
+  // Auto-update total nights field
+  const dayInputs = ['weekdays', 'saturdays', 'sundays', 'holidays'];
+  dayInputs.forEach(id => {
+    document.getElementById(id).addEventListener('input', () => {
+      const total = dayInputs.reduce((sum, id) => sum + (parseInt(document.getElementById(id).value) || 0), 0);
+      document.getElementById('nights').value = total;
+    });
+  });
+})();
+</script>

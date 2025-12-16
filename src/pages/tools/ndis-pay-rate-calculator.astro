@@ -1,0 +1,401 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS Support Worker Pay Rate Calculator 2025",
+  "description": "Free NDIS pay rate calculator. Calculate support worker hourly rates for weekdays, weekends, public holidays, and overnight shifts using NDIS 2025-26 price limits and SCHADS Award rates.",
+  "url": "https://mdhomecare.com.au/tools/ndis-pay-rate-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+---
+
+<BaseLayout
+  title="NDIS Pay Rate Calculator 2025 - Support Worker Hourly Rates"
+  description="Free NDIS pay rate calculator. Calculate support worker rates for weekdays, weekends, public holidays, and overnight shifts. Updated with 2025-26 NDIS price limits."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">NDIS Pay Rate Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:money-send-square" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            NDIS Pay Rate <span class="text-primary">Calculator 2025</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Calculate NDIS support worker hourly rates for any time of day. Includes weekday, weekend, public holiday, and overnight shift rates based on the <strong>2025-26 NDIS Price Guide</strong>.
+          </p>
+
+          <!-- Quick Reference Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-8">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:money-bag-02" class="w-5 h-5 text-primary" />
+              NDIS Price Limits 2025-26
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Weekday (standard)</span>
+                <span class="font-bold text-secondary">$70.23/hr</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Saturday</span>
+                <span class="font-bold text-secondary">$98.32/hr</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Sunday</span>
+                <span class="font-bold text-secondary">$126.42/hr</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Public Holiday</span>
+                <span class="font-bold text-secondary">$154.50/hr</span>
+              </div>
+            </div>
+            <p class="text-xs text-secondary/50 mt-4">*Assistance with Self Care - Standard rates. High intensity and complex care rates are higher.</p>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Note:</strong> These are NDIS price limits (maximum claimable). Actual rates depend on provider agreements. SCHADS Award minimum rates are lower.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="pay-calculator">
+
+            <div class="flex items-center justify-between mb-8">
+              <h2 class="text-xl font-bold text-secondary">Calculate Rates</h2>
+              <span class="text-xs font-bold text-primary uppercase tracking-wider">Instant Results</span>
+            </div>
+
+            <!-- Support Type -->
+            <div class="form-control mb-6">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Support Type</label>
+              <select id="support-type" class="select select-lg w-full bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl">
+                <option value="standard">Assistance with Self Care (Standard)</option>
+                <option value="high-intensity">High Intensity Support</option>
+                <option value="complex">Complex Needs Support</option>
+                <option value="community">Community Participation</option>
+              </select>
+            </div>
+
+            <!-- Day Type -->
+            <div class="form-control mb-6">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Day Type</label>
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <label class="cursor-pointer">
+                  <input type="radio" name="day-type" value="weekday" class="peer hidden" checked />
+                  <div class="p-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <span class="font-medium text-secondary text-sm">Weekday</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="day-type" value="saturday" class="peer hidden" />
+                  <div class="p-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <span class="font-medium text-secondary text-sm">Saturday</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="day-type" value="sunday" class="peer hidden" />
+                  <div class="p-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <span class="font-medium text-secondary text-sm">Sunday</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="day-type" value="public-holiday" class="peer hidden" />
+                  <div class="p-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <span class="font-medium text-secondary text-sm">Public Hol</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Time of Day -->
+            <div class="form-control mb-6">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Time of Day</label>
+              <div class="grid grid-cols-2 gap-3">
+                <label class="cursor-pointer">
+                  <input type="radio" name="time-of-day" value="daytime" class="peer hidden" checked />
+                  <div class="p-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <Icon name="hugeicons:sun-03" class="w-5 h-5 mx-auto mb-1 text-secondary/60" />
+                    <span class="font-medium text-secondary text-sm">Daytime</span>
+                    <p class="text-xs text-secondary/50">6am - 8pm</p>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="time-of-day" value="evening" class="peer hidden" />
+                  <div class="p-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <Icon name="hugeicons:moon-02" class="w-5 h-5 mx-auto mb-1 text-secondary/60" />
+                    <span class="font-medium text-secondary text-sm">Evening/Night</span>
+                    <p class="text-xs text-secondary/50">8pm - 6am</p>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Hours -->
+            <div class="form-control mb-8">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Number of Hours</label>
+              <div class="flex items-center gap-4">
+                <input type="range" id="hours-slider" min="1" max="40" value="8" class="range range-primary flex-1" />
+                <div class="bg-base-200 rounded-xl px-4 py-2 min-w-[80px] text-center">
+                  <span id="hours-display" class="font-bold text-secondary text-lg">8</span>
+                  <span class="text-secondary/60 text-sm ml-1">hrs</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Results -->
+            <div class="bg-gradient-to-br from-primary to-accent rounded-2xl p-6 text-white mb-6">
+              <div class="grid grid-cols-2 gap-4 mb-4">
+                <div>
+                  <p class="text-sm font-bold uppercase tracking-wider opacity-80 mb-1">Hourly Rate</p>
+                  <p class="text-3xl font-bold" id="hourly-rate">$70.23</p>
+                </div>
+                <div>
+                  <p class="text-sm font-bold uppercase tracking-wider opacity-80 mb-1">Total Cost</p>
+                  <p class="text-3xl font-bold" id="total-cost">$561.84</p>
+                </div>
+              </div>
+              <div class="pt-4 border-t border-white/20">
+                <p class="text-sm opacity-80">
+                  <span id="rate-description">Standard weekday daytime rate</span> for <span id="hours-text">8 hours</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- Rate Breakdown Table -->
+            <div class="bg-base-200/50 rounded-2xl p-6">
+              <h4 class="font-bold text-secondary mb-4">All Rates for Selected Support Type</h4>
+              <div class="overflow-x-auto">
+                <table class="table table-sm w-full">
+                  <thead>
+                    <tr class="text-secondary/60">
+                      <th class="font-bold">Day</th>
+                      <th class="font-bold text-right">Daytime</th>
+                      <th class="font-bold text-right">Evening</th>
+                    </tr>
+                  </thead>
+                  <tbody id="rate-table-body">
+                    <tr>
+                      <td class="font-medium">Weekday</td>
+                      <td class="text-right">$70.23</td>
+                      <td class="text-right">$77.25</td>
+                    </tr>
+                    <tr>
+                      <td class="font-medium">Saturday</td>
+                      <td class="text-right">$98.32</td>
+                      <td class="text-right">$98.32</td>
+                    </tr>
+                    <tr>
+                      <td class="font-medium">Sunday</td>
+                      <td class="text-right">$126.42</td>
+                      <td class="text-right">$126.42</td>
+                    </tr>
+                    <tr>
+                      <td class="font-medium">Public Holiday</td>
+                      <td class="text-right">$154.50</td>
+                      <td class="text-right">$154.50</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Learn More About NDIS Rates</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/ndis-support-worker-pay-rates/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Pay Rates Guide 2025</h3>
+            <p class="text-sm text-secondary/60">Complete guide to support worker pay rates and SCHADS Award.</p>
+          </a>
+          <a href="/blog/mable-support-workers-ndis-complete-guide-2025/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Mable Rates vs Agencies</h3>
+            <p class="text-sm text-secondary/60">Compare Mable support worker rates with traditional providers.</p>
+          </a>
+          <a href="/contact" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Get Support</h3>
+            <p class="text-sm text-secondary/60">Talk to our team about NDIS support worker options.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  // NDIS Price Limits 2025-26 (Assistance with Self Care)
+  const RATES = {
+    standard: {
+      weekday: { daytime: 70.23, evening: 77.25 },
+      saturday: { daytime: 98.32, evening: 98.32 },
+      sunday: { daytime: 126.42, evening: 126.42 },
+      'public-holiday': { daytime: 154.50, evening: 154.50 }
+    },
+    'high-intensity': {
+      weekday: { daytime: 77.40, evening: 85.14 },
+      saturday: { daytime: 108.36, evening: 108.36 },
+      sunday: { daytime: 139.32, evening: 139.32 },
+      'public-holiday': { daytime: 170.28, evening: 170.28 }
+    },
+    complex: {
+      weekday: { daytime: 82.57, evening: 90.83 },
+      saturday: { daytime: 115.60, evening: 115.60 },
+      sunday: { daytime: 148.63, evening: 148.63 },
+      'public-holiday': { daytime: 181.65, evening: 181.65 }
+    },
+    community: {
+      weekday: { daytime: 70.23, evening: 77.25 },
+      saturday: { daytime: 98.32, evening: 98.32 },
+      sunday: { daytime: 126.42, evening: 126.42 },
+      'public-holiday': { daytime: 154.50, evening: 154.50 }
+    }
+  };
+
+  const SUPPORT_TYPE_NAMES = {
+    'standard': 'Standard Self Care',
+    'high-intensity': 'High Intensity',
+    'complex': 'Complex Needs',
+    'community': 'Community Participation'
+  };
+
+  const DAY_TYPE_NAMES = {
+    'weekday': 'weekday',
+    'saturday': 'Saturday',
+    'sunday': 'Sunday',
+    'public-holiday': 'public holiday'
+  };
+
+  const calculator = document.getElementById('pay-calculator');
+  if (!calculator) return;
+
+  const supportTypeSelect = document.getElementById('support-type');
+  const hoursSlider = document.getElementById('hours-slider');
+  const hoursDisplay = document.getElementById('hours-display');
+  const hourlyRateEl = document.getElementById('hourly-rate');
+  const totalCostEl = document.getElementById('total-cost');
+  const rateDescEl = document.getElementById('rate-description');
+  const hoursTextEl = document.getElementById('hours-text');
+  const rateTableBody = document.getElementById('rate-table-body');
+
+  function getSelectedDayType() {
+    return calculator.querySelector('input[name="day-type"]:checked')?.value || 'weekday';
+  }
+
+  function getSelectedTimeOfDay() {
+    return calculator.querySelector('input[name="time-of-day"]:checked')?.value || 'daytime';
+  }
+
+  function updateCalculator() {
+    const supportType = supportTypeSelect.value;
+    const dayType = getSelectedDayType();
+    const timeOfDay = getSelectedTimeOfDay();
+    const hours = parseInt(hoursSlider.value);
+
+    const rate = RATES[supportType][dayType][timeOfDay];
+    const total = rate * hours;
+
+    hourlyRateEl.textContent = '$' + rate.toFixed(2);
+    totalCostEl.textContent = '$' + total.toFixed(2);
+    hoursDisplay.textContent = hours;
+    hoursTextEl.textContent = hours + ' hour' + (hours > 1 ? 's' : '');
+
+    const timeDesc = timeOfDay === 'daytime' ? 'daytime' : 'evening/night';
+    rateDescEl.textContent = `${SUPPORT_TYPE_NAMES[supportType]} ${DAY_TYPE_NAMES[dayType]} ${timeDesc} rate`;
+
+    // Update rate table
+    const rates = RATES[supportType];
+    rateTableBody.innerHTML = `
+      <tr>
+        <td class="font-medium">Weekday</td>
+        <td class="text-right ${dayType === 'weekday' && timeOfDay === 'daytime' ? 'font-bold text-primary' : ''}">$${rates.weekday.daytime.toFixed(2)}</td>
+        <td class="text-right ${dayType === 'weekday' && timeOfDay === 'evening' ? 'font-bold text-primary' : ''}">$${rates.weekday.evening.toFixed(2)}</td>
+      </tr>
+      <tr>
+        <td class="font-medium">Saturday</td>
+        <td class="text-right ${dayType === 'saturday' && timeOfDay === 'daytime' ? 'font-bold text-primary' : ''}">$${rates.saturday.daytime.toFixed(2)}</td>
+        <td class="text-right ${dayType === 'saturday' && timeOfDay === 'evening' ? 'font-bold text-primary' : ''}">$${rates.saturday.evening.toFixed(2)}</td>
+      </tr>
+      <tr>
+        <td class="font-medium">Sunday</td>
+        <td class="text-right ${dayType === 'sunday' && timeOfDay === 'daytime' ? 'font-bold text-primary' : ''}">$${rates.sunday.daytime.toFixed(2)}</td>
+        <td class="text-right ${dayType === 'sunday' && timeOfDay === 'evening' ? 'font-bold text-primary' : ''}">$${rates.sunday.evening.toFixed(2)}</td>
+      </tr>
+      <tr>
+        <td class="font-medium">Public Holiday</td>
+        <td class="text-right ${dayType === 'public-holiday' && timeOfDay === 'daytime' ? 'font-bold text-primary' : ''}">$${rates['public-holiday'].daytime.toFixed(2)}</td>
+        <td class="text-right ${dayType === 'public-holiday' && timeOfDay === 'evening' ? 'font-bold text-primary' : ''}">$${rates['public-holiday'].evening.toFixed(2)}</td>
+      </tr>
+    `;
+  }
+
+  // Event listeners
+  supportTypeSelect.addEventListener('change', updateCalculator);
+  hoursSlider.addEventListener('input', updateCalculator);
+
+  calculator.querySelectorAll('input[name="day-type"]').forEach(input => {
+    input.addEventListener('change', updateCalculator);
+  });
+
+  calculator.querySelectorAll('input[name="time-of-day"]').forEach(input => {
+    input.addEventListener('change', updateCalculator);
+  });
+
+  // Initial calculation
+  updateCalculator();
+
+  // Track usage
+  if (typeof gtag === 'function') {
+    gtag('event', 'tool_view', { tool_name: 'ndis_pay_rate_calculator' });
+  }
+})();
+</script>

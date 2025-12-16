@@ -1,0 +1,122 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const tools = [
+  {
+    title: "DSP Calculator",
+    description: "Calculate your estimated Disability Support Pension payment based on your income, assets, and relationship status.",
+    href: "/tools/dsp-calculator",
+    icon: "hugeicons:calculator-01",
+    color: "primary"
+  },
+  {
+    title: "NDIS Pay Rate Calculator",
+    description: "Calculate support worker pay rates including weekends, public holidays, and overnight shifts using 2025-26 NDIS price limits.",
+    href: "/tools/ndis-pay-rate-calculator",
+    icon: "hugeicons:money-send-square",
+    color: "accent"
+  },
+  {
+    title: "NDIS Code Lookup",
+    description: "Search all 671 NDIS line item codes by number or description. Find invoicing codes, price limits, and support categories instantly.",
+    href: "/tools/ndis-code-lookup",
+    icon: "hugeicons:search-01",
+    color: "primary"
+  },
+  {
+    title: "Carer Payment Calculator",
+    description: "Calculate your Carer Payment and Carer Allowance entitlement based on income, assets, and care hours.",
+    href: "/tools/carer-payment-calculator",
+    icon: "hugeicons:heart-check",
+    color: "accent"
+  },
+  {
+    title: "Aged Care Fees Calculator",
+    description: "Estimate nursing home costs, means tested fees, and RAD vs DAP accommodation options for residential aged care.",
+    href: "/tools/aged-care-calculator",
+    icon: "hugeicons:home-01",
+    color: "primary"
+  },
+  {
+    title: "NDIS Respite Calculator",
+    description: "Calculate Short Term Accommodation (STA) costs for NDIS respite care. Get pricing for weekdays, weekends, and holidays.",
+    href: "/tools/ndis-respite-calculator",
+    icon: "hugeicons:bed-single-01",
+    color: "accent"
+  },
+  {
+    title: "NDIS Eligibility Quiz",
+    description: "Answer 6 quick questions to check if you may be eligible for the National Disability Insurance Scheme.",
+    href: "/tools/ndis-eligibility-quiz",
+    icon: "hugeicons:checkmark-badge-01",
+    color: "primary"
+  }
+];
+---
+
+<BaseLayout
+  title="Free NDIS & Disability Calculators"
+  description="Free online calculators for DSP payments, NDIS support worker rates, and more. Get instant estimates for disability support pension and care costs."
+>
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Header -->
+      <div class="text-center mb-12 mt-8 lg:mt-0">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+          <Icon name="hugeicons:tools" class="w-4 h-4" />
+          Free Tools
+        </div>
+
+        <h1 class="text-4xl lg:text-6xl font-bold text-secondary leading-[1.05] mb-6 tracking-tight text-balance">
+          NDIS & Disability <br/><span class="text-primary">Calculators</span>
+        </h1>
+
+        <p class="text-xl text-secondary/70 font-medium max-w-2xl mx-auto leading-relaxed text-balance">
+          Free online tools to help you estimate payments, rates, and costs. Get instant calculations based on current 2025 rates.
+        </p>
+      </div>
+
+      <!-- Tools Grid -->
+      <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        {tools.map((tool) => (
+          <a
+            href={tool.comingSoon ? "#" : tool.href}
+            class={`group relative bg-white rounded-[2rem] p-8 border border-base-200 shadow-lg shadow-base-200/50 transition-all duration-300 ${tool.comingSoon ? 'opacity-60 cursor-not-allowed' : 'hover:shadow-xl hover:shadow-base-200/50 hover:-translate-y-1 hover:border-primary/20'}`}
+          >
+            {tool.comingSoon && (
+              <span class="absolute top-6 right-6 px-3 py-1 bg-warning/10 text-warning text-xs font-bold rounded-full">
+                Coming Soon
+              </span>
+            )}
+
+            <div class={`w-16 h-16 rounded-2xl bg-${tool.color}/10 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform`}>
+              <Icon name={tool.icon} class={`w-8 h-8 text-${tool.color}`} />
+            </div>
+
+            <h2 class="text-2xl font-bold text-secondary mb-3 group-hover:text-primary transition-colors">
+              {tool.title}
+            </h2>
+
+            <p class="text-secondary/60 leading-relaxed mb-4">
+              {tool.description}
+            </p>
+
+            {!tool.comingSoon && (
+              <div class="flex items-center text-primary font-bold">
+                Use Calculator
+                <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+              </div>
+            )}
+          </a>
+        ))}
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>

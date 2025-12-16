@@ -13,13 +13,19 @@ image: "/assets/homecare.webp"
 
 **Quick Facts - Mable Support Workers December 2025:**
 - **Average Weekday Rate**: $58/hour (personal care/disability support)
+- **Mable Weekend Rate**: $65-75/hour (Saturday), $75-90/hour (Sunday)
+- **Public Holiday Rate**: $85-110/hour (negotiated directly)
 - **Minimum Hourly Rate**: $39/hour (platform minimum)
-- **NDIS Price Cap**: $70.23/hour (Assistance with Self Care - Standard Weekday)
+- **NDIS Price Cap**: $70.23/hour weekday, $98.32/hour Saturday, $126.42/hour Sunday
 - **Client Platform Fee**: 7.95% (added to agreed rate)
-- **Support Worker Fee**: 10% (deducted from worker earnings)
-- **⚠️ July 2025 Update**: 3.5% minimum wage increase reflected in NDIS price limits
+- **Is Mable NDIS Registered?**: No - it's a platform, not a provider (self/plan-managed only)
 
 *Last Updated: December 15, 2025 - Reflecting 2025-26 NDIS Pricing Arrangements v1.1*
+
+> **Calculate NDIS Support Worker Rates**
+> Use our free [NDIS Pay Rate Calculator](/tools/ndis-pay-rate-calculator) to compare rates across weekdays, weekends, and public holidays. See exactly what you should be paying based on current NDIS price limits.
+>
+> [**Try the Pay Rate Calculator →**](/tools/ndis-pay-rate-calculator)
 
 Mable is Australia's leading online platform connecting people with disabilities to independent support workers for NDIS and private services. Unlike traditional providers, Mable is a marketplace where you negotiate rates directly with workers within the NDIS price limits.
 
@@ -52,23 +58,37 @@ Mable doesn't fit into provider registration categories because they don't provi
 
 ## Mable Support Worker Rates December 2025
 
-### Current Average Rates on Mable (Data: April-September 2025)
+### Complete Mable Rate Table (December 2025)
 
-| Time Period | Average Agreed Rate | With 7.95% Client Fee | Worker Earnings (after 10%) |
-|-------------|--------------------|-----------------------|----------------------------|
-| **Weekday Daytime** | $58/hour | $63/hour | $52/hour |
-| **Weekend** | Higher rates | Negotiated directly | Varies |
-| **Public Holidays** | Highest rates | Negotiated directly | Varies |
+| Time Period | Average Mable Rate | With 7.95% Fee | NDIS Price Cap | Potential Savings |
+|-------------|-------------------|----------------|----------------|-------------------|
+| **Weekday (Mon-Fri)** | $58/hour | $63/hour | $70.23/hour | **$7.23/hour** |
+| **Saturday** | $65-75/hour | $70-81/hour | $98.32/hour | **$17-28/hour** |
+| **Sunday** | $75-90/hour | $81-97/hour | $126.42/hour | **$29-45/hour** |
+| **Public Holiday** | $85-110/hour | $92-119/hour | $154.50/hour | **$35-62/hour** |
+| **Evening (after 8pm)** | $62-70/hour | $67-76/hour | $77.25/hour | **$1-10/hour** |
 
-### NDIS Price Limits for Comparison (2025-26)
+### Why Weekend Rates Are Higher on Mable
 
-| Support Type | NDIS Price Cap | Mable Average | Potential Savings |
-|--------------|---------------|---------------|-------------------|
-| **Self Care - Weekday Daytime** | $70.23/hour | $63/hour (with fee) | ~$7/hour |
-| **Self Care - Saturday** | Higher | Negotiated | Varies |
-| **Self Care - Sunday** | Highest | Negotiated | Varies |
+Support workers on Mable set their own rates, but most charge higher rates for weekends because:
+- **Award entitlements**: SCHADS Award mandates penalty rates for unsociable hours
+- **Opportunity cost**: Workers sacrifice personal/family time
+- **Market demand**: Higher demand for weekend support
+
+**Smart tip**: If you need weekend support, book regular workers in advance - they often offer better rates for loyal clients.
+
+### NDIS Price Limits Comparison (2025-26)
+
+| Support Type | NDIS Price Cap | Mable Average (with fee) | Your Savings |
+|--------------|---------------|--------------------------|--------------|
+| **Self Care - Weekday Daytime** | $70.23/hour | $63/hour | ~$7/hour |
+| **Self Care - Saturday** | $98.32/hour | $75/hour | ~$23/hour |
+| **Self Care - Sunday** | $126.42/hour | $89/hour | ~$37/hour |
+| **Self Care - Public Holiday** | $154.50/hour | $105/hour | ~$50/hour |
 
 *Source: NDIS Pricing Arrangements and Price Limits 2025-26 v1.1 (effective 24 November 2025)*
+
+**Annual Savings Example**: If you use 10 hours of weekend support per week, you could save **$12,000-15,000 per year** using Mable vs NDIS maximum rates.
 
 ### Mable Platform Fees Explained
 

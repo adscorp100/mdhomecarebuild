@@ -29,6 +29,11 @@ export default defineConfig({
           item.priority = 0.7;
           item.changefreq = 'monthly';
         }
+        // Tools pages: high priority (interactive content)
+        else if (item.url.includes('/tools/')) {
+          item.priority = 0.9;
+          item.changefreq = 'monthly';
+        }
         // Blog posts: high priority (content marketing)
         else if (item.url.includes('/blog/')) {
           item.priority = 0.8;
