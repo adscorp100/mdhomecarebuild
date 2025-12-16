@@ -82,11 +82,19 @@ const metaKeywords = uniqueKeywords.join(', ');
             class="scroll-mt-24"
           >
             <!-- Category Header -->
-            <div class="border-b border-base-300 pb-4 mb-6">
-              <h2 class="text-2xl font-bold text-base-content">{category}</h2>
-              <p class="text-sm text-base-content/60 mt-1">
-                {servicesByCategory[category].length} services available
-              </p>
+            <div class="border-b border-base-300 pb-4 mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+              <div>
+                <h2 class="text-2xl font-bold text-base-content">{category}</h2>
+                <p class="text-sm text-base-content/60 mt-1">
+                  {servicesByCategory[category].length} services available
+                </p>
+              </div>
+              <a
+                href={"/services/category/" + category.toLowerCase().replace(/[&\s]+/g, '-').replace(/--+/g, '-')}
+                class="btn btn-sm btn-outline"
+              >
+                View All {category} →
+              </a>
             </div>
 
             <!-- Services Grid -->

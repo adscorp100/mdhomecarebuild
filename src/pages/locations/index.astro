@@ -1,0 +1,137 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Suburbs organized by state/region
+const locationsByState = {
+  "New South Wales": {
+    "Greater Sydney": ["sydney", "cbd", "parramatta"],
+    "Eastern Suburbs": ["bondi", "bondi-beach", "bondi-junction", "randwick"],
+    "North Shore": ["chatswood", "mosman"],
+    "Upper North Shore": ["hornsby"],
+    "Northern Beaches": ["manly"],
+    "Inner West": ["newtown"],
+    "Inner Sydney": ["surry-hills"],
+    "Sutherland Shire": ["cronulla"],
+    "St George": ["hurstville", "kogarah"],
+    "Canterbury-Bankstown": ["bankstown"],
+    "Greater Western Sydney": ["fairfield", "blacktown", "liverpool", "penrith"],
+    "Macarthur": ["campbelltown"],
+    "Hills District": ["castle-hill"],
+    "Illawarra": ["wollongong"],
+    "Hunter": ["newcastle"]
+  },
+  "Victoria": {
+    "Melbourne CBD": ["melbourne"],
+    "Inner Melbourne": ["st-kilda", "richmond"],
+    "Inner North": ["brunswick"],
+    "South East Melbourne": ["dandenong"],
+    "Mornington Peninsula": ["frankston"],
+    "Western Melbourne": ["werribee"],
+    "Geelong": ["geelong"],
+    "Regional": ["ballarat", "bendigo", "mildura"]
+  },
+  "Queensland": {
+    "Brisbane": ["brisbane"],
+    "Gold Coast": ["gold-coast"],
+    "Sunshine Coast": ["sunshine-coast"],
+    "Regional": ["cairns", "townsville", "toowoomba", "mackay", "rockhampton", "hervey-bay"]
+  },
+  "Western Australia": {
+    "Perth Metro": ["perth", "fremantle", "joondalup"],
+    "Peel Region": ["mandurah"],
+    "South West": ["bunbury"]
+  },
+  "South Australia": {
+    "Adelaide Metro": ["adelaide", "glenelg", "norwood"]
+  },
+  "Tasmania": {
+    "Greater Hobart": ["hobart"],
+    "Northern": ["launceston"],
+    "North West": ["devonport"]
+  },
+  "Australian Capital Territory": {
+    "Canberra": ["canberra"]
+  },
+  "Northern Territory": {
+    "Darwin": ["darwin"],
+    "Central Australia": ["alice-springs"]
+  }
+};
+
+// Helper to convert slug to display name
+function slugToName(slug: string): string {
+  return slug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+}
+
+const title = "Our Service Locations | MD Home Care";
+const description = "MD Home Care provides home care and NDIS support services across Australia. Find services in Sydney, Melbourne, Brisbane, Perth, Adelaide, and more.";
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="max-w-6xl mx-auto px-4 py-12">
+    <!-- Header -->
+    <header class="text-center mb-12">
+      <h1 class="text-4xl font-bold text-base-content mb-4">Our Service Locations</h1>
+      <p class="text-lg text-base-content/70 max-w-2xl mx-auto mb-8">
+        We provide quality home care and NDIS support services across Australia.
+        Find services in your area below or contact us to confirm availability in your suburb.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/contact" class="btn btn-primary">
+          Find Services in Your Area
+        </a>
+        <a href="tel:+61863869999" class="btn btn-outline">
+          Call 08 6386 9999
+        </a>
+      </div>
+    </header>
+
+    <!-- Locations by State -->
+    <div class="space-y-12">
+      {Object.entries(locationsByState).map(([state, regions]) => (
+        <section>
+          <h2 class="text-2xl font-bold text-base-content mb-6 pb-2 border-b border-base-300">
+            {state}
+          </h2>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {Object.entries(regions).map(([region, suburbs]) => (
+              <div class="card bg-base-100 border border-base-200 shadow">
+                <div class="card-body">
+                  <h3 class="card-title text-lg text-primary">{region}</h3>
+                  <ul class="space-y-2">
+                    {(suburbs as string[]).map((slug) => (
+                      <li>
+                        <a
+                          href={`/locations/${slug}`}
+                          class="text-base-content hover:text-primary hover:underline"
+                        >
+                          {slugToName(slug)}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+
+    <!-- Don't see your suburb? -->
+    <section class="mt-16 bg-base-200 rounded-box p-8 text-center">
+      <h2 class="text-2xl font-bold text-base-content mb-4">
+        Don't See Your Suburb?
+      </h2>
+      <p class="text-base-content/70 mb-6 max-w-2xl mx-auto">
+        We service many more suburbs than listed here. Contact us to confirm service availability in your area.
+        We're always expanding our coverage to reach more Australians who need quality home care.
+      </p>
+      <a href="/contact" class="btn btn-primary">
+        Check Availability in Your Area
+      </a>
+    </section>
+  </div>
+</BaseLayout>

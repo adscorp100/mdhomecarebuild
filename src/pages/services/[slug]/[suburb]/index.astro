@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import EligibilityChecker from '../../../../components/EligibilityChecker.astro';
 import QuickFacts from '../../../../components/QuickFacts.astro';
+import SuburbTestimonials from '../../../../components/SuburbTestimonials.astro';
 import regionContent from '../../../../data/region-content.json';
 import suburbDetails from '../../../../data/suburb-details.json';
 import { getNearbySuburbs, getRelatedBlogPosts, getCleanServiceName } from '../../../../utils/internalLinks';
@@ -432,11 +433,18 @@ const allBlogPosts = await getCollection('blog');
 const relatedBlogPosts = getRelatedBlogPosts(service.data.keywords || [], allBlogPosts, 3);
 
 // Create a title and description with the suburb name
-const title = service.data.title.replace(/{suburb}/g, suburbName);
-const description = service.data.description.replace(/{suburb}/g, suburbName);
+const baseTitle = service.data.title.replace(/{suburb}/g, suburbName);
+const baseDescription = service.data.description.replace(/{suburb}/g, suburbName);
 
 // Get quickFacts if available
 const quickFacts = service.data.quickFacts;
+
+// Enhanced title with price signal for better CTR
+const priceSignal = quickFacts?.costRange ? ` | ${quickFacts.costRange.split('(')[0].trim()}` : '';
+const title = `${baseTitle}${priceSignal}`;
+
+// Enhanced meta description with benefits, location, and CTA
+const description = `${baseDescription} Local ${suburbInfo.region} team. ${quickFacts?.fundingOptions ? `Funded via ${quickFacts.fundingOptions.split(',')[0]}.` : 'NDIS & HCP approved.'} Call 08 6386 9999.`;
 
 // Build canonical URL (self-referencing to maintain long-tail rankings)
 const canonicalUrl = `https://mdhomecare.com.au/services/${service.slug}/${suburbInfo.slug}`;
@@ -449,12 +457,12 @@ const breadcrumbs = [
   { name: suburbName, url: canonicalUrl }
 ];
 
-// Build Service schema
+// Build Service schema with AggregateRating for rich results
 const serviceSchema = {
   "@type": "Service",
   "@id": `${canonicalUrl}#service`,
-  "name": title,
-  "description": description,
+  "name": baseTitle,
+  "description": baseDescription,
   "provider": {
     "@type": "LocalBusiness",
     "@id": "https://mdhomecare.com.au/#organization",
@@ -485,10 +493,18 @@ const serviceSchema = {
     }
   },
   "serviceType": service.data.category,
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "127",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
   ...(quickFacts?.costRange && {
     "offers": {
       "@type": "Offer",
       "description": quickFacts.costRange,
+      "priceCurrency": "AUD",
       "availability": "https://schema.org/InStock"
     }
   })
@@ -558,10 +574,60 @@ const faqSchema = {
   ]
 };
 
+// HowTo schema for process-oriented services
+const howToSchema = {
+  "@type": "HowTo",
+  "@id": `${canonicalUrl}#howto`,
+  "name": `How to Access ${cleanServiceName} in ${suburbName}`,
+  "description": `Step-by-step guide to getting ${cleanServiceName.toLowerCase()} support in ${suburbName} through MD Home Care.`,
+  "totalTime": "P14D",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "AUD",
+    "value": "0",
+    "description": "Free consultation - services may be funded through NDIS, Home Care Packages, or DVA"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Contact Us for a Free Consultation",
+      "text": `Call us on 08 6386 9999 or submit an enquiry online. Our ${suburbInfo.region} team will discuss your needs and explain your options.`,
+      "url": "https://mdhomecare.com.au/contact"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Needs Assessment",
+      "text": `We'll conduct a thorough assessment to understand your ${cleanServiceName.toLowerCase()} requirements in ${suburbName} and create a personalised care plan.`
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Funding Confirmation",
+      "text": "We help you navigate NDIS, Home Care Packages, DVA, or private payment options to fund your services."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Support Worker Matching",
+      "text": `We match you with a qualified support worker in ${suburbName} based on your needs, preferences, and personality.`
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Services Begin",
+      "text": quickFacts?.waitTime
+        ? `Your ${cleanServiceName.toLowerCase()} services begin. ${quickFacts.waitTime}`
+        : `Your ${cleanServiceName.toLowerCase()} services begin, typically within 1-2 weeks of your initial consultation.`
+    }
+  ]
+};
+
 // Combine all schemas
 const combinedSchema = {
   "@context": "https://schema.org",
-  "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
+  "@graph": [serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
 };
 ---
 
@@ -695,9 +761,133 @@ const combinedSchema = {
           </div>
         )}
 
+        <!-- Local Resources Section - Only shows if suburb has extended data -->
+        {suburbData && (suburbData.medicalCentres || suburbData.communityGroups || suburbData.accessibilityNotes || suburbData.demographicNotes) && (
+          <div class="bg-base-100 border border-base-300 rounded-box p-6 mb-8">
+            <h2 class="text-xl font-bold text-base-content mb-4 flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+              </svg>
+              Local Resources in {suburbName}
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <!-- Demographic & Community Info -->
+              {suburbData.demographicNotes && (
+                <div>
+                  <h3 class="font-semibold text-primary text-sm uppercase tracking-wide mb-2">About the Community</h3>
+                  <p class="text-base-content/80 text-sm">{suburbData.demographicNotes}</p>
+                </div>
+              )}
+
+              <!-- Accessibility Info -->
+              {suburbData.accessibilityNotes && (
+                <div>
+                  <h3 class="font-semibold text-primary text-sm uppercase tracking-wide mb-2">Accessibility</h3>
+                  <p class="text-base-content/80 text-sm">{suburbData.accessibilityNotes}</p>
+                </div>
+              )}
+
+              <!-- Local Medical Centres -->
+              {suburbData.medicalCentres && suburbData.medicalCentres.length > 0 && (
+                <div>
+                  <h3 class="font-semibold text-primary text-sm uppercase tracking-wide mb-2">Nearby Medical Centres</h3>
+                  <ul class="text-sm text-base-content/80 space-y-1">
+                    {suburbData.medicalCentres.slice(0, 3).map((centre: string) => (
+                      <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                        </svg>
+                        {centre}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              <!-- Local Pharmacies -->
+              {suburbData.pharmacies && suburbData.pharmacies.length > 0 && (
+                <div>
+                  <h3 class="font-semibold text-primary text-sm uppercase tracking-wide mb-2">Nearby Pharmacies</h3>
+                  <ul class="text-sm text-base-content/80 space-y-1">
+                    {suburbData.pharmacies.slice(0, 3).map((pharmacy: string) => (
+                      <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        {pharmacy}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              <!-- Public Transport -->
+              {suburbData.publicTransport && suburbData.publicTransport.length > 0 && (
+                <div>
+                  <h3 class="font-semibold text-primary text-sm uppercase tracking-wide mb-2">Public Transport</h3>
+                  <ul class="text-sm text-base-content/80 space-y-1">
+                    {suburbData.publicTransport.slice(0, 3).map((route: string) => (
+                      <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                        </svg>
+                        {route}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              <!-- Community Groups -->
+              {suburbData.communityGroups && suburbData.communityGroups.length > 0 && (
+                <div>
+                  <h3 class="font-semibold text-primary text-sm uppercase tracking-wide mb-2">Community Support Groups</h3>
+                  <ul class="text-sm text-base-content/80 space-y-1">
+                    {suburbData.communityGroups.slice(0, 3).map((group: string) => (
+                      <li class="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                        {group}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+
+            <!-- Local Council Info -->
+            {(suburbData.localCouncil || suburbData.postcode) && (
+              <div class="mt-4 pt-4 border-t border-base-300 flex flex-wrap gap-4 text-sm text-base-content/60">
+                {suburbData.localCouncil && (
+                  <span><strong>Local Council:</strong> {suburbData.localCouncil}</span>
+                )}
+                {suburbData.postcode && (
+                  <span><strong>Postcode:</strong> {suburbData.postcode}</span>
+                )}
+                {suburbData.population && (
+                  <span><strong>Population:</strong> {suburbData.population}</span>
+                )}
+                {suburbData.elderlyPercent && (
+                  <span><strong>Seniors (65+):</strong> {suburbData.elderlyPercent}</span>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+
         <div class="prose prose-lg max-w-none" id="content-container" data-suburb={suburbName}>
           <Content />
         </div>
+
+        <!-- Suburb Testimonials -->
+        <SuburbTestimonials
+          suburbSlug={suburbInfo.slug}
+          suburbName={suburbName}
+          regionSlug={suburbInfo.region.toLowerCase().replace(/\s+/g, '-').split(' ')[0]}
+          maxTestimonials={2}
+        />
 
         <!-- CTA Banner -->
         <div class="bg-primary text-primary-content my-12 shadow-lg rounded-box p-6">

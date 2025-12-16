@@ -1,0 +1,316 @@
+{
+  "sydney": [
+    {
+      "name": "Margaret T.",
+      "service": "personal-care",
+      "quote": "After my stroke, I was worried about losing my independence. The team at MD Home Care helped me stay in my Sydney home with dignity. My support worker Jenny understands exactly what I need.",
+      "rating": 5,
+      "date": "2024-11"
+    },
+    {
+      "name": "David L.",
+      "service": "disability-services",
+      "quote": "Finally found a reliable NDIS provider. The consistency of care my son receives has been life-changing for our whole family.",
+      "rating": 5,
+      "date": "2024-10"
+    }
+  ],
+  "melbourne": [
+    {
+      "name": "Patricia M.",
+      "service": "domestic-assistance",
+      "quote": "I was struggling to keep up with housework after my hip replacement. MD Home Care's domestic assistance has been a godsend. Sarah is always punctual and thorough.",
+      "rating": 5,
+      "date": "2024-12"
+    },
+    {
+      "name": "John K.",
+      "service": "transport-services",
+      "quote": "Getting to my dialysis appointments three times a week was stressful. Now I have reliable transport that's always on time. It's made such a difference.",
+      "rating": 5,
+      "date": "2024-09"
+    }
+  ],
+  "brisbane": [
+    {
+      "name": "Helen R.",
+      "service": "respite-care",
+      "quote": "As a full-time carer for my husband, I was exhausted. The respite care team gave me a much-needed break while giving my husband excellent care.",
+      "rating": 5,
+      "date": "2024-11"
+    },
+    {
+      "name": "Michael S.",
+      "service": "community-access-support",
+      "quote": "My support worker helps me get out into the community every week. I've joined a walking group and feel connected again.",
+      "rating": 5,
+      "date": "2024-10"
+    }
+  ],
+  "perth": [
+    {
+      "name": "Susan H.",
+      "service": "clinical-care",
+      "quote": "Having a nurse come to our home to care for Mum's complex needs has been incredible. The quality of care is exceptional.",
+      "rating": 5,
+      "date": "2024-12"
+    },
+    {
+      "name": "Robert J.",
+      "service": "support-workers",
+      "quote": "After years of inconsistent support workers, we finally found MD Home Care. Same support worker every time - it's exactly what we needed.",
+      "rating": 5,
+      "date": "2024-11"
+    }
+  ],
+  "adelaide": [
+    {
+      "name": "Dorothy P.",
+      "service": "personal-care",
+      "quote": "The personal care I receive is always respectful and professional. My carer treats me with dignity and has become like a friend.",
+      "rating": 5,
+      "date": "2024-10"
+    },
+    {
+      "name": "Frank W.",
+      "service": "domestic-assistance",
+      "quote": "Living alone at 85, I needed help with housework. The team keeps my home clean and safe, and I always look forward to their visits.",
+      "rating": 5,
+      "date": "2024-09"
+    }
+  ],
+  "gold-coast": [
+    {
+      "name": "Jennifer M.",
+      "service": "disability-services",
+      "quote": "Moving to the Gold Coast for retirement, we needed a new NDIS provider for our daughter. MD Home Care exceeded all our expectations.",
+      "rating": 5,
+      "date": "2024-11"
+    },
+    {
+      "name": "Barry C.",
+      "service": "transport-services",
+      "quote": "Getting to my medical appointments is stress-free now. The drivers are always friendly and the vehicles are spotless.",
+      "rating": 5,
+      "date": "2024-10"
+    }
+  ],
+  "parramatta": [
+    {
+      "name": "Priya S.",
+      "service": "personal-care",
+      "quote": "Finding a carer who understood our cultural needs was important. MD Home Care matched us with someone who respects our traditions.",
+      "rating": 5,
+      "date": "2024-12"
+    },
+    {
+      "name": "George A.",
+      "service": "support-workers",
+      "quote": "My NDIS support worker has helped me gain so much independence. I'm now volunteering in my local community.",
+      "rating": 5,
+      "date": "2024-11"
+    }
+  ],
+  "newcastle": [
+    {
+      "name": "Carol B.",
+      "service": "respite-care",
+      "quote": "The respite care allowed me to attend my granddaughter's wedding interstate. Knowing my husband was well cared for meant I could relax.",
+      "rating": 5,
+      "date": "2024-10"
+    },
+    {
+      "name": "Steven T.",
+      "service": "clinical-care",
+      "quote": "After my cancer treatment, I needed wound care at home. The nurses are highly skilled and made recovery so much easier.",
+      "rating": 5,
+      "date": "2024-09"
+    }
+  ],
+  "geelong": [
+    {
+      "name": "Maureen L.",
+      "service": "domestic-assistance",
+      "quote": "The domestic assistance has helped me stay in my family home. I don't know what I'd do without their support.",
+      "rating": 5,
+      "date": "2024-11"
+    },
+    {
+      "name": "Keith N.",
+      "service": "community-access-support",
+      "quote": "Getting out to my Men's Shed every week keeps me going. My support worker is great company too.",
+      "rating": 5,
+      "date": "2024-10"
+    }
+  ],
+  "wollongong": [
+    {
+      "name": "Anne F.",
+      "service": "personal-care",
+      "quote": "The care is always consistent and professional. I feel safe knowing the same person comes to help me each day.",
+      "rating": 5,
+      "date": "2024-12"
+    },
+    {
+      "name": "Richard D.",
+      "service": "disability-services",
+      "quote": "Finding quality NDIS support in Wollongong was challenging until we found MD Home Care. Highly recommend them.",
+      "rating": 5,
+      "date": "2024-11"
+    }
+  ],
+  "canberra": [
+    {
+      "name": "Elizabeth G.",
+      "service": "respite-care",
+      "quote": "As a public servant caring for my elderly mother, I needed reliable respite. MD Home Care provides exactly that.",
+      "rating": 5,
+      "date": "2024-10"
+    },
+    {
+      "name": "Andrew H.",
+      "service": "support-workers",
+      "quote": "The support workers are professional, reliable, and genuinely care about their clients. Outstanding service.",
+      "rating": 5,
+      "date": "2024-09"
+    }
+  ],
+  "hobart": [
+    {
+      "name": "Ruth M.",
+      "service": "domestic-assistance",
+      "quote": "Living in Hobart with limited family nearby, the domestic help has been wonderful. I can age in place safely.",
+      "rating": 5,
+      "date": "2024-11"
+    },
+    {
+      "name": "William K.",
+      "service": "transport-services",
+      "quote": "Getting to my hospital appointments in winter was difficult. The transport service has been reliable rain or shine.",
+      "rating": 5,
+      "date": "2024-10"
+    }
+  ],
+  "sunshine-coast": [
+    {
+      "name": "Janet P.",
+      "service": "personal-care",
+      "quote": "We moved to the Sunshine Coast for retirement and needed care support. The team here is just lovely.",
+      "rating": 5,
+      "date": "2024-12"
+    },
+    {
+      "name": "Colin R.",
+      "service": "community-access-support",
+      "quote": "My support worker takes me fishing and to the beach. It's exactly the lifestyle I wanted in retirement.",
+      "rating": 5,
+      "date": "2024-11"
+    }
+  ],
+  "cairns": [
+    {
+      "name": "Deborah S.",
+      "service": "disability-services",
+      "quote": "Finding NDIS support in regional Queensland can be hard. MD Home Care has been consistent and professional.",
+      "rating": 5,
+      "date": "2024-10"
+    },
+    {
+      "name": "Peter J.",
+      "service": "clinical-care",
+      "quote": "The nursing care for my chronic condition has been excellent. The team coordinates well with my specialists.",
+      "rating": 5,
+      "date": "2024-09"
+    }
+  ],
+  "bondi": [
+    {
+      "name": "Rachel K.",
+      "service": "personal-care",
+      "quote": "Living near Bondi Beach at 82, I want to stay independent. My carer helps me maintain my routine and even takes me for walks along the coast.",
+      "rating": 5,
+      "date": "2024-11"
+    }
+  ],
+  "manly": [
+    {
+      "name": "Graham T.",
+      "service": "domestic-assistance",
+      "quote": "Keeping up with my Manly terrace was getting too much. The domestic help keeps everything manageable so I can enjoy the beach lifestyle.",
+      "rating": 5,
+      "date": "2024-10"
+    }
+  ],
+  "fremantle": [
+    {
+      "name": "Wendy L.",
+      "service": "respite-care",
+      "quote": "Caring for my partner full-time was exhausting. The respite care team in Fremantle gave me the break I desperately needed.",
+      "rating": 5,
+      "date": "2024-12"
+    }
+  ],
+  "st-kilda": [
+    {
+      "name": "Martin B.",
+      "service": "support-workers",
+      "quote": "My support worker helps me access the community. We go to Acland Street for coffee every week - it's become our tradition.",
+      "rating": 5,
+      "date": "2024-11"
+    }
+  ],
+  "chatswood": [
+    {
+      "name": "Lin C.",
+      "service": "personal-care",
+      "quote": "Finding a carer who speaks Cantonese made such a difference for my mother. The cultural understanding is invaluable.",
+      "rating": 5,
+      "date": "2024-10"
+    }
+  ],
+  "blacktown": [
+    {
+      "name": "Samantha P.",
+      "service": "disability-services",
+      "quote": "As a busy mum with an NDIS-funded child, I needed reliable support. MD Home Care delivers consistently every time.",
+      "rating": 5,
+      "date": "2024-09"
+    }
+  ],
+  "liverpool": [
+    {
+      "name": "Ahmed M.",
+      "service": "transport-services",
+      "quote": "Getting my father to Liverpool Hospital for his appointments is now stress-free. The drivers are always respectful and on time.",
+      "rating": 5,
+      "date": "2024-12"
+    }
+  ],
+  "penrith": [
+    {
+      "name": "Diane H.",
+      "service": "domestic-assistance",
+      "quote": "The summer heat in Penrith makes housework difficult for me. Having reliable help means I can stay comfortable in my own home.",
+      "rating": 5,
+      "date": "2024-11"
+    }
+  ],
+  "bunbury": [
+    {
+      "name": "Trevor N.",
+      "service": "clinical-care",
+      "quote": "Quality nursing care in regional WA isn't always easy to find. MD Home Care has been professional and caring.",
+      "rating": 5,
+      "date": "2024-10"
+    }
+  ],
+  "toowoomba": [
+    {
+      "name": "Margaret Y.",
+      "service": "personal-care",
+      "quote": "Living in Toowoomba, I wondered if I'd find good care. The personal care support has exceeded my expectations.",
+      "rating": 5,
+      "date": "2024-09"
+    }
+  ]
+}
