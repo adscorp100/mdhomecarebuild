@@ -2,152 +2,237 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
-const title = "About Us";
-const description = "Learn about MD Homecare, our mission, values, and dedicated team of professionals providing exceptional home care services across Melbourne and Sydney.";
-const image = "/assets/team.webp";
+const title = "About MD Home Care | Empowering Independence";
+const description = "Learn about our mission to provide world-class NDIS and aged care support. We are a team of dedicated professionals committed to dignity, choice, and independence.";
+const image = "/assets/team.webp"; // Fallback if specific one not set
 ---
 
 <BaseLayout
   title={title}
   description={description}
-  image={image}
 >
   <!-- Hero Section -->
-  <section class="hero min-h-[50vh] bg-base-200">
-    <div class="hero-content text-center">
-      <div class="max-w-3xl">
-        <h1 class="text-4xl lg:text-5xl font-extrabold text-base-content mb-6">About Us</h1>
-        <p class="text-lg text-base-content/70 leading-relaxed">
-          Welcome to MD Homecare. We are passionate about providing compassionate, high-quality home care services that help individuals and families live more independently.
-        </p>
-      </div>
-    </div>
-  </section>
+  <header class="relative min-h-[70vh] flex items-center justify-center overflow-hidden pt-20">
+      <!-- Background Image with Overlay -->
+      <div class="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed top-0" style="background-image: url('/assets/grandmawhite.webp')"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-white/80 via-white/50 to-base-100 top-0"></div>
 
-  <!-- Mission Section -->
-  <section class="py-16 px-4">
-    <div class="max-w-4xl mx-auto">
-      <div class="card bg-base-100 shadow-xl border border-base-200">
-        <div class="card-body">
-          <div class="flex items-center gap-4 mb-4">
-            <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-              <Icon name="hugeicons:target-01" class="h-6 w-6 text-primary-content" />
-            </div>
-            <h2 class="card-title text-2xl">Our Mission</h2>
+      <!-- Glass Console Frame -->
+      <div class="container-custom relative z-10 px-4 py-12">
+        <div class="max-w-4xl mx-auto text-center">
+          
+          <!-- Badge -->
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-8 tracking-wide">
+            <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+            Our Story
           </div>
-          <p class="text-base-content/70 leading-relaxed">
-            Our mission is to provide exceptional, personalized home care services that empower individuals to maintain their independence, dignity, and quality of life. We are committed to delivering compassionate support that makes a real difference in the lives of our clients and their families.
+
+          <!-- Title -->
+          <h1 class="text-5xl lg:text-7xl font-bold text-secondary mb-8 leading-[1.1] tracking-tight text-balance">
+            More Than Care. <br/><span class="text-primary">It's About Living.</span>
+          </h1>
+
+          <!-- Description -->
+          <p class="text-xl text-secondary/70 font-medium mb-10 leading-relaxed max-w-2xl mx-auto text-balance">
+            We believe that every individual deserves the opportunity to live life on their own terms. Our mission is to make that possible through compassionate, world-class support.
           </p>
+
         </div>
       </div>
-    </div>
-  </section>
+  </header>
 
-  <!-- Values Section -->
-  <section class="py-16 px-4 bg-base-200">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl font-bold text-center text-base-content mb-12">Our Values</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="card bg-base-100 shadow-md">
-          <div class="card-body text-center">
-            <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Icon name="hugeicons:favourite" class="h-8 w-8 text-primary" />
-            </div>
-            <h3 class="card-title justify-center text-xl mb-2">Compassion</h3>
-            <p class="text-base-content/70">We treat every client with kindness, empathy, and respect, understanding that each person's journey is unique.</p>
-          </div>
-        </div>
-
-        <div class="card bg-base-100 shadow-md">
-          <div class="card-body text-center">
-            <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Icon name="hugeicons:award-01" class="h-8 w-8 text-primary" />
-            </div>
-            <h3 class="card-title justify-center text-xl mb-2">Excellence</h3>
-            <p class="text-base-content/70">We strive for the highest standards in everything we do, continuously improving our services and skills.</p>
-          </div>
-        </div>
-
-        <div class="card bg-base-100 shadow-md">
-          <div class="card-body text-center">
-            <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Icon name="hugeicons:user-group" class="h-8 w-8 text-primary" />
-            </div>
-            <h3 class="card-title justify-center text-xl mb-2">Community</h3>
-            <p class="text-base-content/70">We believe in building strong connections and supporting the communities we serve across Australia.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Team Section -->
-  <section class="py-16 px-4">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="text-3xl font-bold text-center text-base-content mb-4">Our Team</h2>
-      <p class="text-center text-base-content/70 mb-12 max-w-2xl mx-auto">
-        Our dedicated team of professionals is committed to providing exceptional care and support to every client we serve.
-      </p>
-
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
-        <div class="card bg-base-100 shadow-md">
-          <div class="card-body items-center text-center">
-            <div class="avatar placeholder mb-4">
-              <div class="bg-primary text-primary-content rounded-full w-24">
-                <span class="text-3xl">JD</span>
+  <!-- Mission Statement -->
+  <section class="py-24 bg-base-100 relative">
+      <div class="container-custom">
+          <div class="max-w-4xl mx-auto text-center">
+              <Icon name="hugeicons:quote-down" class="h-12 w-12 text-primary/20 mx-auto mb-8 fill-primary/5" />
+              <h2 class="text-3xl lg:text-5xl font-bold text-secondary leading-tight mb-8">
+                  "To empower people with disability and the elderly to live with dignity, choice, and independence in the comfort of their own homes and communities."
+              </h2>
+              <div class="flex items-center justify-center gap-4">
+                  <div class="h-px w-12 bg-primary"></div>
+                  <p class="text-secondary/60 font-bold uppercase tracking-widest text-sm">Our Mission</p>
+                  <div class="h-px w-12 bg-primary"></div>
               </div>
-            </div>
-            <h3 class="card-title">Jane Doe</h3>
-            <p class="text-primary font-medium">Founder & Director</p>
-            <p class="text-base-content/60 text-sm">20+ years in healthcare management</p>
           </div>
-        </div>
-
-        <div class="card bg-base-100 shadow-md">
-          <div class="card-body items-center text-center">
-            <div class="avatar placeholder mb-4">
-              <div class="bg-secondary text-secondary-content rounded-full w-24">
-                <span class="text-3xl">JS</span>
-              </div>
-            </div>
-            <h3 class="card-title">John Smith</h3>
-            <p class="text-primary font-medium">Clinical Lead</p>
-            <p class="text-base-content/60 text-sm">Registered Nurse with 15+ years experience</p>
-          </div>
-        </div>
-
-        <div class="card bg-base-100 shadow-md">
-          <div class="card-body items-center text-center">
-            <div class="avatar placeholder mb-4">
-              <div class="bg-accent text-accent-content rounded-full w-24">
-                <span class="text-3xl">AJ</span>
-              </div>
-            </div>
-            <h3 class="card-title">Alice Johnson</h3>
-            <p class="text-primary font-medium">Care Coordinator</p>
-            <p class="text-base-content/60 text-sm">Specialist in NDIS support coordination</p>
-          </div>
-        </div>
       </div>
-    </div>
   </section>
 
-  <!-- CTA Section -->
-  <section class="py-16 px-4 bg-primary text-primary-content">
-    <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-4">Ready to Get Started?</h2>
-      <p class="text-primary-content/80 mb-8">
-        Contact us today to discuss how we can support you or your loved ones with compassionate, professional home care services.
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="/contact" class="btn btn-outline border-primary-content text-primary-content hover:bg-primary-content hover:text-primary btn-lg">
-          Contact Us
-        </a>
-        <a href="tel:+61863869999" class="btn bg-primary-content text-primary hover:bg-primary-content/90 btn-lg gap-2">
-          <Icon name="hugeicons:call-02" class="h-5 w-5" />
-          08 6386 9999
-        </a>
+  <!-- Values Section - Removed as per request -->
+  
+  <!-- The MD Difference (Visual Split) -->
+
+  <!-- The MD Difference (Visual Split) -->
+  <section class="py-32 overflow-hidden">
+      <div class="container-custom">
+          <!-- Row 1: People Over Profit -->
+          <div class="flex flex-col lg:flex-row items-center gap-16 lg:gap-24 mb-32">
+              <div class="lg:w-1/2 relative">
+                  <div class="absolute inset-0 bg-primary/10 rounded-[3rem] rotate-3 transform scale-105 z-0"></div>
+                  <img src="/assets/nurse.webp" alt="Nurse caring for patient" class="relative z-10 rounded-[3rem] shadow-2xl w-full h-auto object-cover aspect-[4/3]" />
+              </div>
+              <div class="lg:w-1/2">
+                  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wide mb-6">
+                      Our Approach
+                  </div>
+                  <h3 class="text-4xl lg:text-5xl font-bold text-secondary mb-6 leading-tight">People Over Profit. Always.</h3>
+                  <p class="text-lg text-secondary/60 mb-8 leading-relaxed">
+                      In a sector that can sometimes feel transactional, we strive to be transformational. We don't just fill shifts; we build teams around you. Our "people-first" philosophy means we invest in our staff so they can invest in you.
+                  </p>
+                  <ul class="space-y-4">
+                      <li class="flex items-start gap-3">
+                          <Icon name="hugeicons:tick-02" class="h-6 w-6 text-primary mt-0.5 shrink-0 fill-primary/10" />
+                          <span class="text-secondary/80 font-medium">Committed, long-term care teams</span>
+                      </li>
+                      <li class="flex items-start gap-3">
+                          <Icon name="hugeicons:tick-02" class="h-6 w-6 text-primary mt-0.5 shrink-0 fill-primary/10" />
+                          <span class="text-secondary/80 font-medium">Consistent rosters with familiar faces</span>
+                      </li>
+                      <li class="flex items-start gap-3">
+                          <Icon name="hugeicons:tick-02" class="h-6 w-6 text-primary mt-0.5 shrink-0 fill-primary/10" />
+                          <span class="text-secondary/80 font-medium">Regular check-ins from care coordinators</span>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+          <!-- Row 2: Clinical Excellence -->
+          <div class="flex flex-col lg:flex-row-reverse items-center gap-16 lg:gap-24 mb-32">
+              <div class="lg:w-1/2 relative">
+                  <div class="absolute inset-0 bg-secondary/5 rounded-[3rem] -rotate-3 transform scale-105 z-0"></div>
+                  <img src="/assets/physio.webp" alt="Clinical excellence" class="relative z-10 rounded-[3rem] shadow-2xl w-full h-auto object-cover aspect-[4/3]" />
+              </div>
+              <div class="lg:w-1/2">
+                  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/10 text-secondary text-xs font-bold uppercase tracking-wide mb-6">
+                      High-Intensity Care
+                  </div>
+                  <h3 class="text-4xl lg:text-5xl font-bold text-secondary mb-6 leading-tight">Clinical Excellence You Can Trust.</h3>
+                  <p class="text-lg text-secondary/60 mb-8 leading-relaxed">
+                      Complex needs require expert hands. Our services are overseen by experienced Registered Nurses who develop comprehensive care plans and provide ongoing clinical governance.
+                  </p>
+                  <p class="text-lg text-secondary/60 leading-relaxed">
+                      Whether it's wound care, catheter management, or high-intensity daily personal activities, we ensure safety and best-practice standards are met every single day.
+                  </p>
+              </div>
+          </div>
+
+          <!-- Row 3: Tailored Lifestyle -->
+          <div class="flex flex-col lg:flex-row items-center gap-16 lg:gap-24 mb-32">
+              <div class="lg:w-1/2 relative">
+                  <div class="absolute inset-0 bg-accent/10 rounded-[3rem] rotate-2 transform scale-105 z-0"></div>
+                  <img src="/assets/accessible-bathroom.webp" alt="Supported Independent Living" class="relative z-10 rounded-[3rem] shadow-2xl w-full h-auto object-cover aspect-[4/3]" />
+              </div>
+              <div class="lg:w-1/2">
+                  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 text-secondary text-xs font-bold uppercase tracking-wide mb-6">
+                      Lifestyle & Choice
+                  </div>
+                  <h3 class="text-4xl lg:text-5xl font-bold text-secondary mb-6 leading-tight">A Home, Not Just a House.</h3>
+                  <p class="text-lg text-secondary/60 mb-8 leading-relaxed">
+                      Our Supported Independent Living (SIL) and SDA options are designed to foster true independence. We believe your home should be a sanctuary that reflects your personality and preferences.
+                  </p>
+                  <p class="text-lg text-secondary/60 leading-relaxed">
+                      We work with you to create a lifestyle that balances support with freedom, ensuring you have the autonomy to make choices about your daily routine and living environment.
+                  </p>
+              </div>
+          </div>
+
+          <!-- Row 4: Community Focus -->
+          <div class="flex flex-col lg:flex-row-reverse items-center gap-16 lg:gap-24">
+              <div class="lg:w-1/2 relative">
+                  <div class="absolute inset-0 bg-primary/5 rounded-[3rem] -rotate-3 transform scale-105 z-0"></div>
+                  <img src="/assets/elderlyaboriginal.webp" alt="Community connection" class="relative z-10 rounded-[3rem] shadow-2xl w-full h-auto object-cover aspect-[4/3]" />
+              </div>
+              <div class="lg:w-1/2">
+                  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wide mb-6">
+                      Community Connection
+                  </div>
+                  <h3 class="text-4xl lg:text-5xl font-bold text-secondary mb-6 leading-tight">Deeply Rooted in Local Communities.</h3>
+                  <p class="text-lg text-secondary/60 mb-8 leading-relaxed">
+                      We understand that care doesn't happen in a vacuum—it happens in the context of your community. From Sydney to Melbourne, we have built strong networks with allied health professionals, community groups, and medical facilities to ensure you have holistic support.
+                  </p>
+                  <p class="text-lg text-secondary/60 leading-relaxed">
+                      We are proud to support participants from diverse cultural backgrounds, with a team that speaks over 20 languages and respects cultural protocols.
+                  </p>
+              </div>
+          </div>
       </div>
-    </div>
   </section>
+
+  <!-- Team/Culture Section -->
+  <section class="py-32 bg-secondary text-secondary-content relative overflow-hidden">
+      <!-- Background Elements -->
+      <div class="absolute inset-0 opacity-10 pointer-events-none bg-[url('/assets/footer-pattern.svg')] bg-repeat opacity-5"></div>
+      
+      <div class="container-custom relative z-10 text-center">
+          <div class="max-w-3xl mx-auto mb-16">
+              <h2 class="text-sm font-bold text-primary tracking-widest uppercase mb-4">Our Team</h2>
+              <h3 class="text-4xl lg:text-5xl font-bold text-white mb-6">Meet Some of Our People</h3>
+              <p class="text-xl text-white/60">
+                  Supported by experienced clinicians and disability sector experts, our team ensures that quality and safety are never compromised.
+              </p>
+          </div>
+
+          <!-- Team Grid (Placeholder for now, can be updated with real photos later) -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <!-- Team Member 1 -->
+              <div class="group">
+                  <div class="relative overflow-hidden rounded-[2.5rem] mb-6 bg-white/5 border border-white/10 aspect-square flex items-center justify-center">
+                      <img src="/assets/avatar.webp" alt="Camilla" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500" />
+                  </div>
+                  <h4 class="text-2xl font-bold text-white mb-1">Camilla</h4>
+                  <p class="text-primary font-bold uppercase tracking-wider text-xs mb-3">Healthcare Specialist</p>
+              </div>
+
+              <!-- Team Member 2 -->
+              <div class="group">
+                  <div class="relative overflow-hidden rounded-[2.5rem] mb-6 bg-white/5 border border-white/10 aspect-square flex items-center justify-center">
+                       <!-- Using a generic placeholder for variety if needed, or reuse avatar -->
+                       <div class="w-32 h-32 rounded-full bg-white/10 flex items-center justify-center text-white/20">
+                          <Icon name="hugeicons:user" class="h-16 w-16 fill-white/10" />
+                       </div>
+                  </div>
+                  <h4 class="text-2xl font-bold text-white mb-1">Dean</h4>
+                  <p class="text-primary font-bold uppercase tracking-wider text-xs mb-3">Operations Manager</p>
+              </div>
+
+              <!-- Team Member 3 -->
+              <div class="group">
+                  <div class="relative overflow-hidden rounded-[2.5rem] mb-6 bg-white/5 border border-white/10 aspect-square flex items-center justify-center">
+                      <div class="w-32 h-32 rounded-full bg-white/10 flex items-center justify-center text-white/20">
+                          <Icon name="hugeicons:user" class="h-16 w-16 fill-white/10" />
+                       </div>
+                  </div>
+                  <h4 class="text-2xl font-bold text-white mb-1">Karen</h4>
+                  <p class="text-primary font-bold uppercase tracking-wider text-xs mb-3">Intake Team</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Trust CTA -->
+  <section class="py-32 bg-base-100">
+      <div class="container-custom">
+          <div class="bg-primary rounded-[3rem] p-12 lg:p-24 text-center relative overflow-hidden shadow-2xl shadow-primary/30">
+              <!-- Decorative Circles -->
+              <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/3 w-[600px] h-[600px] bg-white/10 rounded-full blur-3xl pointer-events-none"></div>
+              <div class="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/3 w-[600px] h-[600px] bg-white/10 rounded-full blur-3xl pointer-events-none"></div>
+
+              <div class="relative z-10 max-w-3xl mx-auto">
+                  <h2 class="text-4xl lg:text-6xl font-bold text-white mb-8 tracking-tight">Experience the MD Difference.</h2>
+                  <p class="text-xl text-white/90 mb-12 leading-relaxed">
+                      Whether you need 24/7 complex care or just a little help around the house, we are here to support your journey.
+                  </p>
+                  <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                      <a href="/contact" class="btn btn-lg bg-white text-primary hover:bg-base-100 border-none shadow-xl rounded-full px-10 font-bold">
+                          Get in Touch
+                      </a>
+                      <a href="/services" class="btn btn-lg btn-outline text-white border-white/40 hover:bg-white/10 hover:border-white rounded-full px-10">
+                          View Services
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
 </BaseLayout>
