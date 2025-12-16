@@ -5,6 +5,12 @@ pubDate: 2025-07-04
 category: "Health Services"
 image: "/assets/clinic.webp"
 keywords: ["community nursing", "wound care", "medication management", "home nursing", "clinical care"]
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## Expert Nursing Care in {suburb}, One Task at a Time.

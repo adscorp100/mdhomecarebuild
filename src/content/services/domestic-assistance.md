@@ -9,6 +9,12 @@ keywords:
   - "in-home support {suburb}"
   - "household tasks ndis"
   - "aged care home help"
+quickFacts:
+  costRange: "$45-$65/hour (subsidised rates for eligible clients)"
+  fundingOptions: "Home Care Packages, CHSP, DVA, Private"
+  availability: "Monday to Saturday"
+  serviceHours: "Regular weekly or fortnightly scheduling"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # Helping You Live Independently and In Control of Your Home

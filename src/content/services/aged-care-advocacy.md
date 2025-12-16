@@ -5,6 +5,12 @@ pubDate: 2025-07-04
 category: "Aged Care"
 image: "/assets/elderlyaboriginal.webp"
 keywords: ["aged care navigation {suburb}", "aged care consultant", "help with my aged care", "aged care support"]
+quickFacts:
+  costRange: "$100-$190/hour (NDIS price guide)"
+  fundingOptions: "NDIS Capacity Building - Support Coordination"
+  availability: "Weekdays"
+  serviceHours: "Business hours with flexible appointments"
+  waitTime: "Usually within 1 week"
 ---
 
 # Stop Fighting the Aged Care System. Get an Expert on Your Side.

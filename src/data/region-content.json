@@ -1,0 +1,268 @@
+{
+  "Greater Sydney": {
+    "localInsight": "Sydney's diverse communities benefit from our multilingual support workers fluent in Mandarin, Arabic, Greek, Vietnamese, and many other languages. Our team understands the unique needs of Australia's largest city.",
+    "nearbyHospitals": ["Royal Prince Alfred Hospital", "St Vincent's Hospital", "Westmead Hospital", "Prince of Wales Hospital"],
+    "transportNote": "Excellent public transport access via trains, buses, light rail, and ferries throughout the Sydney metropolitan area.",
+    "ndisOffice": "NDIS Local Area Coordinator services available through St Vincent de Paul Society NSW and other partners.",
+    "populationNote": "Greater Sydney is home to over 5 million residents, with a growing aged care and disability support sector."
+  },
+  "Eastern Suburbs": {
+    "localInsight": "Our Eastern Suburbs team understands the unique needs of this vibrant coastal community, from Bondi to Coogee and beyond.",
+    "nearbyHospitals": ["Prince of Wales Hospital", "Sydney Children's Hospital Randwick", "St Vincent's Hospital"],
+    "transportNote": "Well-connected by bus services and the new light rail to the CBD. Beach-accessible services available.",
+    "ndisOffice": "NDIS support coordination available through local Eastern Suburbs providers.",
+    "populationNote": "The Eastern Suburbs has a significant elderly population requiring quality in-home care services."
+  },
+  "Inner West": {
+    "localInsight": "The Inner West's close-knit communities value personalized, relationship-based care. Our local team has deep roots in areas from Newtown to Burwood.",
+    "nearbyHospitals": ["Royal Prince Alfred Hospital", "Canterbury Hospital", "Concord Repatriation General Hospital"],
+    "transportNote": "Excellent train and bus connections throughout the Inner West, with metro services expanding coverage.",
+    "ndisOffice": "Multiple NDIS providers and support coordinators operating in the Inner West region.",
+    "populationNote": "The Inner West has a diverse demographic with strong demand for both aged care and disability services."
+  },
+  "North Shore": {
+    "localInsight": "Our North Shore team provides premium care services to residents from Mosman to Hornsby, understanding the high standards expected in this area.",
+    "nearbyHospitals": ["Royal North Shore Hospital", "Mater Hospital North Sydney", "Hornsby Ku-ring-gai Hospital"],
+    "transportNote": "Well-serviced by train lines and buses, with easy access to major hospitals.",
+    "ndisOffice": "NDIS Local Area Coordinators available through Mission Australia and other partners.",
+    "populationNote": "The North Shore has one of Sydney's highest proportions of residents aged 65+."
+  },
+  "Lower North Shore": {
+    "localInsight": "From Neutral Bay to Lane Cove, our Lower North Shore carers provide attentive support to this established residential area.",
+    "nearbyHospitals": ["Royal North Shore Hospital", "Mater Hospital North Sydney"],
+    "transportNote": "Ferry, bus, and train services provide excellent connectivity to the CBD and beyond.",
+    "ndisOffice": "Comprehensive NDIS support services available locally.",
+    "populationNote": "The Lower North Shore has a well-established aged care community with diverse support needs."
+  },
+  "Upper North Shore": {
+    "localInsight": "Our Upper North Shore team serves the leafy suburbs from Gordon to Wahroonga with care that matches the area's family-focused values.",
+    "nearbyHospitals": ["Hornsby Ku-ring-gai Hospital", "Sydney Adventist Hospital"],
+    "transportNote": "Train services along the North Shore line, with bus connections to local areas.",
+    "ndisOffice": "NDIS support coordination available through established local providers.",
+    "populationNote": "Many Upper North Shore families require aged care support for elderly parents living independently."
+  },
+  "Northern Sydney": {
+    "localInsight": "From Ryde to Eastwood, our Northern Sydney team combines professional care with understanding of the area's multicultural communities.",
+    "nearbyHospitals": ["Ryde Hospital", "Royal North Shore Hospital", "Macquarie University Hospital"],
+    "transportNote": "Metro Northwest and bus services provide good coverage throughout Northern Sydney.",
+    "ndisOffice": "Multiple NDIS registered providers service the Northern Sydney region.",
+    "populationNote": "Northern Sydney has significant Chinese, Korean, and Indian communities requiring culturally appropriate care."
+  },
+  "Northern Beaches": {
+    "localInsight": "Our Northern Beaches team understands the relaxed coastal lifestyle from Manly to Palm Beach, providing care that fits this unique community.",
+    "nearbyHospitals": ["Northern Beaches Hospital", "Mona Vale Hospital"],
+    "transportNote": "B-Line bus services connect the Northern Beaches to the city, with local bus networks throughout.",
+    "ndisOffice": "NDIS services coordinated through Northern Beaches-based providers.",
+    "populationNote": "The Northern Beaches has an ageing population with strong demand for in-home support services."
+  },
+  "Hills District": {
+    "localInsight": "From Castle Hill to Kellyville, our Hills District team serves this rapidly growing family-oriented area with reliable, consistent care.",
+    "nearbyHospitals": ["Westmead Hospital", "Norwest Private Hospital", "Hills Private Hospital"],
+    "transportNote": "Sydney Metro Northwest provides excellent connections, supplemented by bus services.",
+    "ndisOffice": "Growing NDIS provider network in the Hills District to meet increasing demand.",
+    "populationNote": "The Hills District is one of Sydney's fastest-growing areas with increasing aged care needs."
+  },
+  "Western Sydney": {
+    "localInsight": "Our Western Sydney team provides essential care services across this diverse region, from Parramatta to Penrith and beyond.",
+    "nearbyHospitals": ["Westmead Hospital", "Blacktown Hospital", "Nepean Hospital", "Auburn Hospital"],
+    "transportNote": "Extensive train and bus networks, with Sydney Metro West under construction.",
+    "ndisOffice": "Strong NDIS provider presence throughout Western Sydney to support the large participant base.",
+    "populationNote": "Western Sydney has one of Australia's largest populations of NDIS participants and aged care recipients."
+  },
+  "South Western Sydney": {
+    "localInsight": "From Liverpool to Campbelltown, our South Western Sydney team delivers culturally sensitive care to this diverse community.",
+    "nearbyHospitals": ["Liverpool Hospital", "Campbelltown Hospital", "Bankstown-Lidcombe Hospital", "Fairfield Hospital"],
+    "transportNote": "Train services on the T2, T3, and T8 lines, with comprehensive bus networks.",
+    "ndisOffice": "Major NDIS service hub with numerous registered providers serving the South Western Sydney region.",
+    "populationNote": "South Western Sydney has significant Vietnamese, Arabic, and Pacific Islander communities requiring culturally appropriate care."
+  },
+  "St George": {
+    "localInsight": "Our St George area team serves communities from Kogarah to Hurstville with care that respects the area's strong family values.",
+    "nearbyHospitals": ["St George Hospital", "Sutherland Hospital"],
+    "transportNote": "T4 train line and bus services provide good connectivity throughout the St George area.",
+    "ndisOffice": "NDIS support services well-established in the St George region.",
+    "populationNote": "The St George area has a significant Greek and Chinese community with specific care preferences."
+  },
+  "Sutherland Shire": {
+    "localInsight": "From Cronulla to Engadine, our Sutherland Shire team understands the tight-knit community values of 'The Shire'.",
+    "nearbyHospitals": ["Sutherland Hospital", "St George Hospital"],
+    "transportNote": "T4 Cronulla line and bus services connect the Shire to Sydney and local areas.",
+    "ndisOffice": "Local NDIS providers service the Sutherland Shire community.",
+    "populationNote": "The Sutherland Shire has a stable population with growing demand for aged care services."
+  },
+  "Greater Melbourne": {
+    "localInsight": "Melbourne's diverse communities benefit from our culturally aware support workers who understand the city's unique character and values.",
+    "nearbyHospitals": ["Royal Melbourne Hospital", "Alfred Hospital", "St Vincent's Hospital Melbourne", "Austin Hospital"],
+    "transportNote": "Excellent tram, train, and bus networks throughout metropolitan Melbourne.",
+    "ndisOffice": "NDIS Local Area Coordinators available through Brotherhood of St Laurence and other partners.",
+    "populationNote": "Greater Melbourne is home to over 5 million residents with a comprehensive disability and aged care support network."
+  },
+  "Melbourne Inner": {
+    "localInsight": "Our inner Melbourne team serves the CBD and surrounding suburbs with convenient, responsive care services.",
+    "nearbyHospitals": ["Royal Melbourne Hospital", "St Vincent's Hospital Melbourne", "Peter MacCallum Cancer Centre"],
+    "transportNote": "Extensive tram network and train services provide excellent accessibility.",
+    "ndisOffice": "Multiple NDIS providers operate within inner Melbourne.",
+    "populationNote": "Inner Melbourne has a diverse population including students, professionals, and retirees requiring varied care services."
+  },
+  "Melbourne Eastern": {
+    "localInsight": "From Box Hill to Doncaster, our Eastern Melbourne team delivers quality care to established suburban communities.",
+    "nearbyHospitals": ["Box Hill Hospital", "Maroondah Hospital", "Eastern Health facilities"],
+    "transportNote": "Train services and extensive bus networks throughout Melbourne's eastern suburbs.",
+    "ndisOffice": "Strong NDIS provider presence in Melbourne's east.",
+    "populationNote": "Melbourne's eastern suburbs have significant Chinese communities and a growing elderly population."
+  },
+  "Melbourne Western": {
+    "localInsight": "Our Western Melbourne team serves diverse communities from Footscray to Werribee with culturally appropriate care.",
+    "nearbyHospitals": ["Western Hospital Footscray", "Sunshine Hospital", "Werribee Mercy Hospital"],
+    "transportNote": "Train services on multiple lines, with bus connections throughout the western suburbs.",
+    "ndisOffice": "Major NDIS service providers operate throughout Melbourne's west.",
+    "populationNote": "Western Melbourne is one of Australia's fastest-growing regions with increasing care service demands."
+  },
+  "Melbourne Northern": {
+    "localInsight": "From Brunswick to Epping, our Northern Melbourne team provides care that reflects the area's vibrant, multicultural character.",
+    "nearbyHospitals": ["Austin Hospital", "Northern Hospital Epping", "Mercy Hospital for Women"],
+    "transportNote": "South Morang train line and extensive bus services throughout the northern suburbs.",
+    "ndisOffice": "Established NDIS provider network in Melbourne's north.",
+    "populationNote": "Northern Melbourne has large Italian, Greek, and Middle Eastern communities with specific care needs."
+  },
+  "Melbourne South Eastern": {
+    "localInsight": "Our South Eastern Melbourne team serves communities from Dandenong to Frankston with responsive, reliable care.",
+    "nearbyHospitals": ["Monash Medical Centre", "Dandenong Hospital", "Frankston Hospital", "Casey Hospital"],
+    "transportNote": "Train services on the Pakenham, Cranbourne, and Frankston lines with comprehensive bus networks.",
+    "ndisOffice": "Major NDIS service hub with numerous providers in South Eastern Melbourne.",
+    "populationNote": "South Eastern Melbourne has significant Indian, Sri Lankan, and Afghan communities requiring culturally sensitive care."
+  },
+  "Mornington Peninsula": {
+    "localInsight": "Our Mornington Peninsula team understands the coastal lifestyle from Frankston to Rosebud, providing care that suits this relaxed community.",
+    "nearbyHospitals": ["Frankston Hospital", "Rosebud Hospital", "Peninsula Private Hospital"],
+    "transportNote": "Bus services connect peninsula communities, with train access at Frankston.",
+    "ndisOffice": "NDIS services available through peninsula-based providers.",
+    "populationNote": "The Mornington Peninsula has one of Victoria's highest proportions of residents aged 65+."
+  },
+  "Greater Brisbane": {
+    "localInsight": "Brisbane's subtropical lifestyle shapes our care approach, with support workers who understand the city's friendly, outdoor-focused culture.",
+    "nearbyHospitals": ["Royal Brisbane and Women's Hospital", "Princess Alexandra Hospital", "Mater Hospital Brisbane"],
+    "transportNote": "Extensive bus and train networks, with ferry services along the Brisbane River.",
+    "ndisOffice": "NDIS Local Area Coordinators available through Carers Queensland and other partners.",
+    "populationNote": "Greater Brisbane is Australia's third-largest city with a rapidly growing aged care and disability sector."
+  },
+  "Brisbane Inner": {
+    "localInsight": "Our Brisbane CBD and inner suburbs team provides convenient care services to city residents and workers.",
+    "nearbyHospitals": ["Royal Brisbane and Women's Hospital", "Mater Hospital Brisbane"],
+    "transportNote": "Excellent public transport including buses, trains, and CityCat ferries.",
+    "ndisOffice": "Multiple NDIS registered providers operate in inner Brisbane.",
+    "populationNote": "Inner Brisbane has a diverse population with varied care requirements."
+  },
+  "Brisbane Southside": {
+    "localInsight": "From Woolloongabba to Logan, our Brisbane Southside team serves this diverse region with culturally responsive care.",
+    "nearbyHospitals": ["Princess Alexandra Hospital", "Logan Hospital", "Queen Elizabeth II Jubilee Hospital"],
+    "transportNote": "Train services on multiple lines with comprehensive bus networks.",
+    "ndisOffice": "Strong NDIS provider presence throughout Brisbane's south.",
+    "populationNote": "Brisbane's southside has significant Pacific Islander and Asian communities."
+  },
+  "Brisbane Northside": {
+    "localInsight": "Our Brisbane Northside team serves communities from Chermside to Redcliffe with reliable, quality care.",
+    "nearbyHospitals": ["Prince Charles Hospital", "Redcliffe Hospital", "North West Private Hospital"],
+    "transportNote": "Bus and train services throughout Brisbane's northern suburbs.",
+    "ndisOffice": "Established NDIS provider network in Brisbane's north.",
+    "populationNote": "Brisbane's northside has a growing elderly population requiring in-home support."
+  },
+  "Gold Coast": {
+    "localInsight": "Our Gold Coast team provides care that suits the relaxed coastal lifestyle, from Southport to Coolangatta.",
+    "nearbyHospitals": ["Gold Coast University Hospital", "Robina Hospital", "John Flynn Private Hospital"],
+    "transportNote": "G:link light rail and extensive bus services throughout the Gold Coast.",
+    "ndisOffice": "NDIS services well-established throughout the Gold Coast region.",
+    "populationNote": "The Gold Coast has a significant retiree population with strong demand for aged care services."
+  },
+  "Sunshine Coast": {
+    "localInsight": "From Caloundra to Noosa, our Sunshine Coast team understands the laid-back lifestyle of this beautiful region.",
+    "nearbyHospitals": ["Sunshine Coast University Hospital", "Nambour Hospital", "Noosa Hospital"],
+    "transportNote": "Bus services connect Sunshine Coast communities, with train access at Nambour.",
+    "ndisOffice": "Growing NDIS provider network on the Sunshine Coast.",
+    "populationNote": "The Sunshine Coast has one of Queensland's highest proportions of residents aged 65+."
+  },
+  "Greater Perth": {
+    "localInsight": "Perth's relaxed lifestyle and strong community values shape our care approach across Western Australia's capital.",
+    "nearbyHospitals": ["Royal Perth Hospital", "Sir Charles Gairdner Hospital", "Fiona Stanley Hospital"],
+    "transportNote": "Extensive train and bus networks, with ferry services on the Swan River.",
+    "ndisOffice": "NDIS Local Area Coordinators available through APM and other WA partners.",
+    "populationNote": "Greater Perth is home to over 2 million residents with a comprehensive care service network."
+  },
+  "Perth Inner": {
+    "localInsight": "Our Perth CBD and inner suburbs team provides responsive care to city residents.",
+    "nearbyHospitals": ["Royal Perth Hospital", "Sir Charles Gairdner Hospital"],
+    "transportNote": "Free CAT buses in the CBD, with train and bus services throughout inner Perth.",
+    "ndisOffice": "Multiple NDIS providers service inner Perth.",
+    "populationNote": "Inner Perth has a diverse population with varied care needs."
+  },
+  "Perth Northern": {
+    "localInsight": "From Joondalup to Wanneroo, our Perth Northern team serves this rapidly growing corridor with quality care.",
+    "nearbyHospitals": ["Joondalup Health Campus", "Sir Charles Gairdner Hospital"],
+    "transportNote": "Joondalup train line and bus services throughout Perth's northern suburbs.",
+    "ndisOffice": "Growing NDIS provider presence in Perth's north.",
+    "populationNote": "Perth's northern corridor is one of Australia's fastest-growing regions."
+  },
+  "Perth Southern": {
+    "localInsight": "Our Perth Southern team serves communities from Fremantle to Rockingham with reliable, community-focused care.",
+    "nearbyHospitals": ["Fiona Stanley Hospital", "Fremantle Hospital", "Rockingham General Hospital"],
+    "transportNote": "Train services on the Fremantle and Mandurah lines with comprehensive bus networks.",
+    "ndisOffice": "Established NDIS provider network in Perth's south.",
+    "populationNote": "Perth's southern suburbs have a diverse population requiring varied care services."
+  },
+  "Greater Adelaide": {
+    "localInsight": "Adelaide's village-like atmosphere and strong community bonds shape our personalized approach to care.",
+    "nearbyHospitals": ["Royal Adelaide Hospital", "Flinders Medical Centre", "Queen Elizabeth Hospital"],
+    "transportNote": "Tram, train, and bus services throughout metropolitan Adelaide.",
+    "ndisOffice": "NDIS Local Area Coordinators available through Mission Australia and other SA partners.",
+    "populationNote": "Greater Adelaide has a higher proportion of elderly residents than other major Australian cities."
+  },
+  "Adelaide Inner": {
+    "localInsight": "Our Adelaide CBD and inner suburbs team provides convenient care to city residents.",
+    "nearbyHospitals": ["Royal Adelaide Hospital", "Women's and Children's Hospital"],
+    "transportNote": "Free city tram and comprehensive bus services in inner Adelaide.",
+    "ndisOffice": "Multiple NDIS providers operate in inner Adelaide.",
+    "populationNote": "Inner Adelaide has diverse care needs across all age groups."
+  },
+  "Greater Hobart": {
+    "localInsight": "Our Hobart team understands Tasmania's close-knit communities and provides care with a personal touch.",
+    "nearbyHospitals": ["Royal Hobart Hospital", "Calvary Lenah Valley Hospital"],
+    "transportNote": "Bus services throughout greater Hobart.",
+    "ndisOffice": "NDIS services coordinated through Tasmanian providers.",
+    "populationNote": "Tasmania has Australia's oldest population demographic, with significant aged care needs."
+  },
+  "Greater Darwin": {
+    "localInsight": "Our Darwin team provides care suited to the Top End's unique tropical lifestyle and diverse multicultural community.",
+    "nearbyHospitals": ["Royal Darwin Hospital", "Darwin Private Hospital"],
+    "transportNote": "Bus services throughout Darwin and surrounding areas.",
+    "ndisOffice": "NDIS services available through NT-based providers.",
+    "populationNote": "Darwin has significant Indigenous and Asian communities requiring culturally appropriate care."
+  },
+  "Canberra": {
+    "localInsight": "Our Canberra team serves the nation's capital with professional care that matches the city's high standards.",
+    "nearbyHospitals": ["Canberra Hospital", "Calvary Public Hospital"],
+    "transportNote": "Light rail and ACTION bus services throughout Canberra.",
+    "ndisOffice": "NDIS services well-established throughout the ACT.",
+    "populationNote": "Canberra has a highly educated population with specific expectations for quality care services."
+  },
+  "Regional NSW": {
+    "localInsight": "Our regional NSW teams understand the unique challenges of country living and provide reliable care across vast distances.",
+    "nearbyHospitals": ["Local regional hospitals vary by area"],
+    "transportNote": "Regional train and bus services connect major towns. We provide transport assistance in remote areas.",
+    "ndisOffice": "NDIS services available through regional NSW providers.",
+    "populationNote": "Regional NSW communities have strong support networks but limited access to metropolitan services."
+  },
+  "Regional Victoria": {
+    "localInsight": "From Geelong to Bendigo, our regional Victorian teams provide care that reflects country Victoria's community values.",
+    "nearbyHospitals": ["Local regional hospitals vary by area"],
+    "transportNote": "V/Line train services connect major regional centres.",
+    "ndisOffice": "NDIS services available through regional Victorian providers.",
+    "populationNote": "Regional Victoria has a higher proportion of elderly residents than metropolitan Melbourne."
+  },
+  "Regional Queensland": {
+    "localInsight": "Our regional Queensland teams serve communities from Cairns to Toowoomba with care suited to Queensland's diverse landscapes.",
+    "nearbyHospitals": ["Local regional hospitals vary by area"],
+    "transportNote": "Regional bus and limited train services. We assist with transport in remote areas.",
+    "ndisOffice": "NDIS services available through regional Queensland providers.",
+    "populationNote": "Regional Queensland has significant Indigenous communities and growing retiree populations."
+  }
+}

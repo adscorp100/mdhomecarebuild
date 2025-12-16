@@ -5,6 +5,12 @@ pubDate: 2025-05-18
 category: "Mental Health Support"
 image: "/assets/two women looking at alarm.webp"
 keywords: ["psychosocial recovery coach {suburb}", "ndis recovery coach {suburb}", "psychosocial disability ndis", "ndis mental health"]
+quickFacts:
+  costRange: "$100-$190/hour (NDIS price guide)"
+  fundingOptions: "NDIS Capacity Building - Support Coordination"
+  availability: "Weekdays"
+  serviceHours: "Business hours with flexible appointments"
+  waitTime: "Usually within 1 week"
 ---
 
 # Take Control of Your Mental Health Journey with a Recovery Coach in {suburb}

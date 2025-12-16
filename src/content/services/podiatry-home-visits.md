@@ -5,6 +5,12 @@ pubDate: 2025-03-20
 category: "Allied Health"
 image: "/assets/clinic.webp"
 keywords: ["mobile podiatrist {suburb}", "home visit podiatrist {suburb}", "podiatry home visits {suburb}", "in-home foot care"]
+quickFacts:
+  costRange: "$150-$250/hour (NDIS price guide rates)"
+  fundingOptions: "NDIS Capacity Building, Home Care Packages, Medicare, Private"
+  availability: "Weekdays, some weekend availability"
+  serviceHours: "By appointment"
+  waitTime: "1-3 weeks depending on therapist availability"
 ---
 
 ## Healthy Feet, Happy Life: Expert Podiatry in Your {suburb} Home

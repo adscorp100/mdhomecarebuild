@@ -5,6 +5,12 @@ pubDate: 2025-07-04
 category: "Aged Care Services"
 image: "/assets/carer.webp"
 keywords: ["aged care services", "home care", "residential care", "in-home support", "aged care options"]
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## Navigating Aged Care? Let's Make It Simple.

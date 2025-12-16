@@ -5,6 +5,12 @@ pubDate: 2025-07-04
 category: "Disability Services"
 image: "/assets/occupationaltherapy.webp"
 keywords: ["assistive technology assessment", "occupational therapy", "ndis", "at assessment", "disability support"]
+quickFacts:
+  costRange: "$150-$250/hour (NDIS price guide rates)"
+  fundingOptions: "NDIS Capacity Building, Home Care Packages, Medicare, Private"
+  availability: "Weekdays, some weekend availability"
+  serviceHours: "By appointment"
+  waitTime: "1-3 weeks depending on therapist availability"
 ---
 
 ## Find the Right Tools in {suburb}: What to Expect from an Assistive Technology Assessment.

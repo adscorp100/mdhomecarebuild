@@ -5,6 +5,12 @@ pubDate: 2025-07-04
 category: "Aged Care"
 image: "/assets/physio.webp"
 keywords: ["in-home therapy {suburb}", "home physiotherapy", "occupational therapy at home", "allied health {suburb}"]
+quickFacts:
+  costRange: "$150-$250/hour (NDIS price guide rates)"
+  fundingOptions: "NDIS Capacity Building, Home Care Packages, Medicare, Private"
+  availability: "Weekdays, some weekend availability"
+  serviceHours: "By appointment"
+  waitTime: "1-3 weeks depending on therapist availability"
 ---
 
 # Stay Safe, Mobile, and Independent with In-Home Therapy

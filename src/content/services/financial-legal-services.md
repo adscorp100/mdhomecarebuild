@@ -5,6 +5,12 @@ pubDate: 2025-02-23
 category: "Support Services"
 image: "/assets/deceasedestate.webp"
 keywords: []
+quickFacts:
+  costRange: "$100-$190/hour (NDIS price guide)"
+  fundingOptions: "NDIS Capacity Building - Support Coordination"
+  availability: "Weekdays"
+  serviceHours: "Business hours with flexible appointments"
+  waitTime: "Usually within 1 week"
 ---
 
 ## Financial & Legal Services for Disability & Aged Care in {suburb}

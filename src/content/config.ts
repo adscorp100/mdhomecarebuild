@@ -21,6 +21,14 @@ const services = defineCollection({
     category: z.string(),
     image: z.string().optional(),
     keywords: z.array(z.string()).default([]),
+    // Quick Facts for featured snippet optimization and CTR improvement
+    quickFacts: z.object({
+      costRange: z.string().optional(),
+      fundingOptions: z.string().optional(),
+      availability: z.string().optional(),
+      serviceHours: z.string().optional(),
+      waitTime: z.string().optional(),
+    }).optional(),
   }),
 });
 

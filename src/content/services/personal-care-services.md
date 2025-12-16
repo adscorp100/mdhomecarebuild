@@ -5,6 +5,12 @@ pubDate: 2025-03-15
 category: "Daily Living Support"
 image: "/assets/drinkingtea.webp"
 keywords: ["personal care services {suburb}", "in-home personal care {suburb}", "personal care assistance {suburb}", "daily living support {suburb}"]
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## Respectful Personal Care Services to Support Your Independence in {suburb}

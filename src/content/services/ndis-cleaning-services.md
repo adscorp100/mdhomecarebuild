@@ -5,6 +5,12 @@ pubDate: 2025-02-23
 category: "Domestic Support"
 image: "/assets/homecare.webp"
 keywords: ["ndis cleaning services {suburb}", "ndis domestic assistance {suburb}", "ndis household support", "ndis cleaning", "domestic assistance ndis {suburb}", "household tasks ndis"]
+quickFacts:
+  costRange: "$45-$65/hour (subsidised rates for eligible clients)"
+  fundingOptions: "Home Care Packages, CHSP, DVA, Private"
+  availability: "Monday to Saturday"
+  serviceHours: "Regular weekly or fortnightly scheduling"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # NDIS Cleaning Services {suburb} - Professional Domestic Assistance

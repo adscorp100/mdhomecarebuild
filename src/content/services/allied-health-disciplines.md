@@ -5,6 +5,12 @@ pubDate: 2025-07-04
 category: "Health Services"
 image: "/assets/physio.webp"
 keywords: ["allied health", "occupational therapy", "physiotherapy", "speech pathology", "dietetics", "podiatry"]
+quickFacts:
+  costRange: "$150-$250/hour (NDIS price guide rates)"
+  fundingOptions: "NDIS Capacity Building, Home Care Packages, Medicare, Private"
+  availability: "Weekdays, some weekend availability"
+  serviceHours: "By appointment"
+  waitTime: "1-3 weeks depending on therapist availability"
 ---
 
 ## A Clear Guide to Allied Health Services

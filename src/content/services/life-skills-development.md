@@ -5,6 +5,12 @@ pubDate: 2025-05-01
 category: "Skill Development"
 image: "/assets/drinkingtea.webp"
 keywords: []
+quickFacts:
+  costRange: "$50-$70/hour (group rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## Life Skills Development Services in {suburb}

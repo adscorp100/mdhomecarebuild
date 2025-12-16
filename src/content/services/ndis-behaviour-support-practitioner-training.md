@@ -5,6 +5,12 @@ pubDate: 2025-07-02
 category: "Training"
 image: "/assets/downs.webp"
 keywords: ["behaviour support practitioner course {suburb}", "ndis training {suburb}", "positive behaviour support training", "bsp qualifications", "ndis jobs {suburb}"]
+quickFacts:
+  costRange: "$150-$214/hour (NDIS price guide)"
+  fundingOptions: "NDIS Capacity Building"
+  availability: "By appointment"
+  serviceHours: "Weekdays with some evening availability"
+  waitTime: "2-4 weeks for initial assessment"
 ---
 
 # Start a Rewarding Career as an NDIS Behaviour Support Practitioner

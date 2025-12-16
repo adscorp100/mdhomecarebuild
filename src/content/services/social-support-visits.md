@@ -9,6 +9,12 @@ keywords:
   - "elderly companionship {suburb}"
   - "in-home companion care {suburb}"
   - "loneliness support for elderly"
+quickFacts:
+  costRange: "$50-$70/hour (group rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # Your Trusted Partner for Companion Care in {suburb}

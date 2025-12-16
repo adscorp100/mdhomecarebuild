@@ -1,0 +1,723 @@
+{
+  "sydney": {
+    "displayName": "Sydney CBD",
+    "population": "Over 5 million (Greater Sydney)",
+    "elderlyPercent": "14.2%",
+    "ndisParticipants": "90,000+ in Greater Sydney",
+    "localCouncil": "City of Sydney",
+    "nearestHospital": "Royal Prince Alfred Hospital",
+    "postcode": "2000"
+  },
+  "cbd": {
+    "displayName": "Sydney CBD",
+    "population": "17,000 (CBD only)",
+    "elderlyPercent": "8%",
+    "localCouncil": "City of Sydney",
+    "nearestHospital": "St Vincent's Hospital",
+    "postcode": "2000"
+  },
+  "bondi": {
+    "displayName": "Bondi",
+    "population": "11,500",
+    "elderlyPercent": "9.8%",
+    "localCouncil": "Waverley Council",
+    "nearestHospital": "Prince of Wales Hospital",
+    "postcode": "2026"
+  },
+  "bondi-beach": {
+    "displayName": "Bondi Beach",
+    "population": "10,800",
+    "elderlyPercent": "8.5%",
+    "localCouncil": "Waverley Council",
+    "nearestHospital": "Prince of Wales Hospital",
+    "postcode": "2026"
+  },
+  "bondi-junction": {
+    "displayName": "Bondi Junction",
+    "population": "9,600",
+    "elderlyPercent": "11%",
+    "localCouncil": "Waverley Council",
+    "nearestHospital": "Prince of Wales Hospital",
+    "postcode": "2022"
+  },
+  "parramatta": {
+    "displayName": "Parramatta",
+    "population": "30,000",
+    "elderlyPercent": "10%",
+    "ndisParticipants": "15,000+ in Western Sydney",
+    "localCouncil": "City of Parramatta",
+    "nearestHospital": "Westmead Hospital",
+    "postcode": "2150"
+  },
+  "chatswood": {
+    "displayName": "Chatswood",
+    "population": "26,000",
+    "elderlyPercent": "15%",
+    "localCouncil": "Willoughby City Council",
+    "nearestHospital": "Royal North Shore Hospital",
+    "postcode": "2067"
+  },
+  "manly": {
+    "displayName": "Manly",
+    "population": "16,000",
+    "elderlyPercent": "12%",
+    "localCouncil": "Northern Beaches Council",
+    "nearestHospital": "Northern Beaches Hospital",
+    "postcode": "2095"
+  },
+  "newtown": {
+    "displayName": "Newtown",
+    "population": "15,000",
+    "elderlyPercent": "7%",
+    "localCouncil": "Inner West Council",
+    "nearestHospital": "Royal Prince Alfred Hospital",
+    "postcode": "2042"
+  },
+  "surry-hills": {
+    "displayName": "Surry Hills",
+    "population": "16,000",
+    "elderlyPercent": "8%",
+    "localCouncil": "City of Sydney",
+    "nearestHospital": "St Vincent's Hospital",
+    "postcode": "2010"
+  },
+  "randwick": {
+    "displayName": "Randwick",
+    "population": "30,000",
+    "elderlyPercent": "13%",
+    "localCouncil": "Randwick City Council",
+    "nearestHospital": "Prince of Wales Hospital",
+    "postcode": "2031"
+  },
+  "melbourne": {
+    "displayName": "Melbourne CBD",
+    "population": "Over 5 million (Greater Melbourne)",
+    "elderlyPercent": "13.8%",
+    "ndisParticipants": "85,000+ in Greater Melbourne",
+    "localCouncil": "City of Melbourne",
+    "nearestHospital": "Royal Melbourne Hospital",
+    "postcode": "3000"
+  },
+  "st-kilda": {
+    "displayName": "St Kilda",
+    "population": "20,000",
+    "elderlyPercent": "12%",
+    "localCouncil": "City of Port Phillip",
+    "nearestHospital": "Alfred Hospital",
+    "postcode": "3182"
+  },
+  "south-yarra": {
+    "displayName": "South Yarra",
+    "population": "25,000",
+    "elderlyPercent": "10%",
+    "localCouncil": "City of Stonnington",
+    "nearestHospital": "Alfred Hospital",
+    "postcode": "3141"
+  },
+  "richmond": {
+    "displayName": "Richmond",
+    "population": "28,000",
+    "elderlyPercent": "9%",
+    "localCouncil": "City of Yarra",
+    "nearestHospital": "St Vincent's Hospital Melbourne",
+    "postcode": "3121"
+  },
+  "brunswick": {
+    "displayName": "Brunswick",
+    "population": "24,000",
+    "elderlyPercent": "11%",
+    "localCouncil": "City of Moreland",
+    "nearestHospital": "Royal Melbourne Hospital",
+    "postcode": "3056"
+  },
+  "fitzroy": {
+    "displayName": "Fitzroy",
+    "population": "11,000",
+    "elderlyPercent": "9%",
+    "localCouncil": "City of Yarra",
+    "nearestHospital": "St Vincent's Hospital Melbourne",
+    "postcode": "3065"
+  },
+  "geelong": {
+    "displayName": "Geelong",
+    "population": "270,000 (Greater Geelong)",
+    "elderlyPercent": "17%",
+    "ndisParticipants": "12,000+ in Greater Geelong",
+    "localCouncil": "City of Greater Geelong",
+    "nearestHospital": "University Hospital Geelong",
+    "postcode": "3220"
+  },
+  "brisbane": {
+    "displayName": "Brisbane CBD",
+    "population": "Over 2.5 million (Greater Brisbane)",
+    "elderlyPercent": "13%",
+    "ndisParticipants": "60,000+ in Greater Brisbane",
+    "localCouncil": "Brisbane City Council",
+    "nearestHospital": "Royal Brisbane and Women's Hospital",
+    "postcode": "4000"
+  },
+  "south-brisbane": {
+    "displayName": "South Brisbane",
+    "population": "8,000",
+    "elderlyPercent": "7%",
+    "localCouncil": "Brisbane City Council",
+    "nearestHospital": "Mater Hospital Brisbane",
+    "postcode": "4101"
+  },
+  "fortitude-valley": {
+    "displayName": "Fortitude Valley",
+    "population": "10,000",
+    "elderlyPercent": "6%",
+    "localCouncil": "Brisbane City Council",
+    "nearestHospital": "Royal Brisbane and Women's Hospital",
+    "postcode": "4006"
+  },
+  "toowoomba": {
+    "displayName": "Toowoomba",
+    "population": "170,000 (Greater Toowoomba)",
+    "elderlyPercent": "16%",
+    "ndisParticipants": "8,000+ in Toowoomba region",
+    "localCouncil": "Toowoomba Regional Council",
+    "nearestHospital": "Toowoomba Hospital",
+    "postcode": "4350"
+  },
+  "gold-coast": {
+    "displayName": "Gold Coast",
+    "population": "700,000",
+    "elderlyPercent": "16%",
+    "ndisParticipants": "20,000+ on the Gold Coast",
+    "localCouncil": "City of Gold Coast",
+    "nearestHospital": "Gold Coast University Hospital",
+    "postcode": "4217"
+  },
+  "surfers-paradise": {
+    "displayName": "Surfers Paradise",
+    "population": "24,000",
+    "elderlyPercent": "14%",
+    "localCouncil": "City of Gold Coast",
+    "nearestHospital": "Gold Coast University Hospital",
+    "postcode": "4217"
+  },
+  "cairns": {
+    "displayName": "Cairns",
+    "population": "160,000",
+    "elderlyPercent": "14%",
+    "ndisParticipants": "6,000+ in Far North Queensland",
+    "localCouncil": "Cairns Regional Council",
+    "nearestHospital": "Cairns Hospital",
+    "postcode": "4870"
+  },
+  "townsville": {
+    "displayName": "Townsville",
+    "population": "180,000",
+    "elderlyPercent": "13%",
+    "localCouncil": "Townsville City Council",
+    "nearestHospital": "Townsville University Hospital",
+    "postcode": "4810"
+  },
+  "perth": {
+    "displayName": "Perth CBD",
+    "population": "Over 2 million (Greater Perth)",
+    "elderlyPercent": "13%",
+    "ndisParticipants": "45,000+ in Greater Perth",
+    "localCouncil": "City of Perth",
+    "nearestHospital": "Royal Perth Hospital",
+    "postcode": "6000"
+  },
+  "fremantle": {
+    "displayName": "Fremantle",
+    "population": "30,000",
+    "elderlyPercent": "14%",
+    "localCouncil": "City of Fremantle",
+    "nearestHospital": "Fremantle Hospital",
+    "postcode": "6160"
+  },
+  "joondalup": {
+    "displayName": "Joondalup",
+    "population": "160,000 (City of Joondalup)",
+    "elderlyPercent": "12%",
+    "localCouncil": "City of Joondalup",
+    "nearestHospital": "Joondalup Health Campus",
+    "postcode": "6027"
+  },
+  "rockingham": {
+    "displayName": "Rockingham",
+    "population": "140,000 (City of Rockingham)",
+    "elderlyPercent": "14%",
+    "localCouncil": "City of Rockingham",
+    "nearestHospital": "Rockingham General Hospital",
+    "postcode": "6168"
+  },
+  "mandurah": {
+    "displayName": "Mandurah",
+    "population": "100,000",
+    "elderlyPercent": "22%",
+    "localCouncil": "City of Mandurah",
+    "nearestHospital": "Peel Health Campus",
+    "postcode": "6210"
+  },
+  "bunbury": {
+    "displayName": "Bunbury",
+    "population": "75,000 (Greater Bunbury)",
+    "elderlyPercent": "17%",
+    "localCouncil": "City of Bunbury",
+    "nearestHospital": "Bunbury Hospital",
+    "postcode": "6230"
+  },
+  "adelaide": {
+    "displayName": "Adelaide CBD",
+    "population": "1.4 million (Greater Adelaide)",
+    "elderlyPercent": "17%",
+    "ndisParticipants": "35,000+ in Greater Adelaide",
+    "localCouncil": "City of Adelaide",
+    "nearestHospital": "Royal Adelaide Hospital",
+    "postcode": "5000"
+  },
+  "glenelg": {
+    "displayName": "Glenelg",
+    "population": "15,000",
+    "elderlyPercent": "18%",
+    "localCouncil": "City of Holdfast Bay",
+    "nearestHospital": "Flinders Medical Centre",
+    "postcode": "5045"
+  },
+  "norwood": {
+    "displayName": "Norwood",
+    "population": "6,000",
+    "elderlyPercent": "16%",
+    "localCouncil": "City of Norwood Payneham & St Peters",
+    "nearestHospital": "Royal Adelaide Hospital",
+    "postcode": "5067"
+  },
+  "hobart": {
+    "displayName": "Hobart",
+    "population": "250,000 (Greater Hobart)",
+    "elderlyPercent": "18%",
+    "ndisParticipants": "12,000+ in Tasmania",
+    "localCouncil": "City of Hobart",
+    "nearestHospital": "Royal Hobart Hospital",
+    "postcode": "7000"
+  },
+  "launceston": {
+    "displayName": "Launceston",
+    "population": "90,000",
+    "elderlyPercent": "19%",
+    "localCouncil": "City of Launceston",
+    "nearestHospital": "Launceston General Hospital",
+    "postcode": "7250"
+  },
+  "devonport": {
+    "displayName": "Devonport",
+    "population": "30,000",
+    "elderlyPercent": "20%",
+    "localCouncil": "Devonport City Council",
+    "nearestHospital": "North West Regional Hospital",
+    "postcode": "7310"
+  },
+  "darwin": {
+    "displayName": "Darwin",
+    "population": "150,000",
+    "elderlyPercent": "8%",
+    "ndisParticipants": "5,000+ in the NT",
+    "localCouncil": "City of Darwin",
+    "nearestHospital": "Royal Darwin Hospital",
+    "postcode": "0800"
+  },
+  "canberra": {
+    "displayName": "Canberra",
+    "population": "460,000",
+    "elderlyPercent": "12%",
+    "ndisParticipants": "12,000+ in the ACT",
+    "localCouncil": "ACT Government",
+    "nearestHospital": "Canberra Hospital",
+    "postcode": "2600"
+  },
+  "wollongong": {
+    "displayName": "Wollongong",
+    "population": "300,000 (Greater Wollongong)",
+    "elderlyPercent": "16%",
+    "ndisParticipants": "10,000+ in Illawarra",
+    "localCouncil": "Wollongong City Council",
+    "nearestHospital": "Wollongong Hospital",
+    "postcode": "2500"
+  },
+  "newcastle": {
+    "displayName": "Newcastle",
+    "population": "320,000 (Greater Newcastle)",
+    "elderlyPercent": "16%",
+    "ndisParticipants": "12,000+ in Hunter region",
+    "localCouncil": "City of Newcastle",
+    "nearestHospital": "John Hunter Hospital",
+    "postcode": "2300"
+  },
+  "central-coast": {
+    "displayName": "Central Coast",
+    "population": "340,000",
+    "elderlyPercent": "19%",
+    "localCouncil": "Central Coast Council",
+    "nearestHospital": "Gosford Hospital",
+    "postcode": "2250"
+  },
+  "penrith": {
+    "displayName": "Penrith",
+    "population": "220,000 (Penrith LGA)",
+    "elderlyPercent": "12%",
+    "localCouncil": "Penrith City Council",
+    "nearestHospital": "Nepean Hospital",
+    "postcode": "2750"
+  },
+  "blacktown": {
+    "displayName": "Blacktown",
+    "population": "400,000 (Blacktown LGA)",
+    "elderlyPercent": "10%",
+    "ndisParticipants": "18,000+ in Blacktown area",
+    "localCouncil": "Blacktown City Council",
+    "nearestHospital": "Blacktown Hospital",
+    "postcode": "2148"
+  },
+  "liverpool": {
+    "displayName": "Liverpool",
+    "population": "230,000 (Liverpool LGA)",
+    "elderlyPercent": "11%",
+    "localCouncil": "Liverpool City Council",
+    "nearestHospital": "Liverpool Hospital",
+    "postcode": "2170"
+  },
+  "campbelltown": {
+    "displayName": "Campbelltown",
+    "population": "180,000 (Campbelltown LGA)",
+    "elderlyPercent": "11%",
+    "localCouncil": "Campbelltown City Council",
+    "nearestHospital": "Campbelltown Hospital",
+    "postcode": "2560"
+  },
+  "castle-hill": {
+    "displayName": "Castle Hill",
+    "population": "40,000",
+    "elderlyPercent": "14%",
+    "localCouncil": "The Hills Shire Council",
+    "nearestHospital": "Norwest Private Hospital",
+    "postcode": "2154"
+  },
+  "hornsby": {
+    "displayName": "Hornsby",
+    "population": "22,000",
+    "elderlyPercent": "15%",
+    "localCouncil": "Hornsby Shire Council",
+    "nearestHospital": "Hornsby Ku-ring-gai Hospital",
+    "postcode": "2077"
+  },
+  "mosman": {
+    "displayName": "Mosman",
+    "population": "30,000",
+    "elderlyPercent": "18%",
+    "localCouncil": "Mosman Council",
+    "nearestHospital": "Royal North Shore Hospital",
+    "postcode": "2088"
+  },
+  "north-sydney": {
+    "displayName": "North Sydney",
+    "population": "75,000 (North Sydney LGA)",
+    "elderlyPercent": "13%",
+    "localCouncil": "North Sydney Council",
+    "nearestHospital": "Royal North Shore Hospital",
+    "postcode": "2060"
+  },
+  "cronulla": {
+    "displayName": "Cronulla",
+    "population": "20,000",
+    "elderlyPercent": "15%",
+    "localCouncil": "Sutherland Shire Council",
+    "nearestHospital": "Sutherland Hospital",
+    "postcode": "2230"
+  },
+  "hurstville": {
+    "displayName": "Hurstville",
+    "population": "30,000",
+    "elderlyPercent": "17%",
+    "localCouncil": "Georges River Council",
+    "nearestHospital": "St George Hospital",
+    "postcode": "2220"
+  },
+  "kogarah": {
+    "displayName": "Kogarah",
+    "population": "15,000",
+    "elderlyPercent": "16%",
+    "localCouncil": "Georges River Council",
+    "nearestHospital": "St George Hospital",
+    "postcode": "2217"
+  },
+  "bankstown": {
+    "displayName": "Bankstown",
+    "population": "35,000",
+    "elderlyPercent": "14%",
+    "localCouncil": "Canterbury-Bankstown Council",
+    "nearestHospital": "Bankstown-Lidcombe Hospital",
+    "postcode": "2200"
+  },
+  "fairfield": {
+    "displayName": "Fairfield",
+    "population": "210,000 (Fairfield LGA)",
+    "elderlyPercent": "13%",
+    "localCouncil": "Fairfield City Council",
+    "nearestHospital": "Fairfield Hospital",
+    "postcode": "2165"
+  },
+  "box-hill": {
+    "displayName": "Box Hill",
+    "population": "52,000",
+    "elderlyPercent": "14%",
+    "localCouncil": "City of Whitehorse",
+    "nearestHospital": "Box Hill Hospital",
+    "postcode": "3128"
+  },
+  "dandenong": {
+    "displayName": "Dandenong",
+    "population": "30,000",
+    "elderlyPercent": "11%",
+    "localCouncil": "City of Greater Dandenong",
+    "nearestHospital": "Dandenong Hospital",
+    "postcode": "3175"
+  },
+  "frankston": {
+    "displayName": "Frankston",
+    "population": "140,000 (Frankston LGA)",
+    "elderlyPercent": "15%",
+    "localCouncil": "City of Frankston",
+    "nearestHospital": "Frankston Hospital",
+    "postcode": "3199"
+  },
+  "sunshine": {
+    "displayName": "Sunshine",
+    "population": "10,000",
+    "elderlyPercent": "12%",
+    "localCouncil": "City of Brimbank",
+    "nearestHospital": "Sunshine Hospital",
+    "postcode": "3020"
+  },
+  "werribee": {
+    "displayName": "Werribee",
+    "population": "45,000",
+    "elderlyPercent": "10%",
+    "localCouncil": "City of Wyndham",
+    "nearestHospital": "Werribee Mercy Hospital",
+    "postcode": "3030"
+  },
+  "epping": {
+    "displayName": "Epping",
+    "population": "25,000",
+    "elderlyPercent": "11%",
+    "localCouncil": "City of Whittlesea",
+    "nearestHospital": "Northern Hospital Epping",
+    "postcode": "3076"
+  },
+  "mildura": {
+    "displayName": "Mildura",
+    "population": "55,000",
+    "elderlyPercent": "17%",
+    "localCouncil": "Mildura Rural City Council",
+    "nearestHospital": "Mildura Base Hospital",
+    "postcode": "3500"
+  },
+  "ballarat": {
+    "displayName": "Ballarat",
+    "population": "110,000",
+    "elderlyPercent": "17%",
+    "localCouncil": "City of Ballarat",
+    "nearestHospital": "Ballarat Base Hospital",
+    "postcode": "3350"
+  },
+  "bendigo": {
+    "displayName": "Bendigo",
+    "population": "120,000",
+    "elderlyPercent": "18%",
+    "localCouncil": "City of Greater Bendigo",
+    "nearestHospital": "Bendigo Hospital",
+    "postcode": "3550"
+  },
+  "hervey-bay": {
+    "displayName": "Hervey Bay",
+    "population": "60,000",
+    "elderlyPercent": "25%",
+    "localCouncil": "Fraser Coast Regional Council",
+    "nearestHospital": "Hervey Bay Hospital",
+    "postcode": "4655"
+  },
+  "mackay": {
+    "displayName": "Mackay",
+    "population": "120,000 (Greater Mackay)",
+    "elderlyPercent": "13%",
+    "localCouncil": "Mackay Regional Council",
+    "nearestHospital": "Mackay Base Hospital",
+    "postcode": "4740"
+  },
+  "rockhampton": {
+    "displayName": "Rockhampton",
+    "population": "85,000",
+    "elderlyPercent": "15%",
+    "localCouncil": "Rockhampton Regional Council",
+    "nearestHospital": "Rockhampton Hospital",
+    "postcode": "4700"
+  },
+  "sunshine-coast": {
+    "displayName": "Sunshine Coast",
+    "population": "350,000",
+    "elderlyPercent": "19%",
+    "ndisParticipants": "15,000+ on Sunshine Coast",
+    "localCouncil": "Sunshine Coast Council",
+    "nearestHospital": "Sunshine Coast University Hospital",
+    "postcode": "4556"
+  },
+  "noosa": {
+    "displayName": "Noosa",
+    "population": "55,000",
+    "elderlyPercent": "24%",
+    "localCouncil": "Noosa Shire Council",
+    "nearestHospital": "Noosa Hospital",
+    "postcode": "4567"
+  },
+  "caloundra": {
+    "displayName": "Caloundra",
+    "population": "55,000",
+    "elderlyPercent": "22%",
+    "localCouncil": "Sunshine Coast Council",
+    "nearestHospital": "Sunshine Coast University Hospital",
+    "postcode": "4551"
+  },
+  "alice-springs": {
+    "displayName": "Alice Springs",
+    "population": "26,000",
+    "elderlyPercent": "8%",
+    "localCouncil": "Alice Springs Town Council",
+    "nearestHospital": "Alice Springs Hospital",
+    "postcode": "0870"
+  },
+  "dubbo": {
+    "displayName": "Dubbo",
+    "population": "40,000",
+    "elderlyPercent": "15%",
+    "localCouncil": "Dubbo Regional Council",
+    "nearestHospital": "Dubbo Base Hospital",
+    "postcode": "2830"
+  },
+  "tamworth": {
+    "displayName": "Tamworth",
+    "population": "65,000 (Greater Tamworth)",
+    "elderlyPercent": "17%",
+    "localCouncil": "Tamworth Regional Council",
+    "nearestHospital": "Tamworth Rural Referral Hospital",
+    "postcode": "2340"
+  },
+  "orange": {
+    "displayName": "Orange",
+    "population": "42,000",
+    "elderlyPercent": "16%",
+    "localCouncil": "Orange City Council",
+    "nearestHospital": "Orange Health Service",
+    "postcode": "2800"
+  },
+  "wagga-wagga": {
+    "displayName": "Wagga Wagga",
+    "population": "67,000",
+    "elderlyPercent": "15%",
+    "localCouncil": "City of Wagga Wagga",
+    "nearestHospital": "Wagga Wagga Base Hospital",
+    "postcode": "2650"
+  },
+  "albury": {
+    "displayName": "Albury",
+    "population": "55,000",
+    "elderlyPercent": "17%",
+    "localCouncil": "AlburyCity",
+    "nearestHospital": "Albury Base Hospital",
+    "postcode": "2640"
+  },
+  "coffs-harbour": {
+    "displayName": "Coffs Harbour",
+    "population": "75,000",
+    "elderlyPercent": "20%",
+    "localCouncil": "Coffs Harbour City Council",
+    "nearestHospital": "Coffs Harbour Hospital",
+    "postcode": "2450"
+  },
+  "port-macquarie": {
+    "displayName": "Port Macquarie",
+    "population": "50,000",
+    "elderlyPercent": "25%",
+    "localCouncil": "Port Macquarie-Hastings Council",
+    "nearestHospital": "Port Macquarie Base Hospital",
+    "postcode": "2444"
+  },
+  "armidale": {
+    "displayName": "Armidale",
+    "population": "25,000",
+    "elderlyPercent": "16%",
+    "localCouncil": "Armidale Regional Council",
+    "nearestHospital": "Armidale Rural Referral Hospital",
+    "postcode": "2350"
+  },
+  "lismore": {
+    "displayName": "Lismore",
+    "population": "28,000",
+    "elderlyPercent": "19%",
+    "localCouncil": "Lismore City Council",
+    "nearestHospital": "Lismore Base Hospital",
+    "postcode": "2480"
+  },
+  "byron-bay": {
+    "displayName": "Byron Bay",
+    "population": "10,000",
+    "elderlyPercent": "14%",
+    "localCouncil": "Byron Shire Council",
+    "nearestHospital": "Byron Central Hospital",
+    "postcode": "2481"
+  },
+  "tweed-heads": {
+    "displayName": "Tweed Heads",
+    "population": "65,000 (Tweed Shire)",
+    "elderlyPercent": "22%",
+    "localCouncil": "Tweed Shire Council",
+    "nearestHospital": "Tweed Hospital",
+    "postcode": "2485"
+  },
+  "bathurst": {
+    "displayName": "Bathurst",
+    "population": "45,000",
+    "elderlyPercent": "15%",
+    "localCouncil": "Bathurst Regional Council",
+    "nearestHospital": "Bathurst Base Hospital",
+    "postcode": "2795"
+  },
+  "goulburn": {
+    "displayName": "Goulburn",
+    "population": "24,000",
+    "elderlyPercent": "19%",
+    "localCouncil": "Goulburn Mulwaree Council",
+    "nearestHospital": "Goulburn Base Hospital",
+    "postcode": "2580"
+  },
+  "nowra": {
+    "displayName": "Nowra",
+    "population": "37,000",
+    "elderlyPercent": "18%",
+    "localCouncil": "Shoalhaven City Council",
+    "nearestHospital": "Shoalhaven District Memorial Hospital",
+    "postcode": "2541"
+  },
+  "batemans-bay": {
+    "displayName": "Batemans Bay",
+    "population": "18,000",
+    "elderlyPercent": "28%",
+    "localCouncil": "Eurobodalla Shire Council",
+    "nearestHospital": "Moruya District Hospital",
+    "postcode": "2536"
+  },
+  "queanbeyan": {
+    "displayName": "Queanbeyan",
+    "population": "45,000",
+    "elderlyPercent": "12%",
+    "localCouncil": "Queanbeyan-Palerang Regional Council",
+    "nearestHospital": "Queanbeyan District Hospital",
+    "postcode": "2620"
+  }
+}

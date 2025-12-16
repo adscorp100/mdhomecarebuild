@@ -5,6 +5,12 @@ pubDate: 2025-07-02
 category: "Disability Services"
 image: "/assets/elderlyaboriginal.webp"
 keywords: ["disability support services {suburb}", "ndis provider {suburb}", "disability home care {suburb}", "in-home disability support {suburb}", "person-centered care {suburb}"]
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # Consistent, Reliable NDIS Disability Support Services in {suburb}

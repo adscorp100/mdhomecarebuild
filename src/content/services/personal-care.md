@@ -5,6 +5,12 @@ pubDate: 2025-07-02
 category: "Daily Living Support"
 image: "/assets/elderlyaboriginal.webp"
 keywords: ["personal care", "what is personal care", "help at home for elderly", "independent living support"]
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # Support to Live Independently, With the Dignity You Deserve.

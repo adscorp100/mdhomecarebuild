@@ -9,6 +9,12 @@ keywords:
   - "continence nurse {suburb}"
   - "continence care plan"
   - "NDIS continence assessment"
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # A Professional & Discreet Path to Managing Continence in {suburb}

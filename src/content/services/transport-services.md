@@ -5,6 +5,12 @@ pubDate: 2025-07-02
 category: "Disability Services"
 image: "/assets/sydney.webp"
 keywords: ["disability transport {suburb}", "ndis transport", "medical appointment transport", "accessible transport {suburb}", "aged care transport"]
+quickFacts:
+  costRange: "$35-$60/hour plus km (vehicle provided)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA"
+  availability: "7 days a week"
+  serviceHours: "Flexible booking times"
+  waitTime: "24-48 hours advance booking recommended"
 ---
 
 # Finally, On-Time, Reliable Disability Transport in {suburb}

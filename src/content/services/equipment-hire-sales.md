@@ -6,6 +6,12 @@ category: "Support Services"
 image: "/assets/wheelchair.webp"
 
 keywords: []
+quickFacts:
+  costRange: "From $15/day or $50/week (varies by item)"
+  fundingOptions: "NDIS Assistive Technology, Home Care Packages, Private"
+  availability: "Same-day delivery available"
+  serviceHours: "Delivery Monday-Saturday"
+  waitTime: "Same-day for urgent needs"
 ---
 
 ## Specialist Equipment Hire & Sales in {suburb}

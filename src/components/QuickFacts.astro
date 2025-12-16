@@ -1,0 +1,85 @@
+---
+/**
+ * QuickFacts Component
+ * Displays key service information in a scannable format for featured snippet optimization
+ * and improved CTR through clear cost/availability signals.
+ */
+
+interface Props {
+  serviceName: string;
+  suburb: string;
+  costRange?: string;
+  fundingOptions?: string;
+  availability?: string;
+  serviceHours?: string;
+  waitTime?: string;
+}
+
+const {
+  serviceName,
+  suburb,
+  costRange,
+  fundingOptions,
+  availability,
+  serviceHours,
+  waitTime
+} = Astro.props;
+
+// Only render if at least one fact is provided
+const hasFacts = costRange || fundingOptions || availability || serviceHours || waitTime;
+---
+
+{hasFacts && (
+  <div class="quick-facts bg-base-200 border border-base-300 rounded-box p-6 mb-8 not-prose">
+    <h2 class="text-xl font-bold text-base-content mb-4 flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      Quick Facts – {serviceName} in {suburb}
+    </h2>
+
+    <dl class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {costRange && (
+        <div class="flex flex-col">
+          <dt class="text-sm font-semibold text-primary uppercase tracking-wide">Typical Cost</dt>
+          <dd class="text-base-content mt-1">{costRange}</dd>
+        </div>
+      )}
+
+      {fundingOptions && (
+        <div class="flex flex-col">
+          <dt class="text-sm font-semibold text-primary uppercase tracking-wide">Funding Options</dt>
+          <dd class="text-base-content mt-1">{fundingOptions}</dd>
+        </div>
+      )}
+
+      {availability && (
+        <div class="flex flex-col">
+          <dt class="text-sm font-semibold text-primary uppercase tracking-wide">Availability</dt>
+          <dd class="text-base-content mt-1">{availability}</dd>
+        </div>
+      )}
+
+      {serviceHours && (
+        <div class="flex flex-col">
+          <dt class="text-sm font-semibold text-primary uppercase tracking-wide">Service Hours</dt>
+          <dd class="text-base-content mt-1">{serviceHours}</dd>
+        </div>
+      )}
+
+      {waitTime && (
+        <div class="flex flex-col">
+          <dt class="text-sm font-semibold text-primary uppercase tracking-wide">Wait Time</dt>
+          <dd class="text-base-content mt-1">{waitTime}</dd>
+        </div>
+      )}
+    </dl>
+
+    <div class="mt-4 pt-4 border-t border-base-300">
+      <p class="text-sm text-base-content/70">
+        <span class="font-medium">Need help understanding your options?</span>
+        <a href="/contact" class="link link-primary ml-1">Speak with a Care Advisor</a> for personalized guidance.
+      </p>
+    </div>
+  </div>
+)}

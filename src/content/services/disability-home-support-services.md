@@ -6,6 +6,12 @@ category: "Disability Services"
 image: "/assets/grandma.webp"
 
 keywords: []
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # Disability Home Care & Support Services {suburb}

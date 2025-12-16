@@ -5,6 +5,12 @@ keywords: ["support worker insurance {suburb}", "ndis provider insurance {suburb
 pubDate: 2025-02-23
 category: "Insurance Services"
 image: "/assets/nurse.webp"
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## Finally, NDIS Insurance That Gives You Peace of Mind in {suburb}

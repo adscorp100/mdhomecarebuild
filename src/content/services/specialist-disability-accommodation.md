@@ -6,6 +6,12 @@ category: "Accommodation"
 image: "/assets/homecare.webp"
 
 keywords: []
+quickFacts:
+  costRange: "Varies by support level (NDIS funded)"
+  fundingOptions: "NDIS Core Supports - Assistance with Daily Life"
+  availability: "24/7 supported living"
+  serviceHours: "Round-the-clock support available"
+  waitTime: "Intake assessment required, 2-4 weeks"
 ---
 
 ## NDIS Specialist Disability Accommodation in {suburb}

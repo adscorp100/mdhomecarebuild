@@ -6,6 +6,12 @@ category: "Mobility Support"
 image: "/assets/hero.webp"
 
 keywords: []
+quickFacts:
+  costRange: "$35-$60/hour plus km (vehicle provided)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA"
+  availability: "7 days a week"
+  serviceHours: "Flexible booking times"
+  waitTime: "24-48 hours advance booking recommended"
 ---
 
 ## Transport Services for Aged Care in {suburb}

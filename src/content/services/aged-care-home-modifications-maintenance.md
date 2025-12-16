@@ -5,6 +5,12 @@ pubDate: 2025-07-04
 category: "Home Care Services"
 image: "/assets/accessible-bathroom.webp"
 keywords: ["home modifications", "aged care maintenance", "accessibility", "home safety", "disability modifications"]
+quickFacts:
+  costRange: "Assessment from $150, modifications vary"
+  fundingOptions: "NDIS Home Modifications, Home Care Packages, DVA"
+  availability: "By appointment for assessment"
+  serviceHours: "Weekdays"
+  waitTime: "2-4 weeks for assessment, varies for installation"
 ---
 
 ## Make Your {suburb} Home Safer, For Longer. Certified Aged Care & Disability Home Modifications.

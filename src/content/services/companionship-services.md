@@ -5,6 +5,12 @@ pubDate: 2025-07-04
 category: "Social Support"
 image: "/assets/drinkingtea.webp"
 keywords: ["companionship services", "social support", "ndis companions", "aged care friendship", "emotional support"]
+quickFacts:
+  costRange: "$50-$70/hour (group rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## It's Not Just Care, It's Friendship. Find Your Perfect Companion in {suburb}.

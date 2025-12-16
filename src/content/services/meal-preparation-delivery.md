@@ -9,6 +9,12 @@ keywords:
   - "NDIS meal providers {suburb}"
   - "HCP meal providers"
   - "home delivered meals"
+quickFacts:
+  costRange: "$15-$25 per meal (subsidised rates available)"
+  fundingOptions: "Home Care Packages, CHSP, DVA, Private"
+  availability: "Daily delivery available"
+  serviceHours: "Lunch and dinner options"
+  waitTime: "Start within 1 week"
 ---
 
 ## Stop Worrying About Meals. Get the Perfect, Funded Meal Plan, Managed For You.

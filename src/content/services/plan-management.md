@@ -6,7 +6,12 @@ category: "Plan Management"
 image: "/assets/ndis-provider-melbourne.webp"
 keywords: ["ndis plan manager", "choose ndis plan manager", "what is a plan manager", "ndis plan management explained"]
 author: "MD Homecare Team"
-
+quickFacts:
+  costRange: "$100-$190/hour (NDIS price guide)"
+  fundingOptions: "NDIS Capacity Building - Support Coordination"
+  availability: "Weekdays"
+  serviceHours: "Business hours with flexible appointments"
+  waitTime: "Usually within 1 week"
 ---
 
 # Feeling Lost with Your NDIS Plan? A Plan Manager Can Help.

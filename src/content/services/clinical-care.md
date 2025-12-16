@@ -5,6 +5,12 @@ pubDate: 2025-07-02
 category: "Health Services"
 image: "/assets/nurse.webp"
 keywords: ["24/7 nursing care", "in-home nursing", "clinical care", "complex care", "palliative care"]
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## 24/7 Nursing Care in {suburb}: In the Comfort of Your Home.

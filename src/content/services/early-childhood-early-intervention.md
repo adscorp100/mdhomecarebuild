@@ -6,6 +6,12 @@ category: "Early Childhood"
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 
 keywords: []
+quickFacts:
+  costRange: "$150-$250/hour (NDIS price guide rates)"
+  fundingOptions: "NDIS Capacity Building, Home Care Packages, Medicare, Private"
+  availability: "Weekdays, some weekend availability"
+  serviceHours: "By appointment"
+  waitTime: "1-3 weeks depending on therapist availability"
 ---
 
 ## What is Early Childhood Early Intervention (ECEI) in {suburb}?

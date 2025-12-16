@@ -16,6 +16,39 @@ export default defineConfig({
       filter: (page) =>
         // Exclude any pages you don't want in the sitemap
         !page.includes('/private/'),
+      serialize(item) {
+        // Main service pages: highest priority (canonical pages)
+        if (item.url.match(/\/services\/[^\/]+\/?$/)) {
+          item.priority = 0.9;
+          item.changefreq = 'weekly';
+        }
+        // Suburb-specific service pages: medium-high priority (long-tail keywords)
+        else if (item.url.match(/\/services\/[^\/]+\/[^\/]+\/?$/)) {
+          item.priority = 0.7;
+          item.changefreq = 'monthly';
+        }
+        // Blog posts: high priority (content marketing)
+        else if (item.url.includes('/blog/')) {
+          item.priority = 0.8;
+          item.changefreq = 'weekly';
+        }
+        // Jobs pages
+        else if (item.url.includes('/jobs/')) {
+          item.priority = 0.6;
+          item.changefreq = 'weekly';
+        }
+        // Homepage
+        else if (item.url === 'https://mdhomecare.com.au/' || item.url === 'https://mdhomecare.com.au') {
+          item.priority = 1.0;
+          item.changefreq = 'daily';
+        }
+        // Services index
+        else if (item.url === 'https://mdhomecare.com.au/services/' || item.url === 'https://mdhomecare.com.au/services') {
+          item.priority = 0.9;
+          item.changefreq = 'weekly';
+        }
+        return item;
+      },
     }),
   ],
   vite: {

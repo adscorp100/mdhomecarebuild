@@ -5,6 +5,12 @@ pubDate: 2025-05-16
 category: "Health & Medical Care"
 image: "/assets/nurse.webp"
 keywords: ["home nursing care {suburb}", "in-home nursing {suburb}", "registered nurse home visit {suburb}", "24 hour nursing care {suburb}"]
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # Hospital-Quality Nursing Care, in the Comfort of Your {suburb} Home

@@ -6,6 +6,12 @@ category: "Disability Services"
 image: "/assets/carer.webp"
 
 keywords: []
+quickFacts:
+  costRange: "$50-$85/hour (subsidies available via NDIS/HCP)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "Same-day service for urgent needs"
+  serviceHours: "24/7 availability"
+  waitTime: "Often within 2-4 hours for emergencies"
 ---
 
 # Crisis & Complex Needs Support Services {suburb}

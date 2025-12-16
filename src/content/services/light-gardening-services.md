@@ -6,6 +6,12 @@ category: "Home Maintenance"
 image: "/assets/homecare.webp"
 
 keywords: []
+quickFacts:
+  costRange: "$45-$65/hour (subsidised rates for eligible clients)"
+  fundingOptions: "Home Care Packages, CHSP, DVA, Private"
+  availability: "Monday to Saturday"
+  serviceHours: "Regular weekly or fortnightly scheduling"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## Light Gardening Services in {suburb}

@@ -9,6 +9,12 @@ keywords:
   - "meal preparation support {suburb}"
   - "help with cooking for seniors"
   - "NDIS meal preparation"
+quickFacts:
+  costRange: "$15-$25 per meal (subsidised rates available)"
+  fundingOptions: "Home Care Packages, CHSP, DVA, Private"
+  availability: "Daily delivery available"
+  serviceHours: "Lunch and dinner options"
+  waitTime: "Start within 1 week"
 ---
 
 ## Enjoy Healthy, Delicious Meals, Prepared Safely in Your Own {suburb} Home.

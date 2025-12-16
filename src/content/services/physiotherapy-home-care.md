@@ -5,6 +5,12 @@ pubDate: 2025-04-02
 category: "Allied Health"
 image: "/assets/physio.webp"
 keywords: ["physiotherapy {suburb}", "home physiotherapy {suburb}", "physiotherapist {suburb}", "in-home physio"]
+quickFacts:
+  costRange: "$150-$250/hour (NDIS price guide rates)"
+  fundingOptions: "NDIS Capacity Building, Home Care Packages, Medicare, Private"
+  availability: "Weekdays, some weekend availability"
+  serviceHours: "By appointment"
+  waitTime: "1-3 weeks depending on therapist availability"
 ---
 
 ## Get Back to Your Best with Physiotherapy at Home in {suburb}

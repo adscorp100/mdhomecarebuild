@@ -5,6 +5,12 @@ pubDate: 2025-02-23
 category: "Community Services"
 image: "/assets/homecare.webp"
 keywords: ["community participation {suburb}", "community access ndis {suburb}", "ndis community participation", "community participation support", "community participation support {suburb}", "social and community participation ndis"]
+quickFacts:
+  costRange: "$50-$70/hour (group rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # NDIS Community Access & Participation Services {suburb}

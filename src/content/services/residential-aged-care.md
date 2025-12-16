@@ -6,6 +6,12 @@ category: "Aged Care Options"
 image: "/assets/grandma.webp"
 keywords: ["residential aged care", "choosing a nursing home", "aged care facilities", "aged care homes"]
 author: "MD Homecare Team"
+quickFacts:
+  costRange: "Varies by support level (NDIS funded)"
+  fundingOptions: "NDIS Core Supports - Assistance with Daily Life"
+  availability: "24/7 supported living"
+  serviceHours: "Round-the-clock support available"
+  waitTime: "Intake assessment required, 2-4 weeks"
 ---
 
 # Is it Time for Residential Aged Care? Navigating a Difficult Decision.

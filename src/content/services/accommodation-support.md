@@ -5,6 +5,12 @@ pubDate: 2025-07-04
 category: "Disability Services"
 image: "/assets/accessible-bathroom.webp"
 keywords: ["disability housing options", "ndis housing {suburb}", "sil vs sda", "supported independent living", "specialist disability accommodation"]
+quickFacts:
+  costRange: "Varies by support level (NDIS funded)"
+  fundingOptions: "NDIS Core Supports - Assistance with Daily Life"
+  availability: "24/7 supported living"
+  serviceHours: "Round-the-clock support available"
+  waitTime: "Intake assessment required, 2-4 weeks"
 ---
 
 # Feeling Overwhelmed by NDIS Housing Options? Let's Make It Simple.

@@ -5,6 +5,12 @@ keywords: ["therapy assistant ndis {suburb}", "allied health assistant ndis {sub
 pubDate: 2025-02-23
 category: "Therapy Services"
 image: "/assets/physio.webp"
+quickFacts:
+  costRange: "$150-$250/hour (NDIS price guide rates)"
+  fundingOptions: "NDIS Capacity Building, Home Care Packages, Medicare, Private"
+  availability: "Weekdays, some weekend availability"
+  serviceHours: "By appointment"
+  waitTime: "1-3 weeks depending on therapist availability"
 ---
 
 ## Achieve Your Goals with NDIS Therapy Assistant Support in {suburb}

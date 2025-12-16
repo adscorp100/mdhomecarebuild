@@ -6,6 +6,12 @@ category: "Services"
 image: "/assets/grandmawhite.webp"
 keywords: ["home care package provider {suburb}", "low fee home care provider", "compare home care packages", "switch home care provider"]
 author: "MD Home Care Team"
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # Are You Getting the Most Out of Your Home Care Package?

@@ -5,6 +5,12 @@ pubDate: 2025-07-04
 category: "Community Services"
 image: "/assets/disabled carer.webp"
 keywords: ["community access", "ndis support", "community participation", "transport services", "social support"]
+quickFacts:
+  costRange: "$50-$70/hour (group rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 ## More Than Just a Ride in {suburb}: It's About Connection & Community.

@@ -9,6 +9,12 @@ keywords:
   - "find support worker {suburb}"
   - "aged care support worker {suburb}"
   - "hire ndis support worker"
+quickFacts:
+  costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
+  fundingOptions: "NDIS Core Supports, Home Care Packages, DVA, Private"
+  availability: "7 days a week"
+  serviceHours: "Flexible scheduling, including weekends"
+  waitTime: "Usually within 1-2 weeks"
 ---
 
 # Finally, A Support Worker in {suburb} You Can Rely On

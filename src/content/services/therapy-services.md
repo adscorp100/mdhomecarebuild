@@ -5,6 +5,12 @@ pubDate: 2025-07-02
 category: "Disability Services"
 image: "/assets/physio.webp"
 keywords: ["ndis therapy services {suburb}", "occupational therapy {suburb}", "physiotherapy {suburb}", "speech therapy {suburb}", "allied health"]
+quickFacts:
+  costRange: "$150-$250/hour (NDIS price guide rates)"
+  fundingOptions: "NDIS Capacity Building, Home Care Packages, Medicare, Private"
+  availability: "Weekdays, some weekend availability"
+  serviceHours: "By appointment"
+  waitTime: "1-3 weeks depending on therapist availability"
 ---
 
 # Find the Right NDIS Therapy Service to Achieve Your Goals in {suburb}
