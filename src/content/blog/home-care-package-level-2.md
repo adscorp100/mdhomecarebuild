@@ -49,6 +49,8 @@ The government provides a daily subsidy of $51.49 for level 2, equating to about
 ## Services Included
 Services typically include assistance with showering, dressing, cleaning, meal prep, transport, shopping, and gardening, all tailored to your needs by your chosen provider.
 
+**Calculate your care hours:** Use our free **[Home Care Package Calculator](/tools/home-care-package-calculator)** to estimate how many hours of support you'll receive with your Level 2 funding.
+
 ## Comprehensive Overview of Home Care Package Level 2 in Australia
 This detailed report provides an in-depth look at home care package level 2, ensuring all aspects are covered for a thorough understanding. As of March 9, 2025, the information reflects the current system, with upcoming changes noted for future consideration.
 

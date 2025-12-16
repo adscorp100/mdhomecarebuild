@@ -1,0 +1,632 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Support Worker Income Calculator 2025",
+  "description": "Calculate your support worker income. Estimate weekly, monthly, and annual earnings based on hours, shift types, and employment model. 2025-26 NDIS rates.",
+  "url": "https://mdhomecare.com.au/tools/support-worker-income-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much do disability support workers earn per hour?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Disability support worker hourly rates vary based on employment type and shift. Employed workers under the SCHADS Award earn approximately $29-$36/hour base rate (plus penalties for weekends/evenings). Independent support workers can charge up to the NDIS price limit of $70.88/hour (standard weekday) up to $155.95/hour (public holiday) for 2025-26."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the average support worker salary in Australia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The average full-time disability support worker salary in Australia is approximately $55,000-$65,000 per year (2025). This varies significantly based on: hours worked, weekend/evening shifts, employment type (employed vs independent), and specialisation level. Part-time workers earn proportionally less, while those doing regular overtime or weekend shifts can earn $70,000+."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do support workers get paid more on weekends?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Weekend penalty rates significantly increase support worker pay. Under NDIS pricing: Saturday rate is $99.24/hour (40% more than weekday), Sunday rate is $127.59/hour (80% more than weekday), and Public holiday rate is $155.95/hour (120% more). Employed workers receive similar penalty loadings under the SCHADS Award."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do independent support workers charge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Independent support workers can charge up to NDIS price limits: $70.88/hour standard weekday, $78.07/hour for Level 2 support, $85.72/hour for high intensity, $99.24/hour Saturday, $127.59/hour Sunday, and $155.95/hour public holidays. Many independents charge 80-100% of price limits. Remember to factor in your own tax, super, and insurance costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the NDIS price limit for support workers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The NDIS price limit is the maximum providers can charge participants. For 2025-26, standard weekday support is capped at $70.88/hour, Saturday at $99.24/hour, Sunday at $127.59/hour, and public holidays at $155.95/hour. Higher intensity supports have higher limits. These are maximum prices - some providers charge less."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do support workers get paid for travel time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on your arrangement. Employed workers are typically paid for travel between clients during work hours. Independent workers can charge for travel time at the applicable support rate, plus $0.97/km for kilometres. However, travel must be reasonable - typically capped at 30 minutes per visit. Check your service agreement for specifics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do support workers earn for sleepovers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS sleepover rates for 2025-26 are $261.55 per shift (for 8+ hour overnight shifts where the worker can sleep). If you're required to provide active support during the night, you're paid the applicable hourly rate instead. Some providers pay additional allowances on top of the NDIS rate."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="Support Worker Income Calculator 2025 - Annual Salary Estimator"
+  description="Calculate your support worker income. Estimate weekly, monthly, and annual earnings based on hours, shift types, and employment model. 2025-26 NDIS rates."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">Support Worker Income Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Income Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            Support Worker Income Calculator <span class="text-primary">2025</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Estimate your potential income as a disability support worker. Calculate earnings based on hours, shift types, and whether you're <strong>employed or independent</strong>.
+          </p>
+
+          <!-- Pay Rates Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:money-bag-02" class="w-5 h-5 text-primary" />
+              NDIS Price Limits 2025-26
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Weekday (standard)</span>
+                <span class="font-bold text-secondary">$70.88/hr</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Saturday</span>
+                <span class="font-bold text-secondary">$99.24/hr</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Sunday</span>
+                <span class="font-bold text-secondary">$127.59/hr</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Public Holiday</span>
+                <span class="font-bold text-secondary">$155.95/hr</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Employed vs Independent -->
+          <div class="bg-accent/5 border border-accent/20 rounded-[2rem] p-6 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:user-group" class="w-5 h-5 text-accent" />
+              Employed vs Independent
+            </h3>
+            <div class="space-y-4 text-sm">
+              <div>
+                <p class="font-semibold text-secondary">Employed (SCHADS Award)</p>
+                <p class="text-secondary/60">$29-$36/hr base + penalties. Employer pays super, tax, leave.</p>
+              </div>
+              <div>
+                <p class="font-semibold text-secondary">Independent/Sole Trader</p>
+                <p class="text-secondary/60">Charge NDIS rates but pay own super, tax, insurance.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Note:</strong> Estimates only. Actual pay depends on your employer, award level, and specific arrangements. Consult a tax professional for independent contractor advice.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="income-calculator">
+
+            <div class="mb-8">
+              <h2 class="text-xl font-bold text-secondary mb-2">Calculate Your Income</h2>
+              <p class="text-secondary/60 text-sm">Enter your typical weekly hours and shift breakdown.</p>
+            </div>
+
+            <!-- Employment Type -->
+            <div class="form-control mb-6">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Employment Type</label>
+              <div class="grid grid-cols-2 gap-3">
+                <label class="cursor-pointer">
+                  <input type="radio" name="employment" value="employed" class="peer hidden" checked />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <Icon name="hugeicons:building-02" class="w-6 h-6 mx-auto mb-2 text-secondary/60" />
+                    <span class="font-medium text-secondary block">Employed</span>
+                    <span class="text-xs text-secondary/50">SCHADS Award rates</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="employment" value="independent" class="peer hidden" />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <Icon name="hugeicons:user" class="w-6 h-6 mx-auto mb-2 text-secondary/60" />
+                    <span class="font-medium text-secondary block">Independent</span>
+                    <span class="text-xs text-secondary/50">NDIS price limits</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Total Hours -->
+            <div class="form-control mb-6">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Total hours per week</span>
+              </label>
+              <div class="relative">
+                <input
+                  type="number"
+                  id="total-hours"
+                  value="30"
+                  min="1"
+                  max="60"
+                  class="input input-lg w-full pr-14 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                />
+                <span class="absolute right-4 top-1/2 -translate-y-1/2 text-secondary/50 font-medium">hrs</span>
+              </div>
+            </div>
+
+            <!-- Shift Breakdown -->
+            <div class="form-control mb-6">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Shift breakdown (% of hours)</span>
+              </label>
+              <div class="grid grid-cols-2 gap-4">
+                <div>
+                  <label class="text-xs text-secondary/60">Weekday %</label>
+                  <input type="number" id="weekday-pct" value="60" min="0" max="100" class="input input-bordered w-full mt-1" />
+                </div>
+                <div>
+                  <label class="text-xs text-secondary/60">Saturday %</label>
+                  <input type="number" id="saturday-pct" value="20" min="0" max="100" class="input input-bordered w-full mt-1" />
+                </div>
+                <div>
+                  <label class="text-xs text-secondary/60">Sunday %</label>
+                  <input type="number" id="sunday-pct" value="15" min="0" max="100" class="input input-bordered w-full mt-1" />
+                </div>
+                <div>
+                  <label class="text-xs text-secondary/60">Public Holiday %</label>
+                  <input type="number" id="holiday-pct" value="5" min="0" max="100" class="input input-bordered w-full mt-1" />
+                </div>
+              </div>
+              <p class="text-xs text-secondary/50 mt-2">Should add up to 100%. <span id="total-pct" class="font-bold">100%</span></p>
+            </div>
+
+            <!-- Support Level (for independent) -->
+            <div class="form-control mb-6" id="support-level-section">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Support level</span>
+              </label>
+              <select id="support-level" class="select select-bordered w-full bg-white border-2 border-base-200 focus:border-primary rounded-xl">
+                <option value="standard">Standard support</option>
+                <option value="level2">Level 2 support (+10%)</option>
+                <option value="high">High intensity (+21%)</option>
+              </select>
+            </div>
+
+            <!-- Sleepovers -->
+            <div class="form-control mb-8">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Sleepover shifts per week</span>
+              </label>
+              <input type="number" id="sleepovers" value="0" min="0" max="7" class="input input-bordered w-full" />
+              <p class="text-xs text-secondary/50 mt-1">$261.55 per sleepover shift</p>
+            </div>
+
+            <!-- Results -->
+            <div class="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-6 border border-primary/10">
+              <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+                <Icon name="hugeicons:money-02" class="w-5 h-5 text-primary" />
+                Estimated Income
+              </h3>
+
+              <div class="grid grid-cols-3 gap-4 mb-6">
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-sm text-secondary/60 mb-1">Weekly</p>
+                  <p class="text-2xl font-bold text-primary" id="weekly-income">$1,890</p>
+                </div>
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-sm text-secondary/60 mb-1">Monthly</p>
+                  <p class="text-2xl font-bold text-accent" id="monthly-income">$8,190</p>
+                </div>
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-sm text-secondary/60 mb-1">Annual</p>
+                  <p class="text-2xl font-bold text-success" id="annual-income">$98,280</p>
+                </div>
+              </div>
+
+              <!-- Breakdown -->
+              <div class="bg-white rounded-xl p-4 mb-4">
+                <h4 class="font-semibold text-secondary text-sm mb-3">Weekly Breakdown</h4>
+                <div class="space-y-2 text-sm">
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Weekday hours (<span id="weekday-hrs">18</span> hrs)</span>
+                    <span class="font-medium text-secondary" id="weekday-pay">$1,275.84</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Saturday hours (<span id="saturday-hrs">6</span> hrs)</span>
+                    <span class="font-medium text-secondary" id="saturday-pay">$595.44</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Sunday hours (<span id="sunday-hrs">4.5</span> hrs)</span>
+                    <span class="font-medium text-secondary" id="sunday-pay">$574.16</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Public holiday hours (<span id="holiday-hrs">1.5</span> hrs)</span>
+                    <span class="font-medium text-secondary" id="holiday-pay">$233.93</span>
+                  </div>
+                  <div class="flex justify-between" id="sleepover-row">
+                    <span class="text-secondary/60">Sleepovers (<span id="sleepover-count">0</span>)</span>
+                    <span class="font-medium text-secondary" id="sleepover-pay">$0.00</span>
+                  </div>
+                  <div class="flex justify-between pt-2 border-t border-base-200">
+                    <span class="font-semibold text-secondary">Total gross weekly</span>
+                    <span class="font-bold text-success" id="total-weekly">$2,679.37</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tax Note (for independent) -->
+              <div class="bg-warning/10 rounded-xl p-4 text-sm" id="tax-note">
+                <p class="text-secondary/70"><strong>Independent workers:</strong> Remember to set aside ~30% for tax, plus super (11.5%) and insurance. Your take-home will be less than gross.</p>
+              </div>
+            </div>
+
+            <!-- Comparison -->
+            <div class="mt-6">
+              <button class="btn btn-outline btn-primary w-full rounded-full" id="compare-btn">
+                <Icon name="hugeicons:analytics-02" class="w-5 h-5 mr-2" />
+                Compare Employed vs Independent
+              </button>
+            </div>
+
+            <div class="mt-6 hidden" id="comparison-section">
+              <div class="overflow-x-auto">
+                <table class="table table-sm">
+                  <thead>
+                    <tr class="bg-base-200/50">
+                      <th>Metric</th>
+                      <th class="text-right">Employed</th>
+                      <th class="text-right">Independent</th>
+                    </tr>
+                  </thead>
+                  <tbody id="comparison-body">
+                  </tbody>
+                </table>
+              </div>
+              <p class="text-xs text-secondary/50 mt-2">Independent figures show gross before tax/super deductions.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much do disability support workers earn per hour?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Hourly rates depend on employment type:</p>
+              <table class="table table-sm mt-2">
+                <thead><tr><th>Type</th><th>Weekday</th><th>Saturday</th><th>Sunday</th></tr></thead>
+                <tbody>
+                  <tr><td>Employed (SCHADS)</td><td>$29-$36</td><td>$43-$54</td><td>$58-$72</td></tr>
+                  <tr><td>Independent (NDIS)</td><td>$70.88</td><td>$99.24</td><td>$127.59</td></tr>
+                </tbody>
+              </table>
+              <p class="mt-2">Independent workers earn more gross but must pay their own super, tax, and insurance.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the average support worker salary in Australia?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Average full-time disability support worker salaries (2025):</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Entry level:</strong> $50,000 - $55,000/year</li>
+                <li><strong>Experienced:</strong> $55,000 - $65,000/year</li>
+                <li><strong>With weekend shifts:</strong> $60,000 - $75,000/year</li>
+                <li><strong>Independent (gross):</strong> $80,000 - $120,000+/year</li>
+              </ul>
+              <p class="mt-2">Actual earnings depend heavily on hours worked and shift types.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Do support workers get paid more on weekends?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Yes!</strong> Weekend penalty rates significantly increase pay:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Saturday:</strong> 40% more than weekday rate</li>
+                <li><strong>Sunday:</strong> 80% more than weekday rate</li>
+                <li><strong>Public Holiday:</strong> 120% more than weekday rate</li>
+              </ul>
+              <p class="mt-2">A worker doing mostly weekends can earn significantly more than the same hours during the week.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much do independent support workers charge?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Independent support workers can charge up to NDIS price limits:</p>
+              <table class="table table-sm mt-2">
+                <thead><tr><th>Shift Type</th><th>Standard</th><th>High Intensity</th></tr></thead>
+                <tbody>
+                  <tr><td>Weekday</td><td>$70.88</td><td>$85.72</td></tr>
+                  <tr><td>Saturday</td><td>$99.24</td><td>$120.01</td></tr>
+                  <tr><td>Sunday</td><td>$127.59</td><td>$154.30</td></tr>
+                  <tr><td>Public Holiday</td><td>$155.95</td><td>$188.58</td></tr>
+                </tbody>
+              </table>
+              <p class="mt-2"><strong>Remember:</strong> As an independent, you must pay your own tax (~30%), super (11.5%), and insurance.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Do support workers get paid for travel time?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Travel time payment depends on your arrangement:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Employed:</strong> Usually paid for travel between clients during work hours</li>
+                <li><strong>Independent:</strong> Can charge travel time at applicable hourly rate + $0.97/km</li>
+              </ul>
+              <p class="mt-2">Travel time must be reasonable - typically capped at 30 minutes per visit. Check your service agreement for specifics.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much do support workers earn for sleepovers?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>NDIS sleepover rates for 2025-26:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Standard sleepover:</strong> $261.55 per shift (8+ hours where you can sleep)</li>
+                <li><strong>Active night:</strong> If you provide active support, you're paid the hourly rate instead</li>
+              </ul>
+              <p class="mt-2">Sleepovers can significantly boost income - 2 sleepovers/week adds ~$27,000/year.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Resources</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/ndis-support-worker-pay-rates/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Pay Rates Guide</h3>
+            <p class="text-sm text-secondary/60">Complete guide to support worker pay rates.</p>
+          </a>
+          <a href="/blog/guide-to-becoming-an-independent-support-worker/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Become Independent</h3>
+            <p class="text-sm text-secondary/60">How to work as an independent support worker.</p>
+          </a>
+          <a href="/tools/ndis-pay-rate-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Pay Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate hourly rates by shift type.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  // NDIS Price Limits 2025-26 (Independent)
+  const NDIS_RATES = {
+    standard: { weekday: 70.88, saturday: 99.24, sunday: 127.59, holiday: 155.95 },
+    level2: { weekday: 78.07, saturday: 109.30, sunday: 140.53, holiday: 171.75 },
+    high: { weekday: 85.72, saturday: 120.01, sunday: 154.30, holiday: 188.58 }
+  };
+
+  // SCHADS Award approximation (employed) - Level 2.1 casual loaded
+  const SCHADS_RATES = {
+    weekday: 36.77,
+    saturday: 51.48,
+    sunday: 66.19,
+    holiday: 80.90
+  };
+
+  const SLEEPOVER_RATE = 261.55;
+
+  function calculate() {
+    const employment = document.querySelector('input[name="employment"]:checked')?.value || 'employed';
+    const totalHours = parseFloat(document.getElementById('total-hours').value) || 30;
+    const weekdayPct = parseFloat(document.getElementById('weekday-pct').value) || 0;
+    const saturdayPct = parseFloat(document.getElementById('saturday-pct').value) || 0;
+    const sundayPct = parseFloat(document.getElementById('sunday-pct').value) || 0;
+    const holidayPct = parseFloat(document.getElementById('holiday-pct').value) || 0;
+    const supportLevel = document.getElementById('support-level').value || 'standard';
+    const sleepovers = parseFloat(document.getElementById('sleepovers').value) || 0;
+
+    // Show/hide support level for independent
+    document.getElementById('support-level-section').style.display = employment === 'independent' ? 'block' : 'none';
+    document.getElementById('tax-note').style.display = employment === 'independent' ? 'block' : 'none';
+
+    // Update total percentage
+    const totalPct = weekdayPct + saturdayPct + sundayPct + holidayPct;
+    const pctDisplay = document.getElementById('total-pct');
+    pctDisplay.textContent = totalPct + '%';
+    pctDisplay.className = totalPct === 100 ? 'font-bold text-success' : 'font-bold text-error';
+
+    // Get rates based on employment type
+    const rates = employment === 'independent' ? NDIS_RATES[supportLevel] : SCHADS_RATES;
+
+    // Calculate hours per shift type
+    const weekdayHrs = totalHours * (weekdayPct / 100);
+    const saturdayHrs = totalHours * (saturdayPct / 100);
+    const sundayHrs = totalHours * (sundayPct / 100);
+    const holidayHrs = totalHours * (holidayPct / 100);
+
+    // Calculate pay per shift type
+    const weekdayPay = weekdayHrs * rates.weekday;
+    const saturdayPay = saturdayHrs * rates.saturday;
+    const sundayPay = sundayHrs * rates.sunday;
+    const holidayPay = holidayHrs * rates.holiday;
+    const sleepoversay = sleepovers * SLEEPOVER_RATE;
+
+    const totalWeekly = weekdayPay + saturdayPay + sundayPay + holidayPay + sleepoversay;
+    const totalMonthly = totalWeekly * 52 / 12;
+    const totalAnnual = totalWeekly * 52;
+
+    // Update display
+    document.getElementById('weekday-hrs').textContent = weekdayHrs.toFixed(1);
+    document.getElementById('saturday-hrs').textContent = saturdayHrs.toFixed(1);
+    document.getElementById('sunday-hrs').textContent = sundayHrs.toFixed(1);
+    document.getElementById('holiday-hrs').textContent = holidayHrs.toFixed(1);
+
+    document.getElementById('weekday-pay').textContent = '$' + weekdayPay.toFixed(2);
+    document.getElementById('saturday-pay').textContent = '$' + saturdayPay.toFixed(2);
+    document.getElementById('sunday-pay').textContent = '$' + sundayPay.toFixed(2);
+    document.getElementById('holiday-pay').textContent = '$' + holidayPay.toFixed(2);
+    document.getElementById('sleepover-count').textContent = sleepovers;
+    document.getElementById('sleepover-pay').textContent = '$' + sleepoversay.toFixed(2);
+
+    document.getElementById('total-weekly').textContent = '$' + totalWeekly.toFixed(2);
+    document.getElementById('weekly-income').textContent = '$' + Math.round(totalWeekly).toLocaleString();
+    document.getElementById('monthly-income').textContent = '$' + Math.round(totalMonthly).toLocaleString();
+    document.getElementById('annual-income').textContent = '$' + Math.round(totalAnnual).toLocaleString();
+  }
+
+  function showComparison() {
+    const totalHours = parseFloat(document.getElementById('total-hours').value) || 30;
+    const weekdayPct = parseFloat(document.getElementById('weekday-pct').value) || 60;
+    const saturdayPct = parseFloat(document.getElementById('saturday-pct').value) || 20;
+    const sundayPct = parseFloat(document.getElementById('sunday-pct').value) || 15;
+    const holidayPct = parseFloat(document.getElementById('holiday-pct').value) || 5;
+    const sleepovers = parseFloat(document.getElementById('sleepovers').value) || 0;
+
+    const weekdayHrs = totalHours * (weekdayPct / 100);
+    const saturdayHrs = totalHours * (saturdayPct / 100);
+    const sundayHrs = totalHours * (sundayPct / 100);
+    const holidayHrs = totalHours * (holidayPct / 100);
+
+    // Employed
+    const empWeekly = weekdayHrs * SCHADS_RATES.weekday + saturdayHrs * SCHADS_RATES.saturday +
+                      sundayHrs * SCHADS_RATES.sunday + holidayHrs * SCHADS_RATES.holiday +
+                      sleepovers * SLEEPOVER_RATE;
+    const empAnnual = empWeekly * 52;
+
+    // Independent
+    const indWeekly = weekdayHrs * NDIS_RATES.standard.weekday + saturdayHrs * NDIS_RATES.standard.saturday +
+                      sundayHrs * NDIS_RATES.standard.sunday + holidayHrs * NDIS_RATES.standard.holiday +
+                      sleepovers * SLEEPOVER_RATE;
+    const indAnnual = indWeekly * 52;
+    const indAfterTaxSuper = indAnnual * 0.585; // Roughly after 30% tax + 11.5% super
+
+    const tbody = document.getElementById('comparison-body');
+    tbody.innerHTML = `
+      <tr><td>Gross Weekly</td><td class="text-right">$${Math.round(empWeekly)}</td><td class="text-right font-bold">$${Math.round(indWeekly)}</td></tr>
+      <tr><td>Gross Annual</td><td class="text-right">$${Math.round(empAnnual).toLocaleString()}</td><td class="text-right font-bold">$${Math.round(indAnnual).toLocaleString()}</td></tr>
+      <tr><td>Super paid by</td><td class="text-right text-success">Employer</td><td class="text-right text-warning">You</td></tr>
+      <tr><td>Tax deducted by</td><td class="text-right text-success">Employer</td><td class="text-right text-warning">You (quarterly)</td></tr>
+      <tr><td>Leave entitlements</td><td class="text-right text-success">Yes</td><td class="text-right text-error">No</td></tr>
+      <tr><td>Est. take-home*</td><td class="text-right">~$${Math.round(empAnnual * 0.78).toLocaleString()}</td><td class="text-right">~$${Math.round(indAfterTaxSuper).toLocaleString()}</td></tr>
+    `;
+
+    document.getElementById('comparison-section').classList.remove('hidden');
+  }
+
+  // Event listeners
+  document.querySelectorAll('input[name="employment"]').forEach(el => el.addEventListener('change', calculate));
+  document.getElementById('total-hours').addEventListener('input', calculate);
+  document.getElementById('weekday-pct').addEventListener('input', calculate);
+  document.getElementById('saturday-pct').addEventListener('input', calculate);
+  document.getElementById('sunday-pct').addEventListener('input', calculate);
+  document.getElementById('holiday-pct').addEventListener('input', calculate);
+  document.getElementById('support-level').addEventListener('change', calculate);
+  document.getElementById('sleepovers').addEventListener('input', calculate);
+  document.getElementById('compare-btn').addEventListener('click', showComparison);
+
+  // Initial calculation
+  calculate();
+})();
+</script>

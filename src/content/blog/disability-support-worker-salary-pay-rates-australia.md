@@ -60,6 +60,13 @@ While the award sets the minimum, real-world take-home pay can be a source of co
 3.  **Understand Your Award:** Know your classification level and your entitlements. Don't be afraid to ask your employer to clarify how your pay is calculated.
 4.  **Look for Employers with Enterprise Agreements:** Larger organisations often have their own agreements with pay rates above the minimum award.
 
+## Free Income & Pay Calculators
+
+Use our free tools to calculate your potential earnings:
+
+- **[Support Worker Income Calculator](/tools/support-worker-income-calculator)** - Estimate your weekly, monthly, and annual income based on your hours and shift mix
+- **[NDIS Pay Rate Calculator](/tools/ndis-pay-rate-calculator)** - Calculate NDIS price limits for different support levels and shift times
+
 ## Work With an Employer That Values You
 
 At MD Home Care, we understand that providing high-quality care starts with supporting our workers. We are committed to offering competitive, transparent pay rates and clear pathways for career progression.

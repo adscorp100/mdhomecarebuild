@@ -226,6 +226,8 @@ Possible outcomes:
 
 ### NDIS Worker Screening Check Costs 2025
 
+**Use our free calculator:** **[NDIS Worker Screening Cost Calculator](/tools/ndis-screening-calculator)** - Compare costs and processing times for all states instantly.
+
 Fees vary significantly across states and territories:
 
 | State/Territory | Paid Worker Fee | Volunteer Fee | Express Fee | Renewal Fee |

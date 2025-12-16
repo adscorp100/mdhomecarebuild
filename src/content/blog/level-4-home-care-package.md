@@ -33,6 +33,8 @@ The funding for a Level 4 package translates to approximately **20-28 hours of c
 
 This figure can vary based on the provider's fees and the mix of services you choose. For example, specialized nursing care costs more per hour than domestic assistance, which will affect the total hours you can receive. Choosing a provider with low administrative fees is key to maximizing your care hours.
 
+**Calculate your hours:** Use our free **[Home Care Package Calculator](/tools/home-care-package-calculator)** to estimate how many hours of care you'll receive based on your provider's rates.
+
 ## What Services Can I Access?
 
 A Level 4 package is designed to fund a comprehensive range of services, with a strong focus on clinical support to manage complex health needs.
@@ -77,6 +79,8 @@ A Level 4 package can be used to:
 It's important to understand the difference between these two government programs:
 - **Home Care Packages:** Are for older Australians, generally **age 65 and over**.
 - **National Disability Insurance Scheme (NDIS):** Is for Australians with a significant and permanent disability, **under the age of 65**.
+
+**Not sure which program is right for you?** Take our free **[HCP vs NDIS Comparison Quiz](/tools/hcp-vs-ndis)** to find out which funding program suits your situation.
 
 You cannot receive funding from both programs at the same time. The key factor is your age at the time of application.
 

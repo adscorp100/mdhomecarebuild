@@ -15,6 +15,8 @@ image: "/assets/wheelchair.webp"
 - Transport costs (vehicle expenses) can be claimed when a support worker uses their vehicle to transport a participant as part of the funded support.
 - Specific caps and conditions apply to both travel time and transport claims.
 
+**Calculate your travel costs:** Use our free **[NDIS Travel Calculator](/tools/ndis-travel-calculator)** to calculate kilometre rates and travel time charges for your journeys.
+
 ## Understanding NDIS Travel Time Claims
 Travel time refers to the time a support worker spends traveling between participants or to specific locations required for support delivery:
 

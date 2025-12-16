@@ -1,0 +1,612 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Home Care Package Calculator Australia 2025",
+  "description": "Free home care package calculator. Calculate how many hours of care you get at Level 1, 2, 3, or 4. Estimate weekly hours, costs, and budget allocation for 2025.",
+  "url": "https://mdhomecare.com.au/tools/home-care-package-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many hours per week do you get on a Level 2 home care package?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Level 2 home care package provides approximately $18,622 per year ($358 per week). After the basic daily fee of $12.75/day ($89.25/week), you have around $269 per week for services. At typical rates of $50-60/hour, this equates to approximately 4-5 hours of care per week. Actual hours vary based on the services you choose and provider fees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the daily fee for home care packages in 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The basic daily fee for all home care package levels in 2025 is $12.75 per day ($89.25 per week or $4,654 per year). This fee is the same regardless of whether you have a Level 1, 2, 3, or 4 package. Some people may also pay an income-tested care fee of up to $34.62 per day based on their income."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much funding do you get on a Level 4 home care package?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Level 4 home care package provides $61,826 per year ($1,189 per week) in 2025. This is the highest level of home care package funding available and is designed for people with high-level care needs. After fees and case management costs, you can typically access 15-20+ hours of care per week."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I choose how to spend my home care package budget?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you have flexibility in how you spend your home care package budget within approved services. You can choose services like personal care, domestic assistance, nursing, allied health, transport, home modifications, and equipment. Your provider will work with you to create a care plan that meets your individual needs and goals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the income tested fee for home care packages?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The income tested care fee is an additional fee some people pay based on their income. The maximum is $34.62 per day ($12,636 per year) in 2025. You won't pay this fee if you receive a full Age Pension or have income below the threshold. Services Australia assesses your income to determine if this fee applies to you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is the wait for a home care package?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wait times for home care packages vary by level and location. As of 2025, Level 1-2 packages typically have shorter waits (3-6 months), while Level 3-4 packages can take 6-12+ months. You may be offered an interim lower-level package while waiting for your approved level. Check My Aged Care for current wait times in your area."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="Home Care Package Calculator 2025 - Hours & Budget Estimator"
+  description="Free home care package calculator. Calculate how many hours of care you get at Level 1, 2, 3, or 4. Estimate weekly hours, costs, and budget allocation for 2025."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">Home Care Package Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            Home Care Package Calculator <span class="text-primary">2025</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Calculate how many hours of care you can get with your home care package budget. See funding amounts, fees, and estimated weekly care hours for <strong>all 4 package levels</strong>.
+          </p>
+
+          <!-- Package Levels Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:money-bag-02" class="w-5 h-5 text-primary" />
+              2025 Package Funding Amounts
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Level 1 (Basic)</span>
+                <span class="font-bold text-secondary">$10,588/year</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Level 2 (Low)</span>
+                <span class="font-bold text-secondary">$18,622/year</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Level 3 (Intermediate)</span>
+                <span class="font-bold text-secondary">$40,675/year</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Level 4 (High)</span>
+                <span class="font-bold text-secondary">$61,826/year</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fees Info Card -->
+          <div class="bg-accent/5 border border-accent/20 rounded-[2rem] p-6 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:invoice-02" class="w-5 h-5 text-accent" />
+              Fees You May Pay
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-accent/10">
+                <span class="text-secondary/70">Basic Daily Fee</span>
+                <span class="font-bold text-secondary">$12.75/day</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Income Tested Fee (max)</span>
+                <span class="font-bold text-secondary">$34.62/day</span>
+              </div>
+            </div>
+            <p class="text-xs text-secondary/60 mt-3">The basic daily fee applies to everyone. The income tested fee only applies if your income is above the threshold.</p>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Disclaimer:</strong> This calculator provides estimates only. Actual hours depend on your provider's fees and the services you choose. Contact your provider for exact costs.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="hcp-calculator">
+
+            <div class="mb-8">
+              <h2 class="text-xl font-bold text-secondary mb-2">Calculate Your Care Hours</h2>
+              <p class="text-secondary/60 text-sm">Select your package level and see how many hours of care you could receive.</p>
+            </div>
+
+            <!-- Package Level Selection -->
+            <div class="form-control mb-6">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Select Your Package Level</label>
+              <div class="grid grid-cols-2 gap-3">
+                <label class="cursor-pointer">
+                  <input type="radio" name="package-level" value="1" class="peer hidden" />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <span class="text-2xl font-bold text-primary block">Level 1</span>
+                    <span class="text-xs text-secondary/60">$10,588/year</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="package-level" value="2" class="peer hidden" checked />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <span class="text-2xl font-bold text-primary block">Level 2</span>
+                    <span class="text-xs text-secondary/60">$18,622/year</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="package-level" value="3" class="peer hidden" />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <span class="text-2xl font-bold text-primary block">Level 3</span>
+                    <span class="text-xs text-secondary/60">$40,675/year</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="package-level" value="4" class="peer hidden" />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <span class="text-2xl font-bold text-primary block">Level 4</span>
+                    <span class="text-xs text-secondary/60">$61,826/year</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Hourly Rate Input -->
+            <div class="form-control mb-6">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Average hourly care rate</span>
+              </label>
+              <div class="relative">
+                <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                <input
+                  type="number"
+                  id="hourly-rate"
+                  value="55"
+                  min="30"
+                  max="150"
+                  class="input input-lg w-full pl-10 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                />
+                <span class="absolute right-4 top-1/2 -translate-y-1/2 text-secondary/50">/hour</span>
+              </div>
+              <p class="text-xs text-secondary/50 mt-2">Typical rates: $50-65/hr for personal care, $45-55/hr for domestic. Adjust based on your provider.</p>
+            </div>
+
+            <!-- Case Management % -->
+            <div class="form-control mb-6">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Case management & admin fees (%)</span>
+              </label>
+              <div class="relative">
+                <input
+                  type="number"
+                  id="admin-fee"
+                  value="20"
+                  min="0"
+                  max="40"
+                  class="input input-lg w-full pr-10 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                />
+                <span class="absolute right-4 top-1/2 -translate-y-1/2 text-secondary/50">%</span>
+              </div>
+              <p class="text-xs text-secondary/50 mt-2">Most providers charge 15-25% for case management, care coordination, and admin. Check your provider's fees.</p>
+            </div>
+
+            <!-- Income Tested Fee -->
+            <div class="form-control mb-8">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Do you pay an income tested fee?</label>
+              <div class="grid grid-cols-2 gap-3">
+                <label class="cursor-pointer">
+                  <input type="radio" name="income-tested" value="no" class="peer hidden" checked />
+                  <div class="p-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <span class="font-medium text-secondary">No</span>
+                    <span class="text-xs text-secondary/50 block">Full pension or low income</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="income-tested" value="yes" class="peer hidden" />
+                  <div class="p-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <span class="font-medium text-secondary">Yes</span>
+                    <span class="text-xs text-secondary/50 block">I pay income tested fee</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Results -->
+            <div class="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-6 border border-primary/10">
+              <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+                <Icon name="hugeicons:chart-breakout-circle" class="w-5 h-5 text-primary" />
+                Your Estimated Care Hours
+              </h3>
+
+              <div class="grid grid-cols-2 gap-4 mb-6">
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-sm text-secondary/60 mb-1">Weekly Hours</p>
+                  <p class="text-3xl font-bold text-primary" id="weekly-hours">4.5</p>
+                  <p class="text-xs text-secondary/50">hours/week</p>
+                </div>
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-sm text-secondary/60 mb-1">Annual Hours</p>
+                  <p class="text-3xl font-bold text-accent" id="annual-hours">234</p>
+                  <p class="text-xs text-secondary/50">hours/year</p>
+                </div>
+              </div>
+
+              <!-- Budget Breakdown -->
+              <div class="bg-white rounded-xl p-4 mb-4">
+                <h4 class="font-semibold text-secondary text-sm mb-3">Budget Breakdown (Weekly)</h4>
+                <div class="space-y-2 text-sm">
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Total package funding</span>
+                    <span class="font-medium text-secondary" id="weekly-funding">$358.12</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">- Basic daily fee</span>
+                    <span class="font-medium text-error" id="weekly-basic-fee">-$89.25</span>
+                  </div>
+                  <div class="flex justify-between" id="income-tested-row">
+                    <span class="text-secondary/60">- Income tested fee</span>
+                    <span class="font-medium text-error" id="weekly-income-fee">$0.00</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">- Case management (<span id="admin-pct">20</span>%)</span>
+                    <span class="font-medium text-error" id="weekly-admin">-$53.77</span>
+                  </div>
+                  <div class="flex justify-between pt-2 border-t border-base-200">
+                    <span class="font-semibold text-secondary">Available for care</span>
+                    <span class="font-bold text-success" id="weekly-available">$215.10</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Services You Could Get -->
+              <div class="bg-white rounded-xl p-4">
+                <h4 class="font-semibold text-secondary text-sm mb-3">Example Services You Could Get</h4>
+                <div class="space-y-2 text-sm text-secondary/70" id="service-examples">
+                  <p>Loading...</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Compare All Levels Button -->
+            <div class="mt-6">
+              <button class="btn btn-outline btn-primary w-full rounded-full" id="compare-btn">
+                <Icon name="hugeicons:analytics-02" class="w-5 h-5 mr-2" />
+                Compare All Package Levels
+              </button>
+            </div>
+
+            <!-- Comparison Table (hidden by default) -->
+            <div class="mt-6 hidden" id="comparison-table">
+              <div class="overflow-x-auto">
+                <table class="table table-sm">
+                  <thead>
+                    <tr class="bg-base-200/50">
+                      <th>Level</th>
+                      <th class="text-right">Funding/Year</th>
+                      <th class="text-right">Weekly Hours*</th>
+                      <th class="text-right">Best For</th>
+                    </tr>
+                  </thead>
+                  <tbody id="comparison-body">
+                  </tbody>
+                </table>
+              </div>
+              <p class="text-xs text-secondary/50 mt-2">*Estimated hours based on your selected hourly rate and fees.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How many hours per week do you get on a Level 2 home care package?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>A <strong>Level 2 home care package</strong> provides approximately <strong>$18,622 per year</strong> ($358 per week). After the basic daily fee of $12.75/day ($89.25/week) and typical case management fees (15-25%), you have around $200-270 per week available for direct care services.</p>
+              <p class="mt-2">At typical rates of $50-60/hour, this equates to approximately <strong>4-5 hours of care per week</strong>. Your actual hours will vary based on:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Your provider's hourly rates</li>
+                <li>Case management and admin fees charged</li>
+                <li>The mix of services you choose (nursing costs more than domestic help)</li>
+                <li>Whether you pay an income tested fee</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the daily fee for home care packages in 2025?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The <strong>basic daily fee</strong> for all home care packages in 2025 is <strong>$12.75 per day</strong> ($89.25 per week or $4,654 per year). This fee is the same regardless of your package level.</p>
+              <p class="mt-2">This fee is designed to contribute towards the cost of your care - similar to what you might pay for daily living expenses if you weren't receiving a package.</p>
+              <p class="mt-2">Some people may also pay an <strong>income tested care fee</strong> of up to $34.62 per day based on their income. This doesn't apply if you receive a full Age Pension.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much funding do you get on a Level 4 home care package?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>A <strong>Level 4 home care package</strong> provides <strong>$61,826 per year</strong> ($1,189 per week) in 2025. This is the highest level of funding available.</p>
+              <p class="mt-2">Level 4 is designed for people with <strong>high-level care needs</strong> who require significant daily support. After fees, you can typically access <strong>15-20+ hours of care per week</strong>.</p>
+              <table class="table table-sm mt-3">
+                <thead><tr><th>Package Level</th><th>Annual Funding</th><th>Weekly Funding</th></tr></thead>
+                <tbody>
+                  <tr><td>Level 1 (Basic)</td><td>$10,588</td><td>$203</td></tr>
+                  <tr><td>Level 2 (Low)</td><td>$18,622</td><td>$358</td></tr>
+                  <tr><td>Level 3 (Intermediate)</td><td>$40,675</td><td>$782</td></tr>
+                  <tr><td>Level 4 (High)</td><td>$61,826</td><td>$1,189</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Can I choose how to spend my home care package budget?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Yes!</strong> You have significant flexibility in how you spend your home care package budget. You work with your provider to create a care plan tailored to your needs.</p>
+              <p class="mt-2">Services you can typically access include:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Personal care</strong> - showering, dressing, grooming assistance</li>
+                <li><strong>Domestic assistance</strong> - cleaning, laundry, meal preparation</li>
+                <li><strong>Nursing care</strong> - medication management, wound care</li>
+                <li><strong>Allied health</strong> - physiotherapy, podiatry, dietetics</li>
+                <li><strong>Social support</strong> - companionship, community access</li>
+                <li><strong>Transport</strong> - to appointments and activities</li>
+                <li><strong>Home modifications</strong> - rails, ramps, bathroom modifications</li>
+                <li><strong>Assistive equipment</strong> - mobility aids, daily living aids</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the income tested fee for home care packages?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The <strong>income tested care fee</strong> is an additional fee some people pay based on their income. The maximum is <strong>$34.62 per day</strong> ($12,636 per year) in 2025.</p>
+              <p class="mt-2"><strong>You won't pay this fee if:</strong></p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>You receive a full Age Pension</li>
+                <li>Your income is below the threshold</li>
+                <li>You hold a Commonwealth Seniors Health Card</li>
+              </ul>
+              <p class="mt-2">Services Australia assesses your income to determine if and how much income tested fee you pay. This assessment is separate from your ACAT assessment.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How long is the wait for a home care package?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Wait times for home care packages vary by level and location. Current typical wait times:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Level 1-2:</strong> 3-6 months</li>
+                <li><strong>Level 3:</strong> 6-9 months</li>
+                <li><strong>Level 4:</strong> 9-12+ months</li>
+              </ul>
+              <p class="mt-2">While waiting, you may be offered an <strong>interim lower-level package</strong>. For example, if you're approved for Level 4 but it's not available, you might receive a Level 2 package while you wait.</p>
+              <p class="mt-2">Check <a href="https://www.myagedcare.gov.au" target="_blank" rel="noopener" class="text-primary hover:underline">My Aged Care</a> for current wait times in your area.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Resources</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/level-4-home-care-package/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Level 4 Home Care Package Guide</h3>
+            <p class="text-sm text-secondary/60">Everything you need to know about Level 4 packages.</p>
+          </a>
+          <a href="/blog/acat-assessment-levels-complete-guide-australia/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">ACAT Assessment Guide</h3>
+            <p class="text-sm text-secondary/60">How to prepare for your aged care assessment.</p>
+          </a>
+          <a href="/tools/aged-care-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Aged Care Fees Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate residential aged care costs.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  // 2025 Home Care Package Funding Amounts
+  const PACKAGES = {
+    1: { funding: 10588, name: 'Level 1 (Basic)', bestFor: 'Basic care needs' },
+    2: { funding: 18622, name: 'Level 2 (Low)', bestFor: 'Low-level care' },
+    3: { funding: 40675, name: 'Level 3 (Intermediate)', bestFor: 'Intermediate care' },
+    4: { funding: 61826, name: 'Level 4 (High)', bestFor: 'High-level care' }
+  };
+
+  const BASIC_DAILY_FEE = 12.75;
+  const MAX_INCOME_TESTED_FEE = 34.62;
+
+  function calculate() {
+    const level = document.querySelector('input[name="package-level"]:checked')?.value || '2';
+    const hourlyRate = parseFloat(document.getElementById('hourly-rate').value) || 55;
+    const adminFee = parseFloat(document.getElementById('admin-fee').value) || 20;
+    const hasIncomeFee = document.querySelector('input[name="income-tested"]:checked')?.value === 'yes';
+
+    const pkg = PACKAGES[level];
+    const weeklyFunding = pkg.funding / 52;
+    const weeklyBasicFee = BASIC_DAILY_FEE * 7;
+    const weeklyIncomeFee = hasIncomeFee ? MAX_INCOME_TESTED_FEE * 7 : 0;
+    const afterFees = weeklyFunding - weeklyBasicFee - weeklyIncomeFee;
+    const adminAmount = afterFees * (adminFee / 100);
+    const availableForCare = afterFees - adminAmount;
+    const weeklyHours = availableForCare / hourlyRate;
+    const annualHours = weeklyHours * 52;
+
+    // Update display
+    document.getElementById('weekly-hours').textContent = weeklyHours.toFixed(1);
+    document.getElementById('annual-hours').textContent = Math.round(annualHours);
+    document.getElementById('weekly-funding').textContent = '$' + weeklyFunding.toFixed(2);
+    document.getElementById('weekly-basic-fee').textContent = '-$' + weeklyBasicFee.toFixed(2);
+    document.getElementById('weekly-income-fee').textContent = hasIncomeFee ? '-$' + weeklyIncomeFee.toFixed(2) : '$0.00';
+    document.getElementById('admin-pct').textContent = adminFee;
+    document.getElementById('weekly-admin').textContent = '-$' + adminAmount.toFixed(2);
+    document.getElementById('weekly-available').textContent = '$' + availableForCare.toFixed(2);
+
+    // Update service examples
+    const serviceExamples = document.getElementById('service-examples');
+    const hours = weeklyHours;
+    let examples = '';
+
+    if (hours >= 1) {
+      examples += `<p class="flex items-center gap-2"><span class="w-2 h-2 bg-primary rounded-full"></span>${Math.floor(hours)} hour${hours >= 2 ? 's' : ''} of personal care (showering, dressing)</p>`;
+    }
+    if (hours >= 2) {
+      examples += `<p class="flex items-center gap-2"><span class="w-2 h-2 bg-accent rounded-full"></span>OR ${Math.floor(hours * 1.1)} hours domestic assistance (cleaning, laundry)</p>`;
+    }
+    if (hours >= 3) {
+      examples += `<p class="flex items-center gap-2"><span class="w-2 h-2 bg-success rounded-full"></span>OR Mix: ${Math.floor(hours/2)} hrs personal care + ${Math.floor(hours/2)} hrs domestic</p>`;
+    }
+    if (hours >= 5) {
+      examples += `<p class="flex items-center gap-2"><span class="w-2 h-2 bg-info rounded-full"></span>Plus occasional nursing or allied health visits</p>`;
+    }
+
+    if (!examples) {
+      examples = '<p>Limited hours available - consider a higher package level</p>';
+    }
+
+    serviceExamples.innerHTML = examples;
+  }
+
+  function showComparison() {
+    const hourlyRate = parseFloat(document.getElementById('hourly-rate').value) || 55;
+    const adminFee = parseFloat(document.getElementById('admin-fee').value) || 20;
+    const hasIncomeFee = document.querySelector('input[name="income-tested"]:checked')?.value === 'yes';
+
+    const tbody = document.getElementById('comparison-body');
+    tbody.innerHTML = '';
+
+    for (let level = 1; level <= 4; level++) {
+      const pkg = PACKAGES[level];
+      const weeklyFunding = pkg.funding / 52;
+      const weeklyBasicFee = BASIC_DAILY_FEE * 7;
+      const weeklyIncomeFee = hasIncomeFee ? MAX_INCOME_TESTED_FEE * 7 : 0;
+      const afterFees = weeklyFunding - weeklyBasicFee - weeklyIncomeFee;
+      const adminAmount = afterFees * (adminFee / 100);
+      const availableForCare = afterFees - adminAmount;
+      const weeklyHours = availableForCare / hourlyRate;
+
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td class="font-medium">Level ${level}</td>
+        <td class="text-right">$${pkg.funding.toLocaleString()}</td>
+        <td class="text-right font-bold text-primary">${weeklyHours.toFixed(1)} hrs</td>
+        <td class="text-right text-sm">${pkg.bestFor}</td>
+      `;
+      tbody.appendChild(row);
+    }
+
+    document.getElementById('comparison-table').classList.remove('hidden');
+  }
+
+  // Event listeners
+  document.querySelectorAll('input[name="package-level"]').forEach(el => {
+    el.addEventListener('change', calculate);
+  });
+  document.getElementById('hourly-rate').addEventListener('input', calculate);
+  document.getElementById('admin-fee').addEventListener('input', calculate);
+  document.querySelectorAll('input[name="income-tested"]').forEach(el => {
+    el.addEventListener('change', calculate);
+  });
+  document.getElementById('compare-btn').addEventListener('click', showComparison);
+
+  // Initial calculation
+  calculate();
+})();
+</script>

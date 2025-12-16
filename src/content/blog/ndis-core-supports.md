@@ -37,6 +37,8 @@ The following table provides a concise overview of the key differences:
 | **Capacity Building** | Build skills and independence for the future, reduce long-term support needs | Restricted (Cannot move funds between categories) | Support Coordination, Improved Daily Living (therapy), Improved Life Choices (plan management), Finding & Keeping a Job, Improved Relationships, Improved Health & Wellbeing |
 | **Capital Supports** | Investments in high-cost AT, equipment, modifications, SDA | Restricted (Generally tied to specific quoted items/purposes) | Assistive Technology (wheelchairs, vehicle mods), Home Modifications (bathroom rails, ramps), Specialist Disability Accommodation (SDA) funding |
 
+**Plan your NDIS budget:** Use our free **[NDIS Budget Planner](/tools/ndis-budget-planner)** to allocate your Core, Capacity Building, and Capital funding and calculate your weekly support hours.
+
 ## Deep Dive: The Four NDIS Core Support Categories
 
 The Core Supports budget is typically structured around four key categories, designed to cover the broad spectrum of everyday needs. While the funding within this budget often allows for flexibility *between* these categories (subject to specific rules and exceptions discussed later), understanding the purpose and scope of each category is essential for planning how to best utilise the available funds. The definitions provide a framework, but it is the specific examples that truly illuminate the practical application of this funding, helping participants identify the supports that can make a real difference in their lives. Providing numerous, diverse examples is therefore crucial for clarity and empowering participants to see the possibilities within their plan.

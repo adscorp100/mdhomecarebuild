@@ -1,0 +1,711 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS Therapy Hours Calculator 2025",
+  "description": "Calculate how many therapy sessions you can get with your NDIS funding. OT, physio, speech pathology, psychology hours calculator with 2025-26 rates.",
+  "url": "https://mdhomecare.com.au/tools/ndis-therapy-calculator",
+  "applicationCategory": "HealthApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many OT sessions can I get on NDIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The number of OT sessions depends on your Capacity Building - Daily Activities (CB Daily) budget. At the 2025-26 NDIS rate of $214.41/hour for occupational therapy, $10,000 in funding would provide approximately 47 hours (sessions) of OT. Use our calculator to estimate based on your specific budget."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the NDIS hourly rate for occupational therapy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 2025-26 NDIS price limit for occupational therapy is $214.41 per hour. This is the maximum amount registered providers can charge. Some providers may charge less, and therapy assistants can be engaged at $90.27/hour for certain tasks under OT supervision."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does physio cost on NDIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Physiotherapy under NDIS costs up to $193.99 per hour (2025-26 price limit). This rate applies to registered physiotherapists. Exercise physiologists charge up to $166.99/hour. Physiotherapy assistants working under supervision can be engaged at lower rates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I choose my own allied health provider on NDIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can choose your own allied health providers. If you're plan-managed or self-managed, you can use any provider (registered or unregistered). If you're agency-managed, you must use registered NDIS providers. You can change providers at any time if they're not meeting your needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is CB Daily Activity funding for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CB Daily Activity (Capacity Building - Daily Activities) funding, also called Improved Daily Living, is for allied health therapies that help build your skills and independence. It covers occupational therapy, physiotherapy, speech pathology, psychology, dietetics, exercise physiology, and other therapeutic supports."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get more therapy funding in my NDIS plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To get more therapy funding: 1) Provide evidence from your current therapists about your needs and progress, 2) Get reports showing how therapy helps you achieve your goals, 3) Document specific therapy hours needed, 4) Request a plan review if your needs have changed. Having clear goals linked to therapy outcomes strengthens your case."
+      }
+    }
+  ]
+};
+
+// Therapy rates data for client-side use
+const therapyRates = {
+  ot: { name: "Occupational Therapy", rate: 214.41, code: "15_054_0128_1_3" },
+  physio: { name: "Physiotherapy", rate: 193.99, code: "15_055_0128_1_3" },
+  speech: { name: "Speech Pathology", rate: 193.99, code: "15_056_0128_1_3" },
+  psychology: { name: "Psychology", rate: 214.41, code: "15_058_0128_1_3" },
+  exercise: { name: "Exercise Physiology", rate: 166.99, code: "15_200_0126_1_3" },
+  dietitian: { name: "Dietetics", rate: 166.99, code: "15_048_0128_1_3" },
+  assistant: { name: "Therapy Assistant", rate: 90.27, code: "15_047_0128_1_3" }
+};
+---
+
+<BaseLayout
+  title="NDIS Therapy Hours Calculator 2025 - Plan Your Allied Health Sessions"
+  description="Calculate how many therapy sessions you can get with your NDIS funding. OT, physio, speech pathology, psychology hours calculator with 2025-26 rates."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+  <script type="application/ld+json" set:html={JSON.stringify({ therapyRates })} id="therapy-data" />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">NDIS Therapy Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Therapy Hours Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            NDIS Therapy Hours <span class="text-primary">Calculator</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Calculate how many <strong>OT, physio, speech, and psychology sessions</strong> you can get with your NDIS Capacity Building - Daily Activities budget using <strong>2025-26 rates</strong>.
+          </p>
+
+          <!-- Therapy Rates Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:money-01" class="w-5 h-5 text-primary" />
+              2025-26 NDIS Therapy Rates
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between items-center">
+                <span class="text-secondary/70">Occupational Therapist</span>
+                <span class="font-bold text-secondary">$214.41/hr</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-secondary/70">Physiotherapist</span>
+                <span class="font-bold text-secondary">$193.99/hr</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-secondary/70">Speech Pathologist</span>
+                <span class="font-bold text-secondary">$193.99/hr</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-secondary/70">Psychologist</span>
+                <span class="font-bold text-secondary">$214.41/hr</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-secondary/70">Exercise Physiologist</span>
+                <span class="font-bold text-secondary">$166.99/hr</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-secondary/70">Dietitian</span>
+                <span class="font-bold text-secondary">$166.99/hr</span>
+              </div>
+              <div class="flex justify-between items-center border-t border-base-200 pt-2 mt-2">
+                <span class="text-secondary/70">Therapy Assistant</span>
+                <span class="font-bold text-accent">$90.27/hr</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CB Daily Info -->
+          <div class="bg-accent/5 border border-accent/20 rounded-[2rem] p-6 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:layers-01" class="w-5 h-5 text-accent" />
+              What is CB Daily Activity?
+            </h3>
+            <p class="text-sm text-secondary/70 mb-3">
+              <strong>Capacity Building - Daily Activities</strong> (also called Improved Daily Living) funds therapies that help you:
+            </p>
+            <ul class="space-y-2 text-sm text-secondary/70">
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                <span>Build skills and independence</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                <span>Improve daily living activities</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                <span>Access allied health professionals</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                <span>Get assessments and reports</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Note:</strong> Rates shown are NDIS price limits. Actual provider rates may vary. Some time may be used for reports and assessments. Check your plan for specific line items.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="therapy-calculator">
+
+            <div class="mb-8">
+              <h2 class="text-xl font-bold text-secondary mb-2">Calculate Your Therapy Sessions</h2>
+              <p class="text-secondary/60 text-sm">Enter your CB Daily Activities budget and select the therapies you need.</p>
+            </div>
+
+            <!-- Budget Input -->
+            <div class="form-control mb-6">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">CB Daily Activities Budget (Annual)</span>
+              </label>
+              <div class="relative">
+                <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                <input
+                  type="number"
+                  id="cb-budget"
+                  value="15000"
+                  min="0"
+                  max="200000"
+                  class="input input-lg w-full pl-10 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                />
+              </div>
+              <label class="label">
+                <span class="label-text-alt text-secondary/50">This is your Improved Daily Living / Capacity Building - Daily Activities funding</span>
+              </label>
+            </div>
+
+            <!-- Therapy Selection -->
+            <div class="mb-6">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Select Therapies Needed</span>
+              </label>
+              <div class="grid grid-cols-2 gap-3">
+                <label class="flex items-center gap-3 p-3 border-2 border-base-200 rounded-xl cursor-pointer hover:border-primary/30 transition-colors has-[:checked]:border-primary has-[:checked]:bg-primary/5">
+                  <input type="checkbox" class="checkbox checkbox-primary checkbox-sm" id="therapy-ot" checked />
+                  <span class="text-sm font-medium text-secondary">Occupational Therapy</span>
+                </label>
+                <label class="flex items-center gap-3 p-3 border-2 border-base-200 rounded-xl cursor-pointer hover:border-primary/30 transition-colors has-[:checked]:border-primary has-[:checked]:bg-primary/5">
+                  <input type="checkbox" class="checkbox checkbox-primary checkbox-sm" id="therapy-physio" />
+                  <span class="text-sm font-medium text-secondary">Physiotherapy</span>
+                </label>
+                <label class="flex items-center gap-3 p-3 border-2 border-base-200 rounded-xl cursor-pointer hover:border-primary/30 transition-colors has-[:checked]:border-primary has-[:checked]:bg-primary/5">
+                  <input type="checkbox" class="checkbox checkbox-primary checkbox-sm" id="therapy-speech" />
+                  <span class="text-sm font-medium text-secondary">Speech Pathology</span>
+                </label>
+                <label class="flex items-center gap-3 p-3 border-2 border-base-200 rounded-xl cursor-pointer hover:border-primary/30 transition-colors has-[:checked]:border-primary has-[:checked]:bg-primary/5">
+                  <input type="checkbox" class="checkbox checkbox-primary checkbox-sm" id="therapy-psychology" />
+                  <span class="text-sm font-medium text-secondary">Psychology</span>
+                </label>
+                <label class="flex items-center gap-3 p-3 border-2 border-base-200 rounded-xl cursor-pointer hover:border-primary/30 transition-colors has-[:checked]:border-primary has-[:checked]:bg-primary/5">
+                  <input type="checkbox" class="checkbox checkbox-primary checkbox-sm" id="therapy-exercise" />
+                  <span class="text-sm font-medium text-secondary">Exercise Physiology</span>
+                </label>
+                <label class="flex items-center gap-3 p-3 border-2 border-base-200 rounded-xl cursor-pointer hover:border-primary/30 transition-colors has-[:checked]:border-primary has-[:checked]:bg-primary/5">
+                  <input type="checkbox" class="checkbox checkbox-primary checkbox-sm" id="therapy-dietitian" />
+                  <span class="text-sm font-medium text-secondary">Dietetics</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Allocation Method -->
+            <div class="form-control mb-6">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Budget Allocation Method</span>
+              </label>
+              <select id="allocation-method" class="select select-bordered w-full bg-white border-2 border-base-200 focus:border-primary rounded-xl">
+                <option value="equal">Equal split between therapies</option>
+                <option value="custom">Custom allocation (set percentages)</option>
+              </select>
+            </div>
+
+            <!-- Custom Allocation (hidden by default) -->
+            <div id="custom-allocation" class="hidden mb-6 bg-base-200/30 rounded-2xl p-4">
+              <p class="text-sm text-secondary/70 mb-3">Set percentage for each selected therapy (must total 100%)</p>
+              <div id="allocation-sliders" class="space-y-3">
+                <!-- Sliders will be populated by JS -->
+              </div>
+              <p class="text-sm mt-3"><span class="font-medium">Total: </span><span id="allocation-total" class="text-primary font-bold">100%</span></p>
+            </div>
+
+            <!-- Reserve for Reports -->
+            <div class="form-control mb-8">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Reserve for Reports & Assessments</span>
+              </label>
+              <select id="report-reserve" class="select select-bordered w-full bg-white border-2 border-base-200 focus:border-primary rounded-xl">
+                <option value="0">No reserve (all for sessions)</option>
+                <option value="10" selected>10% (~1-2 reports per therapy)</option>
+                <option value="20">20% (multiple reports needed)</option>
+                <option value="30">30% (extensive assessments)</option>
+              </select>
+              <label class="label">
+                <span class="label-text-alt text-secondary/50">Reports and assessments typically cost 2-4 hours of therapist time</span>
+              </label>
+            </div>
+
+            <!-- Results Section -->
+            <div class="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-6 border border-primary/10 mb-6">
+              <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+                <Icon name="hugeicons:chart-breakout-circle" class="w-5 h-5 text-primary" />
+                Your Therapy Hours Breakdown
+              </h3>
+
+              <!-- Summary Stats -->
+              <div class="grid grid-cols-3 gap-3 mb-6">
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-xs text-secondary/60 mb-1">Total Budget</p>
+                  <p class="text-2xl font-bold text-primary" id="result-budget">$15,000</p>
+                </div>
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-xs text-secondary/60 mb-1">For Sessions</p>
+                  <p class="text-2xl font-bold text-accent" id="result-sessions-budget">$13,500</p>
+                </div>
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-xs text-secondary/60 mb-1">For Reports</p>
+                  <p class="text-2xl font-bold text-secondary/60" id="result-reports-budget">$1,500</p>
+                </div>
+              </div>
+
+              <!-- Therapy Breakdown -->
+              <div class="bg-white rounded-xl p-4" id="therapy-breakdown">
+                <h4 class="font-semibold text-secondary text-sm mb-4">Sessions Per Therapy Type</h4>
+                <div id="therapy-results" class="space-y-4">
+                  <!-- Results populated by JS -->
+                </div>
+              </div>
+
+              <!-- Total Hours -->
+              <div class="bg-white rounded-xl p-4 mt-4">
+                <div class="flex justify-between items-center">
+                  <span class="font-semibold text-secondary">Total Therapy Hours</span>
+                  <span class="text-3xl font-bold text-primary" id="total-hours">63</span>
+                </div>
+                <p class="text-xs text-secondary/50 mt-2">Based on NDIS price limits. Actual sessions may vary by provider.</p>
+              </div>
+            </div>
+
+            <!-- Sessions Per Period -->
+            <div class="bg-base-200/30 rounded-2xl p-5 mb-6">
+              <h4 class="font-bold text-secondary mb-3 flex items-center gap-2">
+                <Icon name="hugeicons:calendar-03" class="w-5 h-5 text-primary" />
+                Sessions Over Time
+              </h4>
+              <div class="grid grid-cols-3 gap-4 text-center">
+                <div>
+                  <p class="text-2xl font-bold text-primary" id="sessions-weekly">1.2</p>
+                  <p class="text-xs text-secondary/60">per week</p>
+                </div>
+                <div>
+                  <p class="text-2xl font-bold text-accent" id="sessions-monthly">5.3</p>
+                  <p class="text-xs text-secondary/60">per month</p>
+                </div>
+                <div>
+                  <p class="text-2xl font-bold text-success" id="sessions-fortnightly">2.4</p>
+                  <p class="text-xs text-secondary/60">per fortnight</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tips -->
+            <div class="bg-success/5 border border-success/20 rounded-2xl p-5">
+              <h4 class="font-bold text-secondary mb-3 flex items-center gap-2">
+                <Icon name="hugeicons:bulb" class="w-5 h-5 text-success" />
+                Maximise Your Therapy Funding
+              </h4>
+              <ul class="space-y-2 text-sm text-secondary/70">
+                <li class="flex items-start gap-2">
+                  <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                  <span>Use therapy assistants for practice sessions at lower rates</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                  <span>Book longer appointments for better value (reduced travel time)</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                  <span>Consider telehealth sessions where appropriate</span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How many OT sessions can I get on NDIS?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The number of OT sessions depends on your <strong>Capacity Building - Daily Activities</strong> budget. At the 2025-26 NDIS rate of $214.41/hour:</p>
+              <table class="table table-sm mt-3">
+                <thead><tr><th>Budget</th><th>OT Hours</th><th>Weekly Sessions</th></tr></thead>
+                <tbody>
+                  <tr><td>$5,000</td><td>~23 hours</td><td>~0.4/week</td></tr>
+                  <tr><td>$10,000</td><td>~47 hours</td><td>~0.9/week</td></tr>
+                  <tr><td>$15,000</td><td>~70 hours</td><td>~1.3/week</td></tr>
+                  <tr><td>$20,000</td><td>~93 hours</td><td>~1.8/week</td></tr>
+                </tbody>
+              </table>
+              <p class="mt-2">Remember to factor in time for reports and assessments, which may use 10-20% of your budget.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the NDIS hourly rate for occupational therapy?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The <strong>2025-26 NDIS price limit</strong> for occupational therapy is <strong>$214.41 per hour</strong>.</p>
+              <p class="mt-2">This is the maximum amount registered providers can charge. Key points:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Some providers may charge less than the price limit</li>
+                <li>Plan-managed and self-managed participants can negotiate rates</li>
+                <li>Therapy assistants can be used at $90.27/hour for certain tasks</li>
+                <li>Group sessions may have different rates</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much does physio cost on NDIS?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Physiotherapy under NDIS costs up to <strong>$193.99 per hour</strong> (2025-26 price limit).</p>
+              <p class="mt-2">Related rates:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Physiotherapist:</strong> $193.99/hr</li>
+                <li><strong>Exercise Physiologist:</strong> $166.99/hr</li>
+                <li><strong>Therapy Assistant:</strong> $90.27/hr</li>
+              </ul>
+              <p class="mt-2">Exercise physiology can be a cost-effective alternative for ongoing exercise programs under clinical supervision.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Can I choose my own allied health provider on NDIS?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Yes!</strong> Your choice of provider depends on your plan management type:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Self-managed:</strong> Any provider (registered or not)</li>
+                <li><strong>Plan-managed:</strong> Any provider (registered or not)</li>
+                <li><strong>Agency-managed:</strong> Registered providers only</li>
+              </ul>
+              <p class="mt-2">You can change providers at any time if they're not meeting your needs. When choosing a provider, consider their experience with your specific needs, location, and availability.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is CB Daily Activity funding for?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>CB Daily Activity</strong> (Capacity Building - Daily Activities), also called <strong>Improved Daily Living</strong>, funds allied health therapies including:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Occupational therapy</li>
+                <li>Physiotherapy</li>
+                <li>Speech pathology</li>
+                <li>Psychology and behavioural support</li>
+                <li>Dietetics</li>
+                <li>Exercise physiology</li>
+                <li>Therapy assistants</li>
+              </ul>
+              <p class="mt-2">The goal is to build your skills and independence for daily living activities. This funding is separate from Core Supports and cannot be moved between categories.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How do I get more therapy funding in my NDIS plan?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>To request more therapy funding in your plan:</p>
+              <ol class="list-decimal pl-5 mt-2 space-y-2">
+                <li><strong>Get therapist reports</strong> - Document your needs, progress, and recommended ongoing therapy</li>
+                <li><strong>Link to goals</strong> - Show how therapy helps you achieve specific plan goals</li>
+                <li><strong>Be specific</strong> - Request a specific number of hours with justification</li>
+                <li><strong>Request a plan review</strong> - If your needs have changed significantly</li>
+                <li><strong>Prepare evidence</strong> - Include medical reports, functional assessments, and therapy progress notes</li>
+              </ol>
+              <p class="mt-2">Consider working with a support coordinator to help prepare your case for increased funding.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Resources</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/ndis-improved-daily-living-cb-daily-activity-guide-2025/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Improved Daily Living Guide</h3>
+            <p class="text-sm text-secondary/60">Complete guide to CB Daily Activity funding.</p>
+          </a>
+          <a href="/tools/ndis-budget-planner" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Budget Planner</h3>
+            <p class="text-sm text-secondary/60">Plan your total NDIS budget allocation.</p>
+          </a>
+          <a href="/tools/ndis-code-lookup" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Line Item Lookup</h3>
+            <p class="text-sm text-secondary/60">Find therapy line item codes and rates.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  // Therapy rates
+  const RATES = {
+    ot: { name: "Occupational Therapy", rate: 214.41 },
+    physio: { name: "Physiotherapy", rate: 193.99 },
+    speech: { name: "Speech Pathology", rate: 193.99 },
+    psychology: { name: "Psychology", rate: 214.41 },
+    exercise: { name: "Exercise Physiology", rate: 166.99 },
+    dietitian: { name: "Dietetics", rate: 166.99 }
+  };
+
+  const customAllocations = {};
+
+  function getSelectedTherapies() {
+    const selected = [];
+    Object.keys(RATES).forEach(key => {
+      const checkbox = document.getElementById('therapy-' + key);
+      if (checkbox && checkbox.checked) {
+        selected.push(key);
+      }
+    });
+    return selected;
+  }
+
+  function updateCustomAllocationUI() {
+    const method = document.getElementById('allocation-method').value;
+    const customDiv = document.getElementById('custom-allocation');
+    const slidersDiv = document.getElementById('allocation-sliders');
+
+    if (method === 'custom') {
+      customDiv.classList.remove('hidden');
+      const selected = getSelectedTherapies();
+
+      // Initialize allocations if needed
+      if (selected.length > 0) {
+        const equalPct = Math.floor(100 / selected.length);
+        selected.forEach((key, i) => {
+          if (customAllocations[key] === undefined) {
+            customAllocations[key] = i === 0 ? 100 - (equalPct * (selected.length - 1)) : equalPct;
+          }
+        });
+      }
+
+      // Build sliders
+      slidersDiv.innerHTML = selected.map(key => `
+        <div class="flex items-center gap-3">
+          <span class="text-sm text-secondary w-40">${RATES[key].name}</span>
+          <input type="range" min="0" max="100" value="${customAllocations[key] || 0}"
+                 class="range range-primary range-sm flex-1"
+                 data-therapy="${key}"
+                 oninput="window.updateAllocation('${key}', this.value)">
+          <span class="text-sm font-medium w-12 text-right" id="alloc-${key}">${customAllocations[key] || 0}%</span>
+        </div>
+      `).join('');
+
+      updateAllocationTotal();
+    } else {
+      customDiv.classList.add('hidden');
+    }
+  }
+
+  window.updateAllocation = function(key, value) {
+    customAllocations[key] = parseInt(value);
+    document.getElementById('alloc-' + key).textContent = value + '%';
+    updateAllocationTotal();
+    calculate();
+  };
+
+  function updateAllocationTotal() {
+    const selected = getSelectedTherapies();
+    const total = selected.reduce((sum, key) => sum + (customAllocations[key] || 0), 0);
+    const totalEl = document.getElementById('allocation-total');
+    totalEl.textContent = total + '%';
+    totalEl.className = total === 100 ? 'text-success font-bold' : 'text-error font-bold';
+  }
+
+  function calculate() {
+    const budget = parseFloat(document.getElementById('cb-budget').value) || 0;
+    const reportReserve = parseFloat(document.getElementById('report-reserve').value) || 0;
+    const method = document.getElementById('allocation-method').value;
+    const selected = getSelectedTherapies();
+
+    // Calculate budgets
+    const reportsBudget = budget * (reportReserve / 100);
+    const sessionsBudget = budget - reportsBudget;
+
+    // Update summary
+    document.getElementById('result-budget').textContent = '$' + budget.toLocaleString();
+    document.getElementById('result-sessions-budget').textContent = '$' + Math.round(sessionsBudget).toLocaleString();
+    document.getElementById('result-reports-budget').textContent = '$' + Math.round(reportsBudget).toLocaleString();
+
+    // Calculate hours per therapy
+    const resultsDiv = document.getElementById('therapy-results');
+    let totalHours = 0;
+
+    if (selected.length === 0) {
+      resultsDiv.innerHTML = '<p class="text-secondary/50 text-sm">Select at least one therapy type above.</p>';
+      document.getElementById('total-hours').textContent = '0';
+      document.getElementById('sessions-weekly').textContent = '0';
+      document.getElementById('sessions-monthly').textContent = '0';
+      document.getElementById('sessions-fortnightly').textContent = '0';
+      return;
+    }
+
+    // Get allocation percentages
+    let allocations = {};
+    if (method === 'equal') {
+      const pct = 100 / selected.length;
+      selected.forEach(key => allocations[key] = pct);
+    } else {
+      selected.forEach(key => allocations[key] = customAllocations[key] || 0);
+    }
+
+    const results = selected.map(key => {
+      const therapy = RATES[key];
+      const allocation = allocations[key] / 100;
+      const therapyBudget = sessionsBudget * allocation;
+      const hours = therapyBudget / therapy.rate;
+      totalHours += hours;
+
+      return {
+        key,
+        name: therapy.name,
+        rate: therapy.rate,
+        budget: therapyBudget,
+        hours: hours,
+        allocation: allocations[key]
+      };
+    });
+
+    resultsDiv.innerHTML = results.map(r => `
+      <div class="flex items-center justify-between py-2 border-b border-base-200 last:border-0">
+        <div class="flex-1">
+          <p class="font-medium text-secondary">${r.name}</p>
+          <p class="text-xs text-secondary/50">$${r.rate}/hr • ${r.allocation.toFixed(0)}% of budget</p>
+        </div>
+        <div class="text-right">
+          <p class="text-xl font-bold text-primary">${r.hours.toFixed(1)}</p>
+          <p class="text-xs text-secondary/50">hours</p>
+        </div>
+      </div>
+    `).join('');
+
+    // Update totals
+    document.getElementById('total-hours').textContent = Math.round(totalHours);
+    document.getElementById('sessions-weekly').textContent = (totalHours / 52).toFixed(1);
+    document.getElementById('sessions-monthly').textContent = (totalHours / 12).toFixed(1);
+    document.getElementById('sessions-fortnightly').textContent = (totalHours / 26).toFixed(1);
+  }
+
+  // Event listeners
+  document.getElementById('cb-budget').addEventListener('input', calculate);
+  document.getElementById('report-reserve').addEventListener('change', calculate);
+  document.getElementById('allocation-method').addEventListener('change', function() {
+    updateCustomAllocationUI();
+    calculate();
+  });
+
+  // Therapy checkboxes
+  Object.keys(RATES).forEach(key => {
+    const checkbox = document.getElementById('therapy-' + key);
+    if (checkbox) {
+      checkbox.addEventListener('change', function() {
+        updateCustomAllocationUI();
+        calculate();
+      });
+    }
+  });
+
+  // Initial calculation
+  calculate();
+})();
+</script>

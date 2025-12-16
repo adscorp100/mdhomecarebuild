@@ -2,7 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
-const tools = [
+// Phase 1 Tools (Original 7)
+const phase1Tools = [
   {
     title: "DSP Calculator",
     description: "Calculate your estimated Disability Support Pension payment based on your income, assets, and relationship status.",
@@ -53,11 +54,81 @@ const tools = [
     color: "primary"
   }
 ];
+
+// Phase 2 Tools (New 8)
+const phase2Tools = [
+  {
+    title: "Home Care Package Calculator",
+    description: "Calculate how many hours of care you get at Level 1, 2, 3, or 4. Estimate weekly hours based on 2025 funding amounts.",
+    href: "/tools/home-care-package-calculator",
+    icon: "hugeicons:clock-02",
+    color: "accent",
+    isNew: true
+  },
+  {
+    title: "NDIS Travel Calculator",
+    description: "Calculate provider travel and transport costs at $0.97/km. Find 2025-26 kilometre rates and travel time charges.",
+    href: "/tools/ndis-travel-calculator",
+    icon: "hugeicons:car-01",
+    color: "primary",
+    isNew: true
+  },
+  {
+    title: "NDIS Screening Cost Calculator",
+    description: "Find NDIS worker screening check costs for all states. Compare NSW, VIC, QLD, WA, SA, TAS, ACT & NT fees and processing times.",
+    href: "/tools/ndis-screening-calculator",
+    icon: "hugeicons:user-check-01",
+    color: "accent",
+    isNew: true
+  },
+  {
+    title: "NDIS Provider Registration Calculator",
+    description: "Estimate NDIS provider registration costs including audit fees, insurance, and suitability assessment expenses.",
+    href: "/tools/ndis-provider-calculator",
+    icon: "hugeicons:certificate-01",
+    color: "primary",
+    isNew: true
+  },
+  {
+    title: "HCP vs NDIS Comparison",
+    description: "Interactive quiz to find out whether Home Care Package or NDIS is right for you based on your age, needs, and eligibility.",
+    href: "/tools/hcp-vs-ndis",
+    icon: "hugeicons:exchange-01",
+    color: "accent",
+    isNew: true
+  },
+  {
+    title: "NDIS Budget Planner",
+    description: "Plan your NDIS funding across Core, Capacity Building, and Capital categories. Calculate weekly support hours.",
+    href: "/tools/ndis-budget-planner",
+    icon: "hugeicons:chart-breakout-circle",
+    color: "primary",
+    isNew: true
+  },
+  {
+    title: "Support Worker Income Calculator",
+    description: "Calculate your support worker income. Estimate weekly, monthly, and annual earnings based on hours and shift types.",
+    href: "/tools/support-worker-income-calculator",
+    icon: "hugeicons:wallet-02",
+    color: "accent",
+    isNew: true
+  },
+  {
+    title: "NDIS Therapy Hours Calculator",
+    description: "Calculate how many OT, physio, speech, and psychology sessions you can get with your CB Daily Activities budget.",
+    href: "/tools/ndis-therapy-calculator",
+    icon: "hugeicons:health",
+    color: "primary",
+    isNew: true
+  }
+];
+
+const tools = [...phase1Tools, ...phase2Tools];
 ---
 
 <BaseLayout
-  title="Free NDIS & Disability Calculators"
-  description="Free online calculators for DSP payments, NDIS support worker rates, and more. Get instant estimates for disability support pension and care costs."
+  title="15 Free NDIS & Disability Calculators | 2025 Rates"
+  description="15 free online calculators for NDIS pay rates, support worker income, home care packages, therapy hours, and more. Get instant estimates with 2025 rates."
 >
   <div class="relative overflow-hidden bg-base-100">
     <!-- Background Decor -->
@@ -78,17 +149,22 @@ const tools = [
         </h1>
 
         <p class="text-xl text-secondary/70 font-medium max-w-2xl mx-auto leading-relaxed text-balance">
-          Free online tools to help you estimate payments, rates, and costs. Get instant calculations based on current 2025 rates.
+          15 free online tools to help you estimate payments, rates, and costs. Get instant calculations based on current 2025-26 rates.
         </p>
       </div>
 
       <!-- Tools Grid -->
-      <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
         {tools.map((tool) => (
           <a
             href={tool.comingSoon ? "#" : tool.href}
             class={`group relative bg-white rounded-[2rem] p-8 border border-base-200 shadow-lg shadow-base-200/50 transition-all duration-300 ${tool.comingSoon ? 'opacity-60 cursor-not-allowed' : 'hover:shadow-xl hover:shadow-base-200/50 hover:-translate-y-1 hover:border-primary/20'}`}
           >
+            {tool.isNew && (
+              <span class="absolute top-6 right-6 px-3 py-1 bg-success/10 text-success text-xs font-bold rounded-full">
+                NEW
+              </span>
+            )}
             {tool.comingSoon && (
               <span class="absolute top-6 right-6 px-3 py-1 bg-warning/10 text-warning text-xs font-bold rounded-full">
                 Coming Soon

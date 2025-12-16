@@ -1,0 +1,570 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS Budget Planner 2025",
+  "description": "Free NDIS budget planner. Allocate your plan funding across Core, Capacity Building, and Capital categories. Track spending and plan your support hours.",
+  "url": "https://mdhomecare.com.au/tools/ndis-budget-planner",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I allocate my NDIS budget?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your NDIS budget is allocated across three main categories: Core Supports (daily activities, consumables, transport), Capacity Building (therapies, skill development), and Capital Supports (equipment, home modifications). Within Core Supports, you can generally move funds between sub-categories flexibly. Work with your support coordinator or plan manager to allocate funds based on your goals and needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I move money between NDIS categories?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the category. Within Core Supports, you can generally move money between sub-categories (e.g., from transport to daily activities). However, you cannot move funds between the three main budgets (Core, Capacity Building, Capital) without a plan review. Capacity Building and Capital funds are usually fixed for their intended purposes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I don't spend all my NDIS funding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unspent NDIS funding does not roll over to your next plan - it returns to the NDIA. If you consistently underspend, your next plan may be reduced. If you're not using your funding, talk to your support coordinator about whether your supports are meeting your needs or if you need different services. It's better to use your funding on approved supports than to lose it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many support hours can I get with my NDIS plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The number of support hours depends on your Core Supports budget and the type of support. At standard weekday rates (~$70.88/hr), $50,000 in Core funding equals approximately 14 hours per week. Higher intensity supports cost more per hour, reducing total hours. Use our calculator to estimate your hours based on your specific budget and support needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What percentage should go to each NDIS category?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There's no fixed percentage - it depends entirely on your individual needs and goals. Typical allocations might be 60-80% Core Supports (daily living), 15-30% Capacity Building (therapies), and 5-15% Capital (equipment). Someone with high therapy needs might have more in Capacity Building, while someone needing daily support would have more in Core. Your plan is tailored to your situation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I track my NDIS spending?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can track NDIS spending through: 1) The myNDIS app or portal (shows real-time budget status), 2) Your plan manager's portal (if plan-managed), 3) Provider invoices (if self-managed), 4) Regular budget reviews with your support coordinator. Check your spending at least monthly to ensure you're on track and not over or under-spending your plan."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="NDIS Budget Planner 2025 - Plan Your Funding Allocation"
+  description="Free NDIS budget planner. Allocate your plan funding across Core, Capacity Building, and Capital categories. Track spending and plan your support hours."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">NDIS Budget Planner</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Budget Planner
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            NDIS Budget Planner <span class="text-primary">2025</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Plan how to spend your NDIS funding across Core, Capacity Building, and Capital supports. Calculate <strong>weekly support hours</strong> and track your budget allocation.
+          </p>
+
+          <!-- Budget Categories Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:layers-01" class="w-5 h-5 text-primary" />
+              NDIS Budget Categories
+            </h3>
+            <div class="space-y-4 text-sm">
+              <div class="flex items-start gap-3">
+                <div class="w-3 h-3 rounded-full bg-primary mt-1.5"></div>
+                <div>
+                  <p class="font-semibold text-secondary">Core Supports</p>
+                  <p class="text-secondary/60">Daily activities, consumables, transport, social participation</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-3 h-3 rounded-full bg-accent mt-1.5"></div>
+                <div>
+                  <p class="font-semibold text-secondary">Capacity Building</p>
+                  <p class="text-secondary/60">Therapies, skill development, support coordination</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-3 h-3 rounded-full bg-success mt-1.5"></div>
+                <div>
+                  <p class="font-semibold text-secondary">Capital Supports</p>
+                  <p class="text-secondary/60">Equipment, home modifications, vehicle modifications</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flexibility Info -->
+          <div class="bg-accent/5 border border-accent/20 rounded-[2rem] p-6 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:exchange-01" class="w-5 h-5 text-accent" />
+              Budget Flexibility
+            </h3>
+            <ul class="space-y-2 text-sm text-secondary/70">
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                <span><strong>Core:</strong> Flexible within category (can move between daily activities, transport, etc.)</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:cancel-circle" class="w-4 h-4 text-error mt-0.5 flex-shrink-0" />
+                <span><strong>Between categories:</strong> Cannot move funds without plan review</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Note:</strong> This planner is for guidance only. Your actual plan may have specific line items and rules. Check your plan or speak to your support coordinator.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="budget-planner">
+
+            <div class="mb-8">
+              <h2 class="text-xl font-bold text-secondary mb-2">Enter Your NDIS Plan Budget</h2>
+              <p class="text-secondary/60 text-sm">Input your total plan funding by category.</p>
+            </div>
+
+            <!-- Budget Inputs -->
+            <div class="space-y-6 mb-8">
+              <!-- Core Supports -->
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text font-bold text-secondary/70 flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-primary"></span>
+                    Core Supports Budget (Annual)
+                  </span>
+                </label>
+                <div class="relative">
+                  <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                  <input
+                    type="number"
+                    id="core-budget"
+                    value="40000"
+                    min="0"
+                    max="500000"
+                    class="input input-lg w-full pl-10 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                  />
+                </div>
+              </div>
+
+              <!-- Capacity Building -->
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text font-bold text-secondary/70 flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-accent"></span>
+                    Capacity Building Budget (Annual)
+                  </span>
+                </label>
+                <div class="relative">
+                  <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                  <input
+                    type="number"
+                    id="cb-budget"
+                    value="15000"
+                    min="0"
+                    max="200000"
+                    class="input input-lg w-full pl-10 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                  />
+                </div>
+              </div>
+
+              <!-- Capital -->
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text font-bold text-secondary/70 flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-success"></span>
+                    Capital Supports Budget (Annual)
+                  </span>
+                </label>
+                <div class="relative">
+                  <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/50 font-bold">$</span>
+                  <input
+                    type="number"
+                    id="capital-budget"
+                    value="5000"
+                    min="0"
+                    max="200000"
+                    class="input input-lg w-full pl-10 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                  />
+                </div>
+              </div>
+
+              <!-- Plan Duration -->
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text font-bold text-secondary/70">Plan Duration</span>
+                </label>
+                <select id="plan-duration" class="select select-bordered w-full bg-white border-2 border-base-200 focus:border-primary rounded-xl">
+                  <option value="12">12 months (standard)</option>
+                  <option value="24">24 months</option>
+                  <option value="6">6 months (short plan)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Results Section -->
+            <div class="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-6 border border-primary/10 mb-6">
+              <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+                <Icon name="hugeicons:chart-breakout-circle" class="w-5 h-5 text-primary" />
+                Your Budget Breakdown
+              </h3>
+
+              <!-- Total & Weekly -->
+              <div class="grid grid-cols-2 gap-4 mb-6">
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-sm text-secondary/60 mb-1">Total Plan</p>
+                  <p class="text-3xl font-bold text-primary" id="total-plan">$60,000</p>
+                </div>
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-sm text-secondary/60 mb-1">Weekly Budget</p>
+                  <p class="text-3xl font-bold text-accent" id="weekly-budget">$1,154</p>
+                </div>
+              </div>
+
+              <!-- Visual Chart -->
+              <div class="bg-white rounded-xl p-4 mb-4">
+                <h4 class="font-semibold text-secondary text-sm mb-3">Budget Allocation</h4>
+                <div class="h-6 rounded-full overflow-hidden flex">
+                  <div id="core-bar" class="bg-primary transition-all" style="width: 67%"></div>
+                  <div id="cb-bar" class="bg-accent transition-all" style="width: 25%"></div>
+                  <div id="capital-bar" class="bg-success transition-all" style="width: 8%"></div>
+                </div>
+                <div class="flex justify-between mt-2 text-xs text-secondary/60">
+                  <span>Core: <strong id="core-pct">67%</strong></span>
+                  <span>CB: <strong id="cb-pct">25%</strong></span>
+                  <span>Capital: <strong id="capital-pct">8%</strong></span>
+                </div>
+              </div>
+
+              <!-- Weekly Breakdown -->
+              <div class="bg-white rounded-xl p-4 mb-4">
+                <h4 class="font-semibold text-secondary text-sm mb-3">Weekly Breakdown</h4>
+                <div class="space-y-2 text-sm">
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60 flex items-center gap-2">
+                      <span class="w-2 h-2 rounded-full bg-primary"></span>
+                      Core Supports
+                    </span>
+                    <span class="font-medium text-secondary" id="core-weekly">$769/week</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60 flex items-center gap-2">
+                      <span class="w-2 h-2 rounded-full bg-accent"></span>
+                      Capacity Building
+                    </span>
+                    <span class="font-medium text-secondary" id="cb-weekly">$288/week</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60 flex items-center gap-2">
+                      <span class="w-2 h-2 rounded-full bg-success"></span>
+                      Capital Supports
+                    </span>
+                    <span class="font-medium text-secondary" id="capital-weekly">$96/week</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Support Hours Estimate -->
+              <div class="bg-white rounded-xl p-4">
+                <h4 class="font-semibold text-secondary text-sm mb-3">Estimated Support Hours (Core)</h4>
+                <div class="grid grid-cols-3 gap-3 text-center">
+                  <div>
+                    <p class="text-2xl font-bold text-primary" id="hours-weekday">10.9</p>
+                    <p class="text-xs text-secondary/50">hrs/wk (weekday)</p>
+                  </div>
+                  <div>
+                    <p class="text-2xl font-bold text-accent" id="hours-weekend">7.8</p>
+                    <p class="text-xs text-secondary/50">hrs/wk (weekend)</p>
+                  </div>
+                  <div>
+                    <p class="text-2xl font-bold text-success" id="hours-annual">564</p>
+                    <p class="text-xs text-secondary/50">hrs/year</p>
+                  </div>
+                </div>
+                <p class="text-xs text-secondary/50 mt-3">Based on 2025-26 NDIS price limits. Actual hours depend on your support types and rates.</p>
+              </div>
+            </div>
+
+            <!-- Spending Tips -->
+            <div class="bg-base-200/30 rounded-2xl p-5">
+              <h4 class="font-bold text-secondary mb-3 flex items-center gap-2">
+                <Icon name="hugeicons:bulb" class="w-5 h-5 text-warning" />
+                Budget Tips
+              </h4>
+              <ul class="space-y-2 text-sm text-secondary/70">
+                <li class="flex items-start gap-2">
+                  <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                  <span>Track spending monthly to avoid underspend or overspend</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                  <span>Unspent funds don't roll over - use it or lose it</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                  <span>Request a plan review if your needs change significantly</span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How do I allocate my NDIS budget?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Your NDIS budget is pre-allocated across three main categories based on your plan:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Core Supports</strong> - Daily activities, consumables, transport, social participation</li>
+                <li><strong>Capacity Building</strong> - Therapies, skill development, support coordination</li>
+                <li><strong>Capital Supports</strong> - Equipment, home/vehicle modifications</li>
+              </ul>
+              <p class="mt-2">Within each category, work with your support coordinator to decide how to allocate funds to specific supports based on your goals.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Can I move money between NDIS categories?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Within Core Supports:</strong> Generally yes - you can move funds between sub-categories like daily activities, transport, and consumables.</p>
+              <p class="mt-2"><strong>Between main categories:</strong> No - you cannot move funds from Core to Capacity Building or Capital without a plan review.</p>
+              <p class="mt-2">If you find your budget allocation doesn't match your needs, request a plan review to have your funding reassessed.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What happens if I don't spend all my NDIS funding?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Unspent NDIS funding does not roll over</strong> - it returns to the NDIA at the end of your plan.</p>
+              <p class="mt-2">Consequences of consistent underspending:</p>
+              <ul class="list-disc pl-5 mt-1 space-y-1">
+                <li>Your next plan may be reduced</li>
+                <li>You may be missing out on beneficial supports</li>
+              </ul>
+              <p class="mt-2">If you're underspending, talk to your support coordinator about accessing additional services or different supports that could help you achieve your goals.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How many support hours can I get with my NDIS plan?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Hours depend on your Core Supports budget and support type. Examples (2025-26 rates):</p>
+              <table class="table table-sm mt-2">
+                <thead><tr><th>Budget</th><th>Weekday Hours/Week</th><th>Annual Hours</th></tr></thead>
+                <tbody>
+                  <tr><td>$20,000</td><td>~5.4 hrs</td><td>~282 hrs</td></tr>
+                  <tr><td>$40,000</td><td>~10.9 hrs</td><td>~564 hrs</td></tr>
+                  <tr><td>$60,000</td><td>~16.3 hrs</td><td>~847 hrs</td></tr>
+                  <tr><td>$100,000</td><td>~27.2 hrs</td><td>~1,411 hrs</td></tr>
+                </tbody>
+              </table>
+              <p class="mt-2">Higher intensity supports, weekend shifts, and public holidays cost more per hour.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What percentage should go to each NDIS category?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>There's no "right" percentage - it depends entirely on your individual needs:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>High daily support needs:</strong> 80%+ in Core</li>
+                <li><strong>Focus on therapy/skill building:</strong> More in Capacity Building</li>
+                <li><strong>Need equipment/modifications:</strong> More in Capital</li>
+              </ul>
+              <p class="mt-2">Typical allocations:</p>
+              <ul class="list-disc pl-5 mt-1 space-y-1">
+                <li>Core: 60-80%</li>
+                <li>Capacity Building: 15-30%</li>
+                <li>Capital: 5-15%</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How do I track my NDIS spending?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Several ways to track your NDIS spending:</p>
+              <ol class="list-decimal pl-5 mt-2 space-y-2">
+                <li><strong>myNDIS app/portal</strong> - Check real-time budget balances</li>
+                <li><strong>Plan manager portal</strong> - If plan-managed, your PM provides spending reports</li>
+                <li><strong>Provider invoices</strong> - If self-managed, track all invoices</li>
+                <li><strong>Spreadsheet</strong> - Many people use their own tracking spreadsheet</li>
+              </ol>
+              <p class="mt-2"><strong>Tip:</strong> Check your spending at least monthly to stay on track.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Resources</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/ndis-core-supports/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Core Supports Guide</h3>
+            <p class="text-sm text-secondary/60">Understanding your Core budget categories.</p>
+          </a>
+          <a href="/tools/ndis-pay-rate-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Pay Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate support worker hourly rates.</p>
+          </a>
+          <a href="/blog/plan-manager-vs-agency-managed/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Plan Management Options</h3>
+            <p class="text-sm text-secondary/60">Self, plan, or agency managed?</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  const WEEKDAY_RATE = 70.88;
+  const WEEKEND_RATE = 99.24;
+
+  function calculate() {
+    const coreBudget = parseFloat(document.getElementById('core-budget').value) || 0;
+    const cbBudget = parseFloat(document.getElementById('cb-budget').value) || 0;
+    const capitalBudget = parseFloat(document.getElementById('capital-budget').value) || 0;
+    const planDuration = parseInt(document.getElementById('plan-duration').value) || 12;
+
+    const totalPlan = coreBudget + cbBudget + capitalBudget;
+    const weeks = (planDuration / 12) * 52;
+    const weeklyBudget = totalPlan / weeks;
+
+    // Percentages
+    const corePct = totalPlan > 0 ? (coreBudget / totalPlan * 100).toFixed(0) : 0;
+    const cbPct = totalPlan > 0 ? (cbBudget / totalPlan * 100).toFixed(0) : 0;
+    const capitalPct = totalPlan > 0 ? (capitalBudget / totalPlan * 100).toFixed(0) : 0;
+
+    // Weekly amounts
+    const coreWeekly = coreBudget / weeks;
+    const cbWeekly = cbBudget / weeks;
+    const capitalWeekly = capitalBudget / weeks;
+
+    // Support hours (from Core)
+    const hoursWeekday = coreWeekly / WEEKDAY_RATE;
+    const hoursWeekend = coreWeekly / WEEKEND_RATE;
+    const hoursAnnual = coreBudget / WEEKDAY_RATE;
+
+    // Update display
+    document.getElementById('total-plan').textContent = '$' + totalPlan.toLocaleString();
+    document.getElementById('weekly-budget').textContent = '$' + Math.round(weeklyBudget).toLocaleString();
+
+    document.getElementById('core-bar').style.width = corePct + '%';
+    document.getElementById('cb-bar').style.width = cbPct + '%';
+    document.getElementById('capital-bar').style.width = capitalPct + '%';
+
+    document.getElementById('core-pct').textContent = corePct + '%';
+    document.getElementById('cb-pct').textContent = cbPct + '%';
+    document.getElementById('capital-pct').textContent = capitalPct + '%';
+
+    document.getElementById('core-weekly').textContent = '$' + Math.round(coreWeekly) + '/week';
+    document.getElementById('cb-weekly').textContent = '$' + Math.round(cbWeekly) + '/week';
+    document.getElementById('capital-weekly').textContent = '$' + Math.round(capitalWeekly) + '/week';
+
+    document.getElementById('hours-weekday').textContent = hoursWeekday.toFixed(1);
+    document.getElementById('hours-weekend').textContent = hoursWeekend.toFixed(1);
+    document.getElementById('hours-annual').textContent = Math.round(hoursAnnual);
+  }
+
+  // Event listeners
+  document.getElementById('core-budget').addEventListener('input', calculate);
+  document.getElementById('cb-budget').addEventListener('input', calculate);
+  document.getElementById('capital-budget').addEventListener('input', calculate);
+  document.getElementById('plan-duration').addEventListener('change', calculate);
+
+  // Initial calculation
+  calculate();
+})();
+</script>

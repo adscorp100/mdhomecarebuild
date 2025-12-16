@@ -1,0 +1,642 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS Provider Registration Cost Calculator 2025",
+  "description": "Calculate NDIS provider registration costs. Estimate audit fees, insurance, and suitability assessment costs. Free calculator for 2025 registration expenses.",
+  "url": "https://mdhomecare.com.au/tools/ndis-provider-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does NDIS provider registration cost in 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS provider registration costs typically range from $5,000 to $30,000+ depending on your registration groups. Key costs include: Suitability Assessment ($282), Verification Audit ($3,000-$6,000), or Certification Audit ($8,000-$25,000+), plus Public Liability Insurance ($1,000-$3,000/year) and Professional Indemnity Insurance ($800-$2,500/year)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between certification and verification audit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Verification audits are simpler, lower-cost audits ($3,000-$6,000) for providers registering in 1-2 lower-risk registration groups. Certification audits are more comprehensive ($8,000-$25,000+) and required for providers registering in higher-risk groups like behaviour support, SDA, or if registering in 3+ groups. Certification audits involve more extensive documentation review and site visits."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does an NDIS audit cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS audit costs vary significantly: Verification audits typically cost $3,000-$6,000 for small providers with 1-2 registration groups. Certification audits range from $8,000-$25,000+ depending on the number of registration groups, complexity of services, and geographic spread. Additional costs may apply for re-audits if initial audit findings require correction."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need insurance to become an NDIS provider?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, NDIS providers must have appropriate insurance. Required insurance typically includes: Public Liability Insurance (minimum $10 million), Professional Indemnity Insurance, and Workers' Compensation Insurance (if you have employees). Insurance costs range from $2,000-$6,000+ annually depending on your services and size."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does NDIS provider registration take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS provider registration typically takes 3-6 months from start to finish. Timeline breakdown: Application preparation (2-4 weeks), Suitability assessment (2-4 weeks), Audit scheduling (2-4 weeks), Audit process (1-4 weeks), NDIS Commission review (4-8 weeks). Complex applications or certification audits may take longer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What registration groups do I need for support work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For general support work, you typically need registration in group 0104 (Assistance with Daily Personal Activities) and/or 0107 (Assistance with Daily Life Tasks). If you provide community access support, add 0125 (Participation in Community, Social and Civic Activities). These are verification-level groups with lower audit costs. Higher-risk services like behaviour support or SIL require additional registration groups."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="NDIS Provider Registration Cost Calculator 2025 - Estimate Fees"
+  description="Calculate NDIS provider registration costs. Estimate audit fees, insurance, and suitability assessment costs. Free calculator for 2025 registration expenses."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">NDIS Provider Registration Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            NDIS Provider Registration Cost <span class="text-primary">2025</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Estimate the total cost of becoming a registered NDIS provider. Calculate <strong>audit fees, insurance, and application costs</strong> based on your service offerings.
+          </p>
+
+          <!-- Cost Overview Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:money-bag-02" class="w-5 h-5 text-primary" />
+              Typical Cost Ranges
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Suitability Assessment</span>
+                <span class="font-bold text-secondary">$282</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Verification Audit</span>
+                <span class="font-bold text-secondary">$3,000-$6,000</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Certification Audit</span>
+                <span class="font-bold text-secondary">$8,000-$25,000+</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Annual Insurance</span>
+                <span class="font-bold text-secondary">$2,000-$6,000</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Audit Types Card -->
+          <div class="bg-accent/5 border border-accent/20 rounded-[2rem] p-6 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:checkmark-badge-01" class="w-5 h-5 text-accent" />
+              Verification vs Certification
+            </h3>
+            <div class="space-y-4 text-sm">
+              <div>
+                <p class="font-semibold text-secondary">Verification Audit</p>
+                <p class="text-secondary/60">Lower-cost option for 1-2 low-risk registration groups. Desktop-based review.</p>
+              </div>
+              <div>
+                <p class="font-semibold text-secondary">Certification Audit</p>
+                <p class="text-secondary/60">Required for high-risk groups (behaviour support, SIL, SDA) or 3+ groups. Includes site visits.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Note:</strong> Actual costs vary by auditor and circumstances. Get quotes from multiple approved auditors. Prices are estimates for 2025.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="provider-calculator">
+
+            <div class="mb-8">
+              <h2 class="text-xl font-bold text-secondary mb-2">Estimate Your Registration Costs</h2>
+              <p class="text-secondary/60 text-sm">Select your intended registration groups and business details.</p>
+            </div>
+
+            <!-- Audit Type Selection -->
+            <div class="form-control mb-6">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">What type of audit do you need?</label>
+              <div class="grid grid-cols-2 gap-3">
+                <label class="cursor-pointer">
+                  <input type="radio" name="audit-type" value="verification" class="peer hidden" checked />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <Icon name="hugeicons:checkmark-badge-01" class="w-8 h-8 mx-auto mb-2 text-primary" />
+                    <span class="font-medium text-secondary block">Verification</span>
+                    <span class="text-xs text-secondary/50">1-2 low-risk groups</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="audit-type" value="certification" class="peer hidden" />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <Icon name="hugeicons:certificate-01" class="w-8 h-8 mx-auto mb-2 text-accent" />
+                    <span class="font-medium text-secondary block">Certification</span>
+                    <span class="text-xs text-secondary/50">High-risk or 3+ groups</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Number of Registration Groups -->
+            <div class="form-control mb-6">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Number of registration groups</span>
+              </label>
+              <div class="relative">
+                <input
+                  type="number"
+                  id="num-groups"
+                  value="2"
+                  min="1"
+                  max="20"
+                  class="input input-lg w-full bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                />
+              </div>
+              <p class="text-xs text-secondary/50 mt-2">More groups = higher audit costs. Common groups: Daily Personal Activities, Community Participation, Transport.</p>
+            </div>
+
+            <!-- Service Locations -->
+            <div class="form-control mb-6">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Number of service locations</span>
+              </label>
+              <select id="locations" class="select select-bordered w-full bg-white border-2 border-base-200 focus:border-primary rounded-xl">
+                <option value="1">1 location (home-based or single office)</option>
+                <option value="2">2-3 locations</option>
+                <option value="4">4+ locations</option>
+              </select>
+              <p class="text-xs text-secondary/50 mt-2">Multiple locations increase certification audit costs due to site visits.</p>
+            </div>
+
+            <!-- Number of Employees -->
+            <div class="form-control mb-6">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Expected number of employees</span>
+              </label>
+              <select id="employees" class="select select-bordered w-full bg-white border-2 border-base-200 focus:border-primary rounded-xl">
+                <option value="solo">Solo operator (just me)</option>
+                <option value="small">Small team (2-10 staff)</option>
+                <option value="medium">Medium (11-50 staff)</option>
+                <option value="large">Large (50+ staff)</option>
+              </select>
+            </div>
+
+            <!-- Include High-Risk Services -->
+            <div class="form-control mb-8">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Do you plan to offer any of these? (Requires certification)</label>
+              <div class="space-y-2">
+                <label class="cursor-pointer flex items-center gap-3 p-3 rounded-xl border border-base-200 hover:bg-base-100">
+                  <input type="checkbox" id="behaviour-support" class="checkbox checkbox-primary checkbox-sm" />
+                  <span class="text-secondary text-sm">Behaviour Support</span>
+                </label>
+                <label class="cursor-pointer flex items-center gap-3 p-3 rounded-xl border border-base-200 hover:bg-base-100">
+                  <input type="checkbox" id="sil" class="checkbox checkbox-primary checkbox-sm" />
+                  <span class="text-secondary text-sm">Supported Independent Living (SIL)</span>
+                </label>
+                <label class="cursor-pointer flex items-center gap-3 p-3 rounded-xl border border-base-200 hover:bg-base-100">
+                  <input type="checkbox" id="sda" class="checkbox checkbox-primary checkbox-sm" />
+                  <span class="text-secondary text-sm">Specialist Disability Accommodation (SDA)</span>
+                </label>
+                <label class="cursor-pointer flex items-center gap-3 p-3 rounded-xl border border-base-200 hover:bg-base-100">
+                  <input type="checkbox" id="early-childhood" class="checkbox checkbox-primary checkbox-sm" />
+                  <span class="text-secondary text-sm">Early Childhood Supports</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Results -->
+            <div class="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-6 border border-primary/10">
+              <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+                <Icon name="hugeicons:money-02" class="w-5 h-5 text-primary" />
+                Estimated Registration Costs
+              </h3>
+
+              <div class="grid grid-cols-2 gap-4 mb-6">
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-sm text-secondary/60 mb-1">Upfront Costs</p>
+                  <p class="text-3xl font-bold text-primary" id="upfront-cost">$3,782</p>
+                  <p class="text-xs text-secondary/50">one-time</p>
+                </div>
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-sm text-secondary/60 mb-1">Annual Costs</p>
+                  <p class="text-3xl font-bold text-accent" id="annual-cost">$3,500</p>
+                  <p class="text-xs text-secondary/50">ongoing/year</p>
+                </div>
+              </div>
+
+              <!-- Cost Breakdown -->
+              <div class="bg-white rounded-xl p-4 mb-4">
+                <h4 class="font-semibold text-secondary text-sm mb-3">One-Time Setup Costs</h4>
+                <div class="space-y-2 text-sm">
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">NDIS Commission application fee</span>
+                    <span class="font-medium text-secondary">$282</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Audit (<span id="audit-type-display">Verification</span>)</span>
+                    <span class="font-medium text-secondary" id="audit-cost">$3,500</span>
+                  </div>
+                  <div class="flex justify-between pt-2 border-t border-base-200">
+                    <span class="font-semibold text-secondary">Total setup</span>
+                    <span class="font-bold text-primary" id="setup-total">$3,782</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-4 mb-4">
+                <h4 class="font-semibold text-secondary text-sm mb-3">Annual Ongoing Costs</h4>
+                <div class="space-y-2 text-sm">
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Public Liability Insurance</span>
+                    <span class="font-medium text-secondary" id="pl-cost">$1,500</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Professional Indemnity Insurance</span>
+                    <span class="font-medium text-secondary" id="pi-cost">$1,200</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Workers' Compensation (if applicable)</span>
+                    <span class="font-medium text-secondary" id="wc-cost">$0</span>
+                  </div>
+                  <div class="flex justify-between pt-2 border-t border-base-200">
+                    <span class="font-semibold text-secondary">Total annual</span>
+                    <span class="font-bold text-accent" id="annual-total">$2,700</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3-Year Projection -->
+              <div class="bg-white rounded-xl p-4">
+                <h4 class="font-semibold text-secondary text-sm mb-3">3-Year Cost Projection</h4>
+                <div class="space-y-2 text-sm">
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Year 1 (setup + insurance)</span>
+                    <span class="font-medium text-secondary" id="year1">$6,482</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Year 2 (insurance only)</span>
+                    <span class="font-medium text-secondary" id="year2">$2,700</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Year 3 (insurance + re-audit*)</span>
+                    <span class="font-medium text-secondary" id="year3">$5,200</span>
+                  </div>
+                  <div class="flex justify-between pt-2 border-t border-base-200">
+                    <span class="font-semibold text-secondary">3-year total</span>
+                    <span class="font-bold text-success" id="three-year">$14,382</span>
+                  </div>
+                </div>
+                <p class="text-xs text-secondary/50 mt-2">*Mid-term audit may be required for certification</p>
+              </div>
+            </div>
+
+            <!-- Next Steps -->
+            <div class="mt-6 bg-base-200/30 rounded-2xl p-5">
+              <h4 class="font-bold text-secondary mb-3">Next Steps</h4>
+              <ol class="space-y-2 text-sm text-secondary/70">
+                <li class="flex items-start gap-2">
+                  <span class="bg-primary text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0 mt-0.5">1</span>
+                  <span>Complete the NDIS Worker Screening Check</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="bg-primary text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0 mt-0.5">2</span>
+                  <span>Register for an ABN and set up your business structure</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="bg-primary text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0 mt-0.5">3</span>
+                  <span>Develop policies and procedures (Quality & Safeguarding)</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="bg-primary text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0 mt-0.5">4</span>
+                  <span>Apply through the <a href="https://www.ndiscommission.gov.au/" target="_blank" rel="noopener" class="text-primary hover:underline">NDIS Commission portal</a></span>
+                </li>
+              </ol>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much does NDIS provider registration cost in 2025?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>NDIS provider registration costs typically range from <strong>$5,000 to $30,000+</strong> depending on your services:</p>
+              <table class="table table-sm mt-2">
+                <thead><tr><th>Cost Component</th><th>Amount</th></tr></thead>
+                <tbody>
+                  <tr><td>Suitability Assessment (NDIS Commission)</td><td>$282</td></tr>
+                  <tr><td>Verification Audit (1-2 groups)</td><td>$3,000-$6,000</td></tr>
+                  <tr><td>Certification Audit (3+ or high-risk groups)</td><td>$8,000-$25,000+</td></tr>
+                  <tr><td>Public Liability Insurance (annual)</td><td>$1,000-$3,000</td></tr>
+                  <tr><td>Professional Indemnity Insurance (annual)</td><td>$800-$2,500</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the difference between certification and verification audit?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <table class="table table-sm mt-2">
+                <thead><tr><th>Aspect</th><th>Verification</th><th>Certification</th></tr></thead>
+                <tbody>
+                  <tr><td>Cost</td><td>$3,000-$6,000</td><td>$8,000-$25,000+</td></tr>
+                  <tr><td>For whom</td><td>1-2 low-risk groups</td><td>3+ groups or high-risk</td></tr>
+                  <tr><td>Process</td><td>Desktop review</td><td>On-site visits</td></tr>
+                  <tr><td>Duration</td><td>2-4 weeks</td><td>4-8 weeks</td></tr>
+                  <tr><td>Re-audit</td><td>Every 3 years</td><td>Every 3 years + mid-term</td></tr>
+                </tbody>
+              </table>
+              <p class="mt-2"><strong>High-risk groups requiring certification:</strong> Behaviour support, SIL, SDA, early childhood, specialist services.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much does an NDIS audit cost?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>NDIS audit costs vary based on several factors:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Verification audit:</strong> $3,000-$6,000 (small providers, 1-2 groups)</li>
+                <li><strong>Certification audit:</strong> $8,000-$25,000+ (larger providers, high-risk services)</li>
+              </ul>
+              <p class="mt-2">Factors that increase costs:</p>
+              <ul class="list-disc pl-5 mt-1 space-y-1">
+                <li>Number of registration groups</li>
+                <li>Number of service locations</li>
+                <li>Complexity of services</li>
+                <li>Geographic spread</li>
+              </ul>
+              <p class="mt-2"><strong>Tip:</strong> Get quotes from at least 3 approved auditors to compare prices.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Do I need insurance to become an NDIS provider?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Yes</strong>, insurance is mandatory for NDIS providers:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-2">
+                <li><strong>Public Liability Insurance</strong> - Minimum $10 million cover. Protects against claims from third parties. Cost: $1,000-$3,000/year.</li>
+                <li><strong>Professional Indemnity Insurance</strong> - Covers claims arising from your professional services. Cost: $800-$2,500/year.</li>
+                <li><strong>Workers' Compensation</strong> - Required if you employ staff. Cost varies by state and payroll.</li>
+              </ul>
+              <p class="mt-2">Some insurers specialise in NDIS provider insurance - shop around for competitive quotes.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How long does NDIS provider registration take?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>NDIS provider registration typically takes <strong>3-6 months</strong> from start to finish:</p>
+              <table class="table table-sm mt-2">
+                <thead><tr><th>Stage</th><th>Timeframe</th></tr></thead>
+                <tbody>
+                  <tr><td>Preparation (policies, procedures, insurance)</td><td>2-4 weeks</td></tr>
+                  <tr><td>Application submission</td><td>1-2 days</td></tr>
+                  <tr><td>Suitability assessment</td><td>2-4 weeks</td></tr>
+                  <tr><td>Audit scheduling</td><td>2-4 weeks</td></tr>
+                  <tr><td>Audit process</td><td>1-4 weeks</td></tr>
+                  <tr><td>NDIS Commission review</td><td>4-8 weeks</td></tr>
+                </tbody>
+              </table>
+              <p class="mt-2"><strong>Tip:</strong> Start preparing policies and procedures while waiting for earlier stages to complete.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What registration groups do I need for support work?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Common registration groups for support work:</p>
+              <table class="table table-sm mt-2">
+                <thead><tr><th>Code</th><th>Group Name</th><th>Services</th></tr></thead>
+                <tbody>
+                  <tr><td>0104</td><td>Daily Personal Activities</td><td>Personal care, showering, dressing</td></tr>
+                  <tr><td>0107</td><td>Daily Life Tasks</td><td>Household tasks, meal prep</td></tr>
+                  <tr><td>0125</td><td>Community Participation</td><td>Social activities, community access</td></tr>
+                  <tr><td>0117</td><td>Development of Life Skills</td><td>Skill building, independence training</td></tr>
+                </tbody>
+              </table>
+              <p class="mt-2">These are verification-level groups. You only need certification-level if you add high-risk services.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Resources</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/how-to-become-ndis-provider-australia-2025/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">How to Become an NDIS Provider</h3>
+            <p class="text-sm text-secondary/60">Step-by-step guide to NDIS provider registration.</p>
+          </a>
+          <a href="/tools/ndis-screening-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Screening Cost Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate worker screening check costs by state.</p>
+          </a>
+          <a href="/blog/do-ndis-providers-need-insurance/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Provider Insurance Guide</h3>
+            <p class="text-sm text-secondary/60">What insurance do NDIS providers need?</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  const APPLICATION_FEE = 282;
+
+  function calculate() {
+    const auditType = document.querySelector('input[name="audit-type"]:checked')?.value || 'verification';
+    const numGroups = parseInt(document.getElementById('num-groups').value) || 2;
+    const locations = parseInt(document.getElementById('locations').value) || 1;
+    const employees = document.getElementById('employees').value || 'solo';
+
+    // Check for high-risk services
+    const hasBehaviourSupport = document.getElementById('behaviour-support').checked;
+    const hasSIL = document.getElementById('sil').checked;
+    const hasSDA = document.getElementById('sda').checked;
+    const hasEarlyChildhood = document.getElementById('early-childhood').checked;
+    const hasHighRisk = hasBehaviourSupport || hasSIL || hasSDA || hasEarlyChildhood;
+
+    // Force certification if high-risk
+    const actualAuditType = hasHighRisk ? 'certification' : auditType;
+
+    // Calculate audit cost
+    let auditCost;
+    if (actualAuditType === 'verification') {
+      auditCost = 3000 + (numGroups - 1) * 500;
+      auditCost = Math.min(auditCost, 6000);
+    } else {
+      auditCost = 8000 + (numGroups - 1) * 1500 + (locations - 1) * 2000;
+      if (hasSIL) auditCost += 3000;
+      if (hasSDA) auditCost += 4000;
+      if (hasBehaviourSupport) auditCost += 2000;
+      auditCost = Math.min(auditCost, 35000);
+    }
+
+    // Calculate insurance
+    let plCost, piCost, wcCost = 0;
+    switch (employees) {
+      case 'solo':
+        plCost = 1200;
+        piCost = 800;
+        break;
+      case 'small':
+        plCost = 1800;
+        piCost = 1200;
+        wcCost = 2000;
+        break;
+      case 'medium':
+        plCost = 2500;
+        piCost = 1800;
+        wcCost = 8000;
+        break;
+      case 'large':
+        plCost = 4000;
+        piCost = 2500;
+        wcCost = 20000;
+        break;
+    }
+
+    // Totals
+    const setupTotal = APPLICATION_FEE + auditCost;
+    const annualTotal = plCost + piCost + wcCost;
+    const year1 = setupTotal + annualTotal;
+    const year2 = annualTotal;
+    const year3 = annualTotal + (actualAuditType === 'certification' ? auditCost * 0.6 : 0); // Mid-term audit
+    const threeYear = year1 + year2 + year3;
+
+    // Update display
+    document.getElementById('audit-type-display').textContent = actualAuditType === 'verification' ? 'Verification' : 'Certification';
+    document.getElementById('audit-cost').textContent = '$' + auditCost.toLocaleString();
+    document.getElementById('setup-total').textContent = '$' + setupTotal.toLocaleString();
+    document.getElementById('upfront-cost').textContent = '$' + setupTotal.toLocaleString();
+
+    document.getElementById('pl-cost').textContent = '$' + plCost.toLocaleString();
+    document.getElementById('pi-cost').textContent = '$' + piCost.toLocaleString();
+    document.getElementById('wc-cost').textContent = '$' + wcCost.toLocaleString();
+    document.getElementById('annual-total').textContent = '$' + annualTotal.toLocaleString();
+    document.getElementById('annual-cost').textContent = '$' + annualTotal.toLocaleString();
+
+    document.getElementById('year1').textContent = '$' + year1.toLocaleString();
+    document.getElementById('year2').textContent = '$' + year2.toLocaleString();
+    document.getElementById('year3').textContent = '$' + Math.round(year3).toLocaleString();
+    document.getElementById('three-year').textContent = '$' + Math.round(threeYear).toLocaleString();
+
+    // Update audit type radio if forced
+    if (hasHighRisk) {
+      document.querySelector('input[name="audit-type"][value="certification"]').checked = true;
+    }
+  }
+
+  // Event listeners
+  document.querySelectorAll('input[name="audit-type"]').forEach(el => {
+    el.addEventListener('change', calculate);
+  });
+  document.getElementById('num-groups').addEventListener('input', calculate);
+  document.getElementById('locations').addEventListener('change', calculate);
+  document.getElementById('employees').addEventListener('change', calculate);
+  document.getElementById('behaviour-support').addEventListener('change', calculate);
+  document.getElementById('sil').addEventListener('change', calculate);
+  document.getElementById('sda').addEventListener('change', calculate);
+  document.getElementById('early-childhood').addEventListener('change', calculate);
+
+  // Initial calculation
+  calculate();
+})();
+</script>

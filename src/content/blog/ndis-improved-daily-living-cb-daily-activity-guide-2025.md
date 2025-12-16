@@ -65,6 +65,8 @@ The sheer variety of available supports allows for highly personalized plans tai
 
 Here is a detailed breakdown of common supports funded under this category:
 
+**Calculate your therapy sessions:** Use our free **[NDIS Therapy Hours Calculator](/tools/ndis-therapy-calculator)** to estimate how many OT, physio, psychology, and speech sessions you can get with your CB Daily Activities budget.
+
 ### 1. Therapeutic Supports & Assessments:
 This is often the largest component, involving allied health professionals working directly with participants to assess needs and deliver interventions:
 

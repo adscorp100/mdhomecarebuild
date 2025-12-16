@@ -1,0 +1,667 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Home Care Package vs NDIS Comparison Tool 2025",
+  "description": "Compare home care packages and NDIS funding. Interactive tool to find the right program based on your age, needs, and eligibility. Free comparison calculator.",
+  "url": "https://mdhomecare.com.au/tools/hcp-vs-ndis",
+  "applicationCategory": "HealthApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between NDIS and home care packages?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS (National Disability Insurance Scheme) provides funding for people under 65 with permanent and significant disability. Home Care Packages provide funding for people aged 65+ (or 50+ for Aboriginal/Torres Strait Islander people) who need help to stay living at home due to age-related needs. NDIS funding is generally higher and more flexible, while Home Care Packages have fixed levels (1-4) with set annual budgets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you have both NDIS and a home care package?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally no - you cannot receive both NDIS funding and a Home Care Package at the same time. They are designed as alternative programs. However, if you're on NDIS and turn 65, you can choose to remain on NDIS or transition to aged care services. Some people may access both if they have clearly separate needs (e.g., NDIS for disability-specific supports and CHSP for general aged care), but this is uncommon."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens to my NDIS when I turn 65?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you're already an NDIS participant when you turn 65, you can CHOOSE to either: 1) Stay on the NDIS and continue receiving your current supports, or 2) Transition to the aged care system (Home Care Package or residential care). You cannot join the NDIS for the first time after 65. Most existing participants choose to stay on NDIS as it typically provides more funding and flexibility."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is NDIS better than home care package?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS typically provides more funding (average $50,000+/year vs $10,588-$61,826/year for HCP) and more flexibility in how you spend it. However, 'better' depends on your circumstances. NDIS has stricter eligibility (permanent disability, under 65, significant functional impact) while HCP is available to anyone over 65 who needs aged care support. HCP may have shorter wait times in some areas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if I qualify for NDIS or aged care?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key factors: AGE - Under 65 may be eligible for NDIS; 65+ typically aged care. DISABILITY - NDIS requires permanent and significant disability that affects daily functioning. Aged care is for age-related decline. If you're under 65 with a permanent disability, try NDIS first. If you're over 65 or your needs are primarily age-related, explore Home Care Packages through My Aged Care."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can aged care recipients get NDIS funding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you're already receiving aged care services (Home Care Package or residential care) when you apply for NDIS, you generally cannot access NDIS. The exception is if you acquired your disability before age 65 and weren't previously assessed for NDIS. If you're under 65 and have a disability, it's usually better to apply for NDIS first before exploring aged care options."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="Home Care Package vs NDIS Comparison 2025 - Which One Is Right For You?"
+  description="Compare home care packages and NDIS funding. Interactive tool to find the right program based on your age, needs, and eligibility. Free comparison calculator."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">HCP vs NDIS Comparison</li>
+        </ol>
+      </nav>
+
+      <!-- Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+          <Icon name="hugeicons:exchange-01" class="w-4 h-4" />
+          Comparison Tool
+        </div>
+
+        <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+          Home Care Package vs NDIS <span class="text-primary">2025</span>
+        </h1>
+
+        <p class="text-lg text-secondary/70 leading-relaxed">
+          Not sure if you should apply for a Home Care Package or NDIS? Answer a few questions to find out which program is right for you.
+        </p>
+      </div>
+
+      <!-- Quiz Section -->
+      <div class="max-w-3xl mx-auto">
+        <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="comparison-quiz">
+
+          <!-- Progress -->
+          <div class="mb-8">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-xs font-bold text-secondary/40 uppercase tracking-wider" id="step-indicator">Question 1 of 4</span>
+              <span class="text-xs font-bold text-primary uppercase tracking-wider">Eligibility Check</span>
+            </div>
+            <progress class="progress progress-primary w-full h-2" value="25" max="100" id="quiz-progress"></progress>
+          </div>
+
+          <!-- Question 1: Age -->
+          <div class="quiz-step" id="q1">
+            <h2 class="text-2xl font-bold text-secondary mb-6">How old are you?</h2>
+            <div class="space-y-3">
+              <label class="cursor-pointer">
+                <input type="radio" name="age" value="under50" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all flex items-center gap-4">
+                  <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                    <Icon name="hugeicons:user" class="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <span class="font-bold text-secondary block">Under 50</span>
+                    <span class="text-sm text-secondary/60">May be eligible for NDIS</span>
+                  </div>
+                </div>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="age" value="50-64" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all flex items-center gap-4">
+                  <div class="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center">
+                    <Icon name="hugeicons:user" class="w-6 h-6 text-accent" />
+                  </div>
+                  <div>
+                    <span class="font-bold text-secondary block">50 - 64 years</span>
+                    <span class="text-sm text-secondary/60">May be eligible for NDIS (must apply before 65)</span>
+                  </div>
+                </div>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="age" value="65plus" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all flex items-center gap-4">
+                  <div class="w-12 h-12 rounded-full bg-success/10 flex items-center justify-center">
+                    <Icon name="hugeicons:user" class="w-6 h-6 text-success" />
+                  </div>
+                  <div>
+                    <span class="font-bold text-secondary block">65 or older</span>
+                    <span class="text-sm text-secondary/60">Typically eligible for Home Care Package</span>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <div class="mt-8 flex justify-end">
+              <button class="btn btn-primary rounded-full px-8" id="next-q1">
+                Continue
+                <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 ml-2" />
+              </button>
+            </div>
+          </div>
+
+          <!-- Question 2: Disability -->
+          <div class="quiz-step hidden" id="q2">
+            <h2 class="text-2xl font-bold text-secondary mb-6">Do you have a permanent disability?</h2>
+            <p class="text-secondary/60 mb-6">A permanent disability is one that is likely to be lifelong or last indefinitely.</p>
+            <div class="space-y-3">
+              <label class="cursor-pointer">
+                <input type="radio" name="disability" value="yes-permanent" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-bold text-secondary block">Yes, I have a permanent disability</span>
+                  <span class="text-sm text-secondary/60">Physical, intellectual, sensory, cognitive, or psychosocial</span>
+                </div>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="disability" value="no-age-related" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-bold text-secondary block">No, my needs are age-related</span>
+                  <span class="text-sm text-secondary/60">Frailty, mobility decline, memory changes due to ageing</span>
+                </div>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="disability" value="unsure" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-bold text-secondary block">I'm not sure</span>
+                  <span class="text-sm text-secondary/60">I need help understanding my situation</span>
+                </div>
+              </label>
+            </div>
+            <div class="mt-8 flex justify-between">
+              <button class="btn btn-ghost rounded-full px-6" id="back-q2">
+                <Icon name="hugeicons:arrow-left-01" class="w-5 h-5 mr-2" />
+                Back
+              </button>
+              <button class="btn btn-primary rounded-full px-8" id="next-q2">
+                Continue
+                <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 ml-2" />
+              </button>
+            </div>
+          </div>
+
+          <!-- Question 3: Support Needs -->
+          <div class="quiz-step hidden" id="q3">
+            <h2 class="text-2xl font-bold text-secondary mb-6">What level of support do you need?</h2>
+            <div class="space-y-3">
+              <label class="cursor-pointer">
+                <input type="radio" name="support-level" value="low" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-bold text-secondary block">Low - A few hours per week</span>
+                  <span class="text-sm text-secondary/60">Help with cleaning, shopping, occasional transport</span>
+                </div>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="support-level" value="moderate" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-bold text-secondary block">Moderate - Daily assistance needed</span>
+                  <span class="text-sm text-secondary/60">Help with personal care, meals, daily activities</span>
+                </div>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="support-level" value="high" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-bold text-secondary block">High - Multiple hours every day</span>
+                  <span class="text-sm text-secondary/60">Significant support for most daily activities</span>
+                </div>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="support-level" value="complex" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-bold text-secondary block">Complex - 24/7 or specialized support</span>
+                  <span class="text-sm text-secondary/60">Complex medical needs, behaviour support, accommodation</span>
+                </div>
+              </label>
+            </div>
+            <div class="mt-8 flex justify-between">
+              <button class="btn btn-ghost rounded-full px-6" id="back-q3">
+                <Icon name="hugeicons:arrow-left-01" class="w-5 h-5 mr-2" />
+                Back
+              </button>
+              <button class="btn btn-primary rounded-full px-8" id="next-q3">
+                Continue
+                <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 ml-2" />
+              </button>
+            </div>
+          </div>
+
+          <!-- Question 4: Current Situation -->
+          <div class="quiz-step hidden" id="q4">
+            <h2 class="text-2xl font-bold text-secondary mb-6">Are you currently receiving any government support?</h2>
+            <div class="space-y-3">
+              <label class="cursor-pointer">
+                <input type="radio" name="current-support" value="none" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-bold text-secondary block">No, I'm not receiving any support</span>
+                </div>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="current-support" value="ndis" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-bold text-secondary block">Yes, I'm already on NDIS</span>
+                </div>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="current-support" value="hcp" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-bold text-secondary block">Yes, I have a Home Care Package</span>
+                </div>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="current-support" value="chsp" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-bold text-secondary block">Yes, I receive CHSP services</span>
+                  <span class="text-sm text-secondary/60">Commonwealth Home Support Programme</span>
+                </div>
+              </label>
+            </div>
+            <div class="mt-8 flex justify-between">
+              <button class="btn btn-ghost rounded-full px-6" id="back-q4">
+                <Icon name="hugeicons:arrow-left-01" class="w-5 h-5 mr-2" />
+                Back
+              </button>
+              <button class="btn btn-primary rounded-full px-8" id="show-result">
+                See My Result
+                <Icon name="hugeicons:sparkles" class="w-5 h-5 ml-2" />
+              </button>
+            </div>
+          </div>
+
+          <!-- Results -->
+          <div class="quiz-step hidden" id="result">
+            <div class="text-center mb-8">
+              <div class="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4" id="result-icon">
+                <Icon name="hugeicons:checkmark-badge-01" class="w-10 h-10 text-primary" />
+              </div>
+              <h2 class="text-2xl font-bold text-secondary mb-2" id="result-title">Your Recommended Program</h2>
+              <p class="text-secondary/60" id="result-subtitle">Based on your answers</p>
+            </div>
+
+            <div class="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-6 border border-primary/10 mb-6" id="result-card">
+              <h3 class="text-xl font-bold text-primary mb-3" id="program-name">NDIS</h3>
+              <p class="text-secondary/70 mb-4" id="program-description">Description here</p>
+              <div class="grid grid-cols-2 gap-4" id="program-stats">
+                <!-- Populated by JS -->
+              </div>
+            </div>
+
+            <!-- Comparison Table -->
+            <div class="overflow-x-auto mb-6">
+              <table class="table table-sm">
+                <thead>
+                  <tr class="bg-base-200/50">
+                    <th>Aspect</th>
+                    <th class="text-center">NDIS</th>
+                    <th class="text-center">Home Care Package</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Age Eligibility</td>
+                    <td class="text-center">Under 65</td>
+                    <td class="text-center">65+ (50+ ATSI)</td>
+                  </tr>
+                  <tr>
+                    <td>Typical Funding</td>
+                    <td class="text-center">$20K - $200K+/year</td>
+                    <td class="text-center">$10K - $62K/year</td>
+                  </tr>
+                  <tr>
+                    <td>Flexibility</td>
+                    <td class="text-center"><span class="badge badge-success badge-sm">High</span></td>
+                    <td class="text-center"><span class="badge badge-warning badge-sm">Moderate</span></td>
+                  </tr>
+                  <tr>
+                    <td>Wait Time</td>
+                    <td class="text-center">3-6 months</td>
+                    <td class="text-center">3-12 months</td>
+                  </tr>
+                  <tr>
+                    <td>Daily Fee</td>
+                    <td class="text-center">No</td>
+                    <td class="text-center">$12.75/day</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Next Steps -->
+            <div class="bg-base-200/30 rounded-2xl p-5 mb-6" id="next-steps">
+              <h4 class="font-bold text-secondary mb-3">Next Steps</h4>
+              <div class="space-y-2 text-sm text-secondary/70" id="steps-content">
+                <!-- Populated by JS -->
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <button class="btn btn-ghost rounded-full flex-1" id="restart-quiz">
+                <Icon name="hugeicons:refresh" class="w-5 h-5 mr-2" />
+                Start Over
+              </button>
+              <a href="/contact" class="btn btn-primary rounded-full flex-1">
+                Get Help Applying
+                <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 ml-2" />
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the difference between NDIS and home care packages?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <table class="table table-sm mt-2">
+                <thead><tr><th>Aspect</th><th>NDIS</th><th>Home Care Package</th></tr></thead>
+                <tbody>
+                  <tr><td>Who it's for</td><td>People with permanent disability</td><td>Older Australians needing aged care</td></tr>
+                  <tr><td>Age limit</td><td>Must apply before 65</td><td>65+ (50+ for ATSI)</td></tr>
+                  <tr><td>Funding</td><td>Individualised (avg $50K+)</td><td>4 fixed levels ($10K-$62K)</td></tr>
+                  <tr><td>Flexibility</td><td>Very flexible</td><td>Moderate (must be aged care related)</td></tr>
+                  <tr><td>Assessment</td><td>NDIA access request</td><td>ACAT assessment</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Can you have both NDIS and a home care package?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Generally no</strong> - you cannot receive both NDIS and a Home Care Package simultaneously. They are designed as alternative programs serving different populations.</p>
+              <p class="mt-2"><strong>Exceptions:</strong></p>
+              <ul class="list-disc pl-5 mt-1 space-y-1">
+                <li>If needs are clearly separate (rare)</li>
+                <li>Transitional period when moving between programs</li>
+              </ul>
+              <p class="mt-2">If you're eligible for NDIS, it's usually the better option due to higher funding and flexibility.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What happens to my NDIS when I turn 65?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>If you're already on NDIS when you turn 65, you have a <strong>choice</strong>:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-2">
+                <li><strong>Stay on NDIS</strong> - Continue receiving your current supports. Most people choose this as NDIS typically provides more funding.</li>
+                <li><strong>Transition to aged care</strong> - Move to Home Care Package or residential care. Once you leave NDIS, you cannot return.</li>
+              </ul>
+              <p class="mt-2"><strong>Important:</strong> You cannot join NDIS for the first time after age 65. If you develop a disability after 65, you would access aged care services instead.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Is NDIS better than home care package?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>NDIS is generally more generous, but "better" depends on your situation:</p>
+              <p class="mt-2"><strong>NDIS advantages:</strong></p>
+              <ul class="list-disc pl-5 mt-1 space-y-1">
+                <li>Higher average funding</li>
+                <li>More flexibility in spending</li>
+                <li>No daily fee</li>
+                <li>Broader range of supports</li>
+              </ul>
+              <p class="mt-2"><strong>Home Care Package may be better if:</strong></p>
+              <ul class="list-disc pl-5 mt-1 space-y-1">
+                <li>You're over 65 and not on NDIS</li>
+                <li>Your needs are age-related, not disability-related</li>
+                <li>You don't meet NDIS disability criteria</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How do I know if I qualify for NDIS or aged care?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>You may qualify for NDIS if:</strong></p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>You're under 65 years old</li>
+                <li>You have a permanent disability</li>
+                <li>Your disability significantly affects daily life</li>
+                <li>You're an Australian resident</li>
+              </ul>
+              <p class="mt-2"><strong>You may qualify for aged care if:</strong></p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>You're 65+ (or 50+ for Aboriginal/Torres Strait Islander)</li>
+                <li>You need help to keep living at home</li>
+                <li>Your needs are primarily age-related</li>
+              </ul>
+              <p class="mt-2"><strong>Tip:</strong> If you're under 65 with a disability, try NDIS first.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Can aged care recipients get NDIS funding?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Generally no.</strong> If you're already receiving aged care (HCP or residential), you typically cannot access NDIS.</p>
+              <p class="mt-2"><strong>Possible exception:</strong> If you acquired your disability before 65 and weren't previously assessed for NDIS, you may be able to apply. This is rare.</p>
+              <p class="mt-2"><strong>Recommendation:</strong> If you're under 65 and have a disability, always explore NDIS eligibility BEFORE applying for aged care services.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Tools & Resources</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/tools/ndis-eligibility-quiz" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Eligibility Quiz</h3>
+            <p class="text-sm text-secondary/60">Check if you qualify for NDIS support.</p>
+          </a>
+          <a href="/tools/home-care-package-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">HCP Hours Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate home care package hours.</p>
+          </a>
+          <a href="/tools/aged-care-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Aged Care Fees Calculator</h3>
+            <p class="text-sm text-secondary/60">Estimate aged care costs.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  let currentStep = 1;
+  const totalSteps = 4;
+
+  function showStep(step) {
+    document.querySelectorAll('.quiz-step').forEach(el => el.classList.add('hidden'));
+    if (step <= totalSteps) {
+      document.getElementById('q' + step).classList.remove('hidden');
+      document.getElementById('quiz-progress').value = (step / totalSteps) * 100;
+      document.getElementById('step-indicator').textContent = `Question ${step} of ${totalSteps}`;
+    } else {
+      document.getElementById('result').classList.remove('hidden');
+      document.getElementById('quiz-progress').value = 100;
+      document.getElementById('step-indicator').textContent = 'Result';
+      calculateResult();
+    }
+    currentStep = step;
+  }
+
+  function calculateResult() {
+    const age = document.querySelector('input[name="age"]:checked')?.value;
+    const disability = document.querySelector('input[name="disability"]:checked')?.value;
+    const supportLevel = document.querySelector('input[name="support-level"]:checked')?.value;
+    const currentSupport = document.querySelector('input[name="current-support"]:checked')?.value;
+
+    let recommendation = 'ndis';
+    let title = 'NDIS (National Disability Insurance Scheme)';
+    let description = '';
+    let steps = [];
+
+    // Logic
+    if (age === '65plus' && disability !== 'yes-permanent') {
+      recommendation = 'hcp';
+      title = 'Home Care Package';
+      description = 'Based on your age and needs, a Home Care Package is likely your best option. HCP provides government-funded support to help you stay living at home.';
+      steps = [
+        'Call My Aged Care on 1800 200 422',
+        'Complete a phone assessment',
+        'Have an ACAT assessment arranged',
+        'Get approved for a package level',
+        'Choose a provider and start services'
+      ];
+    } else if (age === '65plus' && disability === 'yes-permanent') {
+      recommendation = 'maybe-ndis';
+      title = 'Explore Both Options';
+      description = 'You have a permanent disability but are over 65. If you acquired your disability before 65, you may still be eligible for NDIS. Otherwise, Home Care Package would be your option.';
+      steps = [
+        'Contact NDIS to check if you can still apply (1800 800 110)',
+        'If not eligible for NDIS, contact My Aged Care (1800 200 422)',
+        'Gather medical evidence of your disability',
+        'Consider speaking with a support coordinator for guidance'
+      ];
+    } else if (currentSupport === 'ndis') {
+      recommendation = 'stay-ndis';
+      title = 'Stay on NDIS';
+      description = 'You\'re already on NDIS. Even if you turn 65, you can choose to remain on NDIS. This is usually the better option as NDIS provides more funding and flexibility.';
+      steps = [
+        'Continue with your current NDIS plan',
+        'At your next plan review, discuss any changing needs',
+        'If you turn 65, you\'ll be asked if you want to stay on NDIS or move to aged care',
+        'Most people choose to stay on NDIS'
+      ];
+    } else if (disability === 'yes-permanent' && age !== '65plus') {
+      recommendation = 'ndis';
+      title = 'NDIS (National Disability Insurance Scheme)';
+      description = 'You appear to meet the key NDIS criteria: under 65 with a permanent disability. NDIS typically provides more funding and flexibility than Home Care Packages.';
+      steps = [
+        'Gather evidence of your disability (medical reports, assessments)',
+        'Apply for NDIS access online or call 1800 800 110',
+        'Complete an access request form',
+        'Attend your planning meeting',
+        'Receive your NDIS plan and start using supports'
+      ];
+    } else {
+      recommendation = 'hcp';
+      title = 'Home Care Package';
+      description = 'Based on your answers, a Home Care Package may be more suitable. HCP provides government-funded support for older Australians to stay at home.';
+      steps = [
+        'Call My Aged Care on 1800 200 422',
+        'Complete a phone assessment',
+        'Have an ACAT assessment arranged',
+        'Get approved for a package level (1-4)',
+        'Choose a provider and start services'
+      ];
+    }
+
+    // Update UI
+    document.getElementById('result-title').textContent = 'Recommended: ' + title;
+    document.getElementById('program-name').textContent = title;
+    document.getElementById('program-description').textContent = description;
+
+    const statsHtml = recommendation.includes('ndis') ? `
+      <div class="bg-white rounded-lg p-3 text-center">
+        <p class="text-sm text-secondary/60">Avg Funding</p>
+        <p class="text-xl font-bold text-primary">$50,000+/yr</p>
+      </div>
+      <div class="bg-white rounded-lg p-3 text-center">
+        <p class="text-sm text-secondary/60">Daily Fee</p>
+        <p class="text-xl font-bold text-success">$0</p>
+      </div>
+    ` : `
+      <div class="bg-white rounded-lg p-3 text-center">
+        <p class="text-sm text-secondary/60">Funding Range</p>
+        <p class="text-xl font-bold text-primary">$10K-$62K/yr</p>
+      </div>
+      <div class="bg-white rounded-lg p-3 text-center">
+        <p class="text-sm text-secondary/60">Daily Fee</p>
+        <p class="text-xl font-bold text-warning">$12.75</p>
+      </div>
+    `;
+    document.getElementById('program-stats').innerHTML = statsHtml;
+
+    const stepsHtml = steps.map((step, i) => `
+      <p class="flex items-start gap-2">
+        <span class="bg-primary text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0 mt-0.5">${i + 1}</span>
+        <span>${step}</span>
+      </p>
+    `).join('');
+    document.getElementById('steps-content').innerHTML = stepsHtml;
+  }
+
+  // Event listeners
+  document.getElementById('next-q1').addEventListener('click', () => showStep(2));
+  document.getElementById('back-q2').addEventListener('click', () => showStep(1));
+  document.getElementById('next-q2').addEventListener('click', () => showStep(3));
+  document.getElementById('back-q3').addEventListener('click', () => showStep(2));
+  document.getElementById('next-q3').addEventListener('click', () => showStep(4));
+  document.getElementById('back-q4').addEventListener('click', () => showStep(3));
+  document.getElementById('show-result').addEventListener('click', () => showStep(5));
+  document.getElementById('restart-quiz').addEventListener('click', () => {
+    document.querySelectorAll('input[type="radio"]').forEach(el => el.checked = false);
+    showStep(1);
+  });
+
+  // Initialize
+  showStep(1);
+})();
+</script>

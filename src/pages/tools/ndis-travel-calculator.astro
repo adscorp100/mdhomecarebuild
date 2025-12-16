@@ -1,0 +1,534 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS Travel Calculator 2025",
+  "description": "Free NDIS travel calculator. Calculate provider travel and transport costs at $0.97/km. Find 2025-26 kilometre rates, travel time charges, and line item codes.",
+  "url": "https://mdhomecare.com.au/tools/ndis-travel-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the NDIS travel rate per kilometre in 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The NDIS travel rate is $0.97 per kilometre for the 2025-26 financial year. This rate applies to both provider travel (when a worker travels to you) and participant transport (when you're transported in the worker's vehicle). This rate is reviewed annually and is based on ATO reasonable travel allowances."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can NDIS providers charge for travel time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, NDIS providers can charge for travel time in addition to the per-kilometre rate. Travel time is charged at the applicable support worker hourly rate (e.g., $70.88/hr for standard weekday support). However, travel time must be reasonable and is typically capped at 30 minutes each way for most participants."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What NDIS code do I use for provider travel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Provider travel uses the same line item code as the support being delivered, with travel time and kilometres itemised separately on the invoice. For example, if providing personal care (01_011_0107_1_1), the travel would be claimed under the same category. The kilometre allowance is claimed as a non-labour cost under the relevant support category."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I calculate NDIS transport costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To calculate NDIS transport costs: 1) Multiply the distance in kilometres by $0.97, 2) Add travel time if applicable (time x hourly rate), 3) For return trips, double the distance. For example, a 20km round trip = 20 x $0.97 = $19.40 in kilometre costs, plus any applicable travel time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a limit on NDIS travel claims?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, NDIS travel claims must be 'reasonable and necessary'. Generally, providers shouldn't charge travel time exceeding the actual service time. Most plans allow for travel within reasonable distances (typically within 50km). For participants in remote areas, different rules may apply. Always check your plan and service agreement for specific limits."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between provider travel and participant transport?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Provider travel is when a support worker travels TO you (you pay for their travel time and kilometres). Participant transport is when YOU are transported in the worker's vehicle (e.g., to appointments). Both use the $0.97/km rate for kilometres. Provider travel may include travel time charges; participant transport typically includes driver time as part of the support hours."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="NDIS Travel Calculator 2025 - Kilometre Rates & Allowances"
+  description="Free NDIS travel calculator. Calculate provider travel and transport costs at $0.97/km. Find 2025-26 kilometre rates, travel time charges, and line item codes."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">NDIS Travel Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            NDIS Travel Calculator <span class="text-primary">2025</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Calculate NDIS provider travel costs and transport allowances. Get the current <strong>$0.97/km rate</strong> plus travel time estimates for the 2025-26 financial year.
+          </p>
+
+          <!-- Current Rates Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:car-01" class="w-5 h-5 text-primary" />
+              NDIS Travel Rates 2025-26
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Kilometre rate</span>
+                <span class="font-bold text-secondary">$0.97/km</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Travel time rate</span>
+                <span class="font-bold text-secondary">Support worker rate</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Standard hourly (weekday)</span>
+                <span class="font-bold text-secondary">$70.88/hr</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Travel Types Card -->
+          <div class="bg-accent/5 border border-accent/20 rounded-[2rem] p-6 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:route-01" class="w-5 h-5 text-accent" />
+              Types of NDIS Travel
+            </h3>
+            <div class="space-y-4 text-sm">
+              <div>
+                <p class="font-semibold text-secondary">Provider Travel</p>
+                <p class="text-secondary/60">When a worker travels TO you. You may pay for their travel time + km.</p>
+              </div>
+              <div>
+                <p class="font-semibold text-secondary">Participant Transport</p>
+                <p class="text-secondary/60">When you travel IN the worker's car. Charged per km + support time.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Note:</strong> Travel must be reasonable and necessary. Check your service agreement for specific travel arrangements with your provider.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="travel-calculator">
+
+            <div class="mb-8">
+              <h2 class="text-xl font-bold text-secondary mb-2">Calculate Travel Costs</h2>
+              <p class="text-secondary/60 text-sm">Enter distance and options to calculate your NDIS travel costs.</p>
+            </div>
+
+            <!-- Travel Type -->
+            <div class="form-control mb-6">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Travel Type</label>
+              <div class="grid grid-cols-2 gap-3">
+                <label class="cursor-pointer">
+                  <input type="radio" name="travel-type" value="provider" class="peer hidden" checked />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <Icon name="hugeicons:user-check-01" class="w-6 h-6 mx-auto mb-2 text-secondary/60" />
+                    <span class="font-medium text-secondary block">Provider Travel</span>
+                    <span class="text-xs text-secondary/50">Worker comes to you</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="travel-type" value="participant" class="peer hidden" />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <Icon name="hugeicons:car-02" class="w-6 h-6 mx-auto mb-2 text-secondary/60" />
+                    <span class="font-medium text-secondary block">Participant Transport</span>
+                    <span class="text-xs text-secondary/50">You travel in their car</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Distance Input -->
+            <div class="form-control mb-6">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Distance (one way)</span>
+              </label>
+              <div class="relative">
+                <input
+                  type="number"
+                  id="distance"
+                  value="15"
+                  min="1"
+                  max="500"
+                  class="input input-lg w-full pr-14 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                />
+                <span class="absolute right-4 top-1/2 -translate-y-1/2 text-secondary/50 font-medium">km</span>
+              </div>
+            </div>
+
+            <!-- Round Trip Toggle -->
+            <div class="form-control mb-6">
+              <label class="label cursor-pointer justify-start gap-3">
+                <input type="checkbox" id="round-trip" class="checkbox checkbox-primary" checked />
+                <span class="label-text font-medium text-secondary">Round trip (return journey)</span>
+              </label>
+            </div>
+
+            <!-- Include Travel Time -->
+            <div class="form-control mb-6" id="travel-time-section">
+              <label class="label cursor-pointer justify-start gap-3">
+                <input type="checkbox" id="include-time" class="checkbox checkbox-primary" checked />
+                <span class="label-text font-medium text-secondary">Include travel time charges</span>
+              </label>
+            </div>
+
+            <!-- Travel Time Input -->
+            <div class="form-control mb-6" id="time-input-section">
+              <label class="label">
+                <span class="label-text font-bold text-secondary/70">Estimated travel time (one way)</span>
+              </label>
+              <div class="relative">
+                <input
+                  type="number"
+                  id="travel-time"
+                  value="20"
+                  min="5"
+                  max="120"
+                  class="input input-lg w-full pr-16 bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-xl"
+                />
+                <span class="absolute right-4 top-1/2 -translate-y-1/2 text-secondary/50 font-medium">mins</span>
+              </div>
+              <p class="text-xs text-secondary/50 mt-2">Tip: Estimate ~2 mins per km in metro areas, ~1 min per km in regional areas.</p>
+            </div>
+
+            <!-- Support Level -->
+            <div class="form-control mb-8">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Support worker level (for travel time rate)</label>
+              <select id="support-level" class="select select-bordered w-full bg-white border-2 border-base-200 focus:border-primary rounded-xl">
+                <option value="70.88">Standard support ($70.88/hr)</option>
+                <option value="78.07">Level 2 support ($78.07/hr)</option>
+                <option value="85.72">Level 3 / High Intensity ($85.72/hr)</option>
+                <option value="99.24">Saturday rate ($99.24/hr)</option>
+                <option value="127.59">Sunday rate ($127.59/hr)</option>
+                <option value="155.95">Public Holiday ($155.95/hr)</option>
+              </select>
+            </div>
+
+            <!-- Results -->
+            <div class="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-6 border border-primary/10">
+              <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+                <Icon name="hugeicons:money-02" class="w-5 h-5 text-primary" />
+                Travel Cost Breakdown
+              </h3>
+
+              <div class="grid grid-cols-2 gap-4 mb-6">
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-sm text-secondary/60 mb-1">Total Distance</p>
+                  <p class="text-3xl font-bold text-primary" id="total-distance">30</p>
+                  <p class="text-xs text-secondary/50">kilometres</p>
+                </div>
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-sm text-secondary/60 mb-1">Total Cost</p>
+                  <p class="text-3xl font-bold text-success" id="total-cost">$52.25</p>
+                  <p class="text-xs text-secondary/50">inc. travel time</p>
+                </div>
+              </div>
+
+              <!-- Cost Breakdown -->
+              <div class="bg-white rounded-xl p-4 mb-4">
+                <h4 class="font-semibold text-secondary text-sm mb-3">Cost Breakdown</h4>
+                <div class="space-y-2 text-sm">
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Distance (<span id="dist-display">30</span> km x $0.97)</span>
+                    <span class="font-medium text-secondary" id="km-cost">$29.10</span>
+                  </div>
+                  <div class="flex justify-between" id="time-cost-row">
+                    <span class="text-secondary/60">Travel time (<span id="time-display">40</span> mins)</span>
+                    <span class="font-medium text-secondary" id="time-cost">$47.25</span>
+                  </div>
+                  <div class="flex justify-between pt-2 border-t border-base-200">
+                    <span class="font-semibold text-secondary">Total travel charge</span>
+                    <span class="font-bold text-success" id="final-total">$76.35</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- NDIS Codes -->
+              <div class="bg-white rounded-xl p-4">
+                <h4 class="font-semibold text-secondary text-sm mb-3">Relevant NDIS Codes</h4>
+                <div class="space-y-2 text-sm text-secondary/70">
+                  <div class="flex items-start gap-2">
+                    <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <span class="font-mono text-xs bg-base-200 px-2 py-0.5 rounded">04_590_0125_6_1</span>
+                      <span class="ml-2">Activity Based Transport (km)</span>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-2">
+                    <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <span class="font-mono text-xs bg-base-200 px-2 py-0.5 rounded">01_799_0104_1_1</span>
+                      <span class="ml-2">Provider Travel - Non-Labour Costs</span>
+                    </div>
+                  </div>
+                  <p class="text-xs text-secondary/50 mt-2">Travel time is typically invoiced under the same code as the support provided.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the NDIS travel rate per kilometre in 2025?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The NDIS travel rate is <strong>$0.97 per kilometre</strong> for the 2025-26 financial year. This rate applies to:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Provider travel</strong> - when a support worker drives to your location</li>
+                <li><strong>Participant transport</strong> - when you're transported in the worker's vehicle</li>
+              </ul>
+              <p class="mt-2">This rate is reviewed annually and is based on ATO reasonable travel allowances. It covers fuel, vehicle running costs, and depreciation.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Can NDIS providers charge for travel time?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Yes</strong>, NDIS providers can charge for travel time in addition to the per-kilometre rate. Key points:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Travel time is charged at the applicable support worker hourly rate</li>
+                <li>For standard weekday support, this is $70.88/hr (2025-26)</li>
+                <li>Travel time must be <strong>reasonable</strong> - typically capped at 30 minutes each way</li>
+                <li>Your service agreement should specify travel time arrangements</li>
+              </ul>
+              <p class="mt-2">Not all providers charge travel time - some include it in their service delivery. Always clarify this when engaging a new provider.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What NDIS code do I use for provider travel?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>NDIS travel is typically claimed as follows:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-2">
+                <li><strong>Kilometre costs:</strong> Claimed as non-labour costs under <code class="bg-base-200 px-1 rounded">01_799_0104_1_1</code> (Provider Travel - Non-Labour Costs)</li>
+                <li><strong>Travel time:</strong> Claimed under the same code as the support being delivered</li>
+                <li><strong>Participant transport:</strong> May use <code class="bg-base-200 px-1 rounded">04_590_0125_6_1</code> (Activity Based Transport)</li>
+              </ul>
+              <p class="mt-2">Your invoice should itemise travel separately so you can see exactly what you're being charged.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How do I calculate NDIS transport costs?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>To calculate NDIS transport/travel costs:</p>
+              <ol class="list-decimal pl-5 mt-2 space-y-2">
+                <li><strong>Calculate kilometre cost:</strong> Distance (km) x $0.97</li>
+                <li><strong>Add travel time (if applicable):</strong> Time (hours) x hourly rate</li>
+                <li><strong>For return trips:</strong> Double the distance</li>
+              </ol>
+              <p class="mt-2"><strong>Example:</strong> 20km round trip with 40 mins travel time at standard rate:</p>
+              <ul class="list-disc pl-5 mt-1">
+                <li>Kilometres: 20 x $0.97 = $19.40</li>
+                <li>Travel time: 0.67 hrs x $70.88 = $47.49</li>
+                <li><strong>Total: $66.89</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Is there a limit on NDIS travel claims?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Yes, NDIS travel claims must be <strong>'reasonable and necessary'</strong>. General guidelines:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Travel time shouldn't exceed the actual service time</li>
+                <li>Most plans allow travel within 50km (metropolitan areas)</li>
+                <li>Remote area participants may have different arrangements</li>
+                <li>Your service agreement should specify travel limits</li>
+              </ul>
+              <p class="mt-2">If you need services from a provider far away (e.g., specialist therapist), discuss this with your support coordinator or plan manager to ensure it's covered.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the difference between provider travel and participant transport?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <table class="table table-sm mt-2">
+                <thead>
+                  <tr><th>Aspect</th><th>Provider Travel</th><th>Participant Transport</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>What it is</td><td>Worker travels TO you</td><td>You travel IN worker's car</td></tr>
+                  <tr><td>Km rate</td><td>$0.97/km</td><td>$0.97/km</td></tr>
+                  <tr><td>Time charges</td><td>May charge travel time</td><td>Driver time = support time</td></tr>
+                  <tr><td>Common use</td><td>Home visits</td><td>Appointments, activities</td></tr>
+                  <tr><td>Budget</td><td>Core - Daily Activities</td><td>Core - Transport</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Resources</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/ndis-support-worker-travel-allowances/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Travel Allowances Guide</h3>
+            <p class="text-sm text-secondary/60">Complete guide to NDIS travel charges and allowances.</p>
+          </a>
+          <a href="/tools/ndis-pay-rate-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Pay Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate support worker hourly rates.</p>
+          </a>
+          <a href="/tools/ndis-code-lookup" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Code Lookup</h3>
+            <p class="text-sm text-secondary/60">Search NDIS line item codes and rates.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  const KM_RATE = 0.97;
+
+  function calculate() {
+    const travelType = document.querySelector('input[name="travel-type"]:checked')?.value || 'provider';
+    const distance = parseFloat(document.getElementById('distance').value) || 15;
+    const roundTrip = document.getElementById('round-trip').checked;
+    const includeTime = document.getElementById('include-time').checked;
+    const travelTime = parseFloat(document.getElementById('travel-time').value) || 20;
+    const hourlyRate = parseFloat(document.getElementById('support-level').value) || 70.88;
+
+    const totalDistance = roundTrip ? distance * 2 : distance;
+    const totalTime = roundTrip ? travelTime * 2 : travelTime;
+    const kmCost = totalDistance * KM_RATE;
+    const timeCost = includeTime ? (totalTime / 60) * hourlyRate : 0;
+    const totalCost = kmCost + timeCost;
+
+    // Update display
+    document.getElementById('total-distance').textContent = totalDistance;
+    document.getElementById('total-cost').textContent = '$' + totalCost.toFixed(2);
+    document.getElementById('dist-display').textContent = totalDistance;
+    document.getElementById('km-cost').textContent = '$' + kmCost.toFixed(2);
+    document.getElementById('time-display').textContent = totalTime;
+    document.getElementById('time-cost').textContent = '$' + timeCost.toFixed(2);
+    document.getElementById('final-total').textContent = '$' + totalCost.toFixed(2);
+
+    // Show/hide time row
+    document.getElementById('time-cost-row').style.display = includeTime ? 'flex' : 'none';
+
+    // Show/hide travel time section based on travel type
+    const timeSection = document.getElementById('travel-time-section');
+    const timeInputSection = document.getElementById('time-input-section');
+    if (travelType === 'participant') {
+      timeSection.style.display = 'none';
+      timeInputSection.style.display = 'none';
+      document.getElementById('include-time').checked = false;
+    } else {
+      timeSection.style.display = 'block';
+      timeInputSection.style.display = includeTime ? 'block' : 'none';
+    }
+  }
+
+  // Event listeners
+  document.querySelectorAll('input[name="travel-type"]').forEach(el => {
+    el.addEventListener('change', calculate);
+  });
+  document.getElementById('distance').addEventListener('input', calculate);
+  document.getElementById('round-trip').addEventListener('change', calculate);
+  document.getElementById('include-time').addEventListener('change', () => {
+    calculate();
+    document.getElementById('time-input-section').style.display =
+      document.getElementById('include-time').checked ? 'block' : 'none';
+  });
+  document.getElementById('travel-time').addEventListener('input', calculate);
+  document.getElementById('support-level').addEventListener('change', calculate);
+
+  // Initial calculation
+  calculate();
+})();
+</script>

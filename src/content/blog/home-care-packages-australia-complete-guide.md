@@ -65,6 +65,8 @@ After the assessment, you will receive a letter from My Aged Care confirming two
 1.  **If you have been approved** for a Home Care Package.
 2.  **The level of package** you have been approved for (from Level 1 for basic needs to Level 4 for high care needs).
 
+**Calculate your care hours:** Use our free **[Home Care Package Calculator](/tools/home-care-package-calculator)** to see how many hours of care you'll receive at each package level.
+
 ### Step 5: The Wait... and What to Do While You Wait
 
 Once approved, you are placed in a national queue. This is often the most frustrating part. Waiting times can be long and vary depending on your package level and urgency.

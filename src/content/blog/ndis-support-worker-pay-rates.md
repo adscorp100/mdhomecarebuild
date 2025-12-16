@@ -78,6 +78,14 @@ The levels reflect the complexity of support required:
 ### How does travel pay work for NDIS support workers?
 Providers can charge for the time a worker spends travelling to a participant, capped at 30 minutes in metro areas and 60 minutes in regional areas. The worker's pay for this travel time is determined by their employment contract.
 
+## Free Tools to Help You Calculate Pay and Income
+
+Use our free calculators to estimate pay rates and income:
+
+- **[Support Worker Income Calculator](/tools/support-worker-income-calculator)** - Calculate your estimated weekly, monthly, and annual income based on hours and shift types
+- **[NDIS Pay Rate Calculator](/tools/ndis-pay-rate-calculator)** - Calculate NDIS price limits for different support types and shift times
+- **[NDIS Travel Calculator](/tools/ndis-travel-calculator)** - Calculate travel allowances and kilometre rates for support workers
+
 ## Get the Right Support for Your Plan
 
 Navigating NDIS pricing can be tricky, but understanding the basics is the first step to making sure you get the most out of your plan.

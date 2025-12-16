@@ -29,6 +29,8 @@ The annual funding translates to approximately **10-13 hours of care per week**.
 
 However, this is not a fixed number. The exact hours you receive will depend on several factors, most importantly the fees charged by your provider. Providers with lower administration and management fees will leave more of your subsidy available for direct care hours.
 
+**Calculate your exact hours:** Use our free **[Home Care Package Calculator](/tools/home-care-package-calculator)** to see how many hours you'll get based on different provider rates.
+
 ## What Can I Use My Funding For?
 
 Your Level 3 package is flexible and can be used for a wide range of services to support your independence. Here are some of the most common examples:

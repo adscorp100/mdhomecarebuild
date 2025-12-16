@@ -1,0 +1,521 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS Worker Screening Check Cost Calculator 2025",
+  "description": "NDIS worker screening check costs by state. Calculate screening fees for NSW, VIC, QLD, WA, SA, TAS, ACT & NT. Current 2025 prices and processing times.",
+  "url": "https://mdhomecare.com.au/tools/ndis-screening-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does an NDIS worker screening check cost in NSW?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An NDIS Worker Screening Check in NSW costs $80 as of 2025. This is one of the lowest costs in Australia. The check is processed by Service NSW and typically takes 2-3 weeks. The clearance is valid for 5 years and is portable across all states and territories."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does NDIS worker screening take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS worker screening typically takes 2-4 weeks depending on the state. NSW and VIC usually process within 2-3 weeks, while QLD, TAS, and NT may take up to 4 weeks. Processing times can be longer if additional checks are required or during peak periods. You can work under supervision while waiting for your clearance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is NDIS worker screening the same as a police check?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, NDIS worker screening is more comprehensive than a standard police check. The NDIS Worker Screening Check includes a National Criminal History Check plus assessment against specific criteria related to working with people with disability. It specifically assesses risk of harm to NDIS participants and considers workplace misconduct, not just criminal history."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is an NDIS worker screening valid for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An NDIS Worker Screening Check clearance is valid for 5 years from the date of issue. During this time, the clearance is continuously monitored - if any new relevant information emerges (such as criminal charges), it may be reviewed. You'll need to renew before it expires to continue working with NDIS participants."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need NDIS screening for volunteer work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, volunteers who work with NDIS participants in risk-assessed roles must have an NDIS Worker Screening Check. However, many states offer reduced or waived fees for genuine volunteers. For example, NSW offers free checks for volunteers through eligible organisations. Contact your state screening unit for volunteer fee information."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which state do I apply for NDIS screening?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You apply for NDIS Worker Screening in the state or territory where you primarily work or intend to work with NDIS participants. The clearance is nationally portable, meaning once you have a clearance from any state, it's valid across all of Australia. You don't need separate checks for each state."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I transfer my NDIS screening to another state?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your NDIS Worker Screening clearance is automatically valid across all Australian states and territories - no transfer is needed. Once you receive a clearance from any state's Worker Screening Unit, you can work with NDIS participants anywhere in Australia. Employers can verify your clearance through the national NDIS Worker Screening Database."
+      }
+    }
+  ]
+};
+
+const screeningData = [
+  { state: 'NSW', fullName: 'New South Wales', cost: 80, time: '2-3 weeks', website: 'https://www.service.nsw.gov.au/transaction/apply-ndis-worker-check', org: 'Service NSW' },
+  { state: 'VIC', fullName: 'Victoria', cost: 123.10, time: '2-3 weeks', website: 'https://www.vic.gov.au/ndis-worker-screening-check', org: 'Department of Families, Fairness and Housing' },
+  { state: 'QLD', fullName: 'Queensland', cost: 113.60, time: '2-4 weeks', website: 'https://www.workerscreening.qld.gov.au/', org: 'Queensland Worker Screening' },
+  { state: 'WA', fullName: 'Western Australia', cost: 104, time: '2-3 weeks', website: 'https://www.wa.gov.au/service/community-services/disability-services/apply-ndis-worker-screening-check', org: 'Department of Communities' },
+  { state: 'SA', fullName: 'South Australia', cost: 120, time: '2-3 weeks', website: 'https://screening.sa.gov.au/', org: 'DHS Screening Unit' },
+  { state: 'TAS', fullName: 'Tasmania', cost: 113.40, time: '2-4 weeks', website: 'https://www.cbos.tas.gov.au/topics/licensing-and-registration/registrations/ndis-worker-screening', org: 'Consumer, Building and Occupational Services' },
+  { state: 'ACT', fullName: 'Australian Capital Territory', cost: 135, time: '2-3 weeks', website: 'https://www.accesscanberra.act.gov.au/', org: 'Access Canberra' },
+  { state: 'NT', fullName: 'Northern Territory', cost: 99, time: '2-4 weeks', website: 'https://nt.gov.au/community/people-with-disability/ndis-worker-screening', org: 'SAFE NT' }
+];
+---
+
+<BaseLayout
+  title="NDIS Worker Screening Check Cost 2025 - State-by-State Calculator"
+  description="NDIS worker screening check costs by state. Calculate screening fees for NSW, VIC, QLD, WA, SA, TAS, ACT & NT. Current 2025 prices and processing times."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">NDIS Screening Cost Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:shield-01" class="w-4 h-4" />
+            Worker Screening
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            NDIS Worker Screening Cost <span class="text-primary">2025</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Find out how much an NDIS Worker Screening Check costs in your state. Compare fees, processing times, and application links across all <strong>8 Australian states and territories</strong>.
+          </p>
+
+          <!-- Quick Facts Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:checkmark-badge-01" class="w-5 h-5 text-primary" />
+              Key Facts
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Validity period</span>
+                <span class="font-bold text-secondary">5 years</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Nationally portable?</span>
+                <span class="font-bold text-success">Yes</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Cheapest state</span>
+                <span class="font-bold text-secondary">NSW ($80)</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Most expensive</span>
+                <span class="font-bold text-secondary">ACT ($135)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- What's Included Card -->
+          <div class="bg-accent/5 border border-accent/20 rounded-[2rem] p-6 mb-6">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:search-02" class="w-5 h-5 text-accent" />
+              What's Checked
+            </h3>
+            <ul class="space-y-2 text-sm text-secondary/70">
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+                <span>National Criminal History Check</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+                <span>Working with vulnerable people history</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+                <span>Workplace misconduct records</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+                <span>Continuous monitoring during validity</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Note:</strong> Fees may change. Always verify current fees on the official state website before applying.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="screening-calculator">
+
+            <div class="mb-8">
+              <h2 class="text-xl font-bold text-secondary mb-2">Select Your State</h2>
+              <p class="text-secondary/60 text-sm">Choose where you'll primarily work with NDIS participants.</p>
+            </div>
+
+            <!-- State Selection -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
+              {screeningData.map((item, index) => (
+                <label class="cursor-pointer">
+                  <input type="radio" name="state" value={item.state} class="peer hidden" checked={index === 0} />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center hover:bg-base-100">
+                    <span class="text-xl font-bold text-primary block">{item.state}</span>
+                    <span class="text-xs text-secondary/60">${item.cost}</span>
+                  </div>
+                </label>
+              ))}
+            </div>
+
+            <!-- Selected State Details -->
+            <div class="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-6 border border-primary/10 mb-6" id="state-details">
+              <div class="flex items-center justify-between mb-4">
+                <h3 class="font-bold text-secondary text-lg" id="state-name">New South Wales</h3>
+                <span class="badge badge-primary badge-lg" id="state-badge">NSW</span>
+              </div>
+
+              <div class="grid grid-cols-2 gap-4 mb-6">
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-sm text-secondary/60 mb-1">Application Fee</p>
+                  <p class="text-3xl font-bold text-primary" id="state-cost">$80</p>
+                </div>
+                <div class="bg-white rounded-xl p-4 text-center">
+                  <p class="text-sm text-secondary/60 mb-1">Processing Time</p>
+                  <p class="text-3xl font-bold text-accent" id="state-time">2-3</p>
+                  <p class="text-xs text-secondary/50">weeks</p>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-4 mb-4">
+                <h4 class="font-semibold text-secondary text-sm mb-3">Application Details</h4>
+                <div class="space-y-2 text-sm">
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Processing body</span>
+                    <span class="font-medium text-secondary" id="state-org">Service NSW</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Validity</span>
+                    <span class="font-medium text-secondary">5 years</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-secondary/60">Nationally valid</span>
+                    <span class="font-medium text-success">Yes</span>
+                  </div>
+                </div>
+              </div>
+
+              <a href="https://www.service.nsw.gov.au/transaction/apply-ndis-worker-check" target="_blank" rel="noopener" id="apply-link" class="btn btn-primary w-full rounded-full">
+                <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 mr-2" />
+                Apply Now
+              </a>
+            </div>
+
+            <!-- Comparison Table -->
+            <div class="mt-8">
+              <h3 class="font-bold text-secondary mb-4">All States Comparison</h3>
+              <div class="overflow-x-auto">
+                <table class="table table-sm">
+                  <thead>
+                    <tr class="bg-base-200/50">
+                      <th>State</th>
+                      <th class="text-right">Cost</th>
+                      <th class="text-right">Processing</th>
+                      <th class="text-center">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {screeningData.map(item => (
+                      <tr class="hover">
+                        <td class="font-medium">{item.state}</td>
+                        <td class="text-right font-bold text-primary">${item.cost.toFixed(2)}</td>
+                        <td class="text-right text-sm">{item.time}</td>
+                        <td class="text-center">
+                          <a href={item.website} target="_blank" rel="noopener" class="btn btn-xs btn-outline btn-primary">Apply</a>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Required Documents -->
+            <div class="mt-8 bg-base-200/30 rounded-2xl p-5">
+              <h4 class="font-bold text-secondary mb-3 flex items-center gap-2">
+                <Icon name="hugeicons:file-validation" class="w-5 h-5 text-primary" />
+                Documents You'll Need
+              </h4>
+              <ul class="space-y-2 text-sm text-secondary/70">
+                <li class="flex items-start gap-2">
+                  <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                  <span><strong>100 points of ID</strong> - Driver's licence, passport, birth certificate, etc.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                  <span><strong>Current address proof</strong> - Utility bill, bank statement (within 3 months)</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                  <span><strong>Employment details</strong> - Current or prospective NDIS employer name</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <Icon name="hugeicons:checkmark-circle-02" class="w-4 h-4 text-success mt-0.5 flex-shrink-0" />
+                  <span><strong>Payment method</strong> - Credit/debit card for online payment</span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much does an NDIS worker screening check cost in NSW?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>An NDIS Worker Screening Check in <strong>NSW costs $80</strong> as of 2025. This is one of the lowest costs in Australia.</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Processed by Service NSW</li>
+                <li>Typically takes 2-3 weeks</li>
+                <li>Valid for 5 years</li>
+                <li>Nationally portable - work in any state</li>
+              </ul>
+              <p class="mt-2">Apply online at <a href="https://www.service.nsw.gov.au/transaction/apply-ndis-worker-check" target="_blank" rel="noopener" class="text-primary hover:underline">service.nsw.gov.au</a></p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How long does NDIS worker screening take?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Processing times vary by state:</p>
+              <table class="table table-sm mt-2">
+                <thead><tr><th>State</th><th>Typical Processing</th></tr></thead>
+                <tbody>
+                  <tr><td>NSW, VIC, WA, SA, ACT</td><td>2-3 weeks</td></tr>
+                  <tr><td>QLD, TAS, NT</td><td>2-4 weeks</td></tr>
+                </tbody>
+              </table>
+              <p class="mt-2">Processing may take longer if:</p>
+              <ul class="list-disc pl-5 mt-1 space-y-1">
+                <li>Additional information is required</li>
+                <li>There are discrepancies in your application</li>
+                <li>It's during a peak application period</li>
+              </ul>
+              <p class="mt-2"><strong>Tip:</strong> You can work under supervision while waiting for your clearance.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Is NDIS worker screening the same as a police check?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>No</strong>, NDIS Worker Screening is more comprehensive than a standard police check:</p>
+              <table class="table table-sm mt-2">
+                <thead><tr><th>Aspect</th><th>Police Check</th><th>NDIS Screening</th></tr></thead>
+                <tbody>
+                  <tr><td>Criminal history</td><td class="text-success">Yes</td><td class="text-success">Yes</td></tr>
+                  <tr><td>Disability-specific assessment</td><td class="text-error">No</td><td class="text-success">Yes</td></tr>
+                  <tr><td>Workplace misconduct</td><td class="text-error">No</td><td class="text-success">Yes</td></tr>
+                  <tr><td>Continuous monitoring</td><td class="text-error">No</td><td class="text-success">Yes</td></tr>
+                  <tr><td>Risk assessment</td><td class="text-error">No</td><td class="text-success">Yes</td></tr>
+                </tbody>
+              </table>
+              <p class="mt-2">The NDIS Worker Screening Check specifically assesses risk of harm to NDIS participants.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How long is an NDIS worker screening valid for?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>An NDIS Worker Screening clearance is valid for <strong>5 years</strong> from the date of issue.</p>
+              <p class="mt-2">During this time:</p>
+              <ul class="list-disc pl-5 mt-1 space-y-1">
+                <li>Your clearance is <strong>continuously monitored</strong></li>
+                <li>If new relevant information emerges, your clearance may be reviewed</li>
+                <li>You can use the same clearance across all employers</li>
+                <li>It's valid in all Australian states and territories</li>
+              </ul>
+              <p class="mt-2"><strong>Renewal:</strong> Apply for renewal before your clearance expires to avoid gaps in your ability to work.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Do I need NDIS screening for volunteer work?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Yes</strong>, volunteers in risk-assessed roles need an NDIS Worker Screening Check. However:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Many states offer <strong>reduced or free fees</strong> for genuine volunteers</li>
+                <li>NSW offers free checks for volunteers through eligible organisations</li>
+                <li>Some incidental volunteers may be exempt</li>
+              </ul>
+              <p class="mt-2">Contact your state's Worker Screening Unit to ask about volunteer fee waivers before applying.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Which state do I apply for NDIS screening?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Apply in the state or territory where you <strong>primarily work or intend to work</strong> with NDIS participants.</p>
+              <p class="mt-2">Good news: The clearance is <strong>nationally portable</strong>!</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Once cleared in any state, you can work anywhere in Australia</li>
+                <li>No need for separate checks in each state</li>
+                <li>Employers can verify your clearance nationally</li>
+              </ul>
+              <p class="mt-2"><strong>Tip:</strong> If you have a choice, NSW has the lowest fee ($80) and quick processing.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Can I transfer my NDIS screening to another state?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>You don't need to transfer - your clearance is <strong>automatically valid nationally</strong>.</p>
+              <p class="mt-2">Once you receive a clearance from any state:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>You can work with NDIS participants in any state/territory</li>
+                <li>Employers can verify your status through the NDIS Worker Screening Database</li>
+                <li>Your clearance number works everywhere</li>
+                <li>No additional applications or fees needed</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Resources</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/blog/ndis-worker-screening-check-complete-guide-2025/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Worker Screening Guide</h3>
+            <p class="text-sm text-secondary/60">Complete guide to the NDIS Worker Screening Check.</p>
+          </a>
+          <a href="/blog/ndis-worker-orientation-module-guide/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Orientation Module</h3>
+            <p class="text-sm text-secondary/60">How to complete the free NDIS orientation module.</p>
+          </a>
+          <a href="/tools/ndis-pay-rate-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Pay Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate support worker hourly rates.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  const screeningData = {
+    NSW: { fullName: 'New South Wales', cost: 80, time: '2-3 weeks', website: 'https://www.service.nsw.gov.au/transaction/apply-ndis-worker-check', org: 'Service NSW' },
+    VIC: { fullName: 'Victoria', cost: 123.10, time: '2-3 weeks', website: 'https://www.vic.gov.au/ndis-worker-screening-check', org: 'Department of Families, Fairness and Housing' },
+    QLD: { fullName: 'Queensland', cost: 113.60, time: '2-4 weeks', website: 'https://www.workerscreening.qld.gov.au/', org: 'Queensland Worker Screening' },
+    WA: { fullName: 'Western Australia', cost: 104, time: '2-3 weeks', website: 'https://www.wa.gov.au/service/community-services/disability-services/apply-ndis-worker-screening-check', org: 'Department of Communities' },
+    SA: { fullName: 'South Australia', cost: 120, time: '2-3 weeks', website: 'https://screening.sa.gov.au/', org: 'DHS Screening Unit' },
+    TAS: { fullName: 'Tasmania', cost: 113.40, time: '2-4 weeks', website: 'https://www.cbos.tas.gov.au/topics/licensing-and-registration/registrations/ndis-worker-screening', org: 'Consumer, Building and Occupational Services' },
+    ACT: { fullName: 'Australian Capital Territory', cost: 135, time: '2-3 weeks', website: 'https://www.accesscanberra.act.gov.au/', org: 'Access Canberra' },
+    NT: { fullName: 'Northern Territory', cost: 99, time: '2-4 weeks', website: 'https://nt.gov.au/community/people-with-disability/ndis-worker-screening', org: 'SAFE NT' }
+  };
+
+  function updateStateDetails(state) {
+    const data = screeningData[state];
+    document.getElementById('state-name').textContent = data.fullName;
+    document.getElementById('state-badge').textContent = state;
+    document.getElementById('state-cost').textContent = '$' + data.cost.toFixed(2);
+    document.getElementById('state-time').textContent = data.time.replace(' weeks', '');
+    document.getElementById('state-org').textContent = data.org;
+    document.getElementById('apply-link').href = data.website;
+  }
+
+  // Event listeners
+  document.querySelectorAll('input[name="state"]').forEach(el => {
+    el.addEventListener('change', (e) => {
+      updateStateDetails(e.target.value);
+    });
+  });
+
+  // Initial state
+  updateStateDetails('NSW');
+})();
+</script>

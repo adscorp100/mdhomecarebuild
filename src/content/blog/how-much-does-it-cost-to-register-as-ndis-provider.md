@@ -16,6 +16,8 @@ image: "/assets/ndis-provider-melbourne.webp"
 - Ongoing annual costs include registration renewal ($303-$606), mid-term audits ($1,000-$6,000), and insurance ($1,200-$3,500)
 - Small providers can expect total costs of $3,000-$5,000, while medium-sized organizations typically spend $8,000-$14,000 to become registered
 
+**Get a personalized estimate:** Use our free **[NDIS Provider Registration Cost Calculator](/tools/ndis-provider-calculator)** to estimate your total registration costs based on your specific situation.
+
 ## Initial NDIS Provider Registration Fees
 The first step in becoming an NDIS registered provider is paying the application fee to the NDIS Quality and Safeguards Commission:
 
