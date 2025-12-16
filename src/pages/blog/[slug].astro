@@ -1,7 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import TableOfContents from '../../components/TableOfContents.astro';
+import { Icon } from 'astro-icon/components';
+import { getRelatedBlogPosts } from '../../utils/internalLinks';
 
 // Generate static paths for all blog posts
 export async function getStaticPaths() {
@@ -16,37 +17,20 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content, headings } = await entry.render();
 
+// Calculate read time
+const wordCount = entry.body.split(/\s+/g).length;
+const readTime = Math.ceil(wordCount / 200);
+
+// Get related posts
+const allPosts = await getCollection('blog');
+const relatedPosts = getRelatedBlogPosts(
+  entry.data.tags || [], 
+  allPosts.filter(p => p.slug !== entry.slug), 
+  3
+);
+
 // Generate JSON-LD structured data for the article
-const articleSchema: {
-  "@context": string;
-  "@type": string;
-  headline: string;
-  datePublished: string;
-  author: {
-    "@type": string;
-    name: string;
-  };
-  publisher: {
-    "@type": string;
-    name: string;
-    logo: {
-      "@type": string;
-      url: string;
-    };
-  };
-  description: string;
-  image: string | undefined;
-  mainEntityOfPage: {
-    "@type": string;
-    "@id": string;
-  };
-  hasPart?: Array<{
-    "@type": string;
-    isAccessibleForFree: string;
-    cssSelector: string;
-    name: string;
-  }>;
-} = {
+const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": entry.data.title,
@@ -71,20 +55,6 @@ const articleSchema: {
   }
 };
 
-// Add table of contents to structured data if headings exist
-if (headings && headings.length > 0) {
-  const tocHeadings = headings.filter(h => h.depth === 2 || h.depth === 3);
-
-  if (tocHeadings.length > 0) {
-    articleSchema.hasPart = tocHeadings.map(heading => ({
-      "@type": "WebPageElement",
-      "isAccessibleForFree": "True",
-      "cssSelector": `#${heading.slug}`,
-      "name": heading.text
-    }));
-  }
-}
-
 const structuredData = JSON.stringify(articleSchema);
 const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
 ---
@@ -97,117 +67,252 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
 >
   <script type="application/ld+json" set:html={structuredData} />
 
-  <!-- Breadcrumb -->
-  <div class="bg-base-200 border-b border-base-300">
-    <div class="max-w-5xl mx-auto px-4 py-3">
-      <div class="breadcrumbs text-sm">
-        <ul>
-          <li><a href="/" class="link link-hover">Home</a></li>
-          <li><a href="/blog" class="link link-hover">Blog</a></li>
-          <li class="text-base-content/60">{entry.data.title}</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="max-w-5xl mx-auto px-4 py-8 lg:py-12">
+  <div class="w-full">
     <article>
-      <!-- Header -->
-      <header class="mb-8">
-        <h1 class="text-3xl lg:text-4xl font-bold text-base-content mb-6 leading-tight">
-          {entry.data.title}
-        </h1>
+       <!-- Hero Section -->
+       <header class="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
+          <!-- Background Image with Overlay -->
+          <div class="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed" style={entry.data.image ? `background-image: url('${entry.data.image}')` : 'background-color: oklch(var(--b2))'}></div>
+          <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-base-100"></div>
 
-        <!-- E-E-A-T Authority Indicators -->
-        <div class="card bg-base-200 border border-base-300">
-          <div class="card-body p-4 lg:p-6">
-            <div class="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-8">
-              <!-- Author Profile -->
-              <div class="flex items-center gap-4">
-                <div class="avatar">
-                  <div class="w-14 lg:w-16 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                    <img src="/assets/avatar.webp" alt={`${entry.data.author} profile photo`} />
+          <!-- Glass Console Frame -->
+          <div class="container-custom relative z-10 px-4 py-12">
+             <div class="max-w-4xl mx-auto bg-white/80 backdrop-blur-xl rounded-[2.5rem] border border-white/50 shadow-2xl p-8 md:p-10 text-center">
+                
+                <!-- Title -->
+                <h1 class="text-3xl md:text-5xl font-bold text-secondary mb-6 leading-[1.1] tracking-tight text-balance">
+                  {entry.data.title}
+                </h1>
+
+                <!-- Description/Excerpt -->
+                 <p class="text-lg md:text-xl text-secondary/70 font-medium mb-8 leading-relaxed max-w-2xl mx-auto text-balance">
+                   {entry.data.description}
+                 </p>
+
+                <!-- Author & Metadata -->
+                <div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 pt-8 border-t border-base-200/50">
+                   
+                   <!-- Author -->
+                   <div class="flex items-center gap-4 text-left">
+                      <div class="avatar">
+                         <div class="w-12 h-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                           <img src="/assets/avatar.webp" alt={entry.data.author} />
+                         </div>
+                      </div>
+                      <div>
+                         <p class="font-bold text-secondary text-base leading-none mb-1">{entry.data.author}</p>
+                         <p class="text-secondary/60 text-xs uppercase tracking-wider font-bold">Healthcare Expert</p>
+                      </div>
+                   </div>
+
+                   <!-- Divider (Hidden on mobile) -->
+                   <div class="hidden md:block w-px h-10 bg-base-300"></div>
+
+                   <!-- Metadata -->
+                   <div class="flex flex-wrap justify-center gap-4 text-sm font-medium text-secondary/70">
+                       <span class="flex items-center gap-2">
+                          <Icon name="hugeicons:calendar-01" class="h-4 w-4 text-primary" />
+                          {entry.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                       </span>
+                       <span class="flex items-center gap-2">
+                          <Icon name="hugeicons:time-01" class="h-4 w-4 text-primary" />
+                          {readTime} min read
+                       </span>
+                        {entry.data.tags && entry.data.tags.length > 0 && (
+                         <span class="flex items-center gap-2 text-primary font-bold">
+                            <Icon name="hugeicons:tag-01" class="h-4 w-4" />
+                            {entry.data.tags[0]}
+                         </span>
+                       )}
+                   </div>
+
+                </div>
+
+             </div>
+          </div>
+       </header>
+
+       <!-- Main Content -->
+       <div class="max-w-3xl mx-auto px-4 py-20">
+          
+          <!-- Table of Contents (Inline) -->
+          {headings && headings.length > 0 && (
+            <div class="bg-base-100 rounded-[2rem] p-8 mb-12 border-2 border-base-200 shadow-sm">
+               <h2 class="text-xl font-bold text-secondary mb-6 flex items-center gap-2">
+                 <div class="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+                    <Icon name="hugeicons:menu-01" class="h-5 w-5" />
+                 </div>
+                 In this article
+               </h2>
+               <ul class="space-y-3">
+                 {headings.filter(h => h.depth <= 2).map(h => (
+                   <li>
+                     <a href={`#${h.slug}`} class="text-secondary/70 hover:text-primary hover:translate-x-1 transition-all duration-300 font-medium flex items-start gap-3 group">
+                       <span class="w-1.5 h-1.5 rounded-full bg-primary/40 mt-2 group-hover:bg-primary transition-colors"></span>
+                       {h.text}
+                     </a>
+                   </li>
+                 ))}
+               </ul>
+            </div>
+          )}
+
+          <div class="prose prose-lg max-w-none prose-headings:font-bold prose-h2:text-3xl prose-h2:text-secondary prose-p:text-secondary/70 prose-li:text-secondary/70 post-content">
+             <Content />
+          </div>
+
+          <!-- CTA Banner -->
+          <div class="bg-primary text-primary-content my-16 shadow-2xl shadow-primary/20 rounded-[2.5rem] p-8 md:p-12 relative overflow-hidden">
+              <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/3 w-64 h-64 bg-white/10 rounded-full blur-3xl pointer-events-none"></div>
+              <div class="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/3 w-64 h-64 bg-white/10 rounded-full blur-3xl pointer-events-none"></div>
+              
+              <div class="flex flex-col md:flex-row items-center justify-between w-full gap-8 relative z-10">
+                <div class="text-center md:text-left">
+                  <h3 class="font-bold text-2xl md:text-3xl mb-2">Need support at home?</h3>
+                  <p class="text-primary-content/90 text-lg">Our compassionate team is ready to help you or your loved ones.</p>
+                </div>
+                <a href="/contact#contact-form" class="btn btn-lg bg-white text-primary border-none hover:bg-base-100 rounded-full px-8 shadow-lg shrink-0">
+                  Contact Us Today
+                </a>
+              </div>
+          </div>
+          
+           <!-- Back to Blog -->
+          <div class="flex justify-center mt-12">
+            <a href="/blog" class="btn btn-ghost gap-2 rounded-full hover:bg-base-200 text-secondary/70 hover:text-primary transition-colors">
+                <Icon name="hugeicons:arrow-left-01" class="h-5 w-5" />
+                Back to Blog
+            </a>
+          </div>
+
+       </div>
+
+       <!-- Related Posts -->
+       {relatedPosts.length > 0 && (
+        <section class="bg-base-200 py-24 px-4 border-t border-base-200">
+          <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-secondary mb-16">Related Articles</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {relatedPosts.map((post) => (
+                <a href={`/blog/${post.slug}`} class="card bg-white rounded-[2.5rem] shadow-lg shadow-base-200/50 border border-base-200 hover:border-primary/50 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden">
+                  <div class="h-48 overflow-hidden relative">
+                    <img src={post.data.image || '/assets/homecare.webp'} alt={post.data.title} class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                    <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
                   </div>
-                </div>
-                <div>
-                  <p class="font-semibold text-base-content">{entry.data.author}</p>
-                  <p class="text-sm text-base-content/60">Healthcare Expert</p>
-                </div>
-              </div>
-
-              <!-- Verified Badge -->
-              <div class="badge badge-success gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                </svg>
-                Verified Article
-              </div>
-
-              <!-- Meta Info -->
-              <div class="flex flex-wrap items-center gap-4 text-sm text-base-content/60 lg:ml-auto">
-                <div class="flex items-center gap-1.5">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <polyline points="12 6 12 12 16 14"></polyline>
-                  </svg>
-                  <span>8 min read</span>
-                </div>
-                <div class="flex items-center gap-1.5">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                    <line x1="16" y1="2" x2="16" y2="6"></line>
-                    <line x1="8" y1="2" x2="8" y2="6"></line>
-                    <line x1="3" y1="10" x2="21" y2="10"></line>
-                  </svg>
-                  <span>{entry.data.pubDate.toLocaleDateString('en-US', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric'
-                  })}</span>
-                </div>
-              </div>
+                  <div class="card-body p-8">
+                    <div class="flex gap-2 mb-3">
+                         {post.data.tags && post.data.tags.length > 0 && (
+                            <span class="text-xs font-bold text-primary bg-primary/10 px-3 py-1 rounded-full uppercase tracking-wide">
+                                {post.data.tags[0]}
+                            </span>
+                         )}
+                    </div>
+                    <h3 class="card-title text-xl font-bold text-secondary mb-3 group-hover:text-primary transition-colors line-clamp-2">{post.data.title}</h3>
+                    <p class="text-secondary/60 text-sm line-clamp-3 leading-relaxed mb-6">{post.data.description}</p>
+                    <span class="text-primary font-bold text-sm inline-flex items-center gap-2 mt-auto">
+                      Read Article
+                      <Icon name="hugeicons:arrow-right-01" class="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </span>
+                  </div>
+                </a>
+              ))}
             </div>
           </div>
-        </div>
-      </header>
-
-      <!-- Featured Image -->
-      {entry.data.image && (
-        <figure class="mb-8">
-          <img src={entry.data.image} alt={entry.data.title} class="w-full h-auto max-h-96 object-cover rounded-box" />
-        </figure>
+        </section>
       )}
 
-      <!-- Content with TOC -->
-      <div class="lg:grid lg:grid-cols-[220px_1fr] lg:gap-8">
-        <!-- Table of Contents Sidebar -->
-        <aside class="lg:sticky lg:top-20 lg:h-fit mb-8 lg:mb-0">
-          <TableOfContents headings={headings} />
-        </aside>
-
-        <!-- Article Content -->
-        <div class="prose-mdhomecare post-content">
-          <Content />
-        </div>
-      </div>
-
-      <!-- Back to Blog -->
-      <div class="divider my-12"></div>
-      <div class="flex justify-center">
-        <a href="/blog" class="btn btn-outline btn-primary gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-          </svg>
-          Back to Blog
-        </a>
-      </div>
     </article>
   </div>
 </BaseLayout>
 
+<style>
+  @reference "../../styles/global.css";
+  
+  /* iOS fix for background images */
+  @supports (-webkit-touch-callout: none) {
+    header {
+      background-attachment: scroll !important;
+    }
+  }
+
+  /* Prose styling enhancements */
+  .prose h2 {
+    @apply text-2xl md:text-3xl font-bold mt-16 mb-8 text-secondary relative;
+  }
+  
+  /* Decorative line for H2 */
+  .prose h2::after {
+      content: '';
+      @apply absolute bottom-[-1rem] left-0 w-20 h-1 bg-primary rounded-full;
+  }
+
+  .prose h3 {
+    @apply text-xl font-bold mt-12 mb-4 text-secondary;
+  }
+
+  .prose h4 {
+    @apply text-lg font-bold mt-8 mb-3 text-secondary;
+  }
+
+  .prose p {
+    @apply mb-6 text-secondary/70 leading-relaxed text-lg;
+  }
+
+  .prose ul, .prose ol {
+    @apply mb-8 pl-6 space-y-3;
+  }
+
+  .prose ul {
+    @apply list-none;
+  }
+  
+  .prose ul li {
+      @apply relative pl-6 text-secondary/70 text-lg;
+  }
+  
+  .prose ul li::before {
+      content: '';
+      @apply absolute left-0 top-[0.6em] w-2 h-2 rounded-full bg-primary;
+  }
+
+  .prose ol {
+    @apply list-decimal marker:text-primary marker:font-bold;
+  }
+
+  .prose a {
+    @apply text-primary font-bold no-underline hover:underline decoration-2 underline-offset-4 transition-all;
+  }
+
+  .prose blockquote {
+    @apply border-l-4 border-primary pl-8 py-6 my-10 bg-base-200/50 rounded-r-3xl italic text-xl text-secondary font-medium shadow-sm relative overflow-hidden;
+  }
+  
+  .prose blockquote::before {
+      content: '"';
+      @apply absolute top-0 left-2 text-6xl text-primary/10 font-serif leading-none;
+  }
+
+  .prose code {
+    @apply bg-base-200 px-2 py-1 rounded-md text-sm font-mono text-primary;
+  }
+
+  .prose img {
+    @apply rounded-[2.5rem] shadow-xl my-12 w-full border-4 border-white;
+  }
+  
+  /* Stronger emphasis for bold text */
+  .prose strong {
+      @apply text-secondary font-bold;
+  }
+
+  .prose hr {
+    @apply border-base-200 my-16;
+  }
+</style>
+
 <script>
   // Service keywords to match and link
+  // Same content as original script but cleaned up if needed
   interface ServiceKeyword {
     slug: string;
     keywords: string[];
@@ -286,7 +391,7 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
               const linkElement = document.createElement('a');
               linkElement.href = `/services/${service.slug}`;
               linkElement.textContent = matchedText;
-              linkElement.className = 'link link-primary';
+              linkElement.className = 'text-primary font-bold hover:underline';
               const afterTextNode = document.createTextNode(afterText);
 
               parentNode.insertBefore(beforeTextNode, firstNode);
@@ -307,117 +412,3 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 </script>
-
-<style is:global>
-  @reference "../../styles/global.css";
-  /* Post content prose styling */
-  .post-content {
-    @apply text-base-content leading-relaxed;
-  }
-
-  .post-content h1 {
-    @apply text-3xl font-bold mt-10 mb-6 text-base-content;
-  }
-
-  .post-content h2 {
-    @apply text-2xl font-bold mt-8 mb-4 text-base-content pb-2 border-b border-base-300;
-  }
-
-  .post-content h3 {
-    @apply text-xl font-semibold mt-6 mb-3 text-base-content;
-  }
-
-  .post-content h4 {
-    @apply text-lg font-semibold mt-5 mb-3 text-base-content;
-  }
-
-  .post-content p {
-    @apply mb-5;
-    color: oklch(var(--bc) / 0.9);
-  }
-
-  .post-content ul,
-  .post-content ol {
-    @apply mb-5 pl-6;
-  }
-
-  .post-content ul {
-    @apply list-disc;
-  }
-
-  .post-content ol {
-    @apply list-decimal;
-  }
-
-  .post-content li {
-    @apply mb-2;
-    color: oklch(var(--bc) / 0.9);
-  }
-
-  .post-content li > ul,
-  .post-content li > ol {
-    @apply mt-2 mb-2 pl-5;
-  }
-
-  .post-content a {
-    @apply link link-primary;
-  }
-
-  .post-content blockquote {
-    @apply border-l-4 border-primary pl-4 py-2 my-6 bg-base-200 rounded-r-lg italic;
-  }
-
-  .post-content blockquote p {
-    @apply mb-2;
-  }
-
-  .post-content blockquote p:last-child {
-    @apply mb-0;
-  }
-
-  .post-content code {
-    @apply bg-base-200 px-1.5 py-0.5 rounded text-sm font-mono text-primary;
-  }
-
-  .post-content pre {
-    @apply bg-neutral text-neutral-content p-4 rounded-lg overflow-x-auto mb-5;
-  }
-
-  .post-content pre code {
-    @apply bg-transparent p-0 text-inherit;
-  }
-
-  .post-content img {
-    @apply max-w-full h-auto rounded-2xl my-4;
-  }
-
-  .post-content hr {
-    @apply border-base-300 my-8;
-  }
-
-  .post-content strong {
-    @apply font-semibold text-base-content;
-  }
-
-  .post-content em {
-    @apply italic;
-  }
-
-  /* Tables */
-  .post-content table {
-    @apply w-full border-collapse mb-6 text-sm;
-  }
-
-  .post-content th,
-  .post-content td {
-    @apply p-3 text-left border-b border-base-300;
-  }
-
-  .post-content th {
-    @apply bg-base-200 font-semibold;
-  }
-
-  .post-content tr:hover {
-    background-color: oklch(var(--b2) / 0.5);
-  }
-</style>
