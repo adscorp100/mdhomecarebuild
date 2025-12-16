@@ -454,7 +454,7 @@ const h1Title = baseTitle.replace(/\s*\|.*$/, '');
             <div class="card-body p-8 md:p-12">
               <!-- Category Badge -->
               <div class="flex justify-center mb-4">
-                <span class="badge badge-primary badge-lg">{entry.data.category}</span>
+                <span class="badge badge-primary badge-lg rounded-full px-4">{entry.data.category}</span>
               </div>
 
               <!-- Title -->
@@ -524,44 +524,51 @@ const h1Title = baseTitle.replace(/\s*\|.*$/, '');
 
       <!-- Locations Section -->
       <section class="bg-base-200 py-16 px-4">
-        <div class="max-w-6xl mx-auto">
-          <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-base-content mb-4">Find this service in your area</h2>
-            <p class="text-base-content/70 max-w-2xl mx-auto">
-              Select your location to see specific information about this service in your suburb.
+        <div class="max-w-4xl mx-auto">
+          <div class="text-center mb-8">
+            <h2 class="text-2xl md:text-3xl font-bold text-base-content mb-2">Find this service in your area</h2>
+            <p class="text-base-content/60 text-sm">
+              Select your state to browse available locations
             </p>
           </div>
 
           <!-- Search Input -->
-          <div class="max-w-xl mx-auto mb-12">
-            <input
-              type="text"
-              id="suburb-search"
-              placeholder="Search for your suburb..."
-              class="input input-bordered input-lg w-full"
-            />
+          <div class="max-w-md mx-auto mb-8">
+            <label class="input input-bordered flex items-center gap-2">
+              <Icon name="hugeicons:search-01" class="h-4 w-4 text-base-content/40" />
+              <input
+                type="text"
+                id="suburb-search"
+                placeholder="Search suburbs..."
+                class="grow bg-transparent border-none focus:outline-none"
+              />
+            </label>
           </div>
 
-          <!-- States Grid -->
-          <div class="space-y-12">
-            {sortedStates.map(state => (
-              <div class="state-section">
-                <h3 class="text-2xl font-bold text-base-content mb-6 border-b border-base-300 pb-2">{state}</h3>
-                <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
-                  {suburbsByState[state].map((suburb) => (
-                    <li class="suburb-item">
-                      <a
-                        href={`/services/${entry.slug}/${suburb.slug}`}
-                        class="card bg-base-100 shadow-sm hover:shadow-md transition-all duration-200 hover:-translate-y-0.5 border border-base-300 hover:border-primary"
-                      >
-                        <div class="card-body p-4">
-                          <span class="suburb-name font-medium text-base-content">{suburb.name}</span>
-                          <span class="region-name text-sm text-base-content/60">{suburb.region}</span>
-                        </div>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+          <!-- States Accordion -->
+          <div class="space-y-2">
+            {sortedStates.map((state, index) => (
+              <div class="collapse collapse-arrow bg-base-100 border border-base-300 rounded-lg state-section">
+                <input type="radio" name="location-accordion" checked={index === 0} />
+                <div class="collapse-title font-semibold text-base-content flex items-center gap-2">
+                  <span>{state}</span>
+                  <span class="badge badge-sm badge-ghost">{suburbsByState[state].length} locations</span>
+                </div>
+                <div class="collapse-content">
+                  <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 pt-2">
+                    {suburbsByState[state].map((suburb) => (
+                      <li class="suburb-item">
+                        <a
+                          href={`/services/${entry.slug}/${suburb.slug}`}
+                          class="block p-3 rounded-lg bg-base-200/50 hover:bg-primary/10 transition-colors text-sm"
+                        >
+                          <span class="suburb-name font-medium text-base-content block">{suburb.name}</span>
+                          <span class="region-name text-xs text-base-content/50">{suburb.region}</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             ))}
           </div>
@@ -574,7 +581,7 @@ const h1Title = baseTitle.replace(/\s*\|.*$/, '');
           <h2 class="text-3xl font-bold text-center text-base-content mb-10">Related Services</h2>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             {relatedServices.map((service) => (
-              <div class="card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-base-200 hover:border-primary">
+              <div class="card bg-base-100 shadow-sm hover:shadow-md transition-shadow duration-200 border border-base-200 hover:border-primary/50">
                 <div class="card-body">
                   <h3 class="card-title text-lg">{service.data.title.replace(/{suburb}/g, 'Australia')}</h3>
                   <p class="text-base-content/70 text-sm line-clamp-3">{service.data.description.replace(/{suburb}/g, 'Australia')}</p>

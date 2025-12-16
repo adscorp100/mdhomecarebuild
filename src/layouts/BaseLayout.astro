@@ -223,24 +223,32 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
 
       <div class="drawer-content flex flex-col">
         <!-- Navbar -->
-        <header class="navbar bg-secondary text-secondary-content sticky top-0 z-50 shadow-lg px-4 lg:px-8">
+        <header class="navbar bg-secondary text-secondary-content sticky top-0 z-50 px-4 lg:px-8 min-h-16">
+          <!-- Mobile/Tablet: Menu button on left -->
           <div class="navbar-start">
-            <!-- Mobile Menu Button -->
             <label for="mobile-drawer" class="btn btn-ghost btn-sm btn-square lg:hidden" aria-label="Open menu">
               <Icon name="hugeicons:menu-02" class="h-5 w-5" />
             </label>
 
-            <!-- Logo -->
-            <a href="/" class="flex items-center gap-3 hover:opacity-90 transition-opacity">
-              <img src="/assets/logo.svg" alt="MD Homecare Logo" class="h-9 w-auto" />
+            <!-- Desktop Logo (lg and up) -->
+            <a href="/" class="hidden lg:flex items-center gap-3 hover:opacity-90 transition-opacity">
+              <img src="/assets/logo.svg" alt="MD Homecare Logo" class="h-9 w-auto flex-shrink-0" />
               <div class="flex flex-col">
-                <span class="text-lg font-bold text-info leading-tight">MD Homecare</span>
-                <span class="text-xs text-secondary-content/70 leading-tight hidden sm:block">Empowering Independence</span>
+                <span class="text-lg font-bold text-info leading-tight whitespace-nowrap">MD Homecare</span>
+                <span class="text-xs text-secondary-content/70 leading-tight whitespace-nowrap">Empowering Independence</span>
               </div>
             </a>
           </div>
 
-          <!-- Desktop Navigation -->
+          <!-- Mobile/Tablet: Centered Logo -->
+          <div class="navbar-center lg:hidden">
+            <a href="/" class="flex items-center gap-2 hover:opacity-90 transition-opacity">
+              <img src="/assets/logo.svg" alt="MD Homecare Logo" class="h-8 w-auto flex-shrink-0" />
+              <span class="text-base font-bold text-info whitespace-nowrap">MD Homecare</span>
+            </a>
+          </div>
+
+          <!-- Desktop Navigation (lg and up) -->
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 gap-1">
               <li><a href="/" class="font-medium hover:text-info">Home</a></li>
@@ -415,66 +423,163 @@ const structuredDataOrg = JSON.stringify(organizationSchema);
       <!-- Mobile Drawer Sidebar -->
       <div class="drawer-side z-[100]">
         <label for="mobile-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-        <div class="menu bg-secondary text-secondary-content min-h-full w-80 p-4">
-          <!-- Close Button -->
-          <div class="flex justify-end mb-4">
+        <div class="bg-secondary text-secondary-content min-h-full w-80 flex flex-col">
+          <!-- Header with close button -->
+          <div class="flex items-center justify-between p-4 border-b border-white/10">
+            <a href="/" class="flex items-center gap-2">
+              <img src="/assets/logo.svg" alt="MD Homecare Logo" class="h-8 w-auto" />
+              <span class="text-base font-bold text-info">MD Homecare</span>
+            </a>
             <label for="mobile-drawer" class="btn btn-ghost btn-sm btn-circle">
-              <Icon name="hugeicons:cancel-01" class="h-6 w-6" />
+              <Icon name="hugeicons:cancel-01" class="h-5 w-5" />
             </label>
           </div>
 
           <!-- Mobile Navigation Links -->
-          <ul class="menu menu-lg w-full p-0">
-            <li class="w-full"><a href="/" class="w-full text-lg font-medium py-3 rounded-none border-b border-neutral">Home</a></li>
+          <nav class="flex-1 overflow-y-auto py-4">
+            <ul class="space-y-1 px-4">
+              <li>
+                <a href="/" class="block py-3 text-lg font-medium hover:text-info transition-colors">Home</a>
+              </li>
 
-            <!-- Services Submenu -->
-            <li class="w-full">
-              <details>
-                <summary class="w-full text-lg font-medium py-3 rounded-none border-b border-neutral">Services</summary>
-                <ul class="bg-base-100 rounded-lg mt-1 mb-2 p-0 w-full">
-                  <!-- Personal Support -->
-                  <li class="menu-title text-primary text-sm pt-3 pb-1">Personal Support</li>
-                  <li><a href="/services/disability-services" class="text-base-content/80 hover:text-primary text-sm py-2">Disability Services</a></li>
-                  <li><a href="/services/personal-care" class="text-base-content/80 hover:text-primary text-sm py-2">Personal Care</a></li>
-                  <li><a href="/services/clinical-care" class="text-base-content/80 hover:text-primary text-sm py-2">Clinical Care</a></li>
-                  <li><a href="/services/support-workers" class="text-base-content/80 hover:text-primary text-sm py-2">Support Workers</a></li>
+              <!-- Services Accordion -->
+              <li>
+                <details class="group" id="services-details">
+                  <summary class="flex items-center justify-between py-3 text-lg font-medium cursor-pointer hover:text-info transition-colors list-none [&::-webkit-details-marker]:hidden">
+                    Services
+                    <Icon name="hugeicons:arrow-down-01" class="h-5 w-5 transition-transform duration-200 group-open:rotate-180" />
+                  </summary>
+                  <div class="services-content overflow-hidden transition-all duration-300 ease-out">
+                    <div class="mt-2 mb-3 mx-0 bg-base-100 rounded-xl">
+                      <div class="p-4 space-y-4">
+                      <!-- Personal Support -->
+                      <div>
+                        <h4 class="text-xs font-semibold text-primary uppercase tracking-wide mb-2">Personal Support</h4>
+                        <ul class="space-y-1">
+                          <li><a href="/services/disability-services" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Disability Services</a></li>
+                          <li><a href="/services/personal-care" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Personal Care</a></li>
+                          <li><a href="/services/clinical-care" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Clinical Care</a></li>
+                          <li><a href="/services/support-workers" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Support Workers</a></li>
+                        </ul>
+                      </div>
 
-                  <!-- Home & Living -->
-                  <li class="menu-title text-primary text-sm pt-3 pb-1">Home & Living</li>
-                  <li><a href="/services/domestic-assistance" class="text-base-content/80 hover:text-primary text-sm py-2">Domestic Assistance</a></li>
-                  <li><a href="/services/sil-services" class="text-base-content/80 hover:text-primary text-sm py-2">SIL Services</a></li>
-                  <li><a href="/services/specialist-disability-accommodation" class="text-base-content/80 hover:text-primary text-sm py-2">Specialist Accommodation</a></li>
-                  <li><a href="/services/respite-care" class="text-base-content/80 hover:text-primary text-sm py-2">Respite Care</a></li>
+                      <!-- Home & Living -->
+                      <div>
+                        <h4 class="text-xs font-semibold text-primary uppercase tracking-wide mb-2">Home & Living</h4>
+                        <ul class="space-y-1">
+                          <li><a href="/services/domestic-assistance" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Domestic Assistance</a></li>
+                          <li><a href="/services/sil-services" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">SIL Services</a></li>
+                          <li><a href="/services/specialist-disability-accommodation" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Specialist Accommodation</a></li>
+                          <li><a href="/services/respite-care" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Respite Care</a></li>
+                        </ul>
+                      </div>
 
-                  <!-- Community & Mobility -->
-                  <li class="menu-title text-primary text-sm pt-3 pb-1">Community & Mobility</li>
-                  <li><a href="/services/community-access-support" class="text-base-content/80 hover:text-primary text-sm py-2">Community Access</a></li>
-                  <li><a href="/services/transport-services" class="text-base-content/80 hover:text-primary text-sm py-2">Transport Services</a></li>
-                  <li><a href="/services/disability-home-support-services" class="text-base-content/80 hover:text-primary text-sm py-2">Home Support</a></li>
+                      <!-- Community & Mobility -->
+                      <div>
+                        <h4 class="text-xs font-semibold text-primary uppercase tracking-wide mb-2">Community & Mobility</h4>
+                        <ul class="space-y-1">
+                          <li><a href="/services/community-access-support" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Community Access</a></li>
+                          <li><a href="/services/transport-services" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Transport Services</a></li>
+                          <li><a href="/services/disability-home-support-services" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Home Support</a></li>
+                        </ul>
+                      </div>
 
-                  <!-- Specialized Care -->
-                  <li class="menu-title text-primary text-sm pt-3 pb-1">Specialized Care</li>
-                  <li><a href="/services/therapy-services" class="text-base-content/80 hover:text-primary text-sm py-2">Therapy Services</a></li>
-                  <li><a href="/services/ndis-specialist-support-coordination" class="text-base-content/80 hover:text-primary text-sm py-2">NDIS Support Coordination</a></li>
-                  <li><a href="/services" class="text-primary font-medium text-sm py-2">All Services</a></li>
-                </ul>
-              </details>
-            </li>
+                      <!-- Specialized Care -->
+                      <div>
+                        <h4 class="text-xs font-semibold text-primary uppercase tracking-wide mb-2">Specialized Care</h4>
+                        <ul class="space-y-1">
+                          <li><a href="/services/therapy-services" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">Therapy Services</a></li>
+                          <li><a href="/services/ndis-specialist-support-coordination" class="block py-1.5 text-sm text-base-content/70 hover:text-primary transition-colors">NDIS Support Coordination</a></li>
+                        </ul>
+                      </div>
 
-            <li class="w-full"><a href="/blog" class="w-full text-lg font-medium py-3 rounded-none border-b border-neutral">Blog</a></li>
-            <li class="w-full"><a href="/jobs" class="w-full text-lg font-medium py-3 rounded-none border-b border-neutral">Jobs</a></li>
-            <li class="w-full"><a href="/contact" class="w-full text-lg font-medium py-3 rounded-none border-b border-neutral">Contact</a></li>
-          </ul>
+                      <!-- All Services Link -->
+                      <a href="/services" class="block py-2 text-sm font-medium text-primary hover:underline">
+                        View All Services →
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+                </details>
+              </li>
+
+              <li>
+                <a href="/blog" class="block py-3 text-lg font-medium hover:text-info transition-colors">Blog</a>
+              </li>
+              <li>
+                <a href="/jobs" class="block py-3 text-lg font-medium hover:text-info transition-colors">Jobs</a>
+              </li>
+              <li>
+                <a href="/contact" class="block py-3 text-lg font-medium hover:text-info transition-colors">Contact</a>
+              </li>
+            </ul>
+          </nav>
 
           <!-- Mobile Phone Link -->
-          <div class="mt-6">
+          <div class="p-4 border-t border-white/10">
             <a href="tel:+61863869999" class="btn btn-info btn-block gap-2">
               <Icon name="hugeicons:call-02" class="h-5 w-5" />
-              Call Us: 08 6386 9999
+              Call 08 6386 9999
             </a>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Smooth accordion animation script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const details = document.getElementById('services-details');
+        if (!details) return;
+
+        const content = details.querySelector('.services-content');
+        if (!content) return;
+
+        // Set initial state
+        if (!details.open) {
+          content.style.maxHeight = '0px';
+          content.style.opacity = '0';
+        } else {
+          content.style.maxHeight = content.scrollHeight + 'px';
+          content.style.opacity = '1';
+        }
+
+        details.addEventListener('toggle', () => {
+          if (details.open) {
+            // Opening
+            content.style.maxHeight = content.scrollHeight + 'px';
+            content.style.opacity = '1';
+          } else {
+            // Closing
+            content.style.maxHeight = '0px';
+            content.style.opacity = '0';
+          }
+        });
+
+        // Handle click to animate before native toggle
+        const summary = details.querySelector('summary');
+        if (summary) {
+          summary.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            if (details.open) {
+              // Animate close first, then close
+              content.style.maxHeight = '0px';
+              content.style.opacity = '0';
+              setTimeout(() => {
+                details.open = false;
+              }, 300);
+            } else {
+              // Open first, then animate
+              details.open = true;
+              requestAnimationFrame(() => {
+                content.style.maxHeight = content.scrollHeight + 'px';
+                content.style.opacity = '1';
+              });
+            }
+          });
+        }
+      });
+    </script>
   </body>
 </html>

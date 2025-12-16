@@ -675,8 +675,8 @@ const combinedSchema = {
             <div class="card-body p-8 md:p-12">
               <!-- Location Tags -->
               <div class="flex flex-wrap justify-center gap-2 mb-4">
-                <span class="badge badge-primary badge-lg">{service.data.category}</span>
-                <span class="badge badge-outline badge-lg">{suburbInfo.region}, {suburbInfo.state}</span>
+                <span class="badge badge-primary badge-lg rounded-full px-4">{service.data.category}</span>
+                <span class="badge badge-outline badge-lg rounded-full px-4">{suburbInfo.region}, {suburbInfo.state}</span>
               </div>
 
               <!-- Title -->
@@ -922,7 +922,7 @@ const combinedSchema = {
             <h2 class="text-3xl font-bold text-center text-base-content mb-10">Related Services in {suburbName}</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
               {relatedServices.map((relatedService) => (
-                <div class="card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-base-200 hover:border-primary">
+                <div class="card bg-base-100 shadow-sm hover:shadow-md transition-shadow duration-200 border border-base-200 hover:border-primary/50">
                   <div class="card-body">
                     <h3 class="card-title text-lg">{relatedService.data.title.replace(/{suburb}/g, suburbName)}</h3>
                     <p class="text-base-content/70 text-sm line-clamp-3">{relatedService.data.description.replace(/{suburb}/g, suburbName)}</p>
