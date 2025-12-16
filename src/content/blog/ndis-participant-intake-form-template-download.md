@@ -4,7 +4,7 @@ description: "Download our free NDIS participant intake form for 2025. Learn how
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "intake-form", "template", "assessment", "participants"]
-image: "/assets/ndis-provider-melbourne.webp"
+image: "/assets/respite care.webp"
 ---
 
 ## NDIS Participant Intake Form: Key Points

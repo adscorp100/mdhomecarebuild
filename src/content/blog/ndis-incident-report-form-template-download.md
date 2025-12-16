@@ -4,7 +4,7 @@ description: "Download our free NDIS incident report form for 2025. Learn mandat
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "incident-report", "template", "compliance", "safety"]
-image: "/assets/ndis-provider-melbourne.webp"
+image: "/assets/clinic.webp"
 ---
 
 ## NDIS Incident Report Form: Key Points

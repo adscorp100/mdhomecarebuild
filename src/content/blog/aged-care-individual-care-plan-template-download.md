@@ -4,7 +4,7 @@ description: "Download our free aged care individual care plan template for 2025
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["aged-care", "care-plan", "template", "assessment", "elderly"]
-image: "/assets/ndis-provider-melbourne.webp"
+image: "/assets/grandma.webp"
 ---
 
 ## Aged Care Individual Care Plan: Key Points

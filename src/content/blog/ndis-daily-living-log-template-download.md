@@ -4,7 +4,7 @@ description: "Download our free NDIS daily living log template for 2025. Learn h
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "daily-living-log", "template", "tracking", "support"]
-image: "/assets/ndis-provider-melbourne.webp"
+image: "/assets/Doing Dishes.webp"
 ---
 
 ## NDIS Daily Living Log Template: Key Points

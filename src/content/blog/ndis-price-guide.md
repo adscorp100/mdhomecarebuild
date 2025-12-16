@@ -4,7 +4,7 @@ description: "NDIS Price Guide 2025-26 v1.1 (November 24, 2025): Support worker 
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["NDIS Price Guide", "NDIS Rates 2025", "NDIS Support Worker Rates", "NDIS Pricing"]
-image: "/assets/clinic.webp"
+image: "/assets/dieticiain.webp"
 ---
 
 # NDIS Price Guide 2025-26: Complete Guide + December v1.1 Updates

@@ -4,7 +4,7 @@ description: "Stay informed with the latest NDIS news and updates for December 2
 pubDate: 2025-12-16
 author: "Camila"
 tags: ["NDIS", "disability support", "NDIS news", "NDIS changes 2025"]
-image: "/assets/disabled carer.webp"
+image: "/assets/accessible bathroom.webp"
 ---
 
 ## Introduction: Staying Informed About NDIS Changes

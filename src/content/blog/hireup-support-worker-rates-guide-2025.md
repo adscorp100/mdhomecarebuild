@@ -4,7 +4,7 @@ description: "Comprehensive guide to Hireup support worker rates in 2025. Detail
 pubDate: 2025-12-16
 author: "Camila"
 tags: ["NDIS", "support worker", "hireup", "NDIS pricing", "disability support"]
-image: "/assets/carer.webp"
+image: "/assets/disabled carer.webp"
 ---
 
 ## What is Hireup?

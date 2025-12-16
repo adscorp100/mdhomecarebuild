@@ -4,7 +4,7 @@ description: "Download our free medication management plan template for 2025. Le
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["medication", "management-plan", "template", "ndis", "aged-care"]
-image: "/assets/ndis-provider-melbourne.webp"
+image: "/assets/nurse.webp"
 ---
 
 ## Medication Management Plan Template: Key Points
