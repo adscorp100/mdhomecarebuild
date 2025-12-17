@@ -15,6 +15,8 @@ image: "/assets/homecare.webp"
 - Specialized roles (e.g., behavior support, complex care) typically require higher qualifications such as a Certificate IV, Diploma, or degree in a relevant field.
 - Ongoing professional development and specialized training significantly improve employment opportunities and earning potential.
 
+> **Check Your Eligibility:** Use our free [Support Worker Qualification Checker](/tools/support-worker-qualification-checker) to find out if you can work as an NDIS support worker based on your current qualifications and experience.
+
 ## NDIS Support Worker Qualification Requirements
 While the NDIS itself doesn't mandate specific qualifications for all support workers, the sector has established clear expectations for different roles:
 

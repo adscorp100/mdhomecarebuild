@@ -2,6 +2,16 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "NDIS Provider Registration Calculator",
+  description: "Estimate NDIS provider registration costs including audit fees, insurance, and suitability assessment expenses.",
+  icon: "hugeicons:certificate-01",
+  color: "primary",
+  phase: 2,
+  isNew: true
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",

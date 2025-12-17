@@ -1,0 +1,727 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "Support Worker Qualification Checker",
+  description: "Find out if you can work as an NDIS support worker without formal qualifications. Check requirements by role type.",
+  icon: "hugeicons:graduation-scroll",
+  color: "primary",
+  phase: 3,
+  isNew: true
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Support Worker Qualification Checker 2025",
+  "description": "Free quiz to check if you can work as an NDIS support worker without qualifications. Find out minimum requirements, what disqualifies you, and how to get started.",
+  "url": "https://mdhomecare.com.au/tools/support-worker-qualification-checker",
+  "applicationCategory": "HealthApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I work as an NDIS support worker without a qualification?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can work as an NDIS support worker without a formal qualification in many cases. While qualifications like Certificate III in Individual Support are valued, they're not always mandatory for entry-level roles. You'll need an NDIS Worker Screening Check, reliable transport, and the right personal qualities like empathy and reliability. Many employers provide on-the-job training."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the minimum requirements for NDIS support workers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The minimum requirements for NDIS support workers are: 1) NDIS Worker Screening Check clearance, 2) Working rights in Australia, 3) Reliable transport (car preferred), 4) First Aid Certificate (often required), 5) Good communication skills, 6) Empathy and patience. Formal qualifications are preferred but not always essential for entry-level roles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you need a qualification to be an NDIS support worker?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, you don't always need a qualification to be an NDIS support worker. However, having a Certificate III or IV in Individual Support, Disability, or Aged Care will increase your job opportunities and pay rates. Some specialized roles (high-intensity supports, complex care, behaviour support) do require specific qualifications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I become a support worker with no experience?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To become a support worker with no experience: 1) Get your NDIS Worker Screening Check ($80-$128 depending on state), 2) Complete a First Aid course, 3) Consider volunteering to gain experience, 4) Apply for entry-level positions with providers who offer training, 5) Highlight transferable skills from other jobs, 6) Complete the free NDIS Worker Orientation Module online."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What disqualifies you from being a support worker?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You may be disqualified from support work if you: have certain criminal convictions (violent, sexual, or serious drug offenses), fail the NDIS Worker Screening Check, have a history of workplace misconduct in care settings, or are on the NDIS Worker Screening exclusion list. Minor offenses don't automatically exclude you - each case is assessed individually."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="Support Worker Qualification Checker 2025 - Do You Need Qualifications?"
+  description="Free quiz to check if you can work as an NDIS support worker without qualifications. Find out minimum requirements for different roles and how to get started."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">Qualification Checker</li>
+        </ol>
+      </nav>
+
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+          <Icon name="hugeicons:graduation-scroll" class="w-4 h-4" />
+          Free Career Quiz
+        </div>
+
+        <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+          Support Worker <span class="text-primary">Qualification Checker</span>
+        </h1>
+
+        <p class="text-lg text-secondary/70 leading-relaxed max-w-2xl mx-auto">
+          Find out if you can work as an NDIS support worker without formal qualifications. Answer 6 quick questions to get personalized guidance.
+        </p>
+      </div>
+
+      <!-- Quiz Container -->
+      <div class="max-w-2xl mx-auto">
+        <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="qual-quiz">
+
+          <!-- Progress -->
+          <div class="mb-8">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-xs font-bold text-secondary/40 uppercase tracking-wider" id="question-indicator">Question 1 of 6</span>
+              <span class="text-xs font-bold text-primary uppercase tracking-wider">Requirement Check</span>
+            </div>
+            <progress class="progress progress-primary w-full h-2" value="16.67" max="100" id="quiz-progress"></progress>
+          </div>
+
+          <!-- Question 1: Role Interest -->
+          <div class="quiz-question" id="q1">
+            <h3 class="text-xl font-bold text-secondary mb-6">What type of support work are you interested in?</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="role" value="basic" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary block">Basic daily support</span>
+                  <span class="text-sm text-secondary/60">Cleaning, transport, social support, meal prep</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="role" value="personal" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary block">Personal care</span>
+                  <span class="text-sm text-secondary/60">Showering, dressing, toileting, mobility assistance</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="role" value="complex" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary block">Complex or high-intensity support</span>
+                  <span class="text-sm text-secondary/60">PEG feeding, catheter care, ventilator support, behaviour support</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="role" value="unsure" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary block">Not sure yet</span>
+                  <span class="text-sm text-secondary/60">I'm exploring my options</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 2: Current Qualifications -->
+          <div class="quiz-question hidden" id="q2">
+            <h3 class="text-xl font-bold text-secondary mb-6">Do you have any relevant qualifications?</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="quals" value="cert3plus" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, Certificate III or higher in disability/aged care/individual support</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="quals" value="other" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, but in a different field (nursing, allied health, etc.)</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="quals" value="studying" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Currently studying towards a relevant qualification</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="quals" value="none" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No formal qualifications</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 3: Screening Check -->
+          <div class="quiz-question hidden" id="q3">
+            <h3 class="text-xl font-bold text-secondary mb-6">Do you have an NDIS Worker Screening Check?</h3>
+            <p class="text-sm text-secondary/60 mb-4">This is mandatory for all NDIS workers (not the same as a police check).</p>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="screening" value="yes" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, I have a current clearance</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="screening" value="pending" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I've applied and am waiting for results</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="screening" value="no" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No, I haven't applied yet</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="screening" value="concerns" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I'm concerned I may not pass</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 4: Experience -->
+          <div class="quiz-question hidden" id="q4">
+            <h3 class="text-xl font-bold text-secondary mb-6">Do you have any relevant experience?</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="experience" value="paid" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, paid work in disability, aged care, or healthcare</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="experience" value="informal" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, informal caring (family member, friend, volunteer)</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="experience" value="transferable" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I have transferable skills (customer service, hospitality, etc.)</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="experience" value="none" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No relevant experience</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 5: First Aid -->
+          <div class="quiz-question hidden" id="q5">
+            <h3 class="text-xl font-bold text-secondary mb-6">Do you have a current First Aid certificate?</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="firstaid" value="hltaid011" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, HLTAID011 (Provide First Aid) - current</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="firstaid" value="expired" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, but it may be expired</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="firstaid" value="no" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No, I don't have one</span>
+                </div>
+              </label>
+            </div>
+            <p class="text-xs text-secondary/50 mt-4">Most employers require HLTAID011 (1-day course, ~$100-150)</p>
+          </div>
+
+          <!-- Question 6: Transport -->
+          <div class="quiz-question hidden" id="q6">
+            <h3 class="text-xl font-bold text-secondary mb-6">Do you have reliable transport?</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="transport" value="car" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, I have my own car and full driver's licence</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="transport" value="provisional" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, but I'm on a provisional licence</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="transport" value="public" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I rely on public transport</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="transport" value="no" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No reliable transport / no licence</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Results -->
+          <div class="quiz-question hidden" id="results">
+            <div class="text-center mb-6" id="result-icon"></div>
+            <h3 class="text-2xl font-bold text-secondary mb-2 text-center" id="result-title">Your Results</h3>
+            <div class="text-center mb-6" id="result-summary"></div>
+            <div class="mb-6" id="result-message"></div>
+
+            <div class="bg-base-200/30 rounded-2xl p-5 mb-6" id="requirements-checklist">
+              <h4 class="font-bold text-secondary mb-3">Your Requirements Checklist</h4>
+              <div id="checklist-items" class="space-y-2"></div>
+            </div>
+
+            <div id="next-steps" class="mb-6"></div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="mt-8 flex justify-between" id="nav-buttons">
+            <button class="btn btn-ghost rounded-full px-6 hidden" id="prev-btn">
+              <Icon name="hugeicons:arrow-left-01" class="w-5 h-5 mr-2" />
+              Back
+            </button>
+            <button class="btn btn-primary rounded-full px-8 ml-auto" id="next-btn">
+              Continue
+              <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 ml-2" />
+            </button>
+            <button class="btn btn-primary rounded-full px-8 hidden" id="restart-btn">
+              <Icon name="hugeicons:refresh" class="w-5 h-5 mr-2" />
+              Start Over
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70 mt-6">
+          <p class="flex items-start gap-2">
+            <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+            <span><strong>Disclaimer:</strong> This quiz provides general guidance only. Requirements may vary by employer and role type. Always check specific job requirements with the employer.</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Can I work as an NDIS support worker without a qualification?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Yes, you can work as an NDIS support worker without formal qualifications</strong> in many cases, especially for entry-level roles.</p>
+              <p class="mt-2">What you DO need:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>NDIS Worker Screening Check</strong> - mandatory for all NDIS workers</li>
+                <li><strong>Working rights</strong> in Australia</li>
+                <li><strong>First Aid Certificate</strong> - most employers require this</li>
+                <li><strong>Personal qualities</strong> - empathy, reliability, good communication</li>
+              </ul>
+              <p class="mt-2">Many employers provide on-the-job training and may support you to get qualifications while working.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What are the minimum requirements for NDIS support workers?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The minimum requirements for NDIS support workers are:</p>
+              <ol class="list-decimal pl-5 mt-2 space-y-2">
+                <li><strong>NDIS Worker Screening Check clearance</strong> - costs $80-$128 depending on state</li>
+                <li><strong>Working rights in Australia</strong> - citizen, PR, or valid work visa</li>
+                <li><strong>Reliable transport</strong> - car preferred, full licence ideal</li>
+                <li><strong>First Aid Certificate (HLTAID011)</strong> - most employers require this</li>
+                <li><strong>Good communication skills</strong> - written and verbal</li>
+                <li><strong>Physical fitness</strong> - for personal care and mobility support roles</li>
+              </ol>
+              <p class="mt-3">Formal qualifications (Cert III/IV) are preferred but not always essential for basic support roles.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Do you need a qualification to be an NDIS support worker?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Not always.</strong> Here's the breakdown:</p>
+              <div class="mt-3 space-y-3">
+                <div class="bg-success/5 p-3 rounded-lg">
+                  <p class="font-medium text-success">No qualification required:</p>
+                  <ul class="list-disc pl-5 mt-1 text-sm">
+                    <li>Social support and community access</li>
+                    <li>Transport assistance</li>
+                    <li>Household tasks (cleaning, meal prep)</li>
+                    <li>Basic companionship</li>
+                  </ul>
+                </div>
+                <div class="bg-warning/5 p-3 rounded-lg">
+                  <p class="font-medium text-warning">Qualification preferred:</p>
+                  <ul class="list-disc pl-5 mt-1 text-sm">
+                    <li>Personal care (showering, dressing)</li>
+                    <li>Medication prompting</li>
+                    <li>SIL (Supported Independent Living)</li>
+                  </ul>
+                </div>
+                <div class="bg-error/5 p-3 rounded-lg">
+                  <p class="font-medium text-error">Qualification required:</p>
+                  <ul class="list-disc pl-5 mt-1 text-sm">
+                    <li>High-intensity daily living (PEG feeding, catheters)</li>
+                    <li>Complex health support</li>
+                    <li>Behaviour support practitioner roles</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How do I become a support worker with no experience?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Here's a step-by-step guide to becoming a support worker with no experience:</p>
+              <ol class="list-decimal pl-5 mt-2 space-y-2">
+                <li><strong>Get your NDIS Worker Screening Check</strong> - apply through your state's screening unit</li>
+                <li><strong>Complete a First Aid course</strong> - HLTAID011 (~$100-150, 1 day)</li>
+                <li><strong>Complete the free NDIS Worker Orientation Module</strong> - online, takes ~90 minutes</li>
+                <li><strong>Consider volunteering</strong> - gain experience while job searching</li>
+                <li><strong>Apply for entry-level roles</strong> - look for "training provided" in job ads</li>
+                <li><strong>Highlight transferable skills</strong> - customer service, hospitality, caring experience</li>
+              </ol>
+              <p class="mt-3">Many providers specifically hire people without experience and provide comprehensive training.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What disqualifies you from being a support worker?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The NDIS Worker Screening Check may exclude you if you have:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Sexual offenses</strong> - especially involving children or vulnerable people</li>
+                <li><strong>Violent offenses</strong> - assault, domestic violence</li>
+                <li><strong>Serious drug offenses</strong> - trafficking, manufacturing</li>
+                <li><strong>Fraud or financial crimes</strong> - especially against vulnerable people</li>
+                <li><strong>Workplace misconduct</strong> - in previous care roles</li>
+              </ul>
+              <p class="mt-3"><strong>Important:</strong> Minor offenses (traffic, old minor offenses) don't automatically disqualify you. Each case is assessed individually based on:</p>
+              <ul class="list-disc pl-5 mt-1">
+                <li>How long ago the offense occurred</li>
+                <li>The nature and severity</li>
+                <li>Evidence of rehabilitation</li>
+              </ul>
+              <p class="mt-2">If you're unsure, you can still apply - the screening unit will assess your situation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Tools -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Tools</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/tools/ndis-screening-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Screening Cost Calculator</h3>
+            <p class="text-sm text-secondary/60">Find out how much the screening check costs in your state.</p>
+          </a>
+          <a href="/tools/support-worker-income-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Support Worker Income Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate how much you could earn as a support worker.</p>
+          </a>
+          <a href="/tools/ndis-pay-rate-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Pay Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">See current NDIS pay rates for different shift types.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  const questions = ['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'results'];
+  let currentQuestion = 0;
+
+  const progressBar = document.getElementById('quiz-progress');
+  const indicator = document.getElementById('question-indicator');
+  const prevBtn = document.getElementById('prev-btn');
+  const nextBtn = document.getElementById('next-btn');
+  const restartBtn = document.getElementById('restart-btn');
+
+  function showQuestion(index) {
+    questions.forEach((q, i) => {
+      document.getElementById(q).classList.toggle('hidden', i !== index);
+    });
+
+    currentQuestion = index;
+
+    if (index < 6) {
+      progressBar.value = ((index + 1) / 6) * 100;
+      indicator.textContent = `Question ${index + 1} of 6`;
+      prevBtn.classList.toggle('hidden', index === 0);
+      nextBtn.classList.remove('hidden');
+      restartBtn.classList.add('hidden');
+    } else {
+      progressBar.value = 100;
+      indicator.textContent = 'Results';
+      prevBtn.classList.add('hidden');
+      nextBtn.classList.add('hidden');
+      restartBtn.classList.remove('hidden');
+      showResults();
+    }
+  }
+
+  function showResults() {
+    const answers = {
+      role: document.querySelector('input[name="role"]:checked')?.value,
+      quals: document.querySelector('input[name="quals"]:checked')?.value,
+      screening: document.querySelector('input[name="screening"]:checked')?.value,
+      experience: document.querySelector('input[name="experience"]:checked')?.value,
+      firstaid: document.querySelector('input[name="firstaid"]:checked')?.value,
+      transport: document.querySelector('input[name="transport"]:checked')?.value
+    };
+
+    // Determine if qualifications are required based on role
+    const needsQuals = answers.role === 'complex';
+    const hasQuals = ['cert3plus', 'other'].includes(answers.quals);
+
+    // Build checklist
+    const checklist = [
+      {
+        item: 'NDIS Worker Screening Check',
+        status: answers.screening === 'yes' ? 'done' : answers.screening === 'pending' ? 'pending' : 'needed',
+        note: answers.screening === 'concerns' ? 'You can still apply - each case is assessed individually' : ''
+      },
+      {
+        item: 'First Aid Certificate (HLTAID011)',
+        status: answers.firstaid === 'hltaid011' ? 'done' : answers.firstaid === 'expired' ? 'pending' : 'needed',
+        note: answers.firstaid === 'expired' ? 'Renew your certificate - typically valid for 3 years' : ''
+      },
+      {
+        item: 'Reliable Transport',
+        status: ['car', 'provisional'].includes(answers.transport) ? 'done' : answers.transport === 'public' ? 'partial' : 'needed',
+        note: answers.transport === 'public' ? 'Some roles work with public transport, but car is preferred' : ''
+      },
+      {
+        item: 'Relevant Qualification',
+        status: hasQuals ? 'done' : answers.quals === 'studying' ? 'pending' : needsQuals ? 'needed' : 'optional',
+        note: needsQuals ? 'Required for high-intensity/complex care roles' : 'Not required for basic support roles'
+      }
+    ];
+
+    // Count readiness
+    const doneCount = checklist.filter(c => c.status === 'done').length;
+    const neededCount = checklist.filter(c => c.status === 'needed').length;
+
+    // Determine overall result
+    let resultClass, resultText, canStart;
+    if (doneCount >= 3 && !checklist.find(c => c.status === 'needed' && c.item !== 'Relevant Qualification')) {
+      resultClass = 'text-success';
+      resultText = 'Ready to Apply';
+      canStart = true;
+    } else if (neededCount <= 1) {
+      resultClass = 'text-warning';
+      resultText = 'Almost Ready';
+      canStart = false;
+    } else {
+      resultClass = 'text-info';
+      resultText = 'Getting Started';
+      canStart = false;
+    }
+
+    // Display results
+    document.getElementById('result-icon').innerHTML = canStart
+      ? '<div class="w-20 h-20 rounded-full bg-success/20 flex items-center justify-center mx-auto"><svg class="w-10 h-10 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></div>'
+      : '<div class="w-20 h-20 rounded-full bg-info/20 flex items-center justify-center mx-auto"><svg class="w-10 h-10 text-info" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>';
+
+    document.getElementById('result-summary').innerHTML = `<p class="${resultClass} font-bold text-xl">${resultText}</p>`;
+
+    // Role-specific message
+    let roleMessage = '';
+    if (answers.role === 'basic') {
+      roleMessage = '<strong>Good news!</strong> Basic support roles typically don\'t require formal qualifications.';
+    } else if (answers.role === 'personal') {
+      roleMessage = 'Personal care roles prefer qualifications but many employers will train you.';
+    } else if (answers.role === 'complex') {
+      roleMessage = '<strong>Note:</strong> High-intensity/complex care roles require specific qualifications and training.';
+    } else {
+      roleMessage = 'There are many entry-level roles available that don\'t require qualifications.';
+    }
+
+    document.getElementById('result-message').innerHTML = `<p class="text-center text-secondary/70">${roleMessage}</p>`;
+
+    // Build checklist HTML
+    const checklistHTML = checklist.map(c => {
+      let icon, iconClass;
+      if (c.status === 'done') {
+        icon = '✓';
+        iconClass = 'text-success bg-success/10';
+      } else if (c.status === 'pending') {
+        icon = '~';
+        iconClass = 'text-warning bg-warning/10';
+      } else if (c.status === 'optional') {
+        icon = '○';
+        iconClass = 'text-secondary/40 bg-base-200';
+      } else if (c.status === 'partial') {
+        icon = '~';
+        iconClass = 'text-warning bg-warning/10';
+      } else {
+        icon = '!';
+        iconClass = 'text-error bg-error/10';
+      }
+
+      return `
+        <div class="flex items-start gap-3 py-2 border-b border-base-200 last:border-0">
+          <span class="w-6 h-6 rounded-full ${iconClass} flex items-center justify-center text-sm font-bold flex-shrink-0">${icon}</span>
+          <div class="flex-1">
+            <span class="font-medium text-secondary">${c.item}</span>
+            ${c.status === 'optional' ? '<span class="text-xs text-secondary/50 ml-2">(Optional for your role)</span>' : ''}
+            ${c.note ? `<p class="text-xs text-secondary/60 mt-1">${c.note}</p>` : ''}
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    document.getElementById('checklist-items').innerHTML = checklistHTML;
+
+    // Next steps
+    let nextStepsHTML = '';
+    if (canStart) {
+      nextStepsHTML = `
+        <div class="bg-success/5 border border-success/20 rounded-2xl p-5">
+          <h4 class="font-bold text-secondary mb-3">You're Ready to Start Applying!</h4>
+          <ul class="list-disc pl-5 space-y-2 text-sm text-secondary/70">
+            <li>Search for support worker jobs on <a href="https://www.seek.com.au/ndis-support-worker-jobs" target="_blank" class="text-primary hover:underline">SEEK</a>, <a href="https://www.indeed.com.au/NDIS-Support-Worker-jobs" target="_blank" class="text-primary hover:underline">Indeed</a>, or provider websites</li>
+            <li>Create profiles on platforms like <a href="https://mable.com.au" target="_blank" class="text-primary hover:underline">Mable</a>, <a href="https://hireup.com.au" target="_blank" class="text-primary hover:underline">Hireup</a>, or <a href="https://likefamily.com.au" target="_blank" class="text-primary hover:underline">Like Family</a></li>
+            <li>Complete the free <a href="https://www.ndiscommission.gov.au/workers/worker-training-modules-and-resources" target="_blank" class="text-primary hover:underline">NDIS Worker Orientation Module</a></li>
+            <li>Consider getting a qualification while working to increase your pay and opportunities</li>
+          </ul>
+        </div>`;
+    } else {
+      const todoItems = [];
+      if (answers.screening !== 'yes' && answers.screening !== 'pending') {
+        todoItems.push('<li><strong>Apply for your NDIS Worker Screening Check</strong> - <a href="/tools/ndis-screening-calculator" class="text-primary hover:underline">See costs by state</a></li>');
+      }
+      if (answers.firstaid !== 'hltaid011') {
+        todoItems.push('<li><strong>Complete a First Aid course</strong> - search for HLTAID011 courses in your area (~$100-150)</li>');
+      }
+      if (answers.transport === 'no') {
+        todoItems.push('<li><strong>Consider getting your driver\'s licence</strong> - most roles require reliable transport</li>');
+      }
+      todoItems.push('<li>Complete the free <a href="https://www.ndiscommission.gov.au/workers/worker-training-modules-and-resources" target="_blank" class="text-primary hover:underline">NDIS Worker Orientation Module</a></li>');
+
+      nextStepsHTML = `
+        <div class="bg-info/5 border border-info/20 rounded-2xl p-5">
+          <h4 class="font-bold text-secondary mb-3">Your Next Steps</h4>
+          <ol class="list-decimal pl-5 space-y-2 text-sm text-secondary/70">
+            ${todoItems.join('')}
+          </ol>
+        </div>`;
+    }
+
+    document.getElementById('next-steps').innerHTML = nextStepsHTML;
+  }
+
+  // Event listeners
+  nextBtn.addEventListener('click', () => {
+    const questionNames = ['role', 'quals', 'screening', 'experience', 'firstaid', 'transport'];
+    const currentName = questionNames[currentQuestion];
+
+    if (currentQuestion < 6) {
+      const selected = document.querySelector(`input[name="${currentName}"]:checked`);
+      if (!selected) {
+        alert('Please select an option to continue.');
+        return;
+      }
+    }
+
+    if (currentQuestion < 6) {
+      showQuestion(currentQuestion + 1);
+    }
+  });
+
+  prevBtn.addEventListener('click', () => {
+    if (currentQuestion > 0) {
+      showQuestion(currentQuestion - 1);
+    }
+  });
+
+  restartBtn.addEventListener('click', () => {
+    document.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    showQuestion(0);
+  });
+
+  // Initialize
+  showQuestion(0);
+})();
+</script>

@@ -2,6 +2,16 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "NDIS Travel Calculator",
+  description: "Calculate provider travel and transport costs at $0.97/km. Find 2025-26 kilometre rates and travel time charges.",
+  icon: "hugeicons:car-01",
+  color: "primary",
+  phase: 2,
+  isNew: true
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",

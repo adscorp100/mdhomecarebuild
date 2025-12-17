@@ -2,6 +2,16 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "NDIS Therapy Hours Calculator",
+  description: "Calculate how many OT, physio, speech, and psychology sessions you can get with your CB Daily Activities budget.",
+  icon: "hugeicons:health",
+  color: "primary",
+  phase: 2,
+  isNew: true
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",

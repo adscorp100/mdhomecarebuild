@@ -219,8 +219,10 @@ Breaches can lead to warnings, training requirements or banning orders from the 
 
 ## 11. Skills and Qualifications: What Do You Really Need?
 
-### Formal Qualifications vs. Market Expectations  
+### Formal Qualifications vs. Market Expectations
 The NDIS Commission doesn't mandate specific certificates for basic support roles, but most clients and plan managers prefer Certificate III/IV qualifications in Individual Support, Disability or Allied Health Assistance.
+
+> **Check What You Need:** Not sure if you can start without qualifications? Use our free [Support Worker Qualification Checker](/tools/support-worker-qualification-checker) to find out what you need based on your current experience and the type of support work you want to do.
 
 ### Essential Skills & Attributes  
 - Communication & empathy  

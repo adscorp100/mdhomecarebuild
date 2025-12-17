@@ -11,6 +11,8 @@ image: "https://cdn.prod.website-files.com/67ba898f18b9815458c46343/67fede722e42
 
 ## The Ultimate Guide to the NSW Companion Card: What Is a Companion Card, Eligibility, Application, and Where to Use in 2025
 
+> **Check Your Eligibility:** Use our free [Companion Card Checker](/tools/companion-card-checker) to quickly assess your eligibility for a Companion Card and find participating venues in NSW.
+
 Participating fully in community life, enjoying events, and accessing services are fundamental aspects of well-being. However, for individuals living with significant and permanent disabilities who require attendant care support, the cost of a second ticket for their companion can present a considerable financial barrier, hindering social inclusion and participation. Recognizing this challenge, the NSW Government implements the Companion Card program, a vital initiative designed specifically to promote fair ticketing and enhance affordability for community access. This card allows a necessary support person free entry to a wide array of participating venues and services across the state.
 
 This comprehensive guide aims to be the definitive resource for understanding what is a companion card in NSW in 2025. It delves into every crucial aspect, from the precise definition and benefits of the companion card to the detailed companion card eligibility criteria, the step-by-step application process for how to get a companion card, and practical advice on where can I use my companion card NSW throughout New South Wales. Whether for individuals with disabilities, their families, carers, support workers, or service providers, this guide seeks to clarify common questions and provide the necessary information to navigate the program effectively.

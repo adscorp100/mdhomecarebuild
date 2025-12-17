@@ -2,6 +2,15 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "NDIS Respite Calculator",
+  description: "Calculate Short Term Accommodation (STA) costs for NDIS respite care. Get pricing for weekdays, weekends, and holidays.",
+  icon: "hugeicons:bed-single-01",
+  color: "accent",
+  phase: 1
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",

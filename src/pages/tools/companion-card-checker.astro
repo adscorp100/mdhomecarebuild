@@ -1,0 +1,701 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "Companion Card Checker",
+  description: "Check your eligibility for a Companion Card and find participating venues in NSW where your carer gets free entry.",
+  icon: "hugeicons:ticket-01",
+  color: "accent",
+  phase: 3,
+  isNew: true
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Companion Card Eligibility Checker 2025",
+  "description": "Free Companion Card eligibility quiz for NSW and Australia. Check if you qualify and find participating venues where your carer gets free entry.",
+  "url": "https://mdhomecare.com.au/tools/companion-card-checker",
+  "applicationCategory": "HealthApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Where can I use my Companion Card NSW?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can use your Companion Card NSW at thousands of participating venues including: cinemas (Event, Hoyts, Palace), theme parks (Luna Park, Taronga Zoo, SEA LIFE), sporting venues (SCG, Allianz Stadium), museums and galleries (Australian Museum, Powerhouse), public transport (free companion travel on trains, buses, ferries), concerts and festivals, restaurants and cafes. Look for the Companion Card logo or check the official directory at companioncard.nsw.gov.au."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a Companion Card NSW?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Companion Card NSW is a free card for people with significant, permanent disability who need attendant care support to participate in community activities. When you visit participating venues, your companion (carer) gets free or discounted entry. The card is valid for 5 years and is recognized across all Australian states and territories through the National Companion Card scheme."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I apply for a Companion Card?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To apply for a Companion Card NSW: 1) Download the application form from companioncard.nsw.gov.au, 2) Have a health professional (GP, specialist, OT) complete the medical section confirming your disability and care needs, 3) Provide proof of identity and NSW residency, 4) Submit your application by post or email. Processing takes 4-6 weeks. The card is completely free."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a Companion Card and a Carer Card NSW?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Companion Card is for the person WITH disability - it allows their companion/carer free entry to participating venues. A Carer Card (like the Centrelink Carer Concession Card) is for the CARER themselves and provides concessions on utilities, rates, and other services. They serve different purposes and you may be eligible for both."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is eligible for a Companion Card?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You're eligible for a Companion Card if you: have a significant, permanent disability (physical, sensory, cognitive, or psychosocial), are unable to participate in most community activities without attendant care support, require this support for life (not temporary conditions), and are an Australian resident. There is no age limit - children and adults of all ages can apply."
+      }
+    }
+  ]
+};
+
+// NSW Venue categories
+const venueCategories = [
+  {
+    name: "Cinemas",
+    icon: "hugeicons:video-01",
+    venues: ["Event Cinemas", "Hoyts", "Palace Cinemas", "Dendy Cinemas", "Reading Cinemas", "Village Cinemas"]
+  },
+  {
+    name: "Theme Parks & Attractions",
+    icon: "hugeicons:ferris-wheel",
+    venues: ["Luna Park Sydney", "Taronga Zoo", "SEA LIFE Sydney Aquarium", "WILD LIFE Sydney Zoo", "Madame Tussauds", "Sydney Tower Eye", "Featherdale Wildlife Park"]
+  },
+  {
+    name: "Museums & Galleries",
+    icon: "hugeicons:paint-board",
+    venues: ["Australian Museum", "Powerhouse Museum", "Art Gallery of NSW", "Museum of Sydney", "Australian National Maritime Museum", "Hyde Park Barracks"]
+  },
+  {
+    name: "Sports & Entertainment",
+    icon: "hugeicons:rugby-ball",
+    venues: ["Sydney Cricket Ground", "Allianz Stadium", "Accor Stadium", "Qudos Bank Arena", "ICC Sydney", "Most NRL/AFL/A-League venues"]
+  },
+  {
+    name: "Transport",
+    icon: "hugeicons:bus-01",
+    venues: ["Sydney Trains", "Sydney Buses", "Sydney Ferries", "Light Rail", "NSW TrainLink", "Most regional bus services"]
+  },
+  {
+    name: "Performing Arts",
+    icon: "hugeicons:microphone-01",
+    venues: ["Sydney Opera House", "Capitol Theatre", "State Theatre", "Lyric Theatre", "Enmore Theatre", "Most major concert venues"]
+  }
+];
+---
+
+<BaseLayout
+  title="Companion Card Eligibility Checker NSW 2025 - Free Entry for Carers"
+  description="Check your Companion Card eligibility and find participating venues in NSW. Your carer gets free entry to cinemas, theme parks, sports, and more."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">Companion Card Checker</li>
+        </ol>
+      </nav>
+
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+          <Icon name="hugeicons:ticket-01" class="w-4 h-4" />
+          Free Eligibility Check
+        </div>
+
+        <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+          Companion Card <span class="text-primary">Eligibility Checker</span>
+        </h1>
+
+        <p class="text-lg text-secondary/70 leading-relaxed max-w-2xl mx-auto">
+          Check if you're eligible for a Companion Card and find participating venues where your carer gets <strong>free entry</strong>. Answer 5 quick questions.
+        </p>
+      </div>
+
+      <!-- Main Content -->
+      <div class="max-w-4xl mx-auto">
+
+        <!-- Eligibility Quiz -->
+        <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200 mb-12" id="companion-quiz">
+
+          <!-- Progress -->
+          <div class="mb-8">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-xs font-bold text-secondary/40 uppercase tracking-wider" id="question-indicator">Question 1 of 5</span>
+              <span class="text-xs font-bold text-primary uppercase tracking-wider">Eligibility Check</span>
+            </div>
+            <progress class="progress progress-primary w-full h-2" value="20" max="100" id="quiz-progress"></progress>
+          </div>
+
+          <!-- Question 1: Disability -->
+          <div class="quiz-question" id="q1">
+            <h3 class="text-xl font-bold text-secondary mb-6">Do you have a significant, permanent disability?</h3>
+            <p class="text-sm text-secondary/60 mb-4">This includes physical, sensory (vision/hearing), intellectual, cognitive, or psychosocial disability.</p>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="disability" value="yes" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, I have a permanent disability</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="disability" value="temporary" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I have a temporary condition (injury, illness)</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="disability" value="no" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No, I don't have a disability</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 2: Care Needs -->
+          <div class="quiz-question hidden" id="q2">
+            <h3 class="text-xl font-bold text-secondary mb-6">Do you need attendant care support to participate in community activities?</h3>
+            <p class="text-sm text-secondary/60 mb-4">For example: going to movies, sports events, shopping, restaurants, or public transport.</p>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="care" value="always" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, I always or almost always need someone with me</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="care" value="sometimes" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Sometimes, depending on the activity or environment</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="care" value="rarely" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Rarely - I can usually manage on my own</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 3: Lifelong Need -->
+          <div class="quiz-question hidden" id="q3">
+            <h3 class="text-xl font-bold text-secondary mb-6">Is your need for attendant care support likely to be lifelong?</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="lifelong" value="yes" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, it's a permanent/lifelong condition</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="lifelong" value="unsure" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I'm not sure - my condition may improve</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="lifelong" value="no" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No, I expect to recover or improve</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 4: Residency -->
+          <div class="quiz-question hidden" id="q4">
+            <h3 class="text-xl font-bold text-secondary mb-6">Are you an Australian resident?</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="residency" value="yes" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, I'm an Australian citizen or permanent resident</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="residency" value="visa" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I'm on a long-term visa living in Australia</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="residency" value="no" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No, I'm a visitor to Australia</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 5: State -->
+          <div class="quiz-question hidden" id="q5">
+            <h3 class="text-xl font-bold text-secondary mb-6">Which state or territory do you live in?</h3>
+            <div class="grid grid-cols-2 gap-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="state" value="NSW" class="peer hidden" />
+                <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                  <span class="font-medium text-secondary">NSW</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="state" value="VIC" class="peer hidden" />
+                <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                  <span class="font-medium text-secondary">Victoria</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="state" value="QLD" class="peer hidden" />
+                <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                  <span class="font-medium text-secondary">Queensland</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="state" value="WA" class="peer hidden" />
+                <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                  <span class="font-medium text-secondary">WA</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="state" value="SA" class="peer hidden" />
+                <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                  <span class="font-medium text-secondary">SA</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="state" value="TAS" class="peer hidden" />
+                <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                  <span class="font-medium text-secondary">Tasmania</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="state" value="ACT" class="peer hidden" />
+                <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                  <span class="font-medium text-secondary">ACT</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="state" value="NT" class="peer hidden" />
+                <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                  <span class="font-medium text-secondary">NT</span>
+                </div>
+              </label>
+            </div>
+            <p class="text-xs text-secondary/50 mt-4">The Companion Card is a national scheme - you can use it anywhere in Australia.</p>
+          </div>
+
+          <!-- Results -->
+          <div class="quiz-question hidden" id="results">
+            <div class="text-center mb-6" id="result-icon"></div>
+            <h3 class="text-2xl font-bold text-secondary mb-2 text-center" id="result-title">Eligibility Result</h3>
+            <div class="mb-6" id="result-message"></div>
+            <div id="next-steps" class="mb-6"></div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="mt-8 flex justify-between" id="nav-buttons">
+            <button class="btn btn-ghost rounded-full px-6 hidden" id="prev-btn">
+              <Icon name="hugeicons:arrow-left-01" class="w-5 h-5 mr-2" />
+              Back
+            </button>
+            <button class="btn btn-primary rounded-full px-8 ml-auto" id="next-btn">
+              Continue
+              <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 ml-2" />
+            </button>
+            <button class="btn btn-primary rounded-full px-8 hidden" id="restart-btn">
+              <Icon name="hugeicons:refresh" class="w-5 h-5 mr-2" />
+              Start Over
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Venue Guide -->
+        <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200">
+          <h2 class="text-2xl font-bold text-secondary mb-6 text-center">Where Can I Use My Companion Card NSW?</h2>
+          <p class="text-center text-secondary/70 mb-8">Your companion gets <strong>free entry</strong> at thousands of participating venues across NSW and Australia.</p>
+
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {venueCategories.map((category) => (
+              <div class="bg-base-200/30 rounded-2xl p-5">
+                <div class="flex items-center gap-3 mb-4">
+                  <div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
+                    <Icon name={category.icon} class="w-5 h-5 text-primary" />
+                  </div>
+                  <h3 class="font-bold text-secondary">{category.name}</h3>
+                </div>
+                <ul class="space-y-1.5 text-sm text-secondary/70">
+                  {category.venues.map((venue) => (
+                    <li class="flex items-center gap-2">
+                      <span class="text-success">✓</span>
+                      {venue}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+
+          <div class="mt-8 p-4 bg-info/5 rounded-xl text-center">
+            <p class="text-sm text-secondary/70">
+              <strong>View the full directory:</strong> Visit
+              <a href="https://www.companioncard.nsw.gov.au/affiliates" target="_blank" class="text-primary hover:underline">companioncard.nsw.gov.au/affiliates</a>
+              for the complete list of participating venues.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Where can I use my Companion Card NSW?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>You can use your Companion Card NSW at <strong>thousands of participating venues</strong> including:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Cinemas:</strong> Event, Hoyts, Palace, Dendy, Reading, Village</li>
+                <li><strong>Theme parks:</strong> Luna Park, Taronga Zoo, SEA LIFE, Featherdale</li>
+                <li><strong>Museums:</strong> Australian Museum, Powerhouse, Art Gallery of NSW</li>
+                <li><strong>Sports:</strong> SCG, Allianz Stadium, most NRL/AFL venues</li>
+                <li><strong>Transport:</strong> Sydney Trains, buses, ferries, light rail (companion travels FREE)</li>
+                <li><strong>Concerts:</strong> Sydney Opera House, most major venues</li>
+              </ul>
+              <p class="mt-2">Look for the Companion Card logo or ask at the venue. The card is recognized nationally, so you can use it in any Australian state.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is a Companion Card NSW?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>A Companion Card is a <strong>free card</strong> for people with significant, permanent disability who need attendant care support to participate in community activities.</p>
+              <p class="mt-2">How it works:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>You buy a ticket for yourself at participating venues</li>
+                <li>Your companion (carer) gets <strong>free or discounted entry</strong></li>
+                <li>On public transport, your companion travels <strong>free</strong></li>
+              </ul>
+              <p class="mt-2">The card is valid for 5 years and is recognized across all Australian states and territories.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How do I apply for a Companion Card?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>To apply for a Companion Card in NSW:</p>
+              <ol class="list-decimal pl-5 mt-2 space-y-2">
+                <li><strong>Download the application form</strong> from companioncard.nsw.gov.au</li>
+                <li><strong>Complete Section A</strong> with your personal details</li>
+                <li><strong>Have a health professional complete Section B</strong> - this can be your GP, specialist, OT, or other registered health professional</li>
+                <li><strong>Provide proof of identity</strong> - photo ID and proof of NSW residency</li>
+                <li><strong>Submit your application</strong> by post or email</li>
+              </ol>
+              <p class="mt-2">Processing takes approximately 4-6 weeks. The card is <strong>completely free</strong>.</p>
+              <p class="mt-2"><strong>Apply online:</strong> <a href="https://www.companioncard.nsw.gov.au/apply" target="_blank" class="text-primary hover:underline">companioncard.nsw.gov.au/apply</a></p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the difference between a Companion Card and a Carer Card NSW?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>These are two different cards serving different purposes:</p>
+              <div class="overflow-x-auto mt-3">
+                <table class="table table-sm">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Companion Card</th>
+                      <th>Carer Card</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>For who?</td>
+                      <td>Person with disability</td>
+                      <td>The carer (person providing care)</td>
+                    </tr>
+                    <tr>
+                      <td>Benefits</td>
+                      <td>Carer gets free entry to venues</td>
+                      <td>Concessions on utilities, rates, services</td>
+                    </tr>
+                    <tr>
+                      <td>Cost</td>
+                      <td>Free</td>
+                      <td>Free (if receiving Carer Payment)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="mt-3">You may be eligible for both cards - they serve complementary purposes.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              Who is eligible for a Companion Card?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>You're eligible for a Companion Card if you:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Have a <strong>significant, permanent disability</strong></li>
+                <li>Are <strong>unable to participate in most community activities</strong> without attendant care support</li>
+                <li>Will need this support <strong>for life</strong> (not a temporary condition)</li>
+                <li>Are an <strong>Australian resident</strong></li>
+              </ul>
+              <p class="mt-2"><strong>There is no age limit</strong> - children and adults of all ages can apply.</p>
+              <p class="mt-2">Examples of eligible conditions include: significant vision or hearing loss, physical disability requiring wheelchair or mobility aid, intellectual disability, autism, acquired brain injury, and mental health conditions requiring constant support.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Tools -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Tools</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/tools/ndis-eligibility-quiz" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Eligibility Quiz</h3>
+            <p class="text-sm text-secondary/60">Check if you qualify for NDIS funding.</p>
+          </a>
+          <a href="/tools/carer-payment-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Carer Payment Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate Carer Payment and Allowance.</p>
+          </a>
+          <a href="/tools/dsp-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">DSP Calculator</h3>
+            <p class="text-sm text-secondary/60">Estimate Disability Support Pension.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  const questions = ['q1', 'q2', 'q3', 'q4', 'q5', 'results'];
+  let currentQuestion = 0;
+
+  const progressBar = document.getElementById('quiz-progress');
+  const indicator = document.getElementById('question-indicator');
+  const prevBtn = document.getElementById('prev-btn');
+  const nextBtn = document.getElementById('next-btn');
+  const restartBtn = document.getElementById('restart-btn');
+
+  const stateLinks = {
+    'NSW': 'https://www.companioncard.nsw.gov.au/apply',
+    'VIC': 'https://www.companioncard.vic.gov.au/',
+    'QLD': 'https://www.qld.gov.au/disability/out-and-about/companion-card',
+    'WA': 'https://www.companioncard.wa.gov.au/',
+    'SA': 'https://www.sa.gov.au/topics/care-and-support/disability/companion-card',
+    'TAS': 'https://www.communities.tas.gov.au/disability/companion_card',
+    'ACT': 'https://www.communityservices.act.gov.au/disability_act/companion-card',
+    'NT': 'https://nt.gov.au/community/disability-services/companion-card'
+  };
+
+  function showQuestion(index) {
+    questions.forEach((q, i) => {
+      document.getElementById(q).classList.toggle('hidden', i !== index);
+    });
+
+    currentQuestion = index;
+
+    if (index < 5) {
+      progressBar.value = ((index + 1) / 5) * 100;
+      indicator.textContent = `Question ${index + 1} of 5`;
+      prevBtn.classList.toggle('hidden', index === 0);
+      nextBtn.classList.remove('hidden');
+      restartBtn.classList.add('hidden');
+    } else {
+      progressBar.value = 100;
+      indicator.textContent = 'Results';
+      prevBtn.classList.add('hidden');
+      nextBtn.classList.add('hidden');
+      restartBtn.classList.remove('hidden');
+      showResults();
+    }
+  }
+
+  function showResults() {
+    const answers = {
+      disability: document.querySelector('input[name="disability"]:checked')?.value,
+      care: document.querySelector('input[name="care"]:checked')?.value,
+      lifelong: document.querySelector('input[name="lifelong"]:checked')?.value,
+      residency: document.querySelector('input[name="residency"]:checked')?.value,
+      state: document.querySelector('input[name="state"]:checked')?.value || 'NSW'
+    };
+
+    const applyLink = stateLinks[answers.state] || stateLinks['NSW'];
+
+    // Calculate eligibility
+    const isEligible =
+      answers.disability === 'yes' &&
+      (answers.care === 'always' || answers.care === 'sometimes') &&
+      (answers.lifelong === 'yes' || answers.lifelong === 'unsure') &&
+      (answers.residency === 'yes' || answers.residency === 'visa');
+
+    const isLikely =
+      answers.disability === 'yes' &&
+      answers.care === 'sometimes' &&
+      answers.lifelong === 'unsure';
+
+    if (isEligible && !isLikely) {
+      document.getElementById('result-icon').innerHTML = '<div class="w-20 h-20 rounded-full bg-success/20 flex items-center justify-center mx-auto"><svg class="w-10 h-10 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></div>';
+      document.getElementById('result-title').textContent = 'Likely Eligible';
+      document.getElementById('result-title').className = 'text-2xl font-bold text-success mb-4 text-center';
+      document.getElementById('result-message').innerHTML = '<p class="text-center text-secondary/70">Based on your answers, you appear to meet the eligibility criteria for a Companion Card. The card is <strong>free</strong> and valid for 5 years.</p>';
+      document.getElementById('next-steps').innerHTML = `
+        <div class="bg-success/5 border border-success/20 rounded-2xl p-5">
+          <h4 class="font-bold text-secondary mb-3">How to Apply</h4>
+          <ol class="list-decimal pl-5 space-y-2 text-sm text-secondary/70">
+            <li>Download the application form from your state's Companion Card website</li>
+            <li>Complete Section A with your personal details</li>
+            <li>Have your GP or health professional complete Section B</li>
+            <li>Provide proof of identity and residency</li>
+            <li>Submit by post or email</li>
+          </ol>
+          <div class="mt-4">
+            <a href="${applyLink}" target="_blank" class="btn btn-primary rounded-full">
+              Apply for Companion Card (${answers.state})
+              <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+            </a>
+          </div>
+        </div>`;
+    } else if (isLikely) {
+      document.getElementById('result-icon').innerHTML = '<div class="w-20 h-20 rounded-full bg-warning/20 flex items-center justify-center mx-auto"><svg class="w-10 h-10 text-warning" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg></div>';
+      document.getElementById('result-title').textContent = 'May Be Eligible';
+      document.getElementById('result-title').className = 'text-2xl font-bold text-warning mb-4 text-center';
+      document.getElementById('result-message').innerHTML = '<p class="text-center text-secondary/70">Based on your answers, you may be eligible for a Companion Card. We recommend applying - the final decision is made by the Companion Card team after reviewing your application and medical documentation.</p>';
+      document.getElementById('next-steps').innerHTML = `
+        <div class="bg-warning/5 border border-warning/20 rounded-2xl p-5">
+          <h4 class="font-bold text-secondary mb-3">We Recommend Applying</h4>
+          <p class="text-sm text-secondary/70 mb-4">Eligibility is assessed individually. Your GP or specialist can provide supporting documentation about your disability and care needs.</p>
+          <a href="${applyLink}" target="_blank" class="btn btn-warning rounded-full">
+            Apply for Companion Card (${answers.state})
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+          </a>
+        </div>`;
+    } else {
+      document.getElementById('result-icon').innerHTML = '<div class="w-20 h-20 rounded-full bg-error/20 flex items-center justify-center mx-auto"><svg class="w-10 h-10 text-error" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></div>';
+      document.getElementById('result-title').textContent = 'May Not Be Eligible';
+      document.getElementById('result-title').className = 'text-2xl font-bold text-error mb-4 text-center';
+
+      let reason = '';
+      if (answers.disability === 'temporary') {
+        reason = 'The Companion Card is for permanent disabilities. If your condition becomes permanent, you may apply in the future.';
+      } else if (answers.disability === 'no') {
+        reason = 'The Companion Card is specifically for people with significant disabilities who need attendant care support.';
+      } else if (answers.care === 'rarely') {
+        reason = 'The Companion Card is for people who need attendant care support for most community activities.';
+      } else if (answers.lifelong === 'no') {
+        reason = 'The Companion Card is for people with lifelong care needs. If your condition is temporary, other concessions may be available.';
+      } else if (answers.residency === 'no') {
+        reason = 'The Companion Card is only available to Australian residents.';
+      }
+
+      document.getElementById('result-message').innerHTML = `<p class="text-center text-secondary/70">${reason}</p>`;
+      document.getElementById('next-steps').innerHTML = `
+        <div class="bg-base-200/50 rounded-2xl p-5">
+          <h4 class="font-bold text-secondary mb-3">Other Options</h4>
+          <ul class="list-disc pl-5 space-y-2 text-sm text-secondary/70">
+            <li>Check if you're eligible for the <a href="/tools/ndis-eligibility-quiz" class="text-primary hover:underline">NDIS</a></li>
+            <li>Look into other disability concessions in your state</li>
+            <li>Speak with your GP about available support options</li>
+          </ul>
+        </div>`;
+    }
+  }
+
+  // Event listeners
+  nextBtn.addEventListener('click', () => {
+    const questionNames = ['disability', 'care', 'lifelong', 'residency', 'state'];
+    const currentName = questionNames[currentQuestion];
+
+    if (currentQuestion < 5) {
+      const selected = document.querySelector(`input[name="${currentName}"]:checked`);
+      if (!selected) {
+        alert('Please select an option to continue.');
+        return;
+      }
+    }
+
+    if (currentQuestion < 5) {
+      showQuestion(currentQuestion + 1);
+    }
+  });
+
+  prevBtn.addEventListener('click', () => {
+    if (currentQuestion > 0) {
+      showQuestion(currentQuestion - 1);
+    }
+  });
+
+  restartBtn.addEventListener('click', () => {
+    document.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    showQuestion(0);
+  });
+
+  // Initialize
+  showQuestion(0);
+})();
+</script>

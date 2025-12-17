@@ -2,6 +2,16 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "NDIS Budget Planner",
+  description: "Plan your NDIS funding across Core, Capacity Building, and Capital categories. Calculate weekly support hours.",
+  icon: "hugeicons:chart-breakout-circle",
+  color: "primary",
+  phase: 2,
+  isNew: true
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",

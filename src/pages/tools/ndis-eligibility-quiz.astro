@@ -2,6 +2,15 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "NDIS Eligibility Quiz",
+  description: "Answer 6 quick questions to check if you may be eligible for the National Disability Insurance Scheme.",
+  icon: "hugeicons:checkmark-badge-01",
+  color: "primary",
+  phase: 1
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",

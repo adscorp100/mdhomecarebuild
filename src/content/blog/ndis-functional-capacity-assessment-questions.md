@@ -15,6 +15,8 @@ image: "/assets/physio.webp"
 - Assessors use a combination of direct questions, observation, standardized tools, and practical task completion.
 - Understanding the types of questions in advance helps you prepare and provide comprehensive information during your assessment.
 
+> **Prepare for Your Assessment:** Use our free [FCA Prep Checklist](/tools/fca-prep-checklist) to make sure you're fully prepared for your Functional Capacity Assessment. Know what to bring, what to expect, and how to get the best outcome.
+
 ## Purpose of NDIS Functional Capacity Assessments
 Functional capacity assessments (FCAs) serve several important purposes in the NDIS process. For a complete overview of the entire process, see our [ultimate guide to Functional Capacity Assessments](/blog/functional-capacity-assessment-ultimate-guide-2025).
 

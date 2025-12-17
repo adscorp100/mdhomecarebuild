@@ -2,133 +2,29 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
-// Phase 1 Tools (Original 7)
-const phase1Tools = [
-  {
-    title: "DSP Calculator",
-    description: "Calculate your estimated Disability Support Pension payment based on your income, assets, and relationship status.",
-    href: "/tools/dsp-calculator",
-    icon: "hugeicons:calculator-01",
-    color: "primary"
-  },
-  {
-    title: "NDIS Pay Rate Calculator",
-    description: "Calculate support worker pay rates including weekends, public holidays, and overnight shifts using 2025-26 NDIS price limits.",
-    href: "/tools/ndis-pay-rate-calculator",
-    icon: "hugeicons:money-send-square",
-    color: "accent"
-  },
-  {
-    title: "NDIS Code Lookup",
-    description: "Search all 671 NDIS line item codes by number or description. Find invoicing codes, price limits, and support categories instantly.",
-    href: "/tools/ndis-code-lookup",
-    icon: "hugeicons:search-01",
-    color: "primary"
-  },
-  {
-    title: "Carer Payment Calculator",
-    description: "Calculate your Carer Payment and Carer Allowance entitlement based on income, assets, and care hours.",
-    href: "/tools/carer-payment-calculator",
-    icon: "hugeicons:heart-check",
-    color: "accent"
-  },
-  {
-    title: "Aged Care Fees Calculator",
-    description: "Estimate nursing home costs, means tested fees, and RAD vs DAP accommodation options for residential aged care.",
-    href: "/tools/aged-care-calculator",
-    icon: "hugeicons:home-01",
-    color: "primary"
-  },
-  {
-    title: "NDIS Respite Calculator",
-    description: "Calculate Short Term Accommodation (STA) costs for NDIS respite care. Get pricing for weekdays, weekends, and holidays.",
-    href: "/tools/ndis-respite-calculator",
-    icon: "hugeicons:bed-single-01",
-    color: "accent"
-  },
-  {
-    title: "NDIS Eligibility Quiz",
-    description: "Answer 6 quick questions to check if you may be eligible for the National Disability Insurance Scheme.",
-    href: "/tools/ndis-eligibility-quiz",
-    icon: "hugeicons:checkmark-badge-01",
-    color: "primary"
-  }
-];
+// Automatically discover all tools from .astro files in this directory
+const toolModules = await Astro.glob('./*.astro');
 
-// Phase 2 Tools (New 8)
-const phase2Tools = [
-  {
-    title: "Home Care Package Calculator",
-    description: "Calculate how many hours of care you get at Level 1, 2, 3, or 4. Estimate weekly hours based on 2025 funding amounts.",
-    href: "/tools/home-care-package-calculator",
-    icon: "hugeicons:clock-02",
-    color: "accent",
-    isNew: true
-  },
-  {
-    title: "NDIS Travel Calculator",
-    description: "Calculate provider travel and transport costs at $0.97/km. Find 2025-26 kilometre rates and travel time charges.",
-    href: "/tools/ndis-travel-calculator",
-    icon: "hugeicons:car-01",
-    color: "primary",
-    isNew: true
-  },
-  {
-    title: "NDIS Screening Cost Calculator",
-    description: "Find NDIS worker screening check costs for all states. Compare NSW, VIC, QLD, WA, SA, TAS, ACT & NT fees and processing times.",
-    href: "/tools/ndis-screening-calculator",
-    icon: "hugeicons:user-check-01",
-    color: "accent",
-    isNew: true
-  },
-  {
-    title: "NDIS Provider Registration Calculator",
-    description: "Estimate NDIS provider registration costs including audit fees, insurance, and suitability assessment expenses.",
-    href: "/tools/ndis-provider-calculator",
-    icon: "hugeicons:certificate-01",
-    color: "primary",
-    isNew: true
-  },
-  {
-    title: "HCP vs NDIS Comparison",
-    description: "Interactive quiz to find out whether Home Care Package or NDIS is right for you based on your age, needs, and eligibility.",
-    href: "/tools/hcp-vs-ndis",
-    icon: "hugeicons:exchange-01",
-    color: "accent",
-    isNew: true
-  },
-  {
-    title: "NDIS Budget Planner",
-    description: "Plan your NDIS funding across Core, Capacity Building, and Capital categories. Calculate weekly support hours.",
-    href: "/tools/ndis-budget-planner",
-    icon: "hugeicons:chart-breakout-circle",
-    color: "primary",
-    isNew: true
-  },
-  {
-    title: "Support Worker Income Calculator",
-    description: "Calculate your support worker income. Estimate weekly, monthly, and annual earnings based on hours and shift types.",
-    href: "/tools/support-worker-income-calculator",
-    icon: "hugeicons:wallet-02",
-    color: "accent",
-    isNew: true
-  },
-  {
-    title: "NDIS Therapy Hours Calculator",
-    description: "Calculate how many OT, physio, speech, and psychology sessions you can get with your CB Daily Activities budget.",
-    href: "/tools/ndis-therapy-calculator",
-    icon: "hugeicons:health",
-    color: "primary",
-    isNew: true
-  }
-];
+// Filter out index.astro and extract toolMeta from each module
+const tools = toolModules
+  .filter(module => !module.url?.endsWith('/tools') && !module.url?.endsWith('/tools/')) // Exclude index
+  .filter(module => module.toolMeta) // Only include files with toolMeta
+  .map(module => ({
+    ...module.toolMeta,
+    href: module.url
+  }))
+  // Sort by phase first, then alphabetically within each phase
+  .sort((a, b) => {
+    if (a.phase !== b.phase) return (a.phase || 99) - (b.phase || 99);
+    return a.title.localeCompare(b.title);
+  });
 
-const tools = [...phase1Tools, ...phase2Tools];
+const toolCount = tools.length;
 ---
 
 <BaseLayout
-  title="15 Free NDIS & Disability Calculators | 2025 Rates"
-  description="15 free online calculators for NDIS pay rates, support worker income, home care packages, therapy hours, and more. Get instant estimates with 2025 rates."
+  title={`${toolCount} Free NDIS & Disability Calculators | 2025 Rates`}
+  description={`${toolCount} free online calculators for NDIS pay rates, support worker income, home care packages, therapy hours, and more. Get instant estimates with 2025 rates.`}
 >
   <div class="relative overflow-hidden bg-base-100">
     <!-- Background Decor -->
@@ -149,7 +45,7 @@ const tools = [...phase1Tools, ...phase2Tools];
         </h1>
 
         <p class="text-xl text-secondary/70 font-medium max-w-2xl mx-auto leading-relaxed text-balance">
-          15 free online tools to help you estimate payments, rates, and costs. Get instant calculations based on current 2025-26 rates.
+          {toolCount} free online tools to help you estimate payments, rates, and costs. Get instant calculations based on current 2025-26 rates.
         </p>
       </div>
 

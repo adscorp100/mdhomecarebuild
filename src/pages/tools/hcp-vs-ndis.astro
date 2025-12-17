@@ -2,6 +2,16 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "HCP vs NDIS Comparison",
+  description: "Interactive quiz to find out whether Home Care Package or NDIS is right for you based on your age, needs, and eligibility.",
+  icon: "hugeicons:exchange-01",
+  color: "accent",
+  phase: 2,
+  isNew: true
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",

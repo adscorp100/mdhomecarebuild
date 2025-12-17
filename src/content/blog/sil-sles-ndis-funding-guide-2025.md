@@ -20,6 +20,8 @@ image: "/assets/accessible bathroom.webp"
 
 Supported Independent Living (SIL) and Specialist Level of Everyday Support (SLES) are specialized NDIS funding categories that provide intensive support for people with significant disabilities to live independently in the community. These services offer 24/7 or high-intensity support in shared or individual accommodation settings.
 
+> **Calculate Your SIL Costs:** Use our free [NDIS SIL Calculator](/tools/ndis-sil-calculator) to estimate Supported Independent Living costs based on your support ratio, overnight care needs, and 2025-26 NDIS rates.
+
 ## What is SIL NDIS Funding?
 
 Supported Independent Living (SIL) is NDIS funding that covers the cost of daily personal care and support for people with significant disabilities who need assistance with everyday activities. SIL funding is separate from accommodation costs and focuses purely on the support services needed to live independently.

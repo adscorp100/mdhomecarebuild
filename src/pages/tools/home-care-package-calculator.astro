@@ -2,6 +2,16 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "Home Care Package Calculator",
+  description: "Calculate how many hours of care you get at Level 1, 2, 3, or 4. Estimate weekly hours based on 2025 funding amounts.",
+  icon: "hugeicons:clock-02",
+  color: "accent",
+  phase: 2,
+  isNew: true
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",

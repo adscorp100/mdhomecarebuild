@@ -36,6 +36,9 @@ image: "/assets/holdinglinen.webp"
 **⚠️ Program Change**: Support at Home program replaces Home Care Packages from July 1, 2025.
 
 ## What is Home Care Package Level 2?
+
+> **Not Sure About Your Level?** Take our free [ACAT Assessment Level Quiz](/tools/acat-level-quiz) to estimate which Home Care Package level you might qualify for based on your care needs.
+
 Home care package level 2 is designed for older Australians with low-level care needs, helping them stay independent at home. It covers daily tasks like cleaning, personal care, and transport, funded by the government to delay moving to residential care.
 
 A Level 2 package is a step up from basic support and sits below the more intensive [Level 3](/blog/level-3-home-care-package) and [Level 4](/blog/level-4-home-care-package) packages. To understand where it fits in the broader system, see our [complete guide to Home Care Packages in Australia](/blog/home-care-packages-australia-complete-guide).

@@ -11,6 +11,8 @@ image: "/assets/accessible bathroom.webp"
 
 ## **Understanding Improved Liveability SDA**
 
+> **Calculate SIL Costs:** If you're considering Supported Independent Living alongside SDA, use our free [NDIS SIL Calculator](/tools/ndis-sil-calculator) to estimate your support costs based on 2025-26 rates.
+
 Improved Liveability Specialist Disability Accommodation (SDA) is a category of housing designed to enhance living conditions for NDIS participants with sensory, intellectual, or cognitive impairments. This design category focuses on creating accessible and safe environments that promote independence.
 
 Key features include wide doorways, luminance contrasts, and noise reduction measures that meet Liveable Housing Australia Silver Level standards. Unlike higher support categories, Improved Liveability doesn't include specialized features for physical disabilities but concentrates on design elements that support individuals who don't require extensive physical support.

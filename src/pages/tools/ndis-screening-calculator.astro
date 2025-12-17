@@ -2,6 +2,16 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "NDIS Screening Cost Calculator",
+  description: "Find NDIS worker screening check costs for all states. Compare NSW, VIC, QLD, WA, SA, TAS, ACT & NT fees and processing times.",
+  icon: "hugeicons:user-check-01",
+  color: "accent",
+  phase: 2,
+  isNew: true
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",

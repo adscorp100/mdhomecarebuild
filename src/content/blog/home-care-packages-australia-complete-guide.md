@@ -37,6 +37,8 @@ Everything starts with My Aged Care. This is the Australian Government's central
 
 ### Step 2: Preparing for Your ACAT Assessment
 
+> **Estimate Your Level:** Not sure which Home Care Package level you might qualify for? Take our free [ACAT Assessment Level Quiz](/tools/acat-level-quiz) to get an estimate based on your care needs.
+
 If you need a comprehensive assessment, you'll be referred to an Aged Care Assessment Team (ACAT). This is the most critical step, and preparation is key.
 
 **Community Tip:** Don't downplay your struggles. As one forum user advised, "Be completely honest about the things you find difficult. If you pretend you're coping fine, you won't get the help you need."

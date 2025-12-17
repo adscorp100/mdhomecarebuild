@@ -11,6 +11,8 @@ image: "/assets/grandma.webp"
 
 Understanding **ACAT assessment levels** is crucial for accessing home care support in Australia. The Aged Care Assessment Team (ACAT) determines your eligibility for government-funded aged care services, including **home care packages**. This comprehensive guide explains the four **ACAT levels**, what each provides, funding amounts, and how to navigate the assessment process in 2025.
 
+> **Try Our Free Tool:** Not sure which level you might qualify for? Take our [ACAT Assessment Level Quiz](/tools/acat-level-quiz) to get an estimate based on your care needs in just 3 minutes.
+
 ## What are ACAT Assessment Levels?
 
 **ACAT assessment levels** refer to the four distinct levels of home care packages available through Australia's aged care system. These levels are determined by an **ACAT assessment** (also known as **ACAT levels**) based on your care needs, from basic support to high-level intensive care.

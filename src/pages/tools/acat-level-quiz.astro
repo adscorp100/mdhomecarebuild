@@ -1,0 +1,745 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "ACAT Assessment Level Quiz",
+  description: "Answer questions about your care needs to estimate which Home Care Package level (1-4) you may qualify for.",
+  icon: "hugeicons:stethoscope-02",
+  color: "accent",
+  phase: 3,
+  isNew: true
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "ACAT Assessment Level Quiz 2025",
+  "description": "Free ACAT level quiz. Answer questions about your care needs to estimate which Home Care Package level (1-4) you may qualify for. Prepare for your aged care assessment.",
+  "url": "https://mdhomecare.com.au/tools/acat-level-quiz",
+  "applicationCategory": "HealthApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the ACAT assessment levels?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ACAT assessment levels determine which Home Care Package you qualify for. Level 1 is for basic care needs ($10,588/year), Level 2 for low-level needs ($18,622/year), Level 3 for intermediate needs ($40,675/year), and Level 4 for high-level care needs ($61,826/year). The Aged Care Assessment Team evaluates your physical, medical, psychological, and social needs to recommend the appropriate level."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an ACAT assessment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An ACAT assessment (Aged Care Assessment Team) is a free government assessment to determine your eligibility for aged care services including Home Care Packages and residential aged care. Assessors visit your home to evaluate your care needs, daily living abilities, and support requirements. Call My Aged Care on 1800 200 422 to arrange an assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I prepare for an aged care assessment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To prepare for an aged care assessment: have your Medicare card and ID ready, list your current medications, note your daily challenges and care needs, have a family member present if possible, and be honest about what you struggle with. The assessment typically takes 1-2 hours in your home."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between ACAT Level 2 and Level 3?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ACAT Level 2 (low-level care needs) provides approximately $18,622/year for people needing help with some daily tasks like cleaning and transport. Level 3 (intermediate care needs) provides $40,675/year for people needing more regular assistance with personal care, mobility, nursing, or health management."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does an ACAT assessment take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An ACAT assessment typically takes 1-2 hours in your home. Results usually arrive within 2-4 weeks. If you have urgent needs, request a priority assessment through My Aged Care on 1800 200 422. Once approved, you'll be assigned to a Home Care Package level based on your assessed needs."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="ACAT Assessment Level Quiz 2025 - Find Your Home Care Package Level"
+  description="Free ACAT level quiz. Answer questions about your care needs to estimate which Home Care Package level (1-4) you may qualify for. Prepare for your aged care assessment."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">ACAT Level Quiz</li>
+        </ol>
+      </nav>
+
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+          <Icon name="hugeicons:stethoscope-02" class="w-4 h-4" />
+          Free Assessment Quiz
+        </div>
+
+        <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+          ACAT Assessment <span class="text-primary">Level Quiz</span>
+        </h1>
+
+        <p class="text-lg text-secondary/70 leading-relaxed max-w-2xl mx-auto">
+          Answer 8 questions about your care needs to estimate which Home Care Package level you may qualify for. Takes less than 3 minutes.
+        </p>
+      </div>
+
+      <!-- Quiz Container -->
+      <div class="max-w-2xl mx-auto">
+        <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="acat-quiz">
+
+          <!-- Progress -->
+          <div class="mb-8">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-xs font-bold text-secondary/40 uppercase tracking-wider" id="question-indicator">Question 1 of 8</span>
+              <span class="text-xs font-bold text-primary uppercase tracking-wider">Level Assessment</span>
+            </div>
+            <progress class="progress progress-primary w-full h-2" value="12.5" max="100" id="quiz-progress"></progress>
+          </div>
+
+          <!-- Question 1: Age Eligibility -->
+          <div class="quiz-question" id="q1">
+            <h3 class="text-xl font-bold text-secondary mb-6">Are you 65 years or older? (Or 50+ for Aboriginal/Torres Strait Islander)</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="age" value="yes" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Yes, I meet the age requirement</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="age" value="no" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No, I'm younger</span>
+                </div>
+              </label>
+            </div>
+            <p class="text-xs text-secondary/50 mt-4">Home Care Packages are for people 65+ (or 50+ for Aboriginal/Torres Strait Islander Australians).</p>
+          </div>
+
+          <!-- Question 2: Personal Care -->
+          <div class="quiz-question hidden" id="q2">
+            <h3 class="text-xl font-bold text-secondary mb-6">How much help do you need with personal care?</h3>
+            <p class="text-sm text-secondary/60 mb-4">This includes showering, dressing, grooming, and toileting.</p>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="personal_care" value="0" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I manage independently</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="personal_care" value="1" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I need occasional reminders or standby help</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="personal_care" value="2" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I need hands-on help several times a week</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="personal_care" value="3" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I need daily hands-on help with personal care</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 3: Mobility -->
+          <div class="quiz-question hidden" id="q3">
+            <h3 class="text-xl font-bold text-secondary mb-6">How is your mobility around the home?</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="mobility" value="0" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I walk independently without aids</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="mobility" value="1" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I use a walking stick or walker but manage alone</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="mobility" value="2" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I need help from someone to move around safely</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="mobility" value="3" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I use a wheelchair or am mostly bed-bound</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 4: Household Tasks -->
+          <div class="quiz-question hidden" id="q4">
+            <h3 class="text-xl font-bold text-secondary mb-6">How much help do you need with household tasks?</h3>
+            <p class="text-sm text-secondary/60 mb-4">This includes cleaning, laundry, cooking, and shopping.</p>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="household" value="0" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I manage all household tasks myself</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="household" value="1" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I need help with heavy tasks (vacuuming, mopping)</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="household" value="2" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I need regular help with most household tasks</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="household" value="3" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I cannot do household tasks and need full assistance</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 5: Meal Preparation -->
+          <div class="quiz-question hidden" id="q5">
+            <h3 class="text-xl font-bold text-secondary mb-6">How do you manage meals and nutrition?</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="meals" value="0" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I plan and prepare all my own meals</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="meals" value="1" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I can make simple meals but struggle with cooking</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="meals" value="2" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I need regular help with meal preparation</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="meals" value="3" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I need all meals prepared for me / delivered</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 6: Medical/Health Needs -->
+          <div class="quiz-question hidden" id="q6">
+            <h3 class="text-xl font-bold text-secondary mb-6">Do you have ongoing health or nursing needs?</h3>
+            <p class="text-sm text-secondary/60 mb-4">This includes medication management, wound care, or chronic condition management.</p>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="health" value="0" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I manage my health independently</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="health" value="1" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I need help remembering medications</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="health" value="2" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I need regular nursing visits or health monitoring</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="health" value="3" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I have complex health needs requiring frequent nursing care</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 7: Cognitive Function -->
+          <div class="quiz-question hidden" id="q7">
+            <h3 class="text-xl font-bold text-secondary mb-6">How is your memory and thinking?</h3>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="cognitive" value="0" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">My memory and thinking are good</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="cognitive" value="1" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I sometimes forget things but manage okay</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="cognitive" value="2" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I have memory problems and need reminders/supervision</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="cognitive" value="3" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">I have dementia or significant cognitive impairment</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Question 8: Social & Safety -->
+          <div class="quiz-question hidden" id="q8">
+            <h3 class="text-xl font-bold text-secondary mb-6">Do you have safety concerns living at home?</h3>
+            <p class="text-sm text-secondary/60 mb-4">This includes falls risk, getting lost, or managing emergencies.</p>
+            <div class="space-y-3">
+              <label class="cursor-pointer block">
+                <input type="radio" name="safety" value="0" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">No safety concerns - I'm safe at home</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="safety" value="1" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Minor concerns - I've had a fall or near-miss</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="safety" value="2" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Moderate concerns - I need regular check-ins</span>
+                </div>
+              </label>
+              <label class="cursor-pointer block">
+                <input type="radio" name="safety" value="3" class="peer hidden" />
+                <div class="p-5 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                  <span class="font-medium text-secondary">Significant concerns - I shouldn't be alone for long</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Results -->
+          <div class="quiz-question hidden" id="results">
+            <div class="text-center mb-6" id="result-icon"></div>
+            <h3 class="text-2xl font-bold text-secondary mb-2 text-center" id="result-title">Your Estimated Level</h3>
+            <div class="text-center mb-6" id="result-level"></div>
+            <div class="mb-6" id="result-message"></div>
+
+            <div class="bg-base-200/30 rounded-2xl p-5 mb-6">
+              <h4 class="font-bold text-secondary mb-3">Home Care Package Levels Comparison</h4>
+              <div class="space-y-3 text-sm">
+                <div class="flex justify-between py-2 border-b border-base-200" id="level1-row">
+                  <span class="text-secondary/70">Level 1 - Basic care needs</span>
+                  <span class="font-bold text-secondary">$10,588/year</span>
+                </div>
+                <div class="flex justify-between py-2 border-b border-base-200" id="level2-row">
+                  <span class="text-secondary/70">Level 2 - Low-level care needs</span>
+                  <span class="font-bold text-secondary">$18,622/year</span>
+                </div>
+                <div class="flex justify-between py-2 border-b border-base-200" id="level3-row">
+                  <span class="text-secondary/70">Level 3 - Intermediate care needs</span>
+                  <span class="font-bold text-secondary">$40,675/year</span>
+                </div>
+                <div class="flex justify-between py-2" id="level4-row">
+                  <span class="text-secondary/70">Level 4 - High-level care needs</span>
+                  <span class="font-bold text-secondary">$61,826/year</span>
+                </div>
+              </div>
+            </div>
+
+            <div id="next-steps" class="mb-6"></div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="mt-8 flex justify-between" id="nav-buttons">
+            <button class="btn btn-ghost rounded-full px-6 hidden" id="prev-btn">
+              <Icon name="hugeicons:arrow-left-01" class="w-5 h-5 mr-2" />
+              Back
+            </button>
+            <button class="btn btn-primary rounded-full px-8 ml-auto" id="next-btn">
+              Continue
+              <Icon name="hugeicons:arrow-right-01" class="w-5 h-5 ml-2" />
+            </button>
+            <button class="btn btn-primary rounded-full px-8 hidden" id="restart-btn">
+              <Icon name="hugeicons:refresh" class="w-5 h-5 mr-2" />
+              Start Over
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70 mt-6">
+          <p class="flex items-start gap-2">
+            <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+            <span><strong>Disclaimer:</strong> This quiz provides an estimate only. Your actual Home Care Package level is determined by an Aged Care Assessment Team (ACAT) through a formal assessment. Contact My Aged Care on 1800 200 422 to arrange an assessment.</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What are the ACAT assessment levels?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>ACAT assessment levels determine which Home Care Package you qualify for:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-2">
+                <li><strong>Level 1 - Basic care needs:</strong> $10,588/year (~2-3 hours/week). For people who need minimal assistance with household tasks.</li>
+                <li><strong>Level 2 - Low-level care needs:</strong> $18,622/year (~4-5 hours/week). For people needing help with some daily tasks like cleaning, shopping, and transport.</li>
+                <li><strong>Level 3 - Intermediate care needs:</strong> $40,675/year (~10-12 hours/week). For people needing regular help with personal care, mobility, or health management.</li>
+                <li><strong>Level 4 - High-level care needs:</strong> $61,826/year (~15-20 hours/week). For people with complex care needs requiring daily assistance.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is an ACAT assessment?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>An ACAT assessment (Aged Care Assessment Team) is a <strong>free government assessment</strong> to determine your eligibility for aged care services.</p>
+              <p class="mt-2">During the assessment, a trained assessor will:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Visit you at home (usually takes 1-2 hours)</li>
+                <li>Ask about your health conditions and medications</li>
+                <li>Observe how you manage daily activities</li>
+                <li>Discuss your care needs and goals</li>
+                <li>Determine which services you're eligible for</li>
+              </ul>
+              <p class="mt-2">To arrange an ACAT assessment, call My Aged Care on <strong>1800 200 422</strong>.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How do I prepare for an aged care assessment?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>To prepare for your ACAT assessment:</p>
+              <ol class="list-decimal pl-5 mt-2 space-y-2">
+                <li><strong>Have documents ready:</strong> Medicare card, pension card, list of medications</li>
+                <li><strong>List your daily challenges:</strong> Write down what you struggle with - be honest about your worst days</li>
+                <li><strong>Have someone with you:</strong> A family member or friend can help explain your needs</li>
+                <li><strong>Don't tidy up too much:</strong> The assessor needs to see your real living situation</li>
+                <li><strong>Prepare questions:</strong> Ask about wait times, what's included, and next steps</li>
+              </ol>
+              <p class="mt-2">Tip: Focus on what you CAN'T do, not what you can manage on a good day.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the difference between ACAT Level 2 and Level 3?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The main differences between Level 2 and Level 3 Home Care Packages:</p>
+              <div class="overflow-x-auto mt-3">
+                <table class="table table-sm">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Level 2</th>
+                      <th>Level 3</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Annual budget</td>
+                      <td>$18,622</td>
+                      <td>$40,675</td>
+                    </tr>
+                    <tr>
+                      <td>Approx. hours/week</td>
+                      <td>4-5 hours</td>
+                      <td>10-12 hours</td>
+                    </tr>
+                    <tr>
+                      <td>Care needs</td>
+                      <td>Low-level</td>
+                      <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                      <td>Typical services</td>
+                      <td>Cleaning, shopping, transport</td>
+                      <td>Personal care, nursing, allied health</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="mt-3">Level 3 is appropriate if you need regular hands-on personal care, have chronic health conditions requiring monitoring, or need more intensive support.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How long does an ACAT assessment take?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>The assessment itself:</strong> Usually 1-2 hours in your home</p>
+              <p class="mt-2"><strong>Getting results:</strong> Typically 2-4 weeks after the assessment</p>
+              <p class="mt-2"><strong>Getting a package:</strong> After approval, you'll be placed in the national queue. Wait times vary:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Level 1-2: Usually 1-3 months</li>
+                <li>Level 3-4: Can be 6-12+ months</li>
+              </ul>
+              <p class="mt-2">If you have urgent needs, ask about interim CHSP (Commonwealth Home Support Programme) services while you wait.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Tools -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Tools</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/tools/home-care-package-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Home Care Package Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate how many hours of care you get at each level.</p>
+          </a>
+          <a href="/tools/aged-care-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Aged Care Fees Calculator</h3>
+            <p class="text-sm text-secondary/60">Estimate residential aged care costs and means-tested fees.</p>
+          </a>
+          <a href="/tools/hcp-vs-ndis" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">HCP vs NDIS Comparison</h3>
+            <p class="text-sm text-secondary/60">Find out which program is right for you.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  const questions = ['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'results'];
+  let currentQuestion = 0;
+
+  const progressBar = document.getElementById('quiz-progress');
+  const indicator = document.getElementById('question-indicator');
+  const prevBtn = document.getElementById('prev-btn');
+  const nextBtn = document.getElementById('next-btn');
+  const restartBtn = document.getElementById('restart-btn');
+
+  function showQuestion(index) {
+    questions.forEach((q, i) => {
+      document.getElementById(q).classList.toggle('hidden', i !== index);
+    });
+
+    currentQuestion = index;
+
+    if (index < 8) {
+      progressBar.value = ((index + 1) / 8) * 100;
+      indicator.textContent = `Question ${index + 1} of 8`;
+      prevBtn.classList.toggle('hidden', index === 0);
+      nextBtn.classList.remove('hidden');
+      restartBtn.classList.add('hidden');
+    } else {
+      progressBar.value = 100;
+      indicator.textContent = 'Results';
+      prevBtn.classList.add('hidden');
+      nextBtn.classList.add('hidden');
+      restartBtn.classList.remove('hidden');
+      showResults();
+    }
+  }
+
+  function showResults() {
+    const age = document.querySelector('input[name="age"]:checked')?.value;
+
+    if (age === 'no') {
+      document.getElementById('result-icon').innerHTML = '<div class="w-20 h-20 rounded-full bg-warning/20 flex items-center justify-center mx-auto"><svg class="w-10 h-10 text-warning" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg></div>';
+      document.getElementById('result-level').innerHTML = '<p class="text-warning font-bold text-lg">Age Requirement Not Met</p>';
+      document.getElementById('result-message').innerHTML = '<p class="text-center text-secondary/70">Home Care Packages are for people aged 65+ (or 50+ for Aboriginal/Torres Strait Islander Australians). You may be eligible for the <a href="/tools/ndis-eligibility-quiz" class="text-primary hover:underline">NDIS</a> if you have a disability.</p>';
+      document.getElementById('next-steps').innerHTML = `
+        <div class="bg-info/5 border border-info/20 rounded-2xl p-5">
+          <h4 class="font-bold text-secondary mb-3">Alternative Options</h4>
+          <ul class="list-disc pl-5 space-y-2 text-sm text-secondary/70">
+            <li>If you have a disability, check <a href="/tools/ndis-eligibility-quiz" class="text-primary hover:underline">NDIS eligibility</a></li>
+            <li>Some younger people with disability may access aged care - speak to your GP</li>
+            <li>Contact My Aged Care on 1800 200 422 to discuss your situation</li>
+          </ul>
+        </div>`;
+      return;
+    }
+
+    // Calculate score
+    const scores = {
+      personal_care: parseInt(document.querySelector('input[name="personal_care"]:checked')?.value || '0'),
+      mobility: parseInt(document.querySelector('input[name="mobility"]:checked')?.value || '0'),
+      household: parseInt(document.querySelector('input[name="household"]:checked')?.value || '0'),
+      meals: parseInt(document.querySelector('input[name="meals"]:checked')?.value || '0'),
+      health: parseInt(document.querySelector('input[name="health"]:checked')?.value || '0'),
+      cognitive: parseInt(document.querySelector('input[name="cognitive"]:checked')?.value || '0'),
+      safety: parseInt(document.querySelector('input[name="safety"]:checked')?.value || '0')
+    };
+
+    const totalScore = Object.values(scores).reduce((a, b) => a + b, 0);
+    const maxScore = 21;
+
+    let level, levelClass, funding, hours;
+
+    if (totalScore <= 4) {
+      level = 1;
+      levelClass = 'text-info';
+      funding = '$10,588';
+      hours = '2-3';
+    } else if (totalScore <= 8) {
+      level = 2;
+      levelClass = 'text-success';
+      funding = '$18,622';
+      hours = '4-5';
+    } else if (totalScore <= 14) {
+      level = 3;
+      levelClass = 'text-warning';
+      funding = '$40,675';
+      hours = '10-12';
+    } else {
+      level = 4;
+      levelClass = 'text-error';
+      funding = '$61,826';
+      hours = '15-20';
+    }
+
+    // Highlight the matching level row
+    ['level1-row', 'level2-row', 'level3-row', 'level4-row'].forEach((id, i) => {
+      const row = document.getElementById(id);
+      if (i + 1 === level) {
+        row.classList.add('bg-primary/10', 'rounded-lg', 'px-3', '-mx-3');
+      }
+    });
+
+    document.getElementById('result-icon').innerHTML = `<div class="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto"><span class="text-4xl font-bold ${levelClass}">L${level}</span></div>`;
+    document.getElementById('result-level').innerHTML = `<p class="${levelClass} font-bold text-xl">Level ${level} - ${funding}/year</p><p class="text-secondary/60 text-sm mt-1">Approximately ${hours} hours of care per week</p>`;
+
+    document.getElementById('result-message').innerHTML = `
+      <p class="text-center text-secondary/70 mb-4">Based on your answers, you may qualify for a <strong>Level ${level} Home Care Package</strong>. This is an estimate only - your actual level is determined by an ACAT assessment.</p>
+      <div class="bg-base-200/50 rounded-xl p-4 text-sm">
+        <p class="font-medium text-secondary mb-2">Your needs breakdown:</p>
+        <div class="grid grid-cols-2 gap-2 text-secondary/70">
+          <div>Personal care: ${['None', 'Low', 'Medium', 'High'][scores.personal_care]}</div>
+          <div>Mobility: ${['Independent', 'Uses aids', 'Needs help', 'High support'][scores.mobility]}</div>
+          <div>Household: ${['Independent', 'Some help', 'Regular help', 'Full help'][scores.household]}</div>
+          <div>Meals: ${['Independent', 'Some help', 'Regular help', 'Full help'][scores.meals]}</div>
+          <div>Health needs: ${['Low', 'Moderate', 'Regular', 'Complex'][scores.health]}</div>
+          <div>Cognitive: ${['Good', 'Minor issues', 'Needs support', 'Significant'][scores.cognitive]}</div>
+        </div>
+      </div>`;
+
+    document.getElementById('next-steps').innerHTML = `
+      <div class="bg-primary/5 border border-primary/20 rounded-2xl p-5">
+        <h4 class="font-bold text-secondary mb-3">Next Steps</h4>
+        <ol class="list-decimal pl-5 space-y-2 text-sm text-secondary/70">
+          <li>Call <strong>My Aged Care on 1800 200 422</strong> to register and request an ACAT assessment</li>
+          <li>Prepare for your assessment - have documents ready and a family member present</li>
+          <li>After assessment, you'll be placed in the queue for your approved package level</li>
+          <li>While waiting, you may be eligible for interim CHSP services</li>
+        </ol>
+        <div class="mt-4">
+          <a href="/tools/home-care-package-calculator" class="text-primary hover:underline font-medium">Calculate how many hours you'll get with Level ${level} →</a>
+        </div>
+      </div>`;
+  }
+
+  // Event listeners
+  nextBtn.addEventListener('click', () => {
+    const questionNames = ['age', 'personal_care', 'mobility', 'household', 'meals', 'health', 'cognitive', 'safety'];
+    const currentName = questionNames[currentQuestion];
+
+    if (currentQuestion < 8) {
+      const selected = document.querySelector(`input[name="${currentName}"]:checked`);
+      if (!selected) {
+        alert('Please select an option to continue.');
+        return;
+      }
+    }
+
+    if (currentQuestion < 8) {
+      showQuestion(currentQuestion + 1);
+    }
+  });
+
+  prevBtn.addEventListener('click', () => {
+    if (currentQuestion > 0) {
+      showQuestion(currentQuestion - 1);
+    }
+  });
+
+  restartBtn.addEventListener('click', () => {
+    document.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    ['level1-row', 'level2-row', 'level3-row', 'level4-row'].forEach(id => {
+      document.getElementById(id).classList.remove('bg-primary/10', 'rounded-lg', 'px-3', '-mx-3');
+    });
+    showQuestion(0);
+  });
+
+  // Initialize
+  showQuestion(0);
+})();
+</script>

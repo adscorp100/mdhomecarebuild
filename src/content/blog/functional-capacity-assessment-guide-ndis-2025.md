@@ -9,6 +9,8 @@ popupSubtitle: "Connect with experienced allied health professionals who underst
 image: "/assets/occupationaltherapy.webp"
 ---
 
+> **Get Prepared:** Use our free [FCA Prep Checklist](/tools/fca-prep-checklist) to ensure you're fully prepared for your Functional Capacity Assessment. Interactive checklist with tips, common questions, and what to bring.
+
 ## Functional Capacity Assessment: Key Points
 - Essential for NDIS funding decisions and support planning
 - Costs range from $800-$2,500, often funded through NDIS Capacity Building

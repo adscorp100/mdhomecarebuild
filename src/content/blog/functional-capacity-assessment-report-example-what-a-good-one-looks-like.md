@@ -10,6 +10,8 @@ popupSubtitle: "Our therapists create comprehensive reports that support your go
 
 Looking for a clear example of a functional capacity assessment report? You're in the right place. This guide won't just show you what a good report looks like—it will break down each section, explain why it's crucial for your NDIS plan, and give you the confidence to navigate your assessment process.
 
+> **Prepare for Your FCA:** Before your assessment, use our free [FCA Prep Checklist](/tools/fca-prep-checklist) to make sure you're fully prepared. Know what to bring, what to expect, and how to get the best outcome.
+
 A Functional Capacity Assessment (FCA) report is one of the most important documents you can have in your NDIS journey. It provides the NDIS with a detailed picture of your functional capacity, the impact of your disability, and the supports you need to live a better life. A *good* report can be the key to unlocking the right level of funding.
 
 ## What is a Functional Capacity Assessment?

@@ -15,6 +15,8 @@ This guide answers the most pressing questions about the Level 3 package. We'll 
 
 ## What is a Level 3 Home Care Package?
 
+> **Unsure Which Level You Need?** Take our free [ACAT Assessment Level Quiz](/tools/acat-level-quiz) to estimate which Home Care Package level suits your care needs.
+
 A Level 3 Home Care Package (HCP) is designed for older Australians who need a medium level of support to continue living safely and comfortably in their own homes. It's a step up from basic support (Level 2) and is intended for those with more complex needs that require coordinated services.
 
 ## How Much Funding Do I Get in 2025?

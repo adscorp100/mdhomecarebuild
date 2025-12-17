@@ -1,0 +1,597 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "NDIS SIL Calculator",
+  description: "Calculate Supported Independent Living costs based on support ratios, overnight care, and 2025-26 NDIS rates.",
+  icon: "hugeicons:house-04",
+  color: "primary",
+  phase: 3,
+  isNew: true
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS SIL Calculator 2025",
+  "description": "Calculate Supported Independent Living (SIL) costs with 2025-26 NDIS rates. Estimate funding based on support ratios, overnight care type, and weekly roster.",
+  "url": "https://mdhomecare.com.au/tools/ndis-sil-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much NDIS SIL funding will I get?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS SIL funding varies based on your individual support needs, typically ranging from $150,000 to $450,000+ per year. Factors include: your support ratio (1:1, 1:2, or 1:3), whether you need active overnight support or sleepover, your specific care requirements, and the location. The NDIA assesses your needs through a SIL quote process with your provider."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the cost of supported living?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Supported Independent Living (SIL) costs in Australia typically range from $150,000-$450,000+ per year through NDIS. Costs depend on: staff ratio (1:1 is most expensive), overnight support type (active night ~$85/hr vs sleepover ~$283/night), location, and complexity of care needs. You also pay reasonable rent and living costs separately from your SIL funding."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the NDIS SIL rates for 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS SIL rates for 2025-26 include: Standard weekday support $70.88/hr, Evening/Saturday $78.23/hr, Sunday $100.17/hr, Public holiday $128.11/hr, Sleepover $282.78/night, Active overnight $85.22/hr. High-intensity supports are charged at higher rates. These are maximum price limits - actual costs depend on your SIL agreement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I apply for SIL funding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To get SIL funding: 1) Discuss SIL with your Support Coordinator or LAC, 2) Choose a SIL provider who will assess your needs, 3) The provider submits a SIL quote to the NDIA detailing your support requirements and roster, 4) NDIA reviews and approves funding based on reasonable and necessary criteria, 5) SIL is added to your NDIS plan. The process can take several months."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between SIL and SDA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SIL (Supported Independent Living) is funding for SUPPORT WORKERS to help you with daily living in shared housing. SDA (Specialist Disability Accommodation) is funding for the BUILDING itself - specialized housing with accessibility features. You can have SIL without SDA (in regular housing) or both together in purpose-built disability accommodation. They are separate NDIS funding categories."
+      }
+    }
+  ]
+};
+
+// 2025-26 NDIS SIL Rates
+const silRates = {
+  standard: {
+    weekday: 70.88,
+    evening: 78.23, // After 8pm and Saturday
+    sunday: 100.17,
+    publicHoliday: 128.11
+  },
+  highIntensity: {
+    weekday: 78.80,
+    evening: 86.37,
+    sunday: 110.59,
+    publicHoliday: 141.38
+  },
+  sleepover: 282.78,
+  activeNight: 85.22,
+  activeNightHI: 94.47
+};
+---
+
+<BaseLayout
+  title="NDIS SIL Calculator 2025 - Supported Independent Living Costs"
+  description="Calculate Supported Independent Living (SIL) costs with 2025-26 NDIS rates. Estimate funding based on support ratios, overnight care, and weekly roster."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">SIL Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:house-04" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            NDIS SIL <span class="text-primary">Calculator</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Estimate Supported Independent Living (SIL) costs based on your support needs. Uses <strong>2025-26 NDIS price limits</strong>.
+          </p>
+
+          <!-- Rate Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-8">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:money-02" class="w-5 h-5 text-primary" />
+              2025-26 SIL Rates
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Weekday (standard)</span>
+                <span class="font-bold text-secondary">$70.88/hr</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Evening / Saturday</span>
+                <span class="font-bold text-secondary">$78.23/hr</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Sunday</span>
+                <span class="font-bold text-secondary">$100.17/hr</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Sleepover</span>
+                <span class="font-bold text-secondary">$282.78/night</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Active overnight</span>
+                <span class="font-bold text-secondary">$85.22/hr</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Info Box -->
+          <div class="bg-info/5 border border-info/20 rounded-2xl p-4 text-sm">
+            <p class="flex items-start gap-2 text-secondary/70">
+              <Icon name="hugeicons:information-circle" class="w-5 h-5 text-info flex-shrink-0 mt-0.5" />
+              <span><strong>Note:</strong> SIL funding is separate from rent and living costs. You'll pay reasonable rent from your personal income (e.g., DSP) to your accommodation provider.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200">
+            <h2 class="text-xl font-bold text-secondary mb-6">Configure Your SIL Supports</h2>
+
+            <!-- Support Ratio -->
+            <div class="mb-6">
+              <label class="block text-sm font-bold text-secondary mb-3">
+                Support Ratio
+                <span class="font-normal text-secondary/60 ml-1">(How many participants share one worker?)</span>
+              </label>
+              <div class="grid grid-cols-3 gap-3">
+                <label class="cursor-pointer">
+                  <input type="radio" name="ratio" value="1" class="peer hidden" checked />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <span class="font-bold text-lg text-secondary block">1:1</span>
+                    <span class="text-xs text-secondary/60">Dedicated support</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="ratio" value="2" class="peer hidden" />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <span class="font-bold text-lg text-secondary block">1:2</span>
+                    <span class="text-xs text-secondary/60">Shared with 1 other</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="ratio" value="3" class="peer hidden" />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center">
+                    <span class="font-bold text-lg text-secondary block">1:3</span>
+                    <span class="text-xs text-secondary/60">Shared with 2 others</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Support Type -->
+            <div class="mb-6">
+              <label class="block text-sm font-bold text-secondary mb-3">
+                Support Intensity
+              </label>
+              <div class="grid grid-cols-2 gap-3">
+                <label class="cursor-pointer">
+                  <input type="radio" name="intensity" value="standard" class="peer hidden" checked />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                    <span class="font-bold text-secondary block">Standard</span>
+                    <span class="text-xs text-secondary/60">$70.88/hr base</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="intensity" value="high" class="peer hidden" />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                    <span class="font-bold text-secondary block">High Intensity</span>
+                    <span class="text-xs text-secondary/60">$78.80/hr base</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Daytime Hours -->
+            <div class="mb-6">
+              <label class="block text-sm font-bold text-secondary mb-3">
+                Active Support Hours Per Day
+                <span class="font-normal text-secondary/60 ml-1">(6am - 10pm)</span>
+              </label>
+              <div class="flex items-center gap-4">
+                <input
+                  type="range"
+                  id="dayHours"
+                  min="0"
+                  max="16"
+                  value="8"
+                  class="range range-primary flex-1"
+                />
+                <span id="dayHoursValue" class="text-lg font-bold text-secondary w-16 text-right">8 hrs</span>
+              </div>
+              <p class="text-xs text-secondary/50 mt-2">Hours when a support worker is actively providing support during the day</p>
+            </div>
+
+            <!-- Overnight Care -->
+            <div class="mb-6">
+              <label class="block text-sm font-bold text-secondary mb-3">
+                Overnight Support Type
+              </label>
+              <div class="space-y-3">
+                <label class="cursor-pointer block">
+                  <input type="radio" name="overnight" value="none" class="peer hidden" />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                    <span class="font-bold text-secondary">No overnight support</span>
+                    <span class="text-sm text-secondary/60 block">Independent overnight</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer block">
+                  <input type="radio" name="overnight" value="sleepover" class="peer hidden" checked />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                    <span class="font-bold text-secondary">Sleepover ($282.78/night)</span>
+                    <span class="text-sm text-secondary/60 block">Worker sleeps on-site, available if needed</span>
+                  </div>
+                </label>
+                <label class="cursor-pointer block">
+                  <input type="radio" name="overnight" value="active" class="peer hidden" />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                    <span class="font-bold text-secondary">Active Night ($85.22/hr)</span>
+                    <span class="text-sm text-secondary/60 block">Worker actively awake and providing support (8 hours)</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Calculate Button -->
+            <button id="calculateBtn" class="btn btn-primary rounded-full w-full text-lg py-6 mb-8">
+              <Icon name="hugeicons:calculator-01" class="w-6 h-6 mr-2" />
+              Calculate SIL Costs
+            </button>
+
+            <!-- Results -->
+            <div id="results" class="hidden">
+              <div class="bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl p-6 mb-6">
+                <h3 class="text-sm font-bold text-secondary/60 uppercase tracking-wider mb-2">Estimated Annual SIL Funding</h3>
+                <div class="text-4xl font-bold text-primary mb-2" id="annualCost">$0</div>
+                <p class="text-sm text-secondary/60">Based on your support configuration</p>
+              </div>
+
+              <div class="grid grid-cols-2 gap-4 mb-6">
+                <div class="bg-base-200/30 rounded-xl p-4">
+                  <p class="text-xs text-secondary/60 uppercase font-bold mb-1">Weekly</p>
+                  <p class="text-xl font-bold text-secondary" id="weeklyCost">$0</p>
+                </div>
+                <div class="bg-base-200/30 rounded-xl p-4">
+                  <p class="text-xs text-secondary/60 uppercase font-bold mb-1">Daily Average</p>
+                  <p class="text-xl font-bold text-secondary" id="dailyCost">$0</p>
+                </div>
+              </div>
+
+              <div class="bg-base-200/30 rounded-xl p-4 mb-6">
+                <h4 class="font-bold text-secondary mb-3">Cost Breakdown (Per Week)</h4>
+                <div id="breakdown" class="space-y-2 text-sm"></div>
+              </div>
+
+              <div class="bg-warning/5 border border-warning/20 rounded-xl p-4 text-sm">
+                <p class="flex items-start gap-2 text-secondary/70">
+                  <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+                  <span><strong>Note:</strong> This is an estimate only. Actual SIL funding is determined through a formal quote process between your provider and the NDIA. Costs may vary based on individual circumstances and provider charges.</span>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How much NDIS SIL funding will I get?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>NDIS SIL funding varies significantly based on your individual support needs:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>Lower needs (1:3 ratio, sleepover):</strong> ~$150,000 - $200,000/year</li>
+                <li><strong>Medium needs (1:2 ratio, sleepover):</strong> ~$200,000 - $300,000/year</li>
+                <li><strong>Higher needs (1:1 ratio, active night):</strong> ~$350,000 - $450,000+/year</li>
+              </ul>
+              <p class="mt-2">The NDIA determines your funding based on a SIL quote submitted by your provider, which details your specific support roster and needs.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the cost of supported living?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Supported Independent Living (SIL) costs depend on several factors:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-2">
+                <li><strong>Support ratio:</strong> 1:1 (most expensive) vs shared 1:2 or 1:3</li>
+                <li><strong>Overnight support:</strong> Active night (~$680/night) vs sleepover (~$283/night)</li>
+                <li><strong>Support intensity:</strong> Standard vs high-intensity rates</li>
+                <li><strong>Hours of support:</strong> 24/7 vs daytime only</li>
+              </ul>
+              <p class="mt-2">SIL funding covers support workers only. You'll pay rent and living expenses separately from your personal income (typically DSP).</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What are the NDIS SIL rates for 2025?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The 2025-26 NDIS SIL price limits are:</p>
+              <div class="overflow-x-auto mt-3">
+                <table class="table table-sm">
+                  <thead>
+                    <tr>
+                      <th>Support Type</th>
+                      <th>Standard</th>
+                      <th>High Intensity</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Weekday (6am-8pm)</td><td>$70.88/hr</td><td>$78.80/hr</td></tr>
+                    <tr><td>Evening/Saturday</td><td>$78.23/hr</td><td>$86.37/hr</td></tr>
+                    <tr><td>Sunday</td><td>$100.17/hr</td><td>$110.59/hr</td></tr>
+                    <tr><td>Public Holiday</td><td>$128.11/hr</td><td>$141.38/hr</td></tr>
+                    <tr><td>Sleepover</td><td colspan="2">$282.78/night</td></tr>
+                    <tr><td>Active Night</td><td>$85.22/hr</td><td>$94.47/hr</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How do I apply for SIL funding?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>The SIL application process:</p>
+              <ol class="list-decimal pl-5 mt-2 space-y-2">
+                <li><strong>Discuss with your Support Coordinator or LAC</strong> - they'll help determine if SIL is right for you</li>
+                <li><strong>Choose a SIL provider</strong> - research providers and visit potential houses</li>
+                <li><strong>Provider assessment</strong> - they'll assess your support needs</li>
+                <li><strong>SIL quote submission</strong> - the provider creates a detailed roster and submits to NDIA</li>
+                <li><strong>NDIA review</strong> - may take several weeks to months</li>
+                <li><strong>Funding added to plan</strong> - once approved, SIL is added to your NDIS plan</li>
+              </ol>
+              <p class="mt-2">The whole process can take 3-6+ months, so start early.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is the difference between SIL and SDA?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>SIL and SDA are separate but often used together:</p>
+              <div class="overflow-x-auto mt-3">
+                <table class="table table-sm">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>SIL</th>
+                      <th>SDA</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>What is it?</td>
+                      <td>Funding for <strong>support workers</strong></td>
+                      <td>Funding for the <strong>building</strong></td>
+                    </tr>
+                    <tr>
+                      <td>Pays for</td>
+                      <td>Staff to help with daily living</td>
+                      <td>Specialized accessible housing</td>
+                    </tr>
+                    <tr>
+                      <td>Where</td>
+                      <td>Any shared living arrangement</td>
+                      <td>Purpose-built disability accommodation</td>
+                    </tr>
+                    <tr>
+                      <td>Eligibility</td>
+                      <td>Need 24/7 or significant support</td>
+                      <td>Extreme functional impairment</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="mt-3">You can have:</p>
+              <ul class="list-disc pl-5 mt-1">
+                <li>SIL only (in regular housing)</li>
+                <li>SIL + SDA (in specialist housing)</li>
+                <li>SDA only (if you need the building but not 24/7 support)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Tools -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Tools</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/tools/ndis-budget-planner" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Budget Planner</h3>
+            <p class="text-sm text-secondary/60">Plan your NDIS funding across all categories.</p>
+          </a>
+          <a href="/tools/ndis-respite-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Respite Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate Short Term Accommodation costs.</p>
+          </a>
+          <a href="/tools/dsp-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">DSP Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate your Disability Support Pension.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  // 2025-26 NDIS SIL Rates
+  const rates = {
+    standard: {
+      weekday: 70.88,
+      evening: 78.23,
+      sunday: 100.17,
+      publicHoliday: 128.11
+    },
+    highIntensity: {
+      weekday: 78.80,
+      evening: 86.37,
+      sunday: 110.59,
+      publicHoliday: 141.38
+    },
+    sleepover: 282.78,
+    activeNight: 85.22,
+    activeNightHI: 94.47
+  };
+
+  const dayHoursSlider = document.getElementById('dayHours');
+  const dayHoursValue = document.getElementById('dayHoursValue');
+  const calculateBtn = document.getElementById('calculateBtn');
+  const resultsDiv = document.getElementById('results');
+
+  // Update hours display
+  dayHoursSlider.addEventListener('input', () => {
+    dayHoursValue.textContent = `${dayHoursSlider.value} hrs`;
+  });
+
+  calculateBtn.addEventListener('click', () => {
+    // Get inputs
+    const ratio = parseInt(document.querySelector('input[name="ratio"]:checked').value);
+    const intensity = document.querySelector('input[name="intensity"]:checked').value;
+    const dayHours = parseInt(dayHoursSlider.value);
+    const overnight = document.querySelector('input[name="overnight"]:checked').value;
+
+    // Get rate set
+    const rateSet = intensity === 'high' ? rates.highIntensity : rates.standard;
+
+    // Calculate weekly costs
+    let weeklyBreakdown = [];
+    let weeklyTotal = 0;
+
+    // Daytime hours (assume Mon-Fri weekday, Sat evening, Sun sunday)
+    // Weekday daytime (Mon-Fri, 5 days)
+    const weekdayHours = (dayHours * 5) / ratio;
+    const weekdayCost = weekdayHours * rateSet.weekday;
+    weeklyTotal += weekdayCost;
+    weeklyBreakdown.push({ label: 'Weekday daytime (Mon-Fri)', hours: weekdayHours, rate: rateSet.weekday, cost: weekdayCost });
+
+    // Saturday (evening rate)
+    const satHours = dayHours / ratio;
+    const satCost = satHours * rateSet.evening;
+    weeklyTotal += satCost;
+    weeklyBreakdown.push({ label: 'Saturday', hours: satHours, rate: rateSet.evening, cost: satCost });
+
+    // Sunday
+    const sunHours = dayHours / ratio;
+    const sunCost = sunHours * rateSet.sunday;
+    weeklyTotal += sunCost;
+    weeklyBreakdown.push({ label: 'Sunday', hours: sunHours, rate: rateSet.sunday, cost: sunCost });
+
+    // Overnight costs (7 nights)
+    if (overnight === 'sleepover') {
+      const sleepoverCost = (rates.sleepover * 7) / ratio;
+      weeklyTotal += sleepoverCost;
+      weeklyBreakdown.push({ label: 'Sleepover (7 nights)', hours: 7, rate: rates.sleepover / ratio, cost: sleepoverCost });
+    } else if (overnight === 'active') {
+      const activeNightRate = intensity === 'high' ? rates.activeNightHI : rates.activeNight;
+      const activeHours = (8 * 7) / ratio; // 8 hours per night, 7 nights
+      const activeCost = activeHours * activeNightRate;
+      weeklyTotal += activeCost;
+      weeklyBreakdown.push({ label: 'Active night (56 hrs)', hours: activeHours, rate: activeNightRate, cost: activeCost });
+    }
+
+    // Calculate annual and daily
+    const annualCost = weeklyTotal * 52;
+    const dailyCost = weeklyTotal / 7;
+
+    // Display results
+    document.getElementById('annualCost').textContent = '$' + Math.round(annualCost).toLocaleString();
+    document.getElementById('weeklyCost').textContent = '$' + Math.round(weeklyTotal).toLocaleString();
+    document.getElementById('dailyCost').textContent = '$' + Math.round(dailyCost).toLocaleString();
+
+    // Build breakdown table
+    const breakdownHTML = weeklyBreakdown.map(item => `
+      <div class="flex justify-between py-1.5 border-b border-base-200 last:border-0">
+        <span class="text-secondary/70">${item.label}</span>
+        <span class="font-medium text-secondary">$${Math.round(item.cost).toLocaleString()}</span>
+      </div>
+    `).join('');
+
+    document.getElementById('breakdown').innerHTML = breakdownHTML + `
+      <div class="flex justify-between py-2 font-bold text-secondary border-t-2 border-base-300 mt-2 pt-2">
+        <span>Weekly Total</span>
+        <span>$${Math.round(weeklyTotal).toLocaleString()}</span>
+      </div>
+    `;
+
+    resultsDiv.classList.remove('hidden');
+    resultsDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
+})();
+</script>

@@ -2,6 +2,15 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "DSP Calculator",
+  description: "Calculate your estimated Disability Support Pension payment based on your income, assets, and relationship status.",
+  icon: "hugeicons:calculator-01",
+  color: "primary",
+  phase: 1
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",

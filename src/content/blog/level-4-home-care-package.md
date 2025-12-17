@@ -15,6 +15,8 @@ For families and caregivers navigating this stage, a Level 4 package can be a li
 
 ## Who is a Level 4 Package For?
 
+> **Check Your Care Level:** Take our free [ACAT Assessment Level Quiz](/tools/acat-level-quiz) to estimate which Home Care Package level matches your care needs.
+
 A Level 4 Home Care Package is for individuals who have been assessed by an Aged Care Assessment Team (ACAT) as having **high-level or complex care needs**. This typically includes those who:
 - Require comprehensive and coordinated services.
 - Need assistance with a wide range of daily activities.

@@ -2,6 +2,15 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "Aged Care Fees Calculator",
+  description: "Estimate nursing home costs, means tested fees, and RAD vs DAP accommodation options for residential aged care.",
+  icon: "hugeicons:home-01",
+  color: "primary",
+  phase: 1
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",

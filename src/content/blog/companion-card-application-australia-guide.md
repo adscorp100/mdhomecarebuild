@@ -11,6 +11,8 @@ image: "/assets/downs.webp"
 
 ## What is a Companion Card?
 
+> **Check Your Eligibility:** Use our free [Companion Card Checker](/tools/companion-card-checker) to quickly assess your eligibility and find participating venues in NSW.
+
 A Companion Card is a nationally recognised card that allows people with significant and permanent disabilities to bring a companion or carer to venues and events **free of charge**. Instead of paying for two tickets, you pay for one—your companion gets in free.
 
 The program recognises that some people with disability require attendant care support to participate in community activities, and that the cost of a second ticket shouldn't be a barrier to participation. Over **4,200 businesses and organisations** across Australia accept the Companion Card, including cinemas, sporting venues, theatres, museums, zoos, and public transport services.

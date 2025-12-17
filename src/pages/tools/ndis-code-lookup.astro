@@ -3,6 +3,15 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 import ndisCodesRaw from '../../data/ndis-support-catalogue.json';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "NDIS Code Lookup",
+  description: "Search all 671 NDIS line item codes by number or description. Find invoicing codes, price limits, and support categories instantly.",
+  icon: "hugeicons:search-01",
+  color: "primary",
+  phase: 1
+};
+
 // Process the raw data into a more compact format for the client
 const ndisCodes = ndisCodesRaw.map(item => ({
   code: item.code,

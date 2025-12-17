@@ -2,6 +2,15 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "Carer Payment Calculator",
+  description: "Calculate your Carer Payment and Carer Allowance entitlement based on income, assets, and care hours.",
+  icon: "hugeicons:heart-check",
+  color: "accent",
+  phase: 1
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",

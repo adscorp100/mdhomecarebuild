@@ -9,6 +9,8 @@ popupSubtitle: "Let us simplify the process and support your application"
 image: "/assets/occupationaltherapy.webp"
 ---
 
+> **Prepare for Your Assessment:** Use our free [FCA Prep Checklist](/tools/fca-prep-checklist) to make sure you're fully prepared. Know what documents to bring, how to set up your home, and what questions to expect.
+
 ## What is a Functional Capacity Assessment (and Why Does the NDIS Require It)?
 
 A functional capacity assessment (FCA) is a comprehensive evaluation that measures your ability to perform daily activities and participate in community life. For NDIS participants, FCAs provide crucial evidence to support funding decisions and ensure you receive appropriate supports for your disability-related needs. We offer [functional capacity assessments](/services/functional-capacity-assessments-ndis) as part of our services.

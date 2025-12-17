@@ -1,0 +1,610 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "FCA Prep Checklist",
+  description: "Prepare for your NDIS Functional Capacity Assessment with our interactive checklist. Know what to expect and what to bring.",
+  icon: "hugeicons:task-done-02",
+  color: "accent",
+  phase: 3,
+  isNew: true
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS Functional Capacity Assessment Prep Checklist 2025",
+  "description": "Free FCA preparation checklist. Know what to expect and what to bring to your NDIS Functional Capacity Assessment. Interactive checklist with tips and common questions.",
+  "url": "https://mdhomecare.com.au/tools/fca-prep-checklist",
+  "applicationCategory": "HealthApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What questions are asked in an NDIS functional capacity assessment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDIS functional capacity assessment questions cover: daily living activities (cooking, cleaning, personal care), mobility and physical function, communication abilities, cognitive function (memory, decision-making), social interaction, community participation, current support needs, goals and aspirations. The assessor will ask you to demonstrate or describe how you complete everyday tasks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a functional capacity assessment example?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A functional capacity assessment example: The OT asks you to walk to the kitchen and make a cup of tea. They observe your mobility, balance, ability to follow steps, fine motor skills (opening containers), safety awareness, and problem-solving. They might also assess dressing, toileting, meal prep, and community access through observation and interview."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I prepare for an NDIS functional capacity assessment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To prepare for an FCA: 1) Have a 'bad day' mindset - describe your worst days, not best, 2) Bring supporting documents (medical reports, therapy notes), 3) List all your daily challenges, 4) Have a support person present, 5) Don't tidy up beforehand - show your real environment, 6) Be honest about what you struggle with, 7) Note any aids or equipment you use."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a functional capacity assessment report include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A functional capacity assessment report includes: your diagnosis and medical history, assessment methodology used, detailed findings on each functional domain (mobility, self-care, communication, etc.), your current support needs, recommendations for supports and services, suggested NDIS funding areas, and goals for capacity building. The report is sent to the NDIA to inform your plan."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a functional capacity assessment take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A functional capacity assessment typically takes 2-4 hours depending on complexity. Some FCAs are completed in one session; others require 2-3 sessions. The assessor (usually an OT or physio) needs time to observe you doing various tasks and discuss your daily life thoroughly. Allow extra time if you fatigue easily."
+      }
+    }
+  ]
+};
+
+// Checklist categories
+const checklistCategories = [
+  {
+    id: "documents",
+    title: "Documents to Bring",
+    icon: "hugeicons:file-02",
+    description: "Essential paperwork for your assessment",
+    items: [
+      { id: "doc1", text: "NDIS participant number and plan (if you have one)", priority: "essential" },
+      { id: "doc2", text: "Medical reports and diagnoses from your GP or specialists", priority: "essential" },
+      { id: "doc3", text: "Recent therapy reports (OT, physio, speech, psychology)", priority: "essential" },
+      { id: "doc4", text: "Hospital discharge summaries (if applicable)", priority: "recommended" },
+      { id: "doc5", text: "Current medication list", priority: "recommended" },
+      { id: "doc6", text: "Previous NDIS plans or reports", priority: "recommended" },
+      { id: "doc7", text: "School reports or assessments (for children)", priority: "optional" },
+      { id: "doc8", text: "Letters from support workers or carers", priority: "optional" }
+    ]
+  },
+  {
+    id: "environment",
+    title: "Home Environment Prep",
+    icon: "hugeicons:home-01",
+    description: "How to set up your home for the assessment",
+    items: [
+      { id: "env1", text: "DON'T tidy up excessively - show your real living situation", priority: "essential" },
+      { id: "env2", text: "Have your assistive equipment/aids visible and accessible", priority: "essential" },
+      { id: "env3", text: "Keep your typical daily setup (don't rearrange furniture)", priority: "recommended" },
+      { id: "env4", text: "Have examples of tasks you struggle with ready to show", priority: "recommended" },
+      { id: "env5", text: "If using a wheelchair, show your home access challenges", priority: "optional" },
+      { id: "env6", text: "Have the bathroom and kitchen accessible for observation", priority: "optional" }
+    ]
+  },
+  {
+    id: "mindset",
+    title: "Mindset Preparation",
+    icon: "hugeicons:brain",
+    description: "Mental preparation for an accurate assessment",
+    items: [
+      { id: "mind1", text: "Think about your WORST days, not your best days", priority: "essential" },
+      { id: "mind2", text: "Don't downplay your challenges to appear capable", priority: "essential" },
+      { id: "mind3", text: "Prepare to be honest about what you really struggle with", priority: "essential" },
+      { id: "mind4", text: "Write down your daily challenges beforehand so you don't forget", priority: "recommended" },
+      { id: "mind5", text: "Think about what help you need, not just what you currently get", priority: "recommended" },
+      { id: "mind6", text: "Consider your goals - what would better support help you achieve?", priority: "recommended" }
+    ]
+  },
+  {
+    id: "support",
+    title: "Support Person",
+    icon: "hugeicons:user-multiple",
+    description: "Having the right support during your assessment",
+    items: [
+      { id: "sup1", text: "Arrange for a trusted person to be present (family, friend, advocate)", priority: "essential" },
+      { id: "sup2", text: "Brief them on your challenges so they can add context", priority: "recommended" },
+      { id: "sup3", text: "Ask them to take notes during the assessment", priority: "recommended" },
+      { id: "sup4", text: "Have them ready to speak up if you downplay your needs", priority: "optional" },
+      { id: "sup5", text: "Consider recording the assessment (ask permission first)", priority: "optional" }
+    ]
+  },
+  {
+    id: "questions",
+    title: "Questions to Ask the Assessor",
+    icon: "hugeicons:message-question",
+    description: "Important questions to clarify during your FCA",
+    items: [
+      { id: "q1", text: "How long will the assessment take?", priority: "recommended" },
+      { id: "q2", text: "What tasks will you ask me to do?", priority: "recommended" },
+      { id: "q3", text: "When will I receive the report?", priority: "recommended" },
+      { id: "q4", text: "Can I review the report before it goes to NDIA?", priority: "recommended" },
+      { id: "q5", text: "What if I disagree with something in the report?", priority: "optional" },
+      { id: "q6", text: "Will you recommend specific supports or funding amounts?", priority: "optional" }
+    ]
+  },
+  {
+    id: "dayof",
+    title: "Day of Assessment",
+    icon: "hugeicons:calendar-03",
+    description: "Final checks for the day",
+    items: [
+      { id: "day1", text: "Get enough rest the night before", priority: "recommended" },
+      { id: "day2", text: "Wear comfortable clothes you can move in", priority: "recommended" },
+      { id: "day3", text: "Have water and snacks available (assessments can be long)", priority: "recommended" },
+      { id: "day4", text: "Turn off distractions (TV, phone notifications)", priority: "recommended" },
+      { id: "day5", text: "If you're having a 'good day', tell the assessor about your typical/bad days", priority: "essential" },
+      { id: "day6", text: "Take breaks if you need them - it's okay to ask", priority: "optional" }
+    ]
+  }
+];
+---
+
+<BaseLayout
+  title="NDIS FCA Prep Checklist 2025 - Prepare for Your Functional Capacity Assessment"
+  description="Free interactive checklist to prepare for your NDIS Functional Capacity Assessment. Know what to expect, what to bring, and common FCA questions. Get the best outcome from your assessment."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">FCA Prep Checklist</li>
+        </ol>
+      </nav>
+
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+          <Icon name="hugeicons:task-done-02" class="w-4 h-4" />
+          Free Preparation Checklist
+        </div>
+
+        <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+          NDIS FCA <span class="text-primary">Prep Checklist</span>
+        </h1>
+
+        <p class="text-lg text-secondary/70 leading-relaxed max-w-2xl mx-auto">
+          Prepare for your Functional Capacity Assessment with our interactive checklist. Know what to expect, what to bring, and how to get the best outcome.
+        </p>
+      </div>
+
+      <!-- Progress Overview -->
+      <div class="max-w-4xl mx-auto mb-8">
+        <div class="bg-white rounded-[2rem] p-6 lg:p-8 shadow-xl shadow-base-200/50 border border-base-200">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
+            <div>
+              <h2 class="text-xl font-bold text-secondary">Your Preparation Progress</h2>
+              <p class="text-sm text-secondary/60">Check off items as you complete them</p>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="text-center">
+                <div class="text-3xl font-bold text-primary" id="completed-count">0</div>
+                <div class="text-xs text-secondary/60">Completed</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl font-bold text-secondary/40" id="total-count">0</div>
+                <div class="text-xs text-secondary/60">Total Items</div>
+              </div>
+            </div>
+          </div>
+          <progress class="progress progress-primary w-full h-3" value="0" max="100" id="overall-progress"></progress>
+          <div class="flex justify-between mt-2">
+            <span class="text-xs text-secondary/50" id="progress-text">0% complete</span>
+            <button class="text-xs text-primary hover:underline" id="reset-all">Reset All</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Priority Legend -->
+      <div class="max-w-4xl mx-auto mb-8">
+        <div class="flex flex-wrap items-center justify-center gap-4 text-sm">
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-error"></span>
+            <span class="text-secondary/70">Essential</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-warning"></span>
+            <span class="text-secondary/70">Recommended</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-info"></span>
+            <span class="text-secondary/70">Optional</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Checklist Categories -->
+      <div class="max-w-4xl mx-auto space-y-6">
+        {checklistCategories.map((category) => (
+          <div class="bg-white rounded-[2rem] p-6 lg:p-8 shadow-xl shadow-base-200/50 border border-base-200" data-category={category.id}>
+            <div class="flex items-start gap-4 mb-6">
+              <div class="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+                <Icon name={category.icon} class="w-7 h-7 text-primary" />
+              </div>
+              <div class="flex-1">
+                <div class="flex items-center justify-between">
+                  <h2 class="text-xl font-bold text-secondary">{category.title}</h2>
+                  <span class="text-sm text-secondary/50 category-progress" data-category-id={category.id}>0/{category.items.length}</span>
+                </div>
+                <p class="text-sm text-secondary/60 mt-1">{category.description}</p>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              {category.items.map((item) => (
+                <label class="flex items-start gap-3 p-4 rounded-xl border-2 border-base-200 hover:border-primary/30 transition-all cursor-pointer group checklist-item" data-item-id={item.id}>
+                  <input type="checkbox" class="checkbox checkbox-primary mt-0.5" data-item={item.id} />
+                  <div class="flex-1">
+                    <span class="text-secondary group-hover:text-primary transition-colors">{item.text}</span>
+                  </div>
+                  <span class={`px-2 py-0.5 rounded-full text-xs font-medium flex-shrink-0 ${
+                    item.priority === 'essential' ? 'bg-error/10 text-error' :
+                    item.priority === 'recommended' ? 'bg-warning/10 text-warning' :
+                    'bg-info/10 text-info'
+                  }`}>
+                    {item.priority === 'essential' ? 'Essential' : item.priority === 'recommended' ? 'Recommended' : 'Optional'}
+                  </span>
+                </label>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- What to Expect Section -->
+      <div class="max-w-4xl mx-auto mt-12">
+        <div class="bg-gradient-to-br from-primary/5 to-accent/5 rounded-[2rem] p-6 lg:p-8 border border-primary/10">
+          <h2 class="text-2xl font-bold text-secondary mb-6 flex items-center gap-3">
+            <Icon name="hugeicons:information-circle" class="w-7 h-7 text-primary" />
+            What to Expect in Your FCA
+          </h2>
+
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white rounded-2xl p-5 border border-base-200">
+              <h3 class="font-bold text-secondary mb-3">Who Conducts the Assessment?</h3>
+              <p class="text-sm text-secondary/70">Usually an Occupational Therapist (OT) or Physiotherapist. They may be independent or from your current provider. The NDIA may request specific assessors for your situation.</p>
+            </div>
+
+            <div class="bg-white rounded-2xl p-5 border border-base-200">
+              <h3 class="font-bold text-secondary mb-3">How Long Does It Take?</h3>
+              <p class="text-sm text-secondary/70">Typically 2-4 hours, sometimes split across multiple sessions. Complex assessments may take longer. Don't rush - take breaks when needed.</p>
+            </div>
+
+            <div class="bg-white rounded-2xl p-5 border border-base-200">
+              <h3 class="font-bold text-secondary mb-3">What Will They Assess?</h3>
+              <ul class="text-sm text-secondary/70 space-y-1">
+                <li>Daily living activities (cooking, cleaning, self-care)</li>
+                <li>Mobility and physical function</li>
+                <li>Communication abilities</li>
+                <li>Cognitive function and memory</li>
+                <li>Social interaction and community access</li>
+                <li>Current supports and equipment needs</li>
+              </ul>
+            </div>
+
+            <div class="bg-white rounded-2xl p-5 border border-base-200">
+              <h3 class="font-bold text-secondary mb-3">After the Assessment</h3>
+              <p class="text-sm text-secondary/70">The assessor will write a detailed report sent to the NDIA. This informs your NDIS plan funding. You can usually request to review the report before submission. If you disagree, you can provide feedback.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Common FCA Questions Section -->
+      <div class="max-w-4xl mx-auto mt-8">
+        <div class="bg-white rounded-[2rem] p-6 lg:p-8 shadow-xl shadow-base-200/50 border border-base-200">
+          <h2 class="text-2xl font-bold text-secondary mb-6 flex items-center gap-3">
+            <Icon name="hugeicons:message-question" class="w-7 h-7 text-primary" />
+            Common NDIS Functional Capacity Assessment Questions
+          </h2>
+
+          <p class="text-secondary/70 mb-6">Here are examples of questions you might be asked during your FCA. Being prepared helps you give complete and accurate answers.</p>
+
+          <div class="grid gap-4">
+            <div class="bg-base-200/30 rounded-xl p-4">
+              <h3 class="font-bold text-secondary text-sm mb-2">Daily Living</h3>
+              <ul class="text-sm text-secondary/70 space-y-1">
+                <li>"Can you walk me through your typical morning routine?"</li>
+                <li>"How do you manage meal preparation?"</li>
+                <li>"What challenges do you face with showering or dressing?"</li>
+                <li>"How do you manage household cleaning tasks?"</li>
+              </ul>
+            </div>
+
+            <div class="bg-base-200/30 rounded-xl p-4">
+              <h3 class="font-bold text-secondary text-sm mb-2">Mobility & Physical Function</h3>
+              <ul class="text-sm text-secondary/70 space-y-1">
+                <li>"Can you show me how you get in and out of bed?"</li>
+                <li>"How far can you walk without resting?"</li>
+                <li>"Do you use any mobility aids? Can you demonstrate?"</li>
+                <li>"How do you manage stairs or uneven surfaces?"</li>
+              </ul>
+            </div>
+
+            <div class="bg-base-200/30 rounded-xl p-4">
+              <h3 class="font-bold text-secondary text-sm mb-2">Cognitive & Social</h3>
+              <ul class="text-sm text-secondary/70 space-y-1">
+                <li>"How do you remember appointments and medications?"</li>
+                <li>"Can you describe how you manage your finances?"</li>
+                <li>"How do you travel to appointments or activities?"</li>
+                <li>"What support do you need to participate in social activities?"</li>
+              </ul>
+            </div>
+
+            <div class="bg-base-200/30 rounded-xl p-4">
+              <h3 class="font-bold text-secondary text-sm mb-2">Goals & Supports</h3>
+              <ul class="text-sm text-secondary/70 space-y-1">
+                <li>"What are your goals for the next 12 months?"</li>
+                <li>"What would you do differently with more support?"</li>
+                <li>"What supports are working well for you currently?"</li>
+                <li>"What would make the biggest difference in your daily life?"</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="max-w-4xl mx-auto mt-6">
+        <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+          <p class="flex items-start gap-2">
+            <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+            <span><strong>Tip:</strong> The most common mistake is downplaying your challenges. Focus on your worst days, not your best days. The assessor needs to understand your true support needs to recommend appropriate funding.</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="max-w-4xl mx-auto mt-20 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What questions are asked in an NDIS functional capacity assessment?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>NDIS functional capacity assessment questions cover multiple areas of daily life:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-2">
+                <li><strong>Daily living activities:</strong> cooking, cleaning, personal care, showering, dressing</li>
+                <li><strong>Mobility and physical function:</strong> walking, transfers, using mobility aids</li>
+                <li><strong>Communication abilities:</strong> understanding others, expressing yourself</li>
+                <li><strong>Cognitive function:</strong> memory, decision-making, problem-solving</li>
+                <li><strong>Social interaction:</strong> relationships, community participation</li>
+                <li><strong>Goals and aspirations:</strong> what you want to achieve with support</li>
+              </ul>
+              <p class="mt-2">The assessor will ask you to both describe AND demonstrate how you complete everyday tasks.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What is a functional capacity assessment example?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Here's a functional capacity assessment example of how an OT might assess you:</p>
+              <ol class="list-decimal pl-5 mt-2 space-y-2">
+                <li><strong>Kitchen task:</strong> The OT asks you to make a cup of tea. They observe your mobility (walking to kitchen), balance (standing at bench), ability to follow steps (sequencing), fine motor skills (opening containers, handling kettle), and safety awareness (hot water handling).</li>
+                <li><strong>Personal care:</strong> They may ask you to demonstrate putting on shoes, buttoning a shirt, or describe your showering routine in detail.</li>
+                <li><strong>Mobility:</strong> They observe how you move around your home, use stairs, get in/out of chairs, and transfer from bed.</li>
+                <li><strong>Community access:</strong> They discuss how you travel, shop, and access services.</li>
+              </ol>
+              <p class="mt-2">Throughout, they're noting not just whether you CAN do something, but HOW you do it, how long it takes, and whether it's safe.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How do I prepare for an NDIS functional capacity assessment?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>To prepare for your FCA, follow these key steps:</p>
+              <ol class="list-decimal pl-5 mt-2 space-y-2">
+                <li><strong>Adopt a "bad day" mindset:</strong> Describe how you function on your worst days, not your best days</li>
+                <li><strong>Gather documents:</strong> Medical reports, therapy notes, previous NDIS plans</li>
+                <li><strong>List your daily challenges:</strong> Write them down so you don't forget during the assessment</li>
+                <li><strong>Have a support person present:</strong> They can add context and help you remember important details</li>
+                <li><strong>Don't tidy up:</strong> Show your real living situation, including any clutter or challenges</li>
+                <li><strong>Be honest:</strong> Don't downplay your struggles to appear more capable</li>
+                <li><strong>Show your aids:</strong> Have all assistive equipment visible and ready to demonstrate</li>
+              </ol>
+              <p class="mt-2">Use our checklist above to ensure you're fully prepared.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              What does a functional capacity assessment report include?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>A comprehensive functional capacity assessment report includes:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-2">
+                <li><strong>Background information:</strong> Your diagnosis, medical history, current living situation</li>
+                <li><strong>Assessment methodology:</strong> What tests and observations were used</li>
+                <li><strong>Detailed findings:</strong> Results for each functional domain (mobility, self-care, communication, cognition, etc.)</li>
+                <li><strong>Current support needs:</strong> What assistance you require for daily activities</li>
+                <li><strong>Recommendations:</strong> Suggested supports, services, and equipment</li>
+                <li><strong>NDIS funding suggestions:</strong> Which support categories may be needed</li>
+                <li><strong>Goals:</strong> Recommended capacity building goals</li>
+              </ul>
+              <p class="mt-2">The report is sent to the NDIA to inform your NDIS plan. You can usually request a copy and provide feedback before it's submitted.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-bold text-secondary">
+              How long does a functional capacity assessment take?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>A functional capacity assessment typically takes:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-2">
+                <li><strong>Assessment time:</strong> 2-4 hours, depending on complexity</li>
+                <li><strong>Number of sessions:</strong> Usually 1-2 sessions, sometimes more for complex needs</li>
+                <li><strong>Location:</strong> Usually at your home, sometimes in a clinic setting</li>
+                <li><strong>Report turnaround:</strong> 1-3 weeks after the assessment is completed</li>
+              </ul>
+              <p class="mt-2">Tips for managing a long assessment:</p>
+              <ul class="list-disc pl-5 mt-2 space-y-1">
+                <li>Take breaks whenever you need them - just ask</li>
+                <li>Have water and snacks available</li>
+                <li>If you fatigue easily, request a multi-session assessment</li>
+                <li>Schedule for a time of day when you have more energy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Tools -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Related Tools</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/tools/ndis-eligibility-quiz" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Eligibility Quiz</h3>
+            <p class="text-sm text-secondary/60">Check if you may be eligible for the NDIS.</p>
+          </a>
+          <a href="/tools/ndis-budget-planner" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Budget Planner</h3>
+            <p class="text-sm text-secondary/60">Plan how to use your NDIS funding across categories.</p>
+          </a>
+          <a href="/tools/ndis-therapy-calculator" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Therapy Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate therapy sessions from your CB budget.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  const STORAGE_KEY = 'fca-checklist-progress';
+
+  // Load saved progress
+  function loadProgress() {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  }
+
+  // Save progress
+  function saveProgress(progress) {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    } catch {
+      // localStorage not available
+    }
+  }
+
+  // Update UI
+  function updateUI() {
+    const progress = loadProgress();
+    const checkboxes = document.querySelectorAll('input[data-item]');
+    let completed = 0;
+    const total = checkboxes.length;
+
+    checkboxes.forEach(checkbox => {
+      const itemId = checkbox.dataset.item;
+      checkbox.checked = progress[itemId] || false;
+      if (checkbox.checked) {
+        completed++;
+        checkbox.closest('.checklist-item').classList.add('bg-primary/5', 'border-primary/30');
+      } else {
+        checkbox.closest('.checklist-item').classList.remove('bg-primary/5', 'border-primary/30');
+      }
+    });
+
+    // Update overall progress
+    document.getElementById('completed-count').textContent = completed;
+    document.getElementById('total-count').textContent = total;
+    const percentage = Math.round((completed / total) * 100);
+    document.getElementById('overall-progress').value = percentage;
+    document.getElementById('progress-text').textContent = `${percentage}% complete`;
+
+    // Update category progress
+    document.querySelectorAll('[data-category]').forEach(category => {
+      const categoryId = category.dataset.category;
+      const categoryCheckboxes = category.querySelectorAll('input[data-item]');
+      const categoryCompleted = Array.from(categoryCheckboxes).filter(cb => cb.checked).length;
+      const categoryTotal = categoryCheckboxes.length;
+      const progressSpan = document.querySelector(`.category-progress[data-category-id="${categoryId}"]`);
+      if (progressSpan) {
+        progressSpan.textContent = `${categoryCompleted}/${categoryTotal}`;
+      }
+    });
+  }
+
+  // Initialize
+  document.addEventListener('DOMContentLoaded', () => {
+    updateUI();
+
+    // Listen for checkbox changes
+    document.querySelectorAll('input[data-item]').forEach(checkbox => {
+      checkbox.addEventListener('change', () => {
+        const progress = loadProgress();
+        progress[checkbox.dataset.item] = checkbox.checked;
+        saveProgress(progress);
+        updateUI();
+      });
+    });
+
+    // Reset all button
+    document.getElementById('reset-all').addEventListener('click', () => {
+      if (confirm('Are you sure you want to reset all checklist items?')) {
+        saveProgress({});
+        updateUI();
+      }
+    });
+  });
+})();
+</script>

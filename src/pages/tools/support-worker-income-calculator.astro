@@ -2,6 +2,16 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "Support Worker Income Calculator",
+  description: "Calculate your support worker income. Estimate weekly, monthly, and annual earnings based on hours and shift types.",
+  icon: "hugeicons:wallet-02",
+  color: "accent",
+  phase: 2,
+  isNew: true
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
