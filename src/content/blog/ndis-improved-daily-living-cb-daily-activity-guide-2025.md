@@ -1,19 +1,51 @@
 ---
-title: "NDIS Improved Daily Living (CB Daily Activity) Explained: Your Ultimate 2025 Guide"
-description: "Comprehensive guide to understanding NDIS Improved Daily Living (CB Daily Activity) funding, including what it covers, flexibility rules, pricing, and how to effectively use this Capacity Building support to develop skills and independence."
-pubDate: 2025-05-03
-author: "Camila"
-tags: []
-popupTitle: "Want to Maximize Your NDIS Funding?"
-popupSubtitle: "We can help you access the right supports for your goals"
+title: "NDIS Improved Daily Living: CB Daily Activity Complete Guide (Category 15) 2025"
+description: "Complete guide to NDIS Improved Daily Living (CB Daily Activity) funding. Line item codes (15_xxx), therapy pricing, what's covered, OT, psychology, speech therapy rates, and how to maximise your Capacity Building budget."
+pubDate: 2025-07-08
+author: "MD Home Care"
+tags: ["NDIS", "Capacity Building", "Improved Daily Living", "CB Daily Activity", "Allied Health"]
+popupTitle: "Need Help With Therapy Services?"
+popupSubtitle: "We connect participants with quality allied health providers"
 image: "/assets/disabled carer.webp"
 ---
 
-## Introduction: Navigating the National Disability Insurance Scheme (NDIS) involves understanding a range of specific terms and funding categories. Among the most vital, yet sometimes confusing, are those related to building everyday skills and independence. Participants, their families, and support networks often encounter terms like "Improved Daily Living Skills" and "CB Daily Activity" and wonder how they relate and what supports they cover. This guide aims to demystify this crucial area of NDIS funding, providing a clear, comprehensive explanation for participants, families, carers, and support coordinators.
+NDIS Improved Daily Living (also called CB Daily Activity) is one of the most valuable funding categories in your NDIS plan. It funds therapies, assessments, and training to help you build skills and independence—but understanding what it covers, the line item codes, and current pricing can be confusing.
 
-This NDIS funding category, regardless of its name, falls under the Capacity Building budget. Its fundamental purpose is to empower NDIS participants by providing resources for assessment, training, and therapy designed to enhance skills, foster greater independence, and encourage more active participation in the community. This article will delve into the official definition, clarify the terminology nuances, provide extensive examples of funded supports, explain the rules governing funding flexibility and costs, differentiate it from Core supports, explore its connections to other NDIS categories, discuss relevant support item codes, and offer practical tips for maximising the benefits of this funding. Understanding this category is key to unlocking potential and achieving personal goals within the NDIS framework.   
+This comprehensive guide explains everything about Category 15 funding in 2025: what services you can access, how much they cost, the specific line item codes providers use, and strategies to maximise your Capacity Building budget.
 
-The inconsistent terminology used historically ("Improved Daily Living" in plans and catalogues versus "CB Daily Activity" in the NDIS portal) has been a source of confusion. This difference highlights the complexities participants can face when navigating NDIS systems and communications. Fortunately, the gradual rollout of the new NDIS PACE system aims to standardise terminology and improve clarity for users. Regardless of the label used in specific documents or portals, the underlying purpose remains consistent: this funding is an investment in developing capabilities. It focuses on building a participant's capacity for the future, distinguishing it from supports designed primarily to manage current, day-to-day needs.   
+## Quick Reference: Improved Daily Living at a Glance
+
+| Aspect | Details |
+|--------|---------|
+| **Budget Type** | Capacity Building (not Core) |
+| **Support Category** | Category 15 |
+| **Also Known As** | CB Daily Activity, Improved Daily Living Skills |
+| **Main Purpose** | Build skills and independence through therapy and training |
+| **Funding Flexibility** | Flexible within category (PACE plans), stated in older plans |
+| **Key Providers** | OTs, Psychologists, Speech Pathologists, Physiotherapists |
+
+## What is NDIS Improved Daily Living (CB Daily Activity)?
+
+Improved Daily Living is a Capacity Building support category (Category 15) that funds assessment, training, and therapy to help you develop skills for greater independence. The "CB" in CB Daily Activity stands for "Capacity Building."
+
+### Why Two Names?
+
+You'll see both terms used:
+- **"Improved Daily Living"** - Used in NDIS plans and the Support Catalogue
+- **"CB Daily Activity"** - Used in the NDIS portal and myplace system
+
+They're the same thing. The NDIS PACE system is gradually standardising terminology to reduce this confusion.
+
+### What Makes It Different from Core Supports?
+
+| Feature | Improved Daily Living (Capacity Building) | Assistance with Daily Life (Core) |
+|---------|-------------------------------------------|-----------------------------------|
+| **Purpose** | Build skills for future independence | Help with current daily tasks |
+| **Focus** | Learning and developing | Doing and managing |
+| **Example** | OT teaches you strategies to cook independently | Support worker helps prepare your meals |
+| **Outcome** | Reduced need for support over time | Ongoing assistance as needed |
+
+**Key distinction:** A support worker helping you shower uses Core funding. An OT teaching you strategies to shower independently uses Improved Daily Living funding.   
 
 ## What Exactly is NDIS Improved Daily Living / CB Daily Activity?
 
@@ -166,30 +198,90 @@ Policy Change (July 2024): The notice period required to avoid a cancellation fe
 
 Importance of Clarity: Participants should confirm the applicable cancellation policy with their specific providers, as outlined in their service agreements. The detailed rules around travel and cancellations reflect that these are significant cost factors managed by the NDIA. Transparency through clear service agreements is vital to prevent unexpected charges depleting plan funds.   
 
-## Decoding NDIS: Support Categories and Item Codes
+## NDIS Improved Daily Living Line Item Codes (Category 15)
 
-The NDIS uses a system of support categories and unique support item numbers (often called line item codes) to classify funded supports, manage budgets within plans, and ensure accurate processing of payments by providers. Understanding this structure helps in navigating plans and claims.   
+The NDIS uses specific line item codes for billing. All Improved Daily Living codes start with "15" (Category 15). Here are the most common codes you'll see on invoices:
 
-### Improved Daily Living (Category 15):
-As established, Improved Daily Living falls under the Capacity Building budget and is designated as Support Category 15. Within this category, supports are further grouped by the type of service and the required provider registration. A primary registration group often used for therapies under Category 15 is '0128 - Therapeutic Supports'.   
+### Allied Health Therapy Codes
 
-### Deep Dive Example: Occupational Therapy Code 15_617_0128_1_3
-To illustrate how these codes work, let's break down the specific line item for Occupational Therapy: 15_617_0128_1_3.
+| Line Item Code | Service | Provider | What It Covers |
+|----------------|---------|----------|----------------|
+| **15_617_0128_1_3** | Occupational Therapy | OT (AHPRA registered) | Functional assessments, daily living skills, equipment recommendations |
+| **15_054_0128_1_3** | Psychology | Psychologist | Coping strategies, emotional regulation, behaviour support |
+| **15_622_0128_1_3** | Speech Pathology | Speech Pathologist | Communication, swallowing, AAC assessments and training |
+| **15_055_0128_1_3** | Physiotherapy | Physiotherapist | Mobility, strength, balance, safe transfers |
+| **15_056_0128_1_3** | Other Professional | Dietitian, Social Worker | Nutrition for daily living, system navigation skills |
+| **15_043_0128_1_3** | Counselling | Counsellor | Emotional support linked to daily living goals |
 
-15: Identifies the Support Category as Improved Daily Living.   
-617: This is the unique Support Item Sequence Number distinguishing this specific OT service from others.   
-0128: Indicates the required Registration Group for the provider, which is Therapeutic Supports. This means the service should typically be delivered by a provider registered under this group.   
-1: Represents the Support Purpose, confirming it falls under Capacity Building.   
-3: Relates to the Outcome Domain the support primarily contributes to, often Daily Living for this category.   
+### Support and Training Codes
 
-The official description for 15_617_0128_1_3 is Assessment, Recommendation, Therapy or Training - Occupational Therapist. This service must be delivered by an Occupational Therapist currently registered with the Australian Health Practitioner Regulation Agency (AHPRA).   
+| Line Item Code | Service | Provider | What It Covers |
+|----------------|---------|----------|----------------|
+| **15_045_0128_1_3** | Community Engagement Assistance | Support worker/trainer | Carer training, skill practice support |
+| **15_052_0128_1_3** | Therapy Assistant - Level 1 | Therapy Assistant | Supervised practice of therapy-prescribed tasks |
+| **15_053_0128_1_3** | Therapy Assistant - Level 2 | Experienced Therapy Assistant | Higher-complexity skill practice |
+| **15_622_0118_1_3** | Early Childhood Speech Pathology | Speech Pathologist | Early intervention (children under 7) |
 
-The purpose of this support is to provide comprehensive functional assessments, develop tailored therapeutic strategies, and deliver therapy or training aimed at enhancing a participant's ability to perform daily tasks, adapt to challenges, build relevant skills, and integrate into various life activities with greater independence and comfort. This might involve recommendations for assistive technology or environmental modifications, alongside direct skill-building activities.   
+### Understanding the Code Structure
 
-Providers claiming payment for this service must use this specific code. The NDIS Support Catalogue also specifies which associated claim types are permissible for this item, such as Non-Face-to-Face support (e.g., report writing), Provider Travel, and Short Notice Cancellations. The detailed structure of these codes, while complex, allows the NDIA to track spending and service delivery at a very granular level, providing valuable data on the utilisation of specific therapies within broader funding categories.   
+Let's break down **15_617_0128_1_3** (Occupational Therapy):
 
-### Finding Support Item Codes:
-The complete and most current list of all NDIS support item codes, their descriptions, associated rules, and price limits can be found in the official NDIS Support Catalogue. This document, usually an Excel file, is published on the NDIS website alongside the PAPL and is updated concurrently. Participants, providers, and plan managers should refer to the latest version of the Support Catalogue to ensure accurate claiming and budget management. The existence of distinct codes for different therapies (e.g., OT, Psychology, Physiotherapy, Speech Pathology all having unique codes under Category 15, Reg Group 0128 ) underscores the importance of using the correct code for the specific service delivered.   
+| Code Segment | Meaning |
+|--------------|---------|
+| **15** | Support Category (Improved Daily Living) |
+| **617** | Unique item number for this specific OT service |
+| **0128** | Registration Group (Therapeutic Supports) |
+| **1** | Support Purpose (Capacity Building) |
+| **3** | Outcome Domain (Daily Living) |
+
+> **Tip:** When checking invoices, ensure the line item code matches the service delivered. OT services should use OT codes, psychology should use psychology codes, etc.
+
+## 2025 Therapy Pricing: Maximum Hourly Rates
+
+The NDIS Price Guide sets maximum rates providers can charge. Here are the current 2025 rates for Improved Daily Living therapies:
+
+### Allied Health Hourly Rates (July 2025)
+
+| Therapy Type | Standard Rate | Remote Rate |
+|--------------|---------------|-------------|
+| **Occupational Therapy** | $214.41/hr | $236.14/hr |
+| **Psychology** | $242.76/hr | $267.27/hr |
+| **Speech Pathology** | $214.41/hr | $236.14/hr |
+| **Physiotherapy** | $214.41/hr | $236.14/hr |
+| **Exercise Physiology** | $193.99/hr | $213.58/hr |
+| **Dietetics** | $193.99/hr | $213.58/hr |
+| **Social Work** | $193.99/hr | $213.58/hr |
+| **Counselling** | $193.99/hr | $213.58/hr |
+
+### Therapy Assistant Rates
+
+| Level | Standard Rate | What They Do |
+|-------|---------------|--------------|
+| **Level 1** | $69.70/hr | Basic supervised skill practice |
+| **Level 2** | $78.64/hr | Complex skill practice, higher independence |
+
+### Group Therapy Rates (Per Participant)
+
+| Ratio | Rate Per Participant |
+|-------|---------------------|
+| **1:2 (2 participants)** | $107.21/hr |
+| **1:3 (3 participants)** | $71.47/hr |
+| **1:4 (4 participants)** | $53.60/hr |
+
+> **Note:** These are maximum rates. Providers can charge less, and you can negotiate. Unregistered providers (for self-managed participants) aren't bound by these limits but must offer fair pricing.
+
+## How Much Therapy Can You Get With Your Budget?
+
+Here's a quick reference for how many sessions typical budgets provide:
+
+| Budget Amount | OT Sessions (~$214/hr) | Psychology (~$243/hr) | Therapy Assistant (~$70/hr) |
+|---------------|------------------------|----------------------|----------------------------|
+| **$5,000** | ~23 hours | ~20 hours | ~71 hours |
+| **$10,000** | ~46 hours | ~41 hours | ~143 hours |
+| **$15,000** | ~70 hours | ~61 hours | ~214 hours |
+| **$20,000** | ~93 hours | ~82 hours | ~286 hours |
+
+**Use our free [NDIS Therapy Hours Calculator](/tools/ndis-therapy-calculator)** to get a personalised estimate based on your specific budget and therapy mix.   
 
 ## Connecting the Dots: Improved Daily Living and Other NDIS Goals/Categories
 
@@ -256,6 +348,29 @@ For the most current and detailed information regarding NDIS supports, pricing, 
 - NDIS Pricing Arrangements and Price Limits (PAPL): Outlines the maximum prices registered providers can charge and the rules governing specific supports. Published annually and updated periodically.
 - NDIS Support Catalogue: Lists all specific support item numbers, descriptions, units of measure, and associated rules. Published alongside the PAPL.
 - Disability Gateway: A resource for finding information about disability services and supports available across Australia.
+
+## How Much Improved Daily Living Funding Can You Get?
+
+Funding amounts vary based on your individual needs and goals. Here are typical ranges:
+
+### Typical Funding Ranges
+
+| Support Need Level | Annual Range | What It Typically Covers |
+|--------------------|--------------|--------------------------|
+| **Low** | $5,000 - $10,000 | Occasional OT or psychology, equipment assessments |
+| **Moderate** | $10,000 - $20,000 | Weekly therapy sessions, multiple allied health providers |
+| **High** | $20,000 - $40,000 | Intensive therapy programs, complex assessments, multiple providers |
+| **Very High** | $40,000+ | Specialist interventions, early childhood intensive programs |
+
+### Factors That Affect Your Funding
+
+| Factor | Impact |
+|--------|--------|
+| **Complexity of needs** | Complex disabilities often require more intensive therapy |
+| **Number of goals** | More goals may justify more therapy types |
+| **Progress potential** | Evidence of skill-building potential supports more funding |
+| **Geographic location** | Remote areas may receive extra for travel costs |
+| **Age** | Early intervention (under 7) often receives higher allocations |
 
 ## Frequently Asked Questions
 

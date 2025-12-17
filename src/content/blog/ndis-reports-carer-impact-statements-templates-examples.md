@@ -1,11 +1,11 @@
 ---
-title: "Carer Impact Statement: NDIS Templates & Examples 2025"
-description: "Complete guide to writing a carer impact statement for NDIS. Includes free templates, real examples, what NDIS planners look for, and step-by-step instructions to support your plan review."
+title: "Carer Impact Statement NDIS: Free Templates & Examples (2025)"
+description: "Free carer impact statement templates and examples for NDIS plan reviews. Step-by-step guide on what to include, how to structure your statement, and what planners look for."
 pubDate: 2025-12-15
 category: "NDIS Documentation"
-author: "Camila"
+author: "MD Home Care"
 image: "/assets/carer.webp"
-tags: ["carer impact statement", "ndis", "carer statement", "ndis plan review", "carer support"]
+tags: ["Carer Impact Statement", "NDIS", "Carer Statement", "NDIS Plan Review", "Carer Support"]
 popupTitle: "Feeling Overwhelmed as a Carer?"
 popupSubtitle: "We provide respite and support for families too"
 ---

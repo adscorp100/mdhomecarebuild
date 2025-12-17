@@ -1,10 +1,10 @@
 ---
-title: "How to Become an NDIS Provider in Australia: Complete 2025 Guide"
-description: "Complete guide to becoming an NDIS provider in Australia 2025. Learn registration costs, audit requirements, application process, and provider setup support. Start your NDIS business today."
-keywords: ["how to become ndis provider", "how to become an ndis provider", "how to become a ndis provider", "ndis registration cost", "ndis audit cost", "ndis provider application support", "how much does it cost to become an ndis provider"]
-pubDate: 2025-01-15
+title: "How to Become an NDIS Provider Australia 2025: Registration & Costs"
+description: "How to become an NDIS provider in Australia. Step-by-step registration process, costs ($3K-$50K+), audit requirements, application timeline (3-6 months), and checklist for 2025."
+pubDate: 2025-07-19
 category: "NDIS Business"
-author: "MD Homecare"
+author: "MD Home Care"
+tags: ["NDIS Provider", "NDIS Registration", "Start NDIS Business", "Provider Costs", "NDIS Audit"]
 popupTitle: "Planning to Become an NDIS Provider?"
 popupSubtitle: "Get expert guidance on registration, audits, and compliance"
 image: "/assets/homecare.webp"

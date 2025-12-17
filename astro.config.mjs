@@ -9,6 +9,17 @@ export default defineConfig({
   site: 'https://mdhomecare.com.au',
   output: 'static', // Explicitly set to static (default)
   compressHTML: true, // Minify HTML output
+  redirects: {
+    // FCA page consolidation - redirect duplicate blog posts to main FCA guide
+    '/blog/functional-capacity-assessment-what-it-is-and-why-it-matters': '/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like',
+    '/blog/functional-capacity-assessment-what-it-is-and-why-it-matters/': '/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like/',
+    '/blog/functional-capacity-assessment-guide-ndis-2025': '/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like',
+    '/blog/functional-capacity-assessment-guide-ndis-2025/': '/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like/',
+    '/blog/functional-capacity-assessment-ultimate-guide-2025': '/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like',
+    '/blog/functional-capacity-assessment-ultimate-guide-2025/': '/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like/',
+    '/blog/functional-capacity-assessments-in-the-ndis': '/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like',
+    '/blog/functional-capacity-assessments-in-the-ndis/': '/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like/',
+  },
   integrations: [
     icon(),
     sitemap({

@@ -1,8 +1,8 @@
 ---
-title: "SIL & SLES NDIS Funding 2025: Complete Guide to Supported Independent Living Costs"
-description: "Complete guide to SIL and SLES NDIS funding 2025: Learn eligibility requirements, funding amounts up to $320,000/year, application process, and how to access Supported Independent Living services."
-pubDate: 2025-01-15
-author: "Camila"
+title: "SIL & SLES NDIS Funding 2025: Costs, Eligibility & How to Apply"
+description: "NDIS SIL and SLES funding guide 2025. Supported Independent Living costs ($80K-$320K/year), SLES eligibility, application process, and how to get approved for 24/7 support."
+pubDate: 2025-07-18
+author: "MD Home Care"
 tags: ["SIL NDIS", "SLES", "Supported Independent Living", "NDIS Funding", "Disability Accommodation"]
 popupTitle: "Exploring Independent Living Options?"
 popupSubtitle: "We can help you access SIL and SLES funding"

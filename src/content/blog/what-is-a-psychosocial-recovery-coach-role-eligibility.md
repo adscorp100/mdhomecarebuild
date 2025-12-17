@@ -1,15 +1,42 @@
 ---
-title: "What Is a Psychosocial Recovery Coach? Role, Eligibility, and How They Help"
-description: "Learn what a psychosocial recovery coach does in the NDIS, their qualifications, how they differ from support coordinators, and how they can help participants with psychosocial disability in 2025."
-pubDate: 2025-04-04
-author: "Camila"
-tags: []
-popupTitle: "Ready to Start Your Recovery Journey?"
+title: "Psychosocial Recovery Coach NDIS: What They Do, Funding & How to Get One (2025)"
+description: "Complete guide to NDIS Psychosocial Recovery Coaches. What they do, qualifications, funding (60-156 hours/year), how to get one in your plan, and how they differ from support coordinators."
+pubDate: 2025-07-12
+author: "MD Home Care"
+tags: ["NDIS", "Psychosocial Recovery Coach", "Mental Health", "Capacity Building", "Support Coordination"]
+popupTitle: "Need Mental Health Support?"
 popupSubtitle: "We can connect you with qualified recovery coaches"
 image: "/assets/avatar.webp"
 ---
 
-## Psychosocial Recovery Coach: Key Points
+A Psychosocial Recovery Coach (PRC) is a specialized NDIS role that helps participants with psychosocial disability build skills, manage mental health challenges, and increase independence. If you're living with a mental health condition that impacts your daily life, a recovery coach could be a valuable addition to your NDIS plan.
+
+This guide explains what psychosocial recovery coaches do, how they differ from support coordinators, how to get one funded in your plan, and what to look for when choosing a coach.
+
+## Quick Reference: Psychosocial Recovery Coach at a Glance
+
+| Aspect | Details |
+|--------|---------|
+| **Who It's For** | NDIS participants with psychosocial disability |
+| **Funding Category** | Capacity Building - Support Coordination |
+| **Typical Hours** | 60-156 hours per year |
+| **Hourly Rate** | $120-$150/hr (standard), higher after-hours |
+| **Key Focus** | Skill building, mental health management, community participation |
+| **Qualifications** | Cert IV+ in Mental Health, or lived experience with formal training |
+
+## Psychosocial Recovery Coach vs Support Coordinator
+
+| Feature | Recovery Coach | Support Coordinator |
+|---------|---------------|---------------------|
+| **Focus** | Direct coaching, skill building, mental health support | Administrative coordination, plan navigation |
+| **Relationship** | Ongoing, therapeutic | Strategic, advisory |
+| **Typical Hours** | 60-156/year | 30-70/year |
+| **Approach** | Hands-on, in-the-moment support | Big-picture, system navigation |
+| **Best For** | Building daily living skills, managing symptoms | Organising providers, understanding funding |
+
+> **Important:** The NDIS usually funds **either** a Recovery Coach **or** a Support Coordinator, not both. Choose based on your biggest need: skill building vs administrative support.
+
+## Key Points
 - Psychosocial recovery coaches are specialized NDIS providers who support participants with psychosocial disability to build capacity, set goals, and increase independence
 - They require either lived experience of mental health challenges or relevant qualifications in mental health support
 - Recovery coaches focus on recovery-oriented practice, emphasizing hope, self-direction, and community participation

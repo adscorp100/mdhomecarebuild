@@ -1,12 +1,12 @@
 ---
-title: "NDIS Travel Charges & Allowances for Support Workers: 2025 Guide"
-description: "Complete guide to NDIS travel charges, allowances, and policies for support workers and therapists in 2025. Learn about travel rates, claiming procedures, and compliance requirements."
-keywords: ["ndis travel charges", "ndis travel charges for therapists", "ndis travel", "ndis travel allowance for support workers"]
-pubDate: 2025-02-05
+title: "NDIS Travel Charges 2025: Rates, Rules & Km Allowances for Providers"
+description: "NDIS travel charges explained: 2025 km rates ($0.99/km), travel time rules (30 min metro, 60 min regional), provider & therapist allowances, and what participants should know about travel costs."
+pubDate: 2025-07-15
 category: "NDIS Compliance"
-author: "MD Homecare"
-popupTitle: "Concerned About Travel Charges?"
-popupSubtitle: "Let us explain our fair and transparent pricing"
+author: "MD Home Care"
+tags: ["NDIS", "Travel Charges", "Support Workers", "NDIS Pricing", "Provider Guide"]
+popupTitle: "Questions About Travel Charges?"
+popupSubtitle: "We offer transparent and fair pricing"
 image: "/assets/physio.webp"
 ---
 

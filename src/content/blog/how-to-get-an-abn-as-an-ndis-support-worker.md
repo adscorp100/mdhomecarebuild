@@ -1,9 +1,9 @@
 ---
-title: "How to Get an ABN as an NDIS Support Worker – Step-by-Step"
-description: "Complete guide on how to get an ABN for support workers in the NDIS. Learn about eligibility requirements, application process, tax setup, and common mistakes to avoid."
-pubDate: 2025-05-15
-author: "Camila"
-tags: []
+title: "ABN for NDIS Support Workers: Step-by-Step Registration Guide (2025)"
+description: "How to get an ABN as an NDIS support worker. Free step-by-step guide covering eligibility, registration process, tax setup, GST, and common mistakes to avoid for independent disability workers."
+pubDate: 2025-07-14
+author: "MD Home Care"
+tags: ["NDIS", "ABN", "Support Worker", "Sole Trader", "Independent Contractor"]
 popupTitle: "Ready to Work Independently?"
 popupSubtitle: "We can help you navigate ABN setup and business requirements"
 image: "/assets/holdinglinen.webp"

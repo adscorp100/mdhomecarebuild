@@ -1,19 +1,38 @@
 ---
-title: "Do NDIS Providers Need Insurance? What You Must Have to Stay Compliant"
-description: "Learn exactly what insurance NDIS providers need to stay compliant in 2025. Comprehensive guide to public liability, professional indemnity, and other essential insurance requirements for registered and unregistered providers."
-pubDate: 2025-05-15
-author: "Camila"
-tags: []
-popupTitle: "Starting Your NDIS Provider Journey?"
-popupSubtitle: "Get expert guidance on insurance, registration, and compliance requirements"
+title: "NDIS Provider Insurance Requirements 2025: Complete Compliance Guide"
+description: "Complete guide to NDIS provider insurance requirements 2025. Public liability ($10M), professional indemnity ($5M), workers compensation - what registered and unregistered providers need, costs, and compliance."
+pubDate: 2025-07-11
+author: "MD Home Care"
+tags: ["NDIS", "Provider Insurance", "Public Liability", "Professional Indemnity", "NDIS Registration"]
+popupTitle: "Starting as an NDIS Provider?"
+popupSubtitle: "Get expert guidance on insurance and compliance requirements"
 image: "/assets/Ilovendis.webp"
 ---
 
-## Do NDIS Providers Need Insurance: Key Points
-- All NDIS providers, both registered and unregistered, must maintain adequate insurance coverage.
-- Minimum requirements include public liability insurance and professional indemnity insurance.
-- Registered providers must provide proof of insurance during registration and audit processes.
-- Insurance costs for NDIS providers typically range from $1,000 to $5,000+ annually depending on services provided.
+Yes, NDIS providers need insurance. All providers—both registered and unregistered—must maintain adequate coverage to protect participants, staff, and their business. But what exactly do you need, how much does it cost, and what happens if you don't have it?
+
+This comprehensive guide explains every aspect of NDIS provider insurance requirements in 2025, including minimum coverage amounts, costs by provider size, and how registered and unregistered provider requirements differ.
+
+## Quick Reference: NDIS Provider Insurance Requirements
+
+| Insurance Type | Minimum Required | Typical Cost | Who Needs It |
+|----------------|------------------|--------------|--------------|
+| **Public Liability** | $10M-$20M per incident | $500-$7,000/year | All providers |
+| **Professional Indemnity** | $2M-$5M per claim | $600-$10,000/year | All providers |
+| **Workers Compensation** | State-mandated levels | $1,000-$5,000+/year | Employers only |
+| **Cyber Insurance** | $1M-$5M (recommended) | $500-$3,000/year | All handling data |
+
+## Registered vs Unregistered Provider Requirements
+
+| Aspect | Registered Provider | Unregistered Provider |
+|--------|--------------------|-----------------------|
+| **Insurance Mandatory?** | Yes - legally required | Not legally required, but strongly recommended |
+| **Proof Required** | Must upload to NDIS Commission portal | Participants may request proof |
+| **Audited?** | Yes - during registration and periodic audits | No NDIS-specific audit |
+| **Consequences of No Insurance** | Registration suspended/cancelled | Civil liability, loss of contracts |
+| **Minimum Limits** | Set by NDIS Practice Standards | Same recommended for credibility |
+
+> **Related:** For individual support workers, see our guide on [Support Worker Insurance Australia](/blog/how-to-get-support-worker-insurance-in-australia-a-2025-guide/).
 
 **Estimate your total costs:** Use our **[NDIS Provider Registration Calculator](/tools/ndis-provider-calculator)** to see how insurance fits into your overall registration expenses.
 

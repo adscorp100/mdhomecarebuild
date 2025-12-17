@@ -1,10 +1,10 @@
 ---
-title: "Where to Buy or Sell Second-Hand Disability Equipment in Australia: 2025 Guide"
-description: "Complete guide to buying and selling second-hand disability equipment in Australia. Find the best marketplaces, safety tips, and pricing advice for medical equipment and assistive technology."
-keywords: ["where to sell second hand disability equipment", "second hand disability equipment near me", "where to sell second hand medical equipment australia", "second hand disability equipment"]
-pubDate: 2025-01-30
+title: "Second Hand Disability Equipment Australia: Where to Buy & Sell (2025)"
+description: "Best places to buy and sell second-hand disability equipment in Australia. Wheelchairs, mobility scooters, hoists, beds - marketplaces, safety tips, and pricing guide for 2025."
+pubDate: 2025-07-17
 category: "Equipment & Technology"
-author: "MD Homecare"
+author: "MD Home Care"
+tags: ["Disability Equipment", "Second Hand", "Wheelchairs", "Mobility Aids", "Australia"]
 popupTitle: "Need Help Sourcing Disability Equipment?"
 popupSubtitle: "We can assist you with equipment advice and funding"
 image: "/assets/wheelchair.webp"

@@ -1,9 +1,9 @@
 ---
-title: "NDIS Core Supports Explained: Your Ultimate Guide to Funding, Categories & Examples (2025 Update)"
-description: "Comprehensive guide to understanding NDIS Core Supports funding, including the four categories, flexibility rules, budget management, and practical examples to help participants maximize their NDIS plans in 2025."
-pubDate: 2025-05-03
-author: "Camila"
-tags: []
+title: "NDIS Core Supports: Complete Guide to All 4 Categories (2025)"
+description: "What are NDIS Core Supports? Complete guide to the 4 categories: Daily Life, Consumables, Social Participation & Transport. Flexibility rules, examples, and how to maximise your funding."
+pubDate: 2025-07-13
+author: "MD Home Care"
+tags: ["NDIS", "Core Supports", "NDIS Funding", "Daily Life", "Community Participation"]
 popupTitle: "Confused About Your Core Supports?"
 popupSubtitle: "Let us help you understand and maximize your NDIS funding"
 image: "/assets/disabled carer.webp"
