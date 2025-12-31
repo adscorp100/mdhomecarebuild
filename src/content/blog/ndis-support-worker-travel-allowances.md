@@ -54,12 +54,14 @@ Two categories of transport costs can be claimed:
 
 #### 1. Provider Transport Costs
 - When the worker uses an agency vehicle to transport participants
-- Claimed at the current rate of $0.97 per kilometer
+- Claimed at the current rate of $0.99 per kilometer for standard vehicles
+- Modified accessibility vehicles: $2.76 per kilometer
 - Includes all vehicle operating costs (fuel, maintenance, depreciation)
 
 #### 2. Support Worker-Owned Vehicle Costs
 - When a support worker uses their personal vehicle to transport participants
-- Claimed at the current rate of $0.97 per kilometer
+- Claimed at the current rate of $0.99 per kilometer for standard vehicles
+- Modified accessibility vehicles: $2.76 per kilometer
 - Must be agreed upon in the service agreement
 
 ### How Transport Costs Are Funded
@@ -111,8 +113,8 @@ The NDIS regularly updates travel allowance rates:
 
 ### Current 2025 Rates
 - **Travel time**: Charged at the same rate as the support being delivered
-- **Provider transport**: $0.97 per kilometer
-- **Non-labor transport costs**: $0.97 per kilometer
+- **Standard vehicle transport**: $0.99 per kilometer
+- **Modified accessibility vehicle transport**: $2.76 per kilometer
 - **Regional travel loading**: 40% additional for eligible regional travel
 - **Remote travel loading**: 50% additional for eligible remote travel
 
@@ -151,7 +153,7 @@ John, a support worker in regional Victoria, uses his own vehicle to transport a
 
 **Correct claim**:
 - 4 hours of support time
-- 70km of transport costs at $0.97/km = $67.90
+- 70km of transport costs at $0.99/km = $69.30
 - No travel time is claimed as the worker is already being paid for support time during the transport
 
 ### Example 3: Multiple Participants with Shared Travel
@@ -163,7 +165,7 @@ A support worker provides services to three participants who attend the same gro
 
 **Correct claim**:
 - 3 hours of group support (divided among participants based on ratio)
-- 15km × $0.97 = $14.55 transport cost divided equally among the three participants ($4.85 each)
+- 15km x $0.99 = $14.85 transport cost divided equally among the three participants ($4.95 each)
 - Return journey costs similarly divided
 
 ## Comprehensive Analysis of NDIS Travel Allowances

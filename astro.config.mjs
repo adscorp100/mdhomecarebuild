@@ -19,6 +19,21 @@ export default defineConfig({
     '/blog/functional-capacity-assessment-ultimate-guide-2025/': '/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like/',
     '/blog/functional-capacity-assessments-in-the-ndis': '/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like',
     '/blog/functional-capacity-assessments-in-the-ndis/': '/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like/',
+    // Second-hand disability equipment page consolidation
+    '/blog/where-buy-sell-second-hand-disability-equipment-australia': '/blog/guide-buying-selling-donating-second-hand-disability-equipment-australia-2025',
+    '/blog/where-buy-sell-second-hand-disability-equipment-australia/': '/blog/guide-buying-selling-donating-second-hand-disability-equipment-australia-2025/',
+    // NDIS Independent Support Worker page consolidation - redirect duplicate blog posts to main guide
+    '/blog/becoming-an-independent-ndis-support-worker-your-ultimate-2025-guide': '/blog/guide-to-becoming-an-independent-support-worker',
+    '/blog/becoming-an-independent-ndis-support-worker-your-ultimate-2025-guide/': '/blog/guide-to-becoming-an-independent-support-worker/',
+    '/blog/how-to-work-as-independent-ndis-support-worker': '/blog/guide-to-becoming-an-independent-support-worker',
+    '/blog/how-to-work-as-independent-ndis-support-worker/': '/blog/guide-to-becoming-an-independent-support-worker/',
+    // STA page consolidation - redirect duplicate STA blog posts to main comprehensive guide
+    '/blog/understanding-sta-meaning-in-ndis': '/blog/ndis-respite-sta-accommodation-guide-2025',
+    '/blog/understanding-sta-meaning-in-ndis/': '/blog/ndis-respite-sta-accommodation-guide-2025/',
+    '/blog/ndis-respite-sta-short-term-accommodation-guide-2025': '/blog/ndis-respite-sta-accommodation-guide-2025',
+    '/blog/ndis-respite-sta-short-term-accommodation-guide-2025/': '/blog/ndis-respite-sta-accommodation-guide-2025/',
+    '/blog/ndis-respite-sta-pricing-guide-2024-25': '/blog/ndis-respite-sta-accommodation-guide-2025',
+    '/blog/ndis-respite-sta-pricing-guide-2024-25/': '/blog/ndis-respite-sta-accommodation-guide-2025/',
   },
   integrations: [
     icon(),
