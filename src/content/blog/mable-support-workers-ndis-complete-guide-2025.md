@@ -1,6 +1,6 @@
 ---
-title: "Mable Support Worker Rates 2025: $58/Hour Average + Weekend Rates & NDIS Guide"
-description: "Mable support worker rates December 2025: Average $58/hour weekday, $39 minimum. Weekend rates higher. Is Mable NDIS registered? Platform vs provider explained. 7.95% client fee breakdown."
+title: "Mable vs NDIS Providers 2025: Honest Platform Review + Rate Comparison"
+description: "Mable platform review 2025: Compare rates ($58/hr avg vs $70 NDIS cap), understand the 7.95% fee, and learn if Mable works with your NDIS plan type. Honest pros and cons."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["Mable Support Workers", "NDIS", "Support Workers", "Disability Support", "Mable Platform", "Mable Rates"]
@@ -9,7 +9,21 @@ popupSubtitle: "Get transparent pricing information and budget guidance"
 image: "/assets/homecare.webp"
 ---
 
-# Mable Support Worker Rates 2025: Complete Guide to NDIS Rates, Weekend Rates & Platform Fees
+# Mable vs NDIS Providers 2025: Honest Platform Review + Rate Comparison
+
+Wondering if Mable is right for your NDIS support needs? You're not alone. With so many platform options and confusing fee structures, it's hard to know if Mable will actually save you money or just add complications. This honest review breaks down the real costs, who can actually use Mable, and whether it's worth switching from a traditional provider.
+
+## Mable: Quick Pros and Cons
+
+**Pros:**
+- Lower rates than traditional providers
+- Choose your own support workers
+- Flexible scheduling
+
+**Cons:**
+- Not for agency-managed plans
+- 7.95% platform fee on top of rates
+- You manage the relationship directly
 
 **Quick Facts - Mable Support Workers December 2025:**
 - **Average Weekday Rate**: $58/hour (personal care/disability support)

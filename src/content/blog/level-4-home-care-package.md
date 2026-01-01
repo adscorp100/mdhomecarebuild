@@ -1,17 +1,19 @@
 ---
-title: 'Level 4 Home Care Package: 2025 Guide to High-Level Care at Home'
-description: "A Level 4 Home Care Package provides $79,473 for high-level care. Learn what services are covered, from nursing to home modifications, and how to find a provider for complex needs."
+title: 'Support at Home High-Level Care 2025: Classification 7-8 Guide (Formerly Level 4 HCP)'
+description: "Support at Home Classification 7-8 provides up to $78,000/year for high-level care. Learn what's covered under the new program that replaced Level 4 Home Care Packages in November 2025."
 pubDate: 2025-07-06
 author: 'MD Home Care'
-tags: ["Home Care Package", "Aged Care", "Level 4", "Complex Care"]
+tags: ["Support at Home", "Aged Care", "Level 4", "Complex Care", "Home Care Package"]
 popupTitle: "Managing Complex Care Needs?"
 popupSubtitle: "Our experienced team can support high-level care at home"
 image: '/assets/nurse.webp'
 ---
 
-A Level 4 Home Care Package is the highest level of support available through the Australian Government, providing **$79,473** in annual funding for older Australians with complex, high-level care needs.
+> **Important Update:** As of November 1, 2025, the Support at Home program replaced Home Care Packages. If you're searching for "Level 4 Home Care Package," you now need **Support at Home Classification 7 or 8** for high-level care needs.
 
-For families and caregivers navigating this stage, a Level 4 package can be a lifeline, enabling loved ones to remain safely at home for as long as possible. This guide provides clear, direct answers about Level 4 funding, the services it covers, and how to navigate the critical decisions that come with high-level care.
+The Support at Home program provides up to **$78,000** in annual funding for older Australians with complex, high-level care needs (Classification 8). For families navigating this stage, high-level Support at Home funding remains a lifeline, enabling loved ones to remain safely at home.
+
+This guide covers the new Support at Home classifications for high-level care, what services are covered, and how to find the right provider.
 
 ## Who is a Level 4 Package For?
 
@@ -25,9 +27,17 @@ A Level 4 Home Care Package is for individuals who have been assessed by an Aged
 
 ## Funding: How Much Do I Get in 2025?
 
-As of the latest government figures for 2025, a Level 4 Home Care Package provides an annual subsidy of **$79,473**.
+Under the new Support at Home program, high-level care funding is:
 
-This funding significantly increases the amount of support available compared to lower-level packages, reflecting the intensive nature of care required.
+| Classification | Annual Budget | Quarterly Budget |
+|---------------|---------------|------------------|
+| Classification 7 | ~$61,000 | ~$15,250 |
+| Classification 8 | ~$78,000 | ~$19,500 |
+
+**Key changes from the old system:**
+- Budgets are now paid **quarterly** and held by Services Australia
+- You can roll over up to **$1,000 or 10%** of your quarterly budget
+- Care management fees are **capped at 10%**
 
 ## How Many Hours of Care Does That Provide?
 
@@ -76,11 +86,11 @@ A Level 4 package can be used to:
 - **Support Transition Planning:** Funding consultations and assessments to ensure a smooth move.
 - **Coordinate Care:** Your provider can liaise with the residential facility to ensure a seamless handover of care.
 
-## Level 4 Home Care Package vs. NDIS
+## Support at Home vs. NDIS
 
 It's important to understand the difference between these two government programs:
-- **Home Care Packages:** Are for older Australians, generally **age 65 and over**.
-- **National Disability Insurance Scheme (NDIS):** Is for Australians with a significant and permanent disability, **under the age of 65**.
+- **Support at Home:** For older Australians, generally **age 65 and over** (replaced Home Care Packages in November 2025).
+- **National Disability Insurance Scheme (NDIS):** For Australians with a significant and permanent disability, **under the age of 65**.
 
 **Not sure which program is right for you?** Take our free **[HCP vs NDIS Comparison Quiz](/tools/hcp-vs-ndis)** to find out which funding program suits your situation.
 

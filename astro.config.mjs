@@ -37,6 +37,14 @@ export default defineConfig({
     // Finding NDIS Clients page consolidation
     '/blog/how-to-find-get-ndis-clients-support-worker': '/blog/how-to-find-ndis-clients-participants-guide',
     '/blog/how-to-find-get-ndis-clients-support-worker/': '/blog/how-to-find-ndis-clients-participants-guide/',
+    // NDIS Support Worker Pay Rates page consolidation - redirect duplicates to main comprehensive guide
+    '/blog/ndis-support-worker-hourly-rate-2025': '/blog/ndis-support-worker-pay-rates',
+    '/blog/ndis-support-worker-hourly-rate-2025/': '/blog/ndis-support-worker-pay-rates/',
+    '/blog/ndis-pay-rates-for-support-workers-2025': '/blog/ndis-support-worker-pay-rates',
+    '/blog/ndis-pay-rates-for-support-workers-2025/': '/blog/ndis-support-worker-pay-rates/',
+    // Disability Support Pension page consolidation - redirect to comprehensive rates guide
+    '/blog/disability-support-pension-australia': '/blog/how-much-disability-pension-per-fortnight-2025',
+    '/blog/disability-support-pension-australia/': '/blog/how-much-disability-pension-per-fortnight-2025/',
   },
   integrations: [
     icon(),

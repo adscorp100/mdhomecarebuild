@@ -1,17 +1,17 @@
 ---
-title: 'Level 3 Home Care Package: 2025 Funding, Hours & Services Guide'
-description: "How much is a Level 3 Home Care Package in 2025? Our guide breaks down the $40,945.70 subsidy, what services you can get, how many hours of care it covers, and how to choose the best provider."
+title: 'Support at Home Intermediate Care 2025: Classification 4-6 Guide (Formerly Level 3 HCP)'
+description: "Support at Home Classifications 4-6 provide $30,000-$50,000/year for intermediate care needs. Learn what's covered under the new program that replaced Level 3 Home Care Packages in November 2025."
 pubDate: 2025-07-06
 author: 'MD Home Care'
-tags: ["Home Care Package", "Aged Care", "Level 3"]
+tags: ["Support at Home", "Aged Care", "Level 3", "Home Care Package"]
 popupTitle: "Need Help with Your Home Care Package?"
 popupSubtitle: "We can guide you through funding and service options"
 image: '/assets/accessible-bathroom.webp'
 ---
 
-A Level 3 Home Care Package provides **$40,945.70** in annual government funding to help older Australians with intermediate care needs live independently at home. But what does that mean in practical terms?
+> **Important Update:** As of November 1, 2025, the Support at Home program replaced Home Care Packages. If you're searching for "Level 3 Home Care Package," you now need **Support at Home Classification 4, 5, or 6** for intermediate care needs.
 
-This guide answers the most pressing questions about the Level 3 package. We'll break down the funding, explain how many hours of care it provides, detail the services you can access, and help you navigate the critical decision of choosing a provider.
+The Support at Home program provides **$30,000-$50,000** in annual funding for older Australians with intermediate care needs. This guide covers the new Support at Home classifications, what services are covered, and how to choose the right provider.
 
 ## What is a Level 3 Home Care Package?
 
@@ -21,9 +21,18 @@ A Level 3 Home Care Package (HCP) is designed for older Australians who need a m
 
 ## How Much Funding Do I Get in 2025?
 
-As of the latest government figures for 2025, a Level 3 Home Care Package provides **$40,945.70** per year.
+Under the new Support at Home program, intermediate care funding is:
 
-This amount is paid directly to your chosen Home Care Provider, who then works with you to spend the funds on the services outlined in your care plan.
+| Classification | Annual Budget | Quarterly Budget |
+|---------------|---------------|------------------|
+| Classification 4 | ~$30,000 | ~$7,500 |
+| Classification 5 | ~$39,000 | ~$9,750 |
+| Classification 6 | ~$50,000 | ~$12,500 |
+
+**Key changes from the old system:**
+- Budgets are now paid **quarterly** and held by Services Australia
+- You can roll over up to **$1,000 or 10%** of your quarterly budget
+- Care management fees are **capped at 10%**
 
 ## How Many Hours of Care Is That?
 
@@ -86,11 +95,15 @@ Hearing from others can help you understand the real-world impact. Anonymized st
 
 The common theme is that while the system can be hard to navigate, a Level 3 package can be life-changing, enabling independence and providing peace of mind for families.
 
-## The Future: The New Support at Home Program
+## The Support at Home Program is Now Live
 
-The Australian Government is introducing a new **Support at Home program** which will replace Home Care Packages from **November 1, 2025**.
+As of **November 1, 2025**, the Support at Home program has replaced Home Care Packages. If you were previously on a Level 3 HCP, you've been transitioned to the equivalent Support at Home classification (typically Classification 4, 5, or 6).
 
-The goal is to create a simpler, more flexible system. While details are still being finalized, it's expected that existing Level 3 recipients will transition to the new program and receive at least the same level of funding. We will update this guide as more information becomes available.
+**Key benefits of the new system:**
+- **8 classifications** instead of 4 levels (more tailored to your needs)
+- **Quarterly budgets** with rollover flexibility
+- **10% cap on care management fees** (more money for actual care)
+- Simpler assessment process through My Aged Care
 
 ## Frequently Asked Questions (FAQ)
 
