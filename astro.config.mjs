@@ -34,6 +34,9 @@ export default defineConfig({
     '/blog/ndis-respite-sta-short-term-accommodation-guide-2025/': '/blog/ndis-respite-sta-accommodation-guide-2025/',
     '/blog/ndis-respite-sta-pricing-guide-2024-25': '/blog/ndis-respite-sta-accommodation-guide-2025',
     '/blog/ndis-respite-sta-pricing-guide-2024-25/': '/blog/ndis-respite-sta-accommodation-guide-2025/',
+    // Finding NDIS Clients page consolidation
+    '/blog/how-to-find-get-ndis-clients-support-worker': '/blog/how-to-find-ndis-clients-participants-guide',
+    '/blog/how-to-find-get-ndis-clients-support-worker/': '/blog/how-to-find-ndis-clients-participants-guide/',
   },
   integrations: [
     icon(),

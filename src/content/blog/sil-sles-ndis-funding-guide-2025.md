@@ -1,24 +1,25 @@
 ---
-title: "SIL & SLES NDIS Funding 2025: Costs, Eligibility & How to Apply"
-description: "NDIS SIL and SLES funding guide 2025. Supported Independent Living costs ($80K-$320K/year), SLES eligibility, application process, and how to get approved for 24/7 support."
+title: "SIL NDIS Funding 2025: Supported Independent Living Costs & How to Apply"
+description: "NDIS SIL funding guide 2025. Supported Independent Living costs ($80K-$320K/year), eligibility requirements, application process, and how to get approved for 24/7 support."
 pubDate: 2025-07-18
 author: "MD Home Care"
-tags: ["SIL NDIS", "SLES", "Supported Independent Living", "NDIS Funding", "Disability Accommodation"]
+tags: ["SIL NDIS", "Supported Independent Living", "NDIS Funding", "Disability Accommodation"]
 popupTitle: "Exploring Independent Living Options?"
-popupSubtitle: "We can help you access SIL and SLES funding"
+popupSubtitle: "We can help you access SIL funding"
 image: "/assets/accessible bathroom.webp"
 ---
 
-# SIL & SLES NDIS Funding 2025: Complete Guide to Supported Independent Living Costs
+# SIL NDIS Funding 2025: Complete Guide to Supported Independent Living Costs
 
-**Quick Facts - SIL & SLES NDIS 2025:**
+**Quick Facts - SIL NDIS 2025:**
 - **SIL Funding**: Up to $320,000 annually for high support needs
-- **SLES Funding**: $150,000-250,000 annually for transitional support
 - **Eligibility**: Assessed through NDIS planning process
-- **Duration**: SIL ongoing, SLES up to 2 years typically
+- **Duration**: Ongoing support for participants with significant daily support needs
 - **⚠️ Updates**: Enhanced assessment criteria and funding models 2025
 
-Supported Independent Living (SIL) and Specialist Level of Everyday Support (SLES) are specialized NDIS funding categories that provide intensive support for people with significant disabilities to live independently in the community. These services offer 24/7 or high-intensity support in shared or individual accommodation settings.
+Supported Independent Living (SIL) is a specialized NDIS funding category that provides intensive support for people with significant disabilities to live independently in the community. SIL offers 24/7 or high-intensity support in shared or individual accommodation settings.
+
+> **Looking for School Leaver Employment Supports (SLES)?** SLES is a different NDIS program that helps young people (ages 15-22) transition from school to employment. It provides around $22,000/year for up to 2 years. This guide focuses on Supported Independent Living (SIL) for accommodation support needs.
 
 > **Calculate Your SIL Costs:** Use our free [NDIS SIL Calculator](/tools/ndis-sil-calculator) to estimate Supported Independent Living costs based on your support ratio, overnight care needs, and 2025-26 NDIS rates.
 
@@ -36,19 +37,6 @@ Supported Independent Living (SIL) is NDIS funding that covers the cost of daily
 
 SIL is funded under the Core Supports category of NDIS plans and is one of the most intensive support types available through the scheme.
 
-## What is SLES NDIS Funding?
-
-Specialist Level of Everyday Support (SLES) is temporary, intensive NDIS funding designed to help participants build skills and confidence to transition to more independent living arrangements. SLES provides higher levels of support for a limited time period.
-
-### SLES NDIS Support Includes:
-- **Intensive skill building** in daily living activities
-- **Behavior support** for complex needs
-- **Transition planning** to less intensive support
-- **Crisis intervention** and stabilization support
-- **Family and carer training** where appropriate
-- **Goal-focused interventions** with measurable outcomes
-
-SLES is typically funded for 12-24 months and is designed to achieve specific goals that increase a participant's independence.
 
 ## SIL NDIS Funding Amounts 2025
 
@@ -69,24 +57,8 @@ SLES is typically funded for 12-24 months and is designed to achieve specific go
 - **Geographic location** and service availability
 - **Individual vs shared support** arrangements
 
-## SLES Funding Amounts and Duration
 
-### SLES NDIS Funding Ranges 2025
-
-| SLES Type | Annual Funding | Typical Duration |
-|-----------|----------------|------------------|
-| **Transitional SLES** | $150,000-200,000 | 12-18 months |
-| **Crisis SLES** | $200,000-250,000 | 6-12 months |
-| **Specialized SLES** | $250,000-300,000 | 18-24 months |
-
-### SLES Funding Objectives:
-- **Skill development** in independent living
-- **Behavior modification** and support strategies
-- **Transition preparation** to less intensive supports
-- **Crisis stabilization** and safety management
-- **Family capacity building** and support
-
-## SIL and SLES Eligibility Requirements
+## SIL Eligibility Requirements
 
 ### Who Qualifies for SIL NDIS Support?
 
@@ -98,21 +70,11 @@ To be eligible for SIL funding, participants must:
 - **Have limited informal support** available
 - **Be assessed as requiring ongoing support** rather than skill building
 
-### SLES Eligibility Criteria:
-
-SLES funding is available for participants who:
-- **Need intensive short-term support** to build skills
-- **Are transitioning** from family home or institutional care
-- **Experience crisis situations** requiring stabilization
-- **Have specific goals** that can be achieved through intensive support
-- **Would benefit from reduced support** after skill development
-- **Have complex behavioral or medical needs** requiring specialist intervention
-
-## How to Apply for SIL and SLES Funding
+## How to Apply for SIL Funding
 
 ### Step 1: NDIS Plan Review Request
 - Contact your NDIS planner or Local Area Coordinator
-- Request plan review to discuss SIL or SLES needs
+- Request plan review to discuss SIL needs
 - Gather supporting documentation from healthcare providers
 - Schedule comprehensive assessment meeting
 
@@ -137,16 +99,6 @@ SLES funding is available for participants who:
 - **Service commencement** and monitoring
 - **Regular reviews** and adjustments
 
-## SIL vs SLES: Key Differences
-
-| Aspect | SIL | SLES |
-|--------|-----|------|
-| **Purpose** | Ongoing daily support | Intensive skill building |
-| **Duration** | Indefinite/ongoing | 12-24 months typically |
-| **Focus** | Maintaining independence | Developing independence |
-| **Intensity** | Consistent daily support | Intensive short-term support |
-| **Goals** | Quality of life maintenance | Skill development and transition |
-| **Funding** | Core Supports budget | Capacity Building budget |
 
 ## Finding SIL and SLES Providers
 

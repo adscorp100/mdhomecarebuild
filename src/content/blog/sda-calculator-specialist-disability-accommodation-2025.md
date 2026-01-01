@@ -30,6 +30,8 @@ image: "/assets/carer.webp"
 - [How to Apply for SDA](#how-to-apply-for-sda-funding)
 - [Finding SDA Properties](#how-to-find-sda-properties)
 
+> **Interactive Calculator:** Use our free **[SDA Calculator Tool](/tools/ndis-sda-calculator)** to instantly calculate your estimated funding based on design category, building type, and location.
+
 > **Check Your Eligibility:** Before calculating SDA funding, use our free **[NDIS Eligibility Checker](/tools/ndis-eligibility-checker)** to confirm you meet the basic requirements for NDIS support.
 
 ## SDA Calculator: Key Points

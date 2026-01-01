@@ -25,6 +25,7 @@ This guide gives you everything you need: templates you can use immediately, rea
 - NDIS planners look for **specific, measurable impacts** rather than general statements like "it's hard"
 - Include **supporting evidence** such as GP letters, receipts, or psychologist reports to strengthen your statement
 - A good statement is typically **1-2 pages** (500-800 words) with clear headings and bullet points
+- **Free template available:** Download our [Carer Impact Statement Template (DOCX)](/downloads/ndis-carer-impact-statement-template-2025.docx) to get started
 
 ---
 
@@ -57,6 +58,8 @@ Consider writing a carer impact statement if:
 ---
 
 ## Carer Impact Statement Template
+
+> **Download Our Free Template:** We've created a professional Carer Impact Statement template with all the sections covered below, formatted and ready to fill in. [Download Carer Impact Statement Template (DOCX)](/downloads/ndis-carer-impact-statement-template-2025.docx)
 
 Use this structure to organise your statement. You don't need to include every section, but covering the key areas helps planners understand your full situation.
 
