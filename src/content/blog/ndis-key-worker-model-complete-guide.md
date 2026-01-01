@@ -1,362 +1,353 @@
 ---
-title: "NDIS Key Worker Model: Complete Guide to Key Workers & Qualifications (2025)"
-description: "What is a key worker in the NDIS? Learn about the key worker model, qualifications required, how it differs from support coordination, and benefits for participants."
-pubDate: 2025-01-15
+title: "NDIS Key Worker: What Parents Need to Know About the Key Worker Model (2025)"
+description: "Complete parent guide to NDIS key workers. Learn what a key worker does for your child, how to find one, what to expect, and how the key worker model helps with early intervention."
+pubDate: 2026-01-01
 author: "MD Home Care"
-tags: ["NDIS", "Key Worker", "Early Intervention", "Support Coordination"]
+tags: ["NDIS", "Key Worker", "Early Intervention", "ECEI", "NDIS Parents"]
 popupTitle: "Looking for Key Worker Support?"
-popupSubtitle: "Our team can help coordinate your NDIS services with a person-centred approach"
+popupSubtitle: "We can help connect you with quality early intervention services"
+image: "/assets/downs.webp"
 ---
 
-The NDIS key worker model is transforming how disability supports are delivered in Australia. Instead of participants juggling multiple providers with no central coordinator, a key worker becomes the single trusted professional who coordinates, delivers, and monitors all supports.
+## Key Points
 
-This guide explains what a key worker is, who can become one, how it differs from support coordination, and why the model is particularly valuable for early intervention and complex support needs.
+- **A key worker** is a single trusted professional who coordinates all your child's NDIS supports
+- **One point of contact** - instead of juggling multiple therapists, you have one person who manages everything
+- **Common for children** - key workers are especially valuable in Early Childhood Early Intervention (ECEI)
+- **They deliver AND coordinate** - unlike support coordinators, key workers can provide therapy directly
+- **Family-centred** - good key workers support the whole family, not just your child
+
+---
+
+If you've just entered the NDIS for your child, you may have heard about "key workers" and wondered what they do. Put simply, a key worker is the one person who helps make sense of everything - coordinating your child's therapies, communicating with all the providers, and being there when you have questions.
+
+This guide explains what a key worker does, how to find one, and what to expect from the relationship.
 
 ## What is a Key Worker in the NDIS?
 
-A key worker is a single professional who serves as the primary point of contact for an NDIS participant, coordinating and often delivering their supports while ensuring everything is person-centred and outcome-focused.
+A key worker is the single professional who becomes your main point of contact for your child's NDIS supports. Instead of you coordinating between the speech therapist, OT, and physio, your key worker handles that coordination - while often providing therapy directly themselves.
 
-### Key Worker Responsibilities
+Think of them as your child's "team captain" who makes sure everyone is working towards the same goals.
 
-| Responsibility | What It Involves |
-|----------------|------------------|
-| **Plan Development** | Working with the participant to develop a support plan aligned with their NDIS goals |
-| **Service Coordination** | Linking participants with allied health, therapy, and community services |
-| **Direct Service Delivery** | Delivering therapeutic interventions (if qualified) |
-| **Progress Monitoring** | Tracking outcomes and adjusting supports as needed |
-| **Family Liaison** | Being the single point of contact for families and carers |
-| **Advocacy** | Representing the participant's interests with other providers and the NDIA |
-| **Reporting** | Documenting progress and preparing for plan reviews |
+### What Your Key Worker Does
 
-### Where Key Workers Operate
+| What They Do | How This Helps Your Family |
+|--------------|----------------------------|
+| **Coordinates all therapies** | You don't have to chase multiple providers or repeat information |
+| **Delivers therapy directly** | They know your child well and can provide consistent support |
+| **Communicates with the whole team** | Speech, OT, physio all work together, not in isolation |
+| **Tracks your child's progress** | You get clear updates on how your child is developing |
+| **Prepares for plan reviews** | They document everything you need for your next NDIS review |
+| **Answers your questions** | One phone call, one email - they know your child's full picture |
+| **Supports you as parents** | Good key workers help the whole family, not just your child |
 
-Key workers are commonly found in:
-- Early childhood intervention services
-- Mental health programs
-- Community-based disability services
-- Private allied health practices
-- NDIS-registered provider organisations
+### Where You'll Find Key Workers
+
+Key workers are most commonly part of:
+- **Early childhood intervention services** (ECEI partners and providers)
+- **Allied health practices** offering paediatric services
+- **Community-based disability services**
+- **Multi-disciplinary therapy centres**
+- **Some NDIS-registered providers**
+
+> **Looking for your Local Area Coordinator?** They can help you find key worker services in your area. Learn more about [what LACs do](/blog/what-is-a-local-area-coordinator-complete-guide).
+
+---
 
 ## Key Worker vs Support Coordinator: What's the Difference?
 
-This is one of the most common questions about the key worker model. While both roles involve coordination, they serve different purposes.
+This is one of the most common questions parents have. Both roles involve coordination, but they work quite differently.
 
-| Feature | Key Worker | Support Coordinator |
+| | Key Worker | Support Coordinator |
 |---------|------------|---------------------|
-| **Primary Focus** | Delivers AND coordinates supports | Coordinates only (no direct service delivery) |
-| **Direct Service** | Yes - can provide therapy/intervention if qualified | No - refers to other providers |
-| **Caseload** | Smaller (5-15 participants) for intensive work | Larger (15-30+ participants) |
-| **Relationship** | Deep, ongoing therapeutic relationship | Advisory, navigational relationship |
-| **Funding Source** | Core Supports or Capacity Building | Specific Support Coordination line item |
-| **Typical Background** | Allied health, early childhood, nursing | Case managers, social workers |
+| **Main role** | Delivers AND coordinates your child's therapies | Helps you navigate the NDIS system and find providers |
+| **Provides therapy?** | Yes - often delivers therapy directly | No - connects you to therapists but doesn't provide therapy |
+| **How many families?** | Smaller caseload (5-15 families) for intensive work | Larger caseload (20-30+ participants) |
+| **Relationship** | Deep, ongoing - really gets to know your child | Advisory - helps with the big picture and paperwork |
+| **Who are they?** | Usually allied health professionals (OT, speech, physio) | Case managers, social workers |
 
-### When to Use Each
+### Which Does Your Child Need?
 
-**Choose a Key Worker when:**
-- The participant needs ongoing, coordinated therapeutic input
-- Multiple services need to be tightly integrated
-- A single point of accountability is important
+**A key worker is best when:**
+- Your child needs multiple therapies that should work together
+- You want one person who deeply understands your child
 - Early intervention is the focus
+- You're juggling too many appointments and providers
 
-**Choose Support Coordination when:**
-- The participant mainly needs help navigating the system
-- They need assistance finding and selecting providers
-- Plan management and budgeting guidance is the priority
-- Services are relatively straightforward to coordinate
+**A support coordinator is best when:**
+- You mainly need help understanding and using your NDIS plan
+- You need to find and choose providers
+- Your child's supports are straightforward
+- You need help with plan reviews and budgeting
 
-> **Note:** Some participants benefit from having both—a support coordinator for plan-level navigation and a key worker for day-to-day therapeutic coordination.
+> **Many families have both:** A [support coordinator](/blog/what-does-a-support-coordinator-do-in-the-ndis) for plan-level help and a key worker for day-to-day therapy coordination. Talk to your LAC about what's right for your situation.
 
-## Who Can Be a Key Worker?
+---
 
-The key worker role isn't limited to a single profession. Various professionals can act as key workers if they meet the competency requirements.
+## What Type of Professional Will Be Your Key Worker?
 
-### Eligible Professionals
+Your child's key worker could be one of several different professionals, depending on your child's needs and what's available in your area.
 
-| Professional | Why They Qualify |
-|--------------|------------------|
-| **Occupational Therapists** | Clinical expertise in daily living and therapeutic interventions |
-| **Speech Pathologists** | Communication expertise, particularly valuable for children |
-| **Physiotherapists** | Movement and physical function expertise |
-| **Psychologists** | Behaviour support and mental health expertise |
-| **Social Workers** | Strong coordination, advocacy, and case management skills |
-| **Early Childhood Educators** | Developmental knowledge and family-centred practice |
-| **Registered Nurses** | Clinical monitoring and health system navigation |
-| **Experienced Support Workers** | With additional key worker training |
+### Common Key Worker Professionals
 
-## Key Worker Qualifications and Requirements
+| Professional | Best For |
+|--------------|----------|
+| **Occupational Therapist (OT)** | Children who need help with daily living skills, sensory processing, or fine motor development |
+| **Speech Pathologist** | Children with communication challenges, speech delays, or feeding difficulties |
+| **Physiotherapist** | Children with physical or movement challenges, gross motor development |
+| **Early Childhood Educator** | Young children (0-6) needing developmental support across multiple areas |
+| **Psychologist** | Children with behavioural challenges, autism, or complex needs |
+| **Social Worker** | Families needing strong advocacy and system navigation alongside therapy |
 
-To work as a key worker in the NDIS, you typically need:
+The most important thing isn't their profession - it's that they have experience with children like yours and that you feel comfortable working with them.
 
-### Mandatory Requirements
+### What Makes a Good Key Worker?
 
-| Requirement | Details |
-|-------------|---------|
-| **NDIS Worker Screening Check** | Current and renewed annually |
-| **Professional Registration** | AHPRA registration (for allied health) or equivalent |
-| **Police Check** | National Police Check |
-| **Working With Children Check** | If working with children |
-| **Key Worker Training** | NDIS-approved training program (see below) |
+When you're looking for a key worker, look for someone who:
 
-### Experience Requirements
+- **Listens to you** - takes time to understand your family's situation and priorities
+- **Communicates clearly** - explains things in plain language, not jargon
+- **Is responsive** - returns calls and emails in reasonable timeframes
+- **Involves you** - teaches you strategies to use at home, doesn't just "do therapy"
+- **Coordinates well** - actually talks to other providers, not just sends reports
+- **Is flexible** - adjusts their approach based on what's working for your child
 
-Most employers and NDIS providers require:
-- **2-3 years** minimum experience in disability support or allied health
-- Demonstrated experience in early intervention (for ECEI roles)
-- Evidence of person-centred practice
+---
 
-### Key Worker Training Programs
+## What to Expect When Working With a Key Worker
 
-Several organisations offer NDIS-approved key worker training:
+Here's what the key worker journey typically looks like for families:
 
-| Provider | Program | Duration | Certification |
-|----------|---------|----------|---------------|
-| **National Disability Services (NDS)** | Key Worker Pathway | 30 hours | NDIS Key Worker Certificate |
-| **Australian Institute of Disability** | Early Childhood Key Worker | 20 hours | EC Key Worker Credential |
-| **State Disability Workforce Boards** | Regional programs | 10-12 hours | State endorsement |
+### Getting Started
 
-### What Key Worker Training Covers
+1. **You contact a provider** that offers key worker services (your LAC or support coordinator can help you find one)
+2. **Initial assessment** - the provider meets with you to understand your child's needs
+3. **Key worker assigned** - you're matched with a professional suited to your child
+4. **First meeting** - your key worker meets with you and your child to build rapport
 
-Core training modules typically include:
-1. NDIS Fundamentals and Legislation
-2. Person-Centred Planning and Goal Setting
-3. Clinical Coordination and Multidisciplinary Teams
-4. Documentation, Reporting, and Compliance
-5. Cultural Safety and Trauma-Informed Practice
+### The First Few Weeks
 
-**Training renewal:** Most certifications require refresher training every 2 years.
+| What Happens | What You Should Expect |
+|--------------|------------------------|
+| **Getting to know your child** | Key worker observes, assesses, and starts to understand your child's strengths and challenges |
+| **Understanding your priorities** | They ask what matters most to you and what your family goals are |
+| **Reviewing your NDIS plan** | They look at your [goals](/blog/ndis-goals-examples-smart-planning-guide-2025) and funding to plan services |
+| **Creating a therapy plan** | They develop a schedule of supports that works for your family |
 
-## How the Key Worker Model Works
+### Ongoing Support
 
-Here's how the key worker model operates in practice:
+Once established, your key worker will typically:
 
-### Step 1: Assessment and Assignment
-- Participant contacts an NDIS provider
-- Provider assesses needs and assigns a key worker
-- Key worker becomes the single point of contact
+- **Meet with your child regularly** - weekly or fortnightly depending on needs
+- **Coordinate other therapies** - make sure all providers are working together
+- **Keep you updated** - regular progress updates (ask how often and in what format)
+- **Teach you home strategies** - so you can support your child between sessions
+- **Adjust as needed** - if something isn't working, they'll adapt the approach
 
-### Step 2: Initial Planning Meeting
-- Key worker meets with participant and family
-- Reviews current NDIS plan and goals
-- Clarifies preferences, cultural context, and unmet needs
+### Plan Review Time
 
-### Step 3: Support Plan Development
-Using the NDIS Planning Toolkit, the key worker develops a plan that outlines:
-- Specific outcomes to achieve
-- Service mix (therapy, community access, assistive technology)
-- Funding allocation across categories
-- Timeline and milestones
+When your NDIS plan review approaches, your key worker will:
 
-### Step 4: Service Coordination and Delivery
-- Books appointments with allied health professionals
-- Coordinates schedules to avoid conflicts
-- Delivers direct services if qualified
-- Maintains communication with all providers
+- Document all the progress your child has made
+- Prepare reports showing how funding was used
+- Help you think about what goals to set for the next plan
+- Support you in the review meeting if needed
 
-### Step 5: Progress Monitoring
-- Weekly or fortnightly progress notes
-- Quarterly outcome reviews
-- Adjustments to support plan as needed
+> **Related:** Understanding your [NDIS plan management options](/blog/ndis-plan-manager-complete-guide-2025) can help you make the most of your key worker's support.
 
-### Step 6: Plan Review Preparation
-- Compiles evidence of outcomes achieved
-- Documents budget utilisation
-- Identifies any changes needed for the next plan
-- Supports participant in NDIA review meetings
+---
 
 ## Early Childhood Key Workers (ECEI)
 
-The key worker model is particularly important in Early Childhood Early Intervention (ECEI), where coordinated, family-centred support makes the biggest difference.
+If your child is under 9 and accessing early intervention, the key worker model is especially important. Young children's development is rapid, and having one person coordinate everything makes a real difference.
 
-### ECEI Key Worker Responsibilities
+### What Early Childhood Key Workers Focus On
 
-| Area | What's Involved |
-|------|-----------------|
-| **Developmental Support** | Coordinating therapies aligned with developmental milestones |
-| **Family Education** | Teaching parents strategies to support their child at home |
-| **School Transition** | Planning the move from early intervention to school |
-| **Service Integration** | Ensuring therapies work together, not in silos |
-| **Progress Tracking** | Monitoring developmental gains against benchmarks |
+| Focus Area | What This Means for Your Child |
+|------------|-------------------------------|
+| **Developmental milestones** | Helping your child reach their developmental potential across all areas |
+| **Play-based learning** | Using play to build skills naturally and engagingly |
+| **Coaching you as parents** | Teaching you strategies so therapy continues at home |
+| **Kindy and school readiness** | Preparing for transitions to childcare, kindergarten, or school |
+| **Coordinated therapies** | Making sure speech, OT, and physio all work towards the same goals |
 
-### Who Can Be an ECEI Key Worker?
+### What Makes ECEI Key Workers Different?
 
-ECEI key workers are typically:
-- Early Childhood Teachers with disability training
-- Paediatric Occupational Therapists
-- Speech Pathologists with early childhood experience
-- Physiotherapists specialising in paediatrics
-- Allied health professionals with 2+ years in early intervention
+Early childhood key workers are specifically trained to work with young children and families. They understand that:
 
-### ECEI Key Worker Qualifications
+- **Parents are the experts** on their own child
+- **Natural environments** (home, playground, kindy) are where learning happens best
+- **Whole-family support** is essential - they help the whole household, not just your child
+- **Early years matter** - intensive early support can change your child's trajectory
 
-Beyond standard key worker requirements, ECEI key workers usually need:
-- Specific training in early childhood development (0-6 years)
-- Understanding of the ECEI framework
-- Experience with family-centred practice
-- Knowledge of school transition processes
+### Is an ECEI Key Worker Right for Your Child?
+
+The ECEI key worker approach is particularly valuable when:
+
+- Your child is under 7 and newly accessing the NDIS
+- You want one trusted professional coordinating everything
+- You need practical strategies to use at home every day
+- Your child has multiple therapy needs (not just one area)
+- You're preparing for the transition to school
+
+> **Not sure about ECEI eligibility?** Our [NDIS eligibility guide](/blog/ndis-eligibility-requirements-complete-guide-2025) explains the early intervention pathway for young children.
+
+---
 
 ## Benefits of the Key Worker Model
 
-Research and practice evidence show significant benefits from the key worker approach:
+### For Your Child
 
-### For Participants
+| Benefit | What This Means |
+|---------|-----------------|
+| **Better progress** | One person focused on your child's outcomes, not just hours of service |
+| **Consistent care** | Same therapist who really knows your child, not a rotating roster |
+| **Coordinated therapy** | All services working together toward the same goals |
+| **Smoother transitions** | Someone to manage changes (new kindy, new school, etc.) |
 
-| Benefit | How It Helps |
-|---------|--------------|
-| **Better Outcomes** | Person-centred focus leads to measurable progress |
-| **Less Confusion** | One point of contact instead of multiple providers |
-| **Consistent Care** | Same worker understands your full situation |
-| **Stronger Advocacy** | Someone who knows you well represents your interests |
-| **Smoother Transitions** | Coordinated handovers when circumstances change |
+### For You as Parents
 
-### For Families
+| Benefit | What This Means |
+|---------|-----------------|
+| **Less admin burden** | No more coordinating between 4 different providers yourself |
+| **One point of contact** | One person to call when you have questions |
+| **Practical home strategies** | Learn techniques you can use every day |
+| **Expert guidance** | Someone who knows your child can help you make decisions |
 
-| Benefit | How It Helps |
-|---------|--------------|
-| **Reduced Admin** | Don't need to coordinate multiple providers |
-| **Clear Communication** | One person to call with questions |
-| **Family Support** | Key worker helps the whole family, not just the participant |
-| **Informed Decisions** | Expert guidance on therapy options |
+### What Research Shows
 
-### For the System
+Studies on the key worker model show:
+- **85% of families** report less administrative burden
+- **92% parent satisfaction** in early childhood key worker programs
+- Children with key workers show **better developmental outcomes** than those with fragmented services
 
-| Benefit | How It Helps |
-|---------|--------------|
-| **Cost Efficiency** | Reduced duplication and better budget utilisation |
-| **Better Coordination** | Services work together, not at cross-purposes |
-| **Quality Outcomes** | Focus on results, not just service hours |
-| **Regional Equity** | Key workers can use telehealth to reach remote areas |
+---
 
-### Evidence of Effectiveness
+## How Key Workers Are Funded in Your NDIS Plan
 
-Studies show:
-- **30% improvement** in independent living skills for participants with moderate disability
-- **85% of families** report less paperwork with a key worker model
-- **92% parent satisfaction** in early childhood key worker pilots
+The good news: key worker services are funded through your NDIS plan - there's no out-of-pocket cost if you have appropriate funding.
 
-## Key Worker Model Funding
+### Where the Funding Comes From
 
-Key worker services are typically funded through:
+| Your Child's Situation | Funding Category |
+|-----------------------|------------------|
+| **Child under 9 in early intervention** | Early Childhood Early Intervention (ECEI) funding |
+| **Therapy services (OT, speech, physio)** | Capacity Building - Improved Daily Living ([CB Daily Activity](/blog/ndis-improved-daily-living-cb-daily-activity-guide-2025)) |
+| **Direct support activities** | Core Supports |
 
-### Capacity Building - Improved Daily Living
-Most key worker therapeutic services fall under this category, including:
-- Allied health assessments
-- Therapy services
-- Plan development support
+### What to Check in Your Plan
 
-### Core Supports
-Some key worker coordination activities may be funded under Core, particularly:
-- Direct support delivery
-- Community access facilitation
+Look at your NDIS plan to see if you have funding in:
+- **CB Daily Activity** (sometimes called "Improved Daily Living") - this is where most therapy and key worker services come from
+- **Core Supports** - some coordination activities may be funded here
+- **ECEI** - if your child is under 9, funding may be structured differently
 
-### ECEI Funding
-Early childhood key workers are funded through the Early Childhood Early Intervention pathway, with specific line items for:
-- Early intervention therapy
-- Family-centred practice
-- Transition planning
+> **Need help understanding your plan?** Learn about the different [NDIS Capacity Building categories](/blog/ndis-capacity-building-supports-complete-guide-2025) and how your funding is organised.
 
-## Finding a Key Worker Provider
+---
 
-### What to Look For
+## How to Find a Key Worker for Your Child
 
-When choosing a key worker provider, consider:
+### Where to Start
 
-**Qualifications:**
-- Is the key worker appropriately qualified?
-- Do they have specific training in the key worker model?
-- Are they registered with relevant professional bodies?
+1. **Ask your LAC or support coordinator** - they can recommend key worker providers in your area
+2. **Ask other parents** - local disability support groups often share provider recommendations
+3. **Contact ECEI partners** - if your child is under 9, your ECEI partner can connect you with key worker services
+4. **Search the NDIS provider finder** - look for allied health providers offering coordination
 
-**Experience:**
-- How many years have they worked in disability?
-- Do they have experience with your specific needs?
-- Can they provide references or case studies?
+### Questions to Ask When Meeting Providers
 
-**Approach:**
-- Is their approach person-centred?
-- How do they involve families in planning?
-- What's their communication style?
+Before you commit to a key worker, it's worth having a conversation. Here are questions to ask:
 
-**Logistics:**
-- Can they provide services in your location?
-- What's their availability?
-- Do they offer telehealth options?
+**About them:**
+- How long have you been working as a key worker?
+- What experience do you have with children like mine?
+- How many families are you currently working with?
 
-### Questions to Ask Potential Key Workers
+**About how they work:**
+- How often would we see you? Where (home, clinic, kindy)?
+- How will you communicate with me between sessions?
+- How do you coordinate with other therapists?
+- What happens if you're sick or go on leave?
 
-1. What qualifications and training do you have?
-2. How long have you been working as a key worker?
-3. What's your typical caseload?
-4. How often would we meet?
-5. How do you involve families in the process?
-6. What happens if you're away or leave the organisation?
-7. How do you measure and report on progress?
+**About your child's progress:**
+- How will I know my child is making progress?
+- How often will you give me updates?
+- What does your reporting look like for plan reviews?
 
-## Becoming a Key Worker: Career Pathway
+**About your involvement:**
+- How do you involve parents in therapy?
+- Will you teach me strategies to use at home?
 
-If you're interested in becoming a key worker, here's a typical pathway:
+### Red Flags to Watch For
 
-### Step 1: Foundational Qualifications
-- Complete a degree in allied health, early childhood, or social work
-- Obtain professional registration (AHPRA, etc.)
+Be cautious if a potential key worker:
+- Won't give you straight answers about their experience
+- Seems dismissive of your concerns or priorities
+- Doesn't want to communicate with other providers
+- Can't explain how they'll measure progress
+- Isn't willing to adapt their approach to your family
 
-### Step 2: Gain Experience
-- Work 2-3 years in disability services or early intervention
-- Develop skills in person-centred practice
-
-### Step 3: Complete Key Worker Training
-- Choose an NDIS-approved program
-- Complete all modules and assessments
-
-### Step 4: Obtain Clearances
-- NDIS Worker Screening Check
-- Police check
-- Working With Children Check
-
-### Step 5: Find a Role
-- Apply with NDIS providers offering key worker services
-- Consider specialising in early childhood or complex needs
-
-### Ongoing Development
-- Complete CPD requirements (typically 10+ hours annually)
-- Renew training certification every 2 years
-- Stay current with NDIS changes
+---
 
 ## Frequently Asked Questions
 
-### Is a key worker the same as a support coordinator?
+### Do I need a key worker for my child?
 
-No. A key worker delivers AND coordinates supports, while a support coordinator only helps navigate and connect to providers. Key workers have smaller caseloads and build deeper therapeutic relationships.
+Not everyone needs a key worker, but they're particularly valuable when your child has multiple therapy needs that should work together. If you're juggling OT, speech, and physio appointments yourself and feeling overwhelmed, a key worker can take that coordination off your plate.
 
-### Do I need a key worker if I have a support coordinator?
+### What's the difference between a key worker and a support coordinator?
 
-Not necessarily, but many participants benefit from both. The support coordinator handles plan-level navigation while the key worker manages day-to-day therapeutic coordination.
+A **key worker** provides therapy AND coordinates all your child's services - they're a hands-on therapist who knows your child deeply. A **[support coordinator](/blog/what-does-a-support-coordinator-do-in-the-ndis)** helps you navigate the NDIS system and find providers, but doesn't provide therapy themselves.
 
-### Can any support worker become a key worker?
-
-Experienced support workers can become key workers, but they need to complete approved key worker training and typically have 2+ years of relevant experience.
+Many families have both: a support coordinator for plan-level help and a key worker for day-to-day therapy coordination.
 
 ### Is the key worker model only for children?
 
-No. While it's particularly common in early childhood intervention, the key worker model is used across all age groups, especially for participants with complex or multidisciplinary needs.
+No. While key workers are especially common in early childhood intervention (ECEI), the model works for participants of all ages, particularly those with complex needs requiring multiple therapies.
 
 ### How much does a key worker cost?
 
-Key worker services are funded through your NDIS plan, typically under Capacity Building or Core Supports. There's no out-of-pocket cost if you have appropriate funding.
+Key worker services are funded through your NDIS plan. If you have CB Daily Activity (therapy) funding, there's no out-of-pocket cost. Check your plan to see what's available.
 
 ### Can I choose my own key worker?
 
-Generally yes, though it depends on your provider. Most participants can request a different key worker if the relationship isn't working.
+Generally yes. If the first key worker assigned doesn't feel like a good fit, you can ask to try someone else. The relationship matters - you need someone you trust and can communicate openly with.
 
-## Get Key Worker Support
+### What if our key worker leaves?
 
-The key worker model offers a more coordinated, person-centred approach to NDIS services. If you're looking for a single trusted professional to help coordinate your supports, we can help.
+Good providers will have a transition plan. Ask about this upfront: "What happens if our key worker goes on maternity leave or leaves the organisation?" The answer will tell you a lot about how well-managed the service is.
 
-At MD Home Care, we provide:
-- **Coordinated support services** with dedicated staff who get to know you
+### Can we change key workers if it's not working?
+
+Yes. If the relationship isn't working after giving it a fair chance (usually a few months), you can request a different key worker or find a new provider. Your child's progress is what matters most.
+
+---
+
+## Get Help With Your Child's NDIS Supports
+
+Finding the right coordination for your child's therapies can feel overwhelming. At MD Home Care, we help families navigate the NDIS and connect with quality providers who understand the key worker approach.
+
+**How we can help:**
+- **Support coordination** to help you find and connect with key worker services
 - **Allied health connections** with quality therapists across Melbourne
-- **Person-centred planning** that focuses on your goals
-- **Family-inclusive practice** that supports the whole household
+- **Family-centred approach** that supports your whole household
+- **Help with plan reviews** to ensure you have the right funding
 
-**[Contact us today](/contact)** to discuss how we can support your NDIS journey with a coordinated, outcome-focused approach.
+**[Contact MD Home Care](/contact)** to discuss how we can help you find the right supports for your child.
+
+---
+
+## For Professionals: Becoming a Key Worker
+
+If you're an allied health professional interested in becoming a key worker, the typical pathway involves:
+
+1. **Qualifications** - Degree in allied health, early childhood, or social work with professional registration (AHPRA)
+2. **Experience** - 2-3 years in disability services or early intervention
+3. **Key worker training** - NDIS-approved programs available through NDS and other providers
+4. **Clearances** - NDIS Worker Screening Check, police check, Working With Children Check
+
+Key worker certification typically requires renewal every 2 years through refresher training.
 
 ---
 

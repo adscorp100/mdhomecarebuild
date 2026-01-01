@@ -107,7 +107,7 @@ Many applicants work with a [Local Area Coordinator (LAC)](/blog/what-is-a-local
 - Access Request Form
 - Evidence of identity and residency
 - Medical reports and assessments
-- [Functional impact statements](/blog/ndis-functional-capacity-assessment-ultimate-guide-2025)
+- [Functional capacity assessments](/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like)
 - Professional recommendations
 
 **Medical Evidence Requirements**

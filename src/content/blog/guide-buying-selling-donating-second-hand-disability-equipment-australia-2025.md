@@ -1,15 +1,15 @@
 ---
-title: The Ultimate Guide to Buying, Selling & Donating Second-Hand Disability Equipment in Australia [Updated 2025]
-description: Your complete guide to navigating the second-hand market for disability equipment in Australia. Learn how to safely buy, effectively sell, and generously donate used mobility aids and assistive technology in 2025.
+title: "Where to Buy & Sell Second-Hand Disability Equipment Australia 2025: Complete Guide"
+description: Discover where to buy and sell second-hand disability equipment in Australia. Find wheelchairs, mobility scooters, hoists near you in Sydney, Melbourne, Brisbane, Perth. NDIS funding options, safety tips, and trusted platforms for 2025.
 pubDate: 2025-01-11
 author: "Camila"
 image: "/assets/disabled carer.webp"
-tags: ["disability equipment", "second hand", "mobility aids", "NDIS", "assistive technology", "Australia", "buying guide", "selling guide", "donating"]
+tags: ["disability equipment", "second hand", "mobility aids", "NDIS", "assistive technology", "Australia", "buying guide", "selling guide", "donating", "wheelchairs", "mobility scooters"]
 popupTitle: "Need Help Finding Disability Equipment?"
 popupSubtitle: "Our team can guide you to quality equipment within your budget"
 ---
 
-# The Ultimate Guide to Buying, Selling & Donating Second-Hand Disability Equipment in Australia [Updated 2025]
+# Where to Buy & Sell Second-Hand Disability Equipment Australia 2025
 
 ## 1. Introduction: Accessing Affordable Disability Equipment in Australia
 
@@ -54,23 +54,30 @@ Navigating these potential pitfalls requires diligence. The significant knowledg
 
 ## 3. Where to Find Second-Hand Disability Equipment in Australia
 
-The market for used disability equipment in Australia is diverse, offering several avenues for buyers. Knowing where to look and understanding the characteristics of each platform can streamline the search process. For a focused look at this topic, see our guide on [where to buy and sell second-hand disability equipment](/blog/where-buy-sell-second-hand-disability-equipment-australia).
+The market for used disability equipment in Australia is diverse, offering several avenues for buyers. Knowing where to look and understanding the characteristics of each platform can streamline the search process.
 
 ### 3.1 Online Marketplaces & Classifieds
 
 These platforms offer broad reach but vary in specialization.
 
-*   **General Platforms:** Websites like Gumtree 6, eBay 6, and Facebook Marketplace 7 list a vast array of items, including disability equipment.
-    *   **Pros:** Wide selection, potential for local finds, competitive pricing.
-    *   **Cons:** Higher risk of scams, less specific filtering, sellers may lack specialized knowledge, item condition varies greatly.
-*   **Specialist Disability Platforms:** Several websites focus specifically on assistive technology and disability equipment.
-    *   **eBility:** Frequently mentioned and described as a leading accessible classifieds site with a long history, connecting buyers and sellers of disability equipment, vehicles, and properties.1
-    *   **MediAids Marketplace:** Another platform dedicated to buying and selling second-hand disability equipment.6
-    *   **AT Australia Second Hand Register:** A register specifically for second-hand Assistive Technology.6
-    *   **TAD Equip Second Hand Equipment:** Offered by TAD (Technology for Ageing and Disability) organisations.6 (e.g., TADACT also refurbishes items 19).
-    *   **Pros:** More relevant listings, potentially more knowledgeable sellers/buyers, potentially higher trust level.
-    *   **Cons:** May have fewer listings than general platforms.
-*   **Trading Post:** Also listed as a source for mobility aids.6
+**General Platforms:**
+
+| Platform | Website | Best For | Pros | Cons |
+|----------|---------|----------|------|------|
+| **Gumtree** | [gumtree.com.au](https://www.gumtree.com.au/s-disability/c20088) | Local pickup, all equipment types | Free listings, location-based search, large audience | Variable quality, scam risk |
+| **Facebook Marketplace** | [facebook.com/marketplace](https://www.facebook.com/marketplace) | Local sales, quick transactions | Direct messaging, see seller profiles, free | Requires Facebook account |
+| **eBay Australia** | [ebay.com.au](https://www.ebay.com.au/b/Disability-Equipment/261330/bn_7115931957) | Rare items, interstate purchases | Buyer protection, auction options, wide selection | Fees for sellers, shipping costs |
+
+**Specialist Disability Platforms:**
+
+| Platform | Website | Description |
+|----------|---------|-------------|
+| **eBility** | [ebility.com](https://www.ebility.com/) | Australia's leading accessible classifieds since 1998. Lists disability equipment, accessible vehicles, and modified properties. Trusted by the disability community. |
+| **AT Australia** | [ataustralia.org.au](https://www.ataustralia.org.au/) | Peak body for assistive technology with a second-hand equipment register and resources. |
+| **FlexEquip** | [flexequip.com.au](https://www.flexequip.com.au/) | Equipment loan and recycling program operating across multiple states. Offers refurbished equipment at reduced prices. |
+| **Yooralla Equipment Solutions** | [yooralla.com.au](https://www.yooralla.com.au/our-services/equipment-solutions) | Victorian provider offering second-hand and refurbished equipment with professional assessment. |
+| **TAD (Technical Aid to the Disabled)** | [tad.org.au](https://www.tad.org.au/) | Refurbishes and provides custom equipment. TADACT op shop sells reconditioned items. |
+| **MediAids Marketplace** | Contact local branches | Regional platforms for buying and selling second-hand disability equipment. |
 
 Key retailers who supply NDIS equipment, such as [Surgical House](/blog/surgical-house-ndis-equipment-guide) and [Independent Living Centres](/blog/independent-living-centres-ndis-support-australia), may also have clearance or ex-demo stock available.
 
@@ -310,15 +317,32 @@ For second-hand items, 'value for money' is nuanced. While a lower purchase pric
 
 Participants may still need to provide evidence, such as an assessment report from an OT or other therapist, to justify the need for the equipment, even if it's second-hand, particularly for mid-cost (over $1,500) or high-cost (over $15,000) items.45 For second-hand vehicles with existing modifications, specific OT assessments and engineering reports confirming safety, suitability, and compliance are required.45
 
-### 7.3 Purchasing Process & Documentation
+### 7.3 NDIS Price Thresholds for Second-Hand Equipment
 
-*   **Quotes/Estimates:** While formal quotes are typically required only for high-cost AT (over $15,000), the NDIS still requires evidence (like a cost estimate) for mid-cost AT ($1,500 - $15,000) to ensure value for money.51 For second-hand items, this might involve documenting the asking price and comparing it to similar items or the estimated value of the remaining lifespan. Low-cost AT (under $1,500) generally doesn't require quotes.51
-*   **Receipts/Proof of Purchase:** This is crucial, especially for self-managers who need to keep records for potential audits.6 A valid receipt or proof of purchase should ideally include:
-    *   Seller's name and contact details (or ABN if a business).
-    *   Buyer's name.
-    *   Date of purchase.
-    *   Detailed description of the item purchased.
-    *   Total cost paid.6
+Understanding NDIS funding categories is essential when purchasing second-hand equipment:
+
+| Category | Price Range | Requirements | Second-Hand Considerations |
+|----------|-------------|--------------|---------------------------|
+| **Low-Cost AT** | Under $1,500 | No quote required, minimal documentation | Easiest to purchase second-hand. Keep receipt. |
+| **Mid-Cost AT** | $1,500 - $15,000 | Cost estimate required, may need OT/PT assessment | Document condition, compare to new price, justify value for money. |
+| **High-Cost AT** | Over $15,000 | Multiple quotes, detailed OT/PT assessment, NDIS approval | Rare for second-hand purchases. Extensive documentation needed. |
+
+**NDIS Funding Tips for Second-Hand Equipment:**
+
+- **Under $1,500:** Self-managed and plan-managed participants can usually purchase without pre-approval. Keep detailed receipts.
+- **$1,500 - $5,000:** Provide a cost comparison showing how the second-hand price represents value versus new equipment.
+- **$5,000 - $15,000:** An OT or PT report is typically required, even for second-hand items. Document the equipment's condition and expected remaining lifespan.
+- **Over $15,000:** Rarely funded second-hand. Would require exceptional justification and multiple quotes.
+
+**Documentation for Second-Hand NDIS Purchases:**
+
+A valid receipt or proof of purchase should include:
+- Seller's name and contact details (or ABN if a business)
+- Buyer's name (participant's name)
+- Date of purchase
+- Detailed description of the item (make, model, serial number if applicable)
+- Total cost paid
+- Condition statement (e.g., "good working condition, minor cosmetic wear")
 
 ### 7.4 Selling Equipment Originally Bought with NDIS Funds
 
@@ -339,56 +363,183 @@ The broader NDIS environment emphasizes fairness and consumer protection:
 
 Understanding these NDIS specifics allows participants and their support networks to make informed decisions about utilizing funding for second-hand equipment, ensuring compliance and maximising value.
 
-## 8. Finding Local Options: "Near Me" and Australian Cities
+## 8. Second-Hand Disability Equipment Near Me: State-by-State Guide
 
-A significant number of searches for second-hand disability equipment include location-specific terms like "near me" or names of major Australian cities (e.g., Sydney, Melbourne, Brisbane, Perth, Adelaide, Gold Coast, Darwin – evident from the keyword list). Addressing this strong local intent is crucial for both users needing convenient access and for optimising content visibility.
+Finding second-hand disability equipment locally offers significant advantages: you can physically inspect items before purchase, avoid shipping costs for bulky equipment, and access local repair services. Below is a comprehensive state-by-state guide to help you find equipment near you.
 
-### 8.1 The Importance of Local Search
+### 8.1 New South Wales (Sydney & Regional)
 
-Seeking local options offers distinct advantages:
+**Where to Find Second-Hand Disability Equipment in Sydney:**
 
-*   **Inspection:** Buying locally allows potential buyers to physically inspect the equipment before purchase. This is vital for assessing condition, safety, and suitability – aspects difficult to gauge accurately online.4
-*   **Cost Savings:** Eliminates potentially high shipping costs for bulky items like wheelchairs, scooters, or beds.
-*   **Convenience:** Easier pickup or arrangement for viewing.
-*   **Local Support:** Potentially easier access to local repair services or advice if buying from a local retailer or known community member.
+| Retailer/Organisation | Location | Contact | Offers |
+|----------------------|----------|---------|--------|
+| **Mobility Scooters Kingsgrove** | Kingsgrove, Sydney | [mobilityschairs.com.au](https://www.mobilityschairs.com.au/) | Pre-loved & refurbished wheelchairs, scooters |
+| **Astley Mobility** | Hornsby, Sydney | [astleymobility.com.au](https://www.astleymobility.com.au/) | Ex-demo equipment, servicing |
+| **ILS (Independent Living Specialists)** | Multiple Sydney locations | [ilsau.com.au](https://www.ilsau.com.au/) | Clearance stock, equipment trials |
+| **EnableNSW** | Statewide service | [enable.health.nsw.gov.au](https://www.enable.health.nsw.gov.au/) | Equipment reallocation program |
 
-### 8.2 Tips for Effective Local Searching
+**Regional NSW:**
+- **Hunter Valley:** Contact Hunter New England Health for equipment recycling programs
+- **Illawarra:** Disability Trust offers equipment advice and referrals
+- **Central Coast:** Local Rotary clubs run RAMP equipment programs
 
-Combine online and offline strategies for the best results:
+**Search Tips for NSW:**
+- Use Gumtree Sydney/NSW filters for local listings
+- Join "Disability Equipment NSW Buy Sell Swap" Facebook groups
+- Contact local Independent Living Centres for equipment trials
 
-*   **Specific Online Searches:** Use precise search terms incorporating the location, e.g., "used wheelchair Sydney," "second hand mobility scooter Melbourne," "disability equipment for sale Brisbane near me."
-*   **Localised Classifieds:** Filter general platforms like Gumtree and Facebook Marketplace by location. Check local community Facebook Buy/Sell groups, including those specifically for disability equipment within a city or region.
-*   **Contact Local Retailers:** Identify mobility equipment stores in the area using online searches or store locators from national chains (e.g., ILS 23, Daily Living Products 24, Mobility HQ 7, Statewide Home Health Care 21). Crucially, call or email them specifically asking if they sell second-hand, refurbished, or clearance stock, or if they accept trade-ins. Many primarily sell new equipment, so direct inquiry is necessary to avoid wasted visits.20
-*   **Local Charities & Organisations:** Contact local branches of charities known to handle equipment (e.g., Rotary clubs 36, Salvos, Vinnies 17) or local disability support services to inquire if they resell donated items or know of local sources.
+### 8.2 Victoria (Melbourne & Regional)
 
-### 8.3 Spotlight on Major Australian Hubs (Examples)
+**Where to Find Second-Hand Disability Equipment in Melbourne:**
 
-While availability constantly changes, here are pointers for major cities, combining potential retailer contacts (always verify used stock availability) and relevant organisations:
+| Retailer/Organisation | Location | Contact | Offers |
+|----------------------|----------|---------|--------|
+| **Westernport Mobility** | Hastings | [westernportmobility.com.au](https://www.westernportmobility.com.au/) | Dedicated second-hand section |
+| **Freedom Mobility** | Ringwood | [freedommobility.com.au](https://www.freedommobility.com.au/) | Used equipment, trade-ins |
+| **Statewide Home Health Care** | Bentleigh | [statewidehomehealth.com.au](https://www.statewidehomehealth.com.au/) | Refurbished equipment |
+| **Yooralla Equipment Solutions** | Multiple locations | [yooralla.com.au](https://www.yooralla.com.au/) | Second-hand with OT assessment |
+| **FlexEquip Victoria** | Statewide | [flexequip.com.au](https://www.flexequip.com.au/) | Equipment recycling program |
 
-*   **Sydney, NSW:**
-    *   **Retailers (Check for Used/Demo):** ILS Showrooms 23, Astley Mobility (Hornsby - Ex Demo noted) 29, Mobility Scooters Kingsgrove (Refurbished noted).32 Numerous others exist – use store locators and call first.
-    *   **Organisations:** EnableNSW (context: equipment allocation, not direct buy/donate source for public).42 Check local Rotary clubs, Salvos/Vinnies.
-    *   **Platforms:** Gumtree Sydney, Facebook Marketplace Sydney, local disability groups.
-*   **Melbourne, VIC:**
-    *   **Retailers (Check for Used/Demo/Hire):** Statewide Home Health Care (Bentleigh) 21, Westernport Mobility (Hastings - Second Hand section) 28, Freedom Mobility (Ringwood - Used section) 31, Mobility Scooters for Hire Sales Service Melbourne (Preston - Second Hand section).30 ILS Showrooms.23 Many others – call first.
-    *   **Organisations:** Active Rehabilitation Equipment (Bendigo - accepts donations) 41, Rotary Club of Keilor / Prahran (RAMP program) 36, My Way (Melbourne offices).2 Check local groups.
-    *   **Platforms:** Gumtree Melbourne, Facebook Marketplace Melbourne, local disability groups.
-*   **Brisbane, QLD:**
-    *   **Retailers (Check for Used/Demo):** Mobility Rentals & Sales (Virginia) 25, Hello Mobility (Stafford) 8, Mobile Independence (Caboolture - Second Hand section).34 ILS Showrooms.23 Others available – call first.
-    *   **Organisations:** Sporting Wheelies / Spinal Life Australia (QLD based).39 Check local Rotary, Salvos/Vinnies.
-    *   **Platforms:** Gumtree Brisbane, Facebook Marketplace Brisbane, local disability groups.
-*   **Perth, WA:**
-    *   **Retailers (Check for Used/Demo):** Australian Mobility Equipment (AME - Osborne Park) 22, Motobility (Osborne Park, Joondalup, Mandurah - Second Hand mentioned) 26, Daily Living Products (Multiple locations) 24, Blue Sky Healthcare (Osborne Park - Second Hand mentioned).35 ILS Showrooms.23 Others exist – call first.
-    *   **Organisations:** My Way (Perth, Geraldton offices).2 Check local groups.
-    *   **Platforms:** Gumtree Perth, Facebook Marketplace Perth, local disability groups.
-*   **Adelaide, SA:**
-    *   **Retailers (Check for Used/Demo):** ILS Showrooms.23 Fewer large chains may mean checking independent local suppliers – call first.
-    *   **Organisations:** SA Health's DES previously managed equipment; ownership transferred to users.53 Check local Rotary, Salvos/Vinnies, disability groups.
-    *   **Platforms:** Gumtree Adelaide, Facebook Marketplace Adelaide, local disability groups.
+**Regional Victoria:**
+- **Geelong:** Barwon Health has equipment loan programs
+- **Bendigo:** Active Rehabilitation Equipment accepts donations and sells refurbished items
+- **Ballarat:** Contact Grampians Community Health for local resources
 
-(Similar strategies apply to other locations mentioned in keywords like Gold Coast, Sunshine Coast, Darwin, etc. - adapt by searching local platforms, retailers, and charities).
+**Search Tips for VIC:**
+- Melbourne has the largest second-hand market - more options available
+- Rotary Club of Keilor and Prahran run active RAMP programs
+- Check EACH (Eastern Access Community Health) for equipment trials
 
-Successfully finding local second-hand equipment often requires a proactive, multi-channel approach. Leveraging online tools for broad searching combined with direct phone calls to verify stock and availability at physical locations yields the best results. Remember to always prioritize inspection and professional advice, regardless of where the item is sourced.
+### 8.3 Queensland (Brisbane, Gold Coast & Regional)
+
+**Where to Find Second-Hand Disability Equipment in Brisbane:**
+
+| Retailer/Organisation | Location | Contact | Offers |
+|----------------------|----------|---------|--------|
+| **Mobile Independence** | Caboolture | [mobileindependence.com.au](https://www.mobileindependence.com.au/) | Second-hand section, trade-ins |
+| **Hello Mobility** | Stafford | [hellomobility.com.au](https://www.hellomobility.com.au/) | Refurbished equipment |
+| **Mobility Rentals & Sales** | Virginia | Phone enquiries | Ex-hire and used stock |
+| **Spinal Life Australia** | Woolloongabba | [spinal.com.au](https://www.spinal.com.au/) | Equipment advice, community connections |
+
+**Gold Coast & Regional QLD:**
+- **Gold Coast:** Check Gumtree Gold Coast, multiple mobility stores
+- **Sunshine Coast:** Contact local disability support organisations
+- **Cairns/Townsville:** Regional NDIS providers often know of local equipment sources
+- **Toowoomba:** Darling Downs Health has equipment programs
+
+**Search Tips for QLD:**
+- Queensland has strong community Facebook groups for equipment exchange
+- FlexEquip operates in QLD with equipment recycling
+- Contact QCOSS (Queensland Council of Social Service) for referrals
+
+### 8.4 Western Australia (Perth & Regional)
+
+**Where to Find Second-Hand Disability Equipment in Perth:**
+
+| Retailer/Organisation | Location | Contact | Offers |
+|----------------------|----------|---------|--------|
+| **Motobility** | Osborne Park, Joondalup, Mandurah | [motobility.com.au](https://www.motobility.com.au/) | Second-hand equipment noted |
+| **Blue Sky Healthcare** | Osborne Park | [blueskyhealthcare.com.au](https://www.blueskyhealthcare.com.au/) | Refurbished items |
+| **Daily Living Products** | Multiple WA locations | [dailylivingproducts.com.au](https://www.dailylivingproducts.com.au/) | Clearance stock |
+| **My Way Disability Services** | Perth, Geraldton | [myway.org.au](https://www.myway.org.au/) | Accepts equipment donations, may resell |
+| **Rocky Bay** | Multiple locations | [rockybay.org.au](https://www.rockybay.org.au/) | Equipment advice and trials |
+
+**Regional WA:**
+- **Bunbury/South West:** Contact South West Community Care
+- **Geraldton:** My Way has a regional office
+- **Kalgoorlie:** Limited local options - consider Perth suppliers with delivery
+
+**Search Tips for WA:**
+- Perth market is smaller than eastern states - be patient
+- Gumtree Perth disability section is active
+- WA NDIS providers often maintain equipment lending programs
+
+### 8.5 South Australia (Adelaide & Regional)
+
+**Where to Find Second-Hand Disability Equipment in Adelaide:**
+
+| Retailer/Organisation | Location | Contact | Offers |
+|----------------------|----------|---------|--------|
+| **ILS (Independent Living Specialists)** | Adelaide showroom | [ilsau.com.au](https://www.ilsau.com.au/) | Clearance, equipment trials |
+| **Novita** | Multiple SA locations | [novita.org.au](https://www.novita.org.au/) | Children's equipment programs |
+| **Disability Equipment SA** | Contact for locations | Local enquiries | Second-hand equipment |
+| **SA Health DES** | Statewide | [sahealth.sa.gov.au](https://www.sahealth.sa.gov.au/) | Equipment schemes (transferred ownership) |
+
+**Regional SA:**
+- **Mount Gambier:** Contact local community health
+- **Murray Bridge:** Murraylands disability services
+- **Port Augusta:** Regional NDIS coordinators can advise on local sources
+
+**Search Tips for SA:**
+- Adelaide has fewer specialist retailers - expand search to Melbourne suppliers
+- Local Rotary clubs are active in SA with RAMP program
+- JFA Purple Orange provides disability advocacy and may have equipment leads
+
+### 8.6 Tasmania
+
+**Where to Find Second-Hand Disability Equipment in Tasmania:**
+
+| Organisation | Coverage | Contact | Offers |
+|-------------|----------|---------|--------|
+| **Independent Living Tasmania** | Statewide | [ilt.org.au](https://www.ilt.org.au/) | Equipment display, advice |
+| **Paraquad Tasmania** | Statewide | [ptas.org.au](https://www.ptas.org.au/) | Mobility equipment programs |
+| **FlexEquip Tasmania** | Statewide | [flexequip.com.au](https://www.flexequip.com.au/) | Equipment recycling |
+
+**Search Tips for TAS:**
+- Smaller market means less availability - patience required
+- Consider Victorian suppliers who can ship to Tasmania
+- Local Facebook groups are particularly active in Tasmania
+- Hobart and Launceston have the best local options
+
+### 8.7 ACT (Canberra)
+
+**Where to Find Second-Hand Disability Equipment in Canberra:**
+
+| Organisation | Location | Contact | Offers |
+|-------------|----------|---------|--------|
+| **TADACT** | Canberra | [tadact.org.au](https://www.tadact.org.au/) | Op shop with refurbished equipment, custom modifications |
+| **ILS Canberra** | Fyshwick | [ilsau.com.au](https://www.ilsau.com.au/) | Showroom, clearance items |
+| **Communities@Work** | Multiple locations | [commsatwork.org](https://www.commsatwork.org/) | Community support, equipment advice |
+
+**Search Tips for ACT:**
+- TADACT is particularly well-known for refurbished equipment
+- Small market - also check NSW suppliers who service Canberra
+- Queanbeyan (NSW) retailers also accessible from Canberra
+
+### 8.8 Northern Territory
+
+**Where to Find Second-Hand Disability Equipment in NT:**
+
+| Organisation | Coverage | Contact | Offers |
+|-------------|----------|---------|--------|
+| **Disability Advocacy NT** | Darwin, Alice Springs | [dant.com.au](https://www.dant.com.au/) | Advice and referrals |
+| **Somerville Community Services** | Darwin region | [somerville.org.au](https://www.somerville.org.au/) | Disability support services |
+
+**Search Tips for NT:**
+- Very limited local market - most equipment shipped from interstate
+- Contact Darwin NDIS providers for local knowledge
+- Consider Brisbane or Adelaide suppliers who deliver to NT
+- Remote communities have specific equipment access programs through health services
+
+### 8.9 Tips for All Locations
+
+**How to Find Second-Hand Disability Equipment Near You:**
+
+1. **Search Multiple Platforms:** Check Gumtree, Facebook Marketplace, and eBility simultaneously
+2. **Set Up Alerts:** Create saved searches with email notifications for new listings
+3. **Call Before Visiting:** Many retailers only stock new equipment - always verify
+4. **Join Local Facebook Groups:** State and city-specific disability equipment groups are very active
+5. **Contact Local Rotary Clubs:** RAMP programs operate nationwide
+6. **Ask Your OT/Physio:** Healthcare providers often know of local equipment sources
+7. **Check Charity Shops:** Larger Salvos and Vinnies sometimes have mobility equipment
+8. **NDIS Plan Managers:** May know of equipment exchange programs in your area
+
+**Interstate Purchases:**
+For rare or specific equipment, consider interstate purchases. Many retailers offer:
+- Australia-wide shipping
+- Assembly upon delivery for complex items
+- Video demonstrations before purchase
+- Return options if equipment is unsuitable
 
 ## 9. Conclusion: Making Informed Choices for Your Mobility Needs
 
@@ -404,8 +555,30 @@ Ultimately, accessing second-hand disability equipment can be a successful and e
 
 ## Frequently Asked Questions
 
+### Where to sell second-hand disability equipment in Australia?
+The best places to sell your used disability equipment in Australia include:
+
+**Online Marketplaces (Widest Reach):**
+- **[eBility](https://www.ebility.com/)** - The most trusted platform specifically for disability equipment. Free to list and reaches buyers actively searching for assistive technology.
+- **[Gumtree](https://www.gumtree.com.au/)** - Large local audience, free listings, good for bulky items where local pickup is preferred.
+- **[Facebook Marketplace](https://www.facebook.com/marketplace)** - Direct messaging, see buyer profiles, reaches local community quickly.
+- **[eBay Australia](https://www.ebay.com.au/)** - Best for valuable or rare items, buyer protection available, nationwide reach.
+
+**Specialist Facebook Groups:**
+- "Disability Equipment Australia for Sale or Swap"
+- "Buy and Sell Disability Products Australia - new and used"
+- "Second-hand equipment for children with disability in Australia"
+- Search for state-specific groups (e.g., "Disability Equipment NSW Buy Sell Swap")
+
+**Tips for Selling Successfully:**
+1. Take clear photos from multiple angles, including any wear or damage
+2. Provide detailed descriptions: make, model, age, weight capacity, dimensions
+3. Be honest about condition - this builds trust and reduces disputes
+4. Price fairly (typically 30-60% of original retail for good condition items)
+5. Offer local pickup to avoid shipping complications for large items
+
 ### Where are the best places to find second-hand disability equipment in Australia?
-The best places to find second-hand disability equipment vary depending on your priorities. For the widest selection, general online marketplaces like Gumtree, Facebook Marketplace, and eBay offer numerous listings, though quality varies significantly. For more specialized options, dedicated disability platforms like eBility, MediAids Marketplace, and the AT Australia Second Hand Register focus specifically on assistive technology. Several Facebook groups (such as "Disability Equipment Australia for Sale or Swap") provide community-focused spaces for buying and selling. Some mobility equipment retailers offer refurbished or clearance stock, including Westernport Mobility (VIC), Mobility Scooters Kingsgrove (NSW), and Motobility (WA) - though always call first to confirm availability. For very limited budgets, contacting local charities like Rotary clubs (RAMP program) or checking with community health services might yield affordable or free options. The most successful approach often combines multiple sources - using online platforms for breadth while also contacting local specialists and community organizations for potentially higher-quality options.
+The best places to find second-hand disability equipment vary depending on your priorities. For the widest selection, general online marketplaces like Gumtree, Facebook Marketplace, and eBay offer numerous listings, though quality varies significantly. For more specialized options, dedicated disability platforms like [eBility](https://www.ebility.com/), [FlexEquip](https://www.flexequip.com.au/), and [AT Australia](https://www.ataustralia.org.au/) focus specifically on assistive technology. Several Facebook groups (such as "Disability Equipment Australia for Sale or Swap") provide community-focused spaces for buying and selling. Some mobility equipment retailers offer refurbished or clearance stock, including Westernport Mobility (VIC), Mobility Scooters Kingsgrove (NSW), and Motobility (WA) - though always call first to confirm availability. For very limited budgets, contacting local charities like Rotary clubs (RAMP program) or checking with community health services might yield affordable or free options. The most successful approach often combines multiple sources - using online platforms for breadth while also contacting local specialists and community organizations for potentially higher-quality options.
 
 ### Is it safe to buy second-hand mobility equipment?
 Buying second-hand mobility equipment carries inherent risks that must be carefully managed. Safety concerns include structural damage that may not be immediately visible, worn parts that could fail during use, improper previous repairs, and hygiene issues (particularly with items like shower chairs or commodes). To mitigate these risks: (1) Thoroughly inspect any item before purchase, checking for cracks, rust, stability, and proper functioning of all mechanisms; (2) Request maintenance history and ask about previous accidents or repairs; (3) Verify the item hasn't been subject to safety recalls by checking the Product Safety Australia website; (4) Look for compliance with Australian Standards where applicable; (5) Clean and sanitize thoroughly after purchase using appropriate disinfectants; and most importantly, (6) Consult with an Occupational Therapist or Physiotherapist before purchasing to ensure the equipment is appropriate for your specific needs. Equipment that doesn't properly fit or support your condition can cause new problems or worsen existing ones. While cost savings are appealing, they should never compromise safety or suitability - professional assessment is particularly crucial for complex items like wheelchairs, hoists, or specialized seating.
@@ -424,3 +597,76 @@ Yes, donating disability equipment you no longer need is an excellent way to hel
 
 ### How much should I pay for second-hand disability equipment?
 Pricing for second-hand disability equipment varies widely but generally follows certain patterns. Most mobility aids and assistive technology depreciate significantly, similar to vehicles. As a rough guideline, well-maintained used equipment typically sells for 30-60% of its original retail price, depending on age, condition, and demand. Newer items (1-2 years old) in excellent condition might command 50-70% of retail price, while older items (3+ years) typically sell for 20-40%. Factors affecting value include: brand reputation (established brands like Sunrise Medical, Invacare, or Pride hold value better), item complexity (high-tech equipment depreciates faster due to technology advances), completeness (missing parts significantly reduce value), condition (visible wear, damage, or repairs lower value), and demand (common items like standard wheelchairs or walkers generally sell for less than specialized equipment with limited supply). To determine fair pricing: (1) Research the current new price of the same or equivalent model; (2) Check prices of similar used items on platforms like eBay, Gumtree, and specialized disability marketplaces; (3) Assess condition objectively using the criteria in this guide's inspection checklist; (4) Consider any additional costs you might incur (cleaning, repairs, replacement parts, professional assessment); and (5) Factor in convenience value if buying locally with opportunity for inspection. Remember that equipment that perfectly meets your needs might be worth paying more for, while items requiring modification should be discounted accordingly. Never compromise safety for price.
+
+### What types of disability equipment are commonly available second-hand?
+The second-hand market offers a wide range of disability equipment across several categories:
+
+**Mobility Equipment:**
+- Manual and electric wheelchairs
+- Mobility scooters and power chairs
+- Walking frames, rollators, and walkers
+- Crutches and walking sticks
+- Transfer boards and sliding sheets
+- Portable ramps and accessibility equipment
+
+**Daily Living Aids:**
+- Shower chairs and bath seats
+- Over-toilet frames and commodes
+- Bed rails and hospital/adjustable beds
+- Lifting hoists and patient lifters
+- Kitchen and dining aids
+- Dressing and grooming tools
+
+**Communication and Technology:**
+- Speech generating devices (SGDs)
+- Computer access equipment and switches
+- Environmental control systems
+- Hearing aids and assistive listening devices
+- Vision aids and magnification equipment
+
+**High-Demand Items** (sell quickly, often worth paying more for):
+- Electric wheelchairs and mobility scooters
+- Adjustable beds and pressure-relief mattresses
+- Bathroom safety equipment
+- Communication devices
+- Vehicle modifications and equipment
+- Children's adaptive equipment
+
+### How do I ship large disability equipment interstate?
+Shipping large disability equipment like wheelchairs, hospital beds, or mobility scooters requires careful planning:
+
+**Shipping Options:**
+1. **Specialist Medical Equipment Couriers:** Companies experienced with fragile medical equipment offer door-to-door delivery with appropriate handling
+2. **Freight Companies:** Cost-effective for large/heavy items. Get quotes from TNT, Toll, and StarTrack
+3. **Courier Services:** Sendle, Pack & Send for smaller items with tracking
+4. **Buyer Collection:** Often preferred for expensive items - allows inspection before purchase
+
+**Preparation Tips:**
+- Disassemble where possible (remove footrests, armrests, batteries)
+- Wrap all parts individually with bubble wrap
+- For electric wheelchairs/scooters: disconnect and secure batteries separately
+- Take photos before packing for insurance purposes
+- Include clear instructions for reassembly
+
+**Cost Considerations:**
+- Expect $100-$400 for interstate shipping of a standard wheelchair
+- Mobility scooters and hospital beds: $300-$800+ depending on size
+- Insurance is essential for valuable items - add 2-5% of item value
+- Some buyers prefer to arrange their own freight to control costs
+
+### Can I get tax deductions for donating disability equipment?
+In Australia, you may be eligible for tax deductions when donating disability equipment to registered charities. Key points:
+
+- Donations must be to Deductible Gift Recipients (DGRs) registered with the ATO
+- Keep records of the donation including receipt from the charity
+- The deductible value is the market value at time of donation (not original purchase price)
+- For items over $5,000, you may need an independent valuation
+- Donations of equipment purchased with NDIS funding may have different implications - consult your accountant
+
+**Charities Registered as DGRs (Examples):**
+- Rotary clubs (for RAMP program)
+- Endeavour Foundation
+- The Salvation Army
+- St Vincent de Paul Society
+
+Always confirm DGR status with the organization before donating if you intend to claim a deduction.

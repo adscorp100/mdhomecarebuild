@@ -509,6 +509,12 @@ Based on deep GSC analysis, these 8 additional tools have been identified as hig
 14. ✅ Support Worker Income Calculator - /tools/support-worker-income-calculator
 15. ✅ NDIS Therapy Hours Calculator - /tools/ndis-therapy-calculator
 
+## Phase 3 - NEW TOOLS (January 2026)
+16. ✅ NDIS SDA Calculator - /tools/ndis-sda-calculator
+    - Target keywords: "sda calculator", "sda funding calculator", "specialist disability accommodation calculator"
+    - Links FROM: /blog/sda-calculator-specialist-disability-accommodation-2025/
+
 ## Total Impressions Captured:
 - Phase 1: ~150,000+ impressions
 - Phase 2: ~250,000+ additional impressions potential
+- Phase 3: SDA calculator addressing content gap vs MyCareSpace

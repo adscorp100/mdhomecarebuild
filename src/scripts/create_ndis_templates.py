@@ -1960,6 +1960,268 @@ def create_daily_living_log():
 
     return doc
 
+def create_carer_impact_statement():
+    """Create NDIS Carer Impact Statement Template"""
+    doc = Document()
+
+    # Title
+    title = doc.add_heading('NDIS CARER IMPACT STATEMENT', 0)
+    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    doc.add_paragraph()
+
+    # Introduction
+    intro = doc.add_paragraph()
+    intro.add_run('This statement describes how your caring role affects your daily life and wellbeing. It helps NDIS planners understand the support you provide and ensures the participant receives appropriate funding.').font.size = Pt(11)
+
+    doc.add_paragraph()
+
+    # Section 1: Your Details
+    doc.add_heading('1. YOUR DETAILS (CARER)', 1)
+    table = doc.add_table(rows=6, cols=2)
+    add_table_border(table)
+
+    carer_fields = [
+        ('Your Name:', '[Full Name]'),
+        ('Your Relationship to Participant:', '[e.g., Parent, Spouse, Sibling, Adult Child]'),
+        ('Your Contact Number:', '[Phone Number]'),
+        ('Your Email:', '[Email Address]'),
+        ('Date of Statement:', '[DD/MM/YYYY]'),
+        ('Do you live with the participant?', '[ ] Yes  [ ] No')
+    ]
+
+    for i, (label, value) in enumerate(carer_fields):
+        row = table.rows[i]
+        row.cells[0].text = label
+        row.cells[0].paragraphs[0].runs[0].bold = True
+        set_cell_background(row.cells[0], 'E7E6E6')
+        row.cells[1].text = value
+
+    doc.add_paragraph()
+
+    # Section 2: Participant Details
+    doc.add_heading('2. PARTICIPANT DETAILS', 1)
+    table = doc.add_table(rows=4, cols=2)
+    add_table_border(table)
+
+    participant_fields = [
+        ('Participant Name:', '[Full Name]'),
+        ('NDIS Number:', '[NDIS Number]'),
+        ('Date of Birth:', '[DD/MM/YYYY]'),
+        ('Primary Disability:', '[Disability/Diagnosis]')
+    ]
+
+    for i, (label, value) in enumerate(participant_fields):
+        row = table.rows[i]
+        row.cells[0].text = label
+        row.cells[0].paragraphs[0].runs[0].bold = True
+        set_cell_background(row.cells[0], 'E7E6E6')
+        row.cells[1].text = value
+
+    doc.add_paragraph()
+
+    # Section 3: Your Caring Role
+    doc.add_heading('3. YOUR CARING ROLE', 1)
+    doc.add_paragraph('Describe how long you have been a carer and how your caring role has evolved:')
+
+    table = doc.add_table(rows=1, cols=1)
+    add_table_border(table)
+    table.rows[0].cells[0].text = '\n\n\n\n'
+
+    doc.add_paragraph()
+
+    # Section 4: Daily Caring Tasks
+    doc.add_heading('4. DAILY CARING TASKS', 1)
+    doc.add_paragraph('Describe the support you provide on a typical day. Include morning routines, mealtimes, personal care, supervision, and bedtime:')
+
+    table = doc.add_table(rows=1, cols=1)
+    add_table_border(table)
+    table.rows[0].cells[0].text = 'Morning (e.g., waking, toileting, showering, dressing, breakfast, medications):\n\n\n'
+
+    doc.add_paragraph()
+
+    table = doc.add_table(rows=1, cols=1)
+    add_table_border(table)
+    table.rows[0].cells[0].text = 'Daytime (e.g., supervision, activities, meals, therapy appointments, behaviour support):\n\n\n'
+
+    doc.add_paragraph()
+
+    table = doc.add_table(rows=1, cols=1)
+    add_table_border(table)
+    table.rows[0].cells[0].text = 'Evening/Night (e.g., dinner, bathing, bedtime routine, overnight supervision):\n\n\n'
+
+    doc.add_paragraph()
+
+    # Section 5: Time Spent Caring
+    doc.add_heading('5. TIME SPENT CARING', 1)
+    table = doc.add_table(rows=4, cols=2)
+    add_table_border(table)
+
+    time_fields = [
+        ('Hours of direct care per day:', '[e.g., 8-10 hours]'),
+        ('Hours of supervision/monitoring per day:', '[e.g., 14 hours]'),
+        ('Days per week you provide care:', '[e.g., 7 days]'),
+        ('Do you need to wake at night?', '[ ] Yes  [ ] No   If yes, how often? ______')
+    ]
+
+    for i, (label, value) in enumerate(time_fields):
+        row = table.rows[i]
+        row.cells[0].text = label
+        row.cells[0].paragraphs[0].runs[0].bold = True
+        set_cell_background(row.cells[0], 'E7E6E6')
+        row.cells[1].text = value
+
+    doc.add_paragraph()
+
+    # Section 6: Impact on Your Life
+    doc.add_heading('6. IMPACT ON YOUR LIFE', 1)
+
+    doc.add_heading('Physical Health Impact:', 2)
+    doc.add_paragraph('Describe any physical health impacts from your caring role (e.g., back pain, fatigue, injuries, missed medical appointments):')
+    table = doc.add_table(rows=1, cols=1)
+    add_table_border(table)
+    table.rows[0].cells[0].text = '\n\n\n'
+
+    doc.add_paragraph()
+
+    doc.add_heading('Mental and Emotional Health Impact:', 2)
+    doc.add_paragraph('Describe any mental health or emotional impacts (e.g., stress, anxiety, depression, isolation, burnout):')
+    table = doc.add_table(rows=1, cols=1)
+    add_table_border(table)
+    table.rows[0].cells[0].text = '\n\n\n'
+
+    doc.add_paragraph()
+
+    doc.add_heading('Impact on Employment:', 2)
+    table = doc.add_table(rows=3, cols=2)
+    add_table_border(table)
+
+    employment_fields = [
+        ('Current employment status:', '[ ] Full-time  [ ] Part-time  [ ] Casual  [ ] Not working due to caring role  [ ] Retired'),
+        ('Have you reduced work hours due to caring?', '[ ] Yes  [ ] No   If yes, by how many hours? ______'),
+        ('Have you left work entirely due to caring?', '[ ] Yes  [ ] No   If yes, when? ______')
+    ]
+
+    for i, (label, value) in enumerate(employment_fields):
+        row = table.rows[i]
+        row.cells[0].text = label
+        row.cells[0].paragraphs[0].runs[0].bold = True
+        set_cell_background(row.cells[0], 'E7E6E6')
+        row.cells[1].text = value
+
+    doc.add_paragraph()
+
+    doc.add_heading('Impact on Relationships and Social Life:', 2)
+    doc.add_paragraph('Describe how your caring role has affected your relationships with family, friends, and your ability to participate in social activities:')
+    table = doc.add_table(rows=1, cols=1)
+    add_table_border(table)
+    table.rows[0].cells[0].text = '\n\n\n'
+
+    doc.add_paragraph()
+
+    doc.add_heading('Impact on Other Family Members:', 2)
+    doc.add_paragraph('Describe how the caring situation affects other family members (e.g., siblings, partner, other children):')
+    table = doc.add_table(rows=1, cols=1)
+    add_table_border(table)
+    table.rows[0].cells[0].text = '\n\n\n'
+
+    doc.add_paragraph()
+
+    # Section 7: Sustainability
+    doc.add_heading('7. SUSTAINABILITY OF YOUR CARING ROLE', 1)
+
+    doc.add_paragraph('How sustainable is your current caring arrangement?')
+    sustainability = [
+        '[ ] I can continue caring with current supports',
+        '[ ] I am struggling and need more support to continue',
+        '[ ] My caring role is not sustainable without additional help',
+        '[ ] I am at risk of burnout or breakdown'
+    ]
+    for item in sustainability:
+        doc.add_paragraph(item, style='List Bullet')
+
+    doc.add_paragraph()
+    doc.add_paragraph('What would help you sustain your caring role?')
+    table = doc.add_table(rows=1, cols=1)
+    add_table_border(table)
+    table.rows[0].cells[0].text = '\n\n\n'
+
+    doc.add_paragraph()
+
+    # Section 8: What Happens Without Support
+    doc.add_heading('8. WHAT HAPPENS IF YOU ARE UNABLE TO PROVIDE CARE?', 1)
+    doc.add_paragraph('Describe what would happen to the participant if you were sick, injured, or unable to provide care:')
+    table = doc.add_table(rows=1, cols=1)
+    add_table_border(table)
+    table.rows[0].cells[0].text = '\n\n\n'
+
+    doc.add_paragraph()
+
+    doc.add_paragraph('Who else can provide care if you are unavailable?')
+    backup = [
+        '[ ] No one - I am the sole carer',
+        '[ ] Other family member (Name: ____________)',
+        '[ ] Paid support worker',
+        '[ ] Respite service'
+    ]
+    for item in backup:
+        doc.add_paragraph(item, style='List Bullet')
+
+    doc.add_paragraph()
+
+    # Section 9: Goals and Aspirations
+    doc.add_heading('9. YOUR GOALS AND ASPIRATIONS', 1)
+    doc.add_paragraph('What are your goals for the future? What would you like to be able to do that your caring role currently prevents?')
+    table = doc.add_table(rows=1, cols=1)
+    add_table_border(table)
+    table.rows[0].cells[0].text = '\n\n\n\n'
+
+    doc.add_paragraph()
+
+    # Section 10: Additional Information
+    doc.add_heading('10. ADDITIONAL INFORMATION', 1)
+    doc.add_paragraph('Is there anything else you would like the NDIS planner to know about your caring role or its impact?')
+    table = doc.add_table(rows=1, cols=1)
+    add_table_border(table)
+    table.rows[0].cells[0].text = '\n\n\n\n'
+
+    doc.add_paragraph()
+
+    # Declaration
+    doc.add_heading('DECLARATION', 1)
+    declaration = doc.add_paragraph()
+    declaration.add_run('I declare that the information provided in this statement is true and accurate to the best of my knowledge. I understand this statement will be used to support the NDIS planning process for the participant named above.').font.size = Pt(11)
+
+    doc.add_paragraph()
+
+    # Signature
+    table = doc.add_table(rows=3, cols=2)
+    add_table_border(table)
+
+    table.rows[0].cells[0].text = 'Carer Signature:'
+    table.rows[0].cells[0].paragraphs[0].runs[0].bold = True
+    set_cell_background(table.rows[0].cells[0], 'E7E6E6')
+    table.rows[0].cells[1].text = '\n\n'
+
+    table.rows[1].cells[0].text = 'Print Name:'
+    table.rows[1].cells[0].paragraphs[0].runs[0].bold = True
+    set_cell_background(table.rows[1].cells[0], 'E7E6E6')
+    table.rows[1].cells[1].text = '[Print Name]'
+
+    table.rows[2].cells[0].text = 'Date:'
+    table.rows[2].cells[0].paragraphs[0].runs[0].bold = True
+    set_cell_background(table.rows[2].cells[0], 'E7E6E6')
+    table.rows[2].cells[1].text = '[DD/MM/YYYY]'
+
+    doc.add_paragraph()
+
+    # Footer note
+    footer_note = doc.add_paragraph()
+    footer_note.add_run('Tip: ').bold = True
+    footer_note.add_run('Attach any supporting documentation such as medical letters, therapy reports, or daily care logs. Keep a copy of this statement for your records.')
+
+    return doc
+
 def main():
     """Main function to create all templates"""
     output_dir = '/Users/andredeansmith/mdhomecarebuild/public/downloads'
@@ -1977,7 +2239,8 @@ def main():
         'aged-care-risk-assessment-template-2025.docx': create_risk_assessment,
         'medication-management-plan-template-2025.docx': create_medication_plan,
         'ndis-participant-intake-form-2025.docx': create_intake_form,
-        'ndis-daily-living-log-template-2025.docx': create_daily_living_log
+        'ndis-daily-living-log-template-2025.docx': create_daily_living_log,
+        'ndis-carer-impact-statement-template-2025.docx': create_carer_impact_statement
     }
 
     print(f'Creating {len(templates)} NDIS/Aged Care templates...\n')

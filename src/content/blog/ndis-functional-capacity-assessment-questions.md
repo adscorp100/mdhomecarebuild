@@ -18,7 +18,7 @@ image: "/assets/physio.webp"
 > **Prepare for Your Assessment:** Use our free [FCA Prep Checklist](/tools/fca-prep-checklist) to make sure you're fully prepared for your Functional Capacity Assessment. Know what to bring, what to expect, and how to get the best outcome.
 
 ## Purpose of NDIS Functional Capacity Assessments
-Functional capacity assessments (FCAs) serve several important purposes in the NDIS process. For a complete overview of the entire process, see our [ultimate guide to Functional Capacity Assessments](/blog/functional-capacity-assessment-ultimate-guide-2025).
+Functional capacity assessments (FCAs) serve several important purposes in the NDIS process. For a complete overview of the entire process, see our [complete guide to Functional Capacity Assessments](/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like).
 
 - Determining eligibility for NDIS support
 - Identifying specific functional impacts of your disability

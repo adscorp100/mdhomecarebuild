@@ -1,6 +1,6 @@
 ---
-title: "NDIS Improved Daily Living: CB Daily Activity Complete Guide (Category 15) 2025"
-description: "Complete guide to NDIS Improved Daily Living (CB Daily Activity) funding. Line item codes (15_xxx), therapy pricing, what's covered, OT, psychology, speech therapy rates, and how to maximise your Capacity Building budget."
+title: "CB Daily Activity NDIS: Complete Improved Daily Living Guide (Category 15) 2025"
+description: "CB Daily Activity NDIS complete guide: what it is, examples by disability type, line item codes (15_xxx), therapy pricing, and how to maximise your Improved Daily Living Capacity Building budget."
 pubDate: 2025-07-08
 author: "MD Home Care"
 tags: ["NDIS", "Capacity Building", "Improved Daily Living", "CB Daily Activity", "Allied Health"]
@@ -12,6 +12,14 @@ image: "/assets/disabled carer.webp"
 NDIS Improved Daily Living (also called CB Daily Activity) is one of the most valuable funding categories in your NDIS plan. It funds therapies, assessments, and training to help you build skills and independence—but understanding what it covers, the line item codes, and current pricing can be confusing.
 
 This comprehensive guide explains everything about Category 15 funding in 2025: what services you can access, how much they cost, the specific line item codes providers use, and strategies to maximise your Capacity Building budget.
+
+## What is CB Daily Activity in Your NDIS Plan?
+
+CB Daily Activity is the term you'll see in your NDIS portal for what's officially called "Improved Daily Living" in your plan documents. This Capacity Building category (Category 15) funds therapies and training that help you build skills for greater independence.
+
+### CB Daily Activity vs Improved Daily Living: Are They Different?
+
+No - CB Daily Activity and Improved Daily Living are exactly the same thing. The NDIS uses both terms interchangeably across different systems, which can be confusing. "CB Daily Activity" appears in the myplace portal, while "Improved Daily Living" is used in official plan documents and the NDIS Support Catalogue. Understanding this helps you navigate your plan and find the right supports.
 
 ## Quick Reference: Improved Daily Living at a Glance
 
@@ -148,7 +156,39 @@ Specialised/Wearable Technology: Funding may cover technology specifically desig
 ### 4. Early Childhood Intervention:
 For children younger than 7 (or younger than 9 under the phased rollout), this category funds early intervention supports. These are evidence-based therapies and programs designed to help young children with developmental delay or disability build foundational skills essential for learning, participation, and future independence.   
 
-The potential for overlap between supports funded here and those covered by mainstream services (like health or education) or other NDIS budgets (like Capital Assistive Technology) necessitates careful planning. Goals must be clearly defined, and justifications must explicitly link the requested support to building capacity related to the participant's disability within the scope of the Improved Daily Living category.   
+The potential for overlap between supports funded here and those covered by mainstream services (like health or education) or other NDIS budgets (like Capital Assistive Technology) necessitates careful planning. Goals must be clearly defined, and justifications must explicitly link the requested support to building capacity related to the participant's disability within the scope of the Improved Daily Living category.
+
+## CB Daily Activity Examples by Disability Type
+
+Different disabilities require different approaches to capacity building. Here are common CB Daily Activity supports tailored to specific disability types:
+
+### For Participants with Autism Spectrum Disorder
+
+- **Occupational Therapy** for sensory regulation strategies and daily routine management
+- **Psychology** for anxiety management and emotional regulation techniques
+- **Speech therapy** for understanding social cues and improving communication skills
+- **Developmental education** for building social skills and community participation
+
+### For Participants with Physical Disabilities
+
+- **Physiotherapy** for improving mobility, strength, and physical independence
+- **Occupational Therapy** assessments for adaptive equipment recommendations
+- **Exercise physiology** for building functional capacity and endurance
+- **Skills training** for learning to use mobility aids and assistive technology
+
+### For Participants with Intellectual Disabilities
+
+- **Developmental education** for money management and budgeting skills
+- **Public transport training** to build travel independence
+- **Occupational Therapy** for daily living skills like cooking and personal care
+- **Speech pathology** for communication strategies and social skills development
+
+### For Participants with Psychosocial Disabilities
+
+- **Psychology** for coping strategies and symptom management
+- **Occupational Therapy** for establishing daily routines and structure
+- **Social work** for navigating systems and building support networks
+- **Counselling** for resilience building and adjustment support
 
 ## Making the Most of Your Funding: Rules, Flexibility & Costs
 
@@ -373,6 +413,22 @@ Funding amounts vary based on your individual needs and goals. Here are typical 
 | **Age** | Early intervention (under 7) often receives higher allocations |
 
 ## Frequently Asked Questions
+
+### What is CB daily activity in the NDIS?
+CB Daily Activity is the NDIS portal's name for the Improved Daily Living support category (Category 15). The "CB" stands for Capacity Building. This funding pays for therapies, assessments, and training that help you develop skills for greater independence in daily life. You'll see "CB Daily Activity" when you log into your myplace portal, while your official plan documents refer to the same funding as "Improved Daily Living." Common supports include occupational therapy, psychology, physiotherapy, speech therapy, and life skills training.
+
+### What are examples of CB daily activity NDIS supports?
+CB Daily Activity (Improved Daily Living) funds a wide range of capacity-building supports, including:
+- **Occupational Therapy** - daily living assessments, sensory strategies, home modifications advice
+- **Psychology** - anxiety management, emotional regulation, coping strategies for disability
+- **Speech Pathology** - communication skills, social cues training, swallowing assessments
+- **Physiotherapy** - mobility improvement, strength training, balance work
+- **Life skills training** - cooking, budgeting, time management, public transport training
+- **Developmental education** - practical skill building for intellectual disabilities
+- **Exercise physiology** - tailored fitness programs for functional improvement
+
+### How much CB daily activity funding can I get?
+CB Daily Activity funding varies based on your individual needs, goals, and circumstances. Typical annual ranges are: Low complexity ($5,000-$10,000), Moderate complexity ($10,000-$20,000), High complexity ($20,000-$40,000), and Very high complexity ($40,000+). Factors affecting your funding include the severity and complexity of your disability, the number of therapy types you need, your potential for skill development, your location (remote areas may receive more for travel costs), and your age (early intervention for children under 7 often receives higher allocations). Your funding is determined during your NDIS planning meeting based on evidence of your needs.
 
 ### What's the difference between Improved Daily Living and CB Daily Activity?
 There is no difference—they're the same funding category, just referred to by different names in various NDIS documents. "Improved Daily Living Skills" typically appears in NDIS plans and the Support Catalogue, while "CB Daily Activity" is often used in the NDIS portal. The "CB" simply stands for "Capacity Building." This inconsistent terminology has caused confusion, but the NDIS PACE system aims to standardize the language. Regardless of which term you see, this funding supports therapies, training, and assessments designed to build skills and independence.

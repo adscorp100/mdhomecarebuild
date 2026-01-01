@@ -1,6 +1,6 @@
 ---
-title: 'NDIS Social and Community Participation: Complete Guide (2025)'
-description: "Everything you need to know about NDIS social and community participation funding in 2025. Line item codes, what's covered, activity ideas, funding amounts, and how to maximise your plan."
+title: 'Increased Social and Community Participation NDIS: Complete Line Item Guide 2025'
+description: "Complete guide to Increased Social and Community Participation NDIS line items. Learn the difference between Assistance and Increased funding, line item codes (09_011_0117_6_3), and how to maximise your Capacity Building plan."
 pubDate: 2025-07-06
 author: 'MD Home Care'
 tags: ["NDIS", "Community Participation", "Social Activities", "NDIS Funding"]
@@ -12,6 +12,42 @@ image: '/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.we
 NDIS social and community participation funding helps you get out into the world, build relationships, and engage with your community. It's one of the most valuable parts of many NDIS plans—but it's also one of the most misunderstood.
 
 This comprehensive guide explains exactly what social and community participation means, how the funding works in 2025, what activities are covered, and how to make the most of your allocation.
+
+## What is Increased Social and Community Participation?
+
+"Increased Social and Community Participation" is a Capacity Building category in your NDIS plan that funds skill-building activities to help you participate more independently in your community.
+
+Unlike Core Supports that provide ongoing assistance, Increased Social and Community Participation funding is designed to build your skills and confidence so you can eventually participate with less support—or even independently.
+
+### ASSISTANCE vs INCREASED: The Key Difference
+
+Understanding this distinction is crucial for using your NDIS funding correctly:
+
+- **ASSISTANCE** (Core Support) = Someone helps you participate NOW
+- **INCREASED** (Capacity Building) = Training to build skills for FUTURE independence
+
+| Aspect | Assistance with Social & Community Participation | Increased Social & Community Participation |
+|--------|--------------------------------------------------|-------------------------------------------|
+| **Budget Category** | Core Supports | Capacity Building |
+| **Purpose** | Ongoing support to participate in activities | Build skills for future independence |
+| **Flexibility** | Can shift between Core categories | Must use for designated purpose |
+| **Duration** | Ongoing as long as needed | Time-limited skill-building programs |
+| **Example** | Support worker accompanies you to a weekly art class | 12-week program teaching you to catch public transport independently |
+
+## Increased Social and Community Participation Line Item Codes
+
+Here are the key line item codes for Increased Social and Community Participation (Capacity Building):
+
+| Line Item Code | Official Name | Purpose |
+|----------------|---------------|---------|
+| **09_011_0117_6_3** | Development of Skills for Community Participation | Skill building for independent community access |
+| **09_009_0117_6_3** | Participation in Community, Social & Civic Activities | Structured programs for social skill development |
+
+These Capacity Building line items fund structured programs designed to increase your independence over time, such as:
+- Learning to use public transport independently
+- Developing social communication skills
+- Training to navigate community settings
+- Building confidence in new environments
 
 ## What is NDIS Social and Community Participation?
 
@@ -300,27 +336,23 @@ The best use of community participation funding is building skills so you need l
 - **Build routines** so activities become easier over time
 - **Start with structured programs** before independent activities
 
-## Increased Social and Community Participation (Capacity Building)
-
-Some plans include Capacity Building funding specifically for community participation skill development. This is different from Core Support:
-
-### Core vs Capacity Building
-
-| Aspect | Core Support | Capacity Building |
-|--------|--------------|-------------------|
-| **Purpose** | Ongoing support to participate | Build skills for future independence |
-| **Duration** | Ongoing | Time-limited programs |
-| **Flexibility** | Can shift between Core categories | Must use for designated purpose |
-| **Examples** | Weekly support to attend a club | 12-week program to learn public transport |
-
-### What Capacity Building Funds
-
-- Structured skill-building programs
-- Training to use community services independently
-- Transition programs (e.g., learning to navigate new community)
-- Development of social communication skills
-
 ## Frequently Asked Questions
+
+### What is the NDIS line item for increased social and community participation?
+
+The main NDIS line items for Increased Social and Community Participation are:
+- **09_011_0117_6_3** - Development of Skills for Community Participation
+- **09_009_0117_6_3** - Participation in Community, Social & Civic Activities
+
+These fall under the Capacity Building budget category and are designed to fund skill-building programs that help you participate more independently in your community over time.
+
+### What is the difference between Assistance and Increased social community participation?
+
+**Assistance with Social and Community Participation** (Core Support) provides ongoing support for you to participate in activities right now—a support worker accompanies you to help you engage in community life.
+
+**Increased Social and Community Participation** (Capacity Building) funds structured skill-building programs designed to increase your independence over time. The goal is to develop skills so you eventually need less support.
+
+In simple terms: Assistance = help NOW, Increased = training for FUTURE independence.
 
 ### What is the difference between social and community participation in NDIS?
 

@@ -1,0 +1,579 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "NDIS SDA Calculator",
+  description: "Calculate Specialist Disability Accommodation funding based on design category, building type, and location.",
+  icon: "hugeicons:building-03",
+  color: "primary",
+  phase: 3,
+  isNew: true
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS SDA Calculator 2025",
+  "description": "Calculate Specialist Disability Accommodation (SDA) funding with 2025-26 NDIS rates. Estimate annual funding based on design category, building type, and location.",
+  "url": "https://mdhomecare.com.au/tools/ndis-sda-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much SDA funding can I get from NDIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SDA funding ranges from approximately $35,000 to $117,000 per year depending on your design category (Improved Liveability, Fully Accessible, Robust, or High Physical Support), building type (apartment, villa, group home), and location. The NDIS sets maximum price limits that providers cannot exceed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I have to pay rent if I have SDA funding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, participants pay a reasonable rent contribution of approximately 25% of the Disability Support Pension - about $247 per week or $12,856 per year in 2025. This amount is deducted from your SDA funding and paid by you to the SDA provider."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between SIL and SDA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SDA (Specialist Disability Accommodation) is funding for the BUILDING itself - specialized housing with accessibility features. SIL (Supported Independent Living) is funding for SUPPORT WORKERS to help you with daily living. You can have SDA without SIL, SIL without SDA, or both together."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the SDA design categories?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There are 4 SDA design categories: Improved Liveability (for sensory/cognitive impairments), Fully Accessible (for wheelchair users), Robust (for behavioural support needs), and High Physical Support (for those needing ceiling hoists and specialised equipment). Each has different features and funding levels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to get SDA approved?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The full SDA approval process typically takes 4-18 months. This includes getting an OT assessment (4-8 weeks), submitting a plan amendment (1-2 weeks), NDIA decision (6-12 weeks), and finding an available SDA property (which can take several months depending on your location and preferences)."
+      }
+    }
+  ]
+};
+
+// 2025-26 SDA Price Limits (Metro, New Build)
+const sdaRates = {
+  improvedLiveability: {
+    apartment1bed: 42847,
+    apartment2bed: 49275,
+    villa1bed: 46355,
+    villa2bed: 52560,
+    groupHome: 35040
+  },
+  fullyAccessible: {
+    apartment1bed: 56940,
+    apartment2bed: 63510,
+    villa1bed: 60225,
+    villa2bed: 66430,
+    groupHome: 43800
+  },
+  robust: {
+    apartment1bed: 62050,
+    apartment2bed: 68620,
+    villa1bed: 65700,
+    villa2bed: 71905,
+    groupHome: 47450
+  },
+  highPhysicalSupport: {
+    apartment1bed: 94170,
+    apartment2bed: 104025,
+    villa1bed: 97455,
+    villa2bed: 107675,
+    groupHome: 69350
+  }
+};
+
+// Location adjustments
+const locationMultipliers = {
+  metro: 1.0,
+  regional: 1.08,
+  remote: 1.20
+};
+
+// 2025 DSP-based rent contribution
+const annualRentContribution = 12856;
+---
+
+<BaseLayout
+  title="NDIS SDA Calculator 2025 - Specialist Disability Accommodation Funding"
+  description="Calculate Specialist Disability Accommodation (SDA) funding with 2025-26 NDIS rates. Estimate annual funding based on design category, building type, and location."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">SDA Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:building-03" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            NDIS SDA <span class="text-primary">Calculator</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Estimate Specialist Disability Accommodation (SDA) funding based on your design category, building type, and location. Uses <strong>2025-26 NDIS price limits</strong>.
+          </p>
+
+          <!-- Rate Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-8">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:money-02" class="w-5 h-5 text-primary" />
+              2025-26 SDA Price Limits
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Improved Liveability</span>
+                <span class="font-semibold text-secondary">$35,040 - $52,560</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Fully Accessible</span>
+                <span class="font-semibold text-secondary">$43,800 - $66,430</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Robust</span>
+                <span class="font-semibold text-secondary">$47,450 - $71,905</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">High Physical Support</span>
+                <span class="font-semibold text-primary">$69,350 - $107,675</span>
+              </div>
+            </div>
+            <p class="text-xs text-secondary/50 mt-4">Metro new-build rates. Regional +8%, Remote +20%.</p>
+          </div>
+
+          <!-- Info Cards -->
+          <div class="space-y-4">
+            <div class="bg-primary/5 rounded-2xl p-5 border border-primary/10">
+              <h4 class="font-semibold text-secondary mb-2 flex items-center gap-2">
+                <Icon name="hugeicons:information-circle" class="w-5 h-5 text-primary" />
+                What is SDA?
+              </h4>
+              <p class="text-sm text-secondary/70">
+                Specialist Disability Accommodation is NDIS funding for purpose-built housing with accessibility features. It covers the building, not support workers (that's SIL).
+              </p>
+            </div>
+
+            <div class="bg-warning/5 rounded-2xl p-5 border border-warning/10">
+              <h4 class="font-semibold text-secondary mb-2 flex items-center gap-2">
+                <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning" />
+                Rent Contribution
+              </h4>
+              <p class="text-sm text-secondary/70">
+                You pay approximately <strong>$247/week</strong> (25% of DSP) as your rent contribution, regardless of your SDA funding level.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2rem] p-8 lg:p-10 border border-base-200 shadow-xl shadow-base-200/50">
+            <h2 class="text-2xl font-bold text-secondary mb-8">Calculate Your SDA Funding</h2>
+
+            <div class="space-y-8">
+              <!-- Design Category -->
+              <div>
+                <label class="block text-sm font-semibold text-secondary mb-3">
+                  <Icon name="hugeicons:home-09" class="w-4 h-4 inline mr-1" />
+                  Design Category
+                </label>
+                <select id="designCategory" class="select select-bordered w-full text-base bg-base-100">
+                  <option value="improvedLiveability">Improved Liveability (sensory/cognitive)</option>
+                  <option value="fullyAccessible">Fully Accessible (wheelchair users)</option>
+                  <option value="robust">Robust (behavioural support needs)</option>
+                  <option value="highPhysicalSupport">High Physical Support (ceiling hoists)</option>
+                </select>
+                <p class="text-xs text-secondary/50 mt-2" id="designCategoryHelp">
+                  For participants with sensory, intellectual, or cognitive impairments
+                </p>
+              </div>
+
+              <!-- Building Type -->
+              <div>
+                <label class="block text-sm font-semibold text-secondary mb-3">
+                  <Icon name="hugeicons:building-06" class="w-4 h-4 inline mr-1" />
+                  Building Type
+                </label>
+                <select id="buildingType" class="select select-bordered w-full text-base bg-base-100">
+                  <option value="apartment1bed">1-Bedroom Apartment</option>
+                  <option value="apartment2bed">2-Bedroom Apartment</option>
+                  <option value="villa1bed">1-Bedroom Villa/Townhouse</option>
+                  <option value="villa2bed">2-Bedroom Villa/Townhouse</option>
+                  <option value="groupHome">Group Home (per bed)</option>
+                </select>
+              </div>
+
+              <!-- Location -->
+              <div>
+                <label class="block text-sm font-semibold text-secondary mb-3">
+                  <Icon name="hugeicons:location-01" class="w-4 h-4 inline mr-1" />
+                  Location Band
+                </label>
+                <select id="location" class="select select-bordered w-full text-base bg-base-100">
+                  <option value="metro">Metro (Sydney, Melbourne, Brisbane suburbs)</option>
+                  <option value="regional">Regional (+8%)</option>
+                  <option value="remote">Remote (+20%)</option>
+                </select>
+                <p class="text-xs text-secondary/50 mt-2">
+                  <a href="https://www.health.gov.au/health-topics/rural-health-workforce/classifications/mmm" target="_blank" rel="noopener" class="text-primary hover:underline">Check your MMM classification</a>
+                </p>
+              </div>
+
+              <!-- Property Type -->
+              <div>
+                <label class="block text-sm font-semibold text-secondary mb-3">
+                  <Icon name="hugeicons:home-01" class="w-4 h-4 inline mr-1" />
+                  Property Age
+                </label>
+                <div class="flex gap-4">
+                  <label class="flex items-center gap-2 cursor-pointer">
+                    <input type="radio" name="propertyAge" value="new" class="radio radio-primary" checked />
+                    <span class="text-sm text-secondary">New Build</span>
+                  </label>
+                  <label class="flex items-center gap-2 cursor-pointer">
+                    <input type="radio" name="propertyAge" value="existing" class="radio radio-primary" />
+                    <span class="text-sm text-secondary">Existing (-15%)</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Calculate Button -->
+              <button
+                id="calculateBtn"
+                class="btn btn-primary w-full text-lg gap-2 rounded-2xl h-14"
+              >
+                <Icon name="hugeicons:calculator" class="w-5 h-5" />
+                Calculate SDA Funding
+              </button>
+
+              <!-- Results -->
+              <div id="results" class="hidden">
+                <div class="divider">Your Estimated SDA Funding</div>
+
+                <div class="bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl p-6 mb-6">
+                  <div class="text-center">
+                    <p class="text-sm text-secondary/70 mb-1">Maximum Annual SDA Funding</p>
+                    <p class="text-4xl font-bold text-primary" id="maxFunding">$0</p>
+                    <p class="text-sm text-secondary/50 mt-1">per year</p>
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 mb-6">
+                  <div class="bg-base-200/50 rounded-xl p-4 text-center">
+                    <p class="text-xs text-secondary/60 mb-1">Your Rent Contribution</p>
+                    <p class="text-xl font-bold text-secondary" id="rentContribution">$12,856</p>
+                    <p class="text-xs text-secondary/50">per year (~$247/wk)</p>
+                  </div>
+                  <div class="bg-base-200/50 rounded-xl p-4 text-center">
+                    <p class="text-xs text-secondary/60 mb-1">Net to Provider</p>
+                    <p class="text-xl font-bold text-secondary" id="netToProvider">$0</p>
+                    <p class="text-xs text-secondary/50">per year</p>
+                  </div>
+                </div>
+
+                <div class="bg-base-200/30 rounded-xl p-4 mb-6">
+                  <h4 class="font-semibold text-secondary mb-3 text-sm">Calculation Breakdown</h4>
+                  <div class="space-y-2 text-sm">
+                    <div class="flex justify-between">
+                      <span class="text-secondary/70">Base Rate (Metro New Build)</span>
+                      <span class="font-medium text-secondary" id="baseRate">$0</span>
+                    </div>
+                    <div class="flex justify-between">
+                      <span class="text-secondary/70">Location Adjustment</span>
+                      <span class="font-medium text-secondary" id="locationAdjust">+0%</span>
+                    </div>
+                    <div class="flex justify-between">
+                      <span class="text-secondary/70">Property Age Adjustment</span>
+                      <span class="font-medium text-secondary" id="ageAdjust">0%</span>
+                    </div>
+                    <div class="flex justify-between pt-2 border-t border-base-300">
+                      <span class="text-secondary font-semibold">Maximum Annual Funding</span>
+                      <span class="font-bold text-primary" id="totalFunding">$0</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bg-info/10 rounded-xl p-4 border border-info/20">
+                  <p class="text-sm text-secondary/80">
+                    <Icon name="hugeicons:information-circle" class="w-4 h-4 inline text-info" />
+                    <strong>Note:</strong> These are maximum price limits. Actual SDA payments depend on the specific property and provider agreement. <a href="/blog/sda-calculator-specialist-disability-accommodation-2025" class="text-primary hover:underline">Read the full SDA guide</a> for eligibility details.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA -->
+          <div class="mt-8 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl p-6 border border-primary/10">
+            <div class="flex flex-col sm:flex-row items-center gap-4">
+              <div class="flex-1">
+                <h3 class="font-bold text-secondary mb-1">Need Help With SDA?</h3>
+                <p class="text-sm text-secondary/70">Our team can guide you through SDA eligibility and finding accommodation.</p>
+              </div>
+              <a href="/contact" class="btn btn-primary btn-sm gap-2 whitespace-nowrap">
+                <Icon name="hugeicons:message-01" class="w-4 h-4" />
+                Contact Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="mt-20">
+        <h2 class="text-3xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="max-w-3xl mx-auto space-y-4">
+          <div class="collapse collapse-arrow bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" checked />
+            <div class="collapse-title text-lg font-semibold text-secondary">
+              How much SDA funding can I get from NDIS?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>SDA funding ranges from approximately $35,000 to $117,000 per year depending on your design category (Improved Liveability, Fully Accessible, Robust, or High Physical Support), building type (apartment, villa, group home), and location. The NDIS sets maximum price limits that providers cannot exceed.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-arrow bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-semibold text-secondary">
+              Do I have to pay rent if I have SDA funding?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>Yes, participants pay a reasonable rent contribution of approximately 25% of the Disability Support Pension - about $247 per week or $12,856 per year in 2025. This is your contribution regardless of your SDA funding level.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-arrow bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-semibold text-secondary">
+              What is the difference between SIL and SDA?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>SDA (Specialist Disability Accommodation) is funding for the BUILDING itself - specialized housing with accessibility features. SIL (Supported Independent Living) is funding for SUPPORT WORKERS to help you with daily living. You can have SDA without SIL, SIL without SDA, or both together. Use our <a href="/tools/ndis-sil-calculator" class="text-primary hover:underline">SIL Calculator</a> to estimate support worker costs.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-arrow bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-semibold text-secondary">
+              What are the 4 SDA design categories?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p><strong>Improved Liveability:</strong> For sensory/cognitive impairments - enhanced lighting, wayfinding, level surfaces.<br/>
+              <strong>Fully Accessible:</strong> For wheelchair users - zero-step entry, wide doorways, accessible bathrooms.<br/>
+              <strong>Robust:</strong> For behavioural support needs - impact-resistant materials, secure fittings.<br/>
+              <strong>High Physical Support:</strong> For highest physical needs - ceiling hoists, reinforced floors, specialized equipment.</p>
+            </div>
+          </div>
+
+          <div class="collapse collapse-arrow bg-white border border-base-200 rounded-2xl">
+            <input type="radio" name="faq-accordion" />
+            <div class="collapse-title text-lg font-semibold text-secondary">
+              How do I apply for SDA funding?
+            </div>
+            <div class="collapse-content text-secondary/70">
+              <p>To get SDA funding: 1) Discuss SDA with your Support Coordinator or LAC, 2) Get an Occupational Therapy assessment documenting your housing needs, 3) Submit a plan amendment request with your assessment, 4) NDIA reviews and makes a decision (usually 6-12 weeks), 5) Search for available SDA properties that match your approved design category.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Tools -->
+      <div class="mt-16">
+        <h2 class="text-2xl font-bold text-secondary mb-6 text-center">Related NDIS Calculators</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <a href="/tools/ndis-sil-calculator" class="bg-white rounded-2xl p-6 border border-base-200 hover:border-primary/30 hover:shadow-lg transition-all group">
+            <Icon name="hugeicons:house-04" class="w-8 h-8 text-primary mb-3" />
+            <h3 class="font-bold text-secondary group-hover:text-primary transition-colors">SIL Calculator</h3>
+            <p class="text-sm text-secondary/60 mt-1">Calculate Supported Independent Living costs</p>
+          </a>
+          <a href="/tools/ndis-respite-calculator" class="bg-white rounded-2xl p-6 border border-base-200 hover:border-primary/30 hover:shadow-lg transition-all group">
+            <Icon name="hugeicons:bed" class="w-8 h-8 text-primary mb-3" />
+            <h3 class="font-bold text-secondary group-hover:text-primary transition-colors">Respite Calculator</h3>
+            <p class="text-sm text-secondary/60 mt-1">Calculate STA/respite accommodation costs</p>
+          </a>
+          <a href="/tools/ndis-eligibility-quiz" class="bg-white rounded-2xl p-6 border border-base-200 hover:border-primary/30 hover:shadow-lg transition-all group">
+            <Icon name="hugeicons:checkmark-circle-02" class="w-8 h-8 text-primary mb-3" />
+            <h3 class="font-bold text-secondary group-hover:text-primary transition-colors">Eligibility Quiz</h3>
+            <p class="text-sm text-secondary/60 mt-1">Check if you qualify for NDIS</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // SDA Rates (2025-26, Metro, New Build)
+    const sdaRates = {
+      improvedLiveability: {
+        apartment1bed: 42847,
+        apartment2bed: 49275,
+        villa1bed: 46355,
+        villa2bed: 52560,
+        groupHome: 35040
+      },
+      fullyAccessible: {
+        apartment1bed: 56940,
+        apartment2bed: 63510,
+        villa1bed: 60225,
+        villa2bed: 66430,
+        groupHome: 43800
+      },
+      robust: {
+        apartment1bed: 62050,
+        apartment2bed: 68620,
+        villa1bed: 65700,
+        villa2bed: 71905,
+        groupHome: 47450
+      },
+      highPhysicalSupport: {
+        apartment1bed: 94170,
+        apartment2bed: 104025,
+        villa1bed: 97455,
+        villa2bed: 107675,
+        groupHome: 69350
+      }
+    };
+
+    const locationMultipliers = {
+      metro: 1.0,
+      regional: 1.08,
+      remote: 1.20
+    };
+
+    const designCategoryDescriptions = {
+      improvedLiveability: "For participants with sensory, intellectual, or cognitive impairments",
+      fullyAccessible: "For participants who use wheelchairs or mobility aids",
+      robust: "For participants with behavioural support needs requiring durable housing",
+      highPhysicalSupport: "For participants needing ceiling hoists and specialized equipment"
+    };
+
+    const annualRentContribution = 12856;
+
+    function formatCurrency(amount) {
+      return new Intl.NumberFormat('en-AU', {
+        style: 'currency',
+        currency: 'AUD',
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0
+      }).format(amount);
+    }
+
+    function calculate() {
+      const designCategory = document.getElementById('designCategory').value;
+      const buildingType = document.getElementById('buildingType').value;
+      const location = document.getElementById('location').value;
+      const propertyAge = document.querySelector('input[name="propertyAge"]:checked').value;
+
+      // Get base rate
+      const baseRate = sdaRates[designCategory][buildingType];
+
+      // Apply location multiplier
+      const locationMultiplier = locationMultipliers[location];
+      let adjustedRate = baseRate * locationMultiplier;
+
+      // Apply existing property discount
+      const ageMultiplier = propertyAge === 'existing' ? 0.85 : 1.0;
+      adjustedRate = adjustedRate * ageMultiplier;
+
+      // Round to nearest dollar
+      const maxFunding = Math.round(adjustedRate);
+      const netToProvider = maxFunding - annualRentContribution;
+
+      // Display results
+      document.getElementById('results').classList.remove('hidden');
+      document.getElementById('maxFunding').textContent = formatCurrency(maxFunding);
+      document.getElementById('netToProvider').textContent = formatCurrency(netToProvider);
+      document.getElementById('baseRate').textContent = formatCurrency(baseRate);
+      document.getElementById('totalFunding').textContent = formatCurrency(maxFunding);
+
+      // Location adjustment display
+      const locationPercent = ((locationMultiplier - 1) * 100).toFixed(0);
+      document.getElementById('locationAdjust').textContent = locationPercent > 0 ? `+${locationPercent}%` : '0%';
+
+      // Age adjustment display
+      const agePercent = propertyAge === 'existing' ? '-15%' : '0%';
+      document.getElementById('ageAdjust').textContent = agePercent;
+
+      // Scroll to results
+      document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    // Update design category help text
+    function updateDesignHelp() {
+      const category = document.getElementById('designCategory').value;
+      document.getElementById('designCategoryHelp').textContent = designCategoryDescriptions[category];
+    }
+
+    // Event listeners
+    document.getElementById('calculateBtn').addEventListener('click', calculate);
+    document.getElementById('designCategory').addEventListener('change', updateDesignHelp);
+
+    // Calculate on any input change for live updates
+    ['designCategory', 'buildingType', 'location'].forEach(id => {
+      document.getElementById(id).addEventListener('change', () => {
+        if (!document.getElementById('results').classList.contains('hidden')) {
+          calculate();
+        }
+      });
+    });
+
+    document.querySelectorAll('input[name="propertyAge"]').forEach(radio => {
+      radio.addEventListener('change', () => {
+        if (!document.getElementById('results').classList.contains('hidden')) {
+          calculate();
+        }
+      });
+    });
+  </script>
+</BaseLayout>

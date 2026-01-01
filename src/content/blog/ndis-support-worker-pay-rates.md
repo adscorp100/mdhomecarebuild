@@ -1,6 +1,6 @@
 ---
-title: "NDIS Support Worker Pay Rates 2025: Complete Guide (QLD, VIC, NSW & National)"
-description: "Complete guide to NDIS support worker pay rates for 2025. Official SCHADS Award rates, NDIS price limits, public holiday rates, night shift loadings, and how much disability support workers actually earn."
+title: "NDIS Support Worker Pay Rates 2025: Weekday, Weekend & Public Holiday Rates"
+description: "NDIS support worker pay rates 2025-26: $70.23/hr weekday, $98.66 Saturday, $127.08 Sunday. Official SCHADS Award rates, NDIS price limits ($70.23-$155.51/hr), and what NDIS carers actually earn."
 pubDate: 2025-07-04
 author: "MD Home Care"
 tags: ["NDIS Pay Rates", "NDIS Price Guide", "Support Worker", "SCHADS Award", "NDIS Pay Rise"]
@@ -9,17 +9,37 @@ popupSubtitle: "We provide transparent rates and quality care"
 image: "/assets/carer.webp"
 ---
 
-Understanding NDIS support worker pay rates can be confusing. There's a difference between what the NDIS pays providers (the Price Guide), what providers must pay workers (the SCHADS Award), and what workers actually take home.
+Understanding NDIS support worker pay rates can be confusing. There's a difference between what the NDIS pays providers (the Price Guide), what providers must pay workers (the SCHADS Award), and what workers actually take home. Whether you're a support worker, NDIS carer (another common term for support workers), or participant, this guide covers everything you need to know.
 
-This guide breaks down all the rates for 2025, including the July 2025 wage increase, public holiday penalty rates, night shift loadings, and real-world earnings for different scenarios.
+> **Latest Update (November 2025):** This guide reflects the NDIS Pricing Arrangements and Price Limits 2025-26 v1.1, effective 24 November 2025.
 
-## NDIS Pay Rate Changes July 2025
+This guide breaks down all the rates for 2025-26, including the November 2025 price updates, public holiday penalty rates, night shift loadings, and real-world earnings for different scenarios.
 
-As of 1 July 2025, the NDIS Pricing Arrangements and Price Limits were updated with a **3.95% increase** to price limits for disability support worker services, reflecting the Fair Work Commission's annual wage review.
+## NDIS Support Worker Pay Rates 2025-26 (Quick Summary)
+
+| Shift Type | NDIS Price Limit | Worker Receives (SCHADS) |
+|------------|------------------|--------------------------|
+| Weekday Daytime | $70.23/hr | $30-$45/hr |
+| Saturday | $98.66/hr | $45-$68/hr |
+| Sunday | $127.08/hr | $60-$90/hr |
+| Public Holiday | $155.51/hr | $75-$112/hr |
+
+## How Much Do NDIS Support Workers Get Paid Per Hour?
+
+The amount an NDIS support worker (or NDIS carer) gets paid depends on their classification level under the SCHADS Award and the type of shift they work. Entry-level workers start around $30/hr, while experienced workers can earn $45+/hr before penalty rates. Weekend and public holiday shifts significantly boost earnings.
+
+## What Is the NDIS Hourly Rate for Support Workers in 2025?
+
+The current NDIS price limit for standard support work is **$70.23 per hour** on weekdays (as of November 2025). This is the maximum providers can charge participants—not what workers receive. Workers typically earn between $30-$45/hr depending on their level, with the rest covering provider overheads.
+
+## NDIS Pay Rate Changes November 2025
+
+The NDIS Pricing Arrangements and Price Limits 2025-26 v1.1, effective 24 November 2025, includes updated price limits for disability support worker services.
 
 **Key points:**
-- NDIS price limits (what participants pay) increased by 3.95%
-- SCHADS Award minimum wages (what workers receive) also increased
+- Standard support weekday rate increased to $70.23/hr (up from $67.56/hr)
+- High intensity weekday rate increased to $73.08/hr
+- All weekend and public holiday rates adjusted accordingly
 - The increase applies to all support types and shift times
 
 ## Understanding the Two Rate Systems
@@ -31,42 +51,42 @@ As of 1 July 2025, the NDIS Pricing Arrangements and Price Limits were updated w
 | **What it is** | Maximum price providers can charge | Minimum wage providers must pay |
 | **Who sets it** | NDIA (National Disability Insurance Agency) | Fair Work Commission |
 | **Purpose** | Caps participant costs | Protects worker pay |
-| **Typical weekday rate** | $67.56/hr (standard support) | $30-$40/hr (depending on level) |
+| **Typical weekday rate** | $70.23/hr (standard support) | $30-$40/hr (depending on level) |
 
 The gap between these rates covers provider overheads: superannuation, insurance, workers compensation, leave entitlements, training, administration, and profit margin.
 
-## NDIS Price Guide Rates 2025 (What Participants Pay)
+## NDIS Price Guide Rates 2025-26 (What Participants Pay)
 
-These are the **maximum hourly rates** providers can charge under the NDIS. They're national rates—the same in QLD, VIC, NSW, and all other states.
+These are the **maximum hourly rates** providers can charge under the NDIS as of November 2025. They're national rates—the same in QLD, VIC, NSW, and all other states.
 
 ### Standard Support Worker Rates
 
 | Support Type | Line Item | Weekday | Saturday | Sunday | Public Holiday |
 |--------------|-----------|---------|----------|--------|----------------|
-| **Standard (Level 1)** | 01_011_0107_1_1 | $67.56 | $94.86 | $122.16 | $149.46 |
-| **High Intensity (Level 2)** | 01_012_0107_1_1 | $74.92 | $105.20 | $135.47 | $165.75 |
+| **Standard (Level 1)** | 01_011_0107_1_1 | $70.23 | $98.66 | $127.08 | $155.51 |
+| **High Intensity (Level 2)** | 01_012_0107_1_1 | $73.08 | $102.66 | $132.25 | $161.83 |
 
 ### Community Participation Rates
 
 | Support Type | Line Item | Weekday | Saturday | Sunday | Public Holiday |
 |--------------|-----------|---------|----------|--------|----------------|
-| **Community Participation (Standard)** | 04_104_0125_6_1 | $67.56 | $94.86 | $122.16 | $149.46 |
-| **Community Participation (High Intensity)** | 04_105_0125_6_1 | $74.92 | $105.20 | $135.47 | $165.75 |
+| **Community Participation (Standard)** | 04_104_0125_6_1 | $70.23 | $98.66 | $127.08 | $155.51 |
+| **Community Participation (High Intensity)** | 04_105_0125_6_1 | $73.08 | $102.66 | $132.25 | $161.83 |
 
 ### Night and Sleepover Rates
 
 | Support Type | Line Item | Rate |
 |--------------|-----------|------|
-| **Active Night Support** | 01_015_0107_1_1 | $74.92/hr |
-| **Night-Time Sleepover** | 01_010_0107_1_1 | $287.13/night |
+| **Active Night Support** | 01_015_0107_1_1 | $77.93/hr |
+| **Night-Time Sleepover** | 01_010_0107_1_1 | $298.48/night |
 
 ### Group Support Rates (Per Participant)
 
 | Ratio | Weekday | Saturday | Sunday |
 |-------|---------|----------|--------|
-| **1:2 (2 participants)** | $38.09 | $53.49 | $68.90 |
-| **1:3 (3 participants)** | $27.50 | $38.64 | $49.78 |
-| **1:4 (4 participants)** | $22.17 | $31.14 | $40.11 |
+| **1:2 (2 participants)** | $39.59 | $55.60 | $71.61 |
+| **1:3 (3 participants)** | $28.59 | $40.17 | $51.74 |
+| **1:4 (4 participants)** | $23.04 | $32.37 | $41.70 |
 
 ## SCHADS Award Rates 2025 (What Workers Receive)
 
@@ -100,9 +120,9 @@ Public holiday rates are significantly higher than standard rates. Here's what t
 
 | Support Type | Standard Weekday | Public Holiday | Loading |
 |--------------|-----------------|----------------|---------|
-| Standard Support | $67.56 | $149.46 | +121% |
-| High Intensity | $74.92 | $165.75 | +121% |
-| Community Participation | $67.56 | $149.46 | +121% |
+| Standard Support | $70.23 | $155.51 | +121% |
+| High Intensity | $73.08 | $161.83 | +121% |
+| Community Participation | $70.23 | $155.51 | +121% |
 
 ### Public Holiday Award Rates (What Workers Receive)
 
@@ -142,7 +162,7 @@ Night shifts attract a **15% loading** on top of the base rate:
 When a support worker stays overnight at a participant's home:
 - **Sleepover allowance:** $60.02 per night
 - Plus payment for any active support provided during the night
-- NDIS price limit for sleepovers: $287.13 per night
+- NDIS price limit for sleepovers: $298.48 per night
 
 ## Weekend Penalty Rates
 
@@ -151,14 +171,158 @@ When a support worker stays overnight at a participant's home:
 | Rate Type | Multiplier | Example (Level 2 Base $34.58) |
 |-----------|------------|------------------------------|
 | SCHADS Award | ×1.5 | $51.87/hr |
-| NDIS Price Limit | - | $94.86/hr |
+| NDIS Price Limit | - | $98.66/hr |
 
 ### Sunday Rates
 
 | Rate Type | Multiplier | Example (Level 2 Base $34.58) |
 |-----------|------------|------------------------------|
 | SCHADS Award | ×2.0 | $69.16/hr |
-| NDIS Price Limit | - | $122.16/hr |
+| NDIS Price Limit | - | $127.08/hr |
+
+## NDIS Sunday Support Worker Rates 2025
+
+Sunday is the highest-paying regular day for NDIS support workers. Under the SCHADS Award, Sunday rates are **200% of the base hourly rate** (double time).
+
+### Quick Reference: Sunday Rates by Level
+
+| Support Level | Base Rate | Sunday Rate (2x) | NDIS Price Limit |
+|--------------|-----------|------------------|------------------|
+| Level 1 (Entry) | $30.02 | $60.04/hr | $127.08/hr |
+| Level 2 (Cert III) | $34.58 | $69.16/hr | $127.08/hr |
+| Level 3 (Cert IV) | $38.65 | $77.30/hr | $127.08/hr |
+| Level 4 (Senior) | $45.10 | $90.20/hr | $127.08/hr |
+| High Intensity | $34.58 | $69.16/hr | $132.25/hr |
+
+### Why Work Sundays as an NDIS Support Worker?
+
+**Double time pay makes Sundays incredibly lucrative.** A support worker doing a single 8-hour Sunday shift earns what would take 16 hours to earn on weekdays.
+
+**Example earnings for an 8-hour Sunday shift:**
+- Level 1: $60.04 x 8 = **$480.32**
+- Level 2: $69.16 x 8 = **$553.28**
+- Level 3: $77.30 x 8 = **$618.40**
+
+Compare this to weekday earnings for the same 8 hours:
+- Level 1: $30.02 x 8 = $240.16
+- Level 2: $34.58 x 8 = $276.64
+- Level 3: $38.65 x 8 = $309.20
+
+### Sunday Night Shift Rates
+
+If you work a Sunday night shift (10pm onwards), you receive both the Sunday loading (2x) and the night shift loading (+15%):
+
+| Level | Base Rate | Sunday Night Rate | 8-Hour Earnings |
+|-------|-----------|-------------------|-----------------|
+| Level 1 | $30.02 | $69.05/hr | $552.40 |
+| Level 2 | $34.58 | $79.53/hr | $636.24 |
+| Level 3 | $38.65 | $88.90/hr | $711.20 |
+
+## NDIS Saturday Support Worker Rates 2025
+
+Saturday rates provide **150% of the base hourly rate** (time and a half) under the SCHADS Award.
+
+### Quick Reference: Saturday Rates by Level
+
+| Support Level | Base Rate | Saturday Rate (1.5x) | NDIS Price Limit |
+|--------------|-----------|----------------------|------------------|
+| Level 1 (Entry) | $30.02 | $45.03/hr | $98.66/hr |
+| Level 2 (Cert III) | $34.58 | $51.87/hr | $98.66/hr |
+| Level 3 (Cert IV) | $38.65 | $57.98/hr | $98.66/hr |
+| Level 4 (Senior) | $45.10 | $67.65/hr | $98.66/hr |
+| High Intensity | $34.58 | $51.87/hr | $102.66/hr |
+
+### Saturday vs Sunday: Which Pays More?
+
+| Comparison | Saturday (1.5x) | Sunday (2x) | Difference |
+|------------|-----------------|-------------|------------|
+| Level 2 hourly | $51.87 | $69.16 | +$17.29/hr |
+| 8-hour shift | $414.96 | $553.28 | +$138.32 |
+| 10 shifts/month | $4,149.60 | $5,532.80 | +$1,383.20 |
+
+**The verdict:** Sunday shifts pay 33% more than Saturday shifts.
+
+## Australian Public Holiday Calendar 2025-2026
+
+NDIS public holiday rates (225-250% of base) apply on these dates. These are the highest-paying shifts of the year for support workers.
+
+### National Public Holidays 2025
+
+| Holiday | Date | Notes |
+|---------|------|-------|
+| New Year's Day | 1 January 2025 | Wednesday |
+| Australia Day | 27 January 2025 | Monday (observed) |
+| Good Friday | 18 April 2025 | Friday |
+| Easter Saturday | 19 April 2025 | Saturday |
+| Easter Monday | 21 April 2025 | Monday |
+| Anzac Day | 25 April 2025 | Friday |
+| Queen's Birthday | Varies by state | See below |
+| Christmas Day | 25 December 2025 | Thursday |
+| Boxing Day | 26 December 2025 | Friday |
+
+### National Public Holidays 2026
+
+| Holiday | Date | Notes |
+|---------|------|-------|
+| New Year's Day | 1 January 2026 | Thursday |
+| Australia Day | 26 January 2026 | Monday |
+| Good Friday | 3 April 2026 | Friday |
+| Easter Saturday | 4 April 2026 | Saturday |
+| Easter Monday | 6 April 2026 | Monday |
+| Anzac Day | 27 April 2026 | Monday (observed) |
+| Christmas Day | 25 December 2026 | Friday |
+| Boxing Day | 28 December 2026 | Monday (observed) |
+
+### Queen's Birthday 2025-2026 by State
+
+| State | 2025 Date | 2026 Date |
+|-------|-----------|-----------|
+| ACT, NSW, NT, SA, TAS, VIC | 9 June 2025 | 8 June 2026 |
+| Queensland | 6 October 2025 | 5 October 2026 |
+| Western Australia | 23 September 2025 | 28 September 2026 |
+
+### State-Specific Public Holidays
+
+**Victoria:**
+- Melbourne Cup Day: First Tuesday in November (4 November 2025)
+- AFL Grand Final Friday: Friday before Grand Final (26 September 2025)
+
+**Queensland:**
+- Royal Queensland Show (Ekka): Second Wednesday in August (Brisbane only)
+
+**New South Wales:**
+- Bank Holiday: First Monday in August (4 August 2025)
+
+**South Australia:**
+- Adelaide Cup Day: Second Monday in March
+- Proclamation Day: 24 December
+
+**Western Australia:**
+- Western Australia Day: First Monday in June
+
+**Tasmania:**
+- Royal Hobart Regatta: Second Monday in February (Southern Tasmania)
+
+**Northern Territory:**
+- May Day: First Monday in May
+- Picnic Day: First Monday in August
+
+**ACT:**
+- Reconciliation Day: 27 May 2025
+- Family & Community Day: Monday after first Sunday in September
+
+### Public Holiday Pay Calculation
+
+Under the SCHADS Award, public holiday rates are **250% of base rate** (2.5x):
+
+| Level | Base Rate | Public Holiday Rate (2.5x) | 8-Hour Earnings |
+|-------|-----------|---------------------------|-----------------|
+| Level 1 | $30.02 | $75.05/hr | $600.40 |
+| Level 2 | $34.58 | $86.45/hr | $691.60 |
+| Level 3 | $38.65 | $96.63/hr | $773.04 |
+| Level 4 | $45.10 | $112.75/hr | $902.00 |
+
+**Tip:** If a public holiday falls on a Sunday, you typically receive the higher rate (usually public holiday rates).
 
 ## How Much Do NDIS Support Workers Actually Earn?
 
@@ -192,10 +356,10 @@ Self-employed support workers typically charge 10-20% above the NDIS price limit
 
 | Shift Type | NDIS Price Limit | Typical Contractor Rate |
 |------------|-----------------|------------------------|
-| Weekday | $67.56 | $50-$60/hr |
-| Saturday | $94.86 | $70-$85/hr |
-| Sunday | $122.16 | $90-$110/hr |
-| Public Holiday | $149.46 | $110-$135/hr |
+| Weekday | $70.23 | $52-$63/hr |
+| Saturday | $98.66 | $73-$89/hr |
+| Sunday | $127.08 | $94-$114/hr |
+| Public Holiday | $155.51 | $115-$140/hr |
 
 ## State-Specific Information
 
@@ -256,9 +420,21 @@ The NDIS Price Guide sets the **maximum price providers can charge participants*
 
 Under the SCHADS Award, support workers earn **$30-$57 per hour** depending on their classification level. Casual workers receive an additional 25% loading. Weekend and night shifts attract penalty rates that can more than double the base rate.
 
-### Does the 3.95% increase go directly to support workers?
+### What is the NDIS Sunday rate?
 
-Not automatically. The 3.95% increase applies to NDIS price limits (what participants pay). Provider organisations decide whether to pass this on as wage increases. However, the SCHADS Award also increased in July 2025, raising minimum wages.
+The NDIS Sunday rate (price limit) for standard support is **$127.08 per hour** as of November 2025. For high intensity support, it's $132.25/hr. Support workers themselves receive double time under the SCHADS Award—for example, a Level 2 worker earns $69.16/hr on Sundays (2x their $34.58 base rate).
+
+### What is the NDIS Saturday rate?
+
+The NDIS Saturday rate (price limit) for standard support is **$98.66 per hour** as of November 2025. For high intensity support, it's $102.66/hr. Support workers receive time-and-a-half under the SCHADS Award—a Level 2 worker earns $51.87/hr on Saturdays (1.5x their $34.58 base rate).
+
+### How much do support workers get paid on public holidays?
+
+Under the SCHADS Award, support workers receive **250% of their base rate** (2.5x) on public holidays. For example, a Level 2 worker earning $34.58/hr base rate would receive $86.45/hr on a public holiday. The NDIS price limit for standard support on public holidays is $155.51/hr.
+
+### Do NDIS price increases go directly to support workers?
+
+Not automatically. NDIS price limit increases apply to what participants pay. Provider organisations decide whether to pass this on as wage increases. However, the SCHADS Award sets minimum wages that all providers must pay, and these are updated annually.
 
 ### What is Level 1, 2, 3 support worker?
 
@@ -289,4 +465,4 @@ At MD Home Care, we believe in transparent pricing and fair worker pay. We can h
 
 ---
 
-*This guide reflects NDIS pricing and SCHADS Award rates as of July 2025. Rates are updated annually—check the current NDIS Price Guide and Fair Work website for the latest figures.*
+*This guide reflects NDIS Pricing Arrangements and Price Limits 2025-26 v1.1 (effective 24 November 2025) and SCHADS Award rates. Rates are updated periodically—check the current NDIS Price Guide and Fair Work website for the latest figures.*
