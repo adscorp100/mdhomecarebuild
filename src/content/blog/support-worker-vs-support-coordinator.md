@@ -125,7 +125,7 @@ Participants should consider several factors when determining which support type
 Many participants require both roles, with the coordinator organizing the support system and workers providing direct assistance.
 
 ## Comprehensive Analysis of Support Coordinator vs Support Worker Roles
-While the distinction between support coordinators and support workers may seem straightforward, a deeper analysis reveals the complex interplay between these roles and their evolution within the NDIS ecosystem. This analysis examines the nuanced differences, emerging trends, and best practices based on current NDIS frameworks and market developments in 2025.
+While the distinction between support coordinators and support workers may seem straightforward, a deeper analysis reveals the complex interplay between these roles and their evolution within the NDIS ecosystem. This analysis examines the nuanced differences, emerging trends, and best practices based on current NDIS frameworks and market developments in 2026.
 
 ### The Evolution of Support Roles in the NDIS
 Both support coordination and support work have undergone significant transformation since the NDIS began:
@@ -135,7 +135,7 @@ The support coordination role has evolved from an administrative function to a s
 
 - **Initial implementation (2013-2016)**: Primarily focused on service connection and basic plan implementation
 - **Middle phase (2017-2020)**: Expanded to include capacity building and crisis management elements
-- **Current practice (2021-2025)**: Now encompasses outcome measurement, evidence-based practice, specialized domains, and systems navigation
+- **Current practice (2021-2026)**: Now encompasses outcome measurement, evidence-based practice, specialized domains, and systems navigation
 
 This evolution reflects the increasing complexity of the NDIS and the recognized need for skilled intermediaries to help participants navigate the system effectively.
 
@@ -144,7 +144,7 @@ Similarly, the support worker role has developed beyond basic caregiving:
 
 - **Traditional approach (pre-NDIS)**: Largely focused on attendance care and supervision
 - **Early NDIS period (2013-2018)**: Expanded to include community access and skill development
-- **Contemporary practice (2019-2025)**: Now incorporates active support methodologies, person-centered approaches, and specialized practice domains
+- **Contemporary practice (2019-2026)**: Now incorporates active support methodologies, person-centered approaches, and specialized practice domains
 
 This progression represents a shift from care-based to enablement-focused support delivery, aligned with the NDIS's emphasis on participant choice, control, and capability development.
 

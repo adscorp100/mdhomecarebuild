@@ -1,5 +1,5 @@
 ---
-title: "How to Apply for NDIS: Step-by-Step Application Guide (2025)"
+title: "How to Apply for NDIS: Step-by-Step Application Guide (2026)"
 description: "How to apply for NDIS in Australia. Complete application guide with eligibility criteria, required evidence, Access Request form tips, and what to do if rejected. Free support options available."
 pubDate: 2025-01-15
 author: "MD Home Care"
@@ -9,7 +9,7 @@ popupSubtitle: "Our team can guide you through the process and connect you with 
 image: "/assets/disabled carer.webp"
 ---
 
-## How to Apply for NDIS in Australia: Complete 2025 Guide
+## How to Apply for NDIS in Australia: Complete 2026 Guide
 
 **Quick Facts: Applying for NDIS**
 - **Who can apply:** Australian citizens/permanent residents under 65 with permanent disability
@@ -80,7 +80,7 @@ Many community organisations offer NDIS application support, including:
 - **Local council disability services** - Often have access workers who can help
 - **Community health centres** - May have NDIS navigators on staff
 
-## NDIS Eligibility Criteria (2025)
+## NDIS Eligibility Criteria (2026)
 
 Before applying, make sure you meet the basic eligibility requirements:
 
@@ -369,4 +369,4 @@ At MD Home Care, we understand the NDIS inside and out. While we can't complete 
 
 ---
 
-*This guide was last updated January 2025. NDIS processes and requirements may change—always check the official NDIS website for the most current information.*
+*This guide was last updated January 2026. NDIS processes and requirements may change—always check the official NDIS website for the most current information.*

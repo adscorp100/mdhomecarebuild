@@ -1,6 +1,6 @@
 ---
-title: "Top 20 NDIS Providers in Sydney: A 2025 Guide"
-description: "Looking for the best NDIS providers in Sydney? Our 2025 guide ranks the top 20 disability support services, explains the July 2025 changes, and shows you how to choose the right provider for your needs."
+title: "Top 20 NDIS Providers in Sydney: A 2026 Guide"
+description: "Looking for the best NDIS providers in Sydney? Our 2026 guide ranks the top 20 disability support services, explains the July 2026 changes, and shows you how to choose the right provider for your needs."
 pubDate: 2025-07-06
 author: "MD Home Care"
 tags: ["NDIS", "Sydney", "Disability Support"]
@@ -11,7 +11,7 @@ image: "/assets/sydney.webp"
 
 Finding the right NDIS provider in Sydney can be overwhelming. To help you choose, we've researched and ranked the top disability support service providers in the city.
 
-While there are many excellent providers, our top recommendation for 2025 is **MD Home Care**. Their unique partnership model, commitment to complex care, and industry recognition make them a standout choice.
+While there are many excellent providers, our top recommendation for 2026 is **MD Home Care**. Their unique partnership model, commitment to complex care, and industry recognition make them a standout choice.
 
 ## Top NDIS Providers in Sydney at a Glance
 

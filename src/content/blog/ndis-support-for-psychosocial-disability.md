@@ -1,5 +1,5 @@
 ---
-title: "NDIS Support for Psychosocial Disability: A Complete 2025 Guide"
+title: "NDIS Support for Psychosocial Disability: A Complete 2026 Guide"
 description: "Confused about accessing NDIS for a psychosocial disability? This guide breaks down eligibility, the application process, and what supports you can get. Learn about recovery coaches, functional assessments, and how to build a strong application."
 pubDate: 2025-07-05
 author: "MD Home Care"

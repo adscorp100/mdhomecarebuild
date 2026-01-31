@@ -9,7 +9,7 @@ popupSubtitle: "STRC programs can help you regain independence"
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 
-**Short Term Restorative Care (STRC)** is a specialized aged care program designed to help older Australians recover, rebuild skills, and regain independence after illness, injury, or decline in function. This program is part of the wider aged care system, which is transitioning to the new [Support at Home Program in 2025](/blog/support-at-home-program-2025-complete-guide). This comprehensive guide covers everything you need to know about **STRC programs**, including eligibility requirements, available services, how to access programs, and what to expect during the restorative care process.
+**Short Term Restorative Care (STRC)** is a specialized aged care program designed to help older Australians recover, rebuild skills, and regain independence after illness, injury, or decline in function. This program is part of the wider aged care system, which is transitioning to the new [Support at Home Program in 2026](/blog/support-at-home-program-2026-complete-guide). This comprehensive guide covers everything you need to know about **STRC programs**, including eligibility requirements, available services, how to access programs, and what to expect during the restorative care process.
 
 ## What is Short Term Restorative Care (STRC)?
 

@@ -228,7 +228,7 @@ If you choose this path, you'll need to know [how to find your own NDIS clients]
 
 ### Current Pay Rates (2025)
 
-These rates are an estimate. For a full breakdown, see our detailed guides on [NDIS support worker pay rates](/blog/ndis-support-worker-pay-rates) and the official [support worker hourly rates](/blog/ndis-support-worker-hourly-rate-2025).
+These rates are an estimate. For a full breakdown, see our detailed guides on [NDIS support worker pay rates](/blog/ndis-support-worker-pay-rates) and the official [support worker hourly rates](/blog/ndis-support-worker-hourly-rate).
 
 **Entry Level (0-2 years):**
 - **Weekday**: $30-35/hour
@@ -470,7 +470,7 @@ Career progression includes specialized support roles, team leadership, coordina
 
 ## Is Becoming a Support Worker Right for You?
 
-This guide provides the practical steps, but becoming a great support worker is about more than just qualifications. To help you decide, read our analysis on [whether being a support worker is worth it](/blog/is-being-a-support-worker-worth-it-in-2025-pay-lifestyle-and-challenges), which covers the lifestyle and challenges of the role.
+This guide provides the practical steps, but becoming a great support worker is about more than just qualifications. To help you decide, read our analysis on [whether being a support worker is worth it](/blog/is-being-a-support-worker-worth-it-pay-lifestyle-and-challenges), which covers the lifestyle and challenges of the role.
 
 ---
 

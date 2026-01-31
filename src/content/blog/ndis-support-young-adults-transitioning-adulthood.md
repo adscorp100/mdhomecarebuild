@@ -1,5 +1,5 @@
 ---
-title: "NDIS Support for Young Adults: What You Need to Know About Transitioning to Adulthood 2025"
+title: "NDIS Support for Young Adults: What You Need to Know About Transitioning to Adulthood 2026"
 description: "Complete guide to NDIS supports for young adults aged 18-25 transitioning to adulthood. Learn about transition planning, available services, employment support, and independent living assistance."
 pubDate: 2025-06-02
 author: "Camila"

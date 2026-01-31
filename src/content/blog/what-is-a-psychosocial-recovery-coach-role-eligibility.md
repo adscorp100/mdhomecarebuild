@@ -1,5 +1,5 @@
 ---
-title: "Psychosocial Recovery Coach NDIS: What They Do, Funding & How to Get One (2025)"
+title: "Psychosocial Recovery Coach NDIS: What They Do, Funding & How to Get One (2026)"
 description: "Complete guide to NDIS Psychosocial Recovery Coaches. What they do, qualifications, funding (60-156 hours/year), how to get one in your plan, and how they differ from support coordinators."
 pubDate: 2025-07-12
 author: "MD Home Care"
@@ -135,7 +135,7 @@ These distinctions highlight the complementary nature of recovery coaching, whic
 ### NDIS Funding for Recovery Coaching
 Recovery coaching is funded under the NDIS Capacity Building budget, specifically within the "Improved Daily Living" category. The funding allocation typically ranges from 60 to 156 hours per year, depending on the participant's needs and plan.
 
-In the 2025 NDIS Price Guide, recovery coaching is funded at the following rates:
+In the 2026 NDIS Price Guide, recovery coaching is funded at the following rates:
 
 - **Level 1 - Standard Recovery Coach**: $86.79 - $94.52 per hour
 - **Level 2 - Advanced Recovery Coach**: $106.21 - $113.64 per hour

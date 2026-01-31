@@ -385,7 +385,7 @@ For more information on NDIS documentation and support, you may find these guide
 
 - [What Does a Support Coordinator Do in the NDIS?](/blog/what-does-a-support-coordinator-do-in-the-ndis)
 - [How to Request an NDIS Plan Review](/blog/how-to-request-ndis-plan-reviews-better-support)
-- [NDIS Eligibility Requirements: Complete Guide](/blog/ndis-eligibility-requirements-complete-guide-2025)
+- [NDIS Eligibility Requirements: Complete Guide](/blog/ndis-eligibility-requirements-complete-guide)
 
 ---
 

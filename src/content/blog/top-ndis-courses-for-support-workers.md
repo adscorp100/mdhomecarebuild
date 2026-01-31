@@ -1,5 +1,5 @@
 ---
-title: "Best NDIS Support Worker Courses 2025: Certificate III-IV Training $2,000-$5,000 + Free Options"
+title: "Best NDIS Support Worker Courses 2026: Certificate III-IV Training $2,000-$5,000 + Free Options"
 description: "Complete guide to NDIS support worker training: Certificate III ($2,000-$4,500), Certificate IV ($2,500-$5,000), free TAFE options, and specialized courses. Compare 15+ top training providers."
 pubDate: 2025-05-15
 author: "Camila"
@@ -9,7 +9,7 @@ popupSubtitle: "All our staff have completed certified NDIS training"
 image: "/assets/clinic.webp"
 ---
 
-## Best NDIS Support Worker Courses 2025: Training Costs & Requirements
+## Best NDIS Support Worker Courses 2026: Training Costs & Requirements
 
 **Essential Qualifications & Costs:**
 - **Certificate III Individual Support**: $2,000-$4,500 (6-12 months, industry standard)
@@ -195,7 +195,7 @@ The NDIS Commission's training grants program for priority skills development:
 - **Regional Innovation Grants**: Up to $30,000 for addressing training gaps in rural/remote areas
 
 ## Comprehensive Analysis of NDIS Training Landscape
-The education and training ecosystem for NDIS support workers continues to evolve in response to sector growth, changing participant needs, and quality standards. This analysis examines current trends, emerging educational approaches, and future directions based on workforce data and industry developments in 2025.
+The education and training ecosystem for NDIS support workers continues to evolve in response to sector growth, changing participant needs, and quality standards. This analysis examines current trends, emerging educational approaches, and future directions based on workforce data and industry developments in 2026.
 
 ### Workforce Capability Framework Alignment
 Recent NDIS workforce initiatives have shaped training priorities:

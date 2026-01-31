@@ -1,6 +1,6 @@
 ---
-title: "NDIS Support Worker Travel Allowances: What You Can Claim in 2025"
-description: "Complete guide to NDIS travel allowance for support workers in 2025. Learn about claimable travel time, vehicle costs, rate limits, and real-world examples for both providers and participants."
+title: "NDIS Support Worker Travel Allowances: What You Can Claim in 2026"
+description: "Complete guide to NDIS travel allowance for support workers in 2026. Learn about claimable travel time, vehicle costs, rate limits, and real-world examples for both providers and participants."
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
@@ -111,7 +111,7 @@ Clear documentation protects both providers and participants from disagreements 
 ## NDIS Travel Allowance Rate Changes
 The NDIS regularly updates travel allowance rates:
 
-### Current 2025 Rates
+### Current 2026 Rates
 - **Travel time**: Charged at the same rate as the support being delivered
 - **Standard vehicle transport**: $0.99 per kilometer
 - **Modified accessibility vehicle transport**: $2.76 per kilometer
@@ -169,7 +169,7 @@ A support worker provides services to three participants who attend the same gro
 - Return journey costs similarly divided
 
 ## Comprehensive Analysis of NDIS Travel Allowances
-The framework for NDIS travel allowances has evolved significantly, with recent policy refinements addressing both participant outcomes and provider sustainability. This analysis examines the current landscape, strategic considerations, and best practices based on the latest NDIS pricing arrangements and policy directives from 2025.
+The framework for NDIS travel allowances has evolved significantly, with recent policy refinements addressing both participant outcomes and provider sustainability. This analysis examines the current landscape, strategic considerations, and best practices based on the latest NDIS pricing arrangements and policy directives from 2026.
 
 ### The Policy Evolution of NDIS Travel Provisions
 Travel policies within the NDIS have undergone several transformations:
@@ -190,7 +190,7 @@ The NDIS introduced more structured approaches:
 - More consistent claiming categories
 - Differentiated approaches for high-volume providers
 
-#### Current Refined Model (2023-2025)
+#### Current Refined Model (2023-2026)
 The present framework emphasizes:
 - Evidence-based time and distance parameters
 - Balanced consideration of participant and provider needs

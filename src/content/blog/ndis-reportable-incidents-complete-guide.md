@@ -1,6 +1,6 @@
 ---
-title: "NDIS Reportable Incidents 2025: Complete Guide to Reporting Requirements"
-description: "Complete guide to NDIS reportable incidents for 2025. Learn what must be reported, 24-hour and 5-day deadlines, how to report through the Commission Portal, and consequences of non-compliance."
+title: "NDIS Reportable Incidents 2026: Complete Guide to Reporting Requirements"
+description: "Complete guide to NDIS reportable incidents for 2026. Learn what must be reported, 24-hour and 5-day deadlines, how to report through the Commission Portal, and consequences of non-compliance."
 pubDate: 2025-12-17
 author: "Camila"
 tags: ["NDIS", "Reportable Incidents", "Compliance", "Providers"]
@@ -9,9 +9,9 @@ popupSubtitle: "Get expert guidance on incident reporting and provider obligatio
 image: "/assets/carer.webp"
 ---
 
-# NDIS Reportable Incidents 2025: Complete Guide to Reporting Requirements
+# NDIS Reportable Incidents 2026: Complete Guide to Reporting Requirements
 
-## Key Updates: NDIS Reportable Incidents December 2025
+## Key Updates: NDIS Reportable Incidents December 2026
 
 **Important Compliance Requirements:**
 - **24-hour deadline** for immediate notification of all reportable incidents
@@ -20,7 +20,7 @@ image: "/assets/carer.webp"
 - **Penalties up to $55,000** per breach for failure to report
 - **PRODA access** required for reporting through the NDIS Commission Portal
 
-*Last updated: December 17, 2025 - Source: NDIS Quality and Safeguards Commission*
+*Last updated: December 17, 2026 - Source: NDIS Quality and Safeguards Commission*
 
 ## Quick Navigation
 - [What is a Reportable Incident?](#what-is-a-reportable-incident)
