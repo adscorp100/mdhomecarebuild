@@ -465,7 +465,7 @@ const breadcrumbs = [
 ];
 
 // Get suburb coordinates for geo positioning
-const coords = suburbCoordinates[suburb] || { lat: "-33.8688", lng: "151.2093" }; // fallback to Sydney
+const coords = suburbCoordinates[suburbInfo.slug] || { lat: "-33.8688", lng: "151.2093" }; // fallback to Sydney
 
 // Build Service schema with AggregateRating for rich results
 const serviceSchema = {

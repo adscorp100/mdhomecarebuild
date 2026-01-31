@@ -382,7 +382,7 @@ const formattedMetaTitle = job.data.metaTitle?.replace(/{suburb}/g, 'Australia')
 const formattedMetaDescription = job.data.metaDescription?.replace(/{suburb}/g, 'Australia') || formattedDescription;
 
 // Define suburb replacement function for the markdown content
-const replacePlaceholders = (text: string | null | undefined): string => {
+const replaceSuburb = (text: string | null | undefined): string => {
   if (!text) return '';
   return text.replace(/{suburb}/g, 'Australia');
 };
@@ -546,7 +546,7 @@ const combinedSchema = {
             <h2>Required Qualifications</h2>
             <ul class="requirements-list">
               {job.data.requirements.map((requirement) => (
-                <li>{replacePlaceholders(requirement)}</li>
+                <li>{replaceSuburb(requirement)}</li>
               ))}
             </ul>
           </div>
@@ -556,7 +556,7 @@ const combinedSchema = {
             <h2>Essential Certifications</h2>
             <ul class="certifications-list">
               {job.data.certifications.map((certification) => (
-                <li>{replacePlaceholders(certification)}</li>
+                <li>{replaceSuburb(certification)}</li>
               ))}
             </ul>
           </div>
