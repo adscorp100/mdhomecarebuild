@@ -1,6 +1,6 @@
 ---
-title: "Disability Support Pension Rates 2025: Calculator + What You'll Actually Get"
-description: "DSP payment rates January 2025: $1,116.30/fortnight single, $842.80 each partnered. Use our calculator to estimate your payment after means test. Eligibility, income test limits, and application guide."
+title: "Disability Pension: $1,149/Fortnight (2025) + Does It Stop at 65?"
+description: "Disability Support Pension pays $1,149/fortnight (single) or $866.80 each (partnered) in 2025. No, DSP doesn't stop at 65 - it continues for life. Free calculator + eligibility guide."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["disability support pension", "dsp rates", "disability pension", "centrelink payments", "dsp 2025", "disability pension rates", "DSP eligibility", "DSP asset test", "Centrelink disability pension"]

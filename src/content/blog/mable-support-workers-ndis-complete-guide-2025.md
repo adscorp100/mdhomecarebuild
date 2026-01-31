@@ -1,6 +1,6 @@
 ---
-title: "Mable vs NDIS Providers 2025: Honest Platform Review + Rate Comparison"
-description: "Mable platform review 2025: Compare rates ($58/hr avg vs $70 NDIS cap), understand the 7.95% fee, and learn if Mable works with your NDIS plan type. Honest pros and cons."
+title: "Mable Weekend Rates 2025: $73/hr vs NDIS Providers ($105/hr)"
+description: "Mable rates 2025: Weekend $73/hr, public holidays $87/hr, plus 7.95% platform fee. Compare vs registered NDIS providers' rates. Is Mable NDIS registered? Full platform review."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["Mable Support Workers", "NDIS", "Support Workers", "Disability Support", "Mable Platform", "Mable Rates"]
