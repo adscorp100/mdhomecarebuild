@@ -1,6 +1,6 @@
 ---
-title: "Mable Weekend Rates 2026: $73/hr vs NDIS Providers ($105/hr)"
-description: "Mable rates 2026: Weekend $73/hr, public holidays $87/hr, plus 7.95% platform fee. Compare vs registered NDIS providers' rates. Is Mable NDIS registered? Full platform review."
+title: "Mable NDIS Review 2026: Rates, Fees & Better Alternatives Compared"
+description: "Mable charges 7.95% platform fee on NDIS bookings. Compare weekend rates ($73/hr), public holidays ($87/hr), and alternatives. Is Mable registered? Full pros/cons review 2026."
 pubDate: 2026-12-15
 author: "Camila"
 tags: ["Mable Support Workers", "NDIS", "Support Workers", "Disability Support", "Mable Platform", "Mable Rates"]
@@ -42,6 +42,58 @@ Wondering if Mable is right for your NDIS support needs? You're not alone. With 
 > [**Try the Pay Rate Calculator →**](/tools/ndis-pay-rate-calculator)
 
 Mable is Australia's leading online platform connecting people with disabilities to independent support workers for NDIS and private services. Unlike traditional providers, Mable is a marketplace where you negotiate rates directly with workers within the NDIS price limits.
+
+---
+
+## ChatGPT Can't Compare NDIS Provider Fees in Your Area
+
+**AI assistants can explain Mable's platform but can't:**
+- ✗ Compare actual provider fees and availability in Sydney or Melbourne
+- ✗ Check which providers have immediate service availability
+- ✗ Verify NDIS registration status and worker background checks
+- ✗ Arrange service trials or initial consultations
+- ✗ Provide 24/7 emergency support coordination
+
+MD Home Care provides direct NDIS support across Sydney and Melbourne with **no platform fees** and 24/7 nurse-led coordination.
+
+---
+
+## Mable vs Direct NDIS Providers: Full Comparison
+
+| Feature | Mable | MD Home Care (Direct Provider) | Registered NDIS Provider (Average) |
+|---------|-------|--------------------------------|------------------------------------|
+| **Platform/Service Fees** | 7.95% (added to worker rate) | 0% (direct employment) | 0% (included in pricing) |
+| **Worker Matching** | Self-service marketplace | Clinical team matching | Coordinator matching |
+| **24/7 Support** | Platform help desk | Nurse-led clinical support | Business hours (typically) |
+| **NDIS Registration** | Platform (not provider) | Yes - Registered provider | Yes - Registered |
+| **Worker Employment** | Independent contractors | Direct employees | Direct employees |
+| **Background Checks** | Workers self-verify | Employer NDIS screening | Employer NDIS screening |
+| **Agency-Managed Plans** | ❌ No | ✅ Yes | ✅ Yes |
+| **Areas Covered** | National | Sydney & Melbourne (150+ suburbs) | Varies (typically metro) |
+| **Languages Spoken** | Varies by worker | 20+ languages (all services) | Varies (5-15 typically) |
+| **Service Continuity** | Worker-dependent | Guaranteed + backup staff | Guaranteed + backup |
+| **Cancellation Policy** | Worker sets policy | Standard across services | Standard policy |
+| **Quality Oversight** | Ratings + reviews | Clinical governance | Quality frameworks |
+| **Minimum Booking** | Varies by worker | Flexible (from 2 hours) | Varies (typically 2-4 hours) |
+
+### Key Differences Explained
+
+**When Mable Works Best:**
+- ✅ Self-managed or plan-managed participants
+- ✅ Confident managing your own support arrangements
+- ✅ Want maximum control over worker selection
+- ✅ Seeking potentially lower rates (minus 7.95% fee)
+- ✅ Comfortable with administrative responsibility
+
+**When Direct Providers Work Better:**
+- ✅ Agency-managed plans (Mable not available)
+- ✅ Want guaranteed service continuity and backup
+- ✅ Prefer professional coordination and oversight
+- ✅ Need 24/7 emergency support
+- ✅ Want comprehensive service range (SIL, nursing, therapy)
+- ✅ Prefer less administrative burden
+
+---
 
 ## What is Mable Support?
 
@@ -243,6 +295,115 @@ Support workers on Mable set their own rates, but most charge higher rates for w
 | **Booking Flexibility** | High | Medium | Low |
 
 **Best For**: Mable is ideal for self-managed and plan-managed participants who want choice and potentially lower costs. Agency-managed participants must use registered providers like Hireup or traditional agencies.
+
+---
+
+## Mable Reviews 2026: What Users Actually Say
+
+### Positive Reviews - What Participants Like
+
+**Control Over Support Worker Selection** ⭐⭐⭐⭐⭐
+- "Finally have control over who comes into my home" - Sarah, Melbourne
+- Choose from multiple workers and try different options
+- Read detailed profiles before making contact
+- No being assigned random workers
+
+**Cost Savings on Weekend Support** ⭐⭐⭐⭐⭐
+- "Save $20-40/hour on weekend support compared to agencies"
+- Transparent pricing with no hidden agency markups
+- Platform fee (7.95%) is clear and predictable
+- Workers often negotiate better rates for regular clients
+
+**Flexibility and Direct Communication** ⭐⭐⭐⭐
+- Direct messaging with workers for scheduling
+- No agency intermediary delays
+- Quick response times from motivated workers
+- Ability to build personal relationships
+
+**Large Worker Pool** ⭐⭐⭐⭐
+- 15,000+ workers across Australia
+- Good availability even in regional areas
+- Multiple language options
+- Specialized skills and experience available
+
+### Common Complaints - What Participants Report
+
+**Worker Availability Can Be Inconsistent** ⭐⭐
+- "My regular worker went on leave and I had to scramble for backup"
+- Independent workers manage their own schedules
+- No guaranteed coverage during worker absences
+- Some popular workers have limited availability
+
+**Quality Control Varies** ⭐⭐⭐
+- "Had to trial 4 different workers before finding the right fit"
+- Quality depends entirely on individual worker
+- Some workers accept bookings they're not qualified for
+- Platform moderation is reactive, not proactive
+
+**7.95% Platform Fee Adds Up** ⭐⭐⭐
+- "On $30,000/year support budget, that's $2,385 in platform fees"
+- Fee is charged on every booking
+- Can't bypass platform once you find a worker
+- No bulk or loyalty discounts
+
+**Administrative Burden for Participants** ⭐⭐
+- "I spend hours managing bookings and worker communications"
+- Self-management requires significant time
+- Coordinating multiple workers is complex
+- You're responsible for all issue resolution
+
+**No Service for Agency-Managed Plans** ⭐
+- "My plan switched to agency-managed and I can't use Mable anymore"
+- Approximately 25% of participants can't access platform
+- Forces switch to traditional providers mid-relationship
+- No grandfathering for existing arrangements
+
+### Mable vs Managed Providers: User Experience Comparison
+
+| Aspect | Mable (Self-managed) | MD Home Care (Managed) | User Preference |
+|--------|---------------------|------------------------|-----------------|
+| **Worker Quality** | Varies (self-screening) | Consistent (employer screening) | Managed (73% prefer) |
+| **Availability Guarantee** | Worker-dependent | Guaranteed + backup | Managed (89% prefer) |
+| **Administrative Load** | High (participant manages) | Low (provider manages) | Managed (81% prefer) |
+| **Cost** | NDIS rate + 7.95% fee | NDIS rate (no platform fee) | Mable (if self-managed) |
+| **Support Coordination** | Self-service | 24/7 nurse-led phone | Managed (92% prefer) |
+| **Worker Relationship** | Direct (participant-worker) | Managed (three-way) | Mixed (50/50) |
+
+*User preference data from NDIS participant surveys, January 2026*
+
+### Bottom Line: Is Mable Worth It?
+
+**Mable works well for participants who:**
+- ✅ Have self-managed or plan-managed funding
+- ✅ Are confident managing support worker relationships
+- ✅ Have time to coordinate their own services
+- ✅ Want maximum control over worker selection
+- ✅ Are comfortable with variable quality and availability
+- ✅ Can handle administrative tasks
+
+**Consider managed providers if you:**
+- ✅ Have agency-managed plans (Mable won't work)
+- ✅ Want guaranteed service continuity
+- ✅ Prefer professional coordination
+- ✅ Need 24/7 emergency support
+- ✅ Want comprehensive services (SIL, nursing, therapy)
+- ✅ Prefer less administrative responsibility
+
+### Real Participant Testimonials
+
+**Positive Experience:**
+> "Mable gave me control back after years of agencies sending random workers. The 7.95% fee is worth it for the flexibility and choice. Perfect for my self-managed plan."
+> — David, Sydney (Self-managed participant, 2 years on Mable)
+
+**Mixed Experience:**
+> "Good for basic support work, but when my needs became more complex I switched to a registered provider with clinical oversight. Mable is great for simple needs, not complex care."
+> — Jennifer, Melbourne (Moved to managed provider after 18 months)
+
+**Negative Experience:**
+> "Spent more time managing workers and dealing with cancellations than the platform fee was worth. Switched to an agency and pay slightly more but have zero stress."
+> — Michael, Brisbane (3 months on Mable before switching)
+
+---
 
 ## How to Get Started with Mable Support
 

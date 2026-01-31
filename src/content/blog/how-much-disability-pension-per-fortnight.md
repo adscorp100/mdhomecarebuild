@@ -1,6 +1,6 @@
 ---
-title: "Disability Pension: Up to $1,149/Fortnight (2026) + Does It Stop at 65?"
-description: "Disability Support Pension rates for 2026. Single recipients get up to $1,149/fortnight or $866.80 each (partnered). DSP doesn't stop at 65 - it continues for life. Free calculator + eligibility guide."
+title: "Disability Pension Rates 2026: $1,149/fortnight Single + $866.80 Partnered"
+description: "DSP payment rates 2026: Singles get $1,149/fortnight, couples $866.80 each. Includes supplements, income test, asset test limits & payment dates. Free DSP calculator + eligibility guide."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["disability support pension", "dsp rates", "disability pension", "centrelink payments", "dsp 2026", "disability pension rates", "DSP eligibility", "DSP asset test", "Centrelink disability pension"]
@@ -30,6 +30,12 @@ image: "/assets/wheelchair.webp"
 *Last Updated: January 2026 - Reflecting current 2026 DSP payment rates*
 
 The Disability Support Pension (DSP) provides crucial financial support for Australians who cannot work due to permanent disability or medical conditions. This comprehensive guide covers everything you need to know about DSP payment rates in 2026, including exact fortnightly amounts, income and asset test limits, eligibility requirements, and step-by-step application guidance.
+
+---
+
+**ChatGPT can't check your specific DSP payment amount or eligibility status.** For NDIS and aged care support services across Sydney and Melbourne, MD Home Care provides 24/7 nurse-led care coordination. Call **08 6386 9999** for assistance.
+
+---
 
 > **Calculate Your DSP Payment Instantly**
 > Use our free [DSP Calculator](/tools/dsp-calculator) to estimate your Disability Support Pension based on your income, assets, and relationship status. Updated with 2026 rates.
