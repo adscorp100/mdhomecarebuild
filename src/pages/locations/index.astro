@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 // Suburbs organized by state/region
 const locationsByState = {
@@ -63,12 +64,62 @@ function slugToName(slug: string): string {
   return slug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 }
 
+// Flatten all suburbs for ItemList
+const allSuburbs: {slug: string, name: string}[] = [];
+Object.values(locationsByState).forEach(state => {
+  Object.values(state).forEach(suburbs => {
+    suburbs.forEach(slug => {
+      allSuburbs.push({ slug, name: slugToName(slug) });
+    });
+  });
+});
+
 const title = "Service Locations Australia";
 const description = "MD Home Care provides home care and NDIS support services across Australia. Find services in Sydney, Melbourne, Brisbane, Perth, Adelaide, and more. Call 08 6386 9999.";
+
+// Build breadcrumbs
+const breadcrumbItems = [
+  { name: 'Home', url: 'https://mdhomecare.com.au' },
+  { name: 'Locations' }
+];
+
+// Build ItemList schema
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": allSuburbs.map((suburb, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "url": `https://mdhomecare.com.au/locations/${suburb.slug}`,
+    "name": suburb.name
+  }))
+};
+
+// CollectionPage schema
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Service Locations Australia",
+  "description": description,
+  "url": "https://mdhomecare.com.au/locations"
+};
+
+// Combine schemas
+const combinedSchema = {
+  "@context": "https://schema.org",
+  "@graph": [collectionPageSchema, itemListSchema]
+};
 ---
 
 <BaseLayout title={title} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(combinedSchema)} />
+
   <div class="max-w-6xl mx-auto px-4 py-12">
+    <!-- Breadcrumbs -->
+    <div class="mb-8">
+      <Breadcrumbs items={breadcrumbItems} />
+    </div>
+
     <!-- Header -->
     <header class="text-center mb-12">
       <h1 class="text-4xl font-bold text-base-content mb-4">Our Service Locations</h1>

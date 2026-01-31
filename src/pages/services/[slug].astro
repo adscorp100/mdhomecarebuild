@@ -467,10 +467,169 @@ const faqSchema = {
   }]
 };
 
+// Build LocalBusiness schema for near me rankings
+const localBusinessSchema = {
+  "@type": "LocalBusiness",
+  "name": "MD Home Care",
+  "description": genericDescription,
+  "url": canonicalUrl,
+  "telephone": "+61863869999",
+  "email": "contact@mdhomecare.com.au",
+  "priceRange": "$$",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-33.8688",
+    "longitude": "151.2093"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Sydney",
+    "addressRegion": "NSW",
+    "addressCountry": "AU"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Sydney", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Parramatta", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Liverpool", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Blacktown", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Penrith", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Campbelltown", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Melbourne", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Dandenong", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Frankston", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Geelong", "containedInPlace": { "@type": "State", "name": "Victoria" }}
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "45",
+    "bestRating": "5"
+  }
+};
+
+// Build WebPage schema with Speakable for voice search
+const webPageSchema = {
+  "@type": "WebPage",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
+  "name": genericTitle,
+  "description": genericDescription,
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".prose > p:first-of-type", ".card-title"]
+  }
+};
+
+// Build Service schema
+const serviceSchema = {
+  "@type": "Service",
+  "@id": `${canonicalUrl}#service`,
+  "name": genericTitle,
+  "description": genericDescription,
+  "serviceType": entry.data.category,
+  "provider": {
+    "@id": "https://mdhomecare.com.au/#organization"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Sydney", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Parramatta", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Liverpool", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Blacktown", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Melbourne", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Dandenong", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Geelong", "containedInPlace": { "@type": "State", "name": "Victoria" }}
+  ],
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": "https://mdhomecare.com.au/contact",
+    "servicePhone": "+61863869999",
+    "serviceLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Sydney",
+        "addressRegion": "NSW",
+        "addressCountry": "AU"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-33.8688",
+        "longitude": "151.2093"
+      }
+    }
+  },
+  "hoursAvailable": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "45",
+    "bestRating": "5"
+  }
+};
+
+// Build HowTo schema for process/eligibility sections
+const howToSchema = {
+  "@type": "HowTo",
+  "@id": `${canonicalUrl}#howto`,
+  "name": `How to Access ${genericTitle}`,
+  "description": `Step-by-step guide to getting ${genericTitle.toLowerCase()} support through MD Home Care.`,
+  "totalTime": "P14D",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "AUD",
+    "value": "0",
+    "description": "Free consultation - services may be funded through NDIS, Home Care Packages, or DVA"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Contact MD Home Care",
+      "text": "Call 08 6386 9999 or submit an online contact form to speak with our care coordination team.",
+      "url": "https://mdhomecare.com.au/contact"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Free Consultation",
+      "text": "We'll arrange a free consultation to understand your needs, discuss your NDIS plan or Home Care Package, and assess eligibility."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Care Plan Development",
+      "text": "Our team develops a personalized care plan aligned with your goals and funding. We match you with qualified local support workers."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Service Agreement",
+      "text": "Review and sign the service agreement. We handle all NDIS or Home Care Package paperwork and coordination."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Service Commencement",
+      "text": "Services typically start within 1-2 weeks. Urgent requests can often be accommodated sooner. Ongoing support and quality monitoring continues."
+    }
+  ]
+};
+
 // Combine all schemas
 const combinedSchema = {
   "@context": "https://schema.org",
-  "@graph": [breadcrumbSchema, faqSchema]
+  "@graph": [breadcrumbSchema, faqSchema, localBusinessSchema, serviceSchema, webPageSchema, howToSchema]
 };
 ---
 

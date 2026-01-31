@@ -7,6 +7,7 @@ import QuickFacts from '../../../../components/QuickFacts.astro';
 import SuburbTestimonials from '../../../../components/SuburbTestimonials.astro';
 import regionContent from '../../../../data/region-content.json';
 import suburbDetails from '../../../../data/suburb-details.json';
+import suburbCoordinates from '../../../../data/suburb-coordinates.json';
 import { getNearbySuburbs, getRelatedBlogPosts, getCleanServiceName } from '../../../../utils/internalLinks';
 
 // Type definitions
@@ -463,6 +464,9 @@ const breadcrumbs = [
   { name: suburbName, url: canonicalUrl }
 ];
 
+// Get suburb coordinates for geo positioning
+const coords = suburbCoordinates[suburb] || { lat: "-33.8688", lng: "151.2093" }; // fallback to Sydney
+
 // Build Service schema with AggregateRating for rich results
 const serviceSchema = {
   "@type": "Service",
@@ -474,6 +478,9 @@ const serviceSchema = {
     "@id": "https://mdhomecare.com.au/#organization",
     "name": "MD Home Care",
     "telephone": "+61863869999",
+    "email": "contact@mdhomecare.com.au",
+    "url": "https://mdhomecare.com.au",
+    "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "6/11 York St",
@@ -481,6 +488,25 @@ const serviceSchema = {
       "addressRegion": "NSW",
       "postalCode": "2000",
       "addressCountry": "AU"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": coords.lat,
+      "longitude": coords.lng
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
     }
   },
   "areaServed": {
@@ -630,10 +656,23 @@ const howToSchema = {
   ]
 };
 
+// Build WebPage schema with Speakable for voice search
+const webPageSchema = {
+  "@type": "WebPage",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
+  "name": h1Title,
+  "description": description,
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".prose > p:first-of-type", ".quick-facts", ".pricing-info"]
+  }
+};
+
 // Combine all schemas
 const combinedSchema = {
   "@context": "https://schema.org",
-  "@graph": [serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
+  "@graph": [serviceSchema, breadcrumbSchema, faqSchema, howToSchema, webPageSchema]
 };
 ---
 

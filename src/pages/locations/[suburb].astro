@@ -6,6 +6,7 @@ import suburbsData from '../../data/suburbs-data.json';
 import suburbDetails from '../../data/suburb-details.json';
 import regionContent from '../../data/region-content.json';
 import suburbTestimonials from '../../data/suburb-testimonials.json';
+import suburbCoordinates from '../../data/suburb-coordinates.json';
 
 // Generate static paths for all suburbs
 export async function getStaticPaths() {
@@ -67,6 +68,9 @@ const description = `Find quality home care and NDIS services in ${suburbName}, 
 // H1 can be slightly longer
 const h1Title = `Home Care & NDIS Services in ${suburbName}`;
 
+// Get suburb coordinates for geo positioning
+const coords = suburbCoordinates[suburb as keyof typeof suburbCoordinates] || { lat: "-33.8688", lng: "151.2093" };
+
 // Schema markup
 const locationSchema = {
   "@context": "https://schema.org",
@@ -75,6 +79,19 @@ const locationSchema = {
   "description": description,
   "url": Astro.url.href,
   "telephone": "+61863869999",
+  "email": "contact@mdhomecare.com.au",
+  "priceRange": "$$",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": coords.lat,
+    "longitude": coords.lng
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
   "areaServed": {
     "@type": "City",
     "name": suburbName,

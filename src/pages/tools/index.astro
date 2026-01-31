@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 // Automatically discover all tools from .astro files in this directory
 const toolModules = await Astro.glob('./*.astro');
@@ -20,18 +21,60 @@ const tools = toolModules
   });
 
 const toolCount = tools.length;
+
+// Build breadcrumbs
+const breadcrumbItems = [
+  { name: 'Home', url: 'https://mdhomecare.com.au' },
+  { name: 'Tools' }
+];
+
+// Build ItemList schema
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": tools
+    .filter(tool => !tool.comingSoon)
+    .map((tool, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "url": `https://mdhomecare.com.au${tool.href}`,
+      "name": tool.title
+    }))
+};
+
+// CollectionPage schema
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "NDIS & Disability Calculators",
+  "description": `${toolCount} free online tools to help you estimate NDIS payments, support worker rates, and care costs.`,
+  "url": "https://mdhomecare.com.au/tools"
+};
+
+// Combine schemas
+const combinedSchema = {
+  "@context": "https://schema.org",
+  "@graph": [collectionPageSchema, itemListSchema]
+};
 ---
 
 <BaseLayout
   title={`${toolCount} Free NDIS & Disability Calculators | 2025 Rates`}
   description={`${toolCount} free online calculators for NDIS pay rates, support worker income, home care packages, therapy hours, and more. Get instant estimates with 2025 rates.`}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(combinedSchema)} />
+
   <div class="relative overflow-hidden bg-base-100">
     <!-- Background Decor -->
     <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
     <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
 
     <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumbs -->
+      <div class="mb-8">
+        <Breadcrumbs items={breadcrumbItems} />
+      </div>
 
       <!-- Header -->
       <div class="text-center mb-12 mt-8 lg:mt-0">

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 
 // Define TypeScript interfaces for suburb data
 interface SuburbInfo {
@@ -388,6 +389,76 @@ const replacePlaceholders = (text: string | null | undefined): string => {
 
 // Define a default image if none is provided in the job data
 const jobImage = job.data.image || '/images/careers/default-job-bg.jpg';
+
+// Build breadcrumbs
+const breadcrumbItems = [
+  { name: 'Home', url: 'https://mdhomecare.com.au' },
+  { name: 'Careers', url: 'https://mdhomecare.com.au/jobs' },
+  { name: replaceSuburb(job.data.title) }
+];
+
+// Build JobPosting schema for Google for Jobs
+const jobPostingSchema = {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": replaceSuburb(job.data.title),
+  "description": replaceSuburb(job.data.description),
+  "datePosted": "2026-01-01", // Update this to actual posting date
+  "validThrough": "2026-12-31", // Jobs remain valid for 1 year
+  "employmentType": ["FULL_TIME", "PART_TIME", "CONTRACTOR"],
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "sameAs": "https://mdhomecare.com.au",
+    "logo": "https://mdhomecare.com.au/assets/logo.svg"
+  },
+  "jobLocation": [
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Sydney",
+        "addressRegion": "NSW",
+        "addressCountry": "AU"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Melbourne",
+        "addressRegion": "VIC",
+        "addressCountry": "AU"
+      }
+    }
+  ],
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "AUD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "value": 70.88,
+      "unitText": "HOUR"
+    }
+  },
+  "applicantLocationRequirements": {
+    "@type": "Country",
+    "name": "AU"
+  },
+  "jobLocationType": "TELECOMMUTE",
+  ...(job.data.requirements && {
+    "qualifications": job.data.requirements.join('; ')
+  }),
+  ...(job.data.category && {
+    "industry": job.data.category
+  })
+};
+
+// Combine schemas
+const combinedSchema = {
+  "@context": "https://schema.org",
+  "@graph": [jobPostingSchema]
+};
 ---
 
 <style is:global>
@@ -413,8 +484,16 @@ const jobImage = job.data.image || '/images/careers/default-job-bg.jpg';
   canonical={job.data.canonicalUrl}
   noindex={job.data.noindex}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(combinedSchema)} />
+
   <div class="job-container">
     <article class="job-page">
+
+      <!-- Breadcrumbs -->
+      <div class="max-w-6xl mx-auto px-4 pt-8">
+        <Breadcrumbs items={breadcrumbItems} />
+      </div>
+
       <header class="job-hero" style={`background-image: url(${jobImage})`}>
         <div class="hero-overlay"></div>
         <div class="hero-content">

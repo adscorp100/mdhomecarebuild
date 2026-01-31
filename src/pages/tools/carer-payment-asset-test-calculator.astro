@@ -1,0 +1,468 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "Carer Payment Asset Test Calculator",
+  description: "Check if you pass the Carer Payment asset test. Calculate your assessable assets including home, car, savings, and investments.",
+  icon: "hugeicons:wallet-01",
+  color: "accent",
+  phase: 1,
+  isNew: true
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Carer Payment Asset Test Calculator Australia 2026",
+  "description": "Free Carer Payment asset test calculator. Check if your assets are below the threshold for Carer Payment eligibility. Updated with 2026 asset limits.",
+  "url": "https://mdhomecare.com.au/tools/carer-payment-asset-test-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the asset limits for Carer Payment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Carer Payment asset limits for 2026 are: Single homeowner - $314,000, Single non-homeowner - $566,000, Couple homeowner - $470,000 combined, Couple non-homeowner - $722,000 combined. If your assessable assets exceed these limits, you won't qualify for Carer Payment. The limits are indexed twice yearly in March and September."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is your home counted in the Carer Payment asset test?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your principal home (the property you live in) is NOT counted in the Carer Payment asset test. The value of your home is exempt regardless of how much it's worth. This is why there are different asset limits for homeowners and non-homeowners. Investment properties and holiday homes ARE counted as assessable assets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What assets are counted for Carer Payment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Assets counted for Carer Payment include: cash and bank accounts, shares and managed funds, investment properties, business assets, boats and caravans, contents and personal effects over $10,000. Assets NOT counted include: your principal home, your car (one only, reasonable value), most personal effects and household items, and funeral bonds up to $15,500."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much money can you have in the bank on Carer Payment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There's no specific limit on bank account balances, but your total assessable assets (including savings) must stay below the threshold: $314,000 (single homeowner), $566,000 (single non-homeowner), $470,000 (couple homeowner), or $722,000 (couple non-homeowner). Your cash and savings are combined with other assets like shares, investments, and property to determine total assets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Carer Payment check your bank account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Services Australia can check your bank accounts and financial records. You must declare all assets when applying for Carer Payment, and Services Australia may request bank statements to verify your declared assets. They can also use data-matching to check your financial information. Failing to declare assets accurately can result in overpayments that must be repaid."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my car counted in the Carer Payment asset test?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One car of reasonable value is exempt from the Carer Payment asset test. This means your primary vehicle is not counted toward your asset limit. However, if you own multiple cars, the additional vehicles will be counted as assessable assets. Classic cars, motorcycles (if not your primary vehicle), and boats are also counted as assessable assets."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="Carer Payment Asset Test Calculator 2026 - Check Your Eligibility"
+  description="Free Carer Payment asset test calculator. Check if your assets are below the threshold for Carer Payment. Updated with 2026 asset limits and thresholds."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">Carer Payment Asset Test</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            Carer Payment <span class="text-primary">Asset Test</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Check if you pass the Carer Payment asset test. Calculate your assessable assets including home value, savings, investments, and property. Updated with <strong>2026 asset limits</strong>.
+          </p>
+
+          <!-- Quick Facts Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-8">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:information-circle" class="w-5 h-5 text-primary" />
+              Asset Limits (2026)
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Single, homeowner</span>
+                <span class="font-bold text-secondary">$314,000</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Single, non-homeowner</span>
+                <span class="font-bold text-secondary">$566,000</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Couple, homeowner</span>
+                <span class="font-bold text-secondary">$470,000</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Couple, non-homeowner</span>
+                <span class="font-bold text-secondary">$722,000</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- What's Exempt -->
+          <div class="bg-success/5 rounded-[2rem] p-6 border border-success/20 mb-8">
+            <h3 class="font-bold text-secondary mb-3 flex items-center gap-2">
+              <Icon name="hugeicons:checkmark-circle-02" class="w-5 h-5 text-success" />
+              Exempt Assets (NOT counted)
+            </h3>
+            <ul class="space-y-2 text-sm text-secondary/70">
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-badge-01" class="w-4 h-4 text-success mt-0.5 shrink-0" />
+                <span>Your principal home (the property you live in)</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-badge-01" class="w-4 h-4 text-success mt-0.5 shrink-0" />
+                <span>One car of reasonable value</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-badge-01" class="w-4 h-4 text-success mt-0.5 shrink-0" />
+                <span>Household furniture and personal effects</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-badge-01" class="w-4 h-4 text-success mt-0.5 shrink-0" />
+                <span>Funeral bonds up to $15,500</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- ChatGPT Notice -->
+          <div class="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-[2rem] p-6 border border-primary/10">
+            <p class="text-sm text-secondary/80 leading-relaxed">
+              <strong class="text-secondary">ChatGPT can't assess your specific Carer Payment asset eligibility.</strong> This calculator uses current 2026 asset limits and helps you determine if your assets are below the threshold.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2rem] p-8 lg:p-10 border border-base-200 shadow-2xl shadow-base-200/50 sticky top-8">
+
+            <form id="assetTestForm">
+
+              <!-- Relationship Status -->
+              <div class="mb-8">
+                <label class="block text-secondary font-bold mb-3">
+                  Relationship Status
+                </label>
+                <div class="grid grid-cols-2 gap-3">
+                  <label class="relative cursor-pointer">
+                    <input type="radio" name="status" value="single" class="peer sr-only" checked />
+                    <div class="px-5 py-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center font-medium text-secondary peer-checked:text-primary">
+                      Single
+                    </div>
+                  </label>
+                  <label class="relative cursor-pointer">
+                    <input type="radio" name="status" value="couple" class="peer sr-only" />
+                    <div class="px-5 py-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center font-medium text-secondary peer-checked:text-primary">
+                      Partnered
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Homeowner Status -->
+              <div class="mb-8">
+                <label class="block text-secondary font-bold mb-3">
+                  Do you own your home?
+                </label>
+                <div class="grid grid-cols-2 gap-3">
+                  <label class="relative cursor-pointer">
+                    <input type="radio" name="homeowner" value="yes" class="peer sr-only" checked />
+                    <div class="px-5 py-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center font-medium text-secondary peer-checked:text-primary">
+                      Yes (Homeowner)
+                    </div>
+                  </label>
+                  <label class="relative cursor-pointer">
+                    <input type="radio" name="homeowner" value="no" class="peer sr-only" />
+                    <div class="px-5 py-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center font-medium text-secondary peer-checked:text-primary">
+                      No (Renter)
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="space-y-6 mb-8">
+
+                <!-- Cash & Savings -->
+                <div>
+                  <label class="block text-secondary font-medium mb-2 text-sm">
+                    Cash & Bank Accounts
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/60">$</span>
+                    <input
+                      type="number"
+                      id="cash"
+                      value="50000"
+                      min="0"
+                      step="1000"
+                      class="w-full pl-8 pr-4 py-3 rounded-xl border-2 border-base-200 focus:border-primary focus:outline-none transition-colors text-secondary font-medium"
+                    />
+                  </div>
+                </div>
+
+                <!-- Shares & Investments -->
+                <div>
+                  <label class="block text-secondary font-medium mb-2 text-sm">
+                    Shares, Managed Funds, Superannuation (if accessing)
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/60">$</span>
+                    <input
+                      type="number"
+                      id="investments"
+                      value="100000"
+                      min="0"
+                      step="5000"
+                      class="w-full pl-8 pr-4 py-3 rounded-xl border-2 border-base-200 focus:border-primary focus:outline-none transition-colors text-secondary font-medium"
+                    />
+                  </div>
+                </div>
+
+                <!-- Investment Property -->
+                <div>
+                  <label class="block text-secondary font-medium mb-2 text-sm">
+                    Investment Properties & Holiday Homes
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/60">$</span>
+                    <input
+                      type="number"
+                      id="property"
+                      value="0"
+                      min="0"
+                      step="10000"
+                      class="w-full pl-8 pr-4 py-3 rounded-xl border-2 border-base-200 focus:border-primary focus:outline-none transition-colors text-secondary font-medium"
+                    />
+                  </div>
+                </div>
+
+                <!-- Other Assets -->
+                <div>
+                  <label class="block text-secondary font-medium mb-2 text-sm">
+                    Other Assets (Boats, Caravans, Business Assets, Contents >$10k)
+                  </label>
+                  <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/60">$</span>
+                    <input
+                      type="number"
+                      id="other"
+                      value="0"
+                      min="0"
+                      step="5000"
+                      class="w-full pl-8 pr-4 py-3 rounded-xl border-2 border-base-200 focus:border-primary focus:outline-none transition-colors text-secondary font-medium"
+                    />
+                  </div>
+                </div>
+
+              </div>
+
+            </form>
+
+            <!-- Results -->
+            <div id="results" class="mt-8 pt-8 border-t-2 border-base-200">
+
+              <!-- Total Assets -->
+              <div class="mb-6 p-5 rounded-xl bg-base-100">
+                <div class="flex justify-between items-baseline mb-2">
+                  <span class="text-secondary/70 text-sm font-medium">Total Assessable Assets</span>
+                  <span id="totalAssets" class="text-2xl font-bold text-secondary">$150,000</span>
+                </div>
+              </div>
+
+              <!-- Asset Limit -->
+              <div class="mb-6 p-5 rounded-xl bg-secondary/5">
+                <div class="flex justify-between items-baseline mb-2">
+                  <span class="text-secondary/70 text-sm font-medium">Your Asset Limit</span>
+                  <span id="assetLimit" class="text-2xl font-bold text-secondary">$314,000</span>
+                </div>
+              </div>
+
+              <!-- Under/Over Limit -->
+              <div class="mb-6 p-5 rounded-xl" id="assetDifference">
+                <div class="flex justify-between items-baseline mb-2">
+                  <span class="text-secondary/70 text-sm font-medium">Amount Under Limit</span>
+                  <span id="difference" class="text-2xl font-bold text-success">$164,000</span>
+                </div>
+              </div>
+
+              <!-- Pass/Fail Status -->
+              <div id="passStatus" class="p-6 rounded-xl bg-gradient-to-br from-success to-success/80 text-white">
+                <div class="flex items-center gap-3 mb-2">
+                  <Icon name="hugeicons:checkmark-circle-02" class="w-8 h-8" />
+                  <span class="text-2xl font-bold">You PASS the Asset Test</span>
+                </div>
+                <p class="text-white/90 text-sm mt-3">
+                  Your total assets are below the limit. You meet the asset test requirement for Carer Payment.
+                </p>
+              </div>
+
+              <div id="failStatus" class="p-6 rounded-xl bg-gradient-to-br from-error to-error/80 text-white hidden">
+                <div class="flex items-center gap-3 mb-2">
+                  <Icon name="hugeicons:cancel-circle" class="w-8 h-8" />
+                  <span class="text-2xl font-bold">You FAIL the Asset Test</span>
+                </div>
+                <p class="text-white/90 text-sm mt-3">
+                  Your total assets exceed the limit. You do not meet the asset test requirement for Carer Payment at this time.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="mt-20 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          {faqData.mainEntity.map((faq: any) => (
+            <details class="group bg-white rounded-2xl border border-base-200 overflow-hidden">
+              <summary class="cursor-pointer p-6 font-bold text-secondary hover:text-primary transition-colors list-none flex justify-between items-center">
+                <span>{faq.name}</span>
+                <Icon name="hugeicons:arrow-down-01" class="w-5 h-5 text-primary group-open:rotate-180 transition-transform" />
+              </summary>
+              <div class="px-6 pb-6 text-secondary/70 leading-relaxed">
+                {faq.acceptedAnswer.text}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // 2026 Carer Payment Asset Limits
+    const ASSET_LIMITS = {
+      single_homeowner: 314000,
+      single_nonhomeowner: 566000,
+      couple_homeowner: 470000,
+      couple_nonhomeowner: 722000
+    };
+
+    function calculate() {
+      const status = (document.querySelector('input[name="status"]:checked') as HTMLInputElement)?.value || 'single';
+      const homeowner = (document.querySelector('input[name="homeowner"]:checked') as HTMLInputElement)?.value || 'yes';
+
+      const cash = parseFloat((document.getElementById('cash') as HTMLInputElement)?.value || '0');
+      const investments = parseFloat((document.getElementById('investments') as HTMLInputElement)?.value || '0');
+      const property = parseFloat((document.getElementById('property') as HTMLInputElement)?.value || '0');
+      const other = parseFloat((document.getElementById('other') as HTMLInputElement)?.value || '0');
+
+      // Calculate total assets
+      const totalAssets = cash + investments + property + other;
+
+      // Determine applicable limit
+      let assetLimit = 0;
+      if (status === 'single' && homeowner === 'yes') {
+        assetLimit = ASSET_LIMITS.single_homeowner;
+      } else if (status === 'single' && homeowner === 'no') {
+        assetLimit = ASSET_LIMITS.single_nonhomeowner;
+      } else if (status === 'couple' && homeowner === 'yes') {
+        assetLimit = ASSET_LIMITS.couple_homeowner;
+      } else if (status === 'couple' && homeowner === 'no') {
+        assetLimit = ASSET_LIMITS.couple_nonhomeowner;
+      }
+
+      const difference = assetLimit - totalAssets;
+      const pass = difference >= 0;
+
+      // Update UI
+      (document.getElementById('totalAssets') as HTMLElement).textContent = `$${totalAssets.toLocaleString()}`;
+      (document.getElementById('assetLimit') as HTMLElement).textContent = `$${assetLimit.toLocaleString()}`;
+      (document.getElementById('difference') as HTMLElement).textContent = `$${Math.abs(difference).toLocaleString()}`;
+
+      const diffContainer = document.getElementById('assetDifference') as HTMLElement;
+      const diffLabel = diffContainer.querySelector('.text-secondary\\/70') as HTMLElement;
+      const diffValue = document.getElementById('difference') as HTMLElement;
+
+      if (pass) {
+        diffLabel.textContent = 'Amount Under Limit';
+        diffValue.className = 'text-2xl font-bold text-success';
+        (document.getElementById('passStatus') as HTMLElement).classList.remove('hidden');
+        (document.getElementById('failStatus') as HTMLElement).classList.add('hidden');
+        diffContainer.className = 'mb-6 p-5 rounded-xl bg-success/5';
+      } else {
+        diffLabel.textContent = 'Amount Over Limit';
+        diffValue.className = 'text-2xl font-bold text-error';
+        (document.getElementById('passStatus') as HTMLElement).classList.add('hidden');
+        (document.getElementById('failStatus') as HTMLElement).classList.remove('hidden');
+        diffContainer.className = 'mb-6 p-5 rounded-xl bg-error/5';
+      }
+    }
+
+    // Event listeners
+    const form = document.getElementById('assetTestForm');
+    if (form) {
+      form.addEventListener('input', calculate);
+      form.addEventListener('change', calculate);
+    }
+
+    // Initial calculation
+    calculate();
+  </script>
+
+</BaseLayout>

@@ -1,0 +1,473 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "RAD Calculator (Aged Care Deposit)",
+  description: "Compare paying a Refundable Accommodation Deposit (RAD) lump sum vs Daily Accommodation Payment (DAP). Calculate which option saves you more.",
+  icon: "hugeicons:home-03",
+  color: "secondary",
+  phase: 1,
+  isNew: true
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "RAD Calculator Australia 2026 - Aged Care Deposit Calculator",
+  "description": "Free RAD vs DAP calculator for aged care. Compare paying a lump sum Refundable Accommodation Deposit vs daily payments. Calculate costs with current 2026 MPIR rate.",
+  "url": "https://mdhomecare.com.au/tools/rad-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a RAD in aged care?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A RAD (Refundable Accommodation Deposit) is a lump sum payment for your room in a residential aged care facility. RADs typically range from $200,000 to $1,000,000+ depending on the facility and room type. The RAD is fully refundable when you leave care (less any agreed deductions). You don't pay interest on a RAD, but you miss out on earning interest on that money."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between RAD and DAP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RAD (Refundable Accommodation Deposit) is a lump sum paid upfront and fully refundable when you leave. DAP (Daily Accommodation Payment) is a daily fee calculated as interest on the RAD amount using the MPIR (Maximum Permissible Interest Rate). You can choose: full RAD (pay lump sum, no daily fee), full DAP (keep your money, pay daily), or a combination (part RAD + part DAP)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is DAP calculated from RAD?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DAP is calculated using the formula: (RAD amount × MPIR) ÷ 365 days. For example, with a $500,000 RAD and 8.05% MPIR (2026 rate), the daily DAP is ($500,000 × 0.0805) ÷ 365 = $110.27 per day. The MPIR is set by the government and changes quarterly. If you pay part RAD and part DAP, the daily fee is calculated on the unpaid portion only."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I pay RAD or DAP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pay full RAD if: you have sufficient liquid assets, you want to avoid daily fees, and you expect to stay in care for many years. Pay full DAP if: you want to keep your money invested, you expect a short stay, or your investments earn more than the MPIR rate. Pay combination if: you want to preserve some capital while reducing daily fees. Consider your cash flow, investment returns, life expectancy, and whether you need funds for other purposes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the current MPIR rate for aged care 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Maximum Permissible Interest Rate (MPIR) for 2026 is 8.05% per annum (as of January 1, 2026). This rate is set by the Department of Health and changes quarterly based on the Reserve Bank's bond rate. The MPIR determines how much you pay in Daily Accommodation Payment if you don't pay a RAD lump sum. Check the current MPIR on the Department of Health website as it updates every quarter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get my RAD back?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, your RAD is fully refundable when you permanently leave the aged care facility (either moving out or after passing away). The facility must refund the RAD within 14 days of the room being filled by a new resident, or within 6 months of you leaving, whichever comes first. Some facilities may deduct agreed amounts for unmet care fees or accommodation payments. The RAD is government-guaranteed up to $500,000 per person."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="RAD Calculator 2026 - Compare Aged Care Deposit vs Daily Payment Options"
+  description="Free RAD vs DAP calculator. Compare paying a lump sum Refundable Accommodation Deposit vs daily payments for aged care. Calculate costs with 2026 MPIR rate."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">RAD Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            RAD Calculator <span class="text-primary">2026</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Compare paying a <strong>Refundable Accommodation Deposit (RAD)</strong> lump sum vs <strong>Daily Accommodation Payment (DAP)</strong>. Calculate which option saves you money based on expected stay duration. Updated with <strong>2026 MPIR rate (8.05%)</strong>.
+          </p>
+
+          <!-- Quick Facts Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-8">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:information-circle" class="w-5 h-5 text-primary" />
+              Current RAD/DAP Rates (2026)
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">MPIR (interest rate)</span>
+                <span class="font-bold text-secondary">8.05% p.a.</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Avg RAD in Australia</span>
+                <span class="font-bold text-secondary">~$450,000</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Avg daily DAP</span>
+                <span class="font-bold text-secondary">~$99/day</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">RAD refund guarantee</span>
+                <span class="font-bold text-secondary">Up to $500k</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Payment Options -->
+          <div class="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-[2rem] p-6 border border-primary/10 mb-8">
+            <h3 class="font-bold text-secondary mb-3 flex items-center gap-2">
+              <Icon name="hugeicons:bank" class="w-5 h-5 text-primary" />
+              Three Payment Options
+            </h3>
+            <ul class="space-y-3 text-sm text-secondary/70">
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-badge-01" class="w-4 h-4 text-primary mt-0.5 shrink-0" />
+                <span><strong>Full RAD:</strong> Pay lump sum, no daily fees</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-badge-01" class="w-4 h-4 text-primary mt-0.5 shrink-0" />
+                <span><strong>Full DAP:</strong> Keep your money, pay daily</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <Icon name="hugeicons:checkmark-badge-01" class="w-4 h-4 text-primary mt-0.5 shrink-0" />
+                <span><strong>Combination:</strong> Part RAD + reduced DAP</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- ChatGPT Notice -->
+          <div class="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-[2rem] p-6 border border-primary/10">
+            <p class="text-sm text-secondary/80 leading-relaxed">
+              <strong class="text-secondary">ChatGPT can't compare RAD vs DAP costs for your specific situation.</strong> This calculator uses the current 2026 MPIR rate and shows exact costs over different time periods to help you decide.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2rem] p-8 lg:p-10 border border-base-200 shadow-2xl shadow-base-200/50 sticky top-8">
+
+            <form id="radForm">
+
+              <!-- RAD Amount -->
+              <div class="mb-8">
+                <label class="block text-secondary font-bold mb-3">
+                  Quoted RAD Amount
+                  <span class="text-sm font-normal text-secondary/60 ml-2">(From aged care facility)</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/60 font-medium">$</span>
+                  <input
+                    type="number"
+                    id="radAmount"
+                    name="radAmount"
+                    value="500000"
+                    min="0"
+                    max="2000000"
+                    step="10000"
+                    class="w-full pl-8 pr-4 py-4 rounded-xl border-2 border-base-200 focus:border-primary focus:outline-none transition-colors text-secondary font-bold text-lg"
+                  />
+                </div>
+                <input type="range" id="radSlider" min="100000" max="1500000" step="10000" value="500000" class="w-full mt-3" />
+              </div>
+
+              <!-- Payment Option -->
+              <div class="mb-8">
+                <label class="block text-secondary font-bold mb-3">
+                  Payment Option
+                </label>
+                <div class="grid grid-cols-3 gap-3">
+                  <label class="relative cursor-pointer">
+                    <input type="radio" name="paymentOption" value="fullRAD" class="peer sr-only" />
+                    <div class="px-4 py-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center font-medium text-secondary peer-checked:text-primary text-sm">
+                      Full RAD
+                    </div>
+                  </label>
+                  <label class="relative cursor-pointer">
+                    <input type="radio" name="paymentOption" value="fullDAP" class="peer sr-only" checked />
+                    <div class="px-4 py-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center font-medium text-secondary peer-checked:text-primary text-sm">
+                      Full DAP
+                    </div>
+                  </label>
+                  <label class="relative cursor-pointer">
+                    <input type="radio" name="paymentOption" value="combination" class="peer sr-only" />
+                    <div class="px-4 py-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center font-medium text-secondary peer-checked:text-primary text-sm">
+                      Combination
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Partial RAD (for combination) -->
+              <div id="partialRADSection" class="mb-8 hidden">
+                <label class="block text-secondary font-bold mb-3">
+                  Partial RAD Amount to Pay
+                </label>
+                <div class="relative">
+                  <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/60 font-medium">$</span>
+                  <input
+                    type="number"
+                    id="partialRAD"
+                    name="partialRAD"
+                    value="250000"
+                    min="0"
+                    step="10000"
+                    class="w-full pl-8 pr-4 py-4 rounded-xl border-2 border-base-200 focus:border-primary focus:outline-none transition-colors text-secondary font-bold text-lg"
+                  />
+                </div>
+                <div class="text-xs text-secondary/60 mt-2">
+                  DAP will be calculated on the remaining balance
+                </div>
+              </div>
+
+              <!-- Expected Stay -->
+              <div class="mb-8">
+                <label class="block text-secondary font-bold mb-3">
+                  Expected Length of Stay (Years)
+                </label>
+                <input
+                  type="number"
+                  id="stayYears"
+                  name="stayYears"
+                  value="3"
+                  min="1"
+                  max="20"
+                  step="0.5"
+                  class="w-full px-4 py-4 rounded-xl border-2 border-base-200 focus:border-primary focus:outline-none transition-colors text-secondary font-bold text-lg"
+                />
+                <input type="range" id="staySlider" min="1" max="15" step="0.5" value="3" class="w-full mt-3" />
+              </div>
+
+              <!-- MPIR Rate -->
+              <div class="mb-8">
+                <label class="block text-secondary font-bold mb-3">
+                  MPIR Rate
+                  <span class="text-sm font-normal text-secondary/60 ml-2">(Current: 8.05%)</span>
+                </label>
+                <div class="relative">
+                  <input
+                    type="number"
+                    id="mpir"
+                    name="mpir"
+                    value="8.05"
+                    min="0"
+                    max="20"
+                    step="0.01"
+                    class="w-full px-4 py-4 rounded-xl border-2 border-base-200 focus:border-primary focus:outline-none transition-colors text-secondary font-bold text-lg"
+                  />
+                  <span class="absolute right-4 top-1/2 -translate-y-1/2 text-secondary/60 font-medium">%</span>
+                </div>
+              </div>
+
+            </form>
+
+            <!-- Results -->
+            <div id="results" class="mt-8 pt-8 border-t-2 border-base-200">
+
+              <!-- Daily DAP -->
+              <div class="mb-6 p-5 rounded-xl bg-base-100">
+                <div class="flex justify-between items-baseline mb-2">
+                  <span class="text-secondary/70 text-sm font-medium">Daily Accommodation Payment</span>
+                  <span id="dailyDAP" class="text-2xl font-bold text-secondary">$110.27<span class="text-sm text-secondary/60 ml-1">/day</span></span>
+                </div>
+                <div class="text-xs text-secondary/60">
+                  <span id="weeklyDAP">$771.89</span>/week • <span id="monthlyDAP">$3,360</span>/month
+                </div>
+              </div>
+
+              <!-- Total Cost Over Stay -->
+              <div class="mb-6 p-6 rounded-xl bg-gradient-to-br from-primary to-secondary text-white">
+                <div class="flex justify-between items-baseline mb-1">
+                  <span class="text-white/90 font-medium">Total DAP Cost Over Stay</span>
+                  <span id="totalDAPCost" class="text-3xl font-bold">$120,945</span>
+                </div>
+                <div class="text-sm text-white/80 mt-2">
+                  For <span id="stayDuration">3</span> year stay
+                </div>
+              </div>
+
+              <!-- Comparison -->
+              <div class="grid grid-cols-2 gap-4 mb-6">
+                <div class="p-5 rounded-xl bg-success/10 border border-success/20">
+                  <div class="text-xs text-secondary/60 mb-1">Full RAD (Lump Sum)</div>
+                  <div id="fullRADCost" class="text-xl font-bold text-secondary">$500,000</div>
+                  <div class="text-xs text-success mt-1">Fully refundable</div>
+                </div>
+                <div class="p-5 rounded-xl bg-warning/10 border border-warning/20">
+                  <div class="text-xs text-secondary/60 mb-1">Full DAP (Total Cost)</div>
+                  <div id="fullDAPCost" class="text-xl font-bold text-secondary">$120,945</div>
+                  <div class="text-xs text-warning mt-1">Not refundable</div>
+                </div>
+              </div>
+
+              <!-- Recommendation -->
+              <div id="recommendation" class="p-6 rounded-xl bg-gradient-to-br from-secondary/5 to-primary/5 border border-primary/10">
+                <h4 class="font-bold text-secondary mb-2 flex items-center gap-2">
+                  <Icon name="hugeicons:information-circle" class="w-5 h-5 text-primary" />
+                  Recommendation
+                </h4>
+                <p id="recommendationText" class="text-sm text-secondary/70 leading-relaxed">
+                  For a 3 year stay, paying full DAP costs $120,945 total. Paying full RAD costs $500,000 upfront but is fully refundable. Consider DAP if you expect a shorter stay or can earn more than 8.05% on investments.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="mt-20 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          {faqData.mainEntity.map((faq: any) => (
+            <details class="group bg-white rounded-2xl border border-base-200 overflow-hidden">
+              <summary class="cursor-pointer p-6 font-bold text-secondary hover:text-primary transition-colors list-none flex justify-between items-center">
+                <span>{faq.name}</span>
+                <Icon name="hugeicons:arrow-down-01" class="w-5 h-5 text-primary group-open:rotate-180 transition-transform" />
+              </summary>
+              <div class="px-6 pb-6 text-secondary/70 leading-relaxed">
+                {faq.acceptedAnswer.text}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function calculate() {
+      const radAmount = parseFloat((document.getElementById('radAmount') as HTMLInputElement)?.value || '500000');
+      const paymentOption = (document.querySelector('input[name="paymentOption"]:checked') as HTMLInputElement)?.value || 'fullDAP';
+      const partialRAD = parseFloat((document.getElementById('partialRAD') as HTMLInputElement)?.value || '0');
+      const stayYears = parseFloat((document.getElementById('stayYears') as HTMLInputElement)?.value || '3');
+      const mpir = parseFloat((document.getElementById('mpir') as HTMLInputElement)?.value || '8.05') / 100;
+
+      // Show/hide partial RAD section
+      const partialSection = document.getElementById('partialRADSection');
+      if (partialSection) {
+        partialSection.classList.toggle('hidden', paymentOption !== 'combination');
+      }
+
+      // Sync sliders
+      (document.getElementById('radSlider') as HTMLInputElement).value = radAmount.toString();
+      (document.getElementById('staySlider') as HTMLInputElement).value = stayYears.toString();
+
+      // Calculate DAP balance
+      let dapBalance = radAmount;
+      if (paymentOption === 'fullRAD') {
+        dapBalance = 0;
+      } else if (paymentOption === 'combination') {
+        dapBalance = radAmount - partialRAD;
+      }
+
+      // Calculate daily DAP
+      const dailyDAP = (dapBalance * mpir) / 365;
+      const weeklyDAP = dailyDAP * 7;
+      const monthlyDAP = dailyDAP * 30.4;
+
+      // Total DAP cost over stay
+      const totalDAPCost = dailyDAP * 365 * stayYears;
+
+      // Update UI
+      (document.getElementById('dailyDAP') as HTMLElement).innerHTML = `$${dailyDAP.toFixed(2)}<span class="text-sm text-secondary/60 ml-1">/day</span>`;
+      (document.getElementById('weeklyDAP') as HTMLElement).textContent = `$${weeklyDAP.toFixed(2)}`;
+      (document.getElementById('monthlyDAP') as HTMLElement).textContent = `$${monthlyDAP.toFixed(0)}`;
+      (document.getElementById('totalDAPCost') as HTMLElement).textContent = `$${totalDAPCost.toLocaleString(undefined, {maximumFractionDigits: 0})}`;
+      (document.getElementById('stayDuration') as HTMLElement).textContent = stayYears.toString();
+      (document.getElementById('fullRADCost') as HTMLElement).textContent = `$${radAmount.toLocaleString()}`;
+      (document.getElementById('fullDAPCost') as HTMLElement).textContent = `$${totalDAPCost.toLocaleString(undefined, {maximumFractionDigits: 0})}`;
+
+      // Recommendation
+      let recommendation = '';
+      if (totalDAPCost < radAmount * 0.3) {
+        recommendation = `For a ${stayYears} year stay, paying full DAP costs $${totalDAPCost.toLocaleString(undefined, {maximumFractionDigits: 0})} total (${((totalDAPCost/radAmount)*100).toFixed(1)}% of RAD). This is significantly less than the RAD amount. Full DAP may be better if you expect this stay duration.`;
+      } else if (totalDAPCost > radAmount * 0.7) {
+        recommendation = `For a ${stayYears} year stay, paying full DAP costs $${totalDAPCost.toLocaleString(undefined, {maximumFractionDigits: 0})} total (${((totalDAPCost/radAmount)*100).toFixed(1)}% of RAD). Paying full RAD may be better for long stays, as it's refundable and you avoid ongoing daily fees.`;
+      } else {
+        recommendation = `For a ${stayYears} year stay, paying full DAP costs $${totalDAPCost.toLocaleString(undefined, {maximumFractionDigits: 0})} total. Consider a combination payment to balance capital preservation with reduced daily fees. Compare your investment returns to the ${(mpir*100).toFixed(2)}% MPIR rate.`;
+      }
+
+      (document.getElementById('recommendationText') as HTMLElement).textContent = recommendation;
+    }
+
+    // Event listeners
+    const form = document.getElementById('radForm');
+    if (form) {
+      form.addEventListener('input', calculate);
+      form.addEventListener('change', calculate);
+    }
+
+    // Slider sync
+    const radSlider = document.getElementById('radSlider');
+    const radInput = document.getElementById('radAmount');
+    if (radSlider && radInput) {
+      radSlider.addEventListener('input', (e) => {
+        (radInput as HTMLInputElement).value = (e.target as HTMLInputElement).value;
+        calculate();
+      });
+    }
+
+    const staySlider = document.getElementById('staySlider');
+    const stayInput = document.getElementById('stayYears');
+    if (staySlider && stayInput) {
+      staySlider.addEventListener('input', (e) => {
+        (stayInput as HTMLInputElement).value = (e.target as HTMLInputElement).value;
+        calculate();
+      });
+    }
+
+    // Initial calculation
+    calculate();
+  </script>
+
+</BaseLayout>
