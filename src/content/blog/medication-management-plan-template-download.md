@@ -18,7 +18,7 @@ image: "/assets/nurse.webp"
 ## Download Our Free Medication Management Plan Template
 We've created a comprehensive medication management plan for safe medication administration:
 
-[Download Medication Management Plan Template (DOCX)](/downloads/medication-management-plan-template-2025.docx)
+[Download Medication Management Plan Template (DOCX)](/downloads/medication-management-plan-template-2026.docx)
 
 This template includes:
 - Participant/client details and GP information
@@ -36,4 +36,4 @@ This template includes:
 
 Medication management plans are critical safety documents that prevent errors and ensure appropriate medication administration. Accurate, up-to-date plans protect participants and support workers while demonstrating professional care standards.
 
-[Download Medication Management Plan Template (DOCX)](/downloads/medication-management-plan-template-2025.docx)
+[Download Medication Management Plan Template (DOCX)](/downloads/medication-management-plan-template-2026.docx)

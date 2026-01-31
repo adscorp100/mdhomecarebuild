@@ -18,7 +18,7 @@ image: "/assets/holdinglinen.webp"
 ## Download Our Free NDIS Service Agreement Template
 We've created a comprehensive, NDIS-compliant service agreement template that meets all legal requirements for 2025:
 
-[Download NDIS Service Agreement Template (DOCX)](/downloads/ndis-service-agreement-template-2025.docx)
+[Download NDIS Service Agreement Template (DOCX)](/downloads/ndis-service-agreement-template-2026.docx)
 
 This template includes:
 - Professional formatting ready for immediate use
@@ -573,4 +573,4 @@ Key takeaways:
 
 Download our free NDIS service agreement template to create professional, compliant agreements that protect both you and the participants you support.
 
-[Download NDIS Service Agreement Template (DOCX)](/downloads/ndis-service-agreement-template-2025.docx)
+[Download NDIS Service Agreement Template (DOCX)](/downloads/ndis-service-agreement-template-2026.docx)

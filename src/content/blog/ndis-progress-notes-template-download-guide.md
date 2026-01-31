@@ -18,7 +18,7 @@ image: "/assets/physio.webp"
 ## Download Our Free NDIS Progress Notes Template
 We've created a structured progress notes template using the professional SOAP format:
 
-[Download NDIS Progress Notes Template (DOCX)](/downloads/ndis-progress-notes-template-2025.docx)
+[Download NDIS Progress Notes Template (DOCX)](/downloads/ndis-progress-notes-template-2026.docx)
 
 This template includes:
 - Session details (date, time, worker, participant)
@@ -32,4 +32,4 @@ This template includes:
 
 Progress notes are essential professional documentation that tracks participant progress, demonstrates support quality, and provides evidence for NDIS plan reviews. Use the SOAP format for consistent, comprehensive documentation.
 
-[Download NDIS Progress Notes Template (DOCX)](/downloads/ndis-progress-notes-template-2025.docx)
+[Download NDIS Progress Notes Template (DOCX)](/downloads/ndis-progress-notes-template-2026.docx)

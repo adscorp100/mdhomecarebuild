@@ -18,7 +18,7 @@ image: "/assets/grandmawhite.webp"
 ## Download Our Free NDIS Support Plan Template
 We've created a comprehensive, participant-friendly support plan template that puts choice and control at the center:
 
-[Download NDIS Support Plan Template (DOCX)](/downloads/ndis-support-plan-template-2025.docx)
+[Download NDIS Support Plan Template (DOCX)](/downloads/ndis-support-plan-template-2026.docx)
 
 This template includes:
 - Clear participant information section
@@ -583,4 +583,4 @@ Key takeaways:
 
 Download our free NDIS support plan template to create a person-centered plan that puts you in control.
 
-[Download NDIS Support Plan Template (DOCX)](/downloads/ndis-support-plan-template-2025.docx)
+[Download NDIS Support Plan Template (DOCX)](/downloads/ndis-support-plan-template-2026.docx)

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Create NDIS and Aged Care Document Templates
-Generates professional DOCX templates for download
+Generates professional DOCX and XLSX templates for download
 """
 
 from docx import Document
@@ -10,6 +10,15 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 import os
+
+try:
+    from openpyxl import Workbook
+    from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+    from openpyxl.utils import get_column_letter
+    EXCEL_AVAILABLE = True
+except ImportError:
+    EXCEL_AVAILABLE = False
+    print("Warning: openpyxl not installed. Excel templates will be skipped.")
 
 def add_table_border(table):
     """Add borders to a table"""
@@ -2222,6 +2231,216 @@ def create_carer_impact_statement():
 
     return doc
 
+def create_schedule_of_supports_tracker():
+    """Create NDIS Schedule of Supports Tracking Template (Excel)"""
+    if not EXCEL_AVAILABLE:
+        return None
+
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Schedule of Supports"
+
+    # Define styles
+    header_fill = PatternFill(start_color="4472C4", end_color="4472C4", fill_type="solid")
+    header_font = Font(bold=True, color="FFFFFF", size=12)
+    subheader_fill = PatternFill(start_color="D9E1F2", end_color="D9E1F2", fill_type="solid")
+    subheader_font = Font(bold=True, size=11)
+    border = Border(
+        left=Side(style='thin'),
+        right=Side(style='thin'),
+        top=Side(style='thin'),
+        bottom=Side(style='thin')
+    )
+    center_align = Alignment(horizontal='center', vertical='center', wrap_text=True)
+
+    # Title and Instructions
+    title_cell = ws['A1']
+    title_cell.value = 'NDIS SCHEDULE OF SUPPORTS TRACKING TEMPLATE'
+    title_cell.font = Font(bold=True, size=16, color="4472C4")
+    title_cell.alignment = Alignment(horizontal='center', vertical='center')
+    ws.merge_cells('A1:I1')
+
+    instruction_cell = ws['A2']
+    instruction_cell.value = 'Use this template to track your NDIS funding throughout your plan period. Update after each service or invoice to monitor spending.'
+    instruction_cell.font = Font(size=10, italic=True)
+    instruction_cell.alignment = Alignment(horizontal='center', wrap_text=True)
+    ws.row_dimensions[2].height = 30
+    ws.merge_cells('A2:I2')
+
+    # Participant Details Section
+    ws['A4'] = 'Participant Name:'
+    ws['A4'].font = Font(bold=True)
+    ws.merge_cells('A4:B4')
+
+    ws['C4'] = '[Enter Name]'
+    ws.merge_cells('C4:D4')
+
+    ws['E4'] = 'NDIS Number:'
+    ws['E4'].font = Font(bold=True)
+    ws.merge_cells('E4:F4')
+
+    ws['G4'] = '[Enter NDIS Number]'
+    ws.merge_cells('G4:I4')
+
+    ws['A5'] = 'Plan Start Date:'
+    ws['A5'].font = Font(bold=True)
+    ws.merge_cells('A5:B5')
+
+    ws['C5'] = '[DD/MM/YYYY]'
+    ws.merge_cells('C5:D5')
+
+    ws['E5'] = 'Plan End Date:'
+    ws['E5'].font = Font(bold=True)
+    ws.merge_cells('E5:F5')
+
+    ws['G5'] = '[DD/MM/YYYY]'
+    ws.merge_cells('G5:I5')
+
+    # Column Headers (Row 7)
+    headers = [
+        'Category',
+        'Support Item',
+        'Funded Units',
+        'Price/Unit',
+        'Total Budget',
+        'Used',
+        'Remaining',
+        '% Used',
+        'Notes'
+    ]
+
+    for col_num, header in enumerate(headers, 1):
+        cell = ws.cell(row=7, column=col_num)
+        cell.value = header
+        cell.fill = header_fill
+        cell.font = header_font
+        cell.alignment = center_align
+        cell.border = border
+
+    # Set column widths
+    ws.column_dimensions['A'].width = 22
+    ws.column_dimensions['B'].width = 28
+    ws.column_dimensions['C'].width = 12
+    ws.column_dimensions['D'].width = 12
+    ws.column_dimensions['E'].width = 14
+    ws.column_dimensions['F'].width = 12
+    ws.column_dimensions['G'].width = 12
+    ws.column_dimensions['H'].width = 10
+    ws.column_dimensions['I'].width = 30
+
+    # Sample data rows with categories
+    sample_data = [
+        # Core Supports
+        ('CORE SUPPORTS', '', '', '', '', '', '', '', ''),
+        ('Core - Daily Life', 'Personal Care', '200 hrs', '$67.56', '=C9*D9', '50 hrs', '=C9-F9', '=F9/C9', 'Review Q3'),
+        ('Core - Daily Life', 'Domestic Assistance', '100 hrs', '$67.56', '=C10*D10', '25 hrs', '=C10-F10', '=F10/C10', 'On track'),
+        ('Core - Community', 'Community Access', '100 hrs', '$67.56', '=C11*D11', '20 hrs', '=C11-F11', '=F11/C11', ''),
+        ('Core - Transport', 'Transport', 'Flexible', '$1/km', '$2,000', '$500', '=E12-F12', '=F12/E12', ''),
+        ('', '', '', '', '', '', '', '', ''),
+        # Capacity Building
+        ('CAPACITY BUILDING', '', '', '', '', '', '', '', ''),
+        ('CB - Therapy', 'Occupational Therapy', '20 hrs', '$193.99', '=C15*D15', '8 hrs', '=C15-F15', '=F15/C15', ''),
+        ('CB - Therapy', 'Physiotherapy', '15 hrs', '$193.99', '=C16*D16', '5 hrs', '=C16-F16', '=F16/C16', ''),
+        ('CB - Support Coord', 'Support Coordination L1', '40 hrs', '$80.06', '=C17*D17', '15 hrs', '=C17-F17', '=F17/C17', ''),
+        ('', '', '', '', '', '', '', '', ''),
+        # Capital
+        ('CAPITAL SUPPORTS', '', '', '', '', '', '', '', ''),
+        ('Capital - AT', 'Wheelchair', '1', '$8,000', '$8,000', '$8,000', '=E20-F20', '=F20/E20', 'Purchased'),
+        ('Capital - Home Mods', 'Bathroom Modifications', '1', '$12,000', '$12,000', '$0', '=E21-F21', '=F21/E21', 'Quote pending'),
+    ]
+
+    current_row = 8
+    for row_data in sample_data:
+        # Check if this is a category header row
+        is_category_header = row_data[0] and 'SUPPORTS' in str(row_data[0]) and not row_data[1]
+
+        for col_num, value in enumerate(row_data, 1):
+            cell = ws.cell(row=current_row, column=col_num)
+            cell.value = value
+            cell.border = border
+
+            # Style category headers
+            if is_category_header:
+                cell.fill = subheader_fill
+                cell.font = subheader_font
+
+            # Center align numeric columns
+            if col_num in [3, 4, 6, 7, 8]:
+                cell.alignment = Alignment(horizontal='center', vertical='center')
+            elif col_num == 9:
+                cell.alignment = Alignment(wrap_text=True, vertical='center')
+
+        # Merge category header rows after setting all values
+        if is_category_header:
+            ws.merge_cells(f'A{current_row}:I{current_row}')
+
+        current_row += 1
+
+    # Totals Row
+    totals_row = current_row + 1
+    totals_cell = ws[f'A{totals_row}']
+    totals_cell.value = 'TOTAL FUNDING:'
+    totals_cell.font = Font(bold=True, size=12)
+    totals_cell.alignment = Alignment(horizontal='right', vertical='center')
+    totals_cell.fill = PatternFill(start_color="FFC000", end_color="FFC000", fill_type="solid")
+    ws.merge_cells(f'A{totals_row}:D{totals_row}')
+
+    # Total budget formula (sum all budget cells)
+    total_budget_cell = ws[f'E{totals_row}']
+    total_budget_cell.value = f'=SUM(E9:E21)'
+    total_budget_cell.font = Font(bold=True, size=12)
+    total_budget_cell.fill = PatternFill(start_color="FFC000", end_color="FFC000", fill_type="solid")
+    total_budget_cell.border = border
+
+    for col in ['F', 'G', 'H', 'I']:
+        cell = ws[f'{col}{totals_row}']
+        cell.fill = PatternFill(start_color="FFC000", end_color="FFC000", fill_type="solid")
+        cell.border = border
+
+    # Add helpful tips section
+    tips_row = totals_row + 3
+    tips_title = ws[f'A{tips_row}']
+    tips_title.value = 'TRACKING TIPS:'
+    tips_title.font = Font(bold=True, size=11, color="4472C4")
+    ws.merge_cells(f'A{tips_row}:I{tips_row}')
+
+    tips = [
+        "1. Update the 'Used' column after each service or when you receive invoices",
+        "2. The 'Remaining' and '% Used' columns calculate automatically",
+        "3. Aim to use approximately 50% of each budget at the halfway point of your plan",
+        "4. Use the 'Notes' column to track important information (e.g., 'booking next month', 'waiting for quote')",
+        "5. Review this tracker monthly with your Support Coordinator",
+        "6. Unused funding does not roll over - use it or lose it!",
+        "7. If you're running low on funding early, request a plan review"
+    ]
+
+    for i, tip in enumerate(tips):
+        tip_row = tips_row + i + 1
+        tip_cell = ws[f'A{tip_row}']
+        tip_cell.value = tip
+        tip_cell.font = Font(size=10)
+        tip_cell.alignment = Alignment(wrap_text=True)
+        ws.row_dimensions[tip_row].height = 18
+        ws.merge_cells(f'A{tip_row}:I{tip_row}')
+
+    # Format percentage column
+    for row in range(9, current_row):
+        cell = ws[f'H{row}']
+        if cell.value and str(cell.value).startswith('='):
+            cell.number_format = '0%'
+
+    # Format currency columns
+    for row in range(9, current_row):
+        for col in ['D', 'E']:
+            cell = ws[f'{col}{row}']
+            if cell.value and (str(cell.value).startswith('$') or str(cell.value).startswith('=')):
+                cell.number_format = '$#,##0.00'
+
+    # Freeze panes at header row
+    ws.freeze_panes = 'A8'
+
+    return wb
+
 def main():
     """Main function to create all templates"""
     output_dir = '/Users/andredeansmith/mdhomecarebuild/public/downloads'
@@ -2229,29 +2448,53 @@ def main():
     # Ensure output directory exists
     os.makedirs(output_dir, exist_ok=True)
 
-    templates = {
-        'ndis-service-agreement-template-2025.docx': create_ndis_service_agreement,
-        'ndis-incident-report-form-2025.docx': create_ndis_incident_report,
-        'ndis-support-plan-template-2025.docx': create_ndis_support_plan,
-        'aged-care-individual-care-plan-2025.docx': create_aged_care_plan,
-        'ndis-timesheet-template-2025.docx': create_ndis_timesheet,
-        'ndis-progress-notes-template-2025.docx': create_progress_notes,
-        'aged-care-risk-assessment-template-2025.docx': create_risk_assessment,
-        'medication-management-plan-template-2025.docx': create_medication_plan,
-        'ndis-participant-intake-form-2025.docx': create_intake_form,
-        'ndis-daily-living-log-template-2025.docx': create_daily_living_log,
-        'ndis-carer-impact-statement-template-2025.docx': create_carer_impact_statement
+    # DOCX templates
+    docx_templates = {
+        'ndis-service-agreement-template-2026.docx': create_ndis_service_agreement,
+        'ndis-incident-report-form-2026.docx': create_ndis_incident_report,
+        'ndis-support-plan-template-2026.docx': create_ndis_support_plan,
+        'aged-care-individual-care-plan-2026.docx': create_aged_care_plan,
+        'ndis-timesheet-template-2026.docx': create_ndis_timesheet,
+        'ndis-progress-notes-template-2026.docx': create_progress_notes,
+        'aged-care-risk-assessment-template-2026.docx': create_risk_assessment,
+        'medication-management-plan-template-2026.docx': create_medication_plan,
+        'ndis-participant-intake-form-2026.docx': create_intake_form,
+        'ndis-daily-living-log-template-2026.docx': create_daily_living_log,
+        'ndis-carer-impact-statement-template-2026.docx': create_carer_impact_statement
     }
 
-    print(f'Creating {len(templates)} NDIS/Aged Care templates...\n')
+    # Excel templates
+    xlsx_templates = {}
+    if EXCEL_AVAILABLE:
+        xlsx_templates = {
+            'ndis-schedule-supports-template-2026.xlsx': create_schedule_of_supports_tracker
+        }
 
-    for filename, create_func in templates.items():
+    total_templates = len(docx_templates) + len(xlsx_templates)
+    print(f'Creating {total_templates} NDIS/Aged Care templates...\n')
+
+    # Create DOCX templates
+    for filename, create_func in docx_templates.items():
         try:
             print(f'Creating {filename}...')
             doc = create_func()
             filepath = os.path.join(output_dir, filename)
             doc.save(filepath)
             print(f'✓ Created: {filepath}\n')
+        except Exception as e:
+            print(f'✗ Error creating {filename}: {e}\n')
+
+    # Create XLSX templates
+    for filename, create_func in xlsx_templates.items():
+        try:
+            print(f'Creating {filename}...')
+            wb = create_func()
+            if wb:
+                filepath = os.path.join(output_dir, filename)
+                wb.save(filepath)
+                print(f'✓ Created: {filepath}\n')
+            else:
+                print(f'⊘ Skipped {filename} (openpyxl not available)\n')
         except Exception as e:
             print(f'✗ Error creating {filename}: {e}\n')
 

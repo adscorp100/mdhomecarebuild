@@ -1,33 +1,47 @@
 ---
-title: "NDIS Schedule of Supports Template: How to Read & Manage Your Plan (2025)"
-description: "Learn how to read your NDIS Schedule of Supports, understand budget categories, and download a free template to track your funding. Complete 2025 guide."
-pubDate: 2025-01-15
+title: "NDIS Schedule of Supports Template: Free Download & Complete Guide (2026)"
+description: "Complete guide to NDIS Schedule of Supports. Learn what a schedule of supports is, how to read it, manage your budget, plus free downloadable tracking template."
+pubDate: 2026-01-31
 author: "MD Home Care"
-tags: ["NDIS", "NDIS Plan", "Schedule of Supports", "Budget Management"]
+tags: ["NDIS", "NDIS Plan", "Schedule of Supports", "Budget Management", "NDIS Template"]
 popupTitle: "Need Help Managing Your NDIS Plan?"
 popupSubtitle: "Our team can help you understand and make the most of your funding"
 ---
 
-Your NDIS Schedule of Supports is the roadmap to your funding—but for many participants, it can look like a confusing spreadsheet of codes and numbers. Understanding this document is essential for getting the most out of your plan.
+# NDIS Schedule of Supports: Free Template & Complete Guide
 
-This guide explains exactly how to read your Schedule of Supports, what each category means, the difference between stated and flexible supports, and provides a free template you can use to track your spending.
+Your NDIS Schedule of Supports is the roadmap to your funding—but for many participants, it can look like a confusing spreadsheet of codes and numbers. Understanding this document is essential for getting the most out of your NDIS plan.
 
-## What is a Schedule of Supports?
+This complete guide explains exactly what a schedule of supports is, how to read your NDIS Schedule of Supports, what each category means, the difference between stated and flexible supports, and provides a **free downloadable template** you can use to track your spending throughout your plan period.
 
-The Schedule of Supports is the detailed breakdown inside your NDIS plan that lists every funded support you're approved to receive. Think of it as your plan's budget allocation document.
+## What is an NDIS Schedule of Supports?
 
-It shows:
-- **What** supports you're funded for (support items)
-- **How much** funding is allocated (dollar amounts)
+An NDIS Schedule of Supports (also called a support schedule or schedule of funded supports) is the detailed breakdown inside your NDIS plan that lists every funded support you're approved to receive. Think of it as your plan's itemized budget allocation document.
+
+Your NDIS Schedule of Supports shows:
+- **What** supports you're funded for (specific support items by name and code)
+- **How much** funding is allocated (dollar amounts per item)
 - **How many** units you can access (hours, sessions, or items)
-- **How** the plan is managed (NDIA, plan, or self-managed)
+- **How** the plan is managed (NDIA-managed, plan-managed, or self-managed)
+- **When** the funding is available (start and end dates)
+- **Price limits** (maximum rates providers can charge)
 
-### Where to Find Your Schedule of Supports
+### Why Your Schedule of Supports Matters
 
-Your Schedule of Supports appears:
-- **In your plan document** (usually pages 2-4 of the PDF)
-- **In the MyPlace portal** under "My Plan" → "Support Schedule"
-- **From your Support Coordinator** or Plan Manager (they can provide a copy)
+Understanding your NDIS Schedule of Supports is crucial because:
+- It determines what services you can access and how much you can spend
+- Different line items have different levels of flexibility (stated vs flexible)
+- Tracking against your schedule prevents overspending or underspending
+- Knowing your allocations helps you plan services across the year
+- Unused funding doesn't roll over - if you don't use it, you lose it
+
+### Where to Find Your NDIS Schedule of Supports
+
+Your Schedule of Supports appears in several places:
+- **In your NDIS plan document** (usually pages 2-4 of the PDF sent when your plan is approved)
+- **In the MyPlace participant portal** under "My Plan" → "Support Schedule"
+- **From your Support Coordinator** or Plan Manager (they can provide an explained copy)
+- **From your LAC** (Local Area Coordinator) if you're working with one
 
 ## Understanding the Schedule of Supports Layout
 
@@ -213,9 +227,11 @@ Here are some common support item price limits for 2024-25 (prices update annual
 
 > **Note:** These are maximum prices. You can negotiate lower rates, especially with self or plan-management.
 
-## Free Schedule of Supports Tracking Template
+## Free NDIS Schedule of Supports Tracking Template (Download)
 
-Use this template to track your spending throughout the year. Copy it into Excel or Google Sheets:
+> **Download Free Template:** We've created a professional NDIS Schedule of Supports tracking template in Excel format. Download it here: [Schedule of Supports Template (XLSX)](/downloads/ndis-schedule-supports-template-2026.xlsx)
+
+Use this template to track your NDIS spending throughout the year. You can also copy the structure below into Excel or Google Sheets if you prefer to build your own:
 
 ### Template Structure
 
@@ -329,29 +345,69 @@ You can request a plan review if:
 
 Don't wait until your plan is exhausted—request reviews early when you notice issues.
 
-## Frequently Asked Questions
+## Frequently Asked Questions About NDIS Schedule of Supports
+
+### What is a schedule of supports?
+
+A schedule of supports is the detailed section of your NDIS plan that lists every funded support item you're approved to receive, including specific dollar amounts, units (hours/sessions), price limits, and management type. It's essentially your NDIS budget breakdown showing exactly what services you can access and how much funding is allocated to each.
 
 ### What's the difference between a plan and a Schedule of Supports?
 
-Your **plan** is the overall document outlining your goals, needs, and funding. The **Schedule of Supports** is the specific section listing exactly what supports are funded and how much.
+Your **NDIS plan** is the overall document outlining your goals, needs, and funding approach. The **Schedule of Supports** is the specific section (usually 2-4 pages) within that plan listing exactly what supports are funded and how much is allocated to each item. Think of the plan as the full document and the schedule as the detailed budget breakdown.
+
+### How do I read my NDIS Schedule of Supports?
+
+To read your NDIS Schedule of Supports, look at each line item which shows:
+1. The support category (Core, Capacity Building, or Capital)
+2. The support item code (e.g., 15_056_0128_1_3)
+3. The support name (e.g., "Occupational Therapy")
+4. Units approved (e.g., 20 hours)
+5. Price limit (e.g., $193.99/hour)
+6. Total budget (units × price limit)
+
+Each line represents a specific funded support you can access during your plan period.
+
+### Where can I download a schedule of supports template?
+
+Use the free template in this guide above, or download our comprehensive NDIS Schedule of Supports tracking template [here](/downloads/ndis-schedule-supports-template-2026.xlsx). The template includes columns for tracking used vs remaining funds, pacing calculations, and notes to help you manage your budget throughout your plan period.
 
 ### How often does my Schedule of Supports change?
 
-Your schedule is set for your plan period (usually 12-24 months). It only changes if you request and receive a plan review, or when your plan is renewed.
+Your NDIS Schedule of Supports is set for your plan period (usually 12-24 months). It only changes if:
+- You request and receive a plan review due to changed circumstances
+- Your plan period ends and you receive a new plan
+- The NDIA approves a variation to your current plan
+
+Regular price guide updates don't change your schedule - your approved dollar amounts stay the same until your next plan.
+
+### Can I move money between line items in my schedule of supports?
+
+It depends on whether funding is stated or flexible:
+- **Within Core Supports**: Usually yes - Core funding is generally flexible within the category
+- **Between categories** (Core to Capacity Building): No - you cannot move funding between different support categories
+- **Capacity Building**: Sometimes - depends on how your plan is structured
+- **Capital**: Rarely - Capital items are almost always stated for specific purposes
+
+Check with your Support Coordinator or Plan Manager if you're unsure about your specific plan's flexibility.
 
 ### Can I change providers without changing my schedule?
 
-Yes, unless a specific provider is stated in your plan. You can generally change providers while keeping the same funding allocation.
+Yes, in most cases you can change providers while keeping the same Schedule of Supports funding allocation. Your schedule funds the *type of support*, not usually a specific provider (unless a provider is specifically stated in your plan). As long as the new provider offers the same service and charges within your price limits, you can switch freely.
+
+### What happens to unused schedule of supports funding?
+
+Unused funding in your NDIS Schedule of Supports does not roll over to your next plan. Any funds not spent by the end of your plan period are lost. This is why tracking your spending against your schedule is crucial - you want to use all the funding you need without running out early or leaving money unspent.
 
 ### What if I don't understand my schedule?
 
-Contact:
-- Your Support Coordinator
-- Your Plan Manager
-- The NDIS helpline (1800 800 110)
-- A disability advocate
+If you're struggling to understand your NDIS Schedule of Supports, contact:
+- Your Support Coordinator (they're specifically funded to help with this)
+- Your Plan Manager (they can provide spending reports)
+- Your LAC (Local Area Coordinator)
+- The NDIS helpline: 1800 800 110
+- A disability advocate or support organization
 
-Never feel embarrassed to ask for help understanding your plan.
+Never feel embarrassed to ask for help understanding your plan - it's a complex document and asking questions is part of getting the most from your NDIS funding.
 
 ## Get Help Managing Your NDIS Plan
 

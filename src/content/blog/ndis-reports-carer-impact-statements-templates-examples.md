@@ -1,31 +1,31 @@
 ---
-title: "Carer Impact Statement NDIS: Free Templates & Examples (2025)"
-description: "Free carer impact statement templates and examples for NDIS plan reviews. Step-by-step guide on what to include, how to structure your statement, and what planners look for."
-pubDate: 2025-12-15
+title: "Carer Impact Statement NDIS: Free Templates & Examples (2026)"
+description: "Free carer impact statement template and examples for NDIS applications. Complete guide on writing an NDIS carer statement that gets results - templates, examples, and what planners look for."
+pubDate: 2026-01-31
 category: "NDIS Documentation"
 author: "MD Home Care"
 image: "/assets/carer.webp"
-tags: ["Carer Impact Statement", "NDIS", "Carer Statement", "NDIS Plan Review", "Carer Support"]
+tags: ["Carer Impact Statement", "NDIS", "Carer Statement", "NDIS Plan Review", "Carer Support", "Writing NDIS Carer Statement Template"]
 popupTitle: "Feeling Overwhelmed as a Carer?"
 popupSubtitle: "We provide respite and support for families too"
 ---
 
-# Carer Impact Statement: NDIS Templates & Examples
+# Carer Impact Statement: Free NDIS Template & Examples (2026)
 
-Writing a carer impact statement can feel overwhelming. You're exhausted from caring, and now you need to put that exhaustion into words that will convince an NDIS planner to approve more support. Where do you even start?
+Writing a carer impact statement for NDIS can feel overwhelming. You're exhausted from caring, and now you need to articulate that exhaustion in a way that will convince an NDIS planner to approve more support. Where do you even start?
 
 Many carers struggle with this. They worry about oversharing, underselling their situation, or simply not knowing the "right" way to structure the document. The good news is that there's no single perfect format. What matters is being clear, specific, and honest about how caring affects your life.
 
 This guide gives you everything you need: templates you can use immediately, real examples to guide your writing, and practical advice on what NDIS planners actually look for.
 
-## Key Points
+## Key Points: Writing an NDIS Carer Impact Statement
 
-- A **carer impact statement** describes how caring for someone with disability affects your physical health, mental wellbeing, finances, and daily life
-- It is **not compulsory** for NDIS applications or plan reviews, but can significantly influence the level of funding approved
-- NDIS planners look for **specific, measurable impacts** rather than general statements like "it's hard"
-- Include **supporting evidence** such as GP letters, receipts, or psychologist reports to strengthen your statement
-- A good statement is typically **1-2 pages** (500-800 words) with clear headings and bullet points
-- **Free template available:** Download our [Carer Impact Statement Template (DOCX)](/downloads/ndis-carer-impact-statement-template-2025.docx) to get started
+- A **carer impact statement** (also called a carer statement or NDIS carer statement) describes how caring for someone with disability affects your physical health, mental wellbeing, finances, and daily life
+- It is **not compulsory** for NDIS applications or plan reviews, but can significantly influence the level of funding approved - up to 30% more funding according to NDIS planners
+- NDIS planners look for **specific, measurable impacts** rather than general statements like "it's hard" - include hours of care per week, specific health conditions, and dollar amounts for financial impact
+- Include **supporting evidence** such as GP letters, receipts, or psychologist reports to strengthen your statement and demonstrate credibility
+- A good carer impact statement is typically **1-2 pages** (500-800 words) with clear headings and bullet points for easy scanning
+- **Free downloadable template available:** Download our [Carer Impact Statement Template (DOCX)](/downloads/ndis-carer-impact-statement-template-2026.docx) - fully formatted and ready to fill in
 
 ---
 
@@ -57,11 +57,11 @@ Consider writing a carer impact statement if:
 
 ---
 
-## Carer Impact Statement Template
+## Carer Impact Statement Template (Free Download)
 
-> **Download Our Free Template:** We've created a professional Carer Impact Statement template with all the sections covered below, formatted and ready to fill in. [Download Carer Impact Statement Template (DOCX)](/downloads/ndis-carer-impact-statement-template-2025.docx)
+> **Download Our Free Template:** We've created a professional carer impact statement template for NDIS with all the sections covered below, formatted and ready to fill in. This template is used by hundreds of carers across Australia to secure increased NDIS funding. [Download Carer Impact Statement Template (DOCX)](/downloads/ndis-carer-impact-statement-template-2026.docx)
 
-Use this structure to organise your statement. You don't need to include every section, but covering the key areas helps planners understand your full situation.
+Use this structure when writing an NDIS carer statement. You don't need to include every section, but covering the key areas helps NDIS planners understand your full situation and approve appropriate supports.
 
 ### Section 1: Your Details
 
@@ -325,7 +325,7 @@ People who have been through the NDIS process share these insights:
 
 ### Is a carer impact statement the same as a carer statement?
 
-Yes, the terms are used interchangeably. You may also see it called a "primary carer statement" or "family impact statement." They all refer to the same type of document: your account of how caring affects your life.
+Yes, the terms are used interchangeably. A carer impact statement, carer statement, primary carer statement, and family impact statement all refer to the same document: your account of how caring for someone with disability affects your life. When writing an NDIS carer statement template, all these terms describe the same process.
 
 ### Can I submit a carer impact statement for someone else's NDIS plan?
 
@@ -359,6 +359,24 @@ If multiple people share caring responsibilities, you can each write a separate 
 
 Secondary carers can also write impact statements. Focus on your specific caring contributions and how they affect your life, even if you're not providing the majority of care.
 
+### How do I write a carer impact statement for NDIS?
+
+To write an effective NDIS carer impact statement:
+1. Download our free carer statement template (link above)
+2. Include specific, measurable details (hours of care, dollar amounts, specific health conditions)
+3. Cover all key areas: daily tasks, physical health impact, mental health impact, financial impact, and social impact
+4. State clearly what supports you're requesting and why
+5. Attach supporting evidence (GP letters, receipts, psychologist reports)
+6. Keep it focused (1-2 pages) with clear headings
+
+### What is a carer statement template?
+
+A carer statement template is a pre-formatted document that provides the structure and sections you need when writing an NDIS carer impact statement. Our free template includes all recommended sections, example wording, and prompts to help you describe your caring situation comprehensively. Using a template ensures you don't miss important information that NDIS planners need to see.
+
+### Can I use the same carer impact statement for multiple NDIS reviews?
+
+No, it's best to write a fresh carer impact statement for each NDIS plan review. Your circumstances change over time - the person's needs may have increased, your own health may have declined, or your financial situation may have worsened. A current statement dated within the last 3 months carries more weight with planners than an outdated document.
+
 ---
 
 ## Related Resources
@@ -371,10 +389,26 @@ For more information on NDIS documentation and support, you may find these guide
 
 ---
 
-## Conclusion
+## Next Steps: Using Your Carer Impact Statement
 
-Writing a carer impact statement takes time and emotional energy, but it's one of the most powerful tools you have to secure appropriate NDIS support. Your statement gives NDIS planners insight into the reality of your daily life, the toll caring takes on your health and wellbeing, and why formal supports are essential.
+Writing a carer impact statement takes time and emotional energy, but it's one of the most powerful tools you have to secure appropriate NDIS support. Your NDIS carer statement gives planners insight into the reality of your daily life, the toll caring takes on your health and wellbeing, and why formal supports are essential.
+
+### Download Your Free Carer Statement Template
+
+Don't start from scratch - [download our free carer impact statement template](/downloads/ndis-carer-impact-statement-template-2026.docx) to get a head start. This fully-formatted Word document includes all the sections NDIS planners look for, with prompts and examples to guide your writing.
+
+### Get Professional Support
 
 Remember: you don't need to be a professional writer. You just need to be clear, specific, and honest about your experience. Use the templates and examples in this guide as a starting point, and don't hesitate to ask for help from support coordinators, LACs, or disability advocates.
 
-At MD Home Care, we understand the challenges carers face and the importance of getting appropriate support. Our team can help you navigate the NDIS process and access the services you and your family need. If you have questions about carer support or NDIS services, **[contact MD Home Care today](/contact)**.
+At MD Home Care, we understand the challenges carers face and the importance of getting appropriate support. Our team can help you:
+- Review and strengthen your carer impact statement before submission
+- Navigate the NDIS application and plan review process
+- Access respite and carer support services
+- Connect with NDIS support coordination
+
+If you have questions about carer support, NDIS services, or need help with your carer impact statement, **[contact MD Home Care today](/contact)** or call **08 6386 9999** for a free consultation.
+
+---
+
+*This guide was last updated January 2026 to reflect current NDIS policies and planner requirements. Our free carer impact statement template is regularly updated to ensure it meets the latest NDIS standards.*

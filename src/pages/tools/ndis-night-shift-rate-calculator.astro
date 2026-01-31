@@ -1,0 +1,423 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "NDIS Night Shift Rate Calculator",
+  description: "Calculate NDIS support worker overnight and night shift rates including active night shifts and sleepover rates using 2025-26 NDIS price limits.",
+  icon: "hugeicons:moon-02",
+  color: "secondary",
+  phase: 1
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS Night Shift Rate Calculator 2025",
+  "description": "Free NDIS night shift pay rate calculator. Calculate support worker overnight, active night shift, and sleepover rates using 2025-26 NDIS price limits.",
+  "url": "https://mdhomecare.com.au/tools/ndis-night-shift-rate-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+---
+
+<BaseLayout
+  title="NDIS Night Shift Rate Calculator 2025 - Overnight & Sleepover Pay Rates"
+  description="Calculate NDIS support worker night shift rates for overnight care, active night shifts (8pm-6am), and sleepover shifts. Free calculator with 2025-26 NDIS price limits and evening loading penalties."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">Night Shift Rate Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:lg-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-secondary/10 bg-white/40 backdrop-blur-md text-secondary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:moon-02" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            NDIS Night Shift <span class="text-primary">Rate Calculator</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Calculate NDIS support worker pay rates for <strong>overnight and night shifts</strong> including active night care (8pm-6am) and sleepover shifts. Based on <strong>2025-26 NDIS Price Guide</strong> with evening/night loading penalties.
+          </p>
+
+          <!-- Quick Reference Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-8">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:money-bag-02" class="w-5 h-5 text-secondary" />
+              Night Shift NDIS Rates 2025-26
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Daytime (6am-8pm)</span>
+                <span class="font-medium text-secondary/60">$70.23/hr</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Evening (8pm-12am)</span>
+                <span class="font-bold text-secondary">$77.25/hr</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Night (12am-6am)</span>
+                <span class="font-bold text-secondary">$77.25/hr</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Sleepover Shift</span>
+                <span class="font-bold text-primary">$320.82</span>
+              </div>
+            </div>
+            <p class="text-xs text-secondary/50 mt-4">*Assistance with Self Care - Standard rates. Evening/night = 110% of base rate. Sleepover = flat rate per shift.</p>
+          </div>
+
+          <!-- Night Shift Types Explained -->
+          <div class="bg-secondary/5 border border-secondary/20 rounded-2xl p-6 mb-6">
+            <h4 class="font-bold text-secondary mb-3 flex items-center gap-2">
+              <Icon name="hugeicons:time-schedule" class="w-5 h-5 text-secondary" />
+              Night Shift Types
+            </h4>
+            <div class="space-y-3 text-sm text-secondary/70">
+              <div>
+                <p class="font-bold text-secondary">Active Night Shift</p>
+                <p>8pm-6am: Support worker providing active care throughout the night. Hourly rate applies.</p>
+              </div>
+              <div>
+                <p class="font-bold text-secondary">Sleepover Shift</p>
+                <p>Overnight: Support worker sleeps on-site and responds if needed. Flat rate per shift (not hourly).</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Note:</strong> NDIS price limits shown. Actual rates depend on provider agreements. Sleepover rates are flat per shift, not hourly. Active overnight care is billed hourly.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="night-shift-calculator">
+
+            <div class="flex items-center justify-between mb-8">
+              <h2 class="text-xl font-bold text-secondary">Calculate Night Shift Rates</h2>
+              <span class="text-xs font-bold text-secondary uppercase tracking-wider">Instant Results</span>
+            </div>
+
+            <!-- Shift Type Selection -->
+            <div class="form-control mb-6">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Shift Type</label>
+              <div class="grid grid-cols-1 gap-3">
+                <label class="cursor-pointer">
+                  <input type="radio" name="shift-type" value="active-night" class="peer hidden" checked />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-secondary peer-checked:bg-secondary/5 transition-all">
+                    <div class="flex items-center justify-between">
+                      <div>
+                        <span class="font-bold text-secondary">Active Night Shift</span>
+                        <p class="text-xs text-secondary/60 mt-1">Hourly rate for active overnight care (8pm-6am)</p>
+                      </div>
+                      <Icon name="hugeicons:user-check-01" class="w-6 h-6 text-secondary/40" />
+                    </div>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="shift-type" value="sleepover" class="peer hidden" />
+                  <div class="p-4 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                    <div class="flex items-center justify-between">
+                      <div>
+                        <span class="font-bold text-secondary">Sleepover Shift</span>
+                        <p class="text-xs text-secondary/60 mt-1">Flat rate per shift (on-call overnight, responds if needed)</p>
+                      </div>
+                      <Icon name="hugeicons:bed-02" class="w-6 h-6 text-secondary/40" />
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Support Type -->
+            <div class="form-control mb-6">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Support Type</label>
+              <select id="support-type" class="select select-lg w-full bg-white border-2 border-base-200 focus:border-secondary focus:ring-4 focus:ring-secondary/10 rounded-xl">
+                <option value="standard">Assistance with Self Care (Standard)</option>
+                <option value="high-intensity">High Intensity Support</option>
+                <option value="complex">Complex Needs Support</option>
+                <option value="community">Community Participation</option>
+              </select>
+            </div>
+
+            <!-- Hours (only for active night shift) -->
+            <div class="form-control mb-8" id="hours-section">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Number of Hours (Active Night Shift)</label>
+              <div class="flex items-center gap-4">
+                <input type="range" id="hours-slider" min="1" max="10" value="8" class="range range-secondary flex-1" />
+                <div class="bg-base-200 rounded-xl px-4 py-2 min-w-[80px] text-center">
+                  <span id="hours-display" class="font-bold text-secondary text-lg">8</span>
+                  <span class="text-secondary/60 text-sm ml-1">hrs</span>
+                </div>
+              </div>
+              <p class="text-xs text-secondary/50 mt-2">Typical night shift: 8-10 hours (8pm-6am)</p>
+            </div>
+
+            <!-- Results -->
+            <div class="bg-gradient-to-br from-secondary to-secondary/80 rounded-2xl p-6 text-white mb-6">
+              <div class="grid grid-cols-2 gap-4 mb-4">
+                <div>
+                  <p class="text-sm font-bold uppercase tracking-wider opacity-80 mb-1" id="rate-label">Hourly Rate</p>
+                  <p class="text-3xl font-bold" id="hourly-rate">$77.25</p>
+                </div>
+                <div>
+                  <p class="text-sm font-bold uppercase tracking-wider opacity-80 mb-1">Total Cost</p>
+                  <p class="text-3xl font-bold" id="total-cost">$618.00</p>
+                </div>
+              </div>
+              <div class="pt-4 border-t border-white/20">
+                <p class="text-sm opacity-80" id="rate-description">
+                  Active night shift rate for 8 hours
+                </p>
+              </div>
+            </div>
+
+            <!-- Comparison: Day vs Night vs Sleepover -->
+            <div class="bg-base-200/50 rounded-2xl p-6 mb-6">
+              <h4 class="font-bold text-secondary mb-4">Rate Comparison</h4>
+              <div class="overflow-x-auto">
+                <table class="table table-sm w-full">
+                  <thead>
+                    <tr class="text-secondary/60">
+                      <th class="font-bold">Time Period</th>
+                      <th class="font-bold text-right">Rate</th>
+                      <th class="font-bold text-right">8 Hours</th>
+                    </tr>
+                  </thead>
+                  <tbody id="comparison-table-body">
+                    <tr>
+                      <td class="font-medium text-secondary/60">Daytime (6am-8pm)</td>
+                      <td class="text-right">$70.23</td>
+                      <td class="text-right">$561.84</td>
+                    </tr>
+                    <tr class="bg-secondary/10">
+                      <td class="font-bold">Evening/Night (8pm-6am)</td>
+                      <td class="text-right font-bold text-secondary">$77.25</td>
+                      <td class="text-right font-bold text-secondary">$618.00</td>
+                    </tr>
+                    <tr>
+                      <td class="font-medium">Sleepover (per shift)</td>
+                      <td class="text-right" colspan="2">$320.82/shift</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="text-xs text-secondary/50 mt-3">*Night shift = 110% of base rate. Sleepover = flat rate regardless of hours.</p>
+            </div>
+
+            <!-- All Support Types Night Rates -->
+            <div class="bg-base-200/50 rounded-2xl p-6">
+              <h4 class="font-bold text-secondary mb-4">All Support Types - Night Shift Rates</h4>
+              <div class="space-y-2 text-sm">
+                <div class="flex justify-between py-2 border-b border-base-200">
+                  <span class="font-medium">Standard Self Care</span>
+                  <div class="text-right">
+                    <span class="font-bold text-secondary">$77.25/hr</span>
+                    <span class="text-xs text-secondary/50 ml-2">(Sleepover: $320.82)</span>
+                  </div>
+                </div>
+                <div class="flex justify-between py-2 border-b border-base-200">
+                  <span class="font-medium">High Intensity</span>
+                  <div class="text-right">
+                    <span class="font-bold text-secondary">$85.14/hr</span>
+                    <span class="text-xs text-secondary/50 ml-2">(Sleepover: $353.61)</span>
+                  </div>
+                </div>
+                <div class="flex justify-between py-2 border-b border-base-200">
+                  <span class="font-medium">Complex Needs</span>
+                  <div class="text-right">
+                    <span class="font-bold text-secondary">$90.83/hr</span>
+                    <span class="text-xs text-secondary/50 ml-2">(Sleepover: $377.12)</span>
+                  </div>
+                </div>
+                <div class="flex justify-between py-2">
+                  <span class="font-medium">Community Participation</span>
+                  <div class="text-right">
+                    <span class="font-bold text-secondary">$77.25/hr</span>
+                    <span class="text-xs text-secondary/50 ml-2">(Sleepover: $320.82)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">More NDIS Rate Calculators</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/tools/ndis-pay-rate-calculator/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Pay Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate rates for all days and times.</p>
+          </a>
+          <a href="/tools/ndis-weekend-rate-calculator/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Weekend Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate Saturday and Sunday NDIS rates.</p>
+          </a>
+          <a href="/tools/ndis-public-holiday-rate-calculator/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Public Holiday Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate Christmas, Easter, and ANZAC Day rates.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  // NDIS Price Limits 2025-26 - Night Shift Rates
+  const RATES = {
+    standard: {
+      daytime: 70.23,
+      evening: 77.25,
+      sleepover: 320.82
+    },
+    'high-intensity': {
+      daytime: 77.40,
+      evening: 85.14,
+      sleepover: 353.61
+    },
+    complex: {
+      daytime: 82.57,
+      evening: 90.83,
+      sleepover: 377.12
+    },
+    community: {
+      daytime: 70.23,
+      evening: 77.25,
+      sleepover: 320.82
+    }
+  };
+
+  const SUPPORT_TYPE_NAMES = {
+    'standard': 'Standard Self Care',
+    'high-intensity': 'High Intensity',
+    'complex': 'Complex Needs',
+    'community': 'Community Participation'
+  };
+
+  const calculator = document.getElementById('night-shift-calculator');
+  if (!calculator) return;
+
+  const supportTypeSelect = document.getElementById('support-type');
+  const hoursSlider = document.getElementById('hours-slider');
+  const hoursDisplay = document.getElementById('hours-display');
+  const hoursSection = document.getElementById('hours-section');
+  const hourlyRateEl = document.getElementById('hourly-rate');
+  const totalCostEl = document.getElementById('total-cost');
+  const rateDescEl = document.getElementById('rate-description');
+  const rateLabelEl = document.getElementById('rate-label');
+  const comparisonTableBody = document.getElementById('comparison-table-body');
+
+  function getSelectedShiftType() {
+    return calculator.querySelector('input[name="shift-type"]:checked')?.value || 'active-night';
+  }
+
+  function updateCalculator() {
+    const shiftType = getSelectedShiftType();
+    const supportType = supportTypeSelect.value;
+    const hours = parseInt(hoursSlider.value);
+
+    const rates = RATES[supportType];
+
+    if (shiftType === 'sleepover') {
+      // Sleepover shift - flat rate
+      hoursSection.style.display = 'none';
+      hourlyRateEl.textContent = '$' + rates.sleepover.toFixed(2);
+      totalCostEl.textContent = '$' + rates.sleepover.toFixed(2);
+      rateLabelEl.textContent = 'Per Shift';
+      rateDescEl.textContent = `${SUPPORT_TYPE_NAMES[supportType]} sleepover shift (flat rate)`;
+    } else {
+      // Active night shift - hourly rate
+      hoursSection.style.display = 'block';
+      const rate = rates.evening;
+      const total = rate * hours;
+      hourlyRateEl.textContent = '$' + rate.toFixed(2);
+      totalCostEl.textContent = '$' + total.toFixed(2);
+      rateLabelEl.textContent = 'Hourly Rate';
+      hoursDisplay.textContent = hours;
+      rateDescEl.textContent = `Active night shift rate for ${hours} hour${hours > 1 ? 's' : ''}`;
+    }
+
+    // Update comparison table
+    const daytimeTotal = (rates.daytime * 8).toFixed(2);
+    const nightTotal = (rates.evening * 8).toFixed(2);
+
+    comparisonTableBody.innerHTML = `
+      <tr>
+        <td class="font-medium text-secondary/60">Daytime (6am-8pm)</td>
+        <td class="text-right">$${rates.daytime.toFixed(2)}</td>
+        <td class="text-right">$${daytimeTotal}</td>
+      </tr>
+      <tr class="bg-secondary/10">
+        <td class="font-bold">Evening/Night (8pm-6am)</td>
+        <td class="text-right font-bold text-secondary">$${rates.evening.toFixed(2)}</td>
+        <td class="text-right font-bold text-secondary">$${nightTotal}</td>
+      </tr>
+      <tr>
+        <td class="font-medium">Sleepover (per shift)</td>
+        <td class="text-right" colspan="2">$${rates.sleepover.toFixed(2)}/shift</td>
+      </tr>
+    `;
+  }
+
+  // Event listeners
+  supportTypeSelect.addEventListener('change', updateCalculator);
+  hoursSlider.addEventListener('input', updateCalculator);
+
+  calculator.querySelectorAll('input[name="shift-type"]').forEach(input => {
+    input.addEventListener('change', updateCalculator);
+  });
+
+  // Initial calculation
+  updateCalculator();
+
+  // Track usage
+  if (typeof gtag === 'function') {
+    gtag('event', 'tool_view', { tool_name: 'ndis_night_shift_rate_calculator' });
+  }
+})();
+</script>

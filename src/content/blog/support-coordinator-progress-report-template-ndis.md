@@ -36,7 +36,7 @@ Progress reports are essential for several reasons:
 
 We have created a comprehensive template that meets NDIS requirements and PACE system standards:
 
-[Download Support Coordinator Progress Report Template (DOCX)](/downloads/support-coordinator-progress-report-template-2025.docx)
+[Download Support Coordinator Progress Report Template (DOCX)](/downloads/support-coordinator-progress-report-template-2026.docx)
 
 This template includes:
 - Participant details and plan information section
@@ -641,4 +641,4 @@ Key takeaways:
 
 Download our free template to create professional, comprehensive support coordinator progress reports that meet NDIS standards and advocate effectively for participant needs.
 
-[Download Support Coordinator Progress Report Template (DOCX)](/downloads/support-coordinator-progress-report-template-2025.docx)
+[Download Support Coordinator Progress Report Template (DOCX)](/downloads/support-coordinator-progress-report-template-2026.docx)

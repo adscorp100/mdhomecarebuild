@@ -1,33 +1,83 @@
 ---
-title: "NDIS Functional Capacity Assessment Questions: What to Expect"
-description: "Comprehensive guide to functional capacity assessment questions for NDIS in 2025. Includes sample questions, assessment structure, preparation tips, and clinician insights."
-pubDate: 2025-05-15
-author: "Camila"
-tags: []
+title: "Functional Capacity Assessment: Complete NDIS Guide (2026)"
+description: "What is a functional capacity assessment for NDIS? Complete guide covering NDIS functional capacity assessment questions, what to expect, how to prepare, and what assessors look for."
+pubDate: 2026-01-31
+author: "MD Home Care"
+tags: ["Functional Capacity Assessment", "NDIS Assessment", "FCA", "NDIS", "Functional Assessment"]
 popupTitle: "Preparing for Your Assessment?"
 popupSubtitle: "Our team can help you present your needs effectively"
 image: "/assets/physio.webp"
 ---
 
-## Functional Capacity Assessment Questions: Key Points
-- Functional capacity assessments evaluate your abilities across various life domains to determine appropriate NDIS supports.
-- Common assessment areas include self-care, mobility, communication, social interactions, learning, and home/community activities.
-- Assessors use a combination of direct questions, observation, standardized tools, and practical task completion.
-- Understanding the types of questions in advance helps you prepare and provide comprehensive information during your assessment.
+# Functional Capacity Assessment (FCA): Complete NDIS Guide
 
-> **Prepare for Your Assessment:** Use our free [FCA Prep Checklist](/tools/fca-prep-checklist) to make sure you're fully prepared for your Functional Capacity Assessment. Know what to bring, what to expect, and how to get the best outcome.
+## What is a Functional Capacity Assessment?
+
+A functional capacity assessment (FCA) - also called a functional assessment or NDIS functional capacity assessment - evaluates your abilities across various life domains to determine what NDIS supports are reasonable and necessary for you.
+
+If you've been asked to complete a functional capacity assessment for NDIS, you're probably wondering: What questions will they ask? How should I prepare? What are they looking for? This complete guide answers all your questions.
+
+## Functional Capacity Assessment: Key Points
+
+- **What it is**: A functional capacity assessment measures your abilities in daily life activities across 7 key domains - self-care, mobility, communication, social interaction, learning, home management, and community participation
+- **Who conducts it**: NDIS functional capacity assessments are conducted by allied health professionals - typically occupational therapists, physiotherapists, or psychologists depending on your disability
+- **Duration**: Most functional capacity assessments take 2-4 hours, either in one session or split across multiple appointments
+- **Cost**: NDIS participants don't pay for assessments requested by the NDIA - these are funded under the assessment and plan management category
+- **Preparation matters**: Understanding the types of functional capacity assessment questions in advance helps you provide comprehensive, accurate information about your support needs
+
+> **Prepare for Your Assessment:** Use our free [FCA Prep Checklist](/tools/fca-prep-checklist) to make sure you're fully prepared for your functional capacity assessment. Know what to bring, what to expect, and how to get the best outcome.
+
+## What is a Functional Capacity Assessment for NDIS?
+
+A functional capacity assessment (FCA) is a detailed evaluation conducted by an allied health professional that examines how your disability affects your ability to perform everyday activities. The assessment provides evidence to support your NDIS application or plan review.
+
+### Key Features of NDIS Functional Capacity Assessments
+
+**Who performs functional capacity assessments?**
+Qualified allied health professionals including:
+- Occupational therapists (most common for NDIS FCAs)
+- Physiotherapists (for mobility-focused assessments)
+- Psychologists (for cognitive or psychosocial disabilities)
+- Speech pathologists (when communication is a primary concern)
+
+**Where are functional capacity assessments conducted?**
+Assessments typically occur in:
+- Your home (most common - allows observation in your natural environment)
+- The assessor's clinic
+- Community settings relevant to your goals
+- A combination of locations
+
+**How long does a functional capacity assessment take?**
+- Initial assessment: 2-4 hours
+- May be split across multiple sessions if fatigue is a concern
+- Additional time for report writing and recommendations
+
+**What happens after a functional capacity assessment?**
+The assessor produces a detailed report outlining your functional abilities, limitations, and recommended NDIS supports. This report is submitted to the NDIA to support your application or plan review. For examples of what these reports look like, see our [guide to functional capacity assessment reports](/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like).
 
 ## Purpose of NDIS Functional Capacity Assessments
-Functional capacity assessments (FCAs) serve several important purposes in the NDIS process. For a complete overview of the entire process, see our [complete guide to Functional Capacity Assessments](/blog/functional-capacity-assessment-report-example-what-a-good-one-looks-like).
 
-- Determining eligibility for NDIS support
-- Identifying specific functional impacts of your disability
+Functional capacity assessments serve several critical purposes in the NDIS process:
+
+**For Initial NDIS Applications:**
+- Determining eligibility for NDIS support based on functional impact
+- Identifying specific ways your disability affects daily life
 - Establishing baseline capabilities and support needs
-- Providing evidence for reasonable and necessary supports
-- Measuring changes in function over time
-- Setting goals and developing appropriate support strategies
+- Providing evidence that supports are "reasonable and necessary"
 
-The questions asked during these assessments are designed to gather comprehensive information about how your disability affects your everyday functioning across various life domains.
+**For NDIS Plan Reviews:**
+- Measuring changes in function over time
+- Justifying increased supports if your needs have grown
+- Demonstrating progress toward goals
+- Identifying new support requirements
+
+**For Support Planning:**
+- Setting realistic, achievable goals
+- Developing appropriate support strategies
+- Identifying assistive technology needs
+- Recommending environmental modifications
+
+The functional capacity assessment questions asked during these evaluations are specifically designed to gather comprehensive information about how your disability affects your everyday functioning across various life domains.
 
 ## Common Assessment Domains and Question Types
 Functional capacity assessments typically cover several key domains:
@@ -374,12 +424,53 @@ Ensuring fair assessment opportunities:
 
 These approaches ensure assessment quality isn't compromised by accessibility barriers.
 
-### Frequently Asked Questions About Functional Capacity Assessment Questions
-- **Can I bring someone with me to my functional capacity assessment?** Yes, you can have a support person present who knows you well and can provide additional information if needed.
-- **What if my functioning varies significantly from day to day?** Discuss this explicitly during the assessment, describing both your best and worst days and the factors that influence these variations.
-- **Can I provide written information in addition to answering questions?** Yes, bringing notes, diaries, or prepared information about your functioning is usually welcomed by assessors.
-- **What if I don't understand a question during the assessment?** Always ask for clarification if needed. Assessors want to ensure you fully understand what information they're seeking.
-- **Will I need to physically demonstrate activities during the assessment?** This depends on the nature of your disability and the purpose of the assessment. You should only be asked to demonstrate activities that are safe for you to perform.
+## Frequently Asked Questions About Functional Capacity Assessments
+
+### What is a functional capacity assessment?
+
+A functional capacity assessment is a professional evaluation that measures how your disability affects your ability to perform everyday activities. For NDIS purposes, an FCA assesses your functional abilities across 7 key domains (self-care, mobility, communication, social interaction, learning, home management, and community participation) to determine what supports are reasonable and necessary.
+
+### How much does a functional capacity assessment cost for NDIS?
+
+If the NDIA requests a functional capacity assessment as part of your NDIS application or plan review, you don't pay - it's funded under NDIS assessment categories. If you choose to obtain a functional capacity assessment independently to support a plan review request, costs typically range from $800-$1,500 depending on assessment complexity and provider rates.
+
+### What is the difference between a functional capacity assessment and a functional assessment?
+
+The terms are used interchangeably in NDIS contexts. Both refer to the same evaluation process. Some professionals use "functional assessment" as shorthand, while the full term "functional capacity assessment" is more formally correct.
+
+### How do I prepare for an NDIS functional capacity assessment?
+
+To prepare for your functional capacity assessment:
+1. Keep a diary for 1-2 weeks noting daily challenges
+2. Gather medical reports, previous assessments, and diagnosis letters
+3. List all current supports (formal and informal)
+4. Note how your functioning varies (good days vs bad days)
+5. Prepare examples of specific difficulties in each life area
+6. Download our [FCA Prep Checklist](/tools/fca-prep-checklist) for a comprehensive preparation guide
+
+### Can I bring someone with me to my functional capacity assessment?
+
+Yes, you can and should bring a support person who knows you well to your functional capacity assessment. They can provide additional information, help you remember important details, and offer support during what can be an emotionally challenging process.
+
+### What if my functioning varies significantly from day to day?
+
+This is very common and important to communicate during your functional capacity assessment. Describe both your best and worst days explicitly, explain what factors influence these variations (fatigue, pain, stress, sensory overload), and emphasize that NDIS supports should account for your functioning on difficult days, not just your best days.
+
+### How long does a functional capacity assessment report take?
+
+Most assessors provide functional capacity assessment reports within 2-3 weeks of completing the assessment. If the assessment is urgent (e.g., for an upcoming NDIS planning meeting), communicate this to the assessor who may be able to expedite the report.
+
+### Can I provide written information in addition to answering questions?
+
+Yes, bringing notes, diaries, or prepared information about your functioning is usually welcomed by assessors and strengthens your functional capacity assessment. Written documentation helps ensure you don't forget important information during the assessment.
+
+### What if I don't understand a question during the assessment?
+
+Always ask for clarification if you don't understand a functional capacity assessment question. Assessors want to ensure you fully understand what information they're seeking. There are no "wrong" answers - the goal is accurate information about your functioning.
+
+### Will I need to physically demonstrate activities during the assessment?
+
+This depends on the nature of your disability and the assessment purpose. Your functional capacity assessor may ask you to demonstrate certain activities (e.g., preparing a meal, moving around your home, using communication aids), but you should only be asked to demonstrate activities that are safe for you to perform. You can always decline to demonstrate something if you're concerned about safety or discomfort.
 
 ### Key Resources: Functional Capacity Assessment Guides
 - [NDIS Functional Capacity Resources](https://www.ndis.gov.au/participants/functional-capacity)
