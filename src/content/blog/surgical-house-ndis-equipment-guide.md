@@ -21,7 +21,7 @@ image: "/assets/wheelchair.webp"
 
 Surgical House is one of Australia's longest-established medical equipment suppliers, founded in 1957 and now operating as a key provider for NDIS participants. With over 65 years of experience in the healthcare sector, Surgical House has evolved from a traditional surgical equipment supplier to a comprehensive disability support provider specializing in mobility aids, assistive technology, and rehabilitation equipment.
 
-For a broader view of sourcing equipment, including second-hand options, you can read our [ultimate guide to buying, selling, and donating disability equipment](/blog/guide-buying-selling-donating-second-hand-disability-equipment-australia-2026).
+For a broader view of sourcing equipment, including second-hand options, you can read our [ultimate guide to buying, selling, and donating disability equipment](/blog/guide-buying-selling-donating-second-hand-disability-equipment-australia).
 
 ### What Makes Surgical House Unique
 
@@ -145,7 +145,7 @@ Equipment from Surgical House can be accessed through different NDIS budget cate
 - **Replacement Items**: Regular replacement of worn equipment
 - **Maintenance Supplies**: Cleaning and care products
 
-Many of these items fall under the [NDIS Consumables category](/blog/ndis-support-categories-consumables-guide-2026), which is part of your [Core Supports budget](/blog/ndis-core-supports).
+Many of these items fall under the [NDIS Consumables category](/blog/ndis-support-categories-consumables-guide), which is part of your [Core Supports budget](/blog/ndis-core-supports).
 
 #### Capital Supports Budget
 - **High-Value Equipment**: Items over $1,500 typically requiring quotes

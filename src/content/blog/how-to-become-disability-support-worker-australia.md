@@ -76,7 +76,7 @@ For individuals with significant psychosocial disabilities, support workers may 
 - **Processing Time**: 2-6 weeks
 - **Required**: For all NDIS-funded support work
 
-For a detailed walkthrough of this process, see our [complete guide to the NDIS Worker Screening Check](/blog/ndis-worker-screening-check-complete-guide-2025).
+For a detailed walkthrough of this process, see our [complete guide to the NDIS Worker Screening Check](/blog/ndis-worker-screening-check-complete-guide).
 
 **First Aid Certificate:**
 - **Type**: HLTAID011 Provide First Aid

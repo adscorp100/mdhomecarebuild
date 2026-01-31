@@ -16,7 +16,7 @@ image: "/assets/disabled carer.webp"
 - Key challenges include administrative demands, physical demands, emotional fatigue, and navigating complex systems.
 
 ## Support Worker Salary and Benefits in 2026
-The financial aspects of support work vary based on several factors. For a detailed breakdown, see our guides on [NDIS support worker pay rates](/blog/ndis-support-worker-pay-rates) and the [hourly rates for 2026](/blog/ndis-support-worker-hourly-rate-2026).
+The financial aspects of support work vary based on several factors. For a detailed breakdown, see our guides on [NDIS support worker pay rates](/blog/ndis-support-worker-pay-rates) and the [hourly rates for 2026](/blog/ndis-support-worker-hourly-rate).
 
 - **Base Hourly Rates**:
   - Entry-level (no qualifications): $28-$32

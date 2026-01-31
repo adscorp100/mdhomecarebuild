@@ -83,7 +83,7 @@ The 2026-26 NDIS Price Guide, effective from July 1, 2026, introduced the larges
 
 Support worker rates vary by qualifications and time of day, with current 2024-25 rates ranging from $30.00–$34.00 per hour for unqualified workers, $32.00–$36.00 for qualified, and $36.00–$42.00 for team leaders/supervisors. The NDIS does not set prices directly; providers negotiate within price limits, especially for plan-managed participants. For detailed access, the official guide and support catalogue are available at [NDIS pricing arrangements](https://www.ndis.gov.au/providers/pricing-arrangements) and [MyCareSpace resource](https://mycarespace.com.au/resources/ndis-support-worker-rates).
 
-For comprehensive information about support worker pay rates including weekend and public holiday rates, see our detailed [NDIS Support Worker Pay Rates Guide](/blog/ndis-support-worker-pay-rates/) and [NDIS Support Worker Hourly Rate 2026](/blog/ndis-support-worker-hourly-rate-2026/). For specific line item codes and billing information, refer to our [NDIS Line Items Guide](/blog/ndis-line-items-guide-2024-25/).
+For comprehensive information about support worker pay rates including weekend and public holiday rates, see our detailed [NDIS Support Worker Pay Rates Guide](/blog/ndis-support-worker-pay-rates/) and [NDIS Support Worker Hourly Rate 2026](/blog/ndis-support-worker-hourly-rate/). For specific line item codes and billing information, refer to our [NDIS Line Items Guide](/blog/ndis-line-items-guide-2024-25/).
 
 ## Comprehensive Analysis of NDIS Price Guide 2024-25 & NDIS Pricing Guide: Detailed Insights for Participants and Providers
 
@@ -120,7 +120,7 @@ The latest NDIS Price Guide for 2026-26, released in July 2026, introduced sever
 
 The NDIS Support Catalogue, part of the 2024-25 guide, lists all available supports with price limits, support categories, descriptions, and line item numbers, crucial for lodging payment requests. It includes:
 
-- **Support Categories**: Broad groupings such as Assistance with Daily Life, Assistance with Social and Community Participation, and Consumables, each with specific sub-items. These are funded from your [Core Supports budget](/blog/ndis-core-supports). You can learn more in our guides to [Improved Daily Living supports](/blog/ndis-improved-daily-living-cb-daily-activity-guide-2026), [Social and Community Participation](/blog/ndis-social-community-participation-guide), and [NDIS Consumables](/blog/ndis-support-categories-consumables-guide-2026).
+- **Support Categories**: Broad groupings such as Assistance with Daily Life, Assistance with Social and Community Participation, and Consumables, each with specific sub-items. These are funded from your [Core Supports budget](/blog/ndis-core-supports). You can learn more in our guides to [Improved Daily Living supports](/blog/ndis-improved-daily-living-cb-daily-activity-guide), [Social and Community Participation](/blog/ndis-social-community-participation-guide), and [NDIS Consumables](/blog/ndis-support-categories-consumables-guide).
 - **NDIS Line Item Codes**: Unique codes for each support item, essential for accurate invoicing and claiming. For example, community social and recreational activities might use code 04_210_0125_6_1, as seen in [Down Syndrome NSW blog](https://www.downsyndromensw.org.au/blog/ndis-pricing-arrangements-and-price-limits-2024-25).
 - **Price Limits**: Maximum prices providers can charge, with flexibility for negotiation below these limits, ensuring cost-effectiveness.
 

@@ -19,7 +19,7 @@ image: "/assets/nurse.webp"
 
 **Check your screening costs:** Use our free **[NDIS Worker Screening Cost Calculator](/tools/ndis-screening-calculator)** to compare costs and processing times for all states.
 
-This guide provides a comprehensive overview of the NDIS Worker Screening Check. This check is a mandatory part of the [NDIS provider application process](/blog/ndis-provider-application-process-guide-2026) and a key compliance step when [starting an NDIS business](/blog/how-to-start-a-successful-ndis-business-in-australia-the-ultimate-2026-guide).
+This guide provides a comprehensive overview of the NDIS Worker Screening Check. This check is a mandatory part of the [NDIS provider application process](/blog/ndis-provider-application-process-guide) and a key compliance step when [starting an NDIS business](/blog/how-to-start-a-successful-ndis-business-in-australia).
 
 ## What is the NDIS Worker Screening Check?
 

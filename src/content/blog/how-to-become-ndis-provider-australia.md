@@ -149,7 +149,7 @@ Once registered, you'll need to understand the NDIS pricing framework. Our [NDIS
 
 ### Step 4: Prepare Your Application
 
-For a more granular look at this stage, refer to our [NDIS provider application process guide](/blog/ndis-provider-application-process-guide-2026).
+For a more granular look at this stage, refer to our [NDIS provider application process guide](/blog/ndis-provider-application-process-guide).
 
 **Required Documentation:**
 - **Application form**: Complete NDIS provider application

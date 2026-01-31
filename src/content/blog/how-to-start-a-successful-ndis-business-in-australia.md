@@ -73,7 +73,7 @@ Integrate NDIS compliance from the outset—outline how you will meet Practice S
 
 ### 3.1 The Official 5-Step Registration Process
 
-For a detailed breakdown of the costs and steps involved, see our guides on [NDIS provider registration costs](/blog/ndis-provider-registration-costs-explained) and the [NDIS provider application process](/blog/ndis-provider-application-process-guide-2026).
+For a detailed breakdown of the costs and steps involved, see our guides on [NDIS provider registration costs](/blog/ndis-provider-registration-costs-explained) and the [NDIS provider application process](/blog/ndis-provider-application-process-guide).
 
 1. **Online Application**: Submit details on structure, locations, services (registration groups), and key personnel; complete self-assessment against Practice Standards.
 2. **Select Approved Auditor**: Choose a Verification (lower-risk services) or Certification (higher-risk) audit; obtain quotes and engage an NDIS-approved auditor.
@@ -99,7 +99,7 @@ Ongoing training, robust policies, and continuous improvement embed these standa
 
 ### 3.4 Key Personnel & Suitability Requirements
 
-The Commission assesses both organisational and individual suitability. Key Personnel (directors, CEOs, senior managers) must demonstrate competence, integrity, and capacity to uphold quality and safeguarding obligations. Additionally, staff in risk-assessed roles require an [NDIS Worker Screening Check](/blog/ndis-worker-screening-check-complete-guide-2026).
+The Commission assesses both organisational and individual suitability. Key Personnel (directors, CEOs, senior managers) must demonstrate competence, integrity, and capacity to uphold quality and safeguarding obligations. Additionally, staff in risk-assessed roles require an [NDIS Worker Screening Check](/blog/ndis-worker-screening-check-complete-guide).
 
 ## Section 4: Phase 3 – Setting Up for Operational Success
 

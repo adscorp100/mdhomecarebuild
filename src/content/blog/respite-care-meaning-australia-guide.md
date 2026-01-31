@@ -18,7 +18,7 @@ image: "/assets/respite care.webp"
 
 **Calculate respite costs:** Use our free **[NDIS Respite Calculator](/tools/ndis-respite-calculator)** to estimate Short Term Accommodation (STA) costs based on your support needs.
 
-Respite care means temporary care provided to give primary carers a break from their caring responsibilities. These services are a key component of the new [Support at Home Program](/blog/support-at-home-program-2026-complete-guide) commencing in 2026.
+Respite care means temporary care provided to give primary carers a break from their caring responsibilities. These services are a key component of the new [Support at Home Program](/blog/support-at-home-program-complete-guide) commencing in 2026.
 
 Caring for a family member with disability, chronic illness, or age-related needs can be emotionally and physically demanding. While most carers find their role rewarding, everyone needs a break to rest, recharge, and attend to their own needs. This is where respite care becomes essential.
 

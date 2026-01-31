@@ -178,7 +178,7 @@ With recovery coach experience, you can transition to:
 
 - Specialist Support Coordinator
 - Mental Health Service Manager
-- [NDIS Plan Manager](/blog/ndis-plan-manager-complete-guide-2026)
+- [NDIS Plan Manager](/blog/ndis-plan-manager-complete-guide)
 - Training and Development roles
 - Policy and advocacy positions
 - Private practice consulting

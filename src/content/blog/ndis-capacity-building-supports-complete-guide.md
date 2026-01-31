@@ -299,7 +299,7 @@ This is often the largest Capacity Building category, funding therapy and daily 
 | Exercise Physiologist / Dietitian | $166.99/hr | $183.08/hr |
 | Therapy Assistant | $90.27/hr | $99.30/hr |
 
-> **Related:** See our detailed [CB Daily Activity Guide](/blog/ndis-improved-daily-living-cb-daily-activity-guide-2026) for line item codes and examples.
+> **Related:** See our detailed [CB Daily Activity Guide](/blog/ndis-improved-daily-living-cb-daily-activity-guide) for line item codes and examples.
 
 ---
 

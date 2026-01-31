@@ -137,7 +137,7 @@ The NDIA (National Disability Insurance Agency) is the government body that runs
 ### Step 3: Eligibility Decision
 
 **Possible Outcomes**
-- **Eligible**: Proceed to planning meeting. Once your plan is approved, you will work with professionals like a [Support Coordinator](/blog/what-does-a-support-coordinator-do-in-the-ndis) or a [Plan Manager](/blog/ndis-plan-manager-complete-guide-2026) to manage your supports. Understanding the [NDIS Price Guide](/blog/ndis-price-guide) is a key part of this stage.
+- **Eligible**: Proceed to planning meeting. Once your plan is approved, you will work with professionals like a [Support Coordinator](/blog/what-does-a-support-coordinator-do-in-the-ndis) or a [Plan Manager](/blog/ndis-plan-manager-complete-guide) to manage your supports. Understanding the [NDIS Price Guide](/blog/ndis-price-guide) is a key part of this stage.
 - **Not Eligible**: Reasons provided with review options
 - **More Information Needed**: Specific requirements outlined
 - **Early Intervention Pathway**: Alternative eligibility route

@@ -249,7 +249,7 @@ The 2026-26 pricing structure includes several enhancements:
 - **Revised cancellation rules** for different support types
 - **Updated travel allowances** for rural participants
 
-For detailed information about daily living supports under the new arrangements, see our comprehensive guide to [NDIS Improved Daily Living Skills 2026-26](/blog/ndis-improved-daily-living-cb-daily-activity-guide-2026/). For updated respite and STA pricing, our [NDIS Respite STA Pricing Guide 2026-26](/blog/ndis-respite-sta-pricing-guide-2024-25/) provides current cost breakdowns.
+For detailed information about daily living supports under the new arrangements, see our comprehensive guide to [NDIS Improved Daily Living Skills 2026-26](/blog/ndis-improved-daily-living-cb-daily-activity-guide/). For updated respite and STA pricing, our [NDIS Respite STA Pricing Guide 2026-26](/blog/ndis-respite-sta-pricing-guide-2024-25/) provides current cost breakdowns.
 
 **Table: 01 – Assistance with Daily Life Line Items (Updated 2026-26)**
 

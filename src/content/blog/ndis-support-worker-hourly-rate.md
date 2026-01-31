@@ -49,7 +49,7 @@ Independent support workers have the flexibility to set their own rates, but the
 - **Why the Higher Rate?** This rate needs to cover insurance, superannuation (11.5% as of July 2026), tax, training, and other business expenses.
 - **New Rules for 2026:** As of July 1, 2026, independent support workers will need to be registered with the NDIS, which may add new compliance requirements.
 
-If you're thinking of going independent, our guides on [becoming an independent support worker](/blog/guide-to-becoming-an-independent-support-worker/) and [getting the right insurance](/blog/how-to-get-support-worker-insurance-in-australia-a-2026-guide/) are essential reading.
+If you're thinking of going independent, our guides on [becoming an independent support worker](/blog/guide-to-becoming-an-independent-support-worker/) and [getting the right insurance](/blog/how-to-get-support-worker-insurance-in-australia/) are essential reading.
 
 ## Rates for High-Intensity and Specialized Support
 

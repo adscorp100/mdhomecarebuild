@@ -131,7 +131,7 @@ Here's what the key worker journey typically looks like for families:
 |--------------|------------------------|
 | **Getting to know your child** | Key worker observes, assesses, and starts to understand your child's strengths and challenges |
 | **Understanding your priorities** | They ask what matters most to you and what your family goals are |
-| **Reviewing your NDIS plan** | They look at your [goals](/blog/ndis-goals-examples-smart-planning-guide-2026) and funding to plan services |
+| **Reviewing your NDIS plan** | They look at your [goals](/blog/ndis-goals-examples-smart-planning-guide) and funding to plan services |
 | **Creating a therapy plan** | They develop a schedule of supports that works for your family |
 
 ### Ongoing Support
@@ -153,7 +153,7 @@ When your NDIS plan review approaches, your key worker will:
 - Help you think about what goals to set for the next plan
 - Support you in the review meeting if needed
 
-> **Related:** Understanding your [NDIS plan management options](/blog/ndis-plan-manager-complete-guide-2026) can help you make the most of your key worker's support.
+> **Related:** Understanding your [NDIS plan management options](/blog/ndis-plan-manager-complete-guide) can help you make the most of your key worker's support.
 
 ---
 
@@ -190,7 +190,7 @@ The ECEI key worker approach is particularly valuable when:
 - Your child has multiple therapy needs (not just one area)
 - You're preparing for the transition to school
 
-> **Not sure about ECEI eligibility?** Our [NDIS eligibility guide](/blog/ndis-eligibility-requirements-complete-guide-2026) explains the early intervention pathway for young children.
+> **Not sure about ECEI eligibility?** Our [NDIS eligibility guide](/blog/ndis-eligibility-requirements-complete-guide) explains the early intervention pathway for young children.
 
 ---
 
@@ -232,7 +232,7 @@ The good news: key worker services are funded through your NDIS plan - there's n
 | Your Child's Situation | Funding Category |
 |-----------------------|------------------|
 | **Child under 9 in early intervention** | Early Childhood Early Intervention (ECEI) funding |
-| **Therapy services (OT, speech, physio)** | Capacity Building - Improved Daily Living ([CB Daily Activity](/blog/ndis-improved-daily-living-cb-daily-activity-guide-2026)) |
+| **Therapy services (OT, speech, physio)** | Capacity Building - Improved Daily Living ([CB Daily Activity](/blog/ndis-improved-daily-living-cb-daily-activity-guide)) |
 | **Direct support activities** | Core Supports |
 
 ### What to Check in Your Plan
@@ -242,7 +242,7 @@ Look at your NDIS plan to see if you have funding in:
 - **Core Supports** - some coordination activities may be funded here
 - **ECEI** - if your child is under 9, funding may be structured differently
 
-> **Need help understanding your plan?** Learn about the different [NDIS Capacity Building categories](/blog/ndis-capacity-building-supports-complete-guide-2026) and how your funding is organised.
+> **Need help understanding your plan?** Learn about the different [NDIS Capacity Building categories](/blog/ndis-capacity-building-supports-complete-guide) and how your funding is organised.
 
 ---
 

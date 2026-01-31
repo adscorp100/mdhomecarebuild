@@ -232,7 +232,7 @@ The **Support at Home Program** will operate on a more flexible support model ra
 - Transparent fee structures
 - Hardship provisions available
 
-For a more detailed breakdown, see our guide on [Support at Home prices for 2026](/blog/support-at-home-prices-2026).
+For a more detailed breakdown, see our guide on [Support at Home prices for 2026](/blog/support-at-home-prices).
 
 **Basic Daily Fee:**
 - All recipients pay basic daily fee
