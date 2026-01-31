@@ -1,6 +1,6 @@
 ---
-title: "Disability Support Pension Australia 2025: Eligibility, Asset Test & Bank Limits"
-description: "DSP Australia December 2025: How much money can you have in the bank? $314,000 (homeowner). Income test $212/fortnight. Partner income rules. Complete eligibility guide."
+title: "How Much Money Can I Have in the Bank on DSP? $314k (2025)"
+description: "Disability pension bank limits 2025: $314,000 (homeowner) or $566,500 (non-homeowner). Partner can earn $2,155/fortnight before affecting your DSP. Complete asset test + income rules."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["disability support pension", "DSP eligibility", "DSP asset test", "Centrelink disability pension"]

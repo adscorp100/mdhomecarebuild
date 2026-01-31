@@ -1,0 +1,419 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "DSP Income Test Calculator",
+  description: "Calculate how your income affects your Disability Support Pension payment. See how much you can earn before your DSP is reduced.",
+  icon: "hugeicons:money-receive-01",
+  color: "primary",
+  phase: 1,
+  isNew: true
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "DSP Income Test Calculator Australia 2026",
+  "description": "Free DSP income test calculator. Calculate how your fortnightly income affects your Disability Support Pension payment. Updated with 2026 rates and taper rules.",
+  "url": "https://mdhomecare.com.au/tools/dsp-income-test-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much can I earn on DSP without losing payment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can earn up to $212 per fortnight (single) or $372 per fortnight combined (couple) without your DSP payment being reduced. This is called the income free area. For every dollar you earn above this threshold, your DSP payment reduces by 50 cents in the dollar. Your DSP cuts out completely when your fortnightly income reaches approximately $2,510 (single) or $1,923 each (couple)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What counts as income for DSP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Income for DSP includes: wages and salary (before tax), self-employment income, WorkCover payments, deemed income from financial investments, foreign pensions, and certain compensation payments. Income NOT counted includes: Carer Allowance, Rent Assistance, Family Tax Benefit, the first $7,800/year of employment income for under 21s, and certain disability employment assistance payments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I work part-time on DSP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can work part-time while receiving DSP. You can earn up to $212/fortnight with no reduction to your DSP. If you earn more, your DSP reduces by 50 cents for every dollar over $212. Working while on DSP can help you maintain skills and increase your total income (DSP + wages). You must report your income each fortnight to Centrelink."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the DSP income test taper work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The DSP income test uses a 50% taper rate. For every dollar you earn above $212/fortnight (single) or $372/fortnight combined (couple), your DSP payment reduces by 50 cents. For example, if you earn $412/fortnight (single), that's $200 over the limit, so your DSP reduces by $100/fortnight. The taper continues until your DSP reaches zero at around $2,510/fortnight income."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does partner income affect DSP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if you're partnered, both your income and your partner's income are combined and tested. The combined income free area is $372 per fortnight. If your combined income exceeds this, both your DSP payments reduce. However, if only one partner receives DSP and the other works, the working partner's income is still counted when calculating the DSP payment amount."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I lose my DSP if I work too much?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your DSP payment will reduce to zero if your fortnightly income exceeds approximately $2,510 (single) or $1,923 each (couple). However, you don't immediately lose DSP eligibility. Your payment is suspended, not cancelled. If your income drops again, your DSP can restart. To maintain DSP eligibility long-term, you must still meet the disability requirements including working less than 30 hours per week."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="DSP Income Test Calculator 2026 - Calculate Your Payment Reduction"
+  description="Free DSP income test calculator. Calculate how your fortnightly income affects your Disability Support Pension. See payment reductions with 2026 taper rates."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">DSP Income Test Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            DSP Income Test <span class="text-primary">Calculator 2026</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Calculate how your fortnightly income affects your Disability Support Pension payment. See exactly how much DSP you'll receive based on your work income. Updated with <strong>2026 taper rates</strong>.
+          </p>
+
+          <!-- Quick Facts Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-8">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:information-circle" class="w-5 h-5 text-primary" />
+              DSP Income Test Rules (2026)
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Income free area (single)</span>
+                <span class="font-bold text-secondary">$212/fn</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Income free area (couple)</span>
+                <span class="font-bold text-secondary">$372/fn</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Taper rate</span>
+                <span class="font-bold text-secondary">50¢ per $1</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Max DSP (single, 21+)</span>
+                <span class="font-bold text-secondary">$1,149.00/fn</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Work Tip -->
+          <div class="bg-success/5 rounded-[2rem] p-6 border border-success/20 mb-8">
+            <h3 class="font-bold text-secondary mb-3 flex items-center gap-2">
+              <Icon name="hugeicons:money-bag-01" class="w-5 h-5 text-success" />
+              Working on DSP Increases Your Total Income
+            </h3>
+            <p class="text-sm text-secondary/70 leading-relaxed">
+              Even though your DSP reduces, working part-time increases your total income. For example: earning $400/fn reduces your DSP by $94, but your total income is $306 more than DSP alone.
+            </p>
+          </div>
+
+          <!-- ChatGPT Notice -->
+          <div class="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-[2rem] p-6 border border-primary/10">
+            <p class="text-sm text-secondary/80 leading-relaxed">
+              <strong class="text-secondary">ChatGPT can't calculate your specific DSP payment reduction.</strong> This calculator uses the exact 2026 income test taper rate (50%) and shows your precise DSP amount based on your income.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2rem] p-8 lg:p-10 border border-base-200 shadow-2xl shadow-base-200/50 sticky top-8">
+
+            <form id="incomeTestForm">
+
+              <!-- Relationship Status -->
+              <div class="mb-8">
+                <label class="block text-secondary font-bold mb-3">
+                  Relationship Status
+                </label>
+                <div class="grid grid-cols-2 gap-3">
+                  <label class="relative cursor-pointer">
+                    <input type="radio" name="status" value="single" class="peer sr-only" checked />
+                    <div class="px-5 py-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center font-medium text-secondary peer-checked:text-primary">
+                      Single
+                    </div>
+                  </label>
+                  <label class="relative cursor-pointer">
+                    <input type="radio" name="status" value="couple" class="peer sr-only" />
+                    <div class="px-5 py-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center font-medium text-secondary peer-checked:text-primary">
+                      Partnered
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Fortnightly Income -->
+              <div class="mb-8">
+                <label class="block text-secondary font-bold mb-3">
+                  Your Fortnightly Income (Before Tax)
+                  <span class="text-sm font-normal text-secondary/60 ml-2">(Wages, self-employment, WorkCover)</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/60 font-medium">$</span>
+                  <input
+                    type="number"
+                    id="yourIncome"
+                    name="yourIncome"
+                    value="400"
+                    min="0"
+                    max="5000"
+                    step="10"
+                    class="w-full pl-8 pr-4 py-4 rounded-xl border-2 border-base-200 focus:border-primary focus:outline-none transition-colors text-secondary font-bold text-lg"
+                  />
+                </div>
+                <input type="range" id="yourIncomeSlider" min="0" max="3000" step="10" value="400" class="w-full mt-3" />
+              </div>
+
+              <!-- Partner Income (only for couples) -->
+              <div id="partnerIncomeSection" class="mb-8 hidden">
+                <label class="block text-secondary font-bold mb-3">
+                  Partner's Fortnightly Income (Before Tax)
+                </label>
+                <div class="relative">
+                  <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/60 font-medium">$</span>
+                  <input
+                    type="number"
+                    id="partnerIncome"
+                    name="partnerIncome"
+                    value="0"
+                    min="0"
+                    max="5000"
+                    step="10"
+                    class="w-full pl-8 pr-4 py-4 rounded-xl border-2 border-base-200 focus:border-primary focus:outline-none transition-colors text-secondary font-bold text-lg"
+                  />
+                </div>
+                <input type="range" id="partnerIncomeSlider" min="0" max="3000" step="10" value="0" class="w-full mt-3" />
+              </div>
+
+            </form>
+
+            <!-- Results -->
+            <div id="results" class="mt-8 pt-8 border-t-2 border-base-200">
+
+              <!-- Income Free Area -->
+              <div class="mb-6 p-5 rounded-xl bg-base-100">
+                <div class="flex justify-between items-baseline mb-2">
+                  <span class="text-secondary/70 text-sm font-medium">Income Free Area</span>
+                  <span id="freeArea" class="text-lg font-bold text-secondary">$212</span>
+                </div>
+              </div>
+
+              <!-- Income Above Threshold -->
+              <div class="mb-6 p-5 rounded-xl bg-warning/5">
+                <div class="flex justify-between items-baseline mb-2">
+                  <span class="text-secondary/70 text-sm font-medium">Income Above Threshold</span>
+                  <span id="aboveThreshold" class="text-lg font-bold text-warning">$188</span>
+                </div>
+              </div>
+
+              <!-- DSP Reduction -->
+              <div class="mb-6 p-5 rounded-xl bg-error/5">
+                <div class="flex justify-between items-baseline mb-2">
+                  <span class="text-secondary/70 text-sm font-medium">DSP Reduction (50% taper)</span>
+                  <span id="reduction" class="text-lg font-bold text-error">-$94.00</span>
+                </div>
+              </div>
+
+              <!-- Your DSP Payment -->
+              <div class="mb-6 p-6 rounded-xl bg-gradient-to-br from-primary to-secondary text-white">
+                <div class="flex justify-between items-baseline mb-1">
+                  <span class="text-white/90 font-medium">Your DSP Payment</span>
+                  <span id="dspPayment" class="text-3xl font-bold">$1,055.00<span class="text-lg text-white/80 ml-1">/fn</span></span>
+                </div>
+                <div class="text-sm text-white/80 mt-2">
+                  <span id="dspAnnual">$27,430</span> per year
+                </div>
+              </div>
+
+              <!-- Total Income -->
+              <div class="p-6 rounded-xl bg-success text-white">
+                <div class="flex justify-between items-baseline mb-1">
+                  <span class="text-white/90 font-medium">Total Income (DSP + Wages)</span>
+                  <span id="totalIncome" class="text-3xl font-bold">$1,455.00<span class="text-lg text-white/80 ml-1">/fn</span></span>
+                </div>
+                <div class="text-sm text-white/80 mt-2">
+                  <span id="totalAnnual">$37,830</span> per year
+                </div>
+                <div class="mt-3 pt-3 border-t border-white/20 text-sm">
+                  <span id="extraIncome" class="font-bold">$306.00</span> more per fortnight than DSP alone
+                </div>
+              </div>
+
+              <!-- Cut-out point -->
+              <div class="mt-4 text-center text-xs text-secondary/60">
+                Your DSP cuts out completely at <span id="cutoutPoint" class="font-bold text-secondary">$2,510</span>/fn income
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="mt-20 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          {faqData.mainEntity.map((faq: any) => (
+            <details class="group bg-white rounded-2xl border border-base-200 overflow-hidden">
+              <summary class="cursor-pointer p-6 font-bold text-secondary hover:text-primary transition-colors list-none flex justify-between items-center">
+                <span>{faq.name}</span>
+                <Icon name="hugeicons:arrow-down-01" class="w-5 h-5 text-primary group-open:rotate-180 transition-transform" />
+              </summary>
+              <div class="px-6 pb-6 text-secondary/70 leading-relaxed">
+                {faq.acceptedAnswer.text}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // 2026 DSP Income Test Constants
+    const DSP_MAX_SINGLE = 1149.00;
+    const DSP_MAX_PARTNERED_EACH = 866.80;
+    const INCOME_FREE_SINGLE = 212;
+    const INCOME_FREE_COUPLE = 372;
+    const TAPER_RATE = 0.5; // 50 cents per dollar
+
+    function calculate() {
+      const status = (document.querySelector('input[name="status"]:checked') as HTMLInputElement)?.value || 'single';
+      const yourIncome = parseFloat((document.getElementById('yourIncome') as HTMLInputElement)?.value || '0');
+      const partnerIncome = parseFloat((document.getElementById('partnerIncome') as HTMLInputElement)?.value || '0');
+
+      // Show/hide partner income section
+      const partnerSection = document.getElementById('partnerIncomeSection');
+      if (partnerSection) {
+        partnerSection.classList.toggle('hidden', status === 'single');
+      }
+
+      // Sync sliders
+      (document.getElementById('yourIncomeSlider') as HTMLInputElement).value = yourIncome.toString();
+      (document.getElementById('partnerIncomeSlider') as HTMLInputElement).value = partnerIncome.toString();
+
+      // Calculate based on status
+      const maxDSP = status === 'single' ? DSP_MAX_SINGLE : DSP_MAX_PARTNERED_EACH;
+      const freeArea = status === 'single' ? INCOME_FREE_SINGLE : INCOME_FREE_COUPLE;
+      const totalIncome = status === 'single' ? yourIncome : yourIncome + partnerIncome;
+
+      // Calculate reduction
+      const aboveThreshold = Math.max(0, totalIncome - freeArea);
+      const reduction = aboveThreshold * TAPER_RATE;
+      const dspPayment = Math.max(0, maxDSP - reduction);
+
+      // Total income
+      const totalIncomeAmount = dspPayment + yourIncome;
+      const extraIncome = totalIncomeAmount - maxDSP;
+
+      // Cutout point
+      const cutoutPoint = freeArea + (maxDSP / TAPER_RATE);
+
+      // Update UI
+      (document.getElementById('freeArea') as HTMLElement).textContent = `$${freeArea}`;
+      (document.getElementById('aboveThreshold') as HTMLElement).textContent = `$${aboveThreshold.toFixed(0)}`;
+      (document.getElementById('reduction') as HTMLElement).textContent = `-$${reduction.toFixed(2)}`;
+      (document.getElementById('dspPayment') as HTMLElement).innerHTML = `$${dspPayment.toFixed(2)}<span class="text-lg text-white/80 ml-1">/fn</span>`;
+      (document.getElementById('dspAnnual') as HTMLElement).textContent = `$${(dspPayment * 26).toFixed(0)}`;
+      (document.getElementById('totalIncome') as HTMLElement).innerHTML = `$${totalIncomeAmount.toFixed(2)}<span class="text-lg text-white/80 ml-1">/fn</span>`;
+      (document.getElementById('totalAnnual') as HTMLElement).textContent = `$${(totalIncomeAmount * 26).toFixed(0)}`;
+      (document.getElementById('extraIncome') as HTMLElement).textContent = `$${extraIncome.toFixed(2)}`;
+      (document.getElementById('cutoutPoint') as HTMLElement).textContent = `$${cutoutPoint.toFixed(0)}`;
+    }
+
+    // Event listeners
+    const form = document.getElementById('incomeTestForm');
+    if (form) {
+      form.addEventListener('input', calculate);
+      form.addEventListener('change', calculate);
+    }
+
+    // Slider sync
+    const yourIncomeSlider = document.getElementById('yourIncomeSlider');
+    const yourIncomeInput = document.getElementById('yourIncome');
+    if (yourIncomeSlider && yourIncomeInput) {
+      yourIncomeSlider.addEventListener('input', (e) => {
+        (yourIncomeInput as HTMLInputElement).value = (e.target as HTMLInputElement).value;
+        calculate();
+      });
+    }
+
+    const partnerIncomeSlider = document.getElementById('partnerIncomeSlider');
+    const partnerIncomeInput = document.getElementById('partnerIncome');
+    if (partnerIncomeSlider && partnerIncomeInput) {
+      partnerIncomeSlider.addEventListener('input', (e) => {
+        (partnerIncomeInput as HTMLInputElement).value = (e.target as HTMLInputElement).value;
+        calculate();
+      });
+    }
+
+    // Initial calculation
+    calculate();
+  </script>
+
+</BaseLayout>

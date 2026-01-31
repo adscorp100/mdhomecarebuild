@@ -1,5 +1,5 @@
 ---
-title: "NDIS Community Participation: A Complete Guide (2025)"
+title: "NDIS Community Participation: A Complete Guide (2026)"
 description: "Your complete guide to NDIS Community Participation. Learn what 'Assistance with Social and Community Participation' is, what it funds, and how to get it in your plan."
 pubDate: 2025-07-02
 author: "Camila"

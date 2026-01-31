@@ -1,0 +1,360 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "NDIS Public Holiday Rate Calculator",
+  description: "Calculate NDIS support worker public holiday rates including Christmas, Easter, ANZAC Day, and Australia Day using 2025-26 price limits.",
+  icon: "hugeicons:calendar-03",
+  color: "error",
+  phase: 1
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "NDIS Public Holiday Rate Calculator 2025",
+  "description": "Free NDIS public holiday pay rate calculator. Calculate support worker rates for Christmas, Easter, ANZAC Day, and all Australian public holidays using 2025-26 NDIS price limits.",
+  "url": "https://mdhomecare.com.au/tools/ndis-public-holiday-rate-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+---
+
+<BaseLayout
+  title="NDIS Public Holiday Pay Rate Calculator 2025 - Christmas, Easter, ANZAC Day Rates"
+  description="Calculate NDIS support worker public holiday pay rates for Christmas, Easter, ANZAC Day, and Australia Day. Free calculator with 2025-26 NDIS price limits showing exact hourly rates."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-error/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">Public Holiday Rate Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-error/10 bg-white/40 backdrop-blur-md text-error text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calendar-03" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            NDIS Public Holiday <span class="text-error">Rate Calculator</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Calculate NDIS support worker pay rates for <strong>all Australian public holidays</strong> including Christmas, Easter, ANZAC Day, and Australia Day. Based on <strong>2025-26 NDIS Price Guide</strong> with up to <strong>220% penalty rates</strong>.
+          </p>
+
+          <!-- Quick Reference Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-8">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:money-bag-02" class="w-5 h-5 text-error" />
+              Public Holiday NDIS Rates 2025-26
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Standard Support</span>
+                <span class="font-bold text-secondary">$154.50/hr</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">High Intensity</span>
+                <span class="font-bold text-secondary">$170.28/hr</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Complex Needs</span>
+                <span class="font-bold text-secondary">$181.65/hr</span>
+              </div>
+            </div>
+            <p class="text-xs text-secondary/50 mt-4">*Public holiday rates apply 24 hours (midnight to midnight)</p>
+          </div>
+
+          <!-- Australian Public Holidays List -->
+          <div class="bg-error/5 border border-error/20 rounded-2xl p-6 mb-6">
+            <h4 class="font-bold text-secondary mb-3 flex items-center gap-2">
+              <Icon name="hugeicons:calendar-03" class="w-5 h-5 text-error" />
+              Australian Public Holidays 2025
+            </h4>
+            <div class="grid grid-cols-2 gap-2 text-sm">
+              <div>
+                <p class="text-secondary/60">• New Year's Day</p>
+                <p class="text-secondary/60">• Australia Day</p>
+                <p class="text-secondary/60">• Good Friday</p>
+                <p class="text-secondary/60">• Easter Monday</p>
+                <p class="text-secondary/60">• ANZAC Day</p>
+              </div>
+              <div>
+                <p class="text-secondary/60">• Queen's Birthday</p>
+                <p class="text-secondary/60">• Christmas Day</p>
+                <p class="text-secondary/60">• Boxing Day</p>
+                <p class="text-secondary/60">• + State holidays*</p>
+              </div>
+            </div>
+            <p class="text-xs text-secondary/50 mt-3">*Melbourne Cup (VIC), Ekka (QLD), etc.</p>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="bg-warning/5 border border-warning/20 rounded-2xl p-4 text-sm text-secondary/70">
+            <p class="flex items-start gap-2">
+              <Icon name="hugeicons:alert-02" class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" />
+              <span><strong>Note:</strong> These are maximum NDIS price limits for public holidays. Providers may charge actual rates. SCHADS Award minimum is 250% of base rate for public holidays.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl shadow-base-200/50 border border-base-200" id="public-holiday-calculator">
+
+            <div class="flex items-center justify-between mb-8">
+              <h2 class="text-xl font-bold text-secondary">Calculate Public Holiday Rates</h2>
+              <span class="text-xs font-bold text-error uppercase tracking-wider">Instant Results</span>
+            </div>
+
+            <!-- Public Holiday Selection -->
+            <div class="form-control mb-6">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Public Holiday</label>
+              <select id="public-holiday" class="select select-lg w-full bg-white border-2 border-base-200 focus:border-error focus:ring-4 focus:ring-error/10 rounded-xl">
+                <option value="christmas">Christmas Day</option>
+                <option value="boxing-day">Boxing Day</option>
+                <option value="new-year">New Year's Day</option>
+                <option value="australia-day">Australia Day</option>
+                <option value="good-friday">Good Friday</option>
+                <option value="easter-monday">Easter Monday</option>
+                <option value="anzac-day">ANZAC Day</option>
+                <option value="queens-birthday">Queen's Birthday</option>
+                <option value="other">Other Public Holiday</option>
+              </select>
+            </div>
+
+            <!-- Support Type -->
+            <div class="form-control mb-6">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Support Type</label>
+              <select id="support-type" class="select select-lg w-full bg-white border-2 border-base-200 focus:border-error focus:ring-4 focus:ring-error/10 rounded-xl">
+                <option value="standard">Assistance with Self Care (Standard)</option>
+                <option value="high-intensity">High Intensity Support</option>
+                <option value="complex">Complex Needs Support</option>
+                <option value="community">Community Participation</option>
+              </select>
+            </div>
+
+            <!-- Hours -->
+            <div class="form-control mb-8">
+              <label class="label text-sm font-bold text-secondary/70 mb-2">Number of Hours</label>
+              <div class="flex items-center gap-4">
+                <input type="range" id="hours-slider" min="1" max="24" value="8" class="range range-error flex-1" />
+                <div class="bg-base-200 rounded-xl px-4 py-2 min-w-[80px] text-center">
+                  <span id="hours-display" class="font-bold text-secondary text-lg">8</span>
+                  <span class="text-secondary/60 text-sm ml-1">hrs</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Results -->
+            <div class="bg-gradient-to-br from-error to-error/80 rounded-2xl p-6 text-white mb-6">
+              <div class="grid grid-cols-2 gap-4 mb-4">
+                <div>
+                  <p class="text-sm font-bold uppercase tracking-wider opacity-80 mb-1">Hourly Rate</p>
+                  <p class="text-3xl font-bold" id="hourly-rate">$154.50</p>
+                </div>
+                <div>
+                  <p class="text-sm font-bold uppercase tracking-wider opacity-80 mb-1">Total Cost</p>
+                  <p class="text-3xl font-bold" id="total-cost">$1,236.00</p>
+                </div>
+              </div>
+              <div class="pt-4 border-t border-white/20">
+                <p class="text-sm opacity-80">
+                  <span id="rate-description">Christmas Day public holiday rate</span> for <span id="hours-text">8 hours</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- Comparison vs Regular Rates -->
+            <div class="bg-base-200/50 rounded-2xl p-6 mb-6">
+              <h4 class="font-bold text-secondary mb-4">Public Holiday vs Regular Rates</h4>
+              <div class="space-y-3 text-sm">
+                <div class="flex justify-between py-2 border-b border-base-200">
+                  <span class="text-secondary/70">Weekday Rate</span>
+                  <span class="font-medium text-secondary" id="weekday-rate">$70.23/hr</span>
+                </div>
+                <div class="flex justify-between py-2 border-b border-base-200">
+                  <span class="text-secondary/70">Public Holiday Rate</span>
+                  <span class="font-bold text-error" id="holiday-rate">$154.50/hr</span>
+                </div>
+                <div class="flex justify-between py-2">
+                  <span class="text-secondary/70 font-bold">Extra Cost</span>
+                  <span class="font-bold text-secondary" id="extra-cost">+$84.27/hr (+120%)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Rate Breakdown Table -->
+            <div class="bg-base-200/50 rounded-2xl p-6">
+              <h4 class="font-bold text-secondary mb-4">All Support Types - Public Holiday Rates</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between py-3 border-b border-base-200">
+                  <span class="font-medium text-secondary">Standard Self Care</span>
+                  <span class="font-bold text-secondary">$154.50/hr</span>
+                </div>
+                <div class="flex justify-between py-3 border-b border-base-200">
+                  <span class="font-medium text-secondary">High Intensity</span>
+                  <span class="font-bold text-secondary">$170.28/hr</span>
+                </div>
+                <div class="flex justify-between py-3 border-b border-base-200">
+                  <span class="font-medium text-secondary">Complex Needs</span>
+                  <span class="font-bold text-secondary">$181.65/hr</span>
+                </div>
+                <div class="flex justify-between py-3">
+                  <span class="font-medium text-secondary">Community Participation</span>
+                  <span class="font-bold text-secondary">$154.50/hr</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Related Content -->
+      <div class="mt-16 pt-16 border-t border-base-200">
+        <h2 class="text-2xl font-bold text-secondary mb-8 text-center">More NDIS Rate Calculators</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <a href="/tools/ndis-pay-rate-calculator/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">NDIS Pay Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate rates for all days including weekends and nights.</p>
+          </a>
+          <a href="/tools/ndis-weekend-rate-calculator/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Weekend Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate Saturday and Sunday NDIS support worker rates.</p>
+          </a>
+          <a href="/tools/ndis-night-shift-rate-calculator/" class="group bg-white rounded-2xl p-6 border border-base-200 hover:shadow-lg hover:-translate-y-1 transition-all">
+            <h3 class="font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Night Shift Rate Calculator</h3>
+            <p class="text-sm text-secondary/60">Calculate overnight and sleepover NDIS rates.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  // NDIS Price Limits 2025-26 - Public Holiday Rates
+  const RATES = {
+    standard: {
+      weekday: 70.23,
+      publicHoliday: 154.50
+    },
+    'high-intensity': {
+      weekday: 77.40,
+      publicHoliday: 170.28
+    },
+    complex: {
+      weekday: 82.57,
+      publicHoliday: 181.65
+    },
+    community: {
+      weekday: 70.23,
+      publicHoliday: 154.50
+    }
+  };
+
+  const HOLIDAY_NAMES = {
+    'christmas': 'Christmas Day',
+    'boxing-day': 'Boxing Day',
+    'new-year': "New Year's Day",
+    'australia-day': 'Australia Day',
+    'good-friday': 'Good Friday',
+    'easter-monday': 'Easter Monday',
+    'anzac-day': 'ANZAC Day',
+    'queens-birthday': "Queen's Birthday",
+    'other': 'Public Holiday'
+  };
+
+  const SUPPORT_TYPE_NAMES = {
+    'standard': 'Standard Self Care',
+    'high-intensity': 'High Intensity',
+    'complex': 'Complex Needs',
+    'community': 'Community Participation'
+  };
+
+  const calculator = document.getElementById('public-holiday-calculator');
+  if (!calculator) return;
+
+  const holidaySelect = document.getElementById('public-holiday');
+  const supportTypeSelect = document.getElementById('support-type');
+  const hoursSlider = document.getElementById('hours-slider');
+  const hoursDisplay = document.getElementById('hours-display');
+  const hourlyRateEl = document.getElementById('hourly-rate');
+  const totalCostEl = document.getElementById('total-cost');
+  const rateDescEl = document.getElementById('rate-description');
+  const hoursTextEl = document.getElementById('hours-text');
+  const weekdayRateEl = document.getElementById('weekday-rate');
+  const holidayRateEl = document.getElementById('holiday-rate');
+  const extraCostEl = document.getElementById('extra-cost');
+
+  function updateCalculator() {
+    const holiday = holidaySelect.value;
+    const supportType = supportTypeSelect.value;
+    const hours = parseInt(hoursSlider.value);
+
+    const rate = RATES[supportType].publicHoliday;
+    const weekdayRate = RATES[supportType].weekday;
+    const total = rate * hours;
+    const extraPerHour = rate - weekdayRate;
+    const extraPercent = ((extraPerHour / weekdayRate) * 100).toFixed(0);
+
+    hourlyRateEl.textContent = '$' + rate.toFixed(2);
+    totalCostEl.textContent = '$' + total.toFixed(2);
+    hoursDisplay.textContent = hours;
+    hoursTextEl.textContent = hours + ' hour' + (hours > 1 ? 's' : '');
+    rateDescEl.textContent = `${HOLIDAY_NAMES[holiday]} - ${SUPPORT_TYPE_NAMES[supportType]} public holiday rate`;
+
+    weekdayRateEl.textContent = '$' + weekdayRate.toFixed(2) + '/hr';
+    holidayRateEl.textContent = '$' + rate.toFixed(2) + '/hr';
+    extraCostEl.textContent = '+$' + extraPerHour.toFixed(2) + '/hr (+' + extraPercent + '%)';
+  }
+
+  // Event listeners
+  holidaySelect.addEventListener('change', updateCalculator);
+  supportTypeSelect.addEventListener('change', updateCalculator);
+  hoursSlider.addEventListener('input', updateCalculator);
+
+  // Initial calculation
+  updateCalculator();
+
+  // Track usage
+  if (typeof gtag === 'function') {
+    gtag('event', 'tool_view', { tool_name: 'ndis_public_holiday_rate_calculator' });
+  }
+})();
+</script>

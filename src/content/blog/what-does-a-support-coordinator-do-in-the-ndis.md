@@ -1,6 +1,6 @@
 ---
-title: "What Does a Support Coordinator Do in the NDIS? Complete Guide to Finding Support Coordination Near Me 2025"
-description: "Complete guide to NDIS support coordinators in 2025. Learn what support coordinators do, how to find support coordination near me, costs, and how they maximize your NDIS plan outcomes through effective coordination."
+title: "What Does a Support Coordinator Do in the NDIS? Complete Guide to Finding Support Coordination Near Me 2026"
+description: "Complete guide to NDIS support coordinators in 2026. Learn what support coordinators do, how to find support coordination near me, costs, and how they maximize your NDIS plan outcomes through effective coordination."
 pubDate: 2025-06-02
 author: "Camila"
 category: "NDIS"
@@ -34,7 +34,7 @@ The exact support coordination activities vary based on the participant's indivi
 ## Support Coordination Levels: What's the Difference?
 The NDIS provides three levels of support coordination, each designed for different participant needs:
 
-| Level | NDIS Code | Hourly Rate (2025) | Typical Hours/Year | Suitable For |
+| Level | NDIS Code | Hourly Rate (2026) | Typical Hours/Year | Suitable For |
 | :---- | :-------- | :----------------- | :----------------- | :----------- |
 | Support Connection | 07_001_0106_8_3 | $65.09 | 20-30 | Participants with straightforward needs who require initial setup assistance |
 | Support Coordination | 07_002_0106_8_3 | $100.14 | 40-100 | Participants with moderately complex needs requiring ongoing coordination |
@@ -59,7 +59,7 @@ Support coordinators provide practical assistance in numerous ways, including:
 Effective support coordinators focus on building the participant's skills and confidence to eventually manage more aspects of their plan independently, rather than creating dependency.
 
 ## Comprehensive Guide to NDIS Support Coordination
-The National Disability Insurance Scheme (NDIS) is designed to provide Australians with disability the supports they need to live an ordinary life. Within this system, support coordinators play a pivotal role in helping participants navigate the complexities of the scheme and maximize the benefits of their plans. This comprehensive guide explores the multifaceted role of support coordinators in the NDIS ecosystem in 2025.
+The National Disability Insurance Scheme (NDIS) is designed to provide Australians with disability the supports they need to live an ordinary life. Within this system, support coordinators play a pivotal role in helping participants navigate the complexities of the scheme and maximize the benefits of their plans. This comprehensive guide explores the multifaceted role of support coordinators in the NDIS ecosystem in 2026.
 
 ### Understanding the Support Coordinator Role in the NDIS Framework
 Support coordination is a capacity building support that helps participants implement all aspects of their NDIS plans. Support coordinators act as intermediaries between participants and the broader disability support system, helping to translate sometimes complex NDIS plans into practical, everyday supports and services.
@@ -73,7 +73,7 @@ The role encompasses several key dimensions:
 - **Advocate**: Speaking up for participants' rights and ensuring their voice is heard in service delivery.
 - **Problem-Solver**: Addressing complexities, barriers, and challenges that arise during plan implementation.
 
-The support coordinator role has evolved significantly since the NDIS began, with the 2025 framework placing increased emphasis on outcomes-focused coordination and participants' long-term capacity building.
+The support coordinator role has evolved significantly since the NDIS began, with the 2026 framework placing increased emphasis on outcomes-focused coordination and participants' long-term capacity building.
 
 ### Day-to-Day Activities of an NDIS Support Coordinator
 The daily work of support coordinators is diverse and responsive to participants' individual needs. Typical activities include:
@@ -124,7 +124,7 @@ This basic level helps participants who need minimal assistance to connect with 
 - Light-touch capacity building
 - Assistance transitioning to self-management
 
-**Funding Allocation:** Typically 20-30 hours per year ($1,300-$1,950 at 2025 rates)
+**Funding Allocation:** Typically 20-30 hours per year ($1,300-$1,950 at 2026 rates)
 
 **Best Suited For:** Participants with straightforward needs, strong informal supports, or those transitioning to self-coordination
 
@@ -142,7 +142,7 @@ This middle level provides ongoing coordination for participants with moderately
 - Structured capacity building
 - Detailed preparation for plan reviews
 
-**Funding Allocation:** Typically 40-100 hours per year ($4,000-$10,000 at 2025 rates)
+**Funding Allocation:** Typically 40-100 hours per year ($4,000-$10,000 at 2026 rates)
 
 **Best Suited For:** Participants managing multiple services, those with moderate complexity in their support needs, or those building their coordination skills
 
@@ -160,7 +160,7 @@ This highest level provides intensive, specialized coordination for participants
 - Intensive capacity building with specialized approaches
 - Complex stakeholder management
 
-**Funding Allocation:** Typically 50-150 hours per year ($9,500-$28,500 at 2025 rates)
+**Funding Allocation:** Typically 50-150 hours per year ($9,500-$28,500 at 2026 rates)
 
 **Best Suited For:** Participants with severe psychosocial disability, complex behavioral needs, multiple diagnoses, involvement with multiple systems, or those in unstable living situations
 
@@ -308,7 +308,7 @@ These qualities combine to create coordinators who can effectively navigate comp
 
 ### Support Coordination Costs and NDIS Funding
 
-**2025 NDIS Hourly Rates**
+**2026 NDIS Hourly Rates**
 - Support Connection: $65.09 per hour
 - Support Coordination: $100.14 per hour  
 - Specialist Support Coordination: $190.54 per hour
@@ -407,7 +407,7 @@ To get the most from support coordination, participants can:
 
 ### Key Resources for Understanding Support Coordination
 - [NDIS Support Coordination Operational Guidelines](https://www.ndis.gov.au/participants/using-your-plan/support-coordination)
-- [NDIS Price Guide and Support Catalogue 2025](https://www.ndis.gov.au/providers/pricing-arrangements)
+- [NDIS Price Guide and Support Catalogue 2026](https://www.ndis.gov.au/providers/pricing-arrangements)
 - [Support Coordination: Getting the Most from Your NDIS Plan](https://www.summerfoundation.org.au/resources/support-coordination/)
 - [NDIS Quality and Safeguards Commission: Support Coordination Framework](https://www.ndiscommission.gov.au)
 - [Self-Management and Support Coordination Guides](https://www.cid.org.au/resource/self-managing-ndis-supports/)

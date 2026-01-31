@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import type { CollectionEntry } from 'astro:content';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 interface PageProps {
   data: CollectionEntry<'blog'>[];
@@ -19,17 +20,57 @@ interface Props {
 
 const { page } = Astro.props as Props;
 const { data: posts, currentPage, lastPage } = page;
+
+// Build breadcrumbs
+const breadcrumbItems = [
+  { name: 'Home', url: 'https://mdhomecare.com.au' },
+  { name: 'Blog' + (currentPage > 1 ? ` Page ${currentPage}` : '') }
+];
+
+// Build ItemList schema for blog listing
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": posts.map((post, index) => ({
+    "@type": "ListItem",
+    "position": ((currentPage - 1) * 20) + index + 1,
+    "url": `https://mdhomecare.com.au/blog/${post.slug}`,
+    "name": post.data.title
+  }))
+};
+
+// CollectionPage schema
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": `MD Home Care Blog${currentPage > 1 ? ` - Page ${currentPage}` : ''}`,
+  "description": "NDIS and aged care insights, updates, and practical advice for clients and caregivers.",
+  "url": `https://mdhomecare.com.au${page.url.current}`
+};
+
+// Combine schemas
+const combinedSchema = {
+  "@context": "https://schema.org",
+  "@graph": [collectionPageSchema, itemListSchema]
+};
 ---
 
 <BaseLayout title={`Blog${currentPage > 1 ? ` Page ${currentPage}` : ''}`}>
-  
+  <script type="application/ld+json" set:html={JSON.stringify(combinedSchema)} />
+
   <!-- Hero Section -->
   <header class="relative min-h-[50vh] flex items-center justify-center overflow-hidden pt-32">
       <div class="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed top-0" style="background-image: url('/assets/homecare.webp')"></div>
       <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-base-100 top-0"></div>
-      
+
       <div class="container-custom relative z-10 px-4 py-12">
           <div class="max-w-4xl mx-auto bg-white/80 backdrop-blur-xl rounded-[2.5rem] border border-white/50 shadow-2xl p-8 md:p-10 text-center">
+
+            <!-- Breadcrumbs -->
+            <div class="mb-6">
+              <Breadcrumbs items={breadcrumbItems} />
+            </div>
+
             <h1 class="text-3xl md:text-5xl font-bold text-secondary mb-6 leading-[1.1] tracking-tight text-balance">
               Blog
             </h1>

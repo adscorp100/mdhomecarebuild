@@ -25,7 +25,7 @@ Assistance with Daily Life is one of four Core Support categories in the NDIS. I
 
 This funding covers the practical, hands-on help you need to live safely and comfortably in your home and community. Unlike Capacity Building supports that focus on building skills for the future, Assistance with Daily Life addresses your current, ongoing needs.
 
-> **Important distinction:** Assistance with Daily Life (Core Support) is different from [Improved Daily Living](/blog/ndis-improved-daily-living-cb-daily-activity-guide-2025/) (Capacity Building). Core supports provide ongoing assistance; Capacity Building funds therapy and training to build independence.
+> **Important distinction:** Assistance with Daily Life (Core Support) is different from [Improved Daily Living](/blog/ndis-improved-daily-living-cb-daily-activity-guide/) (Capacity Building). Core supports provide ongoing assistance; Capacity Building funds therapy and training to build independence.
 
 ---
 
@@ -160,7 +160,7 @@ This is one of the most common points of confusion for NDIS participants. Here's
 - You're working toward greater independence
 - The support includes assessment or therapy
 
-For detailed information on Capacity Building supports, read our [NDIS Improved Daily Living Guide](/blog/ndis-improved-daily-living-cb-daily-activity-guide-2025/).
+For detailed information on Capacity Building supports, read our [NDIS Improved Daily Living Guide](/blog/ndis-improved-daily-living-cb-daily-activity-guide/).
 
 ---
 
@@ -332,7 +332,7 @@ Before engaging a provider, ask:
 ### Related MD Home Care Guides
 
 - [NDIS Core Supports Explained](/blog/ndis-core-supports/) - Overview of all Core Support categories
-- [NDIS Improved Daily Living Guide](/blog/ndis-improved-daily-living-cb-daily-activity-guide-2025/) - Capacity Building funding explained
+- [NDIS Improved Daily Living Guide](/blog/ndis-improved-daily-living-cb-daily-activity-guide/) - Capacity Building funding explained
 - [NDIS Line Items Guide](/blog/ndis-line-items-guide-2024-25/) - Complete support item code reference
 - [NDIS Price Guide 2025-26](/blog/ndis-price-guide/) - Current pricing and rates
 

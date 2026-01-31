@@ -124,7 +124,7 @@ Psychosocial recovery coaches differ from other NDIS roles in several important 
 Recovery coaches provide a specialized middle ground between clinical mental health services and general disability supports, focusing specifically on recovery principles and psychosocial functioning.
 
 ## Comprehensive Analysis of Psychosocial Recovery Coaching in the NDIS
-The introduction of recovery coaching to the NDIS represents a significant evolution in the scheme's approach to supporting participants with psychosocial disabilities. This analysis examines the theoretical foundations, practical implementation, and emerging outcomes of this specialized support category based on recent research and NDIS data from 2025.
+The introduction of recovery coaching to the NDIS represents a significant evolution in the scheme's approach to supporting participants with psychosocial disabilities. This analysis examines the theoretical foundations, practical implementation, and emerging outcomes of this specialized support category based on recent research and NDIS data from 2026.
 
 ### The Theoretical Framework of Recovery Coaching
 Psychosocial recovery coaching is built on several interconnected theoretical frameworks:
@@ -184,7 +184,7 @@ Various models of recovery coaching have emerged since the introduction of this 
 NDIS data indicates that approximately 40% of recovery coaching is delivered through peer-led models, 35% through hybrid teams, and 25% through community-embedded approaches, with regional variations reflecting provider availability and participant preferences.
 
 ### The Impact of Recovery Coaching: Emerging Outcomes
-While the recovery coaching support category is still relatively new, early research and NDIS outcome data from 2025 suggest several positive impacts:
+While the recovery coaching support category is still relatively new, early research and NDIS outcome data from 2026 suggest several positive impacts:
 
 #### Participant Outcomes
 - 68% of participants with recovery coaching report increased community participation

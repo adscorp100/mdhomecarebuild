@@ -32,7 +32,7 @@ These components form the backbone of any compliant NDIS service agreement and s
 ## Download Our Free NDIS Service Agreement Template
 We've created a comprehensive, NDIS-compliant service agreement template that you can download and customize for your needs:
 
-[Download NDIS Service Agreement Template (DOCX)](https://www.mdhomecare.com.au/downloads/ndis-service-agreement-template-2025.docx)
+[Download NDIS Service Agreement Template (DOCX)](https://www.mdhomecare.com.au/downloads/ndis-service-agreement-template-2026.docx)
 
 This template includes all required sections and has been reviewed by legal professionals to ensure compliance with current NDIS requirements while remaining easy to customize.
 

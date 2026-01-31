@@ -7,6 +7,7 @@ import QuickFacts from '../../../../components/QuickFacts.astro';
 import SuburbTestimonials from '../../../../components/SuburbTestimonials.astro';
 import regionContent from '../../../../data/region-content.json';
 import suburbDetails from '../../../../data/suburb-details.json';
+import suburbCoordinates from '../../../../data/suburb-coordinates.json';
 import { getNearbySuburbs, getRelatedBlogPosts, getCleanServiceName } from '../../../../utils/internalLinks';
 
 // Type definitions
@@ -463,6 +464,9 @@ const breadcrumbs = [
   { name: suburbName, url: canonicalUrl }
 ];
 
+// Get suburb coordinates for geo positioning
+const coords = suburbCoordinates[suburbInfo.slug] || { lat: "-33.8688", lng: "151.2093" }; // fallback to Sydney
+
 // Build Service schema with AggregateRating for rich results
 const serviceSchema = {
   "@type": "Service",
@@ -474,6 +478,9 @@ const serviceSchema = {
     "@id": "https://mdhomecare.com.au/#organization",
     "name": "MD Home Care",
     "telephone": "+61863869999",
+    "email": "contact@mdhomecare.com.au",
+    "url": "https://mdhomecare.com.au",
+    "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "6/11 York St",
@@ -481,6 +488,25 @@ const serviceSchema = {
       "addressRegion": "NSW",
       "postalCode": "2000",
       "addressCountry": "AU"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": coords.lat,
+      "longitude": coords.lng
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
     }
   },
   "areaServed": {
@@ -630,10 +656,23 @@ const howToSchema = {
   ]
 };
 
+// Build WebPage schema with Speakable for voice search
+const webPageSchema = {
+  "@type": "WebPage",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
+  "name": h1Title,
+  "description": description,
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".prose > p:first-of-type", ".quick-facts", ".pricing-info"]
+  }
+};
+
 // Combine all schemas
 const combinedSchema = {
   "@context": "https://schema.org",
-  "@graph": [serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
+  "@graph": [serviceSchema, breadcrumbSchema, faqSchema, howToSchema, webPageSchema]
 };
 ---
 
@@ -655,17 +694,24 @@ const combinedSchema = {
           <!-- Glass Console Frame -->
           <div class="container-custom relative z-10 px-4 py-12">
             <div class="max-w-4xl mx-auto bg-white/80 backdrop-blur-xl rounded-[2.5rem] border border-white/50 shadow-2xl p-8 md:p-12 lg:p-16 text-center">
-              
-              <!-- Location Tags -->
-              <div class="flex flex-wrap justify-center items-center gap-3 mb-8">
-                <span class="inline-flex items-center px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-bold tracking-wide uppercase">
-                  {service.data.category}
-                </span>
-                <span class="inline-flex items-center px-4 py-1.5 rounded-full border-2 border-base-200 text-secondary text-sm font-semibold">
-                  <Icon name="hugeicons:location-01" class="h-4 w-4 mr-1.5 text-primary" />
-                  {suburbInfo.region}, {suburbInfo.state}
-                </span>
-              </div>
+
+              <!-- Breadcrumb Navigation -->
+              <nav class="mb-8" aria-label="Breadcrumb">
+                <ol class="flex flex-wrap justify-center items-center gap-2 text-sm font-medium">
+                  {breadcrumbs.map((item, index) => (
+                    <li class="flex items-center">
+                      {index > 0 && (
+                        <Icon name="hugeicons:arrow-right-01" class="h-3.5 w-3.5 mx-2 text-base-content/40" />
+                      )}
+                      {index === breadcrumbs.length - 1 ? (
+                        <span class="text-base-content/60 font-semibold">{item.name}</span>
+                      ) : (
+                        <a href={item.url} class="text-primary hover:underline transition-colors font-medium">{item.name}</a>
+                      )}
+                    </li>
+                  ))}
+                </ol>
+              </nav>
 
               <!-- Title -->
               <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-secondary mb-6 leading-[1.1] tracking-tight text-balance">
@@ -703,24 +749,6 @@ const combinedSchema = {
             </div>
           </div>
       </header>
-
-      <!-- Breadcrumb Navigation -->
-      <nav class="max-w-6xl mx-auto px-4 py-6" aria-label="Breadcrumb">
-        <ol class="flex flex-wrap items-center gap-2 text-sm font-medium">
-          {breadcrumbs.map((item, index) => (
-            <li class="flex items-center">
-              {index > 0 && (
-                <Icon name="hugeicons:arrow-right-01" class="h-4 w-4 mx-2 text-base-content/40" />
-              )}
-              {index === breadcrumbs.length - 1 ? (
-                <span class="text-base-content/60">{item.name}</span>
-              ) : (
-                <a href={item.url} class="text-primary hover:underline transition-colors">{item.name}</a>
-              )}
-            </li>
-          ))}
-        </ol>
-      </nav>
 
       <!-- Eligibility Checker Template -->
       <div id="eligibility-checker-template" class="hidden">

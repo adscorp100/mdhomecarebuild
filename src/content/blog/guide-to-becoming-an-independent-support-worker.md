@@ -59,7 +59,7 @@ One of the biggest advantages of working independently is the potential for high
 - Unregistered providers working with self-managed participants have more flexibility
 - Set aside at least **25-30% of your income** for tax and super obligations
 
-For detailed information about current rates, see our [NDIS Support Worker Hourly Rate 2025](/blog/ndis-support-worker-hourly-rate-2025/) guide.
+For detailed information about current rates, see our [NDIS Support Worker Hourly Rate 2025](/blog/ndis-support-worker-hourly-rate/) guide.
 
 ## Sole Trader vs. Agency Employee: Which is Right for You?
 
@@ -149,7 +149,7 @@ This is non-negotiable for an independent worker. Without appropriate insurance,
 - Ensure your policy explicitly covers disability support activities
 - If you use your vehicle for work, inform your car insurer and consider business-use cover
 
-Specialist brokers include BizCover, HMD Insurance, and Upcover. For comprehensive information, see our guides on [Support Worker Insurance Australia](/blog/support-worker-insurance-australia-what-you-need/) and [How to Get Support Worker Insurance](/blog/how-to-get-support-worker-insurance-in-australia-a-2025-guide/).
+Specialist brokers include BizCover, HMD Insurance, and Upcover. For comprehensive information, see our guides on [Support Worker Insurance Australia](/blog/support-worker-insurance-australia-what-you-need/) and [How to Get Support Worker Insurance](/blog/how-to-get-support-worker-insurance-in-australia/).
 
 ### Step 4: Understand NDIS Registration
 

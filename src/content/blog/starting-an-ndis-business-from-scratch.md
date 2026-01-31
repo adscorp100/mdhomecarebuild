@@ -1,6 +1,6 @@
 ---
 title: "Starting an NDIS Business from Scratch: Legal, Financial, and Practical Steps"
-description: "Complete guide to starting an NDIS business in 2025. Learn the essential legal requirements, financial planning, provider registration process, and compliance steps for a successful disability support business."
+description: "Complete guide to starting an NDIS business in 2026. Learn the essential legal requirements, financial planning, provider registration process, and compliance steps for a successful disability support business."
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
@@ -142,7 +142,7 @@ Implement:
 These systems support accurate claiming and financial sustainability.
 
 ## Comprehensive Analysis of Starting an NDIS Business
-The NDIS marketplace presents unique opportunities and challenges for new service providers. This analysis examines the strategic, operational, and regulatory considerations for establishing a successful NDIS business based on current market conditions and requirements in 2025.
+The NDIS marketplace presents unique opportunities and challenges for new service providers. This analysis examines the strategic, operational, and regulatory considerations for establishing a successful NDIS business based on current market conditions and requirements in 2026.
 
 ### Strategic Positioning in the Evolving NDIS Marketplace
 The NDIS landscape continues to evolve, with several key trends shaping business opportunities:

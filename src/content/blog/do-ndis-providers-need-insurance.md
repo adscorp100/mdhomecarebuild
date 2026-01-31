@@ -32,7 +32,7 @@ This comprehensive guide explains every aspect of NDIS provider insurance requir
 | **Consequences of No Insurance** | Registration suspended/cancelled | Civil liability, loss of contracts |
 | **Minimum Limits** | Set by NDIS Practice Standards | Same recommended for credibility |
 
-> **Related:** For individual support workers, see our guide on [Support Worker Insurance Australia](/blog/how-to-get-support-worker-insurance-in-australia-a-2025-guide/).
+> **Related:** For individual support workers, see our guide on [Support Worker Insurance Australia](/blog/how-to-get-support-worker-insurance-in-australia/).
 
 **Estimate your total costs:** Use our **[NDIS Provider Registration Calculator](/tools/ndis-provider-calculator)** to see how insurance fits into your overall registration expenses.
 

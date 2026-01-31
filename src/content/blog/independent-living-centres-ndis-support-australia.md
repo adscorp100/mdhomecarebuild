@@ -21,7 +21,7 @@ image: "/assets/accessible-bathroom.webp"
 
 Independent Living Centres (ILCs) are not-for-profit organizations that provide free, independent information and advice about assistive technology, equipment, and disability-related products. Unlike commercial suppliers, ILCs don't sell equipment but instead focus on providing unbiased advice to help people with disabilities make informed choices about assistive technology and daily living aids.
 
-For a broader overview of all equipment sourcing options, including second-hand markets, refer to our [ultimate guide to buying and selling disability equipment](/blog/guide-buying-selling-donating-second-hand-disability-equipment-australia-2025).
+For a broader overview of all equipment sourcing options, including second-hand markets, refer to our [ultimate guide to buying and selling disability equipment](/blog/guide-buying-selling-donating-second-hand-disability-equipment-australia).
 
 ### What Makes ILCs Unique
 

@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 import { getRelatedBlogPosts } from '../../utils/internalLinks';
 import BlogLeadPopup from '../../components/BlogLeadPopup.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 // Generate static paths for all blog posts
 export async function getStaticPaths() {
@@ -25,17 +26,30 @@ const readTime = Math.ceil(wordCount / 200);
 // Get related posts
 const allPosts = await getCollection('blog');
 const relatedPosts = getRelatedBlogPosts(
-  entry.data.tags || [], 
-  allPosts.filter(p => p.slug !== entry.slug), 
+  entry.data.tags || [],
+  allPosts.filter(p => p.slug !== entry.slug),
   3
 );
 
-// Generate JSON-LD structured data for the article
+// Build breadcrumb items
+const breadcrumbItems = [
+  { name: 'Home', url: 'https://mdhomecare.com.au' },
+  { name: 'Blog', url: 'https://mdhomecare.com.au/blog' },
+  { name: entry.data.title }
+];
+
+// Build canonical URL
+const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
+
+// Enhanced Article schema with all SEO fields
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": entry.data.title,
+  "description": entry.data.description,
+  "image": entry.data.image,
   "datePublished": entry.data.pubDate.toISOString(),
+  "dateModified": (entry.data.updateDate || entry.data.pubDate).toISOString(),
   "author": {
     "@type": "Person",
     "name": entry.data.author
@@ -45,19 +59,40 @@ const articleSchema = {
     "name": "MD Homecare",
     "logo": {
       "@type": "ImageObject",
-      "url": new URL('/src/assets/logo.svg', Astro.url).toString()
+      "url": "https://mdhomecare.com.au/assets/logo.svg"
     }
   },
-  "description": entry.data.description,
-  "image": entry.data.image,
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": Astro.url.href
+    "@id": canonicalUrl
+  },
+  "wordCount": wordCount,
+  ...(entry.data.tags && entry.data.tags.length > 0 && {
+    "keywords": entry.data.tags.join(', '),
+    "articleSection": entry.data.tags[0]
+  })
+};
+
+// WebPage schema with Speakable for voice search
+const webPageSchema = {
+  "@type": "WebPage",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
+  "name": entry.data.title,
+  "description": entry.data.description,
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".prose > p:first-of-type"]
   }
 };
 
-const structuredData = JSON.stringify(articleSchema);
-const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
+// Combine schemas in @graph
+const combinedSchema = {
+  "@context": "https://schema.org",
+  "@graph": [articleSchema, webPageSchema]
+};
+
+const structuredData = JSON.stringify(combinedSchema);
 ---
 
 <BaseLayout
@@ -79,7 +114,12 @@ const canonicalUrl = new URL(`/blog/${entry.slug}`, Astro.site).toString();
           <!-- Glass Console Frame -->
           <div class="container-custom relative z-10 px-4 py-12">
              <div class="max-w-4xl mx-auto bg-white/80 backdrop-blur-xl rounded-[2.5rem] border border-white/50 shadow-2xl p-8 md:p-10 text-center">
-                
+
+                <!-- Breadcrumbs -->
+                <div class="mb-6">
+                  <Breadcrumbs items={breadcrumbItems} />
+                </div>
+
                 <!-- Title -->
                 <h1 class="text-3xl md:text-5xl font-bold text-secondary mb-6 leading-[1.1] tracking-tight text-balance">
                   {entry.data.title}

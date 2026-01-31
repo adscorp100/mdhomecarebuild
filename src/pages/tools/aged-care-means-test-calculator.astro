@@ -1,0 +1,435 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+// Tool metadata for automatic discovery by tools/index.astro
+export const toolMeta = {
+  title: "Aged Care Means Test Calculator",
+  description: "Calculate your means-tested care fee, basic daily fee, and accommodation contribution for aged care services based on your income and assets.",
+  icon: "hugeicons:chart-evaluation",
+  color: "secondary",
+  phase: 1,
+  isNew: true
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Aged Care Means Test Calculator Australia 2026",
+  "description": "Free aged care means test calculator. Estimate your aged care fees including means-tested care fee, basic daily fee, and accommodation contribution based on current 2026 rates.",
+  "url": "https://mdhomecare.com.au/tools/aged-care-means-test-calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "MD Home Care",
+    "url": "https://mdhomecare.com.au"
+  }
+};
+
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the aged care means test?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The aged care means test is an assessment of your income and assets used to determine how much you'll contribute toward your aged care fees. Services Australia conducts this test to calculate your means-tested care fee and accommodation contribution. The test considers your assessable income, financial assets, and property value to determine your fee category."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much is the basic daily fee in aged care 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The basic daily fee for aged care in 2026 is $67.77 per day ($493.16 per week). This fee applies to both residential aged care and home care packages. Everyone pays this fee regardless of their income or assets. It covers living costs like meals, cleaning, and laundry."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the means-tested care fee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The means-tested care fee is an additional fee charged based on your assessed income and assets. It ranges from $0 to $341.24 per day (2026 cap). If your combined income and assets are below $62,412 (single) or $99,065 (couple), you won't pay a means-tested fee. The fee increases on a sliding scale as your income and assets increase."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are assets assessed for aged care?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For aged care means testing, assessable assets include: cash, bank accounts, shares, managed funds, investment properties, and business assets. Your principal home is exempt if your partner still lives there. The first $62,412 (single) or $99,065 (couple) of assets is exempt. Assets above this threshold contribute to your means-tested fee at $1 per $1,000 per year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the income threshold for aged care fees?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The income threshold for aged care fees in 2026 is $33,717 per year (single) or $33,717 each (couple). If your assessable income is below this, you won't pay a means-tested care fee. Income above this threshold contributes 50% to your means-tested fee. Assessable income includes pensions, superannuation, deemed income from financial assets, and rental income."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I avoid aged care fees with low assets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If your combined assessable income and assets are below the threshold ($62,412 single or $99,065 couple), you won't pay a means-tested care fee. However, you'll still pay the basic daily fee of $67.77 per day. Everyone pays the basic daily fee regardless of financial circumstances. Only the means-tested care fee and accommodation contributions are waived for low-asset residents."
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="Aged Care Means Test Calculator 2026 - Estimate Your Aged Care Fees"
+  description="Free aged care means test calculator. Calculate your means-tested care fee, basic daily fee, and accommodation contribution based on income and assets. Updated 2026 rates."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+
+  <div class="relative overflow-hidden bg-base-100">
+    <!-- Background Decor -->
+    <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="container-custom relative z-10 py-20 lg:py-32">
+
+      <!-- Breadcrumb -->
+      <nav class="mb-8 mt-8 lg:mt-0">
+        <ol class="flex items-center gap-2 text-sm text-secondary/60">
+          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
+          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
+          <li class="text-secondary font-medium">Aged Care Means Test Calculator</li>
+        </ol>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+
+        <!-- Left Column: Info -->
+        <div class="lg:w-5/12">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/10 bg-white/40 backdrop-blur-md text-primary text-sm font-semibold mb-5 tracking-wide">
+            <Icon name="hugeicons:calculator-01" class="w-4 h-4" />
+            Free Calculator
+          </div>
+
+          <h1 class="text-4xl lg:text-5xl font-bold text-secondary leading-[1.1] mb-6 tracking-tight">
+            Aged Care Means Test <span class="text-primary">Calculator 2026</span>
+          </h1>
+
+          <p class="text-lg text-secondary/70 leading-relaxed mb-8">
+            Estimate your aged care fees including the means-tested care fee, basic daily fee, and accommodation contribution based on your income and assets. Updated with <strong>2026 rates</strong>.
+          </p>
+
+          <!-- Quick Facts Card -->
+          <div class="bg-white rounded-[2rem] p-6 border border-base-200 shadow-lg shadow-base-200/50 mb-8">
+            <h3 class="font-bold text-secondary mb-4 flex items-center gap-2">
+              <Icon name="hugeicons:information-circle" class="w-5 h-5 text-primary" />
+              Current Aged Care Fees (2026)
+            </h3>
+            <div class="space-y-3 text-sm">
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Basic daily fee</span>
+                <span class="font-bold text-secondary">$67.77/day</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Means-tested fee cap</span>
+                <span class="font-bold text-secondary">$341.24/day</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-base-200">
+                <span class="text-secondary/70">Income threshold (single)</span>
+                <span class="font-bold text-secondary">$33,717/yr</span>
+              </div>
+              <div class="flex justify-between py-2">
+                <span class="text-secondary/70">Asset threshold (single)</span>
+                <span class="font-bold text-secondary">$62,412</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ChatGPT Notice -->
+          <div class="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-[2rem] p-6 border border-primary/10">
+            <p class="text-sm text-secondary/80 leading-relaxed">
+              <strong class="text-secondary">ChatGPT can't calculate your specific aged care fees.</strong> This calculator uses current 2026 means test thresholds and provides personalized fee estimates based on your actual income and assets.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Calculator -->
+        <div class="lg:w-7/12">
+          <div class="bg-white rounded-[2rem] p-8 lg:p-10 border border-base-200 shadow-2xl shadow-base-200/50 sticky top-8">
+
+            <form id="meansTestForm">
+
+              <!-- Relationship Status -->
+              <div class="mb-8">
+                <label class="block text-secondary font-bold mb-3">
+                  Relationship Status
+                </label>
+                <div class="grid grid-cols-2 gap-3">
+                  <label class="relative cursor-pointer">
+                    <input type="radio" name="status" value="single" class="peer sr-only" checked />
+                    <div class="px-5 py-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center font-medium text-secondary peer-checked:text-primary">
+                      Single
+                    </div>
+                  </label>
+                  <label class="relative cursor-pointer">
+                    <input type="radio" name="status" value="couple" class="peer sr-only" />
+                    <div class="px-5 py-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center font-medium text-secondary peer-checked:text-primary">
+                      Partnered
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Annual Income -->
+              <div class="mb-8">
+                <label class="block text-secondary font-bold mb-3">
+                  Annual Assessable Income
+                  <span class="text-sm font-normal text-secondary/60 ml-2">(Pensions, super, deemed income, rent)</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/60 font-medium">$</span>
+                  <input
+                    type="number"
+                    id="income"
+                    name="income"
+                    value="40000"
+                    min="0"
+                    max="500000"
+                    step="1000"
+                    class="w-full pl-8 pr-4 py-4 rounded-xl border-2 border-base-200 focus:border-primary focus:outline-none transition-colors text-secondary font-bold text-lg"
+                  />
+                </div>
+              </div>
+
+              <!-- Assessable Assets -->
+              <div class="mb-8">
+                <label class="block text-secondary font-bold mb-3">
+                  Assessable Assets
+                  <span class="text-sm font-normal text-secondary/60 ml-2">(Excl. principal home if partner lives there)</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary/60 font-medium">$</span>
+                  <input
+                    type="number"
+                    id="assets"
+                    name="assets"
+                    value="150000"
+                    min="0"
+                    max="5000000"
+                    step="10000"
+                    class="w-full pl-8 pr-4 py-4 rounded-xl border-2 border-base-200 focus:border-primary focus:outline-none transition-colors text-secondary font-bold text-lg"
+                  />
+                </div>
+              </div>
+
+              <!-- Care Type -->
+              <div class="mb-8">
+                <label class="block text-secondary font-bold mb-3">
+                  Type of Care
+                </label>
+                <div class="grid grid-cols-2 gap-3">
+                  <label class="relative cursor-pointer">
+                    <input type="radio" name="careType" value="homecare" class="peer sr-only" checked />
+                    <div class="px-5 py-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center font-medium text-secondary peer-checked:text-primary">
+                      Home Care
+                    </div>
+                  </label>
+                  <label class="relative cursor-pointer">
+                    <input type="radio" name="careType" value="residential" class="peer sr-only" />
+                    <div class="px-5 py-3 rounded-xl border-2 border-base-200 peer-checked:border-primary peer-checked:bg-primary/5 transition-all text-center font-medium text-secondary peer-checked:text-primary">
+                      Residential
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+            </form>
+
+            <!-- Results -->
+            <div id="results" class="mt-8 pt-8 border-t-2 border-base-200">
+
+              <!-- Basic Daily Fee -->
+              <div class="mb-6 p-5 rounded-xl bg-base-100">
+                <div class="flex justify-between items-baseline mb-2">
+                  <span class="text-secondary/70 text-sm font-medium">Basic Daily Fee</span>
+                  <span class="text-2xl font-bold text-secondary">$67.77<span class="text-sm text-secondary/60 ml-1">/day</span></span>
+                </div>
+                <div class="text-xs text-secondary/60">
+                  $493.16/week • Everyone pays this fee
+                </div>
+              </div>
+
+              <!-- Means-Tested Care Fee -->
+              <div class="mb-6 p-5 rounded-xl bg-primary/5">
+                <div class="flex justify-between items-baseline mb-2">
+                  <span class="text-secondary/70 text-sm font-medium">Means-Tested Care Fee</span>
+                  <span id="mtcfDaily" class="text-2xl font-bold text-primary">$0.00<span class="text-sm text-primary/60 ml-1">/day</span></span>
+                </div>
+                <div class="text-xs text-secondary/60">
+                  <span id="mtcfWeekly">$0.00</span>/week • <span id="mtcfAnnual">$0.00</span>/year
+                </div>
+              </div>
+
+              <!-- Accommodation Contribution -->
+              <div class="mb-6 p-5 rounded-xl bg-secondary/5">
+                <div class="flex justify-between items-baseline mb-2">
+                  <span class="text-secondary/70 text-sm font-medium">Accommodation Contribution</span>
+                  <span id="accomContrib" class="text-2xl font-bold text-secondary">$0.00<span class="text-sm text-secondary/60 ml-1">/day</span></span>
+                </div>
+                <div class="text-xs text-secondary/60">
+                  <span id="accomWeekly">$0.00</span>/week • For residential care
+                </div>
+              </div>
+
+              <!-- Total Daily Fee -->
+              <div class="p-6 rounded-xl bg-gradient-to-br from-primary to-secondary text-white">
+                <div class="flex justify-between items-baseline">
+                  <span class="text-white/90 font-medium">Total Daily Fee</span>
+                  <span id="totalDaily" class="text-3xl font-bold">$67.77<span class="text-lg text-white/80 ml-1">/day</span></span>
+                </div>
+                <div class="mt-3 pt-3 border-t border-white/20 text-sm text-white/80">
+                  <span id="totalWeekly">$493.16</span>/week • <span id="totalAnnual">$25,637</span>/year
+                </div>
+              </div>
+
+              <!-- Fee Category -->
+              <div class="mt-4 text-center">
+                <span class="text-xs text-secondary/60">Fee Category: </span>
+                <span id="feeCategory" class="text-sm font-bold text-primary">Low Means</span>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="mt-20 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-secondary mb-8 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-4">
+          {faqData.mainEntity.map((faq: any) => (
+            <details class="group bg-white rounded-2xl border border-base-200 overflow-hidden">
+              <summary class="cursor-pointer p-6 font-bold text-secondary hover:text-primary transition-colors list-none flex justify-between items-center">
+                <span>{faq.name}</span>
+                <Icon name="hugeicons:arrow-down-01" class="w-5 h-5 text-primary group-open:rotate-180 transition-transform" />
+              </summary>
+              <div class="px-6 pb-6 text-secondary/70 leading-relaxed">
+                {faq.acceptedAnswer.text}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // 2026 Aged Care Means Test Constants
+    const BASIC_DAILY_FEE = 67.77; // Daily
+    const MTCF_CAP_DAILY = 341.24; // Max means-tested care fee per day
+
+    // Income thresholds (annual)
+    const INCOME_THRESHOLD_SINGLE = 33717;
+    const INCOME_THRESHOLD_COUPLE = 33717; // Each
+
+    // Asset thresholds
+    const ASSET_THRESHOLD_SINGLE = 62412;
+    const ASSET_THRESHOLD_COUPLE = 99065;
+
+    // Asset taper rate: $1 per $1000 per year
+    const ASSET_TAPER_RATE = 1 / 1000;
+
+    // Income taper rate: 50% of income above threshold
+    const INCOME_TAPER_RATE = 0.5;
+
+    function calculate() {
+      const status = (document.querySelector('input[name="status"]:checked') as HTMLInputElement)?.value || 'single';
+      const income = parseFloat((document.getElementById('income') as HTMLInputElement)?.value || '0');
+      const assets = parseFloat((document.getElementById('assets') as HTMLInputElement)?.value || '0');
+      const careType = (document.querySelector('input[name="careType"]:checked') as HTMLInputElement)?.value || 'homecare';
+
+      const incomeThreshold = INCOME_THRESHOLD_SINGLE;
+      const assetThreshold = status === 'single' ? ASSET_THRESHOLD_SINGLE : ASSET_THRESHOLD_COUPLE;
+
+      // Calculate means-tested care fee components
+      let mtcfFromIncome = 0;
+      let mtcfFromAssets = 0;
+
+      // Income component (50% of income above threshold, converted to daily)
+      if (income > incomeThreshold) {
+        mtcfFromIncome = ((income - incomeThreshold) * INCOME_TAPER_RATE) / 365;
+      }
+
+      // Asset component ($1 per $1000 per year, converted to daily)
+      if (assets > assetThreshold) {
+        mtcfFromAssets = ((assets - assetThreshold) * ASSET_TAPER_RATE) / 365;
+      }
+
+      // Total MTCF (capped)
+      let mtcfDaily = Math.min(mtcfFromIncome + mtcfFromAssets, MTCF_CAP_DAILY);
+
+      // Accommodation contribution (simplified - for residential only)
+      let accomContribDaily = 0;
+      if (careType === 'residential') {
+        // Simplified calculation - in reality this is complex
+        if (assets > assetThreshold) {
+          accomContribDaily = Math.min(((assets - assetThreshold) * 0.00005), 100); // Simplified
+        }
+      }
+
+      // Total daily fee
+      const totalDaily = BASIC_DAILY_FEE + mtcfDaily + accomContribDaily;
+
+      // Update UI
+      (document.getElementById('mtcfDaily') as HTMLElement).innerHTML = `$${mtcfDaily.toFixed(2)}<span class="text-sm text-primary/60 ml-1">/day</span>`;
+      (document.getElementById('mtcfWeekly') as HTMLElement).textContent = `$${(mtcfDaily * 7).toFixed(2)}`;
+      (document.getElementById('mtcfAnnual') as HTMLElement).textContent = `$${(mtcfDaily * 365).toFixed(0)}`;
+
+      (document.getElementById('accomContrib') as HTMLElement).innerHTML = `$${accomContribDaily.toFixed(2)}<span class="text-sm text-secondary/60 ml-1">/day</span>`;
+      (document.getElementById('accomWeekly') as HTMLElement).textContent = `$${(accomContribDaily * 7).toFixed(2)}`;
+
+      (document.getElementById('totalDaily') as HTMLElement).innerHTML = `$${totalDaily.toFixed(2)}<span class="text-lg text-white/80 ml-1">/day</span>`;
+      (document.getElementById('totalWeekly') as HTMLElement).textContent = `$${(totalDaily * 7).toFixed(2)}`;
+      (document.getElementById('totalAnnual') as HTMLElement).textContent = `$${(totalDaily * 365).toFixed(0)}`;
+
+      // Determine fee category
+      let category = 'Low Means';
+      if (income + assets < (incomeThreshold + assetThreshold) * 0.5) {
+        category = 'Fully Supported';
+      } else if (mtcfDaily > MTCF_CAP_DAILY * 0.7) {
+        category = 'High Means';
+      } else if (mtcfDaily > MTCF_CAP_DAILY * 0.3) {
+        category = 'Medium Means';
+      }
+
+      (document.getElementById('feeCategory') as HTMLElement).textContent = category;
+    }
+
+    // Event listeners
+    const form = document.getElementById('meansTestForm');
+    if (form) {
+      form.addEventListener('input', calculate);
+      form.addEventListener('change', calculate);
+    }
+
+    // Initial calculation
+    calculate();
+  </script>
+
+</BaseLayout>

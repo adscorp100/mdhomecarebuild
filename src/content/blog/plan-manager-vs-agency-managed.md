@@ -1,5 +1,5 @@
 ---
-title: "Plan-Managed vs. Agency-Managed NDIS Funds: A 2025 Guide"
+title: "Plan-Managed vs. Agency-Managed NDIS Funds: A 2026 Guide"
 description: "Confused about NDIS fund management? This guide breaks down the difference between Plan-Managed and Agency-Managed funds, the pros and cons of each, and how to choose the right option for you."
 pubDate: 2025-07-05
 author: "MD Home Care"

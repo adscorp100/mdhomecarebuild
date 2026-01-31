@@ -1,6 +1,6 @@
 ---
-title: "NDIS Travel Rate Per KM 2025: Charges, Allowances & Rules for Providers"
-description: "NDIS travel rate per km explained: 2025 rates ($0.99/km standard, $2.76/km modified vehicle), travel time rules (30 min metro, 60 min regional), provider & therapist allowances, and what participants should know about travel costs."
+title: "NDIS Travel Rate Per KM 2026: Charges, Allowances & Rules for Providers"
+description: "NDIS travel rate per km explained: 2026 rates ($0.99/km standard, $2.76/km modified vehicle), travel time rules (30 min metro, 60 min regional), provider & therapist allowances, and what participants should know about travel costs."
 pubDate: 2025-07-15
 category: "NDIS Compliance"
 author: "MD Home Care"
@@ -10,7 +10,7 @@ popupSubtitle: "We offer transparent and fair pricing"
 image: "/assets/physio.webp"
 ---
 
-## NDIS Travel Charges & Allowances for Support Workers: 2025 Guide
+## NDIS Travel Charges & Allowances for Support Workers: 2026 Guide
 
 Understanding NDIS travel charges and allowances is crucial for support workers, therapists, and providers delivering services to NDIS participants. This comprehensive guide covers travel rates, claiming procedures, compliance requirements, and best practices for managing travel costs within the NDIS framework.
 
@@ -23,7 +23,7 @@ Understanding NDIS travel charges and allowances is crucial for support workers,
 
 **Calculate your travel costs:** Use our free **[NDIS Travel Calculator](/tools/ndis-travel-calculator)** to estimate km allowances and travel time claims based on your location and support type.
 
-## NDIS Travel Rate Per KM 2025
+## NDIS Travel Rate Per KM 2026
 
 | Vehicle Type | Rate Per KM |
 |--------------|-------------|
@@ -77,7 +77,7 @@ NDIS travel charges are fees that providers can claim to cover the costs associa
 
 ## NDIS Travel Charges for Support Workers
 
-### Travel Rates and Limits 2025
+### Travel Rates and Limits 2026
 
 **Standard Travel Rates:**
 - **Standard vehicle**: $0.99 per kilometer (all areas)
@@ -401,9 +401,9 @@ NDIS travel charges are fees that providers can claim to cover the costs associa
 
 ## Frequently Asked Questions About NDIS Travel Rates
 
-### What is the NDIS travel rate per km in 2025?
+### What is the NDIS travel rate per km in 2026?
 
-The current NDIS travel rate per km in 2025 is **$0.99 per kilometer** for standard vehicles. For modified or accessibility vehicles, the rate is **$2.76 per kilometer**. These rates apply across all geographic areas (metropolitan, regional, and remote) and cover vehicle operating costs including fuel, maintenance, registration, and depreciation.
+The current NDIS travel rate per km in 2026 is **$0.99 per kilometer** for standard vehicles. For modified or accessibility vehicles, the rate is **$2.76 per kilometer**. These rates apply across all geographic areas (metropolitan, regional, and remote) and cover vehicle operating costs including fuel, maintenance, registration, and depreciation.
 
 ### How many km can NDIS providers charge for travel?
 

@@ -18,7 +18,7 @@ image: "/assets/grandma.webp"
 ## Download Our Free Aged Care Individual Care Plan Template
 We've created a comprehensive, person-centered care plan template that meets aged care standards:
 
-[Download Aged Care Individual Care Plan Template (DOCX)](/downloads/aged-care-individual-care-plan-2025.docx)
+[Download Aged Care Individual Care Plan Template (DOCX)](/downloads/aged-care-individual-care-plan-2026.docx)
 
 This template includes:
 - Client demographics and emergency contacts
@@ -460,4 +460,4 @@ Key takeaways:
 
 Download our free aged care individual care plan template to create comprehensive, person-centered care plans.
 
-[Download Aged Care Individual Care Plan Template (DOCX)](/downloads/aged-care-individual-care-plan-2025.docx)
+[Download Aged Care Individual Care Plan Template (DOCX)](/downloads/aged-care-individual-care-plan-2026.docx)

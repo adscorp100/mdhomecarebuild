@@ -1,6 +1,6 @@
 ---
 title: "NDIS Support Worker Checklist: What to Prepare Before You Start Working"
-description: "Complete NDIS support worker checklist for 2025. Essential requirements, documents, qualifications, and preparations needed before starting work as an NDIS support worker."
+description: "Complete NDIS support worker checklist for 2026. Essential requirements, documents, qualifications, and preparations needed before starting work as an NDIS support worker."
 pubDate: 2025-04-09
 author: "Camila"
 tags: []
@@ -83,7 +83,7 @@ All NDIS support workers must complete specific training related to the NDIS fra
 - **Cultural Competency**: Working effectively with diverse communities
 
 ## Comprehensive Analysis of NDIS Support Worker Prerequisites
-Entering the NDIS workforce requires careful preparation across multiple domains. This detailed analysis explores the essential requirements, recommended preparations, and strategic considerations for prospective support workers in the evolving NDIS landscape of 2025.
+Entering the NDIS workforce requires careful preparation across multiple domains. This detailed analysis explores the essential requirements, recommended preparations, and strategic considerations for prospective support workers in the evolving NDIS landscape of 2026.
 
 ### Document Requirements in Detail
 The documentation requirements for NDIS support workers serve critical safeguarding functions and require careful attention to detail:

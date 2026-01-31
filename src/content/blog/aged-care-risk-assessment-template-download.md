@@ -18,7 +18,7 @@ image: "/assets/drinkingtea.webp"
 ## Download Our Free Aged Care Risk Assessment Template
 We've created a comprehensive risk assessment covering all major aged care risk domains:
 
-[Download Aged Care Risk Assessment Template (DOCX)](/downloads/aged-care-risk-assessment-template-2025.docx)
+[Download Aged Care Risk Assessment Template (DOCX)](/downloads/aged-care-risk-assessment-template-2026.docx)
 
 This template includes:
 - Client identification and assessment details
@@ -36,4 +36,4 @@ This template includes:
 
 Comprehensive risk assessment is fundamental to safe aged care delivery. Regular assessment and proactive management of risks protects clients while demonstrating quality care standards.
 
-[Download Aged Care Risk Assessment Template (DOCX)](/downloads/aged-care-risk-assessment-template-2025.docx)
+[Download Aged Care Risk Assessment Template (DOCX)](/downloads/aged-care-risk-assessment-template-2026.docx)

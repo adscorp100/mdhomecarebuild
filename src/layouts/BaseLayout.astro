@@ -45,13 +45,17 @@ import PostHog from '../components/posthog.astro';
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "MD Homecare",
+  "@id": "https://mdhomecare.com.au/#organization",
+  "name": "MD Home Care",
   "url": "https://mdhomecare.com.au",
   "logo": "https://mdhomecare.com.au/assets/logo.svg",
   "image": "https://mdhomecare.com.au/assets/logo.svg",
-  "description": "Professional NDIS home care services in Melbourne & Sydney. MD Homecare offers disability homecare support, domiciliary care services, SIL, and community participation.",
-  "telephone": "+61405429512",
+  "description": "NDIS and aged care provider across Sydney, Melbourne, and regional Australia. 24/7 nurse-led support for disability and aged care services.",
+  "telephone": "+61863869999",
+  "email": "contact@mdhomecare.com.au",
   "priceRange": "$$",
+  "currenciesAccepted": "AUD",
+  "paymentAccepted": "NDIS, Cash, Bank Transfer",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "6/11 York St",
@@ -62,8 +66,50 @@ const organizationSchema = {
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": -33.8651,
-    "longitude": 151.2069
+    "latitude": "-33.8688",
+    "longitude": "151.2093"
+  },
+  // Service areas - critical for "near me" rankings
+  "areaServed": [
+    // Major Sydney areas
+    { "@type": "City", "name": "Sydney", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Parramatta", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Liverpool", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Blacktown", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Bankstown", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Campbelltown", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Penrith", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Fairfield", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Hornsby", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Ryde", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Burwood", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Bondi", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Randwick", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Hurstville", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Sutherland", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Chatswood", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Auburn", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Merrylands", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    // Major Melbourne areas
+    { "@type": "City", "name": "Melbourne", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Dandenong", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Frankston", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Geelong", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Brunswick", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Footscray", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    // Regional areas
+    { "@type": "City", "name": "Newcastle", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Wollongong", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Canberra", "containedInPlace": { "@type": "State", "name": "Australian Capital Territory" }},
+    { "@type": "City", "name": "Brisbane", "containedInPlace": { "@type": "State", "name": "Queensland" }},
+    { "@type": "City", "name": "Perth", "containedInPlace": { "@type": "State", "name": "Western Australia" }},
+    { "@type": "City", "name": "Adelaide", "containedInPlace": { "@type": "State", "name": "South Australia" }}
+  ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
   },
   "sameAs": [
     "https://www.facebook.com/mdhomecare",
@@ -72,7 +118,7 @@ const organizationSchema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
-    "ratingCount": "15",
+    "reviewCount": "127",
     "bestRating": "5",
     "worstRating": "1"
   },
@@ -125,7 +171,69 @@ const organizationSchema = {
   ]
 };
 
-const structuredDataOrg = JSON.stringify(organizationSchema);
+// Melbourne LocalBusiness entity for city-specific rankings
+const melbourneBusinessSchema = {
+  "@type": "LocalBusiness",
+  "@id": "https://mdhomecare.com.au/#organization-melbourne",
+  "name": "MD Home Care Melbourne",
+  "url": "https://mdhomecare.com.au",
+  "logo": "https://mdhomecare.com.au/assets/logo.svg",
+  "description": "NDIS and aged care provider across Melbourne and regional Victoria. 24/7 nurse-led support for disability and aged care services.",
+  "telephone": "+61863869999",
+  "email": "contact@mdhomecare.com.au",
+  "priceRange": "$$",
+  "currenciesAccepted": "AUD",
+  "paymentAccepted": "NDIS, Cash, Bank Transfer",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Melbourne",
+    "addressRegion": "VIC",
+    "addressCountry": "AU"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-37.8136",
+    "longitude": "144.9631"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Melbourne", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Dandenong", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Frankston", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Geelong", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Brunswick", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Footscray", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Richmond", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "St Kilda", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Werribee", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Ballarat", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Bendigo", "containedInPlace": { "@type": "State", "name": "Victoria" }}
+  ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "sameAs": [
+    "https://www.facebook.com/mdhomecare",
+    "https://www.instagram.com/mdhomecare"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "127",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+};
+
+// Combine both Sydney and Melbourne entities in a @graph
+const organizationSchemaGraph = {
+  "@context": "https://schema.org",
+  "@graph": [organizationSchema, melbourneBusinessSchema]
+};
+
+const structuredDataOrg = JSON.stringify(organizationSchemaGraph);
 ---
 
 <!DOCTYPE html>

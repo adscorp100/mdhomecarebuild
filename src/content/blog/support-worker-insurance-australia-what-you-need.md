@@ -1,6 +1,6 @@
 ---
 title: "Support Worker Insurance in Australia: What You Need and How to Get It"
-description: "Complete guide to support worker insurance in Australia for 2025. Learn what insurance NDIS support workers need, costs, how to get covered, and the risks of working uninsured."
+description: "Complete guide to support worker insurance in Australia for 2026. Learn what insurance NDIS support workers need, costs, how to get covered, and the risks of working uninsured."
 pubDate: 2025-04-02
 author: "Camila"
 tags: []
@@ -17,7 +17,7 @@ image: "/assets/carer.webp"
 - Many insurance providers offer specialized packages for support workers with discounts for multiple policies
 
 ## Why Support Workers Need Insurance
-Working as a support worker involves unique risks that require proper insurance protection. This is a critical step when [starting an NDIS business](/blog/how-to-start-a-successful-ndis-business-in-australia-the-ultimate-2025-guide). Without adequate coverage, you could face significant financial and legal consequences if something goes wrong while providing care. Insurance is crucial because:
+Working as a support worker involves unique risks that require proper insurance protection. This is a critical step when [starting an NDIS business](/blog/how-to-start-a-successful-ndis-business-in-australia). Without adequate coverage, you could face significant financial and legal consequences if something goes wrong while providing care. Insurance is crucial because:
 
 - You work in people's homes and community settings with vulnerable individuals
 - You may provide personal care, mobility assistance, or medication support
@@ -57,10 +57,10 @@ If you're providing services under the NDIS, specific insurance requirements app
 
 The NDIS Quality and Safeguards Commission may request proof of insurance during audits or registration. Working without appropriate insurance could jeopardize your NDIS provider status and leave you personally exposed to claims.
 
-For information about NDIS provider registration requirements beyond insurance, see our guide on [Do NDIS Providers Need Insurance?](/blog/do-ndis-providers-need-insurance/) and [How to Become an NDIS Provider](/blog/how-to-become-ndis-provider-australia-2025/).
+For information about NDIS provider registration requirements beyond insurance, see our guide on [Do NDIS Providers Need Insurance?](/blog/do-ndis-providers-need-insurance/) and [How to Become an NDIS Provider](/blog/how-to-become-ndis-provider-australia/).
 
 ## Comprehensive Analysis of Support Worker Insurance in Australia
-The support worker insurance landscape in Australia is complex and tailored to the unique risks associated with disability and aged care work. This analysis provides detailed insights into insurance considerations, options, and industry-specific requirements for 2025.
+The support worker insurance landscape in Australia is complex and tailored to the unique risks associated with disability and aged care work. This analysis provides detailed insights into insurance considerations, options, and industry-specific requirements for 2026.
 
 ### Support Worker Insurance Options: Finding the Right Coverage
 When selecting insurance as a support worker, several factors influence the type and level of coverage needed:
@@ -166,7 +166,7 @@ Support worker insurance costs vary based on:
 - Hours worked
 - Number of clients
 
-Typical annual costs in 2025 for a full package:
+Typical annual costs in 2026 for a full package:
 - Basic coverage: $350-$700
 - Standard coverage: $700-$1,000
 - Comprehensive coverage: $1,000-$1,500
@@ -213,7 +213,7 @@ Many professional associations for support workers offer member insurance scheme
 
 - **Is volunteer work covered under support worker insurance?** Not automatically. Specify if you do volunteer work when purchasing insurance to ensure appropriate coverage.
 
-Support worker insurance is a critical professional investment that protects both you and your clients. As the NDIS sector continues to evolve in 2025, maintaining appropriate insurance coverage is not just a regulatory requirement but an essential risk management strategy for all support workers.
+Support worker insurance is a critical professional investment that protects both you and your clients. As the NDIS sector continues to evolve in 2026, maintaining appropriate insurance coverage is not just a regulatory requirement but an essential risk management strategy for all support workers.
 
 ### Key Resources for Support Worker Insurance
 - [NDIS Quality and Safeguards Commission Insurance Requirements](https://www.ndiscommission.gov.au/providers/registered-ndis-providers/provider-obligations-and-requirements/insurance-requirements)

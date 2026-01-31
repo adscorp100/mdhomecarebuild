@@ -6,21 +6,43 @@ const metaDescription = "Contact MD Home Care for professional in-home care serv
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "ContactPage",
-  "name": "Contact MD Home Care",
+  "@type": "LocalBusiness",
+  "name": "MD Home Care",
   "description": metaDescription,
   "url": "https://mdhomecare.com.au/contact",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+61405429512",
-    "contactType": "customer service",
-    "availableLanguage": "English",
-    "areaServed": "AU"
+  "telephone": "+61863869999",
+  "email": "contact@mdhomecare.com.au",
+  "priceRange": "$$",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-33.8688",
+    "longitude": "151.2093"
   },
-  "provider": {
-    "@type": "HomeHealthcareService",
-    "name": "MD Home Care",
-    "description": "Professional in-home care services provider"
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Sydney",
+    "addressRegion": "NSW",
+    "addressCountry": "AU"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Sydney", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Parramatta", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Liverpool", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Blacktown", "containedInPlace": { "@type": "State", "name": "New South Wales" }},
+    { "@type": "City", "name": "Melbourne", "containedInPlace": { "@type": "State", "name": "Victoria" }},
+    { "@type": "City", "name": "Dandenong", "containedInPlace": { "@type": "State", "name": "Victoria" }}
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "127",
+    "bestRating": "5"
   }
 };
 ---

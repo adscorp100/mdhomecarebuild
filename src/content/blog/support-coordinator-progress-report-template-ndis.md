@@ -1,5 +1,5 @@
 ---
-title: "Support Coordinator Progress Report Template: NDIS Examples & Free Download (2025)"
+title: "Support Coordinator Progress Report Template: NDIS Examples & Free Download (2026)"
 description: "Complete guide to NDIS support coordinator progress reports. Includes 8-week report template, end-of-plan review examples, PACE system requirements, and what NDIA planners look for."
 pubDate: 2025-01-01
 author: "Camila"
@@ -13,7 +13,7 @@ image: "/assets/carer.webp"
 
 - Support coordinators must submit progress reports at key milestones: 8-week initial implementation, mid-term review, and end-of-plan assessment
 - Three main report types serve different purposes: demonstrating plan implementation, tracking goal progress, and justifying future funding
-- The PACE system introduced in 2024-2025 has new reporting requirements and submission pathways through the myNDIS portal
+- The PACE system introduced in 2024-2026 has new reporting requirements and submission pathways through the myNDIS portal
 - Quality reports focus on participant outcomes, measurable goal progress, and evidence-based recommendations for future support needs
 
 ---
@@ -36,7 +36,7 @@ Progress reports are essential for several reasons:
 
 We have created a comprehensive template that meets NDIS requirements and PACE system standards:
 
-[Download Support Coordinator Progress Report Template (DOCX)](/downloads/support-coordinator-progress-report-template-2025.docx)
+[Download Support Coordinator Progress Report Template (DOCX)](/downloads/support-coordinator-progress-report-template-2026.docx)
 
 This template includes:
 - Participant details and plan information section
@@ -158,9 +158,9 @@ Document the practical aspects of plan implementation:
 
 | Provider | Service Type | Category | Weekly Hours | Status |
 |----------|--------------|----------|--------------|--------|
-| ABC Support Services | Personal care | Core - Daily Living | 10 hours | Active since 15/02/2025 |
-| XYZ Therapy | Occupational therapy | CB - Daily Living | 1 hour | Active since 22/02/2025 |
-| Community Connect | Social participation | Core - Community | 4 hours | Active since 01/03/2025 |
+| ABC Support Services | Personal care | Core - Daily Living | 10 hours | Active since 15/02/2026 |
+| XYZ Therapy | Occupational therapy | CB - Daily Living | 1 hour | Active since 22/02/2026 |
+| Community Connect | Social participation | Core - Community | 4 hours | Active since 01/03/2026 |
 | Assistive Tech Co | Equipment supply | Capital - AT | One-off | Quote pending |
 
 ### Progress Toward Goals
@@ -198,7 +198,7 @@ Goal progress documentation is the heart of any support coordinator report. For 
 >
 > **Current Status**: After 6 months of support, [Participant] now independently manages their morning personal care routine and prepares simple breakfast items. They use a visual schedule developed with their OT and can follow the sequence without prompting. Medication management remains supported.
 >
-> **Evidence**: Support worker daily logs show reduction from 2 hours to 45 minutes morning support. OT report dated 15/04/2025 confirms skill development. Participant demonstrated routine during home visit on 20/04/2025.
+> **Evidence**: Support worker daily logs show reduction from 2 hours to 45 minutes morning support. OT report dated 15/04/2026 confirms skill development. Participant demonstrated routine during home visit on 20/04/2026.
 >
 > **Progress Rating**: Significant Progress
 >
@@ -242,9 +242,9 @@ Recommendations should be evidence-based and linked directly to documented outco
 
 ---
 
-## PACE System Reporting Updates (2024-2025)
+## PACE System Reporting Updates (2024-2026)
 
-The NDIA's PACE (Provider and Participant Access Checking and Enquiry) system, rolled out progressively through 2024-2025, has introduced significant changes to how support coordinator reports are submitted and processed.
+The NDIA's PACE (Provider and Participant Access Checking and Enquiry) system, rolled out progressively through 2024-2026, has introduced significant changes to how support coordinator reports are submitted and processed.
 
 ### Key PACE Changes for Support Coordinators
 
@@ -443,9 +443,9 @@ The following is a complete worked example of an end-of-plan report:
 
 **Participant Name**: Sarah Mitchell (preferred: Sarah)
 **NDIS Number**: 123456789
-**Plan Dates**: 1 July 2024 to 30 June 2025
-**Report Period**: 1 July 2024 to 15 May 2025
-**Report Date**: 20 May 2025
+**Plan Dates**: 1 July 2024 to 30 June 2026
+**Report Period**: 1 July 2024 to 15 May 2026
+**Report Date**: 20 May 2026
 
 **Support Coordinator**: Jane Williams
 **Organization**: Community Care Coordination Services
@@ -475,7 +475,7 @@ Recommendations for the next plan include continuation of current successful sup
 | **Baseline** | At plan start, Sarah had never travelled independently. She relied on support worker transport for all community access. She expressed anxiety about public transport and had no experience purchasing tickets or reading timetables. |
 | **Current Status** | Sarah now travels independently by bus to her day program (Route 503) three times per week. She uses a Myki card, understands timetables, and has a backup plan if she misses her bus. She has also made two independent trips to the local shopping center. |
 | **Progress Rating** | Significant Progress |
-| **Evidence** | Travel training report from Access Skills Training (attached) documents 12 training sessions and sign-off on Route 503. Support worker logs confirm independent travel commenced 12 March 2025. Sarah's Myki travel history shows 45 independent trips in the past 10 weeks. |
+| **Evidence** | Travel training report from Access Skills Training (attached) documents 12 training sessions and sign-off on Route 503. Support worker logs confirm independent travel commenced 12 March 2026. Sarah's Myki travel history shows 45 independent trips in the past 10 weeks. |
 | **Contributing Factors** | Sarah's high motivation and the patient approach of her travel trainer were key success factors. Her family's willingness to let her take positive risks supported this progress. |
 | **Participant Perspective** | Sarah stated: "I love catching the bus. I feel like a proper adult now. I want to learn more routes so I can visit my friends." |
 | **Recommendation** | Continue travel training (4 hours/month) to expand to additional routes including Route 508 to shopping precinct and Route 512 to TAFE where Sarah hopes to study. |
@@ -528,7 +528,7 @@ Recommendations for the next plan include continuation of current successful sup
 
 **SECTION 9: PARTICIPANT ACKNOWLEDGMENT**
 
-Sarah and her mother (informal supporter) reviewed this report on 18 May 2025. Sarah confirmed she agrees with the contents and is excited about the employment goal being included in her next plan.
+Sarah and her mother (informal supporter) reviewed this report on 18 May 2026. Sarah confirmed she agrees with the contents and is excited about the employment goal being included in her next plan.
 
 Participant acknowledgment: [X] Yes
 
@@ -542,7 +542,7 @@ Support coordinators should be aware of these frequent reporting pitfalls:
 
 **Mistake**: "Sarah is making good progress with her independence goal."
 
-**Better**: "Sarah now independently completes her morning routine in 45 minutes, compared to requiring 2 hours of full support at plan commencement. Evidence includes support worker logs showing task completion times and OT functional assessment dated 15/04/2025."
+**Better**: "Sarah now independently completes her morning routine in 45 minutes, compared to requiring 2 hours of full support at plan commencement. Evidence includes support worker logs showing task completion times and OT functional assessment dated 15/04/2026."
 
 ### 2. Missing Participant Voice
 
@@ -554,7 +554,7 @@ Support coordinators should be aware of these frequent reporting pitfalls:
 
 **Mistake**: Attaching provider reports without explaining their relevance.
 
-**Better**: "The attached OT report (dated 15/04/2025) provides evidence for Goal 1 progress, specifically the functional assessment on page 3 that documents Sarah's improved daily living skills."
+**Better**: "The attached OT report (dated 15/04/2026) provides evidence for Goal 1 progress, specifically the functional assessment on page 3 that documents Sarah's improved daily living skills."
 
 ### 4. Ignoring Underutilization
 
@@ -641,4 +641,4 @@ Key takeaways:
 
 Download our free template to create professional, comprehensive support coordinator progress reports that meet NDIS standards and advocate effectively for participant needs.
 
-[Download Support Coordinator Progress Report Template (DOCX)](/downloads/support-coordinator-progress-report-template-2025.docx)
+[Download Support Coordinator Progress Report Template (DOCX)](/downloads/support-coordinator-progress-report-template-2026.docx)

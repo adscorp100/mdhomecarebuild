@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
 import { getCollection } from 'astro:content';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 // Fetch recent blog posts for the resources section
 const allBlogPosts = await getCollection('blog');
@@ -94,10 +95,27 @@ const stats = [
   { label: "Suburbs Served", value: "150+" },
   { label: "Satisfaction Rate", value: "98%" },
 ];
+
+// WebSite schema for sitelinks searchbox
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "MD Home Care",
+  "url": "https://mdhomecare.com.au",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://mdhomecare.com.au/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+};
 ---
 
 <BaseLayout {title} {description}>
-  
+  <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+
   <!-- Hero Section -->
   <section
     class="relative min-h-screen flex items-start lg:items-center bg-cover bg-center bg-no-repeat bg-fixed pt-32 sm:pt-36 lg:pt-0"

@@ -1,5 +1,5 @@
 ---
-title: "Support Worker Interview Questions: What Employers Look For in 2025"
+title: "Support Worker Interview Questions: What Employers Look For in 2026"
 description: "Master your NDIS support worker interview with our comprehensive guide to common questions, what employers are looking for, and expert sample answers to help you stand out."
 pubDate: 2025-05-15
 author: "Camila"
@@ -89,7 +89,7 @@ Effective preparation involves several key steps:
 Many organizations now use behavioral interviewing techniques, so framing your examples using the STAR method (Situation, Task, Action, Result) can help structure clear, comprehensive responses.
 
 ## Comprehensive Guide to Support Worker Interview Questions
-The interview process for support worker positions has evolved to become more sophisticated and values-driven. This comprehensive guide explores the full spectrum of questions you might encounter, the underlying qualities employers are assessing, and strategies for presenting yourself effectively in the NDIS employment landscape of 2025.
+The interview process for support worker positions has evolved to become more sophisticated and values-driven. This comprehensive guide explores the full spectrum of questions you might encounter, the underlying qualities employers are assessing, and strategies for presenting yourself effectively in the NDIS employment landscape of 2026.
 
 ### Understanding the Support Worker Interview Process
 Modern support worker interviews typically follow a structured format designed to assess your compatibility with both the role requirements and the organization's values:

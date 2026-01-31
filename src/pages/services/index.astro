@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 // Get all services
 const allServices = await getCollection('services');
@@ -32,12 +33,47 @@ const metaKeywords = uniqueKeywords.join(', ');
 // Page SEO
 const title = "Services | MD Home Care";
 const description = "Explore our comprehensive range of NDIS and aged care services designed to support independence and quality of life.";
+
+// Build breadcrumbs
+const breadcrumbItems = [
+  { name: 'Home', url: 'https://mdhomecare.com.au' },
+  { name: 'Services' }
+];
+
+// Build ItemList schema
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": sortedServices.map((service, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "url": `https://mdhomecare.com.au/services/${service.slug}`,
+    "name": service.data.title.replace(/{suburb}/g, 'Australia')
+  }))
+};
+
+// CollectionPage schema
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "NDIS & Aged Care Services",
+  "description": description,
+  "url": "https://mdhomecare.com.au/services"
+};
+
+// Combine schemas
+const combinedSchema = {
+  "@context": "https://schema.org",
+  "@graph": [collectionPageSchema, itemListSchema]
+};
 ---
 
 <BaseLayout {title} {description}>
   <head slot="head">
     <meta name="keywords" content={metaKeywords} />
   </head>
+
+  <script type="application/ld+json" set:html={JSON.stringify(combinedSchema)} />
 
   <div class="min-h-screen bg-base-200/50">
     <!-- Hero Section -->
@@ -48,6 +84,12 @@ const description = "Explore our comprehensive range of NDIS and aged care servi
             <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
             World-Class Care
           </div>
+
+          <!-- Breadcrumbs -->
+          <div class="mb-6">
+            <Breadcrumbs items={breadcrumbItems} />
+          </div>
+
           <h1 class="text-5xl lg:text-7xl font-bold tracking-tight text-secondary mb-6 text-balance">
             Services designed for <span class="text-primary">independence.</span>
           </h1>

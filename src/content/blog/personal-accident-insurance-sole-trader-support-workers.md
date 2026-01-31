@@ -1,5 +1,5 @@
 ---
-title: "Personal Accident Insurance for Sole Trader Support Workers: Complete Guide (2025)"
+title: "Personal Accident Insurance for Sole Trader Support Workers: Complete Guide (2026)"
 description: "Essential guide to personal accident insurance for independent NDIS support workers. Learn what coverage you need, costs, and best providers for sole traders in Australia."
 pubDate: 2025-01-15
 author: "MD Home Care"
@@ -10,7 +10,7 @@ popupSubtitle: "Learn about the insurance protections every sole trader needs"
 
 If you're working as an independent NDIS support worker, you've probably discovered an uncomfortable truth: as a sole trader, you don't have access to workers' compensation. If you're injured and can't work, you have no income safety net—unless you have personal accident insurance.
 
-This guide explains everything sole trader support workers need to know about protecting their income, including what insurance you need, what it costs, and which providers offer the best coverage for NDIS workers in 2025.
+This guide explains everything sole trader support workers need to know about protecting their income, including what insurance you need, what it costs, and which providers offer the best coverage for NDIS workers in 2026.
 
 ## Why Sole Traders Need Personal Accident Insurance
 
@@ -90,9 +90,9 @@ These are often confused, but they protect completely different things:
 
 **You need both.** They don't overlap—they protect different things entirely.
 
-## What Insurance Costs in 2025
+## What Insurance Costs in 2026
 
-Here's what sole trader support workers typically pay for insurance in 2025:
+Here's what sole trader support workers typically pay for insurance in 2026:
 
 ### Cost Ranges by Insurance Type
 
@@ -121,7 +121,7 @@ For a typical 35-year-old support worker earning $80,000/year:
 4. **Claims-free history** - No claims for 2-3 years can unlock discounts
 5. **Use specialist brokers** - NDIS-focused brokers know the best rates
 
-## Best Insurance Providers for NDIS Support Workers (2025)
+## Best Insurance Providers for NDIS Support Workers (2026)
 
 Based on coverage options, pricing, and NDIS-specific features, here are the top providers:
 
@@ -377,4 +377,4 @@ If you're a support worker looking for opportunities with proper backing and sup
 
 ---
 
-*This guide provides general information about insurance for sole trader support workers in Australia as of 2025. Insurance requirements and pricing change—always get current quotes and professional advice for your specific situation.*
+*This guide provides general information about insurance for sole trader support workers in Australia as of 2026. Insurance requirements and pricing change—always get current quotes and professional advice for your specific situation.*

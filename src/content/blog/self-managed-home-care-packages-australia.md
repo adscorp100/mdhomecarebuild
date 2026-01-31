@@ -1,6 +1,6 @@
 ---
-title: "Best Self-Managed Home Care Packages Australia: 2025 Guide"
-description: "The Support at Home program starts July 1, 2025. Learn how self-managed aged care works, compare the best providers, and see how to get more hours from your funding."
+title: "Best Self-Managed Home Care Packages Australia: 2026 Guide"
+description: "The Support at Home program starts July 1, 2026. Learn how self-managed aged care works, compare the best providers, and see how to get more hours from your funding."
 pubDate: 2025-07-02
 author: "Camila"
 tags: ['home care package', 'self-managed care', 'support at home', 'aged care']
@@ -9,13 +9,13 @@ popupSubtitle: "Discover the benefits of self-management"
 image: "/assets/holdinglinen.webp"
 ---
 
-The way Australia delivers aged care is about to change significantly. As of **July 1, 2025**, the new **Support at Home** program officially replaces the old Home Care Packages (HCP) system. For Australians wanting control over their care, understanding self-management in this new world is more important than ever.
+The way Australia delivers aged care is about to change significantly. As of **July 1, 2026**, the new **Support at Home** program officially replaces the old Home Care Packages (HCP) system. For Australians wanting control over their care, understanding self-management in this new world is more important than ever.
 
-Self-managing your government-funded aged care allows you to choose your own support workers and get more care hours from your budget by reducing high provider fees. This guide explains how the new system works, compares the best self-managed aged care providers for 2025, and shows you how to take control of your care.
+Self-managing your government-funded aged care allows you to choose your own support workers and get more care hours from your budget by reducing high provider fees. This guide explains how the new system works, compares the best self-managed aged care providers for 2026, and shows you how to take control of your care.
 
 **Estimate your care hours:** Use our free **[Home Care Package Calculator](/tools/home-care-package-calculator)** to see how many hours of support you can get from your funding based on different provider fee structures.
 
-## Support at Home 2025: What's Changing?
+## Support at Home 2026: What's Changing?
 
 The Support at Home program is designed to be more flexible and streamlined. While the core benefit of self-management remains—more choice and lower fees—the structure is different.
 
@@ -76,7 +76,7 @@ No. The process is straightforward. Once you have chosen a new provider like MD 
 
 ## Conclusion
 
-The shift to the Support at Home program in July 2025 is a positive step for Australians who want to direct their own aged care. By choosing to self-manage with a low-fee, supportive provider, you can significantly increase your care hours and build a support team that truly understands your needs.
+The shift to the Support at Home program in July 2026 is a positive step for Australians who want to direct their own aged care. By choosing to self-manage with a low-fee, supportive provider, you can significantly increase your care hours and build a support team that truly understands your needs.
 
 If you're ready to take control of your care and want to partner with a provider who will empower you, **[contact MD Home Care today](/contact)**. We can explain our simple, low-fee model and help you get the most out of your government funding.
 

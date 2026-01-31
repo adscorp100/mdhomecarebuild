@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 // Tool metadata for automatic discovery by tools/index.astro
 export const toolMeta = {
@@ -11,6 +12,13 @@ export const toolMeta = {
   phase: 2,
   isNew: true
 };
+
+// Breadcrumb items
+const breadcrumbItems = [
+  { name: 'Home', url: 'https://mdhomecare.com.au' },
+  { name: 'Tools', url: 'https://mdhomecare.com.au/tools' },
+  { name: 'NDIS Budget Planner' }
+];
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -30,6 +38,46 @@ const structuredData = {
     "name": "MD Home Care",
     "url": "https://mdhomecare.com.au"
   }
+};
+
+// HowTo schema for using the calculator
+const howToData = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use the NDIS Budget Planner",
+  "description": "Step-by-step guide to planning your NDIS funding allocation across Core, Capacity Building, and Capital categories.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Enter Your Total Plan Budget",
+      "text": "Input your total NDIS plan amount in the calculator. This is the total funding you received from the NDIA."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Allocate to Core Supports",
+      "text": "Enter how much you want to allocate to Core Supports (daily living activities, consumables, transport). Typically 60-80% of your plan."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Allocate to Capacity Building",
+      "text": "Allocate funding for Capacity Building (therapies, skill development, support coordination). Typically 15-30% of your plan."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Allocate to Capital Supports",
+      "text": "Allocate funding for Capital Supports (assistive technology, equipment, home modifications). Typically 5-15% of your plan."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Review Your Weekly Support Hours",
+      "text": "The calculator will show you how many support hours per week your Core Supports budget provides based on standard hourly rates."
+    }
+  ]
 };
 
 const faqData = {
@@ -94,6 +142,7 @@ const faqData = {
 >
   <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(howToData)} />
 
   <div class="relative overflow-hidden bg-base-100">
     <!-- Background Decor -->
@@ -103,15 +152,9 @@ const faqData = {
     <div class="container-custom relative z-10 py-20 lg:py-32">
 
       <!-- Breadcrumb -->
-      <nav class="mb-8 mt-8 lg:mt-0">
-        <ol class="flex items-center gap-2 text-sm text-secondary/60">
-          <li><a href="/" class="hover:text-primary transition-colors">Home</a></li>
-          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
-          <li><a href="/tools" class="hover:text-primary transition-colors">Tools</a></li>
-          <li><Icon name="hugeicons:arrow-right-01" class="w-4 h-4" /></li>
-          <li class="text-secondary font-medium">NDIS Budget Planner</li>
-        </ol>
-      </nav>
+      <div class="mb-8 mt-8 lg:mt-0">
+        <Breadcrumbs items={breadcrumbItems} />
+      </div>
 
       <div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
 
