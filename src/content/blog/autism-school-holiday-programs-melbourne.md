@@ -333,9 +333,9 @@ Here's when Melbourne school holidays fall in 2026:
 | Holiday Period | Dates | Registration Opens (approx) |
 |----------------|-------|----------------------------|
 | **Term 1 break** | April 11-28, 2026 | October-November 2025 |
-| **Term 2 break** | June 27 - July 12, 2026 | February-March 2026 |
-| **Term 3 break** | September 19 - October 4, 2026 | May-June 2026 |
-| **Summer holidays** | December 19, 2026 - January 31, 2027 | August-September 2026 |
+| **Term 2 break** | June 27 - July 12, 2026 | February-March 2025 |
+| **Term 3 break** | September 19 - October 4, 2026 | May-June 2025 |
+| **Summer holidays** | December 19, 2026 - January 31, 2027 | August-September 2025 |
 
 ### Your Action Plan
 
@@ -390,7 +390,7 @@ Request a trial day or pre-program meeting. Good providers welcome the opportuni
 
 ## Thriving Kids: An Upcoming Pathway for Children with Autism
 
-From October 2026, the Australian Government's Thriving Kids program will offer a new support pathway for children under 9 with autism or developmental delay who have low to moderate needs. Unlike the NDIS, Thriving Kids will not require a formal diagnosis to access services. Children with higher support needs will continue to access the NDIS and its funded holiday programs. As Thriving Kids rolls out (full rollout by January 2028), it may open additional funding options for autism holiday programs and community activities. Speak with your provider or Early Childhood Partner about how this might affect your family.
+From October 2025, the Australian Government's Thriving Kids program will offer a new support pathway for children under 9 with autism or developmental delay who have low to moderate needs. Unlike the NDIS, Thriving Kids will not require a formal diagnosis to access services. Children with higher support needs will continue to access the NDIS and its funded holiday programs. As Thriving Kids rolls out (full rollout by January 2028), it may open additional funding options for autism holiday programs and community activities. Speak with your provider or Early Childhood Partner about how this might affect your family.
 
 ## Find Support for the Right Program
 
@@ -409,4 +409,4 @@ Through MD Home Care, Melbourne families can connect with providers who:
 
 ---
 
-*This guide is updated regularly. Last updated: January 2026. Program availability and costs may change—always confirm directly with providers.*
+*This guide is updated regularly. Last updated: January 2025. Program availability and costs may change—always confirm directly with providers.*

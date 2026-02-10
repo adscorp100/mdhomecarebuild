@@ -9,7 +9,7 @@ popupSubtitle: "Find employers offering competitive rates through MD Home Care"
 image: "/assets/disabled carer.webp"
 ---
 
-With the NDIS 2026-26 price guide now in effect, support workers and participants are keen to understand the latest hourly rates. As of July 1, 2026, a **3.95% pay rise** has been applied to the Disability Support Worker (DSW) Cost Model, affecting rates across the board.
+With the NDIS 2025-26 price guide now in effect, support workers and participants are keen to understand the latest hourly rates. As of July 1, 2026, a **3.95% pay rise** has been applied to the Disability Support Worker (DSW) Cost Model, affecting rates across the board.
 
 This guide breaks down the NDIS support worker hourly rates for 2026, so you know exactly what to expect.
 
@@ -41,7 +41,7 @@ Here's a quick summary of the updated weekday hourly rates for agency-employed s
 NDIS hourly rates aren't arbitrary. They are determined by a combination of factors:
 
 1.  **SCHADS Award:** The Social, Community, Home Care and Disability Services (SCHADS) Industry Award sets the minimum pay rates for disability support workers.
-2.  **NDIS Price Guide:** The NDIS sets maximum prices that registered providers can charge. The 2026-26 guide includes the 3.95% increase to reflect wage inflation and the superannuation guarantee increase.
+2.  **NDIS Price Guide:** The NDIS sets maximum prices that registered providers can charge. The 2025-26 guide includes the 3.95% increase to reflect wage inflation and the superannuation guarantee increase.
 3.  **Qualifications & Experience:** Rates are tiered based on the worker's qualifications (e.g., Certificate III or IV) and level of experience.
 4.  **Time of Day:** Evenings, nights, weekends, and public holidays command higher "penalty" rates.
 5.  **Support Complexity:** High-intensity support for participants with complex needs requires more skilled workers and therefore has higher rates.
@@ -54,7 +54,7 @@ For a deeper dive into pay structures, see our [Complete NDIS Support Worker Pay
 Independent support workers have the flexibility to set their own rates, but they also have to cover their own business costs.
 
 - **Typical Hourly Rate:** Independent contractors usually charge **$55 - $65 per hour** for standard support.
-- **Why the Higher Rate?** This rate needs to cover insurance, superannuation (11.5% as of July 2026), tax, training, and other business expenses.
+- **Why the Higher Rate?** This rate needs to cover insurance, superannuation (11.5% as of July 2025), tax, training, and other business expenses.
 - **New Rules for 2026:** As of July 1, 2026, independent support workers will need to be registered with the NDIS, which may add new compliance requirements.
 
 If you're thinking of going independent, our guides on [becoming an independent support worker](/blog/guide-to-becoming-an-independent-support-worker/) and [getting the right insurance](/blog/how-to-get-support-worker-insurance-in-australia/) are essential reading.

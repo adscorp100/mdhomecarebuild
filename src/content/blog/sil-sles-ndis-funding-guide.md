@@ -21,7 +21,7 @@ Supported Independent Living (SIL) is a specialized NDIS funding category that p
 
 > **Looking for School Leaver Employment Supports (SLES)?** SLES is a different NDIS program that helps young people (ages 15-22) transition from school to employment. It provides around $22,000/year for up to 2 years. This guide focuses on Supported Independent Living (SIL) for accommodation support needs.
 
-> **Calculate Your SIL Costs:** Use our free [NDIS SIL Calculator](/tools/ndis-sil-calculator) to estimate Supported Independent Living costs based on your support ratio, overnight care needs, and 2026-26 NDIS rates.
+> **Calculate Your SIL Costs:** Use our free [NDIS SIL Calculator](/tools/ndis-sil-calculator) to estimate Supported Independent Living costs based on your support ratio, overnight care needs, and 2025-26 NDIS rates.
 
 ## What is SIL NDIS Funding?
 

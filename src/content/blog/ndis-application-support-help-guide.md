@@ -369,4 +369,4 @@ Through MD Home Care, you can find providers who understand the NDIS inside and 
 
 ---
 
-*This guide was last updated January 2026. NDIS processes and requirements may change—always check the official NDIS website for the most current information.*
+*This guide was last updated January 2025. NDIS processes and requirements may change—always check the official NDIS website for the most current information.*

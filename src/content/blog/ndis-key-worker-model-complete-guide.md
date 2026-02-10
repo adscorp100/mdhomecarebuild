@@ -195,7 +195,7 @@ The ECEI key worker approach is particularly valuable when:
 
 ### How the Thriving Kids Program May Affect Key Workers
 
-From October 2026, the Australian Government's Thriving Kids program will provide a new support pathway for children under 9 with low to moderate developmental needs. As Thriving Kids rolls out fully by January 2028, the key worker model may evolve to serve families across both the NDIS and the new program. Children with high support needs will remain on the NDIS, so key worker services for those families will continue unchanged. If your child has lower support needs, it is worth discussing with your key worker how the transition to Thriving Kids might affect your current arrangements.
+From October 2025, the Australian Government's Thriving Kids program will provide a new support pathway for children under 9 with low to moderate developmental needs. As Thriving Kids rolls out fully by January 2028, the key worker model may evolve to serve families across both the NDIS and the new program. Children with high support needs will remain on the NDIS, so key worker services for those families will continue unchanged. If your child has lower support needs, it is worth discussing with your key worker how the transition to Thriving Kids might affect your current arrangements.
 
 ---
 
@@ -356,4 +356,4 @@ Key worker certification typically requires renewal every 2 years through refres
 
 ---
 
-*This guide reflects the NDIS key worker model as of 2026. Requirements and best practices may evolve—always check with your provider for current information.*
+*This guide reflects the NDIS key worker model as of 2025. Requirements and best practices may evolve—always check with your provider for current information.*

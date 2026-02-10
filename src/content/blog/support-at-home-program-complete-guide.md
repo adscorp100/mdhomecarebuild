@@ -343,9 +343,9 @@ For a more detailed breakdown, see our guide on [Support at Home prices for 2026
 
 ### Senate Committee Examination of Support at Home Implementation
 
-Recent parliamentary oversight has brought important insights about the transition to the Support at Home Program. In February 2026, a Senate committee heard from key aged care oversight bodies about the readiness of the new system.
+Recent parliamentary oversight has brought important insights about the transition to the Support at Home Program. In February 2025, a Senate committee heard from key aged care oversight bodies about the readiness of the new system.
 
-The Inspector General of Aged Care told the committee that the transition from CHSP to the Support at Home program "lacks clarity." This finding reflects concerns from consumer advocates and aged care professionals about whether sufficient preparation has been completed for the July 2026 launch.
+The Inspector General of Aged Care told the committee that the transition from CHSP to the Support at Home program "lacks clarity." This finding reflects concerns from consumer advocates and aged care professionals about whether sufficient preparation has been completed for the July 2025 launch.
 
 The Older Persons Advocacy Network (OPAN) provided evidence supporting the merger of CHSP and home care packages in principle. However, OPAN emphasized that recommendations from the aged care royal commission need proper implementation, particularly regarding funding mechanisms. The organization wants to see royal commission recommendations about block funding, activity-based funding, and individual funding models properly addressed as part of the new system design.
 
@@ -353,7 +353,7 @@ The Inspector General also recommended improvements to the My Aged Care system, 
 
 These parliamentary findings suggest that while the Support at Home Program represents positive reform, implementation challenges remain. For people preparing to use the new system, these developments confirm the importance of staying informed about changes and working with experienced aged care connection platforms like MD Home Care to navigate the transition successfully.
 
-Source: Australian Ageing Agenda, February 2026
+Source: Australian Ageing Agenda, February 2025
 
 ## Transitioning to Support at Home Program
 
@@ -397,7 +397,7 @@ Source: Australian Ageing Agenda, February 2026
 - Access to new intensive support category
 - Updated care planning and goal setting
 
-### For New Applicants from July 2026
+### For New Applicants from July 2025
 
 **New Application Process:**
 - Apply directly for Support at Home Program

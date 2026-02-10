@@ -453,9 +453,9 @@ Most ACCHO services are **bulk-billed** under Medicare for Aboriginal and Torres
 | 1 Dec 2025 | ACCHOs credited with maintaining low HIV rates | Demonstrates effectiveness of community-controlled prevention programs |
 | 9 Dec 2025 | NACCHO Conference held | Over 200 leaders discussed telehealth, workforce, and new funding streams |
 
-### Upcoming Changes (July 2026)
+### Upcoming Changes (July 2025)
 
-A new national **Indigenous Primary Health Funding Model** will take effect from 1 July 2026, replacing the current block-grant system. The new model includes:
+A new national **Indigenous Primary Health Funding Model** will take effect from 1 July 2025, replacing the current block-grant system. The new model includes:
 
 - Performance-based allocations tied to Closing the Gap targets
 - Dedicated funding streams for mental health, chronic disease, and youth services

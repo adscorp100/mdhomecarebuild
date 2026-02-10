@@ -281,7 +281,7 @@ Let's break down **15_617_0128_1_3** (Occupational Therapy):
 
 The NDIS Price Guide sets maximum rates providers can charge. Here are the current 2026 rates for Improved Daily Living therapies:
 
-### Allied Health Hourly Rates (July 2026)
+### Allied Health Hourly Rates (July 2025)
 
 | Therapy Type | Standard Rate | Remote Rate |
 |--------------|---------------|-------------|

@@ -446,9 +446,9 @@ The following is a complete worked example of an end-of-plan report:
 
 **Participant Name**: Sarah Mitchell (preferred: Sarah)
 **NDIS Number**: 123456789
-**Plan Dates**: 1 July 2024 to 30 June 2026
-**Report Period**: 1 July 2024 to 15 May 2026
-**Report Date**: 20 May 2026
+**Plan Dates**: 1 July 2024 to 30 June 2025
+**Report Period**: 1 July 2024 to 15 May 2025
+**Report Date**: 20 May 2025
 
 **Support Coordinator**: Jane Williams
 **Organization**: Community Care Coordination Services
@@ -478,7 +478,7 @@ Recommendations for the next plan include continuation of current successful sup
 | **Baseline** | At plan start, Sarah had never travelled independently. She relied on support worker transport for all community access. She expressed anxiety about public transport and had no experience purchasing tickets or reading timetables. |
 | **Current Status** | Sarah now travels independently by bus to her day program (Route 503) three times per week. She uses a Myki card, understands timetables, and has a backup plan if she misses her bus. She has also made two independent trips to the local shopping center. |
 | **Progress Rating** | Significant Progress |
-| **Evidence** | Travel training report from Access Skills Training (attached) documents 12 training sessions and sign-off on Route 503. Support worker logs confirm independent travel commenced 12 March 2026. Sarah's Myki travel history shows 45 independent trips in the past 10 weeks. |
+| **Evidence** | Travel training report from Access Skills Training (attached) documents 12 training sessions and sign-off on Route 503. Support worker logs confirm independent travel commenced 12 March 2025. Sarah's Myki travel history shows 45 independent trips in the past 10 weeks. |
 | **Contributing Factors** | Sarah's high motivation and the patient approach of her travel trainer were key success factors. Her family's willingness to let her take positive risks supported this progress. |
 | **Participant Perspective** | Sarah stated: "I love catching the bus. I feel like a proper adult now. I want to learn more routes so I can visit my friends." |
 | **Recommendation** | Continue travel training (4 hours/month) to expand to additional routes including Route 508 to shopping precinct and Route 512 to TAFE where Sarah hopes to study. |
@@ -531,7 +531,7 @@ Recommendations for the next plan include continuation of current successful sup
 
 **SECTION 9: PARTICIPANT ACKNOWLEDGMENT**
 
-Sarah and her mother (informal supporter) reviewed this report on 18 May 2026. Sarah confirmed she agrees with the contents and is excited about the employment goal being included in her next plan.
+Sarah and her mother (informal supporter) reviewed this report on 18 May 2025. Sarah confirmed she agrees with the contents and is excited about the employment goal being included in her next plan.
 
 Participant acknowledgment: [X] Yes
 

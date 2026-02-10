@@ -14,7 +14,7 @@ ChatGPT can tell you the NDIS price limits, but it can't show you which provider
 
 Understanding NDIS support worker pay rates can be confusing. There are three different rates you need to know: what the NDIS pays providers (the Price Guide), what providers must pay workers (the SCHADS Award), and what workers actually take home. Whether you're a support worker, NDIS carer, or participant, this guide covers everything you need to know.
 
-This guide reflects the NDIS Pricing Arrangements and Price Limits 2026-26 v1.1, effective 24 November 2026, and the 3.5% SCHADS Award increase from 1 July 2025. It breaks down all the rates for 2026-26, including public holiday penalty rates, night shift loadings, and real-world earnings for different scenarios.
+This guide reflects the NDIS Pricing Arrangements and Price Limits 2025-26 v1.1, effective 24 November 2025, and the 3.5% SCHADS Award increase from 1 July 2025. It breaks down all the rates for 2025-26, including public holiday penalty rates, night shift loadings, and real-world earnings for different scenarios.
 
 ## Quick Answer: NDIS Support Worker Pay Rates 2026
 
@@ -24,7 +24,7 @@ This guide reflects the NDIS Pricing Arrangements and Price Limits 2026-26 v1.1,
 
 **How much do independent support workers charge?** Independent contractors typically charge $52-$70 per hour on weekdays, keeping the full amount but covering their own business costs like insurance, super, and tax.
 
-## NDIS Support Worker Pay Rates 2026-26 (Quick Summary)
+## NDIS Support Worker Pay Rates 2025-26 (Quick Summary)
 
 | Shift Type | NDIS Price Limit | Worker Receives (SCHADS) |
 |------------|------------------|--------------------------|
@@ -39,7 +39,7 @@ The amount an NDIS support worker (or NDIS carer) gets paid depends on their cla
 
 ## What Is the NDIS Hourly Rate for Support Workers in 2026?
 
-The current NDIS price limit for standard support work is **$70.23 per hour** on weekdays (as of November 2026). This is the maximum providers can charge participants, not what workers receive. Workers typically earn between $30-$45/hr depending on their level, with the rest covering provider overheads.
+The current NDIS price limit for standard support work is **$70.23 per hour** on weekdays (as of November 2025). This is the maximum providers can charge participants, not what workers receive. Workers typically earn between $30-$45/hr depending on their level, with the rest covering provider overheads.
 
 ## Recent Pay Rate Changes
 
@@ -47,9 +47,9 @@ The current NDIS price limit for standard support work is **$70.23 per hour** on
 
 From 1 July 2025, all disability support workers covered by the SCHADS Award received a **3.5% wage increase**, as determined by the Fair Work Commission Annual Wage Review. This increase applied to all classification levels and flows through to penalty rates, overtime, and allowances. The 3.5% rise was consistent with broader minimum wage movements and reflected the growing demand for qualified disability support workers across Australia.
 
-### NDIS Price Limit Update (November 2026)
+### NDIS Price Limit Update (November 2025)
 
-The NDIS Pricing Arrangements and Price Limits 2026-26 v1.1, effective 24 November 2026, includes updated price limits for disability support worker services.
+The NDIS Pricing Arrangements and Price Limits 2025-26 v1.1, effective 24 November 2025, includes updated price limits for disability support worker services.
 
 **Key points:**
 - Standard support weekday rate increased to $70.23/hr (up from $67.56/hr)
@@ -70,9 +70,9 @@ The NDIS Pricing Arrangements and Price Limits 2026-26 v1.1, effective 24 Novemb
 
 The gap between these rates covers provider overheads: superannuation, insurance, workers compensation, leave entitlements, training, administration, and profit margin.
 
-## NDIS Price Guide Rates 2026-26 (What Participants Pay)
+## NDIS Price Guide Rates 2025-26 (What Participants Pay)
 
-These are the **maximum hourly rates** providers can charge under the NDIS as of November 2026. They're national rates, the same in QLD, VIC, NSW, and all other states.
+These are the **maximum hourly rates** providers can charge under the NDIS as of November 2025. They're national rates, the same in QLD, VIC, NSW, and all other states.
 
 ### Standard Support Worker Rates
 
@@ -265,48 +265,48 @@ NDIS public holiday rates (225-250% of base) apply on these dates. These are the
 
 | Holiday | Date | Notes |
 |---------|------|-------|
-| New Year's Day | 1 January 2026 | Wednesday |
-| Australia Day | 27 January 2026 | Monday (observed) |
-| Good Friday | 18 April 2026 | Friday |
-| Easter Saturday | 19 April 2026 | Saturday |
-| Easter Monday | 21 April 2026 | Monday |
-| Anzac Day | 25 April 2026 | Friday |
+| New Year's Day | 1 January 2025 | Wednesday |
+| Australia Day | 27 January 2025 | Monday (observed) |
+| Good Friday | 18 April 2025 | Friday |
+| Easter Saturday | 19 April 2025 | Saturday |
+| Easter Monday | 21 April 2025 | Monday |
+| Anzac Day | 25 April 2025 | Friday |
 | Queen's Birthday | Varies by state | See below |
-| Christmas Day | 25 December 2026 | Thursday |
-| Boxing Day | 26 December 2026 | Friday |
+| Christmas Day | 25 December 2025 | Thursday |
+| Boxing Day | 26 December 2025 | Friday |
 
 ### National Public Holidays 2026
 
 | Holiday | Date | Notes |
 |---------|------|-------|
-| New Year's Day | 1 January 2026 | Thursday |
-| Australia Day | 26 January 2026 | Monday |
-| Good Friday | 3 April 2026 | Friday |
-| Easter Saturday | 4 April 2026 | Saturday |
-| Easter Monday | 6 April 2026 | Monday |
-| Anzac Day | 27 April 2026 | Monday (observed) |
-| Christmas Day | 25 December 2026 | Friday |
-| Boxing Day | 28 December 2026 | Monday (observed) |
+| New Year's Day | 1 January 2025 | Thursday |
+| Australia Day | 26 January 2025 | Monday |
+| Good Friday | 3 April 2025 | Friday |
+| Easter Saturday | 4 April 2025 | Saturday |
+| Easter Monday | 6 April 2025 | Monday |
+| Anzac Day | 27 April 2025 | Monday (observed) |
+| Christmas Day | 25 December 2025 | Friday |
+| Boxing Day | 28 December 2025 | Monday (observed) |
 
 ### Queen's Birthday 2026-2026 by State
 
 | State | 2026 Date | 2026 Date |
 |-------|-----------|-----------|
-| ACT, NSW, NT, SA, TAS, VIC | 9 June 2026 | 8 June 2026 |
-| Queensland | 6 October 2026 | 5 October 2026 |
-| Western Australia | 23 September 2026 | 28 September 2026 |
+| ACT, NSW, NT, SA, TAS, VIC | 9 June 2025 | 8 June 2025 |
+| Queensland | 6 October 2025 | 5 October 2025 |
+| Western Australia | 23 September 2025 | 28 September 2025 |
 
 ### State-Specific Public Holidays
 
 **Victoria:**
-- Melbourne Cup Day: First Tuesday in November (4 November 2026)
-- AFL Grand Final Friday: Friday before Grand Final (26 September 2026)
+- Melbourne Cup Day: First Tuesday in November (4 November 2025)
+- AFL Grand Final Friday: Friday before Grand Final (26 September 2025)
 
 **Queensland:**
 - Royal Queensland Show (Ekka): Second Wednesday in August (Brisbane only)
 
 **New South Wales:**
-- Bank Holiday: First Monday in August (4 August 2026)
+- Bank Holiday: First Monday in August (4 August 2025)
 
 **South Australia:**
 - Adelaide Cup Day: Second Monday in March
@@ -323,7 +323,7 @@ NDIS public holiday rates (225-250% of base) apply on these dates. These are the
 - Picnic Day: First Monday in August
 
 **ACT:**
-- Reconciliation Day: 27 May 2026
+- Reconciliation Day: 27 May 2025
 - Family & Community Day: Monday after first Sunday in September
 
 ### Public Holiday Pay Calculation
@@ -453,11 +453,11 @@ Under the SCHADS Award, support workers earn **$30-$57 per hour** depending on t
 
 ### What is the NDIS Sunday rate?
 
-The NDIS Sunday rate (price limit) for standard support is **$127.08 per hour** as of November 2026. For high intensity support, it's $132.25/hr. Support workers themselves receive double time under the SCHADS Award. For example, a Level 2 worker earns $69.16/hr on Sundays (2x their $34.58 base rate).
+The NDIS Sunday rate (price limit) for standard support is **$127.08 per hour** as of November 2025. For high intensity support, it's $132.25/hr. Support workers themselves receive double time under the SCHADS Award. For example, a Level 2 worker earns $69.16/hr on Sundays (2x their $34.58 base rate).
 
 ### What is the NDIS Saturday rate?
 
-The NDIS Saturday rate (price limit) for standard support is **$98.66 per hour** as of November 2026. For high intensity support, it's $102.66/hr. Support workers receive time-and-a-half under the SCHADS Award. A Level 2 worker earns $51.87/hr on Saturdays (1.5x their $34.58 base rate).
+The NDIS Saturday rate (price limit) for standard support is **$98.66 per hour** as of November 2025. For high intensity support, it's $102.66/hr. Support workers receive time-and-a-half under the SCHADS Award. A Level 2 worker earns $51.87/hr on Saturdays (1.5x their $34.58 base rate).
 
 ### How much do support workers get paid on public holidays?
 
@@ -488,7 +488,7 @@ TTP (Temporary Transformation Payment) was a conditional loading providers could
 
 ### What is the NDIS pay rise for support workers in 2026?
 
-Support workers received a 3.5% pay increase from 1 July 2025 as part of the annual SCHADS Award review. The NDIS price limits also increased to $70.23/hr for standard weekday support as of November 2026.
+Support workers received a 3.5% pay increase from 1 July 2025 as part of the annual SCHADS Award review. The NDIS price limits also increased to $70.23/hr for standard weekday support as of November 2025.
 
 ### How much do Level 2 NDIS support workers earn?
 
@@ -508,4 +508,4 @@ Through MD Home Care, you can connect with providers who prioritize transparent 
 
 ---
 
-*This guide reflects NDIS Pricing Arrangements and Price Limits 2026-26 v1.1 (effective 24 November 2026) and SCHADS Award rates. Rates are updated periodically. Check the current NDIS Price Guide and Fair Work website for the latest figures.*
+*This guide reflects NDIS Pricing Arrangements and Price Limits 2025-26 v1.1 (effective 24 November 2025) and SCHADS Award rates. Rates are updated periodically. Check the current NDIS Price Guide and Fair Work website for the latest figures.*

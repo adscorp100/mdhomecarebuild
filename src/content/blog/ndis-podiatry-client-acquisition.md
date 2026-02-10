@@ -25,7 +25,7 @@ image: "/assets/homecare.webp"
 2. **Diabetic Foot Care Specialization** - Target participants with diabetes (40%+ of NDIS participants)
 3. **Support Coordinator Relationships** - Partner with SCs who manage participant budgets
 
-**NDIS Podiatry Rates 2026-26:** $88.99/hour + $64.66/hour travel (if applicable)
+**NDIS Podiatry Rates 2025-26:** $88.99/hour + $64.66/hour travel (if applicable)
 
 **Average Timeline to First Client:**
 - Provider networks: 2-4 weeks
@@ -271,7 +271,7 @@ Best regards,
 
 ---
 
-## NDIS Podiatry Funding & Pricing (2026-26)
+## NDIS Podiatry Funding & Pricing (2025-26)
 
 **NDIS Podiatry Rates:**
 
@@ -431,4 +431,4 @@ Best regards,
 
 ---
 
-*Guide updated January 31, 2026 with current NDIS podiatry rates and network opportunities.*
+*Guide updated January 31, 2025 with current NDIS podiatry rates and network opportunities.*

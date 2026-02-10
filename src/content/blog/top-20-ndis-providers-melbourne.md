@@ -36,12 +36,12 @@ schema:
 # Top 10 NDIS Providers Melbourne 2026: Ranked + Pricing Compared
 
 **Key Information for Melbourne NDIS Participants:**
-- **Current Pricing**: PAPL 2026-26 v1.1 (effective 24 November 2026)
+- **Current Pricing**: PAPL 2025-26 v1.1 (effective 24 November 2025)
 - **Support Worker Rate**: $70.23/hour (Weekday Daytime - Standard)
 - **All 20 providers below** are NDIS Quality and Safeguards Commission registered
 - **Use NDIS Provider Finder**: Verify current registration at [ndis.gov.au](https://www.ndis.gov.au/participants/working-providers/find-registered-provider/provider-finder)
 
-*Last updated: December 15, 2026 - All provider information reflects current registration status*
+*Last updated: December 15, 2025 - All provider information reflects current registration status*
 
 The National Disability Insurance Scheme (NDIS) has significantly expanded support available to Victorians living with disabilities, and Melbourne's provider landscape continues to evolve. Finding the **best NDIS providers Melbourne** that align with your unique needs, goals, and NDIS plan is crucial for achieving optimal outcomes.
 
@@ -262,7 +262,7 @@ The following providers also offer excellent NDIS services across Melbourne:
 
 ## 2026 Pricing Updates
 
-All Melbourne NDIS providers listed above follow the current NDIS Price Limits (PAPL 2026-26 v1.1, effective 24 November 2026). The 3.95% pricing increase that took effect July 1, 2026 applies across all services.
+All Melbourne NDIS providers listed above follow the current NDIS Price Limits (PAPL 2025-26 v1.1, effective 24 November 2025). The 3.95% pricing increase that took effect July 1, 2026 applies across all services.
 
 **Current Support Worker Rates:**
 - **Standard Support Worker Rate**: $70.23/hour (Weekday Daytime)
@@ -343,4 +343,4 @@ Contact your current provider about transition processes, research new providers
 ### What's the best way to compare NDIS providers in Melbourne?
 Compare providers based on compliance, transparent pricing, service availability, specialization alignment with your needs, geographic coverage, and participant feedback.
 
-*This guide was last updated on December 15, 2026, to reflect the latest NDIS provider landscape and pricing (PAPL 2026-26 v1.1) in Melbourne.*
+*This guide was last updated on December 15, 2026, to reflect the latest NDIS provider landscape and pricing (PAPL 2025-26 v1.1) in Melbourne.*

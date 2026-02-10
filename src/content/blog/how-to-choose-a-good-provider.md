@@ -12,7 +12,7 @@ image: "/assets/carer.webp"
 <!-- INTRODUCTION -->
 Choosing a care provider is one of the most important decisions you'll make for yourself or a loved one. The right provider can dramatically improve quality of life, while the wrong one can be a source of immense stress and frustration. With so many options, how do you know you're making the right choice?
 
-The ACCC's February 2026 report on NDIS provider exploitation reveals widespread issues with deceptive advertising, unfair contract terms, and providers charging for undelivered services. This makes careful provider selection more critical than ever.
+The ACCC's February 2025 report on NDIS provider exploitation reveals widespread issues with deceptive advertising, unfair contract terms, and providers charging for undelivered services. This makes careful provider selection more critical than ever.
 
 This guide is designed to empower you. We'll go beyond the glossy brochures and give you the tools to identify a truly great provider. We'll cover the official quality standards, the practical questions you must ask, and the subtle red flags that people often miss.
 

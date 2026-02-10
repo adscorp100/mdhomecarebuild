@@ -11,16 +11,16 @@ image: "/assets/carer.webp"
 
 # SDA Calculator 2026: NDIS Specialist Disability Accommodation Funding Guide
 
-## Key Updates: SDA Pricing December 2026
+## Key Updates: SDA Pricing December 2025
 
-**Major Changes for 2026-26:**
-- **New SDA price limits** effective July 1, 2026 with increases across all design categories
+**Major Changes for 2025-26:**
+- **New SDA price limits** effective July 1, 2025 with increases across all design categories
 - **High Physical Support (HPS)** maximum annual funding now up to **$117,520** for new-build apartments
 - **Reasonable rent contribution** capped at 25% of DSP (approximately **$247/week** in 2026)
 - **Location band adjustments** - Metro, Regional, and Remote pricing tiers updated
 - **New SDA Design Standard** compliance requirements for all new builds
 
-*Last updated: December 17, 2026 - Source: NDIS Pricing Arrangements 2026-26*
+*Last updated: December 17, 2025 - Source: NDIS Pricing Arrangements 2025-26*
 
 ## Quick Navigation
 - [SDA Funding Calculator](#sda-funding-calculator-2026)
@@ -71,7 +71,7 @@ Use this table to calculate your maximum annual SDA funding based on your specif
 
 ### Step 3: Calculate Maximum Annual Funding
 
-**2026-26 SDA Price Limits (Maximum Annual Funding per Participant)**
+**2025-26 SDA Price Limits (Maximum Annual Funding per Participant)**
 
 | Design Category | Apartment (1-bed) | Apartment (2-bed) | Villa (1-bed) | Villa (2-bed) | Group Home |
 |-----------------|-------------------|-------------------|---------------|---------------|------------|
@@ -89,7 +89,7 @@ Use this table to calculate your maximum annual SDA funding based on your specif
 Net Annual Funding = Maximum SDA Price Limit - Reasonable Rent Contribution
 ```
 
-**Reasonable Rent Contribution (2026-26):**
+**Reasonable Rent Contribution (2025-26):**
 - DSP fortnightly rate: $1,977.90
 - Annual DSP: $51,425
 - 25% of DSP (annual): **$12,856**
@@ -438,7 +438,7 @@ Your SDA funding remains in your plan regardless of provider status. If your pro
 ## Key Resources
 
 - [NDIS SDA Finder](https://www.ndis.gov.au/participants/home-and-living/sda-finder) - Official property search
-- [SDA Pricing Arrangements 2026-26](https://www.ndis.gov.au/providers/pricing-arrangements) - Official price limits
+- [SDA Pricing Arrangements 2025-26](https://www.ndis.gov.au/providers/pricing-arrangements) - Official price limits
 - [SDA Design Standard](https://www.ndis.gov.au/providers/housing-and-living-supports-and-services/housing/specialist-disability-accommodation/sda-design-standard) - Design requirements
 - [Housing Hub](https://www.housinghub.org.au) - SDA marketplace
 - [Summer Foundation](https://www.summerfoundation.org.au) - SDA advocacy and information

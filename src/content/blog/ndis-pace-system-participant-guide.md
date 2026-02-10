@@ -14,7 +14,7 @@ image: "/assets/two women looking at alarm.webp"
 ## Key Points
 
 - **PACE** stands for Provider and Participant Communication Environment - the NDIS's new computer system
-- **All participants** are expected to have plans in PACE by May 2026
+- **All participants** are expected to have plans in PACE by May 2025
 - **my NDIS portal** replaces the old myplace portal for participants in PACE
 - **Flexible budgets** - plans are now organised by support categories rather than line-by-line items
 - **my NDIS Contact** - a new NDIA staff member assigned to help with your plan queries
@@ -52,7 +52,7 @@ PACE was designed to address these issues with:
 | PACE development begins | 2022 |
 | Initial pilot with select participants | 2023 |
 | Gradual rollout to more participants | 2024 |
-| All participants expected in PACE | **May 2026** |
+| All participants expected in PACE | **May 2025** |
 
 **When will you move to PACE?**
 

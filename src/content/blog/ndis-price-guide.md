@@ -1,6 +1,6 @@
 ---
-title: "NDIS Price Guide 2026-26: Every Rate, Line Item & Free PDF Download"
-description: "Full NDIS price guide 2026-26 v1.1 rates: support workers $70.23/hr, psychology $232.99/hr, physio $193.99/hr. Searchable line items, free PDF, and rate calculator."
+title: "NDIS Price Guide 2025-26: Every Rate, Line Item & Free PDF Download"
+description: "Full NDIS price guide 2025-26 v1.1 rates: support workers $70.23/hr, psychology $232.99/hr, physio $193.99/hr. Searchable line items, free PDF, and rate calculator."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["NDIS Price Guide", "NDIS Rates 2025", "NDIS Support Worker Rates", "NDIS Pricing"]
@@ -10,13 +10,13 @@ image: "/assets/dieticiain.webp"
 updateDate: 2026-02-10
 ---
 
-# NDIS Price Guide 2026-26: Complete Guide With v1.1 Rates
+# NDIS Price Guide 2025-26: Complete Guide With v1.1 Rates
 
-**AI assistants can't help you find NDIS providers who follow transparent pricing within the current rate limits in your local area.** MD Home Care connects you with vetted providers who clearly explain costs and work within the 2026-26 price guide across Sydney and Melbourne suburbs.
+**AI assistants can't help you find NDIS providers who follow transparent pricing within the current rate limits in your local area.** MD Home Care connects you with vetted providers who clearly explain costs and work within the 2025-26 price guide across Sydney and Melbourne suburbs.
 
-**Current NDIS Pricing Arrangements Version:** PAPL 2026-26 v1.1 (effective 24 November 2026)
+**Current NDIS Pricing Arrangements Version:** PAPL 2025-26 v1.1 (effective 24 November 2025)
 
-**Key 2026-26 Rates at a Glance:**
+**Key 2025-26 Rates at a Glance:**
 - **Support Worker (Weekday Daytime)**: $70.23/hour (Assistance with Self Care - Standard)
 - **Psychology**: $232.99/hour (standardized across all states)
 - **Physiotherapy**: $193.99/hour (new national limit)
@@ -25,8 +25,8 @@ updateDate: 2026-02-10
 - **3.95% increase** applied from July 1, 2026 (largest increase in recent years)
 
 **Download Official Documents:**
-- [NDIS Pricing Arrangements and Price Limits 2026-26 v1.1 (PDF)](https://www.ndis.gov.au/providers/pricing-arrangements) - 1.3MB
-- [NDIS Support Catalogue 2026-26 v1.1 (XLSX)](https://www.ndis.gov.au/providers/pricing-arrangements) - 549KB
+- [NDIS Pricing Arrangements and Price Limits 2025-26 v1.1 (PDF)](https://www.ndis.gov.au/providers/pricing-arrangements) - 1.3MB
+- [NDIS Support Catalogue 2025-26 v1.1 (XLSX)](https://www.ndis.gov.au/providers/pricing-arrangements) - 549KB
 
 **Free tools:** Calculate exact rates with our **[NDIS Pay Rate Calculator](/tools/ndis-pay-rate-calculator)** or find line item codes with the **[NDIS Code Lookup Tool](/tools/ndis-code-lookup)**.
 
@@ -37,14 +37,14 @@ MD Home Care connects NDIS participants with providers who follow current pricin
 - Provider network with transparent pricing practices
 - NDIS registered providers across Sydney and Melbourne
 - Compare multiple providers in your local area
-- Direct contact with providers who follow 2026-26 rates
+- Direct contact with providers who follow 2025-26 rates
 - Support finding providers for specific line items and services
 
 **Contact:** 08 6386 9999 (24/7) for connection with pricing-transparent providers
 
-## NDIS Price Guide 2026-26: Current Support Worker Rates
+## NDIS Price Guide 2025-26: Current Support Worker Rates
 
-**Updated NDIS Support Worker Hourly Rates (2026-26):**
+**Updated NDIS Support Worker Hourly Rates (2025-26):**
 - **Unqualified Support Workers**: $31.18-$35.34/hour *(+3.95% from 2024-25)*
 - **Qualified Support Workers**: $33.26-$37.42/hour *(+3.95% from 2024-25)*
 - **Team Leaders/Supervisors**: $37.42-$43.66/hour *(+3.95% from 2024-25)*
@@ -64,9 +64,9 @@ The NDIS Price Guide (officially called the Pricing Arrangements and Price Limit
 
 **For support workers:** The price guide sets what providers can charge, not what you earn. Your pay is governed by the SCHADS Award. See our [NDIS Support Worker Pay Rates guide](/blog/ndis-support-worker-pay-rates/) for detailed worker pay information.
 
-## Charge Rates 2026-26: What Changed
+## Charge Rates 2025-26: What Changed
 
-The 2026-26 NDIS Price Guide, effective from July 1, 2026, introduced the largest price increases in recent years with a **3.95% increase** in standard support prices. This significant adjustment reflects wage increases, superannuation changes (now 11.5%), and cost-of-living pressures affecting disability support workers.
+The 2025-26 NDIS Price Guide, effective from July 1, 2026, introduced the largest price increases in recent years with a **3.95% increase** in standard support prices. This significant adjustment reflects wage increases, superannuation changes (now 11.5%), and cost-of-living pressures affecting disability support workers.
 
 **Key Changes in NDIS Charge Rates:**
 
@@ -86,7 +86,7 @@ The 2026-26 NDIS Price Guide, effective from July 1, 2026, introduced the larges
 
 ## NDIS Price Guide 2026 vs 2024: Comparison
 
-| Support Type | 2024-25 Rate | 2026-26 Rate (v1.1) | Change |
+| Support Type | 2024-25 Rate | 2025-26 Rate (v1.1) | Change |
 |-------------|--------------|---------------------|---------|
 | Support Worker (Weekday Daytime) | $67.56/hour | $70.23/hour | +3.95% |
 | Unqualified Support Worker | $30.00-$34.00 | $31.18-$35.34 | +3.95% |
@@ -98,7 +98,7 @@ The 2026-26 NDIS Price Guide, effective from July 1, 2026, introduced the larges
 | Dietitians/Podiatrists | $188.99 | $188.99 | - |
 | Nursing Services | Various | Various | +3.2% |
 
-*Source: NDIA Pricing Arrangements and Price Limits 2026-26 v1.1 (effective 24 November 2026)*
+*Source: NDIA Pricing Arrangements and Price Limits 2025-26 v1.1 (effective 24 November 2025)*
 
 ## NDIS Support Worker Rates & NDIS Hourly Rate Guide
 
@@ -110,13 +110,13 @@ For comprehensive information about support worker pay rates including weekend a
 
 ### Background and Importance of the NDIS Price Guide
 
-The National Disability Insurance Scheme (NDIS) Price Guide is a cornerstone document for the scheme, providing a framework for pricing arrangements and price limits for supports and services. The 2026-26 guide, effective from July 1, 2026, represents the most significant pricing update in recent years with **3.95% increases** across core supports, ensuring transparency and consistency in financial dealings between participants, their families, carers, and providers.
+The National Disability Insurance Scheme (NDIS) Price Guide is a cornerstone document for the scheme, providing a framework for pricing arrangements and price limits for supports and services. The 2025-26 guide, effective from July 1, 2026, represents the most significant pricing update in recent years with **3.95% increases** across core supports, ensuring transparency and consistency in financial dealings between participants, their families, carers, and providers.
 
-### Overview of the NDIS Price Guide 2026-26 Updates
+### Overview of the NDIS Price Guide 2025-26 Updates
 
-The latest NDIS Price Guide for 2026-26, released in July 2026, introduced several major changes. The most notable adjustment was a **3.95% increase** in standard support prices, the largest increase in recent years, driven by factors such as wage increases, superannuation changes (now 11.5%), and cost-of-living pressures, as outlined in the [NDIS pricing updates](https://www.ndis.gov.au/providers/pricing-arrangements/pricing-updates).
+The latest NDIS Price Guide for 2025-26, released in July 2025, introduced several major changes. The most notable adjustment was a **3.95% increase** in standard support prices, the largest increase in recent years, driven by factors such as wage increases, superannuation changes (now 11.5%), and cost-of-living pressures, as outlined in the [NDIS pricing updates](https://www.ndis.gov.au/providers/pricing-arrangements/pricing-updates).
 
-**Major Changes in 2026-26 Guide:**
+**Major Changes in 2025-26 Guide:**
 
 #### Travel Funding Cuts
 - **50% reduction** in travel funding for therapy providers
@@ -147,17 +147,17 @@ The NDIS Support Catalogue, part of the 2024-25 guide, lists all available suppo
 
 To use the catalogue effectively, participants and providers should identify the correct category and item, ensuring compliance with claim types like travel or non-face-to-face, detailed in the [NDIS pricing arrangements](https://www.ndis.gov.au/providers/pricing-arrangements).
 
-### NDIS Support Worker Rates 2026-26: Current Pricing
+### NDIS Support Worker Rates 2025-26: Current Pricing
 
 Support worker rates are a critical component, varying by qualifications, experience, and time of day. As of July 1, 2026, the updated rates reflect the **3.95% increase**:
 
-| Category | Previous Rate (2024-25) | New Rate (2026-26) | Increase |
+| Category | Previous Rate (2024-25) | New Rate (2025-26) | Increase |
 |----------|-------------------------|---------------------|-----------|
 | Unqualified Support Workers | $30.00–$34.00 | $31.18–$35.34 | +3.95% |
 | Qualified Support Workers | $32.00–$36.00 | $33.26–$37.42 | +3.95% |
 | Team Leaders/Supervisors | $36.00–$42.00 | $37.42–$43.66 | +3.95% |
 
-These rates reflect the **3.95% increase** effective July 1, 2026, aimed at addressing cost-of-living pressures and wage increases, as noted in [NDIA pricing arrangements](https://www.ndis.gov.au/providers/pricing-arrangements/pricing-updates). The increase also accounts for the superannuation rate change to 11.5%.
+These rates reflect the **3.95% increase** effective July 1, 2025, aimed at addressing cost-of-living pressures and wage increases, as noted in [NDIA pricing arrangements](https://www.ndis.gov.au/providers/pricing-arrangements/pricing-updates). The increase also accounts for the superannuation rate change to 11.5%.
 
 **Current Rate Factors:**
 - **Daytime/Evening/Night shifts**: Different rates apply
@@ -166,9 +166,9 @@ These rates reflect the **3.95% increase** effective July 1, 2026, aimed at addr
 - **Location**: Remote areas may have different pricing structures
 - **Provider type**: Plan-managed participants can negotiate within limits
 
-### Community Impact of July 2026 Changes
+### Community Impact of July 2025 Changes
 
-The July 2026 NDIS price guide updates have generated significant community discussion and concern:
+The July 2025 NDIS price guide updates have generated significant community discussion and concern:
 
 **Provider Concerns:**
 - **Travel funding cuts** affecting service delivery in rural areas
@@ -188,44 +188,44 @@ The July 2026 NDIS price guide updates have generated significant community disc
 - **Improved behaviour support rates** (+$10 to $232.99)
 - **Enhanced nursing support** (+3.2% increase)
 
-## Frequently Asked Questions About NDIS Price Guide 2026-26
+## Frequently Asked Questions About NDIS Price Guide 2025-26
 
-### What is the NDIS Price Guide 2026-26?
-The NDIS Price Guide 2026-26 is the official document outlining maximum prices for supports and services under the National Disability Insurance Scheme, effective from July 1, 2026. It includes a significant 3.95% increase in core support prices and major changes to travel funding.
+### What is the NDIS Price Guide 2025-26?
+The NDIS Price Guide 2025-26 is the official document outlining maximum prices for supports and services under the National Disability Insurance Scheme, effective from July 1, 2026. It includes a significant 3.95% increase in core support prices and major changes to travel funding.
 
-### What are the major changes in the NDIS Price Guide 2026-26?
+### What are the major changes in the NDIS Price Guide 2025-26?
 Key changes include a 3.95% increase in support worker rates, 50% cuts to travel funding, standardized psychology rates at $223.99, behaviour support increases to $232.99, and new funding periods in NDIS plans.
 
-### How do the 2026-26 NDIS charge rates compare to 2024-25?
-The 2026-26 rates show a 3.95% increase across support worker categories, representing the largest increase in recent years. This compares to the 3.19% increase in 2024-25.
+### How do the 2025-26 NDIS charge rates compare to 2024-25?
+The 2025-26 rates show a 3.95% increase across support worker categories, representing the largest increase in recent years. This compares to the 3.19% increase in 2024-25.
 
-### What is the current NDIS support worker rate for 2026-26?
-Current NDIS support worker rates for 2026-26 range from $31.18–$35.34 per hour for unqualified workers, $33.26–$37.42 for qualified workers, and $37.42–$43.66 for team leaders and supervisors.
+### What is the current NDIS support worker rate for 2025-26?
+Current NDIS support worker rates for 2025-26 range from $31.18–$35.34 per hour for unqualified workers, $33.26–$37.42 for qualified workers, and $37.42–$43.66 for team leaders and supervisors.
 
 ### How does the 50% travel funding cut affect participants?
 The 50% travel funding cut primarily affects participants in rural and remote areas, potentially reducing access to therapy services and specialized supports due to increased travel costs for providers.
 
-### Where can I find the official NDIS Price Guide 2026-26?
-The official NDIS Price Guide 2026-26 can be accessed at [www.ndis.gov.au/providers/pricing-arrangements](https://www.ndis.gov.au/providers/pricing-arrangements), with the Support Catalogue available at the same location.
+### Where can I find the official NDIS Price Guide 2025-26?
+The official NDIS Price Guide 2025-26 can be accessed at [www.ndis.gov.au/providers/pricing-arrangements](https://www.ndis.gov.au/providers/pricing-arrangements), with the Support Catalogue available at the same location.
 
-### What are the new psychology rates in the NDIS Price Guide 2026-26?
-Psychology rates have been standardized at $223.99 per hour across all states in the 2026-26 guide, eliminating previous state-by-state variations.
+### What are the new psychology rates in the NDIS Price Guide 2025-26?
+Psychology rates have been standardized at $223.99 per hour across all states in the 2025-26 guide, eliminating previous state-by-state variations.
 
 ### How often is the NDIS Price Guide updated?
-The NDIS Price Guide is updated annually, typically released at the beginning of each financial year (July 1). The 2026-26 guide represents the most significant update in recent years.
+The NDIS Price Guide is updated annually, typically released at the beginning of each financial year (July 1). The 2025-26 guide represents the most significant update in recent years.
 
-### What is the NDIS behaviour support rate for 2026-26?
-The NDIS behaviour support rate increased by $10 to $232.99 per hour in the 2026-26 guide, reflecting the specialized nature of these services.
+### What is the NDIS behaviour support rate for 2025-26?
+The NDIS behaviour support rate increased by $10 to $232.99 per hour in the 2025-26 guide, reflecting the specialized nature of these services.
 
 ### How do I access NDIS pricing information for line items?
-For specific line item codes and billing information, refer to the NDIS Support Catalogue 2026-26 v1.1 or consult our detailed [NDIS Line Items Guide](/blog/ndis-line-items-guide/) for comprehensive code listings and pricing.
+For specific line item codes and billing information, refer to the NDIS Support Catalogue 2025-26 v1.1 or consult our detailed [NDIS Line Items Guide](/blog/ndis-line-items-guide/) for comprehensive code listings and pricing.
 
-### Where can I download the official NDIS Price Guide 2026-26 PDF?
-The official NDIS Price Guide 2026-26 v1.1 can be downloaded from [www.ndis.gov.au/providers/pricing-arrangements](https://www.ndis.gov.au/providers/pricing-arrangements). The current version (v1.1) is effective from 24 November 2026 and includes:
-- NDIS Pricing Arrangements and Price Limits 2026-26 v1.1 (PDF 1.3MB)
-- NDIS Support Catalogue 2026-26 v1.1 (XLSX 549KB)
+### Where can I download the official NDIS Price Guide 2025-26 PDF?
+The official NDIS Price Guide 2025-26 v1.1 can be downloaded from [www.ndis.gov.au/providers/pricing-arrangements](https://www.ndis.gov.au/providers/pricing-arrangements). The current version (v1.1) is effective from 24 November 2025 and includes:
+- NDIS Pricing Arrangements and Price Limits 2025-26 v1.1 (PDF 1.3MB)
+- NDIS Support Catalogue 2025-26 v1.1 (XLSX 549KB)
 
-*Source: NDIS Pricing Arrangements and Price Limits 2026-26 v1.1 (effective 24 November 2026). Visit [ndis.gov.au/providers/pricing-arrangements](https://www.ndis.gov.au/providers/pricing-arrangements) for the official documents.*
+*Source: NDIS Pricing Arrangements and Price Limits 2025-26 v1.1 (effective 24 November 2025). Visit [ndis.gov.au/providers/pricing-arrangements](https://www.ndis.gov.au/providers/pricing-arrangements) for the official documents.*
 
 ## Key Citations
 

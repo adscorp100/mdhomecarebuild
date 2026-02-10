@@ -528,4 +528,4 @@ Still need more ideas? Here are 50 additional examples of increased social and c
 
 ---
 
-*This guide was last updated January 2026 to reflect the latest NDIS pricing and policy changes. Always check the current NDIS Price Guide for the most accurate rates.*
+*This guide was last updated January 2025 to reflect the latest NDIS pricing and policy changes. Always check the current NDIS Price Guide for the most accurate rates.*

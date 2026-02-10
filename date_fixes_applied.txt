@@ -1,0 +1,261 @@
+MDH Blog Date Fixes Applied
+================================================================================
+
+Files fixed: 43
+Total changes: 126
+
+
+accc-ndis-provider-exploitation-report.md
+-----------------------------------------
+  • Month 2026: February 20262026
+
+accho-aboriginal-community-controlled-health-organisations-complete-guide.md
+----------------------------------------------------------------------------
+  • DD Month 2026: 1 July 20262026
+
+autism-school-holiday-programs-melbourne.md
+-------------------------------------------
+  • Month 2026: October 20262026
+  • Month 2026: January 20262026
+
+chsp-providers-complete-guide-australia.md
+------------------------------------------
+  • Month 2026: February 20262026
+  • Month 2026: February 20262026
+
+disability-support-worker-salary-pay-rates-australia.md
+-------------------------------------------------------
+  • Month 2026: January 20262026
+
+guide-buying-selling-donating-second-hand-disability-equipment-australia.md
+---------------------------------------------------------------------------
+  • Month 2026: February 20262026
+
+home-care-package-level-2.md
+----------------------------
+  • Month 2026: February 20262026
+
+how-to-choose-a-good-provider.md
+--------------------------------
+  • Month 2026: February 20262026
+
+how-to-find-ndis-clients-occupational-therapy.md
+------------------------------------------------
+  • Last updated date: Last updated: January 31, 2026
+  • Last updated date: last updated January 31, 2026
+
+how-to-get-physiotherapy-clients-ndis.md
+----------------------------------------
+  • Last updated date: Last updated: January 31, 2026
+  • Last updated date: last updated January 31, 2026
+
+how-to-get-support-worker-insurance-in-australia.md
+---------------------------------------------------
+  • Month 2026: January 20262026
+
+how-to-start-a-successful-ndis-business-in-australia.md
+-------------------------------------------------------
+  • Month 2026: January 20262026
+  • Month 2026: February 20262026
+
+mable-support-workers-ndis-complete-guide.md
+--------------------------------------------
+  • Month 2026: January 20262026
+  • Month 2026: September 20262026
+
+myplace-portal-ndis-complete-guide.md
+-------------------------------------
+  • DD Month 2026: 10 November 20262026
+
+ndis-application-support-help-guide.md
+--------------------------------------
+  • Month 2026: January 20262026
+
+ndis-capacity-building-supports-complete-guide.md
+-------------------------------------------------
+  • Month 2026: February 20262026
+
+ndis-improved-daily-living-cb-daily-activity-guide.md
+-----------------------------------------------------
+  • Month 2026: July 20262026
+
+ndis-invoice-template-guide.md
+------------------------------
+  • DD Month 2026: 17 December 20262026
+  • DD Month 2026: 31 December 20262026
+  • Month 2026: October 20262026
+  • Month 2026: October 20262026
+
+ndis-key-worker-model-complete-guide.md
+---------------------------------------
+  • Month 2026: October 20262026
+  • as of 2026: as of 2026
+
+ndis-line-items-guide-2024-25.md
+--------------------------------
+  • Month 2026: July 20262026
+
+ndis-news-latest-updates-australia.md
+-------------------------------------
+  • DD Month 2026: 1 October 20262026
+  • DD Month 2026: 9 February 20262026
+  • DD Month 2026: 2 October 20262026
+  • DD Month 2026: 3 October 20262026
+  • DD Month 2026: 1 July 20262026
+  • DD Month 2026: 24 November 20262026
+  • DD Month 2026: 24 November 20262026
+  • DD Month 2026: 1 July 20262026
+  • DD Month 2026: 19 May 20262026
+  • DD Month 2026: 1 January 20262026
+  • DD Month 2026: 11 November 20262026
+  • DD Month 2026: 1 July 20262026
+  • DD Month 2026: 2 October 20262026
+  • DD Month 2026: 10 February 20262026
+  • Month 2026: December 20262026
+  • Month 2026: February 20262026
+  • Month 2026: October 20262026
+  • Month 2026: January 20262026
+  • Month 2026: September 20262026
+  • Month 2026: March 20262026
+  • Month 2026: September 20262026
+
+ndis-pace-system-participant-guide.md
+-------------------------------------
+  • Month 2026: May 20262026
+  • Month 2026: May 20262026
+
+ndis-podiatry-client-acquisition.md
+-----------------------------------
+  • Updated date: updated January 31, 2026
+
+ndis-price-guide.md
+-------------------
+  • DD Month 2026: 24 November 20262026
+  • Month 2026: July 20262026
+  • Month 2026: July 20262026
+  • Month 2026: July 20262026
+
+ndis-psychology-practice-growth-without-ads.md
+----------------------------------------------
+  • Updated date: updated January 31, 2026
+
+ndis-reportable-incidents-complete-guide.md
+-------------------------------------------
+  • Month 2026: December 20262026
+
+ndis-reports-carer-impact-statements-templates-examples.md
+----------------------------------------------------------
+  • Month 2026: January 20262026
+
+ndis-respite-sta-accommodation-guide.md
+---------------------------------------
+  • Month 2026: October 20262026
+
+ndis-schedule-of-supports-template-guide.md
+-------------------------------------------
+  • Abbreviated month: Jun 20262026
+
+ndis-social-community-participation-guide.md
+--------------------------------------------
+  • Month 2026: January 20262026
+
+ndis-support-worker-hourly-rate.md
+----------------------------------
+  • Month 2026: July 20262026
+
+ndis-support-worker-pay-rates.md
+--------------------------------
+  • DD Month 2026: 1 January 20262026
+  • DD Month 2026: 27 January 20262026
+  • DD Month 2026: 18 April 20262026
+  • DD Month 2026: 19 April 20262026
+  • DD Month 2026: 21 April 20262026
+  • DD Month 2026: 25 April 20262026
+  • DD Month 2026: 25 December 20262026
+  • DD Month 2026: 26 December 20262026
+  • DD Month 2026: 1 January 20262026
+  • DD Month 2026: 26 January 20262026
+  • DD Month 2026: 3 April 20262026
+  • DD Month 2026: 4 April 20262026
+  • DD Month 2026: 6 April 20262026
+  • DD Month 2026: 27 April 20262026
+  • DD Month 2026: 25 December 20262026
+  • DD Month 2026: 28 December 20262026
+  • DD Month 2026: 9 June 20262026
+  • DD Month 2026: 8 June 20262026
+  • DD Month 2026: 6 October 20262026
+  • DD Month 2026: 5 October 20262026
+  • DD Month 2026: 23 September 20262026
+  • DD Month 2026: 28 September 20262026
+  • DD Month 2026: 4 November 20262026
+  • DD Month 2026: 26 September 20262026
+  • DD Month 2026: 4 August 20262026
+  • DD Month 2026: 27 May 20262026
+  • Month 2026: November 20262026
+  • Month 2026: November 20262026
+  • Month 2026: November 20262026
+  • Month 2026: November 20262026
+  • Month 2026: November 20262026
+
+new-aged-care-support-at-home-program.md
+----------------------------------------
+  • DD Month 2026: 1 July 20262026
+  • DD Month 2026: 1 July 20262026
+  • Month 2026: February 20262026
+  • Month 2026: February 20262026
+
+personal-accident-insurance-sole-trader-support-workers.md
+----------------------------------------------------------
+  • as of 2026: as of 2026
+
+refundable-accommodation-deposit-rad-guide.md
+---------------------------------------------
+  • DD Month 2026: 1 April 20262026
+
+sda-calculator-specialist-disability-accommodation.md
+-----------------------------------------------------
+
+self-managed-home-care-packages-australia.md
+--------------------------------------------
+  • Month 2026: July 20262026
+
+selling-deceased-estate-property-australia.md
+---------------------------------------------
+  • Abbreviated month: Jan 20262026
+
+support-at-home-prices.md
+-------------------------
+  • DD Month 2026: 1 July 20262026
+  • DD Month 2026: 24 March 20262026
+  • DD Month 2026: 1 July 20262026
+  • DD Month 2026: 1 July 20262026
+  • DD Month 2026: 1 July 20262026
+  • DD Month 2026: 1 July 20262026
+  • DD Month 2026: 24 March 20262026
+  • DD Month 2026: 1 July 20262026
+  • DD Month 2026: 1 July 20262026
+  • Month 2026: February 20262026
+  • Month 2026: March 20262026
+  • Month 2026: March 20262026
+
+support-at-home-program-complete-guide.md
+-----------------------------------------
+  • Month 2026: February 20262026
+  • Month 2026: February 20262026
+  • Month 2026: July 20262026
+
+support-coordinator-ndis-client-base-building.md
+------------------------------------------------
+  • Updated date: updated January 31, 2026
+
+support-coordinator-progress-report-template-ndis.md
+----------------------------------------------------
+  • DD Month 2026: 30 June 20262026
+  • DD Month 2026: 15 May 20262026
+  • DD Month 2026: 20 May 20262026
+  • DD Month 2026: 12 March 20262026
+  • DD Month 2026: 18 May 20262026
+
+what-makes-a-truly-great-disability-support-worker-australia.md
+---------------------------------------------------------------
+  • as of 2026: As of 2026

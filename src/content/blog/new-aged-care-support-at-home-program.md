@@ -11,7 +11,7 @@ image: "/assets/holdinglinen.webp"
 ---
 
 <!-- INTRODUCTION -->
-The Australian aged care system is undergoing its biggest reform in a decade. Starting from 1 July 2026, the new Support at Home program will replace the existing Home Care Packages (HCP) and Commonwealth Home Support Programme (CHSP). This change can feel unsettling, and it's normal to have questions and concerns about what it means for you or your loved ones.
+The Australian aged care system is undergoing its biggest reform in a decade. Starting from 1 July 2025, the new Support at Home program will replace the existing Home Care Packages (HCP) and Commonwealth Home Support Programme (CHSP). This change can feel unsettling, and it's normal to have questions and concerns about what it means for you or your loved ones.
 
 This guide is here to provide clarity. We will break down exactly what the Support at Home program is, explain the crucial new role of "care management," and address the real-world questions and worries people have about this transition.
 
@@ -26,7 +26,7 @@ In simple terms, the Support at Home program combines the different existing in-
 Here's what you need to know about the transition.
 
 ### 1. A Single, Streamlined Program
-From 1 July 2026, the multiple programs like the Commonwealth Home Support Programme (CHSP), Home Care Packages (HCP), and Short-Term Restorative Care will be combined into the single Support at Home program. The goal, as outlined by the [Department of Health and Aged Care](https://www.health.gov.au/our-work/support-at-home/about), is to make the system less confusing and more efficient.
+From 1 July 2025, the multiple programs like the Commonwealth Home Support Programme (CHSP), Home Care Packages (HCP), and Short-Term Restorative Care will be combined into the single Support at Home program. The goal, as outlined by the [Department of Health and Aged Care](https://www.health.gov.au/our-work/support-at-home/about), is to make the system less confusing and more efficient.
 
 ### 2. A New Assessment Process
 There will be a single assessment process to determine your needs. If you are already receiving services, you will not need a new assessment unless your needs change. The new process will focus on your individual goals and what support you need to live independently at home.
@@ -72,7 +72,7 @@ This is a common concern. The government has acknowledged the challenges in rura
 
 ## Recent Parliamentary Review: What It Means for Your Transition
 
-In February 2026, a Senate committee examined the readiness of the Support at Home Program, and their findings provide important context for anyone preparing for the transition.
+In February 2025, a Senate committee examined the readiness of the Support at Home Program, and their findings provide important context for anyone preparing for the transition.
 
 The Inspector General of Aged Care told the committee that the transition from CHSP to Support at Home "lacks clarity." This official assessment confirms what many people have been feeling about the upcoming changes. If you have been concerned about how the transition will work in practice, these parliamentary findings validate those concerns and suggest the government is taking them seriously.
 
@@ -82,7 +82,7 @@ The Inspector General also recommended improvements to My Aged Care, the system 
 
 These parliamentary findings show that oversight bodies are actively monitoring the transition and advocating for improvements. While this provides some reassurance, it also confirms that staying informed and working with experienced aged care advisors remains important as the system evolves.
 
-Source: Australian Ageing Agenda, February 2026
+Source: Australian Ageing Agenda, February 2025
 
 <!-- CONCLUSION & CTA (NO HEADER) -->
 The move to the Support at Home program is a major shift, but it is designed to create a better, fairer, and more user-friendly aged care system. The introduction of dedicated care management is a positive step towards more personalised and proactive support.

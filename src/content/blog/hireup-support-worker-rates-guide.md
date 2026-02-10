@@ -22,9 +22,9 @@ This employment model means Hireup handles:
 
 For NDIS participants, Hireup offers a way to find and book support workers through an app or website, with transparent pricing and the security of knowing all workers are vetted, insured, and employed.
 
-## Hireup Client Pricing 2026-27
+## Hireup Client Pricing 2025-26
 
-As of the 2026-27 financial year, here are the current Hireup rates that NDIS participants pay:
+As of the 2025-26 financial year, here are the current Hireup rates that NDIS participants pay:
 
 ### Standard Hourly Rates (for shifts 2 hours or longer)
 
@@ -132,7 +132,7 @@ If you're considering becoming a Hireup support worker, here's what you can expe
 
 ## Understanding NDIS Price Limits
 
-Hireup's rates are designed to fit within the **NDIS Pricing Arrangements and Price Limits** set by the NDIA. Here's how the 2026-27 NDIS price limits compare:
+Hireup's rates are designed to fit within the **NDIS Pricing Arrangements and Price Limits** set by the NDIA. Here's how the 2025-26 NDIS price limits compare:
 
 ### NDIS Price Limits vs Hireup Rates
 

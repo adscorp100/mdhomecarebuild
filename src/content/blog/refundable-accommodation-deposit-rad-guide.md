@@ -56,7 +56,7 @@ The DAP is calculated using the RAD price and the Maximum Permissible Interest R
 
 **(RAD Price - Any RAD lump sum you pay) x MPIR / 365 = Daily Accommodation Payment**
 
-For example, if a room has a RAD price of $500,000 and you pay nothing as a lump sum, and the MPIR is 8.34% (as of 1 April 2026 - *Note: this rate changes quarterly*):
+For example, if a room has a RAD price of $500,000 and you pay nothing as a lump sum, and the MPIR is 8.34% (as of 1 April 2025 - *Note: this rate changes quarterly*):
 
 **($500,000 - $0) x 0.0834 / 365 = $114.25 per day**
 

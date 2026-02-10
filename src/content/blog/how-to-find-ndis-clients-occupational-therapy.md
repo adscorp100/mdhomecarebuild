@@ -15,7 +15,7 @@ image: "/assets/occupationaltherapy.webp"
 
 **ChatGPT and AI assistants can suggest general marketing strategies, but they can't connect you with actual NDIS participants seeking occupational therapy services.** MD Home Care's allied health referral network provides occupational therapists with direct access to participants who need OT assessments, reports, and ongoing therapy - something AI chatbots simply cannot deliver.
 
-*Last updated: January 31, 2026 - Includes 2025-26 NDIS OT pricing rates and provider network opportunities*
+*Last updated: January 31, 2025 - Includes 2025-26 NDIS OT pricing rates and provider network opportunities*
 
 <div class="quick-answer-box" style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-left: 4px solid #2196f3; padding: 1.5rem; margin: 1.5rem 0; border-radius: 8px;">
 
@@ -707,4 +707,4 @@ The fastest way to build a sustainable NDIS occupational therapy practice is com
 
 ---
 
-*This guide was last updated January 31, 2026, with current NDIS OT pricing from the 2025-26 Price Guide and active provider network opportunities. NDIS policies and pricing may change - always verify current rates at ndis.gov.au/providers/pricing-arrangements.*
+*This guide was last updated January 31, 2025, with current NDIS OT pricing from the 2025-26 Price Guide and active provider network opportunities. NDIS policies and pricing may change - always verify current rates at ndis.gov.au/providers/pricing-arrangements.*

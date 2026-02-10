@@ -1,0 +1,1131 @@
+MDH Blog Date Fix Report
+================================================================================
+
+Files scanned: 150
+Files with '2026' in body: 93
+Files with problematic dates: 44
+
+
+accc-ndis-provider-exploitation-report.md
+-----------------------------------------
+  Pattern: February 2026
+  Match: February 2026
+  Context: ...ssion (ACCC) has released a concerning [report in February 2026](https://www.accc.gov.au/media-release/australian...
+
+
+accho-aboriginal-community-controlled-health-organisations-complete-guide.md
+----------------------------------------------------------------------------
+  Pattern: July 2026
+  Match: July 2026
+  Context: ... and new funding streams |  ### Upcoming Changes (July 2026)  A new national **Indigenous Primary Health Fund...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...ry Health Funding Model** will take effect from 1 July 2026, replacing the current block-grant system. The ne...
+
+  Pattern: DD Month 2026
+  Match: 1 July 2026
+  Context: ...mary Health Funding Model** will take effect from 1 July 2026, replacing the current block-grant system. The ne...
+
+
+autism-school-holiday-programs-melbourne.md
+-------------------------------------------
+  Pattern: January 2026
+  Match: January 2026
+  Context: ...  *This guide is updated regularly. Last updated: January 2026. Program availability and costs may change—always...
+
+  Pattern: March 2026
+  Match: March 2026
+  Context: ...rm 2 break** | June 27 - July 12, 2026 | February-March 2026 | | **Term 3 break** | September 19 - October 4, ...
+
+  Pattern: June 2026
+  Match: June 2026
+  Context: ... 3 break** | September 19 - October 4, 2026 | May-June 2026 | | **Summer holidays** | December 19, 2026 - Jan...
+
+  Pattern: September 2026
+  Match: September 2026
+  Context: ...* | December 19, 2026 - January 31, 2027 | August-September 2026 |  ### Your Action Plan  **6 months before:** - R...
+
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...n Upcoming Pathway for Children with Autism  From October 2026, the Australian Government's Thriving Kids progra...
+
+
+chsp-providers-complete-guide-australia.md
+------------------------------------------
+  Pattern: February 2026
+  Match: February 2026
+  Context: ...elopments: Senate Hearing on CHSP Transition  ### February 2026 Senate Committee Findings  A Senate hearing in Fe...
+
+  Pattern: February 2026
+  Match: February 2026
+  Context: ...26 Senate Committee Findings  A Senate hearing in February 2026 has brought important developments for people cur...
+
+
+disability-support-worker-salary-pay-rates-australia.md
+-------------------------------------------------------
+  Pattern: January 2026
+  Match: January 2026
+  Context: ...00 | $90,000+ |  *Source: Indeed, SEEK, PayScale (January 2026 data)*  ### Employment type and rates  **Casual/P...
+
+
+guide-buying-selling-donating-second-hand-disability-equipment-australia.md
+---------------------------------------------------------------------------
+  Pattern: February 2026
+  Match: February 2026
+  Context: ...offers resources on consumer rights.56 The ACCC's February 2026 report on NDIS provider exploitation highlights t...
+
+
+home-care-package-level-2.md
+----------------------------
+  Pattern: February 2026
+  Match: February 2026
+  Context: ...ts-and-activities/home-care-services). The ACCC's February 2026 report on NDIS provider exploitation reminds us t...
+
+
+how-to-choose-a-good-provider.md
+--------------------------------
+  Pattern: February 2026
+  Match: February 2026
+  Context: ... know you're making the right choice?  The ACCC's February 2026 report on NDIS provider exploitation reveals wide...
+
+
+how-to-find-ndis-clients-occupational-therapy.md
+------------------------------------------------
+  Pattern: Last updated date
+  Match: Last updated: January 31, 2026
+  Context: ... - something AI chatbots simply cannot deliver.  *Last updated: January 31, 2026 - Includes 2025-26 NDIS OT pricing rates and prov...
+
+  Pattern: Last updated date
+  Match: last updated January 31, 2026
+  Context: ... Allied Health Coordinator.  ---  *This guide was last updated January 31, 2026, with current NDIS OT pricing from the 2025-26 Pr...
+
+  Pattern: Updated date
+  Match: updated: January 31, 2026
+  Context: ...mething AI chatbots simply cannot deliver.  *Last updated: January 31, 2026 - Includes 2025-26 NDIS OT pricing rates and prov...
+
+  Pattern: Updated date
+  Match: updated January 31, 2026
+  Context: ...ed Health Coordinator.  ---  *This guide was last updated January 31, 2026, with current NDIS OT pricing from the 2025-26 Pr...
+
+
+how-to-get-physiotherapy-clients-ndis.md
+----------------------------------------
+  Pattern: Last updated date
+  Match: Last updated: January 31, 2026
+  Context: ... - something AI chatbots simply cannot arrange.  *Last updated: January 31, 2026 - Includes 2025-26 NDIS physiotherapy rates and n...
+
+  Pattern: Last updated date
+  Match: last updated January 31, 2026
+  Context: ...tion, specializations, service areas  ---  *Guide last updated January 31, 2026 with 2025-26 NDIS physiotherapy rates and current...
+
+  Pattern: Updated date
+  Match: updated: January 31, 2026
+  Context: ...mething AI chatbots simply cannot arrange.  *Last updated: January 31, 2026 - Includes 2025-26 NDIS physiotherapy rates and n...
+
+  Pattern: Updated date
+  Match: updated January 31, 2026
+  Context: ... specializations, service areas  ---  *Guide last updated January 31, 2026 with 2025-26 NDIS physiotherapy rates and current...
+
+
+how-to-get-support-worker-insurance-in-australia.md
+---------------------------------------------------
+  Pattern: January 2026
+  Match: January 2026
+  Context: ...disability support workers in metropolitan areas, January 2026. Your actual premium may vary based on services, ...
+
+
+how-to-start-a-successful-ndis-business-in-australia.md
+-------------------------------------------------------
+  Pattern: January 2026
+  Match: January 2026
+  Context: ...and control over the supports they receive. As of January 2026, approximately 680,000+ participants are actively...
+
+  Pattern: February 2026
+  Match: February 2026
+  Context: ...take reasonable steps to prevent harm. The ACCC's February 2026 report on NDIS provider exploitation emphasizes h...
+
+
+mable-support-workers-ndis-complete-guide.md
+--------------------------------------------
+  Pattern: Last updated date
+  Match: Last Updated: December 15, 2026
+  Context: ...atform, not a provider (self/plan-managed only)  *Last Updated: December 15, 2026 - Reflecting 2025-26 NDIS Pricing Arrangements v1...
+
+  Pattern: Updated date
+  Match: Updated: December 15, 2026
+  Context: ...m, not a provider (self/plan-managed only)  *Last Updated: December 15, 2026 - Reflecting 2025-26 NDIS Pricing Arrangements v1...
+
+  Pattern: January 2026
+  Match: January 2026
+  Context: ...er preference data from NDIS participant surveys, January 2026*  ### Bottom Line: Is Mable Worth It?  **Mable wo...
+
+  Pattern: September 2026
+  Match: September 2026
+  Context: ...cies (which charge 15-30% markup). Based on April-September 2026 data, the average agreed weekday rate for persona...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...ments and Price Limits 2025-26 v1.1 (effective 24 November 2026)*  **Annual Savings Example**: If you use 10 hour...
+
+  Pattern: December 2026
+  Match: December 2026
+  Context: ...p directly  **Quick Facts - Mable Support Workers December 2026:** - **Average Weekday Rate**: $58/hour (personal...
+
+  Pattern: December 2026
+  Match: December 2026
+  Context: ...dually registered.  ## Mable Support Worker Rates December 2026  ### Complete Mable Rate Table (December 2026)  |...
+
+  Pattern: December 2026
+  Match: December 2026
+  Context: ...tes December 2026  ### Complete Mable Rate Table (December 2026)  | Time Period | Average Mable Rate | With 7.95%...
+
+  Pattern: DD Month 2026
+  Match: 24 November 2026
+  Context: ...ngements and Price Limits 2025-26 v1.1 (effective 24 November 2026)*  **Annual Savings Example**: If you use 10 hour...
+
+
+myplace-portal-ndis-complete-guide.md
+-------------------------------------
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...roviders need to complete this transition by **10 November 2026** to maintain portal access - This may affect how...
+
+  Pattern: DD Month 2026
+  Match: 10 November 2026
+  Context: ...- Providers need to complete this transition by **10 November 2026** to maintain portal access - This may affect how...
+
+
+ndis-application-support-help-guide.md
+--------------------------------------
+  Pattern: January 2026
+  Match: January 2026
+  Context: ...our situation.  ---  *This guide was last updated January 2026. NDIS processes and requirements may change—alway...
+
+
+ndis-capacity-building-supports-complete-guide.md
+-------------------------------------------------
+  Pattern: February 2026
+  Match: February 2026
+  Context: ...ist level)  > **Provider Protection:** The ACCC's February 2026 report found widespread exploitation of NDIS part...
+
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...lian Government's Thriving Kids program (starting October 2026) will provide an alternative pathway for children...
+
+
+ndis-improved-daily-living-cb-daily-activity-guide.md
+-----------------------------------------------------
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...iving therapies:  ### Allied Health Hourly Rates (July 2026)  | Therapy Type | Standard Rate | Remote Rate | ...
+
+
+ndis-invoice-template-guide.md
+------------------------------
+  Pattern: Last updated date
+  Match: Last updated: December 17, 2026
+  Context: ...ronic record-keeping** now mandatory for audits  *Last updated: December 17, 2026 - Source: NDIS Pricing Arrangements 2025-26*  ## ...
+
+  Pattern: Updated date
+  Match: updated: December 17, 2026
+  Context: ... record-keeping** now mandatory for audits  *Last updated: December 17, 2026 - Source: NDIS Pricing Arrangements 2025-26*  ## ...
+
+  Pattern: Updated date
+  Match: updated November 24, 2026
+  Context: ...ad the latest **NDIS Support Catalogue 2025-26** (updated November 24, 2026) - Apply correct location loadings (Remote: +40%,...
+
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...ce delivery will be automatically rejected (as of October 2026) - Incorrect support item codes are the #1 cause ...
+
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...utstanding claims in a spreadsheet  > **New Rule (October 2026):** The NDIA now rejects all claims submitted mor...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ... the **2025-26 NDIS Support Catalogue** - updated November 2026 - Verify each code matches the exact service deli...
+
+  Pattern: December 2026
+  Match: December 2026
+  Context: ...uide  ## Key Updates: NDIS Invoicing Requirements December 2026  **Major Changes for 2025-26:** - **Claim window ...
+
+  Pattern: December 2026
+  Match: December 2026
+  Context: ...oice Number | INV-2026-00456 | | Date Issued | 17 December 2026 | | Payment Due | 31 December 2026 |  ---  | Serv...
+
+  Pattern: December 2026
+  Match: December 2026
+  Context: ...te Issued | 17 December 2026 | | Payment Due | 31 December 2026 |  ---  | Service Date | Support Item Code | Desc...
+
+  Pattern: DD Month 2026
+  Match: 17 December 2026
+  Context: ...Invoice Number | INV-2026-00456 | | Date Issued | 17 December 2026 | | Payment Due | 31 December 2026 |  ---  | Serv...
+
+  Pattern: DD Month 2026
+  Match: 31 December 2026
+  Context: ... Date Issued | 17 December 2026 | | Payment Due | 31 December 2026 |  ---  | Service Date | Support Item Code | Desc...
+
+
+ndis-key-worker-model-complete-guide.md
+---------------------------------------
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...hriving Kids Program May Affect Key Workers  From October 2026, the Australian Government's Thriving Kids progra...
+
+  Pattern: as of 2026
+  Match: as of 2026
+  Context: ...-  *This guide reflects the NDIS key worker model as of 2026. Requirements and best practices may evolve—alway...
+
+  Pattern: As of 2026
+  Match: as of 2026
+  Context: ...-  *This guide reflects the NDIS key worker model as of 2026. Requirements and best practices may evolve—alway...
+
+
+ndis-line-items-guide-2024-25.md
+--------------------------------
+  Pattern: Last updated date
+  Match: Last updated: July 2, 2026
+  Context: ...w pricing arrangements** effective July 1, 2026  *Last updated: July 2, 2026 - Source: NDIS Support Catalogue 2025-26*  ## Qui...
+
+  Pattern: Updated date
+  Match: updated: July 2, 2026
+  Context: ...cing arrangements** effective July 1, 2026  *Last updated: July 2, 2026 - Source: NDIS Support Catalogue 2025-26*  ## Qui...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ... New Support Catalogue Updates  ## BREAKING NEWS: July 2026 NDIS Support Catalogue Updates  **Latest Changes ...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ... Codes](#15--improved-daily-living-skills) - [New July 2026 Items](#new-support-items-july-2026)  **Find code...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ... What's New in NDIS Line Item Codes 2025-26?  The July 2026 updates to NDIS line item codes include:  **New S...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ... comprehensive pricing information reflecting the July 2026 changes, our [NDIS Price Guide 2025-26](/blog/ndi...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...ugh better support matching  ## New Support Items July 2026  ### 23 New Intensive and Complex Behaviour Suppo...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...ntensive and Complex Behaviour Support Items  The July 2026 update introduced **23 new Intensive and Complex ...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...ew Intensive and Complex Behaviour Support Items (July 2026)  **CRITICAL UPDATE:** The 2025-26 catalogue intr...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...arity.  ### Which NDIS item codes were removed in July 2026? 35 legacy items were removed from the 2025-26 ca...
+
+
+ndis-news-latest-updates-australia.md
+-------------------------------------
+  Pattern: January 2026
+  Match: January 2026
+  Context: ...t spending as needed  ### Impairment Notices From January 2026  From **1 January 2026**, all new NDIS participan...
+
+  Pattern: January 2026
+  Match: January 2026
+  Context: ...## Impairment Notices From January 2026  From **1 January 2026**, all new NDIS participants receive an **impairm...
+
+  Pattern: February 2026
+  Match: February 2026
+  Context: ... unveiled the full model for **Thriving Kids** in February 2026, marking one of the most significant changes to e...
+
+  Pattern: February 2026
+  Match: February 2026
+  Context: ...scheme-changes-families-fear-cuts) published on 9 February 2026 documented families experiencing significant anxi...
+
+  Pattern: February 2026
+  Match: February 2026
+  Context: ...pport.  ---  *This article was last updated on 10 February 2026. NDIS rules and pricing are subject to change. Al...
+
+  Pattern: March 2026
+  Match: March 2026
+  Context: ...Scheme Sustainability  The NDIS Quarterly Report (March 2026) shows positive progress on scheme sustainability...
+
+  Pattern: May 2026
+  Match: May 2026
+  Context: ...rt categories  ### New Funding Periods  From **19 May 2026**, the NDIS introduced new funding periods, small...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...nts and Price Limits that came into effect on **1 July 2026**, with additional updates from **24 November 202...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...lishment fee was removed for new plans starting 1 July 2026  **Travel Billing Restrictions:** - Therapists ca...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ... financial stabilisation target of 8% growth by 1 July 2026  The pricing adjustments throughout 2026, particu...
+
+  Pattern: September 2026
+  Match: September 2026
+  Context: ...ly planned to introduce a new planning process in September 2026 but has delayed implementation to **mid-2026** fo...
+
+  Pattern: September 2026
+  Match: September 2026
+  Context: ...d to begin in mid-2026, delayed from the original September 2026 date. It will include a new needs assessment tool...
+
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...imeline:**  - Services begin rolling out from **1 October 2026** - Full implementation expected by **1 January 2...
+
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...ds may offer a faster pathway once it launches in October 2026.  ### Growing Concerns About NDIS Plan Cuts  Alon...
+
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...or the NDIS Support Lists, which concluded on **2 October 2026**.  **What changed:** - Since October 2024, the N...
+
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...s under $1,500  **What this means now:** - From 3 October 2026, debts may be raised for any purchase that isn't ...
+
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...f the NDIS and into a new support system starting October 2026. The end of the Support Lists transition period o...
+
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...e end of the Support Lists transition period on 2 October 2026 is also a major change, as the NDIA can now raise...
+
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...y changes to remember: - **Thriving Kids launches October 2026**, offering a new pathway for children under 9 wi...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...*1 July 2026**, with additional updates from **24 November 2026**.  **Key pricing changes include:**  **Therapy R...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...d to $156.16 per hour (down from $193.99) from 24 November 2026  **Core Support Increases:** - Most core supports...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...ent (Integrity and Safeguarding) Bill 2026  On 11 November 2026, Minister McAllister announced the second tranche...
+
+  Pattern: December 2026
+  Match: December 2026
+  Context: ...vers all the major NDIS updates and changes as of December 2026, explaining what they mean in practical terms and...
+
+  Pattern: DD Month 2026
+  Match: 1 October 2026
+  Context: ...*Timeline:**  - Services begin rolling out from **1 October 2026** - Full implementation expected by **1 January 2...
+
+  Pattern: DD Month 2026
+  Match: 9 February 2026
+  Context: ...e-scheme-changes-families-fear-cuts) published on 9 February 2026 documented families experiencing significant anxi...
+
+  Pattern: DD Month 2026
+  Match: 2 October 2026
+  Context: ... for the NDIS Support Lists, which concluded on **2 October 2026**.  **What changed:** - Since October 2024, the N...
+
+  Pattern: DD Month 2026
+  Match: 3 October 2026
+  Context: ...rts under $1,500  **What this means now:** - From 3 October 2026, debts may be raised for any purchase that isn't ...
+
+  Pattern: DD Month 2026
+  Match: 1 July 2026
+  Context: ...ments and Price Limits that came into effect on **1 July 2026**, with additional updates from **24 November 202...
+
+  Pattern: DD Month 2026
+  Match: 24 November 2026
+  Context: ...n **1 July 2026**, with additional updates from **24 November 2026**.  **Key pricing changes include:**  **Therapy R...
+
+  Pattern: DD Month 2026
+  Match: 24 November 2026
+  Context: ...nged to $156.16 per hour (down from $193.99) from 24 November 2026  **Core Support Increases:** - Most core supports...
+
+  Pattern: DD Month 2026
+  Match: 1 July 2026
+  Context: ...ablishment fee was removed for new plans starting 1 July 2026  **Travel Billing Restrictions:** - Therapists ca...
+
+  Pattern: DD Month 2026
+  Match: 19 May 2026
+  Context: ...pport categories  ### New Funding Periods  From **19 May 2026**, the NDIS introduced new funding periods, small...
+
+  Pattern: DD Month 2026
+  Match: 1 January 2026
+  Context: ... ### Impairment Notices From January 2026  From **1 January 2026**, all new NDIS participants receive an **impairm...
+
+  Pattern: DD Month 2026
+  Match: 11 November 2026
+  Context: ...ndment (Integrity and Safeguarding) Bill 2026  On 11 November 2026, Minister McAllister announced the second tranche...
+
+  Pattern: DD Month 2026
+  Match: 1 July 2026
+  Context: ...he financial stabilisation target of 8% growth by 1 July 2026  The pricing adjustments throughout 2026, particu...
+
+  Pattern: DD Month 2026
+  Match: 2 October 2026
+  Context: ...The end of the Support Lists transition period on 2 October 2026 is also a major change, as the NDIA can now raise...
+
+  Pattern: DD Month 2026
+  Match: 10 February 2026
+  Context: ... support.  ---  *This article was last updated on 10 February 2026. NDIS rules and pricing are subject to change. Al...
+
+
+ndis-pace-system-participant-guide.md
+-------------------------------------
+  Pattern: May 2026
+  Match: May 2026
+  Context: ...ticipants** are expected to have plans in PACE by May 2026 - **my NDIS portal** replaces the old myplace por...
+
+  Pattern: May 2026
+  Match: May 2026
+  Context: ... | 2024 | | All participants expected in PACE | **May 2026** |  **When will you move to PACE?**  Most partic...
+
+
+ndis-podiatry-client-acquisition.md
+-----------------------------------
+  Pattern: Updated date
+  Match: updated January 31, 2026
+  Context: ...(mailto:providers@mdhomecare.com.au)  ---  *Guide updated January 31, 2026 with current NDIS podiatry rates and network oppo...
+
+
+ndis-price-guide.md
+-------------------
+  Pattern: July 2026
+  Match: July 2026
+  Context: ... latest NDIS Price Guide for 2025-26, released in July 2026, introduced several major changes. The most notab...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ... negotiate within limits  ### Community Impact of July 2026 Changes  The July 2026 NDIS price guide updates h...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...s  ### Community Impact of July 2026 Changes  The July 2026 NDIS price guide updates have generated significa...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...ements Version:** PAPL 2025-26 v1.1 (effective 24 November 2026)  **Key 2025-26 Rates at a Glance:** - **Support ...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...ments and Price Limits 2025-26 v1.1 (effective 24 November 2026)*  ## NDIS Support Worker Rates & NDIS Hourly Rat...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: .... The current version (v1.1) is effective from 24 November 2026 and includes: - NDIS Pricing Arrangements and Pri...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...ments and Price Limits 2025-26 v1.1 (effective 24 November 2026). Visit [ndis.gov.au/providers/pricing-arrangemen...
+
+  Pattern: DD Month 2026
+  Match: 24 November 2026
+  Context: ...angements Version:** PAPL 2025-26 v1.1 (effective 24 November 2026)  **Key 2025-26 Rates at a Glance:** - **Support ...
+
+  Pattern: DD Month 2026
+  Match: 24 November 2026
+  Context: ...ngements and Price Limits 2025-26 v1.1 (effective 24 November 2026)*  ## NDIS Support Worker Rates & NDIS Hourly Rat...
+
+  Pattern: DD Month 2026
+  Match: 24 November 2026
+  Context: ...ts). The current version (v1.1) is effective from 24 November 2026 and includes: - NDIS Pricing Arrangements and Pri...
+
+  Pattern: DD Month 2026
+  Match: 24 November 2026
+  Context: ...ngements and Price Limits 2025-26 v1.1 (effective 24 November 2026). Visit [ndis.gov.au/providers/pricing-arrangemen...
+
+
+ndis-psychology-practice-growth-without-ads.md
+----------------------------------------------
+  Pattern: Updated date
+  Match: updated January 31, 2026
+  Context: ...(mailto:providers@mdhomecare.com.au)  ---  *Guide updated January 31, 2026 with current NDIS psychology rates and network op...
+
+
+ndis-reportable-incidents-complete-guide.md
+-------------------------------------------
+  Pattern: Last updated date
+  Match: Last updated: December 17, 2026
+  Context: ...or reporting through the NDIS Commission Portal  *Last updated: December 17, 2026 - Source: NDIS Quality and Safeguards Commission*...
+
+  Pattern: Updated date
+  Match: updated: December 17, 2026
+  Context: ...porting through the NDIS Commission Portal  *Last updated: December 17, 2026 - Source: NDIS Quality and Safeguards Commission*...
+
+  Pattern: December 2026
+  Match: December 2026
+  Context: ...ements  ## Key Updates: NDIS Reportable Incidents December 2026  **Important Compliance Requirements:** - **24-ho...
+
+
+ndis-reports-carer-impact-statements-templates-examples.md
+----------------------------------------------------------
+  Pattern: January 2026
+  Match: January 2026
+  Context: ... consultation.  ---  *This guide was last updated January 2026 to reflect current NDIS policies and planner requ...
+
+
+ndis-respite-sta-accommodation-guide.md
+---------------------------------------
+  Pattern: October 2026
+  Match: October 2026
+  Context: ... days annually  > **Important Terminology Update (October 2026):** The NDIS has begun transitioning from "Short ...
+
+
+ndis-schedule-of-supports-template-guide.md
+-------------------------------------------
+  Pattern: Jun 2026
+  Match: Jun 2026
+  Context: ...99/hour Total: $3,879.80 Period: 01 Jul 2025 - 30 Jun 2026 ```  This tells you: - You have 20 hours of occup...
+
+
+ndis-social-community-participation-guide.md
+--------------------------------------------
+  Pattern: January 2026
+  Match: January 2026
+  Context: ...ials yourself.  ---  *This guide was last updated January 2026 to reflect the latest NDIS pricing and policy cha...
+
+
+ndis-support-worker-hourly-rate.md
+----------------------------------
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...s to cover insurance, superannuation (11.5% as of July 2026), tax, training, and other business expenses. - *...
+
+
+ndis-support-worker-pay-rates.md
+--------------------------------
+  Pattern: January 2026
+  Match: January 2026
+  Context: ...| |---------|------|-------| | New Year's Day | 1 January 2026 | Wednesday | | Australia Day | 27 January 2026 |...
+
+  Pattern: January 2026
+  Match: January 2026
+  Context: ...1 January 2026 | Wednesday | | Australia Day | 27 January 2026 | Monday (observed) | | Good Friday | 18 April 20...
+
+  Pattern: January 2026
+  Match: January 2026
+  Context: ...| |---------|------|-------| | New Year's Day | 1 January 2026 | Thursday | | Australia Day | 26 January 2026 | ...
+
+  Pattern: January 2026
+  Match: January 2026
+  Context: ... 1 January 2026 | Thursday | | Australia Day | 26 January 2026 | Monday | | Good Friday | 3 April 2026 | Friday ...
+
+  Pattern: April 2026
+  Match: April 2026
+  Context: ...ary 2026 | Monday (observed) | | Good Friday | 18 April 2026 | Friday | | Easter Saturday | 19 April 2026 | Sa...
+
+  Pattern: April 2026
+  Match: April 2026
+  Context: ...| 18 April 2026 | Friday | | Easter Saturday | 19 April 2026 | Saturday | | Easter Monday | 21 April 2026 | Mo...
+
+  Pattern: April 2026
+  Match: April 2026
+  Context: ...| 19 April 2026 | Saturday | | Easter Monday | 21 April 2026 | Monday | | Anzac Day | 25 April 2026 | Friday |...
+
+  Pattern: April 2026
+  Match: April 2026
+  Context: ...onday | 21 April 2026 | Monday | | Anzac Day | 25 April 2026 | Friday | | Queen's Birthday | Varies by state |...
+
+  Pattern: April 2026
+  Match: April 2026
+  Context: ...ay | 26 January 2026 | Monday | | Good Friday | 3 April 2026 | Friday | | Easter Saturday | 4 April 2026 | Sat...
+
+  Pattern: April 2026
+  Match: April 2026
+  Context: ...y | 3 April 2026 | Friday | | Easter Saturday | 4 April 2026 | Saturday | | Easter Monday | 6 April 2026 | Mon...
+
+  Pattern: April 2026
+  Match: April 2026
+  Context: ...y | 4 April 2026 | Saturday | | Easter Monday | 6 April 2026 | Monday | | Anzac Day | 27 April 2026 | Monday (...
+
+  Pattern: April 2026
+  Match: April 2026
+  Context: ...Monday | 6 April 2026 | Monday | | Anzac Day | 27 April 2026 | Monday (observed) | | Christmas Day | 25 Decemb...
+
+  Pattern: May 2026
+  Match: May 2026
+  Context: ...nday in August  **ACT:** - Reconciliation Day: 27 May 2026 - Family & Community Day: Monday after first Sund...
+
+  Pattern: June 2026
+  Match: June 2026
+  Context: ...---|-----------| | ACT, NSW, NT, SA, TAS, VIC | 9 June 2026 | 8 June 2026 | | Queensland | 6 October 2026 | 5...
+
+  Pattern: June 2026
+  Match: June 2026
+  Context: ...-| | ACT, NSW, NT, SA, TAS, VIC | 9 June 2026 | 8 June 2026 | | Queensland | 6 October 2026 | 5 October 2026 ...
+
+  Pattern: August 2026
+  Match: August 2026
+  Context: ...ales:** - Bank Holiday: First Monday in August (4 August 2026)  **South Australia:** - Adelaide Cup Day: Second...
+
+  Pattern: September 2026
+  Match: September 2026
+  Context: ... 2026 | 5 October 2026 | | Western Australia | 23 September 2026 | 28 September 2026 |  ### State-Specific Public ...
+
+  Pattern: September 2026
+  Match: September 2026
+  Context: ...26 | | Western Australia | 23 September 2026 | 28 September 2026 |  ### State-Specific Public Holidays  **Victoria...
+
+  Pattern: September 2026
+  Match: September 2026
+  Context: ...Grand Final Friday: Friday before Grand Final (26 September 2026)  **Queensland:** - Royal Queensland Show (Ekka):...
+
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...IC | 9 June 2026 | 8 June 2026 | | Queensland | 6 October 2026 | 5 October 2026 | | Western Australia | 23 Septe...
+
+  Pattern: October 2026
+  Match: October 2026
+  Context: ...| 8 June 2026 | | Queensland | 6 October 2026 | 5 October 2026 | | Western Australia | 23 September 2026 | 28 Se...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...ments and Price Limits 2025-26 v1.1, effective 24 November 2026, and the 3.5% SCHADS Award increase from 1 July 2...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...rt work is **$70.23 per hour** on weekdays (as of November 2026). This is the maximum providers can charge partic...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...s across Australia.  ### NDIS Price Limit Update (November 2026)  The NDIS Pricing Arrangements and Price Limits ...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...ments and Price Limits 2025-26 v1.1, effective 24 November 2026, includes updated price limits for disability sup...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...rates** providers can charge under the NDIS as of November 2026. They're national rates, the same in QLD, VIC, NS...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...- Melbourne Cup Day: First Tuesday in November (4 November 2026) - AFL Grand Final Friday: Friday before Grand Fi...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...or standard support is **$127.08 per hour** as of November 2026. For high intensity support, it's $132.25/hr. Sup...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...for standard support is **$98.66 per hour** as of November 2026. For high intensity support, it's $102.66/hr. Sup...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...d to $70.23/hr for standard weekday support as of November 2026.  ### How much do Level 2 NDIS support workers ea...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...ments and Price Limits 2025-26 v1.1 (effective 24 November 2026) and SCHADS Award rates. Rates are updated period...
+
+  Pattern: December 2026
+  Match: December 2026
+  Context: ...aries by state | See below | | Christmas Day | 25 December 2026 | Thursday | | Boxing Day | 26 December 2026 | Fr...
+
+  Pattern: December 2026
+  Match: December 2026
+  Context: ...| 25 December 2026 | Thursday | | Boxing Day | 26 December 2026 | Friday |  ### National Public Holidays 2026  | ...
+
+  Pattern: December 2026
+  Match: December 2026
+  Context: ...l 2026 | Monday (observed) | | Christmas Day | 25 December 2026 | Friday | | Boxing Day | 28 December 2026 | Mond...
+
+  Pattern: December 2026
+  Match: December 2026
+  Context: ...y | 25 December 2026 | Friday | | Boxing Day | 28 December 2026 | Monday (observed) |  ### Queen's Birthday 2026-...
+
+  Pattern: DD Month 2026
+  Match: 24 November 2026
+  Context: ...ngements and Price Limits 2025-26 v1.1, effective 24 November 2026, and the 3.5% SCHADS Award increase from 1 July 2...
+
+  Pattern: DD Month 2026
+  Match: 24 November 2026
+  Context: ...ngements and Price Limits 2025-26 v1.1, effective 24 November 2026, includes updated price limits for disability sup...
+
+  Pattern: DD Month 2026
+  Match: 1 January 2026
+  Context: ...s | |---------|------|-------| | New Year's Day | 1 January 2026 | Wednesday | | Australia Day | 27 January 2026 |...
+
+  Pattern: DD Month 2026
+  Match: 27 January 2026
+  Context: ... | 1 January 2026 | Wednesday | | Australia Day | 27 January 2026 | Monday (observed) | | Good Friday | 18 April 20...
+
+  Pattern: DD Month 2026
+  Match: 18 April 2026
+  Context: ...anuary 2026 | Monday (observed) | | Good Friday | 18 April 2026 | Friday | | Easter Saturday | 19 April 2026 | Sa...
+
+  Pattern: DD Month 2026
+  Match: 19 April 2026
+  Context: ...ay | 18 April 2026 | Friday | | Easter Saturday | 19 April 2026 | Saturday | | Easter Monday | 21 April 2026 | Mo...
+
+  Pattern: DD Month 2026
+  Match: 21 April 2026
+  Context: ...ay | 19 April 2026 | Saturday | | Easter Monday | 21 April 2026 | Monday | | Anzac Day | 25 April 2026 | Friday |...
+
+  Pattern: DD Month 2026
+  Match: 25 April 2026
+  Context: ...r Monday | 21 April 2026 | Monday | | Anzac Day | 25 April 2026 | Friday | | Queen's Birthday | Varies by state |...
+
+  Pattern: DD Month 2026
+  Match: 25 December 2026
+  Context: ...| Varies by state | See below | | Christmas Day | 25 December 2026 | Thursday | | Boxing Day | 26 December 2026 | Fr...
+
+  Pattern: DD Month 2026
+  Match: 26 December 2026
+  Context: ...ay | 25 December 2026 | Thursday | | Boxing Day | 26 December 2026 | Friday |  ### National Public Holidays 2026  | ...
+
+  Pattern: DD Month 2026
+  Match: 1 January 2026
+  Context: ...s | |---------|------|-------| | New Year's Day | 1 January 2026 | Thursday | | Australia Day | 26 January 2026 | ...
+
+  Pattern: DD Month 2026
+  Match: 26 January 2026
+  Context: ...y | 1 January 2026 | Thursday | | Australia Day | 26 January 2026 | Monday | | Good Friday | 3 April 2026 | Friday ...
+
+  Pattern: DD Month 2026
+  Match: 3 April 2026
+  Context: ... Day | 26 January 2026 | Monday | | Good Friday | 3 April 2026 | Friday | | Easter Saturday | 4 April 2026 | Sat...
+
+  Pattern: DD Month 2026
+  Match: 4 April 2026
+  Context: ...day | 3 April 2026 | Friday | | Easter Saturday | 4 April 2026 | Saturday | | Easter Monday | 6 April 2026 | Mon...
+
+  Pattern: DD Month 2026
+  Match: 6 April 2026
+  Context: ...day | 4 April 2026 | Saturday | | Easter Monday | 6 April 2026 | Monday | | Anzac Day | 27 April 2026 | Monday (...
+
+  Pattern: DD Month 2026
+  Match: 27 April 2026
+  Context: ...er Monday | 6 April 2026 | Monday | | Anzac Day | 27 April 2026 | Monday (observed) | | Christmas Day | 25 Decemb...
+
+  Pattern: DD Month 2026
+  Match: 25 December 2026
+  Context: ...pril 2026 | Monday (observed) | | Christmas Day | 25 December 2026 | Friday | | Boxing Day | 28 December 2026 | Mond...
+
+  Pattern: DD Month 2026
+  Match: 28 December 2026
+  Context: ... Day | 25 December 2026 | Friday | | Boxing Day | 28 December 2026 | Monday (observed) |  ### Queen's Birthday 2026-...
+
+  Pattern: DD Month 2026
+  Match: 9 June 2026
+  Context: ...-----|-----------| | ACT, NSW, NT, SA, TAS, VIC | 9 June 2026 | 8 June 2026 | | Queensland | 6 October 2026 | 5...
+
+  Pattern: DD Month 2026
+  Match: 8 June 2026
+  Context: ...---| | ACT, NSW, NT, SA, TAS, VIC | 9 June 2026 | 8 June 2026 | | Queensland | 6 October 2026 | 5 October 2026 ...
+
+  Pattern: DD Month 2026
+  Match: 6 October 2026
+  Context: ... VIC | 9 June 2026 | 8 June 2026 | | Queensland | 6 October 2026 | 5 October 2026 | | Western Australia | 23 Septe...
+
+  Pattern: DD Month 2026
+  Match: 5 October 2026
+  Context: ...6 | 8 June 2026 | | Queensland | 6 October 2026 | 5 October 2026 | | Western Australia | 23 September 2026 | 28 Se...
+
+  Pattern: DD Month 2026
+  Match: 23 September 2026
+  Context: ...ber 2026 | 5 October 2026 | | Western Australia | 23 September 2026 | 28 September 2026 |  ### State-Specific Public ...
+
+  Pattern: DD Month 2026
+  Match: 28 September 2026
+  Context: ... 2026 | | Western Australia | 23 September 2026 | 28 September 2026 |  ### State-Specific Public Holidays  **Victoria...
+
+  Pattern: DD Month 2026
+  Match: 4 November 2026
+  Context: ...* - Melbourne Cup Day: First Tuesday in November (4 November 2026) - AFL Grand Final Friday: Friday before Grand Fi...
+
+  Pattern: DD Month 2026
+  Match: 26 September 2026
+  Context: ...FL Grand Final Friday: Friday before Grand Final (26 September 2026)  **Queensland:** - Royal Queensland Show (Ekka):...
+
+  Pattern: DD Month 2026
+  Match: 4 August 2026
+  Context: ... Wales:** - Bank Holiday: First Monday in August (4 August 2026)  **South Australia:** - Adelaide Cup Day: Second...
+
+  Pattern: DD Month 2026
+  Match: 27 May 2026
+  Context: ... Monday in August  **ACT:** - Reconciliation Day: 27 May 2026 - Family & Community Day: Monday after first Sund...
+
+  Pattern: DD Month 2026
+  Match: 24 November 2026
+  Context: ...ngements and Price Limits 2025-26 v1.1 (effective 24 November 2026) and SCHADS Award rates. Rates are updated period...
+
+
+new-aged-care-support-at-home-program.md
+----------------------------------------
+  Pattern: February 2026
+  Match: February 2026
+  Context: ...ary Review: What It Means for Your Transition  In February 2026, a Senate committee examined the readiness of the...
+
+  Pattern: February 2026
+  Match: February 2026
+  Context: ...ystem evolves.  Source: Australian Ageing Agenda, February 2026  <!-- CONCLUSION & CTA (NO HEADER) --> The move t...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...g its biggest reform in a decade. Starting from 1 July 2026, the new Support at Home program will replace the...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...ion.  ### 1. A Single, Streamlined Program From 1 July 2026, the multiple programs like the Commonwealth Home...
+
+  Pattern: DD Month 2026
+  Match: 1 July 2026
+  Context: ...ing its biggest reform in a decade. Starting from 1 July 2026, the new Support at Home program will replace the...
+
+  Pattern: DD Month 2026
+  Match: 1 July 2026
+  Context: ...ition.  ### 1. A Single, Streamlined Program From 1 July 2026, the multiple programs like the Commonwealth Home...
+
+
+personal-accident-insurance-sole-trader-support-workers.md
+----------------------------------------------------------
+  Pattern: as of 2026
+  Match: as of 2026
+  Context: ...ance for sole trader support workers in Australia as of 2026. Insurance requirements and pricing change—always...
+
+  Pattern: As of 2026
+  Match: as of 2026
+  Context: ...ance for sole trader support workers in Australia as of 2026. Insurance requirements and pricing change—always...
+
+
+refundable-accommodation-deposit-rad-guide.md
+---------------------------------------------
+  Pattern: April 2026
+  Match: April 2026
+  Context: ...ing as a lump sum, and the MPIR is 8.34% (as of 1 April 2026 - *Note: this rate changes quarterly*):  **($500,...
+
+  Pattern: DD Month 2026
+  Match: 1 April 2026
+  Context: ...thing as a lump sum, and the MPIR is 8.34% (as of 1 April 2026 - *Note: this rate changes quarterly*):  **($500,...
+
+
+sda-calculator-specialist-disability-accommodation.md
+-----------------------------------------------------
+  Pattern: Last updated date
+  Match: Last updated: December 17, 2026
+  Context: ...rd** compliance requirements for all new builds  *Last updated: December 17, 2026 - Source: NDIS Pricing Arrangements 2025-26*  ## ...
+
+  Pattern: Updated date
+  Match: updated: December 17, 2026
+  Context: ...compliance requirements for all new builds  *Last updated: December 17, 2026 - Source: NDIS Pricing Arrangements 2025-26*  ## ...
+
+  Pattern: December 2026
+  Match: December 2026
+  Context: ...dation Funding Guide  ## Key Updates: SDA Pricing December 2026  **Major Changes for 2025-26:** - **New SDA price...
+
+
+self-managed-home-care-packages-australia.md
+--------------------------------------------
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...sion  The shift to the Support at Home program in July 2026 is a positive step for Australians who want to di...
+
+
+selling-deceased-estate-property-australia.md
+---------------------------------------------
+  Pattern: Jan 2026
+  Match: Jan 2026
+  Context: ...uth Australia has significant reforms effective 1 Jan 2026 under the new *Succession Act 2023*. - **Transfer...
+
+
+support-at-home-prices.md
+-------------------------
+  Pattern: February 2026
+  Match: February 2026
+  Context: ...on a survey of current HCP providers conducted in February 2026 and published on 24 March 2026.  What does "indic...
+
+  Pattern: March 2026
+  Match: March 2026
+  Context: ...rs conducted in February 2026 and published on 24 March 2026.  What does "indicative" mean? These are not fixe...
+
+  Pattern: March 2026
+  Match: March 2026
+  Context: ...nment survey of over 300 HCP providers (published March 2026)  ## What Are Indicative Prices and How Should I ...
+
+  Pattern: March 2026
+  Match: March 2026
+  Context: ...## Indicative Support at Home Price Ranges (as of March 2026 Survey)  Here are the indicative price ranges rep...
+
+  Pattern: March 2026
+  Match: March 2026
+  Context: ... Summary of indicative Support at Home prices, 24 March 2026)  ## What if My Provider's Prices Seem High?  A p...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...ustralian aged care landscape is changing. From 1 July 2026, the new Support at Home program will begin repla...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...ormation at a Glance  - **Program Start Date**: 1 July 2026 - **What's Changing**: Support at Home replaces H...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...set their own prices (price caps may apply from 1 July 2026, according to recent government updates) - **Sour...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...at Happens Next? Your Service Agreement  Before 1 July 2026, your current HCP provider should contact you to:...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ... to receive services under Support at Home from 1 July 2026.  Don't feel pressured to sign immediately if you...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...n. You can change providers before or after the 1 July 2026 start date.  Key points about changing providers:...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...ontribution calculator, as we get closer to the 1 July 2026 launch of Support at Home. ...
+
+  Pattern: DD Month 2026
+  Match: 1 July 2026
+  Context: ... Australian aged care landscape is changing. From 1 July 2026, the new Support at Home program will begin repla...
+
+  Pattern: DD Month 2026
+  Match: 24 March 2026
+  Context: ...iders conducted in February 2026 and published on 24 March 2026.  What does "indicative" mean? These are not fixe...
+
+  Pattern: DD Month 2026
+  Match: 1 July 2026
+  Context: ...nformation at a Glance  - **Program Start Date**: 1 July 2026 - **What's Changing**: Support at Home replaces H...
+
+  Pattern: DD Month 2026
+  Match: 1 July 2026
+  Context: ...s set their own prices (price caps may apply from 1 July 2026, according to recent government updates) - **Sour...
+
+  Pattern: DD Month 2026
+  Match: 1 July 2026
+  Context: ...What Happens Next? Your Service Agreement  Before 1 July 2026, your current HCP provider should contact you to:...
+
+  Pattern: DD Month 2026
+  Match: 1 July 2026
+  Context: ...nt to receive services under Support at Home from 1 July 2026.  Don't feel pressured to sign immediately if you...
+
+  Pattern: DD Month 2026
+  Match: 24 March 2026
+  Context: ...re, Summary of indicative Support at Home prices, 24 March 2026)  ## What if My Provider's Prices Seem High?  A p...
+
+  Pattern: DD Month 2026
+  Match: 1 July 2026
+  Context: ...son. You can change providers before or after the 1 July 2026 start date.  Key points about changing providers:...
+
+  Pattern: DD Month 2026
+  Match: 1 July 2026
+  Context: ...-contribution calculator, as we get closer to the 1 July 2026 launch of Support at Home. ...
+
+
+support-at-home-program-complete-guide.md
+-----------------------------------------
+  Pattern: February 2026
+  Match: February 2026
+  Context: ...the transition to the Support at Home Program. In February 2026, a Senate committee heard from key aged care over...
+
+  Pattern: February 2026
+  Match: February 2026
+  Context: ... successfully.  Source: Australian Ageing Agenda, February 2026  ## Transitioning to Support at Home Program  ###...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...sufficient preparation has been completed for the July 2026 launch.  The Older Persons Advocacy Network (OPAN...
+
+  Pattern: July 2026
+  Match: July 2026
+  Context: ...ing and goal setting  ### For New Applicants from July 2026  **New Application Process:** - Apply directly fo...
+
+
+support-coordinator-ndis-client-base-building.md
+------------------------------------------------
+  Pattern: Updated date
+  Match: updated January 31, 2026
+  Context: ...(mailto:providers@mdhomecare.com.au)  ---  *Guide updated January 31, 2026 with current NDIS SC rates and provider partnersh...
+
+
+support-coordinator-progress-report-template-ndis.md
+----------------------------------------------------
+  Pattern: March 2026
+  Match: March 2026
+  Context: ...rker logs confirm independent travel commenced 12 March 2026. Sarah's Myki travel history shows 45 independent...
+
+  Pattern: May 2026
+  Match: May 2026
+  Context: ...30 June 2026 **Report Period**: 1 July 2024 to 15 May 2026 **Report Date**: 20 May 2026  **Support Coordinat...
+
+  Pattern: May 2026
+  Match: May 2026
+  Context: ...*: 1 July 2024 to 15 May 2026 **Report Date**: 20 May 2026  **Support Coordinator**: Jane Williams **Organiz...
+
+  Pattern: May 2026
+  Match: May 2026
+  Context: ...r (informal supporter) reviewed this report on 18 May 2026. Sarah confirmed she agrees with the contents and...
+
+  Pattern: June 2026
+  Match: June 2026
+  Context: ...er**: 123456789 **Plan Dates**: 1 July 2024 to 30 June 2026 **Report Period**: 1 July 2024 to 15 May 2026 **R...
+
+  Pattern: DD Month 2026
+  Match: 30 June 2026
+  Context: ...umber**: 123456789 **Plan Dates**: 1 July 2024 to 30 June 2026 **Report Period**: 1 July 2024 to 15 May 2026 **R...
+
+  Pattern: DD Month 2026
+  Match: 15 May 2026
+  Context: ...to 30 June 2026 **Report Period**: 1 July 2024 to 15 May 2026 **Report Date**: 20 May 2026  **Support Coordinat...
+
+  Pattern: DD Month 2026
+  Match: 20 May 2026
+  Context: ...od**: 1 July 2024 to 15 May 2026 **Report Date**: 20 May 2026  **Support Coordinator**: Jane Williams **Organiz...
+
+  Pattern: DD Month 2026
+  Match: 12 March 2026
+  Context: ... worker logs confirm independent travel commenced 12 March 2026. Sarah's Myki travel history shows 45 independent...
+
+  Pattern: DD Month 2026
+  Match: 18 May 2026
+  Context: ...ther (informal supporter) reviewed this report on 18 May 2026. Sarah confirmed she agrees with the contents and...
+
+
+top-20-ndis-providers-melbourne.md
+----------------------------------
+  Pattern: Last updated date
+  Match: Last updated: December 15, 2026
+  Context: ...iders/find-registered-provider/provider-finder)  *Last updated: December 15, 2026 - All provider information reflects current regis...
+
+  Pattern: Updated date
+  Match: updated: December 15, 2026
+  Context: .../find-registered-provider/provider-finder)  *Last updated: December 15, 2026 - All provider information reflects current regis...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...urrent Pricing**: PAPL 2025-26 v1.1 (effective 24 November 2026) - **Support Worker Rate**: $70.23/hour (Weekday ...
+
+  Pattern: November 2026
+  Match: November 2026
+  Context: ...DIS Price Limits (PAPL 2025-26 v1.1, effective 24 November 2026). The 3.95% pricing increase that took effect Jul...
+
+  Pattern: DD Month 2026
+  Match: 24 November 2026
+  Context: ...**Current Pricing**: PAPL 2025-26 v1.1 (effective 24 November 2026) - **Support Worker Rate**: $70.23/hour (Weekday ...
+
+  Pattern: DD Month 2026
+  Match: 24 November 2026
+  Context: ...t NDIS Price Limits (PAPL 2025-26 v1.1, effective 24 November 2026). The 3.95% pricing increase that took effect Jul...
+
+
+what-makes-a-truly-great-disability-support-worker-australia.md
+---------------------------------------------------------------
+  Pattern: as of 2026
+  Match: As of 2026
+  Context: ... do disability support workers earn in Australia? As of 2026, NDIS support worker pay rates typically range fr...
+
+  Pattern: As of 2026
+  Match: As of 2026
+  Context: ... do disability support workers earn in Australia? As of 2026, NDIS support worker pay rates typically range fr...
+
