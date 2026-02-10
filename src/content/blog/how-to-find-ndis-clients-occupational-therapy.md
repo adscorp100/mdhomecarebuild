@@ -417,7 +417,7 @@ Understanding NDIS funding categories helps you communicate value to participant
 
 **Lisa's Advice:**
 
-*"I wasted 3 months and $2,400 on Google Ads before I realized NDIS participants don't search for OTs on Google - they ask their support coordinators or use providers their disability service recommends. Joining MD Home Care's network gave me instant access to participants who already trusted the MD Home Care team, which made converting referrals so much easier. Combined with building my own SC relationships, I had a full practice within 18 months. My only regret is not joining the network sooner."*
+*"I wasted 3 months and $2,400 on Google Ads before I realized NDIS participants don't search for OTs on Google - they ask their support coordinators or use providers their disability service recommends. Joining MD Home Care's network gave me instant access to participants who already trusted the MD Home Care network, which made converting referrals so much easier. Combined with building my own SC relationships, I had a full practice within 18 months. My only regret is not joining the network sooner."*
 
 ---
 
@@ -470,7 +470,7 @@ Understanding NDIS funding categories helps you communicate value to participant
 - **Response time:** First contact with referred participant within 48 hours
 - **Communication:** Update MD Home Care coordinator after initial assessment
 - **Quality:** Comprehensive reports that meet NDIS standards
-- **Professionalism:** Represent MD Home Care values in all participant interactions
+- **Professionalism:** Maintain professional standards in all participant interactions
 
 **Availability:**
 - Minimum 10 hours/week available for MD Home Care referrals

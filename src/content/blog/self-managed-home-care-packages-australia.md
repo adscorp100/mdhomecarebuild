@@ -78,6 +78,6 @@ No. The process is straightforward. Once you have found a new provider through M
 
 The shift to the Support at Home program in July 2026 is a positive step for Australians who want to direct their own aged care. By choosing to self-manage with the right provider, you can significantly increase your care hours and build a support team that truly understands your needs.
 
-If you're ready to take control of your care, **[browse self-management providers on MD Home Care today](/contact)**. Our platform makes it easy to compare options and connect with providers who will empower you to get the most out of your government funding.
+If you're ready to take control of your care, **[browse self-management providers on MD Home Care today](/contact)**. The MD Home Care platform makes it easy to compare options and connect with providers who will empower you to get the most out of your government funding.
 
 ‍

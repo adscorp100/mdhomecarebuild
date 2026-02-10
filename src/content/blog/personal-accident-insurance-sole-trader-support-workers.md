@@ -373,7 +373,7 @@ If you're a support worker looking for opportunities with proper backing and sup
 - **Quality participant connections** - Connect with participants who need your skills
 - **Professional development** - Access to training and support to grow your career
 
-**[Get in touch](/contact)** to learn about opportunities with MD Home Care, or to discuss your support worker career.
+**[Get in touch](/contact)** to learn about opportunities through MD Home Care, or to discuss your support worker career.
 
 ---
 

@@ -87,7 +87,7 @@ This is why provider partnerships (like MD Home Care's allied health network) de
 **Quality Referrals:**
 - Pre-qualified participants (funding confirmed, physio goals identified)
 - Engaged participants (already connected with providers through MD Home Care, motivated for therapy)
-- Long-term relationships (participants stay with MD Home Care for years, needing ongoing physio)
+- Long-term relationships (participants connected through MD Home Care often need ongoing physio)
 
 **Expected Results:**
 - **Timeline:** 2-4 weeks from application to first referral
@@ -465,15 +465,15 @@ Best regards,
 **Referral Pipeline:**
 - 4-8 NDIS participant referrals per month
 - Pre-qualified participants (funding confirmed, goals identified)
-- Long-term relationships (participants stay with MD Home Care for years, needing ongoing physio)
+- Long-term relationships (participants connected through MD Home Care often need ongoing physio)
 
 **Support Coordinator Introductions:**
-- Access to 50+ independent SCs working with MD Home Care participants
+- Access to 50+ independent SCs connected through the MD Home Care network
 - Professional introduction (we recommend you to SCs we trust)
 - Ongoing referrals from SC relationships
 
 **Clinical Integration:**
-- Coordinate with MD Home Care RNs who identify physio needs during care reviews
+- Coordinate with RNs in the network who identify physio needs during care reviews
 - Collaborate with OTs, exercise physiologists, speech pathologists in our network
 - Integrated care plans (your physio treatment plan aligns with overall disability support)
 
@@ -638,9 +638,9 @@ You cannot work with agency-managed participants (20%) until NDIS registered.
 - RN clinical oversight identifies physio needs during care reviews
 
 **2. Support coordinator relationships:**
-- 50+ independent SCs work with MD Home Care participants
+- 50+ independent SCs connected through the MD Home Care network
 - Network physios get introduced to these SCs
-- Referral multiplication beyond just MD Home Care participants
+- Referral multiplication beyond just MD Home Care network participants
 
 **3. Quality over volume:**
 - We pre-qualify referrals (funding confirmed, clear goals)

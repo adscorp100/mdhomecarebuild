@@ -458,7 +458,7 @@ Best regards,
 - Long-term relationships (participants need ongoing weekly/fortnightly sessions)
 
 **Support Coordinator Introductions:**
-- Access to 50+ SCs working with MD Home Care participants
+- Access to 50+ SCs connected through the MD Home Care network
 - Professional introduction (we recommend you to SCs we trust)
 - Ongoing referrals beyond just MD Home Care participants
 
