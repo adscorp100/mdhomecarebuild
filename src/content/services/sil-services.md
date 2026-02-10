@@ -101,7 +101,7 @@ MD Home Care operates SIL residences in {suburb} and surrounding areas:
 
 ---
 
-## How SIL Works at MD Home Care in {suburb}
+## How SIL Works Through MD Home Care in {suburb}
 
 ### Step 1: Initial Enquiry & Assessment
 
@@ -314,7 +314,7 @@ Current vacancies depend on:
 
 ### What's the difference between SIL and SDA in {suburb}?
 
-**SIL = Support Services** (what MD Home Care provides)
+**SIL = Support Services** (what providers through MD Home Care deliver)
 - Help with daily tasks
 - 24/7 support workers
 - Funded under Core Supports

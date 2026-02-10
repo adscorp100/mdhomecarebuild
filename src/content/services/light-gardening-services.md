@@ -80,7 +80,7 @@ Our light gardening services can be accessed through various funding options ava
 
 ## Why Choose Our Light Gardening Services in {suburb}
 
-Our gardening services stand out in {suburb} because we offer:
+Light gardening services available through MD Home Care stand out in {suburb} because they offer:
 
 - **Experienced Gardeners**: Staff with knowledge of local {suburb} plants and conditions
 - **Reliability**: Consistent service you can depend on

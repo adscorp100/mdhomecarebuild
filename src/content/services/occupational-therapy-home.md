@@ -38,7 +38,7 @@ Our {suburb} Occupational Therapists don't just assess; they partner with you to
 ### Practical Solutions for Everyday Living
 *   **Comprehensive Home Safety Assessments**: We identify and help eliminate potential hazards, significantly reducing your risk of falls and accidents.
 *   **Daily Living Skills Training**: We work with you on practical strategies to make activities like bathing, dressing, and cooking easier and safer.
-*   **Home Modification Recommendations**: From simple grab rails to more significant bathroom changes, we provide expert advice on modifications to improve your home's accessibility.
+*   **Home Modification Recommendations**: From simple grab rails to more significant bathroom changes, occupational therapists in our network provide expert advice on modifications to improve your home's accessibility.
 *   **Assistive Technology & Equipment Prescription**: We help you find the right aids and equipment—like shower chairs, walkers, or kitchen gadgets—to enhance your independence.
 
 ### A Focus on Your Goals

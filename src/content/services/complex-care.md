@@ -92,7 +92,7 @@ Our complex care services can be accessed through various funding options availa
 
 ## Why Choose Our Complex Care Services in {suburb}
 
-Our services stand out in {suburb} because we offer:
+Complex care services available through MD Home Care stand out in {suburb} because they offer:
 
 - **Clinical Expertise**: Specialized knowledge in complex medical conditions
 - **24/7 Availability**: Round-the-clock support for high-needs care

@@ -62,7 +62,7 @@ Support services available through MD Home Care are solutions designed to help y
 
 > #### **"For the First Time, We Have Consistency."**
 >
-> "Before MD Home Care, we had a different support worker almost every week. It was so stressful. The team at MD Home Care took the time to understand our son's needs and matched us with Sarah. She has been with us for over a year now. The consistency has been life-changing for our entire family. We finally have peace of mind." - *David R., {suburb}*
+> "Before MD Home Care, we had a different support worker almost every week. It was so stressful. Through MD Home Care we found a provider who took the time to understand our son's needs and matched us with Sarah. She has been with us for over a year now. The consistency has been life-changing for our entire family. We finally have peace of mind." - *David R., {suburb}*
 
 ## How It Works: A Simple Path to Peace of Mind
 

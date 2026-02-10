@@ -60,7 +60,7 @@ Their network only includes providers who meet their strict standards for food s
 They know the rules inside and out. They ensure your invoices are compliant, you get the maximum benefit from your funding, and they make this process simple and ensure the costs are clear and transparent from the start.
 
 #### A Single, Friendly Point of Contact
-No more chasing call centres. Whether you want to change your menu, adjust your schedule, or provide feedback, you have one friendly contact at MD Home Care to handle everything.
+No more chasing call centres. Whether you want to change your menu, adjust your schedule, or provide feedback, providers in the MD Home Care network offer you one friendly contact to handle everything.
 
 #### Your Satisfaction is Guaranteed
 Don't like the meals from a provider? We'll find you a new one. Our loyalty is to you, not to any single kitchen. We'll keep working until you are 100% happy with your food.

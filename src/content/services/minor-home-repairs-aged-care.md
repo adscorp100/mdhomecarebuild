@@ -83,7 +83,7 @@ Our minor home repair services can be accessed through various funding options a
 
 ## Why Choose Our Minor Home Repair Services in {suburb}
 
-Our repair services stand out in {suburb} because we offer:
+Minor home repair services available through MD Home Care stand out in {suburb} because they offer:
 
 - **Experienced Tradespeople**: Qualified handymen with specific experience working with seniors
 - **Police Checked Staff**: All team members have undergone thorough background checks

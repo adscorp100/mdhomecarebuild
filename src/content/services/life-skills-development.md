@@ -80,7 +80,7 @@ Our life skills development services can be accessed through various funding opt
 
 ## Why Choose Our Life Skills Development Services in {suburb}
 
-Our services stand out in {suburb} because we offer:
+Services available through MD Home Care stand out in {suburb} because they offer:
 
 - **Qualified Staff**: Trainers with expertise in skill development and disability support
 - **Tailored Approach**: Programs customized to individual goals and learning styles

@@ -139,7 +139,7 @@ We help participants understand how to include **behaviour support** in their ND
 
 ## Why Choose Our Behaviour Support Services
 
-Our services stand out in {suburb} because we offer:
+Behaviour support services available through MD Home Care stand out in {suburb} because they offer:
 
 - **Qualified NDIS Behaviour Support Practitioners**: Meeting all regulatory requirements
 - **Specialized Expertise**: Experience with diverse disabilities and complex behaviour profiles

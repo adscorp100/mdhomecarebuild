@@ -80,7 +80,7 @@ Mobility equipment can be accessed through various funding options available to 
 
 ## Why Choose Our Mobility Equipment Services in {suburb}
 
-Our services stand out in {suburb} because we offer:
+Mobility equipment services available through MD Home Care stand out in {suburb} because they offer:
 
 - **Personalized Service**: Tailored to your specific mobility needs and home environment
 - **Local Knowledge**: Understanding of {suburb}'s terrain, housing styles, and community resources

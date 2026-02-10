@@ -79,7 +79,7 @@ Our house cleaning services can be accessed through various funding options avai
 
 ## Why Choose Our House Cleaning Services in {suburb}
 
-Our cleaning services stand out in {suburb} because we offer:
+Cleaning services available through MD Home Care stand out in {suburb} because they offer:
 
 - **Experienced Cleaners**: Staff specifically trained in cleaning for older residents
 - **Security-Checked Personnel**: All cleaners undergo thorough background checks

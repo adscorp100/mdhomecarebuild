@@ -92,7 +92,7 @@ Our senior transport services can be accessed through various funding options av
 
 ## Why Choose Our Senior Transport Services in {suburb}
 
-Our transport services stand out in {suburb} because we offer:
+Transport services available through MD Home Care stand out in {suburb} because they offer:
 
 - **Specialized Senior Focus**: Services designed specifically for older passengers
 - **Comprehensive Support**: More than just driving—complete transport assistance

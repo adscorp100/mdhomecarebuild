@@ -74,7 +74,7 @@ We work directly with your existing therapists or our in-house allied health pro
 A Therapy Assistant has specific qualifications (like a Cert III or IV in Allied Health Assistance) and works under the supervision of a qualified therapist to deliver a specific, goal-oriented therapy plan. A support worker provides more general assistance with daily living tasks.
 
 **How do I know if the Therapy Assistant is qualified?**
-We guarantee it. We provide full transparency on the qualifications and training of our team. Every assistant is supervised by a registered Allied Health Professional, ensuring quality and safety.
+MD Home Care connects you with qualified providers who provide full transparency on their qualifications and training. Every assistant in our network is supervised by a registered Allied Health Professional, ensuring quality and safety.
 
 **How is this funded in my NDIS plan?**
 Therapy Assistant services are typically funded from your **Capacity Building - Improved Daily Living** budget. We can help you understand your plan and how to best utilize your funds.

@@ -51,7 +51,7 @@ Through MD Home Care, you can find providers who offer a full suite of NDIS serv
 Trust is built on transparency, expertise, and a genuine commitment to the people they serve.
 
 ### A Team That Stays With You
-We know that trust is built on consistency. We combat high staff turnover by investing in our team, leading to high retention rates. This means you can build a lasting, professional relationship with a support worker who truly understands your needs.
+We know that trust is built on consistency. The providers in our network prioritize staff retention by offering excellent working conditions, leading to high retention rates. This means you can build a lasting, professional relationship with a support worker who truly understands your needs.
 
 ### Care That's All About You (Person-Centered Care)
 Your goals are our goals. We use a person-centered approach to design a customised care plan that aligns perfectly with your NDIS plan, your preferences, and what you want to achieve. This isn't one-size-fits-all; it's care that's all about you.
@@ -90,7 +90,7 @@ Begin your journey to greater independence with a dedicated team that truly care
 ## Frequently Asked Questions
 
 **What do you do to ensure I have a consistent support worker?**
-We prioritise this. By offering our staff excellent conditions and a supportive environment, we maintain high retention rates. Our focus is on creating long-term, stable matches between clients and support workers.
+MD Home Care prioritises this. The providers in our network offer their staff excellent conditions and supportive environments, maintaining high retention rates. Our focus is on connecting you with providers who create long-term, stable matches between clients and support workers.
 
 **What happens if I'm not happy with my support worker?**
 While our matching process is robust, your comfort is what matters most. If it's not the right fit, we will work with you immediately to find a support worker you connect with.

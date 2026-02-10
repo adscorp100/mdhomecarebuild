@@ -106,7 +106,7 @@ Bondi, Randwick, Maroubra, Kingsford, Coogee, Rose Bay, Double Bay, Paddington
 
 ---
 
-## How Support Coordination Works at MD Home Care
+## How Support Coordination Works Through MD Home Care
 
 ### Step 1: Initial Consultation (Free)
 
@@ -363,7 +363,7 @@ We'll match you with a coordinator who speaks your preferred language for cleare
 ### What if I'm not happy with my support coordinator?
 
 Your satisfaction is our priority. You can:
-- Request a different coordinator from our team
+- Request a different coordinator through MD Home Care's network
 - Provide feedback for coordinator improvement
 - Switch to another provider (no lock-in contracts)
 

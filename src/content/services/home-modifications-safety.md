@@ -79,7 +79,7 @@ Our home modification services can be accessed through various funding options a
 
 ## Why Choose Our Home Modification Services in {suburb}
 
-Our services stand out in {suburb} because we offer:
+Home modification services available through MD Home Care stand out in {suburb} because they offer:
 
 - **Experience**: Extensive background in accessibility and safety modifications
 - **Local Expertise**: Knowledge of {suburb}'s housing styles and building regulations
