@@ -7,11 +7,19 @@ and GSC for keyword/position context.
 
 import requests
 import json
+import os
 from datetime import datetime, timedelta, timezone
+from dotenv import load_dotenv
 
-# PostHog config
-POSTHOG_API_KEY = "phx_aaY9c0iM3ln1CN6Pgs77w7XhveMqROqRqKjGm2gQ43OJy8E"
-POSTHOG_PROJECT_ID = "154606"
+# Load from .env
+load_dotenv()
+
+POSTHOG_API_KEY = os.getenv('POSTHOG_API_KEY')
+POSTHOG_PROJECT_ID = os.getenv('POSTHOG_PROJECT_ID', '154606')
+
+if not POSTHOG_API_KEY:
+    print("Error: POSTHOG_API_KEY not found in .env file")
+    exit(1)
 POSTHOG_URL = f"https://us.i.posthog.com/api/projects/{POSTHOG_PROJECT_ID}/query/"
 
 HEADERS = {
