@@ -47,7 +47,7 @@ Here's a comparison of leading providers in the new Support at Home landscape:
 | My Plan Manager | Focus on NDIS & Aged Care | People navigating both the NDIS and Aged Care systems. | `myplanmanager.com.au` |
 
 **How MD Home Care Helps Connect You With Self-Management Options:**
-Through MD Home Care, you can find providers who offer self-management support. These providers focus on partnership models, providing essential administrative support to help you remain compliant, often with low-fee structures designed to maximise the funds available for your care. The best providers understand that you know your needs best and focus on empowering you to meet them. [Contact us to explore self-management provider options](/contact).
+Through MD Home Care, you can find providers who offer self-management support. These providers focus on partnership models, providing essential administrative support to help you remain compliant, often with low-fee structures designed to maximise the funds available for your care. The best providers understand that you know your needs best and focus on empowering you to meet them. [Get in touch to explore self-management provider options](/contact).
 
 ## How to Start with Self-Managed Care
 
@@ -72,12 +72,12 @@ Absolutely. This is the main benefit of self-management. You can hire independen
 With the Support at Home program, you can now keep your unspent funds. This allows you to save for larger items or future needs, giving you more long-term control over your budget.
 
 ### Is it hard to switch to a self-managed provider?
-No. The process is straightforward. Once you have chosen a new provider like MD Home Care, they will manage the transition for you, including transferring any unspent funds from your previous provider.
+No. The process is straightforward. Once you have found a new provider through MD Home Care, they will manage the transition for you, including transferring any unspent funds from your previous provider.
 
 ## Conclusion
 
-The shift to the Support at Home program in July 2026 is a positive step for Australians who want to direct their own aged care. By choosing to self-manage with a low-fee, supportive provider, you can significantly increase your care hours and build a support team that truly understands your needs.
+The shift to the Support at Home program in July 2026 is a positive step for Australians who want to direct their own aged care. By choosing to self-manage with the right provider, you can significantly increase your care hours and build a support team that truly understands your needs.
 
-If you're ready to take control of your care and want to partner with a provider who will empower you, **[contact MD Home Care today](/contact)**. We can explain our simple, low-fee model and help you get the most out of your government funding.
+If you're ready to take control of your care, **[browse self-management providers on MD Home Care today](/contact)**. Our platform makes it easy to compare options and connect with providers who will empower you to get the most out of your government funding.
 
 ‍

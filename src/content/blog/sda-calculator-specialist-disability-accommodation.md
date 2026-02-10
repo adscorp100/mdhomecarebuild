@@ -455,4 +455,4 @@ Navigating SDA eligibility and finding the right accommodation can be complex. T
 - **Provider connections** through our network of SDA partners
 - **Plan reviews** to ensure your funding matches your needs
 
-**[Contact MD Home Care](/contact) today for a free consultation and let us help you find the right SDA solution.**
+**[Contact MD Home Care](/contact) today for a free consultation and to find the right SDA solution for your needs.**

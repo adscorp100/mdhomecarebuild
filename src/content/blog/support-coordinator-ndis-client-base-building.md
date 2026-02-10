@@ -5,7 +5,7 @@ pubDate: 2026-01-31
 author: "Camila"
 tags: ["support coordination", "NDIS support coordinator", "SC marketing", "NDIS clients", "support coordination business"]
 popupTitle: "Partner with MD Home Care"
-popupSubtitle: "Join our provider network as a support coordinator"
+popupSubtitle: "Join the MD Home Care provider network as a support coordinator"
 image: "/assets/carer.webp"
 ---
 

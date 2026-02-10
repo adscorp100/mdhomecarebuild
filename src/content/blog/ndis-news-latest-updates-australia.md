@@ -197,7 +197,7 @@ You must ensure your purchases align with the official NDIS Support Lists. If yo
 
 ### What should I do if I'm confused about the changes?
 
-Contact your Support Coordinator, Plan Manager, or a trusted NDIS provider like MD Home Care. They can review your plan, explain how changes affect you, and help you adjust your supports accordingly.
+Contact your Support Coordinator, Plan Manager, or a trusted directory like MD Home Care. They can review your plan, explain how changes affect you, and help you adjust your supports accordingly.
 
 ## Conclusion: Staying Ahead of NDIS Changes
 
