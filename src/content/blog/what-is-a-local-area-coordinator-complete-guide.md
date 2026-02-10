@@ -364,7 +364,7 @@ The LAC model continues to evolve within the NDIS:
 ## Frequently Asked Questions About LACs
 
 ### What is the difference between a LAC and an Early Childhood Partner?
-LACs support people aged 9-65, while Early Childhood Partners (ECPs) work specifically with children aged 0-8 and their families. ECPs have specialized expertise in early childhood development and intervention.
+LACs support people aged 9-65, while Early Childhood Partners (ECPs) work specifically with children aged 0-8 and their families. ECPs have specialized expertise in early childhood development and intervention. From 2028, the new [Thriving Kids program](/blog/ndis-news-latest-updates-australia#thriving-kids-the-4-billion-ndis-alternative) will change how children with low to moderate support needs access support, which may affect the ECP pathway.
 
 ### Can I choose my LAC?
 In most areas, LACs are assigned based on geographical catchments. However, some regions allow participant choice, particularly for cultural or language matching needs.

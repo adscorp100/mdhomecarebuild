@@ -1,6 +1,6 @@
 ---
-title: "Disability Support Worker Career Progression: Levels, Qualifications & Salary Growth"
-description: "Advance your disability support career in Australia. Learn SCHADS Award levels (1-8), qualification requirements, specializations that pay 15-40% more, and how to progress from entry-level to team leader ($92k-$105k)."
+title: "SCHADS Award Pay Rates 2025: Disability Support Worker Salary Guide"
+description: "SCHADS Award 2025 pay rates: Level 1 $55k-$62k, Level 2 $62k-$70k, Level 3 $70k-$78k. Full disability support worker salary breakdown + career progression."
 pubDate: 2025-07-02
 author: "Camila"
 tags: ["disability support worker", "career progression", "qualifications", "schads award levels", "professional development"]
