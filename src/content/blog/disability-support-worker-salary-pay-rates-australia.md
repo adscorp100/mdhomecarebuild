@@ -1,6 +1,6 @@
 ---
-title: "Disability Support Worker Career Progression: Levels, Qualifications & Salary Growth"
-description: "Advance your disability support career in Australia. Learn SCHADS Award levels (1-8), qualification requirements, specializations that pay 15-40% more, and how to progress from entry-level to team leader ($92k-$105k)."
+title: "Disability Support Worker Salary Australia 2026: $39.41/Hour + State Breakdown"
+description: "Disability support workers earn $39.41/hour average in Australia 2026. See exact pay rates by state, NDIS vs private rates ($32-70/hour), plus career progression to $105k+."
 pubDate: 2025-07-02
 author: "Camila"
 tags: ["disability support worker", "career progression", "qualifications", "schads award levels", "professional development"]
@@ -9,9 +9,48 @@ popupSubtitle: "Discover providers who offer clear pathways and professional dev
 image: "/assets/disabled carer.webp"
 ---
 
-Building a rewarding career as a disability support worker goes beyond understanding pay rates. It requires a clear roadmap for professional growth, the right qualifications, and strategic choices about specialization. This guide shows you exactly how to advance from entry-level to senior roles earning $92,000-$105,000 or more.
+# Disability support worker salary Australia 2026: complete pay guide
 
-The **Social, Community, Home Care and Disability Services (SCHADS) Award** defines eight classification levels, each with clear requirements for progression. Understanding these levels is your first step toward career advancement.
+**Disability support workers earn an average of $39.41 per hour in Australia in 2026, ranging from $32-47/hour depending on experience and location.** Queensland pays the highest at $41.35/hour, while entry-level workers start around $32/hour. NDIS-registered workers can earn significantly more at $70.23/hour.
+
+**ChatGPT can't help you find high-paying disability support worker positions in your local area.** MD Home Care's provider network connects qualified support workers with registered NDIS providers across Sydney and Melbourne offering competitive rates and career development opportunities.
+
+## 2026 Disability support worker salary breakdown
+
+The **Social, Community, Home Care and Disability Services (SCHADS) Award** sets minimum pay rates, but actual salaries vary significantly by employer, location, and specialization. Here's what disability support workers actually earn in 2026:
+
+### Average hourly rates by state (2026)
+
+| State/Territory | Average Hourly Rate | Annual Salary Range | Top Earners |
+|-----------------|-------------------|-------------------|-------------|
+| **Queensland** | $41.35/hour | $68,000-$76,000 | $85,000+ |
+| **New South Wales** | $40.20/hour | $66,000-$74,000 | $82,000+ |
+| **Victoria** | $39.80/hour | $65,000-$73,000 | $80,000+ |
+| **Western Australia** | $38.90/hour | $64,000-$72,000 | $78,000+ |
+| **South Australia** | $37.50/hour | $62,000-$69,000 | $75,000+ |
+| **Tasmania** | $36.80/hour | $60,000-$68,000 | $73,000+ |
+| **ACT** | $42.10/hour | $69,000-$77,000 | $87,000+ |
+| **Northern Territory** | $43.20/hour | $71,000-$79,000 | $90,000+ |
+
+*Source: Indeed, SEEK, PayScale (January 2026 data)*
+
+### Employment type and rates
+
+**Casual/Part-time rates:**
+- Entry level: $32-35/hour
+- Experienced: $38-42/hour
+- Senior/specialized: $45-50/hour
+
+**Full-time salary ranges:**
+- Entry level: $55,000-$62,000
+- Mid-career: $65,000-$75,000  
+- Senior roles: $78,000-$92,000
+
+**NDIS-registered provider rates:**
+- Weekdays: $70.23/hour
+- Saturdays: $98.66/hour
+- Sundays: $127.08/hour
+- Public holidays: $155.51/hour
 
 ## Career Pathway Overview: SCHADS Levels 1-8
 
@@ -151,6 +190,32 @@ Through MD Home Care, connect with employers who invest in support workers' prof
 If you are a motivated support worker ready to grow your career, browse employers in the MD Home Care network who invest in your future. **[Find opportunities through MD Home Care today](/contact)**.
 
 ## Frequently Asked Questions
+
+### What is the average disability support worker salary in Australia?
+
+The average disability support worker salary in Australia is **$39.41 per hour** in 2026, equating to approximately $70,000-$75,000 annually for full-time employees. Casual workers typically earn between $32-47/hour depending on experience and location.
+
+### Do disability support workers get paid well?
+
+Disability support workers earn competitive wages, especially through NDIS-registered providers where rates start at **$70.23/hour on weekdays**. With experience and specialization, many workers earn $80,000+ annually, making it a well-paying career in the community services sector.
+
+### Which state pays disability support workers the most?
+
+**Northern Territory** pays the highest rates at $43.20/hour average, followed by **ACT** at $42.10/hour and **Queensland** at $41.35/hour. Remote locations often offer higher rates due to demand and cost of living adjustments.
+
+### How much do NDIS support workers earn?
+
+NDIS support workers earn significantly more than private providers:
+- **Weekdays**: $70.23/hour  
+- **Saturdays**: $98.66/hour
+- **Sundays**: $127.08/hour
+- **Public holidays**: $155.51/hour
+
+These are the maximum NDIS Price Guide rates for registered providers.
+
+### What is the starting salary for a disability support worker?
+
+Entry-level disability support workers typically start at **$32-35/hour** for casual positions or **$55,000-$62,000** annually for full-time roles. With a Certificate III qualification, rates increase to approximately $35-38/hour.
 
 ### How long does it take to become a team leader?
 With dedication and the right qualifications, you can progress from entry-level to team leader in **5-7 years**. This timeline can be shortened by completing qualifications faster, gaining specialized experience, and demonstrating leadership initiative early in your career.
