@@ -94,7 +94,7 @@ CHSP provides entry-level, specific services for those with basic support needs,
 - You can manage with occasional, planned support
 - You're able to coordinate your own services
 
-## Our Related Services in {suburb}
+## Related Services in {suburb}
 
 Through MD Home Care, you can connect with providers who offer specific services that complement the CHSP framework:
 
@@ -105,4 +105,4 @@ Through MD Home Care, you can connect with providers who offer specific services
 
 If you're an older resident in {suburb} needing assistance to stay in your own home, MD Home Care can help you find information about accessing CHSP services and connect you with providers who offer complementary supports to help you maintain your independence.
 
-[Contact Us Today](/contact) to discuss how providers in our network can support your independence or to get information about connecting with CHSP providers in {suburb}. 
+[Get in Touch Today](/contact) to discuss how providers in the MD Home Care network can support your independence or to get information about connecting with CHSP providers in {suburb}. 

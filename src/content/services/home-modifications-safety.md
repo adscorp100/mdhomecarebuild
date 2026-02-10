@@ -31,9 +31,9 @@ Find a comprehensive range of home modifications for {suburb} residents, includi
 - **Door Modifications**: Lever handles, sliding doors, and automated opening systems
 - **Flooring Adjustments**: Replacement of hazardous flooring with safe, accessible alternatives
 
-### Our Approach to Home Safety Modifications in {suburb}
+### The Approach to Home Safety Modifications in {suburb}
 
-When providing home modification services in {suburb}, we follow a thorough process:
+When providing home modification services in {suburb}, experienced providers follow a thorough process:
 
 - **Safety Assessment**: A detailed evaluation of your {suburb} home to identify hazards and accessibility barriers
 - **Personalized Planning**: Development of a modification plan tailored to your specific needs and preferences
@@ -44,9 +44,9 @@ When providing home modification services in {suburb}, we follow a thorough proc
 
 ![Home accessibility modifications](/assets/accessible-bathroom.webp)
 
-### Benefits of Our Home Safety Modifications in {suburb}
+### Benefits of Home Safety Modifications in {suburb}
 
-Our home modification services offer {suburb} residents numerous advantages:
+Home modification services through MD Home Care offer {suburb} residents numerous advantages:
 
 - **Fall Prevention**: Significant reduction in fall risks through targeted safety improvements
 - **Enhanced Independence**: Supporting self-reliance in daily activities
@@ -58,7 +58,7 @@ Our home modification services offer {suburb} residents numerous advantages:
 
 ### Types of Home Safety Modifications
 
-Our home modifications address various safety and accessibility needs:
+Home modifications address various safety and accessibility needs:
 
 - **Major Modifications**: Significant structural changes like bathroom renovations, ramp installations, or doorway widening
 - **Minor Modifications**: Smaller adjustments such as grab rail installation, improved lighting, or lever taps
@@ -68,7 +68,7 @@ Our home modifications address various safety and accessibility needs:
 
 ### Funding Options for {suburb} Residents
 
-Our home modification services can be accessed through various funding options available to {suburb} residents:
+Home modification services can be accessed through various funding options available to {suburb} residents:
 
 - **Home Care Packages**: For eligible aged care recipients
 - **NDIS**: For eligible participants with disability
@@ -77,7 +77,7 @@ Our home modification services can be accessed through various funding options a
 - **State Government Programs**: Various state-based home modification schemes
 - **Private Payment**: Self-funded options with flexible payment plans
 
-## Why Choose Our Home Modification Services in {suburb}
+## Why Choose Home Modification Services Through MD Home Care in {suburb}
 
 Home modification services available through MD Home Care stand out in {suburb} because they offer:
 
@@ -89,4 +89,4 @@ Home modification services available through MD Home Care stand out in {suburb} 
 - **Respectful Service**: Understanding the emotional attachment to your {suburb} home
 - **Comprehensive Support**: From assessment through to implementation and follow-up
 
-Contact us today to discuss how our home modification services can help you or your loved one continue living safely and independently in {suburb}. 
+Find the right provider today through MD Home Care to discuss how home modification services can help you or your loved one continue living safely and independently in {suburb}. 

@@ -1,6 +1,6 @@
 ---
 title: "Continence Care Services in {suburb}"
-description: "Regain control and dignity with a professional continence assessment in {suburb}. Our qualified Continence Nurses provide a discreet, in-home service to create a personalised plan that works. NDIS & Aged Care."
+description: "Regain control and dignity with a professional continence assessment in {suburb}. Qualified Continence Nurses provide a discreet, in-home service to create a personalised plan that works. NDIS and Aged Care funded."
 pubDate: 2025-07-04
 category: "Clinical Care"
 image: "/assets/drinkingtea.webp"
@@ -48,7 +48,7 @@ The Continence Nurse Advisors available through MD Home Care are registered nurs
 Your assessment will be a private, one-on-one consultation in the comfort of your own home. Here's how providers ensure the process is thorough and stress-free:
 
 1.  **A Respectful Conversation:** Your nurse will discuss your health history, symptoms, diet, and lifestyle to get a complete picture of your situation.
-2.  **Goal Setting:** We listen to what you want to achieve. Is it confidence to go out, better sleep, or simpler daily management?
+2.  **Goal Setting:** Your nurse listens to what you want to achieve. Is it confidence to go out, better sleep, or simpler daily management?
 3.  **Product & Strategy Review:** Your nurse will assess any current products or strategies you're using to see what's working and what isn't.
 4.  **Creating Your Plan:** Based on the assessment, your Nurse Advisor will develop a comprehensive Continence Care Plan. This is a detailed document outlining recommended products, toileting schedules, and other strategies to improve management.
 
@@ -61,7 +61,7 @@ Your assessment will be a private, one-on-one consultation in the comfort of you
 ## Frequently Asked Questions
 
 **Is the continence assessment invasive or embarrassing?**
-Absolutely not. The assessment is a structured conversation and observation-based process. There are no invasive procedures. Our Nurse Advisors are highly skilled at creating a comfortable and professional environment where you can feel at ease discussing sensitive information. Your dignity is our highest priority.
+Absolutely not. The assessment is a structured conversation and observation-based process. There are no invasive procedures. Continence Nurse Advisors are highly skilled at creating a comfortable and professional environment where you can feel at ease discussing sensitive information. Your dignity is always the highest priority.
 
 **How is a clinical assessment different from just buying products?**
 Store-bought products are a one-size-fits-all solution to a complex problem. A clinical assessment identifies the *type* and *cause* of incontinence, allowing for a tailored plan. This often leads to using fewer, more effective products, improving skin health, and significantly increasing your confidence and comfort.

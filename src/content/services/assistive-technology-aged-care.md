@@ -15,9 +15,9 @@ quickFacts:
 
 ## Live More Independently in {suburb} with the Right Assistive Technology.
 
-As we get older, some daily tasks can become more difficult. But a desire for independence and safety at home in {suburb} never fades. Assistive Technology (AT) is simply the name for a wide range of devices and gadgets designed to make everyday life easier and safer.
+As people get older, some daily tasks can become more difficult. But a desire for independence and safety at home in {suburb} never fades. Assistive Technology (AT) is simply the name for a wide range of devices and gadgets designed to make everyday life easier and safer.
 
-Forget complicated tech—the best AT is simple, practical, and solves a real problem. From opening a stubborn jar to ensuring help is there in an emergency, the right tools can make all the difference. This guide explores common-sense solutions for common challenges faced by seniors in {suburb}.
+Forget complicated tech. The best AT is simple, practical, and solves a real problem. From opening a stubborn jar to ensuring help is there in an emergency, the right tools can make all the difference. This guide explores common-sense solutions for common challenges faced by seniors in {suburb}.
 
 ### For Safety and Peace of Mind
 
@@ -56,7 +56,7 @@ Yes. Many of these items, especially those related to safety and daily living, c
 
 ## Why Choose Assistive Technology Providers Through MD Home Care in {suburb}
 
-Providers in our network stand out in {suburb} because they offer:
+Providers in the MD Home Care network stand out in {suburb} because they offer:
 
 - **Aging Expertise**: Specialized knowledge of seniors' technology needs
 - **Independent Advice**: Unbiased recommendations based on your specific situation

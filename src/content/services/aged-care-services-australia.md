@@ -1,6 +1,6 @@
 ---
 title: "Aged Care Services in {suburb}"
-description: "Comprehensive aged care services in {suburb}. Personal care, nursing, domestic assistance, and allied health delivered in your home. NDIS and Home Care Package approved provider."
+description: "Find quality aged care services in {suburb}. Personal care, nursing, domestic assistance, and allied health delivered in your home. Compare Home Care Package providers with low fees and flexible scheduling."
 pubDate: 2025-07-04
 category: "Aged Care Services"
 image: "/assets/carer.webp"
@@ -15,9 +15,9 @@ quickFacts:
 
 ## Aged Care Services in {suburb}
 
-Growing older doesn't mean giving up your independence or leaving the home you love. With the right support, you can continue living safely and comfortably in your own home—on your terms.
+Growing older doesn't mean giving up your independence or leaving the home you love. With the right support, you can continue living safely and comfortably in your own home, on your terms.
 
-MD Home Care connects you with trusted aged care providers across {suburb}. From help with daily tasks to complex nursing care, find professional, compassionate support through our network that helps you maintain your independence and quality of life.
+MD Home Care connects you with trusted aged care providers across {suburb}. From help with daily tasks to complex nursing care, find professional, compassionate support through the MD Home Care network that helps you maintain your independence and quality of life.
 
 ### The Challenge: Finding the Right Support
 
@@ -77,7 +77,7 @@ Your needs change. Experienced providers adapt. From a few hours a week to daily
 All care workers from trusted providers are police-checked, trained in aged care, and genuinely care about the people they support.
 
 ### Local {suburb} Knowledge
-Providers in the MD Home Care network know {suburb}—the local services, the community resources, and the best ways to support you in your neighbourhood.
+Providers in the MD Home Care network know {suburb}, the local services, the community resources, and the best ways to support you in your neighbourhood.
 
 ## Funding Your Aged Care
 
@@ -96,7 +96,7 @@ Flexible private arrangements for those without government funding or wanting ad
 ## Frequently Asked Questions
 
 **How do I get started with aged care services?**
-Connect with experienced providers through MD Home Care for a free consultation. They'll discuss your needs, explain your funding options, and help you access the right support—whether you already have a Home Care Package or need help applying for one.
+Connect with experienced providers through MD Home Care for a free consultation. They'll discuss your needs, explain your funding options, and help you access the right support, whether you already have a Home Care Package or need help applying for one.
 
 **Can I choose my own carer?**
 Yes. Quality providers match you with carers based on your preferences and needs, and you have the right to request a different carer if the match isn't right.

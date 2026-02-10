@@ -1,6 +1,6 @@
 ---
 title: "NDIS Support Coordination {suburb} | MD Home Care"
-description: "Expert NDIS support coordination in {suburb}. Level 2 & 3 coordinators with same-week start. 24/7 nurse-led support across Sydney & Melbourne. NDIS registered provider."
+description: "Need NDIS support coordination in {suburb}? Find Level 2 & 3 coordinators with same-week start through MD Home Care. 24/7 nurse-led support, 20+ languages spoken."
 pubDate: 2026-01-31
 category: "Support Coordination"
 image: "/assets/two%20women%20looking%20at%20alarm.webp"
@@ -33,7 +33,7 @@ quickFacts:
 - ✗ Check coordinator language skills and cultural background
 - ✗ Verify real-time NDIS registration status
 
-**Find through MD Home Care in {suburb}:**
+**Through MD Home Care in {suburb}:**
 - ✓ Level 2 & 3 certified coordinators
 - ✓ 24/7 nurse-led support
 - ✓ Same-week service start
@@ -203,7 +203,7 @@ Check your NDIS plan under "Capacity Building Supports" for:
 - 07_001_0106_1_1 - Support Coordination
 - 07_002_0106_1_1 - Specialist Support Coordination
 
-Coordinators can review your plan together during a free consultation.
+A coordinator can review your plan together during a free consultation.
 
 ### Can I choose my support coordinator?
 

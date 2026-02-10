@@ -37,7 +37,7 @@ Through MD Home Care, you can find providers who offer a full suite of NDIS serv
 
 ### In-Home Disability Support
 -   **Personal Care**: Maintain your dignity and routine with respectful, professional assistance for daily activities.
--   **Household Tasks**: Free up your time and energy with our practical help around the home, from cleaning to laundry and shopping.
+-   **Household Tasks**: Free up your time and energy with practical help around the home, from cleaning to laundry and shopping.
 -   **Medication Management**: Gain peace of mind with reliable reminders and assistance with your medication routines.
 -   **Meal Preparation**: Enjoy nutritious, delicious meals planned and prepared according to your dietary needs.
 
@@ -52,16 +52,16 @@ Through MD Home Care, you can find providers who offer a full suite of NDIS serv
 Trust is built on transparency, expertise, and a genuine commitment to the people they serve.
 
 ### A Team That Stays With You
-We know that trust is built on consistency. The providers in our network prioritize staff retention by offering excellent working conditions, leading to high retention rates. This means you can build a lasting, professional relationship with a support worker who truly understands your needs.
+Trust is built on consistency. Providers in the MD Home Care network prioritize staff retention by offering excellent working conditions, leading to high retention rates. This means you can build a lasting, professional relationship with a support worker who truly understands your needs.
 
 ### Care That's All About You (Person-Centered Care)
-Your goals are our goals. We use a person-centered approach to design a customised care plan that aligns perfectly with your NDIS plan, your preferences, and what you want to achieve. This isn't one-size-fits-all; it's care that's all about you.
+Your goals drive everything. Providers use a person-centered approach to design a customised care plan that aligns perfectly with your NDIS plan, your preferences, and what you want to achieve. This isn't one-size-fits-all; it's care that's all about you.
 
 ### NDIS Made Simple
-The NDIS can be complex. Our expert team helps you navigate the system, understand your funding, and maximize your plan to get the most out of your support budget. We handle the admin so you can focus on living a fuller life.
+The NDIS can be complex. Experienced providers help you navigate the system, understand your funding, and maximize your plan to get the most out of your support budget. They handle the admin so you can focus on living a fuller life.
 
 ### Local Experts, Community Focused
-As a local {suburb} provider, we have deep knowledge of the resources and facilities in our community. We don't just work here; we are part of the community and are dedicated to helping our clients thrive in it.
+Providers in {suburb} through MD Home Care have deep knowledge of the resources and facilities in the community. They don't just work here; they are part of the community and are dedicated to helping their clients thrive in it.
 
 ---
 > ### **Sarah's Story: Finding Peace of Mind in {suburb}**
@@ -91,16 +91,16 @@ As a local {suburb} provider, we have deep knowledge of the resources and facili
 
 ## Getting Started is Simple and Clear
 
-We reduce anxiety by making the next steps crystal clear.
+Providers reduce anxiety by making the next steps crystal clear.
 
 **Step 1: Free Consultation**
-A friendly, no-obligation chat with a Care Advisor in {suburb} to understand your needs. We listen first.
+A friendly, no-obligation chat with a Care Advisor in {suburb} to understand your needs. They listen first.
 
 **Step 2: Customised Care Plan**
-We co-design a personalised support plan that matches your goals and NDIS budget. You are in control every step of the way.
+Together, you co-design a personalised support plan that matches your goals and NDIS budget. You are in control every step of the way.
 
 **Step 3: Meet Your Support Worker**
-We introduce you to a carefully matched support worker who fits your personality and specific needs.
+You're introduced to a carefully matched support worker who fits your personality and specific needs.
 
 **Step 4: Start Your Service**
 Begin your journey to greater independence with a dedicated team that truly cares about your well-being.
@@ -110,19 +110,19 @@ Begin your journey to greater independence with a dedicated team that truly care
 ## Frequently Asked Questions
 
 **What do you do to ensure I have a consistent support worker?**
-MD Home Care prioritises this. The providers in our network offer their staff excellent conditions and supportive environments, maintaining high retention rates. Our focus is on connecting you with providers who create long-term, stable matches between clients and support workers.
+MD Home Care prioritises this. Providers in the MD Home Care network offer their staff excellent conditions and supportive environments, maintaining high retention rates. The focus is on connecting you with providers who create long-term, stable matches between clients and support workers.
 
 **What happens if I'm not happy with my support worker?**
 While the matching process is thorough, your comfort is what matters most. If it's not the right fit, MD Home Care will help you find a support worker you connect with.
 
 **How do you ensure the safety of your clients?**
-All support workers connected through MD Home Care undergo mandatory NDIS Worker Screening Checks and police checks. Providers in our network maintain strict safety protocols and provide ongoing training to ensure the highest standards of care.
+All support workers connected through MD Home Care undergo mandatory NDIS Worker Screening Checks and police checks. Providers in the MD Home Care network maintain strict safety protocols and provide ongoing training to ensure the highest standards of care.
 
 **Is your pricing transparent? Are there any hidden fees?**
-Absolutely. We follow the NDIS Price Guide, and all costs are discussed and agreed upon upfront. Your service agreement will clearly outline all fees with no hidden surprises.
+Absolutely. Providers follow the NDIS Price Guide, and all costs are discussed and agreed upon upfront. Your service agreement will clearly outline all fees with no hidden surprises.
 
 ## You Don't Have to Figure This Out Alone
 
-Let our expert team in {suburb} build a disability support plan that brings you peace of mind and independence. Contact us today to get started with a partner you can rely on.
+Find experienced providers in {suburb} through MD Home Care to build a disability support plan that brings you peace of mind and independence. Get started today with a partner you can rely on.
 
 **Ready for consistent, reliable care?** [Speak With a Care Advisor Today](/contact) for your free, no-obligation consultation.

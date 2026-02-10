@@ -1,6 +1,6 @@
 ---
 title: "Allied Health Services in {suburb}"
-description: "Stay safe, mobile, and independent at home. Our professional therapists in {suburb}—including Physiotherapists, Occupational Therapists, and Podiatrists—provide expert care in the comfort of your own home."
+description: "Stay safe, mobile, and independent at home. Find professional therapists in {suburb}, including Physiotherapists, Occupational Therapists, and Podiatrists, providing expert in-home care. NDIS and HCP approved."
 pubDate: 2025-07-04
 category: "Aged Care"
 image: "/assets/physio.webp"
@@ -15,7 +15,7 @@ quickFacts:
 
 # Stay Safe, Mobile, and Independent with In-Home Therapy
 
-As we get older, everyday tasks can become more challenging. You might worry about the risk of a fall, struggle with mobility, or find it harder to manage daily activities. Allied health professionals are key to solving these problems, helping you live safely and confidently in the home you love.
+As people get older, everyday tasks can become more challenging. You might worry about the risk of a fall, struggle with mobility, or find it harder to manage daily activities. Allied health professionals are key to solving these problems, helping you live safely and confidently in the home you love.
 
 Through MD Home Care, you can connect with expert therapy providers who come to you. Find qualified and experienced Allied Health professionals who provide personalised care in the comfort of your own home in {suburb}, helping you improve your strength, safety, and independence.
 
@@ -59,7 +59,7 @@ Foot health is essential for mobility and overall wellbeing. Experienced Podiatr
 
 ## Why Choose Providers Through MD Home Care
 
-Choosing a therapy provider is a decision about trust and expertise. Here's why families in {suburb} choose providers through our network:
+Choosing a therapy provider is a decision about trust and expertise. Here's why families in {suburb} choose providers through the MD Home Care network:
 
 #### **1. Care in Your Own Environment**
 They come to you. Receiving therapy in your own home is not only more convenient, but it's also more effective. Skilled therapists can assess your unique environment and provide practical solutions that work for your real life.

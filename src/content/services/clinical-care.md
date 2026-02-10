@@ -1,6 +1,6 @@
 ---
 title: "24/7 Nursing Care at Home in {suburb}"
-description: "Need round-the-clock care in {suburb}? Our 24/7 in-home nursing services provide expert, compassionate clinical support for complex health needs."
+description: "Need round-the-clock care in {suburb}? Find 24/7 in-home nursing providers with qualified RNs and ENs. Expert clinical support for complex health needs. NDIS and HCP approved."
 pubDate: 2025-07-02
 category: "Health Services"
 image: "/assets/nurse.webp"

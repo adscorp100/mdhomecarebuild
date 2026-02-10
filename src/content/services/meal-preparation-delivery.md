@@ -23,7 +23,7 @@ Choosing a meal delivery service can be overwhelming. There are dozens of provid
 
 It's a full-time job. That's why MD Home Care created a **Managed Meal Delivery Service**.
 
-Through MD Home Care, you can find providers who don't just deliver meals. They act as your expert concierge. They learn your needs, find the perfect provider from their network of trusted kitchens, and manage the entire process for you—from the paperwork to the delivery schedule. It's the simplest, safest way to get delicious, dietitian-approved meals delivered to your door.
+Through MD Home Care, you can find providers who don't just deliver meals. They act as your expert concierge. They learn your needs, find the perfect provider from their network of trusted kitchens, and manage the entire process for you, from the paperwork to the delivery schedule. It's the simplest, safest way to get delicious, dietitian-approved meals delivered to your door.
 
 ### Had a Bad Experience? Confused by the Rules?
 

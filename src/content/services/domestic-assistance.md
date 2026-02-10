@@ -1,6 +1,6 @@
 ---
 title: "Domestic Assistance in {suburb}"
-description: "More than just cleaning. Our Domestic Assistance service in {suburb} helps you manage your home and daily life, from shopping and paying bills to meal prep and light cleaning. Stay independent and in control."
+description: "More than just cleaning. Domestic Assistance services in {suburb} help you manage your home and daily life, from shopping and paying bills to meal prep and light cleaning. HCP and NDIS funded."
 pubDate: 2025-07-04
 category: "Home Support"
 image: "/assets/Doing%20Dishes.webp"

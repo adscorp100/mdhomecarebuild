@@ -1,6 +1,6 @@
 ---
 title: "NDIS Housing Options in {suburb}"
-description: "Confused about disability housing options like SIL and SDA? Our simple guide explains the difference and helps you understand the right NDIS housing path for you or your loved one in {suburb}."
+description: "Confused about NDIS housing options like SIL and SDA? This simple guide explains the difference and helps you find the right disability housing path for you or your loved one in {suburb}."
 pubDate: 2025-07-04
 category: "Disability Services"
 image: "/assets/accessible-bathroom.webp"

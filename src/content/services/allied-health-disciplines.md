@@ -17,7 +17,7 @@ quickFacts:
 
 Recovering from surgery, managing a chronic condition, or living with disability often requires specialist therapy support. But getting to appointments can be difficult, exhausting, or simply impossible. You need expert allied health care that comes to you.
 
-MD Home Care connects you with comprehensive in-home allied health providers across {suburb}. Find qualified therapists who deliver professional assessments and treatments in the comfort of your own home—where you're most comfortable and where real progress happens.
+MD Home Care connects you with comprehensive in-home allied health providers across {suburb}. Find qualified therapists who deliver professional assessments and treatments in the comfort of your own home, where you're most comfortable and where real progress happens.
 
 ### The Challenge: Accessing Quality Therapy
 
@@ -28,7 +28,7 @@ Are you struggling with:
 *   **Coordinating multiple therapists?** Managing appointments with OT, physio, and other specialists separately.
 *   **Understanding your options?** Not knowing which type of therapy would actually help your situation.
 
-Professional providers bring the therapy to you—and coordinate everything so you don't have to.
+Professional providers bring the therapy to you and coordinate everything so you don't have to.
 
 ![A physiotherapist providing in-home therapy services](/assets/physio.webp)
 

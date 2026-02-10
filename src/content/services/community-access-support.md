@@ -1,6 +1,6 @@
 ---
 title: "Community Access Support in {suburb}"
-description: "Get out and about in {suburb} with a support worker you can trust. Our NDIS Community Access support is about connection, not just transport."
+description: "Get out and about in {suburb} with a support worker you can trust. NDIS Community Access support that's about real connection, not just transport. Find your match today."
 pubDate: 2025-07-04
 category: "Community Services"
 image: "/assets/disabled carer.webp"
@@ -54,8 +54,8 @@ Support workers are trained to work with clients who have a range of communicati
 **Is Community Access covered under my NDIS plan?**
 Yes. Community Access typically falls under Core Supports - Assistance with Social and Community Participation. If you have funding in this category, you can use it for these services. Providers can help you understand your plan and budget allocation.
 
-**Can I choose what activities we do?**
-Yes, this is your support and your life. You choose the activities based on your interests and NDIS goals. Whether it's visiting a museum, attending a sporting event, or just grabbing coffee with a friend, we support what matters to you.
+**Can I choose what activities I do?**
+Yes, this is your support and your life. You choose the activities based on your interests and NDIS goals. Whether it's visiting a museum, attending a sporting event, or just grabbing coffee with a friend, your support worker is there for what matters to you.
 
 **Ready to get out and about in {suburb} with a support worker you can rely on? Find the right person for you through MD Home Care.**
 
