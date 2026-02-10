@@ -2,6 +2,7 @@
 title: "Support at Home Program 2026: Complete Guide to Australia's New Aged Care System"
 description: "Everything you need to know about the Support at Home Program launching in Australia from July 2026. Understand the changes, benefits, eligibility, and how to prepare for the new aged care system."
 pubDate: 2026-01-20
+updatedAt: 2026-02-11
 author: "Camila"
 tags: ["support at home program", "support at home program 2026", "aged care reform", "new aged care system", "aged care changes"]
 popupTitle: "Ready to Access the Support at Home Program?"
@@ -337,6 +338,22 @@ For a more detailed breakdown, see our guide on [Support at Home prices for 2026
 - Day respite programs
 - Overnight respite care
 - Emergency respite support
+
+## Latest Updates: Parliamentary Oversight and Transition Concerns
+
+### Senate Committee Examination of Support at Home Implementation
+
+Recent parliamentary oversight has brought important insights about the transition to the Support at Home Program. In February 2026, a Senate committee heard from key aged care oversight bodies about the readiness of the new system.
+
+The Inspector General of Aged Care told the committee that the transition from CHSP to the Support at Home program "lacks clarity." This finding reflects concerns from consumer advocates and aged care professionals about whether sufficient preparation has been completed for the July 2026 launch.
+
+The Older Persons Advocacy Network (OPAN) provided evidence supporting the merger of CHSP and home care packages in principle. However, OPAN emphasized that recommendations from the aged care royal commission need proper implementation, particularly regarding funding mechanisms. The organization wants to see royal commission recommendations about block funding, activity-based funding, and individual funding models properly addressed as part of the new system design.
+
+The Inspector General also recommended improvements to the My Aged Care system, which will remain the primary access point for the Support at Home Program. These improvements could help address navigation difficulties that many people experience when trying to access aged care services.
+
+These parliamentary findings suggest that while the Support at Home Program represents positive reform, implementation challenges remain. For people preparing to use the new system, these developments confirm the importance of staying informed about changes and working with experienced aged care connection platforms like MD Home Care to navigate the transition successfully.
+
+Source: Australian Ageing Agenda, February 2026
 
 ## Transitioning to Support at Home Program
 
