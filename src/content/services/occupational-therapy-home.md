@@ -17,7 +17,7 @@ quickFacts:
 
 When everyday tasks become a challenge, it can feel like you're losing your independence. Whether you're recovering from an injury, managing a chronic condition, or adapting to age-related changes, the thought of not being able to live safely and comfortably in your own {suburb} home is a significant worry. You need practical solutions, but finding the right support can be confusing and stressful.
 
-We understand. MD Home Care brings professional, compassionate Occupational Therapy (OT) services directly to you. Our qualified Occupational Therapists work with you in your own environment to find practical solutions that make a real difference to your daily life.
+We understand. Through MD Home Care, you can find professional, compassionate Occupational Therapists in your area who come directly to you. These qualified OTs work with you in your own environment to find practical solutions that make a real difference to your daily life.
 
 ### The Right Support is About More Than Just Equipment
 

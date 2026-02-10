@@ -17,7 +17,7 @@ quickFacts:
 
 Finding the right residential aged care for yourself or a loved one is one of the most significant decisions a family can face. The process is confusing, emotionally draining, and filled with paperwork, waitlists, and difficult choices. You shouldn't have to navigate this alone.
 
-MD Home Care provides professional aged care navigation and support services in {suburb}. We guide you through every step—from ACAT assessments to facility tours to move-in day—ensuring you make informed decisions with confidence.
+Through MD Home Care, you can connect with professional aged care navigators in {suburb} who will support you through every step, from ACAT assessments to facility tours to move-in day, so you can make informed decisions with confidence.
 
 ### The Challenge: Navigating Aged Care Alone
 

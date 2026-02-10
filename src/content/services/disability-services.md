@@ -19,7 +19,7 @@ Finding the right disability support is about more than just services; it's abou
 
 ## The Right Support Makes All the Difference
 
-MD Home Care understands the challenges. The providers in our network are here to solve the problems that cause the most stress.
+MD Home Care understands the challenges. The providers in the MD Home Care network are here to solve the problems that cause the most stress.
 
 -   Frustrated by constantly changing support workers and having to retell your story?
 -   Worried about the quality and consistency of care you or a loved one is receiving?
