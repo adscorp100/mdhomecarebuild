@@ -1,6 +1,6 @@
 ---
-title: "DSP Asset Test 2026: How Much Can You Have in the Bank? ($314K Limit)"
-description: "DSP bank limits 2026: $314,000 if you own your home, $566,500 if you don't. Full asset test breakdown, income free area, partner income rules, and payment calculator."
+title: "How Much Money Can I Have in Bank on Disability Pension? $314K-$566K"
+description: "Disability pension bank limits: $314,000 (homeowner) or $566,500 (renter). Asset test, income limits, partner rules + how much you can earn."
 updatedAt: 2026-02-10
 pubDate: 2025-12-15
 author: "Camila"

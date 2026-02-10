@@ -1,6 +1,6 @@
 ---
-title: "How Much Is the Disability Pension Per Fortnight in 2026? ($1,149 Single)"
-description: "Disability pension pays $1,149/fortnight (single) or $866.80 (partnered) in 2026. See exact rates, supplements, income test thresholds, asset limits, and payment dates."
+title: "How Much Is Disability Pension 2026? $1,149 Per Fortnight + Calculator"
+description: "Disability pension pays $1,149 per fortnight (single) or $866.80 each (couples). Income limits, asset tests, bonus payments + free calculator."
 updatedAt: 2026-02-10
 pubDate: 2025-12-15
 author: "Camila"
