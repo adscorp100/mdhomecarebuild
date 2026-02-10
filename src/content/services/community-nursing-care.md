@@ -1,6 +1,6 @@
 ---
 title: "Community Nursing in {suburb}"
-description: "Need a qualified nurse in {suburb} for a specific task? Our community nursing service provides expert wound care, medication management, catheter care and more at home."
+description: "Need a qualified nurse in {suburb} for a specific task? Find community nursing services providing expert wound care, medication management, catheter care and more at home."
 pubDate: 2025-07-04
 category: "Health Services"
 image: "/assets/clinic.webp"

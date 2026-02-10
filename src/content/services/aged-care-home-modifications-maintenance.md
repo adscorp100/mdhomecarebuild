@@ -1,6 +1,6 @@
 ---
 title: "Home Modifications in {suburb}"
-description: "Keep your {suburb} home safe and accessible with our expert home modification and maintenance services. We specialise in aged care and disability support. Call us!"
+description: "Keep your {suburb} home safe and accessible with expert home modification and maintenance services. Find specialists in aged care and disability support through MD Home Care."
 pubDate: 2025-07-04
 category: "Home Care Services"
 image: "/assets/accessible-bathroom.webp"

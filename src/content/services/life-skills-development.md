@@ -31,9 +31,9 @@ Experienced {suburb} support workers provide assistance with developing:
 - **Shopping Skills**: Comparing prices, making purchases, and handling transactions
 - **Technology Use**: Using phones, computers, and other everyday technology
 
-### Our Approach to Life Skills Development in {suburb}
+### The Approach to Life Skills Development in {suburb}
 
-When providing life skills training in {suburb}, we follow evidence-based practices:
+Life skills training providers in {suburb} follow evidence-based practices:
 
 - **Individualized Assessment**: Identifying specific skills to develop based on personal goals
 - **Step-by-Step Learning**: Breaking complex tasks into manageable components
@@ -45,9 +45,9 @@ When providing life skills training in {suburb}, we follow evidence-based practi
 
 ![Life skills development and support](/assets/drinkingtea.webp)
 
-### Benefits of Our Life Skills Development Services in {suburb}
+### Benefits of Life Skills Development Services in {suburb}
 
-Our life skills services offer {suburb} residents numerous advantages:
+Life skills services through MD Home Care offer {suburb} residents numerous advantages:
 
 - **Enhanced Independence**: Reduced reliance on others for everyday tasks
 - **Increased Confidence**: Greater self-assurance in handling daily challenges
@@ -59,7 +59,7 @@ Our life skills services offer {suburb} residents numerous advantages:
 
 ### Life Skills Development Settings
 
-Our life skills development can take place in various settings:
+Life skills development can take place in various settings:
 
 - **In-Home Training**: Learning skills in your own {suburb} home environment
 - **Community Settings**: Practicing skills in local {suburb} shops, services, and facilities
@@ -70,7 +70,7 @@ Our life skills development can take place in various settings:
 
 ### Funding Options for {suburb} Residents
 
-Our life skills development services can be accessed through various funding options available to {suburb} residents:
+Life skills development services can be accessed through various funding options available to {suburb} residents:
 
 - **NDIS**: Under Capacity Building - Improved Daily Living Skills or Increased Social & Community Participation
 - **Disability Employment Services**: For employment-related skill development
@@ -78,7 +78,7 @@ Our life skills development services can be accessed through various funding opt
 - **Home Care Packages**: For eligible aged care recipients
 - **Private Payment**: Self-funded options with flexible payment plans
 
-## Why Choose Our Life Skills Development Services in {suburb}
+## Why Choose Life Skills Development Services in {suburb}
 
 Services available through MD Home Care stand out in {suburb} because they offer:
 
@@ -90,4 +90,4 @@ Services available through MD Home Care stand out in {suburb} because they offer
 - **Local Knowledge**: Understanding of {suburb}'s community resources and opportunities
 - **Ongoing Support**: Continuous guidance as new skills are mastered and goals evolve
 
-Contact us today to discuss how our life skills development services can help you or your loved one build greater independence and confidence in {suburb}. 
+Get in touch today to discuss how life skills development services through MD Home Care can help you or your loved one build greater independence and confidence in {suburb}. 

@@ -1,6 +1,6 @@
 ---
 title: "Social Support Services in {suburb}"
-description: "Is your loved one feeling lonely or isolated? Our Companion Care service in {suburb} provides trusted, friendly, and carefully matched companions to share interests, stories, and laughter. Restore connection and peace of mind."
+description: "Is your loved one feeling lonely or isolated? Find Companion Care services in {suburb} providing trusted, friendly, and carefully matched companions to share interests, stories, and laughter. Restore connection and peace of mind."
 pubDate: 2025-07-04
 category: "Social Support"
 image: "/assets/drinkingtea.webp"
@@ -44,7 +44,7 @@ Providers believe the right relationship is everything. Their matching process g
 ### Trusted Teams
 Providers maintain carefully selected companion teams, not contractors from faceless apps. They personally interview, vet, and train each person, only hiring people with a natural gift for empathy, warmth, and respect.
 
-### Peace of Mind is Our Priority
+### Peace of Mind is the Priority
 Your loved one's safety is non-negotiable. Every companion undergoes a stringent screening process, including a National Police Check, an NDIS Worker Screening Check, and comprehensive reference checks, ensuring they are trustworthy and reliable.
 
 ## The Joy of True Companionship: Available Services

@@ -69,10 +69,10 @@ Research shows that early intervention during critical developmental periods can
 
 From October 2026, the Australian Government's [Thriving Kids program](https://www.health.gov.au/our-work/thriving-kids) will create a new pathway for children under 9 with low to moderate autism or developmental delay. Funded at $4 billion over five years (split between Commonwealth and state governments), Thriving Kids will operate alongside the NDIS rather than replacing it. Children with high support needs will continue to access the NDIS, and children already on the NDIS will remain on their current plans.
 
-A key difference is that Thriving Kids will not require a formal diagnosis to access services, making it easier for families to get early support. Full rollout is expected by January 2028. For families in {suburb} considering early childhood intervention, this means there will soon be two pathways available: the NDIS Early Childhood Approach for children with significant disability, and Thriving Kids for those with lower support needs. We recommend speaking with your Early Childhood Partner about which pathway best suits your child's situation.
+A key difference is that Thriving Kids will not require a formal diagnosis to access services, making it easier for families to get early support. Full rollout is expected by January 2028. For families in {suburb} considering early childhood intervention, this means there will soon be two pathways available: the NDIS Early Childhood Approach for children with significant disability, and Thriving Kids for those with lower support needs. Families are encouraged to speak with their Early Childhood Partner about which pathway best suits their child's situation.
 
 ## Need Support for Your Family in {suburb}?
 
 MD Home Care understands the importance of connecting families with the right early childhood supports in {suburb}.
 
-[Contact Us Today](/contact) for information on how to connect with your local Early Childhood Partner or to discuss how our other services might complement your child's early intervention supports. 
+[Get in Touch Today](/contact) for information on how to connect with your local Early Childhood Partner or to explore how other services through MD Home Care might complement your child's early intervention supports. 
