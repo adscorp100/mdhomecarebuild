@@ -1,6 +1,7 @@
 ---
-title: 'Support at Home High-Level Care 2025: Classification 7-8 Guide (Formerly Level 4 HCP)'
-description: "Support at Home Classification 7-8 provides up to $78,000/year for high-level care. Learn what's covered under the new program that replaced Level 4 Home Care Packages in November 2025."
+title: 'Level 4 Home Care Package 2026: Now Support at Home Classification 7-8 ($78,000/yr)'
+description: "Level 4 Home Care Packages are now Support at Home Classification 7-8, worth up to $78,000/year. What changed, what is covered, and how to find the right provider."
+updatedAt: 2026-02-10
 pubDate: 2025-07-06
 author: 'MD Home Care'
 tags: ["Support at Home", "Aged Care", "Level 4", "Complex Care", "Home Care Package"]

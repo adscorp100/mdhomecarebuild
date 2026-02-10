@@ -1,6 +1,7 @@
 ---
-title: "How Much Money Can I Have in the Bank on DSP? $314k (2025)"
-description: "Disability pension bank limits 2025: $314,000 (homeowner) or $566,500 (non-homeowner). Partner can earn $2,155/fortnight before affecting your DSP. Complete asset test + income rules."
+title: "DSP Asset Test 2026: How Much Can You Have in the Bank? ($314K Limit)"
+description: "DSP bank limits 2026: $314,000 if you own your home, $566,500 if you don't. Full asset test breakdown, income free area, partner income rules, and payment calculator."
+updatedAt: 2026-02-10
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["disability support pension", "DSP eligibility", "DSP asset test", "Centrelink disability pension"]

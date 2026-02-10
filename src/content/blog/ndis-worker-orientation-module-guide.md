@@ -1,6 +1,7 @@
 ---
-title: "NDIS Worker Orientation Module Guide (2026)"
-description: "Your complete guide to the mandatory NDIS Worker Orientation Module for 2026. Learn how to get your certificate, how long it takes, and if it expires. Free and easy steps."
+title: "NDIS Worker Orientation Module 2026: Pass in 90 Minutes (Step-by-Step)"
+description: "Complete the free NDIS Worker Orientation Module in 90 minutes. Step-by-step walkthrough, quiz answers explained, certificate download, and what to do if yours expires."
+updatedAt: 2026-02-10
 pubDate: 2025-07-02
 author: "Camila"
 tags: ['ndis', 'ndis worker', 'support worker', 'ndis module']

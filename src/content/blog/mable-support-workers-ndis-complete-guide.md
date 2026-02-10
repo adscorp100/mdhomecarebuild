@@ -1,6 +1,7 @@
 ---
-title: "Mable NDIS Review 2026: Rates, Fees & Better Alternatives Compared"
-description: "Mable charges 7.95% platform fee on NDIS bookings. Compare weekend rates ($73/hr), public holidays ($87/hr), and alternatives. Is Mable registered? Full pros/cons review 2026."
+title: "Mable NDIS Review 2026: Real Costs, Hidden Fees & 5 Alternatives Compared"
+description: "Mable's 7.95% fee adds up fast. We compare real weekend rates ($73/hr), public holiday costs ($87/hr), registration status, and 5 cheaper alternatives for 2026."
+updatedAt: 2026-02-10
 pubDate: 2026-12-15
 author: "Camila"
 tags: ["Mable Support Workers", "NDIS", "Support Workers", "Disability Support", "Mable Platform", "Mable Rates"]

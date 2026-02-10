@@ -1,6 +1,7 @@
 ---
-title: "Disability Pension Rates 2026: $1,149/fortnight Single + $866.80 Partnered"
-description: "DSP payment rates 2026: Singles get $1,149/fortnight, couples $866.80 each. Includes supplements, income test, asset test limits & payment dates. Free DSP calculator + eligibility guide."
+title: "How Much Is the Disability Pension Per Fortnight in 2026? ($1,149 Single)"
+description: "Disability pension pays $1,149/fortnight (single) or $866.80 (partnered) in 2026. See exact rates, supplements, income test thresholds, asset limits, and payment dates."
+updatedAt: 2026-02-10
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["disability support pension", "dsp rates", "disability pension", "centrelink payments", "dsp 2026", "disability pension rates", "DSP eligibility", "DSP asset test", "Centrelink disability pension"]

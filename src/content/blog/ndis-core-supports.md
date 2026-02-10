@@ -1,6 +1,7 @@
 ---
-title: "NDIS Core Supports: Complete Guide to All 4 Categories (2026)"
-description: "What are NDIS Core Supports? Complete guide to the 4 categories: Daily Life, Consumables, Social Participation & Transport. Flexibility rules, examples, and how to maximise your funding."
+title: "NDIS Core Supports 2026: What Each Category Covers (With Spending Examples)"
+description: "NDIS Core Supports explained: Daily Life, Consumables, Social Participation, and Transport. See what you can actually buy, flexibility rules between categories, and real spending examples."
+updatedAt: 2026-02-10
 pubDate: 2025-07-13
 author: "MD Home Care"
 tags: ["NDIS", "Core Supports", "NDIS Funding", "Daily Life", "Community Participation"]
