@@ -1,6 +1,6 @@
 ---
 title: "Free Aged Care Risk Assessment Template 2025: Comprehensive Safety Guide"
-description: "Download our free aged care risk assessment template for 2025. Learn how to assess falls risk, medication safety, nutrition, infection control, and behavioral risks."
+description: "Download a free aged care risk assessment template for 2025. Learn how to assess falls risk, medication safety, nutrition, infection control, and behavioral risks."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["aged-care", "risk-assessment", "template", "safety", "compliance"]

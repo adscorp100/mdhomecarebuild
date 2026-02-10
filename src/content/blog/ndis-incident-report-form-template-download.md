@@ -1,6 +1,6 @@
 ---
 title: "Free NDIS Incident Report Form 2026: Download & Complete Reporting Guide"
-description: "Download our free NDIS incident report form for 2026. Learn mandatory reporting requirements, NDIS Commission timeframes, and proper documentation procedures for all incident types."
+description: "Download a free NDIS incident report form for 2026. Learn mandatory reporting requirements, NDIS Commission timeframes, and proper documentation procedures for all incident types."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "incident-report", "template", "compliance", "safety"]

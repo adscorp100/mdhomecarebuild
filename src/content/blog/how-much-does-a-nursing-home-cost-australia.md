@@ -1,6 +1,6 @@
 ---
 title: "How Much Does a Nursing Home Cost in Australia? (2025 Comprehensive Guide)"
-description: "A complete 2025 guide to Australian nursing home costs. We break down the Basic Daily Fee, Means-Tested Fees, and RAD vs. DAP, with 12+ official sources and answers to common fears."
+description: "A complete 2025 guide to Australian nursing home costs. This guide breaks down the Basic Daily Fee, Means-Tested Fees, and RAD vs. DAP, with 12+ official sources and answers to common fears."
 pubDate: 2025-07-06
 author: "MD Home Care"
 tags: ["nursing home cost", "aged care fees", "australia", "rad", "dap", "means test", "consumer rights"]

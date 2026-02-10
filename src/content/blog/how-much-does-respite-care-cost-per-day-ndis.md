@@ -1,6 +1,6 @@
 ---
 title: "How Much Does Respite Care Cost Per Day? (NDIS Guide 2025)"
-description: "Everything you need to know about NDIS respite care costs per day in 2025. We break down NDIS short-term accommodation rates, weekly costs, and the NDIS price guide."
+description: "Everything you need to know about NDIS respite care costs per day in 2025. This guide breaks down NDIS short-term accommodation rates, weekly costs, and the NDIS price guide."
 pubDate: 2025-07-02
 author: "Camila"
 tags: ["NDIS", "Respite Care", "Pricing"]

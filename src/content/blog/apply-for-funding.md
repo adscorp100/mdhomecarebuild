@@ -1,6 +1,6 @@
 ---
 title: "How to Apply for In Home Supportive Services: NDIS Funding Guide"
-description: "Learn how to apply for in home support services through the NDIS with our comprehensive step-by-step guide covering eligibility, application process, and special considerations."
+description: "Learn how to apply for in home support services through the NDIS with this comprehensive step-by-step guide covering eligibility, application process, and special considerations."
 pubDate: 2025-02-24
 updatedAt: 2026-02-10
 author: "Camila"

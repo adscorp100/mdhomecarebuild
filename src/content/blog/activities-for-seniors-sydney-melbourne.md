@@ -1,6 +1,6 @@
 ---
 title: "Top Activities for Seniors in Sydney & Melbourne (2025 Guide)"
-description: "Discover the best social, creative, and physical activities for seniors in Sydney and Melbourne. Our 2025 guide covers free events, community centres, clubs, and more."
+description: "Discover the best social, creative, and physical activities for seniors in Sydney and Melbourne. This 2025 guide covers free events, community centres, clubs, and more."
 pubDate: 2025-07-02
 author: "Camila"
 tags: ['activities for seniors', 'seniors sydney', 'seniors melbourne', 'social activities']

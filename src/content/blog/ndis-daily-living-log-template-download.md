@@ -1,6 +1,6 @@
 ---
 title: "Free NDIS Daily Living Log Template 2026: Complete Tracking Guide"
-description: "Download our free NDIS daily living log template for 2026. Learn how to track personal care, meals, mobility, household tasks, and social activities for comprehensive support monitoring."
+description: "Download a free NDIS daily living log template for 2026. Learn how to track personal care, meals, mobility, household tasks, and social activities for comprehensive support monitoring."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "daily-living-log", "template", "tracking", "support"]

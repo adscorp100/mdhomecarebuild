@@ -211,7 +211,7 @@ MD Home Care connects you with comprehensive **NDIS cleaning services** in {subu
 
 ## Why Choose MD Homecare for NDIS Cleaning Services
 
-### Our Approach to Domestic Assistance
+### The Approach to Domestic Assistance
 
 **Person-Centered Service**
 - **Individual Choice**: Participants choose their cleaning priorities and methods
@@ -242,22 +242,22 @@ MD Home Care connects you with comprehensive **NDIS cleaning services** in {subu
 ## Frequently Asked Questions
 
 ### What cleaning tasks are included in NDIS cleaning services?
-Our **NDIS cleaning services** include general house cleaning, bathroom and kitchen cleaning, laundry, tidying, and organization. We also provide skill development to help you learn to maintain your home independently.
+**NDIS cleaning services** typically include general house cleaning, bathroom and kitchen cleaning, laundry, tidying, and organization. Skill development is also available to help you learn to maintain your home independently.
 
 ### How often can I receive NDIS cleaning services in {suburb}?
-The frequency of **NDIS cleaning services** depends on your individual needs and NDIS plan. We can provide weekly, fortnightly, monthly, or as-needed cleaning support based on your goals and funding.
+The frequency of **NDIS cleaning services** depends on your individual needs and NDIS plan. Providers can offer weekly, fortnightly, monthly, or as-needed cleaning support based on your goals and funding.
 
 ### Can NDIS cleaning services help me learn to clean independently?
-Yes, our **domestic assistance** programs include skill development components. We teach effective cleaning techniques, help you develop routines, and work toward your independence goals.
+Yes, **domestic assistance** programs include skill development components. Support workers teach effective cleaning techniques, help you develop routines, and work toward your independence goals.
 
 ### What if I have specific cleaning products I need to use?
-We're happy to use your preferred cleaning products, especially if you have allergies or sensitivities. We can also help you learn about different cleaning products and their appropriate uses.
+Providers are happy to use your preferred cleaning products, especially if you have allergies or sensitivities. Support workers can also help you learn about different cleaning products and their appropriate uses.
 
 ### Do you provide cleaning supplies and equipment?
-Basic cleaning supplies can be provided as part of your NDIS funding. We can also help you learn about purchasing and maintaining your own cleaning supplies for independence.
+Basic cleaning supplies can be provided as part of your NDIS funding. Support workers can also help you learn about purchasing and maintaining your own cleaning supplies for independence.
 
 ---
 
-Contact MD Homecare today to access professional **NDIS cleaning services** in {suburb}. Our experienced team is ready to help you maintain a clean, comfortable home while building the skills you need for independence.
+Contact MD Homecare today to access professional **NDIS cleaning services** in {suburb}. Experienced professionals are ready to help you maintain a clean, comfortable home while building the skills you need for independence.
 
-**Ready to get started?** Contact our **NDIS cleaning services** team in {suburb} for a consultation about your domestic assistance and household support needs. 
+**Ready to get started?** Get in touch with the **NDIS cleaning services** team in {suburb} for a consultation about your domestic assistance and household support needs. 

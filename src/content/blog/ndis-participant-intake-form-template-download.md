@@ -1,6 +1,6 @@
 ---
 title: "Free NDIS Participant Intake Form 2026: Complete Assessment Guide"
-description: "Download our free NDIS participant intake form for 2026. Learn how to conduct comprehensive assessments covering personal details, support needs, goals, and risk factors."
+description: "Download a free NDIS participant intake form for 2026. Learn how to conduct comprehensive assessments covering personal details, support needs, goals, and risk factors."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "intake-form", "template", "assessment", "participants"]

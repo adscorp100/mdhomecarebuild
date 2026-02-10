@@ -1,6 +1,6 @@
 ---
 title: "Aged Care Fees Calculator: The Ultimate Australian Guide (2025)"
-description: "Confused by aged care costs? Use our guide to understand the fees, estimate your costs, and learn about the My Aged Care fee estimator, RADs, DAPs, and more for 2025."
+description: "Confused by aged care costs? Use this guide to understand the fees, estimate your costs, and learn about the My Aged Care fee estimator, RADs, DAPs, and more for 2025."
 pubDate: 2025-07-02
 author: "MD Home Care"
 tags: ["aged care fees calculator", "aged care cost calculator", "nursing home costs calculator", "means tested care fee", "rad dap calculator", "my aged care fee estimator"]
