@@ -11,7 +11,15 @@ image: "/assets/disabled carer.webp"
 
 Caring for a loved one is one of the most important jobs in the world, but it often comes with a hidden cost: financial strain. If you're navigating the complexities of Centrelink, you've likely felt overwhelmed by the jargon, the forms, and the fear of getting it wrong. You're not alone, and you've come to the right place.
 
-This guide is designed to cut through the confusion. We're going to demystify the two key forms of financial support—the Carer Payment and the Carer Allowance—in plain English. By the end of this page, you will understand what they are, who they're for, how to apply, and how to find the exact payment rates you're entitled to.
+This guide is designed to cut through the confusion. We're going to demystify the two key forms of financial support in plain English. By the end of this page, you will understand what they are, who they're for, how to apply, and how to find the exact payment rates you're entitled to.
+
+## Quick Answer: Carer Payment vs Carer Allowance 2025
+
+**What is carer payment?** An income support payment up to $1,002.50 per fortnight (single) for people who can't work because they provide constant care. Subject to income and asset tests.
+
+**What is carer allowance?** A supplement payment of $150.40 per fortnight to help with care costs. Not taxable income. Has income limits but no asset test.
+
+**Can you get both payments?** Yes, you can receive both Carer Payment and Carer Allowance if you meet the eligibility criteria for each payment separately.
 
 ## Carer Payment vs. Carer Allowance: What's the Difference?
 
@@ -95,6 +103,6 @@ You can only receive one Carer Payment, regardless of how many people you care f
 ### How long does the application process take?
 This is one of the biggest frustrations. While some claims are processed in weeks, it's realistic to expect it could take a couple of months. This is why having all your documents ready from the start is so important.
 
-MD Home Care connects carers with professionals who understand the incredible work that carers do. Through the provider network, families can access support to navigate the complexities of in-home care, while ensuring you have access to all the support you're entitled to.
+MD Home Care connects carers with professionals who understand the incredible work that carers do. Through the provider network, families can find support to navigate the complexities of in-home care, while ensuring you have access to all the support you're entitled to.
 
 If you have questions about organising care services or need help understanding your options, **[find providers through MD Home Care today](/contact)**. 
