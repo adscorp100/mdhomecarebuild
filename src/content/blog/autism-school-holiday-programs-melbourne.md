@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 author: "MD Home Care"
 tags: ["NDIS", "Autism", "School Holidays", "Melbourne", "Vacation Care"]
 popupTitle: "Need Help Finding the Right Program?"
-popupSubtitle: "Our team can help connect you with autism-friendly holiday programs in Melbourne"
+popupSubtitle: "Connect with professionals who can help connect you with autism-friendly holiday programs in Melbourne"
 ---
 
 Finding the right school holiday program for a child with autism can be stressful. You need a program that understands sensory needs, provides appropriate supervision ratios, and actually helps your child develop—not just somewhere to pass the time.

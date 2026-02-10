@@ -21,7 +21,7 @@ quickFacts:
 
 Being a primary caregiver is a demanding role. When you're approaching burnout or facing an unexpected situation, you need immediate, reliable, and compassionate support. You need someone you can trust to step in *now*.
 
-Our In-Home Respite Care service in {suburb} is designed for this very moment. We provide a lifeline for caregivers who need a break, so you can rest, recover, and recharge, knowing your loved one is in safe, professional hands.
+In-Home Respite Care services in {suburb} are designed for this very moment. Quality providers offer a lifeline for caregivers who need a break, so you can rest, recover, and recharge, knowing your loved one is in safe, professional hands.
 
 <div class="cta-button-container large-cta">
 <a href="/contact" class="cta-button">Call Us Now for Immediate Support</a>
@@ -39,7 +39,7 @@ We understand the urgency. When you call us, you'll speak with a caring professi
 The person we send to your home matters. Our support workers are not just background-checked and insured; they are experienced professionals skilled in a wide range of care needs, from dementia to mobility support. They provide respectful, expert care that follows your established routines.
 
 ### 3. Absolute Reliability
-You need to know that help is truly on the way. Our robust scheduling and dedicated local {suburb} team ensure that when we make a promise, we keep it. We provide the dependable support you need to confidently take a break.
+You need to know that help is truly on the way. Quality providers' robust scheduling and dedicated local {suburb} teams ensure that when they make a promise, they keep it. They provide the dependable support you need to confidently take a break.
 
 ![A support worker provides comfort to an elderly person.](/assets/respite care.webp)
 
@@ -64,7 +64,7 @@ Our goal is to provide help as quickly as possible. In many cases, we can arrang
 Our support workers are experienced in a wide range of care scenarios, including dementia care, mobility assistance, and personal care. During our initial call, we will discuss your loved one's specific needs to ensure we send a carer with the right skills and experience.
 
 **Is respite care covered by NDIS or my Home Care Package?**
-Yes. Respite care is a key support available under both NDIS (as Short Term Accommodation or through Core Supports) and Home Care Packages. Our team can help you understand and navigate your funding options during our call.
+Yes. Respite care is a key support available under both NDIS (as Short Term Accommodation or through Core Supports) and Home Care Packages. Connect with qualified professionals who can help you understand and navigate your funding options during your consultation.
 
 ### You Don't Have to Do This Alone. Take a Break—You've Earned It.
 

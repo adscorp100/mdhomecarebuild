@@ -26,7 +26,7 @@ We are a registered NDIS provider (4050000327) dedicated to person-centered appr
 ## Services Offered
 
 ### Domestic Support
-We provide a range of in-home domestic support including:
+They provide a range of in-home domestic support including:
 - Grocery shopping
 - Meal preparation
 - Household chores

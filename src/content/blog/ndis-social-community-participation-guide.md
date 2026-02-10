@@ -5,7 +5,7 @@ pubDate: 2026-01-31
 author: 'MD Home Care'
 tags: ["NDIS", "Community Participation", "Social Activities", "NDIS Funding", "Increased Social Community Participation"]
 popupTitle: "Want to Get More Involved in Your Community?"
-popupSubtitle: "We can help you find and access social and community activities"
+popupSubtitle: "Find providers who can help you find and access social and community activities"
 image: '/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp'
 ---
 

@@ -16,7 +16,7 @@ quickFacts:
 
 ## Mobility Equipment for Home Care in {suburb}
 
-Our mobility equipment services in {suburb} help individuals with mobility challenges to move safely and independently within their homes. We provide guidance on selecting appropriate mobility aids, assistance with sourcing equipment, and support for setting up and learning to use mobility devices effectively.
+Mobility equipment services in {suburb} help individuals with mobility challenges to move safely and independently within their homes. Qualified professionals provide guidance on selecting appropriate mobility aids, assistance with sourcing equipment, and support for setting up and learning to use mobility devices effectively.
 
 ### Mobility Equipment Solutions for {suburb} Residents
 

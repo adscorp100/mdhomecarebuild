@@ -5,7 +5,7 @@ pubDate: 2026-01-15
 author: "MD Homecare Team"
 tags: ["ndis worker screening check", "worker screening", "ndis clearance", "disability worker check"]
 popupTitle: "Need Help with Worker Screening?"
-popupSubtitle: "We support you through the compliance process"
+popupSubtitle: "Find providers who support you through the compliance process"
 image: "/assets/nurse.webp"
 ---
 

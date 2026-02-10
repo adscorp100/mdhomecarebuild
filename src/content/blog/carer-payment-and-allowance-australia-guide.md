@@ -5,7 +5,7 @@ pubDate: 2025-07-06
 author: "MD Home Care"
 tags: ["Carer Payment", "Carer Allowance", "Centrelink", "Financial Support", "Aged Care"]
 popupTitle: "Need Support as a Carer?"
-popupSubtitle: "We can help with respite care and carer support services"
+popupSubtitle: "Find providers who can help with respite care and carer support services"
 image: "/assets/disabled carer.webp"
 ---
 

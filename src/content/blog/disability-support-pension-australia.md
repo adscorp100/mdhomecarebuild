@@ -5,7 +5,7 @@ pubDate: 2025-12-15
 author: "Camila"
 tags: ["disability support pension", "DSP eligibility", "DSP asset test", "Centrelink disability pension"]
 popupTitle: "Questions About Disability Support?"
-popupSubtitle: "We can help you access the services you're entitled to"
+popupSubtitle: "Find providers who can help you access the services you're entitled to"
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 

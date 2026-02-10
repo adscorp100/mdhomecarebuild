@@ -5,7 +5,7 @@ pubDate: 2025-12-14
 author: "Camila"
 tags: []
 popupTitle: "Interested in Mental Health Recovery Support?"
-popupSubtitle: "Discover how to become a psychosocial recovery coach with our help"
+popupSubtitle: "Discover how to become a psychosocial recovery coach"
 image: "/assets/carer.webp"
 ---
 

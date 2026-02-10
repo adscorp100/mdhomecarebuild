@@ -45,7 +45,7 @@ Our experienced {suburb} plan management team provides comprehensive financial s
 *   **Real-Time Dashboard:** Access your budget anytime through our online portal or app.
 *   **Spending Alerts:** We notify you when you're approaching budget limits.
 *   **Monthly Statements:** Clear reports showing exactly where your funding has gone.
-*   **Plan Review Support:** We provide detailed spending reports to support your plan reviews.
+*   **Plan Review Support:** Quality plan managers provide detailed spending reports to support your plan reviews.
 
 ### Freedom to Choose Any Provider
 *   **Registered & Unregistered Providers:** Use any provider you want—we handle the compliance.

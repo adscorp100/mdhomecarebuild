@@ -5,7 +5,7 @@ pubDate: 2026-07-18
 author: "MD Home Care"
 tags: ["SIL NDIS", "Supported Independent Living", "NDIS Funding", "Disability Accommodation"]
 popupTitle: "Exploring Independent Living Options?"
-popupSubtitle: "We can help you access SIL funding"
+popupSubtitle: "Find providers who can help you access SIL funding"
 image: "/assets/accessible bathroom.webp"
 ---
 

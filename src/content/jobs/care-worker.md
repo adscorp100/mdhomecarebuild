@@ -256,10 +256,10 @@ If you're passionate about making a difference in people's lives and interested 
 Care Workers provide support across multiple care settings including aged care, disability support, and health recovery. This differs from specialized roles like Aged Care Workers (focused on elderly clients) or Disability Support Workers (focused on NDIS clients), offering more variety and career flexibility.
 
 ### Do I need experience to become a Care Worker?
-While experience is valuable, it's not always required. We provide comprehensive training and support for new care workers. A genuine passion for helping others and willingness to learn are often more important than previous experience.
+While experience is valuable, it's not always required. Quality providers offer comprehensive training and support for new care workers. A genuine passion for helping others and willingness to learn are often more important than previous experience.
 
 ### What hours can I expect to work?
-Care Worker hours vary based on client needs and your availability. We offer day, evening, and weekend shifts, with options for part-time, full-time, or casual employment. Many care workers appreciate the flexibility to choose shifts that suit their lifestyle.
+Care Worker hours vary based on client needs and your availability. Providers offer day, evening, and weekend shifts, with options for part-time, full-time, or casual employment. Many care workers appreciate the flexibility to choose shifts that suit their lifestyle.
 
 ### Will I work with the same clients regularly?
 We aim to provide consistency for both care workers and clients. While you may work with multiple clients, we try to establish regular care relationships where possible. This allows you to build meaningful connections while gaining diverse experience.

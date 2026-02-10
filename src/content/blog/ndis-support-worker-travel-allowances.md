@@ -5,7 +5,7 @@ pubDate: 2025-05-15
 author: "Camila"
 tags: []
 popupTitle: "Questions About Travel Costs?"
-popupSubtitle: "We keep travel fees fair and transparent"
+popupSubtitle: "Find providers who keep travel fees fair and transparent"
 image: "/assets/wheelchair.webp"
 ---
 

@@ -5,7 +5,7 @@ pubDate: 2025-04-22
 author: "Camila"
 tags: ["deceased estate property", "probate sale", "deceased property", "estate property", "selling deceased estate"]
 popupTitle: "Managing a Loved One's Estate?"
-popupSubtitle: "We understand this difficult time and can assist"
+popupSubtitle: "Find providers who understand this difficult time and can assist"
 image: "/assets/deceasedestate.webp"
 ---
 

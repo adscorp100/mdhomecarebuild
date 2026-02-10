@@ -5,7 +5,7 @@ pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "support-plan", "template", "goals", "participant"]
 popupTitle: "Need Help Creating Your Support Plan?"
-popupSubtitle: "We can guide you through the planning process"
+popupSubtitle: "Find providers who can guide you through the planning process"
 image: "/assets/grandmawhite.webp"
 ---
 

@@ -5,7 +5,7 @@ pubDate: 2025-07-02
 author: "Camila"
 tags: ['activities for seniors', 'seniors sydney', 'seniors melbourne', 'social activities']
 popupTitle: "Want Help Staying Active and Social?"
-popupSubtitle: "We can support you to enjoy your favorite activities"
+popupSubtitle: "Find providers who can support you to enjoy your favorite activities"
 image: "/assets/drinkingtea.webp"
 ---
 

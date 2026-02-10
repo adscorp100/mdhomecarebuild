@@ -5,7 +5,7 @@ pubDate: 2025-12-16
 author: "Camila"
 tags: ["NDIS", "assistance with daily life", "core supports", "NDIS funding", "daily living support"]
 popupTitle: "Need Help with Daily Living Tasks?"
-popupSubtitle: "Discover how we can support your independence"
+popupSubtitle: "Discover providers who can support your independence"
 image: "/assets/homecare.webp"
 ---
 

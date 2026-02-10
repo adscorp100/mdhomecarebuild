@@ -5,7 +5,7 @@ pubDate: 2026-07-08
 author: "MD Home Care"
 tags: ["NDIS", "Capacity Building", "Improved Daily Living", "CB Daily Activity", "Allied Health"]
 popupTitle: "Need Help With Therapy Services?"
-popupSubtitle: "We connect participants with quality allied health providers"
+popupSubtitle: "Connect with quality allied health providers"
 image: "/assets/disabled carer.webp"
 ---
 

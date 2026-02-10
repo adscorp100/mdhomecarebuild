@@ -20,7 +20,7 @@ Through MD Home Care, you can find specialized home modification providers who h
 
 ### Home Safety Modification Services in {suburb}
 
-We offer a comprehensive range of home modifications for {suburb} residents, including:
+Find a comprehensive range of home modifications for {suburb} residents, including:
 
 - **Bathroom Modifications**: Installation of grab rails, shower seats, raised toilet seats, non-slip flooring, and accessible showers or wet rooms
 - **Access Improvements**: Ramps, handrails, widened doorways, and threshold modifications

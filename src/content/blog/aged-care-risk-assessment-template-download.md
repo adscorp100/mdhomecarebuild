@@ -5,7 +5,7 @@ pubDate: 2025-12-15
 author: "Camila"
 tags: ["aged-care", "risk-assessment", "template", "safety", "compliance"]
 popupTitle: "Concerned About Safety at Home?"
-popupSubtitle: "We provide comprehensive safety assessments and support"
+popupSubtitle: "Find quality providers who offer comprehensive safety assessments and support"
 image: "/assets/drinkingtea.webp"
 ---
 

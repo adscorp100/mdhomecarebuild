@@ -5,7 +5,7 @@ pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "service-agreement", "template", "providers", "compliance"]
 popupTitle: "Want Clear Service Agreements?"
-popupSubtitle: "We make our commitments transparent and easy to understand"
+popupSubtitle: "Find providers who make their commitments transparent and easy to understand"
 image: "/assets/holdinglinen.webp"
 ---
 

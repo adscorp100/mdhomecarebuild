@@ -5,7 +5,7 @@ pubDate: 2025-04-25
 author: "Camila"
 tags: []
 popupTitle: "Not Sure How to Use Your Package?"
-popupSubtitle: "We can help you maximize your home care funding"
+popupSubtitle: "Find providers who can help you maximize your home care funding"
 image: "/assets/homecare.webp"
 ---
 

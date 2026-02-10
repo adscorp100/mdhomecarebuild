@@ -57,7 +57,7 @@ Choosing a nursing provider is one of the most important healthcare decisions yo
 We don't use contractors. Our nurses are part of the MD Home Care family, chosen for their clinical excellence and their compassionate approach.
 *   **Fully Registered:** Every nurse holds a current registration with AHPRA (Australian Health Practitioner Regulation Agency).
 *   **Rigorous Screening:** Every team member passes an NDIS Worker Screening Check, a police check, and multiple reference checks.
-*   **Specialised Training:** Our team receives ongoing training in chronic disease management, wound care, palliative care, and infection control.
+*   **Specialised Training:** Qualified nursing teams receive ongoing training in chronic disease management, wound care, palliative care, and infection control.
 
 ### The Promise of Coordinated, Reliable Care
 *   **A Consistent Team:** We aim to provide a consistent primary nursing team to foster a strong, trusting clinical relationship.
@@ -69,7 +69,7 @@ We are experts in navigating the funding options for clinical nursing care.
 
 *   **Home Care Packages (HCP):** Nursing care is a key service available under all package levels. We help you manage your funds to get the clinical support you need.
 *   **NDIS Plans:** Nursing support can be funded under **Core Supports** or **Capacity Building** for eligible participants with complex health needs.
-*   **Private Funding:** We offer clear, transparent pricing for those who wish to fund their own care.
+*   **Private Funding:** Quality providers offer clear, transparent pricing for those who wish to fund their own care.
 
 ## Frequently Asked Questions
 

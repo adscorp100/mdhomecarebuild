@@ -5,7 +5,7 @@ pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "invoice", "template", "providers", "billing"]
 popupTitle: "Looking for NDIS Services?"
-popupSubtitle: "We offer transparent pricing and quality support"
+popupSubtitle: "Discover providers who offer transparent pricing and quality support"
 image: "/assets/cleaner.webp"
 ---
 

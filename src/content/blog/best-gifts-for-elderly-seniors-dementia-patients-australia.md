@@ -5,7 +5,7 @@ pubDate: 2025-01-20
 author: "Camila"
 tags: ["gifts for elderly", "gifts for seniors", "dementia gifts", "aged care", "elderly presents"]
 popupTitle: "Looking for Support for Your Loved One?"
-popupSubtitle: "We provide compassionate care that brings joy and comfort"
+popupSubtitle: "Find quality providers who offer compassionate care that brings joy and comfort"
 image: "/assets/grandma.webp"
 ---
 

@@ -5,7 +5,7 @@ pubDate: 2025-05-15
 author: "Camila"
 tags: []
 popupTitle: "Need Psychosocial Recovery Support?"
-popupSubtitle: "Connect with our experienced mental health support team"
+popupSubtitle: "Connect with experienced mental health support professionals"
 image: "/assets/carer.webp"
 ---
 

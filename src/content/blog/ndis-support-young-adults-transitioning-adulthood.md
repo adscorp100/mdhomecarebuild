@@ -5,7 +5,7 @@ pubDate: 2025-06-02
 author: "Camila"
 category: "NDIS"
 popupTitle: "Supporting Your Teen's Transition?"
-popupSubtitle: "We specialize in young adult independence"
+popupSubtitle: "Find providers who specialize in young adult independence"
 image: "/assets/downs.webp"
 ---
 

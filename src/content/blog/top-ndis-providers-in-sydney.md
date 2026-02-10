@@ -5,7 +5,7 @@ pubDate: 2025-07-06
 author: "MD Home Care"
 tags: ["NDIS", "Sydney", "Disability Support"]
 popupTitle: "Need a Reliable NDIS Provider in Sydney?"
-popupSubtitle: "Discover how we can support you with quality care"
+popupSubtitle: "Discover quality care providers who can support you"
 image: "/assets/sydney.webp"
 ---
 

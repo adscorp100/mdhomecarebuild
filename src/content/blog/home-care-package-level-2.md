@@ -5,7 +5,7 @@ pubDate: 2025-07-02
 author: "Camila"
 tags: []
 popupTitle: "Questions About Home Care Packages?"
-popupSubtitle: "Our team can help you understand your funding and options"
+popupSubtitle: "Connect with professionals who can help you understand your funding and options"
 image: "/assets/holdinglinen.webp"
 ---
 

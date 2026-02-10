@@ -5,7 +5,7 @@ pubDate: 2025-07-02
 author: "MD Home Care"
 tags: ["dementia care", "aged care facilities", "memory care", "dementia specific aged care facilities"]
 popupTitle: "Need Help Finding Dementia Care?"
-popupSubtitle: "We can guide you to the right facility for your loved one"
+popupSubtitle: "Find providers who can guide you to the right facility for your loved one"
 image: "/assets/grandma.webp"
 ---
 

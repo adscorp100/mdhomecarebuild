@@ -55,7 +55,7 @@ With more than three decades of experience, we've built a reputation for quality
 We implement comprehensive safety protocols and quality assurance measures to ensure the wellbeing of every client.
 
 ### Qualified and compassionate
-Our team members are not only professionally qualified but also genuinely passionate about making a positive difference in people's lives.
+Their team members are not only professionally qualified but also genuinely passionate about making a positive difference in people's lives.
 
 ### Local Team Members
 We employ local people who understand your community and can provide culturally appropriate support services.

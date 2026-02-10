@@ -66,7 +66,7 @@ Our Therapy Assistants hold a minimum of Certificate III or IV in Allied Health 
 Using a Therapy Assistant for regular practice is more affordable than exclusively using a senior therapist. This allows you to get more support hours from your NDIS budget, leading to more consistent practice and better outcomes.
 
 ### Seamless, Coordinated Care
-We work directly with your existing therapists or our in-house allied health professionals. Our team-based approach ensures everyone is aligned with your goals, providing consistent and coordinated support.
+Qualified therapy assistants work directly with your existing therapists or allied health professionals in our network. This team-based approach ensures everyone is aligned with your goals, providing consistent and coordinated support.
 
 ## Frequently Asked Questions
 

@@ -19,7 +19,7 @@ When you or a loved one are facing challenges, therapy can be the key to unlocki
 
 ## What Would You Like to Achieve?
 
-Instead of a confusing list of clinical names, let's focus on your goals. We provide a range of therapy services in {suburb} to help you get there.
+Instead of a confusing list of clinical names, let's focus on your goals. Find a range of therapy services in {suburb} to help you get there.
 
 ### To Improve Daily Living & Independence
 **(Occupational Therapy)**

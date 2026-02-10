@@ -6,7 +6,7 @@ category: "NDIS Compliance"
 author: "MD Home Care"
 tags: ["NDIS", "Travel Charges", "Support Workers", "NDIS Pricing", "Provider Guide"]
 popupTitle: "Questions About Travel Charges?"
-popupSubtitle: "We offer transparent and fair pricing"
+popupSubtitle: "Discover providers who offer transparent and fair pricing"
 image: "/assets/physio.webp"
 ---
 

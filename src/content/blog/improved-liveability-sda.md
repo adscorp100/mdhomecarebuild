@@ -5,7 +5,7 @@ pubDate: 2025-03-10
 author: "Camila"
 tags: []
 popupTitle: "Questions About SDA Housing Options?"
-popupSubtitle: "We can help you understand eligibility and find suitable accommodation"
+popupSubtitle: "Find providers who can help you understand eligibility and find suitable accommodation"
 image: "/assets/accessible bathroom.webp"
 ---
 

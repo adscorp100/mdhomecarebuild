@@ -5,7 +5,7 @@ pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "progress-notes", "template", "documentation", "SOAP"]
 popupTitle: "Looking for Professional Documentation?"
-popupSubtitle: "Our support workers maintain detailed, compliant records"
+popupSubtitle: "Find support workers who maintain detailed, compliant records"
 image: "/assets/physio.webp"
 ---
 

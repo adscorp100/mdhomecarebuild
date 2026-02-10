@@ -25,7 +25,7 @@ Choosing the right training is the most important first step. We hear the same w
 -   Unsure if you will meet the complex NDIS Commission requirements for practitioners?
 -   Concerned you'll learn theory but lack the practical, real-world skills to be confident in your role?
 
-We provide a clear, accredited path to becoming a job-ready practitioner in {suburb}.
+Find training providers who offer a clear, accredited path to becoming a job-ready practitioner in {suburb}.
 
 ![A group of professionals in a training session, engaged and learning.](/assets/drinkingtea.webp)
 
@@ -53,7 +53,7 @@ We don't just train you; we prepare you for a successful career. We have a veste
 Graduate with a formal, nationally recognised qualification that is valued by NDIS providers across Australia, giving you the freedom to build a career anywhere.
 
 ### Ongoing Support & Mentorship
-Our support doesn't end on graduation day. We provide ongoing mentorship opportunities and professional development to help you grow and succeed throughout your career.
+Quality training providers' support doesn't end on graduation day. They provide ongoing mentorship opportunities and professional development to help you grow and succeed throughout your career.
 
 ## Your Journey to Becoming a Practitioner
 
@@ -81,7 +81,7 @@ While a degree in a related field like psychology can be a pathway, it is not al
 The demand for qualified Behaviour Support Practitioners is extremely high across {suburb} and all of Australia. It is a key growth area in the NDIS.
 
 **Is there funding available for this course?**
-We offer a range of flexible payment plans. Depending on your circumstances, you may also be eligible for government funding. Contact our course advisors to learn more.
+Training providers offer a range of flexible payment plans. Depending on your circumstances, you may also be eligible for government funding. Contact course advisors to learn more.
 
 ## Ready to Make a Difference?
 

@@ -5,7 +5,7 @@ pubDate: 2025-12-15
 author: "Camila"
 tags: ["medication", "management-plan", "template", "ndis", "aged-care"]
 popupTitle: "Need Help with Medication Management?"
-popupSubtitle: "Our trained team can ensure safe medication support"
+popupSubtitle: "Find trained teams who can ensure safe medication support"
 image: "/assets/nurse.webp"
 ---
 

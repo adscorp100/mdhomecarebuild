@@ -5,7 +5,7 @@ pubDate: 2025-07-02
 author: "MD Home Care"
 tags: ["aged care fees calculator", "aged care cost calculator", "nursing home costs calculator", "means tested care fee", "rad dap calculator", "my aged care fee estimator"]
 popupTitle: "Confused About Aged Care Costs?"
-popupSubtitle: "Let us help you understand your options and fees"
+popupSubtitle: "Find providers who can help you understand your options and fees"
 image: "/assets/homecare.webp"
 ---
 

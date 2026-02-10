@@ -74,7 +74,7 @@ To work in this field, you'll typically need:
 
 ## Location
 
-This position is available in {suburb} and surrounding areas. We offer full-time, part-time, and casual positions to suit your preferred work-life balance.
+This position is available in {suburb} and surrounding areas. Providers offer full-time, part-time, and casual positions to suit your preferred work-life balance.
 
 ## Ready to Get Started?
 

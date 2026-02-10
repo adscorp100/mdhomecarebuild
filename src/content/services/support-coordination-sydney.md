@@ -82,7 +82,7 @@ NDIS Support Coordination helps you implement your NDIS plan by:
 
 ## Support Coordination Coverage in Sydney
 
-We provide support coordination across **150+ Sydney suburbs** including:
+Find support coordinators across **150+ Sydney suburbs** including:
 
 **Western Sydney:**
 Parramatta, Blacktown, Liverpool, Penrith, Mt Druitt, Fairfield, Auburn, Bankstown, Merrylands, Granville, Guildford, Seven Hills, Toongabbie, Castle Hill, Baulkham Hills
@@ -286,7 +286,7 @@ MD Home Care offers meet-and-greet consultations before commitment.
 
 ### What areas does MD Home Care cover in Sydney?
 
-We provide support coordination across **150+ Sydney suburbs** including all of:
+Find support coordinators across **150+ Sydney suburbs** including all of:
 - Western Sydney (Parramatta, Blacktown, Liverpool, Penrith, Mt Druitt, Fairfield)
 - South West Sydney (Campbelltown, Camden, Bankstown, Casula)
 - North Shore (Hornsby, Chatswood, Ryde, Macquarie Park, Epping)

@@ -24,7 +24,7 @@ SDA is not support services, but rather the physical housing environment—the h
 
 ### Our SDA Housing Options in {suburb}
 
-We offer various SDA design categories in {suburb} to match individual needs:
+Find various SDA design categories in {suburb} to match individual needs:
 
 - **Improved Liveability:** Housing designed to reduce strain on residents who may have sensory, cognitive, or intellectual disabilities
 - **Fully Accessible:** Housing that provides a high level of physical accessibility for people with significant mobility needs
@@ -80,6 +80,6 @@ Our SDA properties in {suburb} are:
 
 ## Contact Us About Specialist Disability Accommodation in {suburb}
 
-Our team is ready to discuss how our SDA properties in {suburb} can provide you with an appropriate housing solution that meets your specific needs. Contact us today to learn more about our properties and availability in {suburb}.
+Connect with qualified professionals who are ready to discuss how SDA properties in {suburb} can provide you with an appropriate housing solution that meets your specific needs. Contact MD Home Care today to learn more about available properties in {suburb}.
 
 [Contact Us Today](/contact)

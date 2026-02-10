@@ -5,7 +5,7 @@ pubDate: 2025-07-12
 author: "MD Home Care"
 tags: ["NDIS", "Psychosocial Recovery Coach", "Mental Health", "Capacity Building", "Support Coordination"]
 popupTitle: "Need Mental Health Support?"
-popupSubtitle: "We can connect you with qualified recovery coaches"
+popupSubtitle: "Connect with qualified recovery coaches"
 image: "/assets/avatar.webp"
 ---
 

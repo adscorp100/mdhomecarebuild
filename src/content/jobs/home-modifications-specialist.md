@@ -77,7 +77,7 @@ To work in this field, you'll typically need:
 
 ## Location
 
-This position is available in {suburb} and surrounding areas. We offer a range of employment arrangements to suit your preferences.
+This position is available in {suburb} and surrounding areas. Providers offer a range of employment arrangements to suit your preferences.
 
 ## Ready to Get Started?
 

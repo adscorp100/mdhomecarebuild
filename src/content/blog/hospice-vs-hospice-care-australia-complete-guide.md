@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 author: "Camila"
 tags: ["hospice care", "palliative care", "end of life care", "hospice meaning"]
 popupTitle: "Need Compassionate End-of-Life Care?"
-popupSubtitle: "We're here to support your family with dignity and comfort"
+popupSubtitle: "Find providers who are here to support your family with dignity and comfort"
 image: "/assets/respite care.webp"
 ---
 

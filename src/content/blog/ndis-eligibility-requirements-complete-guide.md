@@ -5,7 +5,7 @@ pubDate: 2026-01-17
 author: "MD Homecare Team"
 tags: ["ndis eligibility", "ndis requirements", "ndis application", "disability funding"]
 popupTitle: "Questions About NDIS Eligibility?"
-popupSubtitle: "Let us help you navigate the application process"
+popupSubtitle: "Find providers who can help you navigate the application process"
 image: "/assets/downs.webp"
 ---
 

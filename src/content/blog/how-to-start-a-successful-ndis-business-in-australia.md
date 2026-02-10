@@ -244,7 +244,7 @@ You've learned the registration process, compliance requirements, and operationa
 - ✓ Providers looking to fill service calendars faster than traditional networking
 
 **How it works:**
-1. **Join the network** - Tell us your services, suburbs, and capacity
+1. **Join the network** - List your services, suburbs, and capacity
 2. **Receive qualified leads** - Participants find your profile and can contact you directly
 3. **Connect directly** - You contact participants for service trials
 4. **One-time lead fee** - No ongoing commissions or revenue sharing

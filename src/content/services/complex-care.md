@@ -1,6 +1,6 @@
 ---
 title: "Complex Care Services in {suburb}"
-description: "Specialized complex care services in {suburb} delivered by highly trained healthcare professionals. We provide comprehensive support for individuals with multiple or high-level care needs in the comfort of their homes."
+description: "Specialized complex care services in {suburb} delivered by highly trained healthcare professionals. Find providers who offer comprehensive support for individuals with multiple or high-level care needs in the comfort of their homes."
 pubDate: 2025-05-05
 category: "Health Services"
 image: "/assets/clinic.webp"

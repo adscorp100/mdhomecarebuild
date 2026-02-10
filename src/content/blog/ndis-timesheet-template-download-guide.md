@@ -5,7 +5,7 @@ pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "timesheet", "template", "support-workers", "billing"]
 popupTitle: "Need Help with NDIS Billing?"
-popupSubtitle: "We handle the paperwork so you don't have to"
+popupSubtitle: "Find providers who handle the paperwork so you don't have to"
 image: "/assets/makingbed.webp"
 ---
 

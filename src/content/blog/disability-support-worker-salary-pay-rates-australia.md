@@ -5,7 +5,7 @@ pubDate: 2025-07-02
 author: "Camila"
 tags: ["disability support worker", "career progression", "qualifications", "schads award levels", "professional development"]
 popupTitle: "Ready to Advance Your Support Worker Career?"
-popupSubtitle: "We offer clear pathways and professional development"
+popupSubtitle: "Discover providers who offer clear pathways and professional development"
 image: "/assets/disabled carer.webp"
 ---
 

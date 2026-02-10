@@ -5,7 +5,7 @@ pubDate: 2025-07-06
 author: 'MD Home Care'
 tags: ["Support at Home", "Aged Care", "Level 3", "Home Care Package"]
 popupTitle: "Need Help with Your Home Care Package?"
-popupSubtitle: "We can guide you through funding and service options"
+popupSubtitle: "Find providers who can guide you through funding and service options"
 image: '/assets/accessible-bathroom.webp'
 ---
 

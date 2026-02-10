@@ -5,7 +5,7 @@ pubDate: 2025-07-02
 author: "MD Home Care"
 tags: ["Aged Care", "RAD", "DAP", "Aged Care Fees", "Refundable Accommodation Deposit"]
 popupTitle: "Worried About Aged Care Costs?"
-popupSubtitle: "We can help you understand your financial options"
+popupSubtitle: "Find providers who can help you understand your financial options"
 image: "/assets/homecare.webp"
 ---
 

@@ -5,7 +5,7 @@ pubDate: 2026-01-15
 author: "Camila"
 tags: ["NDIS Support Categories", "NDIS Consumables", "Core Supports", "NDIS Funding", "NDIS Budget"]
 popupTitle: "Confused About Your NDIS Budget?"
-popupSubtitle: "We can help you make the most of your funding"
+popupSubtitle: "Find providers who can help you make the most of your funding"
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 

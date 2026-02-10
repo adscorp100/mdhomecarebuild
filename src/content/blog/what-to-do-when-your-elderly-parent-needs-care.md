@@ -5,7 +5,7 @@ pubDate: 2025-07-05T00:00:00.000Z
 author: "MD Home Care"
 tags: ["aged care guide", "help for elderly parents", "my aged care"]
 popupTitle: "Worried About Your Parent's Care Needs?"
-popupSubtitle: "We're here to guide you through every step of the process"
+popupSubtitle: "Find providers who are here to guide you through every step of the process"
 image: "/assets/two women looking at alarm.webp"
 ---
 

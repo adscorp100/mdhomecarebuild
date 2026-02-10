@@ -5,7 +5,7 @@ pubDate: 2025-07-09
 author: "MD Home Care"
 tags: ["NDIS", "Functional Capacity Assessment", "FCA", "Occupational Therapy", "NDIS Reports"]
 popupTitle: "Need Help With Your FCA?"
-popupSubtitle: "Our experienced OTs conduct thorough assessments"
+popupSubtitle: "Find experienced OTs conduct thorough assessments"
 ---
 
 A Functional Capacity Assessment (FCA) is one of the most important reports for your NDIS plan. It provides evidence of how your disability affects your daily life and justifies the supports you need. But what exactly happens during an FCA? What should you expect in the report? And how does it impact your funding?

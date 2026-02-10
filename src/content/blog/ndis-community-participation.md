@@ -5,7 +5,7 @@ pubDate: 2025-07-02
 author: "Camila"
 tags: ['ndis', 'community participation', 'social support', 'ndis plan']
 popupTitle: "Want to Engage More in Your Community?"
-popupSubtitle: "We can help you access community participation support"
+popupSubtitle: "Find providers who can help you access community participation support"
 image: "/assets/downs.webp"
 ---
 

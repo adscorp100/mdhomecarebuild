@@ -5,7 +5,7 @@ pubDate: 2026-01-01
 author: "MD Home Care"
 tags: ["NDIS Capacity Building", "NDIS Funding", "Support Coordination", "NDIS Therapy"]
 popupTitle: "Need Help With Capacity Building?"
-popupSubtitle: "We can help you understand and use your CB funding"
+popupSubtitle: "Find providers who can help you understand and use your CB funding"
 image: "/assets/occupationaltherapy.webp"
 ---
 

@@ -55,13 +55,13 @@ We make the entire process simple, safe, and enjoyable.
 ### Our Commitment to You: The Four Pillars of Our Service
 
 #### 1. Nutrition Tailored to Your Health
-Our team is trained to cater to a wide range of dietary needs. Whether it's managing diabetes, heart health, food allergies, or simply a desire for a balanced diet, we create meals that support your wellbeing.
+Qualified support workers are trained to cater to a wide range of dietary needs. Whether it's managing diabetes, heart health, food allergies, or simply a desire for a balanced diet, they create meals that support your wellbeing.
 
 #### 2. Safety & Trust in Your Home
 Inviting someone to cook in your home requires absolute trust. Every member of our cooking support team is a fully insured employee who has passed a National Police Check and NDIS Worker Screening. They are trained in food safety and hygiene to ensure every meal is prepared to the highest standards.
 
 #### 3. Flexibility Built Around You
-Your tastes, your schedule. We offer complete flexibility. Want to use a treasured family recipe? No problem. Need to change your schedule for a week? We can accommodate that. This is your service.
+Your tastes, your schedule. Quality providers offer complete flexibility. Want to use a treasured family recipe? No problem. Need to change your schedule for a week? They can accommodate that. This is your service.
 
 #### 4. A Friendly, Familiar Face
 We believe in consistency. We do our best to ensure you have the same friendly support worker for each visit, someone who understands your preferences and whose company you can enjoy.

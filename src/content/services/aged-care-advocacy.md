@@ -1,6 +1,6 @@
 ---
 title: "Aged Care Support in {suburb}"
-description: "Feeling overwhelmed by the aged care system? Our expert navigators in {suburb} can help. We provide professional guidance to help you find the right care, manage providers, and get the most from your funding."
+description: "Feeling overwhelmed by the aged care system? Expert navigators in {suburb} can help. Find professionals who provide guidance to help you find the right care, manage providers, and get the most from your funding."
 pubDate: 2025-07-04
 category: "Aged Care"
 image: "/assets/elderlyaboriginal.webp"

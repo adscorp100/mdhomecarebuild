@@ -70,7 +70,7 @@ We are experts in navigating the funding for occupational therapy.
 Your Occupational Therapist will have a friendly chat to understand your goals and challenges. They'll then do a practical assessment of how you manage daily tasks in your home. From there, you'll work together to create a plan with clear, achievable steps.
 
 **Do I have to make the home modifications you suggest?**
-Not at all. Our recommendations are based on your safety and goals, but you are always in control. We provide the options and information, and you make the final decision. We can also help you find reputable tradespeople in {suburb} if you decide to proceed.
+Not at all. Their recommendations are based on your safety and goals, but you are always in control. Qualified OTs provide the options and information, and you make the final decision. They can also help you find reputable tradespeople in {suburb} if you decide to proceed.
 
 **How quickly can I get an appointment?**
 We understand that you often need support quickly. Contact us today, and we will work to schedule an initial consultation with one of our {suburb} OTs as soon as possible.

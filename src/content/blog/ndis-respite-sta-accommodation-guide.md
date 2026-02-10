@@ -5,7 +5,7 @@ pubDate: 2026-01-15
 author: "Camila"
 tags: ["STA NDIS", "Short Term Accommodation", "NDIS Respite", "NDIS", "Respite Care", "STA Meaning"]
 popupTitle: "Need a Break from Caring?"
-popupSubtitle: "We offer quality respite and short-term accommodation"
+popupSubtitle: "Discover providers who offer quality respite and short-term accommodation"
 image: "/assets/respite care.webp"
 ---
 

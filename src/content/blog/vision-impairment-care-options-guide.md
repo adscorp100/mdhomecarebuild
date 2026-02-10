@@ -6,7 +6,7 @@ category: "Disability Support"
 image: "/assets/carer.webp"
 tags: ["vision impairment", "disability support", "NDIS", "care options", "accessibility"]
 popupTitle: "Need Support for Vision Impairment?"
-popupSubtitle: "Our team specializes in vision impairment care and support"
+popupSubtitle: "Find specialists in vision impairment care and support"
 author: "MD Homecare Team"
 ---
 

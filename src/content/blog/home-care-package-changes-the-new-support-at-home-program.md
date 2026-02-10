@@ -5,7 +5,7 @@ pubDate: 2025-07-04T00:00:00Z
 author: "MD Home Care"
 tags: ["Support at Home", "Home Care Packages", "Aged Care", "Aged Care Reform", "Home Modifications"]
 popupTitle: "Confused About Aged Care Changes?"
-popupSubtitle: "We'll help you navigate the new Support at Home program"
+popupSubtitle: "Find providers who'll help you navigate the new Support at Home program"
 image: "/assets/drinkingtea.webp"
 ---
 

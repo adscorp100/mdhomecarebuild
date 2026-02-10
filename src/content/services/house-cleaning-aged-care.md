@@ -59,7 +59,7 @@ Our cleaning services offer {suburb} seniors numerous advantages:
 
 ### Regular Cleaning Packages for {suburb} Seniors
 
-We offer flexible cleaning schedules to meet various needs:
+Quality providers offer flexible cleaning schedules to meet various needs:
 
 - **Weekly Cleaning**: Regular maintenance to keep your home consistently clean
 - **Fortnightly Cleaning**: Less frequent but thorough cleaning for general maintenance
