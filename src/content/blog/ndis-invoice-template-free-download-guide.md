@@ -1,6 +1,6 @@
 ---
 title: "Free NDIS Invoice Template 2026: Download & Complete Guide for Providers"
-description: "Download our free NDIS invoice template for 2026. Learn how to create compliant invoices with correct support item numbers, GST requirements, and payment terms for NDIA, plan-managed, and self-managed participants."
+description: "Download a free NDIS invoice template for 2026. Learn how to create compliant invoices with correct support item numbers, GST requirements, and payment terms for NDIA, plan-managed, and self-managed participants."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "invoice", "template", "providers", "billing"]
@@ -364,6 +364,6 @@ Key takeaways:
 - Keep detailed records supporting all invoiced services
 - Invoice promptly and maintain professional documentation
 
-Download our free NDIS invoice template to get started with professional, compliant invoicing today.
+Download a free NDIS invoice template to get started with professional, compliant invoicing today.
 
 [Download NDIS Invoice Template (DOCX)](/downloads/ndis-invoice-template-2026.docx)
