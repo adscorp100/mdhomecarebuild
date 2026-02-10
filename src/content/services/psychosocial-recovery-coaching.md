@@ -1,6 +1,6 @@
 ---
 title: "Psychosocial Recovery Coaching in {suburb}"
-description: "Feeling stuck? Find NDIS Psychosocial Recovery Coaches in {suburb} who can help. Coaches partner with you to navigate challenges, build skills, and take control of your mental health recovery journey. Learn how."
+description: "Feeling stuck with your mental health recovery? Find NDIS Psychosocial Recovery Coaches in {suburb} through MD Home Care. Coaches with lived experience partner with you to build skills and take control of your journey."
 pubDate: 2025-05-18
 category: "Mental Health Support"
 image: "/assets/two women looking at alarm.webp"
@@ -27,7 +27,7 @@ Are you worried about:
 *   **Finding the right services?** The overwhelming task of connecting with mental health, housing, or community supports that actually help.
 *   **Losing hope for your recovery?** The feeling that things will never change or get better.
 
-Recovery coaches are here to solve these worries by building a strong, trusting relationship focused on your strengths and your vision for a better life.
+Recovery coaches solve these worries by building a strong, trusting relationship focused on your strengths and your vision for a better life.
 
 ![A psychosocial recovery coach providing compassionate support](/assets/two women looking at alarm.webp)
 
@@ -42,7 +42,7 @@ A Psychosocial Recovery Coach is different from a Support Coordinator. The prima
 *   **Connecting with the Right Supports:** Coaches support you to connect with the services you need, whether it's clinical mental health services, housing support, or community groups in {suburb}.
 *   **Crisis & Incident Management:** Coaches can work with you to create a plan for what to do in a crisis, so you feel more prepared and in control.
 
-## Why People in {suburb} Choose These Recovery Coaches
+## Why People in {suburb} Choose Recovery Coaches Through MD Home Care
 
 Choosing a coach is a deeply personal decision. Trust is earned through experience, values, and commitment to your recovery.
 
@@ -74,7 +74,7 @@ Recovery coaches through MD Home Care offer a free, no-obligation "meet and gree
 
 ## Take the First Step Towards a Brighter Future
 
-You don't have to navigate your recovery journey alone. Let experienced and empathetic Recovery Coaches in {suburb} partner with you to build a more hopeful and independent future.
+You don't have to navigate your recovery journey alone. Find experienced and empathetic Recovery Coaches in {suburb} through MD Home Care to partner with you and build a more hopeful and independent future.
 
 [Speak With a Recovery Coach Today](/contact)
-*For a confidential, no-obligation chat about your NDIS goals.* 
+*For a confidential, no-obligation chat about your NDIS goals.*

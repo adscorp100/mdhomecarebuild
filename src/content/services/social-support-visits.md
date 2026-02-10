@@ -1,6 +1,6 @@
 ---
 title: "Social Support Services in {suburb}"
-description: "Is your loved one feeling lonely or isolated? Find Companion Care services in {suburb} providing trusted, friendly, and carefully matched companions to share interests, stories, and laughter. Restore connection and peace of mind."
+description: "Is your loved one feeling lonely? Find Companion Care providers in {suburb} through MD Home Care. Carefully matched companions share interests, stories, and laughter. Restore connection and peace of mind today."
 pubDate: 2025-07-04
 category: "Social Support"
 image: "/assets/drinkingtea.webp"

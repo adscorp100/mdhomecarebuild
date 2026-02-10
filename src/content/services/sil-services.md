@@ -1,6 +1,6 @@
 ---
 title: "SIL Services {suburb} | Supported Independent Living"
-description: "24/7 nurse-led SIL accommodation in {suburb}. Person-centered planning, culturally diverse support teams. NDIS registered SIL provider with current vacancies."
+description: "Find 24/7 nurse-led SIL accommodation in {suburb} through MD Home Care. Person-centered planning, culturally diverse support teams. Check current vacancies today."
 pubDate: 2026-01-31
 category: "Supported Living"
 image: "/assets/holdinglinen.webp"
@@ -19,7 +19,7 @@ quickFacts:
 
 # SIL Services in {suburb} | Supported Independent Living
 
-**24/7 nurse-led SIL accommodation in {suburb} with person-centered planning and culturally diverse support teams.**
+**Find 24/7 nurse-led SIL accommodation in {suburb} through MD Home Care, with person-centered planning and culturally diverse support teams.**
 
 ---
 
@@ -33,8 +33,8 @@ quickFacts:
 - ✗ Check compatibility with current residents
 - ✗ Verify NDIS registration and quality ratings
 
-**MD Home Care provides in {suburb}:**
-- ✓ NDIS registered SIL provider
+**Through MD Home Care in {suburb}:**
+- ✓ NDIS registered SIL providers
 - ✓ Contact for current vacancies
 - ✓ 24/7 nurse-led clinical oversight
 - ✓ Background-checked care workers (all NDIS screened)
@@ -89,7 +89,7 @@ SIL (Supported Independent Living) is NDIS funding for **help with daily tasks i
 
 ## SIL Locations in {suburb}
 
-MD Home Care operates SIL residences in {suburb} and surrounding areas:
+SIL providers through MD Home Care have residences in {suburb} and surrounding areas:
 
 **All residences are:**
 - ✓ Fully accessible
@@ -105,10 +105,10 @@ MD Home Care operates SIL residences in {suburb} and surrounding areas:
 
 ### Step 1: Initial Enquiry & Assessment
 
-**When you contact us:**
+**When you get in touch:**
 - Discuss your support needs and goals
 - Review your NDIS plan and SIL funding
-- Explain our SIL model and available locations in {suburb}
+- Explain SIL models and available locations in {suburb}
 - Answer all your questions
 
 **Assessment includes:**
@@ -147,9 +147,9 @@ MD Home Care operates SIL residences in {suburb} and surrounding areas:
 
 ## SIL Services vs Other Providers in {suburb}
 
-| Feature | MD Home Care | Large Provider | Small Provider |
+| Feature | Through MD Home Care | Large Provider | Small Provider |
 |---------|--------------|----------------|----------------|
-| **Direct employment** | Yes (all staff employed) | Mixed | Varies |
+| **Direct employment** | Yes (providers employ staff) | Mixed | Varies |
 | **Clinical oversight** | 24/7 nurse-led | Business hours | Limited |
 | **Staff-to-resident ratio** | 1:2 minimum (24/7) | 1:3 | Varies |
 | **Languages spoken** | 20+ (staff diversity) | 5-10 | Limited |
@@ -205,7 +205,7 @@ SIL costs vary based on **your support needs** assessed by NDIS.
 - Behavior support requirements
 - Specialized care needs
 
-**MD Home Care charges NDIS Price Guide rates** - no hidden fees.
+**SIL providers through MD Home Care charge NDIS Price Guide rates**, no hidden fees.
 
 ### What's Included in SIL
 
@@ -246,7 +246,7 @@ Your SIL funding covers:
 ### Can I choose my housemates in {suburb}?
 
 **You have input** but not full control:
-- We consider compatibility during assessment
+- Compatibility is considered during assessment
 - Meet current residents before moving in
 - House culture and dynamics are important
 - Final decision balances everyone's needs
@@ -275,8 +275,8 @@ Your SIL funding covers:
 
 ### What happens if I need hospital or medical care?
 
-**MD Home Care provides:**
-- 24/7 support worker available
+**SIL providers through MD Home Care offer:**
+- 24/7 support worker availability
 - Nurse-led clinical oversight
 - Coordination with medical teams
 - Hospital transport assistance (if funded)
@@ -297,7 +297,7 @@ Your SIL funding covers:
 - SIL → Different SIL provider
 - SIL → Return to family home
 
-**MD Home Care supports transitions** including capacity building for independence.
+**SIL providers through MD Home Care support transitions** including capacity building for independence.
 
 **Notice period:** Typically 30 days.
 
@@ -314,7 +314,7 @@ Current vacancies depend on:
 
 ### What's the difference between SIL and SDA in {suburb}?
 
-**SIL = Support Services** (what providers through MD Home Care deliver)
+**SIL = Support Services** (what SIL providers deliver)
 - Help with daily tasks
 - 24/7 support workers
 - Funded under Core Supports
@@ -345,11 +345,11 @@ Current vacancies depend on:
 
 ---
 
-## About MD Home Care SIL Services
+## About SIL Services Through MD Home Care
 
-MD Home Care operates SIL residences across Sydney and Melbourne, providing 24/7 supported independent living for NDIS participants with high support needs.
+SIL providers in the MD Home Care network operate residences across Sydney and Melbourne, providing 24/7 supported independent living for NDIS participants with high support needs.
 
-**Our approach:**
+**The approach:**
 - Person-centered: Your goals drive everything
 - Clinical oversight: Nurse-led quality assurance
 - Cultural competency: Staff from diverse backgrounds
@@ -366,6 +366,6 @@ MD Home Care operates SIL residences across Sydney and Melbourne, providing 24/7
 ---
 
 **Regulatory Information:**
-MD Home Care is a registered NDIS provider. SIL services comply with NDIS Quality and Safeguards Commission standards and NDIS Price Guide 2026.
+MD Home Care connects you with registered NDIS providers. SIL services comply with NDIS Quality and Safeguards Commission standards and NDIS Price Guide 2026.
 
 **Last Updated:** January 31, 2026
