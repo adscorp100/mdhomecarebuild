@@ -83,6 +83,8 @@ Support Coordination helps you understand, implement, and manage your NDIS plan.
 - Preparing for plan reviews
 - Crisis management (specialist level)
 
+> **Provider Protection:** The ACCC's February 2026 report found widespread exploitation of NDIS participants through deceptive advertising and unfair contract terms. Support Coordinators can help you verify provider credentials and avoid these risks.
+
 ### Who Needs Support Coordination?
 
 You may benefit from Support Coordination if you:

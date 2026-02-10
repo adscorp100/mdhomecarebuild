@@ -359,7 +359,7 @@ The key principle appears to be ownership: once the participant owns the equipme
 The broader NDIS environment emphasizes fairness and consumer protection:
 
 *   **Fair Pricing:** The NDIS Quality and Safeguards Commission actively works to prevent providers from unreasonably overcharging NDIS participants (the "NDIS wedding tax").54 While these rules target providers selling new goods/services, the underlying principle of fair market value is relevant context for the second-hand market as well.
-*   **Australian Consumer Law (ACL):** Provides consumer guarantees when buying goods from businesses (including potentially some second-hand dealers or refurbishers). These guarantees include rights regarding acceptable quality, fitness for purpose, and matching descriptions.56 Protections are weaker for private sales between individuals.5 The ACCC website offers resources on consumer rights.56
+*   **Australian Consumer Law (ACL):** Provides consumer guarantees when buying goods from businesses (including potentially some second-hand dealers or refurbishers). These guarantees include rights regarding acceptable quality, fitness for purpose, and matching descriptions.56 Protections are weaker for private sales between individuals.5 The ACCC website offers resources on consumer rights.56 The ACCC's February 2026 report on NDIS provider exploitation highlights the importance of understanding your consumer rights when purchasing disability-related products and services.
 
 Understanding these NDIS specifics allows participants and their support networks to make informed decisions about utilizing funding for second-hand equipment, ensuring compliance and maximising value.
 
