@@ -99,6 +99,6 @@ No. The quality of care a resident receives is not based on their financial cont
 <!-- CONCLUSION & CTA (NO HEADER) -->
 Figuring out aged care costs is a journey, but it's not one you have to take alone. While the system has many parts, it is designed to ensure everyone can access the care they need, with strong consumer protections and clear rights. The key is to follow the process, get the formal government assessments, and use that official information to talk to potential aged care homes.
 
-At MD Home Care, we believe that finding quality care shouldn't be a stressful, confusing ordeal.
+Through MD Home Care, connect with professionals who believe finding quality care shouldn't be a stressful, confusing ordeal.
 
-If you have questions about aged care or need help navigating your options, **[contact MD Home Care today](/contact)**.
+If you have questions about aged care or need help navigating your options, **[find providers through MD Home Care today](/contact)**.
