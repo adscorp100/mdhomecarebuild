@@ -1,6 +1,6 @@
 ---
-title: "Mable Weekend Rates 2026: $89/hr + Public Holiday Costs & NDIS Status"
-description: "Mable weekend rates: $75-90/hr Sunday, $65-75/hr Saturday, $85-110/hr public holidays. Plus 7.95% fee. NDIS registration status explained."
+title: "Mable Support Worker Pay Rates 2026: Weekend, Holiday & Hourly Costs"
+description: "Mable support workers earn $58-90/hour depending on day. See exact weekend rates, public holiday pay ($85-110/hr), platform fees (7.95%), and registration requirements."
 updatedAt: 2026-02-10
 pubDate: 2026-12-15
 author: "Camila"
@@ -10,9 +10,15 @@ popupSubtitle: "Get transparent pricing information and budget guidance"
 image: "/assets/homecare.webp"
 ---
 
-# Mable vs NDIS Providers 2026: Honest Platform Review + Rate Comparison
+# Mable support worker pay rates 2026: complete guide
 
-Wondering if Mable is right for your NDIS support needs? You're not alone. With so many platform options and confusing fee structures, it's hard to know if Mable will actually save you money or just add complications. This honest review breaks down the real costs, who can actually use Mable, and whether it's worth switching from a traditional provider.
+**Mable support workers earn $58-90 per hour depending on the day and type of support.** This guide covers exact weekend rates, public holiday pay, platform fees, and everything you need to know about Mable rates in 2026.
+
+**Current Mable rates:**
+- **Weekday:** $58/hour average  
+- **Weekend:** $65-90/hour
+- **Public holidays:** $85-110/hour
+- **Platform fee:** 7.95% (added to rates)
 
 ## Mable: Quick Pros and Cons
 
@@ -521,28 +527,52 @@ Mable provides 24/7 support for booking issues. If a support worker cancels last
 
 Mable represents the future of disability support services in Australia, offering participants unprecedented choice, quality, and value while providing support workers with fair compensation and work flexibility. With continuous platform improvements and expanding services, Mable is well-positioned to meet the evolving needs of the NDIS community.
 
-## Frequently Asked Questions About Mable Support Workers
+## Frequently asked questions about Mable support worker rates
 
-### How much do Mable support workers charge?
-Based on Mable platform data from April-September 2026, the average weekday hourly rate for personal care/disability support is **$58/hour**. With Mable's 7.95% client platform fee, this totals approximately **$63/hour** for clients. Rates vary based on worker experience, qualifications, and time of service. Weekend and public holiday rates are higher. The minimum rate on Mable is **$39/hour**.
+### How much do Mable support workers get paid?
+
+**Mable support workers earn $58/hour average for weekday support**, $65-90/hour for weekends, and $85-110/hour for public holidays. After Mable's 10% support engagement fee, workers keep approximately $52/hour for weekday work. The minimum hourly rate on Mable is $39/hour.
+
+### What are Mable weekend rates for support workers?
+
+**Mable weekend rates range from $65-90/hour** depending on the type of support and worker experience. Saturday rates average $65-75/hour while Sunday rates average $75-90/hour. These rates are set by individual workers within NDIS price limits.
+
+### How much do Mable workers charge for public holidays?
+
+**Mable public holiday rates range from $85-110/hour** for most support types. These rates are negotiated directly between workers and participants, with most workers charging 1.5-2x their weekday rate for public holidays, which aligns with Australian award wage requirements.
+
+### What fees does Mable charge support workers?
+
+Mable charges support workers a **10% support engagement fee** deducted from their earnings. For example, if a worker agrees to $58/hour with a client, they receive approximately $52/hour after the fee. Workers also handle their own tax and superannuation as independent contractors.
+
+### How much does Mable cost for participants?
+
+Participants pay a **7.95% platform fee** added to the agreed hourly rate. For example, if you agree to $58/hour with a worker, your total cost is approximately $63/hour. This fee covers platform use, insurance, and payment processing.
 
 ### Are Mable support workers qualified and safe?
+
 Yes, all Mable support workers undergo comprehensive background checks including National Police Checks, NDIS Worker Screening, and reference verification. The platform requires relevant qualifications and experience, with mandatory training modules. All bookings include $20 million public liability insurance coverage.
 
 ### Can I use my NDIS funding to pay Mable support workers?
-**Self-managed and plan-managed** participants can use their NDIS funding on Mable. However, **agency-managed (NDIA) participants cannot use Mable** because they must use registered NDIS providers only, and Mable is a platform, not a registered provider. If you're agency-managed, consider asking your LAC about changing to plan-managed or self-managed to access Mable.
 
-### How do I find the right support worker on Mable?
-Use Mable's search filters to find workers by location, availability, specializations, and ratings. Read detailed profiles, reviews from other participants, and qualifications. Contact potential workers through the platform's secure messaging to discuss your needs before booking a trial session.
+**Self-managed and plan-managed** participants can use their NDIS funding on Mable. However, **agency-managed (NDIA) participants cannot use Mable** because they must use registered NDIS providers only, and Mable is a platform, not a registered provider.
+
+### How do Mable rates compare to traditional agencies?
+
+**Mable rates are typically 20-40% lower than traditional agencies** despite the 7.95% platform fee. Traditional agencies charge 15-30% markup above worker rates, while Mable's transparent fee structure often results in significant savings, especially for weekend and holiday support.
+
+### Do Mable workers get travel allowance?
+
+**Mable travel allowance varies by worker** and is negotiated individually. Most workers include travel time and costs in their hourly rate or charge separately for distances over 10-15km. This is typically $0.85-1.20 per kilometer based on ATO rates.
+
+### How often do Mable support worker rates increase?
+
+**Mable rates follow NDIS price guide increases**, which occur annually. Individual workers may also adjust their rates based on experience, qualifications, or market demand. Participants receive advance notice of any rate changes from their regular workers.
 
 ### What happens if my Mable support worker cancels or doesn't show up?
+
 Mable provides 24/7 customer support for booking issues. If a support worker cancels last minute or doesn't attend, Mable helps find replacement support and may provide compensation. The platform tracks reliability metrics to ensure quality service standards.
 
-### How does payment work with Mable support workers?
-Payment is processed securely through the Mable platform within 48 hours of service completion. You can pay using NDIS funding, private funds, or a combination. The platform handles all payment processing, tax compliance, and provides detailed invoices for NDIS reporting.
-
 ### Can I book the same support worker regularly on Mable?
-Yes, once you find a compatible support worker, you can book them for regular ongoing support. Many participants develop long-term relationships with preferred workers, booking them for weekly or daily support sessions. You can also maintain backup workers for holiday coverage.
 
-### What if I'm not satisfied with my Mable support worker?
-Mable has a comprehensive review and feedback system. If you're unsatisfied, you can rate the service, provide feedback, and easily book different workers. The platform monitors quality issues and works to resolve any problems. You're never locked into working with any particular support worker. 
+Yes, once you find a compatible support worker, you can book them for regular ongoing support. Many participants develop long-term relationships with preferred workers, booking them for weekly or daily support sessions. You can also maintain backup workers for holiday coverage. 

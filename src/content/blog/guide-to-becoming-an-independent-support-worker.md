@@ -1,6 +1,6 @@
 ---
-title: "NDIS Independent Support Worker Guide 2025: ABN, Insurance & Pay Rates"
-description: "Complete 2025 guide to becoming an independent NDIS support worker in Australia. Covers ABN registration, insurance requirements, pay rates ($55-$65/hr typical), finding clients on Mable & Hireup, tax obligations, and step-by-step business setup."
+title: "How to Become an Independent Support Worker 2025: Complete Setup Guide"
+description: "Step-by-step guide to becoming an independent support worker. Get ABN, insurance, NDIS screening. Earn $55-$65/hr vs $30-$45 agency rates. Find clients on Mable, Hireup platforms."
 pubDate: 2025-07-04
 author: "MD Home Care"
 tags: ['ndis', 'support worker', 'independent support worker', 'sole trader', 'ndis pay rates']
@@ -13,6 +13,14 @@ updatedAt: 2026-02-10
 Becoming an independent NDIS support worker offers incredible flexibility, higher earning potential, and the chance to run your own business. As of 2025, working independently means you can set your own rates, choose your clients, and build meaningful one-on-one relationships with NDIS participants.
 
 This comprehensive guide covers everything you need to know about becoming an independent support worker in Australia, including ABN registration, insurance requirements, current pay rates, finding clients through platforms like Mable and Hireup, and managing your tax obligations.
+
+## Quick Answer: How to Become an Independent Support Worker
+
+**What do you need to become an independent NDIS support worker?** You need an ABN, NDIS Worker Screening Check, public liability insurance ($20 million minimum), professional indemnity insurance, and relevant qualifications (Certificate III recommended).
+
+**How much can independent support workers earn?** Typically $55-$65 per hour for standard support, compared to $30-$45 for agency employees. Independent workers keep more but cover their own insurance, super, and business costs.
+
+**Do independent support workers need NDIS registration?** Individual support workers don't need to register with the NDIS. Only service providers need registration. However, you must be screened and can work with plan-managed or self-managed participants.
 
 **Helpful calculators for independent workers:**
 - **[Support Worker Income Calculator](/tools/support-worker-income-calculator)** - Estimate your earnings based on hours and shift types

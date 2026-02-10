@@ -1,5 +1,5 @@
 ---
-title: "NDIS Support Worker Hourly Rate: Complete Guide (2026)"
+title: "NDIS Support Worker Hourly Rate 2026: What Do Workers Earn Per Hour?"
 description: "Your guide to NDIS support worker hourly rates in 2026. Learn about the 3.95% pay rise, standard vs. independent rates, and what to expect for weekend and public holiday pay."
 pubDate: 2026-07-02
 author: "Camila"
@@ -13,7 +13,15 @@ With the NDIS 2026-26 price guide now in effect, support workers and participant
 
 This guide breaks down the NDIS support worker hourly rates for 2026, so you know exactly what to expect.
 
-**Calculate your exact rates:** Use our free **[NDIS Pay Rate Calculator](/tools/ndis-pay-rate-calculator)** to see rates for weekdays, weekends, and public holidays. Or estimate your annual earnings with our **[Support Worker Income Calculator](/tools/support-worker-income-calculator)**.
+**Calculate your exact rates:** Use our free NDIS Pay Rate Calculator to see rates for weekdays, weekends, and public holidays. Or estimate your annual earnings with our Support Worker Income Calculator.
+
+## Quick Answer: NDIS Support Worker Hourly Rate 2026
+
+**What is the NDIS support worker hourly rate?** Entry-level workers earn $31.90-$34.85 per hour on weekdays under the SCHADS Award. Experienced workers earn $41.20-$44.80 per hour. Weekend rates are 50-100% higher.
+
+**What is the average hourly rate for NDIS support workers?** Most support workers earn between $35-$42 per hour for weekday shifts, including casual loading and typical experience levels. Independent workers charge $55-$65 per hour.
+
+**Do NDIS support worker rates vary by state?** No, NDIS hourly rates are the same nationally. The SCHADS Award applies across all states and territories in Australia.
 
 ## NDIS Support Worker Pay Rates 2026 (at a Glance)
 

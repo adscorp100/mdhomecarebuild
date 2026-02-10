@@ -13,7 +13,7 @@ image: "/assets/Ilovendis.webp"
 
 ## BREAKING NEWS: July 2026 NDIS Support Catalogue Updates
 
-**Major Changes Effective July 1, 2026:**
+**Latest Changes Effective July 1, 2026:**
 - **23 new Intensive and Complex Behaviour Support Items** added to Support Catalogue
 - **35 legacy items removed** from the price guide  
 - **New NDIS Support Catalogue 2026-26** released with updated pricing
@@ -22,6 +22,14 @@ image: "/assets/Ilovendis.webp"
 - **New pricing arrangements** effective July 1, 2026
 
 *Last updated: July 2, 2026 - Source: NDIS Support Catalogue 2026-26*
+
+## Quick Answer: NDIS Line Item Codes 2026
+
+**What are NDIS line item codes?** Unique identifiers for different support types used for billing and planning. Each code has a specific price limit and claiming rules. Example: 01_011_0107_1_1 is standard weekday support worker services.
+
+**How many NDIS codes are there in 2026?** The 2026-26 Support Catalogue contains over 600 line items across support categories like Assistance with Daily Life, Community Participation, and Capacity Building.
+
+**What changed in NDIS codes for 2026?** 23 new intensive behaviour support items were added, 35 legacy items were removed, and disability-related health supports moved out of Core funding from June 30, 2026.
 
 ## Quick Navigation: NDIS Line Item Codes 2026-26
 - [NDIS Item Codes List](#ndis-item-codes-complete-support-codes-list)
