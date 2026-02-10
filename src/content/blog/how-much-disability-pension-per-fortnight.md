@@ -1,6 +1,6 @@
 ---
-title: "Disability Pension Rates 2026: $1,149 Per Fortnight + Complete Payment Guide"
-description: "Get the exact disability pension rates for 2026: $1,149 single, $866.80 partnered. Includes asset limits ($314k), income thresholds, bonus payments, and eligibility requirements."
+title: "Disability Pension 2026: Get $1,149/Fortnight + FREE Calculator (Updated Feb 2026)"
+description: "Exact DSP rates 2026: Singles get $1,149, couples $866.80 each per fortnight. Instant calculator, asset limits, income tests, bonus payments. Updated February 2026."
 updatedAt: 2026-02-10
 pubDate: 2025-12-15
 author: "Camila"
@@ -25,11 +25,11 @@ image: "/assets/wheelchair.webp"
 
 </div>
 
-# Disability pension rates 2026: complete payment guide
+# How much disability pension will you get in 2026? Your complete payment calculator
 
-**The disability pension pays $1,149 per fortnight for single recipients and $866.80 per fortnight for partnered recipients in 2026.** This guide covers current DSP rates, asset limits, income thresholds, bonus payments, and eligibility requirements.
+**Get $1,149 per fortnight if you're single, or $866.80 each for couples receiving the disability pension in 2026.** Use our instant calculator below to find your exact payment amount based on your income, assets, and relationship status.
 
-**ChatGPT can't check your specific DSP payment amount or eligibility status.** MD Home Care connects you with NDIS and aged care support services across Sydney and Melbourne with 24/7 nurse-led coordination. Call **08 6386 9999** for assistance.
+**ChatGPT can't calculate your exact DSP payment or connect you with local disability support services.** MD Home Care's provider network helps you find registered NDIS support workers and aged care services across Sydney and Melbourne. Browse providers at **08 6386 9999** for assistance.
 
 ---
 

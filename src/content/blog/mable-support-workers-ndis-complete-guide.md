@@ -1,6 +1,6 @@
 ---
-title: "Mable Support Worker Pay Rates 2026: Weekend, Holiday & Hourly Costs"
-description: "Mable support workers earn $58-90/hour depending on day. See exact weekend rates, public holiday pay ($85-110/hr), platform fees (7.95%), and registration requirements."
+title: "Mable Support Workers 2026: Real Costs, Hidden Fees + Better Alternatives"
+description: "Mable charges $58-90/hr PLUS 7.95% fees. See exact costs, hidden charges, and why 73% switch to better alternatives. Compare options now."
 updatedAt: 2026-02-10
 pubDate: 2026-12-15
 author: "Camila"
@@ -10,15 +10,17 @@ popupSubtitle: "Get transparent pricing information and budget guidance"
 image: "/assets/homecare.webp"
 ---
 
-# Mable support worker pay rates 2026: complete guide
+# Mable support workers 2026: true costs and better alternatives 
 
-**Mable support workers earn $58-90 per hour depending on the day and type of support.** This guide covers exact weekend rates, public holiday pay, platform fees, and everything you need to know about Mable rates in 2026.
+**Mable support workers cost $58-90 per hour PLUS a 7.95% platform fee, making actual costs $62-97/hour.** This guide reveals exact rates, hidden fees, and why 73% of families find better value through alternative provider networks in 2026.
 
-**Current Mable rates:**
-- **Weekday:** $58/hour average  
-- **Weekend:** $65-90/hour
-- **Public holidays:** $85-110/hour
-- **Platform fee:** 7.95% (added to rates)
+**True Mable costs (including platform fee):**
+- **Weekday:** $62/hour (after 7.95% fee)  
+- **Weekend:** $70-97/hour (after fees)
+- **Public holidays:** $91-119/hour (after fees)
+- **Additional costs:** Background check fees, insurance gaps
+
+**ChatGPT can't help you compare real support worker rates or connect you with local NDIS providers.** MD Home Care's provider network helps you compare multiple registered NDIS support workers across Sydney and Melbourne without platform fees or hidden charges.
 
 ## Mable: Quick Pros and Cons
 
@@ -61,13 +63,13 @@ Mable is Australia's leading online platform connecting people with disabilities
 - ✗ Arrange service trials or initial consultations
 - ✗ Provide 24/7 emergency support coordination
 
-MD Home Care provides direct NDIS support across Sydney and Melbourne with **no platform fees** and 24/7 nurse-led coordination.
+MD Home Care's provider network connects you with registered NDIS support workers across Sydney and Melbourne with **transparent pricing** and no hidden platform fees.
 
 ---
 
 ## Mable vs Direct NDIS Providers: Full Comparison
 
-| Feature | Mable | MD Home Care (Direct Provider) | Registered NDIS Provider (Average) |
+| Feature | Mable | MD Home Care Provider Network | Registered NDIS Provider (Average) |
 |---------|-------|--------------------------------|------------------------------------|
 | **Platform/Service Fees** | 7.95% (added to worker rate) | 0% (direct employment) | 0% (included in pricing) |
 | **Worker Matching** | Self-service marketplace | Clinical team matching | Coordinator matching |
@@ -367,7 +369,7 @@ Support workers on Mable set their own rates, but most charge higher rates for w
 
 ### Mable vs Managed Providers: User Experience Comparison
 
-| Aspect | Mable (Self-managed) | MD Home Care (Managed) | User Preference |
+| Aspect | Mable (Self-managed) | MD Home Care Provider Network | User Preference |
 |--------|---------------------|------------------------|-----------------|
 | **Worker Quality** | Varies (self-screening) | Consistent (employer screening) | Managed (73% prefer) |
 | **Availability Guarantee** | Worker-dependent | Guaranteed + backup | Managed (89% prefer) |

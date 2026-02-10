@@ -2,6 +2,7 @@
 title: "The New Support at Home Program: A 2026 Guide to Aged Care Changes"
 description: "Aged care is changing in July 2026. This guide explains the new Support at Home program, what 'care management' means for you, and how it replaces CHSP and Home Care Packages. Get clear answers on what to expect."
 pubDate: 2025-07-05
+updatedAt: 2026-02-11
 author: "MD Home Care"
 tags: ["Aged Care Changes", "Support at Home", "Home Care Packages", "CHSP"]
 popupTitle: "Concerned About Aged Care Changes?"
@@ -68,6 +69,20 @@ You will have the right to change your care manager if the relationship is not w
 
 ### I live in a rural area. Will it be harder to get services?
 This is a common concern. The government has acknowledged the challenges in rural areas and states that the reforms are intended to improve service access for all Australians, regardless of location. The new funding model aims to give providers more flexibility to deliver services in regional and remote areas.
+
+## Recent Parliamentary Review: What It Means for Your Transition
+
+In February 2026, a Senate committee examined the readiness of the Support at Home Program, and their findings provide important context for anyone preparing for the transition.
+
+The Inspector General of Aged Care told the committee that the transition from CHSP to Support at Home "lacks clarity." This official assessment confirms what many people have been feeling about the upcoming changes. If you have been concerned about how the transition will work in practice, these parliamentary findings validate those concerns and suggest the government is taking them seriously.
+
+The Older Persons Advocacy Network (OPAN) provided evidence to the committee supporting the merger in principle, but emphasized that royal commission recommendations about funding models need proper attention. OPAN specifically wants to see recommendations about block funding, activity-based funding, and individual funding properly implemented. This advocacy suggests that consumer interests are being actively represented in the transition planning.
+
+The Inspector General also recommended improvements to My Aged Care, the system most people use to access aged care services. If you have found My Aged Care difficult to navigate, these recommendations could lead to practical improvements in how you access information and services.
+
+These parliamentary findings show that oversight bodies are actively monitoring the transition and advocating for improvements. While this provides some reassurance, it also confirms that staying informed and working with experienced aged care advisors remains important as the system evolves.
+
+Source: Australian Ageing Agenda, February 2026
 
 <!-- CONCLUSION & CTA (NO HEADER) -->
 The move to the Support at Home program is a major shift, but it is designed to create a better, fairer, and more user-friendly aged care system. The introduction of dedicated care management is a positive step towards more personalised and proactive support.

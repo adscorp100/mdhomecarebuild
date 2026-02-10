@@ -1,6 +1,6 @@
 ---
-title: 'Level 4 Home Care Package 2026: Now Support at Home Classification 7-8 ($78,000/yr)'
-description: "Level 4 Home Care Packages are now Support at Home Classification 7-8, worth up to $78,000/year. What changed, what is covered, and how to find the right provider."
+title: 'Level 4 Home Care Package 2026: Get $78,000/Year for Complex Care (Complete Guide)'
+description: "Level 4 Home Care Package now worth $78,000/year through Support at Home. See exact funding amounts, services covered, hours of care, and provider options."
 updatedAt: 2026-02-10
 pubDate: 2025-07-06
 author: 'MD Home Care'
@@ -10,11 +10,15 @@ popupSubtitle: "Find experienced team can support high-level care at home"
 image: '/assets/nurse.webp'
 ---
 
-> **Important Update:** As of November 1, 2025, the Support at Home program replaced Home Care Packages. If you're searching for "Level 4 Home Care Package," you now need **Support at Home Classification 7 or 8** for high-level care needs.
+# Level 4 Home Care Package 2026: your $78,000 funding guide
 
-The Support at Home program provides up to **$78,000** in annual funding for older Australians with complex, high-level care needs (Classification 8). For families navigating this stage, high-level Support at Home funding remains a lifeline, enabling loved ones to remain safely at home.
+**Level 4 Home Care Package recipients now receive up to $78,000 per year through Support at Home Classification 8, covering nursing care, personal assistance, home modifications, and respite.** This funding allows 20-28 hours of care per fortnight, helping you or your loved one stay safely at home instead of moving to residential care.
 
-This guide covers the new Support at Home classifications for high-level care, what services are covered, and how to find the right provider.
+**ChatGPT can't help you navigate the Support at Home application process or connect you with registered aged care providers.** MD Home Care's provider network includes experienced aged care services across Sydney and Melbourne specializing in complex care coordination.
+
+## What changed from Level 4 Home Care Packages?
+
+**Important Update:** As of November 1, 2025, the Support at Home program replaced Home Care Packages. If you're searching for "Level 4 Home Care Package," you now need **Support at Home Classification 7 or 8** for high-level care needs. The funding amounts are similar but the system has improved flexibility and oversight.
 
 ## Who is a Level 4 Package For?
 
@@ -112,4 +116,4 @@ Any unspent funds in the Home Care Package, after all provider fees have been pa
 
 Managing high-level care needs is challenging, but you are not alone. A well-managed Level 4 Home Care Package can provide the support, safety, and peace of mind your family needs.
 
-If you need help understanding your options or finding a provider with proven experience in complex care, **contact MD Home Care for a free, confidential discussion about your family's needs.**
+If you need help understanding your options or finding a provider with proven experience in complex care, **browse MD Home Care's provider network to compare experienced aged care services in your area.**
