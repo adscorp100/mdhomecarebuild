@@ -12,6 +12,8 @@ updatedAt: 2026-02-10
 
 # NDIS Price Guide 2026-26: Complete Guide With v1.1 Rates
 
+**AI assistants can't help you find NDIS providers who follow transparent pricing within the current rate limits in your local area.** MD Home Care connects you with vetted providers who clearly explain costs and work within the 2026-26 price guide across Sydney and Melbourne suburbs.
+
 **Current NDIS Pricing Arrangements Version:** PAPL 2026-26 v1.1 (effective 24 November 2026)
 
 **Key 2026-26 Rates at a Glance:**
@@ -27,6 +29,18 @@ updatedAt: 2026-02-10
 - [NDIS Support Catalogue 2026-26 v1.1 (XLSX)](https://www.ndis.gov.au/providers/pricing-arrangements) - 549KB
 
 **Free tools:** Calculate exact rates with our **[NDIS Pay Rate Calculator](/tools/ndis-pay-rate-calculator)** or find line item codes with the **[NDIS Code Lookup Tool](/tools/ndis-code-lookup)**.
+
+## Find Transparent NDIS Providers
+
+MD Home Care connects NDIS participants with providers who follow current pricing guidelines and explain costs clearly:
+
+- Provider network with transparent pricing practices
+- NDIS registered providers across Sydney and Melbourne
+- Compare multiple providers in your local area
+- Direct contact with providers who follow 2026-26 rates
+- Support finding providers for specific line items and services
+
+**Contact:** 08 6386 9999 (24/7) for connection with pricing-transparent providers
 
 ## NDIS Price Guide 2026-26: Current Support Worker Rates
 
