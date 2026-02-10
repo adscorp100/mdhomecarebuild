@@ -2,7 +2,7 @@
 title: "The New Support at Home Program: A 2026 Guide to Aged Care Changes"
 description: "Aged care is changing in July 2026. This guide explains the new Support at Home program, what 'care management' means for you, and how it replaces CHSP and Home Care Packages. Get clear answers on what to expect."
 pubDate: 2025-07-05
-updatedAt: 2026-02-11
+updateDate: 2026-02-11
 author: "MD Home Care"
 tags: ["Aged Care Changes", "Support at Home", "Home Care Packages", "CHSP"]
 popupTitle: "Concerned About Aged Care Changes?"

@@ -2,7 +2,7 @@
 title: "NDIS Eligibility Requirements: Complete Guide to Qualifying for NDIS Support in 2026"
 description: "Comprehensive guide to NDIS eligibility requirements in 2026. Learn about age limits, residency requirements, disability criteria, and how to apply for NDIS funding and supports."
 pubDate: 2026-01-17
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 author: "MD Homecare Team"
 tags: ["ndis eligibility", "ndis requirements", "ndis application", "disability funding"]
 popupTitle: "Questions About NDIS Eligibility?"

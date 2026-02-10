@@ -97,7 +97,7 @@ const combinedSchema = {
           )}
           <div class="card-body">
             <p class="text-sm text-base-content/60">
-              {post.data.pubDate.toLocaleDateString('en-US', {
+              {(post.data.updateDate || post.data.pubDate).toLocaleDateString('en-US', {
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric'

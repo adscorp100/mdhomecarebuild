@@ -2,7 +2,7 @@
 title: "NDIS Key Worker: What Parents Need to Know About the Key Worker Model (2026)"
 description: "Complete parent guide to NDIS key workers. Learn what a key worker does for your child, how to find one, what to expect, and how the key worker model helps with early intervention."
 pubDate: 2026-01-01
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 author: "MD Home Care"
 tags: ["NDIS", "Key Worker", "Early Intervention", "ECEI", "NDIS Parents"]
 popupTitle: "Looking for Key Worker Support?"

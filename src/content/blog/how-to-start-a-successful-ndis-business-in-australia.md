@@ -7,7 +7,7 @@ tags: []
 popupTitle: "Thinking of Starting an NDIS Business?"
 popupSubtitle: "Get expert advice on planning, registration, and building success"
 image: "https://cdn.prod.website-files.com/67ba898f18b9815458c46343/6801c4048c32ec3d75779e12_care-assure-Zx4ddAfk0Ck-unsplash.webp"
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 ---
 
 # How to Start a Successful NDIS Business in Australia: The Ultimate 2026 Guide

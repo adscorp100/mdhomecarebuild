@@ -2,7 +2,7 @@
 title: "NDIS Capacity Building Supports 2026: Complete Guide to All 9 Categories"
 description: "Complete guide to NDIS Capacity Building supports. Understand all 9 CB categories, what they fund, examples, and how to maximise your capacity building budget in 2026."
 pubDate: 2026-01-01
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 author: "MD Home Care"
 tags: ["NDIS Capacity Building", "NDIS Funding", "Support Coordination", "NDIS Therapy"]
 popupTitle: "Need Help With Capacity Building?"

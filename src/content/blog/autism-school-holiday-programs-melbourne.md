@@ -2,7 +2,7 @@
 title: "Autism School Holiday Programs Melbourne 2026: Complete Guide for Families"
 description: "Find the best autism school holiday programs in Melbourne for 2026. Compare providers, costs, NDIS funding options, and sensory-friendly activities for your child."
 pubDate: 2025-01-15
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 author: "MD Home Care"
 tags: ["NDIS", "Autism", "School Holidays", "Melbourne", "Vacation Care"]
 popupTitle: "Need Help Finding the Right Program?"

@@ -1,7 +1,7 @@
 ---
 title: "Do You Need a Qualification to Be an NDIS Support Worker? (2026 Guide)"
 description: "No formal qualification is required for entry-level NDIS support work, but most employers want a Cert III. See what's mandatory, what's preferred, and training costs for 2026."
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 pubDate: 2025-05-15
 author: "Camila"
 tags: []

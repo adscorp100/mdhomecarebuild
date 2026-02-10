@@ -2,7 +2,7 @@
 title: "Support at Home Program 2026: Complete Guide to Australia's New Aged Care System"
 description: "Everything you need to know about the Support at Home Program launching in Australia from July 2026. Understand the changes, benefits, eligibility, and how to prepare for the new aged care system."
 pubDate: 2026-01-20
-updatedAt: 2026-02-11
+updateDate: 2026-02-11
 author: "Camila"
 tags: ["support at home program", "support at home program 2026", "aged care reform", "new aged care system", "aged care changes"]
 popupTitle: "Ready to Access the Support at Home Program?"

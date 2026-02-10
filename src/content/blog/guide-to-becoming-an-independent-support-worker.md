@@ -7,7 +7,7 @@ tags: ['ndis', 'support worker', 'independent support worker', 'sole trader', 'n
 popupTitle: "Thinking of Going Independent?"
 popupSubtitle: "Get practical guidance on setting up your NDIS support business"
 image: "/assets/disabled carer.webp"
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 ---
 
 Becoming an independent NDIS support worker offers incredible flexibility, higher earning potential, and the chance to run your own business. As of 2025, working independently means you can set your own rates, choose your clients, and build meaningful one-on-one relationships with NDIS participants.

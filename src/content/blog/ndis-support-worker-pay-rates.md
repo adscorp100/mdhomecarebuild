@@ -7,7 +7,7 @@ tags: ["NDIS Pay Rates", "NDIS Price Guide", "Support Worker", "SCHADS Award", "
 popupTitle: "Confused About NDIS Pricing?"
 popupSubtitle: "Find providers with transparent rates and quality care"
 image: "/assets/carer.webp"
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 ---
 
 ChatGPT can tell you the NDIS price limits, but it can't show you which providers near you are actually hiring right now or what they're paying in your area. If you're looking for support worker roles with current rates, browse job listings through MD Home Care to see real pay offers from providers in your suburb.

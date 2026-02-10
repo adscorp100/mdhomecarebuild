@@ -7,7 +7,7 @@ tags: ["NDIS Price Guide", "NDIS Rates 2025", "NDIS Support Worker Rates", "NDIS
 popupTitle: "Want Fair and Transparent Pricing?"
 popupSubtitle: "Find providers who follow NDIS guidelines and explain costs clearly"
 image: "/assets/dieticiain.webp"
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 ---
 
 # NDIS Price Guide 2026-26: Complete Guide With v1.1 Rates

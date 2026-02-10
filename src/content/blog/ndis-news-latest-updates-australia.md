@@ -2,7 +2,7 @@
 title: "NDIS News: Latest Updates, Changes & What Participants Need to Know (February 2026)"
 description: "Stay informed with the latest NDIS news and updates for February 2026. Coverage of the new Thriving Kids program, NDIS support cuts, pricing changes, the PACE system, and what these changes mean for participants and families."
 pubDate: 2026-12-16
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 author: "Camila"
 tags: ["NDIS", "disability support", "NDIS news", "NDIS changes 2026", "Thriving Kids"]
 popupTitle: "Overwhelmed by NDIS Changes?"

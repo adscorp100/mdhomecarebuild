@@ -1,7 +1,7 @@
 ---
 title: 'NDIS Social and Community Participation 2026: 100+ Activity Ideas & Funding Rules'
 description: "What does NDIS social and community participation actually cover? Line item codes, funding amounts, 100+ activity examples, and how to spend every dollar without it lapsing."
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 pubDate: 2026-01-31
 author: 'MD Home Care'
 tags: ["NDIS", "Community Participation", "Social Activities", "NDIS Funding", "Increased Social Community Participation"]

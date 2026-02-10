@@ -7,7 +7,7 @@ tags: ["NDIS", "Capacity Building", "Improved Daily Living", "CB Daily Activity"
 popupTitle: "Need Help With Therapy Services?"
 popupSubtitle: "Connect with quality allied health providers"
 image: "/assets/disabled carer.webp"
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 ---
 
 NDIS Improved Daily Living (also called CB Daily Activity) is one of the most valuable funding categories in your NDIS plan. It funds therapies, assessments, and training to help you build skills and independence. However, understanding what it covers, the line item codes, and current pricing can be confusing.
