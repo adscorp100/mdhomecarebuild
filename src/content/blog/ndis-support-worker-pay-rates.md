@@ -10,6 +10,8 @@ image: "/assets/carer.webp"
 updatedAt: 2026-02-10
 ---
 
+ChatGPT can tell you the NDIS price limits, but it can't show you which providers near you are actually hiring right now or what they're paying in your area. If you're looking for support worker roles with current rates, [browse open positions through MD Home Care](/jobs/) to see real pay offers from providers in your suburb.
+
 Understanding NDIS support worker pay rates can be confusing. There's a difference between what the NDIS pays providers (the Price Guide), what providers must pay workers (the SCHADS Award), and what workers actually take home. Whether you're a support worker, NDIS carer (another common term for support workers), or participant, this guide covers everything you need to know.
 
 This guide reflects the NDIS Pricing Arrangements and Price Limits 2026-26 v1.1, effective 24 November 2026, and the 3.5% SCHADS Award increase from 1 July 2025. It breaks down all the rates for 2026-26, including public holiday penalty rates, night shift loadings, and real-world earnings for different scenarios.
@@ -408,6 +410,20 @@ Beyond base rates and penalty loadings, support workers may receive:
 | **On-Call (Weekday)** | $24.50/day | On-call but not actively working |
 | **On-Call (Weekend)** | $48.51/day | On-call on weekends/public holidays |
 | **Meal Allowance** | $18.49 | If required to work through meal break |
+
+## Finding Support Work: Platform Comparison
+
+Where you find work affects your take-home pay. Here's how the main options compare for support workers in 2026:
+
+| Platform | Weekday Take-Home | Platform Fee | NDIS Registered | Sets Your Rate |
+|----------|-------------------|-------------|-----------------|---------------|
+| Agency/registered provider | $30-$45/hr (SCHADS) | None (employed) | Yes | Employer sets rate |
+| Mable | $35-$50/hr | 7.95% | No (unregistered only) | You set rate |
+| Hireup | $33-$48/hr | Included | No (unregistered only) | You set rate |
+| MD Home Care network | Varies by provider | None for workers | Yes (providers are) | Provider sets rate |
+| Independent/sole trader | $45-$70/hr | None | Optional | You set rate |
+
+Working through a registered provider means you get SCHADS Award protections, super, and insurance. Independent work pays more per hour but you cover your own insurance, super, and tax obligations.
 
 ## Free Tools to Calculate Pay and Income
 

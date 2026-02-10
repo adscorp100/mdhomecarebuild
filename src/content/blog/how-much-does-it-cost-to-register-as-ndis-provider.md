@@ -1,6 +1,7 @@
 ---
-title: "How Much Does It Cost to Register as an NDIS Provider? Full Breakdown"
-description: "Comprehensive breakdown of NDIS provider registration costs in 2025. Learn about application fees, audit costs, insurance requirements, and ongoing expenses for different provider types."
+title: "NDIS Provider Registration Cost 2026: $2,800 to $14,000+ (Full Breakdown)"
+description: "NDIS registration costs $2,800 to $14,000+ depending on your size and groups. See exact audit fees, application costs ($606-$1,212), insurance, and ongoing compliance expenses."
+updatedAt: 2026-02-10
 pubDate: 2025-04-07
 author: "Camila"
 tags: []

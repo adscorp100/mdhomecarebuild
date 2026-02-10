@@ -1,6 +1,6 @@
 ---
-title: "NDIS Price Guide 2026-26 (Free PDF): Support Worker $70.23/hr"
-description: "Official NDIS rates 2026-26: Support workers $70.23/hr, psychology $232.99/hr, physio $193.99/hr. Free calculator + downloadable price guide PDF with all 2,000+ line item codes."
+title: "NDIS Price Guide 2026-26: Every Rate, Line Item & Free PDF Download"
+description: "Full NDIS price guide 2026-26 v1.1 rates: support workers $70.23/hr, psychology $232.99/hr, physio $193.99/hr. Searchable line items, free PDF, and rate calculator."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["NDIS Price Guide", "NDIS Rates 2025", "NDIS Support Worker Rates", "NDIS Pricing"]
