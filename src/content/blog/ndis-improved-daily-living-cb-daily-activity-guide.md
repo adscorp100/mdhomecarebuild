@@ -155,7 +155,7 @@ Technology Skills Workshops: Training to improve digital literacy, enabling part
 Specialised/Wearable Technology: Funding may cover technology specifically designed to build capacity in daily activities, distinct from general assistive technology funded under the Capital budget. Justification must clearly link the technology to skill development.   
 
 ### 4. Early Childhood Intervention:
-For children younger than 7 (or younger than 9 under the phased rollout), this category funds early intervention supports. These are evidence-based therapies and programs designed to help young children with developmental delay or disability build foundational skills essential for learning, participation, and future independence.   
+For children younger than 7 (or younger than 9 under the phased rollout), this category funds early intervention supports. These are evidence-based therapies and programs designed to help young children with developmental delay or disability build foundational skills essential for learning, participation, and future independence. From 1 January 2028, children with low to moderate support needs may receive these supports through the new [Thriving Kids program](/blog/ndis-news-latest-updates-australia#thriving-kids-the-4-billion-ndis-alternative) rather than through NDIS plans.   
 
 The potential for overlap between supports funded here and those covered by mainstream services (like health or education) or other NDIS budgets (like Capital Assistive Technology) necessitates careful planning. Goals must be clearly defined, and justifications must explicitly link the requested support to building capacity related to the participant's disability within the scope of the Improved Daily Living category.
 
