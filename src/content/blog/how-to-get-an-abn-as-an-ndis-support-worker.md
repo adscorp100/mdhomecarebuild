@@ -5,7 +5,7 @@ pubDate: 2025-07-14
 author: "MD Home Care"
 tags: ["NDIS", "ABN", "Support Worker", "Sole Trader", "Independent Contractor"]
 popupTitle: "Ready to Work Independently?"
-popupSubtitle: "We can help you navigate ABN setup and business requirements"
+popupSubtitle: "Find providers who can help you navigate ABN setup and business requirements"
 image: "/assets/holdinglinen.webp"
 ---
 

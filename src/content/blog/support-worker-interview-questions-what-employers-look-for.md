@@ -1,11 +1,11 @@
 ---
 title: "Support Worker Interview Questions: What Employers Look For in 2026"
-description: "Master your NDIS support worker interview with our comprehensive guide to common questions, what employers are looking for, and expert sample answers to help you stand out."
+description: "Master your NDIS support worker interview with this comprehensive guide to common questions, what employers are looking for, and expert sample answers to help you stand out."
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
 popupTitle: "Need Support Workers You Can Trust?"
-popupSubtitle: "We carefully screen and train all our support workers"
+popupSubtitle: "Connect with participants who value skilled, trained support workers"
 image: "/assets/carer.webp"
 ---
 

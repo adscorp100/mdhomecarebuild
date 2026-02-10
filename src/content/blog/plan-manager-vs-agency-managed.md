@@ -5,7 +5,7 @@ pubDate: 2025-07-05
 author: "MD Home Care"
 tags: ["NDIS", "Plan Manager", "NDIS Provider", "NDIS Funding"]
 popupTitle: "Unsure About Plan Management?"
-popupSubtitle: "Let us help you choose the best option"
+popupSubtitle: "Find providers who can help you choose the best option"
 image: "/assets/grandmawhite.webp"
 ---
 
@@ -80,4 +80,4 @@ Choosing how to manage your NDIS funds is a personal decision. The Agency-Manage
 
 Understanding your options is the first step to getting the most out of your NDIS plan.
 
-If you have questions about plan management or need help understanding your NDIS plan, **[contact MD Home Care today](/contact)**. Our team can provide clarity and support. 
+If you have questions about plan management or need help understanding your NDIS plan, **[contact MD Home Care today](/contact)**. Connect with experienced professionals who can provide clarity and support. 

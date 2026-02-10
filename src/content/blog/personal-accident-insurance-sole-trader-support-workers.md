@@ -364,16 +364,16 @@ The good news? For around $100-200 per month, you can have comprehensive protect
 
 ---
 
-## Working With MD Home Care
+## Connecting Through MD Home Care
 
-If you're a support worker looking for opportunities with proper backing and support, MD Home Care offers:
+If you're a support worker looking for opportunities with proper backing and support, through MD Home Care you can find:
 
-- **Guidance on insurance requirements** - We can explain what coverage you need
-- **Flexible work arrangements** - Work independently or as part of our team
+- **Guidance on insurance requirements** - Providers who can explain what coverage you need
+- **Flexible work arrangements** - Opportunities to work independently with participants
 - **Quality participant connections** - Connect with participants who need your skills
-- **Professional development** - Training and support to grow your career
+- **Professional development** - Access to training and support to grow your career
 
-**[Contact us](/contact)** to learn about opportunities with MD Home Care, or to discuss your support worker career.
+**[Get in touch](/contact)** to learn about opportunities through MD Home Care, or to discuss your support worker career.
 
 ---
 

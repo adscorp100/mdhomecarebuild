@@ -6,7 +6,7 @@ updatedAt: 2026-02-10
 author: "Camila"
 tags: ["NDIS", "disability support", "NDIS news", "NDIS changes 2026", "Thriving Kids"]
 popupTitle: "Overwhelmed by NDIS Changes?"
-popupSubtitle: "We stay updated so you don't have to"
+popupSubtitle: "Find experts who stay updated on NDIS changes through MD Home Care"
 image: "/assets/accessible bathroom.webp"
 ---
 
@@ -209,17 +209,17 @@ With so many changes taking effect, now is a good time to:
 
 If you're feeling overwhelmed by the changes, you're not alone. Support Coordinators, Plan Managers, and organisations like MD Home Care can help you navigate the new landscape.
 
-## How MD Home Care Can Help
+## How MD Home Care Connects You With Expert Support
 
-At MD Home Care, we stay across all NDIS updates so you don't have to. Our experienced team can help you:
+MD Home Care connects you with experienced professionals who stay across all NDIS updates. Find experts who can help you:
 
 - **Understand how changes affect your plan** and the supports you receive
 - **Navigate the new PACE system** and provider endorsement process
 - **Maximise your funding** within the updated pricing arrangements
 - **Connect with quality support workers** who meet your needs
-- **Manage your plan** efficiently with our Support Coordination services
+- **Manage your plan** efficiently through Support Coordination services
 
-With over 10 years of experience supporting NDIS participants across Sydney and Melbourne, we're committed to helping you achieve your goals while adapting to scheme changes.
+Browse professionals on MD Home Care with over 10 years of experience supporting NDIS participants across Sydney and Melbourne, committed to helping you achieve your goals while adapting to scheme changes.
 
 ## Frequently Asked Questions
 
@@ -249,7 +249,7 @@ Not immediately. Children already enrolled in the NDIS will remain on the scheme
 
 ### What should I do if I'm confused about the changes?
 
-Contact your Support Coordinator, Plan Manager, or a trusted NDIS provider like MD Home Care. They can review your plan, explain how changes affect you, and help you adjust your supports accordingly.
+Contact your Support Coordinator, Plan Manager, or a trusted directory like MD Home Care. They can review your plan, explain how changes affect you, and help you adjust your supports accordingly.
 
 ## Conclusion: Staying Ahead of NDIS Changes
 
@@ -269,4 +269,4 @@ By staying informed and working with knowledgeable providers, you can navigate t
 
 *This article was last updated on 10 February 2026. NDIS rules and pricing are subject to change. Always check the official NDIS website or speak with your Support Coordinator for the most current information.*
 
-*Need help navigating NDIS changes? [Contact MD Home Care](/contact) for a free consultation with our experienced team.*
+*Need help navigating NDIS changes? [Browse providers on MD Home Care](/contact) to find experienced professionals who can help.*

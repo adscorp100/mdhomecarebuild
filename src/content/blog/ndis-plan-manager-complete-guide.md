@@ -5,7 +5,7 @@ pubDate: 2026-01-15
 author: "Camila"
 tags: ["NDIS Plan Manager", "Plan Management", "NDIS", "Disability Support"]
 popupTitle: "Need Help Managing Your NDIS Plan?"
-popupSubtitle: "We make plan management simple and stress-free"
+popupSubtitle: "Find qualified plan managers who make NDIS management simple"
 image: "/assets/disabled carer.webp"
 ---
 

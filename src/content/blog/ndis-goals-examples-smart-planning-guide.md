@@ -5,7 +5,7 @@ pubDate: 2026-01-01
 author: "MD Home Care"
 tags: ["NDIS Goals", "NDIS Plan", "SMART Goals", "NDIS Planning"]
 popupTitle: "Need Help Setting NDIS Goals?"
-popupSubtitle: "We can help you develop meaningful goals for your plan"
+popupSubtitle: "Find qualified support coordinators who can help you develop meaningful goals"
 image: "/assets/carer.webp"
 ---
 
@@ -358,12 +358,12 @@ That's okay. Goals can be adjusted. What matters is that you're working toward m
 
 ## Get Help With Your NDIS Goals
 
-Setting the right goals can make a significant difference to your NDIS plan outcomes. At MD Home Care, we help participants develop meaningful goals and access the supports they need to achieve them.
+Setting the right goals can make a significant difference to your NDIS plan outcomes. MD Home Care connects you with professionals who can help you develop meaningful goals and access the supports you need to achieve them.
 
-**How we can help:**
-- Support Coordination to develop and track your goals
-- Connect you with therapists and specialists for goal-related supports
-- Provide skilled support workers who understand goal-focused care
-- Prepare for your plan review with goal-focused evidence
+**Find professionals through MD Home Care:**
+- Support Coordinators to develop and track your goals
+- Therapists and specialists for goal-related supports
+- Skilled support workers who understand goal-focused care
+- Plan review preparation services with goal-focused evidence
 
-**[Contact MD Home Care](/contact) for help setting and achieving your NDIS goals.**
+**[Browse providers on MD Home Care](/contact) to find help setting and achieving your NDIS goals.**

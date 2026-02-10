@@ -5,7 +5,7 @@ pubDate: 2025-07-05
 author: "MD Home Care"
 tags: ["Fall Prevention", "Seniors Health", "Aged Care", "Home Modifications"]
 popupTitle: "Worried About Fall Risks at Home?"
-popupSubtitle: "Get a free home safety assessment and personalized prevention plan"
+popupSubtitle: "Find qualified OTs who can provide home safety assessments through MD Home Care"
 image: "/assets/accessible-bathroom.webp"
 ---
 
@@ -84,6 +84,6 @@ This is a heavy emotional weight. Remember, your family's primary concern is you
 <!-- CONCLUSION & CTA (NO HEADER) -->
 Taking steps to prevent falls is one of the most powerful things you can do to maintain your independence and quality of life. It's about being proactive, not fearful. By making smart changes and accessing the right support, you can continue to live safely and confidently.
 
-At MD Home Care, we are committed to helping you stay safe and independent in the home you love. Our team can connect you with trusted occupational therapists, physiotherapists, and help you navigate government funding.
+MD Home Care connects you with trusted occupational therapists and physiotherapists who can help you stay safe and independent in the home you love. Find qualified professionals who can help you navigate government funding options.
 
-If you want to discuss a personalised fall prevention strategy, **[contact MD Home Care today](/contact)**. 
+If you want to discuss a personalised fall prevention strategy, **[browse providers through MD Home Care](/contact)**. 

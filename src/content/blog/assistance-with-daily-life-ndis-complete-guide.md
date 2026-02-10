@@ -5,7 +5,7 @@ pubDate: 2025-12-16
 author: "Camila"
 tags: ["NDIS", "assistance with daily life", "core supports", "NDIS funding", "daily living support"]
 popupTitle: "Need Help with Daily Living Tasks?"
-popupSubtitle: "Discover how we can support your independence"
+popupSubtitle: "Discover providers who can support your independence"
 image: "/assets/homecare.webp"
 ---
 
@@ -338,9 +338,9 @@ Before engaging a provider, ask:
 
 ---
 
-## How MD Home Care Can Help
+## Find Assistance with Daily Life Through MD Home Care
 
-MD Home Care provides comprehensive Assistance with Daily Life supports across Sydney and Melbourne. Our services include:
+MD Home Care connects you with providers offering comprehensive Assistance with Daily Life supports across Sydney and Melbourne. Find providers in the network who offer:
 
 - **Personal care** - Showering, dressing, grooming, and toileting assistance
 - **Domestic support** - Cleaning, cooking, laundry, and household management
@@ -348,10 +348,10 @@ MD Home Care provides comprehensive Assistance with Daily Life supports across S
 - **SIL services** - 24/7 supported independent living accommodation
 - **Respite care** - Short-term accommodation and carer relief
 
-All our support workers are:
-- Fully screened with NDIS Worker Screening Checks
-- Trained in person-centred care approaches
-- Supervised by Registered Nurses for complex needs
-- Matched to your cultural and language preferences
+Providers in the MD Home Care network feature:
+- Support workers fully screened with NDIS Worker Screening Checks
+- Staff trained in person-centred care approaches
+- Complex needs supervised by Registered Nurses
+- Cultural and language matching services
 
-[Contact us today](/contact) to discuss your Assistance with Daily Life needs, or call **08 6386 9999** to speak with our team.
+[Browse providers today](/contact) to find Assistance with Daily Life support, or call **08 6386 9999** to search the MD Home Care network.

@@ -1,6 +1,6 @@
 ---
 title: "NDIS Support Coordination {suburb} | MD Home Care"
-description: "Expert NDIS support coordination in {suburb}. Level 2 & 3 coordinators with same-week start. 24/7 nurse-led support across Sydney & Melbourne. NDIS registered provider."
+description: "Need NDIS support coordination in {suburb}? Find Level 2 & 3 coordinators with same-week start through MD Home Care. 24/7 nurse-led support, 20+ languages spoken."
 pubDate: 2026-01-31
 category: "Support Coordination"
 image: "/assets/two%20women%20looking%20at%20alarm.webp"
@@ -33,7 +33,7 @@ quickFacts:
 - ✗ Check coordinator language skills and cultural background
 - ✗ Verify real-time NDIS registration status
 
-**MD Home Care provides in {suburb}:**
+**Through MD Home Care in {suburb}:**
 - ✓ Level 2 & 3 certified coordinators
 - ✓ 24/7 nurse-led support
 - ✓ Same-week service start
@@ -109,11 +109,11 @@ NDIS Support Coordination helps you implement your NDIS plan by:
 
 ---
 
-## Why Families in {suburb} Choose MD Home Care
+## Why Families in {suburb} Choose Coordinators Through MD Home Care
 
 ### Local Area Expertise
 
-Our coordinators know {suburb} and surrounding areas:
+Coordinators available through MD Home Care know {suburb} and surrounding areas:
 - ✓ Local provider networks and quality providers
 - ✓ Community resources and support groups
 - ✓ Transport options and accessibility
@@ -136,7 +136,7 @@ Arabic, Mandarin, Cantonese, Vietnamese, Korean, Greek, Italian, Spanish, Hindi,
 
 ## Support Coordination vs Other Providers
 
-| Feature | MD Home Care | Large Provider | Solo Coordinator |
+| Feature | Through MD Home Care | Large Provider | Solo Coordinator |
 |---------|--------------|----------------|------------------|
 | **Local {suburb} knowledge** | ✅ Excellent | Limited | Good |
 | **Response time** | Same-day | 2-3 days | Varies |
@@ -181,7 +181,7 @@ Arabic, Mandarin, Cantonese, Vietnamese, Korean, Greek, Italian, Spanish, Hindi,
 **Level 2 (Support Coordination):** $129.59/hour
 **Level 3 (Specialist):** $194.39/hour
 
-**MD Home Care charges standard NDIS rates** - no hidden fees.
+**Providers charge standard NDIS rates** - no hidden fees.
 
 ### What's Included
 
@@ -203,7 +203,7 @@ Check your NDIS plan under "Capacity Building Supports" for:
 - 07_001_0106_1_1 - Support Coordination
 - 07_002_0106_1_1 - Specialist Support Coordination
 
-We can review your plan together during our free consultation.
+A coordinator can review your plan together during a free consultation.
 
 ### Can I choose my support coordinator?
 
@@ -224,15 +224,15 @@ Yes! You have full choice and control. You can:
 
 ### Do coordinators visit {suburb} in person?
 
-Yes! We provide:
+Yes! Coordinators provide:
 - Initial in-person meeting (if requested)
 - Provider trial attendance
 - Home visits for complex setups
 - Regular phone/video check-ins (saves funding)
 
-### Can MD Home Care provide other NDIS services in {suburb}?
+### Can you find other NDIS services through MD Home Care in {suburb}?
 
-Yes. We're a comprehensive provider offering:
+Yes. Browse comprehensive providers offering:
 - Support coordination
 - SIL (Supported Independent Living)
 - Daily personal activities
@@ -253,7 +253,7 @@ Yes. We're a comprehensive provider offering:
 
 ### Can I get a coordinator who speaks my language in {suburb}?
 
-Yes! We have coordinators speaking **20+ languages**. We'll match you with a coordinator who speaks your preferred language.
+Yes! Find coordinators through MD Home Care speaking **20+ languages**. You can be matched with a coordinator who speaks your preferred language.
 
 ---
 
@@ -265,11 +265,11 @@ Yes! We have coordinators speaking **20+ languages**. We'll match you with a coo
 
 **Initial consultation is free and no-obligation.**
 
-We serve {suburb} and all surrounding areas with same-week start availability.
+Find providers serving {suburb} and all surrounding areas with same-week start availability.
 
 ---
 
 **Regulatory Information:**
-MD Home Care is a registered NDIS provider. Support coordination services comply with NDIS Quality and Safeguards Commission standards and NDIS Price Guide 2026.
+MD Home Care connects you with registered NDIS providers. Support coordination services available through the platform comply with NDIS Quality and Safeguards Commission standards and NDIS Price Guide 2026.
 
 **Last Updated:** January 31, 2026

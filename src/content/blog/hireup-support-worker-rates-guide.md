@@ -235,7 +235,7 @@ If Hireup isn't the right fit, consider these alternatives:
 
 ### Traditional Providers
 
-Traditional NDIS providers like **MD Home Care** offer a different approach:
+Platforms like **MD Home Care** connect you with traditional NDIS providers who offer a different approach:
 
 **Benefits of Traditional Providers:**
 - Dedicated care coordinators who know you
@@ -245,7 +245,7 @@ Traditional NDIS providers like **MD Home Care** offer a different approach:
 - More personalised service
 - Local knowledge and community connections
 
-At MD Home Care, we combine the best of both worlds—you get choice and flexibility while benefiting from our experienced team, clinical oversight, and genuine relationships with your support workers.
+Through MD Home Care, you can find providers who combine the best of both worlds—giving you choice and flexibility while offering experienced teams, clinical oversight, and genuine relationships with support workers.
 
 ## Frequently Asked Questions
 
@@ -289,20 +289,20 @@ Choosing how to access support workers is a personal decision that depends on yo
 
 Hireup offers a solid option with transparent pricing, employed workers, and the security of a registered provider. However, it's not the only choice—and for many participants, working with a dedicated local provider offers benefits that platforms can't match.
 
-## How MD Home Care Compares
+## Find Alternatives Through MD Home Care
 
-At MD Home Care, we offer an alternative to platform-based services:
+Through MD Home Care, connect with providers who offer alternatives to platform-based services:
 
-- **Dedicated Care Manager**: One point of contact who knows you and your needs
-- **Hand-Picked Workers**: We match you with support workers based on compatibility, not just availability
-- **Clinical Oversight**: Registered nurses oversee care for complex needs
-- **Local Expertise**: We know Sydney and Melbourne communities inside out
-- **Relationship-Focused**: We build genuine connections, not just service delivery
-- **Transparent Pricing**: Low management fees (15%) with no hidden costs
-- **Support Coordination**: We can help you navigate the entire NDIS system
+- **Dedicated Care Managers**: Providers who offer one point of contact who knows you and your needs
+- **Hand-Picked Workers**: Providers who match you with support workers based on compatibility, not just availability
+- **Clinical Oversight**: Providers with registered nurses overseeing care for complex needs
+- **Local Expertise**: Providers who know Sydney and Melbourne communities inside out
+- **Relationship-Focused**: Providers who build genuine connections, not just service delivery
+- **Transparent Pricing**: Providers with low management fees and no hidden costs
+- **Support Coordination**: Providers who can help you navigate the entire NDIS system
 
-Whether you choose Hireup, another platform, or a provider like MD Home Care, the most important thing is finding support that helps you live the life you want.
+Whether you choose Hireup, another platform, or providers through MD Home Care, the most important thing is finding support that helps you live the life you want.
 
 ---
 
-*Looking for support workers who feel like family? [Contact MD Home Care](/contact) to discuss your needs with our experienced team.*
+*Looking for support workers who feel like family? [Browse providers through MD Home Care](/contact) to connect with experienced teams who can discuss your needs.*

@@ -1,11 +1,11 @@
 ---
 title: "Free NDIS Progress Notes Template 2026: SOAP Format Guide for Support Workers"
-description: "Download our free NDIS progress notes template for 2026. Learn the SOAP format for documenting support sessions, tracking goal progress, and maintaining professional records."
+description: "Download a free NDIS progress notes template for 2026. Learn the SOAP format for documenting support sessions, tracking goal progress, and maintaining professional records."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "progress-notes", "template", "documentation", "SOAP"]
 popupTitle: "Looking for Professional Documentation?"
-popupSubtitle: "Our support workers maintain detailed, compliant records"
+popupSubtitle: "Find support workers who maintain detailed, compliant records"
 image: "/assets/physio.webp"
 ---
 

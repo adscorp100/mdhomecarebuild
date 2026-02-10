@@ -5,7 +5,7 @@ pubDate: 2026-01-31
 author: "MD Home Care"
 tags: ["NDIS", "NDIS Plan", "Schedule of Supports", "Budget Management", "NDIS Template"]
 popupTitle: "Need Help Managing Your NDIS Plan?"
-popupSubtitle: "Our team can help you understand and make the most of your funding"
+popupSubtitle: "Find support coordinators who can help you understand your funding"
 ---
 
 # NDIS Schedule of Supports: Free Template & Complete Guide
@@ -413,16 +413,16 @@ Never feel embarrassed to ask for help understanding your plan - it's a complex 
 
 Understanding your Schedule of Supports is the first step to getting the most from your NDIS funding. But you don't have to navigate it alone.
 
-At MD Home Care, we help NDIS participants:
+Through MD Home Care, you can find providers who help NDIS participants:
 
 - **Understand their plans** and what's funded
 - **Connect with quality services** that match their goals
 - **Track and manage spending** throughout the plan period
 - **Prepare for plan reviews** with the right evidence
 
-Whether you're new to the NDIS or an experienced participant, we're here to help you make the most of your funding.
+Whether you're new to the NDIS or an experienced participant, providers in our network can help you make the most of your funding.
 
-**[Contact us today](/contact)** for a free consultation about your NDIS plan, or call us to chat with our friendly team.
+**[Get in touch today](/contact)** for a free consultation about your NDIS plan, or give the team a call to chat about your needs.
 
 ---
 

@@ -105,7 +105,7 @@ Equipment can be accessed through various funding pathways in {suburb}:
 
 ## Finding Equipment Providers in {suburb}
 
-While MD Homecare does not directly supply or hire general equipment, we can help connect you with reputable providers serving {suburb}, such as:
+While MD Home Care focuses on connecting you with providers rather than directly supplying equipment, you can find reputable equipment providers serving {suburb}, such as:
 
 - Aidacare
 - Country Care Group
@@ -132,6 +132,6 @@ The right equipment works alongside other supports to create a comprehensive app
 
 ## Need Support Services in {suburb}?
 
-While MD Homecare doesn't directly hire or sell equipment, we offer complementary supports that can help you make the most of your mobility and daily living aids. Our staff can work with your equipment to enhance your independence and quality of life in {suburb}.
+Through MD Home Care, you can find providers who offer complementary supports that help you make the most of your mobility and daily living aids. Support workers can work with your equipment to enhance your independence and quality of life in {suburb}.
 
-[Contact Us Today](/contact) to discuss how our services can complement your equipment needs or to get information about connecting with equipment providers in {suburb}. 
+[Find Providers Today](/contact) to discover how support services can complement your equipment needs or to get information about connecting with equipment providers in {suburb}. 

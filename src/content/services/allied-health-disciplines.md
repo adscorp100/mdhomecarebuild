@@ -17,7 +17,7 @@ quickFacts:
 
 Recovering from surgery, managing a chronic condition, or living with disability often requires specialist therapy support. But getting to appointments can be difficult, exhausting, or simply impossible. You need expert allied health care that comes to you.
 
-MD Home Care provides comprehensive in-home allied health services across {suburb}. Our qualified therapists deliver professional assessments and treatments in the comfort of your own home—where you're most comfortable and where real progress happens.
+MD Home Care connects you with comprehensive in-home allied health providers across {suburb}. Find qualified therapists who deliver professional assessments and treatments in the comfort of your own home, where you're most comfortable and where real progress happens.
 
 ### The Challenge: Accessing Quality Therapy
 
@@ -28,13 +28,13 @@ Are you struggling with:
 *   **Coordinating multiple therapists?** Managing appointments with OT, physio, and other specialists separately.
 *   **Understanding your options?** Not knowing which type of therapy would actually help your situation.
 
-We bring the therapy to you—and coordinate everything so you don't have to.
+Professional providers bring the therapy to you and coordinate everything so you don't have to.
 
 ![A physiotherapist providing in-home therapy services](/assets/physio.webp)
 
-## Our Allied Health Services
+## Allied Health Services Available
 
-Our experienced {suburb} allied health team provides a full range of therapy services in your home.
+Experienced {suburb} allied health providers through MD Home Care offer a full range of therapy services in your home.
 
 ### Occupational Therapy
 *   **Home Safety Assessments:** Identifying risks and recommending modifications to prevent falls and injuries.
@@ -66,51 +66,51 @@ Our experienced {suburb} allied health team provides a full range of therapy ser
 *   **Biomechanical Assessment:** Addressing foot and leg pain affecting your mobility.
 *   **Orthotics:** Custom insoles and footwear recommendations.
 
-## Why {suburb} Residents Choose MD Home Care
+## Why {suburb} Residents Choose Providers Through MD Home Care
 
 ### In-Home Convenience
 No travel stress, no waiting rooms, no exhausting outings. Your therapist comes to you, sees your real environment, and provides treatment where it matters most.
 
 ### Coordinated Multi-Disciplinary Care
-Need OT, physio, and speech pathology? We coordinate your care so therapists communicate, avoid duplication, and work toward shared goals.
+Need OT, physio, and speech pathology? Quality providers coordinate your care so therapists communicate, avoid duplication, and work toward shared goals.
 
 ### Qualified, Experienced Therapists
-All our allied health professionals are degree-qualified, registered with AHPRA (where applicable), and experienced in home-based care for NDIS participants and aged care clients.
+All allied health professionals in the MD Home Care network are degree-qualified, registered with AHPRA (where applicable), and experienced in home-based care for NDIS participants and aged care clients.
 
 ### Shorter Waitlists
-While clinic waitlists stretch to months, our in-home service typically has availability within 1-2 weeks.
+While clinic waitlists stretch to months, in-home providers typically have availability within 1-2 weeks.
 
 ## Funding Your Allied Health Services
 
 ### NDIS Participants
-Allied health is funded under **Capacity Building - Improved Daily Living**. We work with your plan manager or support coordinator to ensure you get the therapy you're approved for.
+Allied health is funded under **Capacity Building - Improved Daily Living**. Providers work with your plan manager or support coordinator to ensure you get the therapy you're approved for.
 
 ### Home Care Package Holders
-Allied health services are a core component of Home Care Packages. We liaise with your package provider to include therapy in your care plan.
+Allied health services are a core component of Home Care Packages. Providers liaise with your package provider to include therapy in your care plan.
 
 ### Medicare & Private
-Some services may be covered under Medicare (with a GP referral and care plan) or through private health insurance. We also offer competitive private rates.
+Some services may be covered under Medicare (with a GP referral and care plan) or through private health insurance. Providers also offer competitive private rates.
 
 ## Frequently Asked Questions
 
 **Which allied health service do I need?**
-Not sure? Book a free consultation and we'll help you understand which therapist would best address your concerns. Often, we recommend starting with an OT assessment as they can identify needs across multiple areas.
+Not sure? Connect with experienced providers through MD Home Care for a free consultation to help you understand which therapist would best address your concerns. Often, starting with an OT assessment is recommended as they can identify needs across multiple areas.
 
-**Are your therapists qualified?**
-Yes. All our allied health professionals hold relevant university degrees and maintain current registration with their professional bodies. They also have NDIS Worker Screening clearance.
+**Are the therapists qualified?**
+Yes. All allied health professionals in the MD Home Care network hold relevant university degrees and maintain current registration with their professional bodies. They also have NDIS Worker Screening clearance.
 
 **Can I see multiple therapists?**
-Absolutely. Many clients benefit from a multi-disciplinary approach. We coordinate your care so therapists share information and work toward your goals together.
+Absolutely. Many clients benefit from a multi-disciplinary approach. Quality providers coordinate your care so therapists share information and work toward your goals together.
 
-**Do you provide reports for NDIS plan reviews?**
-Yes. We provide detailed progress reports and recommendations to support your plan reviews and ensure you get appropriate funding.
+**Do providers offer reports for NDIS plan reviews?**
+Yes. Professional providers deliver detailed progress reports and recommendations to support your plan reviews and ensure you get appropriate funding.
 
 **What if I need equipment or home modifications?**
-Our occupational therapists can assess your needs and provide quotes and recommendations for NDIS or Home Care Package funding applications.
+Skilled occupational therapists can assess your needs and provide quotes and recommendations for NDIS or Home Care Package funding applications.
 
 ## Start Your Therapy Journey Today
 
-Don't let transport barriers or long waitlists delay the therapy you need. Our allied health team comes to you, providing expert care in the comfort of your {suburb} home.
+Don't let transport barriers or long waitlists delay the therapy you need. Experienced allied health providers come to you, providing expert care in the comfort of your {suburb} home.
 
 [Book an Allied Health Assessment](/contact)
 *In-home appointments available within 1-2 weeks. NDIS and HCP approved.*

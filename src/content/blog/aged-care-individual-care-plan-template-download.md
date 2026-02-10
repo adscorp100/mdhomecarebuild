@@ -1,11 +1,11 @@
 ---
 title: "Free Aged Care Individual Care Plan Template 2025: Complete Guide"
-description: "Download our free aged care individual care plan template for 2025. Learn how to create comprehensive care plans with health assessments, functional evaluations, and personalized care strategies."
+description: "Download a free aged care individual care plan template for 2025. Learn how to create comprehensive care plans with health assessments, functional evaluations, and personalized care strategies."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["aged-care", "care-plan", "template", "assessment", "elderly"]
 popupTitle: "Need Help Creating a Care Plan?"
-popupSubtitle: "Our experienced team can develop a personalized plan"
+popupSubtitle: "Find experienced team can develop a personalized plan"
 image: "/assets/grandma.webp"
 ---
 

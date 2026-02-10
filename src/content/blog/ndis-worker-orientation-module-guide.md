@@ -78,13 +78,13 @@ No. They are two separate requirements. The Orientation Module is a training cou
 ### Who needs to complete the module?
 Every person employed or otherwise engaged by an NDIS provider must complete it. This includes support workers, allied health professionals, support coordinators, managers, and even regular volunteers.
 
-## Join a Team That Values Quality and Safety
+## Connect With Participants Who Value Quality and Safety
 
 Completing the NDIS Worker Orientation Module is the first step in a rewarding career. It demonstrates your commitment to providing high-quality, safe, and respectful support.
 
-At MD Home Care, we are always looking for dedicated and compliant support workers who share our commitment to excellence. If you are a qualified and passionate support worker looking to join a team that values your professionalism, we invite you to learn more about us.
+Through MD Home Care, dedicated and compliant support workers can connect with participants who value excellence in their support. If you are a qualified and passionate support worker looking to connect with participants who value your professionalism, we invite you to learn more about our platform.
 
-**[Contact MD Home Care today](/contact)** to see how we support our workers and participants.
+**[Contact MD Home Care today](/contact)** to see how you can connect with participants in your area.
 
 ## Conclusion
 

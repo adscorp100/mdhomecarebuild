@@ -371,4 +371,4 @@ Many combined policies are available for $600-$1,500 annually. Also consider inc
 
 ---
 
-Ready to take the next step in your NDIS journey? Whether you're a participant looking for quality support or a worker seeking a provider that values excellence, MD Home Care is here to help. **[Contact us today](/contact)**.
+Ready to take the next step in your NDIS journey? Whether you're a participant looking for quality support or a worker looking to connect with clients, MD Home Care can help. **[Get in touch today](/contact)**.

@@ -5,7 +5,7 @@ pubDate: 2025-07-05
 author: "MD Home Care"
 tags: ["Aged Care Changes", "Support at Home", "Home Care Packages", "CHSP"]
 popupTitle: "Concerned About Aged Care Changes?"
-popupSubtitle: "We're here to explain the new system clearly"
+popupSubtitle: "Find qualified advisors who can explain the new system clearly"
 image: "/assets/holdinglinen.webp"
 ---
 
@@ -72,6 +72,6 @@ This is a common concern. The government has acknowledged the challenges in rura
 <!-- CONCLUSION & CTA (NO HEADER) -->
 The move to the Support at Home program is a major shift, but it is designed to create a better, fairer, and more user-friendly aged care system. The introduction of dedicated care management is a positive step towards more personalised and proactive support.
 
-Change can be daunting, but you don't have to navigate it alone. At MD Home Care, our team is across all the upcoming changes, and we are here to help you understand what they mean for you.
+Change can be daunting, but you don't have to navigate it alone. Through MD Home Care, you can connect with aged care providers who understand all the upcoming changes and can help you understand what they mean for you.
 
 If you have questions about the new Support at Home program, **[contact MD Home Care today](/contact)** for clear, no-obligation advice. 

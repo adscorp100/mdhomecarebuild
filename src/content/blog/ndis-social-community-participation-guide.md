@@ -5,7 +5,7 @@ pubDate: 2026-01-31
 author: 'MD Home Care'
 tags: ["NDIS", "Community Participation", "Social Activities", "NDIS Funding", "Increased Social Community Participation"]
 popupTitle: "Want to Get More Involved in Your Community?"
-popupSubtitle: "We can help you find and access social and community activities"
+popupSubtitle: "Find providers who can help you find and access social and community activities"
 image: '/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp'
 ---
 
@@ -448,14 +448,14 @@ Rural and remote participants may receive additional transport funding to access
 
 Social and community participation is one of the most rewarding aspects of your NDIS plan. It's your pathway to new friendships, skills, and a richer life connected to your community.
 
-At MD Home Care, we help participants across Melbourne make the most of their community participation funding:
+Through MD Home Care, you can find providers across Melbourne who help participants make the most of their community participation funding:
 
 - **Experienced support workers** who facilitate genuine social connections
 - **Local knowledge** of community activities and programs
 - **Flexible scheduling** to fit activities around your life
 - **Skill-building focus** to increase your independence over time
 
-**[Contact us today](/contact)** for a free consultation about your community participation goals. Let us help you find activities you'll love and support you to participate fully in your community.
+**[Get in touch today](/contact)** for a free consultation about your community participation goals. MD Home Care can help you find activities you'll love and connect you with support to participate fully in your community.
 
 ---
 

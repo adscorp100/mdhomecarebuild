@@ -1,6 +1,6 @@
 ---
 title: "Continence Care Services in {suburb}"
-description: "Regain control and dignity with a professional continence assessment in {suburb}. Our qualified Continence Nurses provide a discreet, in-home service to create a personalised plan that works. NDIS & Aged Care."
+description: "Regain control and dignity with a professional continence assessment in {suburb}. Qualified Continence Nurses provide a discreet, in-home service to create a personalised plan that works. NDIS and Aged Care funded."
 pubDate: 2025-07-04
 category: "Clinical Care"
 image: "/assets/drinkingtea.webp"
@@ -23,7 +23,7 @@ Managing incontinence can be a challenging and deeply personal journey. It's oft
 
 The first and most important step towards a long-term solution is a **professional continence assessment**.
 
-At MD Home Care, our service is led by qualified and experienced Continence Nurse Advisors who provide a confidential, in-home assessment service in {suburb}. Our goal is to understand the underlying causes of incontinence and create a personalised, evidence-based plan that restores your confidence and quality of life.
+Through MD Home Care, you can connect with qualified and experienced Continence Nurse Advisors who provide a confidential, in-home assessment service in {suburb}. Their goal is to understand the underlying causes of incontinence and create a personalised, evidence-based plan that restores your confidence and quality of life.
 
 ## Is It Time for a Professional Assessment?
 
@@ -35,21 +35,21 @@ If you or a loved one are experiencing any of the following, a professional asse
 *   **Concern about skin health** and the risk of irritation or infection.
 *   A desire for a **dignified, long-term solution** rather than a temporary fix.
 
-## Our Clinical Approach to Continence Care
+## Clinical Approach to Continence Care
 
-Our service is built on a foundation of clinical expertise, empathy, and absolute discretion.
+Providers available through MD Home Care offer services built on a foundation of clinical expertise, empathy, and absolute discretion.
 
-### The Role of Our Continence Nurse Advisor
+### The Role of Continence Nurse Advisors
 
-Our Continence Nurse Advisors are registered nurses with specialised post-graduate qualifications in continence management. They are experts in assessing, diagnosing, and creating management plans for bladder, bowel, and pelvic floor dysfunction. Their role is to be your trusted partner, providing clinical guidance with compassion and respect.
+The Continence Nurse Advisors available through MD Home Care are registered nurses with specialised post-graduate qualifications in continence management. They are experts in assessing, diagnosing, and creating management plans for bladder, bowel, and pelvic floor dysfunction. Their role is to be your trusted partner, providing clinical guidance with compassion and respect.
 
 ### What to Expect During Your In-Home Assessment
 
-Your assessment will be a private, one-on-one consultation in the comfort of your own home. Here's how we ensure the process is thorough and stress-free:
+Your assessment will be a private, one-on-one consultation in the comfort of your own home. Here's how providers ensure the process is thorough and stress-free:
 
-1.  **A Respectful Conversation:** We'll discuss your health history, symptoms, diet, and lifestyle to get a complete picture of your situation.
-2.  **Goal Setting:** We listen to what you want to achieve. Is it confidence to go out, better sleep, or simpler daily management?
-3.  **Product & Strategy Review:** We'll assess any current products or strategies you're using to see what's working and what isn't.
+1.  **A Respectful Conversation:** Your nurse will discuss your health history, symptoms, diet, and lifestyle to get a complete picture of your situation.
+2.  **Goal Setting:** Your nurse listens to what you want to achieve. Is it confidence to go out, better sleep, or simpler daily management?
+3.  **Product & Strategy Review:** Your nurse will assess any current products or strategies you're using to see what's working and what isn't.
 4.  **Creating Your Plan:** Based on the assessment, your Nurse Advisor will develop a comprehensive Continence Care Plan. This is a detailed document outlining recommended products, toileting schedules, and other strategies to improve management.
 
 ![A caring support worker assisting an elderly woman in her home.](/assets/grandma.webp)
@@ -61,13 +61,13 @@ Your assessment will be a private, one-on-one consultation in the comfort of you
 ## Frequently Asked Questions
 
 **Is the continence assessment invasive or embarrassing?**
-Absolutely not. The assessment is a structured conversation and observation-based process. There are no invasive procedures. Our Nurse Advisors are highly skilled at creating a comfortable and professional environment where you can feel at ease discussing sensitive information. Your dignity is our highest priority.
+Absolutely not. The assessment is a structured conversation and observation-based process. There are no invasive procedures. Continence Nurse Advisors are highly skilled at creating a comfortable and professional environment where you can feel at ease discussing sensitive information. Your dignity is always the highest priority.
 
 **How is a clinical assessment different from just buying products?**
 Store-bought products are a one-size-fits-all solution to a complex problem. A clinical assessment identifies the *type* and *cause* of incontinence, allowing for a tailored plan. This often leads to using fewer, more effective products, improving skin health, and significantly increasing your confidence and comfort.
 
 **Is the assessment covered by NDIS or my Home Care Package?**
-Yes. A professional continence assessment is widely recognised as a crucial healthcare need. It is typically funded under **Improved Daily Living (Category 15)** in your NDIS plan or is a standard service within your Home Care Package budget. We can help you confirm your funding and manage the process.
+Yes. A professional continence assessment is widely recognised as a crucial healthcare need. It is typically funded under **Improved Daily Living (Category 15)** in your NDIS plan or is a standard service within your Home Care Package budget. Providers through MD Home Care can help you confirm your funding and manage the process.
 
 ### Take the First Step Towards Better Continence Management
 

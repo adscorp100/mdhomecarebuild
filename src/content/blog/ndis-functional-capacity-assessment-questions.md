@@ -5,7 +5,7 @@ pubDate: 2026-01-31
 author: "MD Home Care"
 tags: ["Functional Capacity Assessment", "NDIS Assessment", "FCA", "NDIS", "Functional Assessment"]
 popupTitle: "Preparing for Your Assessment?"
-popupSubtitle: "Our team can help you present your needs effectively"
+popupSubtitle: "Find qualified assessors who can help you present your needs effectively"
 image: "/assets/physio.webp"
 ---
 

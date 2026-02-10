@@ -1,11 +1,11 @@
 ---
 title: "Aged Care Fees Calculator: The Ultimate Australian Guide (2025)"
-description: "Confused by aged care costs? Use our guide to understand the fees, estimate your costs, and learn about the My Aged Care fee estimator, RADs, DAPs, and more for 2025."
+description: "Confused by aged care costs? Use this guide to understand the fees, estimate your costs, and learn about the My Aged Care fee estimator, RADs, DAPs, and more for 2025."
 pubDate: 2025-07-02
 author: "MD Home Care"
 tags: ["aged care fees calculator", "aged care cost calculator", "nursing home costs calculator", "means tested care fee", "rad dap calculator", "my aged care fee estimator"]
 popupTitle: "Confused About Aged Care Costs?"
-popupSubtitle: "Let us help you understand your options and fees"
+popupSubtitle: "Find providers who can help you understand your options and fees"
 image: "/assets/homecare.webp"
 ---
 
@@ -84,10 +84,10 @@ The biggest mistake is not getting the means assessment done *before* starting t
 ### How does my pension get affected?
 The Age Pension is included in the income assessment. How your aged care fees affect your pension depends on your individual financial situation, including whether you pay for your accommodation as a lump-sum RAD or a daily DAP, as this changes your asset and income profile.
 
-## We're Here to Help
+## Find the Right Support
 
 Understanding aged care fees is the first step towards making confident decisions. While the system is detailed, it is designed to be fair and accessible.
 
-At MD Home Care, we believe in empowering you with clear, straightforward information. We can help you understand your options and connect you with the right services.
+MD Home Care connects you with aged care providers and professionals who can help you understand your options and navigate the system with clear, straightforward guidance.
 
-If you have questions about aged care fees or need help navigating the system, **[contact MD Home Care today](/contact)**.
+If you have questions about aged care fees or need help navigating the system, **[find providers through MD Home Care today](/contact)**.

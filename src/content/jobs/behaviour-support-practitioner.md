@@ -1,6 +1,6 @@
 ---
 title: "Behaviour Support Practitioner Jobs in {suburb}"
-description: "Join our team as a Behaviour Support Practitioner in {suburb}. Use your expertise to develop and implement positive behavior support strategies that improve quality of life for people with complex needs."
+description: "Find Behaviour Support Practitioner opportunities in {suburb} through MD Home Care. Use your expertise to develop and implement positive behavior support strategies that improve quality of life for people with complex needs."
 category: "Specialist Services"
 requirements: [
   "Relevant tertiary qualification in Psychology, Social Work, or related field",
@@ -19,14 +19,14 @@ certifications: [
   "NDIS Worker Screening Check"
 ]
 image: "/assets/clinic.webp"
-metaTitle: "Behaviour Support Practitioner Jobs {suburb} | Join MD Home Care"
-metaDescription: "Looking for Behaviour Support Practitioner jobs in {suburb}? Join MD Home Care's specialist team. Work with complex clients and develop your professional expertise."
+metaTitle: "Behaviour Support Practitioner Jobs {suburb} | Find Jobs Through MD Home Care"
+metaDescription: "Looking for Behaviour Support Practitioner jobs in {suburb}? Find opportunities through MD Home Care's network. Work with complex participants and develop your professional expertise."
 featured: true
 ---
 
 ## About the Role
 
-As a Behaviour Support Practitioner with MD Home Care in {suburb}, you'll work with clients who have complex behavioral support needs. This role offers the opportunity to make a significant impact on people's lives by developing and implementing positive behavior support strategies.
+As a Behaviour Support Practitioner connected through MD Home Care in {suburb}, you'll work with participants who have complex behavioral support needs. These opportunities offer the chance to make a significant impact on people's lives by developing and implementing positive behavior support strategies.
 
 ## What You'll Do
 
@@ -39,20 +39,20 @@ As a Behaviour Support Practitioner with MD Home Care in {suburb}, you'll work w
 - Deliver staff training and capacity building
 - Participate in case conferences and reviews
 
-## Why Join Us?
+## Why Use MD Home Care?
 
-- Competitive salary package
-- Professional development opportunities
-- Regular clinical supervision
-- Flexible working arrangements
-- Supportive multidisciplinary team
-- Modern technology and resources
-- Career progression pathways
-- Work-life balance
+- Connect with participants needing behavior support
+- Access diverse case opportunities in your area
+- Work with multidisciplinary support teams
+- Set competitive rates for your services
+- Build relationships with participants and families
+- Access continuing professional development opportunities
+- Enjoy flexible working arrangements
+- Maintain work-life balance
 
 ## Required Qualifications
 
-Our Behaviour Support Practitioners must meet these requirements to ensure excellence in service delivery:
+Behaviour Support Practitioners typically need these requirements to provide excellent service delivery:
 
 - Relevant tertiary qualification in Psychology, Social Work, or related field
 - Minimum 3 years experience in behavior support
@@ -64,7 +64,7 @@ Our Behaviour Support Practitioners must meet these requirements to ensure excel
 
 ## Essential Certifications
 
-To work with us, you'll need:
+To work in behavior support, you'll typically need:
 
 - NDIS Behavior Support Practitioner Registration
 - National Police Check
@@ -76,8 +76,8 @@ To work with us, you'll need:
 
 This position is available in {suburb} and surrounding areas. We have multiple positions available across different locations to suit your preferences. 
 
-## Ready to Apply?
+## Ready to Get Started?
 
-If you're passionate about making a difference and ready to join our team, we'd love to hear from you. Click below to start your application process.
+If you're passionate about making a difference in behavior support, browse available opportunities on MD Home Care to connect with participants who need your expertise.
 
 [Apply Now](/contact) 

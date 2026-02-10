@@ -5,7 +5,7 @@ pubDate: 2025-07-02
 author: "MD Home Care"
 tags: ["aged care for pensioners with no assets", "aged care fees", "government funded aged care"]
 popupTitle: "Worried About Affording Care?"
-popupSubtitle: "We can help you access government-funded support"
+popupSubtitle: "Find providers who can help you access government-funded support"
 image: "/assets/grandma.webp"
 ---
 
@@ -72,6 +72,6 @@ This is a common fear, but the Australian aged care system is designed to preven
 <!-- CONCLUSION & CTA (NO HEADER) -->
 Navigating aged care can seem complex, but having no assets does not prevent you from receiving the support you need. The Australian government provides a strong safety net for pensioners, ensuring that everyone has access to quality care.
 
-At MD Home Care, we believe in providing compassionate support to all Australians. We can help you understand the process and find the right care for your needs.
+MD Home Care connects pensioners with compassionate providers who understand the aged care system. Find professionals through the MD Home Care network who can help you understand the process and locate the right care for your needs.
 
-If you have questions about your eligibility or need help navigating My Aged Care, **[contact MD Home Care today](/contact)**.
+If you have questions about your eligibility or need help navigating My Aged Care, **[find providers through MD Home Care today](/contact)**.

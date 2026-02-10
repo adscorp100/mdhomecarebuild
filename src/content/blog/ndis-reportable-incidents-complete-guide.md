@@ -5,7 +5,7 @@ pubDate: 2025-12-17
 author: "Camila"
 tags: ["NDIS", "Reportable Incidents", "Compliance", "Providers"]
 popupTitle: "Need Help With NDIS Compliance?"
-popupSubtitle: "Get expert guidance on incident reporting and provider obligations"
+popupSubtitle: "Find experts who can help with incident reporting and provider obligations"
 image: "/assets/carer.webp"
 ---
 
@@ -511,12 +511,12 @@ Connect participants with:
 
 ## Get Expert Support With NDIS Compliance
 
-Managing reportable incidents and maintaining compliance can be complex. At MD Home Care, we help providers understand their obligations and implement best-practice incident management systems.
+Managing reportable incidents and maintaining compliance can be complex. MD Home Care connects providers with experts who can help you understand your obligations and implement best-practice incident management systems.
 
-**How we can help:**
+**Find professionals through MD Home Care who can help with:**
 - **Compliance training** for your staff on reportable incidents
 - **Policy development** for incident management procedures
 - **Audit preparation** to ensure you meet Commission requirements
 - **Ongoing support** for complex compliance questions
 
-**[Contact MD Home Care](/contact) today for a free consultation and let us help you stay compliant and protect the participants you serve.**
+**[Browse providers on MD Home Care](/contact) today to find experts who can help you stay compliant and protect the participants you serve.**

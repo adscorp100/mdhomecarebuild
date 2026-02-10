@@ -6,7 +6,7 @@ updatedAt: 2026-02-10
 author: "MD Home Care"
 tags: ["NDIS Capacity Building", "NDIS Funding", "Support Coordination", "NDIS Therapy"]
 popupTitle: "Need Help With Capacity Building?"
-popupSubtitle: "We can help you understand and use your CB funding"
+popupSubtitle: "Find providers who can help you understand and use your CB funding"
 image: "/assets/occupationaltherapy.webp"
 ---
 
@@ -391,9 +391,9 @@ You don't need a medical referral to use most NDIS-funded CB services. However, 
 
 ## Get Help With Your NDIS Plan
 
-Understanding and maximising your Capacity Building supports can significantly improve your outcomes. At MD Home Care, we help participants access quality therapy, support coordination, and skill-building programs.
+Understanding and maximising your Capacity Building supports can significantly improve your outcomes. Through MD Home Care, you can find providers who can help you access quality therapy, support coordination, and skill-building programs.
 
-**How we can help:**
+**Providers in our network can help with:**
 - Support Coordination to manage your CB funding
 - Connect you with qualified allied health providers
 - Help prepare for plan reviews with CB evidence

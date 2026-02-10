@@ -5,7 +5,7 @@ pubDate: 2025-01-20
 author: "Camila"
 tags: ["social activities for seniors", "activities for elderly", "senior activities", "community programs", "social engagement"]
 popupTitle: "Looking to Stay Active and Connected?"
-popupSubtitle: "We offer community programs and social support"
+popupSubtitle: "Discover providers who offer community programs and social support"
 image: "/assets/grandma.webp"
 ---
 

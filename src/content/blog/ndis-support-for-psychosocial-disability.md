@@ -5,7 +5,7 @@ pubDate: 2025-07-05
 author: "MD Home Care"
 tags: ["NDIS", "Psychosocial Disability", "Mental Health", "NDIS Provider"]
 popupTitle: "Questions About Psychosocial Support?"
-popupSubtitle: "Our team understands mental health and the NDIS"
+popupSubtitle: "Find providers who understand mental health and the NDIS"
 image: "/assets/two women looking at alarm.webp"
 ---
 
@@ -80,6 +80,6 @@ This is a major concern for many. When interviewing providers or support workers
 <!-- CONCLUSION & CTA (NO HEADER) -->
 The journey to getting NDIS support for a psychosocial disability can be challenging, but it is achievable. The goal is to connect you with the resources you need to live a more independent and fulfilling life, on your own terms.
 
-At MD Home Care, we believe in a recovery-oriented approach that puts you in control. We can help you navigate the complexities of the NDIS, from understanding the access requirements to connecting you with compassionate and skilled support workers.
+Through MD Home Care, you can find providers who focus on a recovery-oriented approach that puts you in control. These providers can help you navigate the complexities of the NDIS, from understanding the access requirements to connecting you with compassionate and skilled support workers.
 
 If you have questions about NDIS for psychosocial disability or need help with your application, **[contact MD Home Care today](/contact)**. 

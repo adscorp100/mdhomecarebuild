@@ -1,11 +1,11 @@
 ---
 title: "How Much Does Respite Care Cost Per Day? (NDIS Guide 2025)"
-description: "Everything you need to know about NDIS respite care costs per day in 2025. We break down NDIS short-term accommodation rates, weekly costs, and the NDIS price guide."
+description: "Everything you need to know about NDIS respite care costs per day in 2025. This guide breaks down NDIS short-term accommodation rates, weekly costs, and the NDIS price guide."
 pubDate: 2025-07-02
 author: "Camila"
 tags: ["NDIS", "Respite Care", "Pricing"]
 popupTitle: "Need Respite Care Support?"
-popupSubtitle: "We can help you find quality respite options within your NDIS plan"
+popupSubtitle: "Find providers who can help you find quality respite options within your NDIS plan"
 image: "/assets/respite care.webp"
 ---
 
@@ -116,7 +116,7 @@ The daily rate covers accommodation, food, personal care, and activities. Howeve
 
 ## Need Help with Respite Care?
 
-Navigating NDIS respite care costs can be confusing. At MD Home Care, we provide clear, transparent pricing and can help you find the right respite solution for your needs.
+Navigating NDIS respite care costs can be confusing. Through MD Home Care, you can connect with respite providers who offer clear, transparent pricing and help you find the right solution for your needs.
 
 [Contact us today](/contact) for a free consultation to discuss your respite care options.
 

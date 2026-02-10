@@ -5,7 +5,7 @@ pubDate: 2026-01-01
 author: "MD Home Care"
 tags: ["NDIS PACE", "my NDIS portal", "NDIS changes", "NDIS 2026"]
 popupTitle: "Need Help with PACE?"
-popupSubtitle: "We can help you understand the new NDIS system"
+popupSubtitle: "Find experts who can help you understand the new NDIS system"
 image: "/assets/two women looking at alarm.webp"
 ---
 
@@ -262,12 +262,12 @@ Contact the NDIS National Call Centre on **1800 800 110**. Your my NDIS Contact 
 
 ## Get Support With Your NDIS Plan
 
-Navigating changes to the NDIS can feel overwhelming. At MD Home Care, we help participants understand their plans and access the supports they need, whether you're in PACE or still using the old system.
+Navigating changes to the NDIS can feel overwhelming. MD Home Care connects participants with experts who can help you understand your plans and access the supports you need, whether you're in PACE or still using the old system.
 
-**How we can help:**
+**Find professionals through MD Home Care who can:**
 - Explain how PACE affects your specific supports
 - Connect you with quality providers in your area
 - Provide support coordination to help manage your plan
 - Answer questions about the transition
 
-**[Contact MD Home Care](/contact) for a free consultation and let us help you get the most from your NDIS plan.**
+**[Browse providers on MD Home Care](/contact) to find experts who can help you get the most from your NDIS plan.**

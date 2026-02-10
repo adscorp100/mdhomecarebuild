@@ -5,13 +5,13 @@ pubDate: 2025-07-04T00:00:00Z
 author: "MD Home Care"
 tags: ["Support at Home", "Home Care Packages", "Aged Care", "Aged Care Reform", "Home Modifications"]
 popupTitle: "Confused About Aged Care Changes?"
-popupSubtitle: "We'll help you navigate the new Support at Home program"
+popupSubtitle: "Find providers who'll help you navigate the new Support at Home program"
 image: "/assets/drinkingtea.webp"
 ---
 
 A major change is coming to aged care in Australia. The government's new **Support at Home program** is set to replace the existing Home Care Package (HCP) system. If you or a loved one currently receives in-home care, or you're just starting to look into it, you probably have a lot of questions and concerns.
 
-You might be worried about what this means for your funding, your services, or if the new system will be more complicated. We understand. This guide is here to walk you through everything you need to know about the Support at Home program, based on the latest information from the Australian Government.
+You might be worried about what this means for your funding, your services, or if the new system will be more complicated. These are completely valid concerns. This guide is here to walk you through everything you need to know about the Support at Home program, based on the latest information from the Australian Government.
 
 ## **IMPORTANT UPDATE: Program Start Date Changed**
 
@@ -45,7 +45,7 @@ Everything starts with an assessment to understand your needs.
 
 ### Step 2: Choosing a Provider
 
-Once you are approved, you will choose a registered aged care provider, like MD Home Care. This provider will manage your funds and coordinate your services. Under the new program, you will have a single provider to keep things simple.
+Once you are approved, you can browse registered aged care providers on MD Home Care to choose one that suits your needs. This provider will manage your funds and coordinate your services. Under the new program, you will have a single provider to keep things simple.
 
 ### Step 3: Planning Your Care
 
@@ -105,7 +105,7 @@ The new Support at Home program represents a significant and positive shift in h
 
 The key is to stay informed and work with a trusted provider who can help you navigate the changes.
 
-At MD Home Care, we are committed to helping you understand the new system and access the best possible support. If you have any questions about the Support at Home program or need help with your care needs, **[contact our friendly team today](/contact)**.
+Through MD Home Care, connect with providers who are committed to helping you understand the new system and access the best possible support. If you have any questions about the Support at Home program or need help with your care needs, **[find providers through MD Home Care today](/contact)**.
 
 ### Resources and Further Information
 For additional details, refer to the following official resources:

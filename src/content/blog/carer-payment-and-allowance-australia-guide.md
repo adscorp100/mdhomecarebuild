@@ -5,7 +5,7 @@ pubDate: 2025-07-06
 author: "MD Home Care"
 tags: ["Carer Payment", "Carer Allowance", "Centrelink", "Financial Support", "Aged Care"]
 popupTitle: "Need Support as a Carer?"
-popupSubtitle: "We can help with respite care and carer support services"
+popupSubtitle: "Find providers who can help with respite care and carer support services"
 image: "/assets/disabled carer.webp"
 ---
 
@@ -95,6 +95,6 @@ You can only receive one Carer Payment, regardless of how many people you care f
 ### How long does the application process take?
 This is one of the biggest frustrations. While some claims are processed in weeks, it's realistic to expect it could take a couple of months. This is why having all your documents ready from the start is so important.
 
-At MD Home Care, we understand the incredible work that carers do. While we help families navigate the complexities of in-home care, we believe you should have access to all the support you're entitled to.
+MD Home Care connects carers with professionals who understand the incredible work that carers do. Through the provider network, families can access support to navigate the complexities of in-home care, while ensuring you have access to all the support you're entitled to.
 
-If you have questions about organising care services or need help understanding your options, **[contact MD Home Care today](/contact)**. 
+If you have questions about organising care services or need help understanding your options, **[find providers through MD Home Care today](/contact)**. 

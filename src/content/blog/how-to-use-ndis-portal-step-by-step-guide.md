@@ -5,7 +5,7 @@ pubDate: 2025-07-16
 author: "MD Home Care"
 tags: ["NDIS", "MyPlace Portal", "NDIS Portal", "Plan Management", "Self-Managed"]
 popupTitle: "Having Trouble with the NDIS Portal?"
-popupSubtitle: "Our team can help you navigate and manage your plan online"
+popupSubtitle: "Connect with professionals who can help you navigate and manage your plan online"
 image: "/assets/disabled carer.webp"
 ---
 

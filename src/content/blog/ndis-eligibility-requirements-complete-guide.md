@@ -6,7 +6,7 @@ updatedAt: 2026-02-10
 author: "MD Homecare Team"
 tags: ["ndis eligibility", "ndis requirements", "ndis application", "disability funding"]
 popupTitle: "Questions About NDIS Eligibility?"
-popupSubtitle: "Let us help you navigate the application process"
+popupSubtitle: "Find providers who can help you navigate the application process"
 image: "/assets/downs.webp"
 ---
 
@@ -472,7 +472,7 @@ Limited supports may be available through Local Area Coordinators or community p
 
 ### MD Homecare Eligibility Support
 
-While MD Homecare doesn't process NDIS applications directly, we provide:
+While MD Homecare doesn't process NDIS applications directly, you can find providers through our platform who offer:
 
 **Pre-Application Support**
 - Eligibility criteria education

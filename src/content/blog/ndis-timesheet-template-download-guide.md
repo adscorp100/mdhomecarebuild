@@ -1,11 +1,11 @@
 ---
 title: "Free NDIS Timesheet Template 2026: Download & Complete Guide for Support Workers"
-description: "Download our free NDIS timesheet template for 2026. Learn proper time recording, support item documentation, and participant sign-off requirements for accurate billing."
+description: "Download a free NDIS timesheet template for 2026. Learn proper time recording, support item documentation, and participant sign-off requirements for accurate billing."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "timesheet", "template", "support-workers", "billing"]
 popupTitle: "Need Help with NDIS Billing?"
-popupSubtitle: "We handle the paperwork so you don't have to"
+popupSubtitle: "Find providers who handle the paperwork so you don't have to"
 image: "/assets/makingbed.webp"
 ---
 

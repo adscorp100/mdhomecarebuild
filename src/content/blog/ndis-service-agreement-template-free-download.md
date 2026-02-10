@@ -1,11 +1,11 @@
 ---
 title: "Free NDIS Service Agreement Template 2026: Download & Complete Guide for Providers"
-description: "Download our free NDIS service agreement template for 2026. Learn essential elements, participant rights, provider responsibilities, and NDIS Commission compliance requirements for creating legally compliant service agreements."
+description: "Download a free NDIS service agreement template for 2026. Learn essential elements, participant rights, provider responsibilities, and NDIS Commission compliance requirements for creating legally compliant service agreements."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "service-agreement", "template", "providers", "compliance"]
 popupTitle: "Want Clear Service Agreements?"
-popupSubtitle: "We make our commitments transparent and easy to understand"
+popupSubtitle: "Find providers who make their commitments transparent and easy to understand"
 image: "/assets/holdinglinen.webp"
 ---
 
@@ -571,6 +571,6 @@ Key takeaways:
 - Use clear, plain language and avoid legal jargon
 - Focus on empowering participants and supporting their choice and control
 
-Download our free NDIS service agreement template to create professional, compliant agreements that protect both you and the participants you support.
+Download a free NDIS service agreement template to create professional, compliant agreements that protect both you and the participants you support.
 
 [Download NDIS Service Agreement Template (DOCX)](/downloads/ndis-service-agreement-template-2026.docx)

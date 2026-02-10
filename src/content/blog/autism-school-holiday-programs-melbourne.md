@@ -6,7 +6,7 @@ updatedAt: 2026-02-10
 author: "MD Home Care"
 tags: ["NDIS", "Autism", "School Holidays", "Melbourne", "Vacation Care"]
 popupTitle: "Need Help Finding the Right Program?"
-popupSubtitle: "Our team can help connect you with autism-friendly holiday programs in Melbourne"
+popupSubtitle: "Connect with professionals who can help connect you with autism-friendly holiday programs in Melbourne"
 ---
 
 Finding the right school holiday program for a child with autism can be stressful. You need a program that understands sensory needs, provides appropriate supervision ratios, and actually helps your child develop—not just somewhere to pass the time.
@@ -392,20 +392,20 @@ Request a trial day or pre-program meeting. Good providers welcome the opportuni
 
 From October 2026, the Australian Government's Thriving Kids program will offer a new support pathway for children under 9 with autism or developmental delay who have low to moderate needs. Unlike the NDIS, Thriving Kids will not require a formal diagnosis to access services. Children with higher support needs will continue to access the NDIS and its funded holiday programs. As Thriving Kids rolls out (full rollout by January 2028), it may open additional funding options for autism holiday programs and community activities. Speak with your provider or Early Childhood Partner about how this might affect your family.
 
-## Get Support Finding the Right Program
+## Find Support for the Right Program
 
 Navigating school holiday options while managing NDIS funding can be overwhelming. You don't have to do it alone.
 
-At MD Home Care, we help Melbourne families:
+Through MD Home Care, Melbourne families can connect with providers who:
 
-- **Find suitable programs** in your area that match your child's needs
-- **Navigate NDIS funding** to maximise your child's support during holidays
-- **Provide support workers** who can accompany your child to programs if needed
+- **Help find suitable programs** in your area that match your child's needs
+- **Assist with NDIS funding** to maximise your child's support during holidays
+- **Supply support workers** who can accompany your child to programs when needed
 - **Connect with community** activities and social opportunities year-round
 
-**Contact us today** to discuss how we can support your family during school holidays and beyond. Our experienced team understands autism and the NDIS, and we're here to help.
+**Browse providers today** to find support for your family during school holidays and beyond. The MD Home Care network includes experienced providers who understand autism and the NDIS.
 
-**[Get in touch](/contact)** for a free consultation, or call us to chat about your family's needs.
+**[Find providers](/contact)** through MD Home Care, or call to search the network for your family's needs.
 
 ---
 

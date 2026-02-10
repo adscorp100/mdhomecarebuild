@@ -5,7 +5,7 @@ pubDate: 2025-05-15
 author: "Camila"
 tags: []
 popupTitle: "Ready to Start Your Support Worker Career?"
-popupSubtitle: "We can help you understand qualifications and find your path forward"
+popupSubtitle: "Find providers who can help you understand qualifications and find your path forward"
 image: "/assets/homecare.webp"
 ---
 

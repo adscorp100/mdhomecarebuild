@@ -19,7 +19,7 @@ Australia's Best Value for Home Care. The CareSide delivers the highest quality 
 
 ## About This Provider
 
-The CareSide is a family-owned and operated home care provider established in 2017, delivering services across Australia. We provide services for self-managed and fully managed care recipients while maximising Home Care Package or CHSP funds.
+The CareSide is a family-owned and operated home care provider established in 2017, delivering services across Australia. They provide services for self-managed and fully managed care recipients while maximising Home Care Package or CHSP funds.
 
 When you entrust us with your care, you'll get the same caregiver every time, precisely at the times you choose, with no locked-in contract or hidden fees. Our clients receive on average 25% more hours of care compared to other providers.
 

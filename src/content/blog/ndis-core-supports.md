@@ -5,7 +5,7 @@ pubDate: 2025-07-13
 author: "MD Home Care"
 tags: ["NDIS", "Core Supports", "NDIS Funding", "Daily Life", "Community Participation"]
 popupTitle: "Confused About Your Core Supports?"
-popupSubtitle: "Let us help you understand and maximize your NDIS funding"
+popupSubtitle: "Find providers who can help you understand and maximize your NDIS funding"
 image: "/assets/disabled carer.webp"
 ---
 

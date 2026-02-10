@@ -1,11 +1,11 @@
 ---
 title: "Top Activities for Seniors in Sydney & Melbourne (2025 Guide)"
-description: "Discover the best social, creative, and physical activities for seniors in Sydney and Melbourne. Our 2025 guide covers free events, community centres, clubs, and more."
+description: "Discover the best social, creative, and physical activities for seniors in Sydney and Melbourne. This 2025 guide covers free events, community centres, clubs, and more."
 pubDate: 2025-07-02
 author: "Camila"
 tags: ['activities for seniors', 'seniors sydney', 'seniors melbourne', 'social activities']
 popupTitle: "Want Help Staying Active and Social?"
-popupSubtitle: "We can support you to enjoy your favorite activities"
+popupSubtitle: "Find providers who can support you to enjoy your favorite activities"
 image: "/assets/drinkingtea.webp"
 ---
 
@@ -61,13 +61,13 @@ Melbourne is renowned for its vibrant arts scene, beautiful gardens, and thrivin
 -   **Queen Victoria Market:** Soak up the atmosphere, browse the stalls, and enjoy the sights and sounds of this iconic market.
 -   **City Circle Tram:** Take a free ride on the historic City Circle Tram to get your bearings and see the city's landmarks.
 
-## How MD Home Care Can Help You Stay Active
+## Find Support to Stay Active Through MD Home Care
 
-Having the freedom and support to participate in community activities is essential for wellbeing. At MD Home Care, we don't just provide care at home—we help our clients stay connected to the lives they love.
+Having the freedom and support to participate in community activities is essential for wellbeing. MD Home Care connects you with support workers who help you stay connected to the activities you love.
 
-Our support workers can assist with:
--   **Transport:** Getting you safely to and from your social events, classes, and appointments.
--   **Companionship:** Attending an activity with you, providing support and encouragement.
--   **Planning:** Helping you research local activities and manage your social calendar.
+Find providers through MD Home Care who can assist with:
+-   **Transport:** Support workers who can get you safely to and from your social events, classes, and appointments.
+-   **Companionship:** Providers who can attend activities with you, offering support and encouragement.
+-   **Planning:** Support workers who help research local activities and manage your social calendar.
 
-If you or a loved one needs support to continue enjoying all that Sydney and Melbourne have to offer, **[contact MD Home Care today](/contact)**. We can tailor a care plan that prioritizes your social and community engagement.
+If you or a loved one needs support to continue enjoying all that Sydney and Melbourne have to offer, **[browse providers on MD Home Care today](/contact)**. Find the right support worker who can help prioritize your social and community engagement.

@@ -5,7 +5,7 @@ pubDate: 2026-01-15
 author: "MD Homecare Team"
 tags: ["ndis worker screening check", "worker screening", "ndis clearance", "disability worker check"]
 popupTitle: "Need Help with Worker Screening?"
-popupSubtitle: "We support you through the compliance process"
+popupSubtitle: "Find providers who support you through the compliance process"
 image: "/assets/nurse.webp"
 ---
 
@@ -242,11 +242,11 @@ No, your clearance remains valid when changing employers. Your new employer will
 
 ### MD Homecare Support
 
-While MD Homecare doesn't process screening checks directly, we provide:
+While MD Homecare doesn't process screening checks directly, through our platform you can find providers who offer:
 - Application guidance and timeline planning
 - Document preparation assistance
 - Connection with appropriate support services
-- Employment opportunities for cleared workers
+- Connection opportunities for cleared workers
 - Ongoing professional development support
 
 Understanding the NDIS Worker Screening Check process is essential for anyone seeking to work in the disability support sector. This comprehensive guide provides the framework for successful application and ongoing compliance, supporting both worker career development and participant safety in the NDIS system.

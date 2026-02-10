@@ -1,11 +1,11 @@
 ---
 title: "How to Write an NDIS Service Agreement: Template and Key Clauses 2025"
-description: "Download our free NDIS service agreement template 2025 and learn the essential clauses every compliant agreement needs. Includes step-by-step guidance and expert compliance tips for providers."
+description: "Download a free NDIS service agreement template 2025 and learn the essential clauses every compliant agreement needs. Includes step-by-step guidance and expert compliance tips for providers."
 pubDate: 2025-05-15
 author: "Camila"
 tags: []
 popupTitle: "Need Help with Service Agreements?"
-popupSubtitle: "We can guide you through compliant documentation"
+popupSubtitle: "Find providers who can guide you through compliant documentation"
 image: "/assets/ndis-provider-melbourne.webp"
 ---
 

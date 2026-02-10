@@ -447,12 +447,12 @@ Your SDA funding remains in your plan regardless of provider status. If your pro
 
 ## Get Expert Support With Your SDA Journey
 
-Navigating SDA eligibility and finding the right accommodation can be complex. At MD Home Care, we help participants understand their options and access the housing that meets their needs.
+Navigating SDA eligibility and finding the right accommodation can be complex. Through MD Home Care, you can find providers who help participants understand their options and access the housing that meets their needs.
 
-**How we can help:**
+**How providers in our network can help:**
 - **SDA eligibility assessments** by qualified Occupational Therapists
 - **Support coordination** to guide your SDA application
 - **Provider connections** through our network of SDA partners
 - **Plan reviews** to ensure your funding matches your needs
 
-**[Contact MD Home Care](/contact) today for a free consultation and let us help you find the right SDA solution.**
+**[Contact MD Home Care](/contact) today for a free consultation and to find the right SDA solution for your needs.**

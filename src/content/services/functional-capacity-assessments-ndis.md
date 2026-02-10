@@ -229,9 +229,9 @@ A functional capacity assessment is a detailed evaluation conducted by qualified
 - Cultural sensitivity and accessibility
 - Participant-centered approach
 
-### How MD Homecare Supports Functional Capacity Assessment
+### How MD Home Care Helps with Functional Capacity Assessment
 
-While MD Homecare doesn't conduct functional capacity assessments directly, we help connect NDIS participants in {suburb} with qualified assessors and support the assessment process:
+While MD Home Care focuses on connecting rather than conducting functional capacity assessments directly, you can find support for NDIS participants in {suburb} to connect with qualified assessors and support the assessment process:
 
 **Assessment Coordination:**
 - Referrals to qualified FCA providers
@@ -261,9 +261,9 @@ While MD Homecare doesn't conduct functional capacity assessments directly, we h
 - When will I receive my report?
 - Do you provide support with NDIS submissions?
 
-### Contact MD Homecare for FCA Support
+### Find FCA Support Through MD Home Care
 
-Our experienced team in {suburb} can help you navigate the functional capacity assessment process and connect you with qualified providers. We understand the importance of comprehensive, accurate assessments in securing appropriate NDIS supports.
+Through MD Home Care in {suburb}, you can find support to navigate the functional capacity assessment process and connect with qualified providers. MD Home Care understands the importance of comprehensive, accurate assessments in securing appropriate NDIS supports.
 
 **Get Started Today:**
 - Free consultation about FCA requirements
@@ -271,4 +271,4 @@ Our experienced team in {suburb} can help you navigate the functional capacity a
 - Support with assessment preparation
 - Assistance with report interpretation and NDIS submission
 
-Contact MD Homecare to ensure you receive a high-quality functional capacity assessment that accurately reflects your support needs and maximizes your NDIS outcomes in {suburb}. 
+Use MD Home Care to find providers who ensure you receive a high-quality functional capacity assessment that accurately reflects your support needs and maximizes your NDIS outcomes in {suburb}. 

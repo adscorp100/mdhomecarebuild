@@ -5,7 +5,7 @@ pubDate: 2025-07-02
 author: "Camila"
 tags: ['ndis', 'community participation', 'social support', 'ndis plan']
 popupTitle: "Want to Engage More in Your Community?"
-popupSubtitle: "We can help you access community participation support"
+popupSubtitle: "Find providers who can help you access community participation support"
 image: "/assets/downs.webp"
 ---
 
@@ -66,15 +66,15 @@ In your planning meeting, clearly explain your goals and how the support will he
 
 ## How MD Home Care Can Help
 
-Turning your community participation goals into reality requires the right support. At MD Home Care, our support workers are dedicated to helping you engage with your community in a way that is meaningful to you.
+Turning your community participation goals into reality requires the right support. Through MD Home Care, you can find dedicated support workers who can help you engage with your community in a way that is meaningful to you.
 
-We can provide:
+Providers in our network can offer:
 -   **One-on-one support** to accompany you to activities and events.
 -   **Transport assistance** to get you where you need to go.
 -   **Help with finding** local clubs, classes, and groups that match your interests.
 -   **Skill-building support** to help you develop the confidence and abilities to participate more independently over time.
 
-If you're ready to explore what your community has to offer, **[contact MD Home Care today](/contact)**. We can help you make the most of your NDIS plan.
+If you're ready to explore what your community has to offer, **[contact MD Home Care today](/contact)** to find providers who can help you make the most of your NDIS plan.
 
 ## Frequently Asked Questions
 

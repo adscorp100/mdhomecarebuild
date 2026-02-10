@@ -1,6 +1,6 @@
 ---
 title: "NDIS Housing Options in {suburb}"
-description: "Confused about disability housing options like SIL and SDA? Our simple guide explains the difference and helps you understand the right NDIS housing path for you or your loved one in {suburb}."
+description: "Confused about NDIS housing options like SIL and SDA? This simple guide explains the difference and helps you find the right disability housing path for you or your loved one in {suburb}."
 pubDate: 2025-07-04
 category: "Disability Services"
 image: "/assets/accessible-bathroom.webp"
@@ -70,13 +70,13 @@ SDA is for a smaller number of NDIS participants with extreme functional impairm
 
 ---
 
-## How We Can Help You on Your Journey
+## How You Can Find the Right Support
 
-Navigating this process is a big task. Our role is to be your trusted guide. We can help you:
+Navigating this process is a big task. MD Home Care connects you with trusted experts who can guide you through the process:
 
-1.  **Understand Your Needs:** We'll have a simple conversation to understand your situation and help you figure out if SIL, SDA, or another path is right for you.
-2.  **Navigate the NDIS:** We can help you understand your NDIS plan and how to get the right funding for your housing goals.
-3.  **Connect with Providers:** We can connect you with our network of trusted SIL and SDA providers in the {suburb} area.
+1.  **Understand Your Needs:** Connect with experienced housing experts who can have a simple conversation to understand your situation and help you figure out if SIL, SDA, or another path is right for you.
+2.  **Navigate the NDIS:** Find specialists through MD Home Care who can help you understand your NDIS plan and how to get the right funding for your housing goals.
+3.  **Connect with Providers:** Browse trusted SIL and SDA providers in the {suburb} area through the MD Home Care network.
 
 ## Frequently Asked Questions
 
@@ -91,7 +91,7 @@ The best place to start is with a conversation. Understanding your specific need
 
 ### You Don't Have to Figure This Out Alone.
 
-Let's have a simple, no-obligation chat about your situation. We can help you understand your options and take the first step towards finding the right home.
+Connect with experienced housing specialists who can have a simple, no-obligation chat about your situation. Find the right experts through MD Home Care to help you understand your options and take the first step towards finding the right home.
 
 <div class="cta-button-container">
 <a href="/contact" class="cta-button">Talk to a Housing Expert</a>

@@ -1,6 +1,6 @@
 ---
 title: "Care Worker Jobs in {suburb}"
-description: "Join our compassionate care team as a Care Worker in {suburb}. Provide essential support services across aged care, disability, and health care settings. Flexible hours and meaningful work opportunities."
+description: "Find Care Worker opportunities in {suburb} through MD Home Care. Provide essential support services across aged care, disability, and health care settings. Flexible hours and meaningful work opportunities."
 category: "Care Work"
 requirements: [
   "Genuine passion for caring for others",
@@ -20,14 +20,14 @@ certifications: [
   "CPR Certificate"
 ]
 image: "/assets/carer.webp"
-metaTitle: "Care Worker Jobs {suburb} | Join MD Home Care Team"
-metaDescription: "Looking for Care Worker positions in {suburb}? Join MD Home Care's diverse care team. Work across aged care, disability support, and health care. Apply now for flexible, rewarding care work."
+metaTitle: "Care Worker Jobs {suburb} | Find Jobs Through MD Home Care"
+metaDescription: "Looking for Care Worker positions in {suburb}? Find opportunities through MD Home Care's network. Work across aged care, disability support, and health care. Apply now for flexible, rewarding care work."
 featured: true
 ---
 
 ## About the Role
 
-As a Care Worker with MD Home Care in {suburb}, you'll have the unique opportunity to work across multiple care settings, supporting diverse clients including elderly individuals, people with disabilities, and those recovering from illness or injury. This versatile role offers variety, professional growth, and the chance to make a meaningful difference in people's lives every day.
+As a Care Worker connected through MD Home Care in {suburb}, you'll have the opportunity to work across multiple care settings, supporting diverse participants including elderly individuals, people with disabilities, and those recovering from illness or injury. These versatile opportunities offer variety, professional growth, and the chance to make a meaningful difference in people's lives every day.
 
 ## What You'll Do
 
@@ -109,7 +109,7 @@ As a Care Worker, you may work in:
 
 ## Required Qualifications
 
-Our Care Workers must meet these essential requirements:
+Care Workers typically need these essential requirements:
 
 - Genuine passion for caring for others
 - Certificate III in Individual Support or willingness to complete
@@ -121,7 +121,7 @@ Our Care Workers must meet these essential requirements:
 
 ## Essential Certifications
 
-To work as a Care Worker with us, you'll need:
+To work as a Care Worker, you'll typically need:
 
 - Police Check (National Criminal History Check)
 - Working with Children Check (if applicable)
@@ -130,7 +130,7 @@ To work as a Care Worker with us, you'll need:
 - Manual Handling Certificate
 - CPR Certificate
 
-We can assist with obtaining required certifications for the right candidates.
+Many providers can assist with obtaining required certifications for suitable candidates.
 
 ## Training and Development
 
@@ -246,7 +246,7 @@ This Care Worker position covers {suburb} and surrounding areas, with opportunit
 
 ## Ready to Start Your Care Career?
 
-If you're passionate about making a difference in people's lives and interested in a rewarding career as a Care Worker, we'd love to hear from you. Join our team of dedicated professionals providing essential care services across {suburb}.
+If you're passionate about making a difference in people's lives and interested in a rewarding career as a Care Worker, browse available opportunities on MD Home Care to connect with participants seeking care services across {suburb}.
 
 [Apply Now](/contact)
 
@@ -256,10 +256,10 @@ If you're passionate about making a difference in people's lives and interested 
 Care Workers provide support across multiple care settings including aged care, disability support, and health recovery. This differs from specialized roles like Aged Care Workers (focused on elderly clients) or Disability Support Workers (focused on NDIS clients), offering more variety and career flexibility.
 
 ### Do I need experience to become a Care Worker?
-While experience is valuable, it's not always required. We provide comprehensive training and support for new care workers. A genuine passion for helping others and willingness to learn are often more important than previous experience.
+While experience is valuable, it's not always required. Quality providers offer comprehensive training and support for new care workers. A genuine passion for helping others and willingness to learn are often more important than previous experience.
 
 ### What hours can I expect to work?
-Care Worker hours vary based on client needs and your availability. We offer day, evening, and weekend shifts, with options for part-time, full-time, or casual employment. Many care workers appreciate the flexibility to choose shifts that suit their lifestyle.
+Care Worker hours vary based on client needs and your availability. Providers offer day, evening, and weekend shifts, with options for part-time, full-time, or casual employment. Many care workers appreciate the flexibility to choose shifts that suit their lifestyle.
 
 ### Will I work with the same clients regularly?
 We aim to provide consistency for both care workers and clients. While you may work with multiple clients, we try to establish regular care relationships where possible. This allows you to build meaningful connections while gaining diverse experience.

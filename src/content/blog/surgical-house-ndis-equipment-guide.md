@@ -5,7 +5,7 @@ pubDate: 2025-06-02
 author: "Camila"
 category: "NDIS"
 popupTitle: "Need Help Accessing NDIS Equipment?"
-popupSubtitle: "We can guide you through the equipment funding process"
+popupSubtitle: "Find providers who can guide you through the equipment funding process"
 image: "/assets/wheelchair.webp"
 ---
 

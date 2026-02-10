@@ -5,7 +5,7 @@ pubDate: 2025-04-18
 author: "Camila"
 tags: ["NDIS", "NDIA", "disability support", "NDIS meaning", "what does NDIS stand for"]
 popupTitle: "Confused About the NDIS System?"
-popupSubtitle: "We can help you navigate your options"
+popupSubtitle: "Find providers who can help you navigate your options"
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 ---
 

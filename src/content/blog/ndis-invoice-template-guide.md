@@ -502,11 +502,11 @@ Review the rejection reason provided, correct the issue (wrong code, exceeded pr
 
 ## Get Expert Support With Your NDIS Journey
 
-Navigating NDIS invoicing can be complex, but you don't have to figure it out alone. At MD Home Care, we help support workers and providers understand their obligations and streamline their processes.
+Navigating NDIS invoicing can be complex, but you don't have to figure it out alone. MD Home Care connects you with experts who can help support workers and providers understand their obligations and streamline their processes.
 
-**How we can help:**
-- **Invoice review:** We can check your invoices for compliance
-- **Training:** Learn best practices for NDIS claiming
-- **Support coordination:** Help participants understand their plans and invoices
+**Find professionals through MD Home Care:**
+- **Bookkeeping services:** Review invoices for compliance
+- **Training providers:** Learn best practices for NDIS claiming
+- **Support coordinators:** Help participants understand their plans and invoices
 
-**[Contact MD Home Care](/contact) today for a free consultation and let us help you get paid faster with compliant invoicing.**
+**[Browse providers on MD Home Care](/contact) today to find experts who can help you get paid faster with compliant invoicing.**

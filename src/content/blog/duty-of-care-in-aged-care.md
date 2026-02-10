@@ -5,7 +5,7 @@ pubDate: 2025-07-04
 author: "MD Home Care"
 tags: ["duty of care in aged care", "legal and ethical requirements of duty of care in aged care", "example of breach of duty of care in aged care", "consequences of breaching duty of care in aged care"]
 popupTitle: "Concerned About Quality Aged Care?"
-popupSubtitle: "Let us help you understand your rights and find the right support"
+popupSubtitle: "Find providers who can help you understand your rights and find the right support"
 image: "/assets/carer.webp"
 ---
 
@@ -77,6 +77,6 @@ Trust your instincts. If you are worried about the quality of care, a lack of sa
 While providers have the formal duty, families play a vital role. You are the most important advocate for your loved one. By staying involved, asking questions, and raising concerns, you help ensure the provider upholds their duty of care.
 
 <!-- CONCLUSION & CTA (NO HEADER) -->
-At MD Home Care, we believe that exceptional care begins with a deep respect for every individual's rights, dignity, and safety. Upholding our duty of care is not just a legal requirement—it's the foundation of the trust you place in us.
+Through MD Home Care, connect with providers who believe exceptional care begins with a deep respect for every individual's rights, dignity, and safety. Providers in the network understand that upholding duty of care is not just a legal requirement, it's the foundation of trust placed in them.
 
-If you have questions about navigating aged care or need help understanding your options, **[contact MD Home Care today](/contact)**. Our team is here to provide clarity and support. 
+If you have questions about navigating aged care or need help understanding your options, **[find providers through MD Home Care today](/contact)** who can provide clarity and support. 

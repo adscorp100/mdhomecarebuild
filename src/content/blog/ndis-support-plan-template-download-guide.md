@@ -1,11 +1,11 @@
 ---
 title: "Free NDIS Support Plan Template 2026: Download & Complete Planning Guide"
-description: "Download our free NDIS support plan template for 2026. Learn how to create person-centered support plans with goals, budgets, and strategies that empower NDIS participants."
+description: "Download a free NDIS support plan template for 2026. Learn how to create person-centered support plans with goals, budgets, and strategies that empower NDIS participants."
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["ndis", "support-plan", "template", "goals", "participant"]
 popupTitle: "Need Help Creating Your Support Plan?"
-popupSubtitle: "We can guide you through the planning process"
+popupSubtitle: "Find providers who can guide you through the planning process"
 image: "/assets/grandmawhite.webp"
 ---
 

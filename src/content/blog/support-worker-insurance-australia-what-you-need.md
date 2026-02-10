@@ -5,7 +5,7 @@ pubDate: 2025-04-02
 author: "Camila"
 tags: []
 popupTitle: "Looking for Qualified, Insured Support Workers?"
-popupSubtitle: "We ensure all our support workers have comprehensive insurance coverage"
+popupSubtitle: "Find support workers who maintain comprehensive insurance coverage"
 image: "/assets/carer.webp"
 ---
 

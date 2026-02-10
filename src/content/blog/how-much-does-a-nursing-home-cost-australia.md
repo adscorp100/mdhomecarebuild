@@ -1,11 +1,11 @@
 ---
 title: "How Much Does a Nursing Home Cost in Australia? (2025 Comprehensive Guide)"
-description: "A complete 2025 guide to Australian nursing home costs. We break down the Basic Daily Fee, Means-Tested Fees, and RAD vs. DAP, with 12+ official sources and answers to common fears."
+description: "A complete 2025 guide to Australian nursing home costs. This guide breaks down the Basic Daily Fee, Means-Tested Fees, and RAD vs. DAP, with 12+ official sources and answers to common fears."
 pubDate: 2025-07-06
 author: "MD Home Care"
 tags: ["nursing home cost", "aged care fees", "australia", "rad", "dap", "means test", "consumer rights"]
 popupTitle: "Overwhelmed by Aged Care Fees?"
-popupSubtitle: "We can help you understand costs and plan financially"
+popupSubtitle: "Find providers who can help you understand costs and plan financially"
 image: "/assets/drinkingtea.webp"
 ---
 
@@ -99,6 +99,6 @@ No. The quality of care a resident receives is not based on their financial cont
 <!-- CONCLUSION & CTA (NO HEADER) -->
 Figuring out aged care costs is a journey, but it's not one you have to take alone. While the system has many parts, it is designed to ensure everyone can access the care they need, with strong consumer protections and clear rights. The key is to follow the process, get the formal government assessments, and use that official information to talk to potential aged care homes.
 
-At MD Home Care, we believe that finding quality care shouldn't be a stressful, confusing ordeal.
+Through MD Home Care, connect with professionals who believe finding quality care shouldn't be a stressful, confusing ordeal.
 
-If you have questions about aged care or need help navigating your options, **[contact MD Home Care today](/contact)**.
+If you have questions about aged care or need help navigating your options, **[find providers through MD Home Care today](/contact)**.

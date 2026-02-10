@@ -5,7 +5,7 @@ pubDate: 2025-12-14
 author: "Camila"
 tags: []
 popupTitle: "Interested in Mental Health Recovery Support?"
-popupSubtitle: "Discover how to become a psychosocial recovery coach with our help"
+popupSubtitle: "Discover how to become a psychosocial recovery coach"
 image: "/assets/carer.webp"
 ---
 
@@ -333,4 +333,4 @@ Build relationships with support coordinators and plan managers who can refer pa
 
 Becoming a psychosocial recovery coach offers a rewarding career supporting people with mental health conditions to achieve their recovery goals. With strong job growth projections and competitive salaries, now is an excellent time to pursue this pathway.
 
-For those seeking psychosocial recovery coaching services, [contact MD Home Care](/contact) to learn how our qualified recovery coaches can support your NDIS journey.
+For those seeking psychosocial recovery coaching services, [browse recovery coaches on MD Home Care](/contact) to find a qualified professional who can support your NDIS journey.

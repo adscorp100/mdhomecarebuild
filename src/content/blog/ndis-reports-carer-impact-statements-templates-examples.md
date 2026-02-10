@@ -7,7 +7,7 @@ author: "MD Home Care"
 image: "/assets/carer.webp"
 tags: ["Carer Impact Statement", "NDIS", "Carer Statement", "NDIS Plan Review", "Carer Support", "Writing NDIS Carer Statement Template"]
 popupTitle: "Feeling Overwhelmed as a Carer?"
-popupSubtitle: "We provide respite and support for families too"
+popupSubtitle: "Find respite and support providers for families through MD Home Care"
 ---
 
 # Carer Impact Statement: Free NDIS Template & Examples (2026)
@@ -401,7 +401,7 @@ Don't start from scratch - [download our free carer impact statement template](/
 
 Remember: you don't need to be a professional writer. You just need to be clear, specific, and honest about your experience. Use the templates and examples in this guide as a starting point, and don't hesitate to ask for help from support coordinators, LACs, or disability advocates.
 
-At MD Home Care, we understand the challenges carers face and the importance of getting appropriate support. Our team can help you:
+Through MD Home Care, you can find providers who understand the challenges carers face and the importance of getting appropriate support. Providers in the MD Home Care network can help you:
 - Review and strengthen your carer impact statement before submission
 - Navigate the NDIS application and plan review process
 - Access respite and carer support services

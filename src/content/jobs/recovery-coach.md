@@ -1,6 +1,6 @@
 ---
 title: "Recovery Coach Jobs in {suburb}"
-description: "Join our team as a Recovery Coach in {suburb}. Support and empower individuals with psychosocial disability to build skills, achieve goals, and enhance their wellbeing."
+description: "Find opportunities in {suburb} through MD Home Care as a Recovery Coach. Support and empower individuals with psychosocial disability to build skills, achieve goals, and enhance their wellbeing."
 category: "NDIS Support"
 requirements: [
   "Experience in mental health or psychosocial disability support",
@@ -19,28 +19,28 @@ certifications: [
   "Certificate IV in Mental Health (preferred)"
 ]
 image: "/assets/downs.webp"
-metaTitle: "Recovery Coach Jobs {suburb} | Join MD Home Care Team"
-metaDescription: "Looking for Recovery Coach jobs in {suburb}? Join MD Home Care's team of dedicated recovery coaches. Support individuals with psychosocial disability on their recovery journey."
+metaTitle: "Recovery Coach Jobs {suburb} | Find Jobs Through MD Home Care"
+metaDescription: "Looking for Recovery Coach jobs in {suburb}? Find opportunities through MD Home Care's network team of dedicated recovery coaches. Support individuals with psychosocial disability on their recovery journey."
 featured: true
 ---
 
 ## About the Role
 
-As a Recovery Coach with MD Home Care in {suburb}, you'll support individuals with psychosocial disability to build their capacity and work toward their recovery goals. You'll provide coaching that is strengths-based, person-centered, and focused on enhancing independence and community participation. This position offers flexible working arrangements and the opportunity to make a significant difference in people's lives.
+As a Recovery Coach connected through MD Home Care in {suburb}, you'll support individuals with psychosocial disability to build their capacity and work toward their recovery goals. You'll provide coaching that is strengths-based, person-centered, and focused on enhancing independence and community participation. These opportunities offer flexible working arrangements and the opportunity to make a significant difference in people's lives.
 
 ## What You'll Do
 
 - Provide coaching and mentoring to build capacity and independence
-- Support clients to identify and work toward personal recovery goals
-- Help clients develop skills for everyday living
+- Support participants to identify and work toward personal recovery goals
+- Help participants develop skills for everyday living
 - Facilitate connections to community resources and supports
 - Support engagement with clinical services when needed
-- Empower clients to self-advocate and make informed choices
+- Empower participants to self-advocate and make informed choices
 - Provide education about mental health and wellbeing
 - Document progress and contribute to NDIS reporting
 - Work collaboratively with other service providers
 
-## Why Join Us?
+## Why Use MD Home Care?
 
 - Ongoing training and professional development
 - Supportive team environment
@@ -52,7 +52,7 @@ As a Recovery Coach with MD Home Care in {suburb}, you'll support individuals wi
 
 ## Required Qualifications
 
-Our recovery coaches must meet these requirements to ensure the highest quality of support for our clients:
+These professionals typically need these requirements to ensure the highest quality of support for our participants:
 
 - Experience in mental health or psychosocial disability support
 - Lived experience of mental health challenges (valued)
@@ -64,7 +64,7 @@ Our recovery coaches must meet these requirements to ensure the highest quality 
 
 ## Essential Certifications
 
-To work with us, you'll need:
+To work in this field, you'll typically need:
 
 - NDIS Worker Screening Check
 - National Police Check
@@ -76,8 +76,8 @@ To work with us, you'll need:
 
 This position is available in {suburb} and surrounding areas. We have multiple positions available across different shifts and locations to suit your availability.
 
-## Ready to Apply?
+## Ready to Get Started?
 
-If you're passionate about supporting people in their mental health recovery journey and ready to join our team, we'd love to hear from you. Click below to start your application process.
+If you're passionate about supporting people in their mental health recovery journey and ready to connect with participants, browse available opportunities on MD Home Care. Click below to start your application process.
 
 [Apply Now](/contact) 

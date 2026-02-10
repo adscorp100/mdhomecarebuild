@@ -5,7 +5,7 @@ pubDate: 2025-07-04
 author: "MD Home Care"
 tags: ["Personal Alarm", "Aged Care", "Government Funding", "NDIS", "My Aged Care"]
 popupTitle: "Looking for a Personal Alarm System?"
-popupSubtitle: "We'll help you access government funding and choose the right option"
+popupSubtitle: "Find providers who'll help you access government funding and choose the right option"
 image: "/assets/two women looking at alarm.webp"
 ---
 
@@ -83,4 +83,4 @@ Yes, the NDIS can fund alarms with automatic fall detection if it is considered 
 2.  **Check Your State:** If you live in VIC, SA, NSW, or WA, look into the specific state-based programs listed above for additional support.
 3.  **If you have a disability:** Contact the **NDIS** to discuss getting a personal alarm included in your plan under Assistive Technology.
 
-Navigating these programs can be complex, but help is available. **[Contact MD Home Care today](/contact)** for a free consultation. Our team can help you identify the right funding pathway and choose the best personal alarm for your needs.
+Navigating these programs can be complex, but help is available. **[Contact MD Home Care today](/contact)** for a free consultation. Connect with experienced professionals who can help you identify the right funding pathway and choose the best personal alarm for your needs.

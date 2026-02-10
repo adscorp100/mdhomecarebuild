@@ -119,6 +119,6 @@ If your condition deteriorates significantly, you can and should contact My Aged
 
 Gaining eligibility for a Home Care Package is a process with several steps, but it is manageable. By preparing for the assessment and understanding the costs, you can take control and get the support you need to continue living safely and independently at home.
 
-At MD Home Care, we specialize in helping families navigate this journey. We can answer your questions, help you prepare for your assessment, and provide compassionate care tailored to your needs.
+Through MD Home Care, connect with providers who specialize in helping families navigate this journey. Find professionals in the network who can answer your questions, help you prepare for your assessment, and provide compassionate care tailored to your needs.
 
-If you have questions or need help getting started, **[contact MD Home Care today](/contact)** for a friendly, no-obligation chat.
+If you have questions or need help getting started, **[browse providers through MD Home Care today](/contact)** for friendly, no-obligation conversations.

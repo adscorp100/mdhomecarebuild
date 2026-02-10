@@ -5,7 +5,7 @@ pubDate: 2025-03-10
 author: "Camila"
 tags: []
 popupTitle: "Questions About SDA Housing Options?"
-popupSubtitle: "We can help you understand eligibility and find suitable accommodation"
+popupSubtitle: "Find providers who can help you understand eligibility and find suitable accommodation"
 image: "/assets/accessible bathroom.webp"
 ---
 
@@ -84,7 +84,7 @@ Despite potential policy changes, many Improved Liveability SDA properties remai
 
 While the future of Improved Liveability SDA is uncertain for new builds, it remains an important housing option for many NDIS participants with sensory, intellectual, or cognitive impairments. If you believe this SDA category may suit your needs, discuss it with your NDIS planners and support team as soon as possible to explore your options.
 
-[**Need Advice on SDA? Contact us!**](/contact)
+[**Need Advice on SDA? Get in touch!**](/contact)
 
 ## Frequently Asked Questions
 

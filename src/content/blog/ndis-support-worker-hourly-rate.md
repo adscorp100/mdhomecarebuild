@@ -5,7 +5,7 @@ pubDate: 2026-07-02
 author: "Camila"
 tags: ["NDIS", "Pay Rates", "Support Worker"]
 popupTitle: "Looking for Fair Pay and Support?"
-popupSubtitle: "Discover competitive rates with MD Home Care"
+popupSubtitle: "Find employers offering competitive rates through MD Home Care"
 image: "/assets/disabled carer.webp"
 ---
 
@@ -77,9 +77,9 @@ If you work in a remote or very remote area, your rate will be **40-50% higher**
 
 ## Need Help Understanding NDIS Pay Rates?
 
-Whether you're a support worker wanting to understand your pay or a participant wanting to manage your budget, it's a complex area. MD Home Care offers transparent pricing and can help you navigate the NDIS Price Guide.
+Whether you're a support worker wanting to understand your pay or a participant wanting to manage your budget, it's a complex area. Through MD Home Care, you can find providers who offer transparent pricing and can help you navigate the NDIS Price Guide.
 
-[Contact us today](/contact) for a free consultation to learn more about our services.
+[Contact us today](/contact) for a free consultation to connect with providers who can help.
 
 ### Key Resources for NDIS Support Worker Hourly Rates
 - [Fair Work Ombudsman SCHADS Award Information](https://www.fairwork.gov.au/employment-conditions/awards/awards-summary/ma000100-summary)

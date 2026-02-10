@@ -5,7 +5,7 @@ pubDate: 2026-01-31
 author: "Camila"
 tags: ["support coordination", "NDIS support coordinator", "SC marketing", "NDIS clients", "support coordination business"]
 popupTitle: "Partner with MD Home Care"
-popupSubtitle: "Join our support coordinator referral network"
+popupSubtitle: "Join the MD Home Care provider network as a support coordinator"
 image: "/assets/carer.webp"
 ---
 
@@ -61,7 +61,7 @@ Disability service providers like MD Home Care serve hundreds of NDIS participan
 **MD Home Care Provider Partnership Model:**
 
 **We refer participants to you when:**
-- New participants join our services without existing SC
+- New participants connect through our platform without existing SC
 - Participants express dissatisfaction with current SC
 - Participants transition to higher support levels needing specialist SC
 - Participants request SC recommendation from our care coordinators
@@ -391,7 +391,7 @@ Best regards,
 **Mutual Referral Model:**
 
 **We refer participants to you for:**
-- Support coordination (participants joining our services without SC)
+- Support coordination (participants connecting through our platform without SC)
 - Specialist support coordination (complex care participants)
 - Plan management transition to SC (participants currently plan-managed wanting SC)
 
@@ -451,7 +451,7 @@ Best regards,
 
 ### Can I partner with MD Home Care if I already have clients?
 
-**Yes, absolutely.** The partnership is for mutual referrals - we refer participants needing SC, you refer participants needing our services. No exclusivity required.
+**Yes, absolutely.** The partnership is for mutual referrals - we refer participants needing SC, you refer participants who could benefit from connecting through our platform. No exclusivity required.
 
 ### How many referrals per month from MD Home Care?
 

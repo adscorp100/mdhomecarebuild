@@ -6,7 +6,7 @@ category: "NDIS Careers"
 author: "MD Home Care"
 tags: ["Therapy Assistant", "NDIS Careers", "Allied Health", "NDIS Funding", "Support Worker"]
 popupTitle: "Looking for Therapy Assistant Services?"
-popupSubtitle: "We connect participants with qualified therapy assistants"
+popupSubtitle: "Connect with qualified therapy assistants"
 image: "/assets/disabled carer.webp"
 ---
 

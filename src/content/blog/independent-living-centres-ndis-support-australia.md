@@ -5,7 +5,7 @@ pubDate: 2025-06-02
 author: "Camila"
 category: "NDIS"
 popupTitle: "Need Help Finding the Right Equipment?"
-popupSubtitle: "We can connect you with resources and trial services"
+popupSubtitle: "Connect with resources and trial services"
 image: "/assets/accessible-bathroom.webp"
 ---
 

@@ -5,7 +5,7 @@ pubDate: 2025-05-15T00:00:00Z
 author: "Camila"
 tags: []
 popupTitle: "Ready to Start Your Care Career?"
-popupSubtitle: "We offer training and support for new workers"
+popupSubtitle: "Discover providers who offer training and support for new workers"
 image: "/assets/makingbed.webp"
 ---
 

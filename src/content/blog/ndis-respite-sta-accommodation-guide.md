@@ -5,7 +5,7 @@ pubDate: 2026-01-15
 author: "Camila"
 tags: ["STA NDIS", "Short Term Accommodation", "NDIS Respite", "NDIS", "Respite Care", "STA Meaning"]
 popupTitle: "Need a Break from Caring?"
-popupSubtitle: "We offer quality respite and short-term accommodation"
+popupSubtitle: "Discover providers who offer quality respite and short-term accommodation"
 image: "/assets/respite care.webp"
 ---
 
@@ -458,4 +458,4 @@ Official pricing information is available in the [NDIS Pricing Arrangements and 
 
 ---
 
-**Ready to find the right Short-Term Accommodation for your needs? [Contact MD Home Care today](/contact) to learn about our STA options and get a free consultation.**
+**Ready to find the right Short-Term Accommodation for your needs? [Browse STA providers on MD Home Care](/contact) to compare options and connect with the right fit for you.**
