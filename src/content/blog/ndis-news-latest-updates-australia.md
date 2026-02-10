@@ -1,9 +1,10 @@
 ---
-title: "NDIS News: Latest Updates, Changes & What Participants Need to Know (December 2026)"
-description: "Stay informed with the latest NDIS news and updates for December 2026. Comprehensive coverage of pricing changes, support list rules, the new PACE system, planning framework updates, and what these changes mean for participants and families."
+title: "NDIS News: Latest Updates, Changes & What Participants Need to Know (February 2026)"
+description: "Stay informed with the latest NDIS news and updates for February 2026. Coverage of the new Thriving Kids program, NDIS support cuts, pricing changes, the PACE system, and what these changes mean for participants and families."
 pubDate: 2026-12-16
+updatedAt: 2026-02-10
 author: "Camila"
-tags: ["NDIS", "disability support", "NDIS news", "NDIS changes 2026"]
+tags: ["NDIS", "disability support", "NDIS news", "NDIS changes 2026", "Thriving Kids"]
 popupTitle: "Overwhelmed by NDIS Changes?"
 popupSubtitle: "We stay updated so you don't have to"
 image: "/assets/accessible bathroom.webp"
@@ -14,6 +15,53 @@ image: "/assets/accessible bathroom.webp"
 The National Disability Insurance Scheme (NDIS) continues to evolve, with significant changes rolling out throughout 2026 that affect how participants access supports, manage their plans, and work with providers. Whether you're a current NDIS participant, a family member supporting someone on the scheme, or considering applying for the first time, staying up-to-date with the latest NDIS news is essential for making the most of your funding and navigating the system effectively.
 
 This comprehensive guide covers all the major NDIS updates and changes as of December 2026, explaining what they mean in practical terms and how you can adapt to ensure you continue receiving the support you need.
+
+## Thriving Kids: The $4 Billion NDIS Alternative
+
+The Australian Government unveiled the full model for **Thriving Kids** in February 2026, marking one of the most significant changes to early childhood disability support in a decade. This new program will provide services to children aged 8 and under with developmental delay or autism who have low to moderate support needs, outside of the NDIS.
+
+**Key details about Thriving Kids:**
+
+- **$4 billion in joint funding** over 5 years, split 50/50 between the Commonwealth and state/territory governments
+- At least $1.4 billion of the Commonwealth's share will go directly to states for service delivery
+- Services will be delivered in everyday settings like schools, childcare centres, and community locations
+- **No formal diagnosis required** to access Thriving Kids, unlike the NDIS, which could save families significant time and money
+- Supports will be goal-focused and time-limited, rather than ongoing annual plans
+
+**Who stays on the NDIS?**
+
+Children with **permanent and significant disability**, including those with developmental delay or autism who have substantially reduced functional capacity (high support needs), will continue to be eligible for the NDIS under the usual arrangements. Children already enrolled in the NDIS before 1 January 2028 will remain on the scheme.
+
+**The four pillars of Thriving Kids:**
+
+1. Early identification and awareness of developmental needs
+2. Ready access to information, advice, and navigation support for parents
+3. Building parenting skills and confidence
+4. Timely access to targeted support from trained allied health professionals, including speech pathologists, occupational therapists, physiotherapists, audiologists, and psychologists
+
+**Timeline:**
+
+- Services begin rolling out from **1 October 2026**
+- Full implementation expected by **1 January 2028**
+- Changes to NDIS access criteria for children under 9 will not take effect until January 2028, and will require amendments to the NDIS Act
+
+The program was designed by the Thriving Kids Advisory Group, co-chaired by Professor Frank Oberklaid from the Murdoch Children's Research Institute. According to the [official government page](https://www.health.gov.au/our-work/thriving-kids), the goal is to ensure children receive quality supports earlier in their developmental journey, when those supports can have the greatest impact.
+
+**What families should know right now:**
+
+If your child is currently on the NDIS, nothing changes immediately. Children already enrolled will stay on the scheme. The transition is gradual and legislative changes are still required before any NDIS access criteria change. If your child has high support needs, they will remain NDIS-eligible regardless of the new program.
+
+For families who have been waiting for a diagnosis to access support, Thriving Kids may offer a faster pathway once it launches in October 2026.
+
+### Growing Concerns About NDIS Plan Cuts
+
+Alongside the Thriving Kids announcement, there are growing reports from NDIS participants and families about support reductions in existing plans. A [Guardian Australia investigation](https://www.theguardian.com/australia-news/2026/feb/09/ndis-national-disability-insurance-scheme-changes-families-fear-cuts) published on 9 February 2026 documented families experiencing significant anxiety about plan cuts following the Getting the NDIS Back on Track legislation that commenced in October 2024.
+
+Participants, advocates, and lawyers have reported that changes including new support definitions, funding caps for therapies, travel billing restrictions, and the introduction of funding periods have combined to reduce overall support for many participants.
+
+The government has stated these changes are necessary to preserve the scheme for future generations, noting that without intervention, scheme expenses would have increased by $45 billion beyond projections.
+
+If you have experienced unexpected reductions to your NDIS plan, you have the right to request an internal review of the decision. Consider seeking support from a disability advocate or your Support Coordinator before your plan reassessment.
 
 ## Major NDIS Changes in 2026: A Complete Overview
 
@@ -30,7 +78,7 @@ One of the most significant changes affecting participants is the end of the 12-
 
 **What this means now:**
 - From 3 October 2026, debts may be raised for any purchase that isn't on the approved NDIS supports list, regardless of the amount
-- All claims must use updated support item codes—legacy item numbers are no longer accepted
+- All claims must use updated support item codes, legacy item numbers are no longer accepted
 - Participants should review their current supports to ensure everything aligns with the new lists
 
 **Action required:** If you're unsure whether your supports comply with the new rules, speak with your Support Coordinator or Plan Manager. They can help check your supports and ensure your funding is used correctly.
@@ -77,7 +125,7 @@ If you've recently had a plan reassessment or are new to the NDIS, you're likely
 
 ### New Funding Periods
 
-From **19 May 2026**, the NDIS introduced new funding periods—smaller, more regular payment cycles across the life of your plan.
+From **19 May 2026**, the NDIS introduced new funding periods, smaller, more regular payment cycles across the life of your plan.
 
 **How it works:**
 - Most funding periods are set to three months
@@ -134,7 +182,7 @@ The early childhood approach now covers children up to **9 years old** (previous
 
 The NDIS Quarterly Report (March 2026) shows positive progress on scheme sustainability:
 
-- Scheme expenses for the first nine months of 2024-25 were $34.2 billion—$740 million lower than projected
+- Scheme expenses for the first nine months of 2024-25 were $34.2 billion, $740 million lower than projected
 - Annual cost growth at the end of March was 10.6%
 - The scheme is on track to achieve the financial stabilisation target of 8% growth by 1 July 2026
 
@@ -177,7 +225,7 @@ With over 10 years of experience supporting NDIS participants across Sydney and 
 
 ### What is the biggest NDIS change in 2026?
 
-The end of the Support Lists transition period on 2 October 2026 is one of the most significant changes. This means the NDIA can now raise debts for purchases that aren't approved NDIS supports, regardless of the amount.
+The launch of the **Thriving Kids** program is arguably the most significant NDIS-related change in 2026. This $4 billion initiative will move children under 9 with low to moderate developmental needs off the NDIS and into a new support system starting October 2026. The end of the Support Lists transition period on 2 October 2026 is also a major change, as the NDIA can now raise debts for purchases that aren't approved NDIS supports.
 
 ### Are NDIS prices going up or down in 2026-26?
 
@@ -195,6 +243,10 @@ The new planning framework is now expected to begin in mid-2026, delayed from th
 
 You must ensure your purchases align with the official NDIS Support Lists. If you've been buying items that aren't on the approved list, you may need to find alternative supports or discuss the replacement support rule with your planner.
 
+### Will my child lose their NDIS access because of Thriving Kids?
+
+Not immediately. Children already enrolled in the NDIS will remain on the scheme. Changes to NDIS access criteria for children under 9 with developmental delay or autism (low to moderate needs) will not take effect until 1 January 2028, and will require legislative amendments. Children with high support needs or permanent and significant disability will continue to be NDIS-eligible.
+
 ### What should I do if I'm confused about the changes?
 
 Contact your Support Coordinator, Plan Manager, or a trusted NDIS provider like MD Home Care. They can review your plan, explain how changes affect you, and help you adjust your supports accordingly.
@@ -204,7 +256,8 @@ Contact your Support Coordinator, Plan Manager, or a trusted NDIS provider like 
 The NDIS landscape continues to shift as the scheme matures and responds to sustainability challenges. While change can feel overwhelming, staying informed empowers you to make the most of your funding and advocate for the supports you need.
 
 The key changes to remember:
-- **Support Lists are now fully enforced**—ensure your purchases comply
+- **Thriving Kids launches October 2026**, offering a new pathway for children under 9 with low to moderate developmental needs
+- **Support Lists are now fully enforced**, so ensure your purchases comply
 - **Pricing has changed** for many services, particularly therapies
 - **The PACE system** is now standard for new and reassessed plans
 - **Funding periods** are shorter, helping with budget management
@@ -214,6 +267,6 @@ By staying informed and working with knowledgeable providers, you can navigate t
 
 ---
 
-*This article was last updated on 16 December 2026. NDIS rules and pricing are subject to change. Always check the official NDIS website or speak with your Support Coordinator for the most current information.*
+*This article was last updated on 10 February 2026. NDIS rules and pricing are subject to change. Always check the official NDIS website or speak with your Support Coordinator for the most current information.*
 
 *Need help navigating NDIS changes? [Contact MD Home Care](/contact) for a free consultation with our experienced team.*

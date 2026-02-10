@@ -7,11 +7,10 @@ tags: ["NDIS Price Guide", "NDIS Rates 2025", "NDIS Support Worker Rates", "NDIS
 popupTitle: "Want Fair and Transparent Pricing?"
 popupSubtitle: "We follow NDIS guidelines and explain all costs clearly"
 image: "/assets/dieticiain.webp"
+updatedAt: 2026-02-10
 ---
 
-# NDIS Price Guide 2026-26: Complete Guide + December v1.1 Updates
-
-## LATEST UPDATE: November 24, 2026 - Version 1.1 Released
+# NDIS Price Guide 2026-26: Complete Guide With v1.1 Rates
 
 **Current NDIS Pricing Arrangements Version:** PAPL 2026-26 v1.1 (effective 24 November 2026)
 
@@ -27,8 +26,6 @@ image: "/assets/dieticiain.webp"
 - [NDIS Pricing Arrangements and Price Limits 2026-26 v1.1 (PDF)](https://www.ndis.gov.au/providers/pricing-arrangements) - 1.3MB
 - [NDIS Support Catalogue 2026-26 v1.1 (XLSX)](https://www.ndis.gov.au/providers/pricing-arrangements) - 549KB
 
-*Last updated: December 15, 2026 - Source: NDIA Pricing Arrangements and Price Limits 2026-26 v1.1*
-
 **Free tools:** Calculate exact rates with our **[NDIS Pay Rate Calculator](/tools/ndis-pay-rate-calculator)** or find line item codes with the **[NDIS Code Lookup Tool](/tools/ndis-code-lookup)**.
 
 ## NDIS Price Guide 2026-26: Current Support Worker Rates
@@ -43,7 +40,17 @@ image: "/assets/dieticiain.webp"
 
 The NDIS Price Guide sets maximum pricing limits for all supports and services, ensuring transparency and cost control while allowing providers flexibility to compete on price.
 
-## NDIS Charge Rates 2026-26: What's Changed
+## How to Use the NDIS Price Guide
+
+The NDIS Price Guide (officially called the Pricing Arrangements and Price Limits, or PAPL) is the document that sets the maximum prices registered NDIS providers can charge for supports and services. It is released each financial year by the NDIA, with mid-year updates when needed. The current version is v1.1, released in October 2025 and effective from 24 November 2025.
+
+**For participants:** The price guide helps you understand the maximum cost of supports in your plan. Plan-managed participants can negotiate rates below the price limit. Self-managed participants can choose any provider, including those charging above the limit.
+
+**For providers:** The price guide sets your billing ceiling. You must not charge above the price limit for registered supports. The NDIS Support Catalogue (Excel download) contains every line item code you need for invoicing.
+
+**For support workers:** The price guide sets what providers can charge, not what you earn. Your pay is governed by the SCHADS Award. See our [NDIS Support Worker Pay Rates guide](/blog/ndis-support-worker-pay-rates/) for detailed worker pay information.
+
+## Charge Rates 2026-26: What Changed
 
 The 2026-26 NDIS Price Guide, effective from July 1, 2026, introduced the largest price increases in recent years with a **3.95% increase** in standard support prices. This significant adjustment reflects wage increases, superannuation changes (now 11.5%), and cost-of-living pressures affecting disability support workers.
 
@@ -204,7 +211,7 @@ The official NDIS Price Guide 2026-26 v1.1 can be downloaded from [www.ndis.gov.
 - NDIS Pricing Arrangements and Price Limits 2026-26 v1.1 (PDF 1.3MB)
 - NDIS Support Catalogue 2026-26 v1.1 (XLSX 549KB)
 
-*This guide was last updated on December 15, 2026, to reflect NDIS Pricing Arrangements and Price Limits 2026-26 v1.1 (effective 24 November 2026).*
+*Source: NDIS Pricing Arrangements and Price Limits 2026-26 v1.1 (effective 24 November 2026). Visit [ndis.gov.au/providers/pricing-arrangements](https://www.ndis.gov.au/providers/pricing-arrangements) for the official documents.*
 
 ## Key Citations
 

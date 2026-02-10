@@ -1,0 +1,162 @@
+{
+  "timestamp": "2026-02-10T01:55:04.404666+00:00",
+  "site_change_pct": 31.3,
+  "seasonal_mode": false,
+  "total_drops": 21,
+  "optimizable_count": 17,
+  "pages": [
+    {
+      "path": "/blog/ndis-support-worker-pay-rates/",
+      "this_views": 32,
+      "last_views": 53,
+      "drop_pct": -39.62264150943396,
+      "abs_drop": 21,
+      "relative_drop": -70.88287064200352,
+      "content_file": "src/content/blog/ndis-support-worker-pay-rates.md"
+    },
+    {
+      "path": "/blog/ndis-price-guide/",
+      "this_views": 16,
+      "last_views": 26,
+      "drop_pct": -38.46153846153847,
+      "abs_drop": 10,
+      "relative_drop": -69.72176759410803,
+      "content_file": "src/content/blog/ndis-price-guide.md"
+    },
+    {
+      "path": "/blog/ndis-incident-report-form-template-download/",
+      "this_views": 0,
+      "last_views": 8,
+      "drop_pct": -100.0,
+      "abs_drop": 8,
+      "relative_drop": -131.26022913256955,
+      "content_file": "src/content/blog/ndis-incident-report-form-template-download.md"
+    },
+    {
+      "path": "/services/disability-services/",
+      "this_views": 5,
+      "last_views": 12,
+      "drop_pct": -58.333333333333336,
+      "abs_drop": 7,
+      "relative_drop": -89.59356246590289,
+      "content_file": "src/content/services/disability-services.md"
+    },
+    {
+      "path": "/blog/guide-to-becoming-an-independent-support-worker/",
+      "this_views": 4,
+      "last_views": 11,
+      "drop_pct": -63.63636363636363,
+      "abs_drop": 7,
+      "relative_drop": -94.89659276893319,
+      "content_file": "src/content/blog/guide-to-becoming-an-independent-support-worker.md"
+    },
+    {
+      "path": "/blog/support-coordinator-progress-report-template-ndis/",
+      "this_views": 2,
+      "last_views": 8,
+      "drop_pct": -75.0,
+      "abs_drop": 6,
+      "relative_drop": -106.26022913256955,
+      "content_file": "src/content/blog/support-coordinator-progress-report-template-ndis.md"
+    },
+    {
+      "path": "/blog/aged-care-risk-assessment-template-download/",
+      "this_views": 0,
+      "last_views": 5,
+      "drop_pct": -100.0,
+      "abs_drop": 5,
+      "relative_drop": -131.26022913256955,
+      "content_file": "src/content/blog/aged-care-risk-assessment-template-download.md"
+    },
+    {
+      "path": "/blog/can-family-members-be-paid-support-workers/",
+      "this_views": 4,
+      "last_views": 8,
+      "drop_pct": -50.0,
+      "abs_drop": 4,
+      "relative_drop": -81.26022913256955,
+      "content_file": "src/content/blog/can-family-members-be-paid-support-workers.md"
+    },
+    {
+      "path": "/blog/ndis-improved-daily-living-cb-daily-activity-guide/",
+      "this_views": 3,
+      "last_views": 7,
+      "drop_pct": -57.14285714285714,
+      "abs_drop": 4,
+      "relative_drop": -88.40308627542669,
+      "content_file": "src/content/blog/ndis-improved-daily-living-cb-daily-activity-guide.md"
+    },
+    {
+      "path": "/services/functional-capacity-assessments-ndis/townsville/",
+      "this_views": 0,
+      "last_views": 4,
+      "drop_pct": -100.0,
+      "abs_drop": 4,
+      "relative_drop": -131.26022913256955,
+      "content_file": "src/content/services/functional-capacity-assessments-ndis/townsville.md"
+    },
+    {
+      "path": "/blog/how-to-get-physiotherapy-clients-ndis/",
+      "this_views": 0,
+      "last_views": 3,
+      "drop_pct": -100.0,
+      "abs_drop": 3,
+      "relative_drop": -131.26022913256955,
+      "content_file": "src/content/blog/how-to-get-physiotherapy-clients-ndis.md"
+    },
+    {
+      "path": "/services/community-nursing-care/brisbane/",
+      "this_views": 0,
+      "last_views": 3,
+      "drop_pct": -100.0,
+      "abs_drop": 3,
+      "relative_drop": -131.26022913256955,
+      "content_file": "src/content/services/community-nursing-care/brisbane.md"
+    },
+    {
+      "path": "/services/ndis-behaviour-support-practitioner-training/",
+      "this_views": 0,
+      "last_views": 3,
+      "drop_pct": -100.0,
+      "abs_drop": 3,
+      "relative_drop": -131.26022913256955,
+      "content_file": "src/content/services/ndis-behaviour-support-practitioner-training.md"
+    },
+    {
+      "path": "/services/transport-services/mandurah/",
+      "this_views": 0,
+      "last_views": 3,
+      "drop_pct": -100.0,
+      "abs_drop": 3,
+      "relative_drop": -131.26022913256955,
+      "content_file": "src/content/services/transport-services/mandurah.md"
+    },
+    {
+      "path": "/services/equipment-hire-sales/manly/",
+      "this_views": 0,
+      "last_views": 3,
+      "drop_pct": -100.0,
+      "abs_drop": 3,
+      "relative_drop": -131.26022913256955,
+      "content_file": "src/content/services/equipment-hire-sales/manly.md"
+    },
+    {
+      "path": "/services/plan-management/",
+      "this_views": 0,
+      "last_views": 3,
+      "drop_pct": -100.0,
+      "abs_drop": 3,
+      "relative_drop": -131.26022913256955,
+      "content_file": "src/content/services/plan-management.md"
+    },
+    {
+      "path": "/services/specialist-disability-accommodation/rozelle/",
+      "this_views": 0,
+      "last_views": 3,
+      "drop_pct": -100.0,
+      "abs_drop": 3,
+      "relative_drop": -131.26022913256955,
+      "content_file": "src/content/services/specialist-disability-accommodation/rozelle.md"
+    }
+  ]
+}

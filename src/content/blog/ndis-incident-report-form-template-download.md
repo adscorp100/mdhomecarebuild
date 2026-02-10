@@ -7,6 +7,7 @@ tags: ["ndis", "incident-report", "template", "compliance", "safety"]
 popupTitle: "Need Help With NDIS Compliance?"
 popupSubtitle: "Our experienced team ensures quality and safety standards"
 image: "/assets/clinic.webp"
+updatedAt: 2026-02-10
 ---
 
 ## NDIS Incident Report Form: Key Points
@@ -15,7 +16,13 @@ image: "/assets/clinic.webp"
 - Every incident report must include factual details, immediate actions taken, witness information, and follow-up plans.
 - Failure to report incidents can result in NDIS Commission sanctions, including registration suspension or cancellation.
 
-## Download Our Free NDIS Incident Report Form
+## Why Incident Reporting Matters More Than Ever
+
+The Australian National Audit Office (ANAO) conducted a performance audit of the NDIS Quality and Safeguards Commission's regulatory functions, highlighting gaps in how some providers manage and report incidents. The audit found that the Commission was still developing its Intelligence Hub for tracking systemic risks across providers, reinforcing the importance of thorough, timely incident reporting at the provider level.
+
+Providers who maintain strong incident reporting practices are better positioned for audits, quality reviews, and registration renewals. A well-documented incident trail demonstrates compliance and a genuine commitment to participant safety.
+
+## Download Our Free Incident Report Form
 We've created a comprehensive incident report form that meets all NDIS Commission requirements for 2026:
 
 [Download NDIS Incident Report Form (DOCX)](/downloads/ndis-incident-report-form-2026.docx)
