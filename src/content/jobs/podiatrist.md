@@ -1,6 +1,6 @@
 ---
 title: "Podiatrist Jobs in {suburb}"
-description: "Join our team as a Podiatrist in {suburb}. Provide specialized foot and lower limb care to improve mobility, reduce pain, and enhance quality of life for our clients."
+description: "Find opportunities in {suburb} through MD Home Care as a Podiatrist. Provide specialized foot and lower limb care to improve mobility, reduce pain, and enhance quality of life for our participants."
 category: "Allied Health"
 requirements: [
   "Bachelor or Master's degree in Podiatry",
@@ -19,14 +19,14 @@ certifications: [
   "COVID-19 Vaccination"
 ]
 image: "/assets/physio.webp"
-metaTitle: "Podiatrist Jobs {suburb} | Join MD Home Care Team"
-metaDescription: "Looking for Podiatrist jobs in {suburb}? Join MD Home Care's allied health team. Provide mobile podiatry services with flexible hours and competitive rates."
+metaTitle: "Podiatrist Jobs {suburb} | Find Jobs Through MD Home Care"
+metaDescription: "Looking for Podiatrist jobs in {suburb}? Find opportunities through MD Home Care's network allied health team. Provide mobile podiatry services with flexible hours and competitive rates."
 featured: true
 ---
 
 ## About the Role
 
-As a Podiatrist with MD Home Care in {suburb}, you'll deliver specialized foot and lower limb care to clients in their homes. You'll work with clients who have aging-related conditions, disabilities, or chronic health issues affecting their foot health and mobility. This position offers flexible working arrangements and the opportunity to develop a diverse and rewarding clinical practice.
+As a Podiatrist connected through MD Home Care in {suburb}, you'll deliver specialized foot and lower limb care to participants in their homes. You'll work with participants who have aging-related conditions, disabilities, or chronic health issues affecting their foot health and mobility. These opportunities offer flexible working arrangements and the opportunity to develop a diverse and rewarding clinical practice.
 
 ## What You'll Do
 
@@ -41,7 +41,7 @@ As a Podiatrist with MD Home Care in {suburb}, you'll deliver specialized foot a
 - Maintain detailed clinical documentation
 - Contribute to NDIS and aged care reporting
 
-## Why Join Us?
+## Why Use MD Home Care?
 
 - Professional autonomy and clinical growth
 - Supportive multidisciplinary team
@@ -53,7 +53,7 @@ As a Podiatrist with MD Home Care in {suburb}, you'll deliver specialized foot a
 
 ## Required Qualifications
 
-Our podiatrists must meet these requirements to ensure the highest quality of care for our clients:
+These professionals typically need these requirements to ensure the highest quality of care for our participants:
 
 - Bachelor or Master's degree in Podiatry
 - Current AHPRA registration
@@ -65,7 +65,7 @@ Our podiatrists must meet these requirements to ensure the highest quality of ca
 
 ## Essential Certifications
 
-To work with us, you'll need:
+To work in this field, you'll typically need:
 
 - AHPRA Registration
 - National Police Check
@@ -77,8 +77,8 @@ To work with us, you'll need:
 
 This position is available in {suburb} and surrounding areas. We offer full-time, part-time, and casual positions to suit your preferred work-life balance.
 
-## Ready to Apply?
+## Ready to Get Started?
 
-If you're passionate about foot health and ready to join our team, we'd love to hear from you. Click below to start your application process.
+If you're passionate about foot health and ready to connect with participants, browse available opportunities on MD Home Care. Click below to start your application process.
 
 [Apply Now](/contact) 

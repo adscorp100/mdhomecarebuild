@@ -1,6 +1,6 @@
 ---
 title: "Allied Health Assistant Jobs in {suburb}"
-description: "Join our team as an Allied Health Assistant in {suburb}. Support therapy professionals and help clients achieve their health and functional goals through supervised therapy activities."
+description: "Find Allied Health Assistant opportunities in {suburb} through MD Home Care. Support therapy professionals and help participants achieve their health and functional goals through supervised therapy activities."
 category: "Allied Health Support"
 requirements: [
   "Certificate III or IV in Allied Health Assistance (preferred)",
@@ -19,14 +19,14 @@ certifications: [
   "COVID-19 Vaccination"
 ]
 image: "/assets/physio.webp"
-metaTitle: "Allied Health Assistant Jobs {suburb} | Join MD Home Care Team"
-metaDescription: "Looking for Allied Health Assistant jobs in {suburb}? Join MD Home Care's team. Support therapy professionals and help clients achieve their health goals."
+metaTitle: "Allied Health Assistant Jobs {suburb} | Find Jobs Through MD Home Care"
+metaDescription: "Looking for Allied Health Assistant jobs in {suburb}? Find opportunities through MD Home Care's network. Support therapy professionals and help participants achieve their health goals."
 featured: true
 ---
 
 ## About the Role
 
-As an Allied Health Assistant with MD Home Care in {suburb}, you'll work under the supervision of qualified therapists to deliver therapy programs and support clients to achieve their health and functional goals. You'll assist with a variety of therapy activities across physiotherapy, occupational therapy, speech therapy, and other allied health disciplines. This position offers flexible working arrangements and the opportunity to make a real difference in clients' lives.
+As an Allied Health Assistant connected through MD Home Care in {suburb}, you'll work under the supervision of qualified therapists to deliver therapy programs and support participants to achieve their health and functional goals. You'll assist with a variety of therapy activities across physiotherapy, occupational therapy, speech therapy, and other allied health disciplines. These opportunities offer flexible working arrangements and the chance to make a real difference in participants' lives.
 
 ## What You'll Do
 
@@ -40,19 +40,19 @@ As an Allied Health Assistant with MD Home Care in {suburb}, you'll work under t
 - Document client participation and progress
 - Provide administrative support to the therapy team
 
-## Why Join Us?
+## Why Use MD Home Care?
 
-- Ongoing training and professional development
-- Supportive team environment
-- Regular shifts available
-- Career progression opportunities
-- Competitive pay rates
-- Flexible working hours
-- Opportunity to learn from diverse therapy professionals
+- Connect with therapy teams seeking assistants
+- Find regular shifts that match your availability
+- Access multiple opportunities in your area
+- Work with diverse therapy professionals
+- Set competitive rates with therapy providers
+- Enjoy flexible working arrangements
+- Build experience across various allied health disciplines
 
 ## Required Qualifications
 
-Our allied health assistants must meet these requirements to ensure the highest quality of support for our clients:
+Allied health assistants typically need these requirements to provide quality support for participants:
 
 - Certificate III or IV in Allied Health Assistance (preferred)
 - Previous experience working with therapists or in healthcare settings
@@ -64,7 +64,7 @@ Our allied health assistants must meet these requirements to ensure the highest 
 
 ## Essential Certifications
 
-To work with us, you'll need:
+To work in allied health assistance, you'll typically need:
 
 - NDIS Worker Screening Check
 - National Police Check
@@ -76,8 +76,8 @@ To work with us, you'll need:
 
 This position is available in {suburb} and surrounding areas. We have multiple positions available across different shifts and locations to suit your availability.
 
-## Ready to Apply?
+## Ready to Get Started?
 
-If you're passionate about supporting therapy programs and helping clients achieve their goals, we'd love to hear from you. Click below to start your application process.
+If you're passionate about supporting therapy programs and helping participants achieve their goals, browse available opportunities on MD Home Care.
 
 [Apply Now](/contact) 

@@ -1,6 +1,6 @@
 ---
 title: "Gardener Jobs in {suburb}"
-description: "Join our team as a Gardener in {suburb}. Help clients maintain beautiful, safe, and accessible outdoor spaces through professional gardening and yard maintenance services."
+description: "Find opportunities in {suburb} through MD Home Care as a Gardener. Help participants maintain beautiful, safe, and accessible outdoor spaces through professional gardening and yard maintenance services."
 category: "Home Support"
 requirements: [
   "Experience in gardening and yard maintenance",
@@ -19,14 +19,14 @@ certifications: [
   "White Card (if doing basic landscaping work)"
 ]
 image: "/assets/gardener.webp"
-metaTitle: "Gardener Jobs {suburb} | Join MD Home Care Team"
-metaDescription: "Looking for Gardener jobs in {suburb}? Join MD Home Care's home support team. Provide professional gardening services with flexible hours and competitive pay."
+metaTitle: "Gardener Jobs {suburb} | Find Jobs Through MD Home Care"
+metaDescription: "Looking for Gardener jobs in {suburb}? Find opportunities through MD Home Care's network home support team. Provide professional gardening services with flexible hours and competitive pay."
 featured: true
 ---
 
 ## About the Role
 
-As a Gardener with MD Home Care in {suburb}, you'll provide professional gardening and yard maintenance services to help clients maintain beautiful, safe, and accessible outdoor spaces. You'll support elderly clients, people with disabilities, and individuals who need assistance with garden upkeep. This position offers flexible working arrangements and the satisfaction of creating visibly improved environments for our clients.
+As a Gardener connected through MD Home Care in {suburb}, you'll provide professional gardening and yard maintenance services to help participants maintain beautiful, safe, and accessible outdoor spaces. You'll support elderly participants, people with disabilities, and individuals who need assistance with garden upkeep. These opportunities offer flexible working arrangements and the satisfaction of creating visibly improved environments for our participants.
 
 ## What You'll Do
 
@@ -39,9 +39,9 @@ As a Gardener with MD Home Care in {suburb}, you'll provide professional gardeni
 - Leaf and debris removal
 - Gutter cleaning (if qualified)
 - Setting up and maintaining simple irrigation systems
-- Advising clients on garden care and maintenance
+- Advising participants on garden care and maintenance
 
-## Why Join Us?
+## Why Use MD Home Care?
 
 - Ongoing training and support
 - Regular shifts available
@@ -53,7 +53,7 @@ As a Gardener with MD Home Care in {suburb}, you'll provide professional gardeni
 
 ## Required Qualifications
 
-Our gardeners must meet these requirements to ensure the highest quality of service for our clients:
+These professionals typically need these requirements to ensure the highest quality of service for our participants:
 
 - Experience in gardening and yard maintenance
 - Knowledge of plants, garden care, and seasonal requirements
@@ -65,7 +65,7 @@ Our gardeners must meet these requirements to ensure the highest quality of serv
 
 ## Essential Certifications
 
-To work with us, you'll need:
+To work in this field, you'll typically need:
 
 - National Police Check
 - NDIS Worker Screening Check (for disability clients)
@@ -77,8 +77,8 @@ To work with us, you'll need:
 
 This position is available in {suburb} and surrounding areas. We have multiple positions available across different shifts and locations to suit your availability.
 
-## Ready to Apply?
+## Ready to Get Started?
 
-If you're passionate about gardening and ready to join our team, we'd love to hear from you. Click below to start your application process.
+If you're passionate about gardening and ready to connect with participants, browse available opportunities on MD Home Care. Click below to start your application process.
 
 [Apply Now](/contact) 

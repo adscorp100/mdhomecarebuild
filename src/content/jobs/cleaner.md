@@ -1,6 +1,6 @@
 ---
 title: "Cleaner Jobs in {suburb}"
-description: "Join our team as a Cleaner in {suburb}. Help clients maintain clean, hygienic, and comfortable home environments with our professional home cleaning services."
+description: "Find Cleaner opportunities in {suburb} through MD Home Care. Help participants maintain clean, hygienic, and comfortable home environments with professional home cleaning services."
 category: "Home Support"
 requirements: [
   "Previous experience in home or commercial cleaning",
@@ -18,14 +18,14 @@ certifications: [
   "First Aid Certificate (preferred)"
 ]
 image: "/assets/cleaner.webp"
-metaTitle: "Cleaner Jobs {suburb} | Join MD Home Care Team"
-metaDescription: "Looking for Cleaner jobs in {suburb}? Join MD Home Care's home support team. Provide professional cleaning services with flexible hours and competitive pay."
+metaTitle: "Cleaner Jobs {suburb} | Find Jobs Through MD Home Care"
+metaDescription: "Looking for Cleaner jobs in {suburb}? Find opportunities through MD Home Care's network. Provide professional cleaning services with flexible hours and competitive pay."
 featured: true
 ---
 
 ## About the Role
 
-As a Cleaner with MD Home Care in {suburb}, you'll provide professional cleaning services to help clients maintain clean, hygienic, and comfortable home environments. You'll support elderly clients, people with disabilities, and individuals recovering from illness or surgery who need assistance with household cleaning tasks. This position offers flexible working arrangements and the satisfaction of making a tangible difference in clients' daily lives.
+As a Cleaner connected through MD Home Care in {suburb}, you'll provide professional cleaning services to help participants maintain clean, hygienic, and comfortable home environments. You'll support elderly participants, people with disabilities, and individuals recovering from illness or surgery who need assistance with household cleaning tasks. These opportunities offer flexible working arrangements and the satisfaction of making a tangible difference in participants' daily lives.
 
 ## What You'll Do
 
@@ -39,19 +39,19 @@ As a Cleaner with MD Home Care in {suburb}, you'll provide professional cleaning
 - Using appropriate cleaning products for different surfaces
 - Reporting any concerns about client wellbeing to supervisors
 
-## Why Join Us?
+## Why Use MD Home Care?
 
-- Ongoing training and support
-- Regular shifts available
-- Consistent client assignments
-- Competitive pay rates
-- Flexible working hours
-- Part-time and casual positions available
-- Supportive team environment
+- Connect with participants needing cleaning support
+- Find regular shifts that match your availability
+- Build consistent relationships with participants
+- Set competitive rates for your services
+- Enjoy flexible working arrangements
+- Access part-time and casual opportunities
+- Work with supportive care networks
 
 ## Required Qualifications
 
-Our cleaners must meet these requirements to ensure the highest quality of service for our clients:
+Cleaners typically need these requirements to provide quality service for participants:
 
 - Previous experience in home or commercial cleaning
 - Knowledge of cleaning products and techniques
@@ -63,7 +63,7 @@ Our cleaners must meet these requirements to ensure the highest quality of servi
 
 ## Essential Certifications
 
-To work with us, you'll need:
+To work in home cleaning, you'll typically need:
 
 - National Police Check
 - NDIS Worker Screening Check (for disability clients)
@@ -74,8 +74,8 @@ To work with us, you'll need:
 
 This position is available in {suburb} and surrounding areas. We have multiple positions available across different shifts and locations to suit your availability.
 
-## Ready to Apply?
+## Ready to Get Started?
 
-If you're passionate about providing quality cleaning services and ready to join our team, we'd love to hear from you. Click below to start your application process.
+If you're passionate about providing quality cleaning services, browse available opportunities on MD Home Care to connect with participants needing cleaning support.
 
 [Apply Now](/contact) 

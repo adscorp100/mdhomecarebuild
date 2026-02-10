@@ -1,6 +1,6 @@
 ---
 title: "Respite Carer Jobs in {suburb}"
-description: "Join our team as a Respite Carer in {suburb}. Provide essential short-term relief for primary carers while supporting individuals with disabilities or aging-related needs."
+description: "Find opportunities in {suburb} through MD Home Care as a Respite Carer. Provide essential short-term relief for primary carers while supporting individuals with disabilities or aging-related needs."
 category: "Respite Care"
 requirements: [
   "Genuine passion for providing support and respite care",
@@ -19,28 +19,28 @@ certifications: [
   "COVID-19 Vaccination"
 ]
 image: "/assets/respite care.webp"
-metaTitle: "Respite Carer Jobs {suburb} | Join MD Home Care Team"
-metaDescription: "Looking for Respite Carer jobs in {suburb}? Join MD Home Care's respite care team. Provide essential breaks for primary carers with flexible hours and competitive pay."
+metaTitle: "Respite Carer Jobs {suburb} | Find Jobs Through MD Home Care"
+metaDescription: "Looking for Respite Carer jobs in {suburb}? Find opportunities through MD Home Care's network respite care team. Provide essential breaks for primary carers with flexible hours and competitive pay."
 featured: true
 ---
 
 ## About the Role
 
-As a Respite Carer with MD Home Care in {suburb}, you'll provide vital temporary relief care for primary carers of individuals with disabilities or aging-related needs. This position offers flexible working arrangements and the opportunity to make a meaningful difference for both clients and their families.
+As a Respite Carer connected through MD Home Care in {suburb}, you'll provide vital temporary relief care for primary carers of individuals with disabilities or aging-related needs. These opportunities offer flexible working arrangements and the opportunity to make a meaningful difference for both participants and their families.
 
 ## What You'll Do
 
 - Step in when primary carers need a break
 - Provide care in the client's home or in community settings
-- Support clients with daily living activities
+- Support participants with daily living activities
 - Assist with personal care when required
 - Prepare meals and help with feeding if needed
 - Provide companionship and emotional support
-- Engage clients in recreational and social activities
+- Engage participants in recreational and social activities
 - Ensure continuity of care routines
 - Document care provided and report any concerns
 
-## Why Join Us?
+## Why Use MD Home Care?
 
 - Ongoing training and professional development
 - Supportive team environment
@@ -51,7 +51,7 @@ As a Respite Carer with MD Home Care in {suburb}, you'll provide vital temporary
 
 ## Required Qualifications
 
-Our respite carers must meet these requirements to ensure the highest quality of care for our clients:
+These professionals typically need these requirements to ensure the highest quality of care for our participants:
 
 - Genuine passion for providing support and respite care
 - Excellent communication and interpersonal skills
@@ -63,7 +63,7 @@ Our respite carers must meet these requirements to ensure the highest quality of
 
 ## Essential Certifications
 
-To work with us, you'll need:
+To work in this field, you'll typically need:
 
 - NDIS Worker Screening Check
 - National Police Check
@@ -75,8 +75,8 @@ To work with us, you'll need:
 
 This position is available in {suburb} and surrounding areas. We have multiple positions available across different shifts and locations to suit your availability.
 
-## Ready to Apply?
+## Ready to Get Started?
 
-If you're passionate about providing quality respite care and ready to join our team, we'd love to hear from you. Click below to start your application process.
+If you're passionate about providing quality respite care and ready to connect with participants, browse available opportunities on MD Home Care. Click below to start your application process.
 
 [Apply Now](/contact) 

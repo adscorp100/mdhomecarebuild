@@ -1,6 +1,6 @@
 ---
 title: "Speech Therapist Jobs in {suburb}"
-description: "Join our team as a Speech Therapist in {suburb}. Help clients of all ages improve communication skills, swallowing function, and quality of life through specialized therapy."
+description: "Find opportunities in {suburb} through MD Home Care as a Speech Therapist. Help participants of all ages improve communication skills, swallowing function, and quality of life through specialized therapy."
 category: "Allied Health"
 requirements: [
   "Bachelor or Master's degree in Speech Pathology",
@@ -19,14 +19,14 @@ certifications: [
   "COVID-19 Vaccination"
 ]
 image: "/assets/physio.webp"
-metaTitle: "Speech Therapist Jobs {suburb} | Join MD Home Care Team"
-metaDescription: "Looking for Speech Therapist jobs in {suburb}? Join MD Home Care's allied health team. Provide mobile speech therapy services with flexible hours and competitive rates."
+metaTitle: "Speech Therapist Jobs {suburb} | Find Jobs Through MD Home Care"
+metaDescription: "Looking for Speech Therapist jobs in {suburb}? Find opportunities through MD Home Care's network allied health team. Provide mobile speech therapy services with flexible hours and competitive rates."
 featured: true
 ---
 
 ## About the Role
 
-As a Speech Therapist (Speech Pathologist) with MD Home Care in {suburb}, you'll provide specialized therapy for clients with communication and swallowing disorders. You'll work with clients across the lifespan, from children with developmental delays to adults recovering from strokes or living with degenerative conditions. This position offers flexible working arrangements and the opportunity to build a diverse and fulfilling clinical practice.
+As a Speech Therapist (Speech Pathologist) connected through MD Home Care in {suburb}, you'll provide specialized therapy for participants with communication and swallowing disorders. You'll work with participants across the lifespan, from children with developmental delays to adults recovering from strokes or living with degenerative conditions. These opportunities offer flexible working arrangements and the opportunity to build a diverse and fulfilling clinical practice.
 
 ## What You'll Do
 
@@ -34,13 +34,13 @@ As a Speech Therapist (Speech Pathologist) with MD Home Care in {suburb}, you'll
 - Develop personalized therapy plans
 - Provide treatment for speech, language, voice, and fluency disorders
 - Assess and manage swallowing disorders
-- Support clients with augmentative and alternative communication
-- Provide education to clients and caregivers
+- Support participants with augmentative and alternative communication
+- Provide education to participants and caregivers
 - Coordinate with other healthcare providers
 - Maintain detailed clinical documentation
 - Contribute to NDIS reporting and goal tracking
 
-## Why Join Us?
+## Why Use MD Home Care?
 
 - Professional autonomy and clinical growth
 - Supportive multidisciplinary team
@@ -52,7 +52,7 @@ As a Speech Therapist (Speech Pathologist) with MD Home Care in {suburb}, you'll
 
 ## Required Qualifications
 
-Our speech therapists must meet these requirements to ensure the highest quality of care for our clients:
+These professionals typically need these requirements to ensure the highest quality of care for our participants:
 
 - Bachelor or Master's degree in Speech Pathology
 - Current Speech Pathology Australia membership
@@ -64,7 +64,7 @@ Our speech therapists must meet these requirements to ensure the highest quality
 
 ## Essential Certifications
 
-To work with us, you'll need:
+To work in this field, you'll typically need:
 
 - Speech Pathology Australia Membership
 - National Police Check
@@ -76,8 +76,8 @@ To work with us, you'll need:
 
 This position is available in {suburb} and surrounding areas. We offer full-time, part-time, and casual positions to suit your preferred work-life balance.
 
-## Ready to Apply?
+## Ready to Get Started?
 
-If you're passionate about improving communication and swallowing function for clients and ready to join our team, we'd love to hear from you. Click below to start your application process.
+If you're passionate about improving communication and swallowing function for participants and ready to connect with participants, browse available opportunities on MD Home Care. Click below to start your application process.
 
 [Apply Now](/contact) 

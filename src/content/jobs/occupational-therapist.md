@@ -1,6 +1,6 @@
 ---
 title: "Occupational Therapist Jobs in {suburb}"
-description: "Join our team as an Occupational Therapist in {suburb}. Make a meaningful impact by helping clients improve their independence and quality of life through specialized therapy and support."
+description: "Find opportunities in {suburb} through MD Home Care as an Occupational Therapist in {suburb}. Make a meaningful impact by helping participants improve their independence and quality of life through specialized therapy and support."
 category: "Allied Health"
 requirements: [
   "Bachelor's or Master's degree in Occupational Therapy",
@@ -20,26 +20,26 @@ certifications: [
 ]
 image: "/assets/occupationaltherapy.webp"
 metaTitle: "Occupational Therapist Jobs {suburb} | Join MD Home Care"
-metaDescription: "Looking for Occupational Therapist jobs in {suburb}? Join MD Home Care's team of allied health professionals. Flexible work arrangements and ongoing professional development."
+metaDescription: "Looking for Occupational Therapist jobs in {suburb}? Find opportunities through MD Home Care's network team of allied health professionals. Flexible work arrangements and ongoing professional development."
 featured: true
 ---
 
 ## About the Role
 
-As an Occupational Therapist with MD Home Care in {suburb}, you'll be part of our growing allied health team, providing vital therapy services to clients in their homes and communities. This role offers the opportunity to work autonomously while being supported by an experienced multidisciplinary team.
+As an Occupational Therapist connected through MD Home Care in {suburb}, you'll be part of our growing allied health team, providing vital therapy services to participants in their homes and communities. These opportunities offer the opportunity to work autonomously while being supported by an experienced multidisciplinary team.
 
 ## What You'll Do
 
-- Conduct comprehensive assessments of clients' functional abilities and needs
+- Conduct comprehensive assessments of participants' functional abilities and needs
 - Develop and implement personalized therapy programs
 - Provide expert recommendations for assistive technology and home modifications
-- Work with clients across various age groups and conditions
+- Work with participants across various age groups and conditions
 - Collaborate with other healthcare professionals and support workers
 - Complete detailed clinical documentation and reports
 - Participate in case conferences and team meetings
 - Maintain professional development and stay current with best practices
 
-## Why Join Us?
+## Why Use MD Home Care?
 
 - Competitive remuneration package
 - Flexible working arrangements
@@ -52,7 +52,7 @@ As an Occupational Therapist with MD Home Care in {suburb}, you'll be part of ou
 
 ## Required Qualifications
 
-Our Occupational Therapists must meet these requirements to ensure excellence in client care:
+These professionals typically need these requirements to ensure excellence in client care:
 
 - Bachelor's or Master's degree in Occupational Therapy
 - Current AHPRA registration
@@ -64,7 +64,7 @@ Our Occupational Therapists must meet these requirements to ensure excellence in
 
 ## Essential Certifications
 
-To work with us, you'll need:
+To work in this field, you'll typically need:
 
 - AHPRA Registration
 - National Police Check
@@ -76,8 +76,8 @@ To work with us, you'll need:
 
 This position is available in {suburb} and surrounding areas. We have multiple positions available across different locations to suit your preferences.
 
-## Ready to Apply?
+## Ready to Get Started?
 
-If you're passionate about making a difference and ready to join our team, we'd love to hear from you. Click below to start your application process.
+If you're passionate about making a difference and ready to connect with participants, browse available opportunities on MD Home Care. Click below to start your application process.
 
 [Apply Now](/contact) 
