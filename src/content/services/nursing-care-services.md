@@ -17,7 +17,7 @@ quickFacts:
 
 Managing complex health needs at home, whether you're recovering from surgery or living with a chronic condition, can be incredibly stressful. You need reliable, professional medical support you can trust, but the thought of finding a qualified and compassionate nurse can be overwhelming. The fear of inconsistent care or a stranger in your home is a heavy burden when you're already focused on health and recovery.
 
-We understand. MD Home Care provides professional in-home nursing services in {suburb}, delivered by fully qualified and registered nurses. Our mission is to bring hospital-quality clinical care to your doorstep, giving you and your family peace of mind and the expert support you deserve.
+That feeling is completely valid. Through MD Home Care, you can find professional in-home nursing services in {suburb}, delivered by fully qualified and registered nurses. The goal is simple: hospital-quality clinical care at your doorstep, giving you and your family peace of mind and the expert support you deserve.
 
 ## The Right Nursing Support Makes All the Difference
 

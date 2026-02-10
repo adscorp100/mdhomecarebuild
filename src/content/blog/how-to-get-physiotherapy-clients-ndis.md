@@ -189,7 +189,7 @@ Best regards,
 - **2-4 referrals per SC per year** (varies by SC caseload and participant demographics)
 - **Compounding effect:** Year 2 brings 30-60 referrals from same 10-15 SCs as relationships deepen
 
-**Pro Tip:** When you join MD Home Care's allied health network, you're automatically introduced to the 50+ support coordinators we work with. This accelerates your SC relationship-building by 6-12 months.
+**Pro Tip:** When you join MD Home Care's allied health network, you're automatically introduced to 50+ support coordinators connected through the platform. This accelerates your SC relationship-building by 6-12 months.
 
 ---
 
@@ -348,7 +348,7 @@ Best regards,
 - **2-5 referrals per quarter** per organization (varies by organization size)
 - **Long-term value:** Once embedded, consistent monthly referrals for years
 
-**Fastest path:** Join MD Home Care's allied health network to access our 500+ participant base immediately, rather than spending 6-12 months building your own organizational partnerships.
+**Fastest path:** Join MD Home Care's allied health network to connect with 500+ participants searching for providers, rather than spending 6-12 months building your own organizational partnerships.
 
 ---
 

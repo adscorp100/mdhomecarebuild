@@ -17,7 +17,7 @@ quickFacts:
 
 When pain, injury, or a chronic condition makes it difficult to move, it can feel like your world is shrinking. The thought of travelling to a clinic for physiotherapy can be overwhelming, especially when you're already in pain or recovering from surgery. You need expert care, but you need it to be convenient, comfortable, and tailored to your real-life environment.
 
-We understand. MD Home Care brings professional, compassionate physiotherapy services directly to your {suburb} home. Our qualified physiotherapists work with you in your own space to reduce pain, improve mobility, and help you regain your confidence and independence.
+That feeling is completely valid. Through MD Home Care, you can find professional, compassionate physiotherapy services delivered directly to your {suburb} home. Qualified physiotherapists in the network work with you in your own space to reduce pain, improve mobility, and help you regain your confidence and independence.
 
 ### The Right Support is About More Than Just Exercises
 

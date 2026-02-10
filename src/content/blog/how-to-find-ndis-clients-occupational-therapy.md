@@ -609,7 +609,7 @@ This is a referral partnership, not a franchise or fee-for-service arrangement.
 - Build your own support coordinator relationships
 - Market your services independently
 
-**We only ask:** When you receive MD Home Care referrals, provide the same professional service quality you would with any participant.
+**The only expectation:** When you receive MD Home Care referrals, provide the same professional service quality you would with any participant.
 
 ### What if I'm not NDIS registered as a sole provider - can I still join the network?
 

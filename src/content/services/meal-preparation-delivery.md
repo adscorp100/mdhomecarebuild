@@ -74,7 +74,7 @@ Your funding covers the cost of preparation and delivery. You contribute to the 
 This is our specialty. During your consultation, we document all your dietary requirements. We then match you with a provider from our network who has proven expertise in catering to those specific needs, whether it's gluten-free, low-FODMAP, vegetarian, or texture-modified.
 
 **Can I pause or change my delivery schedule?**
-Yes. Our service is completely flexible. You can easily pause, skip, or change your delivery schedule by contacting your MD Home Care advisor.
+Yes. The service is completely flexible. You can easily pause, skip, or change your delivery schedule by contacting your meal provider directly, or reach out to MD Home Care to find a better match.
 
 ### The Smartest, Simplest Way to Organise Meal Delivery.
 

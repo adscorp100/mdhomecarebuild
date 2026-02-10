@@ -17,7 +17,7 @@ quickFacts:
 
 Needing a little extra help with daily personal tasks is a sensitive subject. For many, it's a topic that brings up feelings of uncertainty and a fear of losing independence. Admitting you or a loved one needs support can be one of the hardest steps to take, and the thought of inviting a stranger into your home to help with private routines is a genuine concern.
 
-We understand. Through MD Home Care, you can find providers who understand that personal care is not about taking over. It's about providing a discreet, respectful helping hand that empowers you to continue living your life the way you want to, in the comfort and familiarity of your own home.
+That feeling is completely valid. Through MD Home Care, you can find providers who understand that personal care is not about taking over. It's about providing a discreet, respectful helping hand that empowers you to continue living your life the way you want to, in the comfort and familiarity of your own home.
 
 ## It's More Than Just Tasks, It's About Trust
 

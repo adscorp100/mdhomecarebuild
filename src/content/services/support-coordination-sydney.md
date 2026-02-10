@@ -318,7 +318,7 @@ Yes. MD Home Care is a comprehensive NDIS and aged care provider offering:
 
 **Benefit:** One provider for multiple services = better coordination and communication.
 
-**NDIS allows** participants to use the same provider for coordination and delivery services. Our coordinators maintain independence and always recommend the best provider for your needs, whether that's MD Home Care or another organization.
+**NDIS allows** participants to use the same provider for coordination and delivery services. Support coordinators found through MD Home Care maintain independence and always recommend the best provider for your needs.
 
 ### What happens if my coordinator goes on leave?
 
@@ -397,11 +397,11 @@ We'll respond to all enquiries within one business day. For urgent coordination 
 
 ## About MD Home Care Support Coordination
 
-MD Home Care is a registered NDIS provider delivering support coordination across Sydney and Melbourne since [YEAR]. Our coordinators are Level 2 and Level 3 certified with backgrounds in social work, nursing, occupational therapy, and psychology.
+MD Home Care connects participants with experienced support coordinators across Sydney and Melbourne. Coordinators in the MD Home Care network are Level 2 and Level 3 certified with backgrounds in social work, nursing, occupational therapy, and psychology.
 
-**Our approach:**
+**What to expect from coordinators in the network:**
 - Participant-centered: Your goals drive all decisions
-- Evidence-based: We use proven coordination methodologies
+- Evidence-based: Proven coordination methodologies
 - Outcome-focused: Regular measurement of progress toward your goals
 - Culturally responsive: Coordination that respects your background and values
 

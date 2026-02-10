@@ -358,7 +358,7 @@ Yes. There's no limit on how many times you can apply. If your circumstances cha
 
 Applying for the NDIS doesn't have to be stressful. With the right support and preparation, you can submit a strong application that accurately represents your needs.
 
-Through MD Home Care, you can find providers who understand the NDIS inside and out. While no one can complete your Access Request for you (only LACs and registered providers can do this officially), providers in our network can:
+Through MD Home Care, you can find providers who understand the NDIS inside and out. While no one can complete your Access Request for you (only LACs and registered providers can do this officially), providers in the MD Home Care network can:
 
 - **Connect you with the right people** to assist your application
 - **Explain what evidence you'll need** based on your situation

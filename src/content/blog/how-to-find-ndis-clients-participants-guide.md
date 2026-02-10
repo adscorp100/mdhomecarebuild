@@ -449,7 +449,7 @@ If you're a support worker looking for opportunities, **MD Home Care connects sk
 
 Whether you're newly qualified or highly experienced, we'd love to help you connect.
 
-**[Contact MD Home Care today](/contact) to learn about connecting with participants, or call us on (03) XXXX XXXX for a confidential chat about getting started.**
+**[Contact MD Home Care today](/contact) to learn about connecting with participants, or call (03) XXXX XXXX for a confidential chat about getting started.**
 
 ---
 

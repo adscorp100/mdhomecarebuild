@@ -74,7 +74,7 @@ Providers in our network can offer:
 -   **Help with finding** local clubs, classes, and groups that match your interests.
 -   **Skill-building support** to help you develop the confidence and abilities to participate more independently over time.
 
-If you're ready to explore what your community has to offer, **[contact MD Home Care today](/contact)**. We can help you make the most of your NDIS plan.
+If you're ready to explore what your community has to offer, **[contact MD Home Care today](/contact)** to find providers who can help you make the most of your NDIS plan.
 
 ## Frequently Asked Questions
 

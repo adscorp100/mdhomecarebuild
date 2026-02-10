@@ -258,7 +258,7 @@ You've learned the registration process, compliance requirements, and operationa
 
 ---
 
-*MD Home Care is a registered NDIS provider in Sydney and Melbourne. Our provider network supports newly registered providers with client acquisition while maintaining our own direct service delivery to participants.*
+*MD Home Care is a connection platform that helps newly registered NDIS providers in Sydney and Melbourne build their client base. Providers can claim a profile, receive participant leads, and grow their business through the MD Home Care network.*
 
 --- 
 ## Frequently Asked Questions

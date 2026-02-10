@@ -17,7 +17,7 @@ quickFacts:
 
 Finding the right support to achieve your NDIS goals can feel complicated. You need more than just a support worker; you need a skilled assistant, guided by a qualified therapist, who can help you practice new skills and build genuine independence. The fear of not making progress or wasting your NDIS funding on the wrong support is a real concern.
 
-We understand. MD Home Care provides highly skilled NDIS Therapy Assistants in {suburb} who work under the direct supervision of allied health professionals. Our goal is simple: to provide affordable, high-quality therapeutic support that helps you turn your therapy plan into real-world progress.
+That feeling is completely valid. Through MD Home Care, you can find highly skilled NDIS Therapy Assistants in {suburb} who work under the direct supervision of allied health professionals. The goal is simple: affordable, high-quality therapeutic support that helps you turn your therapy plan into real-world progress.
 
 ### The Right Support is About More Than Just Tasks
 
