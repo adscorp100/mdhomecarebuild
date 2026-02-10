@@ -9,7 +9,7 @@ popupSubtitle: "Find employers offering competitive rates through MD Home Care"
 image: "/assets/disabled carer.webp"
 ---
 
-With the NDIS 2025-26 price guide now in effect, support workers and participants are keen to understand the latest hourly rates. As of July 1, 2026, a **3.95% pay rise** has been applied to the Disability Support Worker (DSW) Cost Model, affecting rates across the board.
+With the NDIS 2025-26 price guide now in effect, support workers and participants are keen to understand the latest hourly rates. As of July 1, 2025, a **3.95% pay rise** has been applied to the Disability Support Worker (DSW) Cost Model, affecting rates across the board.
 
 This guide breaks down the NDIS support worker hourly rates for 2026, so you know exactly what to expect.
 
@@ -55,7 +55,7 @@ Independent support workers have the flexibility to set their own rates, but the
 
 - **Typical Hourly Rate:** Independent contractors usually charge **$55 - $65 per hour** for standard support.
 - **Why the Higher Rate?** This rate needs to cover insurance, superannuation (11.5% as of July 2025), tax, training, and other business expenses.
-- **New Rules for 2026:** As of July 1, 2026, independent support workers will need to be registered with the NDIS, which may add new compliance requirements.
+- **New Rules for 2026:** As of July 1, 2025, independent support workers will need to be registered with the NDIS, which may add new compliance requirements.
 
 If you're thinking of going independent, our guides on [becoming an independent support worker](/blog/guide-to-becoming-an-independent-support-worker/) and [getting the right insurance](/blog/how-to-get-support-worker-insurance-in-australia/) are essential reading.
 

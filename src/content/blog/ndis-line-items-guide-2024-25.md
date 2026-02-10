@@ -13,7 +13,7 @@ image: "/assets/Ilovendis.webp"
 
 ## BREAKING NEWS: July 2025 NDIS Support Catalogue Updates
 
-**Latest Changes Effective July 1, 2026:**
+**Latest Changes Effective July 1, 2025:**
 - **23 new Intensive and Complex Behaviour Support Items** added to Support Catalogue
 - **35 legacy items removed** from the price guide  
 - **New NDIS Support Catalogue 2025-26** released with updated pricing

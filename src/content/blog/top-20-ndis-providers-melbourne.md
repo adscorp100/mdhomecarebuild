@@ -30,7 +30,7 @@ schema:
     - question: What types of services do the best NDIS providers Melbourne offer?
       answer: Top Melbourne NDIS providers offer comprehensive services including Supported Independent Living (SIL), Short Term Accommodation (STA), personal care, therapy services, support coordination, community participation, and assistive technology.
     - question: How much do NDIS services cost in Melbourne in 2026?
-      answer: NDIS service costs in Melbourne increased by 3.95% from July 1, 2026. Registered providers must follow NDIS Price Limits, with support worker rates now ranging from approximately $31-$44 per hour depending on qualifications and timing.
+      answer: NDIS service costs in Melbourne increased by 3.95% from July 1, 2025. Registered providers must follow NDIS Price Limits, with support worker rates now ranging from approximately $31-$44 per hour depending on qualifications and timing.
 ---
 
 # Top 10 NDIS Providers Melbourne 2026: Ranked + Pricing Compared
@@ -262,7 +262,7 @@ The following providers also offer excellent NDIS services across Melbourne:
 
 ## 2026 Pricing Updates
 
-All Melbourne NDIS providers listed above follow the current NDIS Price Limits (PAPL 2025-26 v1.1, effective 24 November 2025). The 3.95% pricing increase that took effect July 1, 2026 applies across all services.
+All Melbourne NDIS providers listed above follow the current NDIS Price Limits (PAPL 2025-26 v1.1, effective 24 November 2025). The 3.95% pricing increase that took effect July 1, 2025 applies across all services.
 
 **Current Support Worker Rates:**
 - **Standard Support Worker Rate**: $70.23/hour (Weekday Daytime)

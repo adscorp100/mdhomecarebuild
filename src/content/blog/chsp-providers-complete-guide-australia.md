@@ -476,9 +476,9 @@ The **Commonwealth Home Support Programme** is an Australian Government initiati
 
 ## Recent Developments: Senate Hearing on CHSP Transition
 
-### February 2025 Senate Committee Findings
+### February 2026 Senate Committee Findings
 
-A Senate hearing in February 2025 has brought important developments for people currently receiving CHSP services. The Inspector General of Aged Care told the committee that the CHSP transition to the Support at Home program "lacks clarity," raising concerns about how smoothly the changeover will proceed for existing service users.
+A Senate hearing in February 2026 has brought important developments for people currently receiving CHSP services. The Inspector General of Aged Care told the committee that the CHSP transition to the Support at Home program "lacks clarity," raising concerns about how smoothly the changeover will proceed for existing service users.
 
 The Older Persons Advocacy Network (OPAN) appeared before the committee and expressed support for merging CHSP with home care packages in principle. However, OPAN highlighted that key recommendations from the aged care royal commission need proper attention, particularly around funding models. The organisation wants to see royal commission recommendations about block funding, activity-based funding, and individual funding properly addressed before the transition proceeds.
 

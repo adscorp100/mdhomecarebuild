@@ -10,7 +10,7 @@ popupSubtitle: "Let us guide you through the application and transition process"
 image: "/assets/homecare.webp"
 ---
 
-The **Support at Home Program** represents the most significant transformation of Australia's aged care system in decades. Launching from July 1, 2026, this revolutionary program will replace the current Commonwealth Home Support Programme (CHSP) and Home Care Packages system, creating a unified, streamlined approach to aged care support. You can read more about the [changes from the old Home Care Package system here](/blog/home-care-package-changes-the-new-support-at-home-program). This comprehensive guide explains everything you need to know about the **Support at Home Program 2026**, including changes, benefits, eligibility, and how to prepare for the transition.
+The **Support at Home Program** represents the most significant transformation of Australia's aged care system in decades. Launching from November 1, 2025, this revolutionary program will replace the current Commonwealth Home Support Programme (CHSP) and Home Care Packages system, creating a unified, streamlined approach to aged care support. You can read more about the [changes from the old Home Care Package system here](/blog/home-care-package-changes-the-new-support-at-home-program). This comprehensive guide explains everything you need to know about the **Support at Home Program 2026**, including changes, benefits, eligibility, and how to prepare for the transition.
 
 ## What is the Support at Home Program?
 
@@ -343,7 +343,7 @@ For a more detailed breakdown, see our guide on [Support at Home prices for 2026
 
 ### Senate Committee Examination of Support at Home Implementation
 
-Recent parliamentary oversight has brought important insights about the transition to the Support at Home Program. In February 2025, a Senate committee heard from key aged care oversight bodies about the readiness of the new system.
+Recent parliamentary oversight has brought important insights about the transition to the Support at Home Program. In February 2026, a Senate committee heard from key aged care oversight bodies about the readiness of the new system.
 
 The Inspector General of Aged Care told the committee that the transition from CHSP to the Support at Home program "lacks clarity." This finding reflects concerns from consumer advocates and aged care professionals about whether sufficient preparation has been completed for the July 2025 launch.
 
@@ -353,7 +353,7 @@ The Inspector General also recommended improvements to the My Aged Care system, 
 
 These parliamentary findings suggest that while the Support at Home Program represents positive reform, implementation challenges remain. For people preparing to use the new system, these developments confirm the importance of staying informed about changes and working with experienced aged care connection platforms like MD Home Care to navigate the transition successfully.
 
-Source: Australian Ageing Agenda, February 2025
+Source: Australian Ageing Agenda, February 2026
 
 ## Transitioning to Support at Home Program
 
@@ -372,7 +372,7 @@ Source: Australian Ageing Agenda, February 2025
 - Enhanced quality standards
 
 **Timeline:**
-- Transition begins July 1, 2026
+- Transition begins November 1, 2025
 - Phased implementation over 12-18 months
 - Regular communication about changes
 - Support throughout transition process
@@ -558,7 +558,7 @@ Source: Australian Ageing Agenda, February 2025
 ## Frequently Asked Questions
 
 ### When does the Support at Home Program start?
-The Support at Home Program officially launches on July 1, 2026, with phased implementation over the following 12-18 months.
+The Support at Home Program officially launches on November 1, 2025, with phased implementation over the following 12-18 months.
 
 ### Do I need to reapply if I'm currently receiving services?
 No, existing CHSP and Home Care Package recipients will automatically transition to the new system without needing to reapply.

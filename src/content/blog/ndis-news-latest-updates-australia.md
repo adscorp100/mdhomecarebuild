@@ -41,7 +41,7 @@ Children with **permanent and significant disability**, including those with dev
 
 **Timeline:**
 
-- Services begin rolling out from **1 October 2025**
+- Services begin rolling out from **1 October 2026**
 - Full implementation expected by **1 January 2028**
 - Changes to NDIS access criteria for children under 9 will not take effect until January 2028, and will require amendments to the NDIS Act
 
@@ -51,7 +51,7 @@ The program was designed by the Thriving Kids Advisory Group, co-chaired by Prof
 
 If your child is currently on the NDIS, nothing changes immediately. Children already enrolled will stay on the scheme. The transition is gradual and legislative changes are still required before any NDIS access criteria change. If your child has high support needs, they will remain NDIS-eligible regardless of the new program.
 
-For families who have been waiting for a diagnosis to access support, Thriving Kids may offer a faster pathway once it launches in October 2025.
+For families who have been waiting for a diagnosis to access support, Thriving Kids may offer a faster pathway once it launches in October 2026.
 
 ### Growing Concerns About NDIS Plan Cuts
 
@@ -69,7 +69,7 @@ If you have experienced unexpected reductions to your NDIS plan, you have the ri
 
 ### The NDIS Support Lists Transition Has Ended
 
-One of the most significant changes affecting participants is the end of the 12-month transition period for the NDIS Support Lists, which concluded on **2 October 2025**.
+One of the most significant changes affecting participants is the end of the 12-month transition period for the NDIS Support Lists, which concluded on **2 October 2026**.
 
 **What changed:**
 - Since October 2024, the NDIA introduced formal Support Lists that clearly define what can and cannot be purchased with NDIS funding
@@ -77,7 +77,7 @@ One of the most significant changes affecting participants is the end of the 12-
 - During the transition period, the NDIA didn't raise debts for first or second purchases of non-NDIS supports under $1,500
 
 **What this means now:**
-- From 3 October 2025, debts may be raised for any purchase that isn't on the approved NDIS supports list, regardless of the amount
+- From 3 October 2026, debts may be raised for any purchase that isn't on the approved NDIS supports list, regardless of the amount
 - All claims must use updated support item codes, legacy item numbers are no longer accepted
 - Participants should review their current supports to ensure everything aligns with the new lists
 
@@ -225,7 +225,7 @@ Browse professionals on MD Home Care with over 10 years of experience supporting
 
 ### What is the biggest NDIS change in 2026?
 
-The launch of the **Thriving Kids** program is arguably the most significant NDIS-related change in 2026. This $4 billion initiative will move children under 9 with low to moderate developmental needs off the NDIS and into a new support system starting October 2025. The end of the Support Lists transition period on 2 October 2025 is also a major change, as the NDIA can now raise debts for purchases that aren't approved NDIS supports.
+The launch of the **Thriving Kids** program is arguably the most significant NDIS-related change in 2026. This $4 billion initiative will move children under 9 with low to moderate developmental needs off the NDIS and into a new support system starting October 2026. The end of the Support Lists transition period on 2 October 2026 is also a major change, as the NDIA can now raise debts for purchases that aren't approved NDIS supports.
 
 ### Are NDIS prices going up or down in 2025-26?
 
@@ -256,7 +256,7 @@ Contact your Support Coordinator, Plan Manager, or a trusted directory like MD H
 The NDIS landscape continues to shift as the scheme matures and responds to sustainability challenges. While change can feel overwhelming, staying informed empowers you to make the most of your funding and advocate for the supports you need.
 
 The key changes to remember:
-- **Thriving Kids launches October 2025**, offering a new pathway for children under 9 with low to moderate developmental needs
+- **Thriving Kids launches October 2026**, offering a new pathway for children under 9 with low to moderate developmental needs
 - **Support Lists are now fully enforced**, so ensure your purchases comply
 - **Pricing has changed** for many services, particularly therapies
 - **The PACE system** is now standard for new and reassessed plans

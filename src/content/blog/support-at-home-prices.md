@@ -11,7 +11,7 @@ popupSubtitle: "Find aged care specialists who can help you navigate the new pro
 
 ## Support at Home Prices 2026: Your Guide to Understanding Indicative Costs
 
-The Australian aged care landscape is changing. From 1 July 2025, the new Support at Home program will begin replacing the existing Home Care Packages (HCP) Program and the Short-Term Restorative Care (STRC) Programme. For a comprehensive overview of the new system, see our [complete guide to the Support at Home Program](/blog/support-at-home-program-complete-guide). If you or a loved one receive in-home care, understanding the potential costs under this new system is crucial.
+The Australian aged care landscape is changing. From 1 November 2025, the new Support at Home program will begin replacing the existing Home Care Packages (HCP) Program and the Short-Term Restorative Care (STRC) Programme. For a comprehensive overview of the new system, see our [complete guide to the Support at Home Program](/blog/support-at-home-program-complete-guide). If you or a loved one receive in-home care, understanding the potential costs under this new system is crucial.
 
 Recently, the government released a summary of indicative prices for various Support at Home services, based on a survey of current HCP providers conducted in February 2025 and published on 24 March 2025.
 
@@ -21,9 +21,9 @@ This guide breaks down these indicative prices, explains what to expect next, an
 
 ### Key Information at a Glance
 
-- **Program Start Date**: 1 July 2025
+- **Program Start Date**: 1 November 2025
 - **What's Changing**: Support at Home replaces HCP & STRC
-- **Prices**: Providers set their own prices (price caps may apply from 1 July 2025, according to recent government updates)
+- **Prices**: Providers set their own prices (price caps may apply from 1 November 2025, according to recent government updates)
 - **Source**: Government survey of over 300 HCP providers (published March 2025)
 
 ## What Are Indicative Prices and How Should I Use Them?
@@ -45,12 +45,12 @@ Use this information to:
 
 ## What Happens Next? Your Service Agreement
 
-Before 1 July 2025, your current HCP provider should contact you to:
+Before 1 November 2025, your current HCP provider should contact you to:
 
 - Explain any changes to their pricing under the new Support at Home program
 - Provide a new Service Agreement outlining the specific services they will deliver and the price for each
 
-Crucially, you need to agree to and sign this Service Agreement to receive services under Support at Home from 1 July 2025.
+Crucially, you need to agree to and sign this Service Agreement to receive services under Support at Home from 1 November 2025.
 
 Don't feel pressured to sign immediately if you're unsure or unhappy. You have the right to understand the prices and the services offered.
 
@@ -127,7 +127,7 @@ Remember, the government has consumer protections in place to ensure prices are 
 
 ## Can I Change Providers?
 
-Yes. You absolutely have the right to change providers if you are unhappy with their proposed prices, the quality of service, or for any other reason. You can change providers before or after the 1 July 2025 start date.
+Yes. You absolutely have the right to change providers if you are unhappy with their proposed prices, the quality of service, or for any other reason. You can change providers before or after the 1 November 2025 start date.
 
 Key points about changing providers:
 
@@ -145,4 +145,4 @@ The transition to Support at Home involves significant changes. By understanding
 - Ask questions if anything is unclear or seems unreasonable
 - Know your right to compare and change providers if needed
 
-Stay tuned for more updates, including the co-contribution calculator, as we get closer to the 1 July 2025 launch of Support at Home. 
+Stay tuned for more updates, including the co-contribution calculator, as we get closer to the 1 November 2025 launch of Support at Home. 
