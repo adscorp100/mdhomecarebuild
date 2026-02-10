@@ -1,7 +1,7 @@
 ---
 title: "CB Daily Activity NDIS: Complete Improved Daily Living Guide (Category 15) 2026"
 description: "CB Daily Activity NDIS complete guide: what it is, examples by disability type, line item codes (15_xxx), therapy pricing, and how to maximise your Improved Daily Living Capacity Building budget."
-pubDate: 2026-07-08
+pubDate: 2026-02-11
 author: "MD Home Care"
 tags: ["NDIS", "Capacity Building", "Improved Daily Living", "CB Daily Activity", "Allied Health"]
 popupTitle: "Need Help With Therapy Services?"

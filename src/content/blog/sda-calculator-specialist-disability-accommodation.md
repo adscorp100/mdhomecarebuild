@@ -1,7 +1,7 @@
 ---
 title: "SDA Calculator 2026: NDIS Specialist Disability Accommodation Funding Guide"
 description: "Free NDIS SDA calculator for 2026. Calculate your Specialist Disability Accommodation funding based on design category, location, and building type. Complete guide to SDA eligibility, pricing, and how to find SDA properties."
-pubDate: 2026-12-17
+pubDate: 2026-02-11
 author: "Camila"
 tags: ["NDIS", "SDA", "Specialist Disability Accommodation", "Housing"]
 popupTitle: "Need Help With SDA Funding?"

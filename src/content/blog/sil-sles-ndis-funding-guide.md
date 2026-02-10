@@ -1,7 +1,7 @@
 ---
 title: "SIL NDIS Funding 2026: Supported Independent Living Costs & How to Apply"
 description: "NDIS SIL funding guide 2026. Supported Independent Living costs ($80K-$320K/year), eligibility requirements, application process, and how to get approved for 24/7 support."
-pubDate: 2026-07-18
+pubDate: 2026-02-11
 author: "MD Home Care"
 tags: ["SIL NDIS", "Supported Independent Living", "NDIS Funding", "Disability Accommodation"]
 popupTitle: "Exploring Independent Living Options?"

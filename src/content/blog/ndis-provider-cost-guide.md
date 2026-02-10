@@ -1,7 +1,7 @@
 ---
 title: "How Much Does It Really Cost to Become an NDIS Provider in 2026? (Complete Guide)"
 description: "Comprehensive breakdown of NDIS provider registration costs in 2026, including mandatory audit fees, worker screening checks, and operational expenses for new providers."
-pubDate: 2026-03-08
+pubDate: 2026-02-11
 author: "Camila"
 tags: []
 popupTitle: "Looking for Trusted NDIS Support?"

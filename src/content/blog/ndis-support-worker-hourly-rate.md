@@ -1,7 +1,7 @@
 ---
 title: "NDIS Support Worker Hourly Rate 2026: What Do Workers Earn Per Hour?"
 description: "Your guide to NDIS support worker hourly rates in 2026. Learn about the 3.95% pay rise, standard vs. independent rates, and what to expect for weekend and public holiday pay."
-pubDate: 2026-07-02
+pubDate: 2026-02-11
 author: "Camila"
 tags: ["NDIS", "Pay Rates", "Support Worker"]
 popupTitle: "Looking for Fair Pay and Support?"
