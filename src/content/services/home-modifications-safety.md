@@ -1,6 +1,6 @@
 ---
 title: "Home Modifications for Safety in {suburb}"
-description: "Specialized home modification services in {suburb} designed to enhance safety, accessibility, and independence for seniors and people with disabilities. Our experienced team creates customized solutions to address mobility challenges and reduce fall risks."
+description: "Find specialized home modification providers in {suburb} through MD Home Care to enhance safety, accessibility, and independence for seniors and people with disabilities. Experienced teams create customized solutions to address mobility challenges and reduce fall risks."
 pubDate: 2025-04-12
 category: "Home Modifications"
 image: "/assets/accessible-bathroom.webp"
@@ -16,7 +16,7 @@ quickFacts:
 
 ## Home Modifications for Safety in {suburb}
 
-Our specialized home modification services help {suburb} residents with mobility challenges or safety concerns continue living safely and independently in their own homes. We provide customized solutions that enhance accessibility, reduce fall risks, and create safer living environments tailored to your specific needs.
+Through MD Home Care, you can find specialized home modification providers who help {suburb} residents with mobility challenges or safety concerns continue living safely and independently in their own homes. These providers offer customized solutions that enhance accessibility, reduce fall risks, and create safer living environments tailored to your specific needs.
 
 ### Home Safety Modification Services in {suburb}
 

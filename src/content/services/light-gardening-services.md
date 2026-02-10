@@ -1,6 +1,6 @@
 ---
 title: "Light Gardening Services in {suburb}"
-description: "Professional light gardening assistance for seniors and people with disabilities in {suburb}. Our experienced gardeners help maintain your garden's beauty and safety while respecting your preferences and garden style."
+description: "Find professional light gardening providers through MD Home Care for seniors and people with disabilities in {suburb}. Experienced gardeners help maintain your garden's beauty and safety while respecting your preferences and garden style."
 pubDate: 2025-04-08
 category: "Home Maintenance"
 image: "/assets/homecare.webp"

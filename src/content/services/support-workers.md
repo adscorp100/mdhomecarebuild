@@ -1,6 +1,6 @@
 ---
 title: "Support Workers in {suburb}"
-description: "Stop the stressful search for a support worker. MD Home Care provides experienced, compassionate, and reliable NDIS & Aged Care support in {suburb}. Get your free, no-obligation consultation today."
+description: "Stop the stressful search for a support worker. Find experienced, compassionate, and reliable NDIS & Aged Care support providers through MD Home Care in {suburb}. Get connected today."
 pubDate: 2025-07-04
 category: "NDIS Support"
 image: "/assets/carer.webp"

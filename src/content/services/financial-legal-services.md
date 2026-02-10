@@ -92,7 +92,7 @@ Specialized knowledge of how assets affect government benefits and supports for 
 
 ## Finding Financial & Legal Services in {suburb}
 
-While MD Homecare does not provide financial or legal advice, we can help connect you with appropriate professional services in {suburb}. Initial referrals can be directed towards:
+While MD Home Care focuses on connecting people rather than providing financial or legal advice directly, you can find appropriate professional services in {suburb}. Initial referrals can be directed towards:
 
 - Financial Advice Association Australia (for planners with aged care accreditation)
 - The Law Society in your state/territory (for elder/disability law specialists)
@@ -108,12 +108,12 @@ While MD Homecare does not provide financial or legal advice, we can help connec
 - Seek referrals and testimonials from others in similar situations
 - Consider the adviser's familiarity with {suburb} local services
 
-## Our Commitment to Your Wellbeing in {suburb}
+## Supporting Your Wellbeing in {suburb}
 
-MD Homecare recognizes that sound financial and legal planning is essential to overall wellbeing for people with disability and older Australians. While we don't provide these services directly, we respect their importance and can help connect you with trusted professionals serving {suburb}.
+MD Home Care recognizes that sound financial and legal planning is essential to overall wellbeing for people with disability and older Australians. While the platform focuses on connecting rather than providing these services directly, MD Home Care respects their importance and helps connect you with trusted professionals serving {suburb}.
 
 ## Need Support Services in {suburb}?
 
-While MD Homecare doesn't provide financial or legal services directly, we offer a range of disability and aged care supports delivered with an understanding of how these services fit into your broader life planning in {suburb}.
+Through MD Home Care, you can find providers who offer a range of disability and aged care supports delivered with an understanding of how these services fit into your broader life planning in {suburb}.
 
-[Contact Us Today](/contact) to discuss how our services can meet your care needs or to get information about connecting with financial and legal professionals in {suburb}. 
+[Find Providers Today](/contact) to discover how support services can meet your care needs or to get information about connecting with financial and legal professionals in {suburb}. 

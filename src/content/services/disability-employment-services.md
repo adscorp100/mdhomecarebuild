@@ -68,7 +68,7 @@ SLES is typically funded for up to two years after completing Year 12, providing
 
 ## Finding Employment Support Providers in {suburb}
 
-While MD Homecare does not offer specialized vocational or employment preparation services, we can help connect you with DES and SLES providers serving {suburb}, such as:
+While MD Home Care focuses on connecting you with providers rather than offering specialized vocational services directly, you can find DES and SLES providers serving {suburb}, such as:
 
 - APM
 - MAX Solutions
@@ -91,6 +91,6 @@ Employment support works alongside other NDIS and community supports to create a
 
 ## Need Support Services in {suburb}?
 
-While MD Homecare does not provide employment services directly, we offer complementary supports that can work alongside your employment journey to support your overall independence and participation in {suburb}.
+Through MD Home Care, you can find providers who offer complementary supports that work alongside your employment journey to support your overall independence and participation in {suburb}.
 
-[Contact Us Today](/contact) to discuss how our services can complement your employment goals or to get information about connecting with employment support providers in {suburb}. 
+[Find Providers Today](/contact) to discover how complementary supports can work with your employment goals or to get information about connecting with employment support providers in {suburb}. 

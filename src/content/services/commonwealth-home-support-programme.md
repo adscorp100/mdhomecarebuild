@@ -76,7 +76,7 @@ Temporary care to give regular carers a break in {suburb}.
 
 ## Finding CHSP Providers in {suburb}
 
-While MD Homecare offers specific services that may fall under CHSP (such as Aged Care Home Modifications & Maintenance and Respite Care), we can also help connect you with comprehensive CHSP providers serving {suburb}. These providers can be found through:
+MD Home Care helps connect you with providers who offer services that fall under CHSP (such as Aged Care Home Modifications & Maintenance and Respite Care), plus comprehensive CHSP providers serving {suburb}. These providers can be found through:
 
 - My Aged Care 'Find a provider' tool
 - Local councils and community health centers in {suburb}
@@ -96,13 +96,13 @@ CHSP provides entry-level, specific services for those with basic support needs,
 
 ## Our Related Services in {suburb}
 
-MD Homecare provides specific services that complement the CHSP framework:
+Through MD Home Care, you can connect with providers who offer specific services that complement the CHSP framework:
 
 - Aged Care Home Modifications & Maintenance to improve safety and accessibility
 - Respite Care to support carers of older people in {suburb}
 
 ## Need Support to Stay Independent in {suburb}?
 
-If you're an older resident in {suburb} needing assistance to stay in your own home, we can provide information about accessing CHSP services and offer our complementary supports to help you maintain your independence.
+If you're an older resident in {suburb} needing assistance to stay in your own home, MD Home Care can help you find information about accessing CHSP services and connect you with providers who offer complementary supports to help you maintain your independence.
 
 [Contact Us Today](/contact) to discuss how our services can support your independence or to get information about connecting with CHSP providers in {suburb}. 

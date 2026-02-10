@@ -49,7 +49,7 @@ Children accessing this pathway often receive therapies such as:
 
 ## Finding Early Childhood Partners in {suburb}
 
-While MD Homecare does not provide specialized early childhood intervention services, we can help connect families in {suburb} with their local Early Childhood Partner. These partners are geographically assigned and include organizations such as:
+While MD Home Care focuses on connecting families with providers rather than providing specialized early childhood intervention services directly, you can find families in {suburb} connected with their local Early Childhood Partner. These partners are geographically assigned and include organizations such as:
 
 - Mission Australia (in Southeast Tasmania)
 - EACH (in parts of Queensland, New South Wales, and ACT)
@@ -66,6 +66,6 @@ Research shows that early intervention during critical developmental periods can
 
 ## Need Support for Your Family in {suburb}?
 
-While MD Homecare focuses on other disability support services, we understand the importance of connecting families with the right early childhood supports in {suburb}.
+MD Home Care understands the importance of connecting families with the right early childhood supports in {suburb}.
 
 [Contact Us Today](/contact) for information on how to connect with your local Early Childhood Partner or to discuss how our other services might complement your child's early intervention supports. 

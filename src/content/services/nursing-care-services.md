@@ -1,6 +1,6 @@
 ---
 title: "In-Home Nursing Care in {suburb}"
-description: "Need professional nursing care at home in {suburb}? Our registered nurses provide compassionate, hospital-quality medical care, including wound management, medication support, and 24-hour care, all in the comfort of your own home."
+description: "Need professional nursing care at home in {suburb}? Find registered nurses through MD Home Care who provide compassionate, hospital-quality medical care, including wound management, medication support, and 24-hour care, all in the comfort of your own home."
 pubDate: 2025-05-16
 category: "Health & Medical Care"
 image: "/assets/nurse.webp"

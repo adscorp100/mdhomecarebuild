@@ -16,11 +16,11 @@ quickFacts:
 
 # Crisis & Complex Needs Support Services {suburb}
 
-Our crisis and complex needs support services provide specialized assistance for individuals with disability facing emergencies, critical life changes, or requiring high-intensity support in {suburb}. We offer responsive intervention, intensive coordination, and specialized supports for those with the most complex needs.
+Through MD Home Care, you can connect with providers who offer specialized crisis and complex needs support for individuals with disability facing emergencies, critical life changes, or requiring high-intensity support in {suburb}. These providers offer responsive intervention, intensive coordination, and specialized supports for those with the most complex needs.
 
 ## Crisis Support Services {suburb}
 
-Our experienced crisis support team provides:
+Experienced crisis support teams available through MD Home Care provide:
 
 - **Emergency Response**: Rapid intervention during urgent situations
 - **Crisis Prevention Planning**: Strategies to identify and address potential triggers
@@ -35,7 +35,7 @@ Our experienced crisis support team provides:
 
 ## Complex Needs Support {suburb}
 
-We provide specialized support for individuals with high and complex needs in {suburb}:
+Providers available through MD Home Care offer specialized support for individuals with high and complex needs in {suburb}:
 
 - **Multiple Disability Support**: Coordinated care for individuals with multiple disabilities
 - **High-Intensity Daily Personal Activities**: Specialized personal care requiring advanced skills
@@ -48,7 +48,7 @@ We provide specialized support for individuals with high and complex needs in {s
 
 ## Specialist Support Coordination for Complex Situations
 
-Our Specialist Support Coordinators provide high-level support during crisis or for complex needs:
+Specialist Support Coordinators available through MD Home Care provide high-level support during crisis or for complex needs:
 
 - **Intensive NDIS Coordination**: Expert management of complex support arrangements
 - **System Navigation**: Help accessing multiple service systems
@@ -61,7 +61,7 @@ Our Specialist Support Coordinators provide high-level support during crisis or 
 
 ## Managing Critical Life Transitions
 
-We provide enhanced support during major life changes:
+Providers through the MD Home Care network offer enhanced support during major life changes:
 
 - **Housing Crisis**: Support during accommodation emergencies or breakdowns
 - **Relationship Breakdowns**: Assistance when care arrangements change suddenly
@@ -73,18 +73,18 @@ We provide enhanced support during major life changes:
 
 ## NDIS Funding for Crisis and Complex Support
 
-Our services can be accessed through various NDIS funding categories:
+These services can be accessed through various NDIS funding categories:
 
 - **Specialist Support Coordination**: For complex support coordination needs
 - **Core Supports - Assistance with Daily Life**: For high-intensity or crisis support
 - **Capacity Building - Improved Daily Living**: For developing crisis management skills
 - **Short-Term Accommodation**: For emergency accommodation needs
 
-We help {suburb} participants understand and utilize their NDIS funding during critical situations.
+Providers through MD Home Care help {suburb} participants understand and utilize their NDIS funding during critical situations.
 
-## Our Crisis Support Approach
+## Crisis Support Approach
 
-When providing crisis and complex needs support in {suburb}, we focus on:
+When providing crisis and complex needs support in {suburb}, providers focus on:
 
 - **Rapid Response**: Quick mobilization of resources when needed
 - **Person-Centered Solutions**: Maintaining individual choice even during crisis
@@ -94,9 +94,9 @@ When providing crisis and complex needs support in {suburb}, we focus on:
 - **Collaborative Resolution**: Working with all stakeholders to resolve situations
 - **Sustainable Solutions**: Looking beyond immediate crisis to long-term stability
 
-## Why Choose Our Crisis Support Services
+## Why Choose Crisis Support Services Through MD Home Care
 
-Our services stand out in {suburb} because we offer:
+Providers in the MD Home Care network stand out in {suburb} because they offer:
 
 - **24/7 Availability**: Support available when crises occur
 - **Specialized Expertise**: Staff trained in crisis intervention and complex support
@@ -106,6 +106,6 @@ Our services stand out in {suburb} because we offer:
 - **Continuity of Care**: Maintaining support throughout and after crisis
 - **Proactive Planning**: Focus on preventing future emergencies
 
-Contact us today to discuss how our crisis and complex needs support services can help during critical situations or for ongoing complex support needs in {suburb}.
+Find providers through MD Home Care today to discuss how crisis and complex needs support services can help during critical situations or for ongoing complex support needs in {suburb}.
 
 [Request Crisis Support](/contact) 

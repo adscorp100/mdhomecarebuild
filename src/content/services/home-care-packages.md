@@ -1,6 +1,6 @@
 ---
 title: "Home Care Packages in {suburb}"
-description: "Tired of high fees and poor service? See why families in {suburb} are switching to MD Home Care. We offer low fees, exceptional carers, and a dedicated Care Manager to help you get the most from your funds."
+description: "Tired of high fees and poor service? See why families in {suburb} find better providers through MD Home Care. Find providers with low fees, exceptional carers, and dedicated Care Managers to help you get the most from your funds."
 pubDate: 2025-07-04
 category: "Services"
 image: "/assets/grandmawhite.webp"
@@ -41,9 +41,9 @@ The quality of your care depends on the quality of your carer. Quality providers
 
 ![A carer and client enjoy a cup of tea together.](/assets/drinkingtea.webp)
 
-> #### **"Switching to MD Home Care Was the Best Decision We Made."**
+> #### **"Finding a Better Provider Through MD Home Care Was the Best Decision We Made."**
 >
-> "With our previous provider, we were losing nearly 40% of my father's package to 'management fees' and the level of care was inconsistent. We switched to MD Home Care, and the difference is night and day. Their fees are so much lower that Dad now gets an extra 4 hours of support a week, and his regular carer, Susan, is absolutely wonderful. We finally feel like we're getting the support Dad was approved for." - *Jessica R., {suburb}*
+> "With our previous provider, we were losing nearly 40% of my father's package to 'management fees' and the level of care was inconsistent. We found a new provider through MD Home Care, and the difference is night and day. Their fees are so much lower that Dad now gets an extra 4 hours of support a week, and his regular carer, Susan, is absolutely wonderful. We finally feel like we're getting the support Dad was approved for." - *Jessica R., {suburb}*
 
 ## It's Easy to Switch Providers
 
