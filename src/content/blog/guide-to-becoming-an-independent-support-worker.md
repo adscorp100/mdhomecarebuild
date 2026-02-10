@@ -7,6 +7,7 @@ tags: ['ndis', 'support worker', 'independent support worker', 'sole trader', 'n
 popupTitle: "Thinking of Going Independent?"
 popupSubtitle: "Get practical guidance on setting up your NDIS support business"
 image: "/assets/disabled carer.webp"
+updatedAt: 2026-02-10
 ---
 
 Becoming an independent NDIS support worker offers incredible flexibility, higher earning potential, and the chance to run your own business. As of 2025, working independently means you can set your own rates, choose your clients, and build meaningful one-on-one relationships with NDIS participants.
@@ -224,13 +225,29 @@ Online platforms connect support workers with NDIS participants and are a great 
 | **Kynd** | Varies | Community-focused |
 | **Home Care Heroes** | Varies | Personalized matching |
 
+**Mable vs Hireup: Key Differences**
+
+The two largest platforms work very differently. With Mable, you operate as an independent contractor. You set your own rates, manage your own insurance, and invoice through the platform. Mable takes a service fee from the participant side. With Hireup, you are employed as a casual worker. Hireup handles your super, insurance, and tax withholding, but you have less control over your rates.
+
+| Feature | Mable | Hireup |
+|---------|-------|--------|
+| Employment status | Independent contractor | Casual employee |
+| Set your own rates | Yes | Limited |
+| Insurance provided | Platform coverage included | Covered by employer |
+| Super contributions | You manage your own | Paid by Hireup |
+| Tax withholding | You handle BAS/GST | PAYG withheld |
+| Client base | Largest marketplace | Smaller, curated |
+
+Community feedback on platforms is mixed. Some workers report that Mable offers more flexibility and higher earning potential, while others find Hireup provides more stability and simpler admin. Common concerns include delayed payments, account suspensions without warning, and difficulty resolving disputes through platform support channels. It is worth reading recent reviews and community discussions before committing to a single platform.
+
 **Platform Success Tips:**
 - Create comprehensive profiles with photos, qualifications, and experience details
-- Respond quickly to inquiries - faster response time significantly increases booking rates
-- Build positive reviews - they're crucial for ongoing success
+- Respond quickly to inquiries, as faster response time significantly increases booking rates
+- Build positive reviews, as they are crucial for ongoing success
 - Initial rates may need to be competitive until you establish a reputation
+- Consider listing on multiple platforms to diversify your client sources
 
-Most independent workers use platforms initially while developing direct client relationships in parallel. After 6-12 months, many transition to more direct relationships.
+Most independent workers use platforms initially while developing direct client relationships in parallel. After 6 to 12 months, many transition to more direct relationships.
 
 ### Network with Support Coordinators & Plan Managers
 

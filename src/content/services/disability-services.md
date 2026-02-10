@@ -4,6 +4,7 @@ description: "Tired of unreliable disability support in {suburb}? MD Home Care o
 pubDate: 2025-07-02
 category: "Disability Services"
 image: "/assets/elderlyaboriginal.webp"
+updatedAt: 2026-02-10
 keywords: ["disability support services {suburb}", "ndis provider {suburb}", "disability home care {suburb}", "in-home disability support {suburb}", "person-centered care {suburb}"]
 quickFacts:
   costRange: "$50-$90/hour (NDIS/HCP subsidised rates available)"
@@ -68,6 +69,25 @@ As a local {suburb} provider, we have deep knowledge of the resources and facili
 >
 > *- Jessica M., {suburb}*
 ---
+
+## Disability Services: Provider Comparison
+
+| Feature | MD Home Care | Feros Care | Bolton Clarke | Concept Care |
+|---------|-------------|------------|---------------|--------------|
+| NDIS registered | Yes | Yes | Yes | Yes |
+| Direct employment model | Yes | Mixed | Mixed | Yes |
+| Consistent worker matching | Yes | Limited | Limited | Yes |
+| 24/7 support available | Yes | Yes | Yes | Limited |
+| SIL services | Yes | Yes | Yes | Limited |
+| Community participation | Yes | Yes | Yes | Yes |
+| Respite care (STA) | Yes | Yes | Yes | Limited |
+| Culturally diverse teams | 20+ languages | 15+ languages | 10+ languages | Call for details |
+| Sydney and Melbourne coverage | Yes | Yes | Yes | Sydney only |
+
+**Key differences:**
+- **vs Feros Care**: MD Home Care focuses on consistent worker matching and lower staff turnover, while Feros Care offers a broader national footprint with technology-enabled care.
+- **vs Bolton Clarke**: MD Home Care provides more personalised worker matching for disability services, while Bolton Clarke has extensive aged care integration.
+- **vs Concept Care**: Both focus on Sydney with direct employment models, but MD Home Care also covers Melbourne suburbs.
 
 ## Getting Started is Simple and Clear
 
