@@ -32,7 +32,7 @@ Our experienced {suburb} transport team provides assistance with:
 
 ### Our Approach to Senior Transport in {suburb}
 
-When providing transport services for seniors in {suburb}, we prioritize:
+When providing transport services for seniors in {suburb}, providers prioritize:
 
 - **Safety First**: Maintaining the highest safety standards for vulnerable passengers
 - **Door-to-Door Service**: Assistance from your door to your destination

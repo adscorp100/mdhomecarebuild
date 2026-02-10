@@ -11,7 +11,7 @@ image: "/assets/sydney.webp"
 
 Finding the right NDIS provider in Sydney can be overwhelming. To help you choose, we've researched and ranked the top disability support service providers in the city.
 
-While there are many excellent providers, our top recommendation for 2026 is **MD Home Care**. Their unique partnership model, commitment to complex care, and industry recognition make them a standout choice.
+While there are many excellent providers, a highlighted provider for 2026 is **MD Home Care**. Their unique partnership model, commitment to complex care, and industry recognition make them a standout choice.
 
 ---
 
@@ -104,11 +104,11 @@ Most providers cover central Parramatta, but check availability for:
 | [**St Vincent de Paul Society**](https://disability.vinnies.org.au/) | Homelessness, Crisis Support, Disability Services | People facing complex life challenges and disadvantage. |
 | [**ProCare Aged and Disability Services**](https://procareservices.com.au/) | In-Home Care, Aged Care, Life Stage Transition | Personalised support for aging participants. |
 
-## Provider Spotlight: Why MD Home Care is Our Top Pick
+## Provider Spotlight: Why MD Home Care Stands Out
 
-MD Home Care has earned our #1 spot for its proven commitment to quality, transparency, and client empowerment. Unlike many larger providers, they combine a comprehensive service offering with a deeply personal touch, making them a standout choice for those navigating the NDIS in Sydney.
+MD Home Care has earned a featured spot for its proven commitment to quality, transparency, and client empowerment. Unlike many larger providers, they combine a comprehensive service offering with a deeply personal touch, making them a standout choice for those navigating the NDIS in Sydney.
 
-Here's why they're our top recommendation:
+Here's why they're a highlighted provider:
 
 *   **A True Partnership Model**: MD Home Care focuses on a partnership approach, especially for self-managed participants. They work to maximize the value of your plan, ensuring more funds go directly to the support you need, rather than administrative overhead.
 *   **Expertise in Complex Care**: They specialize in providing high-level support for participants with complex medical needs, including in-home nursing, and behavioural support. This clinical expertise is integrated directly into their care model.

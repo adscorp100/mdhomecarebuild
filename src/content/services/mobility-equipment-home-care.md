@@ -33,7 +33,7 @@ We can help you access a wide range of mobility equipment including:
 
 ### Our Approach to Mobility Equipment in {suburb}
 
-When helping {suburb} residents with mobility equipment, we focus on:
+When helping {suburb} residents with mobility equipment, providers focus on:
 
 - **Individual Assessment**: Understanding your specific mobility challenges and home environment
 - **Appropriate Recommendations**: Suggesting equipment that meets your needs and circumstances

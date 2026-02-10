@@ -113,7 +113,7 @@ Begin your journey to greater independence with a dedicated team that truly care
 MD Home Care prioritises this. The providers in our network offer their staff excellent conditions and supportive environments, maintaining high retention rates. Our focus is on connecting you with providers who create long-term, stable matches between clients and support workers.
 
 **What happens if I'm not happy with my support worker?**
-While our matching process is robust, your comfort is what matters most. If it's not the right fit, we will work with you immediately to find a support worker you connect with.
+While the matching process is thorough, your comfort is what matters most. If it's not the right fit, MD Home Care will help you find a support worker you connect with.
 
 **How do you ensure the safety of your clients?**
 All support workers connected through MD Home Care undergo mandatory NDIS Worker Screening Checks and police checks. Providers in our network maintain strict safety protocols and provide ongoing training to ensure the highest standards of care.

@@ -305,9 +305,9 @@ Yes! MD Home Care coordinators provide:
 
 **You choose** - some participants prefer all in-person meetings, others prefer phone/video to save funding hours.
 
-### Can MD Home Care provide other NDIS services as well?
+### Can I find other NDIS services through MD Home Care?
 
-Yes. MD Home Care is a comprehensive NDIS and aged care provider offering:
+Yes. MD Home Care connects you with providers across a wide range of NDIS and aged care services, including:
 - Support coordination (what this page covers)
 - SIL (Supported Independent Living)
 - Daily personal activities support

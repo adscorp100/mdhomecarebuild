@@ -38,8 +38,8 @@ Our experienced aged care advisors in {suburb} provide hands-on support througho
 
 ### Assessment & Eligibility Support
 *   **ACAT Assessment Preparation:** Aged care specialists through MD Home Care help you prepare for your Aged Care Assessment Team visit, ensuring all medical documentation is ready.
-*   **My Aged Care Navigation:** We guide you through the My Aged Care portal and help you understand your approval levels.
-*   **Hospital Discharge Planning:** When time is critical, we work with hospital social workers to find appropriate placements quickly.
+*   **My Aged Care Navigation:** Specialists through MD Home Care guide you through the My Aged Care portal and help you understand your approval levels.
+*   **Hospital Discharge Planning:** When time is critical, providers work with hospital social workers to find appropriate placements quickly.
 
 ### Facility Selection & Tours
 *   **Shortlist Development:** Based on your care needs, budget, location preferences, and values, we create a tailored list of suitable facilities.

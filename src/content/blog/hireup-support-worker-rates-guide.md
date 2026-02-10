@@ -235,7 +235,7 @@ If Hireup isn't the right fit, consider these alternatives:
 
 ### Traditional Providers
 
-Traditional NDIS providers like **MD Home Care** offer a different approach:
+Platforms like **MD Home Care** connect you with traditional NDIS providers who offer a different approach:
 
 **Benefits of Traditional Providers:**
 - Dedicated care coordinators who know you

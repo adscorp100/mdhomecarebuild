@@ -422,7 +422,7 @@ Through MD Home Care, you can find providers who help NDIS participants:
 
 Whether you're new to the NDIS or an experienced participant, providers in our network can help you make the most of your funding.
 
-**[Contact us today](/contact)** for a free consultation about your NDIS plan, or call us to chat with our friendly team.
+**[Get in touch today](/contact)** for a free consultation about your NDIS plan, or give the team a call to chat about your needs.
 
 ---
 

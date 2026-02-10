@@ -46,9 +46,9 @@ Yet, benefits come with challenges. The NDIS operates within a complex regulator
 
 **The #1 challenge new NDIS providers face isn't registration—it's client acquisition.**
 
-**MD Home Care's Provider Network** connects established NDIS providers with qualified participants across Sydney and Melbourne. Through our platform, participants can find providers, check qualifications, and connect directly with providers who meet their needs.
+**MD Home Care's Provider Network** connects established NDIS providers with qualified participants across Sydney and Melbourne. Through the platform, participants can find providers, check qualifications, and connect directly with providers who meet their needs.
 
-**Learn more about our provider lead generation service:** [Contact us at 08 6386 9999](#contact)
+**Learn more about provider lead generation:** [Get in touch at 08 6386 9999](#contact)
 
 ---
 
@@ -228,7 +228,7 @@ You've learned the registration process, compliance requirements, and operationa
 
 ### Start with Clients Already Waiting
 
-**MD Home Care's Provider Lead Service** connects newly registered NDIS providers with qualified participants actively seeking services in Sydney and Melbourne.
+**MD Home Care's Provider Network** connects newly registered NDIS providers with qualified participants actively seeking services in Sydney and Melbourne.
 
 **What you get:**
 - **Immediate client leads** from day one of registration
@@ -301,7 +301,7 @@ Building your NDIS client base through networking and directories can take 6-12 
 3. You connect directly with participants ready for service start
 4. No commission on ongoing services - simple lead fee only
 
-**Contact us:** 08 6386 9999 | [Learn more about provider lead generation](#contact)
+**Get in touch:** 08 6386 9999 | [Learn more about provider lead generation](#contact)
 
 ---
 

@@ -43,7 +43,7 @@ Our {suburb} physiotherapists do more than just prescribe exercises; they provid
 *   **Neurological Rehabilitation**: Specialized support for those recovering from a stroke or managing conditions like Parkinson's disease.
 
 ### The Advantage of In-Home Care
-Because we work with you in your own home, we can tailor every exercise and recommendation to your specific environment. We help you practice navigating your own stairs, getting out of your own bed, and moving safely through your own kitchen, making your recovery more practical and effective.
+Because your physio works with you in your own home, they can tailor every exercise and recommendation to your specific environment. They help you practice navigating your own stairs, getting out of your own bed, and moving safely through your own kitchen, making your recovery more practical and effective.
 
 ## Why {suburb} Residents Trust MD Home Care for Physiotherapy
 

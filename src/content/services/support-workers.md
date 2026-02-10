@@ -58,7 +58,7 @@ Support services available through MD Home Care are solutions designed to help y
 *   **Stay Connected to Your Community:** Support to engage in social activities, attend appointments, and pursue hobbies.
 *   **Expert Care for Complex Needs:** Specialised support including dementia care, behavioural support, and high-intensity personal care.
 
-![A happy client with their MD Home Care support worker in {suburb}](/assets/disabled%20carer.webp)
+![A happy client with their support worker found through MD Home Care in {suburb}](/assets/disabled%20carer.webp)
 
 > #### **"For the First Time, We Have Consistency."**
 >

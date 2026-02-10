@@ -73,11 +73,11 @@ Your Occupational Therapist will have a friendly chat to understand your goals a
 Not at all. Their recommendations are based on your safety and goals, but you are always in control. Qualified OTs provide the options and information, and you make the final decision. They can also help you find reputable tradespeople in {suburb} if you decide to proceed.
 
 **How quickly can I get an appointment?**
-We understand that you often need support quickly. Contact us today, and we will work to schedule an initial consultation with one of our {suburb} OTs as soon as possible.
+Getting support quickly matters. Get in touch today, and MD Home Care will help connect you with a qualified {suburb} OT as soon as possible.
 
 ## Take the First Step Towards a Safer, More Independent Life
 
-You don't have to face these challenges alone. Let our expert Occupational Therapy team in {suburb} provide the practical support you need to live confidently and comfortably in your own home.
+You don't have to face these challenges alone. Connect with an expert Occupational Therapist in {suburb} through MD Home Care for the practical support you need to live confidently and comfortably in your own home.
 
 [Speak With a Care Advisor Today](/contact)
 *For a free, no-obligation chat about your Occupational Therapy needs.* 

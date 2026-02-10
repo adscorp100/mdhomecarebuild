@@ -84,7 +84,7 @@ Despite potential policy changes, many Improved Liveability SDA properties remai
 
 While the future of Improved Liveability SDA is uncertain for new builds, it remains an important housing option for many NDIS participants with sensory, intellectual, or cognitive impairments. If you believe this SDA category may suit your needs, discuss it with your NDIS planners and support team as soon as possible to explore your options.
 
-[**Need Advice on SDA? Contact us!**](/contact)
+[**Need Advice on SDA? Get in touch!**](/contact)
 
 ## Frequently Asked Questions
 

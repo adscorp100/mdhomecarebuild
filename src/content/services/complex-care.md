@@ -33,7 +33,7 @@ Experienced {suburb} complex care teams provide:
 
 ### Our Approach to Complex Care in {suburb}
 
-When providing complex care in {suburb}, we prioritize:
+When providing complex care in {suburb}, providers prioritize:
 
 - **Clinical Excellence**: Maintaining the highest standards of medical and nursing care
 - **Coordinated Management**: Integrating all aspects of care into a cohesive program

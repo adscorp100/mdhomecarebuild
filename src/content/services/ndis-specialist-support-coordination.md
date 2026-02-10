@@ -270,6 +270,6 @@ Find providers serving {suburb} and all surrounding areas with same-week start a
 ---
 
 **Regulatory Information:**
-MD Home Care is a registered NDIS provider. Support coordination services comply with NDIS Quality and Safeguards Commission standards and NDIS Price Guide 2026.
+MD Home Care connects you with registered NDIS providers. Support coordination services available through the platform comply with NDIS Quality and Safeguards Commission standards and NDIS Price Guide 2026.
 
 **Last Updated:** January 31, 2026

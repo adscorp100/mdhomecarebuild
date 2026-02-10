@@ -22,9 +22,9 @@ We understand completely. Through MD Home Care, you can find personal care provi
 ### The Right Support is About More Than Just Tasks
 
 Are you worried about:
-*   **A stranger in your personal space?** We ensure you are comfortable and feel safe with the support worker we match you with.
-*   **Losing control of your routine?** We adapt to your schedule and preferences, not the other way around.
-*   **Inconsistent or unreliable care?** We strive to provide a consistent primary support worker to build a strong, trusting relationship.
+*   **A stranger in your personal space?** MD Home Care helps you find a support worker you feel comfortable and safe with.
+*   **Losing control of your routine?** Your support worker adapts to your schedule and preferences, not the other way around.
+*   **Inconsistent or unreliable care?** Providers strive to offer a consistent primary support worker to build a strong, trusting relationship.
 *   **Your privacy being compromised?** Personal care providers through MD Home Care are rigorously trained in professional conduct and respecting your privacy.
 
 We're here to solve these worries, providing a service that feels less like a task list and more like a helping hand from a trusted professional.

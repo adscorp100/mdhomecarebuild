@@ -36,7 +36,7 @@ When you're in crisis, you need confidence in your choice. Here is our commitmen
 We understand the urgency. When you call us, you'll speak with a caring professional who will listen, understand your situation, and act quickly. We specialise in rapid response to get a qualified support worker to your home when you need them most.
 
 ### 2. A Team of Experienced Professionals
-The person we send to your home matters. Our support workers are not just background-checked and insured; they are experienced professionals skilled in a wide range of care needs, from dementia to mobility support. They provide respectful, expert care that follows your established routines.
+The person who comes to your home matters. Support workers found through MD Home Care are not just background-checked and insured; they are experienced professionals skilled in a wide range of care needs, from dementia to mobility support. They provide respectful, expert care that follows your established routines.
 
 ### 3. Absolute Reliability
 You need to know that help is truly on the way. Quality providers' robust scheduling and dedicated local {suburb} teams ensure that when they make a promise, they keep it. They provide the dependable support you need to confidently take a break.
@@ -61,7 +61,7 @@ We've made our process as simple as possible to get you help fast.
 Our goal is to provide help as quickly as possible. In many cases, we can arrange for a support worker to be at your home on the same day you call, especially in urgent situations.
 
 **What if my loved one has complex needs?**
-Our support workers are experienced in a wide range of care scenarios, including dementia care, mobility assistance, and personal care. During our initial call, we will discuss your loved one's specific needs to ensure we send a carer with the right skills and experience.
+Support workers in the MD Home Care network are experienced in a wide range of care scenarios, including dementia care, mobility assistance, and personal care. During the initial call, your provider will discuss your loved one's specific needs to ensure the right carer is matched to their skills and experience.
 
 **Is respite care covered by NDIS or my Home Care Package?**
 Yes. Respite care is a key support available under both NDIS (as Short Term Accommodation or through Core Supports) and Home Care Packages. Connect with qualified professionals who can help you understand and navigate your funding options during your consultation.

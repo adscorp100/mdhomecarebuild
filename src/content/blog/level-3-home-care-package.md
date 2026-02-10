@@ -120,6 +120,6 @@ Waiting times can vary significantly. According to the My Aged Care website, the
 
 ## Ready to Get Started?
 
-Navigating the Home Care Package system can be complex, but you don't have to do it alone. If you have questions about your Level 3 package or need help finding a provider that puts your needs first, MD Home Care is here to help.
+Navigating the Home Care Package system can be complex, but you don't have to do it alone. If you have questions about your Level 3 package or need help finding a provider that puts your needs first, MD Home Care can help you compare your options.
 
-**Contact us today for a free, no-obligation consultation** to discuss your needs and see how we can help you make the most of your funding.
+**Get in touch today for a free, no-obligation consultation** to discuss your needs and find the right provider for your funding.

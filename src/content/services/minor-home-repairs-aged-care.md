@@ -35,7 +35,7 @@ Our experienced {suburb} handymen provide assistance with:
 
 ### Our Approach to Home Repairs in {suburb}
 
-When providing home repair services in {suburb}, we prioritize:
+When providing home repair services in {suburb}, providers prioritize:
 
 - **Safety First**: Identifying and addressing potential hazards in the home environment
 - **Quality Workmanship**: Ensuring repairs are done correctly and built to last

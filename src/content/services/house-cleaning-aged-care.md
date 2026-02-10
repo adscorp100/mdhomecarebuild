@@ -33,7 +33,7 @@ Experienced {suburb} cleaning teams provide assistance with:
 
 ### Our Approach to Aged Care Cleaning in {suburb}
 
-When providing cleaning services for seniors in {suburb}, we prioritize:
+When providing cleaning services for seniors in {suburb}, providers prioritize:
 
 - **Consistency**: Regular cleaners who become familiar with your home and preferences
 - **Thoroughness**: Comprehensive cleaning that maintains hygiene and comfort

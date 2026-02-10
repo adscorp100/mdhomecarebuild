@@ -455,7 +455,7 @@ Through MD Home Care, you can find providers across Melbourne who help participa
 - **Flexible scheduling** to fit activities around your life
 - **Skill-building focus** to increase your independence over time
 
-**[Contact us today](/contact)** for a free consultation about your community participation goals. Let us help you find activities you'll love and support you to participate fully in your community.
+**[Get in touch today](/contact)** for a free consultation about your community participation goals. MD Home Care can help you find activities you'll love and connect you with support to participate fully in your community.
 
 ---
 

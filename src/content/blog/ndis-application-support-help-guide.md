@@ -365,7 +365,7 @@ Through MD Home Care, you can find providers who understand the NDIS inside and 
 - **Support you after approval** with quality NDIS services
 - **Help with plan reviews** if your current plan isn't meeting your needs
 
-**[Contact us today](/contact)** to discuss how we can support your NDIS journey, or call us for a free, no-obligation conversation about your situation.
+**[Get in touch today](/contact)** to discuss your NDIS journey, or call for a free, no-obligation conversation about your situation.
 
 ---
 
