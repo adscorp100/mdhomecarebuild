@@ -15,11 +15,11 @@ quickFacts:
 
 ## Life Skills Development Services in {suburb}
 
-Our life skills development services in {suburb} help individuals with disabilities or those facing other challenges to build essential everyday skills for independent living. Through personalized coaching and structured learning opportunities, we support people to develop practical abilities that enhance their independence, confidence, and quality of life.
+Life skills development providers through MD Home Care in {suburb} help individuals with disabilities or those facing other challenges to build essential everyday skills for independent living. Through personalized coaching and structured learning opportunities, these providers support people to develop practical abilities that enhance their independence, confidence, and quality of life.
 
 ### Comprehensive Life Skills Support in {suburb}
 
-Our experienced {suburb} support workers provide assistance with developing:
+Experienced {suburb} support workers provide assistance with developing:
 
 - **Personal Care Skills**: Hygiene routines, grooming, and self-care practices
 - **Household Management**: Cleaning, laundry, and home organization

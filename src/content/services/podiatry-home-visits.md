@@ -17,7 +17,7 @@ quickFacts:
 
 Foot pain, cracked heels, or overgrown toenails can make every step a challenge. These issues are more than just an inconvenience; they can affect your balance, limit your mobility, and seriously impact your quality of life. The thought of travelling to a clinic, especially when you're in pain or find it difficult to get around, can make seeking help seem impossible.
 
-We believe everyone deserves to be pain-free and mobile. That's why MD Home Care brings professional, fully-equipped podiatry services directly to your {suburb} home. Our qualified mobile podiatrists provide the expert care you need in a comfortable, convenient, and safe setting.
+Everyone deserves to be pain-free and mobile. That's why MD Home Care connects you with professional, fully-equipped podiatry providers who come directly to your {suburb} home. Qualified mobile podiatrists provide the expert care you need in a comfortable, convenient, and safe setting.
 
 ### The Right Support is About More Than Just Cutting Nails
 
@@ -27,7 +27,7 @@ Are you worried about:
 *   **Finding a qualified professional?** The concern of finding a podiatrist who is not only an expert but also gentle, hygienic, and trustworthy.
 *   **The hassle of clinic visits?** The stress of travel and waiting rooms when you're already uncomfortable.
 
-We're here to solve these worries, providing clinic-quality foot care that comes to you.
+Professional podiatrists are here to solve these worries, providing clinic-quality foot care that comes to you.
 
 ![A mobile podiatrist providing in-home foot care](/assets/clinic.webp)
 

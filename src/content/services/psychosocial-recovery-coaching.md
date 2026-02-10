@@ -17,7 +17,7 @@ quickFacts:
 
 Living with a psychosocial disability can feel like an uphill battle. Navigating the NDIS, coordinating supports, and simply managing day-to-day life can be exhausting. You might feel stuck, misunderstood, or like you've lost control over your own recovery journey. It's a heavy weight to carry alone.
 
-We get it. MD Home Care's Psychosocial Recovery Coaches are here to walk alongside you. We are not just another support service; we are your partners, allies, and mentors, many with our own lived experience of mental health challenges. Our job is to help you get back in the driver's seat of your life.
+Through MD Home Care, you can connect with Psychosocial Recovery Coaches who are here to walk alongside you. They are not just another support service; they are your partners, allies, and mentors, many with their own lived experience of mental health challenges. Their job is to help you get back in the driver's seat of your life.
 
 ## It's More Than Just Support, It's a Partnership
 
@@ -27,7 +27,7 @@ Are you worried about:
 *   **Finding the right services?** The overwhelming task of connecting with mental health, housing, or community supports that actually help.
 *   **Losing hope for your recovery?** The feeling that things will never change or get better.
 
-We're here to solve these worries by building a strong, trusting relationship focused on your strengths and your vision for a better life.
+Recovery coaches are here to solve these worries by building a strong, trusting relationship focused on your strengths and your vision for a better life.
 
 ![A psychosocial recovery coach providing compassionate support](/assets/two women looking at alarm.webp)
 

@@ -18,7 +18,7 @@ quickFacts:
 
 Being a carer is one of the most loving and selfless roles you can take on. But it's also demanding, relentless, and exhausting. The constant pressure, the worry, and the physical and emotional toll can leave you feeling completely burnt out. You know you need a break, but the guilt and anxiety of stepping away can be overwhelming. Who will provide the same level of care? Can you trust someone else with your loved one?
 
-We understand this feeling completely. At MD Home Care, we believe that taking a break isn't a luxury—it's an absolute necessity for you to continue providing the amazing care that you do. Our respite care services in {suburb} are designed to give you that essential time to rest, recharge, and look after your own wellbeing, with the complete peace of mind that your loved one is in safe, compassionate, and professional hands.
+This feeling is completely understandable. Through MD Home Care, you can connect with providers who believe that taking a break isn't a luxury—it's an absolute necessity for you to continue providing the amazing care that you do. Respite care providers in {suburb} are designed to give you that essential time to rest, recharge, and look after your own wellbeing, with the complete peace of mind that your loved one is in safe, compassionate, and professional hands.
 
 ## The Challenge: The Overwhelming Weight of Caring
 

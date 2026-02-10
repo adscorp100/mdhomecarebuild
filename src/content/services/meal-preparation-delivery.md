@@ -21,9 +21,9 @@ quickFacts:
 
 Choosing a meal delivery service can be overwhelming. There are dozens of providers, all with different menus, costs, and quality. On top of that, you have to navigate the complex, confusing rules of your NDIS or Home Care Package funding.
 
-It's a full-time job. We know. That's why we created our **Managed Meal Delivery Service**.
+It's a full-time job. That's why MD Home Care created a **Managed Meal Delivery Service**.
 
-We don't just deliver meals. We act as your expert concierge. We learn your needs, find the perfect provider from our network of trusted kitchens, and manage the entire process for you—from the paperwork to the delivery schedule. It's the simplest, safest way to get delicious, dietitian-approved meals delivered to your door.
+Through MD Home Care, you can find providers who don't just deliver meals. They act as your expert concierge. They learn your needs, find the perfect provider from their network of trusted kitchens, and manage the entire process for you—from the paperwork to the delivery schedule. It's the simplest, safest way to get delicious, dietitian-approved meals delivered to your door.
 
 ### Had a Bad Experience? Confused by the Rules?
 
@@ -34,30 +34,30 @@ Finding the right meal provider is harder than it looks. Does this sound familia
 *   You're **confused by the NDIS rules** about paying for ingredients vs. preparation and delivery.
 *   You simply **don't have the time or energy** to research and vet dozens of different companies.
 
-We cut through the noise and handle the hassle, so you can simply enjoy your food.
+Professional providers cut through the noise and handle the hassle, so you can simply enjoy your food.
 
-### How Our Managed Meal Service Works
+### How Managed Meal Services Work
 
-Our process is designed for total peace of mind.
+The process is designed for total peace of mind.
 
 1.  **Step 1: Your Personal Meal Plan Consultation**
-    It starts with a chat. We'll discuss your dietary needs, health goals, taste preferences, and any allergies or cultural requirements. This isn't a sales call; it's a consultation to build your perfect meal plan.
+    It starts with a chat. They'll discuss your dietary needs, health goals, taste preferences, and any allergies or cultural requirements. This isn't a sales call; it's a consultation to build your perfect meal plan.
 
 2.  **Step 2: Expert Provider Matching & Vetting**
-    Based on your plan, we select the ideal provider from our exclusive network of vetted, high-quality kitchens. We handle the entire sign-up and funding process, ensuring your NDIS or Home Care Package is used correctly and efficiently.
+    Based on your plan, they select the ideal provider from their exclusive network of vetted, high-quality kitchens. They handle the entire sign-up and funding process, ensuring your NDIS or Home Care Package is used correctly and efficiently.
 
 3.  **Step 3: Delicious Meals, Delivered to Your Door**
-    You receive your delicious, ready-to-heat meals directly to your door, as per the flexible schedule you choose. Any problems? Any feedback? You call us. We manage the relationship with the provider so you don't have to.
+    You receive your delicious, ready-to-heat meals directly to your door, as per the flexible schedule you choose. Any problems? Any feedback? You call them. They manage the relationship with the provider so you don't have to.
 
 ![A delicious, healthy pre-prepared meal, ready for delivery.](/assets/holdinglinen.webp)
 
-### Why Let MD Home Care Manage Your Meals?
+### Why Choose Meal Management Providers Through MD Home Care?
 
-#### We've Done the Research So You Don't Have To
-Our network only includes providers who meet our strict standards for food safety (HACCP accredited), nutritional value, taste, and reliability. We've vetted the best, so you get the best.
+#### They've Done the Research So You Don't Have To
+Their network only includes providers who meet their strict standards for food safety (HACCP accredited), nutritional value, taste, and reliability. They've vetted the best, so you get the best.
 
-#### We Are NDIS & HCP Funding Specialists
-We know the rules inside and out. We ensure your invoices are compliant, you get the maximum benefit from your funding, and we make this process simple and ensure the costs are clear and transparent from the start.
+#### They Are NDIS & HCP Funding Specialists
+They know the rules inside and out. They ensure your invoices are compliant, you get the maximum benefit from your funding, and they make this process simple and ensure the costs are clear and transparent from the start.
 
 #### A Single, Friendly Point of Contact
 No more chasing call centres. Whether you want to change your menu, adjust your schedule, or provide feedback, you have one friendly contact at MD Home Care to handle everything.

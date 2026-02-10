@@ -15,9 +15,9 @@ quickFacts:
 
 ## Positive Behaviour Support in {suburb}: Creating a Safer, Happier Future.
 
-Supporting a person with challenging behaviours can be stressful, isolating, and overwhelming. When you're in the middle of it, it's hard to see a way forward. We want you to know that we understand, and we're here to help families in {suburb}.
+Supporting a person with challenging behaviours can be stressful, isolating, and overwhelming. When you're in the middle of it, it's hard to see a way forward. Through MD Home Care, you can connect with specialists who understand and are here to help families in {suburb}.
 
-We believe that challenging behaviour is a form of communication. It's an expression of an unmet need. Our goal is never to simply "manage" or "control" behaviour. Instead, our **Positive Behaviour Support (PBS)** approach seeks to understand the *reason* behind the behaviour, so we can work together to find better, safer, and more positive ways for that person to get their needs met.
+Professional behaviour support practitioners believe that challenging behaviour is a form of communication. It's an expression of an unmet need. Their goal is never to simply "manage" or "control" behaviour. Instead, the **Positive Behaviour Support (PBS)** approach seeks to understand the *reason* behind the behaviour, so they can work together with you to find better, safer, and more positive ways for that person to get their needs met.
 
 ### What is Positive Behaviour Support (PBS)?
 
@@ -25,33 +25,33 @@ PBS is an evidence-based approach, recognised by the NDIS, that is focused on im
 
 The core principle is simple: when we understand why a behaviour is happening, we can teach new skills and change the environment to make the behaviour unnecessary. It's about proactive skill-building, not reactive punishment.
 
-### Our Approach: Collaborative, Respectful & Effective
+### The Approach: Collaborative, Respectful & Effective
 
-We know that you are the expert on your loved one. Our process is built on partnership with you, the participant, and your support team.
+Experienced practitioners know that you are the expert on your loved one. The process is built on partnership with you, the participant, and your support team.
 
-1.  **We Listen, We Understand:** The first and most important step is to listen. We meet with you and the participant to hear your story, understand your challenges, and learn about your goals and what a "good life" looks like to you.
-2.  **Functional Behaviour Assessment (FBA):** Our qualified Behaviour Support Practitioner will conduct a comprehensive assessment to understand the purpose of the behaviour. This involves observation and data analysis to uncover the underlying needs.
-3.  **Develop a Positive Behaviour Support Plan (PBSP):** Based on the assessment, we create a practical, easy-to-understand plan. This isn't just a document to file away; it's a step-by-step guide for family and support workers on how to proactively support the person, teach new skills, and respond safely if challenging situations arise.
-4.  **Training & Support:** A plan is only useful if everyone knows how to use it. We provide hands-on training and ongoing support to ensure everyone involved feels confident and capable of implementing the strategies effectively.
+1.  **Listen and Understand:** The first and most important step is to listen. Practitioners meet with you and the participant to hear your story, understand your challenges, and learn about your goals and what a "good life" looks like to you.
+2.  **Functional Behaviour Assessment (FBA):** Qualified Behaviour Support Practitioners conduct a comprehensive assessment to understand the purpose of the behaviour. This involves observation and data analysis to uncover the underlying needs.
+3.  **Develop a Positive Behaviour Support Plan (PBSP):** Based on the assessment, they create a practical, easy-to-understand plan. This isn't just a document to file away; it's a step-by-step guide for family and support workers on how to proactively support the person, teach new skills, and respond safely if challenging situations arise.
+4.  **Training & Support:** A plan is only useful if everyone knows how to use it. Practitioners provide hands-on training and ongoing support to ensure everyone involved feels confident and capable of implementing the strategies effectively.
 
-### Who We Help
+### Who Benefits From These Services
 
-Our NDIS Behaviour Support services in {suburb} are for:
+NDIS Behaviour Support services available through MD Home Care in {suburb} are for:
 *   **NDIS Participants** with challenging behaviours.
 *   **Families and Carers** who are seeking a more positive and less stressful home environment.
 *   **Support Coordinators** looking for a reliable, compassionate, and registered provider for their clients.
 
 ### The Goal is a Better Quality of Life
 
-The ultimate aim of Positive Behaviour Support is to make life better for everyone. By reducing challenging behaviours, we can help improve relationships, increase community participation, build new skills, and create a safer, happier, and more predictable environment for the participant and those who support them.
+The ultimate aim of Positive Behaviour Support is to make life better for everyone. By reducing challenging behaviours, skilled practitioners can help improve relationships, increase community participation, build new skills, and create a safer, happier, and more predictable environment for the participant and those who support them.
 
-**If you're ready to explore a more positive approach, let's talk. Contact us for a confidential, no-obligation chat with a {suburb} Behaviour Support Specialist.**
+**If you're ready to explore a more positive approach, connect with experienced practitioners through MD Home Care for a confidential, no-obligation chat with a {suburb} Behaviour Support Specialist.**
 
 **[Talk to a Behaviour Support Specialist](/contact)**
 
 ## Comprehensive Behaviour Support Services {suburb}
 
-Our experienced {suburb} **behaviour support team** provides:
+Experienced {suburb} **behaviour support practitioners** through MD Home Care provide:
 
 - **Functional Behaviour Assessments**: Identifying the purpose and triggers of behaviours of concern
 - **Positive Behaviour Support Plans**: Developing personalized strategies to address challenging behaviours

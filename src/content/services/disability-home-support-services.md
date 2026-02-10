@@ -16,11 +16,11 @@ quickFacts:
 
 # Disability Home Care & Support Services {suburb}
 
-Our disability home care and support services provide personalized assistance to individuals with disabilities living in {suburb}, enabling them to maintain independence and comfort in their own homes. We focus on delivering flexible, responsive **disability home support** tailored to each person's unique needs and preferences.
+Disability home care and support providers through MD Home Care offer personalized assistance to individuals with disabilities living in {suburb}, enabling them to maintain independence and comfort in their own homes. These providers focus on delivering flexible, responsive **disability home support** tailored to each person's unique needs and preferences.
 
 ## In-Home Disability Care {suburb}
 
-We offer comprehensive **disability home care services** throughout {suburb} and surrounding areas, including:
+Find comprehensive **disability home care services** throughout {suburb} and surrounding areas, including:
 
 - **Personal Care Assistance**: Support with bathing, grooming, dressing, toileting, and personal hygiene routines
 - **Medication Management**: Reminders and assistance with medication schedules
@@ -33,7 +33,7 @@ We offer comprehensive **disability home care services** throughout {suburb} and
 
 ## Disability Home Support Services {suburb}
 
-Our **disability home support** extends beyond basic care to enhance quality of life:
+**Disability home support** available through MD Home Care extends beyond basic care to enhance quality of life:
 
 - **Community Access**: Support to participate in {suburb} community activities and events
 - **Social Engagement**: Companionship and assistance maintaining social connections

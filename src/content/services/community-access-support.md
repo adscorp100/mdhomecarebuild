@@ -17,20 +17,20 @@ quickFacts:
 
 Living a full and vibrant life means being a part of your community in {suburb}. It's visiting friends, going to the library, attending appointments, or simply enjoying a coffee at your favourite local cafe. But for many NDIS participants, getting out and about can be challenging.
 
-We believe Community Access Support is about much more than just transport. It's about having a reliable, friendly, and compassionate {suburb}-based person by your side, empowering you to connect with your community and do the things you love, safely and confidently.
+Quality providers believe Community Access Support is about much more than just transport. It's about having a reliable, friendly, and compassionate {suburb}-based person by your side, empowering you to connect with your community and do the things you love, safely and confidently.
 
 ### The Right {suburb} Support Worker Makes All the Difference
 
-The quality of your experience depends entirely on the quality of your support worker. We don't just provide a driver; we provide a trusted partner from the {suburb} area. We build our team around the qualities that matter most to you.
+The quality of your experience depends entirely on the quality of your support worker. Providers through MD Home Care don't just offer a driver; they provide a trusted partner from the {suburb} area. They build their teams around the qualities that matter most to you.
 
-*   **Patient & Compassionate Companions:** We take the time to understand your personality and interests to match you with a support worker you can genuinely connect with. This is about building a friendly, professional relationship.
-*   **Reliable & Consistent Support:** We know how important a familiar face is. We prioritize consistency in our {suburb} support staff, so you can build trust and rapport, and don't have to worry about who is showing up.
-*   **Trained & Vetted Professionals:** Your safety is our priority. Every {suburb}-based support worker has the necessary qualifications (like a Certificate III in Individual Support), has passed a comprehensive NDIS Worker Screening Check, and is fully insured.
-*   **Focused on Your Goals:** This is your life and your plan. Our role is to help you achieve what *you* want to do. We work with you to plan outings and activities that align with your NDIS goals and personal interests.
+*   **Patient & Compassionate Companions:** Providers take the time to understand your personality and interests to match you with a support worker you can genuinely connect with. This is about building a friendly, professional relationship.
+*   **Reliable & Consistent Support:** Quality providers know how important a familiar face is. They prioritize consistency in their {suburb} support staff, so you can build trust and rapport, and don't have to worry about who is showing up.
+*   **Trained & Vetted Professionals:** Your safety is their priority. Every {suburb}-based support worker has the necessary qualifications (like a Certificate III in Individual Support), has passed a comprehensive NDIS Worker Screening Check, and is fully insured.
+*   **Focused on Your Goals:** This is your life and your plan. Their role is to help you achieve what *you* want to do. They work with you to plan outings and activities that align with your NDIS goals and personal interests.
 
-### What Can We Do Together in {suburb}?
+### What Can You Do Together in {suburb}?
 
-Our Community Access and Participation support is tailored to you. We can help you with:
+Community Access and Participation support is tailored to you. Support workers can help you with:
 
 *   **Attending Medical Appointments:** Get to your {suburb} GP, specialist, or therapy appointments without stress.
 *   **Social Outings:** Visit friends and family, go to the movies, or join a local club.
@@ -38,7 +38,7 @@ Our Community Access and Participation support is tailored to you. We can help y
 *   **Hobbies & Interests:** Attend a class, go to the gym, visit the {suburb} library, or participate in a favourite hobby.
 *   **Community Events:** Enjoy local {suburb} festivals, markets, and community gatherings.
 
-Whatever your goals are for getting out into the community in {suburb}, we are here to make it happen.
+Whatever your goals are for getting out into the community in {suburb}, experienced providers through MD Home Care are here to make it happen.
 
 ## Frequently Asked Questions
 
@@ -46,17 +46,17 @@ Whatever your goals are for getting out into the community in {suburb}, we are h
 Transport simply gets you from A to B. Community Access provides a support worker who stays with you throughout your outing, providing assistance, companionship, and support with whatever you're doing. They help you participate fully in activities, not just arrive at them.
 
 **Can I use Community Access for regular activities like gym or swimming?**
-Absolutely. Many of our clients use Community Access to maintain regular fitness routines, hobbies, and social activities. We can support you at the gym, pool, yoga class, art groups, or any regular activity that helps you achieve your goals.
+Absolutely. Many clients use Community Access to maintain regular fitness routines, hobbies, and social activities. Support workers can help you at the gym, pool, yoga class, art groups, or any regular activity that helps you achieve your goals.
 
 **What if I need help with communication or have complex needs?**
-Our support workers are trained to work with clients who have a range of communication needs, including those using communication devices, Auslan, or visual supports. During our intake process, we match you with a support worker who has the right skills and experience for your specific needs.
+Support workers are trained to work with clients who have a range of communication needs, including those using communication devices, Auslan, or visual supports. During the intake process, providers match you with a support worker who has the right skills and experience for your specific needs.
 
 **Is Community Access covered under my NDIS plan?**
-Yes. Community Access typically falls under Core Supports - Assistance with Social and Community Participation. If you have funding in this category, you can use it for our services. We can help you understand your plan and budget allocation.
+Yes. Community Access typically falls under Core Supports - Assistance with Social and Community Participation. If you have funding in this category, you can use it for these services. Providers can help you understand your plan and budget allocation.
 
 **Can I choose what activities we do?**
 Yes, this is your support and your life. You choose the activities based on your interests and NDIS goals. Whether it's visiting a museum, attending a sporting event, or just grabbing coffee with a friend, we support what matters to you.
 
-**Ready to get out and about in {suburb} with a support worker you can rely on? Let's find the right person for you.**
+**Ready to get out and about in {suburb} with a support worker you can rely on? Find the right person for you through MD Home Care.**
 
 **[Find Your Ideal {suburb} Support Worker Today](/contact)**

@@ -17,7 +17,7 @@ quickFacts:
 
 Managing the financial side of your NDIS plan shouldn't be a source of stress. The invoices, the payments, the NDIS portal, the price guide rules—it's a lot to handle on your own. You deserve to focus on your goals, not paperwork.
 
-MD Home Care provides professional plan management services in {suburb}. We handle all the financial administration of your NDIS plan, giving you complete freedom to choose any provider while we take care of the rest.
+MD Home Care connects you with professional plan management providers in {suburb}. They handle all the financial administration of your NDIS plan, giving you complete freedom to choose any provider while they take care of the rest.
 
 ### The Problem: NDIS Admin is Overwhelming
 

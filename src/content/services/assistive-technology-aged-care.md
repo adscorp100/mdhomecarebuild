@@ -52,11 +52,11 @@ An **Occupational Therapist (OT)** can visit your {suburb} home, understand your
 
 Yes. Many of these items, especially those related to safety and daily living, can be funded through a **Home Care Package (HCP)** or your **NDIS plan**. An assessment by an OT is often the first step to getting this funding approved.
 
-**Ready to explore your options? Contact us to book an in-home assessment with a qualified professional in {suburb}.**
+**Ready to explore your options? Find qualified professionals through MD Home Care to book an in-home assessment in {suburb}.**
 
-## Why Choose Our Assistive Technology Services in {suburb}
+## Why Choose Assistive Technology Providers Through MD Home Care in {suburb}
 
-Our services stand out in {suburb} because we offer:
+Providers in our network stand out in {suburb} because they offer:
 
 - **Aging Expertise**: Specialized knowledge of seniors' technology needs
 - **Independent Advice**: Unbiased recommendations based on your specific situation
@@ -66,9 +66,9 @@ Our services stand out in {suburb} because we offer:
 - **Ongoing Support**: Continuing assistance as you adapt to new technology
 - **Future-Proofing**: Consideration of progressive needs and technology updates
 
-### Our Assistive Technology Service Process
+### Assistive Technology Service Process
 
-When working with seniors in {suburb}, we follow a thorough process:
+When working with seniors in {suburb}, quality providers follow a thorough process:
 
 - **Initial Consultation**: Discussion of your challenges and goals
 - **Comprehensive Assessment**: Evaluation of your needs, abilities, and home environment
@@ -78,4 +78,4 @@ When working with seniors in {suburb}, we follow a thorough process:
 - **Training**: Instruction on effective use of your new technology
 - **Follow-up Support**: Ongoing assistance and adjustments as required
 
-Contact us today to discuss how assistive technology can enhance your independence, safety, and quality of life in your {suburb} home. 
+Connect with experienced providers through MD Home Care today to discuss how assistive technology can enhance your independence, safety, and quality of life in your {suburb} home. 

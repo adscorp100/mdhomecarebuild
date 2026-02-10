@@ -16,11 +16,11 @@ quickFacts:
 
 ## House Cleaning for Aged Care in {suburb}
 
-Our specialized house cleaning services help older residents in {suburb} maintain clean, hygienic, and comfortable homes without the physical strain of household chores. Our experienced, trustworthy cleaners understand the specific needs of seniors and provide respectful, thorough cleaning tailored to individual preferences.
+Specialized house cleaning providers through MD Home Care help older residents in {suburb} maintain clean, hygienic, and comfortable homes without the physical strain of household chores. Experienced, trustworthy cleaners understand the specific needs of seniors and provide respectful, thorough cleaning tailored to individual preferences.
 
 ### Comprehensive House Cleaning Services in {suburb}
 
-Our experienced {suburb} cleaning team provides assistance with:
+Experienced {suburb} cleaning teams provide assistance with:
 
 - **Regular Cleaning**: Dusting, vacuuming, mopping, and surface cleaning
 - **Kitchen Cleaning**: Countertops, appliances, cabinets, and sink sanitization

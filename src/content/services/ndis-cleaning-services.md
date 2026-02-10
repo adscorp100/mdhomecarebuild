@@ -15,11 +15,11 @@ quickFacts:
 
 # NDIS Cleaning Services {suburb} - Professional Domestic Assistance
 
-MD Homecare provides comprehensive **NDIS cleaning services** in {suburb} as part of our domestic assistance and household support programs. Our qualified support workers help NDIS participants maintain clean, safe, and comfortable homes while building independence and life skills.
+MD Home Care connects you with comprehensive **NDIS cleaning services** in {suburb} as part of domestic assistance and household support programs. Qualified support workers help NDIS participants maintain clean, safe, and comfortable homes while building independence and life skills.
 
 ## NDIS Cleaning Services {suburb}
 
-Our **NDIS cleaning services** in {suburb} are designed to support participants in maintaining their homes and developing essential household management skills.
+**NDIS cleaning services** in {suburb} through MD Home Care are designed to support participants in maintaining their homes and developing essential household management skills.
 
 ### Core NDIS Cleaning Services
 

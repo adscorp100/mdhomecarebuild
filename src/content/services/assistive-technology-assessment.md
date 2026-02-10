@@ -29,7 +29,7 @@ In {suburb}, these assessments are typically carried out by a university-qualifi
 
 ### The Assessment Process: A Step-by-Step Guide
 
-Our {suburb}-based process is designed to be friendly, thorough, and all about you. Here's what you can expect:
+The {suburb}-based assessment process is designed to be friendly, thorough, and all about you. Here's what you can expect:
 
 **Step 1: The Initial Chat**
 The assessment begins with a conversation. The OT will want to understand what's important to you. What do you want to achieve? What tasks have become difficult or frustrating? What are your daily routines? This helps set the goals for the assessment.

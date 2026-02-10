@@ -15,11 +15,11 @@ quickFacts:
 
 ## Complex Care Services in {suburb}
 
-Our complex care services in {suburb} provide specialized support for individuals with multiple, complex, or high-level care needs. Our highly trained healthcare professionals deliver comprehensive, coordinated care that addresses a wide range of physical, medical, and psychosocial requirements, enabling individuals with complex needs to receive quality care in the comfort of their own homes.
+Complex care providers through MD Home Care in {suburb} offer specialized support for individuals with multiple, complex, or high-level care needs. Highly trained healthcare professionals deliver comprehensive, coordinated care that addresses a wide range of physical, medical, and psychosocial requirements, enabling individuals with complex needs to receive quality care in the comfort of their own homes.
 
 ### Comprehensive Complex Care Services in {suburb}
 
-Our experienced {suburb} complex care team provides:
+Experienced {suburb} complex care teams provide:
 
 - **High-Level Clinical Care**: Advanced nursing care for complex medical conditions
 - **Ventilator Management**: Support for individuals requiring respiratory assistance
