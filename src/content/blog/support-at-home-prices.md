@@ -13,7 +13,7 @@ popupSubtitle: "Find aged care specialists who can help you navigate the new pro
 
 The Australian aged care landscape is changing. From 1 November 2025, the new Support at Home program will begin replacing the existing Home Care Packages (HCP) Program and the Short-Term Restorative Care (STRC) Programme. For a comprehensive overview of the new system, see our [complete guide to the Support at Home Program](/blog/support-at-home-program-complete-guide). If you or a loved one receive in-home care, understanding the potential costs under this new system is crucial.
 
-Recently, the government released a summary of indicative prices for various Support at Home services, based on a survey of current HCP providers conducted in February 2025 and published on 24 March 2025.
+Recently, the government released a summary of indicative prices for various Support at Home services, based on a survey of current HCP providers conducted in February 2025 and published on 13 October 2025.
 
 What does "indicative" mean? These are not fixed prices, price caps, or official recommendations. They are estimates showing the range of prices providers expect to charge when the program starts. Think of them as a market guide to help you compare.
 
@@ -113,7 +113,7 @@ Here are the indicative price ranges reported by surveyed providers.
 | Meal delivery | Meal | $15 | $11 | $22 |
 | Meal preparation | Hour | $97 | $82 | $110 |
 
-(Source: Dept. of Health and Aged Care, Summary of indicative Support at Home prices, 24 March 2025)
+(Source: Dept. of Health and Aged Care, Summary of indicative Support at Home prices, 13 October 2025)
 
 ## What if My Provider's Prices Seem High?
 

@@ -343,4 +343,4 @@ Contact your current provider about transition processes, research new providers
 ### What's the best way to compare NDIS providers in Melbourne?
 Compare providers based on compliance, transparent pricing, service availability, specialization alignment with your needs, geographic coverage, and participant feedback.
 
-*This guide was last updated on December 15, 2026, to reflect the latest NDIS provider landscape and pricing (PAPL 2025-26 v1.1) in Melbourne.*
+*This guide was last updated on December 15, 2025, to reflect the latest NDIS provider landscape and pricing (PAPL 2025-26 v1.1) in Melbourne.*

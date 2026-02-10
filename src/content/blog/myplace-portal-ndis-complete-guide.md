@@ -281,7 +281,7 @@ The NDIS is progressively transitioning to new systems. Here's what you need to 
 
 For providers (and relevant to participants working with providers):
 - **PRODA** (Provider Digital Access) is being replaced with **myID** and **Relationship Authorisation Manager (RAM)**
-- Providers need to complete this transition by **10 November 2025** to maintain portal access
+- Providers need to complete this transition by **10 November 2026** to maintain portal access
 - This may affect how providers interact with your plan
 
 ### What This Means for You

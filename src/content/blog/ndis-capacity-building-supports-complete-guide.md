@@ -304,7 +304,7 @@ This is often the largest Capacity Building category, funding therapy and daily 
 
 > **Related:** See our detailed [CB Daily Activity Guide](/blog/ndis-improved-daily-living-cb-daily-activity-guide) for line item codes and examples.
 
-For families with children under 9, it is worth noting that the Australian Government's Thriving Kids program (starting October 2025) will provide an alternative pathway for children with low to moderate developmental needs. Capacity building therapies like OT, speech pathology, and psychology will remain central to early childhood support, whether funded through the NDIS or through the new Thriving Kids program.
+For families with children under 9, it is worth noting that the Australian Government's Thriving Kids program (starting October 2026) will provide an alternative pathway for children with low to moderate developmental needs. Capacity building therapies like OT, speech pathology, and psychology will remain central to early childhood support, whether funded through the NDIS or through the new Thriving Kids program.
 
 ---
 

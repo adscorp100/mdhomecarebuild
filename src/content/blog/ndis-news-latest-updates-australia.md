@@ -69,7 +69,7 @@ If you have experienced unexpected reductions to your NDIS plan, you have the ri
 
 ### The NDIS Support Lists Transition Has Ended
 
-One of the most significant changes affecting participants is the end of the 12-month transition period for the NDIS Support Lists, which concluded on **2 October 2026**.
+One of the most significant changes affecting participants is the end of the 12-month transition period for the NDIS Support Lists, which concluded on **2 October 2025**.
 
 **What changed:**
 - Since October 2024, the NDIA introduced formal Support Lists that clearly define what can and cannot be purchased with NDIS funding
@@ -77,7 +77,7 @@ One of the most significant changes affecting participants is the end of the 12-
 - During the transition period, the NDIA didn't raise debts for first or second purchases of non-NDIS supports under $1,500
 
 **What this means now:**
-- From 3 October 2026, debts may be raised for any purchase that isn't on the approved NDIS supports list, regardless of the amount
+- From 3 October 2025, debts may be raised for any purchase that isn't on the approved NDIS supports list, regardless of the amount
 - All claims must use updated support item codes, legacy item numbers are no longer accepted
 - Participants should review their current supports to ensure everything aligns with the new lists
 
@@ -225,7 +225,7 @@ Browse professionals on MD Home Care with over 10 years of experience supporting
 
 ### What is the biggest NDIS change in 2026?
 
-The launch of the **Thriving Kids** program is arguably the most significant NDIS-related change in 2026. This $4 billion initiative will move children under 9 with low to moderate developmental needs off the NDIS and into a new support system starting October 2026. The end of the Support Lists transition period on 2 October 2026 is also a major change, as the NDIA can now raise debts for purchases that aren't approved NDIS supports.
+The launch of the **Thriving Kids** program is arguably the most significant NDIS-related change in 2026. This $4 billion initiative will move children under 9 with low to moderate developmental needs off the NDIS and into a new support system starting October 2026. The end of the Support Lists transition period on 2 October 2025 is also a major change, as the NDIA can now raise debts for purchases that aren't approved NDIS supports.
 
 ### Are NDIS prices going up or down in 2025-26?
 

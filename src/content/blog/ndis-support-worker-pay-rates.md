@@ -14,7 +14,7 @@ ChatGPT can tell you the NDIS price limits, but it can't show you which provider
 
 Understanding NDIS support worker pay rates can be confusing. There are three different rates you need to know: what the NDIS pays providers (the Price Guide), what providers must pay workers (the SCHADS Award), and what workers actually take home. Whether you're a support worker, NDIS carer, or participant, this guide covers everything you need to know.
 
-This guide reflects the NDIS Pricing Arrangements and Price Limits 2025-26 v1.1, effective 24 November 2025, and the 3.5% SCHADS Award increase from 1 July 2025. It breaks down all the rates for 2025-26, including public holiday penalty rates, night shift loadings, and real-world earnings for different scenarios.
+This guide reflects the NDIS Pricing Arrangements and Price Limits 2025-26 v1.1, effective 23 November 2026, and the 3.5% SCHADS Award increase from 1 July 2025. It breaks down all the rates for 2025-26, including public holiday penalty rates, night shift loadings, and real-world earnings for different scenarios.
 
 ## Quick Answer: NDIS Support Worker Pay Rates 2026
 
@@ -49,7 +49,7 @@ From 1 July 2025, all disability support workers covered by the SCHADS Award rec
 
 ### NDIS Price Limit Update (November 2025)
 
-The NDIS Pricing Arrangements and Price Limits 2025-26 v1.1, effective 24 November 2025, includes updated price limits for disability support worker services.
+The NDIS Pricing Arrangements and Price Limits 2025-26 v1.1, effective 23 November 2026, includes updated price limits for disability support worker services.
 
 **Key points:**
 - Standard support weekday rate increased to $70.23/hr (up from $67.56/hr)
@@ -265,41 +265,41 @@ NDIS public holiday rates (225-250% of base) apply on these dates. These are the
 
 | Holiday | Date | Notes |
 |---------|------|-------|
-| New Year's Day | 1 January 2025 | Wednesday |
+| New Year's Day | 1 January 2026 | Wednesday |
 | Australia Day | 27 January 2025 | Monday (observed) |
-| Good Friday | 18 April 2025 | Friday |
+| Good Friday | 18 April 2026 | Friday |
 | Easter Saturday | 19 April 2025 | Saturday |
-| Easter Monday | 21 April 2025 | Monday |
-| Anzac Day | 25 April 2025 | Friday |
+| Easter Monday | 21 April 2026 | Monday |
+| Anzac Day | 25 April 2026 | Friday |
 | Queen's Birthday | Varies by state | See below |
-| Christmas Day | 25 December 2025 | Thursday |
-| Boxing Day | 26 December 2025 | Friday |
+| Christmas Day | 25 December 2026 | Thursday |
+| Boxing Day | 26 December 2026 | Friday |
 
 ### National Public Holidays 2026
 
 | Holiday | Date | Notes |
 |---------|------|-------|
-| New Year's Day | 1 January 2025 | Thursday |
-| Australia Day | 26 January 2025 | Monday |
+| New Year's Day | 1 January 2026 | Thursday |
+| Australia Day | 26 January 2026 | Monday |
 | Good Friday | 3 April 2025 | Friday |
 | Easter Saturday | 4 April 2025 | Saturday |
 | Easter Monday | 6 April 2025 | Monday |
 | Anzac Day | 27 April 2025 | Monday (observed) |
-| Christmas Day | 25 December 2025 | Friday |
+| Christmas Day | 25 December 2026 | Friday |
 | Boxing Day | 28 December 2025 | Monday (observed) |
 
 ### Queen's Birthday 2026-2026 by State
 
-| State | 2026 Date | 2026 Date |
+| State | 2025 Date | 2026 Date |
 |-------|-----------|-----------|
-| ACT, NSW, NT, SA, TAS, VIC | 9 June 2025 | 8 June 2025 |
-| Queensland | 6 October 2025 | 5 October 2025 |
-| Western Australia | 23 September 2025 | 28 September 2025 |
+| ACT, NSW, NT, SA, TAS, VIC | 8 June 2025 | 9 June 2026 |
+| Queensland | 6 October 2025 | 5 October 2026 |
+| Western Australia | 23 September 2025 | 28 September 2026 |
 
 ### State-Specific Public Holidays
 
 **Victoria:**
-- Melbourne Cup Day: First Tuesday in November (4 November 2025)
+- Melbourne Cup Day: First Tuesday in November (3 November 2026)
 - AFL Grand Final Friday: Friday before Grand Final (26 September 2025)
 
 **Queensland:**
@@ -508,4 +508,4 @@ Through MD Home Care, you can connect with providers who prioritize transparent 
 
 ---
 
-*This guide reflects NDIS Pricing Arrangements and Price Limits 2025-26 v1.1 (effective 24 November 2025) and SCHADS Award rates. Rates are updated periodically. Check the current NDIS Price Guide and Fair Work website for the latest figures.*
+*This guide reflects NDIS Pricing Arrangements and Price Limits 2025-26 v1.1 (effective 23 November 2026) and SCHADS Award rates. Rates are updated periodically. Check the current NDIS Price Guide and Fair Work website for the latest figures.*

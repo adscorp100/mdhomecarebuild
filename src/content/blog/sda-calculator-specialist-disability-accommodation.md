@@ -16,7 +16,7 @@ image: "/assets/carer.webp"
 **Major Changes for 2025-26:**
 - **New SDA price limits** effective July 1, 2025 with increases across all design categories
 - **High Physical Support (HPS)** maximum annual funding now up to **$117,520** for new-build apartments
-- **Reasonable rent contribution** capped at 25% of DSP (approximately **$247/week** in 2026)
+- **Reasonable rent contribution** capped at 25% of DSP (approximately **$147/week** in 2026)
 - **Location band adjustments** - Metro, Regional, and Remote pricing tiers updated
 - **New SDA Design Standard** compliance requirements for all new builds
 
@@ -38,7 +38,7 @@ image: "/assets/carer.webp"
 
 - SDA funding is based on three main factors: design category, location band, and building type
 - The NDIS sets maximum annual funding limits (price caps) - providers cannot charge more
-- Participants pay a reasonable rent contribution of approximately 25% of their Disability Support Pension ($247/week in 2026)
+- Participants pay a reasonable rent contribution of approximately 25% of their Disability Support Pension ($147/week in 2026)
 - SDA funding is separate from Supported Independent Living (SIL) - you may receive both
 - Annual SDA funding ranges from approximately $15,000 (basic) to over $117,000 (High Physical Support new-build)
 
@@ -90,10 +90,10 @@ Net Annual Funding = Maximum SDA Price Limit - Reasonable Rent Contribution
 ```
 
 **Reasonable Rent Contribution (2025-26):**
-- DSP fortnightly rate: $1,977.90
-- Annual DSP: $51,425
-- 25% of DSP (annual): **$12,856**
-- Weekly contribution: **~$247**
+- DSP fortnightly rate: $1,178.70
+- Annual DSP: $30,646
+- 25% of DSP (annual): **$7,662**
+- Weekly contribution: **~$147**
 
 **Example Calculation:**
 
@@ -103,7 +103,7 @@ Net Annual Funding = Maximum SDA Price Limit - Reasonable Rent Contribution
 | Building Type | 1-bedroom Apartment (New-build) |
 | Location | Metro (Sydney) |
 | Maximum Annual Funding | $94,170 |
-| Less: Rent Contribution | -$12,856 |
+| Less: Rent Contribution | -$7,662 |
 | **Net Funding to Provider** | **$81,314/year** |
 | Weekly Provider Payment | $1,564 |
 
@@ -399,7 +399,7 @@ SDA funding ranges from approximately $35,000 to $117,000 per year depending on 
 
 ### Do I have to pay rent if I have SDA funding?
 
-Yes, participants pay a reasonable rent contribution of approximately 25% of the Disability Support Pension - about $247 per week or $12,856 per year in 2026. This amount is deducted from your SDA funding.
+Yes, participants pay a reasonable rent contribution of approximately 25% of the Disability Support Pension - about $147 per week or $7,662 per year in 2026. This amount is deducted from your SDA funding.
 
 ### Can I choose where I live with SDA?
 

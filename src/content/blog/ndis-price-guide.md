@@ -132,7 +132,7 @@ The latest NDIS Price Guide for 2025-26, released in July 2025, introduced sever
 - **Physiotherapy** rates maintained at $183.99/hour (capped)
 
 #### Administrative Changes
-- **New "funding periods"** introduced in NDIS plans (effective May 19, 2026)
+- **New "funding periods"** introduced in NDIS plans (effective May 19, 2025)
 - Updated short-notice cancellation rules
 - Streamlined support item categorization
 - Enhanced compliance requirements for providers

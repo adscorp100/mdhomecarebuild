@@ -14,7 +14,7 @@ image: "/assets/carer.webp"
 ## Key Updates: NDIS Invoicing Requirements December 2025
 
 **Major Changes for 2025-26:**
-- **Claim window extended to 2 years** from service date (effective October 3, 2026)
+- **Claim window extended to 2 years** from service date (effective October 3, 2025)
 - **New PAPL v1.1 released** November 24, 2026 with 12 new support item codes
 - **Therapy moved to Capacity Building** - can no longer be claimed under Core budget
 - **Travel and service time** must be shown separately on invoices
@@ -471,7 +471,7 @@ Yes, the NDIA provides free invoice templates on the Provider Portal. You can al
 Most NDIS supports are GST-free, so you show GST as $0.00 and include a statement like "This invoice is GST-free under NDIS Pricing Arrangements." However, you must still display your ABN. Some services like transport may be GST-applicable.
 
 ### How long do I have to submit an NDIS invoice?
-As of October 3, 2026, you have **2 years** from the service delivery date to submit claims. For NDIA-managed participants, payment requests should be lodged within 90 days of the service booking end date.
+As of October 3, 2025, you have **2 years** from the service delivery date to submit claims. For NDIA-managed participants, payment requests should be lodged within 90 days of the service booking end date.
 
 ### What is the most common reason NDIS invoices are rejected?
 Incorrect or outdated support item codes are the #1 cause of rejections. Always use codes from the current 2025-26 NDIS Support Catalogue and ensure time-of-day variations (weekday, weekend, public holiday) are correct.

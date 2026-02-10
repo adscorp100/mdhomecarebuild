@@ -332,7 +332,7 @@ Here's when Melbourne school holidays fall in 2026:
 
 | Holiday Period | Dates | Registration Opens (approx) |
 |----------------|-------|----------------------------|
-| **Term 1 break** | April 3-19, 2026 | October-November 2025 |
+| **Term 1 break** | April 3-17, 2026 | October-November 2025 |
 | **Term 2 break** | June 27 - July 12, 2026 | February-March 2025 |
 | **Term 3 break** | September 19 - October 4, 2026 | May-June 2025 |
 | **Summer holidays** | December 19, 2026 - January 31, 2027 | August-September 2025 |
