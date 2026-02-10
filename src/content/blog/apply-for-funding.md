@@ -2,6 +2,7 @@
 title: "How to Apply for In Home Supportive Services: NDIS Funding Guide"
 description: "Learn how to apply for in home support services through the NDIS with our comprehensive step-by-step guide covering eligibility, application process, and special considerations."
 pubDate: 2025-02-24
+updatedAt: 2026-02-10
 author: "Camila"
 tags: []
 popupTitle: "Ready to Apply for NDIS Funding?"
@@ -80,6 +81,7 @@ To apply for the NDIS, you must:
 - Early childhood partners provide tailored support
 - Focus on developmental delays and disabilities
 - Families should discuss concerns with health professionals ([Get Help Applying](https://www.ndis.gov.au/applying-access-ndis/how-apply/get-help-applying))
+- From January 2028, children under 9 with low to moderate needs may be supported through the new Thriving Kids program instead of the NDIS. Thriving Kids will not require a formal diagnosis. Children with high support needs will still enter the NDIS. Ask your Early Childhood Partner about which pathway is right for your family.
 
 ### Elderly Applicants
 - Generally directed to My Aged Care

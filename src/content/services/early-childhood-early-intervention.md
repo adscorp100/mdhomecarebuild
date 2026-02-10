@@ -2,6 +2,7 @@
 title: "Early Childhood Intervention in {suburb}"
 description: "Connecting families in {suburb} with early childhood services and supports to help children under 9 with developmental delay or disability reach their full potential."
 pubDate: 2025-02-23
+updatedAt: 2026-02-10
 category: "Early Childhood"
 image: "/assets/ndis-services-intellectual-disability-2-woman-smiling-hugging.webp"
 
@@ -63,6 +64,12 @@ Research shows that early intervention during critical developmental periods can
 - Strengthen family capacity to support their child
 - Promote inclusion in the broader community
 - Potentially reduce the need for intensive supports later in life
+
+## The Thriving Kids Program and Early Childhood Services
+
+From October 2026, the Australian Government's [Thriving Kids program](https://www.health.gov.au/our-work/thriving-kids) will create a new pathway for children under 9 with low to moderate autism or developmental delay. Funded at $4 billion over five years (split between Commonwealth and state governments), Thriving Kids will operate alongside the NDIS rather than replacing it. Children with high support needs will continue to access the NDIS, and children already on the NDIS will remain on their current plans.
+
+A key difference is that Thriving Kids will not require a formal diagnosis to access services, making it easier for families to get early support. Full rollout is expected by January 2028. For families in {suburb} considering early childhood intervention, this means there will soon be two pathways available: the NDIS Early Childhood Approach for children with significant disability, and Thriving Kids for those with lower support needs. We recommend speaking with your Early Childhood Partner about which pathway best suits your child's situation.
 
 ## Need Support for Your Family in {suburb}?
 

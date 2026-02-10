@@ -7,13 +7,12 @@ tags: ["NDIS Pay Rates", "NDIS Price Guide", "Support Worker", "SCHADS Award", "
 popupTitle: "Confused About NDIS Pricing?"
 popupSubtitle: "Find providers with transparent rates and quality care"
 image: "/assets/carer.webp"
+updatedAt: 2026-02-10
 ---
 
 Understanding NDIS support worker pay rates can be confusing. There's a difference between what the NDIS pays providers (the Price Guide), what providers must pay workers (the SCHADS Award), and what workers actually take home. Whether you're a support worker, NDIS carer (another common term for support workers), or participant, this guide covers everything you need to know.
 
-> **Latest Update (November 2026):** This guide reflects the NDIS Pricing Arrangements and Price Limits 2026-26 v1.1, effective 24 November 2026.
-
-This guide breaks down all the rates for 2026-26, including the November 2026 price updates, public holiday penalty rates, night shift loadings, and real-world earnings for different scenarios.
+This guide reflects the NDIS Pricing Arrangements and Price Limits 2026-26 v1.1, effective 24 November 2026, and the 3.5% SCHADS Award increase from 1 July 2025. It breaks down all the rates for 2026-26, including public holiday penalty rates, night shift loadings, and real-world earnings for different scenarios.
 
 ## NDIS Support Worker Pay Rates 2026-26 (Quick Summary)
 
@@ -30,9 +29,15 @@ The amount an NDIS support worker (or NDIS carer) gets paid depends on their cla
 
 ## What Is the NDIS Hourly Rate for Support Workers in 2026?
 
-The current NDIS price limit for standard support work is **$70.23 per hour** on weekdays (as of November 2026). This is the maximum providers can charge participants—not what workers receive. Workers typically earn between $30-$45/hr depending on their level, with the rest covering provider overheads.
+The current NDIS price limit for standard support work is **$70.23 per hour** on weekdays (as of November 2026). This is the maximum providers can charge participants, not what workers receive. Workers typically earn between $30-$45/hr depending on their level, with the rest covering provider overheads.
 
-## NDIS Pay Rate Changes November 2026
+## Recent Pay Rate Changes
+
+### SCHADS Award Increase (July 2025)
+
+From 1 July 2025, all disability support workers covered by the SCHADS Award received a **3.5% wage increase**, as determined by the Fair Work Commission Annual Wage Review. This increase applied to all classification levels and flows through to penalty rates, overtime, and allowances. The 3.5% rise was consistent with broader minimum wage movements and reflected the growing demand for qualified disability support workers across Australia.
+
+### NDIS Price Limit Update (November 2026)
 
 The NDIS Pricing Arrangements and Price Limits 2026-26 v1.1, effective 24 November 2026, includes updated price limits for disability support worker services.
 
@@ -57,7 +62,7 @@ The gap between these rates covers provider overheads: superannuation, insurance
 
 ## NDIS Price Guide Rates 2026-26 (What Participants Pay)
 
-These are the **maximum hourly rates** providers can charge under the NDIS as of November 2026. They're national rates—the same in QLD, VIC, NSW, and all other states.
+These are the **maximum hourly rates** providers can charge under the NDIS as of November 2026. They're national rates, the same in QLD, VIC, NSW, and all other states.
 
 ### Standard Support Worker Rates
 
@@ -352,14 +357,16 @@ Casual workers receive a 25% loading instead of leave entitlements:
 
 ### Independent Contractor Rates
 
-Self-employed support workers typically charge 10-20% above the NDIS price limit to cover their own insurance, super, and business costs:
+Self-employed support workers with an ABN can charge up to the full NDIS price limit. Unlike employed workers, independent contractors keep the full amount but must cover their own superannuation, insurance, workers compensation, tax obligations, and business costs. Many independent workers charge at or near the NDIS price limit, particularly for specialised or high intensity support.
 
 | Shift Type | NDIS Price Limit | Typical Contractor Rate |
 |------------|-----------------|------------------------|
-| Weekday | $70.23 | $52-$63/hr |
-| Saturday | $98.66 | $73-$89/hr |
-| Sunday | $127.08 | $94-$114/hr |
-| Public Holiday | $155.51 | $115-$140/hr |
+| Weekday | $70.23 | $52-$70/hr |
+| Saturday | $98.66 | $73-$99/hr |
+| Sunday | $127.08 | $94-$127/hr |
+| Public Holiday | $155.51 | $115-$156/hr |
+
+**Important for independent workers:** The NDIS pricing rules state that providers cannot charge NDIS participants a different rate than non-NDIS clients for the same service. If you charge $85/hr for general clients, you must charge the same for NDIS participants (up to the price limit). Registered providers are bound by the NDIS price limits as their maximum, while unregistered providers working with plan-managed or self-managed participants may negotiate rates directly.
 
 ## State-Specific Information
 
@@ -422,11 +429,11 @@ Under the SCHADS Award, support workers earn **$30-$57 per hour** depending on t
 
 ### What is the NDIS Sunday rate?
 
-The NDIS Sunday rate (price limit) for standard support is **$127.08 per hour** as of November 2026. For high intensity support, it's $132.25/hr. Support workers themselves receive double time under the SCHADS Award—for example, a Level 2 worker earns $69.16/hr on Sundays (2x their $34.58 base rate).
+The NDIS Sunday rate (price limit) for standard support is **$127.08 per hour** as of November 2026. For high intensity support, it's $132.25/hr. Support workers themselves receive double time under the SCHADS Award. For example, a Level 2 worker earns $69.16/hr on Sundays (2x their $34.58 base rate).
 
 ### What is the NDIS Saturday rate?
 
-The NDIS Saturday rate (price limit) for standard support is **$98.66 per hour** as of November 2026. For high intensity support, it's $102.66/hr. Support workers receive time-and-a-half under the SCHADS Award—a Level 2 worker earns $51.87/hr on Saturdays (1.5x their $34.58 base rate).
+The NDIS Saturday rate (price limit) for standard support is **$98.66 per hour** as of November 2026. For high intensity support, it's $102.66/hr. Support workers receive time-and-a-half under the SCHADS Award. A Level 2 worker earns $51.87/hr on Saturdays (1.5x their $34.58 base rate).
 
 ### How much do support workers get paid on public holidays?
 
@@ -449,7 +456,7 @@ Providers can claim travel time between participants (capped at 30 mins metro, 6
 
 ### Are NDIS rates the same in all states?
 
-Yes, NDIS price limits are national—the same rates apply in QLD, VIC, NSW, SA, WA, TAS, NT, and ACT. The SCHADS Award is also federal, so minimum wages are consistent across states.
+Yes, NDIS price limits are national. The same rates apply in QLD, VIC, NSW, SA, WA, TAS, NT, and ACT. The SCHADS Award is also federal, so minimum wages are consistent across states.
 
 ### What is TTP in NDIS pricing?
 
@@ -465,4 +472,4 @@ Through MD Home Care, you can find providers who prioritize transparent pricing 
 
 ---
 
-*This guide reflects NDIS Pricing Arrangements and Price Limits 2026-26 v1.1 (effective 24 November 2026) and SCHADS Award rates. Rates are updated periodically—check the current NDIS Price Guide and Fair Work website for the latest figures.*
+*This guide reflects NDIS Pricing Arrangements and Price Limits 2026-26 v1.1 (effective 24 November 2026) and SCHADS Award rates. Rates are updated periodically. Check the current NDIS Price Guide and Fair Work website for the latest figures.*

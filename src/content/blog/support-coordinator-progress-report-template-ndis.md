@@ -7,6 +7,7 @@ tags: ["NDIS", "Support Coordination", "NDIS Reports", "Templates"]
 popupTitle: "Need Help with NDIS Support Coordination?"
 popupSubtitle: "Find experienced coordinators provide comprehensive reporting"
 image: "/assets/carer.webp"
+updatedAt: 2026-02-10
 ---
 
 ## Key Points
@@ -29,6 +30,8 @@ Progress reports are essential for several reasons:
 - **Communication**: They keep the NDIA informed about participant circumstances and changing needs
 - **Quality assurance**: They show that support coordination is delivering value for participants
 - **Future planning**: They inform recommendations for upcoming NDIS plans
+
+The NDIA now requires support coordinators (both registered and unregistered) to submit reports through the **myNDIS provider portal** as part of the PACE system rollout. The new standardised templates replace the previous ad-hoc reporting formats, helping NDIA planners prepare for check-ins and plan reassessments with consistent, structured information. Both the progress report and implementation report templates are available for download from the [NDIS support coordinator page](https://www.ndis.gov.au/providers/working-provider/support-coordinators-and-our-new-computer-system).
 
 > **Important**: Quality progress reports significantly influence plan review outcomes. NDIA planners rely heavily on support coordinator reports when making funding decisions.
 

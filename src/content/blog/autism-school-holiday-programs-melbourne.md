@@ -2,6 +2,7 @@
 title: "Autism School Holiday Programs Melbourne 2026: Complete Guide for Families"
 description: "Find the best autism school holiday programs in Melbourne for 2026. Compare providers, costs, NDIS funding options, and sensory-friendly activities for your child."
 pubDate: 2025-01-15
+updatedAt: 2026-02-10
 author: "MD Home Care"
 tags: ["NDIS", "Autism", "School Holidays", "Melbourne", "Vacation Care"]
 popupTitle: "Need Help Finding the Right Program?"
@@ -386,6 +387,10 @@ Some programs offer higher support streams. Alternatively, you may be able to ha
 ### How do I know if a program is right for my child?
 
 Request a trial day or pre-program meeting. Good providers welcome the opportunity to assess whether they can meet your child's needs. Trust your instincts—if something feels off during the visit, explore other options.
+
+## Thriving Kids: An Upcoming Pathway for Children with Autism
+
+From October 2026, the Australian Government's Thriving Kids program will offer a new support pathway for children under 9 with autism or developmental delay who have low to moderate needs. Unlike the NDIS, Thriving Kids will not require a formal diagnosis to access services. Children with higher support needs will continue to access the NDIS and its funded holiday programs. As Thriving Kids rolls out (full rollout by January 2028), it may open additional funding options for autism holiday programs and community activities. Speak with your provider or Early Childhood Partner about how this might affect your family.
 
 ## Find Support for the Right Program
 

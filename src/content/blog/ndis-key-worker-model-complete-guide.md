@@ -2,6 +2,7 @@
 title: "NDIS Key Worker: What Parents Need to Know About the Key Worker Model (2026)"
 description: "Complete parent guide to NDIS key workers. Learn what a key worker does for your child, how to find one, what to expect, and how the key worker model helps with early intervention."
 pubDate: 2026-01-01
+updatedAt: 2026-02-10
 author: "MD Home Care"
 tags: ["NDIS", "Key Worker", "Early Intervention", "ECEI", "NDIS Parents"]
 popupTitle: "Looking for Key Worker Support?"
@@ -191,6 +192,10 @@ The ECEI key worker approach is particularly valuable when:
 - You're preparing for the transition to school
 
 > **Not sure about ECEI eligibility?** Our [NDIS eligibility guide](/blog/ndis-eligibility-requirements-complete-guide) explains the early intervention pathway for young children.
+
+### How the Thriving Kids Program May Affect Key Workers
+
+From October 2026, the Australian Government's Thriving Kids program will provide a new support pathway for children under 9 with low to moderate developmental needs. As Thriving Kids rolls out fully by January 2028, the key worker model may evolve to serve families across both the NDIS and the new program. Children with high support needs will remain on the NDIS, so key worker services for those families will continue unchanged. If your child has lower support needs, it is worth discussing with your key worker how the transition to Thriving Kids might affect your current arrangements.
 
 ---
 

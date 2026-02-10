@@ -2,6 +2,7 @@
 title: "NDIS Capacity Building Supports 2026: Complete Guide to All 9 Categories"
 description: "Complete guide to NDIS Capacity Building supports. Understand all 9 CB categories, what they fund, examples, and how to maximise your capacity building budget in 2026."
 pubDate: 2026-01-01
+updatedAt: 2026-02-10
 author: "MD Home Care"
 tags: ["NDIS Capacity Building", "NDIS Funding", "Support Coordination", "NDIS Therapy"]
 popupTitle: "Need Help With Capacity Building?"
@@ -300,6 +301,8 @@ This is often the largest Capacity Building category, funding therapy and daily 
 | Therapy Assistant | $90.27/hr | $99.30/hr |
 
 > **Related:** See our detailed [CB Daily Activity Guide](/blog/ndis-improved-daily-living-cb-daily-activity-guide) for line item codes and examples.
+
+For families with children under 9, it is worth noting that the Australian Government's Thriving Kids program (starting October 2026) will provide an alternative pathway for children with low to moderate developmental needs. Capacity building therapies like OT, speech pathology, and psychology will remain central to early childhood support, whether funded through the NDIS or through the new Thriving Kids program.
 
 ---
 

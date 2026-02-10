@@ -2,6 +2,7 @@
 title: "NDIS Eligibility Requirements: Complete Guide to Qualifying for NDIS Support in 2026"
 description: "Comprehensive guide to NDIS eligibility requirements in 2026. Learn about age limits, residency requirements, disability criteria, and how to apply for NDIS funding and supports."
 pubDate: 2026-01-17
+updatedAt: 2026-02-10
 author: "MD Homecare Team"
 tags: ["ndis eligibility", "ndis requirements", "ndis application", "disability funding"]
 popupTitle: "Questions About NDIS Eligibility?"
@@ -96,6 +97,10 @@ The National Disability Insurance Scheme (NDIS) provides support to Australians 
 - Vision impairment
 - Global developmental delay
 - Intellectual disability
+
+**Thriving Kids: A New Pathway from 2028**
+
+From January 2028, children under 9 with low to moderate autism or developmental delay will transition to the new Thriving Kids program rather than entering the NDIS. Unlike the NDIS, Thriving Kids will not require a formal diagnosis. Children with high support needs will still be eligible for the NDIS, and children already on the NDIS will not be affected. Families applying for early intervention supports should discuss both pathways with their Early Childhood Partner.
 
 ## NDIS Eligibility Assessment Process
 
