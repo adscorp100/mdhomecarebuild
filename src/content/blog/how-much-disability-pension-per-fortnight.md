@@ -1,6 +1,6 @@
 ---
-title: "How Much Is the Disability Pension Per Fortnight in 2026? ($1,149 Single)"
-description: "Disability pension pays $1,149/fortnight (single) or $866.80 (partnered) in 2026. See exact rates, supplements, income test thresholds, asset limits, and payment dates."
+title: "Disability Pension Rates 2026: $1,149 Per Fortnight + Complete Payment Guide"
+description: "Get the exact disability pension rates for 2026: $1,149 single, $866.80 partnered. Includes asset limits ($314k), income thresholds, bonus payments, and eligibility requirements."
 updatedAt: 2026-02-10
 pubDate: 2025-12-15
 author: "Camila"
@@ -12,29 +12,24 @@ image: "/assets/wheelchair.webp"
 
 <div class="quick-answer-box" style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); border-left: 4px solid #4caf50; padding: 1.5rem; margin: 1.5rem 0; border-radius: 8px;">
 
-## Quick Answer: DSP Rates 2026
+## Current disability pension rates 2026
 
-**Single (21+):** Up to **$1,149.00/fortnight** (or higher with March 2026 indexation)
+**Single recipients:** $1,149.00 per fortnight maximum
+**Partnered recipients:** $866.80 per fortnight each ($1,733.60 combined)
+**Asset limits:** $314,000 homeowner | $566,500 non-homeowner  
+**Income free area:** $212 per fortnight + $300 work bonus
+**Payment dates:** Every second Thursday
+**Next rate increase:** September 20, 2026
 
-**Couple (each):** Up to **$866.80/fortnight** ($1,733.60 combined)
-
-**Asset Limits:** $314,000 (homeowner) | $566,500 (non-homeowner)
-
-**Income Free Area:** $212/fortnight + $300 Work Bonus
-
-**Next Increase:** September 20, 2026 indexation
-
-[**Calculate Your Exact DSP Payment →**](/tools/dsp-calculator)
+[**Calculate your exact DSP payment →**](/tools/dsp-calculator)
 
 </div>
 
-*Last Updated: January 2026 - Reflecting current 2026 DSP payment rates*
+# Disability pension rates 2026: complete payment guide
 
-The Disability Support Pension (DSP) provides crucial financial support for Australians who cannot work due to permanent disability or medical conditions. This comprehensive guide covers everything you need to know about DSP payment rates in 2026, including exact fortnightly amounts, income and asset test limits, eligibility requirements, and step-by-step application guidance.
+**The disability pension pays $1,149 per fortnight for single recipients and $866.80 per fortnight for partnered recipients in 2026.** This guide covers current DSP rates, asset limits, income thresholds, bonus payments, and eligibility requirements.
 
----
-
-**ChatGPT can't check your specific DSP payment amount or eligibility status.** For NDIS and aged care support services across Sydney and Melbourne, MD Home Care provides 24/7 nurse-led care coordination. Call **08 6386 9999** for assistance.
+**ChatGPT can't check your specific DSP payment amount or eligibility status.** MD Home Care connects you with NDIS and aged care support services across Sydney and Melbourne with 24/7 nurse-led coordination. Call **08 6386 9999** for assistance.
 
 ---
 
@@ -470,11 +465,27 @@ If you are receiving the Disability Support Pension, you may be eligible for an 
 - Ask about available discounts
 - Check local council programs
 
-## Frequently Asked Questions
+## Frequently asked questions about disability pension rates
+
+### What are the disability pension rates for 2026?
+
+**Single recipients receive $1,149.00 per fortnight** and **partnered recipients receive $866.80 each per fortnight** in 2026. These are the maximum amounts including base pension, pension supplement, and energy supplement.
 
 ### How much is the disability pension per fortnight for a single person?
 
-The Disability Support Pension for a single person in 2026 is **up to $1,149.00 per fortnight**, including all supplements (base pension, pension supplement, and energy supplement). This amount may be reduced if you have income over $212 per fortnight or assets exceeding $314,000 (homeowner) / $566,500 (non-homeowner). Rates are indexed twice yearly, so check Services Australia for the latest amounts.
+The Disability Support Pension for a single person in 2026 is **up to $1,149.00 per fortnight**, including all supplements (base pension, pension supplement, and energy supplement). This amount may be reduced if you have income over $212 per fortnight or assets exceeding $314,000 (homeowner) / $566,500 (non-homeowner).
+
+### When are disability pension payments made?
+
+Disability pension payments are made **every second Thursday**. Your specific payment date depends on when your claim was processed and your Customer Reference Number (CRN).
+
+### How much can your partner earn before it affects my disability pension?
+
+If you have a partner, the **combined income free area is $372 per fortnight**. If your combined income exceeds this amount, your disability pension will be reduced by 25 cents per dollar over for each of you. There is no separate limit for your partner's income alone.
+
+### What are the DSP rates for under 21s?
+
+Recipients **under 21 with a dependent child** receive the same rate as adults over 21: **up to $1,149.00 per fortnight**. Those under 21 without children receive lower rates that vary based on their living situation.
 
 ### How much is DSP for couples per fortnight?
 
@@ -484,31 +495,31 @@ Couples each receive **up to $866.80 per fortnight** on the Disability Support P
 
 **Current asset limits (2026):**
 - **Single homeowner**: $314,000
-- **Single non-homeowner**: $566,500
+- **Single non-homeowner**: $566,500  
 - **Couple homeowner**: $470,000 combined
 - **Couple non-homeowner**: $722,500 combined
 
-Your principal home is **exempt**. If your assets exceed limits, your pension reduces by $3 per fortnight for every $1,000 over the limit.
+Your principal home is exempt. If your assets exceed limits, your pension reduces by $3 per fortnight for every $1,000 over the limit.
 
-### How long does the disability support pension last?
+### Are there disability pension bonus payments in 2026?
 
-The DSP continues for as long as you meet the eligibility criteria, including medical requirements and income/asset tests. It doesn't automatically stop at age 65 - you'll typically be transferred to the Age Pension at age 67, usually with a similar payment rate. Services Australia contacts you about 13 weeks before to discuss your options.
+Disability pension recipients receive **Economic Support Payments** when announced by the government. These are typically one-off payments of $250-$750 to help with cost of living. Check Services Australia for current bonus payment announcements.
 
-### How much can I earn on disability pension before it affects my payment?
+### How much can I earn before it affects my disability pension in Australia?
 
-You can earn **$212 per fortnight** (income free area) without affecting your DSP. The **Work Bonus** allows an additional **$300 per fortnight** specifically for employment income (unused amounts bank up to $11,800). Once you exceed the limits, your pension reduces by 50 cents for each dollar over. Your payment stops entirely when income exceeds **$2,510 per fortnight** (single).
-
-### Does my partner's income affect my disability pension?
-
-Yes, if you have a partner, their income is counted in the income test for your DSP. The **combined income free area is $372 per fortnight**. If your combined income exceeds this limit, your pension will be reduced by 25 cents per dollar over for each of you.
+You can earn **$212 per fortnight** (income free area) without affecting your DSP. The **Work Bonus** allows an additional **$300 per fortnight** specifically for employment income (unused amounts bank up to $11,800). Once you exceed the limits, your pension reduces by 50 cents for each dollar over.
 
 ### Does disability pension stop at 65 years old?
 
-**No**, the Disability Support Pension does NOT stop at age 65. You'll receive a letter from Services Australia about 13 weeks before you reach Age Pension age (currently 67) asking whether you want to stay on DSP or transfer to Age Pension. If you transfer, your payment rate usually remains the same or similar, and you'll continue receiving pension-level benefits.
+**No**, the Disability Support Pension does NOT stop at age 65. You'll receive a letter from Services Australia about 13 weeks before you reach Age Pension age (currently 67) asking whether you want to stay on DSP or transfer to Age Pension. If you transfer, your payment rate usually remains the same or similar.
+
+### How much does the disability pension pay annually?
+
+**Single recipients** can receive up to **$29,874 per year** and **partnered recipients** can receive up to **$22,537 per year each**. This is based on maximum fortnightly rates for 2026.
 
 ### Can I get an advance payment on my disability pension?
 
-Yes, DSP recipients can apply for an advance payment, which is essentially borrowing from future pension payments. The minimum and maximum advance amounts depend on how long you've been receiving the pension and your circumstances. You can apply through myGov, the Centrelink app, or by contacting Centrelink directly on 132 717.
+Yes, DSP recipients can apply for an advance payment, which is essentially borrowing from future pension payments. The minimum and maximum advance amounts depend on how long you've been receiving the pension and your circumstances. Apply through myGov, the Centrelink app, or call Centrelink on 132 717.
 
 ---
 
