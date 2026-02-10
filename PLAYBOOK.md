@@ -34,7 +34,25 @@ Top pages by impressions with CTR under 1%:
 4. mable-support-workers: 55K imp, 0.15% CTR
 5. disability-support-worker-salary: 44K imp, 0.40% CTR
 
+### PM Run 2026-02-10
+- **Site traffic**: UP 16% (1933 vs 1669 pageviews, Tue vs Tue). No crisis.
+- **AI referrals (7d)**: ~81 total. ChatGPT: 66 (+29% vs last week's 51). Gemini: 4 (flat). Perplexity: 3 (flat). Claude: 0 this week (1 last week).
+- **Top AI referral pages this week**:
+  - /blog/ndis-service-agreement-template-free-download/ (8)
+  - /blog/how-to-get-support-worker-insurance-in-australia/ (8)
+  - /blog/ndis-support-worker-pay-rates/ (7)
+  - /contact/ (6)
+  - / homepage (5)
+  - /tools/ndis-pay-rate-calculator/ (3)
+  - /jobs/ (3) **NEW in AI referrals**
+- **News covered today**: ACCC provider exploitation report (blog + 5 pages), Guardian NDIS cuts/Thriving Kids (news page + cross-refs)
+- **Proactive CTR work**: Spawned sub-agent for meta title/description optimization on top 5 CTR opportunity pages
+- **Experiments**: All same-day, too early. Evaluation window: Feb 17-24.
+- **Drops**: Largest single-page drop was /blog/ndis-support-worker-hourly-rate/ (-13 views) but site-wide is up, so this is normal variance. No action needed.
+
 ## Patterns & Insights
-- AI referral traffic tripling week over week, driven entirely by ChatGPT
-- Template/tool pages are the AI referral winners (service agreement template, pay calculator)
-- Site experiencing ~22% day-over-day dip but this may be normal Tuesday variance on a small site
+- AI referral traffic growing steadily, ChatGPT dominant (82% of AI referrals)
+- Template/tool pages and insurance guides are the AI referral winners
+- Jobs page now appearing in AI referrals (new pattern worth watching)
+- Site is healthy, Tuesday traffic up vs last Tuesday
+- 229 content files touched in last 7 days (massive churn from repositioning). Need to let this settle before drawing conclusions.

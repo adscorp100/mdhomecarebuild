@@ -1,6 +1,6 @@
 ---
-title: "Disability Pension Calculator 2026: Check Your Exact Payment ($1,149 Single)"
-description: "Free DSP calculator shows your exact payment. Single: $1,149/fortnight, Couples: $866.80 each. Income tests, asset limits, eligibility guide + instant calculator."
+title: "How Much Is Disability Pension 2026? $1,149 Per Fortnight + Calculator"
+description: "Disability pension pays $1,149 per fortnight (single) or $866.80 each (couples). Income limits, asset tests, bonus payments + free calculator."
 updatedAt: 2026-02-10
 pubDate: 2025-12-15
 author: "Camila"

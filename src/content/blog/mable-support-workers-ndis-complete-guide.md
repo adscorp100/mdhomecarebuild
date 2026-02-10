@@ -1,6 +1,6 @@
 ---
-title: "Mable NDIS Review 2026: Real Costs, Hidden Fees & 5 Alternatives Compared"
-description: "Mable's 7.95% fee adds up fast. We compare real weekend rates ($73/hr), public holiday costs ($87/hr), registration status, and 5 cheaper alternatives for 2026."
+title: "Mable Weekend Rates 2026: $89/hr + Public Holiday Costs & NDIS Status"
+description: "Mable weekend rates: $75-90/hr Sunday, $65-75/hr Saturday, $85-110/hr public holidays. Plus 7.95% fee. NDIS registration status explained."
 updatedAt: 2026-02-10
 pubDate: 2026-12-15
 author: "Camila"
