@@ -5,7 +5,7 @@ pubDate: 2025-07-05
 author: "MD Home Care"
 tags: ["Aged Care Changes", "Support at Home", "Home Care Packages", "CHSP"]
 popupTitle: "Concerned About Aged Care Changes?"
-popupSubtitle: "We're here to explain the new system clearly"
+popupSubtitle: "Find qualified advisors who can explain the new system clearly"
 image: "/assets/holdinglinen.webp"
 ---
 

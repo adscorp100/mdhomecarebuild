@@ -5,7 +5,7 @@ pubDate: 2025-05-16
 author: "Camila"
 tags: ["dementia", "alzheimer's", "aged care", "family support", "caregiving"]
 popupTitle: "Need Support Caring for Someone with Dementia?"
-popupSubtitle: "Our dementia care specialists are here to help your family"
+popupSubtitle: "Find qualified dementia care specialists through MD Home Care"
 image: "/assets/grandma.webp"
 ---
 

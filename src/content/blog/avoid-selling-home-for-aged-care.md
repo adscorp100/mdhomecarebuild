@@ -64,6 +64,6 @@ Rental income is considered income by Services Australia and will be assessed as
 This is generally not a good strategy. Services Australia has strict 'gifting' rules. If you give away assets, including your home, to reduce your aged care costs, they may still be counted in your assets test for up to 5 years. This is known as a 'deprived asset'.
 
 <!-- CONCLUSION & CTA (NO HEADER) -->
-At MD Home Care, we believe that everyone deserves to feel secure and supported as they age. Understanding your financial options is a critical part of that peace of mind.
+MD Home Care connects you with professionals who believe everyone deserves to feel secure and supported as they age. Understanding your financial options is a critical part of that peace of mind.
 
-If you have questions about structuring your finances for home care or need help navigating the system, **[contact MD Home Care today](/contact)** for a confidential discussion about your needs. 
+If you have questions about structuring your finances for home care or need help navigating the system, **[find advisors through MD Home Care today](/contact)** to connect with professionals who can discuss your needs. 

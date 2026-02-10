@@ -5,7 +5,7 @@ pubDate: 2026-07-05
 author: "MD Home Care"
 tags: ["NDIS Provider", "NDIS Registration", "Start NDIS Business"]
 popupTitle: "Need Help Choosing an NDIS Provider?"
-popupSubtitle: "We're experienced, registered, and here to help"
+popupSubtitle: "Find experienced, registered NDIS providers through MD Home Care"
 image: "/assets/clinic.webp" # A more professional image
 ---
 
@@ -98,4 +98,4 @@ Unregistered providers can only offer services to participants who are "plan-man
 
 Starting your journey as an NDIS provider is a significant undertaking, but it's also a deeply rewarding one. By understanding the process, preparing thoroughly, and focusing on quality, you can build a successful and impactful business.
 
-At MD Home Care, we have extensive experience in navigating the complexities of the NDIS. If you have questions or need support on your journey, **[contact our expert team today](/contact)**. 
+MD Home Care connects aspiring providers with experts who have extensive experience navigating the complexities of the NDIS. If you have questions or need support on your journey, **[browse professionals on MD Home Care](/contact)** to find the right guidance. 

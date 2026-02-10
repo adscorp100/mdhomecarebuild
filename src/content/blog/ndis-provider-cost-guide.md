@@ -5,7 +5,7 @@ pubDate: 2026-03-08
 author: "Camila"
 tags: []
 popupTitle: "Looking for Trusted NDIS Support?"
-popupSubtitle: "We're a fully registered, quality-focused provider"
+popupSubtitle: "Find fully registered, quality-focused providers through MD Home Care"
 image: "/assets/clinic.webp"
 ---
 

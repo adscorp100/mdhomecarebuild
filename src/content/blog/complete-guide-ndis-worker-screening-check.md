@@ -668,9 +668,9 @@ If your clearance expires, you cannot work in risk-assessed roles until a new cl
 **Legal Services**: For appeals or complex criminal history matters
 **Employment Services**: For career guidance and job placement assistance
 
-### MD Homecare Support
+### Find Support Through MD Home Care
 
-While MD Homecare doesn't process screening checks directly, we provide:
+While MD Home Care doesn't process screening checks directly, the provider network includes professionals who offer:
 - Application guidance and timeline planning
 - Document preparation assistance
 - Connection with appropriate support services

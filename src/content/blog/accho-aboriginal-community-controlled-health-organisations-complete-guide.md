@@ -532,15 +532,15 @@ Use the directory above, visit the [NACCHO Locations page](https://www.naccho.or
 
 ---
 
-## Culturally Safe NDIS Support at MD Home Care
+## Find Culturally Safe NDIS Support Through MD Home Care
 
-At MD Home Care, we are committed to providing culturally competent care that respects the values, traditions, and needs of Aboriginal and Torres Strait Islander communities. Our team includes support workers who understand the importance of cultural safety in disability services.
+MD Home Care connects First Nations NDIS participants with culturally competent providers who respect Aboriginal and Torres Strait Islander values, traditions, and needs. Browse providers in the MD Home Care network who understand the importance of cultural safety in disability services.
 
-We work alongside ACCHOs and other Aboriginal community organisations to ensure First Nations NDIS participants receive the best possible support. Whether you need assistance with daily living, community participation, or specialist support coordination, we are here to help.
+The provider network includes support workers and professionals who collaborate with ACCHOs and other Aboriginal community organisations to ensure First Nations NDIS participants receive appropriate support. Whether you need assistance with daily living, community participation, or specialist support coordination, find the right provider through MD Home Care.
 
-**Ready to learn more about culturally safe NDIS services?**
+**Ready to find culturally safe NDIS services?**
 
-[Get a Free Consultation](/contact) | [Call 08 6386 9999](tel:+61863869999)
+[Browse Providers](/contact) | [Search MD Home Care Network](tel:+61863869999)
 
 ---
 

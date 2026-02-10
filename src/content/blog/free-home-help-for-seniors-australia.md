@@ -45,7 +45,7 @@ If you are on a full Age Pension, you will not have to pay an income-tested care
 After your assessment, you'll receive a letter explaining the level of care you're approved for. This could be approval for CHSP services or being placed in the national queue for a Home Care Package.
 
 ### Step 5: Finding and Choosing a Provider
-Once you have your approval, you can choose a government-accredited provider, like MD Home Care, to deliver your services. The [My Aged Care "Find a Provider" tool](https://www.myagedcare.gov.au/find-a-provider) is an excellent resource for this.
+Once you have your approval, you can choose a government-accredited provider from the MD Home Care network to deliver your services. The [My Aged Care "Find a Provider" tool](https://www.myagedcare.gov.au/find-a-provider) is an excellent resource for this.
 
 <!-- DEMYSTIFYING THE DETAILS (H2) -->
 ## Demystifying the Costs: What's Free and What's Not?
@@ -54,7 +54,7 @@ Understanding the costs is crucial. Here's a breakdown of what you might be aske
 
 | Fee Type | Commonwealth Home Support Programme (CHSP) | Home Care Packages (HCP) | Who Pays This? |
 | :--- | :--- | :--- | :--- |
-| **Basic Daily Fee** | N/A (Providers may ask for a small contribution per service) | Yes, but many providers (including MD Home Care) waive this fee. | Can be asked of everyone, but is often waived by providers. |
+| **Basic Daily Fee** | N/A (Providers may ask for a small contribution per service) | Yes, but many providers in the MD Home Care network waive this fee. | Can be asked of everyone, but is often waived by providers. |
 | **Income-Tested Fee** | No | Yes, if your income is over a certain amount. | Only those with income above the threshold. Full pensioners do not pay this. |
 | **Provider Fees** | Minimal, if any. | Providers charge fees for managing the package. | Everyone with a package, but these are paid from the government subsidy. |
 
@@ -69,7 +69,7 @@ It's natural to have questions and concerns. Here are answers to some of the mos
 This is a very common fear. Home care services are designed to *support* your independence, not take it away. The goal is to help you manage tasks that have become difficult, so you can continue to live in your own home safely and confidently. You are always in control of the services you receive.
 
 ### How do I know I can trust the care worker?
-Your safety and security are paramount. All government-funded providers must adhere to strict quality standards. This includes police checks for all staff, proper training, and insurance. At MD Home Care, we pride ourselves on having a compassionate, reliable, and highly trained team.
+Your safety and security are paramount. All government-funded providers must adhere to strict quality standards. This includes police checks for all staff, proper training, and insurance. Providers in the MD Home Care network pride themselves on having compassionate, reliable, and highly trained teams.
 
 ### What if I'm not eligible for government help?
 If you're not eligible for subsidised care, or if you need help while waiting for your package to be assigned, you can choose to pay for services privately. Many providers offer private home care services, giving you the flexibility to get the support you need when you need it.
@@ -77,6 +77,6 @@ If you're not eligible for subsidised care, or if you need help while waiting fo
 <!-- CONCLUSION & CTA (NO HEADER) -->
 Getting a little extra help at home doesn't have to be a stressful or expensive process. With Australian government support, you can access the services you need to maintain your independence and quality of life. The first step is a simple phone call to My Aged Care.
 
-At MD Home Care, we believe that everyone deserves to live with dignity and choice. We can help you understand your options and guide you through every step of the process.
+Through MD Home Care, connect with providers who believe everyone deserves to live with dignity and choice. Find professionals in the network who can help you understand your options and guide you through every step of the process.
 
-If you have questions about home help for seniors or need assistance navigating the system, **[contact MD Home Care today](/contact)**. We're here to help. 
+If you have questions about home help for seniors or need assistance navigating the system, **[find providers through MD Home Care today](/contact)** who can help. 

@@ -139,16 +139,16 @@ Use our free tools to plan your career growth:
 - **[Support Worker Income Calculator](/tools/support-worker-income-calculator)** - Model how different shift patterns and hours affect your annual income as you progress
 - **[NDIS Pay Rate Calculator](/tools/ndis-pay-rate-calculator)** - Understand NDIS pricing to negotiate better rates as an independent contractor
 
-## Build Your Career With MD Home Care
+## Find Career Development Through MD Home Care
 
-At MD Home Care, we invest in our support workers' professional development. We provide:
+Through MD Home Care, connect with employers who invest in support workers' professional development. Providers in the network offer:
 
 -   **Clear career pathways** with defined progression criteria
 -   **Funded training opportunities** for qualifications and specializations
 -   **Mentorship programs** pairing you with experienced team leaders
 -   **Internal promotion priority** for advancement opportunities
 
-If you are a motivated support worker ready to grow your career with an employer who invests in your future, we invite you to **[get in touch with MD Home Care today](/contact)**.
+If you are a motivated support worker ready to grow your career, browse employers in the MD Home Care network who invest in your future. **[Find opportunities through MD Home Care today](/contact)**.
 
 ## Frequently Asked Questions
 

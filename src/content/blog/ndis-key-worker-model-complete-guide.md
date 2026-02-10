@@ -5,7 +5,7 @@ pubDate: 2026-01-01
 author: "MD Home Care"
 tags: ["NDIS", "Key Worker", "Early Intervention", "ECEI", "NDIS Parents"]
 popupTitle: "Looking for Key Worker Support?"
-popupSubtitle: "We can help connect you with quality early intervention services"
+popupSubtitle: "Find qualified key workers and early intervention services through MD Home Care"
 image: "/assets/downs.webp"
 ---
 
@@ -326,15 +326,15 @@ Yes. If the relationship isn't working after giving it a fair chance (usually a 
 
 ## Get Help With Your Child's NDIS Supports
 
-Finding the right coordination for your child's therapies can feel overwhelming. At MD Home Care, we help families navigate the NDIS and connect with quality providers who understand the key worker approach.
+Finding the right coordination for your child's therapies can feel overwhelming. MD Home Care connects families with quality providers who understand the key worker approach.
 
-**How we can help:**
-- **Support coordination** to help you find and connect with key worker services
-- **Allied health connections** with quality therapists across Melbourne
-- **Family-centred approach** that supports your whole household
-- **Help with plan reviews** to ensure you have the right funding
+**Find professionals through MD Home Care:**
+- **Support coordinators** to help you find and connect with key worker services
+- **Allied health providers** with quality therapists across Melbourne
+- **Family-centred professionals** that support your whole household
+- **Plan review assistance** to ensure you have the right funding
 
-**[Contact MD Home Care](/contact)** to discuss how we can help you find the right supports for your child.
+**[Browse providers on MD Home Care](/contact)** to find the right supports for your child.
 
 ---
 

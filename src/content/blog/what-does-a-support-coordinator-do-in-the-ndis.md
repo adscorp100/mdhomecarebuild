@@ -5,7 +5,7 @@ pubDate: 2025-06-02
 author: "Camila"
 category: "NDIS"
 popupTitle: "Need Help Managing Your NDIS Plan?"
-popupSubtitle: "Our support coordinators can maximize your plan outcomes"
+popupSubtitle: "Find qualified support coordinators who can maximize your plan outcomes"
 image: "/assets/disabled carer.webp"
 ---
 

@@ -329,15 +329,15 @@ If declined, consider gathering additional evidence from health professionals an
 
 **You can have both!** Many NDIS participants also hold a Companion Card. They serve different purposes and having one doesn't affect your eligibility for the other.
 
-## How MD Home Care Can Help
+## Find Support Through MD Home Care
 
-Navigating disability support systems can be overwhelming. At MD Home Care, we help NDIS participants and their families access all available supports, including:
+Navigating disability support systems can be overwhelming. Through MD Home Care, NDIS participants and their families can connect with professionals who help access all available supports, including:
 
-- **Assistance with applications**: Our Support Coordinators can help you gather documentation and complete your Companion Card application
-- **Support workers for outings**: Once you have your card, we can provide support workers to accompany you to events and activities
-- **Community participation support**: We help you get out and enjoy life, using your Companion Card at venues across Sydney and Melbourne
+- **Assistance with applications**: Support Coordinators in the network who can help you gather documentation and complete your Companion Card application
+- **Support workers for outings**: Once you have your card, find support workers through MD Home Care who can accompany you to events and activities
+- **Community participation support**: Connect with providers who help you get out and enjoy life, using your Companion Card at venues across Sydney and Melbourne
 
-Our experienced team understands both the NDIS and complementary programs like the Companion Card. We're here to help you access everything you're entitled to.
+The experienced professionals in the MD Home Care network understand both the NDIS and complementary programs like the Companion Card, helping you access everything you're entitled to.
 
 ## Frequently Asked Questions
 
@@ -385,4 +385,4 @@ Don't let the cost of a second ticket stop you from participating in the activit
 
 ---
 
-*Need help with your Companion Card application or looking for support workers to accompany you to events? [Contact MD Home Care](/contact) for assistance from our experienced team.*
+*Need help with your Companion Card application or looking for support workers to accompany you to events? [Find providers through MD Home Care](/contact) to connect with experienced professionals who can assist.*

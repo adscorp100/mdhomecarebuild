@@ -4,8 +4,8 @@ description: "Psychology NDIS client acquisition 2026: Provider partnerships, ps
 pubDate: 2026-01-31
 author: "Camila"
 tags: ["psychology", "NDIS psychologist", "psychology practice", "NDIS clients", "psychosocial disability", "mental health NDIS"]
-popupTitle: "Join Our Psychology Network"
-popupSubtitle: "Access NDIS referrals through MD Home Care's allied health partnerships"
+popupTitle: "Find Psychology Opportunities"
+popupSubtitle: "Browse psychology network opportunities through MD Home Care"
 image: "/assets/nurse.webp"
 ---
 

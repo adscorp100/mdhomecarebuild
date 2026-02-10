@@ -96,7 +96,7 @@ This is the first page of the report. It should be professional and easy to read
 - **Date of Assessment:** [Date]
 - **Date of Report:** [Date]
 - **Assessor Name & Title:** [e.g., Jane Doe, Occupational Therapist]
-- **Provider Name & Number:** [e.g., MD Home Care, NDIS Provider No: XXXXXXX]
+- **Provider Name & Number:** [e.g., Provider Name, NDIS Provider No: XXXXXXX]
 
 ---
 
@@ -335,12 +335,12 @@ Look for:
 - Willingness to do home visits if needed
 - Clear communication about process and costs
 
-## Get Expert Help with Your NDIS Journey
+## Find Expert Help with Your NDIS Journey
 
 Navigating the NDIS can be complex, but you don't have to do it alone. A well-written Functional Capacity Assessment report is a powerful tool to get the support you deserve.
 
-At MD Home Care, our team of experienced professionals can help you through every step of the process.
-- **Expert Assessments:** Our qualified therapists conduct thorough assessments to create reports that get results.
-- **Dedicated Support:** We help you understand your plan and connect you with the right services.
+Through MD Home Care, connect with experienced professionals who can help you through every step of the process.
+- **Expert Assessments:** Find qualified therapists in the network who conduct thorough assessments to create reports that get results.
+- **Dedicated Support:** Connect with providers who help you understand your plan and access the right services.
 
-**Contact MD Home Care today for a free consultation and let us help you build a better life with the right NDIS support.** 
+**Browse providers through MD Home Care today to find professionals who can help you build a better life with the right NDIS support.** 

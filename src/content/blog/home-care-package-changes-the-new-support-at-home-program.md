@@ -45,7 +45,7 @@ Everything starts with an assessment to understand your needs.
 
 ### Step 2: Choosing a Provider
 
-Once you are approved, you will choose a registered aged care provider, like MD Home Care. This provider will manage your funds and coordinate your services. Under the new program, you will have a single provider to keep things simple.
+Once you are approved, you will choose a registered aged care provider from the MD Home Care network. This provider will manage your funds and coordinate your services. Under the new program, you will have a single provider to keep things simple.
 
 ### Step 3: Planning Your Care
 
@@ -105,7 +105,7 @@ The new Support at Home program represents a significant and positive shift in h
 
 The key is to stay informed and work with a trusted provider who can help you navigate the changes.
 
-At MD Home Care, we are committed to helping you understand the new system and access the best possible support. If you have any questions about the Support at Home program or need help with your care needs, **[contact our friendly team today](/contact)**.
+Through MD Home Care, connect with providers who are committed to helping you understand the new system and access the best possible support. If you have any questions about the Support at Home program or need help with your care needs, **[find providers through MD Home Care today](/contact)**.
 
 ### Resources and Further Information
 For additional details, refer to the following official resources:

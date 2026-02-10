@@ -5,7 +5,7 @@ pubDate: 2025-07-02
 author: "Camila"
 category: "NDIS"
 popupTitle: "Confused About NDIS Pricing?"
-popupSubtitle: "We can help you understand your plan and funding"
+popupSubtitle: "Find qualified support coordinators who can help you understand your plan"
 image: "/assets/Ilovendis.webp"
 ---
 
