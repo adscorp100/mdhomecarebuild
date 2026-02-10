@@ -7,6 +7,7 @@ tags: []
 popupTitle: "Questions About Family Support Arrangements?"
 popupSubtitle: "Let us help you understand your NDIS options"
 image: "/assets/grandma.webp"
+updatedAt: 2026-02-10
 ---
 
 ## Can Family Members Be Paid Support Workers: Key Points
@@ -49,6 +50,8 @@ Family members may be paid as support workers when:
 - Does not create unhealthy dependencies or power imbalances
 
 These conditions must be demonstrated through the application process, with stronger justification required for closer family relationships.
+
+**Important note on cultural reasons:** While cultural factors are listed as a potential ground for approval, community experience suggests that cultural reasons alone are rarely sufficient. The NDIA typically requires cultural needs to be combined with other factors such as geographic remoteness or lack of available providers who can meet specific cultural and language requirements. Written approval from the NDIA is required before any family member can be paid as a support worker, regardless of the reason cited.
 
 ## Restrictions on Family Member Employment
 Even when family members can be paid, several restrictions apply:
