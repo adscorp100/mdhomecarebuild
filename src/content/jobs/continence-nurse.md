@@ -77,7 +77,7 @@ To work in continence nursing, you'll typically need:
 
 ## Location
 
-This position is available in {suburb} and surrounding areas. We offer full-time, part-time, and casual positions to suit your preferred work-life balance.
+Opportunities are available in {suburb} and surrounding areas. Through MD Home Care, you can find full-time, part-time, and casual opportunities that suit your preferred work-life balance.
 
 ## Ready to Get Started?
 

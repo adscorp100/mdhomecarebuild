@@ -64,6 +64,6 @@ The cost is a major concern for many families. The means test is designed to mak
 <!-- CONCLUSION & CTA (NO HEADER) -->
 Choosing a dementia care facility is a significant decision, but you don't have to do it alone. The right facility can provide your loved one with the safety, care, and quality of life they deserve, and give you peace of mind.
 
-At MD Home Care, we understand the complexities of the aged care system and are here to support you.
+MD Home Care connects you with aged care specialists who understand the complexities of the aged care system and can help support you through this journey.
 
 If you have questions about dementia care or need help navigating your options, **[contact MD Home Care today](/contact)**. 

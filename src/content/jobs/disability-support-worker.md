@@ -1,6 +1,6 @@
 ---
 title: "Disability Support Worker Jobs in {suburb}"
-description: "Make a difference as a Disability Support Worker. Join our team to provide essential support services that empower people with disabilities to live their best lives."
+description: "Make a difference as a Disability Support Worker. Connect through MD Home Care to provide essential support services that empower people with disabilities to live their best lives."
 category: "Support Work"
 requirements: [
   "Genuine passion for supporting people with disabilities",

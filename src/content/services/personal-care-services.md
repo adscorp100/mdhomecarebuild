@@ -17,7 +17,7 @@ quickFacts:
 
 Acknowledging you need a helping hand with daily personal tasks is a significant step. The thought of losing your independence or privacy can be daunting, and finding a caregiver you can truly trust is one of the biggest challenges. You need more than just help; you need a partner who respects your routine, your home, and your dignity.
 
-We understand completely. At MD Home Care, our personal care services in {suburb} are designed around one core principle: **your dignity and independence come first.** Our role is to provide discreet, professional support that empowers you to live your life your way.
+We understand completely. Through MD Home Care, you can find personal care providers in {suburb} who design their services around one core principle: **your dignity and independence come first.** Their role is to provide discreet, professional support that empowers you to live your life your way.
 
 ### The Right Support is About More Than Just Tasks
 
@@ -25,7 +25,7 @@ Are you worried about:
 *   **A stranger in your personal space?** We ensure you are comfortable and feel safe with the support worker we match you with.
 *   **Losing control of your routine?** We adapt to your schedule and preferences, not the other way around.
 *   **Inconsistent or unreliable care?** We strive to provide a consistent primary support worker to build a strong, trusting relationship.
-*   **Your privacy being compromised?** Our team is rigorously trained in professional conduct and respecting your privacy.
+*   **Your privacy being compromised?** Personal care providers through MD Home Care are rigorously trained in professional conduct and respecting your privacy.
 
 We're here to solve these worries, providing a service that feels less like a task list and more like a helping hand from a trusted professional.
 
@@ -51,7 +51,7 @@ Inviting someone into your home for personal care requires the highest level of 
 
 ### Our Support Workers: Vetted, Trained & Compassionate
 *   **Rigorous Screening:** Every support worker passes an NDIS Worker Screening Check, a police check, and multiple reference checks.
-*   **Specialised Training:** Our team receives ongoing training in manual handling, infection control, privacy, and providing person-centered care.
+*   **Specialised Training:** Personal care providers through MD Home Care receive ongoing training in manual handling, infection control, privacy, and providing person-centered care.
 *   **The Right Match:** We take the time to understand you and match you with a support worker whose personality and skills are the right fit.
 
 ### The Promise of Consistent, Reliable Care
@@ -60,7 +60,7 @@ We know that a familiar face is crucial for your comfort. Our goal is always to 
 ## Making Funding Simple
 We are experts in navigating government funding for personal care.
 
-*   **Home Care Packages (HCP):** Personal care is a core service available under all package levels. We help you budget and manage your funds effectively.
+*   **Home Care Packages (HCP):** Personal care is a core service available under all package levels. Providers through MD Home Care can help you budget and manage your funds effectively.
 *   **NDIS Plans:** This support falls under **Core Supports - Assistance with Daily Life**. We work with you and your plan manager to ensure you get the support you're approved for.
 *   **Other Funding:** We also support clients using DVA (Department of Veterans' Affairs) funding and private payment options.
 
@@ -73,7 +73,7 @@ Your comfort is our absolute priority. If for any reason you do not feel the mat
 This is the foundation of our service. Every support worker is trained on the Aged Care Code of Conduct and NDIS Code of Conduct, which have strict standards for privacy, dignity, and respect. This is reinforced in our regular team meetings and reviews.
 
 **Do I get a say in my care routine?**
-Absolutely. It's *your* routine. We are there to support you, not to dictate how you live. Your care plan is designed with you, and our support workers are trained to adapt to your preferences.
+Absolutely. It's *your* routine. Personal care providers through MD Home Care are there to support you, not to dictate how you live. Your care plan is designed with you, and support workers are trained to adapt to your preferences.
 
 ## Take the First Step with Confidence
 

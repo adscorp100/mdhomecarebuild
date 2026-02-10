@@ -467,7 +467,7 @@ Limited supports may be available through Local Area Coordinators or community p
 
 ### MD Homecare Eligibility Support
 
-While MD Homecare doesn't process NDIS applications directly, we provide:
+While MD Homecare doesn't process NDIS applications directly, you can find providers through our platform who offer:
 
 **Pre-Application Support**
 - Eligibility criteria education

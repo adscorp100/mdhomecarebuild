@@ -16,7 +16,7 @@ quickFacts:
 
 ## Transport Services for Aged Care in {suburb}
 
-Our specialized transport services for seniors provide reliable, safe, and comfortable transportation for older residents throughout {suburb}. We help you maintain your independence and community connections by ensuring you can attend medical appointments, social activities, shopping trips, and family visits with ease and dignity.
+Specialized transport providers for seniors through MD Home Care provide reliable, safe, and comfortable transportation for older residents throughout {suburb}. These providers help you maintain your independence and community connections by ensuring you can attend medical appointments, social activities, shopping trips, and family visits with ease and dignity.
 
 ### Comprehensive Transport Services for Seniors in {suburb}
 
@@ -46,7 +46,7 @@ When providing transport services for seniors in {suburb}, we prioritize:
 
 ### Benefits of Our Senior Transport Services in {suburb}
 
-Our transport services offer {suburb} seniors numerous advantages:
+Transport services through MD Home Care offer {suburb} seniors numerous advantages:
 
 - **Maintained Independence**: Continuing to access community services and activities
 - **Reduced Isolation**: Regular opportunities for social engagement
@@ -102,4 +102,4 @@ Transport services available through MD Home Care stand out in {suburb} because 
 - **Travel Companions**: Option for support workers to accompany you throughout your journey
 - **Regular Service Options**: Scheduled weekly or fortnightly transport for recurring needs
 
-Contact us today to discuss how our transport services can help you maintain your independence, community connections, and quality of life in {suburb}. 
+Contact us today to discuss how transport providers through MD Home Care can help you maintain your independence, community connections, and quality of life in {suburb}. 

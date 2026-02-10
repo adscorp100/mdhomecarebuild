@@ -96,7 +96,7 @@ MD Home Care prioritises this. The providers in our network offer their staff ex
 While our matching process is robust, your comfort is what matters most. If it's not the right fit, we will work with you immediately to find a support worker you connect with.
 
 **How do you ensure the safety of your clients?**
-All our support workers undergo mandatory NDIS Worker Screening Checks and police checks. We have strict safety protocols and provide ongoing training to ensure the highest standards of care.
+All support workers connected through MD Home Care undergo mandatory NDIS Worker Screening Checks and police checks. Providers in our network maintain strict safety protocols and provide ongoing training to ensure the highest standards of care.
 
 **Is your pricing transparent? Are there any hidden fees?**
 Absolutely. We follow the NDIS Price Guide, and all costs are discussed and agreed upon upfront. Your service agreement will clearly outline all fees with no hidden surprises.

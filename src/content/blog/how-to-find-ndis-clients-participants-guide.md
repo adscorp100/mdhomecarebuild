@@ -439,18 +439,18 @@ Set clear boundaries from the start, communicate openly about expectations, and 
 
 Finding NDIS clients takes effort, but the rewards—both financial and personal—are significant. The disability support sector offers meaningful work with real impact on people's lives.
 
-If you're a support worker looking for opportunities, **MD Home Care is always seeking skilled, passionate workers** to join our network. We offer:
+If you're a support worker looking for opportunities, **MD Home Care connects skilled, passionate workers** with participants who need support. Through our platform you can:
 
-- **Flexible scheduling** that works around your life
-- **Competitive pay rates** across all support types
-- **Ongoing training** and professional development
-- **Supportive team** environment
-- **Variety of participants** across Melbourne
+- **Find flexible opportunities** that work around your life
+- **Connect with participants** seeking various support types
+- **Build your professional network** in the disability sector
+- **Access a supportive community** of providers
+- **Work with participants** across Melbourne
 
-Whether you're newly qualified or highly experienced, we'd love to hear from you.
+Whether you're newly qualified or highly experienced, we'd love to help you connect.
 
-**[Contact MD Home Care today](/contact) to learn about support worker opportunities, or call us on (03) XXXX XXXX for a confidential chat about joining our team.**
+**[Contact MD Home Care today](/contact) to learn about connecting with participants, or call us on (03) XXXX XXXX for a confidential chat about getting started.**
 
 ---
 
-*Looking for NDIS support as a participant?* We also provide high-quality support services across Melbourne. [Learn more about our services](/services) or [get in touch](/contact) to discuss your needs.
+*Looking for NDIS support as a participant?* Browse high-quality support providers across Melbourne on MD Home Care. [Learn more about available services](/services) or [get in touch](/contact) to find providers for your needs.

@@ -5,7 +5,7 @@ pubDate: 2025-07-04
 author: "MD Home Care"
 tags: ["NDIS Pay Rates", "NDIS Price Guide", "Support Worker", "SCHADS Award", "NDIS Pay Rise"]
 popupTitle: "Confused About NDIS Pricing?"
-popupSubtitle: "We provide transparent rates and quality care"
+popupSubtitle: "Find providers with transparent rates and quality care"
 image: "/assets/carer.webp"
 ---
 
@@ -459,7 +459,7 @@ TTP (Temporary Transformation Payment) was a conditional loading providers could
 
 Understanding NDIS pricing helps you make informed decisions about your support. Whether you're a participant budgeting your plan or a support worker understanding your pay, knowing the rates is the first step.
 
-At MD Home Care, we believe in transparent pricing and fair worker pay. We can help you understand your NDIS funding and connect you with quality support workers.
+Through MD Home Care, you can find providers who prioritize transparent pricing and fair worker pay. These providers can help you understand your NDIS funding and connect you with quality support workers.
 
 **[Contact MD Home Care today](/contact)** for a free consultation about your support needs.
 

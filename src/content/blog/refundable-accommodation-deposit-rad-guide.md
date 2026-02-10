@@ -90,6 +90,6 @@ Yes. You can choose to start paying a RAD lump sum at any time, even if you init
 <!-- CONCLUSION & CTA (NO HEADER) -->
 Choosing how to pay for aged care is a major financial decision, but understanding your options is the first step to feeling in control. Whether you pay a lump-sum RAD, a daily DAP, or a combination, the right path is the one that gives you and your family peace of mind.
 
-At MD Home Care, we believe everyone deserves to feel secure and supported. While we don't provide accommodation, we help hundreds of Australians navigate the aged care system every day.
+Through MD Home Care, you can connect with providers who understand that everyone deserves to feel secure and supported. While we don't provide accommodation, our platform helps hundreds of Australians find providers who can help them navigate the aged care system.
 
 If you have questions about your care options or need help arranging services, **[contact MD Home Care today](/contact)**. 

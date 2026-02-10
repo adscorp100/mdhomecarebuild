@@ -81,11 +81,11 @@ Our {suburb} disability support workers are:
 
 As a registered NDIS provider serving {suburb}, our **disability home support services** can be accessed through:
 
-- **NDIS Self-Managed Plans**: You manage your funding and choose our services
-- **NDIS Plan-Managed Funding**: Your plan manager processes payments for our services
+- **NDIS Self-Managed Plans**: You manage your funding and choose providers through MD Home Care
+- **NDIS Plan-Managed Funding**: Your plan manager processes payments for providers you choose through MD Home Care
 - **NDIS Agency-Managed Plans**: The NDIA pays us directly for your supports
 
-Our {suburb} team can help you understand how to incorporate **home care services** into your NDIS plan to maximize your funding benefits.
+Providers serving {suburb} through MD Home Care can help you understand how to incorporate **home care services** into your NDIS plan to maximize your funding benefits.
 
 ## Home Care for Disabled Residents {suburb}
 

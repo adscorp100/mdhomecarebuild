@@ -1,6 +1,6 @@
 ---
 title: "Residential Aged Care Support in {suburb}"
-description: "Expert residential aged care support services in {suburb}. We help families navigate aged care assessments, facility selection, and transitions. Get personalized guidance through this complex process."
+description: "Expert residential aged care support services in {suburb}. Find providers who help families navigate aged care assessments, facility selection, and transitions. Get personalized guidance through this complex process."
 pubDate: 2025-06-12
 category: "Aged Care Services"
 image: "/assets/grandma.webp"
@@ -37,22 +37,22 @@ We've helped hundreds of {suburb} families through this exact journey. Let us he
 Our experienced aged care advisors in {suburb} provide hands-on support throughout the entire process.
 
 ### Assessment & Eligibility Support
-*   **ACAT Assessment Preparation:** We help you prepare for your Aged Care Assessment Team visit, ensuring all medical documentation is ready.
+*   **ACAT Assessment Preparation:** Aged care specialists through MD Home Care help you prepare for your Aged Care Assessment Team visit, ensuring all medical documentation is ready.
 *   **My Aged Care Navigation:** We guide you through the My Aged Care portal and help you understand your approval levels.
 *   **Hospital Discharge Planning:** When time is critical, we work with hospital social workers to find appropriate placements quickly.
 
 ### Facility Selection & Tours
 *   **Shortlist Development:** Based on your care needs, budget, location preferences, and values, we create a tailored list of suitable facilities.
 *   **Accompanied Facility Tours:** We attend tours with you, asking the right questions about staffing ratios, clinical care, and quality indicators.
-*   **Quality Assessment:** We help you interpret facility quality ratings and understand what to look for beyond the brochure.
+*   **Quality Assessment:** Aged care specialists through MD Home Care help you interpret facility quality ratings and understand what to look for beyond the brochure.
 
 ### Financial & Administrative Support
 *   **Fee Comparison:** We break down the complex fee structures—Basic Daily Fee, Means-Tested Care Fee, and Accommodation Payments (RAD/DAP).
 *   **Means Testing Guidance:** We explain how your income and assets affect your fees and help you prepare for the assessment.
-*   **Paperwork Assistance:** We help complete admission forms, resident agreements, and ensure nothing is missed.
+*   **Paperwork Assistance:** Aged care specialists through MD Home Care help complete admission forms, resident agreements, and ensure nothing is missed.
 
 ### Transition & Move-In Support
-*   **Move-In Coordination:** We help plan the transition, liaising with the facility and your family.
+*   **Move-In Coordination:** Aged care specialists through MD Home Care help plan the transition, liaising with the facility and your family.
 *   **Settling-In Check:** We follow up after admission to ensure the transition is going smoothly and address any concerns.
 *   **Ongoing Advocacy:** If issues arise with care quality, we can advocate on your behalf with the facility.
 
@@ -85,10 +85,10 @@ For some, a combination of these services can delay or even prevent the need to 
 Our initial consultation is free. Ongoing support services vary depending on the level of assistance you need. Many families use their Home Care Package funds to cover our navigation services. We also offer private-pay options with transparent, hourly pricing.
 
 **How is residential aged care funded?**
-Residential aged care is funded through a combination of government subsidies and resident contributions. The amount you pay depends on a means assessment of your income and assets. We help you understand exactly what you'll pay before you commit.
+Residential aged care is funded through a combination of government subsidies and resident contributions. The amount you pay depends on a means assessment of your income and assets. Aged care specialists through MD Home Care help you understand exactly what you'll pay before you commit.
 
 **What is an ACAT assessment?**
-An Aged Care Assessment Team (ACAT) assessment determines your eligibility for government-subsidised aged care. We help you prepare for this assessment and ensure your care needs are accurately captured.
+An Aged Care Assessment Team (ACAT) assessment determines your eligibility for government-subsidised aged care. Aged care specialists through MD Home Care help you prepare for this assessment and ensure your care needs are accurately captured.
 
 **Can you help if we're under pressure from a hospital discharge?**
 Yes. Hospital discharge situations require quick action, but you shouldn't sacrifice quality for speed. We have experience working with hospital social workers and can fast-track our process to find appropriate placements within tight timeframes.

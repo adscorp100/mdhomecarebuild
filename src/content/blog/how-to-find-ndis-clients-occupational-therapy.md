@@ -135,7 +135,7 @@ This is why provider network partnerships (Channel #1 below) deliver clients 3x 
 - **3-6 months** to build 5-10 strong SC relationships
 - **1-2 referrals per SC per quarter** (varies by SC caseload)
 
-**Pro Tip:** Support coordinators partner with MD Home Care frequently because we provide multiple services their participants need. When you join our allied health network, you automatically get introduced to SCs already referring to our network.
+**Pro Tip:** Support coordinators often refer to providers found through MD Home Care because participants can find multiple services in one place. When you create your profile on MD Home Care, you become visible to SCs who regularly use the platform for referrals.
 
 ---
 

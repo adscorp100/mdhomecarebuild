@@ -17,7 +17,7 @@ quickFacts:
 
 Trying to find the right insurance for your NDIS support work can be confusing. The regulations are complex, the options are overwhelming, and the fear of being underinsured is a constant worry. You need a straightforward solution that protects you, your clients, and your livelihood, so you can focus on what you do best: providing exceptional care.
 
-At MD Home Care, we understand. We're not an insurance company, but we've helped hundreds of support workers and providers in {suburb} navigate this exact challenge. We're here to cut through the confusion and connect you with the right protection.
+Through MD Home Care, you can find providers who understand. We're not an insurance company, but you can connect with insurance specialists who have helped hundreds of support workers and providers in {suburb} navigate this exact challenge. These experts can cut through the confusion and connect you with the right protection.
 
 ### The Right Support Makes All the Difference
 
@@ -33,7 +33,7 @@ We're here to solve these worries, providing a clear path to the right insurance
 
 ## Your Path to The Right Insurance Cover: How We Help
 
-Our role is to provide the expert guidance and connections you need to get insured with confidence. We help you understand and access the essential insurance types required in {suburb}.
+Through our platform, you can find insurance specialists who provide the expert guidance and connections you need to get insured with confidence. These professionals help you understand and access the essential insurance types required in {suburb}.
 
 ### 1. Understanding Your Core Insurance Needs
 
@@ -55,7 +55,7 @@ We don't sell insurance, but we partner with specialist brokers who do. We conne
 
 ### 3. Making Sense of the Costs
 
-Insurance premiums in {suburb} can vary. We help you understand the factors that influence cost, ensuring you get the best value.
+Insurance premiums in {suburb} can vary. Insurance specialists through MD Home Care help you understand the factors that influence cost, ensuring you get the best value.
 
 **Typical Annual Premium Ranges for Support Workers:**
 *   **Public Liability:** $300 - $800
@@ -73,10 +73,10 @@ Inviting someone to guide you on professional matters requires trust. We earn it
 We specialize in the NDIS and aged care sectors. We're not just consultants; we're partners who understand the day-to-day realities of support work in {suburb}.
 
 ### Save Time and Reduce Stress
-Stop spending hours trying to decipher insurance jargon. We provide clear, simple information and connect you directly with brokers who can get you covered quickly and efficiently.
+Stop spending hours trying to decipher insurance jargon. Insurance specialists through MD Home Care provide clear, simple information and connect you directly with brokers who can get you covered quickly and efficiently.
 
 ### A Partner in Your Success
-Your success is our success. We provide ongoing risk management support and resources to help you maintain best practices, reduce incidents, and keep your insurance costs down.
+Your success matters. Insurance specialists through MD Home Care provide ongoing risk management support and resources to help you maintain best practices, reduce incidents, and keep your insurance costs down.
 
 ## Frequently Asked Questions
 

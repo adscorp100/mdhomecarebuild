@@ -116,7 +116,7 @@ The daily rate covers accommodation, food, personal care, and activities. Howeve
 
 ## Need Help with Respite Care?
 
-Navigating NDIS respite care costs can be confusing. At MD Home Care, we provide clear, transparent pricing and can help you find the right respite solution for your needs.
+Navigating NDIS respite care costs can be confusing. Through MD Home Care, you can connect with respite providers who offer clear, transparent pricing and help you find the right solution for your needs.
 
 [Contact us today](/contact) for a free consultation to discuss your respite care options.
 

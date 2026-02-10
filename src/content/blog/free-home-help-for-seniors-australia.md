@@ -45,7 +45,7 @@ If you are on a full Age Pension, you will not have to pay an income-tested care
 After your assessment, you'll receive a letter explaining the level of care you're approved for. This could be approval for CHSP services or being placed in the national queue for a Home Care Package.
 
 ### Step 5: Finding and Choosing a Provider
-Once you have your approval, you can choose a government-accredited provider from the MD Home Care network to deliver your services. The [My Aged Care "Find a Provider" tool](https://www.myagedcare.gov.au/find-a-provider) is an excellent resource for this.
+Once you have your approval, you can browse government-accredited providers on MD Home Care to find one that can deliver your services. The [My Aged Care "Find a Provider" tool](https://www.myagedcare.gov.au/find-a-provider) is an excellent resource for this.
 
 <!-- DEMYSTIFYING THE DETAILS (H2) -->
 ## Demystifying the Costs: What's Free and What's Not?

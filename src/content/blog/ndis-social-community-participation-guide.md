@@ -448,7 +448,7 @@ Rural and remote participants may receive additional transport funding to access
 
 Social and community participation is one of the most rewarding aspects of your NDIS plan. It's your pathway to new friendships, skills, and a richer life connected to your community.
 
-At MD Home Care, we help participants across Melbourne make the most of their community participation funding:
+Through MD Home Care, you can find providers across Melbourne who help participants make the most of their community participation funding:
 
 - **Experienced support workers** who facilitate genuine social connections
 - **Local knowledge** of community activities and programs

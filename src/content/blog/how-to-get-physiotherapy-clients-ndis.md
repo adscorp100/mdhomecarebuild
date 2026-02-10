@@ -86,7 +86,7 @@ This is why provider partnerships (like MD Home Care's allied health network) de
 
 **Quality Referrals:**
 - Pre-qualified participants (funding confirmed, physio goals identified)
-- Engaged participants (already working with our teams, motivated for therapy)
+- Engaged participants (already connected with providers through MD Home Care, motivated for therapy)
 - Long-term relationships (participants stay with MD Home Care for years, needing ongoing physio)
 
 **Expected Results:**
@@ -311,7 +311,7 @@ Best regards,
 - Participants: Receiving in-home personal care, domestic assistance
 - Physio needs: Mobility optimization, safe transfer training for support workers
 - Partnership model: Physio training for support workers, participant mobility assessments
-- **MD Home Care provides personal care to 300+ participants** - network physios train our support workers on safe manual handling
+- **MD Home Care connects 300+ participants with personal care providers** - network physios can train support workers on safe manual handling
 
 **4. Plan Management Organizations**
 - Participants: Using plan managers to handle NDIS invoicing
@@ -644,7 +644,7 @@ You cannot work with agency-managed participants (20%) until NDIS registered.
 
 **3. Quality over volume:**
 - We pre-qualify referrals (funding confirmed, clear goals)
-- Participants engaged and motivated (already working with our teams)
+- Participants engaged and motivated (already connected with providers through MD Home Care)
 - Higher conversion and retention rates
 
 **Other networks** may offer higher referral volume but less integration, support, or quality control.

@@ -91,6 +91,6 @@ Trust that feeling. It could be a sign of a poor cultural fit or a subtle issue 
 <!-- CONCLUSION & CTA (NO HEADER) -->
 Choosing a provider is a significant decision, but you don't have to do it in the dark. By combining official checks with practical questions and trusting your intuition, you can find a provider that not only meets your needs but also respects and empowers you.
 
-At MD Home Care, we pride ourselves on transparency, communication, and a person-first approach. We believe that great care starts with a great relationship.
+Through MD Home Care, you can find providers who prioritize transparency, communication, and a person-first approach. The best providers understand that great care starts with a great relationship.
 
 If you're looking for a provider who will partner with you on your journey, **[contact MD Home Care today](/contact)**. 

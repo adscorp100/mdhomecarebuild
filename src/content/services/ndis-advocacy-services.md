@@ -89,4 +89,4 @@ MD Homecare believes in the importance of participant rights and empowerment. Wh
 
 While MD Homecare doesn't provide advocacy services directly, through our platform you can find a range of disability support providers who deliver services with respect for your rights and choices. MD Home Care also helps you connect with independent advocacy services in {suburb}.
 
-[Contact Us Today](/contact) to discuss how our services can meet your needs or to get information about connecting with advocacy support in {suburb}. 
+[Contact Us Today](/contact) to discuss how providers in our network can meet your needs or to get information about connecting with advocacy support in {suburb}. 

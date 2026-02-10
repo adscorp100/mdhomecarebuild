@@ -36,9 +36,9 @@ Recovery coaches are here to solve these worries by building a strong, trusting 
 A Psychosocial Recovery Coach is different from a Support Coordinator. Our primary focus is to help you build your own skills and capacity to navigate life's challenges. We are your coach, not just a coordinator.
 
 ### Practical, Hands-On Support for Your Recovery
-*   **Building Your Resilience:** We help you develop strong, trusting relationships and coping skills to better manage the complex challenges of day-to-day life.
+*   **Building Your Resilience:** Recovery coaches through MD Home Care help you develop strong, trusting relationships and coping skills to better manage the complex challenges of day-to-day life.
 *   **Creating a Recovery Plan:** We work with you, your family, and your other supports to design a clear, actionable plan that puts your goals front and center.
-*   **Navigating the NDIS:** We help you understand your NDIS plan, ensure you're getting the most out of it, and prepare for plan reviews.
+*   **Navigating the NDIS:** Recovery coaches through MD Home Care help you understand your NDIS plan, ensure you're getting the most out of it, and prepare for plan reviews.
 *   **Connecting with the Right Supports:** We support you to connect with the services you need, whether it's clinical mental health services, housing support, or community groups in {suburb}.
 *   **Crisis & Incident Management:** We can work with you to create a plan for what to do in a crisis, so you feel more prepared and in control.
 
@@ -64,13 +64,13 @@ Psychosocial Recovery Coaching is a specific, funded item in your NDIS plan.
 ## Frequently Asked Questions
 
 **What's the difference between a Recovery Coach and a Support Coordinator?**
-A Support Coordinator helps you connect with and coordinate your NDIS supports. A Recovery Coach does this too, but with a deeper focus on your mental health recovery. We help you build the skills and resilience to navigate your own journey, drawing on our clinical knowledge and lived experience.
+A Support Coordinator helps you connect with and coordinate your NDIS supports. A Recovery Coach does this too, but with a deeper focus on your mental health recovery. Recovery coaches through MD Home Care help you build the skills and resilience to navigate your own journey, drawing on their clinical knowledge and lived experience.
 
 **How do I get a Recovery Coach in my NDIS plan?**
 You can request funding for a Recovery Coach at your NDIS planning meeting or plan review. Talk about your mental health challenges and your goal to build your capacity for recovery.
 
 **How do I know if a coach is the right fit for me?**
-We offer a free, no-obligation "meet and greet". This is your chance to chat with a potential coach, ask questions, and see if you feel a connection. Your comfort and trust are the most important things.
+Recovery coaches through MD Home Care offer a free, no-obligation "meet and greet". This is your chance to chat with a potential coach, ask questions, and see if you feel a connection. Your comfort and trust are the most important things.
 
 ## Take the First Step Towards a Brighter Future
 

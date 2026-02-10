@@ -5,7 +5,7 @@ pubDate: 2025-05-15
 author: "Camila"
 tags: []
 popupTitle: "Need Support Workers You Can Trust?"
-popupSubtitle: "We carefully screen and train all our support workers"
+popupSubtitle: "Connect with participants who value skilled, trained support workers"
 image: "/assets/carer.webp"
 ---
 

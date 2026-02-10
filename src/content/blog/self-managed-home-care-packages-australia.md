@@ -46,14 +46,14 @@ Here's a comparison of leading providers in the new Support at Home landscape:
 | Trilogy Care | National Network | Broad access to a network of carers across Australia. | `trilogycare.com.au` |
 | My Plan Manager | Focus on NDIS & Aged Care | People navigating both the NDIS and Aged Care systems. | `myplanmanager.com.au` |
 
-**Why MD Home Care Excels in Self-Management:**
-At MD Home Care, we focus on a partnership model. We provide the essential administrative support you need to remain compliant, but with a low-fee structure designed to maximise the funds available for your care. We believe you know your needs best. Our role is to empower you to meet them. [Contact us to learn about our fee structure](/contact).
+**How MD Home Care Helps Connect You With Self-Management Options:**
+Through MD Home Care, you can find providers who offer self-management support. These providers focus on partnership models, providing essential administrative support to help you remain compliant, often with low-fee structures designed to maximise the funds available for your care. The best providers understand that you know your needs best and focus on empowering you to meet them. [Contact us to explore self-management provider options](/contact).
 
 ## How to Start with Self-Managed Care
 
 1.  **Get Assessed:** Your journey starts with an assessment from My Aged Care. A team will visit you to understand your needs and determine your budget. You can call them on **1800 200 422** or visit the [My Aged Care website](https://www.myagedcare.gov.au/).
 2.  **Choose the Self-Management Pathway:** During your assessment and planning, state that you wish to self-manage your funds.
-3.  **Select an Approved Provider:** This is your key partner. Choose a provider like MD Home Care that specialises in low-fee self-management.
+3.  **Select an Approved Provider:** This is your key partner. You can browse providers through MD Home Care to find ones that specialize in low-fee self-management.
 4.  **Build Your Team:** Start identifying support workers you trust. You can use platforms like Mable or Hireup, or engage independent workers directly.
 5.  **Create Your Care Plan:** Work with your chosen provider to document your care plan, which they will use to administer your funds in a compliant way.
 

@@ -331,4 +331,4 @@ First, wait 24-48 hours as updates can take time to process. If the information 
 
 Understanding and using the myplace portal effectively puts you in control of your NDIS plan. While the system can seem complex at first, regular use builds familiarity. Don't hesitate to use the support resources available, whether that's official guides, phone support, or help from your Local Area Coordinator.
 
-At MD Home Care, we understand that navigating NDIS systems can be challenging. Our team is experienced in helping participants make the most of their plans and the tools available to manage them. If you need support with your NDIS services or want to discuss how we can help you achieve your goals, **[contact MD Home Care today](/contact)**.
+MD Home Care connects you with providers who understand that navigating NDIS systems can be challenging. Through our platform, you can find experienced providers who can help participants make the most of their plans and the tools available to manage them. If you need support with your NDIS services or want to browse providers who can help you achieve your goals, **[contact MD Home Care today](/contact)**.

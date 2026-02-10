@@ -135,9 +135,9 @@ Our **behaviour support services** can be accessed through NDIS funding by {subu
 - **Specialist Support Coordination**: For complex support needs requiring intensive coordination
 - **Core Supports**: For implementation of behaviour support strategies
 
-We help participants understand how to include **behaviour support** in their NDIS plans and make the most of their funding.
+Through MD Home Care, you can find providers who help participants understand how to include **behaviour support** in their NDIS plans and make the most of their funding.
 
-## Why Choose Our Behaviour Support Services
+## Why Choose Behaviour Support Services Through MD Home Care
 
 Behaviour support services available through MD Home Care stand out in {suburb} because they offer:
 

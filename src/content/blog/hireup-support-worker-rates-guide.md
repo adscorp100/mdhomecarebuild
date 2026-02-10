@@ -245,7 +245,7 @@ Traditional NDIS providers like **MD Home Care** offer a different approach:
 - More personalised service
 - Local knowledge and community connections
 
-At MD Home Care, we combine the best of both worlds—you get choice and flexibility while benefiting from our experienced team, clinical oversight, and genuine relationships with your support workers.
+Through MD Home Care, you can find providers who combine the best of both worlds—giving you choice and flexibility while offering experienced teams, clinical oversight, and genuine relationships with support workers.
 
 ## Frequently Asked Questions
 

@@ -66,9 +66,9 @@ In your planning meeting, clearly explain your goals and how the support will he
 
 ## How MD Home Care Can Help
 
-Turning your community participation goals into reality requires the right support. At MD Home Care, our support workers are dedicated to helping you engage with your community in a way that is meaningful to you.
+Turning your community participation goals into reality requires the right support. Through MD Home Care, you can find dedicated support workers who can help you engage with your community in a way that is meaningful to you.
 
-We can provide:
+Providers in our network can offer:
 -   **One-on-one support** to accompany you to activities and events.
 -   **Transport assistance** to get you where you need to go.
 -   **Help with finding** local clubs, classes, and groups that match your interests.

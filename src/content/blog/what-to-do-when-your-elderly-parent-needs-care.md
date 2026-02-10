@@ -71,6 +71,6 @@ Family conflict is common. Try to hold a family meeting where everyone can voice
 <!-- CONCLUSION & CTA (NO HEADER) -->
 Starting the aged care journey is a marathon, not a sprint. It's okay to feel overwhelmed, but you don't have to do it alone. The most important thing is to take the first step.
 
-At MD Home Care, we believe that everyone deserves to live with dignity and independence. We can help you understand the options and find a solution that works for your family.
+Through MD Home Care, you can connect with aged care providers who understand that everyone deserves to live with dignity and independence. These providers can help you understand the options and find a solution that works for your family.
 
 If you have questions or just need to talk to someone who understands, **[contact MD Home Care today](/contact)**. 

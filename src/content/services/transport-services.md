@@ -19,14 +19,14 @@ Arranging transport should be simple, but for people with a disability or mobili
 
 ## You Deserve a Service You Can Depend On
 
-We understand the frustration. Our service was designed to solve the most common transport problems.
+Transport providers through MD Home Care understand the frustration. Their services are designed to solve the most common transport problems.
 
 -   Tired of waiting for late vehicles and missing important appointments?
 -   Frustrated by poor communication and not knowing if your ride is confirmed?
 -   Worried that a vehicle won't have the right equipment for your wheelchair or mobility aid?
 -   Anxious about the safety standards and training of the driver?
 
-We built our transport service to provide the reliability you deserve.
+Transport providers through MD Home Care have built their services to provide the reliability you deserve.
 
 ![A clean and modern accessible vehicle used for disability transport services.](/assets/sydney.webp)
 
@@ -43,15 +43,15 @@ Travel with peace of mind. Our fleet includes modern, clean, and fully accessibl
 ### Professional, Vetted Drivers
 Our drivers are more than just drivers; they are trained support professionals. Every driver is police-checked, fully licensed, and skilled in providing safe, dignified, and respectful door-to-door assistance.
 
-## How We Guarantee a Stress-Free Journey
+## How Transport Providers Guarantee a Stress-Free Journey
 
-We provide the specific, trust-building details that give you confidence when you book.
+Transport providers through MD Home Care provide the specific, trust-building details that give you confidence when you book.
 
 ### Clear Booking Confirmation
 No more uncertainty. When you book your trip, you receive a clear confirmation with the driver's details and an exact pickup time. You can relax knowing it's all organised.
 
 ### Simple NDIS Funding
-We can bill directly to your NDIS plan under Core Supports (Transport). Our team can help you understand your budget and make the process simple and transparent.
+Transport providers through MD Home Care can bill directly to your NDIS plan under Core Supports (Transport). These providers can help you understand your budget and make the process simple and transparent.
 
 ### Flexible for All Your Needs
 Our reliable transport isn't just for medical appointments. We can take you to social outings, shopping trips, community events, or work, helping you stay connected to your {suburb} community.
@@ -59,7 +59,7 @@ Our reliable transport isn't just for medical appointments. We can take you to s
 ## Booking Your Ride is Simple
 
 1.  **Tell Us Your Needs:** Call or email us with your travel details, including any accessibility requirements.
-2.  **Get a Clear Quote & Confirmation:** We provide a simple, upfront price and send you a confirmation of your booking in writing.
+2.  **Get a Clear Quote & Confirmation:** Transport providers provide a simple, upfront price and send you a confirmation of your booking in writing.
 3.  **Enjoy Your Journey:** Your professional driver arrives on time to provide safe, friendly, door-to-door service.
 4.  **Hassle-Free Billing:** We can manage payments directly through your NDIS plan, making it easy and stress-free.
 

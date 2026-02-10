@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 author: "MD Homecare Team"
 tags: ["ndis worker screening check", "worker screening", "ndis clearance", "disability worker check"]
 popupTitle: "Looking for NDIS Work Opportunities?"
-popupSubtitle: "Join our team of qualified support workers"
+popupSubtitle: "Connect with participants through MD Home Care"
 image: "/assets/nurse.webp"
 ---
 
