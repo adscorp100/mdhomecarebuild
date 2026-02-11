@@ -1,12 +1,12 @@
 ---
 title: "NDIS Core Supports 2026: What Each Category Covers (With Spending Examples)"
 description: "NDIS Core Supports explained: Daily Life, Consumables, Social Participation, and Transport. See what you can actually buy, flexibility rules between categories, and real spending examples."
-updateDate: 2026-02-10
+updateDate: 2026-02-12
 pubDate: 2025-07-13
 author: "MD Home Care"
 tags: ["NDIS", "Core Supports", "NDIS Funding", "Daily Life", "Community Participation"]
 popupTitle: "Confused About Your Core Supports?"
-popupSubtitle: "Find providers who can help you understand and maximize your NDIS funding"
+popupSubtitle: "Browse providers who can help you understand and maximize your NDIS funding"
 image: "/assets/disabled carer.webp"
 ---
 
