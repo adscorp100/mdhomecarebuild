@@ -10,7 +10,7 @@ image: "/assets/carer.webp"
 updateDate: 2026-02-10
 ---
 
-ChatGPT can tell you the NDIS price limits, but it can't show you which providers near you are actually hiring right now or what they're paying in your area. If you're looking for support worker roles with current rates, browse job listings through MD Home Care to see real pay offers from providers in your suburb.
+ChatGPT can tell you the NDIS price limits, but it can't show you which providers near you are actually hiring right now or what they're paying in your area. If you're looking for support worker roles with current rates, browse providers on MD Home Care to see real pay offers from providers in your suburb.
 
 Understanding NDIS support worker pay rates can be confusing. There are three different rates you need to know: what the NDIS pays providers (the Price Guide), what providers must pay workers (the SCHADS Award), and what workers actually take home. Whether you're a support worker, NDIS carer, or participant, this guide covers everything you need to know.
 
@@ -502,7 +502,7 @@ Yes, support workers receive penalty rates under the SCHADS Award. Saturday is t
 
 Understanding NDIS pricing helps you make informed decisions about your support. Whether you're a participant budgeting your plan or a support worker understanding your pay, knowing the rates is the first step.
 
-Through MD Home Care, you can connect with providers who prioritize transparent pricing and fair worker pay. Find providers who can help you understand your NDIS funding and connect you with quality support workers.
+Through MD Home Care, browse providers who prioritize transparent pricing and fair worker pay. Find providers who can help you understand your NDIS funding and connect you with quality support workers.
 
 **[Contact MD Home Care today](/contact)** for a free consultation about your support needs.
 

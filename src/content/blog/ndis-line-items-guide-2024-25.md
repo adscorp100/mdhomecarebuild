@@ -1,17 +1,18 @@
 ---
-title: "NDIS Codes 2025-26: Complete Line Items Guide + New Support Catalogue Updates"
-description: "Official NDIS codes 2025-26 with July updates: 23 new support items, 35 legacy items removed, complete line item codes guide with pricing. Updated Support Catalogue for participants and providers."
+title: "NDIS Codes 2026: Complete Line Items Guide + New Support Catalogue Updates"
+description: "Official NDIS codes 2026 with July updates: 23 new support items, 35 legacy items removed, complete line item codes guide with pricing. Updated Support Catalogue for participants and providers."
 pubDate: 2025-07-02
+updateDate: 2026-02-12
 author: "Camila"
 category: "NDIS"
 popupTitle: "Confused About NDIS Pricing?"
-popupSubtitle: "Find qualified support coordinators who can help you understand your plan"
+popupSubtitle: "Browse qualified support coordinators who can help you understand your plan"
 image: "/assets/Ilovendis.webp"
 ---
 
-# NDIS Codes 2025-26: Complete Line Items Guide + New Support Catalogue Updates
+# NDIS Codes 2026: Complete Line Items Guide + New Support Catalogue Updates
 
-## BREAKING NEWS: July 2025 NDIS Support Catalogue Updates
+## BREAKING NEWS: July 2026 NDIS Support Catalogue Updates
 
 **Latest Changes Effective July 1, 2025:**
 - **23 new Intensive and Complex Behaviour Support Items** added to Support Catalogue

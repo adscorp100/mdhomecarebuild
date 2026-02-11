@@ -2,11 +2,12 @@
 title: "Where to Buy & Sell Second-Hand Disability Equipment Australia 2026: Complete Guide"
 description: Discover where to buy and sell second-hand disability equipment in Australia. Find wheelchairs, mobility scooters, hoists near you in Sydney, Melbourne, Brisbane, Perth. NDIS funding options, safety tips, and trusted platforms for 2026.
 pubDate: 2025-01-11
+updateDate: 2026-02-12
 author: "Camila"
 image: "/assets/disabled carer.webp"
 tags: ["disability equipment", "second hand", "mobility aids", "NDIS", "assistive technology", "Australia", "buying guide", "selling guide", "donating", "wheelchairs", "mobility scooters"]
 popupTitle: "Need Help Finding Disability Equipment?"
-popupSubtitle: "Connect with professionals who can guide you to quality equipment within your budget"
+popupSubtitle: "Browse providers and resources to find quality equipment within your budget"
 ---
 
 # Where to Buy & Sell Second-Hand Disability Equipment Australia 2026
@@ -324,14 +325,14 @@ Understanding NDIS funding categories is essential when purchasing second-hand e
 | Category | Price Range | Requirements | Second-Hand Considerations |
 |----------|-------------|--------------|---------------------------|
 | **Low-Cost AT** | Under $1,500 | No quote required, minimal documentation | Easiest to purchase second-hand. Keep receipt. |
-| **Mid-Cost AT** | $1,500 - $15,000 | Cost estimate required, may need OT/PT assessment | Document condition, compare to new price, justify value for money. |
+| **Mid-Cost AT** | $1,500 to $15,000 | Cost estimate required, may need OT/PT assessment | Document condition, compare to new price, justify value for money. |
 | **High-Cost AT** | Over $15,000 | Multiple quotes, detailed OT/PT assessment, NDIS approval | Rare for second-hand purchases. Extensive documentation needed. |
 
 **NDIS Funding Tips for Second-Hand Equipment:**
 
 - **Under $1,500:** Self-managed and plan-managed participants can usually purchase without pre-approval. Keep detailed receipts.
-- **$1,500 - $5,000:** Provide a cost comparison showing how the second-hand price represents value versus new equipment.
-- **$5,000 - $15,000:** An OT or PT report is typically required, even for second-hand items. Document the equipment's condition and expected remaining lifespan.
+- **$1,500 to $5,000:** Provide a cost comparison showing how the second-hand price represents value versus new equipment.
+- **$5,000 to $15,000:** An OT or PT report is typically required, even for second-hand items. Document the equipment's condition and expected remaining lifespan.
 - **Over $15,000:** Rarely funded second-hand. Would require exceptional justification and multiple quotes.
 
 **Documentation for Second-Hand NDIS Purchases:**
@@ -596,7 +597,7 @@ When purchasing used mobility aids, asking the right questions can help assess s
 Yes, donating disability equipment you no longer need is an excellent way to help others while preventing useful items from ending up in landfill. Many organizations across Australia accept donations, including: Rotary Clubs (through programs like RAMP or MediShare), Medicycle (which facilitates collection and refurbishment nationwide), disability-specific organizations like Endeavour Foundation or Afford (check local branches), general charities like Salvation Army or St Vincent de Paul (though acceptance varies by store), and regional specialists like Active Rehabilitation Equipment (Victoria), TADACT (ACT), or My Way Disability and Aged Care (WA/VIC). Before donating, follow these important steps: (1) Thoroughly clean and sanitize the equipment; (2) Gather any instruction manuals, warranty information, or maintenance records; (3) Make a list of any known issues or missing parts; and most critically, (4) Contact the organization before bringing or sending items. This pre-contact is essential as acceptance policies vary widely, change frequently, and depend on current needs and storage capacity. Many organizations cannot accept items needing repairs or missing key components. Some may offer collection services for larger items, while others require drop-off. By donating properly functioning equipment through appropriate channels, you can make a significant difference to someone who might otherwise struggle to afford necessary support aids.
 
 ### How much should I pay for second-hand disability equipment?
-Pricing for second-hand disability equipment varies widely but generally follows certain patterns. Most mobility aids and assistive technology depreciate significantly, similar to vehicles. As a rough guideline, well-maintained used equipment typically sells for 30-60% of its original retail price, depending on age, condition, and demand. Newer items (1-2 years old) in excellent condition might command 50-70% of retail price, while older items (3+ years) typically sell for 20-40%. Factors affecting value include: brand reputation (established brands like Sunrise Medical, Invacare, or Pride hold value better), item complexity (high-tech equipment depreciates faster due to technology advances), completeness (missing parts significantly reduce value), condition (visible wear, damage, or repairs lower value), and demand (common items like standard wheelchairs or walkers generally sell for less than specialized equipment with limited supply). To determine fair pricing: (1) Research the current new price of the same or equivalent model; (2) Check prices of similar used items on platforms like eBay, Gumtree, and specialized disability marketplaces; (3) Assess condition objectively using the criteria in this guide's inspection checklist; (4) Consider any additional costs you might incur (cleaning, repairs, replacement parts, professional assessment); and (5) Factor in convenience value if buying locally with opportunity for inspection. Remember that equipment that perfectly meets your needs might be worth paying more for, while items requiring modification should be discounted accordingly. Never compromise safety for price.
+Pricing for second-hand disability equipment varies widely but generally follows certain patterns. Most mobility aids and assistive technology depreciate significantly, similar to vehicles. As a rough guideline, well-maintained used equipment typically sells for 30 to 60% of its original retail price, depending on age, condition, and demand. Newer items (1 to 2 years old) in excellent condition might command 50 to 70% of retail price, while older items (3+ years) typically sell for 20 to 40%. Factors affecting value include: brand reputation (established brands like Sunrise Medical, Invacare, or Pride hold value better), item complexity (high-tech equipment depreciates faster due to technology advances), completeness (missing parts significantly reduce value), condition (visible wear, damage, or repairs lower value), and demand (common items like standard wheelchairs or walkers generally sell for less than specialized equipment with limited supply). To determine fair pricing: (1) Research the current new price of the same or equivalent model; (2) Check prices of similar used items on platforms like eBay, Gumtree, and specialized disability marketplaces; (3) Assess condition objectively using the criteria in this guide's inspection checklist; (4) Consider any additional costs you might incur (cleaning, repairs, replacement parts, professional assessment); and (5) Factor in convenience value if buying locally with opportunity for inspection. Remember that equipment that perfectly meets your needs might be worth paying more for, while items requiring modification should be discounted accordingly. Never compromise safety for price.
 
 ### What types of disability equipment are commonly available second-hand?
 The second-hand market offers a wide range of disability equipment across several categories:
@@ -639,7 +640,7 @@ Shipping large disability equipment like wheelchairs, hospital beds, or mobility
 1. **Specialist Medical Equipment Couriers:** Companies experienced with fragile medical equipment offer door-to-door delivery with appropriate handling
 2. **Freight Companies:** Cost-effective for large/heavy items. Get quotes from TNT, Toll, and StarTrack
 3. **Courier Services:** Sendle, Pack & Send for smaller items with tracking
-4. **Buyer Collection:** Often preferred for expensive items - allows inspection before purchase
+4. **Buyer Collection:** Often preferred for expensive items, allows inspection before purchase
 
 **Preparation Tips:**
 - Disassemble where possible (remove footrests, armrests, batteries)
@@ -649,9 +650,9 @@ Shipping large disability equipment like wheelchairs, hospital beds, or mobility
 - Include clear instructions for reassembly
 
 **Cost Considerations:**
-- Expect $100-$400 for interstate shipping of a standard wheelchair
-- Mobility scooters and hospital beds: $300-$800+ depending on size
-- Insurance is essential for valuable items - add 2-5% of item value
+- Expect $100 to $400 for interstate shipping of a standard wheelchair
+- Mobility scooters and hospital beds: $300 to $800+ depending on size
+- Insurance is essential for valuable items, add 2 to 5% of item value
 - Some buyers prefer to arrange their own freight to control costs
 
 ### Can I get tax deductions for donating disability equipment?

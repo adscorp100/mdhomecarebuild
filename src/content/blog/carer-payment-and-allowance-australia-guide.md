@@ -1,11 +1,12 @@
 ---
-title: "Carer Payment & Allowance Australia: 2025 Guide to Rates & Eligibility"
-description: "Confused by Centrelink's Carer Payment and Carer Allowance? This guide explains the 2025 eligibility, income tests, and application process, so you can get the financial support you deserve."
+title: "Carer Payment & Allowance Australia: 2026 Guide to Rates & Eligibility"
+description: "Confused by Centrelink's Carer Payment and Carer Allowance? This guide explains the 2026 eligibility, income tests, and application process, so you can get the financial support you deserve."
 pubDate: 2025-07-06
+updateDate: 2026-02-12
 author: "MD Home Care"
 tags: ["Carer Payment", "Carer Allowance", "Centrelink", "Financial Support", "Aged Care"]
 popupTitle: "Need Support as a Carer?"
-popupSubtitle: "Find providers who can help with respite care and carer support services"
+popupSubtitle: "Browse providers who can help with respite care and carer support services"
 image: "/assets/disabled carer.webp"
 ---
 
@@ -13,7 +14,7 @@ Caring for a loved one is one of the most important jobs in the world, but it of
 
 This guide is designed to cut through the confusion. We're going to demystify the two key forms of financial support in plain English. By the end of this page, you will understand what they are, who they're for, how to apply, and how to find the exact payment rates you're entitled to.
 
-## Quick Answer: Carer Payment vs Carer Allowance 2025
+## Quick Answer: Carer Payment vs Carer Allowance 2026
 
 **What is carer payment?** An income support payment up to $1,002.50 per fortnight (single) for people who can't work because they provide constant care. Subject to income and asset tests.
 
@@ -80,7 +81,7 @@ The payment is on a sliding scale. The more you earn or own, the lower your paym
 *   **Official Link:** [Services Australia Carer Payment Rates](https://www.servicesaustralia.gov.au/carer-payment/how-much-you-can-get)
 
 ### The Carer Allowance: The Income Limit
-This payment is simpler. It's not asset-tested, but it does have an income test. You and your partner must have a combined adjusted taxable income of under a certain limit. As of 2025, this limit is quite high, meaning many families are eligible.
+This payment is simpler. It's not asset-tested, but it does have an income test. You and your partner must have a combined adjusted taxable income of under a certain limit. As of 2026, this limit is quite high, meaning many families are eligible.
 
 *   **Official Link:** [Services Australia Carer Allowance Income Rules](https://www.servicesaustralia.gov.au/carer-allowance/how-much-you-can-get)
 

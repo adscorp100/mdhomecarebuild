@@ -5,7 +5,8 @@ pubDate: 2026-02-11
 author: "Camila"
 tags: ["NDIS", "Pay Rates", "Support Worker"]
 popupTitle: "Looking for Fair Pay and Support?"
-popupSubtitle: "Find employers offering competitive rates through MD Home Care"
+popupSubtitle: "Browse employers offering competitive rates on MD Home Care"
+updateDate: 2026-02-12
 image: "/assets/disabled carer.webp"
 ---
 
