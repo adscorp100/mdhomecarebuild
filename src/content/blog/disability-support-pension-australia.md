@@ -1,7 +1,7 @@
 ---
 title: "How Much Money Can I Have in Bank on Disability Pension? $314K-$566K"
 description: "Disability pension bank limits: $314,000 (homeowner) or $566,500 (renter). Asset test, income limits, partner rules + how much you can earn."
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["disability support pension", "DSP eligibility", "DSP asset test", "Centrelink disability pension"]

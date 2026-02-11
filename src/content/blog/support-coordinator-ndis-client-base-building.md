@@ -25,7 +25,7 @@ image: "/assets/carer.webp"
 2. **LAC Relationships** - Build partnerships with Local Area Coordinators (1-3 months to establish)
 3. **Participant Advocacy Networks** - Connect with disability advocacy organizations
 
-**SC Pricing 2026-26:**
+**SC Pricing 2025-26:**
 - Support Coordination: $79.32/hour
 - Specialist Support Coordination: $146.71/hour
 
@@ -301,7 +301,7 @@ Best regards,
 
 ---
 
-## Support Coordination Pricing Strategy (2026-26)
+## Support Coordination Pricing Strategy (2025-26)
 
 **NDIS SC Rates:**
 
@@ -479,4 +479,4 @@ Best regards,
 
 ---
 
-*Guide updated January 31, 2026 with current NDIS SC rates and provider partnership opportunities.*
+*Guide updated January 31, 2025 with current NDIS SC rates and provider partnership opportunities.*

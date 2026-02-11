@@ -7,7 +7,7 @@ tags: ["aged-care", "risk-assessment", "template", "safety", "compliance"]
 popupTitle: "Concerned About Safety at Home?"
 popupSubtitle: "Find quality providers who offer comprehensive safety assessments and support"
 image: "/assets/drinkingtea.webp"
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 ---
 
 ## Aged Care Risk Assessment Template: Key Points

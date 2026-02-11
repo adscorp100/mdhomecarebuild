@@ -39,7 +39,7 @@ Forget vague price ranges—here's what NDIS support worker insurance actually c
 | **Allianz** | From $42/month | From $504/year | $10M public liability, $5M professional indemnity | [Get Allianz Quote](https://www.allianz.com.au/business-insurance/) |
 | **AAMI** | From $36/month | From $432/year | $10M public liability, $5M professional indemnity | [Get AAMI Quote](https://www.aami.com.au/business-insurance.html) |
 
-*Prices based on quotes for disability support workers in metropolitan areas, January 2026. Your actual premium may vary based on services, location, and claims history.*
+*Prices based on quotes for disability support workers in metropolitan areas, January 2025. Your actual premium may vary based on services, location, and claims history.*
 
 ### Cost Breakdown by Coverage Type
 

@@ -1,7 +1,7 @@
 ---
 title: "Start Your NDIS Provider Business 2026: $35B Market, FREE Application + Real Costs"
 description: "Tap into the $35B NDIS market. Application is FREE but total setup costs $20K-$180K. Complete guide: audit requirements, timeline, insurance, and profit potential."
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 pubDate: 2025-07-19
 category: "NDIS Business"
 author: "MD Home Care"

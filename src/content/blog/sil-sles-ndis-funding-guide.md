@@ -1,7 +1,7 @@
 ---
 title: "SIL NDIS Funding 2026: Supported Independent Living Costs & How to Apply"
 description: "NDIS SIL funding guide 2026. Supported Independent Living costs ($80K-$320K/year), eligibility requirements, application process, and how to get approved for 24/7 support."
-pubDate: 2026-07-18
+pubDate: 2026-02-11
 author: "MD Home Care"
 tags: ["SIL NDIS", "Supported Independent Living", "NDIS Funding", "Disability Accommodation"]
 popupTitle: "Exploring Independent Living Options?"
@@ -21,7 +21,7 @@ Supported Independent Living (SIL) is a specialized NDIS funding category that p
 
 > **Looking for School Leaver Employment Supports (SLES)?** SLES is a different NDIS program that helps young people (ages 15-22) transition from school to employment. It provides around $22,000/year for up to 2 years. This guide focuses on Supported Independent Living (SIL) for accommodation support needs.
 
-> **Calculate Your SIL Costs:** Use our free [NDIS SIL Calculator](/tools/ndis-sil-calculator) to estimate Supported Independent Living costs based on your support ratio, overnight care needs, and 2026-26 NDIS rates.
+> **Calculate Your SIL Costs:** Use our free [NDIS SIL Calculator](/tools/ndis-sil-calculator) to estimate Supported Independent Living costs based on your support ratio, overnight care needs, and 2025-26 NDIS rates.
 
 ## What is SIL NDIS Funding?
 

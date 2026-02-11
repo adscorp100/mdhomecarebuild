@@ -2,7 +2,7 @@
 title: "CHSP Providers: Complete Guide to Commonwealth Home Support Program Services in Australia"
 description: "Find CHSP providers near you. Complete guide to Commonwealth Home Support Program providers, services offered, eligibility, costs, and how to access entry-level aged care support."
 pubDate: 2025-01-20
-updatedAt: 2026-02-11
+updateDate: 2026-02-11
 author: "Camila"
 tags: ["CHSP providers", "commonwealth home support program", "aged care providers", "entry level services", "CHSP services"]
 popupTitle: "Need Entry-Level Home Support?"

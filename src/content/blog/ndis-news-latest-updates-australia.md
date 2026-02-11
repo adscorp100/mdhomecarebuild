@@ -1,8 +1,8 @@
 ---
 title: "NDIS News: Latest Updates, Changes & What Participants Need to Know (February 2026)"
 description: "Stay informed with the latest NDIS news and updates for February 2026. Coverage of the new Thriving Kids program, NDIS support cuts, pricing changes, the PACE system, and what these changes mean for participants and families."
-pubDate: 2026-12-16
-updatedAt: 2026-02-10
+pubDate: 2026-02-11
+updateDate: 2026-02-10
 author: "Camila"
 tags: ["NDIS", "disability support", "NDIS news", "NDIS changes 2026", "Thriving Kids"]
 popupTitle: "Overwhelmed by NDIS Changes?"
@@ -14,11 +14,11 @@ image: "/assets/accessible bathroom.webp"
 
 The National Disability Insurance Scheme (NDIS) continues to evolve, with significant changes rolling out throughout 2026 that affect how participants access supports, manage their plans, and work with providers. Whether you're a current NDIS participant, a family member supporting someone on the scheme, or considering applying for the first time, staying up-to-date with the latest NDIS news is essential for making the most of your funding and navigating the system effectively.
 
-This comprehensive guide covers all the major NDIS updates and changes as of December 2026, explaining what they mean in practical terms and how you can adapt to ensure you continue receiving the support you need.
+This comprehensive guide covers all the major NDIS updates and changes as of December 2025, explaining what they mean in practical terms and how you can adapt to ensure you continue receiving the support you need.
 
 ## Thriving Kids: The $4 Billion NDIS Alternative
 
-The Australian Government unveiled the full model for **Thriving Kids** in February 2026, marking one of the most significant changes to early childhood disability support in a decade. This new program will provide services to children aged 8 and under with developmental delay or autism who have low to moderate support needs, outside of the NDIS.
+The Australian Government unveiled the full model for **Thriving Kids** in February 2025, marking one of the most significant changes to early childhood disability support in a decade. This new program will provide services to children aged 8 and under with developmental delay or autism who have low to moderate support needs, outside of the NDIS.
 
 **Key details about Thriving Kids:**
 
@@ -55,7 +55,7 @@ For families who have been waiting for a diagnosis to access support, Thriving K
 
 ### Growing Concerns About NDIS Plan Cuts
 
-Alongside the Thriving Kids announcement, there are growing reports from NDIS participants and families about support reductions in existing plans. A [Guardian Australia investigation](https://www.theguardian.com/australia-news/2026/feb/09/ndis-national-disability-insurance-scheme-changes-families-fear-cuts) published on 9 February 2026 documented families experiencing significant anxiety about plan cuts following the Getting the NDIS Back on Track legislation that commenced in October 2024.
+Alongside the Thriving Kids announcement, there are growing reports from NDIS participants and families about support reductions in existing plans. A [Guardian Australia investigation](https://www.theguardian.com/australia-news/2026/feb/09/ndis-national-disability-insurance-scheme-changes-families-fear-cuts) published on 9 February 2025 documented families experiencing significant anxiety about plan cuts following the Getting the NDIS Back on Track legislation that commenced in October 2024.
 
 Participants, advocates, and lawyers have reported that changes including new support definitions, funding caps for therapies, travel billing restrictions, and the introduction of funding periods have combined to reduce overall support for many participants.
 
@@ -69,7 +69,7 @@ If you have experienced unexpected reductions to your NDIS plan, you have the ri
 
 ### The NDIS Support Lists Transition Has Ended
 
-One of the most significant changes affecting participants is the end of the 12-month transition period for the NDIS Support Lists, which concluded on **2 October 2026**.
+One of the most significant changes affecting participants is the end of the 12-month transition period for the NDIS Support Lists, which concluded on **2 October 2025**.
 
 **What changed:**
 - Since October 2024, the NDIA introduced formal Support Lists that clearly define what can and cannot be purchased with NDIS funding
@@ -77,15 +77,15 @@ One of the most significant changes affecting participants is the end of the 12-
 - During the transition period, the NDIA didn't raise debts for first or second purchases of non-NDIS supports under $1,500
 
 **What this means now:**
-- From 3 October 2026, debts may be raised for any purchase that isn't on the approved NDIS supports list, regardless of the amount
+- From 3 October 2025, debts may be raised for any purchase that isn't on the approved NDIS supports list, regardless of the amount
 - All claims must use updated support item codes, legacy item numbers are no longer accepted
 - Participants should review their current supports to ensure everything aligns with the new lists
 
 **Action required:** If you're unsure whether your supports comply with the new rules, speak with your Support Coordinator or Plan Manager. They can help check your supports and ensure your funding is used correctly.
 
-### New NDIS Pricing Arrangements 2026-26
+### New NDIS Pricing Arrangements 2025-26
 
-The NDIA released updated Pricing Arrangements and Price Limits that came into effect on **1 July 2026**, with additional updates from **24 November 2026**.
+The NDIA released updated Pricing Arrangements and Price Limits that came into effect on **1 July 2025**, with additional updates from **24 November 2025**.
 
 **Key pricing changes include:**
 
@@ -94,7 +94,7 @@ The NDIA released updated Pricing Arrangements and Price Limits that came into e
 - Psychology rates increased by approximately $10 in NSW, VIC, and QLD, while decreasing by around $11 in other states
 - Physiotherapy prices decreased by $10 in eastern states, with larger reductions (up to 18%) elsewhere
 - Dietetics and podiatry prices decreased by 2.6% nationally
-- Art and music therapy rates changed to $156.16 per hour (down from $193.99) from 24 November 2026
+- Art and music therapy rates changed to $156.16 per hour (down from $193.99) from 24 November 2025
 
 **Core Support Increases:**
 - Most core supports saw price increases of approximately 3.95%, reflecting the 3.5% wage increase and 0.5% superannuation increase
@@ -102,7 +102,7 @@ The NDIA released updated Pricing Arrangements and Price Limits that came into e
 **Support Coordination Changes:**
 - Level 1 Support Connection increased by 3.95%
 - Level 2 and 3 Support Coordination price limits were frozen
-- Plan Management monthly fees were frozen, and the one-off establishment fee was removed for new plans starting 1 July 2026
+- Plan Management monthly fees were frozen, and the one-off establishment fee was removed for new plans starting 1 July 2025
 
 **Travel Billing Restrictions:**
 - Therapists can now only bill travel time at 50% of their hourly rate
@@ -125,7 +125,7 @@ If you've recently had a plan reassessment or are new to the NDIS, you're likely
 
 ### New Funding Periods
 
-From **19 May 2026**, the NDIS introduced new funding periods, smaller, more regular payment cycles across the life of your plan.
+From **19 May 2025**, the NDIS introduced new funding periods, smaller, more regular payment cycles across the life of your plan.
 
 **How it works:**
 - Most funding periods are set to three months
@@ -138,9 +138,9 @@ From **19 May 2026**, the NDIS introduced new funding periods, smaller, more reg
 - Reduced risk of running out of funds before your plan ends
 - More flexibility to adjust spending as needed
 
-### Impairment Notices From January 2026
+### Impairment Notices From January 2025
 
-From **1 January 2026**, all new NDIS participants receive an **impairment notice** instead of the previous access decision letter.
+From **1 January 2025**, all new NDIS participants receive an **impairment notice** instead of the previous access decision letter.
 
 **What's included:**
 - Confirmation of your access pathway (disability or early intervention)
@@ -162,7 +162,7 @@ Since October 2024, all claims for payment must be submitted within **two years*
 
 ### New Planning Framework (Mid-2026)
 
-The NDIA originally planned to introduce a new planning process in September 2026 but has delayed implementation to **mid-2026** following feedback from the disability community.
+The NDIA originally planned to introduce a new planning process in September 2025 but has delayed implementation to **mid-2026** following feedback from the disability community.
 
 **What we know:**
 - The new approach is called "new framework planning"
@@ -172,7 +172,7 @@ The NDIA originally planned to introduce a new planning process in September 202
 
 ### NDIS Amendment (Integrity and Safeguarding) Bill 2026
 
-On 11 November 2026, Minister McAllister announced the second tranche of legislative reforms to the NDIS. These changes focus on improving the quality of care and safety for all NDIS participants.
+On 11 November 2025, Minister McAllister announced the second tranche of legislative reforms to the NDIS. These changes focus on improving the quality of care and safety for all NDIS participants.
 
 ### Early Childhood Approach Expansion
 
@@ -180,11 +180,11 @@ The early childhood approach now covers children up to **9 years old** (previous
 
 ## NDIS Financial Update: Scheme Sustainability
 
-The NDIS Quarterly Report (March 2026) shows positive progress on scheme sustainability:
+The NDIS Quarterly Report (March 2025) shows positive progress on scheme sustainability:
 
 - Scheme expenses for the first nine months of 2024-25 were $34.2 billion, $740 million lower than projected
 - Annual cost growth at the end of March was 10.6%
-- The scheme is on track to achieve the financial stabilisation target of 8% growth by 1 July 2026
+- The scheme is on track to achieve the financial stabilisation target of 8% growth by 1 July 2025
 
 The pricing adjustments throughout 2026, particularly for therapies, are part of broader efforts to ensure participants are charged fairly and consistently with what other Australians pay through Medicare or Private Health Insurance.
 
@@ -225,9 +225,9 @@ Browse professionals on MD Home Care with over 10 years of experience supporting
 
 ### What is the biggest NDIS change in 2026?
 
-The launch of the **Thriving Kids** program is arguably the most significant NDIS-related change in 2026. This $4 billion initiative will move children under 9 with low to moderate developmental needs off the NDIS and into a new support system starting October 2026. The end of the Support Lists transition period on 2 October 2026 is also a major change, as the NDIA can now raise debts for purchases that aren't approved NDIS supports.
+The launch of the **Thriving Kids** program is arguably the most significant NDIS-related change in 2026. This $4 billion initiative will move children under 9 with low to moderate developmental needs off the NDIS and into a new support system starting October 2026. The end of the Support Lists transition period on 2 October 2025 is also a major change, as the NDIA can now raise debts for purchases that aren't approved NDIS supports.
 
-### Are NDIS prices going up or down in 2026-26?
+### Are NDIS prices going up or down in 2025-26?
 
 It depends on the service. Core supports increased by approximately 3.95%, while many therapy services saw price reductions as part of efforts to align NDIS pricing with Medicare rates. Art and music therapy rates decreased from $193.99 to $156.16 per hour.
 
@@ -237,7 +237,7 @@ PACE (Participant and Claims Enhancement) is the NDIA's new computer system for 
 
 ### When is the new NDIS planning framework starting?
 
-The new planning framework is now expected to begin in mid-2026, delayed from the original September 2026 date. It will include a new needs assessment tool called I-CAN for participants aged 16 and over.
+The new planning framework is now expected to begin in mid-2026, delayed from the original September 2025 date. It will include a new needs assessment tool called I-CAN for participants aged 16 and over.
 
 ### Can I still use my NDIS funding for the same things?
 
@@ -267,6 +267,6 @@ By staying informed and working with knowledgeable providers, you can navigate t
 
 ---
 
-*This article was last updated on 10 February 2026. NDIS rules and pricing are subject to change. Always check the official NDIS website or speak with your Support Coordinator for the most current information.*
+*This article was last updated on 10 February 2025. NDIS rules and pricing are subject to change. Always check the official NDIS website or speak with your Support Coordinator for the most current information.*
 
 *Need help navigating NDIS changes? [Browse providers on MD Home Care](/contact) to find experienced professionals who can help.*

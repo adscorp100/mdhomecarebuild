@@ -7,7 +7,7 @@ tags: []
 popupTitle: "Questions About Family Support Arrangements?"
 popupSubtitle: "Find providers who can help you understand your NDIS options"
 image: "/assets/grandma.webp"
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 ---
 
 ## Can Family Members Be Paid Support Workers: Key Points

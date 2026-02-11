@@ -2,7 +2,7 @@
 title: "Autism School Holiday Programs Melbourne 2026: Complete Guide for Families"
 description: "Find the best autism school holiday programs in Melbourne for 2026. Compare providers, costs, NDIS funding options, and sensory-friendly activities for your child."
 pubDate: 2025-01-15
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 author: "MD Home Care"
 tags: ["NDIS", "Autism", "School Holidays", "Melbourne", "Vacation Care"]
 popupTitle: "Need Help Finding the Right Program?"
@@ -332,10 +332,10 @@ Here's when Melbourne school holidays fall in 2026:
 
 | Holiday Period | Dates | Registration Opens (approx) |
 |----------------|-------|----------------------------|
-| **Term 1 break** | April 11-28, 2026 | October-November 2025 |
-| **Term 2 break** | June 27 - July 12, 2026 | February-March 2026 |
-| **Term 3 break** | September 19 - October 4, 2026 | May-June 2026 |
-| **Summer holidays** | December 19, 2026 - January 31, 2027 | August-September 2026 |
+| **Term 1 break** | April 3-17, 2026 | October-November 2025 |
+| **Term 2 break** | June 27 - July 12, 2026 | February-March 2025 |
+| **Term 3 break** | September 19 - October 4, 2026 | May-June 2025 |
+| **Summer holidays** | December 19, 2026 - January 31, 2027 | August-September 2025 |
 
 ### Your Action Plan
 
@@ -409,4 +409,4 @@ Through MD Home Care, Melbourne families can connect with providers who:
 
 ---
 
-*This guide is updated regularly. Last updated: January 2026. Program availability and costs may change—always confirm directly with providers.*
+*This guide is updated regularly. Last updated: January 2025. Program availability and costs may change—always confirm directly with providers.*

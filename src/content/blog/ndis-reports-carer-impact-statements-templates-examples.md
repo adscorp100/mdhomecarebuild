@@ -411,4 +411,4 @@ If you have questions about carer support, NDIS services, or need help with your
 
 ---
 
-*This guide was last updated January 2026 to reflect current NDIS policies and planner requirements. Our free carer impact statement template is regularly updated to ensure it meets the latest NDIS standards.*
+*This guide was last updated January 2025 to reflect current NDIS policies and planner requirements. Our free carer impact statement template is regularly updated to ensure it meets the latest NDIS standards.*

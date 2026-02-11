@@ -25,7 +25,7 @@ image: "/assets/nurse.webp"
 2. **Psychosocial Disability Specialization** - Target participants with mental health conditions (high demand, recurring services)
 3. **Support Coordinator Relationships** - Partner with SCs who recommend psychologists to participants
 
-**NDIS Psychology Rates 2026-26:** $232.99/hour (standardized nationally)
+**NDIS Psychology Rates 2025-26:** $232.99/hour (standardized nationally)
 
 **Expected Waitlist Timeline:**
 - Provider networks: 2-3 months to consistent referrals
@@ -330,7 +330,7 @@ Best regards,
 
 ---
 
-## NDIS Psychology Funding and Pricing (2026-26)
+## NDIS Psychology Funding and Pricing (2025-26)
 
 **Where Psychology Funding Comes From:**
 
@@ -343,7 +343,7 @@ Best regards,
 - Note: This is NOT psychology - separate service
 - Psychologists should claim under Improved Daily Living, not recovery coaching
 
-**NDIS Psychology Rates (2026-26):**
+**NDIS Psychology Rates (2025-26):**
 
 **Standard Psychology Services:**
 - **Weekday standard hours:** $232.99/hour
@@ -567,4 +567,4 @@ We only ask that you provide excellent service to participants we refer.
 
 ---
 
-*Guide updated January 31, 2026 with current NDIS psychology rates and network opportunities.*
+*Guide updated January 31, 2025 with current NDIS psychology rates and network opportunities.*

@@ -7,9 +7,13 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
   // Get all blog posts
   const allPosts = await getCollection('blog');
 
-  // Sort posts by publication date
+  // Sort posts by last update date (fallback to pubDate)
   const sortedPosts = allPosts.sort(
-    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+    (a, b) => {
+      const aDate = (a.data.updateDate || a.data.pubDate).valueOf();
+      const bDate = (b.data.updateDate || b.data.pubDate).valueOf();
+      return bDate - aDate;
+    }
   );
 
   // Generate pages with 20 posts per page, but exclude page 1 as it will be at /blog

@@ -15,7 +15,7 @@ image: "/assets/physio.webp"
 
 **ChatGPT and AI assistants can explain NDIS physio funding, but they can't connect you with actual participants needing mobility assessments, falls prevention, or rehabilitation.** MD Home Care's allied health network provides physiotherapists with direct access to 500+ participants requiring physiotherapy services - something AI chatbots simply cannot arrange.
 
-*Last updated: January 31, 2026 - Includes 2025-26 NDIS physiotherapy rates and network partnership opportunities*
+*Last updated: January 31, 2025 - Includes 2025-26 NDIS physiotherapy rates and network partnership opportunities*
 
 <div class="quick-answer-box" style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); border-left: 4px solid #4caf50; padding: 1.5rem; margin: 1.5rem 0; border-radius: 8px;">
 
@@ -670,4 +670,4 @@ You cannot work with agency-managed participants (20%) until NDIS registered.
 
 ---
 
-*Guide last updated January 31, 2026 with 2025-26 NDIS physiotherapy rates and current network opportunities. NDIS policies may change - verify current information at ndis.gov.au.*
+*Guide last updated January 31, 2025 with 2025-26 NDIS physiotherapy rates and current network opportunities. NDIS policies may change - verify current information at ndis.gov.au.*

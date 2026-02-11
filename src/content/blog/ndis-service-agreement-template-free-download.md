@@ -26,7 +26,7 @@ This template includes:
 - Clear participant rights and provider responsibilities
 - Termination and dispute resolution clauses
 - Customizable fields for your services and pricing
-- Compliance with NDIS Pricing Arrangements 2026-26
+- Compliance with NDIS Pricing Arrangements 2025-26
 
 ## What is an NDIS Service Agreement?
 
@@ -70,7 +70,7 @@ This is the heart of the agreement and must include:
 ### 3. Pricing and Payment Terms
 Your pricing section must be transparent and NDIS-compliant:
 - **Unit prices**: Rate for each support type (must not exceed NDIS price limits)
-- **Pricing reference**: Acknowledgment that prices align with NDIS Pricing Arrangements 2026-26
+- **Pricing reference**: Acknowledgment that prices align with NDIS Pricing Arrangements 2025-26
 - **Additional fees**: Any travel, administration, or cancellation fees
 - **Cancellation policy**: Required notice period and any applicable fees
 - **Payment schedule**: When invoices will be issued (e.g., fortnightly, monthly)
@@ -268,7 +268,7 @@ To provide NDIS supports, you must:
 - **Display registration**: Clearly show NDIS registration number on agreements and marketing
 
 ### NDIS Pricing Arrangements Compliance
-All pricing must align with the NDIS Pricing Arrangements and Price Limits 2026-26:
+All pricing must align with the NDIS Pricing Arrangements and Price Limits 2025-26:
 - **Price caps**: Never charge more than published price limits
 - **Correct items**: Use the correct support item numbers
 - **Transparent fees**: Clearly disclose all fees and charges
@@ -352,7 +352,7 @@ Work with the participant to specify:
 
 ### Step 3: Set Pricing and Payment Terms
 Determine:
-- Unit prices for each support (check NDIS Price Guide 2026-26)
+- Unit prices for each support (check NDIS Price Guide 2025-26)
 - Any applicable loadings (evening, weekend, public holiday)
 - Travel fees and calculation method
 - Cancellation policy and required notice period
@@ -553,7 +553,7 @@ Yes. While unregistered providers aren't subject to NDIS Commission registration
 No. Participants have the right to choose any provider and change providers at any time. Clauses that restrict this right are not enforceable.
 
 ## Key Resources for NDIS Service Agreements
-- [NDIS Pricing Arrangements and Price Limits 2026-26](https://www.ndis.gov.au/providers/pricing-arrangements)
+- [NDIS Pricing Arrangements and Price Limits 2025-26](https://www.ndis.gov.au/providers/pricing-arrangements)
 - [NDIS Practice Standards](https://www.ndiscommission.gov.au/providers/registered-ndis-providers/provider-obligations-and-requirements/ndis-practice-standards)
 - [NDIS Code of Conduct](https://www.ndiscommission.gov.au/about/ndis-code-conduct)
 - [Australian Consumer Law](https://www.accc.gov.au/consumers/consumer-rights-guarantees/consumer-guarantees)

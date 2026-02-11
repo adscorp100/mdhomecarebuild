@@ -1,0 +1,7 @@
+MDH Blog Date Fix Report
+================================================================================
+
+Files scanned: 150
+Files with '2026' in body: 84
+Files with problematic dates: 0
+

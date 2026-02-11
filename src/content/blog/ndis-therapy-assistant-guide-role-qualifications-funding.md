@@ -1,7 +1,7 @@
 ---
 title: "NDIS Therapy Assistant 2026: Role, Qualifications, Funding Rates & How to Become One"
 description: "Complete guide to NDIS therapy assistants. Learn the role, qualifications (Certificate IV), funding rates ($71/hr), supervision requirements, and how to start your career in 2026."
-pubDate: 2026-07-20
+pubDate: 2026-02-11
 category: "NDIS Careers"
 author: "MD Home Care"
 tags: ["Therapy Assistant", "NDIS Careers", "Allied Health", "NDIS Funding", "Support Worker"]
