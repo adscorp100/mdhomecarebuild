@@ -564,7 +564,7 @@ const faqSchema = {
         "@type": "Answer",
         "text": quickFacts?.costRange
           ? `${cleanServiceName} in ${suburbName} typically costs ${quickFacts.costRange}. Funding options include ${quickFacts.fundingOptions || 'NDIS, Home Care Packages, and private payment'}. Contact us for a personalized quote.`
-          : `The cost of ${cleanServiceName} in ${suburbName} varies based on your individual needs and funding arrangement. We offer services through NDIS, Home Care Packages, DVA, and private payment options. Contact us for a personalized assessment and quote.`
+          : `The cost of ${cleanServiceName} in ${suburbName} varies based on your individual needs and funding arrangement. Find providers who accept NDIS, Home Care Packages, DVA, and private payment options through MD Home Care. Contact us to connect with providers for a personalized quote.`
       }
     },
     {
@@ -572,15 +572,15 @@ const faqSchema = {
       "name": `How do I access ${cleanServiceName} in ${suburbName}?`,
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": `To access ${cleanServiceName} in ${suburbName}, contact MD Home Care on 08 6386 9999 or through our website. We'll arrange a free consultation to assess your needs, discuss funding options (NDIS, Home Care Packages, or private), and match you with qualified local support workers.`
+        "text": `To find ${cleanServiceName} providers in ${suburbName}, contact MD Home Care on 08 6386 9999 or through our website. We'll help you connect with providers who can offer a free consultation to assess your needs, discuss funding options (NDIS, Home Care Packages, or private), and match you with qualified local support workers.`
       }
     },
     {
       "@type": "Question",
-      "name": `Do you have local care workers in ${suburbName}?`,
+      "name": `Are there local care workers available in ${suburbName}?`,
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": `Yes, we have qualified care workers based in ${suburbName} and the ${suburbInfo.region} area. All our team members are fully qualified, police-checked, and insured. They understand the local community and can provide consistent, reliable care.`
+        "text": `Yes, the MD Home Care network includes qualified care workers based in ${suburbName} and the ${suburbInfo.region} area. All providers in our network are fully qualified, police-checked, and insured. They understand the local community and can provide consistent, reliable care.`
       }
     },
     {
@@ -589,8 +589,8 @@ const faqSchema = {
       "acceptedAnswer": {
         "@type": "Answer",
         "text": quickFacts?.fundingOptions
-          ? `In ${suburbName}, ${cleanServiceName} can be funded through: ${quickFacts.fundingOptions}. Our team can help you understand your eligibility and navigate the funding process.`
-          : `In ${suburbName}, our services can be accessed through NDIS (National Disability Insurance Scheme), Home Care Packages, DVA (Department of Veterans' Affairs), CHSP (Commonwealth Home Support Programme), or private payment. We can help you understand your eligibility for different funding options.`
+          ? `In ${suburbName}, ${cleanServiceName} can be funded through: ${quickFacts.fundingOptions}. We can help connect you with providers and assist you in understanding your eligibility and navigating the funding process.`
+          : `In ${suburbName}, providers accept funding through NDIS (National Disability Insurance Scheme), Home Care Packages, DVA (Department of Veterans' Affairs), CHSP (Commonwealth Home Support Programme), or private payment. We can help you understand your eligibility for different funding options and connect you with suitable providers.`
       }
     },
     {
@@ -637,7 +637,7 @@ const howToSchema = {
       "@type": "HowToStep",
       "position": 3,
       "name": "Funding Confirmation",
-      "text": "We help you navigate NDIS, Home Care Packages, DVA, or private payment options to fund your services."
+      "text": "We help you navigate NDIS, Home Care Packages, DVA, or private payment options and connect you with providers who accept your funding."
     },
     {
       "@type": "HowToStep",
