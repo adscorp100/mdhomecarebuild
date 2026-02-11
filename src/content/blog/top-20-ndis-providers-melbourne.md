@@ -1,6 +1,6 @@
 ---
-title: "Top 10 NDIS Providers Melbourne 2026: Ranked + Pricing Compared"
-description: "Compare Melbourne's best NDIS providers ranked by services, coverage, and 2026 rates. See what makes each provider stand out for SIL, therapy, and support coordination."
+title: "Best NDIS Providers Melbourne: 20 Registered, Pricing Compared"
+description: "Best NDIS providers in Melbourne 2026: 20 registered providers compared. SIL, therapy, support coordination. See pricing, services, coverage areas."
 slug: top-20-ndis-providers-melbourne-2026
 image: /assets/ndis-provider-melbourne.webp
 alt: Person in wheelchair receiving support from an NDIS provider in Melbourne
