@@ -1,7 +1,7 @@
 ---
-title: "How Much Disability Pension Per Fortnight: $1,149"
-description: "Disability pension rates 2026: $1,149/fortnight (single), $866.80 (couple). Includes calculator, asset limits, income test, bonus payments."
-updateDate: 2026-02-11
+title: "How Much Is Disability Pension Per Fortnight 2026? $1,149 (Single) Payment Guide"
+description: "Get $1,149/fortnight if single, $866.80 each for couples on DSP in 2026. Does it stop at 65? How much can you earn? Asset limits explained + free calculator."
+updateDate: 2026-02-12
 pubDate: 2025-12-15
 author: "Camila"
 tags: ["disability support pension", "dsp rates", "disability pension", "centrelink payments", "dsp 2026", "disability pension rates", "DSP eligibility", "DSP asset test", "Centrelink disability pension"]
@@ -29,7 +29,7 @@ image: "/assets/wheelchair.webp"
 
 **Get $1,149 per fortnight if you're single, or $866.80 each for couples receiving the disability pension in 2026.** Use our instant calculator below to find your exact payment amount based on your income, assets, and relationship status.
 
-**ChatGPT can't calculate your exact DSP payment or connect you with local disability support services.** MD Home Care's provider network helps you find registered NDIS support workers and aged care services across Sydney and Melbourne. Browse providers at **08 6386 9999** for assistance.
+**ChatGPT can't calculate your exact DSP payment or help you find local disability support services.** MD Home Care connects you with registered NDIS support workers and aged care providers across Sydney and Melbourne. Find the right support through MD Home Care at **08 6386 9999**.
 
 ---
 
@@ -204,7 +204,7 @@ Centrelink will assume your financial assets earn income at these rates, which c
 
 **Medical Reviews:**
 - Scheduled based on condition
-- Can be every 1-5 years or longer
+- Can be every 1 to 5 years or longer
 - May require updated medical evidence
 - More common for recipients under 35
 
@@ -315,7 +315,7 @@ Centrelink will assume your financial assets earn income at these rates, which c
 ### Step 4: Decision and Payment
 
 **Processing Timeframes:**
-- 8-16 weeks typical processing
+- 8 to 16 weeks typical processing
 - May take longer for complex cases
 - Backpay from date of claim if approved
 

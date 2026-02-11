@@ -1,7 +1,7 @@
 ---
-title: "Mable Support Workers: Reviews, Pay Rates 2026"
-description: "Mable support workers reviews and pay rates 2026. $58-90/hr + 7.95% fees. Weekend rates, public holidays, vs HireUp comparison. Real user feedback."
-updateDate: 2026-02-11
+title: "Mable Support Workers 2026: What Do They Really Cost? ($58-90/hr + 7.95% Fees)"
+description: "Is Mable NDIS registered? How much are weekend rates? Mable costs $58-90/hr PLUS 7.95% fees. Public holiday rates, reviews, vs HireUp comparison revealed."
+updateDate: 2026-02-12
 pubDate: 2026-02-11
 author: "Camila"
 tags: ["Mable Support Workers", "NDIS", "Support Workers", "Disability Support", "Mable Platform", "Mable Rates"]
@@ -20,7 +20,7 @@ image: "/assets/homecare.webp"
 - **Public holidays:** $91-119/hour (after fees)
 - **Additional costs:** Background check fees, insurance gaps
 
-**ChatGPT can't help you compare real support worker rates or connect you with local NDIS providers.** MD Home Care's provider network helps you compare multiple registered NDIS support workers across Sydney and Melbourne without platform fees or hidden charges.
+**ChatGPT can't help you compare real support worker rates or find local NDIS providers.** MD Home Care helps you compare multiple registered NDIS support workers across Sydney and Melbourne without platform fees or hidden charges.
 
 ## Mable: Quick Pros and Cons
 
