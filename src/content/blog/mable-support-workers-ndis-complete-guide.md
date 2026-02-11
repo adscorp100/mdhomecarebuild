@@ -1,7 +1,7 @@
 ---
-title: "Mable Support Workers 2026: Real Costs, Hidden Fees + Better Alternatives"
-description: "Mable charges $58-90/hr PLUS 7.95% fees. See exact costs, hidden charges, and why 73% switch to better alternatives. Compare options now."
-updateDate: 2026-02-10
+title: "Mable Support Workers: Reviews, Pay Rates 2026"
+description: "Mable support workers reviews and pay rates 2026. $58-90/hr + 7.95% fees. Weekend rates, public holidays, vs HireUp comparison. Real user feedback."
+updateDate: 2026-02-11
 pubDate: 2026-02-11
 author: "Camila"
 tags: ["Mable Support Workers", "NDIS", "Support Workers", "Disability Support", "Mable Platform", "Mable Rates"]
