@@ -140,7 +140,7 @@ const structuredData = {
 
                             <div class="form-control">
                                 <label class="label text-sm font-bold text-secondary/70 ml-1 mb-1">I am a...</label>
-                                <select id="service" name="service" class="select select-lg w-full bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-2xl transition-all text-base-content/70 font-normal outline-none">
+                                <select id="serviceType" name="serviceType" class="select select-lg w-full bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-2xl transition-all text-base-content/70 font-normal outline-none">
                                     <option value="" disabled selected>Select an option...</option>
                                     <optgroup label="Looking for Care">
                                         <option value="ndis">NDIS Participant</option>
@@ -162,6 +162,11 @@ const structuredData = {
                             <div class="form-control">
                                 <label class="label text-sm font-bold text-secondary/70 ml-1 mb-1">Message</label>
                                 <textarea id="message" name="message" placeholder="How can we help? If making a referral, please include details." class="textarea textarea-lg w-full bg-white border-2 border-base-200 focus:border-primary focus:ring-4 focus:ring-primary/10 rounded-2xl transition-all min-h-[250px] resize-none outline-none text-base" required></textarea>
+                            </div>
+
+                            <!-- Cloudflare Turnstile Widget -->
+                            <div class="form-control">
+                                <div class="cf-turnstile" data-sitekey={import.meta.env.PUBLIC_TURNSTILE_SITE_KEY}></div>
                             </div>
 
                             <div class="pt-4">
@@ -209,6 +214,9 @@ const structuredData = {
 
 </BaseLayout>
 
+<!-- Cloudflare Turnstile -->
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
 <script>
   // Add PostHog type declaration
   declare global {
@@ -221,17 +229,22 @@ const structuredData = {
   }
 
   // Form submission handler
-  document.querySelector('form')?.addEventListener('submit', (e) => {
+  document.querySelector('form')?.addEventListener('submit', async (e) => {
     e.preventDefault();
 
     const form = e.target as HTMLFormElement;
     const submitButton = form.querySelector('button[type="submit"]') as HTMLButtonElement;
     const originalHTML = submitButton.innerHTML;
+    const formData = new FormData(form);
+
     const name = (form.querySelector('#name') as HTMLInputElement).value;
     const email = (form.querySelector('#email') as HTMLInputElement).value;
     const phone = (form.querySelector('#phone') as HTMLInputElement).value;
-    const service = (form.querySelector('#service') as HTMLSelectElement).value;
+    const serviceType = (form.querySelector('#serviceType') as HTMLSelectElement).value;
     const message = (form.querySelector('#message') as HTMLTextAreaElement).value;
+
+    // Get Turnstile token
+    const turnstileToken = formData.get('cf-turnstile-response');
 
     // Track form submission in PostHog
     if (window.posthog) {
@@ -247,7 +260,7 @@ const structuredData = {
         name: name,
         email: email,
         phone: phone || undefined,
-        service_type: service || undefined,
+        service_type: serviceType || undefined,
         message: message,
         message_length: message.length
       });
@@ -262,17 +275,63 @@ const structuredData = {
       }
     });
 
-    // Simulate sending
-    setTimeout(() => {
-      submitButton.innerHTML = 'Message Sent!';
-      submitButton.classList.remove('btn-primary');
-      submitButton.classList.add('btn-success');
+    try {
+      // Send form data to backend API
+      const apiBaseUrl = import.meta.env.PUBLIC_API_BASE_URL || 'https://app.mdhomecare.com.au';
+      const response = await fetch(`${apiBaseUrl}/api/contact`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: name,
+          email: email,
+          phone: phone,
+          serviceType: serviceType,
+          message: message,
+          turnstileToken: turnstileToken,
+          currentUrl: window.location.href,
+          referrer: document.referrer,
+        }),
+      });
 
+      const result = await response.json();
+
+      if (response.ok) {
+        // Success
+        submitButton.innerHTML = 'Message Sent!';
+        submitButton.classList.remove('btn-primary');
+        submitButton.classList.add('btn-success');
+
+        // Reset form after 2 seconds
+        setTimeout(() => {
+          form.reset();
+          submitButton.innerHTML = originalHTML;
+          submitButton.disabled = false;
+          submitButton.classList.remove('btn-success');
+          submitButton.classList.add('btn-primary');
+
+          Array.from(form.elements).forEach(element => {
+            if (element instanceof HTMLInputElement || element instanceof HTMLTextAreaElement || element instanceof HTMLSelectElement) {
+              element.disabled = false;
+            }
+          });
+        }, 2000);
+      } else {
+        // API error
+        throw new Error(result.message || 'Failed to send message');
+      }
+    } catch (error) {
+      // Handle errors
+      console.error('Form submission error:', error);
+
+      submitButton.innerHTML = 'Failed to Send';
+      submitButton.classList.remove('btn-primary');
+      submitButton.classList.add('btn-error');
+
+      // Re-enable form after 3 seconds
       setTimeout(() => {
-        form.reset();
         submitButton.innerHTML = originalHTML;
         submitButton.disabled = false;
-        submitButton.classList.remove('btn-success');
+        submitButton.classList.remove('btn-error');
         submitButton.classList.add('btn-primary');
 
         Array.from(form.elements).forEach(element => {
@@ -280,8 +339,8 @@ const structuredData = {
             element.disabled = false;
           }
         });
-      }, 2000);
-    }, 1500);
+      }, 3000);
+    }
   });
 
   // Track email identification
