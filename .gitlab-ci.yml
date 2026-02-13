@@ -4,6 +4,11 @@ stages:
 
 variables:
   NODE_OPTIONS: "--max-old-space-size=4096"
+  RCLONE_OPERATION: "sync"
+  RCLONE_TRANSFERS: "128"
+  RCLONE_CHECKERS: "128"
+  RCLONE_S3_UPLOAD_CONCURRENCY: "1"
+  RCLONE_S3_CHUNK_SIZE: "5M"
 
 # ──────────────────────────────────────────────
 # Build Stage
@@ -30,27 +35,52 @@ build:
 # ──────────────────────────────────────────────
 deploy:
   stage: deploy
-  image: meetrix/website-build-container
+  image:
+    name: rclone/rclone:latest
+    entrypoint: [""]
   dependencies:
     - build
   before_script:
-    - export AWS_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
-    - export AWS_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
+    # Configure rclone for Cloudflare R2
+    - |
+      mkdir -p ~/.config/rclone
+      cat > ~/.config/rclone/rclone.conf <<EOF
+      [r2]
+      type = s3
+      provider = Cloudflare
+      access_key_id = $R2_ACCESS_KEY_ID
+      secret_access_key = $R2_SECRET_ACCESS_KEY
+      endpoint = $R2_ENDPOINT_URL
+      acl = private
+      EOF
   script:
-    # Upload dist/ to R2 bucket
+    # Upload dist/ to R2 bucket with rclone (fast, concurrent)
     - >
-      aws s3 cp dist/ "s3://$R2_BUCKET_NAME/"
-      --recursive
-      --endpoint-url "$R2_ENDPOINT_URL"
-      --quiet
+      rclone $RCLONE_OPERATION dist/ r2:$R2_BUCKET_NAME/
+      --fast-list
+      --transfers=$RCLONE_TRANSFERS
+      --checkers=$RCLONE_CHECKERS
+      --s3-upload-concurrency=$RCLONE_S3_UPLOAD_CONCURRENCY
+      --s3-chunk-size=$RCLONE_S3_CHUNK_SIZE
+      --s3-disable-checksum
+      --s3-no-check-bucket
+      --no-update-modtime
+      --s3-no-head
+      --buffer-size=0
+      --size-only
+      --retries=8
+      --low-level-retries=20
+      --stats=30s
+      --stats-one-line
+      --log-level=NOTICE
 
     # Purge Cloudflare cache
     - >
-      curl -s -X POST
+      wget -qO-
+      --header="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+      --header="Content-Type: application/json"
+      --post-data='{"purge_everything":true}'
       "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/purge_cache"
-      -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN"
-      -H "Content-Type: application/json"
-      --data '{"purge_everything":true}'
 
     - echo "Deployed to $PUBLIC_API_BASE_URL"
   resource_group: production
