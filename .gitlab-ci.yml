@@ -22,15 +22,18 @@ build:
       - dist/
     expire_in: 1 month
   resource_group: production
-  only:
-    - main
+  # Temporarily disabled for testing - re-enable after testing
+  # only:
+  #   - main
 
 # ──────────────────────────────────────────────
 # Deploy Stage — Cloudflare R2 + Cache Purge
 # ──────────────────────────────────────────────
 deploy:
   stage: deploy
-  image: rclone/rclone:latest
+  image:
+    name: rclone/rclone:latest
+    entrypoint: [""]
   dependencies:
     - build
   before_script:
@@ -65,5 +68,6 @@ deploy:
 
     - echo "Deployed to $PUBLIC_API_BASE_URL"
   resource_group: production
-  only:
-    - main
+  # Temporarily disabled for testing - re-enable after testing
+  # only:
+  #   - main
