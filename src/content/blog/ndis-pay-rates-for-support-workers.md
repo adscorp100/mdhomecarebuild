@@ -1,7 +1,7 @@
 ---
 title: "NDIS Pay Rates for Support Workers in 2026: Complete Guide by Support Type"
 description: "Comprehensive breakdown of NDIS support worker pay rates in 2026. Learn about hourly rates by qualification level, service type, and time of day, plus salary expectations for full-time workers."
-pubDate: 2026-04-03
+pubDate: 2026-02-11
 author: "Camila"
 tags: []
 popupTitle: "Looking for Quality Support Workers?"

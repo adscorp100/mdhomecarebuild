@@ -6,9 +6,13 @@ import BlogPage from './_BlogPage.astro';
 // Get all blog posts
 const allPosts = await getCollection('blog');
 
-// Sort posts by publication date
+// Sort posts by last update date (fallback to pubDate)
 const sortedPosts = allPosts.sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  (a, b) => {
+    const aDate = (a.data.updateDate || a.data.pubDate).valueOf();
+    const bDate = (b.data.updateDate || b.data.pubDate).valueOf();
+    return bDate - aDate;
+  }
 );
 
 // Create pagination data for the first page manually

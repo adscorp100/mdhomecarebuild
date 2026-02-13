@@ -1,7 +1,7 @@
 ---
 title: "NDIS Invoice Template 2026: Free Download + Complete Invoicing Guide"
 description: "Free NDIS invoice template download for 2026. Complete guide to NDIS invoicing requirements, mandatory fields, GST rules, common mistakes, and best invoicing software for support workers and providers."
-pubDate: 2026-12-17
+pubDate: 2026-02-11
 author: "Camila"
 tags: ["NDIS", "Invoice Template", "Support Workers", "Providers"]
 popupTitle: "Need Help With NDIS Billing?"
@@ -11,16 +11,16 @@ image: "/assets/carer.webp"
 
 # NDIS Invoice Template 2026: Free Download + Complete Invoicing Guide
 
-## Key Updates: NDIS Invoicing Requirements December 2026
+## Key Updates: NDIS Invoicing Requirements December 2025
 
-**Major Changes for 2026-26:**
-- **Claim window extended to 2 years** from service date (effective October 3, 2026)
+**Major Changes for 2025-26:**
+- **Claim window extended to 2 years** from service date (effective October 3, 2025)
 - **New PAPL v1.1 released** November 24, 2026 with 12 new support item codes
 - **Therapy moved to Capacity Building** - can no longer be claimed under Core budget
 - **Travel and service time** must be shown separately on invoices
 - **Electronic record-keeping** now mandatory for audits
 
-*Last updated: December 17, 2026 - Source: NDIS Pricing Arrangements 2026-26*
+*Last updated: December 17, 2025 - Source: NDIS Pricing Arrangements 2025-26*
 
 ## Quick Navigation
 - [Free Invoice Template Download](#free-ndis-invoice-template-download)
@@ -36,8 +36,8 @@ image: "/assets/carer.webp"
 
 - NDIS invoices must include 13 mandatory fields including provider ABN, participant NDIS number, support item codes, and service dates
 - Most NDIS supports are GST-free, but you must still display your ABN and state "GST-free service"
-- Invoices submitted more than 2 years after service delivery will be automatically rejected (as of October 2026)
-- Incorrect support item codes are the #1 cause of invoice rejections - always use the 2026-26 Support Catalogue
+- Invoices submitted more than 2 years after service delivery will be automatically rejected (as of October 2025)
+- Incorrect support item codes are the #1 cause of invoice rejections - always use the 2025-26 Support Catalogue
 - Plan-managed participants can receive invoices directly; NDIA-managed require submission through the myplace Provider Portal
 
 **Calculate your earnings:** Use our free **[Support Worker Income Calculator](/tools/support-worker-income-calculator)** to estimate your weekly and annual income based on current NDIS rates.
@@ -46,7 +46,7 @@ image: "/assets/carer.webp"
 
 ## Free NDIS Invoice Template Download
 
-We've created a compliant NDIS invoice template that includes all mandatory fields required by the NDIA for 2026-26. This template meets all current requirements and can be customised for your business.
+We've created a compliant NDIS invoice template that includes all mandatory fields required by the NDIA for 2025-26. This template meets all current requirements and can be customised for your business.
 
 ### What's Included in Our Free Template:
 
@@ -107,7 +107,7 @@ Every NDIS invoice must contain these 13 fields to be accepted by the NDIA, plan
 |-------|-------------|---------|
 | Service Date(s) | Start and end date for each service | 12/12/2026 - 15/12/2026 |
 | Service Time | Required for hourly supports | 9:00am - 1:00pm |
-| Support Item Code | From NDIS Support Catalogue 2026-26 | 01_011_0107_1_1 |
+| Support Item Code | From NDIS Support Catalogue 2025-26 | 01_011_0107_1_1 |
 | Description | Clear service description | Assistance with self-care - weekday daytime |
 | Quantity | Hours, units, or days | 4 hours |
 | Unit Price | Must not exceed PAPL price limit | $70.23 |
@@ -152,8 +152,8 @@ Here's a complete example of a properly formatted NDIS invoice:
 | | |
 |---|---|
 | Invoice Number | INV-2026-00456 |
-| Date Issued | 17 December 2026 |
-| Payment Due | 31 December 2026 |
+| Date Issued | 17 December 2025 |
+| Payment Due | 31 December 2025 |
 
 ---
 
@@ -211,7 +211,7 @@ Understanding GST treatment is crucial for NDIS invoicing. Here's what you need 
 3. **Label correctly** - Use "Tax Invoice" only if charging GST; otherwise use "Invoice"
 4. **Separate GST line** - Always show GST amount, even if $0.00
 
-> **Important:** If you're unsure whether a specific service is GST-free, check the [NDIS Pricing Arrangements 2026-26](https://www.ndis.gov.au/providers/pricing-arrangements) or consult a tax professional.
+> **Important:** If you're unsure whether a specific service is GST-free, check the [NDIS Pricing Arrangements 2025-26](https://www.ndis.gov.au/providers/pricing-arrangements) or consult a tax professional.
 
 ---
 
@@ -224,11 +224,11 @@ Based on feedback from plan managers and the NDIA, these are the most common rea
 **The Problem:** Using outdated codes or incorrect code variations (e.g., using `01_001` instead of `01_001_0107_1_1`)
 
 **The Fix:**
-- Always use the **2026-26 NDIS Support Catalogue** - updated November 2026
+- Always use the **2025-26 NDIS Support Catalogue** - updated November 2025
 - Verify each code matches the exact service delivered
 - Check that time-of-day variations are correct (weekday, evening, weekend, public holiday)
 
-**Quick Reference - Common Support Codes 2026-26:**
+**Quick Reference - Common Support Codes 2025-26:**
 
 | Service | Weekday Daytime | Saturday | Sunday | Public Holiday |
 |---------|-----------------|----------|--------|----------------|
@@ -236,18 +236,18 @@ Based on feedback from plan managers and the NDIA, these are the most common rea
 | Community Access (Standard) | 04_104_0125_6_1 | 04_105_0125_6_1 | 04_106_0125_6_1 | 04_107_0125_6_1 |
 | Self-Care (High Intensity) | 01_400_0104_1_1 | 01_401_0104_1_1 | 01_402_0104_1_1 | 01_403_0104_1_1 |
 
-For a complete list of codes, see our **[NDIS Line Items Guide 2026-26](/blog/ndis-line-items-guide-2024-25/)**.
+For a complete list of codes, see our **[NDIS Line Items Guide 2025-26](/blog/ndis-line-items-guide-2024-25/)**.
 
 ### Mistake #2: Price Exceeds PAPL Limit
 
 **The Problem:** Charging more than the maximum price limit set by the NDIA
 
 **The Fix:**
-- Download the latest **NDIS Support Catalogue 2026-26** (updated November 24, 2026)
+- Download the latest **NDIS Support Catalogue 2025-26** (updated November 24, 2025)
 - Apply correct location loadings (Remote: +40%, Very Remote: +50%)
 - Remember prices include all costs - no additional fees allowed
 
-**2026-26 Price Limits (National - MMM1-5):**
+**2025-26 Price Limits (National - MMM1-5):**
 
 | Support Type | Weekday Day | Weekday Eve | Weekday Night | Saturday | Sunday | Public Holiday |
 |--------------|-------------|-------------|---------------|----------|--------|----------------|
@@ -296,7 +296,7 @@ Travel: Provider travel - 30 mins @ $0.00 = $0.00
 - Submit invoices **weekly** for optimal cash flow
 - Track outstanding claims in a spreadsheet
 
-> **New Rule (October 2026):** The NDIA now rejects all claims submitted more than 2 years from the service start date. This replaced the previous 1-year window.
+> **New Rule (October 2025):** The NDIA now rejects all claims submitted more than 2 years from the service start date. This replaced the previous 1-year window.
 
 ### Mistake #7: Therapy Under Wrong Budget
 
@@ -359,7 +359,7 @@ Choosing the right software can significantly reduce errors and save time. Here'
 
 ## NDIS Line Item Codes for Invoicing
 
-Here are the most commonly used support item codes for invoicing in 2026-26:
+Here are the most commonly used support item codes for invoicing in 2025-26:
 
 ### Core Supports - Assistance with Daily Life (01)
 
@@ -401,7 +401,7 @@ Here are the most commonly used support item codes for invoicing in 2026-26:
 | 15_056_0128_1_3 | Occupational Therapy | $193.99/hr |
 | 15_037_0128_1_3 | Assessment and Report Writing | $214.41/hr |
 
-For a complete list of all NDIS support codes, see our **[NDIS Codes 2026-26 Complete Guide](/blog/ndis-line-items-guide-2024-25/)**.
+For a complete list of all NDIS support codes, see our **[NDIS Codes 2025-26 Complete Guide](/blog/ndis-line-items-guide-2024-25/)**.
 
 ---
 
@@ -462,7 +462,7 @@ The NDIA requires providers to maintain comprehensive records for audit purposes
 Use an invoice template that includes all 13 mandatory fields: provider details (ABN, business name, contact), participant details (name, NDIS number), invoice number, date, service dates, support item codes, descriptions, quantities, unit prices, line totals, GST status, and total payable.
 
 ### What information must be on an NDIS invoice?
-Mandatory fields include: provider ABN and business name, participant name and NDIS number, unique invoice number, date of issue, service dates and times, NDIS support item codes from the 2026-26 Support Catalogue, service descriptions, quantities, unit prices (not exceeding PAPL limits), line totals, GST status, and total payable.
+Mandatory fields include: provider ABN and business name, participant name and NDIS number, unique invoice number, date of issue, service dates and times, NDIS support item codes from the 2025-26 Support Catalogue, service descriptions, quantities, unit prices (not exceeding PAPL limits), line totals, GST status, and total payable.
 
 ### Is there a free NDIS invoice template?
 Yes, the NDIA provides free invoice templates on the Provider Portal. You can also download free templates from Imploy, or use our template above. Free accounting software like Zoho Invoice (5 clients) and Zeller Invoices (unlimited) also offer NDIS-compliant templates.
@@ -471,10 +471,10 @@ Yes, the NDIA provides free invoice templates on the Provider Portal. You can al
 Most NDIS supports are GST-free, so you show GST as $0.00 and include a statement like "This invoice is GST-free under NDIS Pricing Arrangements." However, you must still display your ABN. Some services like transport may be GST-applicable.
 
 ### How long do I have to submit an NDIS invoice?
-As of October 3, 2026, you have **2 years** from the service delivery date to submit claims. For NDIA-managed participants, payment requests should be lodged within 90 days of the service booking end date.
+As of October 3, 2025, you have **2 years** from the service delivery date to submit claims. For NDIA-managed participants, payment requests should be lodged within 90 days of the service booking end date.
 
 ### What is the most common reason NDIS invoices are rejected?
-Incorrect or outdated support item codes are the #1 cause of rejections. Always use codes from the current 2026-26 NDIS Support Catalogue and ensure time-of-day variations (weekday, weekend, public holiday) are correct.
+Incorrect or outdated support item codes are the #1 cause of rejections. Always use codes from the current 2025-26 NDIS Support Catalogue and ensure time-of-day variations (weekday, weekend, public holiday) are correct.
 
 ### Can I charge more than the NDIS price limit?
 No, the PAPL price limits are maximums that cannot be exceeded. Charging above these limits will result in invoice rejection. You can charge less than the price limit if you choose.
@@ -492,8 +492,8 @@ Review the rejection reason provided, correct the issue (wrong code, exceeded pr
 
 ## Key Resources
 
-- [NDIS Pricing Arrangements and Price Limits 2026-26](https://www.ndis.gov.au/providers/pricing-arrangements) - Official price guide
-- [NDIS Support Catalogue 2026-26](https://www.ndis.gov.au/providers/pricing-arrangements) - Complete line item codes
+- [NDIS Pricing Arrangements and Price Limits 2025-26](https://www.ndis.gov.au/providers/pricing-arrangements) - Official price guide
+- [NDIS Support Catalogue 2025-26](https://www.ndis.gov.au/providers/pricing-arrangements) - Complete line item codes
 - [myplace Provider Portal](https://proda.humanservices.gov.au/) - For NDIA-managed claims
 - [ABN Lookup](https://abr.business.gov.au/) - Verify your ABN
 - [NDIS Quality and Safeguards Commission](https://www.ndiscommission.gov.au/) - Compliance requirements

@@ -1,8 +1,8 @@
 ---
-title: "Mable Support Workers 2026: Real Costs, Hidden Fees + Better Alternatives"
-description: "Mable charges $58-90/hr PLUS 7.95% fees. See exact costs, hidden charges, and why 73% switch to better alternatives. Compare options now."
-updatedAt: 2026-02-10
-pubDate: 2026-12-15
+title: "Mable Support Workers 2026: What Do They Really Cost? ($58-90/hr + 7.95% Fees)"
+description: "Is Mable NDIS registered? How much are weekend rates? Mable costs $58-90/hr PLUS 7.95% fees. Public holiday rates, reviews, vs HireUp comparison revealed."
+updateDate: 2026-02-12
+pubDate: 2026-02-11
 author: "Camila"
 tags: ["Mable Support Workers", "NDIS", "Support Workers", "Disability Support", "Mable Platform", "Mable Rates"]
 popupTitle: "Questions About Support Worker Rates?"
@@ -20,7 +20,7 @@ image: "/assets/homecare.webp"
 - **Public holidays:** $91-119/hour (after fees)
 - **Additional costs:** Background check fees, insurance gaps
 
-**ChatGPT can't help you compare real support worker rates or connect you with local NDIS providers.** MD Home Care's provider network helps you compare multiple registered NDIS support workers across Sydney and Melbourne without platform fees or hidden charges.
+**ChatGPT can't help you compare real support worker rates or find local NDIS providers.** MD Home Care helps you compare multiple registered NDIS support workers across Sydney and Melbourne without platform fees or hidden charges.
 
 ## Mable: Quick Pros and Cons
 
@@ -34,7 +34,7 @@ image: "/assets/homecare.webp"
 - 7.95% platform fee on top of rates
 - You manage the relationship directly
 
-**Quick Facts - Mable Support Workers December 2026:**
+**Quick Facts - Mable Support Workers December 2025:**
 - **Average Weekday Rate**: $58/hour (personal care/disability support)
 - **Mable Weekend Rate**: $65-75/hour (Saturday), $75-90/hour (Sunday)
 - **Public Holiday Rate**: $85-110/hour (negotiated directly)
@@ -43,7 +43,7 @@ image: "/assets/homecare.webp"
 - **Client Platform Fee**: 7.95% (added to agreed rate)
 - **Is Mable NDIS Registered?**: No - it's a platform, not a provider (self/plan-managed only)
 
-*Last Updated: December 15, 2026 - Reflecting 2026-26 NDIS Pricing Arrangements v1.1*
+*Last Updated: December 15, 2025 - Reflecting 2025-26 NDIS Pricing Arrangements v1.1*
 
 > **Calculate NDIS Support Worker Rates**
 > Use our free [NDIS Pay Rate Calculator](/tools/ndis-pay-rate-calculator) to compare rates across weekdays, weekends, and public holidays. See exactly what you should be paying based on current NDIS price limits.
@@ -131,9 +131,9 @@ Founded in 2014, Mable has become Australia's most trusted platform for finding 
 
 Mable doesn't fit into provider registration categories because they don't provide support directly - they're a technology platform connecting people. The support workers on Mable are independent sole traders who may or may not be individually registered.
 
-## Mable Support Worker Rates December 2026
+## Mable Support Worker Rates December 2025
 
-### Complete Mable Rate Table (December 2026)
+### Complete Mable Rate Table (December 2025)
 
 | Time Period | Average Mable Rate | With 7.95% Fee | NDIS Price Cap | Potential Savings |
 |-------------|-------------------|----------------|----------------|-------------------|
@@ -152,7 +152,7 @@ Support workers on Mable set their own rates, but most charge higher rates for w
 
 **Smart tip**: If you need weekend support, book regular workers in advance - they often offer better rates for loyal clients.
 
-### NDIS Price Limits Comparison (2026-26)
+### NDIS Price Limits Comparison (2025-26)
 
 | Support Type | NDIS Price Cap | Mable Average (with fee) | Your Savings |
 |--------------|---------------|--------------------------|--------------|
@@ -161,7 +161,7 @@ Support workers on Mable set their own rates, but most charge higher rates for w
 | **Self Care - Sunday** | $126.42/hour | $89/hour | ~$37/hour |
 | **Self Care - Public Holiday** | $154.50/hour | $105/hour | ~$50/hour |
 
-*Source: NDIS Pricing Arrangements and Price Limits 2026-26 v1.1 (effective 24 November 2026)*
+*Source: NDIS Pricing Arrangements and Price Limits 2025-26 v1.1 (effective 24 November 2025)*
 
 **Annual Savings Example**: If you use 10 hours of weekend support per week, you could save **$12,000-15,000 per year** using Mable vs NDIS maximum rates.
 
@@ -378,7 +378,7 @@ Support workers on Mable set their own rates, but most charge higher rates for w
 | **Support Coordination** | Self-service | 24/7 nurse-led phone | Managed (92% prefer) |
 | **Worker Relationship** | Direct (participant-worker) | Managed (three-way) | Mixed (50/50) |
 
-*User preference data from NDIS participant surveys, January 2026*
+*User preference data from NDIS participant surveys, January 2025*
 
 ### Bottom Line: Is Mable Worth It?
 
@@ -472,7 +472,7 @@ Support workers on Mable set their own rates, but most charge higher rates for w
 ## Common Mable Support Questions
 
 ### How Much Does Mable Cost?
-Mable charges a **7.95% client platform fee** on all bookings. Support workers also pay a 10% support engagement fee from their earnings. Despite these fees, using Mable is often cheaper than traditional agencies (which charge 15-30% markup). Based on April-September 2026 data, the average agreed weekday rate for personal care/disability support is **$58/hour**, which becomes **$63/hour** after the client fee.
+Mable charges a **7.95% client platform fee** on all bookings. Support workers also pay a 10% support engagement fee from their earnings. Despite these fees, using Mable is often cheaper than traditional agencies (which charge 15-30% markup). Based on April-September 2025 data, the average agreed weekday rate for personal care/disability support is **$58/hour**, which becomes **$63/hour** after the client fee.
 
 ### Is Mable NDIS Registered?
 **Important Clarification**: Mable is NOT a traditional registered NDIS provider - it's an online platform that connects participants with independent support workers. Mable doesn't fit into provider registration categories because they don't provide support directly.

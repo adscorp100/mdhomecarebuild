@@ -196,7 +196,7 @@ With recovery coach experience, you can transition to:
 | Senior/Team Lead | $98,000 - $115,000 |
 | Self-Employed Contractor | $85,000 - $130,000+ |
 
-### NDIS Hourly Rates (2026-27 Price Guide)
+### NDIS Hourly Rates (2025-26 Price Guide)
 
 | Level | Hourly Rate | Description |
 |:------|:------------|:------------|

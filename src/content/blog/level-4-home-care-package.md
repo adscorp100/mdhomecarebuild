@@ -1,7 +1,7 @@
 ---
-title: 'Level 4 Home Care Package 2026: Get $78,000/Year for Complex Care (Complete Guide)'
-description: "Level 4 Home Care Package now worth $78,000/year through Support at Home. See exact funding amounts, services covered, hours of care, and provider options."
-updatedAt: 2026-02-10
+title: 'Level 4 Home Care Package: $78K/Year, 20-28 Hours'
+description: "Level 4 Home Care Package gives $78,000/year for 20-28 hours of care. Covers nursing, personal care, respite. 2026 funding guide and eligibility."
+updateDate: 2026-02-11
 pubDate: 2025-07-06
 author: 'MD Home Care'
 tags: ["Support at Home", "Aged Care", "Level 4", "Complex Care", "Home Care Package"]

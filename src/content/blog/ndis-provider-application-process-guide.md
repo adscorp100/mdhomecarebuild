@@ -1,7 +1,7 @@
 ---
 title: "How to Become an NDIS Provider in 2026: A Complete Guide"
 description: "Your expert guide to becoming a registered NDIS provider in 2026. Learn the step-by-step process, understand the real costs and timelines, and navigate the NDIS audit with confidence."
-pubDate: 2026-07-05
+pubDate: 2026-02-11
 author: "MD Home Care"
 tags: ["NDIS Provider", "NDIS Registration", "Start NDIS Business"]
 popupTitle: "Need Help Choosing an NDIS Provider?"

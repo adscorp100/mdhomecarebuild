@@ -1,13 +1,13 @@
 ---
 title: "CB Daily Activity NDIS: Complete Improved Daily Living Guide (Category 15) 2026"
 description: "CB Daily Activity NDIS complete guide: what it is, examples by disability type, line item codes (15_xxx), therapy pricing, and how to maximise your Improved Daily Living Capacity Building budget."
-pubDate: 2026-07-08
+pubDate: 2026-02-11
 author: "MD Home Care"
 tags: ["NDIS", "Capacity Building", "Improved Daily Living", "CB Daily Activity", "Allied Health"]
 popupTitle: "Need Help With Therapy Services?"
 popupSubtitle: "Connect with quality allied health providers"
 image: "/assets/disabled carer.webp"
-updatedAt: 2026-02-10
+updateDate: 2026-02-10
 ---
 
 NDIS Improved Daily Living (also called CB Daily Activity) is one of the most valuable funding categories in your NDIS plan. It funds therapies, assessments, and training to help you build skills and independence. However, understanding what it covers, the line item codes, and current pricing can be confusing.
@@ -281,7 +281,7 @@ Let's break down **15_617_0128_1_3** (Occupational Therapy):
 
 The NDIS Price Guide sets maximum rates providers can charge. Here are the current 2026 rates for Improved Daily Living therapies:
 
-### Allied Health Hourly Rates (July 2026)
+### Allied Health Hourly Rates (July 2025)
 
 | Therapy Type | Standard Rate | Remote Rate |
 |--------------|---------------|-------------|

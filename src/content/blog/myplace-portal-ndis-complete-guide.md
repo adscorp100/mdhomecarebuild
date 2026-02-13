@@ -1,7 +1,7 @@
 ---
 title: "myplace Portal: Complete Guide to the NDIS Participant Portal 2026"
 description: "Learn how to use the myplace portal to manage your NDIS plan. Step-by-step guide covering login, activation codes, service bookings, payment requests, troubleshooting common issues, and the transition to my NDIS portal."
-pubDate: 2026-12-14
+pubDate: 2026-02-11
 author: "Camila"
 image: "/assets/disabled carer.webp"
 tags: ["ndis", "myplace portal", "ndis portal", "participant portal", "self-managed"]

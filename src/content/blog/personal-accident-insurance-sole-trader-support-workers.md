@@ -377,4 +377,4 @@ If you're a support worker looking for opportunities with proper backing and sup
 
 ---
 
-*This guide provides general information about insurance for sole trader support workers in Australia as of 2026. Insurance requirements and pricing change—always get current quotes and professional advice for your specific situation.*
+*This guide provides general information about insurance for sole trader support workers in Australia as of 2025. Insurance requirements and pricing change—always get current quotes and professional advice for your specific situation.*

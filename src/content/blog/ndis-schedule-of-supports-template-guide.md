@@ -69,7 +69,7 @@ Name: Occupational Therapy
 Units: 20 hours
 Price Limit: $193.99/hour
 Total: $3,879.80
-Period: 01 Jul 2025 - 30 Jun 2026
+Period: 01 Jul 2025 - 30 Jun 2025
 ```
 
 This tells you:

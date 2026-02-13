@@ -126,7 +126,7 @@ While core principles are similar, nuances exist:
 - **Probate Requirements & Fees:** Vary significantly, as noted earlier.
 - **Land Titles Office Forms:** Each state has specific forms (e.g., Transmission Application, Survivorship Application) required by their land registry (NSW LRS, Land Use Victoria, Titles Queensland, Land Services SA, Landgate WA).
 - **Claim Periods:** Time limits for family provision claims vary (e.g., 12 months from death in NSW, 9 months from death in QLD, 6 months from probate grant in WA).
-- **Legislation:** Key Acts include Succession Acts, Probate and Administration Acts, Trustee Acts, and Property Law Acts specific to each state. South Australia has significant reforms effective 1 Jan 2026 under the new *Succession Act 2023*.
+- **Legislation:** Key Acts include Succession Acts, Probate and Administration Acts, Trustee Acts, and Property Law Acts specific to each state. South Australia has significant reforms effective 1 Jan 2025 under the new *Succession Act 2023*.
 - **Transfer Duty:** Concessional duty (e.g., $100 in NSW from Feb 2024, $50 previously) often applies when property is transferred directly to a beneficiary *in accordance with the will*, but full duty applies if transferred differently or sold to a third party.
 - **Land Tax:** Specific rules apply to deceased estates, often providing concessions for a limited period after death.
 

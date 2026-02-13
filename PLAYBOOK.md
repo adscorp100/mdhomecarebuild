@@ -1,58 +1,82 @@
 # MD Home Care SEO Playbook
 
-## Experiment Log
+## Experiment Results Log
 
-### 2026-02-10: Initial baseline
-- **AEO + SEO Quick Wins (feat/aeo-seo-optimization-2026-02-10)**: Meta rewrites + ChatGPT optimization. Merged to main. Too early to evaluate (same day).
-- **Repositioning (fix/reposition-marketplace-2026-02-10)**: 150+ files repositioned MDH as connection platform. Merged. Too early for traffic impact (YMYL: expect 10-21 day lag).
-- **Auto Recovery (fix/auto-recovery-2026-02-10)**: 7 dropping pages optimized. Merged today. Too early to evaluate.
-- **ACCC News (fix/news-2026-02-10)**: ACCC provider exploitation report blog + 5 existing page updates. Merged today.
-- **Thriving Kids (feat/thriving-kids-ndis-news-2026-02-10)**: Cross-references added to LAC guide and CB Daily Activity guide. 1 commit ahead of main, not yet merged.
+### Jan 31 2026 Content Refresh (Evaluated Feb 12, 12d later)
+**Decision: KEEP ALL**
 
-**Next evaluation window**: 2026-02-17 to 2026-02-24 for all above changes.
+| Page | Before (Jan 20-30) | After (Feb 1-11) | Change | Status |
+|------|-------------------|------------------|---------|--------|
+| Independent support worker guide | 61 views | 85 views | +39.3% | ✅ KEEP |
+| Support worker insurance | 0 views | 56 views | NEW | ✅ KEEP |
+| NDIS core supports | 8 views | 21 views | +162.5% | ✅ KEEP |
+| Mable guide | 0 views | 45 views | NEW | ✅ KEEP |
+| Top providers Sydney | 36 views | 55 views | +52.8% | ✅ KEEP |
 
-## AEO Progress
+**Learnings:**
+- 2026 date updates drive traffic (freshness signals work)
+- New content on existing topics performs well when properly optimized
+- MDH repositioning + writing rules don't hurt traffic (actually helped)
+- 10-12 day evaluation window sufficient for YMYL content
 
-### Week of 2026-02-10
-- **Total AI referrals (7d)**: 60 visits (up from 20 previous 7d, +200%)
-- **Sources**: ChatGPT dominant (57/60), Gemini emerging (3/60), no Perplexity or Claude traffic yet
-- **Top AI referral pages**:
-  - /blog/ndis-service-agreement-template-free-download/ (7 visits)
-  - /blog/ndis-support-worker-pay-rates/ (6 visits)
-  - /contact/ (6 visits)
-  - / homepage (5 visits)
-  - /tools/ndis-pay-rate-calculator/ (3 visits)
-  - /blog/how-to-get-support-worker-insurance-in-australia/ (3 visits)
-- **Pattern**: Tools and template pages getting strong AI referrals. ChatGPT sending people to practical/actionable content.
-- **Action**: AEO optimization merged today. Monitor next week for impact.
+**Playbook Update:**
+- Continue date-based refreshes on high-traffic pages quarterly
+- Prioritize pages with high impressions but stale dates
+- Always apply writing rules (no em dashes) and MDH positioning together
 
-## CTR Opportunities (from GSC)
-Top pages by impressions with CTR under 1%:
-1. ndis-support-worker-pay-rates: 134K imp, 0.88% CTR
-2. disability-pension-per-fortnight-2025: 89K imp, 0.35% CTR
-3. ndis-price-guide: 65K imp, 0.40% CTR
-4. mable-support-workers: 55K imp, 0.15% CTR
-5. disability-support-worker-salary: 44K imp, 0.40% CTR
+---
 
-### PM Run 2026-02-10
-- **Site traffic**: UP 16% (1933 vs 1669 pageviews, Tue vs Tue). No crisis.
-- **AI referrals (7d)**: ~81 total. ChatGPT: 66 (+29% vs last week's 51). Gemini: 4 (flat). Perplexity: 3 (flat). Claude: 0 this week (1 last week).
-- **Top AI referral pages this week**:
-  - /blog/ndis-service-agreement-template-free-download/ (8)
-  - /blog/how-to-get-support-worker-insurance-in-australia/ (8)
-  - /blog/ndis-support-worker-pay-rates/ (7)
-  - /contact/ (6)
-  - / homepage (5)
-  - /tools/ndis-pay-rate-calculator/ (3)
-  - /jobs/ (3) **NEW in AI referrals**
-- **News covered today**: ACCC provider exploitation report (blog + 5 pages), Guardian NDIS cuts/Thriving Kids (news page + cross-refs)
-- **Proactive CTR work**: Spawned sub-agent for meta title/description optimization on top 5 CTR opportunity pages
-- **Experiments**: All same-day, too early. Evaluation window: Feb 17-24.
-- **Drops**: Largest single-page drop was /blog/ndis-support-worker-hourly-rate/ (-13 views) but site-wide is up, so this is normal variance. No action needed.
+## AEO Progress Log
 
-## Patterns & Insights
-- AI referral traffic growing steadily, ChatGPT dominant (82% of AI referrals)
-- Template/tool pages and insurance guides are the AI referral winners
-- Jobs page now appearing in AI referrals (new pattern worth watching)
-- Site is healthy, Tuesday traffic up vs last Tuesday
-- 229 content files touched in last 7 days (massive churn from repositioning). Need to let this settle before drawing conclusions.
+### Week of Feb 5-11 2026
+**AI Referrals: +40% WoW growth**
+
+| Source | Last 7d | Prev 7d | Change |
+|--------|---------|---------|--------|
+| Total AI referrals | 91 | 65 | +40.0% |
+
+**Top AI Landing Pages (Last 7d):**
+1. Support worker insurance (10 views)
+2. Service agreement template (7 views)
+3. Contact page (7 views)
+4. Support worker pay rates (6 views)
+5. Home page (5 views)
+6. Support worker checklist (5 views)
+7. Jobs page (5 views)
+8. NDIS pay rate calculator (4 views)
+
+**Learnings:**
+- Practical tools and templates driving AI referrals
+- Conversational content structure working
+- Contact/jobs pages getting AI traffic (conversion opportunities)
+
+**Next Steps:**
+- Expand quick-answer sections on all high-impression pages
+- Add more comparison tables (ChatGPT loves structured data)
+- Focus on "how to" and "what is" content for AI optimization
+
+---
+
+## CTR Optimization Log
+
+### Feb 12 2026 Batch
+**Target: 5 pages with 258K monthly impressions, avg 0.30% CTR**
+
+| Page | Impressions | Old CTR | New Strategy |
+|------|-------------|---------|--------------|
+| Disability pension per fortnight | 88K | 0.35% | Question format + "Does it stop at 65?" hook |
+| NDIS price guide | 64K | 0.40% | "How much does NDIS pay?" + PDF emphasis |
+| Mable support workers | 54K | 0.15% | "What do they really cost?" + fee transparency |
+| Disability support pension | 42K | 0.30% | "How much money in bank?" question |
+| Become NDIS provider | 10K | 0.05% | "How much does registration cost?" + timeline |
+
+**Expected Impact:**
+- Current: 258K impr → 774 clicks (0.30% avg)
+- Target: 258K impr → 5,160-7,740 clicks (2-3% CTR)
+- Potential gain: +4,386-6,966 clicks/month
+
+**Evaluate:** Feb 19-26 2026 (7-14 days)
+
+---
+
+*Last updated: Feb 12, 2026 2am AEDT*

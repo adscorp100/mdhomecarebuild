@@ -32,7 +32,7 @@ The **Social, Community, Home Care and Disability Services (SCHADS) Award** sets
 | **ACT** | $42.10/hour | $69,000-$77,000 | $87,000+ |
 | **Northern Territory** | $43.20/hour | $71,000-$79,000 | $90,000+ |
 
-*Source: Indeed, SEEK, PayScale (January 2026 data)*
+*Source: Indeed, SEEK, PayScale (January 2025 data)*
 
 ### Employment type and rates
 

@@ -18,7 +18,7 @@ image: "/assets/respite care.webp"
 - **Booking Requirements**: NDIS plan funding and registered provider
 - **Duration**: 1-14 days per stay, up to 28-90 days annually
 
-> **Important Terminology Update (October 2026):** The NDIS has begun transitioning from "Short Term Accommodation (STA)" to "Short Term Respite (STR)" in official documentation. Both terms refer to the same support, and providers may use either name. This guide uses STA as it remains the most commonly recognized term.
+> **Important Terminology Update (October 2025):** The NDIS has begun transitioning from "Short Term Accommodation (STA)" to "Short Term Respite (STR)" in official documentation. Both terms refer to the same support, and providers may use either name. This guide uses STA as it remains the most commonly recognized term.
 
 **Calculate Your STA Costs Instantly:** Use our free **[NDIS Respite Calculator](/tools/ndis-respite-calculator/)** to get an accurate estimate based on your support ratio, location, and planned stay dates.
 
