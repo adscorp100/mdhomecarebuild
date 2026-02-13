@@ -4,6 +4,11 @@ stages:
 
 variables:
   NODE_OPTIONS: "--max-old-space-size=4096"
+  RCLONE_OPERATION: "sync"
+  RCLONE_TRANSFERS: "128"
+  RCLONE_CHECKERS: "128"
+  RCLONE_S3_UPLOAD_CONCURRENCY: "1"
+  RCLONE_S3_CHUNK_SIZE: "5M"
 
 # ──────────────────────────────────────────────
 # Build Stage
@@ -22,9 +27,8 @@ build:
       - dist/
     expire_in: 1 month
   resource_group: production
-  # Temporarily disabled for testing - re-enable after testing
-  # only:
-  #   - main
+  only:
+    - main
 
 # ──────────────────────────────────────────────
 # Deploy Stage — Cloudflare R2 + Cache Purge
@@ -52,22 +56,33 @@ deploy:
   script:
     # Upload dist/ to R2 bucket with rclone (fast, concurrent)
     - >
-      rclone sync dist/ r2:$R2_BUCKET_NAME/
+      rclone $RCLONE_OPERATION dist/ r2:$R2_BUCKET_NAME/
       --fast-list
-      --transfers=32
-      --checkers=16
-      --progress
+      --transfers=$RCLONE_TRANSFERS
+      --checkers=$RCLONE_CHECKERS
+      --s3-upload-concurrency=$RCLONE_S3_UPLOAD_CONCURRENCY
+      --s3-chunk-size=$RCLONE_S3_CHUNK_SIZE
+      --s3-disable-checksum
+      --s3-no-check-bucket
+      --no-update-modtime
+      --s3-no-head
+      --buffer-size=0
+      --size-only
+      --retries=8
+      --low-level-retries=20
+      --stats=30s
+      --stats-one-line
+      --log-level=NOTICE
 
     # Purge Cloudflare cache
     - >
-      curl -s -X POST
+      wget -qO-
+      --header="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+      --header="Content-Type: application/json"
+      --post-data='{"purge_everything":true}'
       "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/purge_cache"
-      -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN"
-      -H "Content-Type: application/json"
-      --data '{"purge_everything":true}'
 
     - echo "Deployed to $PUBLIC_API_BASE_URL"
   resource_group: production
-  # Temporarily disabled for testing - re-enable after testing
-  # only:
-  #   - main
+  only:
+    - main
